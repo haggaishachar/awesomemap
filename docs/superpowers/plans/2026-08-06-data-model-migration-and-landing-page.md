@@ -1,6 +1,6 @@
 # Data Model Migration & Landing Page Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** Migrate `techmap`'s per-domain data from one file of embedded tool objects to a two-file model (`data.json` tree + `tools.json` leaf records), add a `maps.json` registry, and redesign the landing page to list every registered domain — the foundation spec #2 (community automation) and spec #3 (new domain content) build on.
 
@@ -53,7 +53,7 @@
 **Interfaces:**
 - Produces: `hydrateTree(node, tools)` — `node` is either a category object (`{ id, name, children }`, where each entry in `children` is itself a category object or a bare tool-id string) or, in recursive calls, a bare tool-id string. `tools` is a plain object keyed by tool id, e.g. `{ "scikit-learn": { name, desc, ... } }`. Returns a new tree with every string leaf replaced by `{ id, ...tools[id] }`. Throws `Error` if a referenced id is missing from `tools`, or if a non-string node has no `children` array. Later tasks (`main.js`) import this as `import { hydrateTree } from "./hydrate.js"`.
 
-- [ ] **Step 1: Write the failing tests**
+- [x] **Step 1: Write the failing tests**
 
 Create `test/hydrate.test.js`:
 
@@ -102,12 +102,12 @@ test("throws when a category node has no children array", () => {
 });
 ```
 
-- [ ] **Step 2: Run tests to verify they fail**
+- [x] **Step 2: Run tests to verify they fail**
 
 Run: `npm test`
 Expected: FAIL — `Cannot find module '../public/shared/hydrate.js'` (file doesn't exist yet).
 
-- [ ] **Step 3: Write the implementation**
+- [x] **Step 3: Write the implementation**
 
 Create `public/shared/hydrate.js`:
 
@@ -136,12 +136,12 @@ export function hydrateTree(node, tools) {
 }
 ```
 
-- [ ] **Step 4: Run tests to verify they pass**
+- [x] **Step 4: Run tests to verify they pass**
 
 Run: `npm test`
 Expected: PASS — all 5 new tests green, plus existing `layout.test.js`/`router.test.js` unaffected.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add public/shared/hydrate.js test/hydrate.test.js
@@ -164,7 +164,7 @@ Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>"
 
 The site will not render `data-science` correctly again until Task 4 lands — that's expected mid-migration; don't run `npm run dev` to check it after this task alone.
 
-- [ ] **Step 1: Write the one-off migration script (scratchpad only — not committed)**
+- [x] **Step 1: Write the one-off migration script (scratchpad only — not committed)**
 
 Write to `/tmp/claude-1000/-home-haggai-workspace-techmap/5c9edd44-64c8-4ab9-ab1e-2306ccb24a54/scratchpad/migrate-data-science.mjs`:
 
@@ -206,12 +206,12 @@ writeFileSync(toolsPath, JSON.stringify(tools, null, 2) + "\n");
 console.log(`Wrote ${dataPath} and ${toolsPath}`);
 ```
 
-- [ ] **Step 2: Run the migration script**
+- [x] **Step 2: Run the migration script**
 
 Run: `node /tmp/claude-1000/-home-haggai-workspace-techmap/5c9edd44-64c8-4ab9-ab1e-2306ccb24a54/scratchpad/migrate-data-science.mjs public/data/data-science/data.json`
 Expected output: `Migrated 44 tools.` followed by a line confirming both files were written. (If the count printed differs from 44, that's fine as long as it's non-zero and no "Duplicate tool id" error was thrown — it means the source file's leaf count was mis-estimated, not that anything went wrong.)
 
-- [ ] **Step 3: Verify the migrated `data.json` is tree-only**
+- [x] **Step 3: Verify the migrated `data.json` is tree-only**
 
 Run: `grep -c '"weight"' public/data/data-science/data.json`
 Expected: `0` (no leaf fields should remain in the tree file).
@@ -219,21 +219,21 @@ Expected: `0` (no leaf fields should remain in the tree file).
 Run: `grep -c 'name1' public/data/data-science/data.json public/data/data-science/tools.json`
 Expected: `0` for both files (the rename to `name` applied everywhere).
 
-- [ ] **Step 4: Verify `tools.json` parses and has one entry per migrated tool**
+- [x] **Step 4: Verify `tools.json` parses and has one entry per migrated tool**
 
 Run: `node -e "const t = require('./public/data/data-science/tools.json'); console.log(Object.keys(t).length)"`
 Expected: same count as Step 2's "Migrated N tools" line.
 
-- [ ] **Step 5: Spot-check one entry**
+- [x] **Step 5: Spot-check one entry**
 
 Run: `node -e "console.log(require('./public/data/data-science/tools.json')['scikit-learn'])"`
 Expected: `{ gh: 'https://github.com/scikit-learn/scikit-learn', image: 'scikitlearn.png', link: 'https://scikit-learn.org/stable/', name: 'SciKit Learn', desc: 'Machine Learning in Python', weight: 58000 }`
 
-- [ ] **Step 6: Delete the scratchpad script**
+- [x] **Step 6: Delete the scratchpad script**
 
 Run: `rm /tmp/claude-1000/-home-haggai-workspace-techmap/5c9edd44-64c8-4ab9-ab1e-2306ccb24a54/scratchpad/migrate-data-science.mjs`
 
-- [ ] **Step 7: Commit**
+- [x] **Step 7: Commit**
 
 ```bash
 git add public/data/data-science/data.json public/data/data-science/tools.json
@@ -254,7 +254,7 @@ Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>"
 - Consumes: nothing new — these functions already receive a hydrated node's `.data` (in `treemap.js`) or a hydrated leaf record (in `detail-panel.js`); only the field name they read changes.
 - Produces: no interface change — `mountTreemap` and `createDetailPanel`'s exported signatures are unchanged.
 
-- [ ] **Step 1: Update `treemap.js`**
+- [x] **Step 1: Update `treemap.js`**
 
 In `public/shared/treemap.js`, change all four `name1` occurrences to `name`:
 
@@ -284,7 +284,7 @@ becomes
       img.onerror = () => img.replaceWith(renderFallbackLogo(node.data.name));
 ```
 
-- [ ] **Step 2: Update `detail-panel.js`**
+- [x] **Step 2: Update `detail-panel.js`**
 
 In `public/shared/detail-panel.js`, change both `name1` occurrences to `name`:
 
@@ -304,17 +304,17 @@ becomes
     title.textContent = leafData.name;
 ```
 
-- [ ] **Step 3: Verify no `name1` references remain in the renderer**
+- [x] **Step 3: Verify no `name1` references remain in the renderer**
 
 Run: `grep -rn "name1" public/shared/`
 Expected: no output.
 
-- [ ] **Step 4: Run the existing test suite**
+- [x] **Step 4: Run the existing test suite**
 
 Run: `npm test`
 Expected: PASS — `layout.test.js`, `router.test.js`, and `hydrate.test.js` (Task 1) are all unaffected by this rename since none of them touch `treemap.js`/`detail-panel.js`.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add public/shared/treemap.js public/shared/detail-panel.js
@@ -334,7 +334,7 @@ Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>"
 - Consumes: `hydrateTree(node, tools)` from `./hydrate.js` (Task 1); `mountTreemap(container, mapData, imageBaseUrl, onLeafClick)` from `./treemap.js` (unchanged signature); `createDetailPanel(container, imageBaseUrl)` from `./detail-panel.js` (unchanged signature).
 - Produces: no exported interface — `main.js` is the app entry point, not imported elsewhere.
 
-- [ ] **Step 1: Add the `hydrateTree` import**
+- [x] **Step 1: Add the `hydrateTree` import**
 
 In `public/shared/main.js`, change:
 
@@ -353,7 +353,7 @@ import { slugFromPath } from "./router.js";
 import { hydrateTree } from "./hydrate.js";
 ```
 
-- [ ] **Step 2: Replace `loadMap` to fetch and hydrate both files**
+- [x] **Step 2: Replace `loadMap` to fetch and hydrate both files**
 
 Replace the existing `loadMap` function (currently the last function in the file):
 
@@ -406,12 +406,12 @@ function fetchJson(url) {
 }
 ```
 
-- [ ] **Step 3: Run the existing test suite**
+- [x] **Step 3: Run the existing test suite**
 
 Run: `npm test`
 Expected: PASS — `main.js` has no unit tests (consistent with the project's existing pattern of only unit-testing pure logic; `main.js`'s DOM/fetch wiring is verified manually in Task 6).
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add public/shared/main.js
@@ -433,7 +433,7 @@ Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>"
 - Consumes: nothing from earlier tasks.
 - Produces: `public/data/maps.json`, an array of `{ slug, name, description }`, fetched by `renderMapIndex()`. No other file consumes this in this plan (spec #2's validator will later).
 
-- [ ] **Step 1: Create the registry**
+- [x] **Step 1: Create the registry**
 
 Create `public/data/maps.json`:
 
@@ -447,7 +447,7 @@ Create `public/data/maps.json`:
 ]
 ```
 
-- [ ] **Step 2: Replace `renderMapIndex` to fetch the registry**
+- [x] **Step 2: Replace `renderMapIndex` to fetch the registry**
 
 In `public/shared/main.js`, replace:
 
@@ -508,7 +508,7 @@ function renderIndexError() {
 }
 ```
 
-- [ ] **Step 3: Replace the landing page list styles with a card grid**
+- [x] **Step 3: Replace the landing page list styles with a card grid**
 
 In `public/shared/treemap.css`, replace:
 
@@ -557,12 +557,12 @@ with:
 }
 ```
 
-- [ ] **Step 4: Run the existing test suite**
+- [x] **Step 4: Run the existing test suite**
 
 Run: `npm test`
 Expected: PASS — no logic under test here; this task is UI/data wiring, verified manually in Task 6.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add public/data/maps.json public/shared/main.js public/shared/treemap.css
@@ -579,37 +579,37 @@ Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>"
 
 **Interfaces:** none — this task exercises the whole app through the browser.
 
-- [ ] **Step 1: Run the full automated test suite**
+- [x] **Step 1: Run the full automated test suite**
 
 Run: `npm test`
 Expected: PASS — all tests from Tasks 1–5 combined, plus the pre-existing `layout.test.js`/`router.test.js`.
 
-- [ ] **Step 2: Start the Firebase emulator**
+- [x] **Step 2: Start the Firebase emulator**
 
 Run: `npx firebase-tools emulators:start --only hosting`
 Expected: serves `public/` at `http://localhost:5000` with the clean-URL rewrite from `firebase.json` applied (needed for every routed path below — the plain `npm run dev` static server does not apply it, per the README).
 
-- [ ] **Step 3: Verify the landing page**
+- [x] **Step 3: Verify the landing page**
 
 Open `http://localhost:5000/`. Expected: a "techmap" heading and one card, "Best Data Science Open Source Tools", linking to `/data-science`.
 
-- [ ] **Step 4: Verify the migrated map renders identically to before**
+- [x] **Step 4: Verify the migrated map renders identically to before**
 
 Click through to `/data-science`. Expected: the same category boxes, sizes, labels, and logos as before this migration; clicking a category zooms in with a working breadcrumb; clicking a leaf opens the detail panel with logo, description, GitHub star button, and outbound link — no `undefined` text anywhere (which would indicate a missed `name1`/`name` rename).
 
-- [ ] **Step 5: Verify the missing-image fallback still works**
+- [x] **Step 5: Verify the missing-image fallback still works**
 
 In `public/data/data-science/tools.json`, temporarily rename `"image": "scikitlearn.png"` under `scikit-learn` to `"image": "does-not-exist.png"`. Reload `/data-science`, find the SciKit Learn box, confirm it shows a fallback initial-letter placeholder ("S") instead of a broken image icon. Revert the change (`git checkout public/data/data-science/tools.json`).
 
-- [ ] **Step 6: Verify the unknown-slug fallback still works**
+- [x] **Step 6: Verify the unknown-slug fallback still works**
 
 Navigate to `http://localhost:5000/nonexistent-map`. Expected: "Map not found" message with a link back to `/`.
 
-- [ ] **Step 7: Verify the registry-fetch-failure fallback**
+- [x] **Step 7: Verify the registry-fetch-failure fallback**
 
 Temporarily rename `public/data/maps.json` to `public/data/maps.json.bak`, reload `/`. Expected: "Couldn't load the list of maps" message, not a blank page. Rename it back (`mv public/data/maps.json.bak public/data/maps.json`).
 
-- [ ] **Step 8: Stop the dev server and do a final status check**
+- [x] **Step 8: Stop the dev server and do a final status check**
 
 Run: `git status`
 Expected: clean working tree (Step 5 and Step 7's temporary edits were reverted, nothing left uncommitted).

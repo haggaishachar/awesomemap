@@ -1,6 +1,6 @@
 # Static Site Generation, Flat Data Model & GitHub Pages Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** Replace `techmap`'s client-fetch SPA (per-domain `data.json`+`tools.json`, Firebase Hosting) with a flat, one-file-per-domain data model and a hand-rolled static-site generator that produces real, Open-Graph-tagged, embeddable HTML per domain — deployed to GitHub Pages via a GitHub Action — while the existing interactive treemap (zoom, breadcrumb, detail panel) is preserved via client-side hydration of data inlined into the generated page.
 
@@ -64,7 +64,7 @@ Removed in the final task: `public/`, `firebase.json`, `.firebaserc`, `test/hydr
 **Interfaces:**
 - Produces: `buildTree(tools, root)` — `tools` is an array of `{ id, path, ...otherFields }` where `path` is an array of category-name strings. `root` is `{ id, name }` for the tree's top node. Returns `{ id, name, children: [...] }` where categories are created implicitly from `path` values (in first-appearance order) and each leaf is `{ ...otherFields, name: otherFields.name ?? id, desc: otherFields.desc ?? "" }` (the `path` field itself is dropped from the leaf). Throws `Error` if any tool's `path` is not an array. Later tasks (`generate.mjs`) import this as `import { buildTree } from "./build-tree.mjs"`.
 
-- [ ] **Step 1: Write the failing tests**
+- [x] **Step 1: Write the failing tests**
 
 Create `test/build-tree.test.js`:
 
@@ -129,12 +129,12 @@ test("does not leak the path field onto the built leaf node", () => {
 });
 ```
 
-- [ ] **Step 2: Run tests to verify they fail**
+- [x] **Step 2: Run tests to verify they fail**
 
 Run: `npm test`
 Expected: FAIL — `Cannot find module '../scripts/build-tree.mjs'`.
 
-- [ ] **Step 3: Write the implementation**
+- [x] **Step 3: Write the implementation**
 
 Create `scripts/build-tree.mjs`:
 
@@ -172,12 +172,12 @@ export function buildTree(tools, root) {
 }
 ```
 
-- [ ] **Step 4: Run tests to verify they pass**
+- [x] **Step 4: Run tests to verify they pass**
 
 Run: `npm test`
 Expected: PASS — all 7 new tests green, plus all existing tests unaffected.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add scripts/build-tree.mjs test/build-tree.test.js
@@ -197,7 +197,7 @@ Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>"
 **Interfaces:**
 - Produces: `resolveImage(id, filenames)` — `id` is a tool id string, `filenames` is an array of filename strings (e.g. from `fs.readdirSync`). Returns the filename whose basename (everything before the last `.`) exactly equals `id`, or `null` if none matches. Later tasks (`generate.mjs`) import this as `import { resolveImage } from "./resolve-image.mjs"`.
 
-- [ ] **Step 1: Write the failing tests**
+- [x] **Step 1: Write the failing tests**
 
 Create `test/resolve-image.test.js`:
 
@@ -227,12 +227,12 @@ test("matches correctly when a real match coexists with a prefix decoy", () => {
 });
 ```
 
-- [ ] **Step 2: Run tests to verify they fail**
+- [x] **Step 2: Run tests to verify they fail**
 
 Run: `npm test`
 Expected: FAIL — `Cannot find module '../scripts/resolve-image.mjs'`.
 
-- [ ] **Step 3: Write the implementation**
+- [x] **Step 3: Write the implementation**
 
 Create `scripts/resolve-image.mjs`:
 
@@ -254,12 +254,12 @@ export function resolveImage(id, filenames) {
 }
 ```
 
-- [ ] **Step 4: Run tests to verify they pass**
+- [x] **Step 4: Run tests to verify they pass**
 
 Run: `npm test`
 Expected: PASS — all 5 new tests green, plus all existing tests unaffected.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add scripts/resolve-image.mjs test/resolve-image.test.js
@@ -282,7 +282,7 @@ Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>"
 
 This task does not touch `public/` at all — the old SPA keeps working unmodified throughout this plan. Do not delete or edit anything under `public/` in this task.
 
-- [ ] **Step 1: Write the one-off migration script (scratchpad only — not committed)**
+- [x] **Step 1: Write the one-off migration script (scratchpad only — not committed)**
 
 Write to `/tmp/claude-1000/-home-haggai-workspace-techmap/5c9edd44-64c8-4ab9-ab1e-2306ccb24a54/scratchpad/migrate-flatten.mjs`:
 
@@ -335,7 +335,7 @@ writeFileSync(`${newDomainDir}.json`, JSON.stringify(flatDomain, null, 2) + "\n"
 console.log(`Wrote ${newDomainDir}.json with ${flatTools.length} tools, and ${newDomainDir}/images/`);
 ```
 
-- [ ] **Step 2: Run the migration script**
+- [x] **Step 2: Run the migration script**
 
 Run:
 ```bash
@@ -344,7 +344,7 @@ node /tmp/claude-1000/-home-haggai-workspace-techmap/5c9edd44-64c8-4ab9-ab1e-230
 ```
 Expected output: `Wrote data/data-science.json with 44 tools, and data/data-science/images/`. (If the count differs from 44, that's fine as long as no "missing from tools.json" or "Image not found" error was thrown.)
 
-- [ ] **Step 3: Verify the migrated file's shape**
+- [x] **Step 3: Verify the migrated file's shape**
 
 Run: `node -e "const d = JSON.parse(require('fs').readFileSync('data/data-science.json')); console.log(d.slug, d.name, d.tools.length, JSON.stringify(d.tools[0]))"`
 Expected: prints `data-science`, the domain name, the tool count from Step 2, and the first tool's JSON — confirm it has `id`, `path` (a non-empty array), and no `image` key.
@@ -352,12 +352,12 @@ Expected: prints `data-science`, the domain name, the tool count from Step 2, an
 Run: `grep -c '"image"' data/data-science.json`
 Expected: `0` (the `image` field must not appear anywhere in the flat file).
 
-- [ ] **Step 4: Verify images were renamed to match tool ids**
+- [x] **Step 4: Verify images were renamed to match tool ids**
 
 Run: `node -e "const d = JSON.parse(require('fs').readFileSync('data/data-science.json')); const fs = require('fs'); const files = fs.readdirSync('data/data-science/images'); const missing = d.tools.filter(t => !files.some(f => f.startsWith(t.id + '.'))); console.log('tools:', d.tools.length, 'images:', files.length, 'missing:', missing.map(t => t.id))"`
 Expected: `missing: []` — every tool that had an image in the old data has a correspondingly renamed file; `images:` count should be ≤ `tools:` count (some tools may have had no `image` field at all in the old data, which is fine).
 
-- [ ] **Step 5: Spot-check one entry and its image**
+- [x] **Step 5: Spot-check one entry and its image**
 
 Run: `node -e "const d = JSON.parse(require('fs').readFileSync('data/data-science.json')); console.log(d.tools.find(t => t.id === 'scikit-learn'))"`
 Expected: `{ id: 'scikit-learn', path: [ 'Classic Machine Learning' ], gh: 'https://github.com/scikit-learn/scikit-learn', link: 'https://scikit-learn.org/stable/', name: 'SciKit Learn', desc: 'Machine Learning in Python', weight: 58000 }`
@@ -365,11 +365,11 @@ Expected: `{ id: 'scikit-learn', path: [ 'Classic Machine Learning' ], gh: 'http
 Run: `ls data/data-science/images/ | grep scikit-learn`
 Expected: `scikit-learn.png` (renamed from the old `scikitlearn.png`).
 
-- [ ] **Step 6: Delete the scratchpad script**
+- [x] **Step 6: Delete the scratchpad script**
 
 Run: `rm /tmp/claude-1000/-home-haggai-workspace-techmap/5c9edd44-64c8-4ab9-ab1e-2306ccb24a54/scratchpad/migrate-flatten.mjs`
 
-- [ ] **Step 7: Commit**
+- [x] **Step 7: Commit**
 
 ```bash
 git add data/data-science.json data/data-science/images
@@ -394,7 +394,7 @@ Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>"
 
 `public/` is untouched by this task — this only adds new files under `app/`.
 
-- [ ] **Step 1: Copy the JS files unchanged**
+- [x] **Step 1: Copy the JS files unchanged**
 
 ```bash
 mkdir -p app/shared app/vendor
@@ -405,12 +405,12 @@ cp public/shared/treemap.css app/shared/treemap.css
 cp -r public/vendor/d3-hierarchy app/vendor/d3-hierarchy
 ```
 
-- [ ] **Step 2: Verify the JS/vendor copies are byte-identical to their source**
+- [x] **Step 2: Verify the JS/vendor copies are byte-identical to their source**
 
 Run: `diff public/shared/layout.js app/shared/layout.js && diff public/shared/treemap.js app/shared/treemap.js && diff public/shared/detail-panel.js app/shared/detail-panel.js && diff -r public/vendor/d3-hierarchy app/vendor/d3-hierarchy && echo "IDENTICAL"`
 Expected: `IDENTICAL` (no diff output before it).
 
-- [ ] **Step 3: Add the `.back-link` rule to the new `app/shared/treemap.css`**
+- [x] **Step 3: Add the `.back-link` rule to the new `app/shared/treemap.css`**
 
 In `app/shared/treemap.css`, append after the existing `.map-card p { ... }` rule (the file's last rule):
 
@@ -428,17 +428,17 @@ In `app/shared/treemap.css`, append after the existing `.map-card p { ... }` rul
 }
 ```
 
-- [ ] **Step 4: Verify `app/shared/treemap.css` differs from `public/shared/treemap.css` by only that addition**
+- [x] **Step 4: Verify `app/shared/treemap.css` differs from `public/shared/treemap.css` by only that addition**
 
 Run: `diff public/shared/treemap.css app/shared/treemap.css`
 Expected: a diff showing only the new `.back-link`/`.back-link a` rules added at the end — no other lines changed.
 
-- [ ] **Step 5: Run the test suite**
+- [x] **Step 5: Run the test suite**
 
 Run: `npm test`
 Expected: PASS — unaffected, no test covers `app/` yet.
 
-- [ ] **Step 6: Commit**
+- [x] **Step 6: Commit**
 
 ```bash
 git add app/
@@ -458,7 +458,7 @@ Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>"
 **Interfaces:**
 - Produces: `app/og-default.png`, a 1200×630 solid-color PNG, referenced by URL path `/og-default.png` in Task 6's `render-page.mjs`.
 
-- [ ] **Step 1: Write the banner generator**
+- [x] **Step 1: Write the banner generator**
 
 Create `scripts/make-og-banner.mjs`:
 
@@ -525,19 +525,19 @@ writeFileSync("app/og-default.png", solidColorPng(1200, 630, [43, 95, 173]));
 console.log("Wrote app/og-default.png");
 ```
 
-- [ ] **Step 2: Run it**
+- [x] **Step 2: Run it**
 
 Run: `node scripts/make-og-banner.mjs`
 Expected: `Wrote app/og-default.png`.
 
-- [ ] **Step 3: Verify the output is a valid PNG of the right size**
+- [x] **Step 3: Verify the output is a valid PNG of the right size**
 
 Run: `node -e "const b = require('fs').readFileSync('app/og-default.png'); console.log('signature ok:', b.subarray(0,8).equals(Buffer.from([137,80,78,71,13,10,26,10]))); console.log('width:', b.readUInt32BE(16), 'height:', b.readUInt32BE(20))"`
 Expected: `signature ok: true` and `width: 1200 height: 630`.
 
 Then use the Read tool on `app/og-default.png` to visually confirm it displays as a solid blue rectangle (no corruption/garbage pixels).
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add scripts/make-og-banner.mjs app/og-default.png
@@ -557,7 +557,7 @@ Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>"
 **Interfaces:**
 - Produces: `renderDomainPage(domain, tree, options)` — `domain` is `{ slug, name, description }`, `tree` is a `buildTree` (Task 1) result, `options` is `{ embed?: boolean, defaultOgImage: string }`. Returns a full HTML document string. `renderLandingPage(domains, options)` — `domains` is an array of `{ slug, name, description }`, `options` is `{ defaultOgImage: string }`. Returns a full HTML document string. Later tasks (`generate.mjs`, Task 7) import both as `import { renderDomainPage, renderLandingPage } from "./render-page.mjs"`.
 
-- [ ] **Step 1: Write the HTML shell template**
+- [x] **Step 1: Write the HTML shell template**
 
 Create `app/index.html.template`:
 
@@ -591,7 +591,7 @@ Create `app/index.html.template`:
 </html>
 ```
 
-- [ ] **Step 2: Write `render-page.mjs`**
+- [x] **Step 2: Write `render-page.mjs`**
 
 Create `scripts/render-page.mjs`:
 
@@ -679,7 +679,7 @@ export function renderLandingPage(domains, { defaultOgImage }) {
 }
 ```
 
-- [ ] **Step 3: Sanity-check the output with a throwaway script (not committed)**
+- [x] **Step 3: Sanity-check the output with a throwaway script (not committed)**
 
 Run:
 ```bash
@@ -701,12 +701,12 @@ import('./scripts/render-page.mjs').then(({ renderDomainPage, renderLandingPage 
 ```
 Expected: every line prints `true`.
 
-- [ ] **Step 4: Run the test suite**
+- [x] **Step 4: Run the test suite**
 
 Run: `npm test`
 Expected: PASS — unaffected (this module has no automated test, per the design's decision to verify HTML templating manually rather than with unit tests).
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add app/index.html.template scripts/render-page.mjs
@@ -726,7 +726,7 @@ Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>"
 - Consumes: `buildTree(tools, root)` (Task 1), `resolveImage(id, filenames)` (Task 2), `renderDomainPage(domain, tree, options)`/`renderLandingPage(domains, options)` (Task 6). Reads every `data/*.json` domain file and each domain's `data/<slug>/images/` folder. Reads `app/shared/`, `app/vendor/`, `app/og-default.png` (Tasks 4–5).
 - Produces: `dist/` — the full generated site. No other task imports from `generate.mjs`; it's the top-level entry point invoked directly (`node scripts/generate.mjs`).
 
-- [ ] **Step 1: Write `generate.mjs`**
+- [x] **Step 1: Write `generate.mjs`**
 
 Create `scripts/generate.mjs`:
 
@@ -803,12 +803,12 @@ copyFileSync(`${APP_DIR}/og-default.png`, `${DIST_DIR}/og-default.png`);
 console.log(`Generated ${domains.length} domain(s) into ${DIST_DIR}/`);
 ```
 
-- [ ] **Step 2: Run it**
+- [x] **Step 2: Run it**
 
 Run: `node scripts/generate.mjs`
 Expected: `Generated 1 domain(s) into dist/`.
 
-- [ ] **Step 3: Verify the generated output's structure**
+- [x] **Step 3: Verify the generated output's structure**
 
 Run: `find dist -maxdepth 3 -type d | sort`
 Expected includes: `dist`, `dist/data-science`, `dist/data-science/images`, `dist/embed`, `dist/embed/data-science`, `dist/shared`, `dist/vendor`.
@@ -822,12 +822,12 @@ Expected: a non-zero count (the inlined tree JSON references the resolved image 
 Run: `ls dist/data-science/images | wc -l`
 Expected: matches the image count from Task 3's Step 4 verification.
 
-- [ ] **Step 4: Run the test suite**
+- [x] **Step 4: Run the test suite**
 
 Run: `npm test`
 Expected: PASS — unaffected (`generate.mjs` is I/O orchestration, verified manually here and again in Task 9's end-to-end pass, per the design's decision not to unit test it).
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add scripts/generate.mjs
@@ -847,7 +847,7 @@ Note: `dist/` itself is not committed — it doesn't exist in `.gitignore` yet a
 
 **Interfaces:** none — a standalone CI workflow, not imported by anything.
 
-- [ ] **Step 1: Write the workflow**
+- [x] **Step 1: Write the workflow**
 
 Create `.github/workflows/deploy.yml`:
 
@@ -893,13 +893,13 @@ jobs:
         uses: actions/deploy-pages@v4
 ```
 
-- [ ] **Step 2: Validate the YAML syntax**
+- [x] **Step 2: Validate the YAML syntax**
 
 Run: `node -e "const {readFileSync} = require('fs'); const yaml = readFileSync('.github/workflows/deploy.yml','utf8'); console.log('lines:', yaml.split('\n').length)"` (a full YAML parse isn't available without a new dependency; this just confirms the file is readable). Also visually re-read the file to confirm indentation is consistent (2 spaces) and every `- uses:`/`- run:` step is nested correctly under its `steps:` list, since a YAML indentation error would only surface when GitHub Actions actually parses it.
 
 This workflow cannot be fully verified from this environment — it requires an actual push and the repository's Pages source set to "GitHub Actions" (a one-time manual step in repo Settings → Pages, not part of this file). Note this limitation in the commit; actual CI verification happens after this plan is merged and pushed.
 
-- [ ] **Step 3: Commit**
+- [x] **Step 3: Commit**
 
 ```bash
 git add .github/workflows/deploy.yml
@@ -916,34 +916,34 @@ Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>"
 
 **Interfaces:** none.
 
-- [ ] **Step 1: Run the full automated test suite**
+- [x] **Step 1: Run the full automated test suite**
 
 Run: `npm test`
 Expected: PASS — all tests from Tasks 1–2 plus the pre-existing `layout.test.js` (12 build-tree/resolve-image tests + 9 layout tests = 21; the exact count depends on Tasks 1–2's final test counts, but there must be zero failures).
 
-- [ ] **Step 2: Regenerate and serve the new site**
+- [x] **Step 2: Regenerate and serve the new site**
 
 Run: `node scripts/generate.mjs && npx --yes serve dist -l 5001`
 (Using port 5001, distinct from the old system's port 5000, in case both are ever run side by side.)
 
-- [ ] **Step 3: Verify the landing page**
+- [x] **Step 3: Verify the landing page**
 
 Open `http://localhost:5001/`. Expected: a "techmap" heading and one card, "Best Data Science Open Source Tools", linking to `/data-science`.
 
-- [ ] **Step 4: Verify the domain page is fully interactive**
+- [x] **Step 4: Verify the domain page is fully interactive**
 
 Click through to `http://localhost:5001/data-science/`. Expected: the same category boxes, sizes, labels, and logos as the current live `public/`-based site; clicking a category zooms in with a working breadcrumb; clicking a leaf opens the detail panel with logo, description, GitHub star button, and outbound link; a "← All maps" link back to `/` is visible and works.
 
-- [ ] **Step 5: Verify the embed variant**
+- [x] **Step 5: Verify the embed variant**
 
 Open `http://localhost:5001/embed/data-science/` directly. Expected: the same interactive treemap, but with no "← All maps" link. Then create a throwaway local HTML file (e.g. `/tmp/embed-test.html`, not part of the repo) containing `<iframe src="http://localhost:5001/embed/data-science/" width="800" height="600"></iframe>` and open it in a browser — confirm the treemap renders and is clickable inside the iframe.
 
-- [ ] **Step 6: Verify Open Graph tags**
+- [x] **Step 6: Verify Open Graph tags**
 
 Run: `curl -s http://localhost:5001/data-science/ | grep -E 'og:(title|description|image)'`
 Expected: three lines showing the domain's name, description, and `/og-default.png` as the `og:image` content.
 
-- [ ] **Step 7: Verify the missing-image fallback still works**
+- [x] **Step 7: Verify the missing-image fallback still works**
 
 Temporarily rename one image file, e.g.:
 ```bash
@@ -956,7 +956,7 @@ mv data/data-science/images/scikit-learn.png.bak data/data-science/images/scikit
 node scripts/generate.mjs
 ```
 
-- [ ] **Step 8: Stop the server and confirm a clean state**
+- [x] **Step 8: Stop the server and confirm a clean state**
 
 Stop the `serve` process. Run: `git status --short`
 Expected: no output (Step 7's temporary rename was fully reverted and re-generated; `dist/` is untracked and won't appear unless `.gitignore` already excludes it — if `dist/` shows as untracked here, that's expected and fine at this point in the plan, since `.gitignore` isn't updated until Task 10).
@@ -979,7 +979,7 @@ Expected: no output (Step 7's temporary rename was fully reverted and re-generat
 
 Only start this task after Task 9's end-to-end verification passed — this task deletes the old system's safety net.
 
-- [ ] **Step 1: Delete the old system's files**
+- [x] **Step 1: Delete the old system's files**
 
 ```bash
 git rm -r public/
@@ -987,7 +987,7 @@ git rm firebase.json .firebaserc
 git rm test/hydrate.test.js test/router.test.js
 ```
 
-- [ ] **Step 2: Update `package.json`'s scripts**
+- [x] **Step 2: Update `package.json`'s scripts**
 
 Replace the `"scripts"` block in `package.json`:
 
@@ -1010,7 +1010,7 @@ with:
   },
 ```
 
-- [ ] **Step 3: Update `.gitignore`**
+- [x] **Step 3: Update `.gitignore`**
 
 Replace the full contents of `.gitignore`:
 
@@ -1029,7 +1029,7 @@ dist/
 
 (The `firebase-debug.log` line is dropped — Firebase tooling is no longer part of this project.)
 
-- [ ] **Step 4: Rewrite `README.md`**
+- [x] **Step 4: Rewrite `README.md`**
 
 Replace the full contents of `README.md`:
 
@@ -1091,17 +1091,17 @@ Add `data/<slug>.json`:
 Run `npm run generate` to confirm it builds before opening a PR.
 ```
 
-- [ ] **Step 5: Verify no stale references remain**
+- [x] **Step 5: Verify no stale references remain**
 
 Run: `grep -n "public/\|firebase" README.md package.json`
 Expected: no output.
 
-- [ ] **Step 6: Run the full test suite**
+- [x] **Step 6: Run the full test suite**
 
 Run: `npm test`
 Expected: PASS — all tests from Tasks 1–2 plus `layout.test.js`, nothing referencing the deleted `hydrate.test.js`/`router.test.js`.
 
-- [ ] **Step 7: Verify the new scripts work end-to-end**
+- [x] **Step 7: Verify the new scripts work end-to-end**
 
 Run: `npm run generate`
 Expected: `Generated 1 domain(s) into dist/` (same as Task 9, now via the `npm run generate` alias).
@@ -1109,7 +1109,7 @@ Expected: `Generated 1 domain(s) into dist/` (same as Task 9, now via the `npm r
 Run: `git status --short`
 Expected: only shows the deletions and modifications from this task's Steps 1–4 (plus possibly `data/` and other files from earlier tasks if this is being run as one continuous session) — `dist/` must NOT appear, confirming `.gitignore`'s new `dist/` line is working.
 
-- [ ] **Step 8: Commit**
+- [x] **Step 8: Commit**
 
 ```bash
 git add -A

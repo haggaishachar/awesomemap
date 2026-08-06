@@ -36,7 +36,7 @@ export function mountTreemap(container, mapData, imageBaseUrl, onLeafClick) {
       const crumb = document.createElement("button");
       crumb.type = "button";
       crumb.className = "treemap-crumb";
-      crumb.textContent = node.data.name1;
+      crumb.textContent = node.data.name;
       crumb.disabled = index === trail.length - 1;
       crumb.addEventListener("click", () => zoomTo(node));
       breadcrumb.appendChild(crumb);
@@ -68,15 +68,15 @@ export function mountTreemap(container, mapData, imageBaseUrl, onLeafClick) {
 
     const label = document.createElement("span");
     label.className = "treemap-label";
-    label.textContent = node.data.name1;
+    label.textContent = node.data.name;
     box.appendChild(label);
 
     if (!node.children && node.data.image) {
       const img = document.createElement("img");
       img.className = "treemap-logo";
       img.src = imageBaseUrl + node.data.image;
-      img.alt = node.data.name1;
-      img.onerror = () => img.replaceWith(renderFallbackLogo(node.data.name1));
+      img.alt = node.data.name;
+      img.onerror = () => img.replaceWith(renderFallbackLogo(node.data.name));
       box.insertBefore(img, label);
     }
 

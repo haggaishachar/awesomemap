@@ -27,13 +27,13 @@ export function createDetailPanel(container, imageBaseUrl) {
       const img = document.createElement("img");
       img.className = "detail-panel-logo";
       img.src = imageBaseUrl + leafData.image;
-      img.alt = leafData.name1;
+      img.alt = leafData.name;
       img.onerror = () => img.remove();
       panel.appendChild(img);
     }
 
     const title = document.createElement("h2");
-    title.textContent = leafData.name1;
+    title.textContent = leafData.name;
     panel.appendChild(title);
 
     if (leafData.desc) {

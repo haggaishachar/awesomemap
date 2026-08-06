@@ -56,3 +56,28 @@ body {
   color: #888;
   margin-bottom: 4px;
 }
+
+.treemap-breadcrumb {
+  max-width: 1000px;
+  margin: 12px auto 0;
+  font-size: 14px;
+}
+
+.treemap-crumb {
+  background: none;
+  border: none;
+  color: #2b5fad;
+  cursor: pointer;
+  font: inherit;
+  padding: 2px 4px;
+}
+
+.treemap-crumb:disabled {
+  color: #333;
+  cursor: default;
+  font-weight: 600;
+}
+
+.treemap-crumb-sep {
+  color: #888;
+}

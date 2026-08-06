@@ -27,8 +27,8 @@ function renderMapIndex() {
               .map(
                 (map) => `
               <a class="map-card" href="/${map.slug}">
-                <h2>${map.name}</h2>
-                <p>${map.description}</p>
+                <h2>${map.name ?? ""}</h2>
+                <p>${map.description ?? ""}</p>
               </a>
             `
               )

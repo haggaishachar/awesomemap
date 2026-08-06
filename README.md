@@ -1,7 +1,7 @@
 # techmap
 
-Turns a `data.json` tree of categories and tools into an interactive,
-zoomable treemap.
+Turns a tree of categories and tools into an interactive, zoomable
+treemap.
 
 ## Develop
 
@@ -28,6 +28,17 @@ project ID, then:
 
 ## Adding a new map
 
-Add a folder under `public/data/<slug>/` with a `data.json` (see
-`public/data/data-science/data.json` for the schema) and an `images/`
-folder, then link to it from `public/shared/main.js`'s map index.
+Add a folder under `public/data/<slug>/` containing:
+
+- `data.json` — the category tree (see `public/data/data-science/data.json`
+  for the schema). Each node has an `id`, `name`, and `children`; leaf
+  entries in `children` are bare tool-id strings that key into `tools.json`.
+- `tools.json` — the leaf records (see
+  `public/data/data-science/tools.json` for the shape), mapping each tool
+  id referenced in `data.json` to an object with `gh`, `image`, `link`,
+  `name`, `desc`, and `weight`.
+- an `images/` folder holding the image files referenced by each tool's
+  `image` field.
+
+Then register the map by adding an entry (`slug`, `name`, `description`) to
+`public/data/maps.json`, which powers the landing page's map index.

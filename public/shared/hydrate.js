@@ -13,7 +13,7 @@ export function hydrateTree(node, tools) {
     if (!Object.prototype.hasOwnProperty.call(tools, node)) {
       throw new Error(`Unknown tool id "${node}" referenced in category tree`);
     }
-    return { id: node, ...tools[node] };
+    return { ...tools[node], id: node };
   }
   if (!Array.isArray(node.children)) {
     throw new Error(`Category node "${node.id}" is missing a children array`);

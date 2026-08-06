@@ -1,0 +1,14 @@
+{
+  "name": "techmap",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "vendor:d3": "rm -rf public/vendor/d3-hierarchy && mkdir -p public/vendor && cp -r node_modules/d3-hierarchy/src public/vendor/d3-hierarchy",
+    "dev": "npx --yes serve public -l 5000"
+  },
+  "dependencies": {
+    "d3-hierarchy": "3.1.2"
+  }
+}

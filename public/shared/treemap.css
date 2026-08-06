@@ -130,11 +130,32 @@ body {
   text-align: center;
 }
 
-.map-index ul {
-  list-style: none;
-  padding: 0;
+.map-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+  text-align: left;
 }
 
-.map-index li {
-  margin: 12px 0;
+.map-card {
+  display: block;
+  padding: 16px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  color: inherit;
+}
+
+.map-card h2 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  color: #2b5fad;
+}
+
+.map-card p {
+  margin: 0;
+  font-size: 13px;
+  color: #555;
 }

@@ -13,12 +13,41 @@ if (slug === "") {
 }
 
 function renderMapIndex() {
+  fetch("/data/maps.json")
+    .then((response) => {
+      if (!response.ok) throw new Error(`maps.json fetch failed with ${response.status}`);
+      return response.json();
+    })
+    .then((maps) => {
+      app.innerHTML = `
+        <div class="map-index">
+          <h1>techmap</h1>
+          <div class="map-grid">
+            ${maps
+              .map(
+                (map) => `
+              <a class="map-card" href="/${map.slug}">
+                <h2>${map.name}</h2>
+                <p>${map.description}</p>
+              </a>
+            `
+              )
+              .join("")}
+          </div>
+        </div>
+      `;
+    })
+    .catch((error) => {
+      console.error("Failed to load map registry:", error);
+      renderIndexError();
+    });
+}
+
+function renderIndexError() {
   app.innerHTML = `
-    <div class="map-index">
+    <div class="map-not-found">
       <h1>techmap</h1>
-      <ul>
-        <li><a href="/data-science">Best Data Science Open Source Tools</a></li>
-      </ul>
+      <p>Couldn't load the list of maps. Please try again later.</p>
     </div>
   `;
 }

@@ -5,7 +5,7 @@ import {
   buildHierarchy,
   computeLayout,
   projectRect,
-} from "../public/shared/layout.js";
+} from "../app/shared/layout.js";
 
 test("weightOf returns the leaf's weight when present", () => {
   assert.equal(weightOf({ id: "a", weight: 42 }), 42);

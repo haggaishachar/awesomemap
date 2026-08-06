@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "test": "node --test",
-    "vendor:d3": "rm -rf public/vendor/d3-hierarchy && mkdir -p public/vendor && cp -r node_modules/d3-hierarchy/src public/vendor/d3-hierarchy",
-    "dev": "npx --yes serve public -l 5000"
+    "generate": "node scripts/generate.mjs",
+    "vendor:d3": "rm -rf app/vendor/d3-hierarchy && mkdir -p app/vendor && cp -r node_modules/d3-hierarchy/src app/vendor/d3-hierarchy",
+    "dev": "npm run generate && npx --yes serve dist -l 5000"
   },
   "dependencies": {
     "d3-hierarchy": "3.1.2"

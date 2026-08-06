@@ -1,44 +1,55 @@
 # techmap
 
-Turns a tree of categories and tools into an interactive, zoomable
-treemap.
+Turns a curated list of open-source tools into an interactive, zoomable
+treemap — generated as static HTML and deployed to GitHub Pages.
 
 ## Develop
 
     npm install
     npm run dev
 
-Opens a static server at http://localhost:5000. Note: this doesn't apply
-the clean-URL rewrite (see below) — use the Firebase emulator for that.
+Generates `dist/` from `data/*.json` and serves it at
+http://localhost:5000. Re-run `npm run dev` (or just `npm run generate`)
+after editing any data file to regenerate.
 
 ## Test
 
     npm test
 
-## Preview with clean URLs (matches production routing)
-
-    npx firebase-tools emulators:start --only hosting
-
 ## Deploy
 
-Replace the placeholder project ID in `.firebaserc` with your real Firebase
-project ID, then:
-
-    npx firebase-tools deploy --only hosting
+Deployment is automatic: pushing to `master` triggers
+`.github/workflows/deploy.yml`, which runs the generator and publishes
+`dist/` to GitHub Pages. The repository's Pages source must be set to
+"GitHub Actions" in Settings → Pages (one-time setup, not part of the
+workflow file).
 
 ## Adding a new map
 
-Add a folder under `public/data/<slug>/` containing:
+Add `data/<slug>.json`:
 
-- `data.json` — the category tree (see `public/data/data-science/data.json`
-  for the schema). Each node has an `id`, `name`, and `children`; leaf
-  entries in `children` are bare tool-id strings that key into `tools.json`.
-- `tools.json` — the leaf records (see
-  `public/data/data-science/tools.json` for the shape), mapping each tool
-  id referenced in `data.json` to an object with `gh`, `image`, `link`,
-  `name`, `desc`, and `weight`.
-- an `images/` folder holding the image files referenced by each tool's
-  `image` field.
+    {
+      "slug": "<slug>",
+      "name": "Display Name",
+      "description": "One-line description shown on the landing page.",
+      "tools": [
+        {
+          "id": "some-tool",
+          "path": ["Category Name"],
+          "name": "Some Tool",
+          "gh": "https://github.com/owner/repo",
+          "link": "https://example.com",
+          "desc": "What it does.",
+          "weight": 1000
+        }
+      ]
+    }
 
-Then register the map by adding an entry (`slug`, `name`, `description`) to
-`public/data/maps.json`, which powers the landing page's map index.
+- `id` and `path` are required on every tool. `path` is the breadcrumb of
+  category names from root to the tool (a single-level category is a
+  one-element array; deeper nesting is a longer array).
+- `name`, `desc`, `link`, `gh`, and `weight` may be omitted.
+- Add a logo at `data/<slug>/images/<id>.<any extension>` — it's matched
+  to the tool by id automatically, whatever format it's in.
+
+Run `npm run generate` to confirm it builds before opening a PR.

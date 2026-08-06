@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "techmap-static",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["--yes", "serve", "public", "-l", "5000"],
+      "port": 5000
+    },
+    {
+      "name": "techmap-spa",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["--yes", "serve", "public", "-s", "-l", "5000"],
+      "port": 5000
+    }
+  ]
+}

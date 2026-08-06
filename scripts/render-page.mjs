@@ -11,17 +11,26 @@ function escapeHtml(text) {
     .replace(/"/g, "&quot;");
 }
 
-/** Escapes "</" sequences so embedded JSON can't prematurely close its <script> tag. */
+/**
+ * Escapes every `<` character so embedded JSON can't prematurely close its
+ * `<script>` tag (e.g. via a `</script>` substring in the data). A `<` is a
+ * perfectly ordinary character inside a JSON string, so replacing it with
+ * `<` is a lossless, valid JSON escape — the parsed value is
+ * unaffected, but no `</script>`-like substring can ever survive into the
+ * raw HTML.
+ */
 function escapeScriptJson(json) {
   return json.replace(/</g, "\\u003c");
 }
 
-function renderShell({ title, ogTitle, ogDescription, ogImage, body }) {
-  return TEMPLATE.replace(/{{TITLE}}/g, escapeHtml(title))
-    .replace(/{{OG_TITLE}}/g, escapeHtml(ogTitle))
-    .replace(/{{OG_DESCRIPTION}}/g, escapeHtml(ogDescription))
-    .replace(/{{OG_IMAGE}}/g, escapeHtml(ogImage))
-    .replace("{{BODY}}", body);
+function renderShell({ title, ogTitle, ogDescription, ogImage, ogUrl, base, body }) {
+  return TEMPLATE.replace(/{{TITLE}}/g, () => escapeHtml(title))
+    .replace(/{{OG_TITLE}}/g, () => escapeHtml(ogTitle))
+    .replace(/{{OG_DESCRIPTION}}/g, () => escapeHtml(ogDescription))
+    .replace(/{{OG_IMAGE}}/g, () => escapeHtml(ogImage))
+    .replace(/{{OG_URL}}/g, () => escapeHtml(ogUrl))
+    .replace(/{{BASE}}/g, () => base)
+    .replace("{{BODY}}", () => body);
 }
 
 /**
@@ -29,16 +38,17 @@ function renderShell({ title, ogTitle, ogDescription, ogImage, body }) {
  * `embed` is true). `domain` is { slug, name, description }. `tree` is
  * buildTree's output, with images already resolved onto each leaf.
  */
-export function renderDomainPage(domain, tree, { embed = false, defaultOgImage }) {
-  const backLink = embed ? "" : `<p class="back-link"><a href="/">&larr; All maps</a></p>`;
-  const imageBaseUrl = `/${domain.slug}/images/`;
+export function renderDomainPage(domain, tree, { embed = false, defaultOgImage, siteUrl = "", basePath = "" }) {
+  const backLink = embed ? "" : `<p class="back-link"><a href="${basePath}/">&larr; All maps</a></p>`;
+  const imageBaseUrl = `${basePath}/${domain.slug}/images/`;
+  const ogUrl = `${siteUrl}${basePath}/${domain.slug}/`;
   const body = `
     <div id="app"></div>
     ${backLink}
     <script type="application/json" id="map-data">${escapeScriptJson(JSON.stringify(tree))}</script>
     <script type="module">
-      import { mountTreemap } from "/shared/treemap.js";
-      import { createDetailPanel } from "/shared/detail-panel.js";
+      import { mountTreemap } from "${basePath}/shared/treemap.js";
+      import { createDetailPanel } from "${basePath}/shared/detail-panel.js";
       const mapData = JSON.parse(document.getElementById("map-data").textContent);
       const imageBaseUrl = ${JSON.stringify(imageBaseUrl)};
       const panel = createDetailPanel(document.body, imageBaseUrl);
@@ -50,16 +60,18 @@ export function renderDomainPage(domain, tree, { embed = false, defaultOgImage }
     ogTitle: domain.name,
     ogDescription: domain.description ?? "",
     ogImage: defaultOgImage,
+    ogUrl,
+    base: basePath,
     body,
   });
 }
 
 /** Renders the landing page listing every domain. `domains` is an array of { slug, name, description }. */
-export function renderLandingPage(domains, { defaultOgImage }) {
+export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", basePath = "" }) {
   const cards = domains
     .map(
       (domain) => `
-        <a class="map-card" href="/${domain.slug}">
+        <a class="map-card" href="${basePath}/${escapeHtml(domain.slug)}/">
           <h2>${escapeHtml(domain.name)}</h2>
           <p>${escapeHtml(domain.description ?? "")}</p>
         </a>`
@@ -76,6 +88,8 @@ export function renderLandingPage(domains, { defaultOgImage }) {
     ogTitle: "techmap",
     ogDescription: "A community-curated map of open-source technology.",
     ogImage: defaultOgImage,
+    ogUrl: `${siteUrl}${basePath}/`,
+    base: basePath,
     body,
   });
 }

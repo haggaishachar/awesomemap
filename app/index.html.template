@@ -7,16 +7,17 @@
   <meta property="og:title" content="{{OG_TITLE}}" />
   <meta property="og:description" content="{{OG_DESCRIPTION}}" />
   <meta property="og:image" content="{{OG_IMAGE}}" />
+  <meta property="og:url" content="{{OG_URL}}" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="{{OG_TITLE}}" />
   <meta name="twitter:description" content="{{OG_DESCRIPTION}}" />
   <meta name="twitter:image" content="{{OG_IMAGE}}" />
-  <link rel="stylesheet" href="/shared/treemap.css" />
+  <link rel="stylesheet" href="{{BASE}}/shared/treemap.css" />
   <script type="importmap">
   {
     "imports": {
-      "d3-hierarchy": "/vendor/d3-hierarchy/index.js"
+      "d3-hierarchy": "{{BASE}}/vendor/d3-hierarchy/index.js"
     }
   }
   </script>

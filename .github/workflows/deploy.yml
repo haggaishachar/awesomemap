@@ -17,12 +17,20 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      BASE_PATH: /techmap
+      # NOTE: origin only — generate.mjs builds absolute URLs as
+      # `${SITE_URL}${BASE_PATH}/...`, so SITE_URL must NOT itself include
+      # `/techmap` or the path segment gets duplicated
+      # (https://haggaishachar.github.io/techmap/techmap/...).
+      SITE_URL: https://haggaishachar.github.io
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
       - run: npm ci
+      - run: npm test
       - run: node scripts/generate.mjs
       - uses: actions/upload-pages-artifact@v3
         with:

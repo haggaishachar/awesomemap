@@ -123,3 +123,18 @@ body {
   display: inline-block;
   margin-top: 12px;
 }
+
+.map-index, .map-not-found {
+  max-width: 600px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.map-index ul {
+  list-style: none;
+  padding: 0;
+}
+
+.map-index li {
+  margin: 12px 0;
+}

@@ -1,0 +1,557 @@
+{
+  "slug": "web-dev",
+  "name": "Best Web Development Open Source Tools",
+  "description": "Frontend frameworks, build tools, styling, backend frameworks, and more.",
+  "tools": [
+    {
+      "id": "react",
+      "path": [
+        "Frontend Frameworks"
+      ],
+      "gh": "https://github.com/facebook/react",
+      "link": "https://react.dev",
+      "name": "React",
+      "desc": "A JavaScript library for building user interfaces",
+      "weight": 247079
+    },
+    {
+      "id": "vue",
+      "path": [
+        "Frontend Frameworks"
+      ],
+      "gh": "https://github.com/vuejs/core",
+      "link": "https://vuejs.org",
+      "name": "Vue",
+      "desc": "The Progressive JavaScript Framework",
+      "weight": 54145
+    },
+    {
+      "id": "svelte",
+      "path": [
+        "Frontend Frameworks"
+      ],
+      "gh": "https://github.com/sveltejs/svelte",
+      "link": "https://svelte.dev",
+      "name": "Svelte",
+      "desc": "Cybernetically enhanced web apps",
+      "weight": 87917
+    },
+    {
+      "id": "angular",
+      "path": [
+        "Frontend Frameworks"
+      ],
+      "gh": "https://github.com/angular/angular",
+      "link": "https://angular.dev",
+      "name": "Angular",
+      "desc": "The modern web developer's platform",
+      "weight": 100958
+    },
+    {
+      "id": "solid",
+      "path": [
+        "Frontend Frameworks"
+      ],
+      "gh": "https://github.com/solidjs/solid",
+      "link": "https://www.solidjs.com",
+      "name": "Solid",
+      "desc": "A declarative, efficient, and flexible library for building user interfaces",
+      "weight": 35814
+    },
+    {
+      "id": "nextjs",
+      "path": [
+        "Meta-Frameworks"
+      ],
+      "gh": "https://github.com/vercel/next.js",
+      "link": "https://nextjs.org",
+      "name": "Next.js",
+      "desc": "The React Framework for the Web",
+      "weight": 141664
+    },
+    {
+      "id": "nuxt",
+      "path": [
+        "Meta-Frameworks"
+      ],
+      "gh": "https://github.com/nuxt/nuxt",
+      "link": "https://nuxt.com",
+      "name": "Nuxt",
+      "desc": "The Intuitive Vue Framework",
+      "weight": 60731
+    },
+    {
+      "id": "sveltekit",
+      "path": [
+        "Meta-Frameworks"
+      ],
+      "gh": "https://github.com/sveltejs/kit",
+      "link": "https://kit.svelte.dev",
+      "name": "SvelteKit",
+      "desc": "Web development, streamlined",
+      "weight": 20720
+    },
+    {
+      "id": "remix",
+      "path": [
+        "Meta-Frameworks"
+      ],
+      "gh": "https://github.com/remix-run/remix",
+      "link": "https://remix.run",
+      "name": "Remix",
+      "desc": "Build better websites with React",
+      "weight": 33290
+    },
+    {
+      "id": "astro",
+      "path": [
+        "Meta-Frameworks"
+      ],
+      "gh": "https://github.com/withastro/astro",
+      "link": "https://astro.build",
+      "name": "Astro",
+      "desc": "The web framework for content-driven websites",
+      "weight": 61608
+    },
+    {
+      "id": "vite",
+      "path": [
+        "Build Tools & Bundlers"
+      ],
+      "gh": "https://github.com/vitejs/vite",
+      "link": "https://vitejs.dev",
+      "name": "Vite",
+      "desc": "Next generation frontend tooling",
+      "weight": 82245
+    },
+    {
+      "id": "webpack",
+      "path": [
+        "Build Tools & Bundlers"
+      ],
+      "gh": "https://github.com/webpack/webpack",
+      "link": "https://webpack.js.org",
+      "name": "Webpack",
+      "desc": "A bundler for javascript and friends",
+      "weight": 65987
+    },
+    {
+      "id": "esbuild",
+      "path": [
+        "Build Tools & Bundlers"
+      ],
+      "gh": "https://github.com/evanw/esbuild",
+      "link": "https://esbuild.github.io",
+      "name": "esbuild",
+      "desc": "An extremely fast bundler for the web",
+      "weight": 40008
+    },
+    {
+      "id": "rollup",
+      "path": [
+        "Build Tools & Bundlers"
+      ],
+      "gh": "https://github.com/rollup/rollup",
+      "link": "https://rollupjs.org",
+      "name": "Rollup",
+      "desc": "Next-generation ES module bundler",
+      "weight": 26305
+    },
+    {
+      "id": "parcel",
+      "path": [
+        "Build Tools & Bundlers"
+      ],
+      "gh": "https://github.com/parcel-bundler/parcel",
+      "link": "https://parceljs.org",
+      "name": "Parcel",
+      "desc": "The zero configuration build tool for the web",
+      "weight": 44026
+    },
+    {
+      "id": "tailwindcss",
+      "path": [
+        "CSS Frameworks & Styling"
+      ],
+      "gh": "https://github.com/tailwindlabs/tailwindcss",
+      "link": "https://tailwindcss.com",
+      "name": "Tailwind CSS",
+      "desc": "A utility-first CSS framework for rapid UI development",
+      "weight": 97045
+    },
+    {
+      "id": "bootstrap",
+      "path": [
+        "CSS Frameworks & Styling"
+      ],
+      "gh": "https://github.com/twbs/bootstrap",
+      "link": "https://getbootstrap.com",
+      "name": "Bootstrap",
+      "desc": "The most popular HTML, CSS, and JS library in the world",
+      "weight": 174565
+    },
+    {
+      "id": "bulma",
+      "path": [
+        "CSS Frameworks & Styling"
+      ],
+      "gh": "https://github.com/jgthms/bulma",
+      "link": "https://bulma.io",
+      "name": "Bulma",
+      "desc": "Modern CSS framework based on Flexbox",
+      "weight": 50054
+    },
+    {
+      "id": "styled-components",
+      "path": [
+        "CSS Frameworks & Styling"
+      ],
+      "gh": "https://github.com/styled-components/styled-components",
+      "link": "https://styled-components.com",
+      "name": "styled-components",
+      "desc": "Visual primitives for the component age",
+      "weight": 41133
+    },
+    {
+      "id": "sass",
+      "path": [
+        "CSS Frameworks & Styling"
+      ],
+      "gh": "https://github.com/sass/dart-sass",
+      "link": "https://sass-lang.com",
+      "name": "Sass",
+      "desc": "Dart implementation of Sass, a CSS preprocessor",
+      "weight": 4214
+    },
+    {
+      "id": "express",
+      "path": [
+        "Backend Frameworks"
+      ],
+      "gh": "https://github.com/expressjs/express",
+      "link": "https://expressjs.com",
+      "name": "Express",
+      "desc": "Fast, unopinionated, minimalist web framework for Node.js",
+      "weight": 69350
+    },
+    {
+      "id": "nestjs",
+      "path": [
+        "Backend Frameworks"
+      ],
+      "gh": "https://github.com/nestjs/nest",
+      "link": "https://nestjs.com",
+      "name": "NestJS",
+      "desc": "A progressive Node.js framework for building efficient server-side applications",
+      "weight": 76361
+    },
+    {
+      "id": "fastify",
+      "path": [
+        "Backend Frameworks"
+      ],
+      "gh": "https://github.com/fastify/fastify",
+      "link": "https://fastify.dev",
+      "name": "Fastify",
+      "desc": "Fast and low overhead web framework, for Node.js",
+      "weight": 36976
+    },
+    {
+      "id": "django",
+      "path": [
+        "Backend Frameworks"
+      ],
+      "gh": "https://github.com/django/django",
+      "link": "https://www.djangoproject.com",
+      "name": "Django",
+      "desc": "The Web framework for perfectionists with deadlines",
+      "weight": 88395
+    },
+    {
+      "id": "rails",
+      "path": [
+        "Backend Frameworks"
+      ],
+      "gh": "https://github.com/rails/rails",
+      "link": "https://rubyonrails.org",
+      "name": "Ruby on Rails",
+      "desc": "A web-application framework for Ruby",
+      "weight": 58680
+    },
+    {
+      "id": "redux",
+      "path": [
+        "State Management"
+      ],
+      "gh": "https://github.com/reduxjs/redux",
+      "link": "https://redux.js.org",
+      "name": "Redux",
+      "desc": "A predictable state container for JavaScript apps",
+      "weight": 61519
+    },
+    {
+      "id": "mobx",
+      "path": [
+        "State Management"
+      ],
+      "gh": "https://github.com/mobxjs/mobx",
+      "link": "https://mobx.js.org",
+      "name": "MobX",
+      "desc": "Simple, scalable state management",
+      "weight": 28203
+    },
+    {
+      "id": "zustand",
+      "path": [
+        "State Management"
+      ],
+      "gh": "https://github.com/pmndrs/zustand",
+      "link": "https://zustand-demo.pmnd.rs",
+      "name": "Zustand",
+      "desc": "A small, fast, and scalable bearbones state-management solution",
+      "weight": 58532
+    },
+    {
+      "id": "pinia",
+      "path": [
+        "State Management"
+      ],
+      "gh": "https://github.com/vuejs/pinia",
+      "link": "https://pinia.vuejs.org",
+      "name": "Pinia",
+      "desc": "The intuitive store for Vue.js",
+      "weight": 14683
+    },
+    {
+      "id": "xstate",
+      "path": [
+        "State Management"
+      ],
+      "gh": "https://github.com/statelyai/xstate",
+      "link": "https://stately.ai/docs/xstate",
+      "name": "XState",
+      "desc": "State machines and statecharts for the modern web",
+      "weight": 29977
+    },
+    {
+      "id": "jest",
+      "path": [
+        "Testing"
+      ],
+      "gh": "https://github.com/jestjs/jest",
+      "link": "https://jestjs.io",
+      "name": "Jest",
+      "desc": "Delightful JavaScript testing",
+      "weight": 45466
+    },
+    {
+      "id": "cypress",
+      "path": [
+        "Testing"
+      ],
+      "gh": "https://github.com/cypress-io/cypress",
+      "link": "https://www.cypress.io",
+      "name": "Cypress",
+      "desc": "Fast, easy and reliable testing for anything that runs in a browser",
+      "weight": 50919
+    },
+    {
+      "id": "playwright",
+      "path": [
+        "Testing"
+      ],
+      "gh": "https://github.com/microsoft/playwright",
+      "link": "https://playwright.dev",
+      "name": "Playwright",
+      "desc": "Reliable end-to-end testing for modern web apps",
+      "weight": 94122
+    },
+    {
+      "id": "vitest",
+      "path": [
+        "Testing"
+      ],
+      "gh": "https://github.com/vitest-dev/vitest",
+      "link": "https://vitest.dev",
+      "name": "Vitest",
+      "desc": "A blazing fast unit test framework powered by Vite",
+      "weight": 16924
+    },
+    {
+      "id": "mocha",
+      "path": [
+        "Testing"
+      ],
+      "gh": "https://github.com/mochajs/mocha",
+      "link": "https://mochajs.org",
+      "name": "Mocha",
+      "desc": "Simple, flexible, fun JavaScript test framework",
+      "weight": 22905
+    },
+    {
+      "id": "gatsby",
+      "path": [
+        "Static Site Generators"
+      ],
+      "gh": "https://github.com/gatsbyjs/gatsby",
+      "link": "https://www.gatsbyjs.com",
+      "name": "Gatsby",
+      "desc": "Build blazing fast, modern apps and websites with React",
+      "weight": 55937
+    },
+    {
+      "id": "hugo",
+      "path": [
+        "Static Site Generators"
+      ],
+      "gh": "https://github.com/gohugoio/hugo",
+      "link": "https://gohugo.io",
+      "name": "Hugo",
+      "desc": "The world's fastest framework for building websites",
+      "weight": 89351
+    },
+    {
+      "id": "jekyll",
+      "path": [
+        "Static Site Generators"
+      ],
+      "gh": "https://github.com/jekyll/jekyll",
+      "link": "https://jekyllrb.com",
+      "name": "Jekyll",
+      "desc": "Transform your plain text into static websites and blogs",
+      "weight": 51617
+    },
+    {
+      "id": "eleventy",
+      "path": [
+        "Static Site Generators"
+      ],
+      "gh": "https://github.com/11ty/eleventy",
+      "link": "https://www.11ty.dev",
+      "name": "Eleventy",
+      "desc": "A simpler static site generator",
+      "weight": 19837
+    },
+    {
+      "id": "docusaurus",
+      "path": [
+        "Static Site Generators"
+      ],
+      "gh": "https://github.com/facebook/docusaurus",
+      "link": "https://docusaurus.io",
+      "name": "Docusaurus",
+      "desc": "Easy to maintain open source documentation websites",
+      "weight": 65852
+    },
+    {
+      "id": "graphql-js",
+      "path": [
+        "API & Data Layer"
+      ],
+      "gh": "https://github.com/graphql/graphql-js",
+      "link": "https://graphql.org",
+      "name": "GraphQL.js",
+      "desc": "A reference implementation of GraphQL for JavaScript",
+      "weight": 20344
+    },
+    {
+      "id": "apollo-client",
+      "path": [
+        "API & Data Layer"
+      ],
+      "gh": "https://github.com/apollographql/apollo-client",
+      "link": "https://www.apollographql.com/docs/react/",
+      "name": "Apollo Client",
+      "desc": "A fully-featured caching GraphQL client",
+      "weight": 19812
+    },
+    {
+      "id": "trpc",
+      "path": [
+        "API & Data Layer"
+      ],
+      "gh": "https://github.com/trpc/trpc",
+      "link": "https://trpc.io",
+      "name": "tRPC",
+      "desc": "End-to-end typesafe APIs made easy",
+      "weight": 40496
+    },
+    {
+      "id": "prisma",
+      "path": [
+        "API & Data Layer"
+      ],
+      "gh": "https://github.com/prisma/prisma",
+      "link": "https://www.prisma.io",
+      "name": "Prisma",
+      "desc": "Next-generation Node.js and TypeScript ORM",
+      "weight": 47544
+    },
+    {
+      "id": "axios",
+      "path": [
+        "API & Data Layer"
+      ],
+      "gh": "https://github.com/axios/axios",
+      "link": "https://axios-http.com",
+      "name": "Axios",
+      "desc": "Promise based HTTP client for the browser and node.js",
+      "weight": 109224
+    },
+    {
+      "id": "material-ui",
+      "path": [
+        "UI Component Libraries"
+      ],
+      "gh": "https://github.com/mui/material-ui",
+      "link": "https://mui.com",
+      "name": "Material UI",
+      "desc": "React components that implement Google's Material Design",
+      "weight": 98697
+    },
+    {
+      "id": "ant-design",
+      "path": [
+        "UI Component Libraries"
+      ],
+      "gh": "https://github.com/ant-design/ant-design",
+      "link": "https://ant.design",
+      "name": "Ant Design",
+      "desc": "An enterprise-class UI design language and React UI library",
+      "weight": 98987
+    },
+    {
+      "id": "chakra-ui",
+      "path": [
+        "UI Component Libraries"
+      ],
+      "gh": "https://github.com/chakra-ui/chakra-ui",
+      "link": "https://chakra-ui.com",
+      "name": "Chakra UI",
+      "desc": "Simple, modular and accessible component library for React",
+      "weight": 40566
+    },
+    {
+      "id": "shadcn-ui",
+      "path": [
+        "UI Component Libraries"
+      ],
+      "gh": "https://github.com/shadcn-ui/ui",
+      "link": "https://ui.shadcn.com",
+      "name": "shadcn/ui",
+      "desc": "Beautifully designed components you can copy and paste into your apps",
+      "weight": 120716
+    },
+    {
+      "id": "radix-ui",
+      "path": [
+        "UI Component Libraries"
+      ],
+      "gh": "https://github.com/radix-ui/primitives",
+      "link": "https://www.radix-ui.com",
+      "name": "Radix UI",
+      "desc": "An open-source UI component library for building accessible design systems",
+      "weight": 19138
+    }
+  ]
+}

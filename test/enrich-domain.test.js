@@ -7,6 +7,7 @@ import {
   withRetry,
   defaultIsRetryable,
   createGetJson,
+  findInvalidWeights,
 } from "../scripts/enrich-domain.mjs";
 
 test("parseGhRepo extracts owner/repo from a plain github.com URL", () => {
@@ -281,4 +282,55 @@ test("createGetJson: real getJson exhausts retries and throws on a persistent 50
   );
   assert.equal(calls.length, 3);
   assert.deepEqual(sleeps, [200, 400]);
+});
+
+test("withRetry rejects attempts < 1 with a clear error instead of silently returning undefined", async () => {
+  const fn = async () => {
+    throw new Error("should never be called");
+  };
+
+  await assert.rejects(() => withRetry(fn, { attempts: 0 }), /attempts must be >= 1/);
+});
+
+// findInvalidWeights: the post-enrichment guard that would have caught the
+// earlier draft of mobile-dev.json shipping with every weight stuck at 0.
+test("findInvalidWeights returns an empty list when every gh-linked tool has a valid weight", () => {
+  const tools = [
+    { id: "a", gh: "https://github.com/facebook/react", weight: 12345 },
+    { id: "b", gh: "https://github.com/vuejs/vue", weight: 1 },
+    { id: "c", desc: "no gh url at all" },
+  ];
+
+  assert.deepEqual(findInvalidWeights(tools), []);
+});
+
+test("findInvalidWeights flags a gh-linked tool whose weight is 0", () => {
+  const tools = [
+    { id: "a", gh: "https://github.com/facebook/react", weight: 12345 },
+    { id: "zero-weight", gh: "https://github.com/some/repo", weight: 0 },
+  ];
+
+  assert.deepEqual(findInvalidWeights(tools), ["zero-weight"]);
+});
+
+test("findInvalidWeights flags a gh-linked tool whose weight is undefined", () => {
+  const tools = [{ id: "no-weight", gh: "https://github.com/some/repo" }];
+
+  assert.deepEqual(findInvalidWeights(tools), ["no-weight"]);
+});
+
+test("findInvalidWeights does not flag a tool with no gh URL even without a weight", () => {
+  const tools = [{ id: "unlisted", desc: "no repo, never enriched, no weight expected" }];
+
+  assert.deepEqual(findInvalidWeights(tools), []);
+});
+
+test("findInvalidWeights flags non-integer and negative weights too", () => {
+  const tools = [
+    { id: "fractional", gh: "https://github.com/some/repo", weight: 4.5 },
+    { id: "negative", gh: "https://github.com/some/other-repo", weight: -1 },
+    { id: "not-a-number", gh: "https://github.com/some/third-repo", weight: "12345" },
+  ];
+
+  assert.deepEqual(findInvalidWeights(tools), ["fractional", "negative", "not-a-number"]);
 });

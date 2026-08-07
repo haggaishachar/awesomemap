@@ -75,7 +75,7 @@
         "Native Android Libraries"
       ],
       "gh": "https://github.com/lysine-dev/retrofit",
-      "link": "https://square.github.io/retrofit/",
+      "link": "https://github.com/lysine-dev/retrofit",
       "name": "Retrofit",
       "desc": "A type-safe HTTP client for Android and Java",
       "weight": 43924
@@ -86,7 +86,7 @@
         "Native Android Libraries"
       ],
       "gh": "https://github.com/lysine-dev/okhttp",
-      "link": "https://square.github.io/okhttp/",
+      "link": "https://github.com/lysine-dev/okhttp",
       "name": "OkHttp",
       "desc": "An HTTP client for Android, Kotlin, and Java applications",
       "weight": 47030

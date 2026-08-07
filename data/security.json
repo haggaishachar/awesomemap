@@ -45,7 +45,7 @@
       "link": "https://owasp.org/www-project-amass/",
       "name": "Amass",
       "desc": "In-depth attack surface mapping and asset discovery",
-      "weight": 14941
+      "weight": 14942
     },
     {
       "id": "Recon-ng",
@@ -136,15 +136,15 @@
       "weight": 38122
     },
     {
-      "id": "w3af",
+      "id": "Dalfox",
       "path": [
         "Web App Security"
       ],
-      "gh": "https://github.com/andresriancho/w3af",
-      "link": "http://w3af.org/",
-      "name": "w3af",
-      "desc": "Web application attack and audit framework, an open source web vulnerability scanner",
-      "weight": 4901
+      "gh": "https://github.com/hahwul/dalfox",
+      "link": "https://dalfox.hahwul.com/",
+      "name": "Dalfox",
+      "desc": "Powerful open source XSS scanner and parameter analysis tool focused on automation",
+      "weight": 5207
     },
     {
       "id": "Wfuzz",
@@ -188,7 +188,7 @@
       "link": "https://beefproject.com/",
       "name": "BeEF",
       "desc": "The Browser Exploitation Framework, focused on assessing web browser security",
-      "weight": 10967
+      "weight": 10968
     },
     {
       "id": "Empire",
@@ -210,7 +210,7 @@
       "link": "https://sliver.sh/",
       "name": "Sliver",
       "desc": "Open source adversary emulation and cross-platform command & control framework",
-      "weight": 11644
+      "weight": 11646
     },
     {
       "id": "Wazuh",
@@ -221,7 +221,7 @@
       "link": "https://wazuh.com/",
       "name": "Wazuh",
       "desc": "Open source security platform providing unified XDR and SIEM protection for endpoints and cloud workloads",
-      "weight": 16446
+      "weight": 16447
     },
     {
       "id": "OSSEC",
@@ -276,7 +276,7 @@
       "link": "https://www.openwall.com/john/",
       "name": "John the Ripper",
       "desc": "Advanced offline password cracker supporting hundreds of hash and cipher types",
-      "weight": 13473
+      "weight": 13475
     },
     {
       "id": "Hashcat",
@@ -375,7 +375,7 @@
       "link": "https://www.sonarsource.com/products/sonarqube/",
       "name": "SonarQube",
       "desc": "Continuous inspection platform for code quality and security analysis",
-      "weight": 10874
+      "weight": 10875
     },
     {
       "id": "HashiCorpVault",
@@ -419,7 +419,7 @@
       "link": "https://trufflesecurity.com/trufflehog",
       "name": "TruffleHog",
       "desc": "Finds, verifies, and analyzes leaked credentials across git history and beyond",
-      "weight": 27338
+      "weight": 27339
     },
     {
       "id": "SOPS",
@@ -430,7 +430,7 @@
       "link": "https://github.com/getsops/sops",
       "name": "SOPS",
       "desc": "Simple and flexible tool for managing and encrypting secrets in files",
-      "weight": 22703
+      "weight": 22705
     },
     {
       "id": "Trivy",
@@ -441,7 +441,7 @@
       "link": "https://trivy.dev/",
       "name": "Trivy",
       "desc": "Finds vulnerabilities, misconfigurations, secrets, and SBOMs in containers, Kubernetes, and code repositories",
-      "weight": 37290
+      "weight": 37291
     },
     {
       "id": "Falco",
@@ -485,7 +485,7 @@
       "link": "https://prowler.com/",
       "name": "Prowler",
       "desc": "Open source cloud security platform that automates security and compliance checks across cloud environments",
-      "weight": 14543
+      "weight": 14544
     },
     {
       "id": "ScoutSuite",
@@ -496,7 +496,7 @@
       "link": "https://github.com/nccgroup/ScoutSuite",
       "name": "Scout Suite",
       "desc": "Multi-cloud security auditing tool for assessing the security posture of cloud environments",
-      "weight": 7786
+      "weight": 7787
     },
     {
       "id": "Ghidra",
@@ -507,7 +507,7 @@
       "link": "https://ghidra-sre.org/",
       "name": "Ghidra",
       "desc": "Software reverse engineering framework developed by the NSA",
-      "weight": 72019
+      "weight": 72020
     },
     {
       "id": "Radare2",
@@ -562,7 +562,7 @@
       "link": "https://x64dbg.com/",
       "name": "x64dbg",
       "desc": "Open source user mode debugger for Windows, optimized for reverse engineering and malware analysis",
-      "weight": 49095
+      "weight": 49096
     }
   ]
 }

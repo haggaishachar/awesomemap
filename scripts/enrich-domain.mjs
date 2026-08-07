@@ -84,13 +84,15 @@ const realSleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
  * `sleep` (injectable, defaults to a real setTimeout-based delay) to wait
  * `delayMs * attempt` (linear backoff) between attempts. Rethrows the
  * triggering error once attempts are exhausted, or immediately if an
- * error is not retryable. The loop always returns or throws internally,
- * so there is no reachable code after it.
+ * error is not retryable. Requires `attempts >= 1`; given that precondition,
+ * the loop always returns or throws internally, so there is no reachable
+ * code after it.
  */
 export async function withRetry(
   fn,
   { attempts = 3, delayMs = 200, isRetryable = defaultIsRetryable, sleep = realSleep } = {},
 ) {
+  if (attempts < 1) throw new Error(`withRetry: attempts must be >= 1, got ${attempts}`);
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
     try {
       return await fn();
@@ -99,6 +101,28 @@ export async function withRetry(
       await sleep(delayMs * attempt);
     }
   }
+}
+
+/**
+ * Given the post-enrichment tool list, returns the ids of tools that should
+ * have received a real star-count `weight` from `enrichTool` (i.e. those
+ * with a parseable `gh` URL) but didn't: `weight` is missing, not a number,
+ * not an integer, or not strictly positive. Tools without a parseable `gh`
+ * URL are never enriched and are intentionally excluded — that's expected
+ * behavior, not a failure. Pure and side-effect free so it can be unit
+ * tested directly; `main()` calls this after the enrichment loop and fails
+ * loudly if it returns anything.
+ */
+export function findInvalidWeights(tools) {
+  const bad = [];
+  for (const tool of tools) {
+    if (!parseGhRepo(tool.gh)) continue;
+    const { weight } = tool;
+    if (typeof weight !== "number" || !Number.isInteger(weight) || weight <= 0) {
+      bad.push(tool.id);
+    }
+  }
+  return bad;
 }
 
 /**
@@ -121,7 +145,7 @@ export function createGetJson(token, { fetchImpl = fetch, sleep } = {}) {
         throw err;
       }
       return res.json();
-    }, sleep ? { sleep } : undefined);
+    }, { sleep });
 }
 
 // CLI entry point: node scripts/enrich-domain.mjs data/<slug>.json
@@ -167,6 +191,14 @@ async function main() {
     }
     const after = new Set(readdirSync(imagesDir));
     if (after.size > before.size) logosFound += 1;
+  }
+
+  const invalidWeightIds = findInvalidWeights(enrichedTools);
+  if (invalidWeightIds.length > 0) {
+    console.error(
+      `Error: ${invalidWeightIds.length} tool(s) with a gh URL did not end up with a real positive integer weight: ${invalidWeightIds.join(", ")}`,
+    );
+    process.exit(1);
   }
 
   writeFileSync(domainPath, JSON.stringify({ ...domain, tools: enrichedTools }, null, 2) + "\n");

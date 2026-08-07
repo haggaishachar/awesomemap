@@ -86,7 +86,7 @@ export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", baseP
         <span class="hero-rect hero-rect-4"></span>
       </div>
       <div class="hero-content">
-        <h1>techmap</h1>
+        <h1>awesomemap</h1>
         <p class="hero-tagline">Interactive, zoomable maps of open-source tool ecosystems — sized by adoption, explorable by category.</p>
       </div>
     </header>
@@ -96,8 +96,8 @@ export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", baseP
     </div>
   `;
   return renderShell({
-    title: "techmap",
-    ogTitle: "techmap",
+    title: "awesomemap",
+    ogTitle: "awesomemap",
     ogDescription: "A community-curated map of open-source technology.",
     ogImage: defaultOgImage,
     ogUrl: `${siteUrl}${basePath}/`,

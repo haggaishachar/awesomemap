@@ -87,7 +87,7 @@ test("landing page renders a hero with title and tagline above the map grid", ()
     { defaultOgImage: "/og-default.png", basePath: "" }
   );
   assert.match(html, /<header class="hero">/);
-  assert.match(html, /<h1>techmap<\/h1>/);
+  assert.match(html, /<h1>awesomemap<\/h1>/);
   assert.match(html, /class="hero-tagline"/);
   // Hero must come before the map grid in document order.
   assert.ok(html.indexOf('class="hero"') < html.indexOf('class="map-grid"'));

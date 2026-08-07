@@ -1,6 +1,6 @@
-# techmap
+# awesomemap
 
-**[→ Explore the live maps](https://haggaishachar.github.io/TechMap/)**
+**[→ Explore the live maps](https://haggaishachar.github.io/awesomemap/)**
 
 Interactive, zoomable treemaps of open-source tool ecosystems. Every
 rectangle is a tool; its size reflects adoption, and its place in the map
@@ -11,7 +11,7 @@ tool to see what it does and jump to its GitHub repo or homepage.
 
 | Map | Description |
 | --- | --- |
-| [Data Science](https://haggaishachar.github.io/TechMap/data-science/) | Machine learning, deep learning, NLP, computer vision, and more. |
+| [Data Science](https://haggaishachar.github.io/awesomemap/data-science/) | Machine learning, deep learning, NLP, computer vision, and more. |
 
 More domains — web dev, DevOps & infra, security, mobile dev — are on the way.
 
@@ -23,5 +23,5 @@ More domains — web dev, DevOps & infra, security, mobile dev — are on the wa
 
 ## Contributing
 
-Want to add a tool, fix a map, or run techmap locally? See
+Want to add a tool, fix a map, or run awesomemap locally? See
 [CONTRIBUTING.md](CONTRIBUTING.md).

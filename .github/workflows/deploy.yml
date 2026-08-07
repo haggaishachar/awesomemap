@@ -18,11 +18,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      BASE_PATH: /TechMap
+      BASE_PATH: /awesomemap
       # NOTE: origin only — generate.mjs builds absolute URLs as
       # `${SITE_URL}${BASE_PATH}/...`, so SITE_URL must NOT itself include
-      # `/TechMap` or the path segment gets duplicated
-      # (https://haggaishachar.github.io/TechMap/TechMap/...).
+      # `/awesomemap` or the path segment gets duplicated
+      # (https://haggaishachar.github.io/awesomemap/awesomemap/...).
       SITE_URL: https://haggaishachar.github.io
     steps:
       - uses: actions/checkout@v4

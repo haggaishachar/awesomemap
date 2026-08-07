@@ -44,7 +44,7 @@ brand/logo.svg, brand/logo.png
   - `downloadFile(url, destPath)` — injected async function, `(url, destPath) => Promise<void>`.
 - Consumes: nothing from other tasks (first task).
 
-- [ ] **Step 1: Write failing tests for `parseGhRepo`**
+- [x] **Step 1: Write failing tests for `parseGhRepo`**
 
 ```js
 // test/enrich-domain.test.js
@@ -89,12 +89,12 @@ test("parseGhRepo returns null for a malformed URL", () => {
 });
 ```
 
-- [ ] **Step 2: Run the tests to confirm they fail**
+- [x] **Step 2: Run the tests to confirm they fail**
 
 Run: `npm test`
 Expected: FAIL — `../scripts/enrich-domain.mjs` does not exist yet.
 
-- [ ] **Step 3: Implement `parseGhRepo` and `LOGO_CANDIDATE_PATHS`**
+- [x] **Step 3: Implement `parseGhRepo` and `LOGO_CANDIDATE_PATHS`**
 
 ```js
 // scripts/enrich-domain.mjs
@@ -135,12 +135,12 @@ export function parseGhRepo(url) {
 }
 ```
 
-- [ ] **Step 4: Run the tests to confirm `parseGhRepo` passes**
+- [x] **Step 4: Run the tests to confirm `parseGhRepo` passes**
 
 Run: `npm test`
 Expected: PASS for all `parseGhRepo` tests; `enrichTool`/`LOGO_CANDIDATE_PATHS` import still resolves since both are now exported.
 
-- [ ] **Step 5: Write failing tests for `enrichTool`**
+- [x] **Step 5: Write failing tests for `enrichTool`**
 
 Append to `test/enrich-domain.test.js`:
 
@@ -224,12 +224,12 @@ test("enrichTool leaves a tool with no gh URL unchanged", async () => {
 });
 ```
 
-- [ ] **Step 6: Run the tests to confirm the new ones fail**
+- [x] **Step 6: Run the tests to confirm the new ones fail**
 
 Run: `npm test`
 Expected: FAIL — `enrichTool` not defined.
 
-- [ ] **Step 7: Implement `enrichTool`**
+- [x] **Step 7: Implement `enrichTool`**
 
 ```js
 // scripts/enrich-domain.mjs (append)
@@ -267,12 +267,12 @@ export async function enrichTool(tool, { getJson, downloadFile }, imagesDir) {
 }
 ```
 
-- [ ] **Step 8: Run the tests to confirm they pass**
+- [x] **Step 8: Run the tests to confirm they pass**
 
 Run: `npm test`
 Expected: PASS — all `enrich-domain.test.js` tests green, and the pre-existing suite (`build-tree`, `layout`, `render-page`, `resolve-image`) still passes.
 
-- [ ] **Step 9: Implement the CLI entry point (not unit tested — real I/O)**
+- [x] **Step 9: Implement the CLI entry point (not unit tested — real I/O)**
 
 Append to `scripts/enrich-domain.mjs`:
 
@@ -334,7 +334,7 @@ main();
 
 `imagesDir` is created with `mkdirSync(..., { recursive: true })` above, so it always exists by the time the loop's `readdirSync(imagesDir)` calls run.
 
-- [ ] **Step 10: Manually verify the CLI against one real tool**
+- [x] **Step 10: Manually verify the CLI against one real tool**
 
 Create a throwaway file to test against real GitHub data without touching real domain data yet:
 
@@ -358,7 +358,7 @@ rm -rf /tmp/enrich-smoke-test
 
 Expected: console line reporting `1/1 weights fetched`, `smoke.json`'s `react` tool now has a `weight` that's a large positive integer, and (if `facebook/react` has one of the candidate logo files — check manually if unsure) an image file appears under `images/`.
 
-- [ ] **Step 11: Commit**
+- [x] **Step 11: Commit**
 
 ```bash
 git add scripts/enrich-domain.mjs test/enrich-domain.test.js
@@ -396,7 +396,7 @@ Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>"
 9. API & Data Layer
 10. UI Component Libraries
 
-- [ ] **Step 1: Curate the tool list**
+- [x] **Step 1: Curate the tool list**
 
 Write `data/web-dev.json` by hand, following the exact shape of `data/data-science.json` (read it first for the schema). For each of the 10 categories above, pick 4-6 real, notable open-source web development tools with a public GitHub repo. Requirements:
 - Every tool needs `id`, `path` (`["<Category Name>"]`), `name`, `gh`, `link`, `desc`. Omit `weight` — Step 2 fills it in.
@@ -404,22 +404,22 @@ Write `data/web-dev.json` by hand, following the exact shape of `data/data-scien
 - Only include a tool if you're confident its GitHub repo is real and public — do not guess a repo URL.
 - `desc` is one short sentence, in the same style as `data-science.json`'s (e.g. "Machine Learning in Python").
 
-- [ ] **Step 2: Enrich with real star counts and logos**
+- [x] **Step 2: Enrich with real star counts and logos**
 
 Run: `node scripts/enrich-domain.mjs data/web-dev.json`
 Expected: console output shows `N/N weights fetched` where `N` equals the total tool count (if fewer, one or more `gh` URLs failed to resolve — fix those URLs and re-run before continuing). Some non-zero number of logos may be downloaded into `data/web-dev/images/`; zero is acceptable.
 
-- [ ] **Step 3: Check for duplicate ids**
+- [x] **Step 3: Check for duplicate ids**
 
 Run: `node -e "const d = JSON.parse(require('fs').readFileSync('data/web-dev.json','utf8')); const ids = d.tools.map(t => t.id); const dupes = ids.filter((id, i) => ids.indexOf(id) !== i); if (dupes.length) { console.error('Duplicate ids:', dupes); process.exit(1); } console.log(ids.length, 'unique ids');"`
 Expected: prints the tool count with no duplicate-id error. Fix any duplicates in `data/web-dev.json` and re-run if it fails.
 
-- [ ] **Step 4: Validate the build**
+- [x] **Step 4: Validate the build**
 
 Run: `npm run generate`
 Expected: exits 0, no thrown error referencing `web-dev`.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add data/web-dev.json data/web-dev/
@@ -457,26 +457,26 @@ Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>"
 9. GitOps
 10. Package & Artifact Management
 
-- [ ] **Step 1: Curate the tool list**
+- [x] **Step 1: Curate the tool list**
 
 Same process as Task 2 Step 1, applied to these 10 categories. Write `data/devops-infra.json`.
 
-- [ ] **Step 2: Enrich with real star counts and logos**
+- [x] **Step 2: Enrich with real star counts and logos**
 
 Run: `node scripts/enrich-domain.mjs data/devops-infra.json`
 Expected: same as Task 2 Step 2, substituting `devops-infra`.
 
-- [ ] **Step 3: Check for duplicate ids**
+- [x] **Step 3: Check for duplicate ids**
 
 Run: `node -e "const d = JSON.parse(require('fs').readFileSync('data/devops-infra.json','utf8')); const ids = d.tools.map(t => t.id); const dupes = ids.filter((id, i) => ids.indexOf(id) !== i); if (dupes.length) { console.error('Duplicate ids:', dupes); process.exit(1); } console.log(ids.length, 'unique ids');"`
 Expected: same as Task 2 Step 3.
 
-- [ ] **Step 4: Validate the build**
+- [x] **Step 4: Validate the build**
 
 Run: `npm run generate`
 Expected: exits 0, no thrown error referencing `devops-infra`.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add data/devops-infra.json data/devops-infra/
@@ -514,26 +514,26 @@ Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>"
 9. Container & Cloud Security
 10. Forensics & Reverse Engineering
 
-- [ ] **Step 1: Curate the tool list**
+- [x] **Step 1: Curate the tool list**
 
 Same process as Task 2 Step 1, applied to these 10 categories. Write `data/security.json`. These are legitimate, well-known open-source security research/testing tools (e.g. network scanners, SIEM platforms, static analyzers) — the same class of project already covered by security review and pentesting tooling documentation; do not substitute in unrelated or fictional projects.
 
-- [ ] **Step 2: Enrich with real star counts and logos**
+- [x] **Step 2: Enrich with real star counts and logos**
 
 Run: `node scripts/enrich-domain.mjs data/security.json`
 Expected: same as Task 2 Step 2, substituting `security`.
 
-- [ ] **Step 3: Check for duplicate ids**
+- [x] **Step 3: Check for duplicate ids**
 
 Run: `node -e "const d = JSON.parse(require('fs').readFileSync('data/security.json','utf8')); const ids = d.tools.map(t => t.id); const dupes = ids.filter((id, i) => ids.indexOf(id) !== i); if (dupes.length) { console.error('Duplicate ids:', dupes); process.exit(1); } console.log(ids.length, 'unique ids');"`
 Expected: same as Task 2 Step 3.
 
-- [ ] **Step 4: Validate the build**
+- [x] **Step 4: Validate the build**
 
 Run: `npm run generate`
 Expected: exits 0, no thrown error referencing `security`.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add data/security.json data/security/
@@ -571,26 +571,26 @@ Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>"
 9. CI/CD & Distribution
 10. Analytics & Crash Reporting
 
-- [ ] **Step 1: Curate the tool list**
+- [x] **Step 1: Curate the tool list**
 
 Same process as Task 2 Step 1, applied to these 10 categories. Write `data/mobile-dev.json`.
 
-- [ ] **Step 2: Enrich with real star counts and logos**
+- [x] **Step 2: Enrich with real star counts and logos**
 
 Run: `node scripts/enrich-domain.mjs data/mobile-dev.json`
 Expected: same as Task 2 Step 2, substituting `mobile-dev`.
 
-- [ ] **Step 3: Check for duplicate ids**
+- [x] **Step 3: Check for duplicate ids**
 
 Run: `node -e "const d = JSON.parse(require('fs').readFileSync('data/mobile-dev.json','utf8')); const ids = d.tools.map(t => t.id); const dupes = ids.filter((id, i) => ids.indexOf(id) !== i); if (dupes.length) { console.error('Duplicate ids:', dupes); process.exit(1); } console.log(ids.length, 'unique ids');"`
 Expected: same as Task 2 Step 3.
 
-- [ ] **Step 4: Validate the build**
+- [x] **Step 4: Validate the build**
 
 Run: `npm run generate`
 Expected: exits 0, no thrown error referencing `mobile-dev`.
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add data/mobile-dev.json data/mobile-dev/
@@ -609,12 +609,12 @@ Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>"
 **Interfaces:**
 - Consumes: `data/web-dev.json`, `data/devops-infra.json`, `data/security.json`, `data/mobile-dev.json`, and their `images/` directories from Tasks 2-5; `scripts/generate.mjs` (unmodified, existing).
 
-- [ ] **Step 1: Run the full test suite**
+- [x] **Step 1: Run the full test suite**
 
 Run: `npm test`
 Expected: PASS — all existing tests (`build-tree`, `layout`, `render-page`, `resolve-image`, `enrich-domain`) still green; domain content isn't exercised by these tests directly, but a passing suite confirms Task 1's script didn't regress anything.
 
-- [ ] **Step 2: Regenerate the full site**
+- [x] **Step 2: Regenerate the full site**
 
 Run: `npm run generate`
 Expected: exits 0. Confirm all six domains produced output:
@@ -625,12 +625,12 @@ ls dist/ | grep -E '^(data-science|web-dev|devops-infra|security|mobile-dev)$'
 
 Expected: all five directories listed (plus `data-science`, unchanged from before this plan).
 
-- [ ] **Step 3: Spot-check the landing page**
+- [x] **Step 3: Spot-check the landing page**
 
 Run: `grep -o '<a href="[^"]*"' dist/index.html | sort -u`
 Expected: links to all five domain pages present (`./data-science/`, `./web-dev/`, `./devops-infra/`, `./security/`, `./mobile-dev/`, or `/techmap/...` equivalents depending on `BASE_PATH`).
 
-- [ ] **Step 4: Spot-check one generated domain page renders real content**
+- [x] **Step 4: Spot-check one generated domain page renders real content**
 
 Run: `grep -c '"id"' data/web-dev.json data/devops-infra.json data/security.json data/mobile-dev.json`
 Expected: each file reports a count in the ~40-50 range (matching the spec's target density).

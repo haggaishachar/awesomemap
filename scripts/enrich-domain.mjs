@@ -66,6 +66,42 @@ export async function enrichTool(tool, { getJson, downloadFile }, imagesDir) {
   return enriched;
 }
 
+/**
+ * Default retry predicate: retries network-level exceptions (no `.status`,
+ * e.g. `fetch` throwing on a connection failure) and 5xx server responses.
+ * Does NOT retry 4xx responses (a 404 or 401 won't succeed on retry).
+ */
+export function defaultIsRetryable(err) {
+  if (typeof err.status === "number") return err.status >= 500;
+  return true;
+}
+
+const realSleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+/**
+ * Calls `fn` and retries on failure up to `attempts` total tries, using
+ * `isRetryable` to decide whether a given error is worth retrying and
+ * `sleep` (injectable, defaults to a real setTimeout-based delay) to wait
+ * `delayMs` between attempts. Rethrows the last error once attempts are
+ * exhausted, or immediately if an error is not retryable.
+ */
+export async function withRetry(
+  fn,
+  { attempts = 3, delayMs = 200, isRetryable = defaultIsRetryable, sleep = realSleep } = {},
+) {
+  let lastErr;
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    try {
+      return await fn();
+    } catch (err) {
+      lastErr = err;
+      if (attempt === attempts || !isRetryable(err)) throw err;
+      await sleep(delayMs);
+    }
+  }
+  throw lastErr;
+}
+
 // CLI entry point: node scripts/enrich-domain.mjs data/<slug>.json
 import { readFileSync, writeFileSync, mkdirSync, readdirSync } from "node:fs";
 import { execFileSync } from "node:child_process";
@@ -81,17 +117,18 @@ async function main() {
   const imagesDir = domainPath.replace(/\.json$/, "/images");
   mkdirSync(imagesDir, { recursive: true });
 
-  const getJson = async (url) => {
-    const res = await fetch(url, {
-      headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json" },
+  const getJson = (url) =>
+    withRetry(async () => {
+      const res = await fetch(url, {
+        headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json" },
+      });
+      if (!res.ok) {
+        const err = new Error(`${res.status} ${res.statusText} for ${url}`);
+        err.status = res.status;
+        throw err;
+      }
+      return res.json();
     });
-    if (!res.ok) {
-      const err = new Error(`${res.status} ${res.statusText} for ${url}`);
-      err.status = res.status;
-      throw err;
-    }
-    return res.json();
-  };
 
   const downloadFile = async (url, dest) => {
     const res = await fetch(url);
@@ -103,19 +140,28 @@ async function main() {
   const domain = JSON.parse(readFileSync(domainPath, "utf8"));
   let starsFetched = 0;
   let logosFound = 0;
+  let failed = 0;
   const enrichedTools = [];
 
   for (const tool of domain.tools) {
     const before = new Set(readdirSync(imagesDir));
-    const enriched = await enrichTool(tool, { getJson, downloadFile }, imagesDir);
-    if (enriched.weight !== undefined) starsFetched += 1;
+    try {
+      const enriched = await enrichTool(tool, { getJson, downloadFile }, imagesDir);
+      if (enriched.weight !== undefined) starsFetched += 1;
+      enrichedTools.push(enriched);
+    } catch (err) {
+      failed += 1;
+      console.error(`Warning: failed to enrich tool "${tool.id}": ${err.message}`);
+      enrichedTools.push(tool);
+    }
     const after = new Set(readdirSync(imagesDir));
     if (after.size > before.size) logosFound += 1;
-    enrichedTools.push(enriched);
   }
 
   writeFileSync(domainPath, JSON.stringify({ ...domain, tools: enrichedTools }, null, 2) + "\n");
-  console.log(`${domainPath}: ${starsFetched}/${domain.tools.length} weights fetched, ${logosFound} logos downloaded`);
+  console.log(
+    `${domainPath}: ${starsFetched}/${domain.tools.length} weights fetched, ${failed} failed, ${logosFound} logos downloaded`,
+  );
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {

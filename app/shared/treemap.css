@@ -18,9 +18,16 @@
     --color-text-muted: #a3a7b3;
     --color-accent: #6fa0e6;
     --color-accent-soft: rgba(111, 160, 230, 0.16);
-    --color-border: #2c303a;
+    --color-border: #3a3f4c;
     --shadow-sm: 0 1px 4px rgba(0, 0, 0, 0.4);
     --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .treemap-logo,
+  .detail-panel-logo {
+    background: #fff;
+    border-radius: 4px;
+    padding: 2px;
   }
 }
 
@@ -153,6 +160,13 @@ body {
   color: var(--color-accent);
 }
 
+.detail-panel-gh-button {
+  display: block;
+  margin-top: 12px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
 .hero {
   position: relative;
   overflow: hidden;
@@ -232,8 +246,7 @@ body {
   line-height: 1.5;
 }
 
-.map-index,
-.map-not-found {
+.map-index {
   box-sizing: border-box;
   max-width: 960px;
   margin: 40px auto 64px;
@@ -273,7 +286,7 @@ body {
   box-shadow: var(--shadow-md);
 }
 
-.map-card h2 {
+.map-card h3 {
   margin: 0 0 8px;
   font-size: 16px;
   color: var(--color-accent);

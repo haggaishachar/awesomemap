@@ -72,7 +72,7 @@ export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", baseP
     .map(
       (domain) => `
         <a class="map-card" href="${basePath}/${escapeHtml(domain.slug)}/">
-          <h2>${escapeHtml(domain.name)}</h2>
+          <h3>${escapeHtml(domain.name)}</h3>
           <p>${escapeHtml(domain.description ?? "")}</p>
         </a>`
     )

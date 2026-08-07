@@ -1,21 +1,48 @@
+:root {
+  --color-bg: #f4f4f6;
+  --color-surface: #ffffff;
+  --color-text: #1a1a1a;
+  --color-text-muted: #555555;
+  --color-accent: #2b5fad;
+  --color-accent-soft: rgba(43, 95, 173, 0.12);
+  --color-border: #e2e2e6;
+  --shadow-sm: 0 1px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #14161c;
+    --color-surface: #1e2129;
+    --color-text: #edeef2;
+    --color-text-muted: #a3a7b3;
+    --color-accent: #6fa0e6;
+    --color-accent-soft: rgba(111, 160, 230, 0.16);
+    --color-border: #2c303a;
+    --shadow-sm: 0 1px 4px rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.5);
+  }
+}
+
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
-  background: #f4f4f6;
+  background: var(--color-bg);
+  color: var(--color-text);
 }
 
 .treemap-stage {
   position: relative;
   margin: 24px auto;
-  background: #fff;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-sm);
 }
 
 .treemap-box {
   position: absolute;
   box-sizing: border-box;
   overflow: hidden;
-  border: 1px solid #fff;
+  border: 1px solid var(--color-surface);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +51,7 @@ body {
 }
 
 .treemap-category {
-  background: #dce3f0;
+  background: var(--color-accent-soft);
   align-items: flex-start;
   justify-content: flex-start;
   padding: 4px 6px;
@@ -32,15 +59,15 @@ body {
 }
 
 .treemap-leaf {
-  background: #ffffff;
-  border: 1px solid #ccc;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
   cursor: pointer;
   padding: 4px;
 }
 
 .treemap-label {
   font-size: 12px;
-  color: #222;
+  color: var(--color-text);
 }
 
 .treemap-logo {
@@ -53,7 +80,7 @@ body {
 .treemap-logo-fallback {
   font-size: 20px;
   font-weight: bold;
-  color: #888;
+  color: var(--color-text-muted);
   margin-bottom: 4px;
 }
 
@@ -66,20 +93,20 @@ body {
 .treemap-crumb {
   background: none;
   border: none;
-  color: #2b5fad;
+  color: var(--color-accent);
   cursor: pointer;
   font: inherit;
   padding: 2px 4px;
 }
 
 .treemap-crumb:disabled {
-  color: #333;
+  color: var(--color-text);
   cursor: default;
   font-weight: 600;
 }
 
 .treemap-crumb-sep {
-  color: #888;
+  color: var(--color-text-muted);
 }
 
 .detail-panel {
@@ -88,8 +115,8 @@ body {
   right: 0;
   width: 320px;
   height: 100%;
-  background: #fff;
-  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.2);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-md);
   padding: 20px;
   box-sizing: border-box;
   transform: translateX(100%);
@@ -108,6 +135,7 @@ body {
   font-size: 22px;
   background: none;
   border: none;
+  color: var(--color-text);
   cursor: pointer;
 }
 
@@ -122,42 +150,139 @@ body {
 .detail-panel-link {
   display: inline-block;
   margin-top: 12px;
+  color: var(--color-accent);
 }
 
-.map-index, .map-not-found {
-  max-width: 600px;
-  margin: 60px auto;
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 72px 24px 56px;
   text-align: center;
+  background: linear-gradient(180deg, var(--color-accent-soft), transparent);
+}
+
+.hero-motif {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.hero-rect {
+  position: absolute;
+  border-radius: 12px;
+  background: var(--color-accent);
+  opacity: 0.08;
+}
+
+.hero-rect-1 {
+  width: 220px;
+  height: 140px;
+  top: -30px;
+  left: 8%;
+  transform: rotate(-6deg);
+}
+
+.hero-rect-2 {
+  width: 160px;
+  height: 160px;
+  top: 40px;
+  right: 10%;
+  opacity: 0.12;
+  transform: rotate(10deg);
+}
+
+.hero-rect-3 {
+  width: 120px;
+  height: 90px;
+  bottom: -20px;
+  left: 22%;
+  opacity: 0.1;
+  transform: rotate(4deg);
+}
+
+.hero-rect-4 {
+  width: 90px;
+  height: 90px;
+  bottom: 10px;
+  right: 22%;
+  opacity: 0.14;
+  transform: rotate(-12deg);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: clamp(2.5rem, 6vw, 3.5rem);
+  font-weight: 700;
+  color: var(--color-text);
+  letter-spacing: -0.02em;
+}
+
+.hero-tagline {
+  margin: 16px 0 0;
+  font-size: 1.05rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+.map-index,
+.map-not-found {
+  box-sizing: border-box;
+  max-width: 960px;
+  margin: 40px auto 64px;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.map-index-heading {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0 0 16px;
 }
 
 .map-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 16px;
-  margin-top: 24px;
   text-align: left;
 }
 
 .map-card {
   display: block;
   padding: 16px;
-  border-radius: 8px;
-  background: #fff;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background: var(--color-surface);
+  box-shadow: var(--shadow-sm);
   text-decoration: none;
   color: inherit;
+  transition: transform 0.15s ease-out, box-shadow 0.15s ease-out;
+}
+
+.map-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
 }
 
 .map-card h2 {
   margin: 0 0 8px;
   font-size: 16px;
-  color: #2b5fad;
+  color: var(--color-accent);
 }
 
 .map-card p {
   margin: 0;
   font-size: 13px;
-  color: #555;
+  color: var(--color-text-muted);
 }
 
 .back-link {
@@ -167,6 +292,6 @@ body {
 }
 
 .back-link a {
-  color: #2b5fad;
+  color: var(--color-accent);
   text-decoration: none;
 }

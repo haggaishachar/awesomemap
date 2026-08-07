@@ -72,14 +72,26 @@ export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", baseP
     .map(
       (domain) => `
         <a class="map-card" href="${basePath}/${escapeHtml(domain.slug)}/">
-          <h2>${escapeHtml(domain.name)}</h2>
+          <h3>${escapeHtml(domain.name)}</h3>
           <p>${escapeHtml(domain.description ?? "")}</p>
         </a>`
     )
     .join("");
   const body = `
+    <header class="hero">
+      <div class="hero-motif" aria-hidden="true">
+        <span class="hero-rect hero-rect-1"></span>
+        <span class="hero-rect hero-rect-2"></span>
+        <span class="hero-rect hero-rect-3"></span>
+        <span class="hero-rect hero-rect-4"></span>
+      </div>
+      <div class="hero-content">
+        <h1>techmap</h1>
+        <p class="hero-tagline">Interactive, zoomable maps of open-source tool ecosystems — sized by adoption, explorable by category.</p>
+      </div>
+    </header>
     <div class="map-index">
-      <h1>techmap</h1>
+      <h2 class="map-index-heading">Explore the maps</h2>
       <div class="map-grid">${cards}</div>
     </div>
   `;

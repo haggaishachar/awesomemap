@@ -60,10 +60,9 @@ Add `data/<slug>.json`:
       "description": "One-line description shown on the landing page.",
       "tools": [
         {
-          "id": "some-tool",
+          "id": "owner/repo",
           "path": ["Category Name"],
           "name": "Some Tool",
-          "gh": "https://github.com/owner/repo",
           "link": "https://example.com",
           "desc": "What it does.",
           "weight": 1000
@@ -71,13 +70,18 @@ Add `data/<slug>.json`:
       ]
     }
 
-- `id` and `path` are required on every tool. `path` is the breadcrumb of
-  category names from root to the tool (a single-level category is a
-  one-element array; deeper nesting is a longer array).
-- `name`, `desc`, `link`, `gh`, and `weight` may be omitted.
+- `id` and `path` are required on every tool, and `id` doubles as the
+  tool's GitHub repo — it's always `owner/repo` (github.com only, so the
+  host isn't repeated per tool), no full URL. For a tool with no public
+  GitHub repo, use any other unique string as `id`; it just won't be
+  enriched (see below), so give it `weight` yourself. `path` is the
+  breadcrumb of category names from root to the tool (a single-level
+  category is a one-element array; deeper nesting is a longer array).
+- `name`, `desc`, `link`, and `weight` may be omitted.
 - Logos aren't stored in this repo. Set `image` on the tool to a direct
   URL into its source (e.g. a `raw.githubusercontent.com` link) and it's
   hotlinked as-is; `node scripts/enrich-domain.mjs data/<slug>.json` fills
-  this in automatically from the repo's logo file, when `gh` is set.
+  this in automatically from the repo's logo file, when `id` is an
+  owner/repo shorthand.
 
 Run `npm run generate` to confirm it builds before opening a PR.

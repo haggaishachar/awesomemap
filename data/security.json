@@ -4,561 +4,510 @@
   "description": "Scanning, exploitation, SIEM, secrets management, forensics, and more.",
   "tools": [
     {
-      "id": "Nmap",
+      "id": "nmap/nmap",
       "path": [
         "Network Scanning & Recon"
       ],
-      "gh": "https://github.com/nmap/nmap",
       "link": "https://nmap.org/",
       "name": "Nmap",
       "desc": "The Network Mapper - free network discovery and security auditing utility",
       "weight": 13314
     },
     {
-      "id": "Masscan",
+      "id": "robertdavidgraham/masscan",
       "path": [
         "Network Scanning & Recon"
       ],
-      "gh": "https://github.com/robertdavidgraham/masscan",
       "link": "https://github.com/robertdavidgraham/masscan",
       "name": "Masscan",
       "desc": "TCP port scanner that spews SYN packets asynchronously, scanning the entire Internet in under 5 minutes",
       "weight": 25912
     },
     {
-      "id": "ZMap",
+      "id": "zmap/zmap",
       "path": [
         "Network Scanning & Recon"
       ],
-      "gh": "https://github.com/zmap/zmap",
       "link": "https://zmap.io/",
       "name": "ZMap",
       "desc": "A fast single-packet network scanner designed for Internet-wide network surveys",
       "weight": 6347
     },
     {
-      "id": "Amass",
+      "id": "owasp-amass/amass",
       "path": [
         "Network Scanning & Recon"
       ],
-      "gh": "https://github.com/owasp-amass/amass",
       "link": "https://owasp.org/www-project-amass/",
       "name": "Amass",
       "desc": "In-depth attack surface mapping and asset discovery",
       "weight": 14942
     },
     {
-      "id": "Recon-ng",
+      "id": "lanmaster53/recon-ng",
       "path": [
         "Network Scanning & Recon"
       ],
-      "gh": "https://github.com/lanmaster53/recon-ng",
       "link": "https://github.com/lanmaster53/recon-ng",
       "name": "Recon-ng",
       "desc": "Open source intelligence gathering tool aimed at reducing the time spent harvesting information from open sources",
       "weight": 5828
     },
     {
-      "id": "theHarvester",
+      "id": "laramies/theHarvester",
       "path": [
         "Network Scanning & Recon"
       ],
-      "gh": "https://github.com/laramies/theHarvester",
       "link": "https://github.com/laramies/theHarvester",
       "name": "theHarvester",
       "desc": "E-mails, subdomains and names harvester - OSINT reconnaissance tool",
       "weight": 16978
     },
     {
-      "id": "OpenVASScanner",
+      "id": "greenbone/openvas-scanner",
       "path": [
         "Vulnerability Scanning"
       ],
-      "gh": "https://github.com/greenbone/openvas-scanner",
       "link": "https://www.greenbone.net/en/community-edition/",
       "name": "OpenVAS Scanner",
       "desc": "The scanner component of Greenbone Community Edition, a full-featured vulnerability scanning engine",
       "weight": 4758
     },
     {
-      "id": "Nikto",
+      "id": "sullo/nikto",
       "path": [
         "Vulnerability Scanning"
       ],
-      "gh": "https://github.com/sullo/nikto",
       "link": "https://cirt.net/Nikto2",
       "name": "Nikto",
       "desc": "Web server scanner that tests for dangerous files, outdated software, and other vulnerabilities",
       "weight": 10632
     },
     {
-      "id": "Nuclei",
+      "id": "projectdiscovery/nuclei",
       "path": [
         "Vulnerability Scanning"
       ],
-      "gh": "https://github.com/projectdiscovery/nuclei",
       "link": "https://nuclei.projectdiscovery.io/",
       "name": "Nuclei",
       "desc": "Fast, template-based vulnerability scanner for applications, APIs, networks, DNS, and cloud configurations",
       "weight": 30352
     },
     {
-      "id": "Wapiti",
+      "id": "wapiti-scanner/wapiti",
       "path": [
         "Vulnerability Scanning"
       ],
-      "gh": "https://github.com/wapiti-scanner/wapiti",
       "link": "https://wapiti-scanner.github.io/",
       "name": "Wapiti",
       "desc": "Web application vulnerability scanner written in Python",
       "weight": 1834
     },
     {
-      "id": "OWASPZAP",
+      "id": "zaproxy/zaproxy",
       "path": [
         "Web App Security"
       ],
-      "gh": "https://github.com/zaproxy/zaproxy",
       "link": "https://www.zaproxy.org/",
       "name": "OWASP ZAP",
       "desc": "The world's most widely used web application scanner and intercepting proxy",
       "weight": 15542
     },
     {
-      "id": "sqlmap",
+      "id": "sqlmapproject/sqlmap",
       "path": [
         "Web App Security"
       ],
-      "gh": "https://github.com/sqlmapproject/sqlmap",
       "link": "https://sqlmap.org/",
       "name": "sqlmap",
       "desc": "Automatic SQL injection and database takeover tool",
       "weight": 38122
     },
     {
-      "id": "Dalfox",
+      "id": "hahwul/dalfox",
       "path": [
         "Web App Security"
       ],
-      "gh": "https://github.com/hahwul/dalfox",
       "link": "https://dalfox.hahwul.com/",
       "name": "Dalfox",
       "desc": "Powerful open source XSS scanner and parameter analysis tool focused on automation",
       "weight": 5208
     },
     {
-      "id": "Wfuzz",
+      "id": "xmendez/wfuzz",
       "path": [
         "Web App Security"
       ],
-      "gh": "https://github.com/xmendez/wfuzz",
       "link": "https://github.com/xmendez/wfuzz",
       "name": "Wfuzz",
       "desc": "Web application fuzzer for brute-forcing parameters, forms, and directories",
       "weight": 6548
     },
     {
-      "id": "ffuf",
+      "id": "ffuf/ffuf",
       "path": [
         "Web App Security"
       ],
-      "gh": "https://github.com/ffuf/ffuf",
       "link": "https://github.com/ffuf/ffuf",
       "name": "ffuf",
       "desc": "Fast web fuzzer written in Go",
       "weight": 16499
     },
     {
-      "id": "Metasploit",
+      "id": "rapid7/metasploit-framework",
       "path": [
         "Exploitation Frameworks"
       ],
-      "gh": "https://github.com/rapid7/metasploit-framework",
       "link": "https://www.metasploit.com/",
       "name": "Metasploit Framework",
       "desc": "Penetration testing and exploit development framework",
       "weight": 38756
     },
     {
-      "id": "BeEF",
+      "id": "beefproject/beef",
       "path": [
         "Exploitation Frameworks"
       ],
-      "gh": "https://github.com/beefproject/beef",
       "link": "https://beefproject.com/",
       "name": "BeEF",
       "desc": "The Browser Exploitation Framework, focused on assessing web browser security",
       "weight": 10968
     },
     {
-      "id": "Empire",
+      "id": "BC-SECURITY/Empire",
       "path": [
         "Exploitation Frameworks"
       ],
-      "gh": "https://github.com/BC-SECURITY/Empire",
       "link": "https://github.com/BC-SECURITY/Empire",
       "name": "Empire",
       "desc": "Post-exploitation and adversary emulation framework used by red teams and penetration testers",
       "weight": 5242
     },
     {
-      "id": "Sliver",
+      "id": "BishopFox/sliver",
       "path": [
         "Exploitation Frameworks"
       ],
-      "gh": "https://github.com/BishopFox/sliver",
       "link": "https://sliver.sh/",
       "name": "Sliver",
       "desc": "Open source adversary emulation and cross-platform command & control framework",
       "weight": 11645
     },
     {
-      "id": "Wazuh",
+      "id": "wazuh/wazuh",
       "path": [
         "SIEM & Threat Detection"
       ],
-      "gh": "https://github.com/wazuh/wazuh",
       "link": "https://wazuh.com/",
       "name": "Wazuh",
       "desc": "Open source security platform providing unified XDR and SIEM protection for endpoints and cloud workloads",
       "weight": 16450
     },
     {
-      "id": "OSSEC",
+      "id": "ossec/ossec-hids",
       "path": [
         "SIEM & Threat Detection"
       ],
-      "gh": "https://github.com/ossec/ossec-hids",
       "link": "https://www.ossec.net/",
       "name": "OSSEC",
       "desc": "Open source host-based intrusion detection system with log analysis, file integrity checking, and rootkit detection",
       "weight": 5043
     },
     {
-      "id": "Suricata",
+      "id": "OISF/suricata",
       "path": [
         "SIEM & Threat Detection"
       ],
-      "gh": "https://github.com/OISF/suricata",
       "link": "https://suricata.io/",
       "name": "Suricata",
       "desc": "Network intrusion detection, prevention, and security monitoring engine",
       "weight": 6522
     },
     {
-      "id": "Zeek",
+      "id": "zeek/zeek",
       "path": [
         "SIEM & Threat Detection"
       ],
-      "gh": "https://github.com/zeek/zeek",
       "link": "https://zeek.org/",
       "name": "Zeek",
       "desc": "Powerful network analysis framework focused on security monitoring",
       "weight": 7850
     },
     {
-      "id": "SecurityOnion",
+      "id": "Security-Onion-Solutions/securityonion",
       "path": [
         "SIEM & Threat Detection"
       ],
-      "gh": "https://github.com/Security-Onion-Solutions/securityonion",
       "link": "https://securityonionsolutions.com/",
       "name": "Security Onion",
       "desc": "Free and open platform for threat hunting, enterprise security monitoring, and log management",
       "weight": 4792
     },
     {
-      "id": "JohnTheRipper",
+      "id": "openwall/john",
       "path": [
         "Password & Credential Auditing"
       ],
-      "gh": "https://github.com/openwall/john",
       "link": "https://www.openwall.com/john/",
       "name": "John the Ripper",
       "desc": "Advanced offline password cracker supporting hundreds of hash and cipher types",
       "weight": 13476
     },
     {
-      "id": "Hashcat",
+      "id": "hashcat/hashcat",
       "path": [
         "Password & Credential Auditing"
       ],
-      "gh": "https://github.com/hashcat/hashcat",
       "link": "https://hashcat.net/hashcat/",
       "name": "Hashcat",
       "desc": "World's fastest and most advanced password recovery utility",
       "weight": 26494
     },
     {
-      "id": "THCHydra",
+      "id": "vanhauser-thc/thc-hydra",
       "path": [
         "Password & Credential Auditing"
       ],
-      "gh": "https://github.com/vanhauser-thc/thc-hydra",
       "link": "https://github.com/vanhauser-thc/thc-hydra",
       "name": "THC-Hydra",
       "desc": "Parallelized login cracker supporting numerous protocols to attack",
       "weight": 12129
     },
     {
-      "id": "NetExec",
+      "id": "Pennyw0rth/NetExec",
       "path": [
         "Password & Credential Auditing"
       ],
-      "gh": "https://github.com/Pennyw0rth/NetExec",
       "link": "https://www.netexec.wiki/",
       "name": "NetExec",
       "desc": "Network service exploitation tool for credential auditing across Active Directory environments",
       "weight": 5752
     },
     {
-      "id": "Medusa",
+      "id": "jmk-foofus/medusa",
       "path": [
         "Password & Credential Auditing"
       ],
-      "gh": "https://github.com/jmk-foofus/medusa",
       "link": "http://foofus.net/goons/jmk/medusa/medusa.html",
       "name": "Medusa",
       "desc": "Speedy, parallel, and modular login brute-forcer",
       "weight": 879
     },
     {
-      "id": "Semgrep",
+      "id": "semgrep/semgrep",
       "path": [
         "Static & Dynamic Analysis"
       ],
-      "gh": "https://github.com/semgrep/semgrep",
       "link": "https://semgrep.dev/",
       "name": "Semgrep",
       "desc": "Lightweight static analysis tool for finding bugs and enforcing code standards across many languages",
       "weight": 16138
     },
     {
-      "id": "Bandit",
+      "id": "PyCQA/bandit",
       "path": [
         "Static & Dynamic Analysis"
       ],
-      "gh": "https://github.com/PyCQA/bandit",
       "link": "https://bandit.readthedocs.io/",
       "name": "Bandit",
       "desc": "Tool designed to find common security issues in Python code",
       "weight": 8200
     },
     {
-      "id": "Brakeman",
+      "id": "presidentbeef/brakeman",
       "path": [
         "Static & Dynamic Analysis"
       ],
-      "gh": "https://github.com/presidentbeef/brakeman",
       "link": "https://brakemanscanner.org/",
       "name": "Brakeman",
       "desc": "Static analysis security vulnerability scanner for Ruby on Rails applications",
       "weight": 7261
     },
     {
-      "id": "CodeQL",
+      "id": "github/codeql",
       "path": [
         "Static & Dynamic Analysis"
       ],
-      "gh": "https://github.com/github/codeql",
       "link": "https://codeql.github.com/",
       "name": "CodeQL",
       "desc": "Libraries and queries that power semantic code analysis for security research and code scanning",
       "weight": 9913
     },
     {
-      "id": "SonarQube",
+      "id": "SonarSource/sonarqube",
       "path": [
         "Static & Dynamic Analysis"
       ],
-      "gh": "https://github.com/SonarSource/sonarqube",
       "link": "https://www.sonarsource.com/products/sonarqube/",
       "name": "SonarQube",
       "desc": "Continuous inspection platform for code quality and security analysis",
       "weight": 10875
     },
     {
-      "id": "HashiCorpVault",
+      "id": "hashicorp/vault",
       "path": [
         "Secrets Management"
       ],
-      "gh": "https://github.com/hashicorp/vault",
       "link": "https://www.vaultproject.io/",
       "name": "HashiCorp Vault",
       "desc": "Tool for secrets management, encryption as a service, and privileged access management",
       "weight": 36080
     },
     {
-      "id": "git-secrets",
+      "id": "awslabs/git-secrets",
       "path": [
         "Secrets Management"
       ],
-      "gh": "https://github.com/awslabs/git-secrets",
       "link": "https://github.com/awslabs/git-secrets",
       "name": "git-secrets",
       "desc": "Prevents you from committing secrets and credentials into git repositories",
       "weight": 13365
     },
     {
-      "id": "Gitleaks",
+      "id": "gitleaks/gitleaks",
       "path": [
         "Secrets Management"
       ],
-      "gh": "https://github.com/gitleaks/gitleaks",
       "link": "https://github.com/gitleaks/gitleaks",
       "name": "Gitleaks",
       "desc": "Scans git repositories, filesystems, and directories for hardcoded secrets and credentials",
       "weight": 28518
     },
     {
-      "id": "TruffleHog",
+      "id": "trufflesecurity/trufflehog",
       "path": [
         "Secrets Management"
       ],
-      "gh": "https://github.com/trufflesecurity/trufflehog",
       "link": "https://trufflesecurity.com/trufflehog",
       "name": "TruffleHog",
       "desc": "Finds, verifies, and analyzes leaked credentials across git history and beyond",
       "weight": 27339
     },
     {
-      "id": "SOPS",
+      "id": "getsops/sops",
       "path": [
         "Secrets Management"
       ],
-      "gh": "https://github.com/getsops/sops",
       "link": "https://github.com/getsops/sops",
       "name": "SOPS",
       "desc": "Simple and flexible tool for managing and encrypting secrets in files",
       "weight": 22705
     },
     {
-      "id": "Trivy",
+      "id": "aquasecurity/trivy",
       "path": [
         "Container & Cloud Security"
       ],
-      "gh": "https://github.com/aquasecurity/trivy",
       "link": "https://trivy.dev/",
       "name": "Trivy",
       "desc": "Finds vulnerabilities, misconfigurations, secrets, and SBOMs in containers, Kubernetes, and code repositories",
       "weight": 37292
     },
     {
-      "id": "Falco",
+      "id": "falcosecurity/falco",
       "path": [
         "Container & Cloud Security"
       ],
-      "gh": "https://github.com/falcosecurity/falco",
       "link": "https://falco.org/",
       "name": "Falco",
       "desc": "Cloud-native runtime security tool for detecting anomalous activity in containers and hosts",
       "weight": 9240
     },
     {
-      "id": "Clair",
+      "id": "quay/clair",
       "path": [
         "Container & Cloud Security"
       ],
-      "gh": "https://github.com/quay/clair",
       "link": "https://quay.github.io/clair/",
       "name": "Clair",
       "desc": "Static vulnerability analysis for application containers",
       "weight": 11038
     },
     {
-      "id": "kube-bench",
+      "id": "aquasecurity/kube-bench",
       "path": [
         "Container & Cloud Security"
       ],
-      "gh": "https://github.com/aquasecurity/kube-bench",
       "link": "https://github.com/aquasecurity/kube-bench",
       "name": "kube-bench",
       "desc": "Checks whether Kubernetes is deployed according to security best practices from the CIS Kubernetes Benchmark",
       "weight": 8129
     },
     {
-      "id": "Prowler",
+      "id": "prowler-cloud/prowler",
       "path": [
         "Container & Cloud Security"
       ],
-      "gh": "https://github.com/prowler-cloud/prowler",
       "link": "https://prowler.com/",
       "name": "Prowler",
       "desc": "Open source cloud security platform that automates security and compliance checks across cloud environments",
       "weight": 14546
     },
     {
-      "id": "ScoutSuite",
+      "id": "nccgroup/ScoutSuite",
       "path": [
         "Container & Cloud Security"
       ],
-      "gh": "https://github.com/nccgroup/ScoutSuite",
       "link": "https://github.com/nccgroup/ScoutSuite",
       "name": "Scout Suite",
       "desc": "Multi-cloud security auditing tool for assessing the security posture of cloud environments",
       "weight": 7787
     },
     {
-      "id": "Ghidra",
+      "id": "NationalSecurityAgency/ghidra",
       "path": [
         "Forensics & Reverse Engineering"
       ],
-      "gh": "https://github.com/NationalSecurityAgency/ghidra",
       "link": "https://ghidra-sre.org/",
       "name": "Ghidra",
       "desc": "Software reverse engineering framework developed by the NSA",
       "weight": 72024
     },
     {
-      "id": "Radare2",
+      "id": "radareorg/radare2",
       "path": [
         "Forensics & Reverse Engineering"
       ],
-      "gh": "https://github.com/radareorg/radare2",
       "link": "https://rada.re/n/",
       "name": "Radare2",
       "desc": "UNIX-like reverse engineering framework and command-line toolset",
       "weight": 24516
     },
     {
-      "id": "Volatility3",
+      "id": "volatilityfoundation/volatility3",
       "path": [
         "Forensics & Reverse Engineering"
       ],
-      "gh": "https://github.com/volatilityfoundation/volatility3",
       "link": "https://volatilityfoundation.org/",
       "name": "Volatility 3",
       "desc": "Memory forensics framework for extracting digital artifacts from volatile memory samples",
       "weight": 4305
     },
     {
-      "id": "Autopsy",
+      "id": "sleuthkit/autopsy",
       "path": [
         "Forensics & Reverse Engineering"
       ],
-      "gh": "https://github.com/sleuthkit/autopsy",
       "link": "https://www.autopsy.com/",
       "name": "Autopsy",
       "desc": "Digital forensics platform and graphical interface to The Sleuth Kit and other forensics tools",
       "weight": 3273
     },
     {
-      "id": "SleuthKit",
+      "id": "sleuthkit/sleuthkit",
       "path": [
         "Forensics & Reverse Engineering"
       ],
-      "gh": "https://github.com/sleuthkit/sleuthkit",
       "link": "https://www.sleuthkit.org/",
       "name": "The Sleuth Kit",
       "desc": "Library and collection of command line digital forensics tools for investigating volume and file system data",
       "weight": 3122
     },
     {
-      "id": "x64dbg",
+      "id": "x64dbg/x64dbg",
       "path": [
         "Forensics & Reverse Engineering"
       ],
-      "gh": "https://github.com/x64dbg/x64dbg",
       "link": "https://x64dbg.com/",
       "name": "x64dbg",
       "desc": "Open source user mode debugger for Windows, optimized for reverse engineering and malware analysis",

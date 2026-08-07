@@ -14,20 +14,17 @@ export const LOGO_CANDIDATE_PATHS = [
 ];
 
 /**
- * Extracts { owner, repo } from a github.com repo URL. Tolerates a
- * trailing slash, a trailing .git, and subpaths beyond owner/repo
- * (e.g. /tree/main/packages). Returns null for anything else.
+ * Extracts { owner, repo } from a "owner/repo" shorthand (the `id` field's
+ * format — always github.com, so the host isn't repeated per tool). Every
+ * tool's `id` is its GitHub repo, doubling as its unique identifier.
+ * Tolerates a trailing slash and a trailing .git. Returns null for
+ * anything else, including a full URL (write the shorthand instead) or a
+ * path with extra segments.
  */
-export function parseGhRepo(url) {
-  let parsed;
-  try {
-    parsed = new URL(url);
-  } catch {
-    return null;
-  }
-  if (parsed.hostname !== "github.com") return null;
-  const segments = parsed.pathname.split("/").filter(Boolean);
-  if (segments.length < 2) return null;
+export function parseGhRepo(shorthand) {
+  if (typeof shorthand !== "string") return null;
+  const segments = shorthand.split("/").filter(Boolean);
+  if (segments.length !== 2) return null;
   const [owner, repoRaw] = segments;
   const repo = repoRaw.endsWith(".git") ? repoRaw.slice(0, -4) : repoRaw;
   if (!owner || !repo) return null;
@@ -39,11 +36,11 @@ export function parseGhRepo(url) {
  * `weight` set to its GitHub repo's live star count and, if a logo
  * candidate is found, `image` set to that file's direct raw.githubusercontent.com
  * URL (served straight from the source repo — never downloaded or stored
- * in this repo). Tools without a parseable `gh` URL are returned
- * unchanged; no network calls are made for them.
+ * in this repo). Tools whose `id` isn't a parseable owner/repo shorthand
+ * are returned unchanged; no network calls are made for them.
  */
 export async function enrichTool(tool, { getJson }) {
-  const repo = parseGhRepo(tool.gh);
+  const repo = parseGhRepo(tool.id);
   if (!repo) return tool;
 
   const repoData = await getJson(`https://api.github.com/repos/${repo.owner}/${repo.repo}`);
@@ -106,17 +103,17 @@ export async function withRetry(
 /**
  * Given the post-enrichment tool list, returns the ids of tools that should
  * have received a real star-count `weight` from `enrichTool` (i.e. those
- * with a parseable `gh` URL) but didn't: `weight` is missing, not a number,
- * not an integer, or not strictly positive. Tools without a parseable `gh`
- * URL are never enriched and are intentionally excluded — that's expected
- * behavior, not a failure. Pure and side-effect free so it can be unit
- * tested directly; `main()` calls this after the enrichment loop and fails
- * loudly if it returns anything.
+ * whose `id` is a parseable owner/repo shorthand) but didn't: `weight` is
+ * missing, not a number, not an integer, or not strictly positive. Tools
+ * whose `id` isn't parseable are never enriched and are intentionally
+ * excluded — that's expected behavior, not a failure. Pure and
+ * side-effect free so it can be unit tested directly; `main()` calls this
+ * after the enrichment loop and fails loudly if it returns anything.
  */
 export function findInvalidWeights(tools) {
   const bad = [];
   for (const tool of tools) {
-    if (!parseGhRepo(tool.gh)) continue;
+    if (!parseGhRepo(tool.id)) continue;
     const { weight } = tool;
     if (typeof weight !== "number" || !Number.isInteger(weight) || weight <= 0) {
       bad.push(tool.id);
@@ -184,7 +181,7 @@ async function main() {
   const invalidWeightIds = findInvalidWeights(enrichedTools);
   if (invalidWeightIds.length > 0) {
     console.error(
-      `Error: ${invalidWeightIds.length} tool(s) with a gh URL did not end up with a real positive integer weight: ${invalidWeightIds.join(", ")}`,
+      `Error: ${invalidWeightIds.length} tool(s) did not end up with a real positive integer weight: ${invalidWeightIds.join(", ")}`,
     );
     process.exit(1);
   }

@@ -10,40 +10,41 @@ import {
   findInvalidWeights,
 } from "../scripts/enrich-domain.mjs";
 
-test("parseGhRepo extracts owner/repo from a plain github.com URL", () => {
-  assert.deepEqual(parseGhRepo("https://github.com/scikit-learn/scikit-learn"), {
+test("parseGhRepo extracts owner/repo from the shorthand", () => {
+  assert.deepEqual(parseGhRepo("scikit-learn/scikit-learn"), {
     owner: "scikit-learn",
     repo: "scikit-learn",
   });
 });
 
 test("parseGhRepo strips a trailing slash", () => {
-  assert.deepEqual(parseGhRepo("https://github.com/facebook/react/"), {
+  assert.deepEqual(parseGhRepo("facebook/react/"), {
     owner: "facebook",
     repo: "react",
   });
 });
 
 test("parseGhRepo strips a trailing .git", () => {
-  assert.deepEqual(parseGhRepo("https://github.com/facebook/react.git"), {
+  assert.deepEqual(parseGhRepo("facebook/react.git"), {
     owner: "facebook",
     repo: "react",
   });
 });
 
-test("parseGhRepo ignores subpaths beyond owner/repo", () => {
-  assert.deepEqual(parseGhRepo("https://github.com/facebook/react/tree/main/packages"), {
-    owner: "facebook",
-    repo: "react",
-  });
+test("parseGhRepo returns null for a full URL (write the owner/repo shorthand instead)", () => {
+  assert.equal(parseGhRepo("https://github.com/facebook/react"), null);
 });
 
-test("parseGhRepo returns null for a non-github.com URL", () => {
-  assert.equal(parseGhRepo("https://gitlab.com/foo/bar"), null);
+test("parseGhRepo returns null for a path with extra segments beyond owner/repo", () => {
+  assert.equal(parseGhRepo("facebook/react/tree/main/packages"), null);
 });
 
-test("parseGhRepo returns null for a malformed URL", () => {
-  assert.equal(parseGhRepo("not a url"), null);
+test("parseGhRepo returns null for a bare owner with no repo", () => {
+  assert.equal(parseGhRepo("facebook"), null);
+});
+
+test("parseGhRepo returns null for a non-string value", () => {
+  assert.equal(parseGhRepo(undefined), null);
 });
 
 function fakeGetJson({ repoStars, contentsByPath }) {
@@ -63,18 +64,18 @@ function fakeGetJson({ repoStars, contentsByPath }) {
 }
 
 test("enrichTool sets weight from the repo's star count", async () => {
-  const tool = { id: "react", gh: "https://github.com/facebook/react" };
+  const tool = { id: "facebook/react" };
   const getJson = fakeGetJson({ repoStars: 12345, contentsByPath: {} });
 
   const result = await enrichTool(tool, { getJson });
 
   assert.equal(result.weight, 12345);
-  assert.equal(result.id, "react");
+  assert.equal(result.id, "facebook/react");
   assert.equal(result.image, undefined);
 });
 
 test("enrichTool sets image to the first matching logo candidate's direct URL", async () => {
-  const tool = { id: "react", gh: "https://github.com/facebook/react" };
+  const tool = { id: "facebook/react" };
   const getJson = fakeGetJson({
     repoStars: 12345,
     contentsByPath: {
@@ -90,7 +91,7 @@ test("enrichTool sets image to the first matching logo candidate's direct URL", 
 });
 
 test("enrichTool leaves image unset when no candidate path exists", async () => {
-  const tool = { id: "react", gh: "https://github.com/facebook/react" };
+  const tool = { id: "facebook/react" };
   const getJson = fakeGetJson({ repoStars: 12345, contentsByPath: {} });
 
   const result = await enrichTool(tool, { getJson });
@@ -99,7 +100,7 @@ test("enrichTool leaves image unset when no candidate path exists", async () => 
   assert.equal(result.image, undefined);
 });
 
-test("enrichTool leaves a tool with no gh URL unchanged", async () => {
+test("enrichTool leaves a tool whose id isn't an owner/repo shorthand unchanged", async () => {
   const tool = { id: "unlisted", desc: "no repo" };
   const getJson = async () => {
     throw new Error("should not be called");
@@ -280,32 +281,32 @@ test("withRetry rejects attempts < 1 with a clear error instead of silently retu
 
 // findInvalidWeights: the post-enrichment guard that would have caught the
 // earlier draft of mobile-dev.json shipping with every weight stuck at 0.
-test("findInvalidWeights returns an empty list when every gh-linked tool has a valid weight", () => {
+test("findInvalidWeights returns an empty list when every repo-linked tool has a valid weight", () => {
   const tools = [
-    { id: "a", gh: "https://github.com/facebook/react", weight: 12345 },
-    { id: "b", gh: "https://github.com/vuejs/vue", weight: 1 },
-    { id: "c", desc: "no gh url at all" },
+    { id: "facebook/react", weight: 12345 },
+    { id: "vuejs/vue", weight: 1 },
+    { id: "c", desc: "no repo at all" },
   ];
 
   assert.deepEqual(findInvalidWeights(tools), []);
 });
 
-test("findInvalidWeights flags a gh-linked tool whose weight is 0", () => {
+test("findInvalidWeights flags a repo-linked tool whose weight is 0", () => {
   const tools = [
-    { id: "a", gh: "https://github.com/facebook/react", weight: 12345 },
-    { id: "zero-weight", gh: "https://github.com/some/repo", weight: 0 },
+    { id: "facebook/react", weight: 12345 },
+    { id: "zero-weight/repo", weight: 0 },
   ];
 
-  assert.deepEqual(findInvalidWeights(tools), ["zero-weight"]);
+  assert.deepEqual(findInvalidWeights(tools), ["zero-weight/repo"]);
 });
 
-test("findInvalidWeights flags a gh-linked tool whose weight is undefined", () => {
-  const tools = [{ id: "no-weight", gh: "https://github.com/some/repo" }];
+test("findInvalidWeights flags a repo-linked tool whose weight is undefined", () => {
+  const tools = [{ id: "no-weight/repo" }];
 
-  assert.deepEqual(findInvalidWeights(tools), ["no-weight"]);
+  assert.deepEqual(findInvalidWeights(tools), ["no-weight/repo"]);
 });
 
-test("findInvalidWeights does not flag a tool with no gh URL even without a weight", () => {
+test("findInvalidWeights does not flag a tool whose id isn't an owner/repo shorthand, even without a weight", () => {
   const tools = [{ id: "unlisted", desc: "no repo, never enriched, no weight expected" }];
 
   assert.deepEqual(findInvalidWeights(tools), []);
@@ -313,10 +314,10 @@ test("findInvalidWeights does not flag a tool with no gh URL even without a weig
 
 test("findInvalidWeights flags non-integer and negative weights too", () => {
   const tools = [
-    { id: "fractional", gh: "https://github.com/some/repo", weight: 4.5 },
-    { id: "negative", gh: "https://github.com/some/other-repo", weight: -1 },
-    { id: "not-a-number", gh: "https://github.com/some/third-repo", weight: "12345" },
+    { id: "fractional/repo", weight: 4.5 },
+    { id: "negative/repo", weight: -1 },
+    { id: "not-a-number/repo", weight: "12345" },
   ];
 
-  assert.deepEqual(findInvalidWeights(tools), ["fractional", "negative", "not-a-number"]);
+  assert.deepEqual(findInvalidWeights(tools), ["fractional/repo", "negative/repo", "not-a-number/repo"]);
 });

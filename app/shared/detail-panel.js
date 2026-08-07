@@ -43,10 +43,10 @@ export function createDetailPanel(container) {
       panel.appendChild(desc);
     }
 
-    if (leafData.gh) {
+    if (leafData.id) {
       const ghFrame = document.createElement("iframe");
       ghFrame.className = "detail-panel-gh-button";
-      ghFrame.src = githubStarButtonUrl(leafData.gh);
+      ghFrame.src = githubStarButtonUrl(leafData.id);
       ghFrame.width = "170";
       ghFrame.height = "30";
       ghFrame.frameBorder = "0";
@@ -72,12 +72,12 @@ export function createDetailPanel(container) {
 }
 
 /**
- * Builds a ghbtns.com star-count button URL from a github.com repo URL.
- * Using the iframe embed (rather than the buttons.github.io script, which
- * only scans the DOM once at page load) works correctly for buttons added
- * dynamically after the page has loaded.
+ * Builds a ghbtns.com star-count button URL from a "owner/repo" shorthand
+ * (the `id` field's format). Using the iframe embed (rather than the
+ * buttons.github.io script, which only scans the DOM once at page load)
+ * works correctly for buttons added dynamically after the page has loaded.
  */
-function githubStarButtonUrl(repoUrl) {
-  const [, user, repo] = new URL(repoUrl).pathname.split("/");
+function githubStarButtonUrl(repoShorthand) {
+  const [user, repo] = repoShorthand.split("/");
   return `https://ghbtns.com/github-btn.html?user=${user}&repo=${repo}&type=star&count=true`;
 }

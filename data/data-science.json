@@ -4,11 +4,10 @@
   "description": "Machine learning, deep learning, NLP, computer vision, and more.",
   "tools": [
     {
-      "id": "scikit-learn",
+      "id": "scikit-learn/scikit-learn",
       "path": [
         "Classic Machine Learning"
       ],
-      "gh": "https://github.com/scikit-learn/scikit-learn",
       "link": "https://scikit-learn.org/stable/",
       "name": "SciKit Learn",
       "desc": "Machine Learning in Python",
@@ -16,11 +15,10 @@
       "image": "https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/doc/logos/scikit-learn-logo.png"
     },
     {
-      "id": "XGBoost",
+      "id": "dmlc/xgboost",
       "path": [
         "Classic Machine Learning"
       ],
-      "gh": "https://github.com/dmlc/xgboost",
       "link": "https://xgboost.ai/",
       "name": "XGBoost",
       "desc": "Scalable and Flexible Gradient Boosting",
@@ -28,11 +26,10 @@
       "image": "https://xgboost.ai/images/logo/xgboost-logo-trimmed.png"
     },
     {
-      "id": "Accord.NET",
+      "id": "accord-net/framework",
       "path": [
         "Classic Machine Learning"
       ],
-      "gh": "https://github.com/accord-net/framework",
       "link": "http://accord-framework.net/",
       "name": "Accord.NET",
       "desc": "Machine learning, computer vision, statistics for .NET",
@@ -40,11 +37,10 @@
       "image": "https://avatars.githubusercontent.com/u/5102613?v=4"
     },
     {
-      "id": "TensorFlow",
+      "id": "tensorflow/tensorflow",
       "path": [
         "Deep Learning"
       ],
-      "gh": "https://github.com/tensorflow/tensorflow",
       "link": "https://www.tensorflow.org/",
       "name": "TensorFlow",
       "desc": "An end-to-end open source machine learning platform",
@@ -52,11 +48,10 @@
       "image": "https://www.tensorflow.org/images/tf_logo_horizontal.png"
     },
     {
-      "id": "Sonnet",
+      "id": "deepmind/sonnet",
       "path": [
         "Deep Learning"
       ],
-      "gh": "https://github.com/deepmind/sonnet",
       "link": "https://sonnet.dev/",
       "name": "Sonnet",
       "desc": "TensorFlow-based neural network library",
@@ -64,11 +59,10 @@
       "image": "https://sonnet.dev/images/sonnet_logo.png"
     },
     {
-      "id": "PyTorch",
+      "id": "pytorch/pytorch",
       "path": [
         "Deep Learning"
       ],
-      "gh": "https://github.com/pytorch/pytorch",
       "link": "https://pytorch.org/",
       "name": "PyTorch",
       "desc": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
@@ -76,11 +70,10 @@
       "image": "https://raw.githubusercontent.com/pytorch/pytorch/main/docs/source/_static/img/pytorch-logo-dark.png"
     },
     {
-      "id": "MXNet",
+      "id": "apache/incubator-mxnet",
       "path": [
         "Deep Learning"
       ],
-      "gh": "https://github.com/apache/incubator-mxnet",
       "link": "https://mxnet.apache.org/",
       "name": "MXNet",
       "desc": "Lightweight, Portable, Flexible Distributed/Mobile Deep Learning",
@@ -88,11 +81,10 @@
       "image": "https://raw.githubusercontent.com/dmlc/web-data/master/mxnet/image/mxnet_logo_2.png"
     },
     {
-      "id": "dl4j",
+      "id": "eclipse/deeplearning4j",
       "path": [
         "Deep Learning"
       ],
-      "gh": "https://github.com/eclipse/deeplearning4j",
       "link": "https://deeplearning4j.org/",
       "name": "DL4j",
       "desc": "Open-source, distributed, deep learning library for the JVM",
@@ -100,11 +92,10 @@
       "image": "https://www.zeljkoobrenovic.com/tools/tech/images/eclipse_deeplearning4j.png"
     },
     {
-      "id": "Gym",
+      "id": "openai/gym",
       "path": [
         "Reinforment Learning"
       ],
-      "gh": "https://github.com/openai/gym",
       "link": "https://gym.openai.com/",
       "name": "Gym",
       "desc": "A toolkit for developing and comparing reinforcement learning algorithms",
@@ -112,11 +103,10 @@
       "image": "https://gymlibrary.dev/assets/gym_logo_black.svg"
     },
     {
-      "id": "Dopamine",
+      "id": "google/dopamine",
       "path": [
         "Reinforment Learning"
       ],
-      "gh": "https://github.com/google/dopamine",
       "link": "https://github.com/google/dopamine",
       "name": "Dopamine",
       "desc": "a research framework for fast prototyping of reinforcement learning algorithms.",
@@ -124,11 +114,10 @@
       "image": "https://google.github.io/dopamine/images/dopamine_logo.png"
     },
     {
-      "id": "ReAgent",
+      "id": "facebookresearch/ReAgent",
       "path": [
         "Reinforment Learning"
       ],
-      "gh": "https://github.com/facebookresearch/ReAgent",
       "link": "https://reagent.ai/",
       "name": "ReAgent",
       "desc": "A platform for Reasoning systems (Reinforcement Learning, Contextual Bandits, etc.)",
@@ -136,11 +125,10 @@
       "image": "https://raw.githubusercontent.com/facebookresearch/ReAgent/main/logo/reagent_banner.png"
     },
     {
-      "id": "Tensorlayer",
+      "id": "tensorlayer/tensorlayer",
       "path": [
         "Reinforment Learning"
       ],
-      "gh": "https://github.com/tensorlayer/tensorlayer",
       "link": "http://tensorlayer.org",
       "name": "Tensorlayer",
       "desc": "Deep Learning and Reinforcement Learning Library for Scientists",
@@ -148,22 +136,20 @@
       "image": "https://raw.githubusercontent.com/tensorlayer/tensorlayer/master/img/tl_transparent_logo.png"
     },
     {
-      "id": "BERT",
+      "id": "google-research/bert",
       "path": [
         "Natural Language Processing"
       ],
-      "gh": "https://github.com/google-research/bert",
       "link": "https://github.com/google-research/bert",
       "name": "BERT",
       "desc": "A new method of pre-training language representations which obtains state-of-the-art results on a wide array of Natural Language Processing (NLP) tasks",
       "weight": 40052
     },
     {
-      "id": "transformers",
+      "id": "huggingface/transformers",
       "path": [
         "Natural Language Processing"
       ],
-      "gh": "https://github.com/huggingface/transformers",
       "link": "https://huggingface.co/transformers/",
       "name": "Transformers",
       "desc": "State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch",
@@ -171,11 +157,10 @@
       "image": "https://huggingface.co/datasets/huggingface/documentation-images/raw/main/transformers-logo-light.svg"
     },
     {
-      "id": "AllenNLP",
+      "id": "allenai/allennlp",
       "path": [
         "Natural Language Processing"
       ],
-      "gh": "https://github.com/allenai/allennlp",
       "link": "https://github.com/allenai/allennlp",
       "name": "AllenNLP",
       "desc": "An open-source NLP research library, built on PyTorch.",
@@ -183,11 +168,10 @@
       "image": "https://raw.githubusercontent.com/allenai/allennlp/main/docs/img/allennlp-logo-dark.png"
     },
     {
-      "id": "flair",
+      "id": "flairNLP/flair",
       "path": [
         "Natural Language Processing"
       ],
-      "gh": "https://github.com/flairNLP/flair",
       "link": "https://github.com/flairNLP/flair",
       "name": "flair",
       "desc": "A very simple framework for state-of-the-art Natural Language Processing (NLP)",
@@ -195,11 +179,10 @@
       "image": "https://raw.githubusercontent.com/flairNLP/flair/master/resources/docs/flair_logo_2020_FINAL_day_dpi72.png"
     },
     {
-      "id": "spaCy",
+      "id": "explosion/spaCy",
       "path": [
         "Natural Language Processing"
       ],
-      "gh": "https://github.com/explosion/spaCy",
       "link": "https://spacy.io",
       "name": "spaCy",
       "desc": "Industrial-Strength Natural Language Processing",
@@ -207,11 +190,10 @@
       "image": "https://raw.githubusercontent.com/explosion/spaCy/master/website/src/images/icon.png"
     },
     {
-      "id": "fastText",
+      "id": "facebookresearch/fastText",
       "path": [
         "Natural Language Processing"
       ],
-      "gh": "https://github.com/facebookresearch/fastText",
       "link": "https://fasttext.cc",
       "name": "fastText",
       "desc": "Library for efficient text classification and representation learning",
@@ -219,11 +201,10 @@
       "image": "https://fasttext.cc/img/fasttext-logo-color-web.png"
     },
     {
-      "id": "Kaldi",
+      "id": "kaldi-asr/kaldi",
       "path": [
         "Speech Recognition"
       ],
-      "gh": "https://github.com/kaldi-asr/kaldi",
       "link": "https://kaldi-asr.org",
       "name": "Kaldi",
       "desc": "Kaldi is a toolkit for speech recognition",
@@ -231,33 +212,30 @@
       "image": "https://kaldi-asr.org/kaldi_logo.png"
     },
     {
-      "id": "DeepSpeech",
+      "id": "mozilla/DeepSpeech",
       "path": [
         "Speech Recognition"
       ],
-      "gh": "https://github.com/mozilla/DeepSpeech",
       "link": "https://github.com/mozilla/DeepSpeech",
       "name": "DeepSpeech",
       "desc": "A TensorFlow implementation of Baidu's DeepSpeech architecture",
       "weight": 26772
     },
     {
-      "id": "wav2letter",
+      "id": "facebookresearch/wav2letter",
       "path": [
         "Speech Recognition"
       ],
-      "gh": "https://github.com/facebookresearch/wav2letter",
       "link": "https://github.com/facebookresearch/wav2letter",
       "name": "wav2letter",
       "desc": "Facebook AI Research's Automatic Speech Recognition Toolkit",
       "weight": 6440
     },
     {
-      "id": "YOLO",
+      "id": "pjreddie/darknet",
       "path": [
         "Computer Vision"
       ],
-      "gh": "https://github.com/pjreddie/darknet",
       "link": "https://pjreddie.com/darknet/yolo/",
       "name": "YOLO",
       "desc": "Real-Time Object Detection",
@@ -265,11 +243,10 @@
       "image": "https://pjreddie.com/static/img/yologo.png"
     },
     {
-      "id": "OpenCV",
+      "id": "opencv/opencv",
       "path": [
         "Computer Vision"
       ],
-      "gh": "https://github.com/opencv/opencv",
       "link": "https://opencv.org/",
       "name": "OpenCV",
       "desc": "Open Source Computer Vision Library",
@@ -277,11 +254,10 @@
       "image": "https://opencv.org/wp-content/uploads/2022/07/OpenCV-logo.png"
     },
     {
-      "id": "Detectron2",
+      "id": "facebookresearch/detectron2",
       "path": [
         "Computer Vision"
       ],
-      "gh": "https://github.com/facebookresearch/detectron2",
       "link": "https://github.com/facebookresearch/detectron2",
       "name": "Detectron2",
       "desc": "Detectron2 is FAIR's next-generation research platform for object detection.",
@@ -289,11 +265,10 @@
       "image": "https://raw.githubusercontent.com/facebookresearch/detectron2/main/.github/Detectron2-Logo-Horz.svg"
     },
     {
-      "id": "openpose",
+      "id": "CMU-Perceptual-Computing-Lab/openpose",
       "path": [
         "Computer Vision"
       ],
-      "gh": "https://github.com/CMU-Perceptual-Computing-Lab/openpose",
       "link": "https://github.com/CMU-Perceptual-Computing-Lab/openpose",
       "name": "OpenPose",
       "desc": "Real-time multi-person keypoint detection library for body, face, hands, and foot estimation",
@@ -301,22 +276,20 @@
       "image": "https://raw.githubusercontent.com/CMU-Perceptual-Computing-Lab/openpose/master/.github/Logo_main_black.png"
     },
     {
-      "id": "facenet",
+      "id": "davidsandberg/facenet",
       "path": [
         "Computer Vision"
       ],
-      "gh": "https://github.com/davidsandberg/facenet",
       "link": "https://github.com/davidsandberg/facenet",
       "name": "facenet",
       "desc": "Face recognition using Tensorflow",
       "weight": 14374
     },
     {
-      "id": "SparkMLlib",
+      "id": "apache/spark",
       "path": [
         "Distributed Training"
       ],
-      "gh": "https://github.com/apache/spark",
       "link": "https://spark.apache.org/mllib/",
       "name": "Spark MLlib",
       "desc": "Apache Spark's scalable machine learning library.",
@@ -324,11 +297,10 @@
       "image": "https://spark.apache.org/images/spark-logo-rev.svg"
     },
     {
-      "id": "Mahout",
+      "id": "apache/mahout",
       "path": [
         "Distributed Training"
       ],
-      "gh": "https://github.com/apache/mahout",
       "link": "http://mahout.apache.org/",
       "name": "Mahout",
       "desc": "For Creating Scalable Performant Machine Learning Applications",
@@ -336,11 +308,10 @@
       "image": "https://mahout.apache.org/img/mahout-logo-white.svg"
     },
     {
-      "id": "Horovod",
+      "id": "horovod/horovod",
       "path": [
         "Distributed Training"
       ],
-      "gh": "https://github.com/horovod/horovod",
       "link": "https://eng.uber.com/horovod/",
       "name": "Horovod",
       "desc": "Uber's Open Source Distributed Deep Learning Framework for TensorFlow",
@@ -348,11 +319,10 @@
       "image": "https://user-images.githubusercontent.com/16640218/34506318-84d0c06c-efe0-11e7-8831-0425772ed8f2.png"
     },
     {
-      "id": "Dask",
+      "id": "dask/dask",
       "path": [
         "Distributed Training"
       ],
-      "gh": "https://github.com/dask/dask",
       "link": "https://dask.org/",
       "name": "Dask",
       "desc": "Advanced parallelism for analytics, enabling performance at scale for the tools you love",
@@ -360,11 +330,10 @@
       "image": "https://cdn.prod.website-files.com/655926fa24195711dbf38624/655926fa24195711dbf38653_dask-header-logo.svg"
     },
     {
-      "id": "Ray",
+      "id": "ray-project/ray",
       "path": [
         "Distributed Training"
       ],
-      "gh": "https://github.com/ray-project/ray",
       "link": "https://ray.io/",
       "name": "Ray",
       "desc": "A fast and simple framework for building and running distributed applications",
@@ -372,11 +341,10 @@
       "image": "https://raw.githubusercontent.com/ray-project/ray/master/doc/source/images/ray_header_logo.png"
     },
     {
-      "id": "TPOT",
+      "id": "EpistasisLab/tpot",
       "path": [
         "AutoML"
       ],
-      "gh": "https://github.com/EpistasisLab/tpot",
       "link": "https://epistasislab.github.io/tpot/",
       "name": "TPOT",
       "desc": "A Python Automated Machine Learning.",
@@ -384,11 +352,10 @@
       "image": "https://raw.githubusercontent.com/EpistasisLab/tpot/master/images/tpot-logo.jpg"
     },
     {
-      "id": "AutoKeras",
+      "id": "keras-team/autokeras",
       "path": [
         "AutoML"
       ],
-      "gh": "https://github.com/keras-team/autokeras",
       "link": "https://autokeras.com/",
       "name": "AutoKeras",
       "desc": "Accessible AutoML for deep learning.",
@@ -396,11 +363,10 @@
       "image": "https://autokeras.com/img/row_red.svg"
     },
     {
-      "id": "Featuretools",
+      "id": "FeatureLabs/featuretools",
       "path": [
         "AutoML"
       ],
-      "gh": "https://github.com/FeatureLabs/featuretools",
       "link": "https://www.featuretools.com/",
       "name": "Featuretools",
       "desc": "An open source python framework for automated feature engineering",
@@ -408,11 +374,10 @@
       "image": "https://featuretools.alteryx.com/en/stable/_static/featuretools_nav2.svg"
     },
     {
-      "id": "NNI",
+      "id": "microsoft/nni",
       "path": [
         "AutoML"
       ],
-      "gh": "https://github.com/microsoft/nni",
       "link": "https://github.com/microsoft/nni",
       "name": "NNI",
       "desc": "An open source AutoML toolkit for neural nets hyper-parameter tuning.",
@@ -420,11 +385,10 @@
       "image": "https://raw.githubusercontent.com/microsoft/nni/master/docs/img/nni_logo.png"
     },
     {
-      "id": "adanet",
+      "id": "tensorflow/adanet",
       "path": [
         "AutoML"
       ],
-      "gh": "https://github.com/tensorflow/adanet",
       "link": "https://adanet.readthedocs.io",
       "name": "AdaNet",
       "desc": "Fast and flexible AutoML with learning guarantees",
@@ -432,11 +396,10 @@
       "image": "https://tensorflow.github.io/adanet/images/adanet_tangram_logo.png"
     },
     {
-      "id": "jupyter",
+      "id": "jupyter/jupyter",
       "path": [
         "IDEs"
       ],
-      "gh": "https://github.com/jupyter/jupyter",
       "link": "https://jupyter.org/",
       "name": "Jupyter",
       "desc": "Interactive computing across dozens of programming languages.",
@@ -444,11 +407,10 @@
       "image": "https://jupyter.org/assets/homepage/main-logo.svg"
     },
     {
-      "id": "Spyder",
+      "id": "spyder-ide/spyder",
       "path": [
         "IDEs"
       ],
-      "gh": "https://github.com/spyder-ide/spyder",
       "link": "https://www.spyder-ide.org/",
       "name": "Spyder",
       "desc": "The Scientific Python Development Environment",
@@ -456,11 +418,10 @@
       "image": "https://raw.githubusercontent.com/spyder-ide/spyder/master/branding/logo/spyder_readme_banner.png"
     },
     {
-      "id": "Zeppelin",
+      "id": "apache/zeppelin",
       "path": [
         "IDEs"
       ],
-      "gh": "https://github.com/apache/zeppelin",
       "link": "https://zeppelin.apache.org/",
       "name": "Zeppelin",
       "desc": "Web-based notebook that enables data-driven, interactive data analytics.",
@@ -468,11 +429,10 @@
       "image": "https://raw.githubusercontent.com/apache/zeppelin/master/docs/assets/themes/zeppelin/img/zeppelin_logo.png"
     },
     {
-      "id": "H2O",
+      "id": "h2oai/h2o-3",
       "path": [
         "Platforms"
       ],
-      "gh": "https://github.com/h2oai/h2o-3",
       "link": "https://www.h2o.ai/",
       "name": "H2O",
       "desc": "Fast Scalable Machine Learning For Smarter Applications",
@@ -480,11 +440,10 @@
       "image": "https://www.h2o.ai/content/experience-fragments/h2o/us/en/site/header/master/_jcr_content/root/container/header_copy/logo.coreimg.svg/1782337746232/h2o-logo.svg"
     },
     {
-      "id": "mlflow",
+      "id": "mlflow/mlflow",
       "path": [
         "Platforms"
       ],
-      "gh": "https://github.com/mlflow/mlflow",
       "link": "https://mlflow.org/",
       "name": "MLflow",
       "desc": "An open source platform for the machine learning lifecycle",
@@ -492,11 +451,10 @@
       "image": "https://raw.githubusercontent.com/mlflow/mlflow/master/assets/logo.svg"
     },
     {
-      "id": "Kubeflow",
+      "id": "kubeflow/kubeflow",
       "path": [
         "Platforms"
       ],
-      "gh": "https://github.com/kubeflow/kubeflow",
       "link": "https://www.kubeflow.org/",
       "name": "Kubeflow",
       "desc": "The Machine Learning Toolkit for Kubernetes",
@@ -504,11 +462,10 @@
       "image": "https://raw.githubusercontent.com/kubeflow/kubeflow/master/logo/stacked.svg"
     },
     {
-      "id": "ONNX",
+      "id": "onnx/onnx",
       "path": [
         "Scoring"
       ],
-      "gh": "https://github.com/onnx/onnx",
       "link": "https://onnx.ai/",
       "name": "ONNX",
       "desc": "The open ecosystem for interchangeable AI models.",
@@ -516,11 +473,10 @@
       "image": "https://raw.githubusercontent.com/onnx/onnx/main/docs/onnx-horizontal-color.png"
     },
     {
-      "id": "Seldon",
+      "id": "SeldonIO/seldon-core",
       "path": [
         "Scoring"
       ],
-      "gh": "https://github.com/SeldonIO/seldon-core",
       "link": "https://www.seldon.io/",
       "name": "Seldon",
       "desc": "Open source machine learning deployment",

@@ -30,16 +30,19 @@ where the site is actually served from:
 - `BASE_PATH` — the path prefix under which the site is served. Defaults
   to `""` (the domain root), which is what local `npm run dev`/
   `npm run generate` use — the local server serves `dist/` from `/`.
-  `haggaishachar/techmap` is a GitHub Pages *project* site, so it's
-  served at `https://haggaishachar.github.io/techmap/`, not at the
-  domain root — the deploy workflow sets `BASE_PATH=/techmap` to match.
+  `haggaishachar/TechMap` is a GitHub Pages *project* site, so it's
+  served at `https://haggaishachar.github.io/TechMap/`, not at the
+  domain root — the deploy workflow sets `BASE_PATH=/TechMap` to match.
+  GitHub Pages project-site paths are case-sensitive to the repo's exact
+  name, so this must match the repo name's casing exactly, even though
+  the repo is normally referred to in lowercase elsewhere.
 - `SITE_URL` — the absolute **origin only** (e.g.
-  `https://haggaishachar.github.io`, no `/techmap` suffix and no
+  `https://haggaishachar.github.io`, no `/TechMap` suffix and no
   trailing slash), combined with `BASE_PATH` to build absolute URLs for
   `og:image`/`og:url`, which link-preview scrapers require. Don't
-  include the `/techmap` path in `SITE_URL` itself — it's already added
+  include the `/TechMap` path in `SITE_URL` itself — it's already added
   via `BASE_PATH`, and including it in both would produce a doubled
-  `/techmap/techmap/...` URL. Unset locally (relative URLs are fine for
+  `/TechMap/TechMap/...` URL. Unset locally (relative URLs are fine for
   local dev); set by the deploy workflow in production.
 
 This is an explicit, documented choice, not a hidden assumption — if you

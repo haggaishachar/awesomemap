@@ -23,7 +23,8 @@
       "link": "https://docs.docker.com/compose/",
       "name": "Docker Compose",
       "desc": "Define and run multi-container applications with Docker",
-      "weight": 38027
+      "weight": 38027,
+      "image": "https://raw.githubusercontent.com/docker/compose/main/logo.png"
     },
     {
       "id": "containerd",
@@ -34,7 +35,7 @@
       "link": "https://containerd.io/",
       "name": "containerd",
       "desc": "An industry-standard container runtime with an emphasis on simplicity, robustness, and portability",
-      "weight": 21073
+      "weight": 21074
     },
     {
       "id": "podman",
@@ -45,7 +46,7 @@
       "link": "https://podman.io/",
       "name": "Podman",
       "desc": "A daemonless container engine for developing, managing, and running OCI containers",
-      "weight": 32468
+      "weight": 32471
     },
     {
       "id": "buildah",
@@ -67,7 +68,7 @@
       "link": "https://kubernetes.io/",
       "name": "Kubernetes",
       "desc": "Production-grade container orchestration",
-      "weight": 124337
+      "weight": 124343
     },
     {
       "id": "swarmkit",
@@ -89,7 +90,7 @@
       "link": "https://www.nomadproject.io/",
       "name": "Nomad",
       "desc": "A simple and flexible workload orchestrator to deploy and manage containers and non-containerized applications",
-      "weight": 16782
+      "weight": 16783
     },
     {
       "id": "rancher",
@@ -100,7 +101,7 @@
       "link": "https://www.rancher.com/",
       "name": "Rancher",
       "desc": "Complete container management platform for Kubernetes",
-      "weight": 25829
+      "weight": 25828
     },
     {
       "id": "k3s",
@@ -111,7 +112,7 @@
       "link": "https://k3s.io/",
       "name": "K3s",
       "desc": "Lightweight Kubernetes distribution built for edge, IoT, and CI",
-      "weight": 33683
+      "weight": 33686
     },
     {
       "id": "jenkins",
@@ -122,7 +123,7 @@
       "link": "https://www.jenkins.io/",
       "name": "Jenkins",
       "desc": "An extensible open source automation server",
-      "weight": 26429
+      "weight": 26432
     },
     {
       "id": "woodpecker-ci",
@@ -144,7 +145,7 @@
       "link": "https://concourse-ci.org/",
       "name": "Concourse",
       "desc": "A container-based continuous thing-doer",
-      "weight": 7877
+      "weight": 7878
     },
     {
       "id": "tekton-pipeline",
@@ -155,7 +156,7 @@
       "link": "https://tekton.dev/",
       "name": "Tekton Pipelines",
       "desc": "Kubernetes-native, cloud-native CI/CD pipelines",
-      "weight": 9028
+      "weight": 9030
     },
     {
       "id": "spinnaker",
@@ -177,7 +178,7 @@
       "link": "https://www.terraform.io/",
       "name": "Terraform",
       "desc": "Write, plan, and create infrastructure as code",
-      "weight": 49436
+      "weight": 49437
     },
     {
       "id": "opentofu",
@@ -188,7 +189,7 @@
       "link": "https://opentofu.org/",
       "name": "OpenTofu",
       "desc": "An open source, community-driven fork of Terraform",
-      "weight": 29705
+      "weight": 29708
     },
     {
       "id": "pulumi",
@@ -221,7 +222,7 @@
       "link": "https://aws.amazon.com/cdk/",
       "name": "AWS CDK",
       "desc": "An open source software development framework to define cloud infrastructure in code",
-      "weight": 12858
+      "weight": 12859
     },
     {
       "id": "ansible",
@@ -232,7 +233,7 @@
       "link": "https://www.ansible.com/",
       "name": "Ansible",
       "desc": "A radically simple IT automation platform",
-      "weight": 70246
+      "weight": 70247
     },
     {
       "id": "puppet",
@@ -287,7 +288,7 @@
       "link": "https://prometheus.io/",
       "name": "Prometheus",
       "desc": "The Prometheus monitoring system and time series database",
-      "weight": 65609
+      "weight": 65610
     },
     {
       "id": "grafana",
@@ -298,7 +299,7 @@
       "link": "https://grafana.com/",
       "name": "Grafana",
       "desc": "The open observability platform for metrics, logs, and traces",
-      "weight": 76139
+      "weight": 76146
     },
     {
       "id": "netdata",
@@ -309,7 +310,7 @@
       "link": "https://www.netdata.cloud/",
       "name": "Netdata",
       "desc": "Real-time performance monitoring, done right",
-      "weight": 80059
+      "weight": 80058
     },
     {
       "id": "zabbix",
@@ -320,7 +321,7 @@
       "link": "https://www.zabbix.com/",
       "name": "Zabbix",
       "desc": "An enterprise-class open source monitoring solution for networks and applications",
-      "weight": 6219
+      "weight": 6222
     },
     {
       "id": "victoriametrics",
@@ -331,7 +332,7 @@
       "link": "https://victoriametrics.com/",
       "name": "VictoriaMetrics",
       "desc": "Fast, cost-effective monitoring solution and time series database",
-      "weight": 17483
+      "weight": 17484
     },
     {
       "id": "logstash",
@@ -364,7 +365,7 @@
       "link": "https://fluentbit.io/",
       "name": "Fluent Bit",
       "desc": "Fast and lightweight logs and metrics processor and forwarder",
-      "weight": 8016
+      "weight": 8017
     },
     {
       "id": "loki",
@@ -375,7 +376,7 @@
       "link": "https://grafana.com/oss/loki/",
       "name": "Loki",
       "desc": "Like Prometheus, but for logs",
-      "weight": 28680
+      "weight": 28683
     },
     {
       "id": "graylog",
@@ -386,7 +387,7 @@
       "link": "https://www.graylog.org/",
       "name": "Graylog",
       "desc": "Free and open log management for centralized, streamlined log analysis",
-      "weight": 8103
+      "weight": 8104
     },
     {
       "id": "istio",
@@ -397,7 +398,7 @@
       "link": "https://istio.io/",
       "name": "Istio",
       "desc": "Connect, secure, control, and observe services",
-      "weight": 38334
+      "weight": 38336
     },
     {
       "id": "linkerd",
@@ -441,7 +442,7 @@
       "link": "https://cilium.io/",
       "name": "Cilium",
       "desc": "eBPF-based networking, observability, and security for Kubernetes",
-      "weight": 24872
+      "weight": 24875
     },
     {
       "id": "argo-cd",
@@ -452,7 +453,8 @@
       "link": "https://argo-cd.readthedocs.io/",
       "name": "Argo CD",
       "desc": "Declarative, GitOps continuous delivery tool for Kubernetes",
-      "weight": 23863
+      "weight": 23865,
+      "image": "https://raw.githubusercontent.com/argoproj/argo-cd/master/docs/assets/logo.png"
     },
     {
       "id": "flux",
@@ -474,7 +476,8 @@
       "link": "https://argoproj.github.io/workflows/",
       "name": "Argo Workflows",
       "desc": "Container-native workflow engine for orchestrating parallel jobs on Kubernetes",
-      "weight": 16880
+      "weight": 16882,
+      "image": "https://raw.githubusercontent.com/argoproj/argo-workflows/main/docs/assets/logo.png"
     },
     {
       "id": "jenkins-x",
@@ -507,7 +510,7 @@
       "link": "https://helm.sh/",
       "name": "Helm",
       "desc": "The package manager for Kubernetes",
-      "weight": 30116
+      "weight": 30119
     },
     {
       "id": "harbor",
@@ -518,7 +521,7 @@
       "link": "https://goharbor.io/",
       "name": "Harbor",
       "desc": "An open source trusted cloud native registry project that stores, signs, and scans content",
-      "weight": 29110
+      "weight": 29109
     },
     {
       "id": "nexus",
@@ -551,7 +554,7 @@
       "link": "https://goreleaser.com/",
       "name": "GoReleaser",
       "desc": "Deliver Go binaries as fast and easily as possible",
-      "weight": 15974
+      "weight": 15973
     }
   ]
 }

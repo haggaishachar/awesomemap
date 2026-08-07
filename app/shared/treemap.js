@@ -4,11 +4,12 @@ const STAGE_WIDTH = 1000;
 const STAGE_HEIGHT = 600;
 
 /**
- * Mounts a treemap for `mapData` into `container`. `imageBaseUrl` resolves
- * leaf `image` filenames. `onLeafClick(leafData)`, if given, is called when
- * a leaf box is clicked (categories zoom instead of firing this callback).
+ * Mounts a treemap for `mapData` into `container`. A leaf's `image`, when
+ * present, is already a direct URL into its source repo. `onLeafClick(leafData)`,
+ * if given, is called when a leaf box is clicked (categories zoom instead
+ * of firing this callback).
  */
-export function mountTreemap(container, mapData, imageBaseUrl, onLeafClick) {
+export function mountTreemap(container, mapData, onLeafClick) {
   const root = computeLayout(buildHierarchy(mapData), STAGE_WIDTH, STAGE_HEIGHT);
 
   container.innerHTML = "";
@@ -74,7 +75,7 @@ export function mountTreemap(container, mapData, imageBaseUrl, onLeafClick) {
     if (!node.children && node.data.image) {
       const img = document.createElement("img");
       img.className = "treemap-logo";
-      img.src = imageBaseUrl + node.data.image;
+      img.src = node.data.image;
       img.alt = node.data.name;
       img.onerror = () => img.replaceWith(renderFallbackLogo(node.data.name));
       box.insertBefore(img, label);

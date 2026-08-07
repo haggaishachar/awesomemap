@@ -36,11 +36,11 @@ function renderShell({ title, ogTitle, ogDescription, ogImage, ogUrl, base, body
 /**
  * Renders a domain's full page (or its chrome-free embed variant, when
  * `embed` is true). `domain` is { slug, name, description }. `tree` is
- * buildTree's output, with images already resolved onto each leaf.
+ * buildTree's output; each leaf's `image` (when present) is already a
+ * direct URL into the tool's source repo, ready to use as-is.
  */
 export function renderDomainPage(domain, tree, { embed = false, defaultOgImage, siteUrl = "", basePath = "" }) {
   const backLink = embed ? "" : `<p class="back-link"><a href="${basePath}/">&larr; All maps</a></p>`;
-  const imageBaseUrl = `${basePath}/${domain.slug}/images/`;
   const ogUrl = `${siteUrl}${basePath}/${domain.slug}/`;
   const body = `
     <div id="app"></div>
@@ -50,9 +50,8 @@ export function renderDomainPage(domain, tree, { embed = false, defaultOgImage, 
       import { mountTreemap } from "${basePath}/shared/treemap.js";
       import { createDetailPanel } from "${basePath}/shared/detail-panel.js";
       const mapData = JSON.parse(document.getElementById("map-data").textContent);
-      const imageBaseUrl = ${JSON.stringify(imageBaseUrl)};
-      const panel = createDetailPanel(document.body, imageBaseUrl);
-      mountTreemap(document.getElementById("app"), mapData, imageBaseUrl, (leafData) => panel.open(leafData));
+      const panel = createDetailPanel(document.body);
+      mountTreemap(document.getElementById("app"), mapData, (leafData) => panel.open(leafData));
     </script>
   `;
   return renderShell({

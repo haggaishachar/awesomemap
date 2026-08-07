@@ -75,7 +75,9 @@ Add `data/<slug>.json`:
   category names from root to the tool (a single-level category is a
   one-element array; deeper nesting is a longer array).
 - `name`, `desc`, `link`, `gh`, and `weight` may be omitted.
-- Add a logo at `data/<slug>/images/<id>.<any extension>` — it's matched
-  to the tool by id automatically, whatever format it's in.
+- Logos aren't stored in this repo. Set `image` on the tool to a direct
+  URL into its source (e.g. a `raw.githubusercontent.com` link) and it's
+  hotlinked as-is; `node scripts/enrich-domain.mjs data/<slug>.json` fills
+  this in automatically from the repo's logo file, when `gh` is set.
 
 Run `npm run generate` to confirm it builds before opening a PR.

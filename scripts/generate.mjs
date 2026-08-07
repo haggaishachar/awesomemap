@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 import { readdirSync, readFileSync, writeFileSync, mkdirSync, copyFileSync, rmSync, cpSync } from "node:fs";
 import { buildTree } from "./build-tree.mjs";
-import { resolveImage } from "./resolve-image.mjs";
 import { renderDomainPage, renderLandingPage } from "./render-page.mjs";
 
 const DATA_DIR = "data";
@@ -50,25 +49,18 @@ for (const file of domainFiles) {
     throw new Error(`${domainPath}: "tools" must be an array`);
   }
 
-  const imagesDir = `${DATA_DIR}/${slug}/images`;
-  let imageFilenames = [];
-  try {
-    imageFilenames = readdirSync(imagesDir);
-  } catch {
-    imageFilenames = [];
-  }
-
-  const resolvedTools = domain.tools.map((tool) => {
+  for (const tool of domain.tools) {
     if (!tool.id || !Array.isArray(tool.path)) {
       throw new Error(`${domainPath}: tool missing "id" or non-array "path": ${JSON.stringify(tool)}`);
     }
-    const image = resolveImage(tool.id, imageFilenames);
-    return image ? { ...tool, image } : tool;
-  });
+  }
 
-  const tree = buildTree(resolvedTools, { id: slug, name: domain.name });
+  // Tool `image` values (when present) are already direct URLs into the
+  // tool's source repo — set by `enrich-domain.mjs` — so no local
+  // resolution or copying is needed here.
+  const tree = buildTree(domain.tools, { id: slug, name: domain.name });
 
-  mkdirSync(`${DIST_DIR}/${slug}/images`, { recursive: true });
+  mkdirSync(`${DIST_DIR}/${slug}`, { recursive: true });
   mkdirSync(`${DIST_DIR}/embed/${slug}`, { recursive: true });
 
   writeFileSync(
@@ -79,10 +71,6 @@ for (const file of domainFiles) {
     `${DIST_DIR}/embed/${slug}/index.html`,
     renderDomainPage(domain, tree, { embed: true, defaultOgImage: DEFAULT_OG_IMAGE, siteUrl: SITE_URL, basePath: BASE_PATH })
   );
-
-  for (const filename of imageFilenames) {
-    copyFileSync(`${imagesDir}/${filename}`, `${DIST_DIR}/${slug}/images/${filename}`);
-  }
 
   domains.push({ slug, name: domain.name, description: domain.description ?? "" });
 }

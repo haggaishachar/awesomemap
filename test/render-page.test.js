@@ -44,14 +44,12 @@ test("BASE_PATH is prefixed onto every emitted path, and defaults to root-relati
   assert.match(rootHtml, /"d3-hierarchy": "\/vendor\/d3-hierarchy\/index.js"/);
   assert.match(rootHtml, /href="\/">&larr; All maps<\/a>/);
   assert.match(rootHtml, /import \{ mountTreemap \} from "\/shared\/treemap.js"/);
-  assert.match(rootHtml, /"\/data-science\/images\/"/);
 
   const prefixedHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
   assert.match(prefixedHtml, /href="\/techmap\/shared\/treemap.css"/);
   assert.match(prefixedHtml, /"d3-hierarchy": "\/techmap\/vendor\/d3-hierarchy\/index.js"/);
   assert.match(prefixedHtml, /href="\/techmap\/">&larr; All maps<\/a>/);
   assert.match(prefixedHtml, /import \{ mountTreemap \} from "\/techmap\/shared\/treemap.js"/);
-  assert.match(prefixedHtml, /"\/techmap\/data-science\/images\/"/);
 });
 
 test("og:image and og:url are absolute when SITE_URL is set (origin only, combined with BASE_PATH)", () => {

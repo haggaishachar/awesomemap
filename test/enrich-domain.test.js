@@ -65,17 +65,15 @@ function fakeGetJson({ repoStars, contentsByPath }) {
 test("enrichTool sets weight from the repo's star count", async () => {
   const tool = { id: "react", gh: "https://github.com/facebook/react" };
   const getJson = fakeGetJson({ repoStars: 12345, contentsByPath: {} });
-  const downloads = [];
-  const downloadFile = async (url, dest) => downloads.push({ url, dest });
 
-  const result = await enrichTool(tool, { getJson, downloadFile });
+  const result = await enrichTool(tool, { getJson });
 
   assert.equal(result.weight, 12345);
   assert.equal(result.id, "react");
-  assert.deepEqual(downloads, []);
+  assert.equal(result.image, undefined);
 });
 
-test("enrichTool downloads the first matching logo candidate", async () => {
+test("enrichTool sets image to the first matching logo candidate's direct URL", async () => {
   const tool = { id: "react", gh: "https://github.com/facebook/react" };
   const getJson = fakeGetJson({
     repoStars: 12345,
@@ -84,30 +82,21 @@ test("enrichTool downloads the first matching logo candidate", async () => {
       "logo.png": { type: "file", download_url: "https://raw.githubusercontent.com/facebook/react/main/logo.png" },
     },
   });
-  const downloads = [];
-  const downloadFile = async (url, dest) => downloads.push({ url, dest });
 
-  const result = await enrichTool(tool, { getJson, downloadFile }, "data/web-dev/images");
+  const result = await enrichTool(tool, { getJson });
 
   assert.equal(result.weight, 12345);
-  assert.deepEqual(downloads, [
-    {
-      url: "https://raw.githubusercontent.com/facebook/react/main/logo.png",
-      dest: "data/web-dev/images/react.png",
-    },
-  ]);
+  assert.equal(result.image, "https://raw.githubusercontent.com/facebook/react/main/logo.png");
 });
 
-test("enrichTool downloads nothing when no candidate path exists", async () => {
+test("enrichTool leaves image unset when no candidate path exists", async () => {
   const tool = { id: "react", gh: "https://github.com/facebook/react" };
   const getJson = fakeGetJson({ repoStars: 12345, contentsByPath: {} });
-  const downloads = [];
-  const downloadFile = async (url, dest) => downloads.push({ url, dest });
 
-  const result = await enrichTool(tool, { getJson, downloadFile }, "data/web-dev/images");
+  const result = await enrichTool(tool, { getJson });
 
   assert.equal(result.weight, 12345);
-  assert.deepEqual(downloads, []);
+  assert.equal(result.image, undefined);
 });
 
 test("enrichTool leaves a tool with no gh URL unchanged", async () => {
@@ -115,11 +104,8 @@ test("enrichTool leaves a tool with no gh URL unchanged", async () => {
   const getJson = async () => {
     throw new Error("should not be called");
   };
-  const downloadFile = async () => {
-    throw new Error("should not be called");
-  };
 
-  const result = await enrichTool(tool, { getJson, downloadFile });
+  const result = await enrichTool(tool, { getJson });
 
   assert.deepEqual(result, tool);
 });

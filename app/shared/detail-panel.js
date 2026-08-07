@@ -1,8 +1,9 @@
 /**
- * Creates a slide-in detail panel appended to `container`. `imageBaseUrl`
- * resolves the leaf's `image` filename. Returns { open(leafData), close() }.
+ * Creates a slide-in detail panel appended to `container`. A leaf's
+ * `image`, when present, is already a direct URL into its source repo.
+ * Returns { open(leafData), close() }.
  */
-export function createDetailPanel(container, imageBaseUrl) {
+export function createDetailPanel(container) {
   const panel = document.createElement("aside");
   panel.className = "detail-panel";
   container.appendChild(panel);
@@ -26,7 +27,7 @@ export function createDetailPanel(container, imageBaseUrl) {
     if (leafData.image) {
       const img = document.createElement("img");
       img.className = "detail-panel-logo";
-      img.src = imageBaseUrl + leafData.image;
+      img.src = leafData.image;
       img.alt = leafData.name;
       img.onerror = () => img.remove();
       panel.appendChild(img);

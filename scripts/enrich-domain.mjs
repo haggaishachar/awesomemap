@@ -35,13 +35,14 @@ export function parseGhRepo(url) {
 }
 
 /**
- * Given a tool and injected I/O functions, returns a new tool object with
- * `weight` set to its GitHub repo's live star count, and (as a side
- * effect) downloads the first matching logo candidate — if any — to
- * `<imagesDir>/<tool.id>.<ext>`. Tools without a parseable `gh` URL are
- * returned unchanged; no network calls are made for them.
+ * Given a tool and an injected `getJson`, returns a new tool object with
+ * `weight` set to its GitHub repo's live star count and, if a logo
+ * candidate is found, `image` set to that file's direct raw.githubusercontent.com
+ * URL (served straight from the source repo — never downloaded or stored
+ * in this repo). Tools without a parseable `gh` URL are returned
+ * unchanged; no network calls are made for them.
  */
-export async function enrichTool(tool, { getJson, downloadFile }, imagesDir) {
+export async function enrichTool(tool, { getJson }) {
   const repo = parseGhRepo(tool.gh);
   if (!repo) return tool;
 
@@ -57,8 +58,7 @@ export async function enrichTool(tool, { getJson, downloadFile }, imagesDir) {
       throw err;
     }
     if (entry && entry.type === "file" && entry.download_url) {
-      const ext = path.slice(path.lastIndexOf("."));
-      await downloadFile(entry.download_url, `${imagesDir}/${tool.id}${ext}`);
+      enriched.image = entry.download_url;
       break;
     }
   }
@@ -149,7 +149,7 @@ export function createGetJson(token, { fetchImpl = fetch, sleep } = {}) {
 }
 
 // CLI entry point: node scripts/enrich-domain.mjs data/<slug>.json
-import { readFileSync, writeFileSync, mkdirSync, readdirSync } from "node:fs";
+import { readFileSync, writeFileSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 
 async function main() {
@@ -160,17 +160,7 @@ async function main() {
   }
 
   const token = execFileSync("gh", ["auth", "token"], { encoding: "utf8" }).trim();
-  const imagesDir = domainPath.replace(/\.json$/, "/images");
-  mkdirSync(imagesDir, { recursive: true });
-
   const getJson = createGetJson(token);
-
-  const downloadFile = async (url, dest) => {
-    const res = await fetch(url);
-    if (!res.ok) throw new Error(`${res.status} downloading ${url}`);
-    const buf = Buffer.from(await res.arrayBuffer());
-    writeFileSync(dest, buf);
-  };
 
   const domain = JSON.parse(readFileSync(domainPath, "utf8"));
   let starsFetched = 0;
@@ -179,18 +169,16 @@ async function main() {
   const enrichedTools = [];
 
   for (const tool of domain.tools) {
-    const before = new Set(readdirSync(imagesDir));
     try {
-      const enriched = await enrichTool(tool, { getJson, downloadFile }, imagesDir);
+      const enriched = await enrichTool(tool, { getJson });
       if (enriched.weight !== undefined) starsFetched += 1;
+      if (enriched.image !== undefined && enriched.image !== tool.image) logosFound += 1;
       enrichedTools.push(enriched);
     } catch (err) {
       failed += 1;
       console.error(`Warning: failed to enrich tool "${tool.id}": ${err.message}`);
       enrichedTools.push(tool);
     }
-    const after = new Set(readdirSync(imagesDir));
-    if (after.size > before.size) logosFound += 1;
   }
 
   const invalidWeightIds = findInvalidWeights(enrichedTools);
@@ -203,7 +191,7 @@ async function main() {
 
   writeFileSync(domainPath, JSON.stringify({ ...domain, tools: enrichedTools }, null, 2) + "\n");
   console.log(
-    `${domainPath}: ${starsFetched}/${domain.tools.length} weights fetched, ${failed} failed, ${logosFound} logos downloaded`,
+    `${domainPath}: ${starsFetched}/${domain.tools.length} weights fetched, ${failed} failed, ${logosFound} logo URLs resolved`,
   );
 }
 

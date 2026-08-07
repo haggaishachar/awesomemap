@@ -1,6 +1,13 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { parseGhRepo, LOGO_CANDIDATE_PATHS, enrichTool, withRetry, defaultIsRetryable } from "../scripts/enrich-domain.mjs";
+import {
+  parseGhRepo,
+  LOGO_CANDIDATE_PATHS,
+  enrichTool,
+  withRetry,
+  defaultIsRetryable,
+  createGetJson,
+} from "../scripts/enrich-domain.mjs";
 
 test("parseGhRepo extracts owner/repo from a plain github.com URL", () => {
   assert.deepEqual(parseGhRepo("https://github.com/scikit-learn/scikit-learn"), {
@@ -154,7 +161,10 @@ test("withRetry succeeds after N transient (retryable) failures", async () => {
 
   assert.equal(result, "ok");
   assert.equal(callCount, 3);
-  assert.equal(sleeps.length, 2);
+  // Linear backoff: delayMs (default 200) * attempt number, one sleep per
+  // failed attempt (attempts 1 and 2 failed; attempt 3 succeeded so no
+  // trailing sleep after it).
+  assert.deepEqual(sleeps, [200, 400]);
 });
 
 test("withRetry gives up and rethrows after exhausting attempts", async () => {
@@ -168,7 +178,7 @@ test("withRetry gives up and rethrows after exhausting attempts", async () => {
 
   await assert.rejects(() => withRetry(fn, { attempts: 3, sleep: fakeSleep(sleeps) }), err502);
   assert.equal(callCount, 3);
-  assert.equal(sleeps.length, 2);
+  assert.deepEqual(sleeps, [200, 400]);
 });
 
 test("withRetry does not retry a non-retryable (4xx-style) error", async () => {
@@ -191,4 +201,84 @@ test("defaultIsRetryable retries 5xx and network-level (no status) errors, not 4
   assert.equal(defaultIsRetryable(new TypeError("fetch failed")), true);
   assert.equal(defaultIsRetryable(Object.assign(new Error(), { status: 404 })), false);
   assert.equal(defaultIsRetryable(Object.assign(new Error(), { status: 401 })), false);
+});
+
+// createGetJson builds the exact getJson used by main() in production
+// (fetch -> !res.ok check -> err.status -> withRetry). These tests exercise
+// that real composition end to end via an injected fetchImpl + sleep,
+// rather than a hand-reconstructed copy of it, so they catch regressions
+// in the actual wiring main() relies on.
+function fakeFetchSequence(outcomes) {
+  const calls = [];
+  let i = 0;
+  const fetchImpl = async (url) => {
+    const outcome = outcomes[Math.min(i, outcomes.length - 1)];
+    i += 1;
+    calls.push(url);
+    if (outcome.networkError) throw new TypeError("fetch failed (simulated network error)");
+    return {
+      ok: outcome.status < 400,
+      status: outcome.status,
+      statusText: outcome.statusText ?? "",
+      json: async () => outcome.body,
+    };
+  };
+  return { fetchImpl, calls };
+}
+
+test("createGetJson: real getJson retries a transient 502 then succeeds", async () => {
+  const { fetchImpl, calls } = fakeFetchSequence([
+    { status: 502, statusText: "Bad Gateway" },
+    { status: 502, statusText: "Bad Gateway" },
+    { status: 200, body: { stargazers_count: 4242 } },
+  ]);
+  const sleeps = [];
+  const getJson = createGetJson("fake-token", { fetchImpl, sleep: fakeSleep(sleeps) });
+
+  const result = await getJson("https://api.github.com/repos/facebook/react");
+
+  assert.deepEqual(result, { stargazers_count: 4242 });
+  assert.equal(calls.length, 3);
+  assert.deepEqual(sleeps, [200, 400]);
+});
+
+test("createGetJson: real getJson retries a thrown network exception then succeeds", async () => {
+  const { fetchImpl, calls } = fakeFetchSequence([
+    { networkError: true },
+    { status: 200, body: { stargazers_count: 99 } },
+  ]);
+  const sleeps = [];
+  const getJson = createGetJson("fake-token", { fetchImpl, sleep: fakeSleep(sleeps) });
+
+  const result = await getJson("https://api.github.com/repos/facebook/react");
+
+  assert.deepEqual(result, { stargazers_count: 99 });
+  assert.equal(calls.length, 2);
+  assert.deepEqual(sleeps, [200]);
+});
+
+test("createGetJson: real getJson does not retry a persistent 404 (single fetch call)", async () => {
+  const { fetchImpl, calls } = fakeFetchSequence([{ status: 404, statusText: "Not Found" }]);
+  const sleeps = [];
+  const getJson = createGetJson("fake-token", { fetchImpl, sleep: fakeSleep(sleeps) });
+
+  await assert.rejects(
+    () => getJson("https://api.github.com/repos/facebook/react/contents/logo.svg"),
+    (err) => err.status === 404,
+  );
+  assert.equal(calls.length, 1);
+  assert.deepEqual(sleeps, []);
+});
+
+test("createGetJson: real getJson exhausts retries and throws on a persistent 502", async () => {
+  const { fetchImpl, calls } = fakeFetchSequence([{ status: 502, statusText: "Bad Gateway" }]);
+  const sleeps = [];
+  const getJson = createGetJson("fake-token", { fetchImpl, sleep: fakeSleep(sleeps) });
+
+  await assert.rejects(
+    () => getJson("https://api.github.com/repos/facebook/react"),
+    (err) => err.status === 502,
+  );
+  assert.equal(calls.length, 3);
+  assert.deepEqual(sleeps, [200, 400]);
 });

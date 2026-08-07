@@ -82,24 +82,46 @@ const realSleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
  * Calls `fn` and retries on failure up to `attempts` total tries, using
  * `isRetryable` to decide whether a given error is worth retrying and
  * `sleep` (injectable, defaults to a real setTimeout-based delay) to wait
- * `delayMs` between attempts. Rethrows the last error once attempts are
- * exhausted, or immediately if an error is not retryable.
+ * `delayMs * attempt` (linear backoff) between attempts. Rethrows the
+ * triggering error once attempts are exhausted, or immediately if an
+ * error is not retryable. The loop always returns or throws internally,
+ * so there is no reachable code after it.
  */
 export async function withRetry(
   fn,
   { attempts = 3, delayMs = 200, isRetryable = defaultIsRetryable, sleep = realSleep } = {},
 ) {
-  let lastErr;
   for (let attempt = 1; attempt <= attempts; attempt += 1) {
     try {
       return await fn();
     } catch (err) {
-      lastErr = err;
       if (attempt === attempts || !isRetryable(err)) throw err;
-      await sleep(delayMs);
+      await sleep(delayMs * attempt);
     }
   }
-  throw lastErr;
+}
+
+/**
+ * Builds the real, network-backed `getJson` used by `main()`: a GitHub API
+ * GET wrapped in `withRetry`. `fetchImpl` and `sleep` are injectable so
+ * tests can exercise this exact composition (fetch -> `!res.ok` check ->
+ * `err.status` -> `withRetry`) without touching the real network or real
+ * timers; both default to the real global `fetch` / a real setTimeout
+ * delay for production use.
+ */
+export function createGetJson(token, { fetchImpl = fetch, sleep } = {}) {
+  return (url) =>
+    withRetry(async () => {
+      const res = await fetchImpl(url, {
+        headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json" },
+      });
+      if (!res.ok) {
+        const err = new Error(`${res.status} ${res.statusText} for ${url}`);
+        err.status = res.status;
+        throw err;
+      }
+      return res.json();
+    }, sleep ? { sleep } : undefined);
 }
 
 // CLI entry point: node scripts/enrich-domain.mjs data/<slug>.json
@@ -117,18 +139,7 @@ async function main() {
   const imagesDir = domainPath.replace(/\.json$/, "/images");
   mkdirSync(imagesDir, { recursive: true });
 
-  const getJson = (url) =>
-    withRetry(async () => {
-      const res = await fetch(url, {
-        headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json" },
-      });
-      if (!res.ok) {
-        const err = new Error(`${res.status} ${res.statusText} for ${url}`);
-        err.status = res.status;
-        throw err;
-      }
-      return res.json();
-    });
+  const getJson = createGetJson(token);
 
   const downloadFile = async (url, dest) => {
     const res = await fetch(url);

@@ -1,7 +1,10 @@
 /**
  * Creates a slide-in detail panel appended to `container`. A leaf's
  * `image`, when present, is already a direct URL into its source repo.
- * Returns { open(leafData), close() }.
+ * `leafData` passed to `open()` may carry an `activeSizeKey` field (set by
+ * treemap.js) naming the size mode active when the leaf was clicked; when
+ * it's a "rising*" key, a growth-stat line is shown using the leaf's
+ * `growth`/`hasEnoughHistory` data for that window. Returns { open(leafData), close() }.
  */
 export function createDetailPanel(container) {
   const panel = document.createElement("aside");
@@ -37,6 +40,9 @@ export function createDetailPanel(container) {
     title.textContent = leafData.name;
     panel.appendChild(title);
 
+    const growthLine = renderGrowthLine(leafData);
+    if (growthLine) panel.appendChild(growthLine);
+
     if (leafData.desc) {
       const desc = document.createElement("p");
       desc.textContent = leafData.desc;
@@ -69,6 +75,37 @@ export function createDetailPanel(container) {
   }
 
   return { open, close };
+}
+
+/**
+ * Builds the Rising-mode growth line ("+340 stars (+18%) in 30 days", or
+ * an insufficient-history notice) for `leafData.activeSizeKey`. Returns
+ * `null` for Popular mode (no `activeSizeKey`, or `"popular"`) — there's
+ * no growth stat to show there.
+ */
+function renderGrowthLine(leafData) {
+  const key = leafData.activeSizeKey;
+  if (!key || key === "popular") return null;
+
+  const paragraph = document.createElement("p");
+  paragraph.className = "detail-panel-growth";
+
+  const windowDays = key.replace("rising", "");
+  const stats = leafData.growth?.[key];
+
+  if (leafData.hasEnoughHistory?.[key] === false) {
+    paragraph.textContent = stats?.oldestDate
+      ? `Not enough history yet — first tracked ${stats.oldestDate}.`
+      : "Not enough history yet.";
+    return paragraph;
+  }
+
+  if (!stats) return null;
+
+  const sign = stats.starDelta >= 0 ? "+" : "";
+  const percent = Math.round(stats.percentDelta);
+  paragraph.textContent = `${sign}${stats.starDelta} stars (${sign}${percent}%) in ${windowDays} days`;
+  return paragraph;
 }
 
 /**

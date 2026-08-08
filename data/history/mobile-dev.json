@@ -1,0 +1,278 @@
+{
+  "react/react-native": [
+    {
+      "date": "2026-08-08",
+      "stars": 126299
+    }
+  ],
+  "flutter/flutter": [
+    {
+      "date": "2026-08-08",
+      "stars": 178266
+    }
+  ],
+  "ionic-team/ionic-framework": [
+    {
+      "date": "2026-08-08",
+      "stars": 52604
+    }
+  ],
+  "ionic-team/capacitor": [
+    {
+      "date": "2026-08-08",
+      "stars": 16255
+    }
+  ],
+  "NativeScript/NativeScript": [
+    {
+      "date": "2026-08-08",
+      "stars": 25595
+    }
+  ],
+  "tauri-apps/tauri": [
+    {
+      "date": "2026-08-08",
+      "stars": 110006
+    }
+  ],
+  "lysine-dev/retrofit": [
+    {
+      "date": "2026-08-08",
+      "stars": 43925
+    }
+  ],
+  "lysine-dev/okhttp": [
+    {
+      "date": "2026-08-08",
+      "stars": 47035
+    }
+  ],
+  "bumptech/glide": [
+    {
+      "date": "2026-08-08",
+      "stars": 35027
+    }
+  ],
+  "coil-kt/coil": [
+    {
+      "date": "2026-08-08",
+      "stars": 11875
+    }
+  ],
+  "google/dagger": [
+    {
+      "date": "2026-08-08",
+      "stars": 17705
+    }
+  ],
+  "square/leakcanary": [
+    {
+      "date": "2026-08-08",
+      "stars": 29970
+    }
+  ],
+  "Alamofire/Alamofire": [
+    {
+      "date": "2026-08-08",
+      "stars": 42412
+    }
+  ],
+  "onevcat/Kingfisher": [
+    {
+      "date": "2026-08-08",
+      "stars": 24390
+    }
+  ],
+  "SDWebImage/SDWebImage": [
+    {
+      "date": "2026-08-08",
+      "stars": 25639
+    }
+  ],
+  "ReactiveX/RxSwift": [
+    {
+      "date": "2026-08-08",
+      "stars": 24648
+    }
+  ],
+  "Swinject/Swinject": [
+    {
+      "date": "2026-08-08",
+      "stars": 6704
+    }
+  ],
+  "supabase/supabase": [
+    {
+      "date": "2026-08-08",
+      "stars": 107685
+    }
+  ],
+  "appwrite/appwrite": [
+    {
+      "date": "2026-08-08",
+      "stars": 56800
+    }
+  ],
+  "parse-community/parse-server": [
+    {
+      "date": "2026-08-08",
+      "stars": 21408
+    }
+  ],
+  "pocketbase/pocketbase": [
+    {
+      "date": "2026-08-08",
+      "stars": 60554
+    }
+  ],
+  "wix/Detox": [
+    {
+      "date": "2026-08-08",
+      "stars": 12006
+    }
+  ],
+  "appium/appium": [
+    {
+      "date": "2026-08-08",
+      "stars": 21840
+    }
+  ],
+  "mobile-dev-inc/Maestro": [
+    {
+      "date": "2026-08-08",
+      "stars": 15263
+    }
+  ],
+  "robolectric/robolectric": [
+    {
+      "date": "2026-08-08",
+      "stars": 6031
+    }
+  ],
+  "callstack/react-native-paper": [
+    {
+      "date": "2026-08-08",
+      "stars": 14438
+    }
+  ],
+  "gluestack/gluestack-ui": [
+    {
+      "date": "2026-08-08",
+      "stars": 5236
+    }
+  ],
+  "react-native-elements/react-native-elements": [
+    {
+      "date": "2026-08-08",
+      "stars": 25849
+    }
+  ],
+  "material-components/material-components-android": [
+    {
+      "date": "2026-08-08",
+      "stars": 17364
+    }
+  ],
+  "TextureGroup/Texture": [
+    {
+      "date": "2026-08-08",
+      "stars": 8178
+    }
+  ],
+  "reduxjs/redux": [
+    {
+      "date": "2026-08-08",
+      "stars": 61519
+    }
+  ],
+  "mobxjs/mobx": [
+    {
+      "date": "2026-08-08",
+      "stars": 28205
+    }
+  ],
+  "pmndrs/zustand": [
+    {
+      "date": "2026-08-08",
+      "stars": 58533
+    }
+  ],
+  "rrousselGit/riverpod": [
+    {
+      "date": "2026-08-08",
+      "stars": 7361
+    }
+  ],
+  "felangel/bloc": [
+    {
+      "date": "2026-08-08",
+      "stars": 12483
+    }
+  ],
+  "react-navigation/react-navigation": [
+    {
+      "date": "2026-08-08",
+      "stars": 24487
+    }
+  ],
+  "wix/react-native-navigation": [
+    {
+      "date": "2026-08-08",
+      "stars": 13178
+    }
+  ],
+  "Milad-Akarie/auto_route_library": [
+    {
+      "date": "2026-08-08",
+      "stars": 1752
+    }
+  ],
+  "fastlane/fastlane": [
+    {
+      "date": "2026-08-08",
+      "stars": 41957
+    }
+  ],
+  "bitrise-io/bitrise": [
+    {
+      "date": "2026-08-08",
+      "stars": 894
+    }
+  ],
+  "shorebirdtech/shorebird": [
+    {
+      "date": "2026-08-08",
+      "stars": 3016
+    }
+  ],
+  "Triple-T/gradle-play-publisher": [
+    {
+      "date": "2026-08-08",
+      "stars": 4307
+    }
+  ],
+  "getsentry/sentry": [
+    {
+      "date": "2026-08-08",
+      "stars": 44486
+    }
+  ],
+  "PostHog/posthog": [
+    {
+      "date": "2026-08-08",
+      "stars": 37549
+    }
+  ],
+  "Countly/countly-server": [
+    {
+      "date": "2026-08-08",
+      "stars": 5886
+    }
+  ],
+  "matomo-org/matomo": [
+    {
+      "date": "2026-08-08",
+      "stars": 21750
+    }
+  ]
+}

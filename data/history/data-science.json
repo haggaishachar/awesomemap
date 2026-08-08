@@ -1,0 +1,266 @@
+{
+  "scikit-learn/scikit-learn": [
+    {
+      "date": "2026-08-08",
+      "stars": 66946
+    }
+  ],
+  "dmlc/xgboost": [
+    {
+      "date": "2026-08-08",
+      "stars": 28637
+    }
+  ],
+  "accord-net/framework": [
+    {
+      "date": "2026-08-08",
+      "stars": 4539
+    }
+  ],
+  "tensorflow/tensorflow": [
+    {
+      "date": "2026-08-08",
+      "stars": 196919
+    }
+  ],
+  "deepmind/sonnet": [
+    {
+      "date": "2026-08-08",
+      "stars": 9944
+    }
+  ],
+  "pytorch/pytorch": [
+    {
+      "date": "2026-08-08",
+      "stars": 102271
+    }
+  ],
+  "apache/incubator-mxnet": [
+    {
+      "date": "2026-08-08",
+      "stars": 20813
+    }
+  ],
+  "eclipse/deeplearning4j": [
+    {
+      "date": "2026-08-08",
+      "stars": 14242
+    }
+  ],
+  "openai/gym": [
+    {
+      "date": "2026-08-08",
+      "stars": 37247
+    }
+  ],
+  "google/dopamine": [
+    {
+      "date": "2026-08-08",
+      "stars": 10891
+    }
+  ],
+  "facebookresearch/ReAgent": [
+    {
+      "date": "2026-08-08",
+      "stars": 3707
+    }
+  ],
+  "tensorlayer/tensorlayer": [
+    {
+      "date": "2026-08-08",
+      "stars": 7386
+    }
+  ],
+  "google-research/bert": [
+    {
+      "date": "2026-08-08",
+      "stars": 40053
+    }
+  ],
+  "huggingface/transformers": [
+    {
+      "date": "2026-08-08",
+      "stars": 163462
+    }
+  ],
+  "allenai/allennlp": [
+    {
+      "date": "2026-08-08",
+      "stars": 11889
+    }
+  ],
+  "flairNLP/flair": [
+    {
+      "date": "2026-08-08",
+      "stars": 14381
+    }
+  ],
+  "explosion/spaCy": [
+    {
+      "date": "2026-08-08",
+      "stars": 33812
+    }
+  ],
+  "facebookresearch/fastText": [
+    {
+      "date": "2026-08-08",
+      "stars": 26545
+    }
+  ],
+  "kaldi-asr/kaldi": [
+    {
+      "date": "2026-08-08",
+      "stars": 15450
+    }
+  ],
+  "mozilla/DeepSpeech": [
+    {
+      "date": "2026-08-08",
+      "stars": 26771
+    }
+  ],
+  "facebookresearch/wav2letter": [
+    {
+      "date": "2026-08-08",
+      "stars": 6440
+    }
+  ],
+  "pjreddie/darknet": [
+    {
+      "date": "2026-08-08",
+      "stars": 26493
+    }
+  ],
+  "opencv/opencv": [
+    {
+      "date": "2026-08-08",
+      "stars": 90341
+    }
+  ],
+  "facebookresearch/detectron2": [
+    {
+      "date": "2026-08-08",
+      "stars": 34654
+    }
+  ],
+  "CMU-Perceptual-Computing-Lab/openpose": [
+    {
+      "date": "2026-08-08",
+      "stars": 34353
+    }
+  ],
+  "davidsandberg/facenet": [
+    {
+      "date": "2026-08-08",
+      "stars": 14374
+    }
+  ],
+  "apache/spark": [
+    {
+      "date": "2026-08-08",
+      "stars": 43822
+    }
+  ],
+  "apache/mahout": [
+    {
+      "date": "2026-08-08",
+      "stars": 2300
+    }
+  ],
+  "horovod/horovod": [
+    {
+      "date": "2026-08-08",
+      "stars": 14696
+    }
+  ],
+  "dask/dask": [
+    {
+      "date": "2026-08-08",
+      "stars": 13883
+    }
+  ],
+  "ray-project/ray": [
+    {
+      "date": "2026-08-08",
+      "stars": 43468
+    }
+  ],
+  "EpistasisLab/tpot": [
+    {
+      "date": "2026-08-08",
+      "stars": 10050
+    }
+  ],
+  "keras-team/autokeras": [
+    {
+      "date": "2026-08-08",
+      "stars": 9328
+    }
+  ],
+  "FeatureLabs/featuretools": [
+    {
+      "date": "2026-08-08",
+      "stars": 7663
+    }
+  ],
+  "microsoft/nni": [
+    {
+      "date": "2026-08-08",
+      "stars": 14365
+    }
+  ],
+  "tensorflow/adanet": [
+    {
+      "date": "2026-08-08",
+      "stars": 3454
+    }
+  ],
+  "jupyter/jupyter": [
+    {
+      "date": "2026-08-08",
+      "stars": 15345
+    }
+  ],
+  "spyder-ide/spyder": [
+    {
+      "date": "2026-08-08",
+      "stars": 9287
+    }
+  ],
+  "apache/zeppelin": [
+    {
+      "date": "2026-08-08",
+      "stars": 6650
+    }
+  ],
+  "h2oai/h2o-3": [
+    {
+      "date": "2026-08-08",
+      "stars": 7505
+    }
+  ],
+  "mlflow/mlflow": [
+    {
+      "date": "2026-08-08",
+      "stars": 27416
+    }
+  ],
+  "kubeflow/kubeflow": [
+    {
+      "date": "2026-08-08",
+      "stars": 15805
+    }
+  ],
+  "onnx/onnx": [
+    {
+      "date": "2026-08-08",
+      "stars": 21277
+    }
+  ],
+  "SeldonIO/seldon-core": [
+    {
+      "date": "2026-08-08",
+      "stars": 4767
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "facebook/react": [
+    {
+      "date": "2026-08-08",
+      "stars": 247115
+    }
+  ],
+  "vuejs/core": [
+    {
+      "date": "2026-08-08",
+      "stars": 54159
+    }
+  ],
+  "sveltejs/svelte": [
+    {
+      "date": "2026-08-08",
+      "stars": 87927
+    }
+  ],
+  "angular/angular": [
+    {
+      "date": "2026-08-08",
+      "stars": 100956
+    }
+  ],
+  "solidjs/solid": [
+    {
+      "date": "2026-08-08",
+      "stars": 35814
+    }
+  ],
+  "vercel/next.js": [
+    {
+      "date": "2026-08-08",
+      "stars": 141687
+    }
+  ],
+  "nuxt/nuxt": [
+    {
+      "date": "2026-08-08",
+      "stars": 60737
+    }
+  ],
+  "sveltejs/kit": [
+    {
+      "date": "2026-08-08",
+      "stars": 20722
+    }
+  ],
+  "remix-run/remix": [
+    {
+      "date": "2026-08-08",
+      "stars": 33291
+    }
+  ],
+  "withastro/astro": [
+    {
+      "date": "2026-08-08",
+      "stars": 61637
+    }
+  ],
+  "vitejs/vite": [
+    {
+      "date": "2026-08-08",
+      "stars": 82255
+    }
+  ],
+  "webpack/webpack": [
+    {
+      "date": "2026-08-08",
+      "stars": 65989
+    }
+  ],
+  "evanw/esbuild": [
+    {
+      "date": "2026-08-08",
+      "stars": 40011
+    }
+  ],
+  "rollup/rollup": [
+    {
+      "date": "2026-08-08",
+      "stars": 26305
+    }
+  ],
+  "parcel-bundler/parcel": [
+    {
+      "date": "2026-08-08",
+      "stars": 44025
+    }
+  ],
+  "tailwindlabs/tailwindcss": [
+    {
+      "date": "2026-08-08",
+      "stars": 97114
+    }
+  ],
+  "twbs/bootstrap": [
+    {
+      "date": "2026-08-08",
+      "stars": 174568
+    }
+  ],
+  "jgthms/bulma": [
+    {
+      "date": "2026-08-08",
+      "stars": 50054
+    }
+  ],
+  "styled-components/styled-components": [
+    {
+      "date": "2026-08-08",
+      "stars": 41130
+    }
+  ],
+  "sass/dart-sass": [
+    {
+      "date": "2026-08-08",
+      "stars": 4214
+    }
+  ],
+  "expressjs/express": [
+    {
+      "date": "2026-08-08",
+      "stars": 69359
+    }
+  ],
+  "nestjs/nest": [
+    {
+      "date": "2026-08-08",
+      "stars": 76367
+    }
+  ],
+  "fastify/fastify": [
+    {
+      "date": "2026-08-08",
+      "stars": 36984
+    }
+  ],
+  "django/django": [
+    {
+      "date": "2026-08-08",
+      "stars": 88392
+    }
+  ],
+  "rails/rails": [
+    {
+      "date": "2026-08-08",
+      "stars": 58683
+    }
+  ],
+  "reduxjs/redux": [
+    {
+      "date": "2026-08-08",
+      "stars": 61519
+    }
+  ],
+  "mobxjs/mobx": [
+    {
+      "date": "2026-08-08",
+      "stars": 28205
+    }
+  ],
+  "pmndrs/zustand": [
+    {
+      "date": "2026-08-08",
+      "stars": 58533
+    }
+  ],
+  "vuejs/pinia": [
+    {
+      "date": "2026-08-08",
+      "stars": 14686
+    }
+  ],
+  "statelyai/xstate": [
+    {
+      "date": "2026-08-08",
+      "stars": 29981
+    }
+  ],
+  "jestjs/jest": [
+    {
+      "date": "2026-08-08",
+      "stars": 45470
+    }
+  ],
+  "cypress-io/cypress": [
+    {
+      "date": "2026-08-08",
+      "stars": 50934
+    }
+  ],
+  "microsoft/playwright": [
+    {
+      "date": "2026-08-08",
+      "stars": 94189
+    }
+  ],
+  "vitest-dev/vitest": [
+    {
+      "date": "2026-08-08",
+      "stars": 16930
+    }
+  ],
+  "mochajs/mocha": [
+    {
+      "date": "2026-08-08",
+      "stars": 22907
+    }
+  ],
+  "gatsbyjs/gatsby": [
+    {
+      "date": "2026-08-08",
+      "stars": 55939
+    }
+  ],
+  "gohugoio/hugo": [
+    {
+      "date": "2026-08-08",
+      "stars": 89370
+    }
+  ],
+  "jekyll/jekyll": [
+    {
+      "date": "2026-08-08",
+      "stars": 51621
+    }
+  ],
+  "11ty/eleventy": [
+    {
+      "date": "2026-08-08",
+      "stars": 19840
+    }
+  ],
+  "facebook/docusaurus": [
+    {
+      "date": "2026-08-08",
+      "stars": 65861
+    }
+  ],
+  "graphql/graphql-js": [
+    {
+      "date": "2026-08-08",
+      "stars": 20345
+    }
+  ],
+  "apollographql/apollo-client": [
+    {
+      "date": "2026-08-08",
+      "stars": 19813
+    }
+  ],
+  "trpc/trpc": [
+    {
+      "date": "2026-08-08",
+      "stars": 40501
+    }
+  ],
+  "prisma/prisma": [
+    {
+      "date": "2026-08-08",
+      "stars": 47547
+    }
+  ],
+  "axios/axios": [
+    {
+      "date": "2026-08-08",
+      "stars": 109232
+    }
+  ],
+  "mui/material-ui": [
+    {
+      "date": "2026-08-08",
+      "stars": 98710
+    }
+  ],
+  "ant-design/ant-design": [
+    {
+      "date": "2026-08-08",
+      "stars": 98999
+    }
+  ],
+  "chakra-ui/chakra-ui": [
+    {
+      "date": "2026-08-08",
+      "stars": 40568
+    }
+  ],
+  "shadcn-ui/ui": [
+    {
+      "date": "2026-08-08",
+      "stars": 120802
+    }
+  ],
+  "radix-ui/primitives": [
+    {
+      "date": "2026-08-08",
+      "stars": 19148
+    }
+  ]
+}

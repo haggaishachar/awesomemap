@@ -1,0 +1,308 @@
+{
+  "nmap/nmap": [
+    {
+      "date": "2026-08-08",
+      "stars": 13320
+    }
+  ],
+  "robertdavidgraham/masscan": [
+    {
+      "date": "2026-08-08",
+      "stars": 25917
+    }
+  ],
+  "zmap/zmap": [
+    {
+      "date": "2026-08-08",
+      "stars": 6346
+    }
+  ],
+  "owasp-amass/amass": [
+    {
+      "date": "2026-08-08",
+      "stars": 14947
+    }
+  ],
+  "lanmaster53/recon-ng": [
+    {
+      "date": "2026-08-08",
+      "stars": 5832
+    }
+  ],
+  "laramies/theHarvester": [
+    {
+      "date": "2026-08-08",
+      "stars": 16981
+    }
+  ],
+  "greenbone/openvas-scanner": [
+    {
+      "date": "2026-08-08",
+      "stars": 4758
+    }
+  ],
+  "sullo/nikto": [
+    {
+      "date": "2026-08-08",
+      "stars": 10633
+    }
+  ],
+  "projectdiscovery/nuclei": [
+    {
+      "date": "2026-08-08",
+      "stars": 30372
+    }
+  ],
+  "wapiti-scanner/wapiti": [
+    {
+      "date": "2026-08-08",
+      "stars": 1834
+    }
+  ],
+  "zaproxy/zaproxy": [
+    {
+      "date": "2026-08-08",
+      "stars": 15545
+    }
+  ],
+  "sqlmapproject/sqlmap": [
+    {
+      "date": "2026-08-08",
+      "stars": 38132
+    }
+  ],
+  "hahwul/dalfox": [
+    {
+      "date": "2026-08-08",
+      "stars": 5211
+    }
+  ],
+  "xmendez/wfuzz": [
+    {
+      "date": "2026-08-08",
+      "stars": 6548
+    }
+  ],
+  "ffuf/ffuf": [
+    {
+      "date": "2026-08-08",
+      "stars": 16505
+    }
+  ],
+  "rapid7/metasploit-framework": [
+    {
+      "date": "2026-08-08",
+      "stars": 38764
+    }
+  ],
+  "beefproject/beef": [
+    {
+      "date": "2026-08-08",
+      "stars": 10969
+    }
+  ],
+  "BC-SECURITY/Empire": [
+    {
+      "date": "2026-08-08",
+      "stars": 5249
+    }
+  ],
+  "BishopFox/sliver": [
+    {
+      "date": "2026-08-08",
+      "stars": 11648
+    }
+  ],
+  "wazuh/wazuh": [
+    {
+      "date": "2026-08-08",
+      "stars": 16458
+    }
+  ],
+  "ossec/ossec-hids": [
+    {
+      "date": "2026-08-08",
+      "stars": 5043
+    }
+  ],
+  "OISF/suricata": [
+    {
+      "date": "2026-08-08",
+      "stars": 6524
+    }
+  ],
+  "zeek/zeek": [
+    {
+      "date": "2026-08-08",
+      "stars": 7852
+    }
+  ],
+  "Security-Onion-Solutions/securityonion": [
+    {
+      "date": "2026-08-08",
+      "stars": 4794
+    }
+  ],
+  "openwall/john": [
+    {
+      "date": "2026-08-08",
+      "stars": 13473
+    }
+  ],
+  "hashcat/hashcat": [
+    {
+      "date": "2026-08-08",
+      "stars": 26495
+    }
+  ],
+  "vanhauser-thc/thc-hydra": [
+    {
+      "date": "2026-08-08",
+      "stars": 12130
+    }
+  ],
+  "Pennyw0rth/NetExec": [
+    {
+      "date": "2026-08-08",
+      "stars": 5753
+    }
+  ],
+  "jmk-foofus/medusa": [
+    {
+      "date": "2026-08-08",
+      "stars": 880
+    }
+  ],
+  "semgrep/semgrep": [
+    {
+      "date": "2026-08-08",
+      "stars": 16148
+    }
+  ],
+  "PyCQA/bandit": [
+    {
+      "date": "2026-08-08",
+      "stars": 8200
+    }
+  ],
+  "presidentbeef/brakeman": [
+    {
+      "date": "2026-08-08",
+      "stars": 7261
+    }
+  ],
+  "github/codeql": [
+    {
+      "date": "2026-08-08",
+      "stars": 9918
+    }
+  ],
+  "SonarSource/sonarqube": [
+    {
+      "date": "2026-08-08",
+      "stars": 10879
+    }
+  ],
+  "hashicorp/vault": [
+    {
+      "date": "2026-08-08",
+      "stars": 36086
+    }
+  ],
+  "awslabs/git-secrets": [
+    {
+      "date": "2026-08-08",
+      "stars": 13366
+    }
+  ],
+  "gitleaks/gitleaks": [
+    {
+      "date": "2026-08-08",
+      "stars": 28532
+    }
+  ],
+  "trufflesecurity/trufflehog": [
+    {
+      "date": "2026-08-08",
+      "stars": 27341
+    }
+  ],
+  "getsops/sops": [
+    {
+      "date": "2026-08-08",
+      "stars": 22714
+    }
+  ],
+  "aquasecurity/trivy": [
+    {
+      "date": "2026-08-08",
+      "stars": 37300
+    }
+  ],
+  "falcosecurity/falco": [
+    {
+      "date": "2026-08-08",
+      "stars": 9243
+    }
+  ],
+  "quay/clair": [
+    {
+      "date": "2026-08-08",
+      "stars": 11040
+    }
+  ],
+  "aquasecurity/kube-bench": [
+    {
+      "date": "2026-08-08",
+      "stars": 8131
+    }
+  ],
+  "prowler-cloud/prowler": [
+    {
+      "date": "2026-08-08",
+      "stars": 14549
+    }
+  ],
+  "nccgroup/ScoutSuite": [
+    {
+      "date": "2026-08-08",
+      "stars": 7787
+    }
+  ],
+  "NationalSecurityAgency/ghidra": [
+    {
+      "date": "2026-08-08",
+      "stars": 72062
+    }
+  ],
+  "radareorg/radare2": [
+    {
+      "date": "2026-08-08",
+      "stars": 24521
+    }
+  ],
+  "volatilityfoundation/volatility3": [
+    {
+      "date": "2026-08-08",
+      "stars": 4307
+    }
+  ],
+  "sleuthkit/autopsy": [
+    {
+      "date": "2026-08-08",
+      "stars": 3275
+    }
+  ],
+  "sleuthkit/sleuthkit": [
+    {
+      "date": "2026-08-08",
+      "stars": 3122
+    }
+  ],
+  "x64dbg/x64dbg": [
+    {
+      "date": "2026-08-08",
+      "stars": 49106
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 #!/usr/bin/env node
-import { readdirSync, readFileSync, writeFileSync, mkdirSync, copyFileSync, rmSync, cpSync } from "node:fs";
+import { readdirSync, readFileSync, writeFileSync, mkdirSync, copyFileSync, rmSync, cpSync, existsSync } from "node:fs";
 import { buildTree } from "./build-tree.mjs";
 import { renderDomainPage, renderLandingPage } from "./render-page.mjs";
+import { computeToolSizing, findInvalidSizes } from "./velocity.mjs";
 
 const DATA_DIR = "data";
 const DIST_DIR = "dist";
@@ -55,10 +56,23 @@ for (const file of domainFiles) {
     }
   }
 
+  const historyPath = `${DATA_DIR}/history/${slug}.json`;
+  const toolHistory = existsSync(historyPath) ? JSON.parse(readFileSync(historyPath, "utf8")) : {};
+
+  const sizedTools = domain.tools.map((tool) => {
+    const { sizes, hasEnoughHistory, growth } = computeToolSizing(tool, toolHistory[tool.id] ?? []);
+    return { ...tool, sizes, hasEnoughHistory, growth };
+  });
+
+  const invalidSizeIds = findInvalidSizes(sizedTools);
+  if (invalidSizeIds.length > 0) {
+    throw new Error(`${domainPath}: invalid computed size(s) for tool id(s): ${invalidSizeIds.join(", ")}`);
+  }
+
   // Tool `image` values (when present) are already direct URLs into the
   // tool's source repo — set by `enrich-domain.mjs` — so no local
   // resolution or copying is needed here.
-  const tree = buildTree(domain.tools, { id: slug, name: domain.name });
+  const tree = buildTree(sizedTools, { id: slug, name: domain.name });
 
   mkdirSync(`${DIST_DIR}/${slug}`, { recursive: true });
   mkdirSync(`${DIST_DIR}/embed/${slug}`, { recursive: true });

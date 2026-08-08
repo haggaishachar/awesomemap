@@ -56,3 +56,20 @@ test("does not leak the path field onto the built leaf node", () => {
   const tree = buildTree(tools, ROOT);
   assert.equal(tree.children[0].children[0].path, undefined);
 });
+
+test("carries arbitrary extra leaf fields (e.g. sizes/hasEnoughHistory/growth) through unchanged", () => {
+  const tools = [
+    {
+      id: "scikit-learn",
+      path: ["Classic ML"],
+      sizes: { popular: 100, rising7: 0.5, rising30: 1.2, rising90: 2.1 },
+      hasEnoughHistory: { rising7: true, rising30: true, rising90: false },
+      growth: { rising7: { starDelta: 5, percentDelta: 5, oldestDate: "2026-08-01" } },
+    },
+  ];
+  const tree = buildTree(tools, ROOT);
+  const leaf = tree.children[0].children[0];
+  assert.deepEqual(leaf.sizes, tools[0].sizes);
+  assert.deepEqual(leaf.hasEnoughHistory, tools[0].hasEnoughHistory);
+  assert.deepEqual(leaf.growth, tools[0].growth);
+});

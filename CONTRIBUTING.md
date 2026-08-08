@@ -85,3 +85,24 @@ Add `data/<slug>.json`:
   owner/repo shorthand.
 
 Run `npm run generate` to confirm it builds before opening a PR.
+
+## Star history & Rising mode
+
+Every domain map has a second sizing mode, "Rising," that sizes tiles by
+star-growth velocity (7/30/90-day windows) instead of total star count.
+This is entirely generated data — nothing here is hand-authored:
+
+- `data/history/<slug>.json` is a per-tool star-count snapshot log,
+  written daily by `.github/workflows/snapshot-history.yml` (running
+  `scripts/snapshot-history.mjs`). It's keyed by tool `id`, each value an
+  array of `{ date, stars }` entries, pruned to the last 120 days.
+- `scripts/generate.mjs` reads that history at build time and computes
+  each tool's `sizes` (`popular`, `rising7`, `rising30`, `rising90`),
+  `hasEnoughHistory`, and `growth` fields via `scripts/velocity.mjs` —
+  these never need to be set by hand in `data/<slug>.json`.
+- A brand-new tool (or a brand-new domain) simply has no history yet;
+  it renders in Rising mode with a "not enough history" marker until the
+  daily snapshot job has run long enough to cover the selected window.
+- To manually trigger a snapshot run locally: `node
+  scripts/snapshot-history.mjs` (requires `gh auth token`, same as
+  `enrich-domain.mjs`).

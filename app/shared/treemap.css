@@ -116,6 +116,50 @@ body {
   color: var(--color-text-muted);
 }
 
+.treemap-mode-bar {
+  max-width: 1000px;
+  margin: 12px auto 0;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 13px;
+}
+
+.treemap-mode-button,
+.treemap-window-button {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 4px 10px;
+  cursor: pointer;
+  color: var(--color-text);
+  font: inherit;
+}
+
+.treemap-mode-button-active,
+.treemap-window-button-active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #fff;
+}
+
+.treemap-window-group {
+  display: flex;
+  gap: 4px;
+  margin-left: 8px;
+}
+
+.treemap-box-insufficient-history {
+  background-image: repeating-linear-gradient(
+    45deg,
+    var(--color-border),
+    var(--color-border) 4px,
+    transparent 4px,
+    transparent 8px
+  );
+  opacity: 0.6;
+}
+
 .detail-panel {
   position: fixed;
   top: 0;
@@ -158,6 +202,13 @@ body {
   display: inline-block;
   margin-top: 12px;
   color: var(--color-accent);
+}
+
+.detail-panel-growth {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  margin: 8px 0;
 }
 
 .detail-panel-gh-button {

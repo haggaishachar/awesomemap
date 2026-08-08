@@ -3,17 +3,26 @@ import { hierarchy, treemap, treemapSquarify } from "d3-hierarchy";
 /**
  * Value accessor used by d3's hierarchy.sum(). Category nodes (nodes with
  * children) contribute nothing of their own — their size comes entirely
- * from their descendants. Leaf nodes contribute their own `weight`, or `1`
- * if `weight` is missing, so a partially-filled dataset never breaks layout.
+ * from their descendants. A leaf contributes its `sizes[sizeKey]` value
+ * when present (the precomputed Popular/Rising size for the active mode),
+ * falling back to its `weight` (or `1` if that's missing too) — so older
+ * data without a `sizes` object, or a `sizeKey` no `sizes` entry exists
+ * for, never breaks layout.
  */
-export function weightOf(nodeData) {
+export function weightOf(nodeData, sizeKey = "popular") {
   if (nodeData.children && nodeData.children.length > 0) return 0;
+  const sizes = nodeData.sizes;
+  if (sizes && typeof sizes[sizeKey] === "number") return sizes[sizeKey];
   return typeof nodeData.weight === "number" ? nodeData.weight : 1;
 }
 
-/** Wraps the raw JSON tree in a d3 hierarchy with values summed via weightOf. */
-export function buildHierarchy(rootData) {
-  return hierarchy(rootData, (d) => d.children).sum(weightOf);
+/**
+ * Wraps the raw JSON tree in a d3 hierarchy with values summed via
+ * weightOf for the given `sizeKey` ("popular", "rising7", "rising30", or
+ * "rising90").
+ */
+export function buildHierarchy(rootData, sizeKey = "popular") {
+  return hierarchy(rootData, (d) => d.children).sum((d) => weightOf(d, sizeKey));
 }
 
 /**

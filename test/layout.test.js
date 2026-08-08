@@ -82,3 +82,29 @@ test("projectRect scales a child rect relative to the focus rect", () => {
   const projected = projectRect(childRect, focusRect, 400, 200);
   assert.deepEqual(projected, { left: 200, top: 0, width: 200, height: 200 });
 });
+
+test("weightOf reads the sizes object for a given sizeKey when present", () => {
+  assert.equal(weightOf({ id: "a", weight: 42, sizes: { popular: 42, rising30: 7.5 } }, "rising30"), 7.5);
+});
+
+test("weightOf falls back to weight/1 when sizes lacks the requested key", () => {
+  assert.equal(weightOf({ id: "a", weight: 42, sizes: { popular: 42 } }, "rising30"), 42);
+  assert.equal(weightOf({ id: "a", sizes: {} }, "rising30"), 1);
+});
+
+test("buildHierarchy sums using the given sizeKey's sizes value instead of weight", () => {
+  const data = {
+    id: "root",
+    children: [
+      {
+        id: "cat",
+        children: [
+          { id: "a", weight: 10, sizes: { popular: 10, rising30: 2 } },
+          { id: "b", weight: 20, sizes: { popular: 20, rising30: 8 } },
+        ],
+      },
+    ],
+  };
+  const root = buildHierarchy(data, "rising30");
+  assert.equal(root.value, 10);
+});

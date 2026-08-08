@@ -2,7 +2,7 @@
   "react/react-native": [
     {
       "date": "2026-08-08",
-      "stars": 126299
+      "stars": 126298
     }
   ],
   "flutter/flutter": [
@@ -32,13 +32,13 @@
   "tauri-apps/tauri": [
     {
       "date": "2026-08-08",
-      "stars": 110006
+      "stars": 110007
     }
   ],
   "lysine-dev/retrofit": [
     {
       "date": "2026-08-08",
-      "stars": 43925
+      "stars": 43924
     }
   ],
   "lysine-dev/okhttp": [
@@ -86,7 +86,7 @@
   "SDWebImage/SDWebImage": [
     {
       "date": "2026-08-08",
-      "stars": 25639
+      "stars": 25638
     }
   ],
   "ReactiveX/RxSwift": [
@@ -122,7 +122,7 @@
   "pocketbase/pocketbase": [
     {
       "date": "2026-08-08",
-      "stars": 60554
+      "stars": 60555
     }
   ],
   "wix/Detox": [
@@ -194,7 +194,7 @@
   "pmndrs/zustand": [
     {
       "date": "2026-08-08",
-      "stars": 58533
+      "stars": 58534
     }
   ],
   "rrousselGit/riverpod": [

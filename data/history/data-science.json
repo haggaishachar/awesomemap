@@ -20,7 +20,7 @@
   "tensorflow/tensorflow": [
     {
       "date": "2026-08-08",
-      "stars": 196919
+      "stars": 196924
     }
   ],
   "deepmind/sonnet": [
@@ -50,7 +50,7 @@
   "openai/gym": [
     {
       "date": "2026-08-08",
-      "stars": 37247
+      "stars": 37246
     }
   ],
   "google/dopamine": [
@@ -80,7 +80,7 @@
   "huggingface/transformers": [
     {
       "date": "2026-08-08",
-      "stars": 163462
+      "stars": 163463
     }
   ],
   "allenai/allennlp": [
@@ -98,7 +98,7 @@
   "explosion/spaCy": [
     {
       "date": "2026-08-08",
-      "stars": 33812
+      "stars": 33813
     }
   ],
   "facebookresearch/fastText": [
@@ -146,7 +146,7 @@
   "CMU-Perceptual-Computing-Lab/openpose": [
     {
       "date": "2026-08-08",
-      "stars": 34353
+      "stars": 34354
     }
   ],
   "davidsandberg/facenet": [
@@ -170,7 +170,7 @@
   "horovod/horovod": [
     {
       "date": "2026-08-08",
-      "stars": 14696
+      "stars": 14695
     }
   ],
   "dask/dask": [

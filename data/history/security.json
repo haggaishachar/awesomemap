@@ -2,13 +2,13 @@
   "nmap/nmap": [
     {
       "date": "2026-08-08",
-      "stars": 13320
+      "stars": 13321
     }
   ],
   "robertdavidgraham/masscan": [
     {
       "date": "2026-08-08",
-      "stars": 25917
+      "stars": 25918
     }
   ],
   "zmap/zmap": [
@@ -146,7 +146,7 @@
   "openwall/john": [
     {
       "date": "2026-08-08",
-      "stars": 13473
+      "stars": 13474
     }
   ],
   "hashcat/hashcat": [
@@ -218,7 +218,7 @@
   "gitleaks/gitleaks": [
     {
       "date": "2026-08-08",
-      "stars": 28532
+      "stars": 28533
     }
   ],
   "trufflesecurity/trufflehog": [
@@ -272,7 +272,7 @@
   "NationalSecurityAgency/ghidra": [
     {
       "date": "2026-08-08",
-      "stars": 72062
+      "stars": 72066
     }
   ],
   "radareorg/radare2": [
@@ -284,7 +284,7 @@
   "volatilityfoundation/volatility3": [
     {
       "date": "2026-08-08",
-      "stars": 4307
+      "stars": 4308
     }
   ],
   "sleuthkit/autopsy": [
@@ -302,7 +302,7 @@
   "x64dbg/x64dbg": [
     {
       "date": "2026-08-08",
-      "stars": 49106
+      "stars": 49108
     }
   ]
 }

@@ -2,13 +2,13 @@
   "facebook/react": [
     {
       "date": "2026-08-08",
-      "stars": 247115
+      "stars": 247120
     }
   ],
   "vuejs/core": [
     {
       "date": "2026-08-08",
-      "stars": 54159
+      "stars": 54160
     }
   ],
   "sveltejs/svelte": [
@@ -20,19 +20,19 @@
   "angular/angular": [
     {
       "date": "2026-08-08",
-      "stars": 100956
+      "stars": 100955
     }
   ],
   "solidjs/solid": [
     {
       "date": "2026-08-08",
-      "stars": 35814
+      "stars": 35815
     }
   ],
   "vercel/next.js": [
     {
       "date": "2026-08-08",
-      "stars": 141687
+      "stars": 141688
     }
   ],
   "nuxt/nuxt": [
@@ -44,7 +44,7 @@
   "sveltejs/kit": [
     {
       "date": "2026-08-08",
-      "stars": 20722
+      "stars": 20723
     }
   ],
   "remix-run/remix": [
@@ -56,19 +56,19 @@
   "withastro/astro": [
     {
       "date": "2026-08-08",
-      "stars": 61637
+      "stars": 61639
     }
   ],
   "vitejs/vite": [
     {
       "date": "2026-08-08",
-      "stars": 82255
+      "stars": 82256
     }
   ],
   "webpack/webpack": [
     {
       "date": "2026-08-08",
-      "stars": 65989
+      "stars": 65988
     }
   ],
   "evanw/esbuild": [
@@ -92,7 +92,7 @@
   "tailwindlabs/tailwindcss": [
     {
       "date": "2026-08-08",
-      "stars": 97114
+      "stars": 97116
     }
   ],
   "twbs/bootstrap": [
@@ -122,7 +122,7 @@
   "expressjs/express": [
     {
       "date": "2026-08-08",
-      "stars": 69359
+      "stars": 69360
     }
   ],
   "nestjs/nest": [
@@ -140,7 +140,7 @@
   "django/django": [
     {
       "date": "2026-08-08",
-      "stars": 88392
+      "stars": 88391
     }
   ],
   "rails/rails": [
@@ -164,7 +164,7 @@
   "pmndrs/zustand": [
     {
       "date": "2026-08-08",
-      "stars": 58533
+      "stars": 58534
     }
   ],
   "vuejs/pinia": [
@@ -188,13 +188,13 @@
   "cypress-io/cypress": [
     {
       "date": "2026-08-08",
-      "stars": 50934
+      "stars": 50935
     }
   ],
   "microsoft/playwright": [
     {
       "date": "2026-08-08",
-      "stars": 94189
+      "stars": 94191
     }
   ],
   "vitest-dev/vitest": [
@@ -278,7 +278,7 @@
   "ant-design/ant-design": [
     {
       "date": "2026-08-08",
-      "stars": 98999
+      "stars": 99000
     }
   ],
   "chakra-ui/chakra-ui": [
@@ -290,13 +290,13 @@
   "shadcn-ui/ui": [
     {
       "date": "2026-08-08",
-      "stars": 120802
+      "stars": 120803
     }
   ],
   "radix-ui/primitives": [
     {
       "date": "2026-08-08",
-      "stars": 19148
+      "stars": 19149
     }
   ]
 }

@@ -32,7 +32,7 @@
   "kubernetes/kubernetes": [
     {
       "date": "2026-08-08",
-      "stars": 124361
+      "stars": 124364
     }
   ],
   "moby/swarmkit": [
@@ -44,7 +44,7 @@
   "hashicorp/nomad": [
     {
       "date": "2026-08-08",
-      "stars": 16784
+      "stars": 16785
     }
   ],
   "rancher/rancher": [
@@ -56,7 +56,7 @@
   "rancher/k3s": [
     {
       "date": "2026-08-08",
-      "stars": 33683
+      "stars": 33684
     }
   ],
   "jenkinsci/jenkins": [
@@ -92,7 +92,7 @@
   "hashicorp/terraform": [
     {
       "date": "2026-08-08",
-      "stars": 49446
+      "stars": 49447
     }
   ],
   "opentofu/opentofu": [
@@ -122,7 +122,7 @@
   "ansible/ansible": [
     {
       "date": "2026-08-08",
-      "stars": 70262
+      "stars": 70264
     }
   ],
   "puppetlabs/puppet": [
@@ -170,13 +170,13 @@
   "zabbix/zabbix": [
     {
       "date": "2026-08-08",
-      "stars": 6228
+      "stars": 6229
     }
   ],
   "victoriametrics/victoriametrics": [
     {
       "date": "2026-08-08",
-      "stars": 17490
+      "stars": 17492
     }
   ],
   "elastic/logstash": [
@@ -242,7 +242,7 @@
   "argoproj/argo-cd": [
     {
       "date": "2026-08-08",
-      "stars": 23869
+      "stars": 23870
     }
   ],
   "fluxcd/flux2": [

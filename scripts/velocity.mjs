@@ -51,3 +51,44 @@ export function computeVelocity(history, windowDays, { now = new Date() } = {}) 
 
   return { score: Math.max(rawScore, SCORE_FLOOR), hasEnoughHistory: true, starDelta, percentDelta, oldestDate };
 }
+
+/**
+ * Builds the full `{ sizes, hasEnoughHistory, growth }` structure
+ * `generate.mjs` embeds onto a tool's leaf node: one size per mode
+ * (`popular` plus one `rising<N>` per supported window), whether each
+ * rising window has enough history, and the growth stats behind each
+ * rising size (used by the detail panel).
+ */
+export function computeToolSizing(tool, historyEntries = [], { now } = {}) {
+  const sizes = { popular: typeof tool.weight === "number" ? tool.weight : 1 };
+  const hasEnoughHistory = {};
+  const growth = {};
+
+  for (const windowDays of RISING_WINDOWS_DAYS) {
+    const key = `rising${windowDays}`;
+    const result = computeVelocity(historyEntries, windowDays, { now });
+    sizes[key] = result.score;
+    hasEnoughHistory[key] = result.hasEnoughHistory;
+    growth[key] = { starDelta: result.starDelta, percentDelta: result.percentDelta, oldestDate: result.oldestDate };
+  }
+
+  return { sizes, hasEnoughHistory, growth };
+}
+
+/**
+ * Given tools that have already been through `computeToolSizing` (i.e.
+ * each has a `sizes` object), returns the ids of any tool whose `sizes`
+ * contains a non-numeric, non-finite, or non-positive value — a broken
+ * tile should never reach production. Mirrors `enrich-domain.mjs`'s
+ * `findInvalidWeights` for this feature's own `sizes` field.
+ */
+export function findInvalidSizes(tools) {
+  const bad = [];
+  for (const tool of tools) {
+    const sizes = tool.sizes ?? {};
+    const values = ["popular", ...RISING_WINDOWS_DAYS.map((d) => `rising${d}`)].map((key) => sizes[key]);
+    const invalid = values.some((value) => typeof value !== "number" || !Number.isFinite(value) || value <= 0);
+    if (invalid) bad.push(tool.id);
+  }
+  return bad;
+}

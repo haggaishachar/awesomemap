@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { computeVelocity } from "../scripts/velocity.mjs";
+import { computeVelocity, computeToolSizing, findInvalidSizes, RISING_WINDOWS_DAYS } from "../scripts/velocity.mjs";
 
 const NOW = "2026-08-08T00:00:00.000Z";
 
@@ -77,4 +77,42 @@ test("computeVelocity treats a zero-star baseline as 0% growth rather than divid
   const result = computeVelocity(history, 30, { now: NOW });
   assert.equal(result.starDelta, 10);
   assert.equal(result.percentDelta, 0);
+});
+
+test("computeToolSizing builds sizes/hasEnoughHistory/growth for every rising window plus popular", () => {
+  const tool = { id: "a/a", weight: 1000 };
+  const history = [
+    { date: "2026-05-10", stars: 700 }, // ~90 days before NOW
+    { date: "2026-08-08", stars: 1000 },
+  ];
+  const result = computeToolSizing(tool, history, { now: NOW });
+
+  assert.equal(result.sizes.popular, 1000);
+  for (const windowDays of RISING_WINDOWS_DAYS) {
+    const key = `rising${windowDays}`;
+    assert.equal(typeof result.sizes[key], "number");
+    assert.equal(typeof result.hasEnoughHistory[key], "boolean");
+    assert.ok(result.growth[key]);
+  }
+});
+
+test("computeToolSizing defaults popular to 1 when the tool has no weight", () => {
+  const result = computeToolSizing({ id: "a/a" }, [], { now: NOW });
+  assert.equal(result.sizes.popular, 1);
+});
+
+test("computeToolSizing marks every rising window as insufficient when there's no history at all", () => {
+  const result = computeToolSizing({ id: "a/a", weight: 5 }, [], { now: NOW });
+  for (const windowDays of RISING_WINDOWS_DAYS) {
+    assert.equal(result.hasEnoughHistory[`rising${windowDays}`], false);
+  }
+});
+
+test("findInvalidSizes flags a tool with a non-positive or missing size, and leaves valid tools alone", () => {
+  const tools = [
+    { id: "good", sizes: { popular: 10, rising7: 0.5, rising30: 0.2, rising90: 0.1 } },
+    { id: "bad-zero", sizes: { popular: 0, rising7: 1, rising30: 1, rising90: 1 } },
+    { id: "bad-missing", sizes: { popular: 10, rising7: 1, rising30: 1 } },
+  ];
+  assert.deepEqual(findInvalidSizes(tools), ["bad-zero", "bad-missing"]);
 });

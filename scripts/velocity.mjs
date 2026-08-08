@@ -1,0 +1,53 @@
+export const MS_PER_DAY = 24 * 60 * 60 * 1000;
+
+// The lowest positive size a tool's rising score can ever be. d3's
+// treemap requires strictly positive weights, so a declining or
+// no-history tool still renders a (negligible) tile instead of vanishing
+// or breaking layout.
+const SCORE_FLOOR = 0.01;
+
+/** Rising windows this feature supports, in days. */
+export const RISING_WINDOWS_DAYS = [7, 30, 90];
+
+/**
+ * Computes a growth-velocity score for one tool from its raw star-count
+ * history. `history` is an array of `{ date: "YYYY-MM-DD", stars }`
+ * entries in any order; `windowDays` is how far back to measure growth.
+ *
+ * The baseline snapshot is the entry closest to (but not after)
+ * `windowDays` ago — a missed snapshot day doesn't break the lookup, it
+ * just measures from whatever's closest available. `hasEnoughHistory` is
+ * false when even the oldest snapshot is younger than the window, since
+ * there's no data point far back enough to measure the full window from.
+ *
+ * `score = starDelta / sqrt(max(currentStars, 1))`, floored at
+ * `SCORE_FLOOR` so it's always a valid positive treemap weight, even for
+ * a shrinking project.
+ */
+export function computeVelocity(history, windowDays, { now = new Date() } = {}) {
+  const sorted = [...history].sort((a, b) => a.date.localeCompare(b.date));
+  const oldestDate = sorted.length > 0 ? sorted[0].date : null;
+
+  if (sorted.length === 0) {
+    return { score: SCORE_FLOOR, hasEnoughHistory: false, starDelta: 0, percentDelta: 0, oldestDate };
+  }
+
+  const currentStars = sorted[sorted.length - 1].stars;
+  const cutoff = new Date(now).getTime() - windowDays * MS_PER_DAY;
+
+  let baseline = null;
+  for (const entry of sorted) {
+    if (new Date(entry.date).getTime() <= cutoff) baseline = entry;
+    else break;
+  }
+
+  if (baseline === null) {
+    return { score: SCORE_FLOOR, hasEnoughHistory: false, starDelta: 0, percentDelta: 0, oldestDate };
+  }
+
+  const starDelta = currentStars - baseline.stars;
+  const percentDelta = baseline.stars > 0 ? (starDelta / baseline.stars) * 100 : 0;
+  const rawScore = starDelta / Math.sqrt(Math.max(currentStars, 1));
+
+  return { score: Math.max(rawScore, SCORE_FLOOR), hasEnoughHistory: true, starDelta, percentDelta, oldestDate };
+}

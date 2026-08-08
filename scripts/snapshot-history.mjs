@@ -45,6 +45,9 @@ async function main() {
   const today = todayIso(new Date());
   const domainFiles = readdirSync(DATA_DIR).filter((name) => name.endsWith(".json"));
 
+  let totalAttempted = 0;
+  let totalFetched = 0;
+
   for (const file of domainFiles) {
     const domain = JSON.parse(readFileSync(`${DATA_DIR}/${file}`, "utf8"));
     const historyPath = `${HISTORY_DIR}/${domain.slug}.json`;
@@ -55,12 +58,14 @@ async function main() {
     for (const tool of domain.tools) {
       const repo = parseGhRepo(tool.id);
       if (!repo) continue;
+      totalAttempted += 1;
       try {
         const repoData = await getJson(`https://api.github.com/repos/${repo.owner}/${repo.repo}`);
         const existing = history[tool.id] ?? [];
         const withToday = appendSnapshotEntry(existing, { date: today, stars: repoData.stargazers_count });
         history[tool.id] = pruneOldEntries(withToday, { now: new Date() });
         fetched += 1;
+        totalFetched += 1;
       } catch (err) {
         failed += 1;
         console.error(`Warning: failed to snapshot "${tool.id}": ${err.message}`);
@@ -69,6 +74,14 @@ async function main() {
 
     writeFileSync(historyPath, JSON.stringify(history, null, 2) + "\n");
     console.log(`${historyPath}: ${fetched} snapshot(s) recorded, ${failed} failed`);
+  }
+
+  if (totalAttempted > 0 && totalFetched === 0) {
+    console.error(
+      `Error: 0/${totalAttempted} tool(s) were successfully snapshotted across all domains — ` +
+        "this looks like a systemic failure (e.g. an invalid/expired token or a GitHub outage), not isolated per-tool flakiness."
+    );
+    process.exit(1);
   }
 }
 

@@ -51,7 +51,12 @@ export function renderDomainPage(domain, tree, { embed = false, defaultOgImage, 
       import { createDetailPanel } from "${basePath}/shared/detail-panel.js";
       const mapData = JSON.parse(document.getElementById("map-data").textContent);
       const panel = createDetailPanel(document.body);
-      mountTreemap(document.getElementById("app"), mapData, (leafData) => panel.open(leafData));
+      mountTreemap(
+        document.getElementById("app"),
+        mapData,
+        (leafData) => panel.open(leafData),
+        () => panel.close()
+      );
     </script>
   `;
   return renderShell({

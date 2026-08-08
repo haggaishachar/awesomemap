@@ -15,9 +15,12 @@ const RISING_WINDOWS_DAYS = [7, 30, 90];
  * of firing this callback) — `leafData` is the leaf's data plus an
  * `activeSizeKey` field naming the size mode active when it was clicked
  * ("popular", "rising7", "rising30", or "rising90"), so the detail panel
- * can show the right stat.
+ * can show the right stat. `onModeChange()`, if given, is called with no
+ * arguments right after the Popular/Rising mode or window is switched —
+ * consumers use it to dismiss any already-open detail panel, since its
+ * baked-in growth stats would otherwise go stale against the new mode.
  */
-export function mountTreemap(container, mapData, onLeafClick) {
+export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
   let sizeMode = "popular"; // "popular" | "rising"
   let risingWindow = 30;
   let root = computeLayout(buildHierarchy(mapData, activeSizeKey()), STAGE_WIDTH, STAGE_HEIGHT);
@@ -49,6 +52,7 @@ export function mountTreemap(container, mapData, onLeafClick) {
     renderModeBar();
     renderBreadcrumb();
     renderLevel();
+    onModeChange?.();
   }
 
   function findNodeByIdPath(node, idPath) {

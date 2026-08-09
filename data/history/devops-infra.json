@@ -3,41 +3,69 @@
     {
       "date": "2026-08-08",
       "stars": 72019
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 72020
     }
   ],
   "docker/compose": [
     {
       "date": "2026-08-08",
       "stars": 38031
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 38035
     }
   ],
   "containerd/containerd": [
     {
       "date": "2026-08-08",
       "stars": 21080
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 21086
     }
   ],
   "containers/podman": [
     {
       "date": "2026-08-08",
       "stars": 32486
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 32500
     }
   ],
   "containers/buildah": [
     {
       "date": "2026-08-08",
       "stars": 8970
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 8971
     }
   ],
   "kubernetes/kubernetes": [
     {
       "date": "2026-08-08",
       "stars": 124364
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 124378
     }
   ],
   "moby/swarmkit": [
     {
       "date": "2026-08-08",
+      "stars": 3642
+    },
+    {
+      "date": "2026-08-09",
       "stars": 3642
     }
   ],
@@ -45,23 +73,39 @@
     {
       "date": "2026-08-08",
       "stars": 16785
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 16788
     }
   ],
   "rancher/rancher": [
     {
       "date": "2026-08-08",
       "stars": 25831
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 25833
     }
   ],
   "rancher/k3s": [
     {
       "date": "2026-08-08",
       "stars": 33684
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 33690
     }
   ],
   "jenkinsci/jenkins": [
     {
       "date": "2026-08-08",
+      "stars": 26435
+    },
+    {
+      "date": "2026-08-09",
       "stars": 26435
     }
   ],
@@ -69,17 +113,29 @@
     {
       "date": "2026-08-08",
       "stars": 7650
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 7656
     }
   ],
   "concourse/concourse": [
     {
       "date": "2026-08-08",
       "stars": 7878
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 7879
     }
   ],
   "tektoncd/pipeline": [
     {
       "date": "2026-08-08",
+      "stars": 9030
+    },
+    {
+      "date": "2026-08-09",
       "stars": 9030
     }
   ],
@@ -87,29 +143,49 @@
     {
       "date": "2026-08-08",
       "stars": 9762
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 9762
     }
   ],
   "hashicorp/terraform": [
     {
       "date": "2026-08-08",
       "stars": 49447
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 49450
     }
   ],
   "opentofu/opentofu": [
     {
       "date": "2026-08-08",
       "stars": 29718
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 29726
     }
   ],
   "pulumi/pulumi": [
     {
       "date": "2026-08-08",
       "stars": 25544
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 25549
     }
   ],
   "hashicorp/packer": [
     {
       "date": "2026-08-08",
+      "stars": 15752
+    },
+    {
+      "date": "2026-08-09",
       "stars": 15752
     }
   ],
@@ -117,23 +193,39 @@
     {
       "date": "2026-08-08",
       "stars": 12859
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 12859
     }
   ],
   "ansible/ansible": [
     {
       "date": "2026-08-08",
       "stars": 70264
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 70267
     }
   ],
   "puppetlabs/puppet": [
     {
       "date": "2026-08-08",
       "stars": 7916
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 7917
     }
   ],
   "chef/chef": [
     {
       "date": "2026-08-08",
+      "stars": 8229
+    },
+    {
+      "date": "2026-08-09",
       "stars": 8229
     }
   ],
@@ -141,11 +233,19 @@
     {
       "date": "2026-08-08",
       "stars": 15599
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 15602
     }
   ],
   "cfengine/core": [
     {
       "date": "2026-08-08",
+      "stars": 531
+    },
+    {
+      "date": "2026-08-09",
       "stars": 531
     }
   ],
@@ -153,41 +253,69 @@
     {
       "date": "2026-08-08",
       "stars": 65618
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 65633
     }
   ],
   "grafana/grafana": [
     {
       "date": "2026-08-08",
       "stars": 76155
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 76170
     }
   ],
   "netdata/netdata": [
     {
       "date": "2026-08-08",
       "stars": 80077
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 80085
     }
   ],
   "zabbix/zabbix": [
     {
       "date": "2026-08-08",
       "stars": 6229
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 6233
     }
   ],
   "victoriametrics/victoriametrics": [
     {
       "date": "2026-08-08",
       "stars": 17492
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 17498
     }
   ],
   "elastic/logstash": [
     {
       "date": "2026-08-08",
       "stars": 14913
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 14914
     }
   ],
   "fluent/fluentd": [
     {
       "date": "2026-08-08",
+      "stars": 13576
+    },
+    {
+      "date": "2026-08-09",
       "stars": 13576
     }
   ],
@@ -195,29 +323,49 @@
     {
       "date": "2026-08-08",
       "stars": 8020
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 8022
     }
   ],
   "grafana/loki": [
     {
       "date": "2026-08-08",
       "stars": 28688
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 28695
     }
   ],
   "Graylog2/graylog2-server": [
     {
       "date": "2026-08-08",
       "stars": 8105
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 8106
     }
   ],
   "istio/istio": [
     {
       "date": "2026-08-08",
       "stars": 38339
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 38340
     }
   ],
   "linkerd/linkerd2": [
     {
       "date": "2026-08-08",
+      "stars": 11479
+    },
+    {
+      "date": "2026-08-09",
       "stars": 11479
     }
   ],
@@ -225,35 +373,59 @@
     {
       "date": "2026-08-08",
       "stars": 28736
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 28741
     }
   ],
   "hashicorp/consul": [
     {
       "date": "2026-08-08",
       "stars": 30021
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 30028
     }
   ],
   "cilium/cilium": [
     {
       "date": "2026-08-08",
       "stars": 24883
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 24891
     }
   ],
   "argoproj/argo-cd": [
     {
       "date": "2026-08-08",
       "stars": 23870
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 23875
     }
   ],
   "fluxcd/flux2": [
     {
       "date": "2026-08-08",
       "stars": 8321
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 8323
     }
   ],
   "argoproj/argo-workflows": [
     {
       "date": "2026-08-08",
+      "stars": 16886
+    },
+    {
+      "date": "2026-08-09",
       "stars": 16886
     }
   ],
@@ -261,29 +433,49 @@
     {
       "date": "2026-08-08",
       "stars": 4689
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 4689
     }
   ],
   "fluxcd/flagger": [
     {
       "date": "2026-08-08",
       "stars": 5385
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 5387
     }
   ],
   "helm/helm": [
     {
       "date": "2026-08-08",
       "stars": 30124
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 30131
     }
   ],
   "goharbor/harbor": [
     {
       "date": "2026-08-08",
       "stars": 29113
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 29120
     }
   ],
   "sonatype/nexus-public": [
     {
       "date": "2026-08-08",
+      "stars": 2611
+    },
+    {
+      "date": "2026-08-09",
       "stars": 2611
     }
   ],
@@ -291,12 +483,20 @@
     {
       "date": "2026-08-08",
       "stars": 17816
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 17817
     }
   ],
   "goreleaser/goreleaser": [
     {
       "date": "2026-08-08",
       "stars": 15975
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 15980
     }
   ]
 }

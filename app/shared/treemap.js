@@ -60,10 +60,31 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
     onModeChange?.();
   }
 
+  /**
+   * Walks `idPath` (root-first, as produced by `zoomTo`/`node.ancestors()`)
+   * down through `node`'s real children, used by `setSizeMode` to re-locate
+   * the focus node in the freshly rebuilt hierarchy after a mode/window
+   * switch. If `idPath` ends inside a synthetic "Others" box (an id like
+   * `"<parentId>__others"` from `buildOthersNode`, reachable via
+   * `zoomToOthers`), that id can't be found here: Others isn't part of
+   * `mapData` and its membership is derived per-render from the *active*
+   * sizeKey's weights (see `computeLevelBoxes`), so there's no stable
+   * "same Others bucket" to look up across a mode switch — the top-N split
+   * for Rising can legitimately differ from Popular. In that case the loop
+   * below just stops one level up, at the real category Others was hiding
+   * children of, and that becomes the new focus. This is intentional
+   * fallback behavior, not a bug: landing on the real parent lets it
+   * recompute its own top-N/Others split fresh for the new mode, which is
+   * the only correct thing to show since the old Others box's contents may
+   * no longer even be the right set of hidden children under the new mode.
+   */
   function findNodeByIdPath(node, idPath) {
     let current = node;
     for (const id of idPath.slice(1)) {
       const next = current.children?.find((child) => child.data.id === id);
+      // `next` is undefined here whenever `id` is a synthetic Others id (or,
+      // in principle, any id no longer present after a data change) — see
+      // the doc comment above for why stopping at `current` is correct.
       if (!next) break;
       current = next;
     }
@@ -84,6 +105,10 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
    * `parentNode` — the real box Others was hiding children of — so
    * `ancestors()` (breadcrumb, `focusIdPath`) walks back through the real
    * tree exactly like zooming into an ordinary category would.
+   *
+   * Note: switching Popular/Rising mode (or window) while focus is on this
+   * synthetic node will not restore it — see `findNodeByIdPath` for why
+   * that's the intended fallback, not a bug.
    */
   function zoomToOthers(othersData, parentNode) {
     const syntheticNode = buildHierarchy(othersData, activeSizeKey());

@@ -115,6 +115,51 @@ export function buildOthersNode(parentId, othersChildren) {
 }
 
 /**
+ * Decides which of `focusChildren` (real d3 hierarchy nodes — one level's
+ * worth, e.g. the map root's categories, or one zoomed category's
+ * projects) get their own box, versus folding into a single synthetic
+ * "Others" box, and lays the resulting set out fresh via a small local
+ * treemap sized to `stageWidth x stageHeight`. This level's boxes are
+ * always computed on demand rather than reusing any previously computed
+ * layout — that's what lets Others recurse: zooming into an Others box
+ * hands its `hiddenChildren` back into this same function next render,
+ * with no special-casing needed.
+ *
+ * Returns an array of `{ kind: "real", node, rect }` or
+ * `{ kind: "others", data, hiddenChildren, rect }` entries — see this
+ * module's top-of-file usage notes for the exact shape. Returns `[]` for
+ * a leaf (`focusChildren` undefined or empty).
+ */
+export function computeLevelBoxes(focusChildren, { focusId, sizeKey, stageWidth, stageHeight, minBoxAreaPx }) {
+  if (!focusChildren || focusChildren.length === 0) return [];
+
+  const capacity = estimateCapacity(stageWidth * stageHeight, minBoxAreaPx);
+  const { visible, othersChildren } = selectTopWithOthers(focusChildren, capacity);
+
+  const othersData = othersChildren.length > 0 ? buildOthersNode(focusId, othersChildren) : null;
+  const levelChildrenData = visible.map((child) => child.data).concat(othersData ? [othersData] : []);
+
+  const levelRoot = computeLayout(
+    buildHierarchy({ id: `${focusId}__level`, children: levelChildrenData }, sizeKey),
+    stageWidth,
+    stageHeight,
+  );
+
+  return levelRoot.children.map((laidOut, index) => {
+    const rect = {
+      left: laidOut.x0,
+      top: laidOut.y0,
+      width: laidOut.x1 - laidOut.x0,
+      height: laidOut.y1 - laidOut.y0,
+    };
+    if (index < visible.length) {
+      return { kind: "real", node: visible[index], rect };
+    }
+    return { kind: "others", data: othersData, hiddenChildren: othersChildren, rect };
+  });
+}
+
+/**
  * Projects a node's global rect (as set by computeLayout) into pixel
  * coordinates for display, given that `focusRect` currently fills the
  * container. This is what makes "zooming into a category" work: the

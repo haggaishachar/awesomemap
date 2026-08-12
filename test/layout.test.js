@@ -9,6 +9,7 @@ import {
   selectTopWithOthers,
   sizeForWeight,
   buildOthersNode,
+  computeLevelBoxes,
 } from "../app/shared/layout.js";
 
 test("weightOf returns the leaf's weight when present", () => {
@@ -191,4 +192,99 @@ test("buildOthersNode builds a plain data node whose children are the hidden chi
   assert.equal(node.id, "Deep Learning__others");
   assert.equal(node.name, "2 more");
   assert.deepEqual(node.children, [{ id: "c", name: "c" }, { id: "d", name: "d" }]);
+});
+
+function levelData(childSpecs) {
+  return { id: "root", children: childSpecs.map(({ id, weight }) => ({ id, weight })) };
+}
+
+test("computeLevelBoxes returns a real box for every child when under capacity", () => {
+  const root = buildHierarchy(levelData([{ id: "a", weight: 10 }, { id: "b", weight: 20 }]));
+  const boxes = computeLevelBoxes(root.children, {
+    focusId: "root",
+    sizeKey: "popular",
+    stageWidth: 1000,
+    stageHeight: 600,
+    minBoxAreaPx: 100,
+  });
+  assert.equal(boxes.length, 2);
+  assert.ok(boxes.every((box) => box.kind === "real"));
+  assert.deepEqual(boxes.map((box) => box.node.data.id).sort(), ["a", "b"]);
+});
+
+test("computeLevelBoxes truncates to top-N plus one Others box when over capacity", () => {
+  const root = buildHierarchy(
+    levelData([{ id: "a", weight: 100 }, { id: "b", weight: 50 }, { id: "c", weight: 10 }, { id: "d", weight: 1 }]),
+  );
+  // stage area 100*100=10000, minBoxAreaPx 5000 -> capacity 2.
+  const boxes = computeLevelBoxes(root.children, {
+    focusId: "root",
+    sizeKey: "popular",
+    stageWidth: 100,
+    stageHeight: 100,
+    minBoxAreaPx: 5000,
+  });
+  assert.equal(boxes.length, 2);
+  const real = boxes.filter((box) => box.kind === "real");
+  const others = boxes.filter((box) => box.kind === "others");
+  assert.equal(real.length, 1);
+  assert.equal(real[0].node.data.id, "a");
+  assert.equal(others.length, 1);
+  assert.equal(others[0].hiddenChildren.length, 3);
+  assert.deepEqual(others[0].hiddenChildren.map((c) => c.data.id).sort(), ["b", "c", "d"]);
+  assert.equal(others[0].data.name, "3 more");
+});
+
+test("computeLevelBoxes lays every box out within the stage bounds", () => {
+  const root = buildHierarchy(levelData([{ id: "a", weight: 10 }, { id: "b", weight: 90 }]));
+  const boxes = computeLevelBoxes(root.children, {
+    focusId: "root",
+    sizeKey: "popular",
+    stageWidth: 1000,
+    stageHeight: 600,
+    minBoxAreaPx: 100,
+  });
+  for (const box of boxes) {
+    assert.ok(box.rect.left >= 0 && box.rect.left + box.rect.width <= 1000);
+    assert.ok(box.rect.top >= 0 && box.rect.top + box.rect.height <= 600);
+  }
+});
+
+test("computeLevelBoxes sizes real boxes roughly proportional to weight", () => {
+  const root = buildHierarchy(levelData([{ id: "a", weight: 10 }, { id: "b", weight: 90 }]));
+  const boxes = computeLevelBoxes(root.children, {
+    focusId: "root",
+    sizeKey: "popular",
+    stageWidth: 1000,
+    stageHeight: 100,
+    minBoxAreaPx: 100,
+  });
+  const areaOf = (box) => box.rect.width * box.rect.height;
+  const a = boxes.find((box) => box.node.data.id === "a");
+  const b = boxes.find((box) => box.node.data.id === "b");
+  const ratio = areaOf(b) / areaOf(a);
+  assert.ok(ratio > 7 && ratio < 11, `expected ~9x, got ${ratio}`);
+});
+
+test("computeLevelBoxes returns an empty array when there are no children", () => {
+  assert.deepEqual(
+    computeLevelBoxes(undefined, {
+      focusId: "leaf",
+      sizeKey: "popular",
+      stageWidth: 1000,
+      stageHeight: 600,
+      minBoxAreaPx: 100,
+    }),
+    [],
+  );
+  assert.deepEqual(
+    computeLevelBoxes([], {
+      focusId: "leaf",
+      sizeKey: "popular",
+      stageWidth: 1000,
+      stageHeight: 600,
+      minBoxAreaPx: 100,
+    }),
+    [],
+  );
 });

@@ -24,7 +24,8 @@
   }
 
   .treemap-logo,
-  .detail-panel-logo {
+  .detail-panel-logo,
+  .treemap-peek-icon {
     background: #fff;
     border-radius: 4px;
     padding: 2px;
@@ -170,6 +171,46 @@ body {
   );
   border: 1px dashed var(--color-border);
   cursor: pointer;
+}
+
+.treemap-peek-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.treemap-peek-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  border: none;
+  border-radius: 4px;
+  background: var(--color-surface);
+  cursor: pointer;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.treemap-peek-icon img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.treemap-peek-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background: var(--color-accent-soft);
+  color: var(--color-text-muted);
+  font-size: 10px;
+  font-weight: 600;
+  box-sizing: border-box;
 }
 
 .detail-panel {

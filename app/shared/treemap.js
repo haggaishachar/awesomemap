@@ -1,4 +1,4 @@
-import { buildHierarchy, computeLevelBoxes } from "./layout.js";
+import { buildHierarchy, computeLevelBoxes, selectTopWithOthers, sizeForWeight } from "./layout.js";
 
 const STAGE_WIDTH = 1000;
 const STAGE_HEIGHT = 600;
@@ -11,6 +11,16 @@ const RISING_WINDOWS_DAYS = [7, 30, 90];
 // A box needs roughly this much area to stay legible (label + logo)
 // before it's worth its own slot instead of folding into "Others".
 const MIN_BOX_AREA_PX = 12000;
+// Same idea as MIN_BOX_AREA_PX, but for the small peek icons shown inside
+// a box that itself has children — much smaller, since a peek icon is
+// just a logo with no label of its own.
+const MIN_PEEK_AREA_PX = 2500;
+const PEEK_MIN_ICON_PX = 20;
+const PEEK_MAX_ICON_PX = 64;
+// Below this, a box can't fit even one peek icon plus its own padding —
+// skip the peek entirely rather than render an empty or cramped grid.
+const PEEK_MIN_BOX_WIDTH = 60;
+const PEEK_MIN_BOX_HEIGHT = 40;
 
 /**
  * Mounts a treemap for `mapData` into `container`. A project's `image`,
@@ -218,6 +228,7 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
     }
 
     if (node.children) {
+      renderPeek(box, node.children);
       box.addEventListener("click", (event) => {
         event.stopPropagation();
         zoomTo(node);
@@ -238,7 +249,7 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
    * one on the fly via `zoomToOthers`.
    */
   function renderOthersBox(othersBox, parentNode) {
-    const { data, rect } = othersBox;
+    const { data, hiddenChildren, rect } = othersBox;
 
     const box = document.createElement("div");
     box.className = "treemap-box treemap-others";
@@ -252,12 +263,99 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
     label.textContent = data.name;
     box.appendChild(label);
 
+    renderPeek(box, hiddenChildren);
+
     box.addEventListener("click", (event) => {
       event.stopPropagation();
       zoomToOthers(data, parentNode);
     });
 
     return box;
+  }
+
+  /**
+   * Adds a small preview grid of `children`'s (real d3 nodes, each with
+   * `.value` and `.data`) top items as clickable logo icons, sized by
+   * weight, inside `box` — this is what makes a category or Others box
+   * show tool logos before you zoom into it. Reads `box`'s own current
+   * pixel size (already set by the caller) to decide how many icons fit;
+   * skips entirely if there's not enough room for even one.
+   */
+  function renderPeek(box, children) {
+    if (!children || children.length === 0) return;
+
+    const width = parseFloat(box.style.width);
+    const height = parseFloat(box.style.height);
+    if (width < PEEK_MIN_BOX_WIDTH || height < PEEK_MIN_BOX_HEIGHT) return;
+
+    const capacity = Math.floor((width * height) / MIN_PEEK_AREA_PX);
+    if (capacity < 1) return;
+
+    const { visible, othersCount, othersWeight } = selectTopWithOthers(children, capacity);
+    const weights = visible.map((child) => child.value);
+    const minWeight = Math.min(...weights);
+    const maxWeight = othersCount > 0 ? Math.max(...weights, othersWeight) : Math.max(...weights);
+    const maxIconPx = Math.max(
+      PEEK_MIN_ICON_PX,
+      Math.min(PEEK_MAX_ICON_PX, Math.floor(Math.min(width, height) * 0.4)),
+    );
+    const sizeRange = { minPx: PEEK_MIN_ICON_PX, maxPx: maxIconPx, minWeight, maxWeight };
+
+    const grid = document.createElement("div");
+    grid.className = "treemap-peek-grid";
+
+    for (const child of visible) {
+      grid.appendChild(renderPeekIcon(child, sizeForWeight(child.value, sizeRange)));
+    }
+
+    if (othersCount > 0) {
+      const tag = document.createElement("span");
+      tag.className = "treemap-peek-more";
+      const side = sizeForWeight(othersWeight, sizeRange);
+      tag.style.width = `${side}px`;
+      tag.style.height = `${side}px`;
+      tag.textContent = `+${othersCount}`;
+      grid.appendChild(tag);
+    }
+
+    box.appendChild(grid);
+  }
+
+  /**
+   * One clickable icon inside a peek grid. Mirrors the logo-vs-fallback
+   * handling `renderBox` uses for a full leaf box. Clicking opens the
+   * detail panel directly for a project, or zooms in directly for a
+   * (nested) category — either way `stopPropagation`'d so it doesn't also
+   * trigger the containing box's own zoom-in click handler.
+   */
+  function renderPeekIcon(child, sidePx) {
+    const icon = document.createElement("button");
+    icon.type = "button";
+    icon.className = "treemap-peek-icon";
+    icon.style.width = `${sidePx}px`;
+    icon.style.height = `${sidePx}px`;
+    icon.title = child.data.name;
+
+    if (!child.children && child.data.image) {
+      const img = document.createElement("img");
+      img.src = child.data.image;
+      img.alt = child.data.name;
+      img.onerror = () => img.replaceWith(renderFallbackLogo(child.data.name));
+      icon.appendChild(img);
+    } else {
+      icon.appendChild(renderFallbackLogo(child.data.name));
+    }
+
+    icon.addEventListener("click", (event) => {
+      event.stopPropagation();
+      if (child.children) {
+        zoomTo(child);
+      } else if (onLeafClick) {
+        onLeafClick({ ...child.data, activeSizeKey: activeSizeKey() });
+      }
+    });
+
+    return icon;
   }
 
   renderModeBar();

@@ -277,7 +277,7 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
    * Adds a small preview grid of `children`'s (real d3 nodes, each with
    * `.value` and `.data`) top items as clickable logo icons, sized by
    * weight, inside `box` — this is what makes a category or Others box
-   * show tool logos before you zoom into it. Reads `box`'s own current
+   * show project logos before you zoom into it. Reads `box`'s own current
    * pixel size (already set by the caller) to decide how many icons fit;
    * skips entirely if there's not enough room for even one.
    */

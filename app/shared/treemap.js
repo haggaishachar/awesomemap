@@ -1,4 +1,4 @@
-import { buildHierarchy, computeLayout, projectRect } from "./layout.js";
+import { buildHierarchy, computeLevelBoxes } from "./layout.js";
 
 const STAGE_WIDTH = 1000;
 const STAGE_HEIGHT = 600;
@@ -8,11 +8,16 @@ const STAGE_HEIGHT = 600;
 // import from it. Keep both lists in sync if a window is ever added.
 const RISING_WINDOWS_DAYS = [7, 30, 90];
 
+// A box needs roughly this much area to stay legible (label + logo)
+// before it's worth its own slot instead of folding into "Others".
+const MIN_BOX_AREA_PX = 12000;
+
 /**
- * Mounts a treemap for `mapData` into `container`. A leaf's `image`, when
- * present, is already a direct URL into its source repo. `onLeafClick(leafData)`,
- * if given, is called when a leaf box is clicked (categories zoom instead
- * of firing this callback) — `leafData` is the leaf's data plus an
+ * Mounts a treemap for `mapData` into `container`. A project's `image`,
+ * when present, is already a direct URL into its source repo.
+ * `onLeafClick(leafData)`, if given, is called when a leaf box (or a leaf
+ * shown in a peek preview) is clicked — categories and Others boxes zoom
+ * instead of firing this callback. `leafData` is the leaf's data plus an
  * `activeSizeKey` field naming the size mode active when it was clicked
  * ("popular", "rising7", "rising30", or "rising90"), so the detail panel
  * can show the right stat. `onModeChange()`, if given, is called with no
@@ -23,7 +28,7 @@ const RISING_WINDOWS_DAYS = [7, 30, 90];
 export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
   let sizeMode = "popular"; // "popular" | "rising"
   let risingWindow = 30;
-  let root = computeLayout(buildHierarchy(mapData, activeSizeKey()), STAGE_WIDTH, STAGE_HEIGHT);
+  let root = buildHierarchy(mapData, activeSizeKey());
   let focusNode = root;
   let focusIdPath = [root.data.id];
 
@@ -47,7 +52,7 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
   function setSizeMode(nextMode, nextWindow) {
     sizeMode = nextMode;
     risingWindow = nextWindow;
-    root = computeLayout(buildHierarchy(mapData, activeSizeKey()), STAGE_WIDTH, STAGE_HEIGHT);
+    root = buildHierarchy(mapData, activeSizeKey());
     focusNode = findNodeByIdPath(root, focusIdPath);
     renderModeBar();
     renderBreadcrumb();
@@ -70,6 +75,20 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
     focusIdPath = node.ancestors().reverse().map((ancestor) => ancestor.data.id);
     renderBreadcrumb();
     renderLevel();
+  }
+
+  /**
+   * Zooms into a synthetic "Others" box: rebuilds it as a real d3
+   * hierarchy (so its own children get `.value`s under the active
+   * sizeKey, same as any other node), then patches `.parent` to
+   * `parentNode` — the real box Others was hiding children of — so
+   * `ancestors()` (breadcrumb, `focusIdPath`) walks back through the real
+   * tree exactly like zooming into an ordinary category would.
+   */
+  function zoomToOthers(othersData, parentNode) {
+    const syntheticNode = buildHierarchy(othersData, activeSizeKey());
+    syntheticNode.parent = parentNode;
+    zoomTo(syntheticNode);
   }
 
   function renderModeBar() {
@@ -129,10 +148,19 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
 
   function renderLevel() {
     stage.innerHTML = "";
-    const focusRect = { x0: focusNode.x0, y0: focusNode.y0, x1: focusNode.x1, y1: focusNode.y1 };
-    for (const child of focusNode.children ?? []) {
-      const rect = projectRect(child, focusRect, STAGE_WIDTH, STAGE_HEIGHT);
-      stage.appendChild(renderBox(child, rect));
+    const boxes = computeLevelBoxes(focusNode.children, {
+      focusId: focusNode.data.id,
+      sizeKey: activeSizeKey(),
+      stageWidth: STAGE_WIDTH,
+      stageHeight: STAGE_HEIGHT,
+      minBoxAreaPx: MIN_BOX_AREA_PX,
+    });
+    for (const box of boxes) {
+      if (box.kind === "real") {
+        stage.appendChild(renderBox(box.node, box.rect));
+      } else {
+        stage.appendChild(renderOthersBox(box, focusNode));
+      }
     }
   }
 
@@ -175,6 +203,34 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
         onLeafClick({ ...node.data, activeSizeKey: key });
       });
     }
+
+    return box;
+  }
+
+  /**
+   * Renders a synthetic "N more" box: same look-and-feel entry point as
+   * `renderBox`, but there's no real node to click into — clicking builds
+   * one on the fly via `zoomToOthers`.
+   */
+  function renderOthersBox(othersBox, parentNode) {
+    const { data, rect } = othersBox;
+
+    const box = document.createElement("div");
+    box.className = "treemap-box treemap-others";
+    box.style.left = `${rect.left}px`;
+    box.style.top = `${rect.top}px`;
+    box.style.width = `${rect.width}px`;
+    box.style.height = `${rect.height}px`;
+
+    const label = document.createElement("span");
+    label.className = "treemap-label";
+    label.textContent = data.name;
+    box.appendChild(label);
+
+    box.addEventListener("click", (event) => {
+      event.stopPropagation();
+      zoomToOthers(data, parentNode);
+    });
 
     return box;
   }

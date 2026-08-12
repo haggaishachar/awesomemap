@@ -4,7 +4,6 @@ import {
   weightOf,
   buildHierarchy,
   computeLayout,
-  projectRect,
   estimateCapacity,
   selectTopWithOthers,
   sizeForWeight,
@@ -73,19 +72,6 @@ test("computeLayout sizes rects roughly proportional to weight", () => {
   const areaB = (b.x1 - b.x0) * (b.y1 - b.y0);
   const ratio = areaB / areaA;
   assert.ok(ratio > 7 && ratio < 11, `expected ~9x, got ${ratio}`);
-});
-
-test("projectRect maps the focus rect itself to fill the container", () => {
-  const focusRect = { x0: 100, y0: 50, x1: 300, y1: 150 };
-  const projected = projectRect(focusRect, focusRect, 800, 400);
-  assert.deepEqual(projected, { left: 0, top: 0, width: 800, height: 400 });
-});
-
-test("projectRect scales a child rect relative to the focus rect", () => {
-  const focusRect = { x0: 0, y0: 0, x1: 200, y1: 100 };
-  const childRect = { x0: 100, y0: 0, x1: 200, y1: 100 };
-  const projected = projectRect(childRect, focusRect, 400, 200);
-  assert.deepEqual(projected, { left: 200, top: 0, width: 200, height: 200 });
 });
 
 test("weightOf reads the sizes object for a given sizeKey when present", () => {

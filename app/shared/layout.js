@@ -158,23 +158,3 @@ export function computeLevelBoxes(focusChildren, { focusId, sizeKey, stageWidth,
     return { kind: "others", data: othersData, hiddenChildren: othersChildren, rect };
   });
 }
-
-/**
- * Projects a node's global rect (as set by computeLayout) into pixel
- * coordinates for display, given that `focusRect` currently fills the
- * container. This is what makes "zooming into a category" work: the
- * category's own rect maps to fill the container, and its children's rects
- * scale/translate the same way.
- */
-export function projectRect(rect, focusRect, containerWidth, containerHeight) {
-  const focusWidth = focusRect.x1 - focusRect.x0;
-  const focusHeight = focusRect.y1 - focusRect.y0;
-  const scaleX = containerWidth / focusWidth;
-  const scaleY = containerHeight / focusHeight;
-  return {
-    left: (rect.x0 - focusRect.x0) * scaleX,
-    top: (rect.y0 - focusRect.y0) * scaleY,
-    width: (rect.x1 - rect.x0) * scaleX,
-    height: (rect.y1 - rect.y0) * scaleY,
-  };
-}

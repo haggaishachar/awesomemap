@@ -160,6 +160,18 @@ body {
   opacity: 0.6;
 }
 
+.treemap-others {
+  background-image: repeating-linear-gradient(
+    45deg,
+    var(--color-border),
+    var(--color-border) 4px,
+    transparent 4px,
+    transparent 8px
+  );
+  border: 1px dashed var(--color-border);
+  cursor: pointer;
+}
+
 .detail-panel {
   position: fixed;
   top: 0;

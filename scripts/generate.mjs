@@ -3,6 +3,7 @@ import { readdirSync, readFileSync, writeFileSync, mkdirSync, copyFileSync, rmSy
 import { buildTree } from "./build-tree.mjs";
 import { renderDomainPage, renderLandingPage } from "./render-page.mjs";
 import { computeToolSizing, findInvalidSizes } from "./velocity.mjs";
+import { buildSitemap, buildRobots } from "./seo.mjs";
 
 const DATA_DIR = "data";
 const DIST_DIR = "dist";
@@ -97,5 +98,9 @@ writeFileSync(
 cpSync(`${APP_DIR}/shared`, `${DIST_DIR}/shared`, { recursive: true });
 cpSync(`${APP_DIR}/vendor`, `${DIST_DIR}/vendor`, { recursive: true });
 copyFileSync(`${APP_DIR}/og-default.png`, `${DIST_DIR}/og-default.png`);
+
+const sitemap = buildSitemap(domains.map((d) => d.slug), { siteUrl: SITE_URL, basePath: BASE_PATH });
+if (sitemap) writeFileSync(`${DIST_DIR}/sitemap.xml`, sitemap);
+writeFileSync(`${DIST_DIR}/robots.txt`, buildRobots({ siteUrl: SITE_URL, basePath: BASE_PATH }));
 
 console.log(`Generated ${domains.length} domain(s) into ${DIST_DIR}/`);

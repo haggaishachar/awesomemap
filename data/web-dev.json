@@ -11,7 +11,7 @@
       "link": "https://react.dev",
       "name": "React",
       "desc": "A JavaScript library for building user interfaces",
-      "weight": 247085
+      "weight": 247201
     },
     {
       "id": "vuejs/core",
@@ -21,7 +21,7 @@
       "link": "https://vuejs.org",
       "name": "Vue",
       "desc": "The Progressive JavaScript Framework",
-      "weight": 54148
+      "weight": 54221
     },
     {
       "id": "sveltejs/svelte",
@@ -31,7 +31,7 @@
       "link": "https://svelte.dev",
       "name": "Svelte",
       "desc": "Cybernetically enhanced web apps",
-      "weight": 87920
+      "weight": 87968
     },
     {
       "id": "angular/angular",
@@ -41,7 +41,7 @@
       "link": "https://angular.dev",
       "name": "Angular",
       "desc": "The modern web developer's platform",
-      "weight": 100957
+      "weight": 100995
     },
     {
       "id": "solidjs/solid",
@@ -51,7 +51,7 @@
       "link": "https://www.solidjs.com",
       "name": "Solid",
       "desc": "A declarative, efficient, and flexible library for building user interfaces",
-      "weight": 35813,
+      "weight": 35814,
       "image": "https://raw.githubusercontent.com/solidjs/solid/main/assets/logo.png"
     },
     {
@@ -62,7 +62,7 @@
       "link": "https://nextjs.org",
       "name": "Next.js",
       "desc": "The React Framework for the Web",
-      "weight": 141668
+      "weight": 141745
     },
     {
       "id": "nuxt/nuxt",
@@ -72,7 +72,7 @@
       "link": "https://nuxt.com",
       "name": "Nuxt",
       "desc": "The Intuitive Vue Framework",
-      "weight": 60731,
+      "weight": 60755,
       "image": "https://raw.githubusercontent.com/nuxt/nuxt/main/.github/logo.svg"
     },
     {
@@ -83,7 +83,7 @@
       "link": "https://kit.svelte.dev",
       "name": "SvelteKit",
       "desc": "Web development, streamlined",
-      "weight": 20721
+      "weight": 20737
     },
     {
       "id": "remix-run/remix",
@@ -93,7 +93,7 @@
       "link": "https://remix.run",
       "name": "Remix",
       "desc": "Build better websites with React",
-      "weight": 33290
+      "weight": 33294
     },
     {
       "id": "withastro/astro",
@@ -103,7 +103,7 @@
       "link": "https://astro.build",
       "name": "Astro",
       "desc": "The web framework for content-driven websites",
-      "weight": 61608
+      "weight": 61720
     },
     {
       "id": "vitejs/vite",
@@ -113,7 +113,7 @@
       "link": "https://vitejs.dev",
       "name": "Vite",
       "desc": "Next generation frontend tooling",
-      "weight": 82243
+      "weight": 82331
     },
     {
       "id": "webpack/webpack",
@@ -123,7 +123,7 @@
       "link": "https://webpack.js.org",
       "name": "Webpack",
       "desc": "A bundler for javascript and friends",
-      "weight": 65987
+      "weight": 65988
     },
     {
       "id": "evanw/esbuild",
@@ -133,7 +133,7 @@
       "link": "https://esbuild.github.io",
       "name": "esbuild",
       "desc": "An extremely fast bundler for the web",
-      "weight": 40008
+      "weight": 40018
     },
     {
       "id": "rollup/rollup",
@@ -163,7 +163,7 @@
       "link": "https://tailwindcss.com",
       "name": "Tailwind CSS",
       "desc": "A utility-first CSS framework for rapid UI development",
-      "weight": 97046
+      "weight": 97218
     },
     {
       "id": "twbs/bootstrap",
@@ -173,7 +173,7 @@
       "link": "https://getbootstrap.com",
       "name": "Bootstrap",
       "desc": "The most popular HTML, CSS, and JS library in the world",
-      "weight": 174566
+      "weight": 174585
     },
     {
       "id": "jgthms/bulma",
@@ -183,7 +183,7 @@
       "link": "https://bulma.io",
       "name": "Bulma",
       "desc": "Modern CSS framework based on Flexbox",
-      "weight": 50054
+      "weight": 50057
     },
     {
       "id": "styled-components/styled-components",
@@ -193,7 +193,7 @@
       "link": "https://styled-components.com",
       "name": "styled-components",
       "desc": "Visual primitives for the component age",
-      "weight": 41133
+      "weight": 41128
     },
     {
       "id": "sass/dart-sass",
@@ -203,7 +203,7 @@
       "link": "https://sass-lang.com",
       "name": "Sass",
       "desc": "Dart implementation of Sass, a CSS preprocessor",
-      "weight": 4214
+      "weight": 4213
     },
     {
       "id": "expressjs/express",
@@ -213,7 +213,7 @@
       "link": "https://expressjs.com",
       "name": "Express",
       "desc": "Fast, unopinionated, minimalist web framework for Node.js",
-      "weight": 69351
+      "weight": 69357
     },
     {
       "id": "nestjs/nest",
@@ -223,7 +223,7 @@
       "link": "https://nestjs.com",
       "name": "NestJS",
       "desc": "A progressive Node.js framework for building efficient server-side applications",
-      "weight": 76362
+      "weight": 76371
     },
     {
       "id": "fastify/fastify",
@@ -233,7 +233,7 @@
       "link": "https://fastify.dev",
       "name": "Fastify",
       "desc": "Fast and low overhead web framework, for Node.js",
-      "weight": 36978
+      "weight": 36975
     },
     {
       "id": "django/django",
@@ -243,7 +243,7 @@
       "link": "https://www.djangoproject.com",
       "name": "Django",
       "desc": "The Web framework for perfectionists with deadlines",
-      "weight": 88393
+      "weight": 88418
     },
     {
       "id": "rails/rails",
@@ -253,7 +253,7 @@
       "link": "https://rubyonrails.org",
       "name": "Ruby on Rails",
       "desc": "A web-application framework for Ruby",
-      "weight": 58681
+      "weight": 58688
     },
     {
       "id": "reduxjs/redux",
@@ -263,7 +263,7 @@
       "link": "https://redux.js.org",
       "name": "Redux",
       "desc": "A predictable state container for JavaScript apps",
-      "weight": 61519
+      "weight": 61520
     },
     {
       "id": "mobxjs/mobx",
@@ -273,7 +273,7 @@
       "link": "https://mobx.js.org",
       "name": "MobX",
       "desc": "Simple, scalable state management",
-      "weight": 28203
+      "weight": 28201
     },
     {
       "id": "pmndrs/zustand",
@@ -283,7 +283,7 @@
       "link": "https://zustand-demo.pmnd.rs",
       "name": "Zustand",
       "desc": "A small, fast, and scalable bearbones state-management solution",
-      "weight": 58534
+      "weight": 58558
     },
     {
       "id": "vuejs/pinia",
@@ -293,7 +293,7 @@
       "link": "https://pinia.vuejs.org",
       "name": "Pinia",
       "desc": "The intuitive store for Vue.js",
-      "weight": 14684
+      "weight": 14694
     },
     {
       "id": "statelyai/xstate",
@@ -303,7 +303,7 @@
       "link": "https://stately.ai/docs/xstate",
       "name": "XState",
       "desc": "State machines and statecharts for the modern web",
-      "weight": 29978
+      "weight": 30003
     },
     {
       "id": "jestjs/jest",
@@ -313,7 +313,7 @@
       "link": "https://jestjs.io",
       "name": "Jest",
       "desc": "Delightful JavaScript testing",
-      "weight": 45467
+      "weight": 45471
     },
     {
       "id": "cypress-io/cypress",
@@ -323,7 +323,7 @@
       "link": "https://www.cypress.io",
       "name": "Cypress",
       "desc": "Fast, easy and reliable testing for anything that runs in a browser",
-      "weight": 50921
+      "weight": 50942
     },
     {
       "id": "microsoft/playwright",
@@ -333,7 +333,7 @@
       "link": "https://playwright.dev",
       "name": "Playwright",
       "desc": "Reliable end-to-end testing for modern web apps",
-      "weight": 94132
+      "weight": 94416
     },
     {
       "id": "vitest-dev/vitest",
@@ -343,7 +343,7 @@
       "link": "https://vitest.dev",
       "name": "Vitest",
       "desc": "A blazing fast unit test framework powered by Vite",
-      "weight": 16926
+      "weight": 16941
     },
     {
       "id": "mochajs/mocha",
@@ -353,7 +353,7 @@
       "link": "https://mochajs.org",
       "name": "Mocha",
       "desc": "Simple, flexible, fun JavaScript test framework",
-      "weight": 22906
+      "weight": 22904
     },
     {
       "id": "gatsbyjs/gatsby",
@@ -363,7 +363,7 @@
       "link": "https://www.gatsbyjs.com",
       "name": "Gatsby",
       "desc": "Build blazing fast, modern apps and websites with React",
-      "weight": 55936
+      "weight": 55941
     },
     {
       "id": "gohugoio/hugo",
@@ -373,7 +373,7 @@
       "link": "https://gohugo.io",
       "name": "Hugo",
       "desc": "The world's fastest framework for building websites",
-      "weight": 89357
+      "weight": 89422
     },
     {
       "id": "jekyll/jekyll",
@@ -383,7 +383,7 @@
       "link": "https://jekyllrb.com",
       "name": "Jekyll",
       "desc": "Transform your plain text into static websites and blogs",
-      "weight": 51619
+      "weight": 51635
     },
     {
       "id": "11ty/eleventy",
@@ -393,7 +393,7 @@
       "link": "https://www.11ty.dev",
       "name": "Eleventy",
       "desc": "A simpler static site generator",
-      "weight": 19837
+      "weight": 19843
     },
     {
       "id": "facebook/docusaurus",
@@ -403,7 +403,7 @@
       "link": "https://docusaurus.io",
       "name": "Docusaurus",
       "desc": "Easy to maintain open source documentation websites",
-      "weight": 65853
+      "weight": 65899
     },
     {
       "id": "graphql/graphql-js",
@@ -413,7 +413,7 @@
       "link": "https://graphql.org",
       "name": "GraphQL.js",
       "desc": "A reference implementation of GraphQL for JavaScript",
-      "weight": 20345
+      "weight": 20344
     },
     {
       "id": "apollographql/apollo-client",
@@ -423,7 +423,7 @@
       "link": "https://www.apollographql.com/docs/react/",
       "name": "Apollo Client",
       "desc": "A fully-featured caching GraphQL client",
-      "weight": 19813
+      "weight": 19812
     },
     {
       "id": "trpc/trpc",
@@ -433,7 +433,7 @@
       "link": "https://trpc.io",
       "name": "tRPC",
       "desc": "End-to-end typesafe APIs made easy",
-      "weight": 40497
+      "weight": 40516
     },
     {
       "id": "prisma/prisma",
@@ -443,7 +443,7 @@
       "link": "https://www.prisma.io",
       "name": "Prisma",
       "desc": "Next-generation Node.js and TypeScript ORM",
-      "weight": 47545
+      "weight": 47565
     },
     {
       "id": "axios/axios",
@@ -453,7 +453,7 @@
       "link": "https://axios-http.com",
       "name": "Axios",
       "desc": "Promise based HTTP client for the browser and node.js",
-      "weight": 109225
+      "weight": 109231
     },
     {
       "id": "mui/material-ui",
@@ -463,7 +463,7 @@
       "link": "https://mui.com",
       "name": "Material UI",
       "desc": "React components that implement Google's Material Design",
-      "weight": 98697
+      "weight": 98750
     },
     {
       "id": "ant-design/ant-design",
@@ -473,7 +473,7 @@
       "link": "https://ant.design",
       "name": "Ant Design",
       "desc": "An enterprise-class UI design language and React UI library",
-      "weight": 98994
+      "weight": 99052
     },
     {
       "id": "chakra-ui/chakra-ui",
@@ -483,7 +483,7 @@
       "link": "https://chakra-ui.com",
       "name": "Chakra UI",
       "desc": "Simple, modular and accessible component library for React",
-      "weight": 40567
+      "weight": 40571
     },
     {
       "id": "shadcn-ui/ui",
@@ -493,7 +493,7 @@
       "link": "https://ui.shadcn.com",
       "name": "shadcn/ui",
       "desc": "Beautifully designed components you can copy and paste into your apps",
-      "weight": 120743
+      "weight": 121184
     },
     {
       "id": "radix-ui/primitives",
@@ -503,7 +503,7 @@
       "link": "https://www.radix-ui.com",
       "name": "Radix UI",
       "desc": "An open-source UI component library for building accessible design systems",
-      "weight": 19141
+      "weight": 19159
     }
   ]
 }

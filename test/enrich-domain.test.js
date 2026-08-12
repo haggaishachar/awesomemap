@@ -47,7 +47,7 @@ test("parseGhRepo returns null for a non-string value", () => {
   assert.equal(parseGhRepo(undefined), null);
 });
 
-function fakeGetJson({ repoStars, contentsByPath }) {
+function fakeGetJson({ repoStars, ownerAvatarUrl, contentsByPath }) {
   return async (url) => {
     const contentsMatch = Object.keys(contentsByPath).find((p) => url.endsWith(`/contents/${p}`));
     if (contentsMatch) {
@@ -59,7 +59,7 @@ function fakeGetJson({ repoStars, contentsByPath }) {
       }
       return entry;
     }
-    return { stargazers_count: repoStars };
+    return { stargazers_count: repoStars, owner: { avatar_url: ownerAvatarUrl } };
   };
 }
 
@@ -98,6 +98,34 @@ test("enrichProject leaves image unset when no candidate path exists", async () 
 
   assert.equal(result.weight, 12345);
   assert.equal(result.image, undefined);
+});
+
+test("enrichProject falls back to the repo owner's avatar when no logo file is found", async () => {
+  const project = { id: "facebook/react" };
+  const getJson = fakeGetJson({
+    repoStars: 12345,
+    ownerAvatarUrl: "https://avatars.githubusercontent.com/u/69631?v=4",
+    contentsByPath: {},
+  });
+
+  const result = await enrichProject(project, { getJson });
+
+  assert.equal(result.image, "https://avatars.githubusercontent.com/u/69631?v=4");
+});
+
+test("enrichProject prefers a found logo file over the owner avatar fallback", async () => {
+  const project = { id: "facebook/react" };
+  const getJson = fakeGetJson({
+    repoStars: 12345,
+    ownerAvatarUrl: "https://avatars.githubusercontent.com/u/69631?v=4",
+    contentsByPath: {
+      "logo.svg": { type: "file", download_url: "https://raw.githubusercontent.com/facebook/react/main/logo.svg" },
+    },
+  });
+
+  const result = await enrichProject(project, { getJson });
+
+  assert.equal(result.image, "https://raw.githubusercontent.com/facebook/react/main/logo.svg");
 });
 
 test("enrichProject leaves a project whose id isn't an owner/repo shorthand unchanged", async () => {

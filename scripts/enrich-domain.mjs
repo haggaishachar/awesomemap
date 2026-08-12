@@ -33,11 +33,13 @@ export function parseGhRepo(shorthand) {
 
 /**
  * Given a project and an injected `getJson`, returns a new project object
- * with `weight` set to its GitHub repo's live star count and, if a logo
- * candidate is found, `image` set to that file's direct raw.githubusercontent.com
- * URL (served straight from the source repo — never downloaded or stored
- * in this repo). Projects whose `id` isn't a parseable owner/repo shorthand
- * are returned unchanged; no network calls are made for them.
+ * with `weight` set to its GitHub repo's live star count and `image` set
+ * to a logo URL: the first matching candidate file's direct
+ * raw.githubusercontent.com URL if one exists, otherwise the repo owner's
+ * GitHub avatar (always available — an org's logo or a user's avatar).
+ * Neither is ever downloaded or stored in this repo. Projects whose `id`
+ * isn't a parseable owner/repo shorthand are returned unchanged; no
+ * network calls are made for them.
  */
 export async function enrichProject(project, { getJson }) {
   const repo = parseGhRepo(project.id);
@@ -58,6 +60,10 @@ export async function enrichProject(project, { getJson }) {
       enriched.image = entry.download_url;
       break;
     }
+  }
+
+  if (!enriched.image && repoData.owner?.avatar_url) {
+    enriched.image = repoData.owner.avatar_url;
   }
 
   return enriched;

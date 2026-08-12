@@ -1,8 +1,8 @@
 export const MS_PER_DAY = 24 * 60 * 60 * 1000;
 
-// The lowest positive size a tool's rising score can ever be. d3's
+// The lowest positive size a project's rising score can ever be. d3's
 // treemap requires strictly positive weights, so a declining or
-// no-history tool still renders a (negligible) tile instead of vanishing
+// no-history project still renders a (negligible) tile instead of vanishing
 // or breaking layout.
 const SCORE_FLOOR = 0.01;
 
@@ -10,7 +10,7 @@ const SCORE_FLOOR = 0.01;
 export const RISING_WINDOWS_DAYS = [7, 30, 90];
 
 /**
- * Computes a growth-velocity score for one tool from its raw star-count
+ * Computes a growth-velocity score for one project from its raw star-count
  * history. `history` is an array of `{ date: "YYYY-MM-DD", stars }`
  * entries in any order; `windowDays` is how far back to measure growth.
  *
@@ -54,13 +54,13 @@ export function computeVelocity(history, windowDays, { now = new Date() } = {}) 
 
 /**
  * Builds the full `{ sizes, hasEnoughHistory, growth }` structure
- * `generate.mjs` embeds onto a tool's leaf node: one size per mode
+ * `generate.mjs` embeds onto a project's leaf node: one size per mode
  * (`popular` plus one `rising<N>` per supported window), whether each
  * rising window has enough history, and the growth stats behind each
  * rising size (used by the detail panel).
  */
-export function computeToolSizing(tool, historyEntries = [], { now } = {}) {
-  const sizes = { popular: typeof tool.weight === "number" ? tool.weight : 1 };
+export function computeProjectSizing(project, historyEntries = [], { now } = {}) {
+  const sizes = { popular: typeof project.weight === "number" ? project.weight : 1 };
   const hasEnoughHistory = {};
   const growth = {};
 
@@ -76,19 +76,19 @@ export function computeToolSizing(tool, historyEntries = [], { now } = {}) {
 }
 
 /**
- * Given tools that have already been through `computeToolSizing` (i.e.
- * each has a `sizes` object), returns the ids of any tool whose `sizes`
- * contains a non-numeric, non-finite, or non-positive value — a broken
- * tile should never reach production. Mirrors `enrich-domain.mjs`'s
+ * Given projects that have already been through `computeProjectSizing`
+ * (i.e. each has a `sizes` object), returns the ids of any project whose
+ * `sizes` contains a non-numeric, non-finite, or non-positive value — a
+ * broken tile should never reach production. Mirrors `enrich-domain.mjs`'s
  * `findInvalidWeights` for this feature's own `sizes` field.
  */
-export function findInvalidSizes(tools) {
+export function findInvalidSizes(projects) {
   const bad = [];
-  for (const tool of tools) {
-    const sizes = tool.sizes ?? {};
+  for (const project of projects) {
+    const sizes = project.sizes ?? {};
     const values = ["popular", ...RISING_WINDOWS_DAYS.map((d) => `rising${d}`)].map((key) => sizes[key]);
     const invalid = values.some((value) => typeof value !== "number" || !Number.isFinite(value) || value <= 0);
-    if (invalid) bad.push(tool.id);
+    if (invalid) bad.push(project.id);
   }
   return bad;
 }

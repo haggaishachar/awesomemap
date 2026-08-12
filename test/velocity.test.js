@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { computeVelocity, computeToolSizing, findInvalidSizes, RISING_WINDOWS_DAYS } from "../scripts/velocity.mjs";
+import { computeVelocity, computeProjectSizing, findInvalidSizes, RISING_WINDOWS_DAYS } from "../scripts/velocity.mjs";
 
 const NOW = "2026-08-08T00:00:00.000Z";
 
@@ -79,13 +79,13 @@ test("computeVelocity treats a zero-star baseline as 0% growth rather than divid
   assert.equal(result.percentDelta, 0);
 });
 
-test("computeToolSizing builds sizes/hasEnoughHistory/growth for every rising window plus popular", () => {
-  const tool = { id: "a/a", weight: 1000 };
+test("computeProjectSizing builds sizes/hasEnoughHistory/growth for every rising window plus popular", () => {
+  const project = { id: "a/a", weight: 1000 };
   const history = [
     { date: "2026-05-10", stars: 700 }, // ~90 days before NOW
     { date: "2026-08-08", stars: 1000 },
   ];
-  const result = computeToolSizing(tool, history, { now: NOW });
+  const result = computeProjectSizing(project, history, { now: NOW });
 
   assert.equal(result.sizes.popular, 1000);
   for (const windowDays of RISING_WINDOWS_DAYS) {
@@ -96,23 +96,23 @@ test("computeToolSizing builds sizes/hasEnoughHistory/growth for every rising wi
   }
 });
 
-test("computeToolSizing defaults popular to 1 when the tool has no weight", () => {
-  const result = computeToolSizing({ id: "a/a" }, [], { now: NOW });
+test("computeProjectSizing defaults popular to 1 when the project has no weight", () => {
+  const result = computeProjectSizing({ id: "a/a" }, [], { now: NOW });
   assert.equal(result.sizes.popular, 1);
 });
 
-test("computeToolSizing marks every rising window as insufficient when there's no history at all", () => {
-  const result = computeToolSizing({ id: "a/a", weight: 5 }, [], { now: NOW });
+test("computeProjectSizing marks every rising window as insufficient when there's no history at all", () => {
+  const result = computeProjectSizing({ id: "a/a", weight: 5 }, [], { now: NOW });
   for (const windowDays of RISING_WINDOWS_DAYS) {
     assert.equal(result.hasEnoughHistory[`rising${windowDays}`], false);
   }
 });
 
-test("findInvalidSizes flags a tool with a non-positive or missing size, and leaves valid tools alone", () => {
-  const tools = [
+test("findInvalidSizes flags a project with a non-positive or missing size, and leaves valid projects alone", () => {
+  const projects = [
     { id: "good", sizes: { popular: 10, rising7: 0.5, rising30: 0.2, rising90: 0.1 } },
     { id: "bad-zero", sizes: { popular: 0, rising7: 1, rising30: 1, rising90: 1 } },
     { id: "bad-missing", sizes: { popular: 10, rising7: 1, rising30: 1 } },
   ];
-  assert.deepEqual(findInvalidSizes(tools), ["bad-zero", "bad-missing"]);
+  assert.deepEqual(findInvalidSizes(projects), ["bad-zero", "bad-missing"]);
 });

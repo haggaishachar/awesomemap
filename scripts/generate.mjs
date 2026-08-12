@@ -2,7 +2,7 @@
 import { readdirSync, readFileSync, writeFileSync, mkdirSync, copyFileSync, rmSync, cpSync, existsSync } from "node:fs";
 import { buildTree } from "./build-tree.mjs";
 import { renderDomainPage, renderLandingPage } from "./render-page.mjs";
-import { computeToolSizing, findInvalidSizes } from "./velocity.mjs";
+import { computeProjectSizing, findInvalidSizes } from "./velocity.mjs";
 import { buildSitemap, buildRobots } from "./seo.mjs";
 
 const DATA_DIR = "data";
@@ -47,33 +47,33 @@ for (const file of domainFiles) {
   }
   seenSlugs.set(slug, domainPath);
 
-  if (!Array.isArray(domain.tools)) {
-    throw new Error(`${domainPath}: "tools" must be an array`);
+  if (!Array.isArray(domain.projects)) {
+    throw new Error(`${domainPath}: "projects" must be an array`);
   }
 
-  for (const tool of domain.tools) {
-    if (!tool.id || !Array.isArray(tool.path)) {
-      throw new Error(`${domainPath}: tool missing "id" or non-array "path": ${JSON.stringify(tool)}`);
+  for (const project of domain.projects) {
+    if (!project.id || !Array.isArray(project.path)) {
+      throw new Error(`${domainPath}: project missing "id" or non-array "path": ${JSON.stringify(project)}`);
     }
   }
 
   const historyPath = `${DATA_DIR}/history/${slug}.json`;
-  const toolHistory = existsSync(historyPath) ? JSON.parse(readFileSync(historyPath, "utf8")) : {};
+  const projectHistory = existsSync(historyPath) ? JSON.parse(readFileSync(historyPath, "utf8")) : {};
 
-  const sizedTools = domain.tools.map((tool) => {
-    const { sizes, hasEnoughHistory, growth } = computeToolSizing(tool, toolHistory[tool.id] ?? []);
-    return { ...tool, sizes, hasEnoughHistory, growth };
+  const sizedProjects = domain.projects.map((project) => {
+    const { sizes, hasEnoughHistory, growth } = computeProjectSizing(project, projectHistory[project.id] ?? []);
+    return { ...project, sizes, hasEnoughHistory, growth };
   });
 
-  const invalidSizeIds = findInvalidSizes(sizedTools);
+  const invalidSizeIds = findInvalidSizes(sizedProjects);
   if (invalidSizeIds.length > 0) {
-    throw new Error(`${domainPath}: invalid computed size(s) for tool id(s): ${invalidSizeIds.join(", ")}`);
+    throw new Error(`${domainPath}: invalid computed size(s) for project id(s): ${invalidSizeIds.join(", ")}`);
   }
 
-  // Tool `image` values (when present) are already direct URLs into the
-  // tool's source repo — set by `enrich-domain.mjs` — so no local
+  // Project `image` values (when present) are already direct URLs into the
+  // project's source repo — set by `enrich-domain.mjs` — so no local
   // resolution or copying is needed here.
-  const tree = buildTree(sizedTools, { id: slug, name: domain.name });
+  const tree = buildTree(sizedProjects, { id: slug, name: domain.name });
 
   mkdirSync(`${DIST_DIR}/${slug}`, { recursive: true });
   mkdirSync(`${DIST_DIR}/embed/${slug}`, { recursive: true });

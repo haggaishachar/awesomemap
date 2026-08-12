@@ -58,11 +58,11 @@ Add `data/<slug>.json`:
       "slug": "<slug>",
       "name": "Display Name",
       "description": "One-line description shown on the landing page.",
-      "tools": [
+      "projects": [
         {
           "id": "owner/repo",
           "path": ["Category Name"],
-          "name": "Some Tool",
+          "name": "Some Project",
           "link": "https://example.com",
           "desc": "What it does.",
           "weight": 1000
@@ -70,15 +70,15 @@ Add `data/<slug>.json`:
       ]
     }
 
-- `id` and `path` are required on every tool, and `id` doubles as the
-  tool's GitHub repo — it's always `owner/repo` (github.com only, so the
-  host isn't repeated per tool), no full URL. For a tool with no public
+- `id` and `path` are required on every project, and `id` doubles as the
+  project's GitHub repo — it's always `owner/repo` (github.com only, so the
+  host isn't repeated per project), no full URL. For a project with no public
   GitHub repo, use any other unique string as `id`; it just won't be
   enriched (see below), so give it `weight` yourself. `path` is the
-  breadcrumb of category names from root to the tool (a single-level
+  breadcrumb of category names from root to the project (a single-level
   category is a one-element array; deeper nesting is a longer array).
 - `name`, `desc`, `link`, and `weight` may be omitted.
-- Logos aren't stored in this repo. Set `image` on the tool to a direct
+- Logos aren't stored in this repo. Set `image` on the project to a direct
   URL into its source (e.g. a `raw.githubusercontent.com` link) and it's
   hotlinked as-is; `node scripts/enrich-domain.mjs data/<slug>.json` fills
   this in automatically from the repo's logo file, when `id` is an
@@ -92,15 +92,15 @@ Every domain map has a second sizing mode, "Rising," that sizes tiles by
 star-growth velocity (7/30/90-day windows) instead of total star count.
 This is entirely generated data — nothing here is hand-authored:
 
-- `data/history/<slug>.json` is a per-tool star-count snapshot log,
+- `data/history/<slug>.json` is a per-project star-count snapshot log,
   written daily by `.github/workflows/snapshot-history.yml` (running
-  `scripts/snapshot-history.mjs`). It's keyed by tool `id`, each value an
+  `scripts/snapshot-history.mjs`). It's keyed by project `id`, each value an
   array of `{ date, stars }` entries, pruned to the last 120 days.
 - `scripts/generate.mjs` reads that history at build time and computes
-  each tool's `sizes` (`popular`, `rising7`, `rising30`, `rising90`),
+  each project's `sizes` (`popular`, `rising7`, `rising30`, `rising90`),
   `hasEnoughHistory`, and `growth` fields via `scripts/velocity.mjs` —
   these never need to be set by hand in `data/<slug>.json`.
-- A brand-new tool (or a brand-new domain) simply has no history yet;
+- A brand-new project (or a brand-new domain) simply has no history yet;
   it renders in Rising mode with a "not enough history" marker until the
   daily snapshot job has run long enough to cover the selected window.
 - To manually trigger a snapshot run locally: `node

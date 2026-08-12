@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import {
   parseGhRepo,
   LOGO_CANDIDATE_PATHS,
-  enrichTool,
+  enrichProject,
   withRetry,
   defaultIsRetryable,
   createGetJson,
@@ -63,19 +63,19 @@ function fakeGetJson({ repoStars, contentsByPath }) {
   };
 }
 
-test("enrichTool sets weight from the repo's star count", async () => {
-  const tool = { id: "facebook/react" };
+test("enrichProject sets weight from the repo's star count", async () => {
+  const project = { id: "facebook/react" };
   const getJson = fakeGetJson({ repoStars: 12345, contentsByPath: {} });
 
-  const result = await enrichTool(tool, { getJson });
+  const result = await enrichProject(project, { getJson });
 
   assert.equal(result.weight, 12345);
   assert.equal(result.id, "facebook/react");
   assert.equal(result.image, undefined);
 });
 
-test("enrichTool sets image to the first matching logo candidate's direct URL", async () => {
-  const tool = { id: "facebook/react" };
+test("enrichProject sets image to the first matching logo candidate's direct URL", async () => {
+  const project = { id: "facebook/react" };
   const getJson = fakeGetJson({
     repoStars: 12345,
     contentsByPath: {
@@ -84,31 +84,31 @@ test("enrichTool sets image to the first matching logo candidate's direct URL", 
     },
   });
 
-  const result = await enrichTool(tool, { getJson });
+  const result = await enrichProject(project, { getJson });
 
   assert.equal(result.weight, 12345);
   assert.equal(result.image, "https://raw.githubusercontent.com/facebook/react/main/logo.png");
 });
 
-test("enrichTool leaves image unset when no candidate path exists", async () => {
-  const tool = { id: "facebook/react" };
+test("enrichProject leaves image unset when no candidate path exists", async () => {
+  const project = { id: "facebook/react" };
   const getJson = fakeGetJson({ repoStars: 12345, contentsByPath: {} });
 
-  const result = await enrichTool(tool, { getJson });
+  const result = await enrichProject(project, { getJson });
 
   assert.equal(result.weight, 12345);
   assert.equal(result.image, undefined);
 });
 
-test("enrichTool leaves a tool whose id isn't an owner/repo shorthand unchanged", async () => {
-  const tool = { id: "unlisted", desc: "no repo" };
+test("enrichProject leaves a project whose id isn't an owner/repo shorthand unchanged", async () => {
+  const project = { id: "unlisted", desc: "no repo" };
   const getJson = async () => {
     throw new Error("should not be called");
   };
 
-  const result = await enrichTool(tool, { getJson });
+  const result = await enrichProject(project, { getJson });
 
-  assert.deepEqual(result, tool);
+  assert.deepEqual(result, project);
 });
 
 function fakeSleep(calls) {
@@ -281,43 +281,43 @@ test("withRetry rejects attempts < 1 with a clear error instead of silently retu
 
 // findInvalidWeights: the post-enrichment guard that would have caught the
 // earlier draft of mobile-dev.json shipping with every weight stuck at 0.
-test("findInvalidWeights returns an empty list when every repo-linked tool has a valid weight", () => {
-  const tools = [
+test("findInvalidWeights returns an empty list when every repo-linked project has a valid weight", () => {
+  const projects = [
     { id: "facebook/react", weight: 12345 },
     { id: "vuejs/vue", weight: 1 },
     { id: "c", desc: "no repo at all" },
   ];
 
-  assert.deepEqual(findInvalidWeights(tools), []);
+  assert.deepEqual(findInvalidWeights(projects), []);
 });
 
-test("findInvalidWeights flags a repo-linked tool whose weight is 0", () => {
-  const tools = [
+test("findInvalidWeights flags a repo-linked project whose weight is 0", () => {
+  const projects = [
     { id: "facebook/react", weight: 12345 },
     { id: "zero-weight/repo", weight: 0 },
   ];
 
-  assert.deepEqual(findInvalidWeights(tools), ["zero-weight/repo"]);
+  assert.deepEqual(findInvalidWeights(projects), ["zero-weight/repo"]);
 });
 
-test("findInvalidWeights flags a repo-linked tool whose weight is undefined", () => {
-  const tools = [{ id: "no-weight/repo" }];
+test("findInvalidWeights flags a repo-linked project whose weight is undefined", () => {
+  const projects = [{ id: "no-weight/repo" }];
 
-  assert.deepEqual(findInvalidWeights(tools), ["no-weight/repo"]);
+  assert.deepEqual(findInvalidWeights(projects), ["no-weight/repo"]);
 });
 
-test("findInvalidWeights does not flag a tool whose id isn't an owner/repo shorthand, even without a weight", () => {
-  const tools = [{ id: "unlisted", desc: "no repo, never enriched, no weight expected" }];
+test("findInvalidWeights does not flag a project whose id isn't an owner/repo shorthand, even without a weight", () => {
+  const projects = [{ id: "unlisted", desc: "no repo, never enriched, no weight expected" }];
 
-  assert.deepEqual(findInvalidWeights(tools), []);
+  assert.deepEqual(findInvalidWeights(projects), []);
 });
 
 test("findInvalidWeights flags non-integer and negative weights too", () => {
-  const tools = [
+  const projects = [
     { id: "fractional/repo", weight: 4.5 },
     { id: "negative/repo", weight: -1 },
     { id: "not-a-number/repo", weight: "12345" },
   ];
 
-  assert.deepEqual(findInvalidWeights(tools), ["fractional/repo", "negative/repo", "not-a-number/repo"]);
+  assert.deepEqual(findInvalidWeights(projects), ["fractional/repo", "negative/repo", "not-a-number/repo"]);
 });

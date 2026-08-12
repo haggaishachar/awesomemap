@@ -1,8 +1,8 @@
 {
   "slug": "devops-infra",
-  "name": "Best DevOps & Infrastructure Open Source Tools",
+  "name": "Best DevOps & Infrastructure Open Source Projects",
   "description": "Containers, orchestration, CI/CD, infrastructure as code, observability, and more.",
-  "tools": [
+  "projects": [
     {
       "id": "moby/moby",
       "path": [

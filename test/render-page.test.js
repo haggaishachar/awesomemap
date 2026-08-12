@@ -21,11 +21,11 @@ test("a domain description containing '$`' does not corrupt the page", () => {
   assert.doesNotMatch(html, /\{\{TITLE\}\}/);
 });
 
-test("a tool desc containing a literal '</script>' does not produce a raw '</script>' in the output", () => {
+test("a project desc containing a literal '</script>' does not produce a raw '</script>' in the output", () => {
   const tree = {
     id: "data-science",
     name: "Data Science",
-    children: [{ id: "evil-tool", name: "Evil Tool", desc: "</script><script>alert(1)</script>", children: [] }],
+    children: [{ id: "evil-project", name: "Evil Project", desc: "</script><script>alert(1)</script>", children: [] }],
   };
   const domain = { slug: "data-science", name: "Data Science", description: "desc" };
   const html = renderDomainPage(domain, tree, { defaultOgImage: "/og-default.png" });

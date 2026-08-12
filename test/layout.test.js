@@ -5,6 +5,10 @@ import {
   buildHierarchy,
   computeLayout,
   projectRect,
+  estimateCapacity,
+  selectTopWithOthers,
+  sizeForWeight,
+  buildOthersNode,
 } from "../app/shared/layout.js";
 
 test("weightOf returns the leaf's weight when present", () => {
@@ -107,4 +111,84 @@ test("buildHierarchy sums using the given sizeKey's sizes value instead of weigh
   };
   const root = buildHierarchy(data, "rising30");
   assert.equal(root.value, 10);
+});
+
+test("estimateCapacity floors area divided by minimum item area", () => {
+  assert.equal(estimateCapacity(10000, 2500), 4);
+  assert.equal(estimateCapacity(10001, 2500), 4);
+});
+
+test("estimateCapacity never returns less than 1", () => {
+  assert.equal(estimateCapacity(100, 2500), 1);
+  assert.equal(estimateCapacity(0, 2500), 1);
+  assert.equal(estimateCapacity(-5, 2500), 1);
+});
+
+function weighted(id, value) {
+  return { value, data: { id, name: id } };
+}
+
+test("selectTopWithOthers passes through every child when at or under capacity", () => {
+  const children = [weighted("a", 10), weighted("b", 20)];
+  const result = selectTopWithOthers(children, 5);
+  assert.equal(result.visible.length, 2);
+  assert.equal(result.othersCount, 0);
+  assert.equal(result.othersWeight, 0);
+  assert.deepEqual(result.othersChildren, []);
+});
+
+test("selectTopWithOthers keeps the top (capacity - 1) by weight and buckets the rest into Others", () => {
+  const children = [weighted("a", 100), weighted("b", 50), weighted("c", 10), weighted("d", 1)];
+  const result = selectTopWithOthers(children, 3);
+  assert.deepEqual(result.visible.map((c) => c.data.id), ["a", "b"]);
+  assert.equal(result.othersCount, 2);
+  assert.equal(result.othersWeight, 11);
+  assert.deepEqual(result.othersChildren.map((c) => c.data.id), ["c", "d"]);
+});
+
+test("selectTopWithOthers breaks weight ties by name", () => {
+  const children = [
+    weighted("banana", 10),
+    weighted("apple", 10),
+    weighted("cherry", 10),
+    weighted("date", 10),
+  ];
+  // capacity 3 -> visibleCount = max(1, 3-1) = 2, so the alphabetically
+  // first 2 of these 4 equal-weight children should be the ones shown.
+  const result = selectTopWithOthers(children, 3);
+  assert.deepEqual(result.visible.map((c) => c.data.id), ["apple", "banana"]);
+  assert.deepEqual(result.othersChildren.map((c) => c.data.id), ["cherry", "date"]);
+});
+
+test("selectTopWithOthers at capacity 1 still shows one real child plus Others for the rest", () => {
+  const children = [weighted("a", 10), weighted("b", 5)];
+  const result = selectTopWithOthers(children, 1);
+  assert.deepEqual(result.visible.map((c) => c.data.id), ["a"]);
+  assert.equal(result.othersCount, 1);
+});
+
+test("sizeForWeight clamps to maxPx at the top of the range and minPx at the bottom", () => {
+  const range = { minPx: 20, maxPx: 100, minWeight: 10, maxWeight: 1000 };
+  assert.equal(sizeForWeight(1000, range), 100);
+  assert.equal(sizeForWeight(10, range), 20);
+});
+
+test("sizeForWeight interpolates over sqrt(weight) between the endpoints", () => {
+  // sqrt(302.5) is exactly the midpoint between sqrt(10) and sqrt(1000)
+  // (302.5 = ((sqrt(10)+sqrt(1000))/2)^2), so this sits exactly halfway
+  // from 20 to 100.
+  const size = sizeForWeight(302.5, { minPx: 20, maxPx: 100, minWeight: 10, maxWeight: 1000 });
+  assert.equal(size, 60);
+});
+
+test("sizeForWeight returns maxPx when every visible child has equal weight (no range to interpolate)", () => {
+  assert.equal(sizeForWeight(50, { minPx: 20, maxPx: 100, minWeight: 50, maxWeight: 50 }), 100);
+});
+
+test("buildOthersNode builds a plain data node whose children are the hidden children's data", () => {
+  const hidden = [weighted("c", 10), weighted("d", 1)];
+  const node = buildOthersNode("Deep Learning", hidden);
+  assert.equal(node.id, "Deep Learning__others");
+  assert.equal(node.name, "2 more");
+  assert.deepEqual(node.children, [{ id: "c", name: "c" }, { id: "d", name: "d" }]);
 });

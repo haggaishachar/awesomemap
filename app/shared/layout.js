@@ -39,6 +39,82 @@ export function computeLayout(root, width, height) {
 }
 
 /**
+ * Roughly how many `minItemAreaPx`-sized items fit in `areaPx`, floored,
+ * never less than 1 — a box (or icon grid) can always show at least one
+ * thing. Deliberately a loose estimate, not an exact packing computation:
+ * good enough to decide "does this need an Others bucket," not meant to
+ * be pixel-exact (the actual layout may render very slightly over or
+ * under this count).
+ */
+export function estimateCapacity(areaPx, minItemAreaPx) {
+  if (!(areaPx > 0) || !(minItemAreaPx > 0)) return 1;
+  return Math.max(1, Math.floor(areaPx / minItemAreaPx));
+}
+
+/**
+ * Ranks `children` (each `{ value, data: { name, ... } }` — real d3
+ * hierarchy nodes satisfy this) by `value` descending (ties broken by
+ * `data.name`) and splits them into what's shown individually versus
+ * folded into a single "Others" bucket, so that at most `capacity` slots
+ * are used in total (one of which is the Others slot itself, when there's
+ * anything to hide). Passes everything through unchanged, with an empty
+ * Others bucket, when `children.length <= capacity`.
+ */
+export function selectTopWithOthers(children, capacity) {
+  const cap = Math.max(1, Math.floor(capacity));
+  const sorted = [...children].sort(
+    (a, b) => b.value - a.value || a.data.name.localeCompare(b.data.name),
+  );
+
+  if (sorted.length <= cap) {
+    return { visible: sorted, othersCount: 0, othersWeight: 0, othersChildren: [] };
+  }
+
+  const visibleCount = Math.max(1, cap - 1);
+  const visible = sorted.slice(0, visibleCount);
+  const othersChildren = sorted.slice(visibleCount);
+  const othersWeight = othersChildren.reduce((sum, child) => sum + child.value, 0);
+  return { visible, othersCount: othersChildren.length, othersWeight, othersChildren };
+}
+
+/**
+ * Maps `weight` onto a pixel size between `minPx` and `maxPx`, by linear
+ * interpolation over `sqrt(weight)` (so a 4x weight difference reads as
+ * ~2x size, not 4x — keeps a single dominant project from dwarfing
+ * everything else in the same grid). `minWeight`/`maxWeight` describe the
+ * range of weights currently being sized together (typically the
+ * `visible` set from `selectTopWithOthers`, so the biggest one shown
+ * always renders at `maxPx`). Returns `maxPx` outright when
+ * `maxWeight <= minWeight` (a single item, or a degenerate equal-weight
+ * set) rather than dividing by zero.
+ */
+export function sizeForWeight(weight, { minPx, maxPx, minWeight, maxWeight }) {
+  if (maxWeight <= minWeight) return maxPx;
+  const t =
+    (Math.sqrt(weight) - Math.sqrt(minWeight)) / (Math.sqrt(maxWeight) - Math.sqrt(minWeight));
+  const clamped = Math.min(1, Math.max(0, t));
+  return Math.round(minPx + clamped * (maxPx - minPx));
+}
+
+/**
+ * Builds the plain-data shape for a synthetic "N more" node standing in
+ * for `othersChildren` (the hidden half of a `selectTopWithOthers`
+ * result). `children` is each hidden child's own `.data` — plain project
+ * or category data, unwrapped from its d3 hierarchy node — so this node
+ * can be fed straight into `buildHierarchy`/`hierarchy()` like any other
+ * tree data, and its own weight is derived by summing those children the
+ * same way every other category's weight is (see `weightOf`), rather than
+ * being tracked separately and risking drifting out of sync.
+ */
+export function buildOthersNode(parentId, othersChildren) {
+  return {
+    id: `${parentId}__others`,
+    name: `${othersChildren.length} more`,
+    children: othersChildren.map((child) => child.data),
+  };
+}
+
+/**
  * Projects a node's global rect (as set by computeLayout) into pixel
  * coordinates for display, given that `focusRect` currently fills the
  * container. This is what makes "zooming into a category" work: the

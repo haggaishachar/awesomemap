@@ -37,7 +37,7 @@ function renderShell({ title, ogTitle, ogDescription, ogImage, ogUrl, base, body
  * Renders a domain's full page (or its chrome-free embed variant, when
  * `embed` is true). `domain` is { slug, name, description }. `tree` is
  * buildTree's output; each leaf's `image` (when present) is already a
- * direct URL into the tool's source repo, ready to use as-is.
+ * direct URL into the project's source repo, ready to use as-is.
  */
 export function renderDomainPage(domain, tree, { embed = false, defaultOgImage, siteUrl = "", basePath = "" }) {
   const backLink = embed ? "" : `<p class="back-link"><a href="${basePath}/">&larr; All maps</a></p>`;
@@ -91,7 +91,7 @@ export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", baseP
       </div>
       <div class="hero-content">
         <h1>awesomemap</h1>
-        <p class="hero-tagline">Interactive, zoomable maps of open-source tool ecosystems — sized by adoption, explorable by category.</p>
+        <p class="hero-tagline">Interactive, zoomable maps of open-source project ecosystems — sized by adoption, explorable by category.</p>
       </div>
     </header>
     <div class="map-index">

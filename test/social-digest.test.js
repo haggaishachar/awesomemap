@@ -8,19 +8,19 @@ const DOMAINS = [
   {
     slug: "data-science",
     name: "Data Science",
-    tools: [
-      { id: "a/a", name: "Tool A", link: "https://a.example" },
-      { id: "b/b", name: "Tool B", link: "https://b.example" },
+    projects: [
+      { id: "a/a", name: "Project A", link: "https://a.example" },
+      { id: "b/b", name: "Project B", link: "https://b.example" },
     ],
   },
   {
     slug: "security",
     name: "Security",
-    tools: [{ id: "c/c", name: "Tool C", link: "https://c.example" }],
+    projects: [{ id: "c/c", name: "Project C", link: "https://c.example" }],
   },
 ];
 
-test("computeTopRisers ranks tools by star delta, descending, across domains", () => {
+test("computeTopRisers ranks projects by star delta, descending, across domains", () => {
   const history = {
     "data-science": {
       "a/a": [
@@ -48,7 +48,7 @@ test("computeTopRisers ranks tools by star delta, descending, across domains", (
   assert.equal(result[0].starDelta, 40);
 });
 
-test("computeTopRisers excludes tools without enough history for the window", () => {
+test("computeTopRisers excludes projects without enough history for the window", () => {
   const history = {
     "data-science": { "a/a": [{ date: "2026-08-14", stars: 100 }] },
     security: {},
@@ -57,7 +57,7 @@ test("computeTopRisers excludes tools without enough history for the window", ()
   assert.deepEqual(result, []);
 });
 
-test("computeTopRisers excludes tools that shrank or stayed flat", () => {
+test("computeTopRisers excludes projects that shrank or stayed flat", () => {
   const history = {
     "data-science": {
       "a/a": [
@@ -97,10 +97,10 @@ test("computeTopRisers respects the limit", () => {
 
 test("formatDigest renders a numbered list with links and percentages", () => {
   const body = formatDigest(
-    [{ id: "a/a", name: "Tool A", link: "https://a.example", domain: "Data Science", starDelta: 30, percentDelta: 30 }],
+    [{ id: "a/a", name: "Project A", link: "https://a.example", domain: "Data Science", starDelta: 30, percentDelta: 30 }],
     { windowDays: 7 }
   );
-  assert.match(body, /1\. \*\*\[Tool A\]\(https:\/\/a\.example\)\*\* \(Data Science\) — \+30 stars \(\+30\.0%\)/);
+  assert.match(body, /1\. \*\*\[Project A\]\(https:\/\/a\.example\)\*\* \(Data Science\) — \+30 stars \(\+30\.0%\)/);
   assert.match(body, /last 7 days/);
 });
 

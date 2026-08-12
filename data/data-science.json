@@ -1,8 +1,8 @@
 {
   "slug": "data-science",
-  "name": "Best Data Science Open Source Tools",
+  "name": "Best Data Science Open Source Projects",
   "description": "Machine learning, deep learning, NLP, computer vision, and more.",
-  "tools": [
+  "projects": [
     {
       "id": "scikit-learn/scikit-learn",
       "path": [

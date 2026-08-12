@@ -6,24 +6,24 @@
 
 **[→ Explore the live maps](https://haggaishachar.github.io/awesomemap/)**
 
-Interactive, zoomable treemaps of open-source tool ecosystems. Every
-rectangle is a tool; its size reflects adoption, and its place in the map
+Interactive, zoomable treemaps of open-source project ecosystems. Every
+rectangle is a project; its size reflects adoption, and its place in the map
 is its category. Zoom into a category to see what's inside it, click any
-tool to see what it does and jump to its GitHub repo or homepage.
+project to see what it does and jump to its GitHub repo or homepage.
 
 ## Popular vs. Rising
 
 Every map has two modes:
 
-- **Popular** sizes each tool by total adoption — the established players.
-- **Rising** sizes each tool by star-growth *velocity* over the last 7,
+- **Popular** sizes each project by total adoption — the established players.
+- **Rising** sizes each project by star-growth *velocity* over the last 7,
   30, or 90 days, computed from daily star-history snapshots — surfaces
   what's accelerating right now, before it shows up on the "popular"
   radar.
 
 ## Maps
 
-| Map | Description | Tools |
+| Map | Description | Projects |
 | --- | --- | --- |
 | [Data Science](https://haggaishachar.github.io/awesomemap/data-science/) | Machine learning, deep learning, NLP, computer vision, and more. | 44 |
 | [Security](https://haggaishachar.github.io/awesomemap/security/) | Scanning, exploitation, SIEM, secrets management, forensics, and more. | 51 |
@@ -35,9 +35,9 @@ More domains are on the way.
 
 ## How it works
 
-- Each map is a curated, hand-weighted dataset of tools grouped by category.
+- Each map is a curated, hand-weighted dataset of projects grouped by category.
 - Click a category to zoom in; use the breadcrumb to zoom back out.
-- Click any tool for a detail panel with its description, GitHub link, and homepage.
+- Click any project for a detail panel with its description, GitHub link, and homepage.
 - Toggle Popular/Rising and pick a growth window to see what's trending.
 
 ## Embed a map
@@ -56,5 +56,5 @@ Swap `data-science` for any slug from the table above.
 
 ## Contributing
 
-Want to add a tool, fix a map, or run awesomemap locally? See
+Want to add a project, fix a map, or run awesomemap locally? See
 [CONTRIBUTING.md](CONTRIBUTING.md).

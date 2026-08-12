@@ -1,6 +1,6 @@
 # Treemap Top-N + Others — Design
 
-Status: Approved
+Status: Superseded by [`2026-08-12-treemap-icon-grid-design.md`](2026-08-12-treemap-icon-grid-design.md)
 Date: 2026-08-08
 
 ## Context

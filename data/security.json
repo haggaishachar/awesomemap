@@ -1,8 +1,8 @@
 {
   "slug": "security",
-  "name": "Best Security Open Source Tools",
+  "name": "Best Security Open Source Projects",
   "description": "Scanning, exploitation, SIEM, secrets management, forensics, and more.",
-  "tools": [
+  "projects": [
     {
       "id": "nmap/nmap",
       "path": [

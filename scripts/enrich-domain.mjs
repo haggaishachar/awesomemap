@@ -15,8 +15,8 @@ export const LOGO_CANDIDATE_PATHS = [
 
 /**
  * Extracts { owner, repo } from a "owner/repo" shorthand (the `id` field's
- * format — always github.com, so the host isn't repeated per tool). Every
- * tool's `id` is its GitHub repo, doubling as its unique identifier.
+ * format — always github.com, so the host isn't repeated per project). Every
+ * project's `id` is its GitHub repo, doubling as its unique identifier.
  * Tolerates a trailing slash and a trailing .git. Returns null for
  * anything else, including a full URL (write the shorthand instead) or a
  * path with extra segments.
@@ -32,19 +32,19 @@ export function parseGhRepo(shorthand) {
 }
 
 /**
- * Given a tool and an injected `getJson`, returns a new tool object with
- * `weight` set to its GitHub repo's live star count and, if a logo
+ * Given a project and an injected `getJson`, returns a new project object
+ * with `weight` set to its GitHub repo's live star count and, if a logo
  * candidate is found, `image` set to that file's direct raw.githubusercontent.com
  * URL (served straight from the source repo — never downloaded or stored
- * in this repo). Tools whose `id` isn't a parseable owner/repo shorthand
+ * in this repo). Projects whose `id` isn't a parseable owner/repo shorthand
  * are returned unchanged; no network calls are made for them.
  */
-export async function enrichTool(tool, { getJson }) {
-  const repo = parseGhRepo(tool.id);
-  if (!repo) return tool;
+export async function enrichProject(project, { getJson }) {
+  const repo = parseGhRepo(project.id);
+  if (!repo) return project;
 
   const repoData = await getJson(`https://api.github.com/repos/${repo.owner}/${repo.repo}`);
-  const enriched = { ...tool, weight: repoData.stargazers_count };
+  const enriched = { ...project, weight: repoData.stargazers_count };
 
   for (const path of LOGO_CANDIDATE_PATHS) {
     let entry;
@@ -101,22 +101,22 @@ export async function withRetry(
 }
 
 /**
- * Given the post-enrichment tool list, returns the ids of tools that should
- * have received a real star-count `weight` from `enrichTool` (i.e. those
- * whose `id` is a parseable owner/repo shorthand) but didn't: `weight` is
- * missing, not a number, not an integer, or not strictly positive. Tools
- * whose `id` isn't parseable are never enriched and are intentionally
- * excluded — that's expected behavior, not a failure. Pure and
- * side-effect free so it can be unit tested directly; `main()` calls this
- * after the enrichment loop and fails loudly if it returns anything.
+ * Given the post-enrichment project list, returns the ids of projects that
+ * should have received a real star-count `weight` from `enrichProject`
+ * (i.e. those whose `id` is a parseable owner/repo shorthand) but didn't:
+ * `weight` is missing, not a number, not an integer, or not strictly
+ * positive. Projects whose `id` isn't parseable are never enriched and are
+ * intentionally excluded — that's expected behavior, not a failure. Pure
+ * and side-effect free so it can be unit tested directly; `main()` calls
+ * this after the enrichment loop and fails loudly if it returns anything.
  */
-export function findInvalidWeights(tools) {
+export function findInvalidWeights(projects) {
   const bad = [];
-  for (const tool of tools) {
-    if (!parseGhRepo(tool.id)) continue;
-    const { weight } = tool;
+  for (const project of projects) {
+    if (!parseGhRepo(project.id)) continue;
+    const { weight } = project;
     if (typeof weight !== "number" || !Number.isInteger(weight) || weight <= 0) {
-      bad.push(tool.id);
+      bad.push(project.id);
     }
   }
   return bad;
@@ -163,32 +163,32 @@ async function main() {
   let starsFetched = 0;
   let logosFound = 0;
   let failed = 0;
-  const enrichedTools = [];
+  const enrichedProjects = [];
 
-  for (const tool of domain.tools) {
+  for (const project of domain.projects) {
     try {
-      const enriched = await enrichTool(tool, { getJson });
+      const enriched = await enrichProject(project, { getJson });
       if (enriched.weight !== undefined) starsFetched += 1;
-      if (enriched.image !== undefined && enriched.image !== tool.image) logosFound += 1;
-      enrichedTools.push(enriched);
+      if (enriched.image !== undefined && enriched.image !== project.image) logosFound += 1;
+      enrichedProjects.push(enriched);
     } catch (err) {
       failed += 1;
-      console.error(`Warning: failed to enrich tool "${tool.id}": ${err.message}`);
-      enrichedTools.push(tool);
+      console.error(`Warning: failed to enrich project "${project.id}": ${err.message}`);
+      enrichedProjects.push(project);
     }
   }
 
-  const invalidWeightIds = findInvalidWeights(enrichedTools);
+  const invalidWeightIds = findInvalidWeights(enrichedProjects);
   if (invalidWeightIds.length > 0) {
     console.error(
-      `Error: ${invalidWeightIds.length} tool(s) did not end up with a real positive integer weight: ${invalidWeightIds.join(", ")}`,
+      `Error: ${invalidWeightIds.length} project(s) did not end up with a real positive integer weight: ${invalidWeightIds.join(", ")}`,
     );
     process.exit(1);
   }
 
-  writeFileSync(domainPath, JSON.stringify({ ...domain, tools: enrichedTools }, null, 2) + "\n");
+  writeFileSync(domainPath, JSON.stringify({ ...domain, projects: enrichedProjects }, null, 2) + "\n");
   console.log(
-    `${domainPath}: ${starsFetched}/${domain.tools.length} weights fetched, ${failed} failed, ${logosFound} logo URLs resolved`,
+    `${domainPath}: ${starsFetched}/${domain.projects.length} weights fetched, ${failed} failed, ${logosFound} logo URLs resolved`,
   );
 }
 

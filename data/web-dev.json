@@ -1,8 +1,8 @@
 {
   "slug": "web-dev",
-  "name": "Best Web Development Open Source Tools",
+  "name": "Best Web Development Open Source Projects",
   "description": "Frontend frameworks, build tools, styling, backend frameworks, and more.",
-  "tools": [
+  "projects": [
     {
       "id": "facebook/react",
       "path": [

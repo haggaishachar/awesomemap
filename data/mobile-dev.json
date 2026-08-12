@@ -1,8 +1,8 @@
 {
   "slug": "mobile-dev",
-  "name": "Best Mobile Development Open Source Tools",
+  "name": "Best Mobile Development Open Source Projects",
   "description": "Cross-platform frameworks, native tooling, testing, state management, and more.",
-  "tools": [
+  "projects": [
     {
       "id": "react/react-native",
       "path": [

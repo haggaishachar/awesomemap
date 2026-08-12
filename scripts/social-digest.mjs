@@ -9,14 +9,14 @@ const LIMIT = 5;
 
 /**
  * Computes the top star-growth risers across every domain for one
- * window. `domains` is `[{ slug, name, tools }]` (raw `data/*.json`
+ * window. `domains` is `[{ slug, name, projects }]` (raw `data/*.json`
  * shape); `historyBySlug` maps slug to that domain's
- * `data/history/<slug>.json` contents (`{ toolId: [{date, stars}] }`).
+ * `data/history/<slug>.json` contents (`{ projectId: [{date, stars}] }`).
  *
- * A tool can appear once per domain it's listed in (the same tool may be
- * curated into more than one map) — each listing is scored
- * independently since its history is keyed by tool id, not by
- * domain+tool. Only tools with `hasEnoughHistory` for the window are
+ * A project can appear once per domain it's listed in (the same project
+ * may be curated into more than one map) — each listing is scored
+ * independently since its history is keyed by project id, not by
+ * domain+project. Only projects with `hasEnoughHistory` for the window are
  * eligible, so the list is empty (not wrong) until enough daily
  * snapshots have accumulated.
  */
@@ -25,13 +25,13 @@ export function computeTopRisers(domains, historyBySlug, { windowDays = WINDOW_D
 
   for (const domain of domains) {
     const history = historyBySlug[domain.slug] ?? {};
-    for (const tool of domain.tools) {
-      const velocity = computeVelocity(history[tool.id] ?? [], windowDays, { now });
+    for (const project of domain.projects) {
+      const velocity = computeVelocity(history[project.id] ?? [], windowDays, { now });
       if (!velocity.hasEnoughHistory || velocity.starDelta <= 0) continue;
       candidates.push({
-        id: tool.id,
-        name: tool.name,
-        link: tool.link,
+        id: project.id,
+        name: project.name,
+        link: project.link,
         domain: domain.name,
         starDelta: velocity.starDelta,
         percentDelta: velocity.percentDelta,

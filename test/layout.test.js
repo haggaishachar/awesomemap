@@ -341,3 +341,26 @@ test("computeStageSize never goes negative for a container narrower than the sid
   assert.equal(size.width, 0);
   assert.equal(size.height, 0);
 });
+
+test("computeStageSize fills the given available height on mobile instead of using the fixed ratio", () => {
+  // 375 - 16*2 = 343, still under the breakpoint.
+  const size = computeStageSize(375, 700);
+  assert.equal(size.width, 343);
+  assert.equal(size.height, 700);
+});
+
+test("computeStageSize floors the mobile height at STAGE_MIN_MOBILE_HEIGHT_PX for a squeezed viewport", () => {
+  const size = computeStageSize(375, 100);
+  assert.equal(size.height, 280);
+});
+
+test("computeStageSize ignores availableHeight at/above the desktop breakpoint", () => {
+  const size = computeStageSize(672, 2000);
+  assert.equal(size.width, 640);
+  assert.equal(size.height, 640 * 0.6);
+});
+
+test("computeStageSize falls back to the mobile ratio when availableHeight isn't a finite number", () => {
+  assert.equal(computeStageSize(375, undefined).height, 343 * 1.3);
+  assert.equal(computeStageSize(375, NaN).height, 343 * 1.3);
+});

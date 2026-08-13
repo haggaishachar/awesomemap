@@ -1,7 +1,8 @@
-import { buildHierarchy, computeLevelBoxes } from "./layout.js";
+import { buildHierarchy, computeLevelBoxes, computeStageSize } from "./layout.js";
 
-const STAGE_WIDTH = 1000;
-const STAGE_HEIGHT = 600;
+// Debounce for the ResizeObserver in mountTreemap — avoids re-laying-out
+// the whole stage on every intermediate frame of a window drag-resize.
+const RESIZE_DEBOUNCE_MS = 150;
 // Deliberately duplicated from scripts/velocity.mjs's RISING_WINDOWS_DAYS
 // rather than imported: scripts/ is a build-time-only Node directory that
 // generate.mjs never copies into dist/, so this browser module can't
@@ -54,6 +55,9 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
   let focusNode = root;
   let focusIdPath = [root.data.id];
 
+  let stageWidth;
+  let stageHeight;
+
   container.innerHTML = "";
   const modeBar = document.createElement("div");
   modeBar.className = "treemap-mode-bar";
@@ -61,11 +65,25 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
   breadcrumb.className = "treemap-breadcrumb";
   const stage = document.createElement("div");
   stage.className = "treemap-stage";
-  stage.style.width = `${STAGE_WIDTH}px`;
-  stage.style.height = `${STAGE_HEIGHT}px`;
   container.appendChild(modeBar);
   container.appendChild(breadcrumb);
   container.appendChild(stage);
+
+  /**
+   * Applies a freshly computed `{width, height}` to the stage element and
+   * to the closure-scoped `stageWidth`/`stageHeight` that `renderLevel`
+   * lays boxes out against. Doesn't itself re-render — callers that need
+   * the new size reflected in the actual boxes call `renderLevel()` (or
+   * the full initial render sequence) afterwards.
+   */
+  function applyStageSize(size) {
+    stageWidth = size.width;
+    stageHeight = size.height;
+    stage.style.width = `${stageWidth}px`;
+    stage.style.height = `${stageHeight}px`;
+  }
+
+  applyStageSize(computeStageSize(container.clientWidth));
 
   function activeSizeKey() {
     return sizeMode === "popular" ? "popular" : `rising${risingWindow}`;
@@ -198,8 +216,8 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
     const boxes = computeLevelBoxes(focusNode.children, {
       focusId: focusNode.data.id,
       sizeKey: activeSizeKey(),
-      stageWidth: STAGE_WIDTH,
-      stageHeight: STAGE_HEIGHT,
+      stageWidth,
+      stageHeight,
       minBoxAreaPx: MIN_BOX_AREA_PX,
     });
     for (const box of boxes) {
@@ -395,6 +413,29 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
   renderModeBar();
   renderBreadcrumb();
   renderLevel();
+
+  /**
+   * Recomputes the stage size from the container's current width and,
+   * only if it actually changed, applies it and re-lays-out the current
+   * focus level. Zoom state (`focusNode`/`focusIdPath`) is untouched, so
+   * the user stays at whatever level they'd zoomed to across a resize.
+   */
+  function resizeStage() {
+    const nextSize = computeStageSize(container.clientWidth);
+    if (nextSize.width === stageWidth && nextSize.height === stageHeight) return;
+    applyStageSize(nextSize);
+    renderLevel();
+  }
+
+  let resizeTimeoutId = null;
+  const resizeObserver = new ResizeObserver(() => {
+    if (resizeTimeoutId !== null) clearTimeout(resizeTimeoutId);
+    resizeTimeoutId = setTimeout(() => {
+      resizeTimeoutId = null;
+      resizeStage();
+    }, RESIZE_DEBOUNCE_MS);
+  });
+  resizeObserver.observe(container);
 
   return { zoomTo, root };
 }

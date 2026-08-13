@@ -1,4 +1,4 @@
-import { buildHierarchy, computeLevelBoxes, selectTopWithOthers, sizeForWeight } from "./layout.js";
+import { buildHierarchy, computeLevelBoxes } from "./layout.js";
 
 const STAGE_WIDTH = 1000;
 const STAGE_HEIGHT = 600;
@@ -11,16 +11,20 @@ const RISING_WINDOWS_DAYS = [7, 30, 90];
 // A box needs roughly this much area to stay legible (label + logo)
 // before it's worth its own slot instead of folding into "Others".
 const MIN_BOX_AREA_PX = 12000;
-// Same idea as MIN_BOX_AREA_PX, but for the small peek icons shown inside
-// a box that itself has children — much smaller, since a peek icon is
+// Same idea as MIN_BOX_AREA_PX, but for the small peek tiles shown inside
+// a box that itself has children — much smaller, since a peek tile is
 // just a logo with no label of its own.
 const MIN_PEEK_AREA_PX = 2500;
-const PEEK_MIN_ICON_PX = 20;
-const PEEK_MAX_ICON_PX = 64;
-// Below this, a box can't fit even one peek icon plus its own padding —
+// Below this, a box can't fit even one peek tile plus its own padding —
 // skip the peek entirely rather than render an empty or cramped grid.
 const PEEK_MIN_BOX_WIDTH = 60;
 const PEEK_MIN_BOX_HEIGHT = 40;
+// Matches .treemap-category's CSS padding (4px 6px) and one line of the
+// 12px label, so the packed peek treemap lands inside the box's actual
+// content area instead of under its own padding/label.
+const PEEK_HORIZONTAL_INSET_PX = 12;
+const PEEK_VERTICAL_INSET_PX = 8;
+const PEEK_LABEL_RESERVED_PX = 18;
 
 /**
  * Mounts a treemap for `mapData` into `container`. A project's `image`,
@@ -228,7 +232,7 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
     }
 
     if (node.children) {
-      renderPeek(box, node.children);
+      renderPeek(box, node.children, rect, node.data.id);
       box.addEventListener("click", (event) => {
         event.stopPropagation();
         zoomTo(node);
@@ -263,7 +267,7 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
     label.textContent = data.name;
     box.appendChild(label);
 
-    renderPeek(box, hiddenChildren);
+    renderPeek(box, hiddenChildren, rect, data.id);
 
     box.addEventListener("click", (event) => {
       event.stopPropagation();
@@ -274,79 +278,80 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
   }
 
   /**
-   * Adds a small preview grid of `children`'s (real d3 nodes, each with
-   * `.value` and `.data`) top items as clickable logo icons, sized by
-   * weight, inside `box` — this is what makes a category or Others box
-   * show project logos before you zoom into it. Reads `box`'s own current
-   * pixel size (already set by the caller) to decide how many icons fit;
-   * skips entirely if there's not enough room for even one.
+   * Adds a small preview of `children`'s (real d3 nodes, each with
+   * `.value` and `.data`) top items inside `box`, packed edge-to-edge via
+   * the same `computeLevelBoxes` mini-treemap used for full-size boxes —
+   * this is what makes a category or Others box show project logos
+   * before you zoom into it, and it's why a tall narrow box packs its
+   * tiles in a different arrangement than a short wide one: squarify
+   * picks row/column splits from the box's own aspect ratio, the same
+   * way it already does for the top-level category layout. `rect` is
+   * `box`'s own already-set `{left, top, width, height}`; the insets
+   * subtracted below match `.treemap-category`'s CSS padding and one
+   * line of the label, so the packed tiles land inside the box's actual
+   * content area instead of under its own padding/label. Skips entirely
+   * if there's not enough room for even one tile.
    */
-  function renderPeek(box, children) {
+  function renderPeek(box, children, rect, focusId) {
     if (!children || children.length === 0) return;
 
-    const width = parseFloat(box.style.width);
-    const height = parseFloat(box.style.height);
+    const width = rect.width - PEEK_HORIZONTAL_INSET_PX;
+    const height = rect.height - PEEK_VERTICAL_INSET_PX - PEEK_LABEL_RESERVED_PX;
     if (width < PEEK_MIN_BOX_WIDTH || height < PEEK_MIN_BOX_HEIGHT) return;
 
-    const capacity = Math.floor((width * height) / MIN_PEEK_AREA_PX);
-    if (capacity < 1) return;
-
-    const { visible, othersCount, othersWeight } = selectTopWithOthers(children, capacity);
-    const weights = visible.map((child) => child.value);
-    const minWeight = Math.min(...weights);
-    const maxWeight = othersCount > 0 ? Math.max(...weights, othersWeight) : Math.max(...weights);
-    const maxIconPx = Math.max(
-      PEEK_MIN_ICON_PX,
-      Math.min(PEEK_MAX_ICON_PX, Math.floor(Math.min(width, height) * 0.4)),
-    );
-    const sizeRange = { minPx: PEEK_MIN_ICON_PX, maxPx: maxIconPx, minWeight, maxWeight };
+    const peekBoxes = computeLevelBoxes(children, {
+      focusId,
+      sizeKey: activeSizeKey(),
+      stageWidth: width,
+      stageHeight: height,
+      minBoxAreaPx: MIN_PEEK_AREA_PX,
+    });
+    if (peekBoxes.length === 0) return;
 
     const grid = document.createElement("div");
     grid.className = "treemap-peek-grid";
+    grid.style.width = `${width}px`;
+    grid.style.height = `${height}px`;
 
-    for (const child of visible) {
-      grid.appendChild(renderPeekIcon(child, sizeForWeight(child.value, sizeRange)));
-    }
-
-    if (othersCount > 0) {
-      const tag = document.createElement("span");
-      tag.className = "treemap-peek-more";
-      const side = sizeForWeight(othersWeight, sizeRange);
-      tag.style.width = `${side}px`;
-      tag.style.height = `${side}px`;
-      tag.textContent = `+${othersCount}`;
-      grid.appendChild(tag);
+    for (const peekBox of peekBoxes) {
+      grid.appendChild(
+        peekBox.kind === "real"
+          ? renderPeekTile(peekBox.node, peekBox.rect)
+          : renderPeekOthersTile(peekBox.data, peekBox.rect)
+      );
     }
 
     box.appendChild(grid);
   }
 
   /**
-   * One clickable icon inside a peek grid. Mirrors the logo-vs-fallback
-   * handling `renderBox` uses for a full leaf box. Clicking opens the
-   * detail panel directly for a project, or zooms in directly for a
-   * (nested) category — either way `stopPropagation`'d so it doesn't also
-   * trigger the containing box's own zoom-in click handler.
+   * One packed peek tile for a real project or (nested) category. Mirrors
+   * the logo-vs-fallback handling `renderBox` uses for a full leaf box.
+   * Clicking opens the detail panel directly for a project, or zooms in
+   * directly for a category — either way `stopPropagation`'d so it
+   * doesn't also trigger the containing box's own zoom-in click handler.
    */
-  function renderPeekIcon(child, sidePx) {
-    const icon = document.createElement("button");
-    icon.type = "button";
-    icon.className = "treemap-peek-icon";
-    icon.style.width = `${sidePx}px`;
-    icon.style.height = `${sidePx}px`;
-    icon.title = child.data.name;
+  function renderPeekTile(child, rect) {
+    const tile = document.createElement("button");
+    tile.type = "button";
+    tile.className = "treemap-peek-tile";
+    tile.style.left = `${rect.left}px`;
+    tile.style.top = `${rect.top}px`;
+    tile.style.width = `${rect.width}px`;
+    tile.style.height = `${rect.height}px`;
+    tile.title = child.data.name;
 
     if (!child.children && child.data.image) {
       const img = document.createElement("img");
       img.src = child.data.image;
       img.alt = child.data.name;
       img.onerror = () => img.replaceWith(renderFallbackLogo(child.data.name));
-      icon.appendChild(img);
+      tile.appendChild(img);
     } else {
-      icon.appendChild(renderFallbackLogo(child.data.name));
+      tile.appendChild(renderFallbackLogo(child.data.name));
     }
 
-    icon.addEventListener("click", (event) => {
+    tile.addEventListener("click", (event) => {
       event.stopPropagation();
       if (child.children) {
         zoomTo(child);
@@ -355,7 +360,25 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
       }
     });
 
-    return icon;
+    return tile;
+  }
+
+  /**
+   * The peek's own truncation tile ("N more"), when even the small preview
+   * can't fit every child. Deliberately non-interactive — the containing
+   * box is already a click target that zooms in and reveals everything
+   * (via the real top-level Others mechanism), so this tile doesn't need
+   * its own click handling; a click on it simply bubbles up to that.
+   */
+  function renderPeekOthersTile(data, rect) {
+    const tile = document.createElement("span");
+    tile.className = "treemap-peek-tile treemap-peek-tile-others";
+    tile.style.left = `${rect.left}px`;
+    tile.style.top = `${rect.top}px`;
+    tile.style.width = `${rect.width}px`;
+    tile.style.height = `${rect.height}px`;
+    tile.textContent = data.name;
+    return tile;
   }
 
   renderModeBar();

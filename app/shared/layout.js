@@ -1,5 +1,38 @@
 import { hierarchy, treemap, treemapSquarify } from "d3-hierarchy";
 
+// The stage never grows past this width, regardless of viewport — the
+// original fixed desktop size, now a ceiling rather than the only size.
+const STAGE_MAX_WIDTH = 1000;
+// Reserved on each side so a box's outer edge never renders flush against
+// the screen edge on a narrow viewport.
+const STAGE_SIDE_MARGIN_PX = 16;
+// Below this *stage* width (after the side margin above is subtracted),
+// switch from the desktop landscape ratio to a taller, portrait-friendly
+// one — a phone-width stage would otherwise just be a short, squished
+// version of the desktop shape instead of making use of a tall screen.
+const STAGE_MOBILE_BREAKPOINT_PX = 640;
+const STAGE_MOBILE_HEIGHT_RATIO = 1.3;
+const STAGE_DESKTOP_HEIGHT_RATIO = 0.6; // matches the original 1000x600.
+
+/**
+ * Computes the stage's `{width, height}` from the width available to it
+ * (typically its container's `clientWidth`). Width is capped at
+ * `STAGE_MAX_WIDTH`; below `STAGE_MOBILE_BREAKPOINT_PX` the height uses a
+ * taller ratio than the desktop default so a phone-width stage makes
+ * better use of a portrait screen. Called once at mount and again on
+ * every resize/orientation change (see `mountTreemap`'s `resizeStage` in
+ * `treemap.js`) — this is the only place stage size is decided.
+ */
+export function computeStageSize(containerWidth) {
+  const usable = Math.max(0, containerWidth - STAGE_SIDE_MARGIN_PX * 2);
+  const width = Math.min(usable, STAGE_MAX_WIDTH);
+  const height =
+    width < STAGE_MOBILE_BREAKPOINT_PX
+      ? width * STAGE_MOBILE_HEIGHT_RATIO
+      : width * STAGE_DESKTOP_HEIGHT_RATIO;
+  return { width, height };
+}
+
 /**
  * Value accessor used by d3's hierarchy.sum(). Category nodes (nodes with
  * children) contribute nothing of their own — their size comes entirely

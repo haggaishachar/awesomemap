@@ -63,6 +63,18 @@ test("og:image and og:url are absolute when SITE_URL is set (origin only, combin
   assert.match(html, /property="og:url" content="https:\/\/haggaishachar\.github\.io\/techmap\/data-science\/"/);
 });
 
+test("the 'All maps' back-link is placed before #app, not after — reachable without scrolling past the map", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png" });
+  assert.ok(html.indexOf('class="back-link"') < html.indexOf('id="app"'));
+});
+
+test("the embed variant has no back-link and starts straight at #app", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", embed: true });
+  assert.doesNotMatch(html, /back-link/);
+});
+
 test("landing page card links escape the slug and use a trailing slash", () => {
   const html = renderLandingPage(
     [{ slug: "data-science", name: "Data Science", description: "desc" }],

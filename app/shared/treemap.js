@@ -89,13 +89,16 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
 
   /**
    * The viewport height left for the stage: from the stage's own top
-   * (i.e. below whatever the mode bar + breadcrumb currently occupy) down
-   * to the bottom of the window, minus a small margin. Depends only on
-   * the *preceding* siblings' layout, not the stage's own current
-   * width/height, so it's safe to call before the stage has ever been
-   * sized. Re-measured on every resize/orientation change and whenever
-   * the mode bar's own height changes (e.g. the Rising window-row
-   * appearing) — both go through `resizeStage` below.
+   * (i.e. below whatever precedes it on the page — the mode bar,
+   * breadcrumb, and any page chrome like the "All maps" back-link) down
+   * to the bottom of the window, minus a small margin. `getBoundingClientRect`
+   * is viewport-relative, so this reflects the stage's actual on-page
+   * position, not just its container's contents — safe to call before the
+   * stage has ever been sized, since it depends only on what comes before
+   * it in the page, never on its own current width/height. Re-measured on
+   * every resize/orientation change and whenever the mode bar's own height
+   * changes (e.g. the Rising window-row appearing) — both go through
+   * `resizeStage` below.
    */
   function computeAvailableHeight() {
     return window.innerHeight - stage.getBoundingClientRect().top - STAGE_BOTTOM_MARGIN_PX;

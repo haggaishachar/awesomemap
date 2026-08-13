@@ -43,8 +43,8 @@ export function renderDomainPage(domain, tree, { embed = false, defaultOgImage, 
   const backLink = embed ? "" : `<p class="back-link"><a href="${basePath}/">&larr; All maps</a></p>`;
   const ogUrl = `${siteUrl}${basePath}/${domain.slug}/`;
   const body = `
-    <div id="app"></div>
     ${backLink}
+    <div id="app"></div>
     <script type="application/json" id="map-data">${escapeScriptJson(JSON.stringify(tree))}</script>
     <script type="module">
       import { mountTreemap } from "${basePath}/shared/treemap.js";

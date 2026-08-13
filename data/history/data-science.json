@@ -22,7 +22,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 66969
+      "stars": 66973
     }
   ],
   "dmlc/xgboost": [
@@ -100,7 +100,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 196989
+      "stars": 196999
     }
   ],
   "deepmind/sonnet": [
@@ -152,7 +152,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 102353
+      "stars": 102358
     }
   ],
   "apache/incubator-mxnet": [
@@ -360,7 +360,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 164039
+      "stars": 164066
     }
   ],
   "allenai/allennlp": [
@@ -438,7 +438,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 33814
+      "stars": 33815
     }
   ],
   "facebookresearch/fastText": [
@@ -464,7 +464,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 26541
+      "stars": 26540
     }
   ],
   "kaldi-asr/kaldi": [
@@ -516,7 +516,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 26773
+      "stars": 26774
     }
   ],
   "facebookresearch/wav2letter": [
@@ -594,7 +594,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 90400
+      "stars": 90412
     }
   ],
   "facebookresearch/detectron2": [
@@ -646,7 +646,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 34361
+      "stars": 34362
     }
   ],
   "davidsandberg/facenet": [
@@ -672,7 +672,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 14348
+      "stars": 14349
     }
   ],
   "apache/spark": [
@@ -698,7 +698,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 43860
+      "stars": 43867
     }
   ],
   "apache/mahout": [
@@ -802,7 +802,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 43504
+      "stars": 43509
     }
   ],
   "EpistasisLab/tpot": [
@@ -854,7 +854,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 9327
+      "stars": 9328
     }
   ],
   "FeatureLabs/featuretools": [
@@ -1036,7 +1036,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 7504
+      "stars": 7505
     }
   ],
   "mlflow/mlflow": [
@@ -1062,7 +1062,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 27495
+      "stars": 27501
     }
   ],
   "kubeflow/kubeflow": [
@@ -1088,7 +1088,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 15811
+      "stars": 15812
     }
   ],
   "onnx/onnx": [
@@ -1114,7 +1114,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 21300
+      "stars": 21305
     }
   ],
   "SeldonIO/seldon-core": [
@@ -1141,6 +1141,90 @@
     {
       "date": "2026-08-13",
       "stars": 4770
+    }
+  ],
+  "pandas-dev/pandas": [
+    {
+      "date": "2026-08-13",
+      "stars": 49518
+    }
+  ],
+  "numpy/numpy": [
+    {
+      "date": "2026-08-13",
+      "stars": 32531
+    }
+  ],
+  "pola-rs/polars": [
+    {
+      "date": "2026-08-13",
+      "stars": 39348
+    }
+  ],
+  "lightgbm-org/LightGBM": [
+    {
+      "date": "2026-08-13",
+      "stars": 18682
+    }
+  ],
+  "catboost/catboost": [
+    {
+      "date": "2026-08-13",
+      "stars": 9066
+    }
+  ],
+  "google-deepmind/sonnet": [
+    {
+      "date": "2026-08-13",
+      "stars": 9943
+    }
+  ],
+  "keras-team/keras": [
+    {
+      "date": "2026-08-13",
+      "stars": 64225
+    }
+  ],
+  "jax-ml/jax": [
+    {
+      "date": "2026-08-13",
+      "stars": 36154
+    }
+  ],
+  "Farama-Foundation/Gymnasium": [
+    {
+      "date": "2026-08-13",
+      "stars": 12315
+    }
+  ],
+  "DLR-RM/stable-baselines3": [
+    {
+      "date": "2026-08-13",
+      "stars": 13685
+    }
+  ],
+  "alteryx/featuretools": [
+    {
+      "date": "2026-08-13",
+      "stars": 7664
+    }
+  ],
+  "optuna/optuna": [
+    {
+      "date": "2026-08-13",
+      "stars": 14656
+    }
+  ],
+  "autogluon/autogluon": [
+    {
+      "date": "2026-08-13",
+      "stars": 10595
+    }
+  ],
+  "wandb/wandb": [
+    {
+      "date": "2026-08-13",
+      "stars": 11231
     }
   ]
 }

@@ -22,7 +22,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 13344
+      "stars": 13346
     }
   ],
   "robertdavidgraham/masscan": [
@@ -48,7 +48,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 25928
+      "stars": 25930
     }
   ],
   "zmap/zmap": [
@@ -74,7 +74,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 6355
+      "stars": 6357
     }
   ],
   "owasp-amass/amass": [
@@ -100,7 +100,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 14974
+      "stars": 14976
     }
   ],
   "lanmaster53/recon-ng": [
@@ -126,7 +126,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 5847
+      "stars": 5850
     }
   ],
   "laramies/theHarvester": [
@@ -152,7 +152,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 17029
+      "stars": 17038
     }
   ],
   "greenbone/openvas-scanner": [
@@ -204,7 +204,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 10645
+      "stars": 10646
     }
   ],
   "projectdiscovery/nuclei": [
@@ -230,7 +230,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 30479
+      "stars": 30494
     }
   ],
   "wapiti-scanner/wapiti": [
@@ -256,7 +256,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 1836
+      "stars": 1835
     }
   ],
   "zaproxy/zaproxy": [
@@ -282,7 +282,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 15587
+      "stars": 15590
     }
   ],
   "sqlmapproject/sqlmap": [
@@ -308,7 +308,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 38171
+      "stars": 38175
     }
   ],
   "hahwul/dalfox": [
@@ -334,7 +334,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 5224
+      "stars": 5223
     }
   ],
   "xmendez/wfuzz": [
@@ -386,7 +386,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 16524
+      "stars": 16526
     }
   ],
   "rapid7/metasploit-framework": [
@@ -412,7 +412,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 38795
+      "stars": 38799
     }
   ],
   "beefproject/beef": [
@@ -438,7 +438,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 10976
+      "stars": 10977
     }
   ],
   "BC-SECURITY/Empire": [
@@ -464,7 +464,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 5256
+      "stars": 5258
     }
   ],
   "BishopFox/sliver": [
@@ -490,7 +490,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 11672
+      "stars": 11673
     }
   ],
   "wazuh/wazuh": [
@@ -516,7 +516,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 16517
+      "stars": 16519
     }
   ],
   "ossec/ossec-hids": [
@@ -568,7 +568,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 6540
+      "stars": 6542
     }
   ],
   "zeek/zeek": [
@@ -594,7 +594,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 7872
+      "stars": 7873
     }
   ],
   "Security-Onion-Solutions/securityonion": [
@@ -620,7 +620,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 4800
+      "stars": 4802
     }
   ],
   "openwall/john": [
@@ -646,7 +646,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 13493
+      "stars": 13495
     }
   ],
   "hashcat/hashcat": [
@@ -672,7 +672,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 26529
+      "stars": 26531
     }
   ],
   "vanhauser-thc/thc-hydra": [
@@ -698,7 +698,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 12154
+      "stars": 12153
     }
   ],
   "Pennyw0rth/NetExec": [
@@ -724,7 +724,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 5778
+      "stars": 5779
     }
   ],
   "jmk-foofus/medusa": [
@@ -776,7 +776,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 16200
+      "stars": 16205
     }
   ],
   "PyCQA/bandit": [
@@ -802,7 +802,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 8209
+      "stars": 8210
     }
   ],
   "presidentbeef/brakeman": [
@@ -854,7 +854,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 9933
+      "stars": 9934
     }
   ],
   "SonarSource/sonarqube": [
@@ -958,7 +958,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 28674
+      "stars": 28686
     }
   ],
   "trufflesecurity/trufflehog": [
@@ -984,7 +984,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 27423
+      "stars": 27435
     }
   ],
   "getsops/sops": [
@@ -1010,7 +1010,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 22790
+      "stars": 22795
     }
   ],
   "aquasecurity/trivy": [
@@ -1036,7 +1036,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 37381
+      "stars": 37382
     }
   ],
   "falcosecurity/falco": [
@@ -1062,7 +1062,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 9262
+      "stars": 9263
     }
   ],
   "quay/clair": [
@@ -1114,7 +1114,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 8139
+      "stars": 8140
     }
   ],
   "prowler-cloud/prowler": [
@@ -1140,7 +1140,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 14576
+      "stars": 14580
     }
   ],
   "nccgroup/ScoutSuite": [
@@ -1192,7 +1192,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 72311
+      "stars": 72321
     }
   ],
   "radareorg/radare2": [
@@ -1218,7 +1218,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 24562
+      "stars": 24564
     }
   ],
   "volatilityfoundation/volatility3": [
@@ -1244,7 +1244,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 4321
+      "stars": 4324
     }
   ],
   "sleuthkit/autopsy": [
@@ -1296,7 +1296,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 3124
+      "stars": 3126
     }
   ],
   "x64dbg/x64dbg": [
@@ -1322,7 +1322,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 49152
+      "stars": 49153
     }
   ]
 }

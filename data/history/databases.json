@@ -1,0 +1,296 @@
+{
+  "postgres/postgres": [
+    {
+      "date": "2026-08-13",
+      "stars": 21783
+    }
+  ],
+  "mysql/mysql-server": [
+    {
+      "date": "2026-08-13",
+      "stars": 12380
+    }
+  ],
+  "sqlite/sqlite": [
+    {
+      "date": "2026-08-13",
+      "stars": 10255
+    }
+  ],
+  "cockroachdb/cockroach": [
+    {
+      "date": "2026-08-13",
+      "stars": 32385
+    }
+  ],
+  "MariaDB/server": [
+    {
+      "date": "2026-08-13",
+      "stars": 8091
+    }
+  ],
+  "mongodb/mongo": [
+    {
+      "date": "2026-08-13",
+      "stars": 28492
+    }
+  ],
+  "apache/cassandra": [
+    {
+      "date": "2026-08-13",
+      "stars": 10069
+    }
+  ],
+  "apache/couchdb": [
+    {
+      "date": "2026-08-13",
+      "stars": 6936
+    }
+  ],
+  "scylladb/scylladb": [
+    {
+      "date": "2026-08-13",
+      "stars": 15705
+    }
+  ],
+  "redis/redis": [
+    {
+      "date": "2026-08-13",
+      "stars": 76004
+    }
+  ],
+  "valkey-io/valkey": [
+    {
+      "date": "2026-08-13",
+      "stars": 26880
+    }
+  ],
+  "memcached/memcached": [
+    {
+      "date": "2026-08-13",
+      "stars": 14251
+    }
+  ],
+  "etcd-io/etcd": [
+    {
+      "date": "2026-08-13",
+      "stars": 52119
+    }
+  ],
+  "elastic/elasticsearch": [
+    {
+      "date": "2026-08-13",
+      "stars": 77850
+    }
+  ],
+  "opensearch-project/OpenSearch": [
+    {
+      "date": "2026-08-13",
+      "stars": 13517
+    }
+  ],
+  "meilisearch/meilisearch": [
+    {
+      "date": "2026-08-13",
+      "stars": 58959
+    }
+  ],
+  "typesense/typesense": [
+    {
+      "date": "2026-08-13",
+      "stars": 26432
+    }
+  ],
+  "apache/solr": [
+    {
+      "date": "2026-08-13",
+      "stars": 1654
+    }
+  ],
+  "apache/kafka": [
+    {
+      "date": "2026-08-13",
+      "stars": 33536
+    }
+  ],
+  "rabbitmq/rabbitmq-server": [
+    {
+      "date": "2026-08-13",
+      "stars": 13779
+    }
+  ],
+  "nats-io/nats-server": [
+    {
+      "date": "2026-08-13",
+      "stars": 20490
+    }
+  ],
+  "redpanda-data/redpanda": [
+    {
+      "date": "2026-08-13",
+      "stars": 12437
+    }
+  ],
+  "apache/pulsar": [
+    {
+      "date": "2026-08-13",
+      "stars": 15310
+    }
+  ],
+  "ClickHouse/ClickHouse": [
+    {
+      "date": "2026-08-13",
+      "stars": 49229
+    }
+  ],
+  "duckdb/duckdb": [
+    {
+      "date": "2026-08-13",
+      "stars": 40210
+    }
+  ],
+  "apache/druid": [
+    {
+      "date": "2026-08-13",
+      "stars": 14041
+    }
+  ],
+  "apache/pinot": [
+    {
+      "date": "2026-08-13",
+      "stars": 6123
+    }
+  ],
+  "influxdata/influxdb": [
+    {
+      "date": "2026-08-13",
+      "stars": 31691
+    }
+  ],
+  "timescale/timescaledb": [
+    {
+      "date": "2026-08-13",
+      "stars": 23319
+    }
+  ],
+  "questdb/questdb": [
+    {
+      "date": "2026-08-13",
+      "stars": 17255
+    }
+  ],
+  "neo4j/neo4j": [
+    {
+      "date": "2026-08-13",
+      "stars": 17057
+    }
+  ],
+  "dgraph-io/dgraph": [
+    {
+      "date": "2026-08-13",
+      "stars": 21772
+    }
+  ],
+  "arangodb/arangodb": [
+    {
+      "date": "2026-08-13",
+      "stars": 14260
+    }
+  ],
+  "hibernate/hibernate-orm": [
+    {
+      "date": "2026-08-13",
+      "stars": 6472
+    }
+  ],
+  "drizzle-team/drizzle-orm": [
+    {
+      "date": "2026-08-13",
+      "stars": 35466
+    }
+  ],
+  "go-gorm/gorm": [
+    {
+      "date": "2026-08-13",
+      "stars": 39912
+    }
+  ],
+  "sequelize/sequelize": [
+    {
+      "date": "2026-08-13",
+      "stars": 30378
+    }
+  ],
+  "sqlalchemy/sqlalchemy": [
+    {
+      "date": "2026-08-13",
+      "stars": 12079
+    }
+  ],
+  "dbeaver/dbeaver": [
+    {
+      "date": "2026-08-13",
+      "stars": 51447
+    }
+  ],
+  "vrana/adminer": [
+    {
+      "date": "2026-08-13",
+      "stars": 7754
+    }
+  ],
+  "flyway/flyway": [
+    {
+      "date": "2026-08-13",
+      "stars": 9991
+    }
+  ],
+  "liquibase/liquibase": [
+    {
+      "date": "2026-08-13",
+      "stars": 5585
+    }
+  ],
+  "apache/airflow": [
+    {
+      "date": "2026-08-13",
+      "stars": 46470
+    }
+  ],
+  "dbt-labs/dbt-core": [
+    {
+      "date": "2026-08-13",
+      "stars": 13638
+    }
+  ],
+  "meltano/meltano": [
+    {
+      "date": "2026-08-13",
+      "stars": 2591
+    }
+  ],
+  "apache/nifi": [
+    {
+      "date": "2026-08-13",
+      "stars": 6191
+    }
+  ],
+  "metabase/metabase": [
+    {
+      "date": "2026-08-13",
+      "stars": 48745
+    }
+  ],
+  "apache/superset": [
+    {
+      "date": "2026-08-13",
+      "stars": 74253
+    }
+  ],
+  "getredash/redash": [
+    {
+      "date": "2026-08-13",
+      "stars": 28745
+    }
+  ]
+}

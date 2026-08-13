@@ -22,7 +22,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 126341
+      "stars": 126339
     }
   ],
   "flutter/flutter": [
@@ -48,7 +48,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 178379
+      "stars": 178381
     }
   ],
   "ionic-team/ionic-framework": [
@@ -74,7 +74,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 52616
+      "stars": 52617
     }
   ],
   "ionic-team/capacitor": [
@@ -100,7 +100,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 16299
+      "stars": 16303
     }
   ],
   "NativeScript/NativeScript": [
@@ -126,7 +126,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 25604
+      "stars": 25603
     }
   ],
   "tauri-apps/tauri": [
@@ -152,7 +152,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 110171
+      "stars": 110185
     }
   ],
   "lysine-dev/retrofit": [
@@ -178,7 +178,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 43924
+      "stars": 43925
     }
   ],
   "lysine-dev/okhttp": [
@@ -204,7 +204,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 47041
+      "stars": 47042
     }
   ],
   "bumptech/glide": [
@@ -230,7 +230,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 35022
+      "stars": 35023
     }
   ],
   "coil-kt/coil": [
@@ -256,7 +256,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 11876
+      "stars": 11877
     }
   ],
   "google/dagger": [
@@ -308,7 +308,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 29968
+      "stars": 29970
     }
   ],
   "Alamofire/Alamofire": [
@@ -334,7 +334,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 42416
+      "stars": 42417
     }
   ],
   "onevcat/Kingfisher": [
@@ -464,7 +464,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 107915
+      "stars": 107954
     }
   ],
   "appwrite/appwrite": [
@@ -490,7 +490,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 56907
+      "stars": 56912
     }
   ],
   "parse-community/parse-server": [
@@ -516,7 +516,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 21411
+      "stars": 21413
     }
   ],
   "pocketbase/pocketbase": [
@@ -542,7 +542,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 60640
+      "stars": 60646
     }
   ],
   "wix/Detox": [
@@ -568,7 +568,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 12005
+      "stars": 12006
     }
   ],
   "appium/appium": [
@@ -620,7 +620,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 15315
+      "stars": 15321
     }
   ],
   "robolectric/robolectric": [
@@ -646,7 +646,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 6033
+      "stars": 6034
     }
   ],
   "callstack/react-native-paper": [
@@ -672,7 +672,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 14441
+      "stars": 14443
     }
   ],
   "gluestack/gluestack-ui": [
@@ -724,7 +724,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 25864
+      "stars": 25865
     }
   ],
   "material-components/material-components-android": [
@@ -750,7 +750,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 17365
+      "stars": 17366
     }
   ],
   "TextureGroup/Texture": [
@@ -776,7 +776,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 8183
+      "stars": 8184
     }
   ],
   "reduxjs/redux": [
@@ -802,7 +802,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 61517
+      "stars": 61515
     }
   ],
   "mobxjs/mobx": [
@@ -854,7 +854,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 58555
+      "stars": 58559
     }
   ],
   "rrousselGit/riverpod": [
@@ -880,7 +880,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 7365
+      "stars": 7366
     }
   ],
   "felangel/bloc": [
@@ -906,7 +906,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 12483
+      "stars": 12481
     }
   ],
   "react-navigation/react-navigation": [
@@ -1114,7 +1114,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 44539
+      "stars": 44542
     }
   ],
   "PostHog/posthog": [
@@ -1140,7 +1140,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 37644
+      "stars": 37653
     }
   ],
   "Countly/countly-server": [

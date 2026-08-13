@@ -22,7 +22,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 72013
+      "stars": 72018
     }
   ],
   "docker/compose": [
@@ -48,7 +48,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 38078
+      "stars": 38080
     }
   ],
   "containerd/containerd": [
@@ -74,7 +74,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 21112
+      "stars": 21114
     }
   ],
   "containers/podman": [
@@ -100,7 +100,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 32548
+      "stars": 32549
     }
   ],
   "containers/buildah": [
@@ -126,7 +126,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 8977
+      "stars": 8978
     }
   ],
   "kubernetes/kubernetes": [
@@ -152,7 +152,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 124477
+      "stars": 124484
     }
   ],
   "moby/swarmkit": [
@@ -204,7 +204,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 16801
+      "stars": 16800
     }
   ],
   "rancher/rancher": [
@@ -230,7 +230,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 25847
+      "stars": 25850
     }
   ],
   "rancher/k3s": [
@@ -256,7 +256,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 33728
+      "stars": 33729
     }
   ],
   "jenkinsci/jenkins": [
@@ -282,7 +282,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 26453
+      "stars": 26454
     }
   ],
   "woodpecker-ci/woodpecker": [
@@ -308,7 +308,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 7673
+      "stars": 7674
     }
   ],
   "concourse/concourse": [
@@ -334,7 +334,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 7886
+      "stars": 7885
     }
   ],
   "tektoncd/pipeline": [
@@ -412,7 +412,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 49489
+      "stars": 49494
     }
   ],
   "opentofu/opentofu": [
@@ -464,7 +464,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 25563
+      "stars": 25566
     }
   ],
   "hashicorp/packer": [
@@ -490,7 +490,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 15754
+      "stars": 15755
     }
   ],
   "aws/aws-cdk": [
@@ -516,7 +516,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 12865
+      "stars": 12866
     }
   ],
   "ansible/ansible": [
@@ -542,7 +542,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 70344
+      "stars": 70351
     }
   ],
   "puppetlabs/puppet": [
@@ -568,7 +568,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 7920
+      "stars": 7921
     }
   ],
   "chef/chef": [
@@ -594,7 +594,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 8232
+      "stars": 8233
     }
   ],
   "saltstack/salt": [
@@ -672,7 +672,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 65724
+      "stars": 65726
     }
   ],
   "grafana/grafana": [
@@ -698,7 +698,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 76279
+      "stars": 76286
     }
   ],
   "netdata/netdata": [
@@ -724,7 +724,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 80158
+      "stars": 80175
     }
   ],
   "zabbix/zabbix": [
@@ -750,7 +750,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 6251
+      "stars": 6253
     }
   ],
   "victoriametrics/victoriametrics": [
@@ -776,7 +776,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 17521
+      "stars": 17522
     }
   ],
   "elastic/logstash": [
@@ -802,7 +802,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 14916
+      "stars": 14917
     }
   ],
   "fluent/fluentd": [
@@ -880,7 +880,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 28723
+      "stars": 28722
     }
   ],
   "Graylog2/graylog2-server": [
@@ -932,7 +932,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 38353
+      "stars": 38351
     }
   ],
   "linkerd/linkerd2": [
@@ -1010,7 +1010,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 30031
+      "stars": 30029
     }
   ],
   "cilium/cilium": [
@@ -1036,7 +1036,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 24921
+      "stars": 24924
     }
   ],
   "argoproj/argo-cd": [
@@ -1062,7 +1062,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 23910
+      "stars": 23917
     }
   ],
   "fluxcd/flux2": [
@@ -1088,7 +1088,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 8328
+      "stars": 8333
     }
   ],
   "argoproj/argo-workflows": [
@@ -1114,7 +1114,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 16895
+      "stars": 16897
     }
   ],
   "jenkins-x/jx": [
@@ -1166,7 +1166,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 5388
+      "stars": 5387
     }
   ],
   "helm/helm": [
@@ -1192,7 +1192,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 30154
+      "stars": 30159
     }
   ],
   "goharbor/harbor": [
@@ -1218,7 +1218,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 29147
+      "stars": 29150
     }
   ],
   "sonatype/nexus-public": [
@@ -1270,7 +1270,7 @@
     },
     {
       "date": "2026-08-13",
-      "stars": 17827
+      "stars": 17825
     }
   ],
   "goreleaser/goreleaser": [

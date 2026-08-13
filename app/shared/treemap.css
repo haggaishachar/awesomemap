@@ -269,11 +269,29 @@ body {
   margin: 8px 0;
 }
 
-.detail-panel-gh-button {
+.detail-panel-stars {
   display: block;
   margin-top: 12px;
-  border-radius: 4px;
-  overflow: hidden;
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
+.detail-panel-star-chart {
+  margin-top: 8px;
+}
+
+.detail-panel-star-chart-svg path {
+  fill: none;
+  stroke: var(--color-accent);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.detail-panel-star-chart-caption {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  margin: 4px 0 0;
 }
 
 .hero {

@@ -1,0 +1,546 @@
+{
+  "slug": "databases",
+  "name": "Best Database & Data Infrastructure Open Source Projects",
+  "description": "Relational, NoSQL, caching, search, streaming, analytics, and more.",
+  "projects": [
+    {
+      "id": "postgres/postgres",
+      "path": [
+        "Relational Databases"
+      ],
+      "link": "https://www.postgresql.org/",
+      "name": "PostgreSQL",
+      "desc": "Mirror of the PostgreSQL git repositories",
+      "weight": 21783,
+      "image": "https://avatars.githubusercontent.com/u/177543?v=4"
+    },
+    {
+      "id": "mysql/mysql-server",
+      "path": [
+        "Relational Databases"
+      ],
+      "link": "https://www.mysql.com/",
+      "name": "MySQL",
+      "desc": "MySQL server, the world's most popular open source database",
+      "weight": 12380,
+      "image": "https://avatars.githubusercontent.com/u/2452804?v=4"
+    },
+    {
+      "id": "sqlite/sqlite",
+      "path": [
+        "Relational Databases"
+      ],
+      "link": "https://www.sqlite.org/",
+      "name": "SQLite",
+      "desc": "Official Git mirror of the SQLite source tree",
+      "weight": 10254,
+      "image": "https://avatars.githubusercontent.com/u/48680494?v=4"
+    },
+    {
+      "id": "cockroachdb/cockroach",
+      "path": [
+        "Relational Databases"
+      ],
+      "link": "https://www.cockroachlabs.com/",
+      "name": "CockroachDB",
+      "desc": "Distributed, scalable, cloud-native SQL database",
+      "weight": 32385,
+      "image": "https://avatars.githubusercontent.com/u/6748139?v=4"
+    },
+    {
+      "id": "MariaDB/server",
+      "path": [
+        "Relational Databases"
+      ],
+      "link": "https://mariadb.org/",
+      "name": "MariaDB",
+      "desc": "A community-developed fork of MySQL",
+      "weight": 8090,
+      "image": "https://avatars.githubusercontent.com/u/4739304?v=4"
+    },
+    {
+      "id": "mongodb/mongo",
+      "path": [
+        "Document & Wide-Column Databases"
+      ],
+      "link": "https://www.mongodb.com/",
+      "name": "MongoDB",
+      "desc": "The MongoDB database server",
+      "weight": 28491,
+      "image": "https://avatars.githubusercontent.com/u/45120?v=4"
+    },
+    {
+      "id": "apache/cassandra",
+      "path": [
+        "Document & Wide-Column Databases"
+      ],
+      "link": "https://cassandra.apache.org/",
+      "name": "Apache Cassandra",
+      "desc": "A distributed NoSQL database management system",
+      "weight": 10069,
+      "image": "https://avatars.githubusercontent.com/u/47359?v=4"
+    },
+    {
+      "id": "apache/couchdb",
+      "path": [
+        "Document & Wide-Column Databases"
+      ],
+      "link": "https://couchdb.apache.org/",
+      "name": "Apache CouchDB",
+      "desc": "Seamless multi-master syncing document database",
+      "weight": 6936,
+      "image": "https://avatars.githubusercontent.com/u/47359?v=4"
+    },
+    {
+      "id": "scylladb/scylladb",
+      "path": [
+        "Document & Wide-Column Databases"
+      ],
+      "link": "https://www.scylladb.com/",
+      "name": "ScyllaDB",
+      "desc": "NoSQL data store using the seastar framework, compatible with Cassandra",
+      "weight": 15705,
+      "image": "https://avatars.githubusercontent.com/u/14364730?v=4"
+    },
+    {
+      "id": "redis/redis",
+      "path": [
+        "Key-Value & Caching"
+      ],
+      "link": "https://redis.io/",
+      "name": "Redis",
+      "desc": "In-memory data structure store used as a database, cache, and broker",
+      "weight": 76003,
+      "image": "https://avatars.githubusercontent.com/u/1529926?v=4"
+    },
+    {
+      "id": "valkey-io/valkey",
+      "path": [
+        "Key-Value & Caching"
+      ],
+      "link": "https://valkey.io/",
+      "name": "Valkey",
+      "desc": "A flexible, high-performance key-value datastore, forked from Redis",
+      "weight": 26878,
+      "image": "https://avatars.githubusercontent.com/u/164458127?v=4"
+    },
+    {
+      "id": "memcached/memcached",
+      "path": [
+        "Key-Value & Caching"
+      ],
+      "link": "https://memcached.org/",
+      "name": "Memcached",
+      "desc": "A distributed memory object caching system",
+      "weight": 14250,
+      "image": "https://avatars.githubusercontent.com/u/41836?v=4"
+    },
+    {
+      "id": "etcd-io/etcd",
+      "path": [
+        "Key-Value & Caching"
+      ],
+      "link": "https://etcd.io/",
+      "name": "etcd",
+      "desc": "Distributed reliable key-value store for the most critical data",
+      "weight": 52119,
+      "image": "https://avatars.githubusercontent.com/u/41972792?v=4"
+    },
+    {
+      "id": "elastic/elasticsearch",
+      "path": [
+        "Search Engines"
+      ],
+      "link": "https://www.elastic.co/elasticsearch",
+      "name": "Elasticsearch",
+      "desc": "Distributed, RESTful search and analytics engine",
+      "weight": 77849,
+      "image": "https://avatars.githubusercontent.com/u/6764390?v=4"
+    },
+    {
+      "id": "opensearch-project/OpenSearch",
+      "path": [
+        "Search Engines"
+      ],
+      "link": "https://opensearch.org/",
+      "name": "OpenSearch",
+      "desc": "Open source distributed and RESTful search engine",
+      "weight": 13516,
+      "image": "https://avatars.githubusercontent.com/u/80134844?v=4"
+    },
+    {
+      "id": "meilisearch/meilisearch",
+      "path": [
+        "Search Engines"
+      ],
+      "link": "https://www.meilisearch.com/",
+      "name": "Meilisearch",
+      "desc": "A lightning-fast search engine that fits effortlessly into your apps",
+      "weight": 58958,
+      "image": "https://raw.githubusercontent.com/meilisearch/meilisearch/main/assets/logo.svg"
+    },
+    {
+      "id": "typesense/typesense",
+      "path": [
+        "Search Engines"
+      ],
+      "link": "https://typesense.org/",
+      "name": "Typesense",
+      "desc": "Open source, typo-tolerant search engine for building delightful search",
+      "weight": 26433,
+      "image": "https://avatars.githubusercontent.com/u/19822348?v=4"
+    },
+    {
+      "id": "apache/solr",
+      "path": [
+        "Search Engines"
+      ],
+      "link": "https://solr.apache.org/",
+      "name": "Apache Solr",
+      "desc": "Fast, open source search platform built on Apache Lucene",
+      "weight": 1654,
+      "image": "https://avatars.githubusercontent.com/u/47359?v=4"
+    },
+    {
+      "id": "apache/kafka",
+      "path": [
+        "Streaming & Message Queues"
+      ],
+      "link": "https://kafka.apache.org/",
+      "name": "Apache Kafka",
+      "desc": "Distributed event streaming platform",
+      "weight": 33536,
+      "image": "https://avatars.githubusercontent.com/u/47359?v=4"
+    },
+    {
+      "id": "rabbitmq/rabbitmq-server",
+      "path": [
+        "Streaming & Message Queues"
+      ],
+      "link": "https://www.rabbitmq.com/",
+      "name": "RabbitMQ",
+      "desc": "Open source multi-protocol messaging broker",
+      "weight": 13779,
+      "image": "https://avatars.githubusercontent.com/u/96669?v=4"
+    },
+    {
+      "id": "nats-io/nats-server",
+      "path": [
+        "Streaming & Message Queues"
+      ],
+      "link": "https://nats.io/",
+      "name": "NATS Server",
+      "desc": "High-performance server for NATS.io, the cloud native messaging system",
+      "weight": 20488,
+      "image": "https://avatars.githubusercontent.com/u/10203055?v=4"
+    },
+    {
+      "id": "redpanda-data/redpanda",
+      "path": [
+        "Streaming & Message Queues"
+      ],
+      "link": "https://www.redpanda.com/",
+      "name": "Redpanda",
+      "desc": "Kafka-compatible streaming platform without ZooKeeper or JVM",
+      "weight": 12437,
+      "image": "https://avatars.githubusercontent.com/u/49406389?v=4"
+    },
+    {
+      "id": "apache/pulsar",
+      "path": [
+        "Streaming & Message Queues"
+      ],
+      "link": "https://pulsar.apache.org/",
+      "name": "Apache Pulsar",
+      "desc": "Cloud-native, distributed messaging and streaming platform",
+      "weight": 15310,
+      "image": "https://avatars.githubusercontent.com/u/47359?v=4"
+    },
+    {
+      "id": "ClickHouse/ClickHouse",
+      "path": [
+        "OLAP & Analytical Databases"
+      ],
+      "link": "https://clickhouse.com/",
+      "name": "ClickHouse",
+      "desc": "Fast open-source column-oriented database management system",
+      "weight": 49227,
+      "image": "https://avatars.githubusercontent.com/u/54801242?v=4"
+    },
+    {
+      "id": "duckdb/duckdb",
+      "path": [
+        "OLAP & Analytical Databases"
+      ],
+      "link": "https://duckdb.org/",
+      "name": "DuckDB",
+      "desc": "In-process analytical SQL database engine",
+      "weight": 40210,
+      "image": "https://avatars.githubusercontent.com/u/82039556?v=4"
+    },
+    {
+      "id": "apache/druid",
+      "path": [
+        "OLAP & Analytical Databases"
+      ],
+      "link": "https://druid.apache.org/",
+      "name": "Apache Druid",
+      "desc": "High-performance, real-time analytics database",
+      "weight": 14041,
+      "image": "https://avatars.githubusercontent.com/u/47359?v=4"
+    },
+    {
+      "id": "apache/pinot",
+      "path": [
+        "OLAP & Analytical Databases"
+      ],
+      "link": "https://pinot.apache.org/",
+      "name": "Apache Pinot",
+      "desc": "Realtime distributed OLAP datastore for low-latency analytics",
+      "weight": 6123,
+      "image": "https://avatars.githubusercontent.com/u/47359?v=4"
+    },
+    {
+      "id": "influxdata/influxdb",
+      "path": [
+        "Time-Series Databases"
+      ],
+      "link": "https://www.influxdata.com/",
+      "name": "InfluxDB",
+      "desc": "Scalable datastore for metrics, events, and real-time analytics",
+      "weight": 31690,
+      "image": "https://avatars.githubusercontent.com/u/5713248?v=4"
+    },
+    {
+      "id": "timescale/timescaledb",
+      "path": [
+        "Time-Series Databases"
+      ],
+      "link": "https://www.timescale.com/",
+      "name": "TimescaleDB",
+      "desc": "Open-source time-series database built on PostgreSQL",
+      "weight": 23319,
+      "image": "https://avatars.githubusercontent.com/u/8986001?v=4"
+    },
+    {
+      "id": "questdb/questdb",
+      "path": [
+        "Time-Series Databases"
+      ],
+      "link": "https://questdb.io/",
+      "name": "QuestDB",
+      "desc": "High-performance time-series database for fast ingest and SQL queries",
+      "weight": 17255,
+      "image": "https://avatars.githubusercontent.com/u/52297642?v=4"
+    },
+    {
+      "id": "neo4j/neo4j",
+      "path": [
+        "Graph Databases"
+      ],
+      "link": "https://neo4j.com/",
+      "name": "Neo4j",
+      "desc": "Graphs for everyone, native graph database",
+      "weight": 17057,
+      "image": "https://avatars.githubusercontent.com/u/201120?v=4"
+    },
+    {
+      "id": "dgraph-io/dgraph",
+      "path": [
+        "Graph Databases"
+      ],
+      "link": "https://dgraph.io/",
+      "name": "Dgraph",
+      "desc": "Native GraphQL database with a graph backend",
+      "weight": 21772,
+      "image": "https://raw.githubusercontent.com/dgraph-io/dgraph/main/logo.png"
+    },
+    {
+      "id": "arangodb/arangodb",
+      "path": [
+        "Graph Databases"
+      ],
+      "link": "https://www.arangodb.com/",
+      "name": "ArangoDB",
+      "desc": "Multi-model database for graph, document, and key-value data",
+      "weight": 14260,
+      "image": "https://avatars.githubusercontent.com/u/5547849?v=4"
+    },
+    {
+      "id": "hibernate/hibernate-orm",
+      "path": [
+        "ORMs & Query Builders"
+      ],
+      "link": "https://hibernate.org/orm/",
+      "name": "Hibernate ORM",
+      "desc": "Object/relational mapping for Java",
+      "weight": 6472,
+      "image": "https://avatars.githubusercontent.com/u/348262?v=4"
+    },
+    {
+      "id": "drizzle-team/drizzle-orm",
+      "path": [
+        "ORMs & Query Builders"
+      ],
+      "link": "https://orm.drizzle.team/",
+      "name": "Drizzle ORM",
+      "desc": "TypeScript ORM with a head-first, SQL-like API",
+      "weight": 35462,
+      "image": "https://avatars.githubusercontent.com/u/108468352?v=4"
+    },
+    {
+      "id": "go-gorm/gorm",
+      "path": [
+        "ORMs & Query Builders"
+      ],
+      "link": "https://gorm.io/",
+      "name": "GORM",
+      "desc": "The fantastic ORM library for Golang",
+      "weight": 39912,
+      "image": "https://avatars.githubusercontent.com/u/15127678?v=4"
+    },
+    {
+      "id": "sequelize/sequelize",
+      "path": [
+        "ORMs & Query Builders"
+      ],
+      "link": "https://sequelize.org/",
+      "name": "Sequelize",
+      "desc": "Feature-rich ORM for Node.js compatible with many SQL dialects",
+      "weight": 30377,
+      "image": "https://raw.githubusercontent.com/sequelize/sequelize/main/logo.svg"
+    },
+    {
+      "id": "sqlalchemy/sqlalchemy",
+      "path": [
+        "ORMs & Query Builders"
+      ],
+      "link": "https://www.sqlalchemy.org/",
+      "name": "SQLAlchemy",
+      "desc": "The Python SQL toolkit and object relational mapper",
+      "weight": 12078,
+      "image": "https://avatars.githubusercontent.com/u/6043126?v=4"
+    },
+    {
+      "id": "dbeaver/dbeaver",
+      "path": [
+        "Database Tools & Admin"
+      ],
+      "link": "https://dbeaver.io/",
+      "name": "DBeaver",
+      "desc": "Free universal database tool and SQL client",
+      "weight": 51445,
+      "image": "https://avatars.githubusercontent.com/u/34743864?v=4"
+    },
+    {
+      "id": "vrana/adminer",
+      "path": [
+        "Database Tools & Admin"
+      ],
+      "link": "https://www.adminer.org/",
+      "name": "Adminer",
+      "desc": "Database management in a single PHP file",
+      "weight": 7752,
+      "image": "https://avatars.githubusercontent.com/u/117453?v=4"
+    },
+    {
+      "id": "flyway/flyway",
+      "path": [
+        "Database Tools & Admin"
+      ],
+      "link": "https://flywaydb.org/",
+      "name": "Flyway",
+      "desc": "Database migrations made easy",
+      "weight": 9991,
+      "image": "https://avatars.githubusercontent.com/u/2109532?v=4"
+    },
+    {
+      "id": "liquibase/liquibase",
+      "path": [
+        "Database Tools & Admin"
+      ],
+      "link": "https://www.liquibase.com/",
+      "name": "Liquibase",
+      "desc": "Version control for database schema change management",
+      "weight": 5585,
+      "image": "https://avatars.githubusercontent.com/u/438548?v=4"
+    },
+    {
+      "id": "apache/airflow",
+      "path": [
+        "Data Pipelines & ETL"
+      ],
+      "link": "https://airflow.apache.org/",
+      "name": "Apache Airflow",
+      "desc": "Platform to programmatically author, schedule, and monitor workflows",
+      "weight": 46465,
+      "image": "https://avatars.githubusercontent.com/u/47359?v=4"
+    },
+    {
+      "id": "dbt-labs/dbt-core",
+      "path": [
+        "Data Pipelines & ETL"
+      ],
+      "link": "https://www.getdbt.com/",
+      "name": "dbt Core",
+      "desc": "Transform data in your warehouse using SQL",
+      "weight": 13636,
+      "image": "https://avatars.githubusercontent.com/u/18339788?v=4"
+    },
+    {
+      "id": "meltano/meltano",
+      "path": [
+        "Data Pipelines & ETL"
+      ],
+      "link": "https://meltano.com/",
+      "name": "Meltano",
+      "desc": "Open source data movement and ELT platform",
+      "weight": 2591,
+      "image": "https://avatars.githubusercontent.com/u/43816713?v=4"
+    },
+    {
+      "id": "apache/nifi",
+      "path": [
+        "Data Pipelines & ETL"
+      ],
+      "link": "https://nifi.apache.org/",
+      "name": "Apache NiFi",
+      "desc": "Easy-to-use, powerful system to process and distribute data",
+      "weight": 6191,
+      "image": "https://avatars.githubusercontent.com/u/47359?v=4"
+    },
+    {
+      "id": "metabase/metabase",
+      "path": [
+        "BI & Analytics"
+      ],
+      "link": "https://www.metabase.com/",
+      "name": "Metabase",
+      "desc": "The simplest, fastest way to get business intelligence and analytics",
+      "weight": 48745,
+      "image": "https://avatars.githubusercontent.com/u/10520629?v=4"
+    },
+    {
+      "id": "apache/superset",
+      "path": [
+        "BI & Analytics"
+      ],
+      "link": "https://superset.apache.org/",
+      "name": "Apache Superset",
+      "desc": "Modern data exploration and visualization platform",
+      "weight": 74251,
+      "image": "https://avatars.githubusercontent.com/u/47359?v=4"
+    },
+    {
+      "id": "getredash/redash",
+      "path": [
+        "BI & Analytics"
+      ],
+      "link": "https://redash.io/",
+      "name": "Redash",
+      "desc": "Connect and query data sources, build dashboards to share",
+      "weight": 28744,
+      "image": "https://avatars.githubusercontent.com/u/10746780?v=4"
+    }
+  ]
+}

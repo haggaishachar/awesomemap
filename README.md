@@ -40,7 +40,7 @@ _Not enough star-history yet to compute 7-day growth — check back once daily s
 | [Web Development](https://haggaishachar.github.io/awesomemap/web-dev/) | Frontend frameworks, build tools, styling, backend frameworks, and more. | 50 |
 | [Mobile Development](https://haggaishachar.github.io/awesomemap/mobile-dev/) | Cross-platform frameworks, native tooling, testing, state management, and more. | 46 |
 | [DevOps & Infrastructure](https://haggaishachar.github.io/awesomemap/devops-infra/) | Containers, orchestration, CI/CD, infrastructure as code, observability, and more. | 50 |
-| [Generative AI & LLMs](https://haggaishachar.github.io/awesomemap/generative-ai/) | LLM frameworks, AI agents, RAG, vector databases, coding assistants, and more. | 50 |
+| [Artificial Intelligence](https://haggaishachar.github.io/awesomemap/artificial-intelligence/) | LLM frameworks, AI agents, RAG, vector databases, coding assistants, and more. | 53 |
 | [Databases & Data Infrastructure](https://haggaishachar.github.io/awesomemap/databases/) | Relational, NoSQL, caching, search, streaming, analytics, and more. | 49 |
 
 More domains are on the way.

@@ -1,11 +1,12 @@
 {
-  "slug": "generative-ai",
-  "name": "Best Generative AI & LLM Open Source Projects",
+  "slug": "artificial-intelligence",
+  "name": "Best Artificial Intelligence Open Source Projects",
   "description": "LLM frameworks, AI agents, RAG, vector databases, coding assistants, and more.",
   "projects": [
     {
       "id": "ggerganov/llama.cpp",
       "path": [
+        "LLM Infrastructure",
         "LLM Frameworks & Runtimes"
       ],
       "link": "https://github.com/ggerganov/llama.cpp",
@@ -17,6 +18,7 @@
     {
       "id": "ollama/ollama",
       "path": [
+        "LLM Infrastructure",
         "LLM Frameworks & Runtimes"
       ],
       "link": "https://ollama.com/",
@@ -28,6 +30,7 @@
     {
       "id": "vllm-project/vllm",
       "path": [
+        "LLM Infrastructure",
         "LLM Frameworks & Runtimes"
       ],
       "link": "https://vllm.ai/",
@@ -39,6 +42,7 @@
     {
       "id": "mlc-ai/mlc-llm",
       "path": [
+        "LLM Infrastructure",
         "LLM Frameworks & Runtimes"
       ],
       "link": "https://llm.mlc.ai/",
@@ -50,6 +54,7 @@
     {
       "id": "NVIDIA/TensorRT-LLM",
       "path": [
+        "LLM Infrastructure",
         "LLM Frameworks & Runtimes"
       ],
       "link": "https://github.com/NVIDIA/TensorRT-LLM",
@@ -61,6 +66,7 @@
     {
       "id": "microsoft/DeepSpeed",
       "path": [
+        "LLM Infrastructure",
         "LLM Frameworks & Runtimes"
       ],
       "link": "https://www.deepspeed.ai/",
@@ -72,6 +78,7 @@
     {
       "id": "langchain-ai/langchain",
       "path": [
+        "Agents & Coding",
         "Orchestration Frameworks"
       ],
       "link": "https://www.langchain.com/",
@@ -83,6 +90,7 @@
     {
       "id": "run-llama/llama_index",
       "path": [
+        "Agents & Coding",
         "Orchestration Frameworks"
       ],
       "link": "https://www.llamaindex.ai/",
@@ -94,6 +102,7 @@
     {
       "id": "deepset-ai/haystack",
       "path": [
+        "Agents & Coding",
         "Orchestration Frameworks"
       ],
       "link": "https://haystack.deepset.ai/",
@@ -105,6 +114,7 @@
     {
       "id": "microsoft/semantic-kernel",
       "path": [
+        "Agents & Coding",
         "Orchestration Frameworks"
       ],
       "link": "https://github.com/microsoft/semantic-kernel",
@@ -116,6 +126,7 @@
     {
       "id": "Significant-Gravitas/AutoGPT",
       "path": [
+        "Agents & Coding",
         "AI Agents"
       ],
       "link": "https://agpt.co",
@@ -127,6 +138,7 @@
     {
       "id": "crewAIInc/crewAI",
       "path": [
+        "Agents & Coding",
         "AI Agents"
       ],
       "link": "https://crewai.com",
@@ -138,6 +150,7 @@
     {
       "id": "microsoft/autogen",
       "path": [
+        "Agents & Coding",
         "AI Agents"
       ],
       "link": "https://microsoft.github.io/autogen/",
@@ -149,6 +162,7 @@
     {
       "id": "langchain-ai/langgraph",
       "path": [
+        "Agents & Coding",
         "AI Agents"
       ],
       "link": "https://www.langchain.com/langgraph",
@@ -160,6 +174,7 @@
     {
       "id": "browser-use/browser-use",
       "path": [
+        "Agents & Coding",
         "AI Agents"
       ],
       "link": "https://browser-use.com",
@@ -171,6 +186,7 @@
     {
       "id": "All-Hands-AI/OpenHands",
       "path": [
+        "Agents & Coding",
         "AI Agents"
       ],
       "link": "https://all-hands.dev",
@@ -182,6 +198,7 @@
     {
       "id": "milvus-io/milvus",
       "path": [
+        "LLM Infrastructure",
         "RAG & Vector Databases"
       ],
       "link": "https://milvus.io/",
@@ -193,6 +210,7 @@
     {
       "id": "qdrant/qdrant",
       "path": [
+        "LLM Infrastructure",
         "RAG & Vector Databases"
       ],
       "link": "https://qdrant.tech/",
@@ -204,6 +222,7 @@
     {
       "id": "chroma-core/chroma",
       "path": [
+        "LLM Infrastructure",
         "RAG & Vector Databases"
       ],
       "link": "https://www.trychroma.com/",
@@ -215,6 +234,7 @@
     {
       "id": "weaviate/weaviate",
       "path": [
+        "LLM Infrastructure",
         "RAG & Vector Databases"
       ],
       "link": "https://weaviate.io/",
@@ -226,6 +246,7 @@
     {
       "id": "pgvector/pgvector",
       "path": [
+        "LLM Infrastructure",
         "RAG & Vector Databases"
       ],
       "link": "https://github.com/pgvector/pgvector",
@@ -237,6 +258,7 @@
     {
       "id": "promptfoo/promptfoo",
       "path": [
+        "LLM Infrastructure",
         "Prompt Engineering & Evaluation"
       ],
       "link": "https://www.promptfoo.dev/",
@@ -248,6 +270,7 @@
     {
       "id": "guidance-ai/guidance",
       "path": [
+        "LLM Infrastructure",
         "Prompt Engineering & Evaluation"
       ],
       "link": "https://github.com/guidance-ai/guidance",
@@ -259,6 +282,7 @@
     {
       "id": "explodinggradients/ragas",
       "path": [
+        "LLM Infrastructure",
         "Prompt Engineering & Evaluation"
       ],
       "link": "https://docs.ragas.io/",
@@ -270,6 +294,7 @@
     {
       "id": "langfuse/langfuse",
       "path": [
+        "LLM Infrastructure",
         "LLM Observability & Gateways"
       ],
       "link": "https://langfuse.com/",
@@ -281,6 +306,7 @@
     {
       "id": "BerriAI/litellm",
       "path": [
+        "LLM Infrastructure",
         "LLM Observability & Gateways"
       ],
       "link": "https://www.litellm.ai/",
@@ -292,6 +318,7 @@
     {
       "id": "Helicone/helicone",
       "path": [
+        "LLM Infrastructure",
         "LLM Observability & Gateways"
       ],
       "link": "https://www.helicone.ai/",
@@ -303,6 +330,7 @@
     {
       "id": "modelcontextprotocol/servers",
       "path": [
+        "Agents & Coding",
         "Model Context Protocol"
       ],
       "link": "https://modelcontextprotocol.io/",
@@ -314,6 +342,7 @@
     {
       "id": "modelcontextprotocol/python-sdk",
       "path": [
+        "Agents & Coding",
         "Model Context Protocol"
       ],
       "link": "https://modelcontextprotocol.io/",
@@ -325,6 +354,7 @@
     {
       "id": "continuedev/continue",
       "path": [
+        "Agents & Coding",
         "AI Coding Assistants"
       ],
       "link": "https://continue.dev/",
@@ -336,6 +366,7 @@
     {
       "id": "Aider-AI/aider",
       "path": [
+        "Agents & Coding",
         "AI Coding Assistants"
       ],
       "link": "https://aider.chat/",
@@ -347,6 +378,7 @@
     {
       "id": "cline/cline",
       "path": [
+        "Agents & Coding",
         "AI Coding Assistants"
       ],
       "link": "https://cline.bot/",
@@ -358,6 +390,7 @@
     {
       "id": "block/goose",
       "path": [
+        "Agents & Coding",
         "AI Coding Assistants"
       ],
       "link": "https://block.github.io/goose/",
@@ -367,8 +400,45 @@
       "image": "https://avatars.githubusercontent.com/u/271095942?v=4"
     },
     {
+      "id": "openclaw/openclaw",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ],
+      "link": "https://openclaw.ai",
+      "name": "OpenClaw",
+      "desc": "Your own personal AI assistant, for any OS and platform",
+      "weight": 386178,
+      "image": "https://avatars.githubusercontent.com/u/252820863?v=4"
+    },
+    {
+      "id": "NousResearch/hermes-agent",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ],
+      "link": "https://hermes-agent.nousresearch.com",
+      "name": "Hermes Agent",
+      "desc": "The agent that grows with you",
+      "weight": 230001,
+      "image": "https://avatars.githubusercontent.com/u/134168893?v=4"
+    },
+    {
+      "id": "obra/superpowers",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ],
+      "link": "https://github.com/obra/superpowers",
+      "name": "Superpowers",
+      "desc": "An agentic skills framework & software development methodology that works",
+      "weight": 271633,
+      "image": "https://avatars.githubusercontent.com/u/45416?v=4"
+    },
+    {
       "id": "meta-llama/llama",
       "path": [
+        "LLM Infrastructure",
         "Open-Weight Models & Inference"
       ],
       "link": "https://www.llama.com/",
@@ -380,6 +450,7 @@
     {
       "id": "mistralai/mistral-inference",
       "path": [
+        "LLM Infrastructure",
         "Open-Weight Models & Inference"
       ],
       "link": "https://mistral.ai/",
@@ -391,6 +462,7 @@
     {
       "id": "huggingface/text-generation-inference",
       "path": [
+        "LLM Infrastructure",
         "Open-Weight Models & Inference"
       ],
       "link": "https://huggingface.co/docs/text-generation-inference",
@@ -402,6 +474,7 @@
     {
       "id": "open-webui/open-webui",
       "path": [
+        "LLM Infrastructure",
         "LLM Interfaces & Local Deployment"
       ],
       "link": "https://openwebui.com/",
@@ -413,6 +486,7 @@
     {
       "id": "mudler/LocalAI",
       "path": [
+        "LLM Infrastructure",
         "LLM Interfaces & Local Deployment"
       ],
       "link": "https://localai.io/",
@@ -424,6 +498,7 @@
     {
       "id": "oobabooga/text-generation-webui",
       "path": [
+        "LLM Infrastructure",
         "LLM Interfaces & Local Deployment"
       ],
       "link": "https://github.com/oobabooga/text-generation-webui",
@@ -435,6 +510,7 @@
     {
       "id": "nomic-ai/gpt4all",
       "path": [
+        "LLM Infrastructure",
         "LLM Interfaces & Local Deployment"
       ],
       "link": "https://www.nomic.ai/gpt4all",
@@ -446,6 +522,7 @@
     {
       "id": "zylon-ai/private-gpt",
       "path": [
+        "LLM Infrastructure",
         "LLM Interfaces & Local Deployment"
       ],
       "link": "https://privategpt.dev/",
@@ -457,6 +534,7 @@
     {
       "id": "FlowiseAI/Flowise",
       "path": [
+        "Agents & Coding",
         "No-Code AI Builders"
       ],
       "link": "https://flowiseai.com/",
@@ -468,6 +546,7 @@
     {
       "id": "langgenius/dify",
       "path": [
+        "Agents & Coding",
         "No-Code AI Builders"
       ],
       "link": "https://dify.ai/",
@@ -534,6 +613,7 @@
     {
       "id": "bentoml/BentoML",
       "path": [
+        "LLM Infrastructure",
         "MLOps & Serving"
       ],
       "link": "https://www.bentoml.com/",
@@ -545,6 +625,7 @@
     {
       "id": "triton-inference-server/server",
       "path": [
+        "LLM Infrastructure",
         "MLOps & Serving"
       ],
       "link": "https://github.com/triton-inference-server/server",

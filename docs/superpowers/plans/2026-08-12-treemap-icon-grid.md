@@ -1146,7 +1146,436 @@ Open the printed URL and check, for at least two domains:
 
 ---
 
+## Task 6: Pack the peek preview as a mini-treemap instead of flowing icons
+
+Follow-up requested after seeing Task 5's peek grid live: instead of sizing each peeked project as an individual icon and letting CSS flex-wrap flow them into rows (leaving gutter gaps), pack them edge-to-edge as a small treemap — reusing `computeLevelBoxes` (Task 3) at the scale of the box's own interior instead of the full stage. This automatically orients correctly for any box shape: `treemapSquarify` picks row/column splits from the *current* rectangle's aspect ratio at each step, so a tall narrow box naturally stacks its tiles differently than a short wide one — confirmed by hand: the same 5 Frontend Frameworks projects (React/Svelte/Angular/Vue/Solid) pack into a wide 320×180 box as [React full-height on the left, the rest in two columns to its right], and into a narrow 110×300 box as [React full-width on top, the rest in two rows below] — no special-casing needed, it falls out of the algorithm for free.
+
+This removes `sizeForWeight`-based icon sizing and flex-wrap entirely from the peek path; `selectTopWithOthers`/`sizeForWeight` stay exported from `app/shared/layout.js` (still covered by Task 2's tests, still legitimate reusable primitives) but are no longer imported by `treemap.js` — `computeLevelBoxes` already wraps `selectTopWithOthers` internally.
+
+**Files:**
+- Modify: `app/shared/treemap.js`
+- Modify: `app/shared/treemap.css`
+
+**Interfaces:**
+- Consumes: `computeLevelBoxes` (Task 3, unchanged signature — this task calls it with the box's own interior dimensions instead of the stage's).
+- Produces: no new exports. `renderPeek`'s signature changes (see Step 2) — it's an internal function, so this only matters within this file.
+
+- [ ] **Step 1: Update the import and constants**
+
+In `app/shared/treemap.js`, change the import line:
+
+```js
+import { buildHierarchy, computeLevelBoxes } from "./layout.js";
+```
+
+Replace the peek-related constants block:
+
+```js
+// Same idea as MIN_BOX_AREA_PX, but for the small peek icons shown inside
+// a box that itself has children — much smaller, since a peek icon is
+// just a logo with no label of its own.
+const MIN_PEEK_AREA_PX = 2500;
+const PEEK_MIN_ICON_PX = 20;
+const PEEK_MAX_ICON_PX = 64;
+// Below this, a box can't fit even one peek icon plus its own padding —
+// skip the peek entirely rather than render an empty or cramped grid.
+const PEEK_MIN_BOX_WIDTH = 60;
+const PEEK_MIN_BOX_HEIGHT = 40;
+```
+
+with:
+
+```js
+// Same idea as MIN_BOX_AREA_PX, but for the small peek tiles shown inside
+// a box that itself has children — much smaller, since a peek tile is
+// just a logo with no label of its own.
+const MIN_PEEK_AREA_PX = 2500;
+// Below this, a box can't fit even one peek tile plus its own padding —
+// skip the peek entirely rather than render an empty or cramped grid.
+const PEEK_MIN_BOX_WIDTH = 60;
+const PEEK_MIN_BOX_HEIGHT = 40;
+// Matches .treemap-category's CSS padding (4px 6px) and one line of the
+// 12px label, so the packed peek treemap lands inside the box's actual
+// content area instead of under its own padding/label.
+const PEEK_HORIZONTAL_INSET_PX = 12;
+const PEEK_VERTICAL_INSET_PX = 8;
+const PEEK_LABEL_RESERVED_PX = 18;
+```
+
+- [ ] **Step 2: Replace `renderPeek`/`renderPeekIcon` with the packed version**
+
+Find this block (currently the last two functions before `renderModeBar(); renderBreadcrumb(); renderLevel();` at the end of `mountTreemap`):
+
+```js
+  /**
+   * Adds a small preview grid of `children`'s (real d3 nodes, each with
+   * `.value` and `.data`) top items as clickable logo icons, sized by
+   * weight, inside `box` — this is what makes a category or Others box
+   * show project logos before you zoom into it. Reads `box`'s own current
+   * pixel size (already set by the caller) to decide how many icons fit;
+   * skips entirely if there's not enough room for even one.
+   */
+  function renderPeek(box, children) {
+    if (!children || children.length === 0) return;
+
+    const width = parseFloat(box.style.width);
+    const height = parseFloat(box.style.height);
+    if (width < PEEK_MIN_BOX_WIDTH || height < PEEK_MIN_BOX_HEIGHT) return;
+
+    const capacity = Math.floor((width * height) / MIN_PEEK_AREA_PX);
+    if (capacity < 1) return;
+
+    const { visible, othersCount, othersWeight } = selectTopWithOthers(children, capacity);
+    const weights = visible.map((child) => child.value);
+    const minWeight = Math.min(...weights);
+    const maxWeight = othersCount > 0 ? Math.max(...weights, othersWeight) : Math.max(...weights);
+    const maxIconPx = Math.max(
+      PEEK_MIN_ICON_PX,
+      Math.min(PEEK_MAX_ICON_PX, Math.floor(Math.min(width, height) * 0.4)),
+    );
+    const sizeRange = { minPx: PEEK_MIN_ICON_PX, maxPx: maxIconPx, minWeight, maxWeight };
+
+    const grid = document.createElement("div");
+    grid.className = "treemap-peek-grid";
+
+    for (const child of visible) {
+      grid.appendChild(renderPeekIcon(child, sizeForWeight(child.value, sizeRange)));
+    }
+
+    if (othersCount > 0) {
+      const tag = document.createElement("span");
+      tag.className = "treemap-peek-more";
+      const side = sizeForWeight(othersWeight, sizeRange);
+      tag.style.width = `${side}px`;
+      tag.style.height = `${side}px`;
+      tag.textContent = `+${othersCount}`;
+      grid.appendChild(tag);
+    }
+
+    box.appendChild(grid);
+  }
+
+  /**
+   * One clickable icon inside a peek grid. Mirrors the logo-vs-fallback
+   * handling `renderBox` uses for a full leaf box. Clicking opens the
+   * detail panel directly for a project, or zooms in directly for a
+   * (nested) category — either way `stopPropagation`'d so it doesn't also
+   * trigger the containing box's own zoom-in click handler.
+   */
+  function renderPeekIcon(child, sidePx) {
+    const icon = document.createElement("button");
+    icon.type = "button";
+    icon.className = "treemap-peek-icon";
+    icon.style.width = `${sidePx}px`;
+    icon.style.height = `${sidePx}px`;
+    icon.title = child.data.name;
+
+    if (!child.children && child.data.image) {
+      const img = document.createElement("img");
+      img.src = child.data.image;
+      img.alt = child.data.name;
+      img.onerror = () => img.replaceWith(renderFallbackLogo(child.data.name));
+      icon.appendChild(img);
+    } else {
+      icon.appendChild(renderFallbackLogo(child.data.name));
+    }
+
+    icon.addEventListener("click", (event) => {
+      event.stopPropagation();
+      if (child.children) {
+        zoomTo(child);
+      } else if (onLeafClick) {
+        onLeafClick({ ...child.data, activeSizeKey: activeSizeKey() });
+      }
+    });
+
+    return icon;
+  }
+```
+
+Replace it with:
+
+```js
+  /**
+   * Adds a small preview of `children`'s (real d3 nodes, each with
+   * `.value` and `.data`) top items inside `box`, packed edge-to-edge via
+   * the same `computeLevelBoxes` mini-treemap used for full-size boxes —
+   * this is what makes a category or Others box show project logos
+   * before you zoom into it, and it's why a tall narrow box packs its
+   * tiles in a different arrangement than a short wide one: squarify
+   * picks row/column splits from the box's own aspect ratio, the same
+   * way it already does for the top-level category layout. `rect` is
+   * `box`'s own already-set `{left, top, width, height}`; the insets
+   * subtracted below match `.treemap-category`'s CSS padding and one
+   * line of the label, so the packed tiles land inside the box's actual
+   * content area instead of under its own padding/label. Skips entirely
+   * if there's not enough room for even one tile.
+   */
+  function renderPeek(box, children, rect, focusId) {
+    if (!children || children.length === 0) return;
+
+    const width = rect.width - PEEK_HORIZONTAL_INSET_PX;
+    const height = rect.height - PEEK_VERTICAL_INSET_PX - PEEK_LABEL_RESERVED_PX;
+    if (width < PEEK_MIN_BOX_WIDTH || height < PEEK_MIN_BOX_HEIGHT) return;
+
+    const peekBoxes = computeLevelBoxes(children, {
+      focusId,
+      sizeKey: activeSizeKey(),
+      stageWidth: width,
+      stageHeight: height,
+      minBoxAreaPx: MIN_PEEK_AREA_PX,
+    });
+    if (peekBoxes.length === 0) return;
+
+    const grid = document.createElement("div");
+    grid.className = "treemap-peek-grid";
+    grid.style.width = `${width}px`;
+    grid.style.height = `${height}px`;
+
+    for (const peekBox of peekBoxes) {
+      grid.appendChild(
+        peekBox.kind === "real"
+          ? renderPeekTile(peekBox.node, peekBox.rect)
+          : renderPeekOthersTile(peekBox.data, peekBox.rect)
+      );
+    }
+
+    box.appendChild(grid);
+  }
+
+  /**
+   * One packed peek tile for a real project or (nested) category. Mirrors
+   * the logo-vs-fallback handling `renderBox` uses for a full leaf box.
+   * Clicking opens the detail panel directly for a project, or zooms in
+   * directly for a category — either way `stopPropagation`'d so it
+   * doesn't also trigger the containing box's own zoom-in click handler.
+   */
+  function renderPeekTile(child, rect) {
+    const tile = document.createElement("button");
+    tile.type = "button";
+    tile.className = "treemap-peek-tile";
+    tile.style.left = `${rect.left}px`;
+    tile.style.top = `${rect.top}px`;
+    tile.style.width = `${rect.width}px`;
+    tile.style.height = `${rect.height}px`;
+    tile.title = child.data.name;
+
+    if (!child.children && child.data.image) {
+      const img = document.createElement("img");
+      img.src = child.data.image;
+      img.alt = child.data.name;
+      img.onerror = () => img.replaceWith(renderFallbackLogo(child.data.name));
+      tile.appendChild(img);
+    } else {
+      tile.appendChild(renderFallbackLogo(child.data.name));
+    }
+
+    tile.addEventListener("click", (event) => {
+      event.stopPropagation();
+      if (child.children) {
+        zoomTo(child);
+      } else if (onLeafClick) {
+        onLeafClick({ ...child.data, activeSizeKey: activeSizeKey() });
+      }
+    });
+
+    return tile;
+  }
+
+  /**
+   * The peek's own truncation tile ("N more"), when even the small preview
+   * can't fit every child. Deliberately non-interactive — the containing
+   * box is already a click target that zooms in and reveals everything
+   * (via the real top-level Others mechanism), so this tile doesn't need
+   * its own click handling; a click on it simply bubbles up to that.
+   */
+  function renderPeekOthersTile(data, rect) {
+    const tile = document.createElement("span");
+    tile.className = "treemap-peek-tile treemap-peek-tile-others";
+    tile.style.left = `${rect.left}px`;
+    tile.style.top = `${rect.top}px`;
+    tile.style.width = `${rect.width}px`;
+    tile.style.height = `${rect.height}px`;
+    tile.textContent = data.name;
+    return tile;
+  }
+```
+
+- [ ] **Step 3: Update the two call sites**
+
+In `renderBox`, change:
+
+```js
+    if (node.children) {
+      renderPeek(box, node.children);
+```
+
+to:
+
+```js
+    if (node.children) {
+      renderPeek(box, node.children, rect, node.data.id);
+```
+
+In `renderOthersBox`, change:
+
+```js
+    renderPeek(box, hiddenChildren);
+```
+
+to:
+
+```js
+    renderPeek(box, hiddenChildren, rect, data.id);
+```
+
+- [ ] **Step 4: Update the peek CSS**
+
+In `app/shared/treemap.css`, replace this block:
+
+```css
+.treemap-peek-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.treemap-peek-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  border: none;
+  border-radius: 4px;
+  background: var(--color-surface);
+  cursor: pointer;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.treemap-peek-icon img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.treemap-peek-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background: var(--color-accent-soft);
+  color: var(--color-text-muted);
+  font-size: 10px;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+```
+
+with:
+
+```css
+.treemap-peek-grid {
+  position: relative;
+  margin-top: 4px;
+}
+
+.treemap-peek-tile {
+  position: absolute;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-surface);
+  background: var(--color-surface);
+  padding: 2px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.treemap-peek-tile img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.treemap-peek-tile-others {
+  background-image: repeating-linear-gradient(
+    45deg,
+    var(--color-border),
+    var(--color-border) 3px,
+    transparent 3px,
+    transparent 6px
+  );
+  color: var(--color-text-muted);
+  font-size: 9px;
+  cursor: default;
+}
+```
+
+Also find the dark-mode selector list (near the top of the file, inside `@media (prefers-color-scheme: dark)`):
+
+```css
+  .treemap-logo,
+  .detail-panel-logo,
+  .treemap-peek-icon {
+    background: #fff;
+    border-radius: 4px;
+    padding: 2px;
+  }
+```
+
+and change `.treemap-peek-icon` to `.treemap-peek-tile`:
+
+```css
+  .treemap-logo,
+  .detail-panel-logo,
+  .treemap-peek-tile {
+    background: #fff;
+    border-radius: 4px;
+    padding: 2px;
+  }
+```
+
+(Note: this dark-mode override currently has no visible effect for any of these three selectors — `app/shared/treemap.css` has a *second*, non-dark `.treemap-logo { background: var(--color-surface); ... }` rule later in the file that wins the cascade in dark mode too, since same-specificity rules resolve by source order and it comes after the media block. This is a pre-existing issue on `master`, predating this whole plan — out of scope for this task; do not fix it here. It doesn't need a workaround in this task's new CSS either, since `.treemap-peek-tile`'s own base rule already sets `background: var(--color-surface)`, consistent with `.treemap-logo`'s existing — if imperfect — dark-mode behavior.)
+
+- [ ] **Step 5: Run the full test suite**
+
+Run: `npm test`
+Expected: PASS — this task doesn't touch `app/shared/layout.js` or any test file; `computeLevelBoxes`'s existing tests (Task 3) already cover the exact function this task now calls at a different scale.
+
+- [ ] **Step 6: Commit**
+
+```bash
+git add app/shared/treemap.js app/shared/treemap.css
+git commit -m "feat: pack the peek preview as a mini-treemap instead of flowing icons"
+```
+
+- [ ] **Step 7: Manual browser verification**
+
+```bash
+npm run dev
+```
+
+Open the printed URL and check, for at least two domains:
+
+1. Root screen: category boxes show packed, gapless rectangular tiles (not uniform square icons in rows) — the biggest project in a category should visibly take up more area than the smallest shown.
+2. Resize the browser narrower (taller-than-wide category boxes) — tiles visibly reorient (e.g. stack vertically instead of side-by-side) compared to a wide box, confirming squarify is adapting per-box rather than using one fixed layout direction.
+3. Click a peeked tile directly — opens the detail panel (project) or zooms in (nested category), same as Task 5.
+4. Click the category's label/empty space, or a peek's own "N more" tile — zooms into the category (the "N more" tile is not independently clickable, per Step 2's doc comment).
+5. Very small category boxes (few total stars relative to others) still skip the peek entirely rather than rendering a cramped/overlapping mess.
+6. Re-apply the temporary `MIN_BOX_AREA_PX = 80000` trick from Task 4 Step 6 (don't commit) — confirm the dashed "Others" box's own peek preview also packs correctly. Revert afterward.
+
+---
+
 ## Self-Review Notes
+
+- **Spec coverage:** unified box+peek renderer at every depth (Tasks 4–5), weighted icon sizing via `sqrt` interpolation (Task 2's `sizeForWeight`, used by Task 5), synthetic zoomable Others node with `.parent` patching for breadcrumb continuity (Task 4), category-area sizing still via the existing weighted squarify treemap (unchanged — `computeLevelBoxes` calls the same `computeLayout`), image-coverage prerequisite (Task 1), pure/testable selection+capacity logic (Task 2–3), manual browser verification convention preserved (Tasks 4–5), graceful degradation for undersized boxes (peek skip conditions in Task 5) and broken logos (existing `onerror` fallback reused everywhere). All spec sections have a corresponding task.
+- **Type consistency checked:** `computeLevelBoxes`'s `Box` shape (Task 3) matches exactly how Task 4's `renderLevel` destructures it (`box.kind`, `box.node`/`box.rect` for `"real"`, `box.data`/`box.hiddenChildren`/`box.rect` for `"others"`). `selectTopWithOthers`'s return shape (Task 2) matches every call site's destructuring in Tasks 3 and 5. `buildOthersNode`'s `{ id, name, children }` shape matches what `zoomToOthers` (Task 4) passes into `buildHierarchy`.
+- **Task 6 addendum (post-hoc, added after Tasks 1-5 shipped):** requested live, after seeing Task 5's flowing-icon peek rendered in the browser — reuses `computeLevelBoxes` (Task 3) at box-interior scale instead of introducing a second layout algorithm. `renderPeek`'s new signature (`box, children, rect, focusId`) is consumed only by its two call sites in the same file (Step 3), both updated in this task.
 
 - **Spec coverage:** unified box+peek renderer at every depth (Tasks 4–5), weighted icon sizing via `sqrt` interpolation (Task 2's `sizeForWeight`, used by Task 5), synthetic zoomable Others node with `.parent` patching for breadcrumb continuity (Task 4), category-area sizing still via the existing weighted squarify treemap (unchanged — `computeLevelBoxes` calls the same `computeLayout`), image-coverage prerequisite (Task 1), pure/testable selection+capacity logic (Task 2–3), manual browser verification convention preserved (Tasks 4–5), graceful degradation for undersized boxes (peek skip conditions in Task 5) and broken logos (existing `onerror` fallback reused everywhere). All spec sections have a corresponding task.
 - **Type consistency checked:** `computeLevelBoxes`'s `Box` shape (Task 3) matches exactly how Task 4's `renderLevel` destructures it (`box.kind`, `box.node`/`box.rect` for `"real"`, `box.data`/`box.hiddenChildren`/`box.rect` for `"others"`). `selectTopWithOthers`'s return shape (Task 2) matches every call site's destructuring in Tasks 3 and 5. `buildOthersNode`'s `{ id, name, children }` shape matches what `zoomToOthers` (Task 4) passes into `buildHierarchy`.

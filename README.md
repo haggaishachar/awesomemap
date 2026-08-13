@@ -35,7 +35,7 @@ _Not enough star-history yet to compute 7-day growth — check back once daily s
 
 | Map | Description | Projects |
 | --- | --- | --- |
-| [Data Science](https://haggaishachar.github.io/awesomemap/data-science/) | Machine learning, deep learning, NLP, computer vision, and more. | 44 |
+| [Data Science](https://haggaishachar.github.io/awesomemap/data-science/) | Machine learning, deep learning, NLP, computer vision, and more. | 51 |
 | [Security](https://haggaishachar.github.io/awesomemap/security/) | Scanning, exploitation, SIEM, secrets management, forensics, and more. | 51 |
 | [Web Development](https://haggaishachar.github.io/awesomemap/web-dev/) | Frontend frameworks, build tools, styling, backend frameworks, and more. | 50 |
 | [Mobile Development](https://haggaishachar.github.io/awesomemap/mobile-dev/) | Cross-platform frameworks, native tooling, testing, state management, and more. | 46 |

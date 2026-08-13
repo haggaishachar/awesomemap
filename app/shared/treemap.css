@@ -171,6 +171,9 @@ body {
   );
   border: 1px dashed var(--color-border);
   cursor: pointer;
+  padding: 4px 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .treemap-peek-grid {
@@ -195,6 +198,11 @@ body {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+}
+
+.treemap-peek-tile .treemap-logo-fallback {
+  font-size: 10px;
+  margin-bottom: 0;
 }
 
 .treemap-peek-tile-others {

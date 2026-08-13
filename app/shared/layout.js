@@ -78,25 +78,6 @@ export function selectTopWithOthers(children, capacity) {
 }
 
 /**
- * Maps `weight` onto a pixel size between `minPx` and `maxPx`, by linear
- * interpolation over `sqrt(weight)` (so a 4x weight difference reads as
- * ~2x size, not 4x — keeps a single dominant project from dwarfing
- * everything else in the same grid). `minWeight`/`maxWeight` describe the
- * range of weights currently being sized together (typically the
- * `visible` set from `selectTopWithOthers`, so the biggest one shown
- * always renders at `maxPx`). Returns `maxPx` outright when
- * `maxWeight <= minWeight` (a single item, or a degenerate equal-weight
- * set) rather than dividing by zero.
- */
-export function sizeForWeight(weight, { minPx, maxPx, minWeight, maxWeight }) {
-  if (maxWeight <= minWeight) return maxPx;
-  const t =
-    (Math.sqrt(weight) - Math.sqrt(minWeight)) / (Math.sqrt(maxWeight) - Math.sqrt(minWeight));
-  const clamped = Math.min(1, Math.max(0, t));
-  return Math.round(minPx + clamped * (maxPx - minPx));
-}
-
-/**
  * Builds the plain-data shape for a synthetic "N more" node standing in
  * for `othersChildren` (the hidden half of a `selectTopWithOthers`
  * result). `children` is each hidden child's own `.data` — plain project

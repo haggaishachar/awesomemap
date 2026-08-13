@@ -19,9 +19,17 @@ const MIN_PEEK_AREA_PX = 2500;
 // skip the peek entirely rather than render an empty or cramped grid.
 const PEEK_MIN_BOX_WIDTH = 60;
 const PEEK_MIN_BOX_HEIGHT = 40;
+// Packed tiles are weight-proportional, not a fixed grid, so a long tail
+// of low-weight projects can land under any fixed size — skip rendering
+// a real tile once it's too thin for its logo to read at all, rather
+// than show an illegible sliver. The project stays reachable by zooming
+// into the box; this only affects the decorative preview.
+const PEEK_MIN_TILE_PX = 24;
 // Matches .treemap-category's CSS padding (4px 6px) and one line of the
 // 12px label, so the packed peek treemap lands inside the box's actual
-// content area instead of under its own padding/label.
+// content area instead of under its own padding/label. Assumes the label
+// wraps to at most one line — a category name long enough to wrap in a
+// narrow box would need a taller reserve than this fixed constant.
 const PEEK_HORIZONTAL_INSET_PX = 12;
 const PEEK_VERTICAL_INSET_PX = 8;
 const PEEK_LABEL_RESERVED_PX = 18;
@@ -314,6 +322,9 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
     grid.style.height = `${height}px`;
 
     for (const peekBox of peekBoxes) {
+      if (peekBox.kind === "real" && Math.min(peekBox.rect.width, peekBox.rect.height) < PEEK_MIN_TILE_PX) {
+        continue;
+      }
       grid.appendChild(
         peekBox.kind === "real"
           ? renderPeekTile(peekBox.node, peekBox.rect)

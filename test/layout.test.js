@@ -6,7 +6,6 @@ import {
   computeLayout,
   estimateCapacity,
   selectTopWithOthers,
-  sizeForWeight,
   buildOthersNode,
   computeLevelBoxes,
 } from "../app/shared/layout.js";
@@ -154,24 +153,6 @@ test("selectTopWithOthers at capacity 1 still shows one real child plus Others f
   assert.equal(result.othersCount, 1);
 });
 
-test("sizeForWeight clamps to maxPx at the top of the range and minPx at the bottom", () => {
-  const range = { minPx: 20, maxPx: 100, minWeight: 10, maxWeight: 1000 };
-  assert.equal(sizeForWeight(1000, range), 100);
-  assert.equal(sizeForWeight(10, range), 20);
-});
-
-test("sizeForWeight interpolates over sqrt(weight) between the endpoints", () => {
-  // sqrt(302.5) is exactly the midpoint between sqrt(10) and sqrt(1000)
-  // (302.5 = ((sqrt(10)+sqrt(1000))/2)^2), so this sits exactly halfway
-  // from 20 to 100.
-  const size = sizeForWeight(302.5, { minPx: 20, maxPx: 100, minWeight: 10, maxWeight: 1000 });
-  assert.equal(size, 60);
-});
-
-test("sizeForWeight returns maxPx when every visible child has equal weight (no range to interpolate)", () => {
-  assert.equal(sizeForWeight(50, { minPx: 20, maxPx: 100, minWeight: 50, maxWeight: 50 }), 100);
-});
-
 test("buildOthersNode builds a plain data node whose children are the hidden children's data", () => {
   const hidden = [weighted("c", 10), weighted("d", 1)];
   const node = buildOthersNode("Deep Learning", hidden);
@@ -273,4 +254,48 @@ test("computeLevelBoxes returns an empty array when there are no children", () =
     }),
     [],
   );
+});
+
+test("computeLevelBoxes preserves weight-descending order between visible boxes and their rects", () => {
+  const root = buildHierarchy(
+    levelData([
+      { id: "a", weight: 100 },
+      { id: "b", weight: 80 },
+      { id: "c", weight: 50 },
+      { id: "d", weight: 10 },
+      { id: "e", weight: 1 },
+    ]),
+  );
+  const boxes = computeLevelBoxes(root.children, {
+    focusId: "root",
+    sizeKey: "popular",
+    stageWidth: 1000,
+    stageHeight: 100,
+    minBoxAreaPx: 25000,
+  });
+  const real = boxes.filter((box) => box.kind === "real");
+  const others = boxes.filter((box) => box.kind === "others");
+  assert.deepEqual(real.map((box) => box.node.data.id), ["a", "b", "c"]);
+  const areaOf = (box) => box.rect.width * box.rect.height;
+  assert.ok(
+    areaOf(real[0]) > areaOf(real[1]) && areaOf(real[1]) > areaOf(real[2]),
+    "each real box's rendered area should descend with its weight, in the same order as `real`",
+  );
+  assert.equal(others.length, 1);
+  assert.deepEqual(others[0].hiddenChildren.map((c) => c.data.id).sort(), ["d", "e"]);
+});
+
+test("computeLevelBoxes passes every child through with no Others box exactly at the capacity boundary", () => {
+  const root = buildHierarchy(
+    levelData([{ id: "a", weight: 3 }, { id: "b", weight: 2 }, { id: "c", weight: 1 }]),
+  );
+  const boxes = computeLevelBoxes(root.children, {
+    focusId: "root",
+    sizeKey: "popular",
+    stageWidth: 100,
+    stageHeight: 30,
+    minBoxAreaPx: 1000,
+  });
+  assert.equal(boxes.length, 3);
+  assert.ok(boxes.every((box) => box.kind === "real"));
 });

@@ -78,6 +78,15 @@ for (const file of domainFiles) {
   mkdirSync(`${DIST_DIR}/${slug}`, { recursive: true });
   mkdirSync(`${DIST_DIR}/embed/${slug}`, { recursive: true });
 
+  // Ships the raw per-repo history (already loaded above for
+  // computeProjectSizing) to the client as-is, so the detail panel can
+  // fetch it on demand to draw a leaf's star-history sparkline. Skipped
+  // when the domain has no history file yet (e.g. a brand-new domain) —
+  // the panel's fetch fails gracefully in that case (see render-page.mjs).
+  if (existsSync(historyPath)) {
+    copyFileSync(historyPath, `${DIST_DIR}/${slug}/history.json`);
+  }
+
   writeFileSync(
     `${DIST_DIR}/${slug}/index.html`,
     renderDomainPage(domain, tree, { embed: false, defaultOgImage: DEFAULT_OG_IMAGE, siteUrl: SITE_URL, basePath: BASE_PATH })

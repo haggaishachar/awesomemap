@@ -8,6 +8,7 @@ import {
   selectTopWithOthers,
   buildOthersNode,
   computeLevelBoxes,
+  computeStageSize,
 } from "../app/shared/layout.js";
 
 test("weightOf returns the leaf's weight when present", () => {
@@ -298,4 +299,68 @@ test("computeLevelBoxes passes every child through with no Others box exactly at
   });
   assert.equal(boxes.length, 3);
   assert.ok(boxes.every((box) => box.kind === "real"));
+});
+
+test("computeStageSize reproduces the legacy 1000x600 size when the container is exactly wide enough", () => {
+  // 1032 - 16*2 (side margins) = 1000 = STAGE_MAX_WIDTH exactly.
+  const size = computeStageSize(1032);
+  assert.equal(size.width, 1000);
+  assert.equal(size.height, 600);
+});
+
+test("computeStageSize caps width at 1000 for a container much wider than the max", () => {
+  const size = computeStageSize(2000);
+  assert.equal(size.width, 1000);
+  assert.equal(size.height, 600);
+});
+
+test("computeStageSize uses the desktop ratio exactly at the mobile breakpoint", () => {
+  // 672 - 16*2 = 640 = STAGE_MOBILE_BREAKPOINT_PX exactly — not below it,
+  // so this is still the desktop ratio, not the mobile one.
+  const size = computeStageSize(672);
+  assert.equal(size.width, 640);
+  assert.equal(size.height, 640 * 0.6);
+});
+
+test("computeStageSize switches to the taller mobile ratio just below the breakpoint", () => {
+  // 671 - 16*2 = 639, just under STAGE_MOBILE_BREAKPOINT_PX.
+  const size = computeStageSize(671);
+  assert.equal(size.width, 639);
+  assert.equal(size.height, 639 * 1.3);
+});
+
+test("computeStageSize fits a typical phone-width container with the mobile ratio", () => {
+  // 375 - 16*2 = 343.
+  const size = computeStageSize(375);
+  assert.equal(size.width, 343);
+  assert.equal(size.height, 343 * 1.3);
+});
+
+test("computeStageSize never goes negative for a container narrower than the side margins", () => {
+  const size = computeStageSize(10);
+  assert.equal(size.width, 0);
+  assert.equal(size.height, 0);
+});
+
+test("computeStageSize fills the given available height on mobile instead of using the fixed ratio", () => {
+  // 375 - 16*2 = 343, still under the breakpoint.
+  const size = computeStageSize(375, 700);
+  assert.equal(size.width, 343);
+  assert.equal(size.height, 700);
+});
+
+test("computeStageSize floors the mobile height at STAGE_MIN_MOBILE_HEIGHT_PX for a squeezed viewport", () => {
+  const size = computeStageSize(375, 100);
+  assert.equal(size.height, 280);
+});
+
+test("computeStageSize ignores availableHeight at/above the desktop breakpoint", () => {
+  const size = computeStageSize(672, 2000);
+  assert.equal(size.width, 640);
+  assert.equal(size.height, 640 * 0.6);
+});
+
+test("computeStageSize falls back to the mobile ratio when availableHeight isn't a finite number", () => {
+  assert.equal(computeStageSize(375, undefined).height, 343 * 1.3);
+  assert.equal(computeStageSize(375, NaN).height, 343 * 1.3);
 });

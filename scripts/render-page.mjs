@@ -42,15 +42,21 @@ function renderShell({ title, ogTitle, ogDescription, ogImage, ogUrl, base, body
 export function renderDomainPage(domain, tree, { embed = false, defaultOgImage, siteUrl = "", basePath = "" }) {
   const backLink = embed ? "" : `<p class="back-link"><a href="${basePath}/">&larr; All maps</a></p>`;
   const ogUrl = `${siteUrl}${basePath}/${domain.slug}/`;
+  // The domain's own `history.json` (copied from `data/history/<slug>.json`
+  // by generate.mjs, when it exists) — fetched lazily by the detail panel
+  // to draw its star-history sparkline. Always emitted, even for domains
+  // with no history file yet; the panel's fetch fails gracefully (no
+  // chart) rather than needing generate.mjs's fs state here.
+  const historyUrl = `${basePath}/${domain.slug}/history.json`;
   const body = `
-    <div id="app"></div>
     ${backLink}
+    <div id="app"></div>
     <script type="application/json" id="map-data">${escapeScriptJson(JSON.stringify(tree))}</script>
     <script type="module">
       import { mountTreemap } from "${basePath}/shared/treemap.js";
       import { createDetailPanel } from "${basePath}/shared/detail-panel.js";
       const mapData = JSON.parse(document.getElementById("map-data").textContent);
-      const panel = createDetailPanel(document.body);
+      const panel = createDetailPanel(document.body, { historyUrl: "${historyUrl}" });
       mountTreemap(
         document.getElementById("app"),
         mapData,

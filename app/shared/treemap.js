@@ -1,7 +1,12 @@
-import { buildHierarchy, computeLevelBoxes } from "./layout.js";
+import { buildHierarchy, computeLevelBoxes, computeStageSize } from "./layout.js";
 
-const STAGE_WIDTH = 1000;
-const STAGE_HEIGHT = 600;
+// Debounce for the ResizeObserver in mountTreemap — avoids re-laying-out
+// the whole stage on every intermediate frame of a window drag-resize.
+const RESIZE_DEBOUNCE_MS = 150;
+// Left below the stage on mobile (where its height fills the viewport),
+// mirroring layout.js's STAGE_SIDE_MARGIN_PX so the stage doesn't run
+// flush to the bottom edge of the screen.
+const STAGE_BOTTOM_MARGIN_PX = 16;
 // Deliberately duplicated from scripts/velocity.mjs's RISING_WINDOWS_DAYS
 // rather than imported: scripts/ is a build-time-only Node directory that
 // generate.mjs never copies into dist/, so this browser module can't
@@ -54,6 +59,9 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
   let focusNode = root;
   let focusIdPath = [root.data.id];
 
+  let stageWidth;
+  let stageHeight;
+
   container.innerHTML = "";
   const modeBar = document.createElement("div");
   modeBar.className = "treemap-mode-bar";
@@ -61,11 +69,40 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
   breadcrumb.className = "treemap-breadcrumb";
   const stage = document.createElement("div");
   stage.className = "treemap-stage";
-  stage.style.width = `${STAGE_WIDTH}px`;
-  stage.style.height = `${STAGE_HEIGHT}px`;
   container.appendChild(modeBar);
   container.appendChild(breadcrumb);
   container.appendChild(stage);
+
+  /**
+   * Applies a freshly computed `{width, height}` to the stage element and
+   * to the closure-scoped `stageWidth`/`stageHeight` that `renderLevel`
+   * lays boxes out against. Doesn't itself re-render — callers that need
+   * the new size reflected in the actual boxes call `renderLevel()` (or
+   * the full initial render sequence) afterwards.
+   */
+  function applyStageSize(size) {
+    stageWidth = size.width;
+    stageHeight = size.height;
+    stage.style.width = `${stageWidth}px`;
+    stage.style.height = `${stageHeight}px`;
+  }
+
+  /**
+   * The viewport height left for the stage: from the stage's own top
+   * (i.e. below whatever precedes it on the page — the mode bar,
+   * breadcrumb, and any page chrome like the "All maps" back-link) down
+   * to the bottom of the window, minus a small margin. `getBoundingClientRect`
+   * is viewport-relative, so this reflects the stage's actual on-page
+   * position, not just its container's contents — safe to call before the
+   * stage has ever been sized, since it depends only on what comes before
+   * it in the page, never on its own current width/height. Re-measured on
+   * every resize/orientation change and whenever the mode bar's own height
+   * changes (e.g. the Rising window-row appearing) — both go through
+   * `resizeStage` below.
+   */
+  function computeAvailableHeight() {
+    return window.innerHeight - stage.getBoundingClientRect().top - STAGE_BOTTOM_MARGIN_PX;
+  }
 
   function activeSizeKey() {
     return sizeMode === "popular" ? "popular" : `rising${risingWindow}`;
@@ -198,8 +235,8 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
     const boxes = computeLevelBoxes(focusNode.children, {
       focusId: focusNode.data.id,
       sizeKey: activeSizeKey(),
-      stageWidth: STAGE_WIDTH,
-      stageHeight: STAGE_HEIGHT,
+      stageWidth,
+      stageHeight,
       minBoxAreaPx: MIN_BOX_AREA_PX,
     });
     for (const box of boxes) {
@@ -394,7 +431,37 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
 
   renderModeBar();
   renderBreadcrumb();
+  // Only now (after the mode bar and breadcrumb have real content) is the
+  // stage's top offset — and so the height available below it — known.
+  applyStageSize(computeStageSize(container.clientWidth, computeAvailableHeight()));
   renderLevel();
+
+  /**
+   * Recomputes the stage size from the container's current width and the
+   * viewport height currently available below the stage, and — only if
+   * it actually changed — applies it and re-lays-out the current focus
+   * level. Zoom state (`focusNode`/`focusIdPath`) is untouched, so the
+   * user stays at whatever level they'd zoomed to across a resize. Also
+   * fires when the mode bar's own height changes (e.g. toggling into
+   * Rising mode adds a window-button row): that changes `container`'s
+   * total height, which the ResizeObserver below is watching.
+   */
+  function resizeStage() {
+    const nextSize = computeStageSize(container.clientWidth, computeAvailableHeight());
+    if (nextSize.width === stageWidth && nextSize.height === stageHeight) return;
+    applyStageSize(nextSize);
+    renderLevel();
+  }
+
+  let resizeTimeoutId = null;
+  const resizeObserver = new ResizeObserver(() => {
+    if (resizeTimeoutId !== null) clearTimeout(resizeTimeoutId);
+    resizeTimeoutId = setTimeout(() => {
+      resizeTimeoutId = null;
+      resizeStage();
+    }, RESIZE_DEBOUNCE_MS);
+  });
+  resizeObserver.observe(container);
 
   return { zoomTo, root };
 }

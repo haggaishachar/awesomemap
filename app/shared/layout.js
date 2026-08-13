@@ -1,5 +1,60 @@
 import { hierarchy, treemap, treemapSquarify } from "d3-hierarchy";
 
+// The stage never grows past this width, regardless of viewport — the
+// original fixed desktop size, now a ceiling rather than the only size.
+const STAGE_MAX_WIDTH = 1000;
+// Reserved on each side so a box's outer edge never renders flush against
+// the screen edge on a narrow viewport.
+const STAGE_SIDE_MARGIN_PX = 16;
+// Below this *stage* width (after the side margin above is subtracted),
+// switch from the desktop landscape ratio to a taller, portrait-friendly
+// one — a phone-width stage would otherwise just be a short, squished
+// version of the desktop shape instead of making use of a tall screen.
+const STAGE_MOBILE_BREAKPOINT_PX = 640;
+// Fallback only — used when the caller can't supply the viewport's actual
+// available height (e.g. a caller that hasn't measured the DOM yet).
+// Whenever a real `availableHeight` is passed in, it wins on mobile; see
+// `computeStageSize`.
+const STAGE_MOBILE_HEIGHT_RATIO = 1.3;
+const STAGE_DESKTOP_HEIGHT_RATIO = 0.6; // matches the original 1000x600.
+// Floor on the mobile stage height so a squeezed viewport (e.g. a
+// landscape phone with the on-screen keyboard open) still gets a usable
+// stage instead of a sliver.
+const STAGE_MIN_MOBILE_HEIGHT_PX = 280;
+
+/**
+ * Computes the stage's `{width, height}` from the width available to it
+ * (typically its container's `clientWidth`) and, optionally, the height
+ * available below it in the viewport (`availableHeight` — typically the
+ * viewport height minus whatever's already stacked above the stage, e.g.
+ * the mode bar and breadcrumb).
+ *
+ * Width is capped at `STAGE_MAX_WIDTH`. At/above `STAGE_MOBILE_BREAKPOINT_PX`
+ * the stage keeps the desktop landscape ratio (`STAGE_DESKTOP_HEIGHT_RATIO`)
+ * regardless of `availableHeight` — desktop only scrolls a little past the
+ * fold today and isn't meant to fill the window. Below the breakpoint, the
+ * stage instead fills `availableHeight` (floored at
+ * `STAGE_MIN_MOBILE_HEIGHT_PX`) so a phone visitor gets a map that uses the
+ * actual screen instead of a fixed, height-agnostic ratio; if
+ * `availableHeight` isn't a finite number (caller hasn't measured the DOM
+ * yet), it falls back to the same width-ratio heuristic as before.
+ *
+ * Called once at mount and again on every resize/orientation change (see
+ * `mountTreemap`'s `resizeStage` in `treemap.js`) — this is the only place
+ * stage size is decided.
+ */
+export function computeStageSize(containerWidth, availableHeight) {
+  const usable = Math.max(0, containerWidth - STAGE_SIDE_MARGIN_PX * 2);
+  const width = Math.min(usable, STAGE_MAX_WIDTH);
+  if (width >= STAGE_MOBILE_BREAKPOINT_PX) {
+    return { width, height: width * STAGE_DESKTOP_HEIGHT_RATIO };
+  }
+  const height = Number.isFinite(availableHeight)
+    ? Math.max(availableHeight, STAGE_MIN_MOBILE_HEIGHT_PX)
+    : width * STAGE_MOBILE_HEIGHT_RATIO;
+  return { width, height };
+}
+
 /**
  * Value accessor used by d3's hierarchy.sum(). Category nodes (nodes with
  * children) contribute nothing of their own — their size comes entirely

@@ -52,6 +52,18 @@ test("BASE_PATH is prefixed onto every emitted path, and defaults to root-relati
   assert.match(prefixedHtml, /import \{ mountTreemap \} from "\/techmap\/shared\/treemap.js"/);
 });
 
+test("the detail panel is created with a historyUrl pointing at the domain's own history.json, prefixed by BASE_PATH", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const rootHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "" });
+  assert.match(rootHtml, /createDetailPanel\(document\.body, \{ historyUrl: "\/data-science\/history\.json" \}\)/);
+
+  const prefixedHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
+  assert.match(
+    prefixedHtml,
+    /createDetailPanel\(document\.body, \{ historyUrl: "\/techmap\/data-science\/history\.json" \}\)/
+  );
+});
+
 test("og:image and og:url are absolute when SITE_URL is set (origin only, combined with BASE_PATH)", () => {
   const domain = { slug: "data-science", name: "Data Science", description: "desc" };
   const html = renderDomainPage(domain, ROOT_TREE, {
@@ -61,6 +73,18 @@ test("og:image and og:url are absolute when SITE_URL is set (origin only, combin
   });
   assert.match(html, /property="og:image" content="https:\/\/haggaishachar\.github\.io\/techmap\/og-default\.png"/);
   assert.match(html, /property="og:url" content="https:\/\/haggaishachar\.github\.io\/techmap\/data-science\/"/);
+});
+
+test("the 'All maps' back-link is placed before #app, not after — reachable without scrolling past the map", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png" });
+  assert.ok(html.indexOf('class="back-link"') < html.indexOf('id="app"'));
+});
+
+test("the embed variant has no back-link and starts straight at #app", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", embed: true });
+  assert.doesNotMatch(html, /back-link/);
 });
 
 test("landing page card links escape the slug and use a trailing slash", () => {

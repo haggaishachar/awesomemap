@@ -1,15 +1,64 @@
+import { githubRepoUrl, formatStarCount, starHistoryFor, buildSparklinePath, starHistoryCaption } from "./star-history.js";
+
 /**
  * Creates a slide-in detail panel appended to `container`. A leaf's
  * `image`, when present, is already a direct URL into its source repo.
  * `leafData` passed to `open()` may carry an `activeSizeKey` field (set by
  * treemap.js) naming the size mode active when the leaf was clicked; when
  * it's a "rising*" key, a growth-stat line is shown using the leaf's
- * `growth`/`hasEnoughHistory` data for that window. Returns { open(leafData), close() }.
+ * `growth`/`hasEnoughHistory` data for that window. `historyUrl`, when
+ * given, is the domain's `history.json` (see render-page.mjs) — fetched
+ * lazily and cached on first use to draw a leaf's star-history sparkline.
+ * Returns { open(leafData), close() }.
  */
-export function createDetailPanel(container) {
+export function createDetailPanel(container, { historyUrl } = {}) {
   const panel = document.createElement("aside");
   panel.className = "detail-panel";
   container.appendChild(panel);
+
+  // Cached across opens so the domain's history.json is fetched at most
+  // once per page load, not once per leaf click.
+  let historyPromise = null;
+  function loadHistory() {
+    if (!historyUrl) return Promise.resolve({});
+    if (!historyPromise) {
+      historyPromise = fetch(historyUrl)
+        .then((res) => (res.ok ? res.json() : {}))
+        .catch(() => ({}));
+    }
+    return historyPromise;
+  }
+
+  // Renders the sparkline (and its caption) into `chartContainer` once the
+  // domain's history resolves. `chartContainer` is unique per `open()`
+  // call, and gets detached by the next `open()`'s `panel.innerHTML = ""`
+  // (or by `close()`) — the `isConnected` check drops a stale fetch that
+  // resolves after the panel has already moved on to a different leaf.
+  function attachStarHistoryChart(chartContainer, id) {
+    loadHistory().then((historyData) => {
+      if (!chartContainer.isConnected) return;
+
+      const series = starHistoryFor(historyData, id);
+      const spark = buildSparklinePath(series);
+      if (!spark) return;
+
+      const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+      svg.classList.add("detail-panel-star-chart-svg");
+      svg.setAttribute("viewBox", `0 0 ${spark.width} ${spark.height}`);
+      svg.setAttribute("width", spark.width);
+      svg.setAttribute("height", spark.height);
+
+      const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      path.setAttribute("d", spark.path);
+      svg.appendChild(path);
+      chartContainer.appendChild(svg);
+
+      const caption = document.createElement("p");
+      caption.className = "detail-panel-star-chart-caption";
+      caption.textContent = starHistoryCaption(series);
+      chartContainer.appendChild(caption);
+    });
+  }
 
   function close() {
     panel.classList.remove("detail-panel-open");
@@ -50,15 +99,19 @@ export function createDetailPanel(container) {
     }
 
     if (leafData.id) {
-      const ghFrame = document.createElement("iframe");
-      ghFrame.className = "detail-panel-gh-button";
-      ghFrame.src = githubStarButtonUrl(leafData.id);
-      ghFrame.width = "170";
-      ghFrame.height = "30";
-      ghFrame.frameBorder = "0";
-      ghFrame.scrolling = "no";
-      ghFrame.title = "GitHub Stars";
-      panel.appendChild(ghFrame);
+      const starsLink = document.createElement("a");
+      starsLink.className = "detail-panel-stars";
+      starsLink.href = githubRepoUrl(leafData.id);
+      starsLink.target = "_blank";
+      starsLink.rel = "noopener";
+      const starCount = formatStarCount(leafData.weight);
+      starsLink.textContent = starCount ? `★ ${starCount} stars on GitHub` : "★ View on GitHub";
+      panel.appendChild(starsLink);
+
+      const chartContainer = document.createElement("div");
+      chartContainer.className = "detail-panel-star-chart";
+      panel.appendChild(chartContainer);
+      attachStarHistoryChart(chartContainer, leafData.id);
     }
 
     if (leafData.link) {
@@ -106,15 +159,4 @@ function renderGrowthLine(leafData) {
   const percent = Math.round(stats.percentDelta);
   paragraph.textContent = `${sign}${stats.starDelta} stars (${sign}${percent}%) in ${windowDays} days`;
   return paragraph;
-}
-
-/**
- * Builds a ghbtns.com star-count button URL from a "owner/repo" shorthand
- * (the `id` field's format). Using the iframe embed (rather than the
- * buttons.github.io script, which only scans the DOM once at page load)
- * works correctly for buttons added dynamically after the page has loaded.
- */
-function githubStarButtonUrl(repoShorthand) {
-  const [user, repo] = repoShorthand.split("/");
-  return `https://ghbtns.com/github-btn.html?user=${user}&repo=${repo}&type=star&count=true`;
 }

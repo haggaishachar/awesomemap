@@ -21,6 +21,16 @@ Every map has two modes:
   what's accelerating right now, before it shows up on the "popular"
   radar.
 
+## This week's biggest risers
+
+Star-growth leaders over the last 7 days, refreshed every Monday by the
+[social digest workflow](.github/workflows/social-digest.yml) — for live,
+interactive rankings across any window, use Rising mode in the maps below.
+
+<!-- risers:start -->
+_Not enough star-history yet to compute 7-day growth — check back once daily snapshots cover a full 7-day window._
+<!-- risers:end -->
+
 ## Maps
 
 | Map | Description | Projects |

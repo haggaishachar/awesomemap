@@ -1,4 +1,4 @@
-import { readdirSync, readFileSync, existsSync } from "node:fs";
+import { readdirSync, readFileSync, existsSync, writeFileSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 import { computeVelocity } from "./velocity.mjs";
 
@@ -43,6 +43,15 @@ export function computeTopRisers(domains, historyBySlug, { windowDays = WINDOW_D
   return candidates.slice(0, limit);
 }
 
+/** Formats risers as a GitHub-flavored Markdown numbered list, one project per line. */
+function formatRiserLines(risers) {
+  return risers.map((r, i) => {
+    const sign = r.starDelta > 0 ? "+" : "";
+    const pct = r.percentDelta.toFixed(1);
+    return `${i + 1}. **[${r.name}](${r.link})** (${r.domain}) — ${sign}${r.starDelta} stars (${sign}${pct}%)`;
+  });
+}
+
 /**
  * Formats a list of risers (as returned by `computeTopRisers`) into a
  * GitHub-flavored Markdown digest body. Returns a placeholder message
@@ -54,13 +63,42 @@ export function formatDigest(risers, { windowDays = WINDOW_DAYS } = {}) {
     return `Not enough star-history yet to compute ${windowDays}-day growth. This digest will start reporting once daily snapshots cover a full ${windowDays}-day window.`;
   }
 
-  const lines = risers.map((r, i) => {
-    const sign = r.starDelta > 0 ? "+" : "";
-    const pct = r.percentDelta.toFixed(1);
-    return `${i + 1}. **[${r.name}](${r.link})** (${r.domain}) — ${sign}${r.starDelta} stars (${sign}${pct}%)`;
-  });
+  return [`Biggest risers on [awesomemap](https://haggaishachar.github.io/awesomemap/) over the last ${windowDays} days:`, "", ...formatRiserLines(risers)].join("\n");
+}
 
-  return [`Biggest risers on [awesomemap](https://haggaishachar.github.io/awesomemap/) over the last ${windowDays} days:`, "", ...lines].join("\n");
+/**
+ * Formats risers for embedding in the README (see `updateReadme`): just the
+ * numbered list, no digest intro line, since that context is already set by
+ * the surrounding README section. Same not-ready placeholder as
+ * `formatDigest` for an empty list.
+ */
+export function renderReadmeRisers(risers, { windowDays = WINDOW_DAYS } = {}) {
+  if (risers.length === 0) {
+    return `_Not enough star-history yet to compute ${windowDays}-day growth — check back once daily snapshots cover a full ${windowDays}-day window._`;
+  }
+
+  return formatRiserLines(risers).join("\n");
+}
+
+const README_RISERS_START = "<!-- risers:start -->";
+const README_RISERS_END = "<!-- risers:end -->";
+
+/**
+ * Splices `sectionMarkdown` into `readme` between the risers markers,
+ * replacing whatever was there before. Throws if the markers aren't
+ * present, so a renamed/removed marker fails the workflow loudly instead
+ * of silently leaving the README stale.
+ */
+export function updateReadme(readme, sectionMarkdown, { startMarker = README_RISERS_START, endMarker = README_RISERS_END } = {}) {
+  const startIdx = readme.indexOf(startMarker);
+  const endIdx = readme.indexOf(endMarker);
+  if (startIdx === -1 || endIdx === -1 || endIdx < startIdx) {
+    throw new Error("README risers markers not found");
+  }
+
+  const before = readme.slice(0, startIdx + startMarker.length);
+  const after = readme.slice(endIdx);
+  return `${before}\n${sectionMarkdown}\n${after}`;
 }
 
 // CLI entry point: node scripts/social-digest.mjs
@@ -82,6 +120,16 @@ function main() {
 
   const risers = computeTopRisers(domains, historyBySlug, {});
   const body = formatDigest(risers, {});
+
+  const readmePath = "README.md";
+  const readme = readFileSync(readmePath, "utf8");
+  const updatedReadme = updateReadme(readme, renderReadmeRisers(risers, {}));
+  if (updatedReadme !== readme) {
+    writeFileSync(readmePath, updatedReadme);
+    console.log("Updated README risers section.");
+  } else {
+    console.log("README risers section unchanged.");
+  }
 
   if (risers.length === 0) {
     console.log("Skipping issue creation: " + body);

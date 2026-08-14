@@ -38,6 +38,10 @@ const PEEK_MIN_TILE_PX = 24;
 const PEEK_HORIZONTAL_INSET_PX = 12;
 const PEEK_VERTICAL_INSET_PX = 8;
 const PEEK_LABEL_RESERVED_PX = 18;
+// How many of a category's own biggest leaf descendants stand in for it
+// in a peek tile (see `renderIconCollage`) — enough to read as "a group
+// of things" at a glance without needing a grid bigger than 2x2.
+const COLLAGE_MAX_ICONS = 4;
 
 /**
  * Mounts a treemap for `mapData` into `container`. A project's `image`,
@@ -373,11 +377,13 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
   }
 
   /**
-   * One packed peek tile for a real project or (nested) category. Mirrors
-   * the logo-vs-fallback handling `renderBox` uses for a full leaf box.
-   * Clicking opens the detail panel directly for a project, or zooms in
-   * directly for a category — either way `stopPropagation`'d so it
-   * doesn't also trigger the containing box's own zoom-in click handler.
+   * One packed peek tile for a real project, a (nested) category, or a
+   * project with no `image` of its own — a category gets `renderIconCollage`
+   * rather than the plain fallback letter, since it stands for a whole
+   * group of projects, not one. Clicking opens the detail panel directly
+   * for a project, or zooms in directly for a category — either way
+   * `stopPropagation`'d so it doesn't also trigger the containing box's
+   * own zoom-in click handler.
    */
   function renderPeekTile(child, rect) {
     const tile = document.createElement("button");
@@ -395,6 +401,8 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
       img.alt = child.data.name;
       img.onerror = () => img.replaceWith(renderFallbackLogo(child.data.name));
       tile.appendChild(img);
+    } else if (child.children) {
+      tile.appendChild(renderIconCollage(child));
     } else {
       tile.appendChild(renderFallbackLogo(child.data.name));
     }
@@ -491,4 +499,44 @@ function renderFallbackLogo(name) {
   fallback.className = "treemap-logo-fallback";
   fallback.textContent = (name || "?").trim().charAt(0).toUpperCase();
   return fallback;
+}
+
+/**
+ * Represents a category peek tile by a small collage of its own biggest
+ * leaf descendants' logos, instead of one fallback letter standing in for
+ * a whole group. `node.leaves()` is a d3-hierarchy built-in that walks
+ * *every* level below `node` regardless of how deep it goes — so this
+ * reads identically whether `node`'s children are projects directly (one
+ * level of nesting) or another layer of categories (two, or more, as
+ * today's Agents & Coding / LLM Infrastructure domains have): there's no
+ * per-depth logic to keep in sync as more nesting is added. Leaves are
+ * ranked by `.value` (already the active sizeKey's weight, via
+ * `buildHierarchy`'s `.sum()`), so the icons shown are the category's
+ * biggest projects, matching what "top n" means everywhere else in this
+ * file (`selectTopWithOthers`). Falls back to the plain letter tile if
+ * none of the category's leaves have an image at all.
+ */
+function renderIconCollage(node) {
+  const topLeaves = node
+    .leaves()
+    .filter((leaf) => leaf.data.image)
+    .sort((a, b) => b.value - a.value)
+    .slice(0, COLLAGE_MAX_ICONS);
+
+  if (topLeaves.length === 0) return renderFallbackLogo(node.data.name);
+
+  const collage = document.createElement("div");
+  collage.className = "treemap-collage";
+  for (const leaf of topLeaves) {
+    const img = document.createElement("img");
+    img.src = leaf.data.image;
+    img.alt = "";
+    // A collage icon that fails just drops out rather than falling back
+    // to a letter of its own — with up to COLLAGE_MAX_ICONS-1 other
+    // icons (or, in the rare worst case, none) already conveying "this
+    // is a group", a lone broken-image glyph here would only confuse.
+    img.onerror = () => img.remove();
+    collage.appendChild(img);
+  }
+  return collage;
 }

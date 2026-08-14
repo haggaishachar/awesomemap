@@ -200,6 +200,23 @@ body {
   object-fit: contain;
 }
 
+.treemap-collage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1px;
+  width: 100%;
+  height: 100%;
+}
+
+.treemap-collage img {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  object-fit: cover;
+}
+
 .treemap-peek-tile .treemap-logo-fallback {
   font-size: 10px;
   margin-bottom: 0;

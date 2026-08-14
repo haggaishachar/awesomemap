@@ -453,6 +453,26 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
     renderLevel();
   }
 
+  // The synchronous `container.clientWidth` read above can race ahead of
+  // the browser's own layout pass on a slow/cold first load (observed in
+  // practice: `container.clientWidth` reading 0 despite the container
+  // genuinely having width moments later), which locks the stage in at a
+  // bogus size — usually 0, hiding every box and logo — until the next
+  // *real* container resize fires the ResizeObserver below. A page that's
+  // never manually resized (the common case) then never recovers. Guard
+  // against that with two follow-up rechecks that don't depend on an
+  // actual resize happening: one after this frame's layout has settled
+  // (`requestAnimationFrame`), and one once the page — including its
+  // stylesheet — has definitely finished loading (`load`), for the case
+  // where even a frame later wasn't enough. Both are no-ops (via
+  // `resizeStage`'s own bail-out) once the size already reads correctly.
+  requestAnimationFrame(resizeStage);
+  if (document.readyState === "complete") {
+    resizeStage();
+  } else {
+    window.addEventListener("load", resizeStage, { once: true });
+  }
+
   let resizeTimeoutId = null;
   const resizeObserver = new ResizeObserver(() => {
     if (resizeTimeoutId !== null) clearTimeout(resizeTimeoutId);

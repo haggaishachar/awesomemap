@@ -1,0 +1,320 @@
+{
+  "ggerganov/llama.cpp": [
+    {
+      "date": "2026-08-14",
+      "stars": 123861
+    }
+  ],
+  "ollama/ollama": [
+    {
+      "date": "2026-08-14",
+      "stars": 178510
+    }
+  ],
+  "vllm-project/vllm": [
+    {
+      "date": "2026-08-14",
+      "stars": 89026
+    }
+  ],
+  "mlc-ai/mlc-llm": [
+    {
+      "date": "2026-08-14",
+      "stars": 23062
+    }
+  ],
+  "NVIDIA/TensorRT-LLM": [
+    {
+      "date": "2026-08-14",
+      "stars": 14380
+    }
+  ],
+  "microsoft/DeepSpeed": [
+    {
+      "date": "2026-08-14",
+      "stars": 42931
+    }
+  ],
+  "langchain-ai/langchain": [
+    {
+      "date": "2026-08-14",
+      "stars": 144224
+    }
+  ],
+  "run-llama/llama_index": [
+    {
+      "date": "2026-08-14",
+      "stars": 51636
+    }
+  ],
+  "deepset-ai/haystack": [
+    {
+      "date": "2026-08-14",
+      "stars": 26205
+    }
+  ],
+  "microsoft/semantic-kernel": [
+    {
+      "date": "2026-08-14",
+      "stars": 28447
+    }
+  ],
+  "Significant-Gravitas/AutoGPT": [
+    {
+      "date": "2026-08-14",
+      "stars": 186615
+    }
+  ],
+  "crewAIInc/crewAI": [
+    {
+      "date": "2026-08-14",
+      "stars": 57063
+    }
+  ],
+  "microsoft/autogen": [
+    {
+      "date": "2026-08-14",
+      "stars": 60416
+    }
+  ],
+  "langchain-ai/langgraph": [
+    {
+      "date": "2026-08-14",
+      "stars": 39653
+    }
+  ],
+  "browser-use/browser-use": [
+    {
+      "date": "2026-08-14",
+      "stars": 109153
+    }
+  ],
+  "All-Hands-AI/OpenHands": [
+    {
+      "date": "2026-08-14",
+      "stars": 83984
+    }
+  ],
+  "milvus-io/milvus": [
+    {
+      "date": "2026-08-14",
+      "stars": 45633
+    }
+  ],
+  "qdrant/qdrant": [
+    {
+      "date": "2026-08-14",
+      "stars": 33968
+    }
+  ],
+  "chroma-core/chroma": [
+    {
+      "date": "2026-08-14",
+      "stars": 29054
+    }
+  ],
+  "weaviate/weaviate": [
+    {
+      "date": "2026-08-14",
+      "stars": 16728
+    }
+  ],
+  "pgvector/pgvector": [
+    {
+      "date": "2026-08-14",
+      "stars": 22622
+    }
+  ],
+  "promptfoo/promptfoo": [
+    {
+      "date": "2026-08-14",
+      "stars": 24223
+    }
+  ],
+  "guidance-ai/guidance": [
+    {
+      "date": "2026-08-14",
+      "stars": 21712
+    }
+  ],
+  "explodinggradients/ragas": [
+    {
+      "date": "2026-08-14",
+      "stars": 15306
+    }
+  ],
+  "langfuse/langfuse": [
+    {
+      "date": "2026-08-14",
+      "stars": 33079
+    }
+  ],
+  "BerriAI/litellm": [
+    {
+      "date": "2026-08-14",
+      "stars": 56300
+    }
+  ],
+  "Helicone/helicone": [
+    {
+      "date": "2026-08-14",
+      "stars": 6065
+    }
+  ],
+  "modelcontextprotocol/servers": [
+    {
+      "date": "2026-08-14",
+      "stars": 89553
+    }
+  ],
+  "modelcontextprotocol/python-sdk": [
+    {
+      "date": "2026-08-14",
+      "stars": 24001
+    }
+  ],
+  "continuedev/continue": [
+    {
+      "date": "2026-08-14",
+      "stars": 35477
+    }
+  ],
+  "Aider-AI/aider": [
+    {
+      "date": "2026-08-14",
+      "stars": 48186
+    }
+  ],
+  "cline/cline": [
+    {
+      "date": "2026-08-14",
+      "stars": 66162
+    }
+  ],
+  "block/goose": [
+    {
+      "date": "2026-08-14",
+      "stars": 52780
+    }
+  ],
+  "openclaw/openclaw": [
+    {
+      "date": "2026-08-14",
+      "stars": 386243
+    }
+  ],
+  "NousResearch/hermes-agent": [
+    {
+      "date": "2026-08-14",
+      "stars": 230307
+    }
+  ],
+  "obra/superpowers": [
+    {
+      "date": "2026-08-14",
+      "stars": 271900
+    }
+  ],
+  "meta-llama/llama": [
+    {
+      "date": "2026-08-14",
+      "stars": 59560
+    }
+  ],
+  "mistralai/mistral-inference": [
+    {
+      "date": "2026-08-14",
+      "stars": 10836
+    }
+  ],
+  "huggingface/text-generation-inference": [
+    {
+      "date": "2026-08-14",
+      "stars": 10885
+    }
+  ],
+  "open-webui/open-webui": [
+    {
+      "date": "2026-08-14",
+      "stars": 148746
+    }
+  ],
+  "mudler/LocalAI": [
+    {
+      "date": "2026-08-14",
+      "stars": 48450
+    }
+  ],
+  "oobabooga/text-generation-webui": [
+    {
+      "date": "2026-08-14",
+      "stars": 47545
+    }
+  ],
+  "nomic-ai/gpt4all": [
+    {
+      "date": "2026-08-14",
+      "stars": 77409
+    }
+  ],
+  "zylon-ai/private-gpt": [
+    {
+      "date": "2026-08-14",
+      "stars": 57435
+    }
+  ],
+  "FlowiseAI/Flowise": [
+    {
+      "date": "2026-08-14",
+      "stars": 55366
+    }
+  ],
+  "langgenius/dify": [
+    {
+      "date": "2026-08-14",
+      "stars": 152413
+    }
+  ],
+  "CompVis/stable-diffusion": [
+    {
+      "date": "2026-08-14",
+      "stars": 73303
+    }
+  ],
+  "comfyanonymous/ComfyUI": [
+    {
+      "date": "2026-08-14",
+      "stars": 127458
+    }
+  ],
+  "suno-ai/bark": [
+    {
+      "date": "2026-08-14",
+      "stars": 39238
+    }
+  ],
+  "coqui-ai/TTS": [
+    {
+      "date": "2026-08-14",
+      "stars": 45895
+    }
+  ],
+  "openai/whisper": [
+    {
+      "date": "2026-08-14",
+      "stars": 107245
+    }
+  ],
+  "bentoml/BentoML": [
+    {
+      "date": "2026-08-14",
+      "stars": 8787
+    }
+  ],
+  "triton-inference-server/server": [
+    {
+      "date": "2026-08-14",
+      "stars": 10917
+    }
+  ]
+}

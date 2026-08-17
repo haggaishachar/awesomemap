@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/haggaishachar/awesomemap?style=social)](https://github.com/haggaishachar/awesomemap/stargazers)
 
-**[→ Explore the live maps](https://haggaishachar.github.io/awesomemap/)**
+**[→ Explore the live maps](https://awesomemap.dev/)**
 
 Interactive, zoomable treemaps of open-source project ecosystems. Every
 rectangle is a project; its size reflects adoption, and its place in the map
@@ -35,13 +35,13 @@ _Not enough star-history yet to compute 7-day growth — check back once daily s
 
 | Map | Description | Projects |
 | --- | --- | --- |
-| [Data Science](https://haggaishachar.github.io/awesomemap/data-science/) | Machine learning, deep learning, NLP, computer vision, and more. | 51 |
-| [Security](https://haggaishachar.github.io/awesomemap/security/) | Scanning, exploitation, SIEM, secrets management, forensics, and more. | 51 |
-| [Web Development](https://haggaishachar.github.io/awesomemap/web-dev/) | Frontend frameworks, build tools, styling, backend frameworks, and more. | 50 |
-| [Mobile Development](https://haggaishachar.github.io/awesomemap/mobile-dev/) | Cross-platform frameworks, native tooling, testing, state management, and more. | 46 |
-| [DevOps & Infrastructure](https://haggaishachar.github.io/awesomemap/devops-infra/) | Containers, orchestration, CI/CD, infrastructure as code, observability, and more. | 50 |
-| [Artificial Intelligence](https://haggaishachar.github.io/awesomemap/artificial-intelligence/) | LLM frameworks, AI agents, RAG, vector databases, coding assistants, and more. | 53 |
-| [Databases & Data Infrastructure](https://haggaishachar.github.io/awesomemap/databases/) | Relational, NoSQL, caching, search, streaming, analytics, and more. | 49 |
+| [Data Science](https://awesomemap.dev/data-science/) | Machine learning, deep learning, NLP, computer vision, and more. | 51 |
+| [Security](https://awesomemap.dev/security/) | Scanning, exploitation, SIEM, secrets management, forensics, and more. | 51 |
+| [Web Development](https://awesomemap.dev/web-dev/) | Frontend frameworks, build tools, styling, backend frameworks, and more. | 50 |
+| [Mobile Development](https://awesomemap.dev/mobile-dev/) | Cross-platform frameworks, native tooling, testing, state management, and more. | 46 |
+| [DevOps & Infrastructure](https://awesomemap.dev/devops-infra/) | Containers, orchestration, CI/CD, infrastructure as code, observability, and more. | 50 |
+| [Artificial Intelligence](https://awesomemap.dev/artificial-intelligence/) | LLM frameworks, AI agents, RAG, vector databases, coding assistants, and more. | 53 |
+| [Databases & Data Infrastructure](https://awesomemap.dev/databases/) | Relational, NoSQL, caching, search, streaming, analytics, and more. | 49 |
 
 More domains are on the way.
 
@@ -59,7 +59,7 @@ a blog post or another site via `<iframe>`:
 
 ```html
 <iframe
-  src="https://haggaishachar.github.io/awesomemap/embed/data-science/"
+  src="https://awesomemap.dev/embed/data-science/"
   width="100%" height="600" style="border:0"
 ></iframe>
 ```

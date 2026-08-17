@@ -42,13 +42,13 @@ test("BASE_PATH is prefixed onto every emitted path, and defaults to root-relati
   const rootHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "" });
   assert.match(rootHtml, /href="\/shared\/treemap.css"/);
   assert.match(rootHtml, /"d3-hierarchy": "\/vendor\/d3-hierarchy\/index.js"/);
-  assert.match(rootHtml, /href="\/">&larr; All maps<\/a>/);
+  assert.match(rootHtml, /class="site-header-brand" href="\/"/);
   assert.match(rootHtml, /import \{ mountTreemap \} from "\/shared\/treemap.js"/);
 
   const prefixedHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
   assert.match(prefixedHtml, /href="\/techmap\/shared\/treemap.css"/);
   assert.match(prefixedHtml, /"d3-hierarchy": "\/techmap\/vendor\/d3-hierarchy\/index.js"/);
-  assert.match(prefixedHtml, /href="\/techmap\/">&larr; All maps<\/a>/);
+  assert.match(prefixedHtml, /class="site-header-brand" href="\/techmap\/"/);
   assert.match(prefixedHtml, /import \{ mountTreemap \} from "\/techmap\/shared\/treemap.js"/);
 });
 
@@ -75,16 +75,32 @@ test("og:image and og:url are absolute when SITE_URL is set (origin only, combin
   assert.match(html, /property="og:url" content="https:\/\/haggaishachar\.github\.io\/techmap\/data-science\/"/);
 });
 
-test("the 'All maps' back-link is placed before #app, not after — reachable without scrolling past the map", () => {
+test("the site header is placed before #app, not after — reachable without scrolling past the map", () => {
   const domain = { slug: "data-science", name: "Data Science", description: "desc" };
   const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png" });
-  assert.ok(html.indexOf('class="back-link"') < html.indexOf('id="app"'));
+  assert.ok(html.indexOf('class="site-header"') < html.indexOf('id="app"'));
 });
 
-test("the embed variant has no back-link and starts straight at #app", () => {
+test("the embed variant has no site header or footer and starts straight at #app", () => {
   const domain = { slug: "data-science", name: "Data Science", description: "desc" };
   const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", embed: true });
-  assert.doesNotMatch(html, /back-link/);
+  assert.doesNotMatch(html, /site-header/);
+  assert.doesNotMatch(html, /site-footer/);
+});
+
+test("the domain page header links to the GitHub repo", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /class="site-header-github" href="https:\/\/github\.com\/haggaishachar\/awesomemap"/);
+});
+
+test("the domain page footer links to license, contributing, and issues", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /class="site-footer"/);
+  assert.match(html, /href="https:\/\/github\.com\/haggaishachar\/awesomemap\/blob\/master\/LICENSE"/);
+  assert.match(html, /href="https:\/\/github\.com\/haggaishachar\/awesomemap\/blob\/master\/CONTRIBUTING\.md"/);
+  assert.match(html, /href="https:\/\/github\.com\/haggaishachar\/awesomemap\/issues"/);
 });
 
 test("landing page card links escape the slug and use a trailing slash", () => {
@@ -113,4 +129,32 @@ test("landing page renders a hero with title and tagline above the map grid", ()
   assert.match(html, /class="hero-tagline"/);
   // Hero must come before the map grid in document order.
   assert.ok(html.indexOf('class="hero"') < html.indexOf('class="map-grid"'));
+});
+
+test("landing page renders a site header, with GitHub link, above the hero", () => {
+  const html = renderLandingPage(
+    [{ slug: "data-science", name: "Data Science", description: "desc" }],
+    { defaultOgImage: "/og-default.png", basePath: "" }
+  );
+  assert.match(html, /class="site-header-github" href="https:\/\/github\.com\/haggaishachar\/awesomemap"/);
+  assert.ok(html.indexOf('class="site-header"') < html.indexOf('class="hero"'));
+});
+
+test("landing page site header brand link respects BASE_PATH", () => {
+  const html = renderLandingPage(
+    [{ slug: "data-science", name: "Data Science", description: "desc" }],
+    { defaultOgImage: "/og-default.png", basePath: "/techmap" }
+  );
+  assert.match(html, /class="site-header-brand" href="\/techmap\/"/);
+});
+
+test("landing page renders a site footer, with license/contributing/issues links, below the map grid", () => {
+  const html = renderLandingPage(
+    [{ slug: "data-science", name: "Data Science", description: "desc" }],
+    { defaultOgImage: "/og-default.png", basePath: "" }
+  );
+  assert.match(html, /href="https:\/\/github\.com\/haggaishachar\/awesomemap\/blob\/master\/LICENSE"/);
+  assert.match(html, /href="https:\/\/github\.com\/haggaishachar\/awesomemap\/blob\/master\/CONTRIBUTING\.md"/);
+  assert.match(html, /href="https:\/\/github\.com\/haggaishachar\/awesomemap\/issues"/);
+  assert.ok(html.indexOf('class="map-grid"') < html.indexOf('class="site-footer"'));
 });

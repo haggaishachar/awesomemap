@@ -442,13 +442,59 @@ body {
   color: var(--color-text-muted);
 }
 
-.back-link {
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
   max-width: 1000px;
-  margin: 12px auto 8px;
-  font-size: 14px;
+  margin: 0 auto;
+  padding: 12px 24px;
 }
 
-.back-link a {
-  color: var(--color-accent);
+.site-header-brand {
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--color-text);
   text-decoration: none;
+  letter-spacing: -0.01em;
+}
+
+.site-header-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.site-header-github {
+  display: flex;
+  color: var(--color-text-muted);
+}
+
+.site-header-github:hover {
+  color: var(--color-text);
+}
+
+.site-header-stars {
+  display: block;
+  border-radius: 3px;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px 24px 32px;
+  font-size: 13px;
+}
+
+.site-footer a {
+  color: var(--color-text-muted);
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: var(--color-accent);
 }

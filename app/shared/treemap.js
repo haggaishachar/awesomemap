@@ -94,7 +94,7 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
   /**
    * The viewport height left for the stage: from the stage's own top
    * (i.e. below whatever precedes it on the page — the mode bar,
-   * breadcrumb, and any page chrome like the "All maps" back-link) down
+   * breadcrumb, and any page chrome like the site header) down
    * to the bottom of the window, minus a small margin. `getBoundingClientRect`
    * is viewport-relative, so this reflects the stage's actual on-page
    * position, not just its container's contents — safe to call before the

@@ -2,6 +2,27 @@
 
 Local development and contribution guide for awesomemap.
 
+## Contribution flow
+
+- **Adding project(s) to an existing map:** just open a PR editing the
+  relevant `data/<slug>.json`. [`pr-check.yml`](.github/workflows/pr-check.yml)
+  runs the test suite and a full site build on every PR automatically —
+  it catches malformed JSON, missing `id`/`path`, duplicate slugs, and
+  broken builds before a human ever needs to look. A maintainer reviews
+  for fit/quality once CI is green.
+- **Proposing a brand-new domain map:** open a
+  [New domain proposal](../../issues/new?template=new-domain-proposal.md)
+  issue first — a two-minute form covering the domain, its rough
+  categories, and why it fits. This keeps the site from ending up with a
+  pile of overlapping, half-finished maps; most reasonable proposals get
+  a quick go-ahead. Once it's green-lit, follow up with a PR adding
+  `data/<new-slug>.json`.
+
+Either way, the data files are the only thing a contribution PR usually
+touches — the site's rendering code, tests, and CI are unaffected by a
+data-only PR, so there's no way a project or map submission can break
+anything outside its own file.
+
 ## Develop
 
     npm install

@@ -432,8 +432,7 @@
       "link": "https://github.com/obra/superpowers",
       "name": "Superpowers",
       "desc": "An agentic skills framework & software development methodology that works",
-      "weight": 271633,
-      "image": "https://avatars.githubusercontent.com/u/45416?v=4"
+      "weight": 271633
     },
     {
       "id": "meta-llama/llama",

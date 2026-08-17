@@ -4,6 +4,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/haggaishachar/awesomemap?style=social)](https://github.com/haggaishachar/awesomemap/stargazers)
 
+![awesomemap demo — zooming into Deep Learning, opening TensorFlow's detail panel, then switching to Rising mode](docs/media/demo.gif)
+
 **[→ Explore the live maps](https://awesomemap.dev/)**
 
 Interactive, zoomable treemaps of open-source project ecosystems. Every
@@ -28,7 +30,11 @@ Star-growth leaders over the last 7 days, refreshed every Monday by the
 interactive rankings across any window, use Rising mode in the maps below.
 
 <!-- risers:start -->
-_Not enough star-history yet to compute 7-day growth — check back once daily snapshots cover a full 7-day window._
+1. **[Transformers](https://huggingface.co/transformers/)** (Best Data Science Open Source Projects) — +643 stars (+0.4%)
+2. **[shadcn/ui](https://ui.shadcn.com)** (Best Web Development Open Source Projects) — +519 stars (+0.4%)
+3. **[Playwright](https://playwright.dev)** (Best Web Development Open Source Projects) — +322 stars (+0.3%)
+4. **[Supabase](https://supabase.com/)** (Best Mobile Development Open Source Projects) — +307 stars (+0.3%)
+5. **[Ghidra](https://ghidra-sre.org/)** (Best Security Open Source Projects) — +260 stars (+0.4%)
 <!-- risers:end -->
 
 ## Maps
@@ -70,3 +76,7 @@ Swap `data-science` for any slug from the table above.
 
 Want to add a project, fix a map, or run awesomemap locally? See
 [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=haggaishachar/awesomemap&type=Date)](https://star-history.com/#haggaishachar/awesomemap&Date)

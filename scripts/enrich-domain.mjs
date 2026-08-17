@@ -32,13 +32,27 @@ export function parseGhRepo(shorthand) {
 }
 
 /**
+ * A previous fallback rule used *any* repo owner's avatar_url — including a
+ * User owner's, which is a personal profile photo, not a logo. Matches an
+ * `image` left over from that rule so it can be cleared on re-enrichment
+ * instead of sticking around forever (see the comment in `enrichProject`).
+ */
+const AVATAR_HOST_PATTERN = /^https:\/\/avatars\.githubusercontent\.com\//;
+
+/**
  * Given a project and an injected `getJson`, returns a new project object
  * with `weight` set to its GitHub repo's live star count and `image` set
  * to a logo URL: the first matching candidate file's direct
  * raw.githubusercontent.com URL if one exists, otherwise the repo owner's
- * GitHub avatar (always available — an org's logo or a user's avatar).
- * Neither is ever downloaded or stored in this repo. Projects whose `id`
- * isn't a parseable owner/repo shorthand are returned unchanged; no
+ * GitHub avatar — but *only* when the owner is an Organization, whose
+ * avatar is genuinely its logo. A User owner's avatar is a personal profile
+ * photo, so it is never used as a project's icon; a project on a personal
+ * repo with no dedicated logo file simply gets no `image` (the UI falls
+ * back to a generic tile). If a project already carries a stale avatar
+ * image from the old (broader) fallback rule and the current run doesn't
+ * qualify for a fresh avatar fallback, that stale image is cleared.
+ * Neither image is ever downloaded or stored in this repo. Projects whose
+ * `id` isn't a parseable owner/repo shorthand are returned unchanged; no
  * network calls are made for them.
  */
 export async function enrichProject(project, { getJson }) {
@@ -48,6 +62,7 @@ export async function enrichProject(project, { getJson }) {
   const repoData = await getJson(`https://api.github.com/repos/${repo.owner}/${repo.repo}`);
   const enriched = { ...project, weight: repoData.stargazers_count };
 
+  let foundLogoFile = false;
   for (const path of LOGO_CANDIDATE_PATHS) {
     let entry;
     try {
@@ -58,12 +73,17 @@ export async function enrichProject(project, { getJson }) {
     }
     if (entry && entry.type === "file" && entry.download_url) {
       enriched.image = entry.download_url;
+      foundLogoFile = true;
       break;
     }
   }
 
-  if (!enriched.image && repoData.owner?.avatar_url) {
-    enriched.image = repoData.owner.avatar_url;
+  if (!foundLogoFile) {
+    if (repoData.owner?.type === "Organization" && repoData.owner?.avatar_url) {
+      enriched.image = repoData.owner.avatar_url;
+    } else if (AVATAR_HOST_PATTERN.test(enriched.image ?? "")) {
+      delete enriched.image;
+    }
   }
 
   return enriched;

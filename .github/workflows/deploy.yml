@@ -26,12 +26,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      BASE_PATH: /awesomemap
-      # NOTE: origin only — generate.mjs builds absolute URLs as
-      # `${SITE_URL}${BASE_PATH}/...`, so SITE_URL must NOT itself include
-      # `/awesomemap` or the path segment gets duplicated
-      # (https://haggaishachar.github.io/awesomemap/awesomemap/...).
-      SITE_URL: https://haggaishachar.github.io
+      # Served from the custom domain root (see CNAME below), not a
+      # `/awesomemap` project-page subpath, so BASE_PATH stays empty.
+      BASE_PATH: ""
+      SITE_URL: https://awesomemap.dev
+      # Written into dist/CNAME so GitHub Pages keeps the custom domain
+      # configured across Actions-based deploys (it isn't persisted any
+      # other way for workflow-based publishing).
+      CNAME: awesomemap.dev
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

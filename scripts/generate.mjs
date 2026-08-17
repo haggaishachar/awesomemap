@@ -20,6 +20,11 @@ const BASE_PATH = process.env.BASE_PATH ?? "";
 // — not spec-compliant, but better than failing the build outright.
 const SITE_URL = process.env.SITE_URL ?? "";
 
+// When set, writes a GitHub Pages CNAME file into the build output so the
+// custom domain survives every deploy (Actions-based Pages publishing does
+// not persist it any other way — see .github/workflows/deploy.yml).
+const CNAME = process.env.CNAME ?? "";
+
 const DEFAULT_OG_IMAGE = `${SITE_URL}${BASE_PATH}/og-default.png`;
 
 rmSync(DIST_DIR, { recursive: true, force: true });
@@ -107,6 +112,7 @@ writeFileSync(
 cpSync(`${APP_DIR}/shared`, `${DIST_DIR}/shared`, { recursive: true });
 cpSync(`${APP_DIR}/vendor`, `${DIST_DIR}/vendor`, { recursive: true });
 copyFileSync(`${APP_DIR}/og-default.png`, `${DIST_DIR}/og-default.png`);
+if (CNAME) writeFileSync(`${DIST_DIR}/CNAME`, `${CNAME}\n`);
 
 const sitemap = buildSitemap(domains.map((d) => d.slug), { siteUrl: SITE_URL, basePath: BASE_PATH });
 if (sitemap) writeFileSync(`${DIST_DIR}/sitemap.xml`, sitemap);

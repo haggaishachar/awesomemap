@@ -63,7 +63,7 @@ export function formatDigest(risers, { windowDays = WINDOW_DAYS } = {}) {
     return `Not enough star-history yet to compute ${windowDays}-day growth. This digest will start reporting once daily snapshots cover a full ${windowDays}-day window.`;
   }
 
-  return [`Biggest risers on [awesomemap](https://haggaishachar.github.io/awesomemap/) over the last ${windowDays} days:`, "", ...formatRiserLines(risers)].join("\n");
+  return [`Biggest risers on [awesomemap](https://awesomemap.dev/) over the last ${windowDays} days:`, "", ...formatRiserLines(risers)].join("\n");
 }
 
 /**

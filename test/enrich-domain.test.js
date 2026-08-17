@@ -47,7 +47,7 @@ test("parseGhRepo returns null for a non-string value", () => {
   assert.equal(parseGhRepo(undefined), null);
 });
 
-function fakeGetJson({ repoStars, ownerAvatarUrl, contentsByPath }) {
+function fakeGetJson({ repoStars, ownerAvatarUrl, ownerType = "Organization", contentsByPath }) {
   return async (url) => {
     const contentsMatch = Object.keys(contentsByPath).find((p) => url.endsWith(`/contents/${p}`));
     if (contentsMatch) {
@@ -59,7 +59,7 @@ function fakeGetJson({ repoStars, ownerAvatarUrl, contentsByPath }) {
       }
       return entry;
     }
-    return { stargazers_count: repoStars, owner: { avatar_url: ownerAvatarUrl } };
+    return { stargazers_count: repoStars, owner: { avatar_url: ownerAvatarUrl, type: ownerType } };
   };
 }
 
@@ -100,17 +100,66 @@ test("enrichProject leaves image unset when no candidate path exists", async () 
   assert.equal(result.image, undefined);
 });
 
-test("enrichProject falls back to the repo owner's avatar when no logo file is found", async () => {
+test("enrichProject falls back to the repo owner's avatar when no logo file is found and the owner is an Organization", async () => {
   const project = { id: "facebook/react" };
   const getJson = fakeGetJson({
     repoStars: 12345,
     ownerAvatarUrl: "https://avatars.githubusercontent.com/u/69631?v=4",
+    ownerType: "Organization",
     contentsByPath: {},
   });
 
   const result = await enrichProject(project, { getJson });
 
   assert.equal(result.image, "https://avatars.githubusercontent.com/u/69631?v=4");
+});
+
+test("enrichProject does NOT fall back to a User owner's avatar (that's a personal photo, not a logo)", async () => {
+  const project = { id: "sindresorhus/ky" };
+  const getJson = fakeGetJson({
+    repoStars: 500,
+    ownerAvatarUrl: "https://avatars.githubusercontent.com/u/170270?v=4",
+    ownerType: "User",
+    contentsByPath: {},
+  });
+
+  const result = await enrichProject(project, { getJson });
+
+  assert.equal(result.image, undefined);
+});
+
+test("enrichProject clears a stale User-avatar image left over from the old fallback rule", async () => {
+  // Simulates re-running enrichment on a project.json that was already
+  // enriched under the old (broader) rule and got a personal photo stuck
+  // in `image`. A fresh run with no logo file and a User owner should wipe
+  // it, not keep carrying it forward forever.
+  const project = { id: "sindresorhus/ky", image: "https://avatars.githubusercontent.com/u/170270?v=4" };
+  const getJson = fakeGetJson({
+    repoStars: 500,
+    ownerAvatarUrl: "https://avatars.githubusercontent.com/u/170270?v=4",
+    ownerType: "User",
+    contentsByPath: {},
+  });
+
+  const result = await enrichProject(project, { getJson });
+
+  assert.equal(result.image, undefined);
+});
+
+test("enrichProject leaves a non-avatar existing image alone when the owner is a User with no logo file", async () => {
+  // A manually-curated or previously-found real logo should never be wiped
+  // just because this run didn't re-find a logo file.
+  const project = { id: "sindresorhus/ky", image: "https://raw.githubusercontent.com/sindresorhus/ky/main/media/logo.svg" };
+  const getJson = fakeGetJson({
+    repoStars: 500,
+    ownerAvatarUrl: "https://avatars.githubusercontent.com/u/170270?v=4",
+    ownerType: "User",
+    contentsByPath: {},
+  });
+
+  const result = await enrichProject(project, { getJson });
+
+  assert.equal(result.image, "https://raw.githubusercontent.com/sindresorhus/ky/main/media/logo.svg");
 });
 
 test("enrichProject prefers a found logo file over the owner avatar fallback", async () => {

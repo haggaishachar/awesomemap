@@ -33,8 +33,7 @@
       "link": "https://www.sqlite.org/",
       "name": "SQLite",
       "desc": "Official Git mirror of the SQLite source tree",
-      "weight": 10254,
-      "image": "https://avatars.githubusercontent.com/u/48680494?v=4"
+      "weight": 10254
     },
     {
       "id": "cockroachdb/cockroach",
@@ -440,8 +439,7 @@
       "link": "https://www.adminer.org/",
       "name": "Adminer",
       "desc": "Database management in a single PHP file",
-      "weight": 7752,
-      "image": "https://avatars.githubusercontent.com/u/117453?v=4"
+      "weight": 7752
     },
     {
       "id": "flyway/flyway",

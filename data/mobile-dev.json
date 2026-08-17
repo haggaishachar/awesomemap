@@ -154,8 +154,7 @@
       "link": "https://github.com/onevcat/Kingfisher",
       "name": "Kingfisher",
       "desc": "A lightweight, pure-Swift library for downloading and caching images from the web",
-      "weight": 24390,
-      "image": "https://avatars.githubusercontent.com/u/1019875?v=4"
+      "weight": 24390
     },
     {
       "id": "SDWebImage/SDWebImage",
@@ -374,8 +373,7 @@
       "link": "https://riverpod.dev/",
       "name": "Riverpod",
       "desc": "A reactive caching and data-binding framework for Flutter and Dart",
-      "weight": 7365,
-      "image": "https://avatars.githubusercontent.com/u/20165741?v=4"
+      "weight": 7365
     },
     {
       "id": "felangel/bloc",
@@ -385,8 +383,7 @@
       "link": "https://bloclibrary.dev/",
       "name": "Bloc",
       "desc": "A predictable state management library implementing the BLoC pattern for Flutter and Dart",
-      "weight": 12483,
-      "image": "https://avatars.githubusercontent.com/u/8855632?v=4"
+      "weight": 12483
     },
     {
       "id": "react-navigation/react-navigation",
@@ -418,8 +415,7 @@
       "link": "https://pub.dev/packages/auto_route",
       "name": "AutoRoute",
       "desc": "A declarative, type-safe route generator for Flutter",
-      "weight": 1752,
-      "image": "https://avatars.githubusercontent.com/u/55059449?v=4"
+      "weight": 1752
     },
     {
       "id": "fastlane/fastlane",

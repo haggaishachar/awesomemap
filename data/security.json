@@ -22,8 +22,7 @@
       "link": "https://github.com/robertdavidgraham/masscan",
       "name": "Masscan",
       "desc": "TCP port scanner that spews SYN packets asynchronously, scanning the entire Internet in under 5 minutes",
-      "weight": 25927,
-      "image": "https://avatars.githubusercontent.com/u/3814757?v=4"
+      "weight": 25927
     },
     {
       "id": "zmap/zmap",
@@ -55,8 +54,7 @@
       "link": "https://github.com/lanmaster53/recon-ng",
       "name": "Recon-ng",
       "desc": "Open source intelligence gathering tool aimed at reducing the time spent harvesting information from open sources",
-      "weight": 5846,
-      "image": "https://avatars.githubusercontent.com/u/2516395?v=4"
+      "weight": 5846
     },
     {
       "id": "laramies/theHarvester",
@@ -66,8 +64,7 @@
       "link": "https://github.com/laramies/theHarvester",
       "name": "theHarvester",
       "desc": "E-mails, subdomains and names harvester - OSINT reconnaissance tool",
-      "weight": 17023,
-      "image": "https://avatars.githubusercontent.com/u/543611?v=4"
+      "weight": 17023
     },
     {
       "id": "greenbone/openvas-scanner",
@@ -88,8 +85,7 @@
       "link": "https://cirt.net/Nikto2",
       "name": "Nikto",
       "desc": "Web server scanner that tests for dangerous files, outdated software, and other vulnerabilities",
-      "weight": 10645,
-      "image": "https://avatars.githubusercontent.com/u/1474884?v=4"
+      "weight": 10645
     },
     {
       "id": "projectdiscovery/nuclei",
@@ -143,8 +139,7 @@
       "link": "https://dalfox.hahwul.com/",
       "name": "Dalfox",
       "desc": "Powerful open source XSS scanner and parameter analysis tool focused on automation",
-      "weight": 5224,
-      "image": "https://avatars.githubusercontent.com/u/13212227?v=4"
+      "weight": 5224
     },
     {
       "id": "xmendez/wfuzz",
@@ -154,8 +149,7 @@
       "link": "https://github.com/xmendez/wfuzz",
       "name": "Wfuzz",
       "desc": "Web application fuzzer for brute-forcing parameters, forms, and directories",
-      "weight": 6551,
-      "image": "https://avatars.githubusercontent.com/u/789349?v=4"
+      "weight": 6551
     },
     {
       "id": "ffuf/ffuf",
@@ -297,8 +291,7 @@
       "link": "https://github.com/vanhauser-thc/thc-hydra",
       "name": "THC-Hydra",
       "desc": "Parallelized login cracker supporting numerous protocols to attack",
-      "weight": 12151,
-      "image": "https://avatars.githubusercontent.com/u/7396244?v=4"
+      "weight": 12151
     },
     {
       "id": "Pennyw0rth/NetExec",
@@ -319,8 +312,7 @@
       "link": "http://foofus.net/goons/jmk/medusa/medusa.html",
       "name": "Medusa",
       "desc": "Speedy, parallel, and modular login brute-forcer",
-      "weight": 880,
-      "image": "https://avatars.githubusercontent.com/u/12635913?v=4"
+      "weight": 880
     },
     {
       "id": "semgrep/semgrep",
@@ -352,8 +344,7 @@
       "link": "https://brakemanscanner.org/",
       "name": "Brakeman",
       "desc": "Static analysis security vulnerability scanner for Ruby on Rails applications",
-      "weight": 7261,
-      "image": "https://avatars.githubusercontent.com/u/75613?v=4"
+      "weight": 7261
     },
     {
       "id": "github/codeql",

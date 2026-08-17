@@ -352,8 +352,7 @@
       "link": "https://github.com/davidsandberg/facenet",
       "name": "facenet",
       "desc": "Face recognition using Tensorflow",
-      "weight": 14349,
-      "image": "https://avatars.githubusercontent.com/u/15169058?v=4"
+      "weight": 14349
     },
     {
       "id": "apache/spark",

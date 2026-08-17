@@ -491,8 +491,7 @@
       "link": "https://localai.io/",
       "name": "LocalAI",
       "desc": "Self-hosted, OpenAI API-compatible drop-in replacement for local inference",
-      "weight": 48421,
-      "image": "https://avatars.githubusercontent.com/u/2420543?v=4"
+      "weight": 48421
     },
     {
       "id": "oobabooga/text-generation-webui",
@@ -503,8 +502,7 @@
       "link": "https://github.com/oobabooga/text-generation-webui",
       "name": "Text Generation WebUI",
       "desc": "A Gradio web UI for running local large language models",
-      "weight": 47543,
-      "image": "https://avatars.githubusercontent.com/u/112222186?v=4"
+      "weight": 47543
     },
     {
       "id": "nomic-ai/gpt4all",

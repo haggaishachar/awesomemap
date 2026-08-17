@@ -143,8 +143,7 @@
       "link": "https://esbuild.github.io",
       "name": "esbuild",
       "desc": "An extremely fast bundler for the web",
-      "weight": 40018,
-      "image": "https://avatars.githubusercontent.com/u/406394?v=4"
+      "weight": 40018
     },
     {
       "id": "rollup/rollup",
@@ -198,8 +197,7 @@
       "link": "https://bulma.io",
       "name": "Bulma",
       "desc": "Modern CSS framework based on Flexbox",
-      "weight": 50058,
-      "image": "https://avatars.githubusercontent.com/u/1254808?v=4"
+      "weight": 50058
     },
     {
       "id": "styled-components/styled-components",

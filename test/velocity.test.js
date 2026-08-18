@@ -1,6 +1,12 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { computeVelocity, computeProjectSizing, findInvalidSizes, RISING_WINDOWS_DAYS } from "../scripts/velocity.mjs";
+import {
+  computeVelocity,
+  computeProjectSizing,
+  findInvalidSizes,
+  RISING_WINDOWS_DAYS,
+  SCORE_SMOOTHING_CONSTANT,
+} from "../scripts/velocity.mjs";
 
 const NOW = "2026-08-08T00:00:00.000Z";
 
@@ -67,6 +73,43 @@ test("computeVelocity reports oldestDate as the earliest snapshot's date, even w
 
   const sufficient = computeVelocity(history, 7, { now: NOW });
   assert.equal(sufficient.oldestDate, "2026-08-01");
+});
+
+test("computeVelocity's score divides by sqrt(currentStars + SCORE_SMOOTHING_CONSTANT), not sqrt(currentStars) alone", () => {
+  const history = [
+    { date: "2026-07-09", stars: 500 },
+    { date: "2026-08-08", stars: 600 },
+  ];
+  const result = computeVelocity(history, 30, { now: NOW });
+  const expectedScore = 100 / Math.sqrt(600 + SCORE_SMOOTHING_CONSTANT);
+  assert.equal(result.score, expectedScore);
+});
+
+test("a project with genuinely large absolute growth outscores a tiny project's noisy swing", () => {
+  // Without smoothing, 2 -> 6 stars (a 3x move driven by pure noise) can
+  // outscore 100,000 -> 100,200 stars (a real, substantial gain), because
+  // sqrt(currentStars) shrinks just as fast as the numerator for small
+  // counts. The smoothing constant should flip this ordering back.
+  const noisy = computeVelocity(
+    [
+      { date: "2026-07-09", stars: 2 },
+      { date: "2026-08-08", stars: 6 },
+    ],
+    30,
+    { now: NOW },
+  );
+  const realRiser = computeVelocity(
+    [
+      { date: "2026-07-09", stars: 100000 },
+      { date: "2026-08-08", stars: 100200 },
+    ],
+    30,
+    { now: NOW },
+  );
+  assert.ok(
+    realRiser.score > noisy.score,
+    `expected real riser (${realRiser.score}) to outscore noise (${noisy.score})`,
+  );
 });
 
 test("computeVelocity treats a zero-star baseline as 0% growth rather than dividing by zero", () => {

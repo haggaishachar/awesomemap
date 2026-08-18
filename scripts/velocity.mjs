@@ -9,6 +9,17 @@ const SCORE_FLOOR = 0.01;
 /** Rising windows this feature supports, in days. */
 export const RISING_WINDOWS_DAYS = [7, 30, 90];
 
+// Pseudo-count added to currentStars before taking sqrt() in the score
+// formula below. Without it, a tiny/young project's noisy swing (e.g. 2 ->
+// 6 stars) can outscore a large project's genuinely bigger gain (e.g.
+// 100,000 -> 100,200 stars), because sqrt(currentStars) shrinks just as
+// fast as the numerator when currentStars is small. Calibrated against
+// this repo's tracked projects (data/*.json star counts range from ~500 to
+// ~386k, with the 10th percentile around 6,200): large enough to damp
+// swings at the low end of that range, small enough to stay negligible
+// past the low thousands.
+export const SCORE_SMOOTHING_CONSTANT = 2000;
+
 /**
  * Computes a growth-velocity score for one project from its raw star-count
  * history. `history` is an array of `{ date: "YYYY-MM-DD", stars }`
@@ -20,9 +31,11 @@ export const RISING_WINDOWS_DAYS = [7, 30, 90];
  * false when even the oldest snapshot is younger than the window, since
  * there's no data point far back enough to measure the full window from.
  *
- * `score = starDelta / sqrt(max(currentStars, 1))`, floored at
- * `SCORE_FLOOR` so it's always a valid positive treemap weight, even for
- * a shrinking project.
+ * `score = starDelta / sqrt(currentStars + SCORE_SMOOTHING_CONSTANT)`,
+ * floored at `SCORE_FLOOR` so it's always a valid positive treemap weight,
+ * even for a shrinking project. The smoothing constant keeps a tiny
+ * project's noisy swing from outscoring a large project's genuinely
+ * bigger gain (see `SCORE_SMOOTHING_CONSTANT`'s doc comment).
  */
 export function computeVelocity(history, windowDays, { now = new Date() } = {}) {
   const sorted = [...history].sort((a, b) => a.date.localeCompare(b.date));
@@ -47,7 +60,7 @@ export function computeVelocity(history, windowDays, { now = new Date() } = {}) 
 
   const starDelta = currentStars - baseline.stars;
   const percentDelta = baseline.stars > 0 ? (starDelta / baseline.stars) * 100 : 0;
-  const rawScore = starDelta / Math.sqrt(Math.max(currentStars, 1));
+  const rawScore = starDelta / Math.sqrt(currentStars + SCORE_SMOOTHING_CONSTANT);
 
   return { score: Math.max(rawScore, SCORE_FLOOR), hasEnoughHistory: true, starDelta, percentDelta, oldestDate };
 }

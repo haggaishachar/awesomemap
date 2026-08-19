@@ -32,3 +32,8 @@ test("buildRobots omits the Sitemap directive when siteUrl is empty", () => {
   assert.match(robots, /Allow: \//);
   assert.doesNotMatch(robots, /Sitemap:/);
 });
+
+test("buildSitemap lists the rising leaderboard page", () => {
+  const xml = buildSitemap(["data-science"], { siteUrl: "https://example.com", basePath: "" });
+  assert.match(xml, /<loc>https:\/\/example\.com\/rising\/<\/loc>/);
+});

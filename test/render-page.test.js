@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { renderDomainPage, renderLandingPage } from "../scripts/render-page.mjs";
+import { renderDomainPage, renderLandingPage, renderRisingPage } from "../scripts/render-page.mjs";
 
 const ROOT_TREE = { id: "data-science", name: "Data Science", children: [] };
 
@@ -157,4 +157,63 @@ test("landing page renders a site footer, with license/contributing/issues links
   assert.match(html, /href="https:\/\/github\.com\/haggaishachar\/awesomemap\/blob\/master\/CONTRIBUTING\.md"/);
   assert.match(html, /href="https:\/\/github\.com\/haggaishachar\/awesomemap\/issues"/);
   assert.ok(html.indexOf('class="map-grid"') < html.indexOf('class="site-footer"'));
+});
+
+test("the site header includes a Rising nav link, prefixed by BASE_PATH", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const rootHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "" });
+  assert.match(rootHtml, /class="site-header-rising" href="\/rising\/"/);
+
+  const prefixedHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
+  assert.match(prefixedHtml, /class="site-header-rising" href="\/techmap\/rising\/"/);
+});
+
+test("renderRisingPage renders a row per leaderboard entry, with rank, arrow, and star delta", () => {
+  const domains = [{ slug: "data-science", name: "Data Science" }];
+  const leaderboardsByWindow = {
+    7: {
+      global: [
+        { rank: 1, id: "a/a", name: "Project A", link: "https://a.example", domain: "Data Science", starDelta: 40, percentDelta: 40, rankDelta: 1 },
+      ],
+      "data-science": [],
+    },
+    30: { global: [], "data-science": [] },
+    90: { global: [], "data-science": [] },
+  };
+  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /<span class="rising-row-rank">1<\/span>/);
+  assert.match(html, /<a class="rising-row-name" href="https:\/\/a\.example">Project A<\/a>/);
+  assert.match(html, /rising-row-up">▲1<\/span>/);
+  assert.match(html, /\+40 \(\+40\.0%\)/);
+});
+
+test("renderRisingPage shows a not-ready placeholder for a leaderboard with no eligible entries", () => {
+  const domains = [{ slug: "data-science", name: "Data Science" }];
+  const leaderboardsByWindow = {
+    7: { global: [], "data-science": [] },
+    30: { global: [], "data-science": [] },
+    90: { global: [], "data-science": [] },
+  };
+  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /Not enough star-history yet for this window\./);
+});
+
+test("renderRisingPage renders all three window variants, only the 7-day one visible initially", () => {
+  const leaderboardsByWindow = { 7: { global: [] }, 30: { global: [] }, 90: { global: [] } };
+  const html = renderRisingPage([], leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /<div class="rising-rows" data-window="7">/);
+  assert.match(html, /<div class="rising-rows" data-window="30" hidden>/);
+  assert.match(html, /<div class="rising-rows" data-window="90" hidden>/);
+});
+
+test("renderRisingPage's domain sections are anchorable by slug and link to that domain's page", () => {
+  const domains = [{ slug: "data-science", name: "Data Science" }];
+  const leaderboardsByWindow = {
+    7: { global: [], "data-science": [] },
+    30: { global: [], "data-science": [] },
+    90: { global: [], "data-science": [] },
+  };
+  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
+  assert.match(html, /<section class="rising-section" id="data-science">/);
+  assert.match(html, /<a href="\/techmap\/data-science\/">Data Science<\/a>/);
 });

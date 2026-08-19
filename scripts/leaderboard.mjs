@@ -71,12 +71,21 @@ export function computeLeaderboard(domains, historyBySlug, { scope, windowDays, 
   const nowDate = new Date(now);
   const yesterdayDate = new Date(nowDate.getTime() - MS_PER_DAY);
 
-  const todayRanked = rankCandidates(collectCandidates(domains, historyBySlug, scope, windowDays, nowDate));
-  const yesterdayRanked = rankCandidates(collectCandidates(domains, historyBySlug, scope, windowDays, yesterdayDate));
+  const todayCandidates = collectCandidates(domains, historyBySlug, scope, windowDays, nowDate);
+  const yesterdayCandidates = collectCandidates(domains, historyBySlug, scope, windowDays, yesterdayDate);
+
+  // Intersect by id BEFORE ranking, so both today's and yesterday's ranks are
+  // computed over the same population — otherwise rank numbers gap once
+  // ineligible candidates are filtered out, and rankDelta ends up diffing two
+  // differently-populated rank spaces.
+  const yesterdayById = new Map(yesterdayCandidates.map((c) => [c.id, c]));
+  const eligibleTodayCandidates = todayCandidates.filter((c) => yesterdayById.has(c.id));
+
+  const todayRanked = rankCandidates(eligibleTodayCandidates);
+  const yesterdayRanked = rankCandidates(eligibleTodayCandidates.map((c) => yesterdayById.get(c.id)));
   const yesterdayRankById = new Map(yesterdayRanked.map((c) => [c.id, c.rank]));
 
   return todayRanked
-    .filter((c) => yesterdayRankById.has(c.id))
     .slice(0, limit)
     .map((c) => ({
       rank: c.rank,

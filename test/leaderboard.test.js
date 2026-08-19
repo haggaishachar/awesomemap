@@ -123,6 +123,46 @@ test("computeLeaderboard dedupes a project listed in multiple domains, keeping i
   assert.equal(result[0].starDelta, 80);
 });
 
+test("computeLeaderboard keeps ranks contiguous (1..N) and rankDelta accurate when a today-only candidate is excluded", () => {
+  const domains = [
+    {
+      slug: "data-science",
+      name: "Data Science",
+      projects: [
+        { id: "a/a", name: "Project A", link: "https://a.example" },
+        { id: "b/b", name: "Project B", link: "https://b.example" },
+        { id: "g/g", name: "Project G", link: "https://g.example" },
+      ],
+    },
+  ];
+  const history = {
+    "data-science": {
+      "a/a": [
+        { date: "2026-08-05", stars: 100 },
+        { date: "2026-08-14", stars: 110 },
+        { date: "2026-08-15", stars: 150 },
+      ],
+      "b/b": [
+        { date: "2026-08-05", stars: 500 },
+        { date: "2026-08-14", stars: 600 },
+        { date: "2026-08-15", stars: 610 },
+      ],
+      "g/g": [
+        { date: "2026-08-08", stars: 10 },
+        { date: "2026-08-15", stars: 1000 },
+      ],
+    },
+  };
+  const result = computeLeaderboard(domains, history, { scope: "global", windowDays: 7, limit: 20, now: NOW });
+  // g/g has a huge score today (~31.3, from a starDelta of 990 on 1000 current
+  // stars) but no rank yesterday (its only history entry old enough for
+  // today's 7-day window is exactly at today's cutoff, one day too late for
+  // yesterday's), so it must not appear in the result — and its exclusion
+  // must not leave a gap in a/a and b/b's rank numbers.
+  assert.deepEqual(result.map((r) => r.id), ["b/b", "a/a"]);
+  assert.deepEqual(result.map((r) => r.rank), [1, 2]);
+});
+
 test("computeLeaderboard excludes a project with flat or declining stars, even with enough history", () => {
   const domains = [
     {

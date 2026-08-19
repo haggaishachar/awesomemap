@@ -620,6 +620,11 @@ body {
   background: var(--color-accent-soft);
   border-radius: 999px;
   padding: 2px 8px;
+  max-width: 130px;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .rising-row-arrow {

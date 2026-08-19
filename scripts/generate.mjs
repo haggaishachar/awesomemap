@@ -11,7 +11,7 @@ const DIST_DIR = "dist";
 const APP_DIR = "app";
 const LEADERBOARD_LIMIT = 20;
 const TEASER_LIMIT = 5;
-const TEASER_WINDOW_DAYS = 7;
+const TEASER_WINDOW_DAYS = RISING_WINDOWS_DAYS[0];
 
 // Empty string defaults to serving from the domain root, matching local
 // `npm run dev`/`npm run generate` usage. Production deploys (GitHub Pages

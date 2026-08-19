@@ -1,5 +1,6 @@
 import { readFileSync } from "node:fs";
 import { RISING_WINDOWS_DAYS } from "./velocity.mjs";
+import { buildWebsiteJsonLd, buildItemListJsonLd } from "./seo.mjs";
 
 const TEMPLATE = readFileSync(new URL("../app/index.html.template", import.meta.url), "utf8");
 
@@ -24,6 +25,11 @@ function escapeHtml(text) {
  */
 function escapeScriptJson(json) {
   return json.replace(/</g, "\\u003c");
+}
+
+/** Renders a JSON-LD structured-data block, escaped the same way the map-data block is (see `escapeScriptJson`) so no field can prematurely close the `<script>` tag. */
+function renderJsonLd(data) {
+  return `<script type="application/ld+json">${escapeScriptJson(JSON.stringify(data))}</script>`;
 }
 
 /** Site-wide nav bar: brand links home, right side links out to the GitHub repo. Omitted from embeds. */
@@ -76,6 +82,12 @@ export function renderDomainPage(domain, tree, { embed = false, defaultOgImage, 
     ? ""
     : renderRisingTeaser(teaser, { heading: "Rising this week", href: `${basePath}/rising/#${domain.slug}`, showDomain: false });
   const ogUrl = `${siteUrl}${basePath}/${domain.slug}/`;
+  // Omitted from the embed variant along with the header/footer/teaser —
+  // it's structured data for search engines, and embed pages are already
+  // excluded from the sitemap as duplicate content (see seo.mjs).
+  const itemListJsonLd = embed
+    ? ""
+    : renderJsonLd(buildItemListJsonLd(domain.name, domain.projects ?? [], { url: ogUrl }));
   // The domain's own `history.json` (copied from `data/history/<slug>.json`
   // by generate.mjs, when it exists) — fetched lazily by the detail panel
   // to draw its star-history sparkline. Always emitted, even for domains
@@ -84,6 +96,7 @@ export function renderDomainPage(domain, tree, { embed = false, defaultOgImage, 
   const historyUrl = `${basePath}/${domain.slug}/history.json`;
   const body = `
     ${header}
+    ${itemListJsonLd}
     <div id="app"></div>
     <script type="application/json" id="map-data">${escapeScriptJson(JSON.stringify(tree))}</script>
     <script type="module">
@@ -124,8 +137,16 @@ export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", baseP
     )
     .join("");
   const teaserSection = renderRisingTeaser(teaser, { heading: "Rising this week", href: `${basePath}/rising/`, showDomain: true });
+  const websiteJsonLd = renderJsonLd(
+    buildWebsiteJsonLd({
+      name: "awesomemap",
+      description: "A community-curated map of open-source technology.",
+      url: `${siteUrl}${basePath}/`,
+    })
+  );
   const body = `
     ${renderSiteHeader(basePath)}
+    ${websiteJsonLd}
     <header class="hero">
       <div class="hero-motif" aria-hidden="true">
         <span class="hero-rect hero-rect-1"></span>

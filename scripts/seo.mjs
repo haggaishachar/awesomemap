@@ -30,3 +30,36 @@ export function buildRobots({ siteUrl, basePath }) {
   if (!siteUrl) return "User-agent: *\nAllow: /\n";
   return `User-agent: *\nAllow: /\n\nSitemap: ${siteUrl}${basePath}/sitemap.xml\n`;
 }
+
+/**
+ * Builds a schema.org WebSite JSON-LD object (a plain object — the caller
+ * is responsible for `JSON.stringify`ing it into a `<script
+ * type="application/ld+json">` block). Used once, on the landing page,
+ * since a WebSite entity describes the site as a whole.
+ */
+export function buildWebsiteJsonLd({ name, description, url }) {
+  return { "@context": "https://schema.org", "@type": "WebSite", name, description, url };
+}
+
+/**
+ * Builds a schema.org ItemList JSON-LD object for one domain page, one
+ * ListItem per project — in the same order the caller passes them,
+ * 1-indexed per schema.org's `position` convention. `projects` is a
+ * domain's flat project list (each `{ id, name, link, ... }`, the same
+ * shape `generate.mjs` reads from `data/<slug>.json`).
+ *
+ * A project with no `link` is omitted rather than guessed at — `id` is
+ * usually an `owner/repo` GitHub shorthand (see CONTRIBUTING.md) but isn't
+ * guaranteed to be, so synthesizing a URL from it could point at nothing.
+ */
+export function buildItemListJsonLd(domainName, projects, { url }) {
+  const itemListElement = projects
+    .filter((project) => project.link)
+    .map((project, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: project.name ?? project.id,
+      url: project.link,
+    }));
+  return { "@context": "https://schema.org", "@type": "ItemList", name: domainName, url, itemListElement };
+}

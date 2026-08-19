@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { buildSitemap, buildRobots } from "../scripts/seo.mjs";
+import { buildSitemap, buildRobots, buildWebsiteJsonLd, buildItemListJsonLd } from "../scripts/seo.mjs";
 
 test("buildSitemap lists the landing page and every domain page", () => {
   const xml = buildSitemap(["data-science", "security"], {
@@ -36,4 +36,45 @@ test("buildRobots omits the Sitemap directive when siteUrl is empty", () => {
 test("buildSitemap lists the rising leaderboard page", () => {
   const xml = buildSitemap(["data-science"], { siteUrl: "https://example.com", basePath: "" });
   assert.match(xml, /<loc>https:\/\/example\.com\/rising\/<\/loc>/);
+});
+
+test("buildWebsiteJsonLd returns a schema.org WebSite object with the given name/description/url", () => {
+  const jsonLd = buildWebsiteJsonLd({ name: "awesomemap", description: "desc", url: "https://example.com/" });
+  assert.equal(jsonLd["@context"], "https://schema.org");
+  assert.equal(jsonLd["@type"], "WebSite");
+  assert.equal(jsonLd.name, "awesomemap");
+  assert.equal(jsonLd.description, "desc");
+  assert.equal(jsonLd.url, "https://example.com/");
+});
+
+test("buildItemListJsonLd lists one ListItem per project that has a link, in order, 1-indexed", () => {
+  const projects = [
+    { id: "a/a", name: "Project A", link: "https://a.example" },
+    { id: "b/b", name: "Project B", link: "https://b.example" },
+  ];
+  const jsonLd = buildItemListJsonLd("Data Science", projects, { url: "https://example.com/data-science/" });
+  assert.equal(jsonLd["@context"], "https://schema.org");
+  assert.equal(jsonLd["@type"], "ItemList");
+  assert.equal(jsonLd.name, "Data Science");
+  assert.equal(jsonLd.url, "https://example.com/data-science/");
+  assert.deepEqual(jsonLd.itemListElement, [
+    { "@type": "ListItem", position: 1, name: "Project A", url: "https://a.example" },
+    { "@type": "ListItem", position: 2, name: "Project B", url: "https://b.example" },
+  ]);
+});
+
+test("buildItemListJsonLd omits projects with no link rather than guessing a URL", () => {
+  const projects = [
+    { id: "a/a", name: "Project A", link: "https://a.example" },
+    { id: "b/b", name: "Project B" },
+  ];
+  const jsonLd = buildItemListJsonLd("Data Science", projects, { url: "https://example.com/data-science/" });
+  assert.equal(jsonLd.itemListElement.length, 1);
+  assert.equal(jsonLd.itemListElement[0].name, "Project A");
+});
+
+test("buildItemListJsonLd falls back to a project's id when name is omitted", () => {
+  const projects = [{ id: "a/a", link: "https://a.example" }];
+  const jsonLd = buildItemListJsonLd("Data Science", projects, { url: "https://example.com/data-science/" });
+  assert.equal(jsonLd.itemListElement[0].name, "a/a");
 });

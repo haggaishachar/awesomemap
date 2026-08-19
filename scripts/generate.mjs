@@ -154,6 +154,7 @@ writeFileSync(
 cpSync(`${APP_DIR}/shared`, `${DIST_DIR}/shared`, { recursive: true });
 cpSync(`${APP_DIR}/vendor`, `${DIST_DIR}/vendor`, { recursive: true });
 copyFileSync(`${APP_DIR}/og-default.png`, `${DIST_DIR}/og-default.png`);
+copyFileSync(`${APP_DIR}/favicon.svg`, `${DIST_DIR}/favicon.svg`);
 if (CNAME) writeFileSync(`${DIST_DIR}/CNAME`, `${CNAME}\n`);
 
 const sitemap = buildSitemap(domains.map((d) => d.slug), { siteUrl: SITE_URL, basePath: BASE_PATH });

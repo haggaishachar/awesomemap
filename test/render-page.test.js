@@ -240,3 +240,76 @@ test("renderLandingPage renders a global teaser section between the hero and the
   assert.ok(html.indexOf('class="hero"') < html.indexOf('class="rising-teaser"'));
   assert.ok(html.indexOf('class="rising-teaser"') < html.indexOf('class="map-grid"'));
 });
+
+test("every page type emits a plain meta description matching its og:description", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "Weird $` desc" };
+  const domainHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png" });
+  assert.match(domainHtml, /<meta name="description" content="Weird \$` desc" \/>/);
+
+  const landingHtml = renderLandingPage([], { defaultOgImage: "/og-default.png" });
+  assert.match(landingHtml, /<meta name="description" content="A community-curated map of open-source technology\." \/>/);
+
+  const risingHtml = renderRisingPage([], { 7: { global: [] }, 30: { global: [] }, 90: { global: [] } }, { defaultOgImage: "/og-default.png" });
+  assert.match(risingHtml, /<meta name="description" content="Star-growth leaders across every awesomemap domain, updated daily\." \/>/);
+});
+
+test("every page type emits a canonical link matching its own og:url", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, {
+    defaultOgImage: "/og-default.png",
+    siteUrl: "https://awesomemap.dev",
+    basePath: "",
+  });
+  assert.match(html, /<link rel="canonical" href="https:\/\/awesomemap\.dev\/data-science\/" \/>/);
+});
+
+test("the embed variant's canonical link points at the non-embed domain page, not itself", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, {
+    defaultOgImage: "/og-default.png",
+    siteUrl: "https://awesomemap.dev",
+    basePath: "",
+    embed: true,
+  });
+  assert.match(html, /<link rel="canonical" href="https:\/\/awesomemap\.dev\/data-science\/" \/>/);
+});
+
+test("every page links a favicon under BASE_PATH", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
+  assert.match(html, /<link rel="icon" type="image\/svg\+xml" href="\/techmap\/favicon\.svg" \/>/);
+});
+
+test("renderDomainPage emits an ItemList JSON-LD block with a ListItem per linked project", () => {
+  const domain = {
+    slug: "data-science",
+    name: "Data Science",
+    description: "desc",
+    projects: [
+      { id: "a/a", name: "Project A", link: "https://a.example" },
+      { id: "b/b", name: "Project B" },
+    ],
+  };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", siteUrl: "https://awesomemap.dev", basePath: "" });
+  const match = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/);
+  assert.ok(match, "ld+json script block should exist");
+  const jsonLd = JSON.parse(match[1]);
+  assert.equal(jsonLd["@type"], "ItemList");
+  assert.equal(jsonLd.itemListElement.length, 1);
+  assert.equal(jsonLd.itemListElement[0].name, "Project A");
+});
+
+test("the embed variant has no ItemList JSON-LD block", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc", projects: [{ id: "a/a", name: "Project A", link: "https://a.example" }] };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", embed: true });
+  assert.doesNotMatch(html, /application\/ld\+json/);
+});
+
+test("renderLandingPage emits a WebSite JSON-LD block", () => {
+  const html = renderLandingPage([], { defaultOgImage: "/og-default.png", siteUrl: "https://awesomemap.dev", basePath: "" });
+  const match = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/);
+  assert.ok(match, "ld+json script block should exist");
+  const jsonLd = JSON.parse(match[1]);
+  assert.equal(jsonLd["@type"], "WebSite");
+  assert.equal(jsonLd.url, "https://awesomemap.dev/");
+});

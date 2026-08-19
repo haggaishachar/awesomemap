@@ -6,20 +6,29 @@ commitment or a schedule — a running list to pull from.
 
 ## SEO
 
-- [ ] Add a plain `<meta name="description">` to the page shell
+- [x] Add a plain `<meta name="description">` to the page shell
       (`app/index.html.template`) — today only `og:description` /
       `twitter:description` are set, and some crawlers and search snippets
       still key off the plain tag. `renderShell` in `scripts/render-page.mjs`
       already computes an `ogDescription` per page; thread it through.
-- [ ] Add a favicon. `app/` currently has no `favicon.ico`/`icon.svg` and
+      _Done 2026-08-19: reuses the existing `{{OG_DESCRIPTION}}` value._
+- [x] Add a favicon. `app/` currently has no `favicon.ico`/`icon.svg` and
       the template has no `<link rel="icon">` — every tab/bookmark shows
       the generic browser icon.
-- [ ] Add `<link rel="canonical">` to the shell, alongside the `og:url`
+      _Done 2026-08-19: `app/favicon.svg`, copied to `dist/` by
+      `generate.mjs`._
+- [x] Add `<link rel="canonical">` to the shell, alongside the `og:url`
       value each `render*Page` function already computes.
-- [ ] Add JSON-LD structured data (e.g. `WebSite` + `ItemList`) per domain
+      _Done 2026-08-19: reuses `{{OG_URL}}`, which already points embed
+      pages at their non-embed counterpart, so it doubles as
+      duplicate-content de-dup for free._
+- [x] Add JSON-LD structured data (e.g. `WebSite` + `ItemList`) per domain
       page, built from the same flat project JSON `generate.mjs` already
       reads — may help projects surface in "awesome list" style search
       queries.
+      _Done 2026-08-19: `WebSite` on the landing page, `ItemList` (one
+      `ListItem` per linked project) on each domain page; omitted from
+      embed pages, consistent with their sitemap exclusion._
 
 ## Usability
 

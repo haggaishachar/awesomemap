@@ -4,6 +4,9 @@
   <meta charset="utf-8" />
   <title>{{TITLE}}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="{{OG_DESCRIPTION}}" />
+  <link rel="canonical" href="{{OG_URL}}" />
+  <link rel="icon" type="image/svg+xml" href="{{BASE}}/favicon.svg" />
   <meta property="og:title" content="{{OG_TITLE}}" />
   <meta property="og:description" content="{{OG_DESCRIPTION}}" />
   <meta property="og:image" content="{{OG_IMAGE}}" />

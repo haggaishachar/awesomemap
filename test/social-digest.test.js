@@ -1,99 +1,8 @@
+// test/social-digest.test.js
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { computeTopRisers, formatDigest, renderReadmeRisers, updateReadme } from "../scripts/social-digest.mjs";
-
-const NOW = "2026-08-15T00:00:00.000Z";
-
-const DOMAINS = [
-  {
-    slug: "data-science",
-    name: "Data Science",
-    projects: [
-      { id: "a/a", name: "Project A", link: "https://a.example" },
-      { id: "b/b", name: "Project B", link: "https://b.example" },
-    ],
-  },
-  {
-    slug: "security",
-    name: "Security",
-    projects: [{ id: "c/c", name: "Project C", link: "https://c.example" }],
-  },
-];
-
-test("computeTopRisers ranks projects by star delta, descending, across domains", () => {
-  const history = {
-    "data-science": {
-      "a/a": [
-        { date: "2026-08-08", stars: 100 },
-        { date: "2026-08-15", stars: 130 },
-      ],
-      "b/b": [
-        { date: "2026-08-08", stars: 500 },
-        { date: "2026-08-15", stars: 520 },
-      ],
-    },
-    security: {
-      "c/c": [
-        { date: "2026-08-08", stars: 50 },
-        { date: "2026-08-15", stars: 90 },
-      ],
-    },
-  };
-
-  const result = computeTopRisers(DOMAINS, history, { now: NOW });
-  assert.deepEqual(
-    result.map((r) => r.id),
-    ["c/c", "a/a", "b/b"]
-  );
-  assert.equal(result[0].starDelta, 40);
-});
-
-test("computeTopRisers excludes projects without enough history for the window", () => {
-  const history = {
-    "data-science": { "a/a": [{ date: "2026-08-14", stars: 100 }] },
-    security: {},
-  };
-  const result = computeTopRisers(DOMAINS, history, { now: NOW });
-  assert.deepEqual(result, []);
-});
-
-test("computeTopRisers excludes projects that shrank or stayed flat", () => {
-  const history = {
-    "data-science": {
-      "a/a": [
-        { date: "2026-08-08", stars: 100 },
-        { date: "2026-08-15", stars: 90 },
-      ],
-    },
-    security: {},
-  };
-  const result = computeTopRisers(DOMAINS, history, { now: NOW });
-  assert.deepEqual(result, []);
-});
-
-test("computeTopRisers respects the limit", () => {
-  const history = {
-    "data-science": {
-      "a/a": [
-        { date: "2026-08-08", stars: 100 },
-        { date: "2026-08-15", stars: 130 },
-      ],
-      "b/b": [
-        { date: "2026-08-08", stars: 500 },
-        { date: "2026-08-15", stars: 520 },
-      ],
-    },
-    security: {
-      "c/c": [
-        { date: "2026-08-08", stars: 50 },
-        { date: "2026-08-15", stars: 90 },
-      ],
-    },
-  };
-  const result = computeTopRisers(DOMAINS, history, { now: NOW, limit: 1 });
-  assert.equal(result.length, 1);
-  assert.equal(result[0].id, "c/c");
-});
+import { formatDigest, renderReadmeRisers, updateReadme } from "../scripts/social-digest.mjs";
+import { computeLeaderboard } from "../scripts/leaderboard.mjs";
 
 test("formatDigest renders a numbered list with links and percentages", () => {
   const body = formatDigest(
@@ -133,4 +42,40 @@ test("updateReadme replaces the content between the risers markers", () => {
 
 test("updateReadme throws when the markers are missing", () => {
   assert.throws(() => updateReadme("# awesomemap", "new content"), /risers markers not found/);
+});
+
+test("the digest's ranking (via computeLeaderboard) is normalized by score, not raw star count", () => {
+  const domains = [
+    {
+      slug: "data-science",
+      name: "Data Science",
+      projects: [
+        { id: "big/big", name: "Big Repo", link: "https://big.example" },
+        { id: "small/small", name: "Small Repo", link: "https://small.example" },
+      ],
+    },
+  ];
+  const history = {
+    "data-science": {
+      // Bigger absolute star gain (+330) but on a much larger repo, so its
+      // score (normalized by sqrt(currentStars)) is lower than the small
+      // repo's smaller absolute gain (+208) on a much smaller repo.
+      "big/big": [
+        { date: "2026-08-05", stars: 50000 },
+        { date: "2026-08-14", stars: 50200 },
+        { date: "2026-08-15", stars: 50330 },
+      ],
+      "small/small": [
+        { date: "2026-08-05", stars: 900 },
+        { date: "2026-08-14", stars: 1000 },
+        { date: "2026-08-15", stars: 1108 },
+      ],
+    },
+  };
+  const result = computeLeaderboard(domains, history, { scope: "global", windowDays: 7, limit: 5, now: "2026-08-15T00:00:00.000Z" });
+  // small/small's score (208/sqrt(1108) ≈ 6.25) beats big/big's
+  // (330/sqrt(50330) ≈ 1.47) despite the smaller absolute star count —
+  // this is the intended behavior (same metric as the site's Rising mode
+  // everywhere else), not a regression.
+  assert.deepEqual(result.map((r) => r.id), ["small/small", "big/big"]);
 });

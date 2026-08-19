@@ -1,47 +1,11 @@
 import { readdirSync, readFileSync, existsSync, writeFileSync } from "node:fs";
 import { execFileSync } from "node:child_process";
-import { computeVelocity } from "./velocity.mjs";
+import { computeLeaderboard } from "./leaderboard.mjs";
 
 const DATA_DIR = "data";
 const HISTORY_DIR = "data/history";
 const WINDOW_DAYS = 7;
 const LIMIT = 5;
-
-/**
- * Computes the top star-growth risers across every domain for one
- * window. `domains` is `[{ slug, name, projects }]` (raw `data/*.json`
- * shape); `historyBySlug` maps slug to that domain's
- * `data/history/<slug>.json` contents (`{ projectId: [{date, stars}] }`).
- *
- * A project can appear once per domain it's listed in (the same project
- * may be curated into more than one map) — each listing is scored
- * independently since its history is keyed by project id, not by
- * domain+project. Only projects with `hasEnoughHistory` for the window are
- * eligible, so the list is empty (not wrong) until enough daily
- * snapshots have accumulated.
- */
-export function computeTopRisers(domains, historyBySlug, { windowDays = WINDOW_DAYS, limit = LIMIT, now = new Date() } = {}) {
-  const candidates = [];
-
-  for (const domain of domains) {
-    const history = historyBySlug[domain.slug] ?? {};
-    for (const project of domain.projects) {
-      const velocity = computeVelocity(history[project.id] ?? [], windowDays, { now });
-      if (!velocity.hasEnoughHistory || velocity.starDelta <= 0) continue;
-      candidates.push({
-        id: project.id,
-        name: project.name,
-        link: project.link,
-        domain: domain.name,
-        starDelta: velocity.starDelta,
-        percentDelta: velocity.percentDelta,
-      });
-    }
-  }
-
-  candidates.sort((a, b) => b.starDelta - a.starDelta);
-  return candidates.slice(0, limit);
-}
 
 /** Formats risers as a GitHub-flavored Markdown numbered list, one project per line. */
 function formatRiserLines(risers) {
@@ -53,7 +17,7 @@ function formatRiserLines(risers) {
 }
 
 /**
- * Formats a list of risers (as returned by `computeTopRisers`) into a
+ * Formats a list of risers (from `computeLeaderboard`) into a
  * GitHub-flavored Markdown digest body. Returns a placeholder message
  * instead of an empty list when there aren't enough snapshots yet, so
  * the digest reads as "not ready yet" rather than "nothing is rising".
@@ -118,7 +82,7 @@ function main() {
     historyBySlug[domain.slug] = existsSync(historyPath) ? JSON.parse(readFileSync(historyPath, "utf8")) : {};
   }
 
-  const risers = computeTopRisers(domains, historyBySlug, {});
+  const risers = computeLeaderboard(domains, historyBySlug, { scope: "global", windowDays: WINDOW_DAYS, limit: LIMIT });
   const body = formatDigest(risers, {});
 
   const readmePath = "README.md";

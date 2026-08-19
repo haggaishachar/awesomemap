@@ -131,3 +131,18 @@ This is entirely generated data — nothing here is hand-authored:
 - To manually trigger a snapshot run locally: `node
   scripts/snapshot-history.mjs` (requires `gh auth token`, same as
   `enrich-domain.mjs`).
+
+## Rising stars leaderboard
+
+Every domain's Rising leaderboard is live on the site at `/rising/`
+(global list plus one per domain), with short teasers on the landing page
+and each domain page — this is a good reason to add smaller, newer
+projects, not just already-popular ones: the whole point of "Rising" is
+surfacing genuine momentum a star count alone won't show yet. Keep the
+same quality bar as any other addition (real, maintained, fits the
+category) — size just isn't a gate.
+
+One thing to expect: a newly-added project needs `windowDays + 1` days of
+accumulated daily star snapshots (up to 91 days for the 90-day window)
+before it can appear on any leaderboard — see "Star history & Rising
+mode" above for how snapshots accumulate. Don't expect immediate results.

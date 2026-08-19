@@ -69,9 +69,12 @@ function renderShell({ title, ogTitle, ogDescription, ogImage, ogUrl, base, body
  * buildTree's output; each leaf's `image` (when present) is already a
  * direct URL into the project's source repo, ready to use as-is.
  */
-export function renderDomainPage(domain, tree, { embed = false, defaultOgImage, siteUrl = "", basePath = "" }) {
+export function renderDomainPage(domain, tree, { embed = false, defaultOgImage, siteUrl = "", basePath = "", teaser = [] }) {
   const header = embed ? "" : renderSiteHeader(basePath);
   const footer = embed ? "" : renderSiteFooter();
+  const teaserSection = embed
+    ? ""
+    : renderRisingTeaser(teaser, { heading: "Rising this week", href: `${basePath}/rising/#${domain.slug}`, showDomain: false });
   const ogUrl = `${siteUrl}${basePath}/${domain.slug}/`;
   // The domain's own `history.json` (copied from `data/history/<slug>.json`
   // by generate.mjs, when it exists) — fetched lazily by the detail panel
@@ -95,6 +98,7 @@ export function renderDomainPage(domain, tree, { embed = false, defaultOgImage, 
         () => panel.close()
       );
     </script>
+    ${teaserSection}
     ${footer}
   `;
   return renderShell({
@@ -109,7 +113,7 @@ export function renderDomainPage(domain, tree, { embed = false, defaultOgImage, 
 }
 
 /** Renders the landing page listing every domain. `domains` is an array of { slug, name, description }. */
-export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", basePath = "" }) {
+export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", basePath = "", teaser = [] }) {
   const cards = domains
     .map(
       (domain) => `
@@ -119,6 +123,7 @@ export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", baseP
         </a>`
     )
     .join("");
+  const teaserSection = renderRisingTeaser(teaser, { heading: "Rising this week", href: `${basePath}/rising/`, showDomain: true });
   const body = `
     ${renderSiteHeader(basePath)}
     <header class="hero">
@@ -133,6 +138,7 @@ export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", baseP
         <p class="hero-tagline">Interactive, zoomable maps of open-source project ecosystems — sized by adoption, explorable by category.</p>
       </div>
     </header>
+    ${teaserSection}
     <div class="map-index">
       <h2 class="map-index-heading">Explore the maps</h2>
       <div class="map-grid">${cards}</div>
@@ -176,6 +182,20 @@ function renderRisingRows(entries, { showDomain }) {
     return `<p class="rising-empty">Not enough star-history yet for this window.</p>`;
   }
   return `<ol class="rising-rows-list">${entries.map((entry) => renderRisingRow(entry, { showDomain })).join("")}</ol>`;
+}
+
+/**
+ * Renders a short teaser (already-sliced entries, typically top 5, 7-day
+ * window) linking to the full leaderboard — used on the landing page
+ * (global) and each domain page (that domain's own list).
+ */
+function renderRisingTeaser(entries, { heading, href, showDomain }) {
+  return `
+    <section class="rising-teaser">
+      <h2 class="rising-teaser-heading">${escapeHtml(heading)}</h2>
+      ${renderRisingRows(entries, { showDomain })}
+      <a class="rising-teaser-link" href="${escapeHtml(href)}">See full leaderboard →</a>
+    </section>`;
 }
 
 /**

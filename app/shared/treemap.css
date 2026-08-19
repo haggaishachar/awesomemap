@@ -654,3 +654,30 @@ body {
   font-size: 13px;
   text-align: center;
 }
+
+.rising-teaser {
+  box-sizing: border-box;
+  max-width: 960px;
+  margin: 0 auto 32px;
+  padding: 0 24px;
+}
+
+.rising-teaser-heading {
+  font-size: 15px;
+  margin: 0 0 8px;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.rising-teaser-link {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.rising-teaser-link:hover {
+  text-decoration: underline;
+}

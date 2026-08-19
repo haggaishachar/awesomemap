@@ -217,3 +217,26 @@ test("renderRisingPage's domain sections are anchorable by slug and link to that
   assert.match(html, /<section class="rising-section" id="data-science">/);
   assert.match(html, /<a href="\/techmap\/data-science\/">Data Science<\/a>/);
 });
+
+test("renderDomainPage renders a teaser section below the map, linking to that domain's rising anchor", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const teaser = [{ rank: 1, id: "a/a", name: "Project A", link: "https://a.example", domain: "Data Science", starDelta: 40, percentDelta: 40, rankDelta: 0 }];
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", teaser });
+  assert.match(html, /class="rising-teaser-link" href="\/rising\/#data-science"/);
+  assert.ok(html.indexOf('id="app"') < html.indexOf('class="rising-teaser"'));
+});
+
+test("renderDomainPage's embed variant has no teaser section", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const teaser = [{ rank: 1, id: "a/a", name: "Project A", link: "https://a.example", domain: "Data Science", starDelta: 40, percentDelta: 40, rankDelta: 0 }];
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", embed: true, teaser });
+  assert.doesNotMatch(html, /rising-teaser/);
+});
+
+test("renderLandingPage renders a global teaser section between the hero and the map grid", () => {
+  const teaser = [{ rank: 1, id: "a/a", name: "Project A", link: "https://a.example", domain: "Data Science", starDelta: 40, percentDelta: 40, rankDelta: 0 }];
+  const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], { defaultOgImage: "/og-default.png", teaser });
+  assert.match(html, /class="rising-teaser-link" href="\/rising\/"/);
+  assert.ok(html.indexOf('class="hero"') < html.indexOf('class="rising-teaser"'));
+  assert.ok(html.indexOf('class="rising-teaser"') < html.indexOf('class="map-grid"'));
+});

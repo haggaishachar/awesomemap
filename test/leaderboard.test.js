@@ -122,3 +122,24 @@ test("computeLeaderboard dedupes a project listed in multiple domains, keeping i
   assert.equal(result[0].domain, "Security");
   assert.equal(result[0].starDelta, 80);
 });
+
+test("computeLeaderboard excludes a project with flat or declining stars, even with enough history", () => {
+  const domains = [
+    {
+      slug: "data-science",
+      name: "Data Science",
+      projects: [{ id: "f/f", name: "Project F", link: "https://f.example" }],
+    },
+  ];
+  const history = {
+    "data-science": {
+      "f/f": [
+        { date: "2026-08-05", stars: 200 },
+        { date: "2026-08-14", stars: 190 },
+        { date: "2026-08-15", stars: 180 },
+      ],
+    },
+  };
+  const result = computeLeaderboard(domains, history, { scope: "global", windowDays: 7, limit: 20, now: NOW });
+  assert.deepEqual(result, []);
+});

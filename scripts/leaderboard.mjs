@@ -23,6 +23,10 @@ function collectCandidates(domains, historyBySlug, scope, windowDays, asOf) {
       const truncated = (history[project.id] ?? []).filter((entry) => entry.date <= asOfDateStr);
       const velocity = computeVelocity(truncated, windowDays, { now: asOf });
       if (!velocity.hasEnoughHistory) continue;
+      // A leaderboard called "Rising"/"risers" must never surface a flat or
+      // shrinking project — mirrors the filter the removed computeTopRisers
+      // used to apply in social-digest.mjs.
+      if (velocity.starDelta <= 0) continue;
       candidates.push({
         id: project.id,
         name: project.name,

@@ -17,7 +17,7 @@ function formatRiserLines(risers) {
 }
 
 /**
- * Formats a list of risers (as returned by `computeTopRisers`) into a
+ * Formats a list of risers (from `computeLeaderboard`) into a
  * GitHub-flavored Markdown digest body. Returns a placeholder message
  * instead of an empty list when there aren't enough snapshots yet, so
  * the digest reads as "not ready yet" rather than "nothing is rising".

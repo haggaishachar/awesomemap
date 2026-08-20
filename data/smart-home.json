@@ -1,6 +1,7 @@
 {
   "slug": "smart-home",
   "name": "Best IoT & Smart Home Open Source Projects",
+  "shortName": "IoT & Smart Home",
   "description": "Home automation platforms, embedded firmware, robotics, and device protocols.",
   "projects": [
     {

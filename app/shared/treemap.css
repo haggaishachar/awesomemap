@@ -62,6 +62,16 @@ body {
   text-align: center;
 }
 
+/* Boxes are plain divs made keyboard-activatable via role/tabindex (see
+   treemap.js's makeBoxInteractive) — an explicit focus ring is needed
+   since divs get no default one. Inset via a negative offset rather than
+   an outer one so it can't bleed into the 2px gap between adjacent boxes. */
+.treemap-box:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: -3px;
+  z-index: 1;
+}
+
 .treemap-category {
   background: var(--color-accent-soft);
   align-items: flex-start;

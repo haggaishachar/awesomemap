@@ -9,6 +9,9 @@ import {
   buildOthersNode,
   computeLevelBoxes,
   computeStageSize,
+  leafAriaLabel,
+  categoryAriaLabel,
+  othersAriaLabel,
 } from "../app/shared/layout.js";
 
 test("weightOf returns the leaf's weight when present", () => {
@@ -363,4 +366,41 @@ test("computeStageSize ignores availableHeight at/above the desktop breakpoint",
 test("computeStageSize falls back to the mobile ratio when availableHeight isn't a finite number", () => {
   assert.equal(computeStageSize(375, undefined).height, 343 * 1.3);
   assert.equal(computeStageSize(375, NaN).height, 343 * 1.3);
+});
+
+test("leafAriaLabel includes the star count in popular mode", () => {
+  assert.equal(leafAriaLabel({ name: "pandas", weight: 49517 }, "popular"), "pandas, 49,517 stars");
+});
+
+test("leafAriaLabel falls back to just the name when weight is missing", () => {
+  assert.equal(leafAriaLabel({ name: "pandas" }, "popular"), "pandas");
+});
+
+test("leafAriaLabel reports growth stats in rising mode", () => {
+  const leafData = { name: "pandas", growth: { rising30: { starDelta: 340, percentDelta: 18.4 } } };
+  assert.equal(leafAriaLabel(leafData, "rising30"), "pandas, +340 stars (+18%) in 30 days");
+});
+
+test("leafAriaLabel reports a negative growth stat without a leading '+'", () => {
+  const leafData = { name: "pandas", growth: { rising30: { starDelta: -5, percentDelta: -1.2 } } };
+  assert.equal(leafAriaLabel(leafData, "rising30"), "pandas, -5 stars (-1%) in 30 days");
+});
+
+test("leafAriaLabel flags a project too new for the active rising window", () => {
+  const leafData = { name: "new-project", hasEnoughHistory: { rising30: false } };
+  assert.equal(leafAriaLabel(leafData, "rising30"), "new-project, not enough history yet");
+});
+
+test("leafAriaLabel falls back to just the name when rising growth data is missing", () => {
+  assert.equal(leafAriaLabel({ name: "pandas" }, "rising30"), "pandas");
+});
+
+test("categoryAriaLabel pluralizes project count", () => {
+  assert.equal(categoryAriaLabel("Data Manipulation", 5), "Data Manipulation, category with 5 projects");
+  assert.equal(categoryAriaLabel("Data Manipulation", 1), "Data Manipulation, category with 1 project");
+});
+
+test("othersAriaLabel pluralizes hidden project count", () => {
+  assert.equal(othersAriaLabel(3), "3 more projects");
+  assert.equal(othersAriaLabel(1), "1 more project");
 });

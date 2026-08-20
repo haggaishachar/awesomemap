@@ -1,4 +1,11 @@
-import { buildHierarchy, computeLevelBoxes, computeStageSize } from "./layout.js";
+import {
+  buildHierarchy,
+  computeLevelBoxes,
+  computeStageSize,
+  leafAriaLabel,
+  categoryAriaLabel,
+  othersAriaLabel,
+} from "./layout.js";
 
 // Debounce for the ResizeObserver in mountTreemap — avoids re-laying-out
 // the whole stage on every intermediate frame of a window drag-resize.
@@ -282,15 +289,11 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
 
     if (node.children) {
       renderPeek(box, node.children, rect, node.data.id);
-      box.addEventListener("click", (event) => {
-        event.stopPropagation();
-        zoomTo(node);
-      });
+      makeBoxInteractive(box, categoryAriaLabel(node.data.name, node.leaves().length), () => zoomTo(node));
     } else if (onLeafClick) {
-      box.addEventListener("click", (event) => {
-        event.stopPropagation();
-        onLeafClick({ ...node.data, activeSizeKey: key });
-      });
+      makeBoxInteractive(box, leafAriaLabel(node.data, key), () =>
+        onLeafClick({ ...node.data, activeSizeKey: key })
+      );
     }
 
     return box;
@@ -317,11 +320,7 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
     box.appendChild(label);
 
     renderPeek(box, hiddenChildren, rect, data.id);
-
-    box.addEventListener("click", (event) => {
-      event.stopPropagation();
-      zoomToOthers(data, parentNode);
-    });
+    makeBoxInteractive(box, othersAriaLabel(hiddenChildren.length), () => zoomToOthers(data, parentNode));
 
     return box;
   }
@@ -492,6 +491,31 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
   resizeObserver.observe(container);
 
   return { zoomTo, root };
+}
+
+/**
+ * Wires `element` up as a keyboard-activatable equivalent of its click
+ * handler: `role="button"`, tab-reachable, and Enter/Space trigger the
+ * same `onActivate` a click does (Space's default page-scroll is
+ * prevented, matching native `<button>` behavior) — plus `aria-label`.
+ * Needed because the treemap's boxes are plain, absolutely-positioned
+ * `<div>`s (unlike the already-native `<button>` peek tiles nested inside
+ * them), so none of this is free without it.
+ */
+function makeBoxInteractive(element, label, onActivate) {
+  element.setAttribute("role", "button");
+  element.tabIndex = 0;
+  element.setAttribute("aria-label", label);
+  element.addEventListener("click", (event) => {
+    event.stopPropagation();
+    onActivate();
+  });
+  element.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" && event.key !== " " && event.key !== "Spacebar") return;
+    event.preventDefault();
+    event.stopPropagation();
+    onActivate();
+  });
 }
 
 function renderFallbackLogo(name) {

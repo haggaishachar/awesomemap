@@ -1,4 +1,5 @@
 import { hierarchy, treemap, treemapSquarify } from "d3-hierarchy";
+import { formatStarCount } from "./star-history.js";
 
 // The stage never grows past this width, regardless of viewport — the
 // original fixed desktop size, now a ceiling rather than the only size.
@@ -193,4 +194,51 @@ export function computeLevelBoxes(focusChildren, { focusId, sizeKey, stageWidth,
     }
     return { kind: "others", data: othersData, hiddenChildren: othersChildren, rect };
   });
+}
+
+/**
+ * Builds a leaf box's accessible label for screen readers: the project's
+ * name plus a short size context that a sighted visitor reads off the
+ * box's *area* — the star count in Popular mode, or the star-growth stat
+ * in Rising mode — information a screen reader has no other way to get,
+ * since the box carries no visible number of its own. Mirrors
+ * `detail-panel.js`'s own growth-line wording (star delta before percent,
+ * "not enough history yet" for a too-new project) so the two stay
+ * consistent. `leafData` is a leaf node's own `.data` (`name`, `weight`,
+ * `growth`, `hasEnoughHistory`); `sizeKey` is the currently active
+ * `"popular" | "rising7" | "rising30" | "rising90"` key.
+ */
+export function leafAriaLabel(leafData, sizeKey) {
+  const name = leafData.name ?? leafData.id ?? "";
+
+  if (sizeKey === "popular" || !sizeKey) {
+    const stars = formatStarCount(leafData.weight);
+    return stars ? `${name}, ${stars} stars` : name;
+  }
+
+  if (leafData.hasEnoughHistory && leafData.hasEnoughHistory[sizeKey] === false) {
+    return `${name}, not enough history yet`;
+  }
+
+  const stats = leafData.growth?.[sizeKey];
+  if (!stats) return name;
+
+  const windowDays = sizeKey.replace("rising", "");
+  const sign = stats.starDelta >= 0 ? "+" : "";
+  const percent = Math.round(stats.percentDelta);
+  return `${name}, ${sign}${stats.starDelta} stars (${sign}${percent}%) in ${windowDays} days`;
+}
+
+/**
+ * Builds a category box's accessible label: its name plus how many
+ * projects it contains — again, information otherwise conveyed only by
+ * the box's visual size.
+ */
+export function categoryAriaLabel(name, leafCount) {
+  return `${name}, category with ${leafCount} project${leafCount === 1 ? "" : "s"}`;
+}
+
+/** Builds the synthetic "N more" box's accessible label. */
+export function othersAriaLabel(hiddenCount) {
+  return `${hiddenCount} more project${hiddenCount === 1 ? "" : "s"}`;
 }

@@ -37,13 +37,20 @@ commitment or a schedule — a running list to pull from.
       each domain's data is static JSON at build time, a small client-side
       fuzzy-search index (built at generate time, searched in-browser)
       would let visitors jump straight to a project by name.
-- [ ] Keyboard/screen-reader accessibility on treemap boxes
+- [x] Keyboard/screen-reader accessibility on treemap boxes
       (`app/shared/treemap.js`). Only the header/close button have
       `aria-label`/focus handling today — the individual boxes have no
       `role`, `tabindex`, or `keydown` handling, so the site's core
       interaction is mouse/touch-only. Add `role="button"`, `tabindex`,
       Enter/Space activation, and a per-box `aria-label` (project name +
       size context).
+      _Done 2026-08-20: category/leaf/Others boxes are now
+      `role="button"`, tab-reachable, Enter/Space-activatable, with an
+      `aria-label` carrying the size context (star count in Popular mode,
+      growth stat in Rising mode) that's otherwise conveyed only by the
+      box's visual area — plus a visible `:focus-visible` ring. Verified
+      with a headless-browser pass: Tab reaches a box, Enter zooms a
+      category in, a leaf's label reads e.g. "TensorFlow, 196,997 stars"._
 
 ## Measurement
 

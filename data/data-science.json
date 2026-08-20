@@ -1,6 +1,7 @@
 {
   "slug": "data-science",
   "name": "Best Data Science Open Source Projects",
+  "shortName": "Data Science",
   "description": "Machine learning, deep learning, NLP, computer vision, and more.",
   "projects": [
     {

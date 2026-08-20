@@ -1,6 +1,7 @@
 {
   "slug": "devops-infra",
   "name": "Best DevOps & Infrastructure Open Source Projects",
+  "shortName": "DevOps & Infra",
   "description": "Containers, orchestration, CI/CD, infrastructure as code, observability, and more.",
   "projects": [
     {

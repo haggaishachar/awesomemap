@@ -60,6 +60,36 @@ test("computeLeaderboard ranks by score descending and computes rank movement vs
   assert.equal(aRow.rankDelta, 0); // unchanged at #3
 });
 
+test("computeLeaderboard's domainShort falls back to the full domain name when a domain has no shortName", () => {
+  const result = computeLeaderboard(DOMAINS, HISTORY, { scope: "global", windowDays: 7, limit: 20, now: NOW });
+  const cRow = result.find((r) => r.id === "c/c");
+  assert.equal(cRow.domain, "Security");
+  assert.equal(cRow.domainShort, "Security");
+});
+
+test("computeLeaderboard's domainShort uses the domain's shortName when set", () => {
+  const domains = [
+    {
+      slug: "artificial-intelligence",
+      name: "Best Artificial Intelligence Open Source Projects",
+      shortName: "AI",
+      projects: [{ id: "a/a", name: "Project A", link: "https://a.example" }],
+    },
+  ];
+  const history = {
+    "artificial-intelligence": {
+      "a/a": [
+        { date: "2026-08-05", stars: 100 },
+        { date: "2026-08-14", stars: 110 },
+        { date: "2026-08-15", stars: 150 },
+      ],
+    },
+  };
+  const result = computeLeaderboard(domains, history, { scope: "global", windowDays: 7, limit: 20, now: NOW });
+  assert.equal(result[0].domain, "Best Artificial Intelligence Open Source Projects");
+  assert.equal(result[0].domainShort, "AI");
+});
+
 test("computeLeaderboard respects the limit", () => {
   const result = computeLeaderboard(DOMAINS, HISTORY, { scope: "global", windowDays: 7, limit: 2, now: NOW });
   assert.deepEqual(result.map((r) => r.id), ["c/c", "b/b"]);

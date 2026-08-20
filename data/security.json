@@ -1,6 +1,7 @@
 {
   "slug": "security",
   "name": "Best Security Open Source Projects",
+  "shortName": "Security",
   "description": "Scanning, exploitation, SIEM, secrets management, forensics, and more.",
   "projects": [
     {

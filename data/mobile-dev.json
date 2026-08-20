@@ -1,6 +1,7 @@
 {
   "slug": "mobile-dev",
   "name": "Best Mobile Development Open Source Projects",
+  "shortName": "Mobile Dev",
   "description": "Cross-platform frameworks, native tooling, testing, state management, and more.",
   "projects": [
     {

@@ -125,7 +125,18 @@ export function renderDomainPage(domain, tree, { embed = false, defaultOgImage, 
   });
 }
 
-/** Renders the landing page listing every domain. `domains` is an array of { slug, name, description }. */
+/** Renders a compact nav strip of short domain names, each jumping straight to that domain's map — a fast path for visitors who already know where they're headed, complementing the fuller `.map-grid` cards below. `domains` is `[{ slug, name, shortName }]`. */
+function renderDomainQuicklinks(domains, basePath) {
+  const links = domains
+    .map(
+      (domain) => `
+        <a class="domain-quicklink" href="${basePath}/${escapeHtml(domain.slug)}/" title="${escapeHtml(domain.name)}">${escapeHtml(domain.shortName ?? domain.name)}</a>`
+    )
+    .join("");
+  return `<nav class="domain-quicklinks" aria-label="Jump to a domain">${links}</nav>`;
+}
+
+/** Renders the landing page listing every domain. `domains` is an array of { slug, name, shortName, description }. */
 export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", basePath = "", teaser = [] }) {
   const cards = domains
     .map(
@@ -156,7 +167,8 @@ export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", baseP
       </div>
       <div class="hero-content">
         <h1>awesomemap</h1>
-        <p class="hero-tagline">Interactive, zoomable maps of open-source project ecosystems — sized by adoption, explorable by category.</p>
+        <p class="hero-tagline">Interactive maps of open-source ecosystems — see which projects are rising fast, not just which are already huge.</p>
+        ${renderDomainQuicklinks(domains, basePath)}
       </div>
     </header>
     ${teaserSection}
@@ -185,12 +197,19 @@ function renderRisingRow(entry, { showDomain }) {
   const sign = entry.starDelta > 0 ? "+" : "";
   const pct = entry.percentDelta.toFixed(1);
   const icon = entry.image ? `<img class="rising-row-icon" src="${escapeHtml(entry.image)}" alt="" loading="lazy" />` : "";
-  const domainTag = showDomain ? `<span class="rising-row-domain">${escapeHtml(entry.domain)}</span>` : "";
+  const domainShort = entry.domainShort ?? entry.domain;
+  const domainTag = showDomain
+    ? `<span class="rising-row-domain" title="${escapeHtml(entry.domain)}">${escapeHtml(domainShort)}</span>`
+    : "";
+  const repoId = entry.id ? `<span class="rising-row-repo">${escapeHtml(entry.id)}</span>` : "";
   return `
     <li class="rising-row">
       <span class="rising-row-rank">${entry.rank}</span>
       ${icon}
-      <a class="rising-row-name" href="${escapeHtml(entry.link ?? "#")}">${escapeHtml(entry.name)}</a>
+      <span class="rising-row-title">
+        <a class="rising-row-name" href="${escapeHtml(entry.link ?? "#")}">${escapeHtml(entry.name)}</a>
+        ${repoId}
+      </span>
       ${domainTag}
       <span class="rising-row-arrow ${arrowClass}">${arrowSymbol}${movedBy > 0 ? movedBy : ""}</span>
       <span class="rising-row-delta">${sign}${entry.starDelta} (${sign}${pct}%)</span>
@@ -247,8 +266,8 @@ function renderRisingSection({ id, heading, headingHref, leaderboardsByWindow, s
 
 /**
  * Renders the dedicated Rising page: a global leaderboard plus one per
- * domain, sharing a single 7/30/90-day window toggle. `domains` is
- * `[{ slug, name }]`; `leaderboardsByWindow` is
+ * domain, sharing a single 7/30/90-day window toggle and a domain filter.
+ * `domains` is `[{ slug, name, shortName }]`; `leaderboardsByWindow` is
  * `{ [windowDays]: { global: entries[], [slug]: entries[] } }` — the shape
  * `generate.mjs` builds from `leaderboard.mjs`'s `computeLeaderboard`.
  */
@@ -282,6 +301,21 @@ export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage
       ).join("")}
     </div>`;
 
+  // Lets a visitor jump straight to one domain's leaderboard instead of
+  // scrolling past every other domain's section — "All" (the default)
+  // shows every section including the cross-domain "Hottest overall" one;
+  // picking a domain hides everything but that domain's own section.
+  const domainFilterBar = `
+    <div class="rising-domain-filter" role="group" aria-label="Filter by domain">
+      <button type="button" class="rising-domain-button rising-domain-button-active" data-domain="all">All</button>
+      ${domains
+        .map(
+          (domain) =>
+            `<button type="button" class="rising-domain-button" data-domain="${escapeHtml(domain.slug)}">${escapeHtml(domain.shortName ?? domain.name)}</button>`
+        )
+        .join("")}
+    </div>`;
+
   const body = `
     ${renderSiteHeader(basePath)}
     <header class="rising-hero">
@@ -289,6 +323,7 @@ export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage
       <p class="rising-hero-tagline">Star-growth leaders across every awesomemap domain.</p>
       <p class="rising-updated">Updated ${escapeHtml(generatedAt.toISOString().slice(0, 10))}</p>
     </header>
+    ${domainFilterBar}
     ${windowBar}
     <div class="rising-page">
       ${globalSection}
@@ -303,6 +338,17 @@ export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage
           });
           document.querySelectorAll(".rising-rows").forEach((el) => {
             el.hidden = el.dataset.window !== selected;
+          });
+        });
+      });
+      document.querySelectorAll(".rising-domain-filter button").forEach((button) => {
+        button.addEventListener("click", () => {
+          const selected = button.dataset.domain;
+          document.querySelectorAll(".rising-domain-filter button").forEach((b) => {
+            b.classList.toggle("rising-domain-button-active", b === button);
+          });
+          document.querySelectorAll(".rising-section").forEach((section) => {
+            section.hidden = selected !== "all" && section.id !== selected;
           });
         });
       });

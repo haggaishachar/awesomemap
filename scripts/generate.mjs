@@ -136,7 +136,7 @@ for (const domain of parsedDomains) {
     renderDomainPage(domain, tree, { embed: true, defaultOgImage: DEFAULT_OG_IMAGE, siteUrl: SITE_URL, basePath: BASE_PATH })
   );
 
-  domains.push({ slug, name: domain.name, description: domain.description ?? "" });
+  domains.push({ slug, name: domain.name, shortName: domain.shortName ?? domain.name, description: domain.description ?? "" });
 }
 
 const globalTeaser = leaderboardsByWindow[TEASER_WINDOW_DAYS].global.slice(0, TEASER_LIMIT);

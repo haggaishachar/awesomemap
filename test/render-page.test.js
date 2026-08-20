@@ -187,6 +187,49 @@ test("renderRisingPage renders a row per leaderboard entry, with rank, arrow, an
   assert.match(html, /\+40 \(\+40\.0%\)/);
 });
 
+test("renderRisingPage's rows show the repo id and the domain's short name", () => {
+  const domains = [{ slug: "artificial-intelligence", name: "Best Artificial Intelligence Open Source Projects", shortName: "AI" }];
+  const leaderboardsByWindow = {
+    7: {
+      global: [
+        {
+          rank: 1,
+          id: "vllm-project/vllm",
+          name: "vLLM",
+          link: "https://vllm.ai/",
+          domain: "Best Artificial Intelligence Open Source Projects",
+          domainShort: "AI",
+          starDelta: 40,
+          percentDelta: 40,
+          rankDelta: 1,
+        },
+      ],
+      "artificial-intelligence": [],
+    },
+    30: { global: [], "artificial-intelligence": [] },
+    90: { global: [], "artificial-intelligence": [] },
+  };
+  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /<span class="rising-row-repo">vllm-project\/vllm<\/span>/);
+  assert.match(html, /<span class="rising-row-domain" title="Best Artificial Intelligence Open Source Projects">AI<\/span>/);
+});
+
+test("renderRisingPage renders a domain filter chip per domain, plus an All chip", () => {
+  const domains = [
+    { slug: "artificial-intelligence", name: "Best Artificial Intelligence Open Source Projects", shortName: "AI" },
+    { slug: "security", name: "Best Security Open Source Projects", shortName: "Security" },
+  ];
+  const leaderboardsByWindow = {
+    7: { global: [], "artificial-intelligence": [], security: [] },
+    30: { global: [], "artificial-intelligence": [], security: [] },
+    90: { global: [], "artificial-intelligence": [], security: [] },
+  };
+  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /<button type="button" class="rising-domain-button rising-domain-button-active" data-domain="all">All<\/button>/);
+  assert.match(html, /<button type="button" class="rising-domain-button" data-domain="artificial-intelligence">AI<\/button>/);
+  assert.match(html, /<button type="button" class="rising-domain-button" data-domain="security">Security<\/button>/);
+});
+
 test("renderRisingPage shows a not-ready placeholder for a leaderboard with no eligible entries", () => {
   const domains = [{ slug: "data-science", name: "Data Science" }];
   const leaderboardsByWindow = {
@@ -239,6 +282,20 @@ test("renderLandingPage renders a global teaser section between the hero and the
   assert.match(html, /class="rising-teaser-link" href="\/rising\/"/);
   assert.ok(html.indexOf('class="hero"') < html.indexOf('class="rising-teaser"'));
   assert.ok(html.indexOf('class="rising-teaser"') < html.indexOf('class="map-grid"'));
+});
+
+test("renderLandingPage's hero includes a quick-jump link per domain, using its short name", () => {
+  const domains = [
+    { slug: "artificial-intelligence", name: "Best Artificial Intelligence Open Source Projects", shortName: "AI", description: "desc" },
+    { slug: "security", name: "Best Security Open Source Projects", shortName: "Security", description: "desc" },
+  ];
+  const html = renderLandingPage(domains, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
+  assert.match(
+    html,
+    /<a class="domain-quicklink" href="\/techmap\/artificial-intelligence\/" title="Best Artificial Intelligence Open Source Projects">AI<\/a>/
+  );
+  assert.match(html, /<a class="domain-quicklink" href="\/techmap\/security\/" title="Best Security Open Source Projects">Security<\/a>/);
+  assert.ok(html.indexOf('class="domain-quicklinks"') < html.indexOf('class="map-grid"'));
 });
 
 test("every page type emits a plain meta description matching its og:description", () => {

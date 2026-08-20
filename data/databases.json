@@ -1,6 +1,7 @@
 {
   "slug": "databases",
   "name": "Best Database & Data Infrastructure Open Source Projects",
+  "shortName": "Databases",
   "description": "Relational, NoSQL, caching, search, streaming, analytics, and more.",
   "projects": [
     {

@@ -1,6 +1,7 @@
 {
   "slug": "web-dev",
   "name": "Best Web Development Open Source Projects",
+  "shortName": "Web Dev",
   "description": "Frontend frameworks, build tools, styling, backend frameworks, and more.",
   "projects": [
     {

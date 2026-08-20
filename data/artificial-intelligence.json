@@ -1,6 +1,7 @@
 {
   "slug": "artificial-intelligence",
   "name": "Best Artificial Intelligence Open Source Projects",
+  "shortName": "AI",
   "description": "LLM frameworks, AI agents, RAG, vector databases, coding assistants, and more.",
   "projects": [
     {

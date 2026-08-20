@@ -1,0 +1,454 @@
+{
+  "slug": "smart-home",
+  "name": "Best IoT & Smart Home Open Source Projects",
+  "description": "Home automation platforms, embedded firmware, robotics, and device protocols.",
+  "projects": [
+    {
+      "id": "home-assistant/core",
+      "path": [
+        "Home Automation Platforms"
+      ],
+      "link": "https://www.home-assistant.io",
+      "name": "Home Assistant",
+      "desc": "Open-source home automation that puts local control and privacy first",
+      "weight": 90003,
+      "image": "https://avatars.githubusercontent.com/u/13844975?v=4"
+    },
+    {
+      "id": "openhab/openhab-addons",
+      "path": [
+        "Home Automation Platforms"
+      ],
+      "link": "https://www.openhab.org/",
+      "name": "openHAB",
+      "desc": "Vendor- and technology-agnostic open-source home automation platform",
+      "weight": 2062,
+      "image": "https://raw.githubusercontent.com/openhab/openhab-addons/main/logo.png"
+    },
+    {
+      "id": "domoticz/domoticz",
+      "path": [
+        "Home Automation Platforms"
+      ],
+      "link": "https://www.domoticz.com",
+      "name": "Domoticz",
+      "desc": "Lightweight open-source home automation system",
+      "weight": 3793,
+      "image": "https://avatars.githubusercontent.com/u/6067010?v=4"
+    },
+    {
+      "id": "ioBroker/ioBroker",
+      "path": [
+        "Home Automation Platforms"
+      ],
+      "link": "http://iobroker.net",
+      "name": "ioBroker",
+      "desc": "Integration platform for the Internet of Things",
+      "weight": 1373,
+      "image": "https://avatars.githubusercontent.com/u/7231148?v=4"
+    },
+    {
+      "id": "homebridge/homebridge",
+      "path": [
+        "Home Automation Platforms"
+      ],
+      "link": "https://homebridge.io",
+      "name": "Homebridge",
+      "desc": "Bridges non-HomeKit smart home devices to Apple HomeKit",
+      "weight": 25456,
+      "image": "https://avatars.githubusercontent.com/u/38217527?v=4"
+    },
+    {
+      "id": "Koenkk/zigbee2mqtt",
+      "path": [
+        "Device Protocols & Telemetry"
+      ],
+      "link": "https://www.zigbee2mqtt.io",
+      "name": "Zigbee2MQTT",
+      "desc": "Bridges Zigbee devices to MQTT without a vendor hub",
+      "weight": 15513
+    },
+    {
+      "id": "project-chip/connectedhomeip",
+      "path": [
+        "Device Protocols & Telemetry"
+      ],
+      "link": "https://buildwithmatter.com",
+      "name": "Matter",
+      "desc": "Unified, royalty-free connectivity standard for smart home devices",
+      "weight": 8880,
+      "image": "https://avatars.githubusercontent.com/u/61027988?v=4"
+    },
+    {
+      "id": "eclipse-mosquitto/mosquitto",
+      "path": [
+        "Device Protocols & Telemetry"
+      ],
+      "link": "https://mosquitto.org",
+      "name": "Eclipse Mosquitto",
+      "desc": "Open-source MQTT message broker",
+      "weight": 11143,
+      "image": "https://avatars.githubusercontent.com/u/185921483?v=4"
+    },
+    {
+      "id": "zwave-js/zwave-js-ui",
+      "path": [
+        "Device Protocols & Telemetry"
+      ],
+      "link": "https://zwave-js.github.io/zwave-js-ui",
+      "name": "Z-Wave JS UI",
+      "desc": "Full-featured web UI for Z-Wave JS",
+      "weight": 1235,
+      "image": "https://avatars.githubusercontent.com/u/54627315?v=4"
+    },
+    {
+      "id": "influxdata/telegraf",
+      "path": [
+        "Device Protocols & Telemetry"
+      ],
+      "link": "https://influxdata.com/telegraf",
+      "name": "Telegraf",
+      "desc": "Agent for collecting, processing, and writing metrics and telemetry",
+      "weight": 17760,
+      "image": "https://avatars.githubusercontent.com/u/5713248?v=4"
+    },
+    {
+      "id": "node-red/node-red",
+      "path": [
+        "Automation Rules & Dashboards"
+      ],
+      "link": "http://nodered.org",
+      "name": "Node-RED",
+      "desc": "Low-code, flow-based programming tool for wiring together APIs and devices",
+      "weight": 23553,
+      "image": "https://avatars.githubusercontent.com/u/5375661?v=4"
+    },
+    {
+      "id": "thingsboard/thingsboard",
+      "path": [
+        "Automation Rules & Dashboards"
+      ],
+      "link": "https://thingsboard.io",
+      "name": "ThingsBoard",
+      "desc": "Open-source IoT platform for device management and data visualization",
+      "weight": 22285,
+      "image": "https://avatars.githubusercontent.com/u/24291394?v=4"
+    },
+    {
+      "id": "openremote/openremote",
+      "path": [
+        "Automation Rules & Dashboards"
+      ],
+      "link": "https://openremote.io",
+      "name": "OpenRemote",
+      "desc": "Open-source IoT platform for integrating devices and building custom apps",
+      "weight": 1874,
+      "image": "https://avatars.githubusercontent.com/u/4995595?v=4"
+    },
+    {
+      "id": "n8n-io/n8n",
+      "path": [
+        "Automation Rules & Dashboards"
+      ],
+      "link": "https://n8n.io",
+      "name": "n8n",
+      "desc": "Fair-code workflow automation platform with native AI capabilities",
+      "weight": 201299,
+      "image": "https://avatars.githubusercontent.com/u/45487711?v=4"
+    },
+    {
+      "id": "arendst/Tasmota",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ],
+      "link": "https://tasmota.github.io/docs",
+      "name": "Tasmota",
+      "desc": "Alternative firmware for ESP8266/ESP32 devices with local MQTT control",
+      "weight": 24717
+    },
+    {
+      "id": "esphome/esphome",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ],
+      "link": "https://esphome.io/",
+      "name": "ESPHome",
+      "desc": "System for controlling ESP32/ESP8266 devices through simple configuration files",
+      "weight": 11565,
+      "image": "https://avatars.githubusercontent.com/u/45919759?v=4"
+    },
+    {
+      "id": "espressif/esp-idf",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ],
+      "link": "https://github.com/espressif/esp-idf",
+      "name": "ESP-IDF",
+      "desc": "Official development framework for Espressif SoCs",
+      "weight": 18822,
+      "image": "https://avatars.githubusercontent.com/u/9460735?v=4"
+    },
+    {
+      "id": "zephyrproject-rtos/zephyr",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ],
+      "link": "https://docs.zephyrproject.org",
+      "name": "Zephyr",
+      "desc": "Scalable real-time operating system for connected, resource-constrained devices",
+      "weight": 16262,
+      "image": "https://avatars.githubusercontent.com/u/19595895?v=4"
+    },
+    {
+      "id": "platformio/platformio-core",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ],
+      "link": "https://platformio.org",
+      "name": "PlatformIO",
+      "desc": "Professional toolchain for embedded software development",
+      "weight": 9412,
+      "image": "https://avatars.githubusercontent.com/u/11621357?v=4"
+    },
+    {
+      "id": "RIOT-OS/RIOT",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ],
+      "link": "https://riot-os.org",
+      "name": "RIOT",
+      "desc": "Friendly operating system for the Internet of Things",
+      "weight": 5776,
+      "image": "https://avatars.githubusercontent.com/u/3079480?v=4"
+    },
+    {
+      "id": "apache/nuttx",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ],
+      "link": "https://nuttx.apache.org/",
+      "name": "Apache NuttX",
+      "desc": "Mature, real-time embedded operating system",
+      "weight": 4002,
+      "image": "https://avatars.githubusercontent.com/u/47359?v=4"
+    },
+    {
+      "id": "micropython/micropython",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ],
+      "link": "https://micropython.org",
+      "name": "MicroPython",
+      "desc": "Lean and efficient Python implementation for microcontrollers",
+      "weight": 21999,
+      "image": "https://avatars.githubusercontent.com/u/6298560?v=4"
+    },
+    {
+      "id": "arduino/Arduino",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ],
+      "link": "https://www.arduino.cc/en/software",
+      "name": "Arduino IDE",
+      "desc": "Open-source electronics platform for building interactive hardware projects",
+      "weight": 14638,
+      "image": "https://avatars.githubusercontent.com/u/379109?v=4"
+    },
+    {
+      "id": "espruino/Espruino",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ],
+      "link": "http://www.espruino.com/",
+      "name": "Espruino",
+      "desc": "JavaScript interpreter for microcontrollers",
+      "weight": 2964,
+      "image": "https://avatars.githubusercontent.com/u/5548236?v=4"
+    },
+    {
+      "id": "letscontrolit/ESPEasy",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ],
+      "link": "http://www.espeasy.com",
+      "name": "ESPEasy",
+      "desc": "Easy multi-sensor firmware for ESP8266/ESP32 devices",
+      "weight": 3564,
+      "image": "https://avatars.githubusercontent.com/u/23070406?v=4"
+    },
+    {
+      "id": "rhasspy/rhasspy",
+      "path": [
+        "Voice Assistants"
+      ],
+      "link": "https://community.rhasspy.org/",
+      "name": "Rhasspy",
+      "desc": "Offline, privacy-focused voice assistant toolkit",
+      "weight": 2751,
+      "image": "https://avatars.githubusercontent.com/u/59055969?v=4"
+    },
+    {
+      "id": "MycroftAI/mycroft-core",
+      "path": [
+        "Voice Assistants"
+      ],
+      "link": "https://mycroft.ai",
+      "name": "Mycroft",
+      "desc": "Open-source voice assistant platform",
+      "weight": 6610,
+      "image": "https://avatars.githubusercontent.com/u/14171097?v=4"
+    },
+    {
+      "id": "ros2/ros2",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ],
+      "link": "https://docs.ros.org",
+      "name": "ROS 2",
+      "desc": "Meta operating system for building robot applications",
+      "weight": 5914,
+      "image": "https://avatars.githubusercontent.com/u/3979232?v=4"
+    },
+    {
+      "id": "ros/ros",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ],
+      "link": "http://www.ros.org",
+      "name": "ROS",
+      "desc": "Flexible framework for writing robot software",
+      "weight": 3249,
+      "image": "https://avatars.githubusercontent.com/u/547448?v=4"
+    },
+    {
+      "id": "PX4/PX4-Autopilot",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ],
+      "link": "https://px4.io",
+      "name": "PX4",
+      "desc": "Open-source flight control software for drones and other autonomous vehicles",
+      "weight": 12450,
+      "image": "https://avatars.githubusercontent.com/u/2096014?v=4"
+    },
+    {
+      "id": "ArduPilot/ardupilot",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ],
+      "link": "http://ardupilot.org/",
+      "name": "ArduPilot",
+      "desc": "Open-source autopilot software for drones, rovers, and submarines",
+      "weight": 15712,
+      "image": "https://avatars.githubusercontent.com/u/17919847?v=4"
+    },
+    {
+      "id": "gazebosim/gz-sim",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ],
+      "link": "https://gazebosim.org",
+      "name": "Gazebo",
+      "desc": "Open-source robotics simulator",
+      "weight": 1452,
+      "image": "https://avatars.githubusercontent.com/u/1743799?v=4"
+    },
+    {
+      "id": "microsoft/AirSim",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ],
+      "link": "https://microsoft.github.io/AirSim/",
+      "name": "AirSim",
+      "desc": "Open-source simulator for drones and autonomous vehicles",
+      "weight": 18411,
+      "image": "https://avatars.githubusercontent.com/u/6154722?v=4"
+    },
+    {
+      "id": "blakeblackshear/frigate",
+      "path": [
+        "Camera & Security Automation"
+      ],
+      "link": "https://frigate.video",
+      "name": "Frigate",
+      "desc": "NVR with real-time local object detection for IP cameras",
+      "weight": 35246
+    },
+    {
+      "id": "ZoneMinder/zoneminder",
+      "path": [
+        "Camera & Security Automation"
+      ],
+      "link": "http://www.zoneminder.com/",
+      "name": "ZoneMinder",
+      "desc": "Open-source video surveillance and security camera platform",
+      "weight": 5913,
+      "image": "https://avatars.githubusercontent.com/u/4137646?v=4"
+    },
+    {
+      "id": "AlexxIT/go2rtc",
+      "path": [
+        "Camera & Security Automation"
+      ],
+      "link": "https://go2rtc.org",
+      "name": "go2rtc",
+      "desc": "Camera streaming application supporting multiple protocols",
+      "weight": 13999
+    },
+    {
+      "id": "Klipper3d/klipper",
+      "path": [
+        "3D Printing & Fabrication"
+      ],
+      "link": "https://github.com/Klipper3d/klipper",
+      "name": "Klipper",
+      "desc": "3D printer firmware for fast, high-precision printing",
+      "weight": 11823,
+      "image": "https://avatars.githubusercontent.com/u/90982958?v=4"
+    },
+    {
+      "id": "prusa3d/PrusaSlicer",
+      "path": [
+        "3D Printing & Fabrication"
+      ],
+      "link": "https://www.prusa3d.com/prusaslicer/",
+      "name": "PrusaSlicer",
+      "desc": "G-code generator and slicer for 3D printers",
+      "weight": 9241,
+      "image": "https://avatars.githubusercontent.com/u/14859759?v=4"
+    },
+    {
+      "id": "Ultimaker/Cura",
+      "path": [
+        "3D Printing & Fabrication"
+      ],
+      "link": "https://github.com/Ultimaker/Cura",
+      "name": "Cura",
+      "desc": "Slicing application for preparing 3D models for printing",
+      "weight": 7015,
+      "image": "https://avatars.githubusercontent.com/u/499557?v=4"
+    },
+    {
+      "id": "MarlinFirmware/Marlin",
+      "path": [
+        "3D Printing & Fabrication"
+      ],
+      "link": "https://marlinfw.org",
+      "name": "Marlin",
+      "desc": "Firmware for RepRap 3D printers",
+      "weight": 17545,
+      "image": "https://avatars.githubusercontent.com/u/10418365?v=4"
+    },
+    {
+      "id": "OrcaSlicer/OrcaSlicer",
+      "path": [
+        "3D Printing & Fabrication"
+      ],
+      "link": "https://www.orcaslicer.com",
+      "name": "OrcaSlicer",
+      "desc": "G-code generator and slicer for 3D printers",
+      "weight": 15433,
+      "image": "https://avatars.githubusercontent.com/u/134699248?v=4"
+    }
+  ]
+}

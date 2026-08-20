@@ -11,7 +11,7 @@
       "link": "https://www.postgresql.org/",
       "name": "PostgreSQL",
       "desc": "Mirror of the PostgreSQL git repositories",
-      "weight": 21783,
+      "weight": 21849,
       "image": "https://avatars.githubusercontent.com/u/177543?v=4"
     },
     {
@@ -22,7 +22,7 @@
       "link": "https://www.mysql.com/",
       "name": "MySQL",
       "desc": "MySQL server, the world's most popular open source database",
-      "weight": 12380,
+      "weight": 12387,
       "image": "https://avatars.githubusercontent.com/u/2452804?v=4"
     },
     {
@@ -33,7 +33,7 @@
       "link": "https://www.sqlite.org/",
       "name": "SQLite",
       "desc": "Official Git mirror of the SQLite source tree",
-      "weight": 10254
+      "weight": 10304
     },
     {
       "id": "cockroachdb/cockroach",
@@ -43,7 +43,7 @@
       "link": "https://www.cockroachlabs.com/",
       "name": "CockroachDB",
       "desc": "Distributed, scalable, cloud-native SQL database",
-      "weight": 32385,
+      "weight": 32404,
       "image": "https://avatars.githubusercontent.com/u/6748139?v=4"
     },
     {
@@ -54,7 +54,7 @@
       "link": "https://mariadb.org/",
       "name": "MariaDB",
       "desc": "A community-developed fork of MySQL",
-      "weight": 8090,
+      "weight": 8113,
       "image": "https://avatars.githubusercontent.com/u/4739304?v=4"
     },
     {
@@ -65,7 +65,7 @@
       "link": "https://www.mongodb.com/",
       "name": "MongoDB",
       "desc": "The MongoDB database server",
-      "weight": 28491,
+      "weight": 28503,
       "image": "https://avatars.githubusercontent.com/u/45120?v=4"
     },
     {
@@ -76,7 +76,7 @@
       "link": "https://cassandra.apache.org/",
       "name": "Apache Cassandra",
       "desc": "A distributed NoSQL database management system",
-      "weight": 10069,
+      "weight": 10076,
       "image": "https://avatars.githubusercontent.com/u/47359?v=4"
     },
     {
@@ -87,7 +87,7 @@
       "link": "https://couchdb.apache.org/",
       "name": "Apache CouchDB",
       "desc": "Seamless multi-master syncing document database",
-      "weight": 6936,
+      "weight": 6939,
       "image": "https://avatars.githubusercontent.com/u/47359?v=4"
     },
     {
@@ -98,7 +98,7 @@
       "link": "https://www.scylladb.com/",
       "name": "ScyllaDB",
       "desc": "NoSQL data store using the seastar framework, compatible with Cassandra",
-      "weight": 15705,
+      "weight": 15719,
       "image": "https://avatars.githubusercontent.com/u/14364730?v=4"
     },
     {
@@ -109,7 +109,7 @@
       "link": "https://redis.io/",
       "name": "Redis",
       "desc": "In-memory data structure store used as a database, cache, and broker",
-      "weight": 76003,
+      "weight": 76055,
       "image": "https://avatars.githubusercontent.com/u/1529926?v=4"
     },
     {
@@ -120,7 +120,7 @@
       "link": "https://valkey.io/",
       "name": "Valkey",
       "desc": "A flexible, high-performance key-value datastore, forked from Redis",
-      "weight": 26878,
+      "weight": 26930,
       "image": "https://avatars.githubusercontent.com/u/164458127?v=4"
     },
     {
@@ -131,7 +131,7 @@
       "link": "https://memcached.org/",
       "name": "Memcached",
       "desc": "A distributed memory object caching system",
-      "weight": 14250,
+      "weight": 14254,
       "image": "https://avatars.githubusercontent.com/u/41836?v=4"
     },
     {
@@ -142,7 +142,7 @@
       "link": "https://etcd.io/",
       "name": "etcd",
       "desc": "Distributed reliable key-value store for the most critical data",
-      "weight": 52119,
+      "weight": 52135,
       "image": "https://avatars.githubusercontent.com/u/41972792?v=4"
     },
     {
@@ -153,7 +153,7 @@
       "link": "https://www.elastic.co/elasticsearch",
       "name": "Elasticsearch",
       "desc": "Distributed, RESTful search and analytics engine",
-      "weight": 77849,
+      "weight": 77844,
       "image": "https://avatars.githubusercontent.com/u/6764390?v=4"
     },
     {
@@ -164,7 +164,7 @@
       "link": "https://opensearch.org/",
       "name": "OpenSearch",
       "desc": "Open source distributed and RESTful search engine",
-      "weight": 13516,
+      "weight": 13550,
       "image": "https://avatars.githubusercontent.com/u/80134844?v=4"
     },
     {
@@ -175,7 +175,7 @@
       "link": "https://www.meilisearch.com/",
       "name": "Meilisearch",
       "desc": "A lightning-fast search engine that fits effortlessly into your apps",
-      "weight": 58958,
+      "weight": 59027,
       "image": "https://raw.githubusercontent.com/meilisearch/meilisearch/main/assets/logo.svg"
     },
     {
@@ -186,7 +186,7 @@
       "link": "https://typesense.org/",
       "name": "Typesense",
       "desc": "Open source, typo-tolerant search engine for building delightful search",
-      "weight": 26433,
+      "weight": 26457,
       "image": "https://avatars.githubusercontent.com/u/19822348?v=4"
     },
     {
@@ -197,7 +197,7 @@
       "link": "https://solr.apache.org/",
       "name": "Apache Solr",
       "desc": "Fast, open source search platform built on Apache Lucene",
-      "weight": 1654,
+      "weight": 1662,
       "image": "https://avatars.githubusercontent.com/u/47359?v=4"
     },
     {
@@ -208,7 +208,7 @@
       "link": "https://kafka.apache.org/",
       "name": "Apache Kafka",
       "desc": "Distributed event streaming platform",
-      "weight": 33536,
+      "weight": 33565,
       "image": "https://avatars.githubusercontent.com/u/47359?v=4"
     },
     {
@@ -219,7 +219,7 @@
       "link": "https://www.rabbitmq.com/",
       "name": "RabbitMQ",
       "desc": "Open source multi-protocol messaging broker",
-      "weight": 13779,
+      "weight": 13793,
       "image": "https://avatars.githubusercontent.com/u/96669?v=4"
     },
     {
@@ -230,7 +230,7 @@
       "link": "https://nats.io/",
       "name": "NATS Server",
       "desc": "High-performance server for NATS.io, the cloud native messaging system",
-      "weight": 20488,
+      "weight": 20550,
       "image": "https://avatars.githubusercontent.com/u/10203055?v=4"
     },
     {
@@ -241,7 +241,7 @@
       "link": "https://www.redpanda.com/",
       "name": "Redpanda",
       "desc": "Kafka-compatible streaming platform without ZooKeeper or JVM",
-      "weight": 12437,
+      "weight": 12463,
       "image": "https://avatars.githubusercontent.com/u/49406389?v=4"
     },
     {
@@ -263,7 +263,7 @@
       "link": "https://clickhouse.com/",
       "name": "ClickHouse",
       "desc": "Fast open-source column-oriented database management system",
-      "weight": 49227,
+      "weight": 49357,
       "image": "https://avatars.githubusercontent.com/u/54801242?v=4"
     },
     {
@@ -274,7 +274,7 @@
       "link": "https://duckdb.org/",
       "name": "DuckDB",
       "desc": "In-process analytical SQL database engine",
-      "weight": 40210,
+      "weight": 40460,
       "image": "https://avatars.githubusercontent.com/u/82039556?v=4"
     },
     {
@@ -285,7 +285,7 @@
       "link": "https://druid.apache.org/",
       "name": "Apache Druid",
       "desc": "High-performance, real-time analytics database",
-      "weight": 14041,
+      "weight": 14044,
       "image": "https://avatars.githubusercontent.com/u/47359?v=4"
     },
     {
@@ -296,7 +296,7 @@
       "link": "https://pinot.apache.org/",
       "name": "Apache Pinot",
       "desc": "Realtime distributed OLAP datastore for low-latency analytics",
-      "weight": 6123,
+      "weight": 6122,
       "image": "https://avatars.githubusercontent.com/u/47359?v=4"
     },
     {
@@ -307,7 +307,7 @@
       "link": "https://www.influxdata.com/",
       "name": "InfluxDB",
       "desc": "Scalable datastore for metrics, events, and real-time analytics",
-      "weight": 31690,
+      "weight": 31706,
       "image": "https://avatars.githubusercontent.com/u/5713248?v=4"
     },
     {
@@ -318,7 +318,7 @@
       "link": "https://www.timescale.com/",
       "name": "TimescaleDB",
       "desc": "Open-source time-series database built on PostgreSQL",
-      "weight": 23319,
+      "weight": 23378,
       "image": "https://avatars.githubusercontent.com/u/8986001?v=4"
     },
     {
@@ -329,7 +329,7 @@
       "link": "https://questdb.io/",
       "name": "QuestDB",
       "desc": "High-performance time-series database for fast ingest and SQL queries",
-      "weight": 17255,
+      "weight": 17267,
       "image": "https://avatars.githubusercontent.com/u/52297642?v=4"
     },
     {
@@ -340,7 +340,7 @@
       "link": "https://neo4j.com/",
       "name": "Neo4j",
       "desc": "Graphs for everyone, native graph database",
-      "weight": 17057,
+      "weight": 17091,
       "image": "https://avatars.githubusercontent.com/u/201120?v=4"
     },
     {
@@ -351,7 +351,7 @@
       "link": "https://dgraph.io/",
       "name": "Dgraph",
       "desc": "Native GraphQL database with a graph backend",
-      "weight": 21772,
+      "weight": 21779,
       "image": "https://raw.githubusercontent.com/dgraph-io/dgraph/main/logo.png"
     },
     {
@@ -362,7 +362,7 @@
       "link": "https://www.arangodb.com/",
       "name": "ArangoDB",
       "desc": "Multi-model database for graph, document, and key-value data",
-      "weight": 14260,
+      "weight": 14259,
       "image": "https://avatars.githubusercontent.com/u/5547849?v=4"
     },
     {
@@ -373,7 +373,7 @@
       "link": "https://hibernate.org/orm/",
       "name": "Hibernate ORM",
       "desc": "Object/relational mapping for Java",
-      "weight": 6472,
+      "weight": 6461,
       "image": "https://avatars.githubusercontent.com/u/348262?v=4"
     },
     {
@@ -384,7 +384,7 @@
       "link": "https://orm.drizzle.team/",
       "name": "Drizzle ORM",
       "desc": "TypeScript ORM with a head-first, SQL-like API",
-      "weight": 35462,
+      "weight": 35527,
       "image": "https://avatars.githubusercontent.com/u/108468352?v=4"
     },
     {
@@ -395,7 +395,7 @@
       "link": "https://gorm.io/",
       "name": "GORM",
       "desc": "The fantastic ORM library for Golang",
-      "weight": 39912,
+      "weight": 39913,
       "image": "https://avatars.githubusercontent.com/u/15127678?v=4"
     },
     {
@@ -406,7 +406,7 @@
       "link": "https://sequelize.org/",
       "name": "Sequelize",
       "desc": "Feature-rich ORM for Node.js compatible with many SQL dialects",
-      "weight": 30377,
+      "weight": 30371,
       "image": "https://raw.githubusercontent.com/sequelize/sequelize/main/logo.svg"
     },
     {
@@ -417,7 +417,7 @@
       "link": "https://www.sqlalchemy.org/",
       "name": "SQLAlchemy",
       "desc": "The Python SQL toolkit and object relational mapper",
-      "weight": 12078,
+      "weight": 12094,
       "image": "https://avatars.githubusercontent.com/u/6043126?v=4"
     },
     {
@@ -428,7 +428,7 @@
       "link": "https://dbeaver.io/",
       "name": "DBeaver",
       "desc": "Free universal database tool and SQL client",
-      "weight": 51445,
+      "weight": 51486,
       "image": "https://avatars.githubusercontent.com/u/34743864?v=4"
     },
     {
@@ -439,7 +439,7 @@
       "link": "https://www.adminer.org/",
       "name": "Adminer",
       "desc": "Database management in a single PHP file",
-      "weight": 7752
+      "weight": 7812
     },
     {
       "id": "flyway/flyway",
@@ -449,7 +449,7 @@
       "link": "https://flywaydb.org/",
       "name": "Flyway",
       "desc": "Database migrations made easy",
-      "weight": 9991,
+      "weight": 10017,
       "image": "https://avatars.githubusercontent.com/u/2109532?v=4"
     },
     {
@@ -460,7 +460,7 @@
       "link": "https://www.liquibase.com/",
       "name": "Liquibase",
       "desc": "Version control for database schema change management",
-      "weight": 5585,
+      "weight": 5591,
       "image": "https://avatars.githubusercontent.com/u/438548?v=4"
     },
     {
@@ -471,7 +471,7 @@
       "link": "https://airflow.apache.org/",
       "name": "Apache Airflow",
       "desc": "Platform to programmatically author, schedule, and monitor workflows",
-      "weight": 46465,
+      "weight": 46547,
       "image": "https://avatars.githubusercontent.com/u/47359?v=4"
     },
     {
@@ -482,7 +482,7 @@
       "link": "https://www.getdbt.com/",
       "name": "dbt Core",
       "desc": "Transform data in your warehouse using SQL",
-      "weight": 13636,
+      "weight": 13667,
       "image": "https://avatars.githubusercontent.com/u/18339788?v=4"
     },
     {
@@ -493,7 +493,7 @@
       "link": "https://meltano.com/",
       "name": "Meltano",
       "desc": "Open source data movement and ELT platform",
-      "weight": 2591,
+      "weight": 2598,
       "image": "https://avatars.githubusercontent.com/u/43816713?v=4"
     },
     {
@@ -504,7 +504,7 @@
       "link": "https://nifi.apache.org/",
       "name": "Apache NiFi",
       "desc": "Easy-to-use, powerful system to process and distribute data",
-      "weight": 6191,
+      "weight": 6200,
       "image": "https://avatars.githubusercontent.com/u/47359?v=4"
     },
     {
@@ -515,7 +515,7 @@
       "link": "https://www.metabase.com/",
       "name": "Metabase",
       "desc": "The simplest, fastest way to get business intelligence and analytics",
-      "weight": 48745,
+      "weight": 48848,
       "image": "https://avatars.githubusercontent.com/u/10520629?v=4"
     },
     {
@@ -526,7 +526,7 @@
       "link": "https://superset.apache.org/",
       "name": "Apache Superset",
       "desc": "Modern data exploration and visualization platform",
-      "weight": 74251,
+      "weight": 74321,
       "image": "https://avatars.githubusercontent.com/u/47359?v=4"
     },
     {
@@ -537,8 +537,19 @@
       "link": "https://redash.io/",
       "name": "Redash",
       "desc": "Connect and query data sources, build dashboards to share",
-      "weight": 28744,
+      "weight": 28759,
       "image": "https://avatars.githubusercontent.com/u/10746780?v=4"
+    },
+    {
+      "id": "neondatabase/neon",
+      "path": [
+        "Relational Databases"
+      ],
+      "link": "https://neon.tech",
+      "name": "Neon",
+      "desc": "Serverless Postgres with autoscaling and instant branching",
+      "weight": 22908,
+      "image": "https://avatars.githubusercontent.com/u/77690634?v=4"
     }
   ]
 }

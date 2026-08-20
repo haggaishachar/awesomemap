@@ -92,6 +92,9 @@ export function createDetailPanel(container, { historyUrl } = {}) {
     const growthLine = renderGrowthLine(leafData);
     if (growthLine) panel.appendChild(growthLine);
 
+    const rankLine = renderDomainRankLine(leafData);
+    if (rankLine) panel.appendChild(rankLine);
+
     if (leafData.desc) {
       const desc = document.createElement("p");
       desc.textContent = leafData.desc;
@@ -158,5 +161,33 @@ function renderGrowthLine(leafData) {
   const sign = stats.starDelta >= 0 ? "+" : "";
   const percent = Math.round(stats.percentDelta);
   paragraph.textContent = `${sign}${stats.starDelta} stars (${sign}${percent}%) in ${windowDays} days`;
+  return paragraph;
+}
+
+/**
+ * Builds the Rising-mode rank line ("#3 rising in AI over 7 days") from the
+ * per-window `domainRank` stamped on each leaf at build time.
+ *
+ * This is the context a GitHub Trending card can't carry: Trending ranks a
+ * repo against everything on GitHub at once, so a specialised tool that leads
+ * its own field is indistinguishable from one that's merely mid-pack. Keyed by
+ * the active window like `renderGrowthLine`, so it stays truthful when the
+ * visitor switches windows; returns `null` in Popular mode or when the project
+ * doesn't rank in the current window.
+ */
+function renderDomainRankLine(leafData) {
+  const key = leafData.activeSizeKey;
+  if (!key || key === "popular") return null;
+
+  const rank = leafData.domainRank?.[key];
+  if (typeof rank !== "number") return null;
+
+  const windowDays = key.replace("rising", "");
+  const domain = leafData.domainShort;
+  const paragraph = document.createElement("p");
+  paragraph.className = "detail-panel-rank";
+  paragraph.textContent = domain
+    ? `#${rank} rising in ${domain} over ${windowDays} days`
+    : `#${rank} rising in this domain over ${windowDays} days`;
   return paragraph;
 }

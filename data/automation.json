@@ -1,0 +1,532 @@
+{
+  "slug": "automation",
+  "name": "Best Automation & No-Code Open Source Projects",
+  "description": "Workflow automation, RPA, no-code app builders, and business process tooling.",
+  "projects": [
+    {
+      "id": "n8n-io/n8n",
+      "path": [
+        "Workflow Automation"
+      ],
+      "link": "https://n8n.io",
+      "name": "n8n",
+      "desc": "Fair-code workflow automation platform with native AI capabilities",
+      "weight": 201299,
+      "image": "https://avatars.githubusercontent.com/u/45487711?v=4"
+    },
+    {
+      "id": "node-red/node-red",
+      "path": [
+        "Workflow Automation"
+      ],
+      "link": "http://nodered.org",
+      "name": "Node-RED",
+      "desc": "Low-code, flow-based programming tool for wiring together APIs and devices",
+      "weight": 23553,
+      "image": "https://avatars.githubusercontent.com/u/5375661?v=4"
+    },
+    {
+      "id": "activepieces/activepieces",
+      "path": [
+        "Workflow Automation"
+      ],
+      "link": "https://www.activepieces.com",
+      "name": "Activepieces",
+      "desc": "Open-source AI-powered workflow automation platform",
+      "weight": 23923,
+      "image": "https://avatars.githubusercontent.com/u/99494700?v=4"
+    },
+    {
+      "id": "automatisch/automatisch",
+      "path": [
+        "Workflow Automation"
+      ],
+      "link": "https://automatisch.io",
+      "name": "Automatisch",
+      "desc": "Open-source alternative to Zapier for workflow automation",
+      "weight": 13938,
+      "image": "https://avatars.githubusercontent.com/u/91699546?v=4"
+    },
+    {
+      "id": "windmill-labs/windmill",
+      "path": [
+        "Workflow Automation"
+      ],
+      "link": "https://windmill.dev",
+      "name": "Windmill",
+      "desc": "Developer platform for turning scripts into workflows, webhooks, and UIs",
+      "weight": 17589,
+      "image": "https://avatars.githubusercontent.com/u/98025271?v=4"
+    },
+    {
+      "id": "huginn/huginn",
+      "path": [
+        "Workflow Automation"
+      ],
+      "link": "https://github.com/huginn/huginn",
+      "name": "Huginn",
+      "desc": "Build agents that monitor events and act on your behalf",
+      "weight": 49825,
+      "image": "https://avatars.githubusercontent.com/u/23225142?v=4"
+    },
+    {
+      "id": "apache/airflow",
+      "path": [
+        "Workflow Automation"
+      ],
+      "link": "https://airflow.apache.org/",
+      "name": "Apache Airflow",
+      "desc": "Platform to programmatically author, schedule, and monitor workflows",
+      "weight": 46547,
+      "image": "https://avatars.githubusercontent.com/u/47359?v=4"
+    },
+    {
+      "id": "temporalio/temporal",
+      "path": [
+        "Job Orchestration & Scheduling"
+      ],
+      "link": "https://docs.temporal.io",
+      "name": "Temporal",
+      "desc": "Durable execution platform for orchestrating reliable distributed workflows",
+      "weight": 22418,
+      "image": "https://avatars.githubusercontent.com/u/56493103?v=4"
+    },
+    {
+      "id": "PrefectHQ/prefect",
+      "path": [
+        "Job Orchestration & Scheduling"
+      ],
+      "link": "https://prefect.io",
+      "name": "Prefect",
+      "desc": "Workflow orchestration framework for building resilient data pipelines",
+      "weight": 23648,
+      "image": "https://avatars.githubusercontent.com/u/39270919?v=4"
+    },
+    {
+      "id": "dagster-io/dagster",
+      "path": [
+        "Job Orchestration & Scheduling"
+      ],
+      "link": "https://dagster.io",
+      "name": "Dagster",
+      "desc": "Orchestration platform for the development and observation of data assets",
+      "weight": 16028,
+      "image": "https://avatars.githubusercontent.com/u/40032576?v=4"
+    },
+    {
+      "id": "Netflix/conductor",
+      "path": [
+        "Job Orchestration & Scheduling"
+      ],
+      "link": "https://github.com/Netflix/conductor",
+      "name": "Conductor",
+      "desc": "Microservices orchestration engine",
+      "weight": 12752,
+      "image": "https://avatars.githubusercontent.com/u/913567?v=4"
+    },
+    {
+      "id": "cadence-workflow/cadence",
+      "path": [
+        "Job Orchestration & Scheduling"
+      ],
+      "link": "https://cadenceworkflow.io",
+      "name": "Cadence",
+      "desc": "Distributed, scalable orchestration engine for long-running business logic",
+      "weight": 9407,
+      "image": "https://avatars.githubusercontent.com/u/187651631?v=4"
+    },
+    {
+      "id": "kestra-io/kestra",
+      "path": [
+        "Job Orchestration & Scheduling"
+      ],
+      "link": "https://go.kestra.io/home",
+      "name": "Kestra",
+      "desc": "Event-driven orchestration and scheduling platform",
+      "weight": 27859,
+      "image": "https://avatars.githubusercontent.com/u/59033362?v=4"
+    },
+    {
+      "id": "rundeck/rundeck",
+      "path": [
+        "Job Orchestration & Scheduling"
+      ],
+      "link": "http://rundeck.org",
+      "name": "Rundeck",
+      "desc": "Self-service job scheduling and runbook automation",
+      "weight": 6275,
+      "image": "https://avatars.githubusercontent.com/u/2205640?v=4"
+    },
+    {
+      "id": "healthchecks/healthchecks",
+      "path": [
+        "Job Orchestration & Scheduling"
+      ],
+      "link": "https://healthchecks.io",
+      "name": "Healthchecks",
+      "desc": "Cron job and background task monitoring service",
+      "weight": 10264,
+      "image": "https://avatars.githubusercontent.com/u/13053880?v=4"
+    },
+    {
+      "id": "open-rpa/openrpa",
+      "path": [
+        "RPA & Browser Automation"
+      ],
+      "link": "https://app.openiap.io",
+      "name": "OpenRPA",
+      "desc": "Open-source robotic process automation platform",
+      "weight": 3044,
+      "image": "https://avatars.githubusercontent.com/u/49598537?v=4"
+    },
+    {
+      "id": "aisingapore/TagUI",
+      "path": [
+        "RPA & Browser Automation"
+      ],
+      "link": "https://github.com/aisingapore/TagUI",
+      "name": "TagUI",
+      "desc": "Free command-line RPA tool for automating web, desktop, and CLI tasks",
+      "weight": 6323,
+      "image": "https://avatars.githubusercontent.com/u/110224767?v=4"
+    },
+    {
+      "id": "robocorp/rpaframework",
+      "path": [
+        "RPA & Browser Automation"
+      ],
+      "link": "https://www.rpaframework.org/",
+      "name": "RPA Framework",
+      "desc": "Open-source libraries for robotic process automation with Python",
+      "weight": 1547,
+      "image": "https://avatars.githubusercontent.com/u/54288445?v=4"
+    },
+    {
+      "id": "SeleniumHQ/selenium",
+      "path": [
+        "RPA & Browser Automation"
+      ],
+      "link": "https://selenium.dev",
+      "name": "Selenium",
+      "desc": "Browser automation framework and ecosystem",
+      "weight": 34380,
+      "image": "https://avatars.githubusercontent.com/u/983927?v=4"
+    },
+    {
+      "id": "robotframework/robotframework",
+      "path": [
+        "RPA & Browser Automation"
+      ],
+      "link": "http://robotframework.org",
+      "name": "Robot Framework",
+      "desc": "Generic automation framework for acceptance testing and RPA",
+      "weight": 11827,
+      "image": "https://avatars.githubusercontent.com/u/574284?v=4"
+    },
+    {
+      "id": "scrapy/scrapy",
+      "path": [
+        "Web Scraping & Data Extraction"
+      ],
+      "link": "https://scrapy.org",
+      "name": "Scrapy",
+      "desc": "Fast, high-level web crawling and scraping framework for Python",
+      "weight": 63974,
+      "image": "https://avatars.githubusercontent.com/u/733635?v=4"
+    },
+    {
+      "id": "apify/crawlee",
+      "path": [
+        "Web Scraping & Data Extraction"
+      ],
+      "link": "https://crawlee.dev",
+      "name": "Crawlee",
+      "desc": "Web scraping and browser automation library for Node.js",
+      "weight": 25445,
+      "image": "https://avatars.githubusercontent.com/u/24586296?v=4"
+    },
+    {
+      "id": "unclecode/crawl4ai",
+      "path": [
+        "Web Scraping & Data Extraction"
+      ],
+      "link": "https://crawl4ai.com",
+      "name": "Crawl4AI",
+      "desc": "Open-source LLM-friendly web crawler and scraper",
+      "weight": 78756
+    },
+    {
+      "id": "puppeteer/puppeteer",
+      "path": [
+        "Web Scraping & Data Extraction"
+      ],
+      "link": "https://pptr.dev",
+      "name": "Puppeteer",
+      "desc": "JavaScript API for automating Chrome and Firefox",
+      "weight": 95472,
+      "image": "https://avatars.githubusercontent.com/u/6906516?v=4"
+    },
+    {
+      "id": "Unstructured-IO/unstructured",
+      "path": [
+        "Web Scraping & Data Extraction"
+      ],
+      "link": "https://www.unstructured.io/",
+      "name": "Unstructured",
+      "desc": "Open-source ETL for turning complex documents into clean, structured data",
+      "weight": 15325,
+      "image": "https://avatars.githubusercontent.com/u/108372208?v=4"
+    },
+    {
+      "id": "microsoft/markitdown",
+      "path": [
+        "Web Scraping & Data Extraction"
+      ],
+      "link": "https://github.com/microsoft/markitdown",
+      "name": "MarkItDown",
+      "desc": "Tool for converting files and office documents to Markdown",
+      "weight": 174833,
+      "image": "https://avatars.githubusercontent.com/u/6154722?v=4"
+    },
+    {
+      "id": "appsmithorg/appsmith",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ],
+      "link": "https://www.appsmith.com",
+      "name": "Appsmith",
+      "desc": "Platform for building admin panels, internal tools, and dashboards",
+      "weight": 40709,
+      "image": "https://avatars.githubusercontent.com/u/67620218?v=4"
+    },
+    {
+      "id": "ToolJet/ToolJet",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ],
+      "link": "https://tooljet.com",
+      "name": "ToolJet",
+      "desc": "Low-code platform for building internal tools and business applications",
+      "weight": 40554,
+      "image": "https://avatars.githubusercontent.com/u/82193554?v=4"
+    },
+    {
+      "id": "Budibase/budibase",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ],
+      "link": "https://budibase.com",
+      "name": "Budibase",
+      "desc": "Low-code platform for building internal apps and automations",
+      "weight": 28224,
+      "image": "https://avatars.githubusercontent.com/u/45009727?v=4"
+    },
+    {
+      "id": "nocodb/nocodb",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ],
+      "link": "https://nocodb.com",
+      "name": "NocoDB",
+      "desc": "Open-source, self-hostable Airtable alternative",
+      "weight": 64597,
+      "image": "https://avatars.githubusercontent.com/u/50206778?v=4"
+    },
+    {
+      "id": "baserow/baserow",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ],
+      "link": "https://baserow.io",
+      "name": "Baserow",
+      "desc": "Open-source no-code database and app builder",
+      "weight": 5640,
+      "image": "https://avatars.githubusercontent.com/u/68540644?v=4"
+    },
+    {
+      "id": "illacloud/illa-builder",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ],
+      "link": "https://github.com/illacloud/illa-builder",
+      "name": "ILLA Builder",
+      "desc": "Low-code platform for building internal business apps",
+      "weight": 12311,
+      "image": "https://avatars.githubusercontent.com/u/93245159?v=4"
+    },
+    {
+      "id": "nocobase/nocobase",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ],
+      "link": "https://www.nocobase.com",
+      "name": "NocoBase",
+      "desc": "Open-source no-code platform for building business systems",
+      "weight": 23709,
+      "image": "https://avatars.githubusercontent.com/u/66196787?v=4"
+    },
+    {
+      "id": "strapi/strapi",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ],
+      "link": "https://strapi.io",
+      "name": "Strapi",
+      "desc": "Leading open-source headless CMS",
+      "weight": 72976,
+      "image": "https://avatars.githubusercontent.com/u/19872173?v=4"
+    },
+    {
+      "id": "directus/directus",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ],
+      "link": "https://directus.com",
+      "name": "Directus",
+      "desc": "Flexible headless CMS that turns any database into an API",
+      "weight": 37485,
+      "image": "https://avatars.githubusercontent.com/u/15967950?v=4"
+    },
+    {
+      "id": "odoo/odoo",
+      "path": [
+        "Business Process, ERP & Finance"
+      ],
+      "link": "https://www.odoo.com",
+      "name": "Odoo",
+      "desc": "Suite of open-source business applications for running a company",
+      "weight": 53816,
+      "image": "https://avatars.githubusercontent.com/u/6368483?v=4"
+    },
+    {
+      "id": "frappe/erpnext",
+      "path": [
+        "Business Process, ERP & Finance"
+      ],
+      "link": "https://frappe.io/erpnext",
+      "name": "ERPNext",
+      "desc": "Free and open-source enterprise resource planning system",
+      "weight": 38301,
+      "image": "https://avatars.githubusercontent.com/u/836974?v=4"
+    },
+    {
+      "id": "camunda/camunda",
+      "path": [
+        "Business Process, ERP & Finance"
+      ],
+      "link": "https://camunda.com/platform/",
+      "name": "Camunda",
+      "desc": "Process orchestration and workflow automation framework",
+      "weight": 4254,
+      "image": "https://avatars.githubusercontent.com/u/2443838?v=4"
+    },
+    {
+      "id": "twentyhq/twenty",
+      "path": [
+        "Business Process, ERP & Finance"
+      ],
+      "link": "https://twenty.com",
+      "name": "Twenty",
+      "desc": "Open-source CRM alternative to Salesforce",
+      "weight": 55175,
+      "image": "https://avatars.githubusercontent.com/u/119600397?v=4"
+    },
+    {
+      "id": "documenso/documenso",
+      "path": [
+        "Business Process, ERP & Finance"
+      ],
+      "link": "https://documenso.com",
+      "name": "Documenso",
+      "desc": "Open-source alternative to DocuSign for document signing",
+      "weight": 14627,
+      "image": "https://avatars.githubusercontent.com/u/127681099?v=4"
+    },
+    {
+      "id": "formbricks/formbricks",
+      "path": [
+        "Business Process, ERP & Finance"
+      ],
+      "link": "https://formbricks.com",
+      "name": "Formbricks",
+      "desc": "Open-source survey and experience management platform",
+      "weight": 12795,
+      "image": "https://avatars.githubusercontent.com/u/105877416?v=4"
+    },
+    {
+      "id": "invoiceninja/invoiceninja",
+      "path": [
+        "Business Process, ERP & Finance"
+      ],
+      "link": "https://invoiceninja.com",
+      "name": "Invoice Ninja",
+      "desc": "Invoicing, quoting, and time-tracking application",
+      "weight": 10011,
+      "image": "https://avatars.githubusercontent.com/u/15712270?v=4"
+    },
+    {
+      "id": "airbytehq/airbyte",
+      "path": [
+        "Data & Notification Integration"
+      ],
+      "link": "https://airbyte.com",
+      "name": "Airbyte",
+      "desc": "Open-source data movement platform for ELT pipelines",
+      "weight": 21924,
+      "image": "https://avatars.githubusercontent.com/u/59758427?v=4"
+    },
+    {
+      "id": "dlt-hub/dlt",
+      "path": [
+        "Data & Notification Integration"
+      ],
+      "link": "https://dlthub.com/docs",
+      "name": "dlt",
+      "desc": "Python library for loading data into warehouses and lakes",
+      "weight": 5758,
+      "image": "https://avatars.githubusercontent.com/u/89419010?v=4"
+    },
+    {
+      "id": "novuhq/novu",
+      "path": [
+        "Data & Notification Integration"
+      ],
+      "link": "https://go.novu.co/github",
+      "name": "Novu",
+      "desc": "Open-source notification infrastructure for multi-channel messaging",
+      "weight": 39619,
+      "image": "https://avatars.githubusercontent.com/u/77433905?v=4"
+    },
+    {
+      "id": "binwiederhier/ntfy",
+      "path": [
+        "Data & Notification Integration"
+      ],
+      "link": "https://ntfy.sh",
+      "name": "ntfy",
+      "desc": "Simple pub-sub push notification service",
+      "weight": 33633
+    },
+    {
+      "id": "mautic/mautic",
+      "path": [
+        "Marketing & Email Automation"
+      ],
+      "link": "https://www.mautic.org",
+      "name": "Mautic",
+      "desc": "Open-source marketing automation software",
+      "weight": 10372,
+      "image": "https://avatars.githubusercontent.com/u/5257677?v=4"
+    },
+    {
+      "id": "knadh/listmonk",
+      "path": [
+        "Marketing & Email Automation"
+      ],
+      "link": "https://listmonk.app",
+      "name": "listmonk",
+      "desc": "Self-hosted newsletter and mailing list manager",
+      "weight": 23011
+    }
+  ]
+}

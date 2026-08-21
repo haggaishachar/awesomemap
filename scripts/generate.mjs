@@ -4,6 +4,7 @@ import { buildTree } from "./build-tree.mjs";
 import { renderDomainPage, renderLandingPage, renderRisingPage } from "./render-page.mjs";
 import { computeProjectSizing, findInvalidSizes, RISING_WINDOWS_DAYS } from "./velocity.mjs";
 import { computeLeaderboard } from "./leaderboard.mjs";
+import { computeGroupGrowth, rankGroups } from "./group-growth.mjs";
 import { buildSitemap, buildRobots } from "./seo.mjs";
 
 const DATA_DIR = "data";
@@ -12,6 +13,11 @@ const APP_DIR = "app";
 const LEADERBOARD_LIMIT = 20;
 const TEASER_LIMIT = 5;
 const TEASER_WINDOW_DAYS = RISING_WINDOWS_DAYS[0];
+
+// The window the landing page's domain-momentum line and each domain page's
+// category momentum report. Deliberately the same as the teaser window, so
+// every headline number on a page describes the same period.
+const MOMENTUM_WINDOW_DAYS = TEASER_WINDOW_DAYS;
 
 // Empty string defaults to serving from the domain root, matching local
 // `npm run dev`/`npm run generate` usage. Production deploys (GitHub Pages
@@ -106,13 +112,61 @@ for (const windowDays of RISING_WINDOWS_DAYS) {
   leaderboardsByWindow[windowDays] = byScope;
 }
 
+// Pass 2b: aggregate growth at the two grouping levels above a single project
+// — the whole domain, and each category within a domain. This is the axis
+// GitHub Trending doesn't have: a leaderboard answers "which project is
+// rising", these answer "which ecosystem, and where inside it".
+const domainGrowthByWindow = {};
+for (const windowDays of RISING_WINDOWS_DAYS) {
+  const bySlug = {};
+  for (const domain of parsedDomains) {
+    bySlug[domain.slug] = computeGroupGrowth(domain.projects, historyBySlug[domain.slug], windowDays);
+  }
+  domainGrowthByWindow[windowDays] = bySlug;
+}
+
+// Categories are grouped by `path[0]`, the top-level category, which is
+// uniform across domains — only artificial-intelligence nests deeper, and its
+// `path[0]` is still its top-level category.
+const categoryGrowthBySlug = {};
+for (const domain of parsedDomains) {
+  const byCategory = new Map();
+  for (const project of domain.projects) {
+    const category = project.path[0];
+    if (category === undefined) continue;
+    if (!byCategory.has(category)) byCategory.set(category, []);
+    byCategory.get(category).push(project);
+  }
+  const groups = [...byCategory].map(([category, projects]) => ({
+    key: category,
+    growth: computeGroupGrowth(projects, historyBySlug[domain.slug], MOMENTUM_WINDOW_DAYS),
+  }));
+  categoryGrowthBySlug[domain.slug] = rankGroups(groups);
+}
+
 // Pass 3: render every domain's full page, embed page, and history.json,
 // now that its teaser (the top of its own 7-day leaderboard) is available.
 const domains = [];
 
 for (const domain of parsedDomains) {
   const { slug, historyPath } = domain;
-  const tree = buildTree(domain.projects, { id: slug, name: domain.name });
+
+  // Each project's rank on its own domain's leaderboard, per window — the
+  // "#3 rising in AI" context the detail panel shows. Stored per window (not
+  // just the headline one) so it stays correct when the visitor switches
+  // windows, matching the shape of the `growth` object already on each leaf.
+  const rankedProjects = domain.projects.map((project) => {
+    const domainRank = {};
+    for (const windowDays of RISING_WINDOWS_DAYS) {
+      const entry = leaderboardsByWindow[windowDays][slug].find((row) => row.id === project.id);
+      domainRank[`rising${windowDays}`] = entry ? entry.rank : null;
+    }
+    // The short domain name rides along on the leaf so the detail panel can
+    // name the domain a project ranks in without needing the domain record.
+    return { ...project, domainRank, domainShort: domain.shortName ?? domain.name };
+  });
+
+  const tree = buildTree(rankedProjects, { id: slug, name: domain.name });
   const teaser = leaderboardsByWindow[TEASER_WINDOW_DAYS][slug].slice(0, TEASER_LIMIT);
 
   mkdirSync(`${DIST_DIR}/${slug}`, { recursive: true });
@@ -129,26 +183,51 @@ for (const domain of parsedDomains) {
 
   writeFileSync(
     `${DIST_DIR}/${slug}/index.html`,
-    renderDomainPage(domain, tree, { embed: false, defaultOgImage: DEFAULT_OG_IMAGE, siteUrl: SITE_URL, basePath: BASE_PATH, teaser })
+    renderDomainPage(domain, tree, {
+      embed: false,
+      defaultOgImage: DEFAULT_OG_IMAGE,
+      siteUrl: SITE_URL,
+      basePath: BASE_PATH,
+      teaser,
+      categoryGrowth: categoryGrowthBySlug[slug],
+      momentumWindowDays: MOMENTUM_WINDOW_DAYS,
+    })
   );
   writeFileSync(
     `${DIST_DIR}/embed/${slug}/index.html`,
     renderDomainPage(domain, tree, { embed: true, defaultOgImage: DEFAULT_OG_IMAGE, siteUrl: SITE_URL, basePath: BASE_PATH })
   );
 
-  domains.push({ slug, name: domain.name, shortName: domain.shortName ?? domain.name, description: domain.description ?? "" });
+  domains.push({
+    slug,
+    name: domain.name,
+    shortName: domain.shortName ?? domain.name,
+    description: domain.description ?? "",
+    growth: domainGrowthByWindow[MOMENTUM_WINDOW_DAYS][slug],
+  });
 }
 
 const globalTeaser = leaderboardsByWindow[TEASER_WINDOW_DAYS].global.slice(0, TEASER_LIMIT);
 writeFileSync(
   `${DIST_DIR}/index.html`,
-  renderLandingPage(domains, { defaultOgImage: DEFAULT_OG_IMAGE, siteUrl: SITE_URL, basePath: BASE_PATH, teaser: globalTeaser })
+  renderLandingPage(domains, {
+    defaultOgImage: DEFAULT_OG_IMAGE,
+    siteUrl: SITE_URL,
+    basePath: BASE_PATH,
+    teaser: globalTeaser,
+    momentumWindowDays: MOMENTUM_WINDOW_DAYS,
+  })
 );
 
 mkdirSync(`${DIST_DIR}/rising`, { recursive: true });
 writeFileSync(
   `${DIST_DIR}/rising/index.html`,
-  renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: DEFAULT_OG_IMAGE, siteUrl: SITE_URL, basePath: BASE_PATH })
+  renderRisingPage(domains, leaderboardsByWindow, {
+    defaultOgImage: DEFAULT_OG_IMAGE,
+    siteUrl: SITE_URL,
+    basePath: BASE_PATH,
+    domainGrowthByWindow,
+  })
 );
 
 cpSync(`${APP_DIR}/shared`, `${DIST_DIR}/shared`, { recursive: true });

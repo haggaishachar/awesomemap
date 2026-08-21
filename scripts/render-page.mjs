@@ -1,5 +1,6 @@
 import { readFileSync } from "node:fs";
 import { RISING_WINDOWS_DAYS } from "./velocity.mjs";
+import { rankGroups } from "./group-growth.mjs";
 import { buildWebsiteJsonLd, buildItemListJsonLd } from "./seo.mjs";
 
 const TEMPLATE = readFileSync(new URL("../app/index.html.template", import.meta.url), "utf8");
@@ -75,12 +76,19 @@ function renderShell({ title, ogTitle, ogDescription, ogImage, ogUrl, base, body
  * buildTree's output; each leaf's `image` (when present) is already a
  * direct URL into the project's source repo, ready to use as-is.
  */
-export function renderDomainPage(domain, tree, { embed = false, defaultOgImage, siteUrl = "", basePath = "", teaser = [] }) {
+export function renderDomainPage(
+  domain,
+  tree,
+  { embed = false, defaultOgImage, siteUrl = "", basePath = "", teaser = [], categoryGrowth = [], momentumWindowDays = RISING_WINDOWS_DAYS[0] }
+) {
   const header = embed ? "" : renderSiteHeader(basePath);
   const footer = embed ? "" : renderSiteFooter();
   const teaserSection = embed
     ? ""
     : renderRisingTeaser(teaser, { heading: "Rising this week", href: `${basePath}/rising/#${domain.slug}`, showDomain: false });
+  // Omitted from embeds along with the rest of the chrome — an embedded map is
+  // a visualization, not a page.
+  const categorySection = embed ? "" : renderCategoryMomentum(categoryGrowth, { windowDays: momentumWindowDays });
   const ogUrl = `${siteUrl}${basePath}/${domain.slug}/`;
   // Omitted from the embed variant along with the header/footer/teaser —
   // it's structured data for search engines, and embed pages are already
@@ -111,7 +119,10 @@ export function renderDomainPage(domain, tree, { embed = false, defaultOgImage, 
         () => panel.close()
       );
     </script>
-    ${teaserSection}
+    <div class="domain-insights">
+      ${categorySection}
+      ${teaserSection}
+    </div>
     ${footer}
   `;
   return renderShell({
@@ -125,6 +136,151 @@ export function renderDomainPage(domain, tree, { embed = false, defaultOgImage, 
   });
 }
 
+/** Formats a star delta with a sign and thousands separators, e.g. `+12,400`. */
+function formatSignedStars(starDelta) {
+  const sign = starDelta > 0 ? "+" : starDelta < 0 ? "−" : "";
+  return `${sign}${Math.abs(starDelta).toLocaleString("en-US")}`;
+}
+
+/**
+ * Formats a percentage with a sign, e.g. `+1.4%` or `+0.24%`.
+ *
+ * Sub-1% values get a second decimal because that's the range a whole
+ * ecosystem's weekly growth actually lives in: at one decimal, five domains
+ * spanning 0.065% to 0.12% all render as an identical "+0.1%", which makes a
+ * list that claims to be ranked by growth rate look arbitrary. Above 1% the
+ * extra digit is just noise, so it's dropped.
+ */
+function formatSignedPercent(percentDelta) {
+  const sign = percentDelta > 0 ? "+" : percentDelta < 0 ? "−" : "";
+  const magnitude = Math.abs(percentDelta);
+  return `${sign}${magnitude.toFixed(magnitude < 1 ? 2 : 1)}%`;
+}
+
+/** The CSS class carrying the green/red growth colour, matching the rising rows' convention. */
+function growthDirectionClass(starDelta) {
+  return starDelta > 0 ? "momentum-up" : starDelta < 0 ? "momentum-down" : "momentum-flat";
+}
+
+/**
+ * Renders a group's growth as a short stat line — the shared presentation for
+ * a domain's momentum and a category's momentum, since both are
+ * `computeGroupGrowth` results.
+ *
+ * A group without enough history reports *when tracking started* rather than a
+ * `0%` it hasn't earned. Two domains currently have no snapshots at all, and
+ * showing them as flat would be indistinguishable from a genuinely stalled
+ * ecosystem — the same distinction the detail panel already draws for a single
+ * project ("Not enough history yet — first tracked …").
+ */
+function renderMomentumStat(growth, { windowDays }) {
+  if (!growth || !growth.hasEnoughHistory) {
+    const since = growth?.oldestDate ? ` — first tracked ${escapeHtml(growth.oldestDate)}` : "";
+    return `<span class="momentum-stat momentum-pending">Not tracked yet${since}</span>`;
+  }
+  return `
+    <span class="momentum-stat ${growthDirectionClass(growth.starDelta)}">
+      <strong>${formatSignedPercent(growth.percentDelta)}</strong>
+      <span class="momentum-abs">${formatSignedStars(growth.starDelta)} stars in ${windowDays}d</span>
+    </span>`;
+}
+
+/**
+ * A group's rank number, or a dash when it has no history. `rankGroups` still
+ * assigns positions to untracked groups so the list has a stable order, but
+ * printing "#1" next to "Not tracked yet" would assert a standing that hasn't
+ * been measured — in a window where nothing is tracked, the order is really
+ * just alphabetical.
+ */
+function renderMomentumRank(group) {
+  return group.growth?.hasEnoughHistory ? String(group.rank) : "–";
+}
+
+/**
+ * Renders the cross-domain momentum table: every domain ranked by how fast its
+ * whole ecosystem is growing, not by how big it already is. This is the view
+ * GitHub Trending structurally cannot offer — Trending's only axes are
+ * language and time window, so it has no notion of what a project is *for* and
+ * nothing to aggregate over.
+ *
+ * `rankedDomains` is `rankGroups` output over `{ key, slug, shortName, name, growth }`.
+ */
+function renderDomainMomentumRows(rankedDomains, { windowDays, basePath }) {
+  if (rankedDomains.length === 0) {
+    return `<p class="rising-empty">Not enough star-history yet for this window.</p>`;
+  }
+  const rows = rankedDomains
+    .map(
+      (domain) => `
+        <li class="momentum-row">
+          <span class="momentum-row-rank">${renderMomentumRank(domain)}</span>
+          <a class="momentum-row-name" href="${basePath}/${escapeHtml(domain.slug)}/" title="${escapeHtml(domain.name)}">${escapeHtml(domain.shortName)}</a>
+          <span class="momentum-row-coverage">${domain.growth.trackedCount}/${domain.growth.projectCount} tracked</span>
+          ${renderMomentumStat(domain.growth, { windowDays })}
+        </li>`
+    )
+    .join("");
+  return `<ol class="momentum-rows-list">${rows}</ol>`;
+}
+
+/**
+ * The domain-momentum section for the Rising page, with one variant per
+ * window. Reuses the `.rising-rows`/`data-window` contract so the page's
+ * existing window-toggle script drives it with no extra wiring, and lives in a
+ * `.rising-section` so the existing domain filter hides it alongside the
+ * cross-domain "Hottest overall" list.
+ */
+function renderDomainMomentumSection(domains, domainGrowthByWindow, { basePath }) {
+  const variants = RISING_WINDOWS_DAYS.map((windowDays, index) => {
+    const growthBySlug = domainGrowthByWindow?.[windowDays] ?? {};
+    const ranked = rankGroups(
+      domains.map((domain) => ({
+        key: domain.slug,
+        slug: domain.slug,
+        name: domain.name,
+        shortName: domain.shortName ?? domain.name,
+        growth: growthBySlug[domain.slug] ?? { hasEnoughHistory: false, percentDelta: 0 },
+      }))
+    );
+    const hiddenAttr = index === 0 ? "" : " hidden";
+    return `<div class="rising-rows" data-window="${windowDays}"${hiddenAttr}>${renderDomainMomentumRows(ranked, { windowDays, basePath })}</div>`;
+  }).join("");
+
+  return `
+    <section class="rising-section" id="domains">
+      <h2 class="rising-section-heading">Hottest ecosystems</h2>
+      <p class="rising-section-note">Whole domains ranked by growth rate, so a fast-moving niche isn't buried under a big one.</p>
+      ${variants}
+    </section>`;
+}
+
+/**
+ * Renders a domain's categories ranked by growth rate — the zoom below the
+ * domain level, answering "where inside this ecosystem is the heat?".
+ * `rankedCategories` is `rankGroups` output over `{ key, growth }`.
+ */
+function renderCategoryMomentum(rankedCategories, { windowDays, limit = 5 }) {
+  const tracked = rankedCategories.filter((category) => category.growth.hasEnoughHistory);
+  if (tracked.length === 0) return "";
+  const rows = tracked
+    .slice(0, limit)
+    .map(
+      (category) => `
+        <li class="momentum-row">
+          <span class="momentum-row-rank">${category.rank}</span>
+          <span class="momentum-row-name" title="${escapeHtml(category.key)}">${escapeHtml(category.key)}</span>
+          <span class="momentum-row-coverage">${category.growth.trackedCount}/${category.growth.projectCount} tracked</span>
+          ${renderMomentumStat(category.growth, { windowDays })}
+        </li>`
+    )
+    .join("");
+  return `
+    <section class="category-momentum">
+      <h2 class="category-momentum-heading">Where the heat is</h2>
+      <ol class="momentum-rows-list">${rows}</ol>
+    </section>`;
+}
+
 /** Renders a compact nav strip of short domain names, each jumping straight to that domain's filtered Rising leaderboard — a fast path for visitors who already know where they're headed, complementing the fuller `.map-grid` cards below. `domains` is `[{ slug, name, shortName }]`. */
 function renderDomainQuicklinks(domains, basePath) {
   const links = domains
@@ -136,16 +292,42 @@ function renderDomainQuicklinks(domains, basePath) {
   return `<nav class="domain-quicklinks" aria-label="Jump to a domain">${links}</nav>`;
 }
 
-/** Renders the landing page listing every domain. `domains` is an array of { slug, name, shortName, description }. */
-export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", basePath = "", teaser = [] }) {
-  const cards = domains
-    .map(
-      (domain) => `
-        <a class="map-card" href="${basePath}/${escapeHtml(domain.slug)}/">
-          <h3>${escapeHtml(domain.name)}</h3>
+/**
+ * Renders the landing page listing every domain. `domains` is an array of
+ * { slug, name, shortName, description, growth } where `growth` is that
+ * domain's `computeGroupGrowth` result for the momentum window.
+ *
+ * Cards are ordered by growth rate rather than by filename, so the page opens
+ * on an answer ("AI is moving fastest this week") instead of an alphabetical
+ * index. Untracked domains sort last — see `rankGroups`.
+ */
+export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", basePath = "", teaser = [], momentumWindowDays = RISING_WINDOWS_DAYS[0] }) {
+  const rankedDomains = rankGroups(
+    domains.map((domain) => ({
+      key: domain.slug,
+      domain,
+      growth: domain.growth ?? { hasEnoughHistory: false, percentDelta: 0 },
+    }))
+  );
+
+  const cards = rankedDomains
+    .map(({ domain, growth }) => {
+      // The heading is the short name, not the long SEO title: nine cards all
+      // opening with "Best … Open Source Projects" are unscannable and defeat
+      // the growth comparison the ordering is there to support. The full name
+      // stays in `title`, and every domain page still carries it in its own
+      // <title>, <h1>, og:* tags, and JSON-LD.
+      const count = growth?.projectCount ? `<span class="map-card-count">${growth.projectCount} projects</span>` : "";
+      return `
+        <a class="map-card" href="${basePath}/${escapeHtml(domain.slug)}/" title="${escapeHtml(domain.name)}">
+          <h3>${escapeHtml(domain.shortName ?? domain.name)}</h3>
           <p>${escapeHtml(domain.description ?? "")}</p>
-        </a>`
-    )
+          <span class="map-card-meta">
+            ${count}
+            ${renderMomentumStat(growth, { windowDays: momentumWindowDays })}
+          </span>
+        </a>`;
+    })
     .join("");
   const teaserSection = renderRisingTeaser(teaser, { heading: "Rising this week", href: `${basePath}/rising/`, showDomain: true });
   const websiteJsonLd = renderJsonLd(
@@ -167,13 +349,14 @@ export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", baseP
       </div>
       <div class="hero-content">
         <h1>awesomemap</h1>
-        <p class="hero-tagline">Interactive maps of open-source ecosystems — see which projects are rising fast, not just which are already huge.</p>
+        <p class="hero-tagline">Interactive maps of open-source ecosystems — see which whole ecosystems are heating up, and which projects inside them are rising fastest.</p>
         ${renderDomainQuicklinks(domains, basePath)}
       </div>
     </header>
     ${teaserSection}
     <div class="map-index">
       <h2 class="map-index-heading">Explore the maps</h2>
+      <p class="map-index-note">Ranked by how fast each ecosystem grew over the last ${momentumWindowDays} days — growth rate, not size.</p>
       <div class="map-grid">${cards}</div>
     </div>
     ${renderSiteFooter()}
@@ -271,7 +454,9 @@ function renderRisingSection({ id, heading, headingHref, leaderboardsByWindow, s
  * `{ [windowDays]: { global: entries[], [slug]: entries[] } }` — the shape
  * `generate.mjs` builds from `leaderboard.mjs`'s `computeLeaderboard`.
  */
-export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage, siteUrl = "", basePath = "", generatedAt = new Date() }) {
+export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage, siteUrl = "", basePath = "", generatedAt = new Date(), domainGrowthByWindow = {} }) {
+  const domainMomentumSection = renderDomainMomentumSection(domains, domainGrowthByWindow, { basePath });
+
   const globalSection = renderRisingSection({
     id: "global",
     heading: "Hottest overall",
@@ -326,6 +511,7 @@ export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage
     ${domainFilterBar}
     ${windowBar}
     <div class="rising-page">
+      ${domainMomentumSection}
       ${globalSection}
       ${domainSections}
     </div>

@@ -1,0 +1,248 @@
+{
+  "home-assistant/core": [
+    {
+      "date": "2026-08-21",
+      "stars": 90019
+    }
+  ],
+  "openhab/openhab-addons": [
+    {
+      "date": "2026-08-21",
+      "stars": 2062
+    }
+  ],
+  "domoticz/domoticz": [
+    {
+      "date": "2026-08-21",
+      "stars": 3792
+    }
+  ],
+  "ioBroker/ioBroker": [
+    {
+      "date": "2026-08-21",
+      "stars": 1373
+    }
+  ],
+  "homebridge/homebridge": [
+    {
+      "date": "2026-08-21",
+      "stars": 25457
+    }
+  ],
+  "Koenkk/zigbee2mqtt": [
+    {
+      "date": "2026-08-21",
+      "stars": 15514
+    }
+  ],
+  "project-chip/connectedhomeip": [
+    {
+      "date": "2026-08-21",
+      "stars": 8880
+    }
+  ],
+  "eclipse-mosquitto/mosquitto": [
+    {
+      "date": "2026-08-21",
+      "stars": 11145
+    }
+  ],
+  "zwave-js/zwave-js-ui": [
+    {
+      "date": "2026-08-21",
+      "stars": 1235
+    }
+  ],
+  "influxdata/telegraf": [
+    {
+      "date": "2026-08-21",
+      "stars": 17762
+    }
+  ],
+  "node-red/node-red": [
+    {
+      "date": "2026-08-21",
+      "stars": 23559
+    }
+  ],
+  "thingsboard/thingsboard": [
+    {
+      "date": "2026-08-21",
+      "stars": 22290
+    }
+  ],
+  "openremote/openremote": [
+    {
+      "date": "2026-08-21",
+      "stars": 1875
+    }
+  ],
+  "n8n-io/n8n": [
+    {
+      "date": "2026-08-21",
+      "stars": 201440
+    }
+  ],
+  "arendst/Tasmota": [
+    {
+      "date": "2026-08-21",
+      "stars": 24720
+    }
+  ],
+  "esphome/esphome": [
+    {
+      "date": "2026-08-21",
+      "stars": 11571
+    }
+  ],
+  "espressif/esp-idf": [
+    {
+      "date": "2026-08-21",
+      "stars": 18827
+    }
+  ],
+  "zephyrproject-rtos/zephyr": [
+    {
+      "date": "2026-08-21",
+      "stars": 16273
+    }
+  ],
+  "platformio/platformio-core": [
+    {
+      "date": "2026-08-21",
+      "stars": 9412
+    }
+  ],
+  "RIOT-OS/RIOT": [
+    {
+      "date": "2026-08-21",
+      "stars": 5776
+    }
+  ],
+  "apache/nuttx": [
+    {
+      "date": "2026-08-21",
+      "stars": 4001
+    }
+  ],
+  "micropython/micropython": [
+    {
+      "date": "2026-08-21",
+      "stars": 22002
+    }
+  ],
+  "arduino/Arduino": [
+    {
+      "date": "2026-08-21",
+      "stars": 14640
+    }
+  ],
+  "espruino/Espruino": [
+    {
+      "date": "2026-08-21",
+      "stars": 2964
+    }
+  ],
+  "letscontrolit/ESPEasy": [
+    {
+      "date": "2026-08-21",
+      "stars": 3566
+    }
+  ],
+  "rhasspy/rhasspy": [
+    {
+      "date": "2026-08-21",
+      "stars": 2750
+    }
+  ],
+  "MycroftAI/mycroft-core": [
+    {
+      "date": "2026-08-21",
+      "stars": 6610
+    }
+  ],
+  "ros2/ros2": [
+    {
+      "date": "2026-08-21",
+      "stars": 5918
+    }
+  ],
+  "ros/ros": [
+    {
+      "date": "2026-08-21",
+      "stars": 3249
+    }
+  ],
+  "PX4/PX4-Autopilot": [
+    {
+      "date": "2026-08-21",
+      "stars": 12459
+    }
+  ],
+  "ArduPilot/ardupilot": [
+    {
+      "date": "2026-08-21",
+      "stars": 15717
+    }
+  ],
+  "gazebosim/gz-sim": [
+    {
+      "date": "2026-08-21",
+      "stars": 1452
+    }
+  ],
+  "microsoft/AirSim": [
+    {
+      "date": "2026-08-21",
+      "stars": 18413
+    }
+  ],
+  "blakeblackshear/frigate": [
+    {
+      "date": "2026-08-21",
+      "stars": 35259
+    }
+  ],
+  "ZoneMinder/zoneminder": [
+    {
+      "date": "2026-08-21",
+      "stars": 5915
+    }
+  ],
+  "AlexxIT/go2rtc": [
+    {
+      "date": "2026-08-21",
+      "stars": 14006
+    }
+  ],
+  "Klipper3d/klipper": [
+    {
+      "date": "2026-08-21",
+      "stars": 11829
+    }
+  ],
+  "prusa3d/PrusaSlicer": [
+    {
+      "date": "2026-08-21",
+      "stars": 9242
+    }
+  ],
+  "Ultimaker/Cura": [
+    {
+      "date": "2026-08-21",
+      "stars": 7014
+    }
+  ],
+  "MarlinFirmware/Marlin": [
+    {
+      "date": "2026-08-21",
+      "stars": 17546
+    }
+  ],
+  "OrcaSlicer/OrcaSlicer": [
+    {
+      "date": "2026-08-21",
+      "stars": 15443
+    }
+  ]
+}

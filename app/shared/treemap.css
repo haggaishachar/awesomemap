@@ -795,6 +795,14 @@ body {
   font-size: 13px;
 }
 
+/* `.rising-row`'s own `display: flex` ties the built-in `[hidden] { display:
+   none }` UA rule on specificity, and author CSS wins that tie — so the
+   domain filter's `row.hidden = true` (render-page.mjs) would otherwise do
+   nothing visually. This rule breaks the tie explicitly. */
+.rising-row[hidden] {
+  display: none;
+}
+
 .rising-row:last-child {
   border-bottom: none;
 }

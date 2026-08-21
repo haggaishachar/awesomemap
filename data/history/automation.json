@@ -1,0 +1,290 @@
+{
+  "n8n-io/n8n": [
+    {
+      "date": "2026-08-21",
+      "stars": 201440
+    }
+  ],
+  "node-red/node-red": [
+    {
+      "date": "2026-08-21",
+      "stars": 23559
+    }
+  ],
+  "activepieces/activepieces": [
+    {
+      "date": "2026-08-21",
+      "stars": 23944
+    }
+  ],
+  "automatisch/automatisch": [
+    {
+      "date": "2026-08-21",
+      "stars": 13937
+    }
+  ],
+  "windmill-labs/windmill": [
+    {
+      "date": "2026-08-21",
+      "stars": 17595
+    }
+  ],
+  "huginn/huginn": [
+    {
+      "date": "2026-08-21",
+      "stars": 49827
+    }
+  ],
+  "apache/airflow": [
+    {
+      "date": "2026-08-21",
+      "stars": 46562
+    }
+  ],
+  "temporalio/temporal": [
+    {
+      "date": "2026-08-21",
+      "stars": 22431
+    }
+  ],
+  "PrefectHQ/prefect": [
+    {
+      "date": "2026-08-21",
+      "stars": 23647
+    }
+  ],
+  "dagster-io/dagster": [
+    {
+      "date": "2026-08-21",
+      "stars": 16042
+    }
+  ],
+  "Netflix/conductor": [
+    {
+      "date": "2026-08-21",
+      "stars": 12752
+    }
+  ],
+  "cadence-workflow/cadence": [
+    {
+      "date": "2026-08-21",
+      "stars": 9408
+    }
+  ],
+  "kestra-io/kestra": [
+    {
+      "date": "2026-08-21",
+      "stars": 27872
+    }
+  ],
+  "rundeck/rundeck": [
+    {
+      "date": "2026-08-21",
+      "stars": 6275
+    }
+  ],
+  "healthchecks/healthchecks": [
+    {
+      "date": "2026-08-21",
+      "stars": 10268
+    }
+  ],
+  "open-rpa/openrpa": [
+    {
+      "date": "2026-08-21",
+      "stars": 3045
+    }
+  ],
+  "aisingapore/TagUI": [
+    {
+      "date": "2026-08-21",
+      "stars": 6324
+    }
+  ],
+  "robocorp/rpaframework": [
+    {
+      "date": "2026-08-21",
+      "stars": 1547
+    }
+  ],
+  "SeleniumHQ/selenium": [
+    {
+      "date": "2026-08-21",
+      "stars": 34383
+    }
+  ],
+  "robotframework/robotframework": [
+    {
+      "date": "2026-08-21",
+      "stars": 11831
+    }
+  ],
+  "scrapy/scrapy": [
+    {
+      "date": "2026-08-21",
+      "stars": 63979
+    }
+  ],
+  "apify/crawlee": [
+    {
+      "date": "2026-08-21",
+      "stars": 25451
+    }
+  ],
+  "unclecode/crawl4ai": [
+    {
+      "date": "2026-08-21",
+      "stars": 78812
+    }
+  ],
+  "puppeteer/puppeteer": [
+    {
+      "date": "2026-08-21",
+      "stars": 95477
+    }
+  ],
+  "Unstructured-IO/unstructured": [
+    {
+      "date": "2026-08-21",
+      "stars": 15328
+    }
+  ],
+  "microsoft/markitdown": [
+    {
+      "date": "2026-08-21",
+      "stars": 175043
+    }
+  ],
+  "appsmithorg/appsmith": [
+    {
+      "date": "2026-08-21",
+      "stars": 40713
+    }
+  ],
+  "ToolJet/ToolJet": [
+    {
+      "date": "2026-08-21",
+      "stars": 40628
+    }
+  ],
+  "Budibase/budibase": [
+    {
+      "date": "2026-08-21",
+      "stars": 28227
+    }
+  ],
+  "nocodb/nocodb": [
+    {
+      "date": "2026-08-21",
+      "stars": 64608
+    }
+  ],
+  "baserow/baserow": [
+    {
+      "date": "2026-08-21",
+      "stars": 5645
+    }
+  ],
+  "illacloud/illa-builder": [
+    {
+      "date": "2026-08-21",
+      "stars": 12310
+    }
+  ],
+  "nocobase/nocobase": [
+    {
+      "date": "2026-08-21",
+      "stars": 23718
+    }
+  ],
+  "strapi/strapi": [
+    {
+      "date": "2026-08-21",
+      "stars": 72985
+    }
+  ],
+  "directus/directus": [
+    {
+      "date": "2026-08-21",
+      "stars": 37463
+    }
+  ],
+  "odoo/odoo": [
+    {
+      "date": "2026-08-21",
+      "stars": 53830
+    }
+  ],
+  "frappe/erpnext": [
+    {
+      "date": "2026-08-21",
+      "stars": 38326
+    }
+  ],
+  "camunda/camunda": [
+    {
+      "date": "2026-08-21",
+      "stars": 4254
+    }
+  ],
+  "twentyhq/twenty": [
+    {
+      "date": "2026-08-21",
+      "stars": 55226
+    }
+  ],
+  "documenso/documenso": [
+    {
+      "date": "2026-08-21",
+      "stars": 14642
+    }
+  ],
+  "formbricks/formbricks": [
+    {
+      "date": "2026-08-21",
+      "stars": 12795
+    }
+  ],
+  "invoiceninja/invoiceninja": [
+    {
+      "date": "2026-08-21",
+      "stars": 10012
+    }
+  ],
+  "airbytehq/airbyte": [
+    {
+      "date": "2026-08-21",
+      "stars": 21930
+    }
+  ],
+  "dlt-hub/dlt": [
+    {
+      "date": "2026-08-21",
+      "stars": 5764
+    }
+  ],
+  "novuhq/novu": [
+    {
+      "date": "2026-08-21",
+      "stars": 39622
+    }
+  ],
+  "binwiederhier/ntfy": [
+    {
+      "date": "2026-08-21",
+      "stars": 33650
+    }
+  ],
+  "mautic/mautic": [
+    {
+      "date": "2026-08-21",
+      "stars": 10372
+    }
+  ],
+  "knadh/listmonk": [
+    {
+      "date": "2026-08-21",
+      "stars": 23017
+    }
+  ]
+}

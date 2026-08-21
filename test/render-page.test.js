@@ -187,7 +187,7 @@ test("renderRisingPage renders a row per leaderboard entry, with rank, arrow, an
   assert.match(html, /\+40 \(\+40\.0%\)/);
 });
 
-test("renderRisingPage's rows show the repo id and the domain's short name", () => {
+test("renderRisingPage's rows show the repo id and the domain's short name, and carry the domain's slug for filtering", () => {
   const domains = [{ slug: "artificial-intelligence", name: "Best Artificial Intelligence Open Source Projects", shortName: "AI" }];
   const leaderboardsByWindow = {
     7: {
@@ -199,6 +199,7 @@ test("renderRisingPage's rows show the repo id and the domain's short name", () 
           link: "https://vllm.ai/",
           domain: "Best Artificial Intelligence Open Source Projects",
           domainShort: "AI",
+          domainSlug: "artificial-intelligence",
           starDelta: 40,
           percentDelta: 40,
           rankDelta: 1,
@@ -212,6 +213,7 @@ test("renderRisingPage's rows show the repo id and the domain's short name", () 
   const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
   assert.match(html, /<span class="rising-row-repo">vllm-project\/vllm<\/span>/);
   assert.match(html, /<span class="rising-row-domain" title="Best Artificial Intelligence Open Source Projects">AI<\/span>/);
+  assert.match(html, /<li class="rising-row" data-domain="artificial-intelligence">/);
 });
 
 test("renderRisingPage renders a domain filter chip per domain, plus an All chip", () => {
@@ -242,6 +244,18 @@ test("renderRisingPage's inline script applies the domain filter matching the UR
   assert.match(html, /applyDomainFilter\(initialDomain\);/);
 });
 
+test("renderRisingPage's domain filter narrows the Hottest overall rows themselves, not separate per-domain sections", () => {
+  const domains = [{ slug: "artificial-intelligence", name: "Best Artificial Intelligence Open Source Projects", shortName: "AI" }];
+  const leaderboardsByWindow = {
+    7: { global: [], "artificial-intelligence": [] },
+    30: { global: [], "artificial-intelligence": [] },
+    90: { global: [], "artificial-intelligence": [] },
+  };
+  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /document\.querySelectorAll\("\.rising-row"\)\.forEach\(\(row\) => \{/);
+  assert.match(html, /row\.hidden = selected !== "all" && row\.dataset\.domain !== selected;/);
+});
+
 test("renderRisingPage shows a not-ready placeholder for a leaderboard with no eligible entries", () => {
   const domains = [{ slug: "data-science", name: "Data Science" }];
   const leaderboardsByWindow = {
@@ -261,7 +275,7 @@ test("renderRisingPage renders all three window variants, only the 7-day one vis
   assert.match(html, /<div class="rising-rows" data-window="90" hidden>/);
 });
 
-test("renderRisingPage's domain sections are anchorable by slug and link to that domain's page", () => {
+test("renderRisingPage renders only the Hottest overall section — no Hottest ecosystems table and no per-domain sections", () => {
   const domains = [{ slug: "data-science", name: "Data Science" }];
   const leaderboardsByWindow = {
     7: { global: [], "data-science": [] },
@@ -269,8 +283,11 @@ test("renderRisingPage's domain sections are anchorable by slug and link to that
     90: { global: [], "data-science": [] },
   };
   const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
-  assert.match(html, /<section class="rising-section" id="data-science">/);
-  assert.match(html, /<a href="\/techmap\/data-science\/">Data Science<\/a>/);
+  assert.match(html, /<section class="rising-section" id="global">/);
+  assert.doesNotMatch(html, /<section class="rising-section" id="data-science">/);
+  assert.doesNotMatch(html, /Hottest ecosystems/);
+  const sectionCount = [...html.matchAll(/class="rising-section"/g)].length;
+  assert.equal(sectionCount, 1, "only the Hottest overall section should render");
 });
 
 test("renderDomainPage renders a teaser section below the map, linking to that domain's rising anchor", () => {
@@ -438,35 +455,6 @@ test("renderLandingPage headings use the short name, keeping the long SEO title 
   assert.match(html, /title="Best Web Development Open Source Projects"/);
 });
 
-test("renderRisingPage ranks whole domains by growth rate in its own section", () => {
-  const domains = [
-    { slug: "big", name: "Big", shortName: "Big", description: "d" },
-    { slug: "hot", name: "Hot", shortName: "Hot", description: "d" },
-  ];
-  const domainGrowthByWindow = {
-    7: { big: growth({ percentDelta: 0.1, starDelta: 5000 }), hot: growth({ percentDelta: 3.2, starDelta: 400 }) },
-    30: {},
-    90: {},
-  };
-  const html = renderRisingPage(domains, { 7: {}, 30: {}, 90: {} }, { defaultOgImage: "/og.png", domainGrowthByWindow });
-  const section = html.match(/<section class="rising-section" id="domains">[\s\S]*?<\/section>/)[0];
-  // Scope to the 7-day variant: the section carries all three windows, and the
-  // 30/90-day ones have no data here, so they legitimately fall back to the
-  // untracked ordering.
-  const sevenDay = section.match(/<div class="rising-rows" data-window="7">[\s\S]*?<\/div>/)[0];
-  const order = [...sevenDay.matchAll(/class="momentum-row-name" href="\/(\w+)\//g)].map((m) => m[1]);
-  assert.deepEqual(order, ["hot", "big"], "the smaller, faster-growing domain must outrank the bigger, slower one");
-  assert.match(sevenDay, /10\/10 tracked/);
-});
-
-test("renderRisingPage's domain table falls back to the untracked state for a window with no history", () => {
-  const domains = [{ slug: "only", name: "Only", shortName: "Only", description: "d" }];
-  const domainGrowthByWindow = { 7: { only: growth({ percentDelta: 1 }) }, 30: {}, 90: {} };
-  const html = renderRisingPage(domains, { 7: {}, 30: {}, 90: {} }, { defaultOgImage: "/og.png", domainGrowthByWindow });
-  const ninetyDay = html.match(/<div class="rising-rows" data-window="90"[^>]*>[\s\S]*?<\/div>/)[0];
-  assert.match(ninetyDay, /Not tracked yet/);
-});
-
 test("renderDomainPage lists its categories by growth rate and omits them from the embed", () => {
   const domain = { slug: "data-science", name: "Data Science", description: "desc" };
   const categoryGrowth = [
@@ -488,14 +476,3 @@ test("renderDomainPage omits the category section entirely when no category has 
   assert.doesNotMatch(html, /Where the heat is/);
 });
 
-test("renderRisingPage prints a dash instead of a rank number for untracked domains", () => {
-  const domains = [
-    { slug: "a", name: "A", shortName: "A", description: "d" },
-    { slug: "b", name: "B", shortName: "B", description: "d" },
-  ];
-  const domainGrowthByWindow = { 7: {}, 30: {}, 90: {} };
-  const html = renderRisingPage(domains, { 7: {}, 30: {}, 90: {} }, { defaultOgImage: "/og.png", domainGrowthByWindow });
-  const sevenDay = html.match(/<div class="rising-rows" data-window="7">[\s\S]*?<\/div>/)[0];
-  const ranks = [...sevenDay.matchAll(/momentum-row-rank">([^<]*)</g)].map((m) => m[1]);
-  assert.deepEqual(ranks, ["–", "–"], "an unmeasured window must not assert a standing");
-});

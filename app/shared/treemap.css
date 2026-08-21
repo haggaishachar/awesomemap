@@ -581,20 +581,10 @@ body {
   white-space: nowrap;
 }
 
-a.momentum-row-name:hover {
-  color: var(--color-accent);
-}
-
 .momentum-row-coverage {
   font-size: 11px;
   color: var(--color-text-muted);
   font-variant-numeric: tabular-nums;
-}
-
-.rising-section-note {
-  margin: 0 0 12px;
-  font-size: 13px;
-  color: var(--color-text-muted);
 }
 
 /* Side-by-side under the map on wide screens, stacked on narrow ones. */
@@ -784,15 +774,6 @@ a.momentum-row-name:hover {
 .rising-section-heading {
   font-size: 18px;
   margin: 0 0 8px;
-}
-
-.rising-section-heading a {
-  color: var(--color-text);
-  text-decoration: none;
-}
-
-.rising-section-heading a:hover {
-  color: var(--color-accent);
 }
 
 .rising-rows-list {

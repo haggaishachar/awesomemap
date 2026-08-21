@@ -226,7 +226,6 @@ writeFileSync(
     defaultOgImage: DEFAULT_OG_IMAGE,
     siteUrl: SITE_URL,
     basePath: BASE_PATH,
-    domainGrowthByWindow,
   })
 );
 

@@ -186,75 +186,6 @@ function renderMomentumStat(growth, { windowDays }) {
 }
 
 /**
- * A group's rank number, or a dash when it has no history. `rankGroups` still
- * assigns positions to untracked groups so the list has a stable order, but
- * printing "#1" next to "Not tracked yet" would assert a standing that hasn't
- * been measured — in a window where nothing is tracked, the order is really
- * just alphabetical.
- */
-function renderMomentumRank(group) {
-  return group.growth?.hasEnoughHistory ? String(group.rank) : "–";
-}
-
-/**
- * Renders the cross-domain momentum table: every domain ranked by how fast its
- * whole ecosystem is growing, not by how big it already is. This is the view
- * GitHub Trending structurally cannot offer — Trending's only axes are
- * language and time window, so it has no notion of what a project is *for* and
- * nothing to aggregate over.
- *
- * `rankedDomains` is `rankGroups` output over `{ key, slug, shortName, name, growth }`.
- */
-function renderDomainMomentumRows(rankedDomains, { windowDays, basePath }) {
-  if (rankedDomains.length === 0) {
-    return `<p class="rising-empty">Not enough star-history yet for this window.</p>`;
-  }
-  const rows = rankedDomains
-    .map(
-      (domain) => `
-        <li class="momentum-row">
-          <span class="momentum-row-rank">${renderMomentumRank(domain)}</span>
-          <a class="momentum-row-name" href="${basePath}/${escapeHtml(domain.slug)}/" title="${escapeHtml(domain.name)}">${escapeHtml(domain.shortName)}</a>
-          <span class="momentum-row-coverage">${domain.growth.trackedCount}/${domain.growth.projectCount} tracked</span>
-          ${renderMomentumStat(domain.growth, { windowDays })}
-        </li>`
-    )
-    .join("");
-  return `<ol class="momentum-rows-list">${rows}</ol>`;
-}
-
-/**
- * The domain-momentum section for the Rising page, with one variant per
- * window. Reuses the `.rising-rows`/`data-window` contract so the page's
- * existing window-toggle script drives it with no extra wiring, and lives in a
- * `.rising-section` so the existing domain filter hides it alongside the
- * cross-domain "Hottest overall" list.
- */
-function renderDomainMomentumSection(domains, domainGrowthByWindow, { basePath }) {
-  const variants = RISING_WINDOWS_DAYS.map((windowDays, index) => {
-    const growthBySlug = domainGrowthByWindow?.[windowDays] ?? {};
-    const ranked = rankGroups(
-      domains.map((domain) => ({
-        key: domain.slug,
-        slug: domain.slug,
-        name: domain.name,
-        shortName: domain.shortName ?? domain.name,
-        growth: growthBySlug[domain.slug] ?? { hasEnoughHistory: false, percentDelta: 0 },
-      }))
-    );
-    const hiddenAttr = index === 0 ? "" : " hidden";
-    return `<div class="rising-rows" data-window="${windowDays}"${hiddenAttr}>${renderDomainMomentumRows(ranked, { windowDays, basePath })}</div>`;
-  }).join("");
-
-  return `
-    <section class="rising-section" id="domains">
-      <h2 class="rising-section-heading">Hottest ecosystems</h2>
-      <p class="rising-section-note">Whole domains ranked by growth rate, so a fast-moving niche isn't buried under a big one.</p>
-      ${variants}
-    </section>`;
-}
-
-/**
  * Renders a domain's categories ranked by growth rate — the zoom below the
  * domain level, answering "where inside this ecosystem is the heat?".
  * `rankedCategories` is `rankGroups` output over `{ key, growth }`.
@@ -386,7 +317,7 @@ function renderRisingRow(entry, { showDomain }) {
     : "";
   const repoId = entry.id ? `<span class="rising-row-repo">${escapeHtml(entry.id)}</span>` : "";
   return `
-    <li class="rising-row">
+    <li class="rising-row" data-domain="${escapeHtml(entry.domainSlug ?? "")}">
       <span class="rising-row-rank">${entry.rank}</span>
       ${icon}
       <span class="rising-row-title">
@@ -438,25 +369,26 @@ function renderRisingWindowVariants(leaderboardsByWindow, scopeKey, { showDomain
 }
 
 /** One full leaderboard section (heading + all three window variants), anchorable by `id`. */
-function renderRisingSection({ id, heading, headingHref, leaderboardsByWindow, scopeKey, showDomain }) {
-  const headingHtml = headingHref ? `<a href="${escapeHtml(headingHref)}">${escapeHtml(heading)}</a>` : escapeHtml(heading);
+function renderRisingSection({ id, heading, leaderboardsByWindow, scopeKey, showDomain }) {
   return `
     <section class="rising-section" id="${escapeHtml(id)}">
-      <h2 class="rising-section-heading">${headingHtml}</h2>
+      <h2 class="rising-section-heading">${escapeHtml(heading)}</h2>
       ${renderRisingWindowVariants(leaderboardsByWindow, scopeKey, { showDomain })}
     </section>`;
 }
 
 /**
- * Renders the dedicated Rising page: a global leaderboard plus one per
- * domain, sharing a single 7/30/90-day window toggle and a domain filter.
- * `domains` is `[{ slug, name, shortName }]`; `leaderboardsByWindow` is
+ * Renders the dedicated Rising page: the cross-domain "Hottest overall"
+ * leaderboard, sharing a single 7/30/90-day window toggle with a domain
+ * quick filter that narrows those same rows to one domain instead of
+ * switching between separate per-domain sections. `domains` is
+ * `[{ slug, name, shortName }]`; `leaderboardsByWindow` is
  * `{ [windowDays]: { global: entries[], [slug]: entries[] } }` — the shape
- * `generate.mjs` builds from `leaderboard.mjs`'s `computeLeaderboard`.
+ * `generate.mjs` builds from `leaderboard.mjs`'s `computeLeaderboard`. Only
+ * the `global` scope is read here; the per-domain slices exist for other
+ * callers (teasers, domain ranks) and are ignored by this page.
  */
-export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage, siteUrl = "", basePath = "", generatedAt = new Date(), domainGrowthByWindow = {} }) {
-  const domainMomentumSection = renderDomainMomentumSection(domains, domainGrowthByWindow, { basePath });
-
+export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage, siteUrl = "", basePath = "", generatedAt = new Date() }) {
   const globalSection = renderRisingSection({
     id: "global",
     heading: "Hottest overall",
@@ -464,19 +396,6 @@ export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage
     scopeKey: "global",
     showDomain: true,
   });
-
-  const domainSections = domains
-    .map((domain) =>
-      renderRisingSection({
-        id: domain.slug,
-        heading: domain.name,
-        headingHref: `${basePath}/${domain.slug}/`,
-        leaderboardsByWindow,
-        scopeKey: domain.slug,
-        showDomain: false,
-      })
-    )
-    .join("");
 
   const windowBar = `
     <div class="rising-window-bar">
@@ -486,10 +405,9 @@ export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage
       ).join("")}
     </div>`;
 
-  // Lets a visitor jump straight to one domain's leaderboard instead of
-  // scrolling past every other domain's section — "All" (the default)
-  // shows every section including the cross-domain "Hottest overall" one;
-  // picking a domain hides everything but that domain's own section.
+  // Narrows the "Hottest overall" rows to one domain instead of scrolling a
+  // filtered-out list — "All" (the default) shows every row; picking a
+  // domain hides every row whose `data-domain` doesn't match.
   const domainFilterBar = `
     <div class="rising-domain-filter" role="group" aria-label="Filter by domain">
       <button type="button" class="rising-domain-button rising-domain-button-active" data-domain="all">All</button>
@@ -511,9 +429,7 @@ export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage
     ${domainFilterBar}
     ${windowBar}
     <div class="rising-page">
-      ${domainMomentumSection}
       ${globalSection}
-      ${domainSections}
     </div>
     <script>
       document.querySelectorAll(".rising-window-bar button").forEach((button) => {
@@ -531,8 +447,8 @@ export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage
         document.querySelectorAll(".rising-domain-filter button").forEach((b) => {
           b.classList.toggle("rising-domain-button-active", b.dataset.domain === selected);
         });
-        document.querySelectorAll(".rising-section").forEach((section) => {
-          section.hidden = selected !== "all" && section.id !== selected;
+        document.querySelectorAll(".rising-row").forEach((row) => {
+          row.hidden = selected !== "all" && row.dataset.domain !== selected;
         });
       }
       document.querySelectorAll(".rising-domain-filter button").forEach((button) => {

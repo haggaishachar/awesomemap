@@ -370,3 +370,120 @@ test("renderLandingPage emits a WebSite JSON-LD block", () => {
   assert.equal(jsonLd["@type"], "WebSite");
   assert.equal(jsonLd.url, "https://awesomemap.dev/");
 });
+
+/** A `computeGroupGrowth`-shaped result, for exercising the momentum surfaces. */
+function growth({ percentDelta, starDelta = 100, projectCount = 10, trackedCount = 10, hasEnoughHistory = true, oldestDate = "2026-08-08" }) {
+  return { projectCount, trackedCount, totalStars: 1000, baselineStars: 900, starDelta, percentDelta, hasEnoughHistory, oldestDate };
+}
+
+test("renderLandingPage orders domain cards by growth rate, not by input order", () => {
+  const domains = [
+    { slug: "slow", name: "Slow Domain", shortName: "Slow", description: "d", growth: growth({ percentDelta: 0.06 }) },
+    { slug: "fast", name: "Fast Domain", shortName: "Fast", description: "d", growth: growth({ percentDelta: 2.4 }) },
+    { slug: "mid", name: "Mid Domain", shortName: "Mid", description: "d", growth: growth({ percentDelta: 0.5 }) },
+  ];
+  const html = renderLandingPage(domains, { defaultOgImage: "/og.png" });
+  const order = [...html.matchAll(/<a class="map-card" href="\/(\w+)\//g)].map((m) => m[1]);
+  assert.deepEqual(order, ["fast", "mid", "slow"]);
+});
+
+test("renderLandingPage distinguishes domains whose weekly growth differs only below one decimal place", () => {
+  // Real domain momentum over a week sits under 1%. At one decimal these two
+  // would both render "+0.1%" while still being ranked in an order the reader
+  // has no way to verify.
+  const domains = [
+    { slug: "a", name: "A", shortName: "A", description: "d", growth: growth({ percentDelta: 0.1208 }) },
+    { slug: "b", name: "B", shortName: "B", description: "d", growth: growth({ percentDelta: 0.0646 }) },
+  ];
+  const html = renderLandingPage(domains, { defaultOgImage: "/og.png" });
+  assert.match(html, /\+0\.12%/);
+  assert.match(html, /\+0\.06%/);
+});
+
+test("renderLandingPage reports an untracked domain as untracked rather than as 0% growth", () => {
+  const domains = [
+    { slug: "new", name: "New Domain", shortName: "New", description: "d", growth: growth({ percentDelta: 0, starDelta: 0, trackedCount: 0, hasEnoughHistory: false, oldestDate: null }) },
+  ];
+  const html = renderLandingPage(domains, { defaultOgImage: "/og.png" });
+  assert.match(html, /Not tracked yet/);
+  assert.doesNotMatch(html, /0\.00%/, "a domain with no snapshots must not claim a measured 0%");
+});
+
+test("renderLandingPage sorts an untracked domain below one that genuinely shrank", () => {
+  const domains = [
+    { slug: "untracked", name: "U", shortName: "U", description: "d", growth: growth({ percentDelta: 0, trackedCount: 0, hasEnoughHistory: false, oldestDate: null }) },
+    { slug: "declining", name: "D", shortName: "D", description: "d", growth: growth({ percentDelta: -3, starDelta: -50 }) },
+  ];
+  const html = renderLandingPage(domains, { defaultOgImage: "/og.png" });
+  const order = [...html.matchAll(/<a class="map-card" href="\/(\w+)\//g)].map((m) => m[1]);
+  assert.deepEqual(order, ["declining", "untracked"]);
+});
+
+test("renderLandingPage headings use the short name, keeping the long SEO title as the link title", () => {
+  const domains = [{ slug: "web-dev", name: "Best Web Development Open Source Projects", shortName: "Web Dev", description: "d", growth: growth({ percentDelta: 1 }) }];
+  const html = renderLandingPage(domains, { defaultOgImage: "/og.png" });
+  assert.match(html, /<h3>Web Dev<\/h3>/);
+  assert.match(html, /title="Best Web Development Open Source Projects"/);
+});
+
+test("renderRisingPage ranks whole domains by growth rate in its own section", () => {
+  const domains = [
+    { slug: "big", name: "Big", shortName: "Big", description: "d" },
+    { slug: "hot", name: "Hot", shortName: "Hot", description: "d" },
+  ];
+  const domainGrowthByWindow = {
+    7: { big: growth({ percentDelta: 0.1, starDelta: 5000 }), hot: growth({ percentDelta: 3.2, starDelta: 400 }) },
+    30: {},
+    90: {},
+  };
+  const html = renderRisingPage(domains, { 7: {}, 30: {}, 90: {} }, { defaultOgImage: "/og.png", domainGrowthByWindow });
+  const section = html.match(/<section class="rising-section" id="domains">[\s\S]*?<\/section>/)[0];
+  // Scope to the 7-day variant: the section carries all three windows, and the
+  // 30/90-day ones have no data here, so they legitimately fall back to the
+  // untracked ordering.
+  const sevenDay = section.match(/<div class="rising-rows" data-window="7">[\s\S]*?<\/div>/)[0];
+  const order = [...sevenDay.matchAll(/class="momentum-row-name" href="\/(\w+)\//g)].map((m) => m[1]);
+  assert.deepEqual(order, ["hot", "big"], "the smaller, faster-growing domain must outrank the bigger, slower one");
+  assert.match(sevenDay, /10\/10 tracked/);
+});
+
+test("renderRisingPage's domain table falls back to the untracked state for a window with no history", () => {
+  const domains = [{ slug: "only", name: "Only", shortName: "Only", description: "d" }];
+  const domainGrowthByWindow = { 7: { only: growth({ percentDelta: 1 }) }, 30: {}, 90: {} };
+  const html = renderRisingPage(domains, { 7: {}, 30: {}, 90: {} }, { defaultOgImage: "/og.png", domainGrowthByWindow });
+  const ninetyDay = html.match(/<div class="rising-rows" data-window="90"[^>]*>[\s\S]*?<\/div>/)[0];
+  assert.match(ninetyDay, /Not tracked yet/);
+});
+
+test("renderDomainPage lists its categories by growth rate and omits them from the embed", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const categoryGrowth = [
+    { key: "Deep Learning", rank: 1, growth: growth({ percentDelta: 1.2 }) },
+    { key: "Notebooks", rank: 2, growth: growth({ percentDelta: 0.3 }) },
+  ];
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og.png", categoryGrowth });
+  assert.match(html, /Where the heat is/);
+  assert.match(html, /Deep Learning/);
+
+  const embedHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og.png", categoryGrowth, embed: true });
+  assert.doesNotMatch(embedHtml, /Where the heat is/);
+});
+
+test("renderDomainPage omits the category section entirely when no category has history", () => {
+  const domain = { slug: "smart-home", name: "Smart Home", description: "desc" };
+  const categoryGrowth = [{ key: "Hubs", rank: 1, growth: growth({ percentDelta: 0, trackedCount: 0, hasEnoughHistory: false, oldestDate: null }) }];
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og.png", categoryGrowth });
+  assert.doesNotMatch(html, /Where the heat is/);
+});
+
+test("renderRisingPage prints a dash instead of a rank number for untracked domains", () => {
+  const domains = [
+    { slug: "a", name: "A", shortName: "A", description: "d" },
+    { slug: "b", name: "B", shortName: "B", description: "d" },
+  ];
+  const domainGrowthByWindow = { 7: {}, 30: {}, 90: {} };
+  const html = renderRisingPage(domains, { 7: {}, 30: {}, 90: {} }, { defaultOgImage: "/og.png", domainGrowthByWindow });
+  const sevenDay = html.match(/<div class="rising-rows" data-window="7">[\s\S]*?<\/div>/)[0];
+  const ranks = [...sevenDay.matchAll(/momentum-row-rank">([^<]*)</g)].map((m) => m[1]);
+  assert.deepEqual(ranks, ["–", "–"], "an unmeasured window must not assert a standing");
+});

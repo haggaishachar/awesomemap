@@ -480,6 +480,175 @@ body {
   color: var(--color-text-muted);
 }
 
+.map-index-note {
+  margin: 0 0 20px;
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+/* Pushed to the bottom of the card so the momentum figures line up across a
+   row regardless of how long each description runs. */
+.map-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.map-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+  margin-top: auto;
+  padding-top: 12px;
+}
+
+.map-card-count {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Shared growth stat, used by the landing cards, the domain-momentum table on
+   /rising/, and each domain page's category list. */
+.momentum-stat {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
+.momentum-stat strong {
+  font-size: 13px;
+}
+
+.momentum-abs {
+  color: var(--color-text-muted);
+}
+
+.momentum-up {
+  color: var(--color-rising-up);
+}
+
+.momentum-down {
+  color: var(--color-rising-down);
+}
+
+.momentum-flat,
+.momentum-pending {
+  color: var(--color-text-muted);
+}
+
+/* A domain we haven't measured yet is a different claim from one that didn't
+   move, so it reads as muted and italic rather than as a real figure. */
+.momentum-pending {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.momentum-rows-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.momentum-row {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: var(--color-surface);
+}
+
+.momentum-row-rank {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.momentum-row-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text);
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+a.momentum-row-name:hover {
+  color: var(--color-accent);
+}
+
+.momentum-row-coverage {
+  font-size: 11px;
+  color: var(--color-text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.rising-section-note {
+  margin: 0 0 12px;
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+/* Side-by-side under the map on wide screens, stacked on narrow ones. */
+.domain-insights {
+  box-sizing: border-box;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  align-items: start;
+}
+
+.category-momentum {
+  margin: 32px 0 0;
+}
+
+/* The teaser centres itself and pads its own gutters when it sits alone on a
+   page; inside the insights grid the container already does both. */
+.domain-insights .rising-teaser {
+  max-width: none;
+  margin: 32px 0 0;
+  padding: 0;
+}
+
+.category-momentum-heading {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0 0 12px;
+}
+
+.detail-panel-rank {
+  margin: 0 0 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
+@media (max-width: 640px) {
+  .momentum-row {
+    grid-template-columns: 24px minmax(0, 1fr) auto;
+  }
+
+  /* Coverage is the first thing to go when space is tight — the growth figure
+     and the name are what the row is for. */
+  .momentum-row-coverage {
+    display: none;
+  }
+}
+
 .site-header {
   display: flex;
   align-items: center;

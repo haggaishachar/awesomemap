@@ -65,7 +65,14 @@ const COLLAGE_MAX_ICONS = 4;
  */
 export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
   let sizeMode = "popular"; // "popular" | "rising"
-  let risingWindow = 30;
+  // The shortest window, matching the one every server-rendered surface leads
+  // with (generate.mjs's MOMENTUM_WINDOW_DAYS / TEASER_WINDOW_DAYS, both
+  // RISING_WINDOWS_DAYS[0]), so a visitor who arrives from a landing card or a
+  // leaderboard sees the map describing the same period those figures did.
+  // It's also the only window that degrades gracefully as history accrues: a
+  // longer default renders every box as insufficient-history until the
+  // snapshot archive is deep enough to fill it.
+  let risingWindow = RISING_WINDOWS_DAYS[0];
   let root = buildHierarchy(mapData, activeSizeKey());
   let focusNode = root;
   let focusIdPath = [root.data.id];

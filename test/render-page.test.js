@@ -230,6 +230,18 @@ test("renderRisingPage renders a domain filter chip per domain, plus an All chip
   assert.match(html, /<button type="button" class="rising-domain-button" data-domain="security">Security<\/button>/);
 });
 
+test("renderRisingPage's inline script applies the domain filter matching the URL hash on load, so a quick-filter link (from the landing page or a domain page) arrives pre-filtered", () => {
+  const domains = [{ slug: "artificial-intelligence", name: "Best Artificial Intelligence Open Source Projects", shortName: "AI" }];
+  const leaderboardsByWindow = {
+    7: { global: [], "artificial-intelligence": [] },
+    30: { global: [], "artificial-intelligence": [] },
+    90: { global: [], "artificial-intelligence": [] },
+  };
+  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /const initialDomain = decodeURIComponent\(location\.hash\.slice\(1\)\);/);
+  assert.match(html, /applyDomainFilter\(initialDomain\);/);
+});
+
 test("renderRisingPage shows a not-ready placeholder for a leaderboard with no eligible entries", () => {
   const domains = [{ slug: "data-science", name: "Data Science" }];
   const leaderboardsByWindow = {
@@ -292,9 +304,9 @@ test("renderLandingPage's hero includes a quick-jump link per domain, using its 
   const html = renderLandingPage(domains, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
   assert.match(
     html,
-    /<a class="domain-quicklink" href="\/techmap\/artificial-intelligence\/" title="Best Artificial Intelligence Open Source Projects">AI<\/a>/
+    /<a class="domain-quicklink" href="\/techmap\/rising\/#artificial-intelligence" title="Best Artificial Intelligence Open Source Projects">AI<\/a>/
   );
-  assert.match(html, /<a class="domain-quicklink" href="\/techmap\/security\/" title="Best Security Open Source Projects">Security<\/a>/);
+  assert.match(html, /<a class="domain-quicklink" href="\/techmap\/rising\/#security" title="Best Security Open Source Projects">Security<\/a>/);
   assert.ok(html.indexOf('class="domain-quicklinks"') < html.indexOf('class="map-grid"'));
 });
 

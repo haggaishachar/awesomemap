@@ -125,12 +125,12 @@ export function renderDomainPage(domain, tree, { embed = false, defaultOgImage, 
   });
 }
 
-/** Renders a compact nav strip of short domain names, each jumping straight to that domain's map — a fast path for visitors who already know where they're headed, complementing the fuller `.map-grid` cards below. `domains` is `[{ slug, name, shortName }]`. */
+/** Renders a compact nav strip of short domain names, each jumping straight to that domain's filtered Rising leaderboard — a fast path for visitors who already know where they're headed, complementing the fuller `.map-grid` cards below. `domains` is `[{ slug, name, shortName }]`. */
 function renderDomainQuicklinks(domains, basePath) {
   const links = domains
     .map(
       (domain) => `
-        <a class="domain-quicklink" href="${basePath}/${escapeHtml(domain.slug)}/" title="${escapeHtml(domain.name)}">${escapeHtml(domain.shortName ?? domain.name)}</a>`
+        <a class="domain-quicklink" href="${basePath}/rising/#${escapeHtml(domain.slug)}" title="${escapeHtml(domain.name)}">${escapeHtml(domain.shortName ?? domain.name)}</a>`
     )
     .join("");
   return `<nav class="domain-quicklinks" aria-label="Jump to a domain">${links}</nav>`;
@@ -341,17 +341,24 @@ export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage
           });
         });
       });
-      document.querySelectorAll(".rising-domain-filter button").forEach((button) => {
-        button.addEventListener("click", () => {
-          const selected = button.dataset.domain;
-          document.querySelectorAll(".rising-domain-filter button").forEach((b) => {
-            b.classList.toggle("rising-domain-button-active", b === button);
-          });
-          document.querySelectorAll(".rising-section").forEach((section) => {
-            section.hidden = selected !== "all" && section.id !== selected;
-          });
+      function applyDomainFilter(selected) {
+        document.querySelectorAll(".rising-domain-filter button").forEach((b) => {
+          b.classList.toggle("rising-domain-button-active", b.dataset.domain === selected);
         });
+        document.querySelectorAll(".rising-section").forEach((section) => {
+          section.hidden = selected !== "all" && section.id !== selected;
+        });
+      }
+      document.querySelectorAll(".rising-domain-filter button").forEach((button) => {
+        button.addEventListener("click", () => applyDomainFilter(button.dataset.domain));
       });
+      // Arriving via a domain quick-filter link (e.g. #artificial-intelligence,
+      // as used by the landing page's quicklinks and each domain page's Rising
+      // teaser) pre-applies that domain's filter instead of just scrolling.
+      const initialDomain = decodeURIComponent(location.hash.slice(1));
+      if (document.querySelector(\`.rising-domain-filter button[data-domain="\${initialDomain}"]\`)) {
+        applyDomainFilter(initialDomain);
+      }
     </script>
     ${renderSiteFooter()}
   `;

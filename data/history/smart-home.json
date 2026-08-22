@@ -3,11 +3,19 @@
     {
       "date": "2026-08-21",
       "stars": 90019
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 90034
     }
   ],
   "openhab/openhab-addons": [
     {
       "date": "2026-08-21",
+      "stars": 2062
+    },
+    {
+      "date": "2026-08-22",
       "stars": 2062
     }
   ],
@@ -15,11 +23,19 @@
     {
       "date": "2026-08-21",
       "stars": 3792
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 3793
     }
   ],
   "ioBroker/ioBroker": [
     {
       "date": "2026-08-21",
+      "stars": 1373
+    },
+    {
+      "date": "2026-08-22",
       "stars": 1373
     }
   ],
@@ -27,29 +43,49 @@
     {
       "date": "2026-08-21",
       "stars": 25457
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 25459
     }
   ],
   "Koenkk/zigbee2mqtt": [
     {
       "date": "2026-08-21",
       "stars": 15514
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 15515
     }
   ],
   "project-chip/connectedhomeip": [
     {
       "date": "2026-08-21",
       "stars": 8880
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 8881
     }
   ],
   "eclipse-mosquitto/mosquitto": [
     {
       "date": "2026-08-21",
       "stars": 11145
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 11147
     }
   ],
   "zwave-js/zwave-js-ui": [
     {
       "date": "2026-08-21",
+      "stars": 1235
+    },
+    {
+      "date": "2026-08-22",
       "stars": 1235
     }
   ],
@@ -57,83 +93,139 @@
     {
       "date": "2026-08-21",
       "stars": 17762
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 17764
     }
   ],
   "node-red/node-red": [
     {
       "date": "2026-08-21",
       "stars": 23559
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 23567
     }
   ],
   "thingsboard/thingsboard": [
     {
       "date": "2026-08-21",
       "stars": 22290
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 22293
     }
   ],
   "openremote/openremote": [
     {
       "date": "2026-08-21",
       "stars": 1875
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 1877
     }
   ],
   "n8n-io/n8n": [
     {
       "date": "2026-08-21",
       "stars": 201440
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 201566
     }
   ],
   "arendst/Tasmota": [
     {
       "date": "2026-08-21",
       "stars": 24720
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 24722
     }
   ],
   "esphome/esphome": [
     {
       "date": "2026-08-21",
       "stars": 11571
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 11574
     }
   ],
   "espressif/esp-idf": [
     {
       "date": "2026-08-21",
       "stars": 18827
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 18838
     }
   ],
   "zephyrproject-rtos/zephyr": [
     {
       "date": "2026-08-21",
       "stars": 16273
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 16285
     }
   ],
   "platformio/platformio-core": [
     {
       "date": "2026-08-21",
       "stars": 9412
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 9415
     }
   ],
   "RIOT-OS/RIOT": [
     {
       "date": "2026-08-21",
       "stars": 5776
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 5777
     }
   ],
   "apache/nuttx": [
     {
       "date": "2026-08-21",
       "stars": 4001
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 4002
     }
   ],
   "micropython/micropython": [
     {
       "date": "2026-08-21",
       "stars": 22002
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 22004
     }
   ],
   "arduino/Arduino": [
     {
       "date": "2026-08-21",
+      "stars": 14640
+    },
+    {
+      "date": "2026-08-22",
       "stars": 14640
     }
   ],
@@ -141,17 +233,29 @@
     {
       "date": "2026-08-21",
       "stars": 2964
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 2964
     }
   ],
   "letscontrolit/ESPEasy": [
     {
       "date": "2026-08-21",
       "stars": 3566
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 3567
     }
   ],
   "rhasspy/rhasspy": [
     {
       "date": "2026-08-21",
+      "stars": 2750
+    },
+    {
+      "date": "2026-08-22",
       "stars": 2750
     }
   ],
@@ -159,90 +263,150 @@
     {
       "date": "2026-08-21",
       "stars": 6610
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 6610
     }
   ],
   "ros2/ros2": [
     {
       "date": "2026-08-21",
       "stars": 5918
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 5923
     }
   ],
   "ros/ros": [
     {
       "date": "2026-08-21",
       "stars": 3249
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 3250
     }
   ],
   "PX4/PX4-Autopilot": [
     {
       "date": "2026-08-21",
       "stars": 12459
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 12460
     }
   ],
   "ArduPilot/ardupilot": [
     {
       "date": "2026-08-21",
       "stars": 15717
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 15723
     }
   ],
   "gazebosim/gz-sim": [
     {
       "date": "2026-08-21",
       "stars": 1452
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 1454
     }
   ],
   "microsoft/AirSim": [
     {
       "date": "2026-08-21",
       "stars": 18413
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 18414
     }
   ],
   "blakeblackshear/frigate": [
     {
       "date": "2026-08-21",
       "stars": 35259
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 35279
     }
   ],
   "ZoneMinder/zoneminder": [
     {
       "date": "2026-08-21",
       "stars": 5915
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 5917
     }
   ],
   "AlexxIT/go2rtc": [
     {
       "date": "2026-08-21",
       "stars": 14006
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 14014
     }
   ],
   "Klipper3d/klipper": [
     {
       "date": "2026-08-21",
       "stars": 11829
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 11830
     }
   ],
   "prusa3d/PrusaSlicer": [
     {
       "date": "2026-08-21",
       "stars": 9242
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 9240
     }
   ],
   "Ultimaker/Cura": [
     {
       "date": "2026-08-21",
       "stars": 7014
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 7016
     }
   ],
   "MarlinFirmware/Marlin": [
     {
       "date": "2026-08-21",
       "stars": 17546
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 17548
     }
   ],
   "OrcaSlicer/OrcaSlicer": [
     {
       "date": "2026-08-21",
       "stars": 15443
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 15454
     }
   ]
 }

@@ -3,71 +3,119 @@
     {
       "date": "2026-08-21",
       "stars": 201440
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 201566
     }
   ],
   "node-red/node-red": [
     {
       "date": "2026-08-21",
       "stars": 23559
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 23567
     }
   ],
   "activepieces/activepieces": [
     {
       "date": "2026-08-21",
       "stars": 23944
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 23974
     }
   ],
   "automatisch/automatisch": [
     {
       "date": "2026-08-21",
       "stars": 13937
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 13942
     }
   ],
   "windmill-labs/windmill": [
     {
       "date": "2026-08-21",
       "stars": 17595
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 17608
     }
   ],
   "huginn/huginn": [
     {
       "date": "2026-08-21",
       "stars": 49827
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 49833
     }
   ],
   "apache/airflow": [
     {
       "date": "2026-08-21",
       "stars": 46562
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 46575
     }
   ],
   "temporalio/temporal": [
     {
       "date": "2026-08-21",
       "stars": 22431
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 22452
     }
   ],
   "PrefectHQ/prefect": [
     {
       "date": "2026-08-21",
       "stars": 23647
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 23650
     }
   ],
   "dagster-io/dagster": [
     {
       "date": "2026-08-21",
       "stars": 16042
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 16047
     }
   ],
   "Netflix/conductor": [
     {
       "date": "2026-08-21",
       "stars": 12752
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 12754
     }
   ],
   "cadence-workflow/cadence": [
     {
       "date": "2026-08-21",
+      "stars": 9408
+    },
+    {
+      "date": "2026-08-22",
       "stars": 9408
     }
   ],
@@ -75,11 +123,19 @@
     {
       "date": "2026-08-21",
       "stars": 27872
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 27880
     }
   ],
   "rundeck/rundeck": [
     {
       "date": "2026-08-21",
+      "stars": 6275
+    },
+    {
+      "date": "2026-08-22",
       "stars": 6275
     }
   ],
@@ -87,17 +143,29 @@
     {
       "date": "2026-08-21",
       "stars": 10268
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 10274
     }
   ],
   "open-rpa/openrpa": [
     {
       "date": "2026-08-21",
       "stars": 3045
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 3047
     }
   ],
   "aisingapore/TagUI": [
     {
       "date": "2026-08-21",
+      "stars": 6324
+    },
+    {
+      "date": "2026-08-22",
       "stars": 6324
     }
   ],
@@ -105,89 +173,149 @@
     {
       "date": "2026-08-21",
       "stars": 1547
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 1548
     }
   ],
   "SeleniumHQ/selenium": [
     {
       "date": "2026-08-21",
       "stars": 34383
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 34385
     }
   ],
   "robotframework/robotframework": [
     {
       "date": "2026-08-21",
       "stars": 11831
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 11838
     }
   ],
   "scrapy/scrapy": [
     {
       "date": "2026-08-21",
       "stars": 63979
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 63992
     }
   ],
   "apify/crawlee": [
     {
       "date": "2026-08-21",
       "stars": 25451
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 25458
     }
   ],
   "unclecode/crawl4ai": [
     {
       "date": "2026-08-21",
       "stars": 78812
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 79015
     }
   ],
   "puppeteer/puppeteer": [
     {
       "date": "2026-08-21",
       "stars": 95477
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 95486
     }
   ],
   "Unstructured-IO/unstructured": [
     {
       "date": "2026-08-21",
       "stars": 15328
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 15331
     }
   ],
   "microsoft/markitdown": [
     {
       "date": "2026-08-21",
       "stars": 175043
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 175325
     }
   ],
   "appsmithorg/appsmith": [
     {
       "date": "2026-08-21",
       "stars": 40713
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 40718
     }
   ],
   "ToolJet/ToolJet": [
     {
       "date": "2026-08-21",
       "stars": 40628
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 40671
     }
   ],
   "Budibase/budibase": [
     {
       "date": "2026-08-21",
       "stars": 28227
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 28231
     }
   ],
   "nocodb/nocodb": [
     {
       "date": "2026-08-21",
       "stars": 64608
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 64633
     }
   ],
   "baserow/baserow": [
     {
       "date": "2026-08-21",
       "stars": 5645
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 5651
     }
   ],
   "illacloud/illa-builder": [
     {
       "date": "2026-08-21",
+      "stars": 12310
+    },
+    {
+      "date": "2026-08-22",
       "stars": 12310
     }
   ],
@@ -195,35 +323,59 @@
     {
       "date": "2026-08-21",
       "stars": 23718
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 23749
     }
   ],
   "strapi/strapi": [
     {
       "date": "2026-08-21",
       "stars": 72985
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 72994
     }
   ],
   "directus/directus": [
     {
       "date": "2026-08-21",
       "stars": 37463
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 37449
     }
   ],
   "odoo/odoo": [
     {
       "date": "2026-08-21",
       "stars": 53830
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 53848
     }
   ],
   "frappe/erpnext": [
     {
       "date": "2026-08-21",
       "stars": 38326
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 38352
     }
   ],
   "camunda/camunda": [
     {
       "date": "2026-08-21",
+      "stars": 4254
+    },
+    {
+      "date": "2026-08-22",
       "stars": 4254
     }
   ],
@@ -231,60 +383,100 @@
     {
       "date": "2026-08-21",
       "stars": 55226
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 55298
     }
   ],
   "documenso/documenso": [
     {
       "date": "2026-08-21",
       "stars": 14642
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 14653
     }
   ],
   "formbricks/formbricks": [
     {
       "date": "2026-08-21",
       "stars": 12795
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 12798
     }
   ],
   "invoiceninja/invoiceninja": [
     {
       "date": "2026-08-21",
       "stars": 10012
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 10016
     }
   ],
   "airbytehq/airbyte": [
     {
       "date": "2026-08-21",
       "stars": 21930
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 21938
     }
   ],
   "dlt-hub/dlt": [
     {
       "date": "2026-08-21",
       "stars": 5764
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 5767
     }
   ],
   "novuhq/novu": [
     {
       "date": "2026-08-21",
       "stars": 39622
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 39632
     }
   ],
   "binwiederhier/ntfy": [
     {
       "date": "2026-08-21",
       "stars": 33650
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 33672
     }
   ],
   "mautic/mautic": [
     {
       "date": "2026-08-21",
       "stars": 10372
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 10376
     }
   ],
   "knadh/listmonk": [
     {
       "date": "2026-08-21",
       "stars": 23017
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 23033
     }
   ]
 }

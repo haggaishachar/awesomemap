@@ -448,7 +448,7 @@ export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage
           b.classList.toggle("rising-domain-button-active", b.dataset.domain === selected);
         });
         document.querySelectorAll(".rising-row").forEach((row) => {
-          row.hidden = selected !== "all" && row.dataset.domain !== selected;
+          row.classList.toggle("rising-row-hidden", selected !== "all" && row.dataset.domain !== selected);
         });
       }
       document.querySelectorAll(".rising-domain-filter button").forEach((button) => {

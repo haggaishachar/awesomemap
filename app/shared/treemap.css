@@ -795,11 +795,12 @@ body {
   font-size: 13px;
 }
 
-/* `.rising-row`'s own `display: flex` ties the built-in `[hidden] { display:
-   none }` UA rule on specificity, and author CSS wins that tie — so the
-   domain filter's `row.hidden = true` (render-page.mjs) would otherwise do
-   nothing visually. This rule breaks the tie explicitly. */
-.rising-row[hidden] {
+/* The domain filter's own show/hide state, distinct from the `hidden`
+   attribute the window toggle uses — a plain class here avoids that
+   mechanism's specificity tie against `.rising-row`'s own `display: flex`
+   (see the window-toggle script's use of `hidden` above, which is safe
+   because `.rising-rows` sets no `display` of its own to tie against). */
+.rising-row-hidden {
   display: none;
 }
 

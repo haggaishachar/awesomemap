@@ -253,7 +253,10 @@ test("renderRisingPage's domain filter narrows the Hottest overall rows themselv
   };
   const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
   assert.match(html, /document\.querySelectorAll\("\.rising-row"\)\.forEach\(\(row\) => \{/);
-  assert.match(html, /row\.hidden = selected !== "all" && row\.dataset\.domain !== selected;/);
+  assert.match(
+    html,
+    /row\.classList\.toggle\("rising-row-hidden", selected !== "all" && row\.dataset\.domain !== selected\);/
+  );
 });
 
 test("renderRisingPage shows a not-ready placeholder for a leaderboard with no eligible entries", () => {

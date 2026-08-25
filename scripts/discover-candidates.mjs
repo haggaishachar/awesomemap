@@ -29,9 +29,9 @@ export async function searchGithubByTopic(topic, { getJson, minStars = DEFAULT_M
 /**
  * Extracts `owner/repo` ids from every `github.com/<owner>/<repo>` link in
  * a Markdown string (an awesome-list README), deduped and in first-seen
- * order. A trailing sentence-ending period is stripped before validation;
- * `parseGhRepo` rejects anything else malformed (extra path segments,
- * etc.) so it's the single source of truth for what counts as a valid id.
+ * order. A trailing sentence-ending period is stripped before validation.
+ * Links with additional path segments (e.g. `/tree/main/packages`) are
+ * rejected; a bare trailing slash is allowed (common README convention).
  */
 export function parseAwesomeListLinks(readmeMarkdown) {
   const seen = new Set();
@@ -40,9 +40,10 @@ export function parseAwesomeListLinks(readmeMarkdown) {
     const owner = match[1];
     const repo = match[2].replace(/\.$/, "");
 
-    // Check if there are additional path segments beyond owner/repo
+    // Check if there are meaningful path segments beyond owner/repo
+    // (a bare trailing slash is allowed; only reject if something non-whitespace/closing-bracket follows)
     const matchEnd = match.index + match[0].length;
-    if (matchEnd < readmeMarkdown.length && readmeMarkdown[matchEnd] === '/') {
+    if (matchEnd < readmeMarkdown.length && readmeMarkdown.slice(matchEnd).match(/^\/[^\s)>\]]/)) {
       continue;
     }
 

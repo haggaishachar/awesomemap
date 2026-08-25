@@ -52,6 +52,10 @@ test("parseAwesomeListLinks strips a trailing sentence-ending period", () => {
   assert.deepEqual(parseAwesomeListLinks("See https://github.com/facebook/react."), ["facebook/react"]);
 });
 
+test("parseAwesomeListLinks accepts a trailing slash with nothing after it", () => {
+  assert.deepEqual(parseAwesomeListLinks("[React](https://github.com/facebook/react/) - a UI library"), ["facebook/react"]);
+});
+
 test("parseAwesomeListLinks ignores non-GitHub links", () => {
   const markdown = "https://gitlab.com/facebook/react and https://example.com/facebook/react";
   assert.deepEqual(parseAwesomeListLinks(markdown), []);

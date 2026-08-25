@@ -146,3 +146,29 @@ One thing to expect: a newly-added project needs `windowDays + 1` days of
 accumulated daily star snapshots (up to 91 days for the 90-day window)
 before it can appear on any leaderboard — see "Star history & Rising
 mode" above for how snapshots accumulate. Don't expect immediate results.
+
+## Automated project discovery
+
+A daily scheduled job (`.github/workflows/discovery.yml`, running
+`scripts/discover-projects.mjs`) looks for new candidate projects on its
+own, using the search topics and awesome-lists configured per domain in
+`data/discovery/sources.json`. Every candidate is checked against a
+quality bar (500+ stars, not a fork/archived, has a license, pushed
+within the last 12 months) before an LLM (OpenRouter, currently
+`google/gemini-3.7-flash`) classifies it into that domain's existing
+category tree.
+
+- A candidate the classifier is confident about (an existing category
+  fit, ≥80% confidence) is auto-committed directly, up to 3 per domain
+  per day — no PR, no human review, unlike every other addition described
+  above. This is a deliberate, bounded exception to this doc's normal
+  "every addition gets a human-reviewed PR" rule.
+- Everything else that passed the quality bar — low confidence, a
+  suggested new category, or capped-out overflow — lands in a daily
+  "🔍 Discovery review" GitHub issue instead. Nothing is silently
+  discarded and no category is ever auto-created; a maintainer turns a
+  wanted candidate into a normal contribution PR.
+- A candidate is only ever evaluated once (tracked in
+  `data/discovery/seen.json`); an ignored review-issue candidate won't
+  reappear the next day, so the issue itself is the durable record if you
+  want to revisit it later.

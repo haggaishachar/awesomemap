@@ -85,7 +85,16 @@ async function main() {
     const enrichedProjects = [];
     for (const candidate of autoCommit) {
       const meta = metaById.get(candidate.id);
-      enrichedProjects.push(await enrichProject({ id: candidate.id, path: candidate.path, desc: meta.description }, { getJson }));
+      try {
+        const enriched = await enrichProject({ id: candidate.id, path: candidate.path, desc: meta.description }, { getJson });
+        if (typeof enriched.weight !== "number" || !Number.isInteger(enriched.weight) || enriched.weight <= 0) {
+          console.error(`Warning: enrichment for "${candidate.id}" did not produce a valid weight, skipping auto-commit for today`);
+          continue;
+        }
+        enrichedProjects.push(enriched);
+      } catch (err) {
+        console.error(`Warning: failed to enrich candidate "${candidate.id}" for auto-commit, skipping for today: ${err.message}`);
+      }
     }
     domain.projects.push(...enrichedProjects);
     writeFileSync(`${DATA_DIR}/${file}`, JSON.stringify(domain, null, 2) + "\n");

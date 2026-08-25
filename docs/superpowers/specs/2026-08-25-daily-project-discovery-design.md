@@ -146,12 +146,17 @@ on for a domain.
   the category tree, and each candidate's id/description/topics/README
   excerpt. Requests a forced-JSON tool-use response (not free-text) so
   parsing is never regex-against-prose.
-- `callAnthropicApi(prompt, { apiKey, model, fetchImpl })` — the real,
+- `callOpenRouterApi(prompt, { apiKey, model, fetchImpl })` — the real,
   injectable implementation (same `getJson`-injection pattern as
   `createGetJson` in `enrich-domain.mjs`), `POST
-  https://api.anthropic.com/v1/messages` with `tool_choice` forcing a
+  https://openrouter.ai/api/v1/chat/completions` (OpenAI-compatible
+  chat-completions shape) with `tool_choice` forcing a
   `classify_candidates` tool call. `model` defaults to the
-  `ANTHROPIC_MODEL` env var, falling back to `claude-sonnet-5`.
+  `OPENROUTER_MODEL` env var, falling back to `google/gemini-3.7-flash`
+  — a current, cheap ($0.375/M input, $1.875/M output) OpenRouter model,
+  chosen since this call is small/structured (a category tree + a
+  handful of candidate descriptions in, a short JSON classification
+  out) and doesn't need a frontier model.
 - `classifyCandidates(domain, candidates, { callLlm })` — calls
   `callLlm`, validates the response: each returned id must match a
   submitted candidate, `confidence` must be a number in `[0, 1]`, and any
@@ -215,7 +220,7 @@ Mirrors `enrich-domain.mjs`'s `main()` shape:
 6. `--dry-run`: performs steps 1–4's computation and prints a summary
    (domain → counts of auto-commit/pending/dropped) but skips every
    write, commit, and `gh issue create` call — for local testing with
-   just `gh auth token` + `ANTHROPIC_API_KEY` set, no side effects.
+   just `gh auth token` + `OPENROUTER_API_KEY` set, no side effects.
 
 ### File layout
 
@@ -280,7 +285,7 @@ Mirrors `enrich-domain.mjs`'s `main()` shape:
   `selectAutoCommit`'s cap enforcement (confidence-sorted, overflow to
   pending) and confidence-threshold routing; `formatReviewIssueBody`
   output shape; `updateSeenIds` dedup.
-- Manual verification: `ANTHROPIC_API_KEY=... node
+- Manual verification: `OPENROUTER_API_KEY=... node
   scripts/discover-projects.mjs --dry-run` (requires `gh auth token`,
   same as `enrich-domain.mjs`) against the live repo data, confirming
   the printed summary's counts look sane for at least one domain before
@@ -297,8 +302,9 @@ Mirrors `enrich-domain.mjs`'s `main()` shape:
   `node scripts/discover-projects.mjs`, then commit
   `data/<slug>.json` + `data/discovery-seen.json` if changed (same
   git-config-and-conditional-commit pattern as the other two workflows).
-- **New repository secret required**: `ANTHROPIC_API_KEY`. This is a
-  one-time manual setup step (Settings → Secrets and variables →
-  Actions), the same category of manual prerequisite as the Pages
-  source setting `CONTRIBUTING.md` already calls out for `deploy.yml` —
-  not something the workflow file itself can configure.
+- **New repository secret required**: `OPENROUTER_API_KEY` (already set
+  on `haggaishachar/awesomemap` via `gh secret set` as part of writing
+  this spec). Same category of manual prerequisite as the Pages source
+  setting `CONTRIBUTING.md` already calls out for `deploy.yml` — not
+  something the workflow file itself configures, just consumed by it
+  (`${{ secrets.OPENROUTER_API_KEY }}` in the `discovery` job's `env`).

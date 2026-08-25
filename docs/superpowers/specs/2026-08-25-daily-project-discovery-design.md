@@ -28,7 +28,7 @@ daily cap below, not an oversight.
 
 ## Goals
 
-- **`data/discovery-sources.json`** (new, hand-maintained): per existing
+- **`data/discovery/sources.json`** (new, hand-maintained): per existing
   domain slug, a list of GitHub topics to search and a list of
   "awesome-`X`" repos to diff against. This is what determines *which
   domain* a candidate is even considered for — the LLM classification
@@ -72,7 +72,7 @@ daily cap below, not an oversight.
 
 - **No open-ended domain discovery.** The job never proposes an entirely
   new domain (e.g. "Game Development") — that stays the manual
-  `new-domain-proposal.md` issue flow. `discovery-sources.json` only ever
+  `new-domain-proposal.md` issue flow. `discovery/sources.json` only ever
   maps *existing* domains to search inputs.
 - **No auto-created categories/subcategories.** A candidate that needs a
   new category always goes to the review issue, never auto-committed
@@ -80,7 +80,7 @@ daily cap below, not an oversight.
 - **No persistent "seen" nagging avoidance beyond a flat id list.** Once
   a candidate has been evaluated (auto-committed, put in a review issue,
   or rejected by the quality bar or `fits: false`), its id is recorded in
-  `data/discovery-seen.json` and never re-surfaced by the job again. If a
+  `data/discovery/seen.json` and never re-surfaced by the job again. If a
   review-issue candidate is ignored, it will not reappear tomorrow — the
   issue itself is the durable record; a maintainer can always add it
   later through the normal manual PR flow regardless of `seen`. No
@@ -95,7 +95,15 @@ daily cap below, not an oversight.
 
 ## Architecture
 
-### `data/discovery-sources.json` (new, hand-maintained)
+### `data/discovery/sources.json` (new, hand-maintained)
+
+Lives in a `data/discovery/` subdirectory, not directly in `data/` —
+`generate.mjs`, `snapshot-history.mjs`, and `social-digest.mjs` all do
+`readdirSync(DATA_DIR).filter(name => name.endsWith(".json"))` and treat
+every match as a domain map (`{ slug, projects, ... }`); a config file
+sitting directly in `data/` would be parsed as one and break all three.
+Same reasoning `data/history/` already follows for per-project star
+snapshots — non-domain data goes in its own subdirectory.
 
 ```json
 {
@@ -127,7 +135,7 @@ on for a domain.
   and dedups ids from both sources for one domain.
 - `excludeKnownIds(candidateIds, knownIds)` — pure. `knownIds` is the
   union of every `id` across all `data/<slug>.json` files plus everything
-  in `data/discovery-seen.json`, computed once by the caller.
+  in `data/discovery/seen.json`, computed once by the caller.
 - `fetchRepoMetadata(id, { getJson })` — reuses `parseGhRepo` from
   `enrich-domain.mjs` to split `id`, fetches the repo, returns
   `{ id, stars, isFork, isArchived, pushedAt, hasLicense, description,
@@ -196,8 +204,8 @@ on for a domain.
 
 Mirrors `enrich-domain.mjs`'s `main()` shape:
 
-1. Read `data/discovery-sources.json`, every `data/<slug>.json`, and
-   `data/discovery-seen.json` (empty array if absent).
+1. Read `data/discovery/sources.json`, every `data/<slug>.json`, and
+   `data/discovery/seen.json` (empty array if absent).
 2. Per domain with a sources entry: `collectCandidateIds` →
    `excludeKnownIds` → `fetchRepoMetadata` for the rest. Ids whose
    metadata fetch *succeeds* are "evaluated" from here on, regardless of
@@ -213,7 +221,7 @@ Mirrors `enrich-domain.mjs`'s `main()` shape:
    file.
 4. Collect every domain's `pending` list; if non-empty, build the issue
    body via `formatReviewIssueBody` and open it with `gh issue create`.
-5. Write the updated `data/discovery-seen.json` (`updateSeenIds` over
+5. Write the updated `data/discovery/seen.json` (`updateSeenIds` over
    every domain's `evaluatedIds` from step 2 — covers auto-committed,
    pending, quality-bar-rejected, and `fits: false` ids alike, so none
    of them are re-fetched or re-classified on tomorrow's run).
@@ -226,8 +234,9 @@ Mirrors `enrich-domain.mjs`'s `main()` shape:
 
 ```
 /data/
-  discovery-sources.json        # NEW — hand-maintained, per-domain search config
-  discovery-seen.json           # NEW — flat array of ids the job has ever evaluated
+  discovery/
+    sources.json                 # NEW — hand-maintained, per-domain search config
+    seen.json                    # NEW — flat array of ids the job has ever evaluated
 /scripts/
   discover-candidates.mjs       # NEW
   classify-candidates.mjs       # NEW
@@ -300,7 +309,7 @@ Mirrors `enrich-domain.mjs`'s `main()` shape:
   `concurrency: { group: discovery, cancel-in-progress: false }`, same
   as `snapshot-history.yml`. Steps: checkout, setup-node, `npm ci`,
   `node scripts/discover-projects.mjs`, then commit
-  `data/<slug>.json` + `data/discovery-seen.json` if changed (same
+  `data/<slug>.json` + `data/discovery/seen.json` if changed (same
   git-config-and-conditional-commit pattern as the other two workflows).
 - **New repository secret required**: `OPENROUTER_API_KEY` (already set
   on `haggaishachar/awesomemap` via `gh secret set` as part of writing

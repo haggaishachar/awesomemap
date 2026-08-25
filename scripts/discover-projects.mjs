@@ -8,6 +8,15 @@ import { selectAutoCommit, formatReviewIssueBody, updateSeenIds } from "./apply-
 const DATA_DIR = "data";
 const SOURCES_PATH = "data/discovery/sources.json";
 const SEEN_PATH = "data/discovery/seen.json";
+// Caps per-domain unseen ids fetched in a single run. An early run (empty or
+// near-empty seen.json) can otherwise return hundreds of unseen ids from a
+// single awesome-list, and every one costs one fetchRepoMetadata call,
+// sequentially, across every configured domain — enough to exhaust the
+// GitHub token's rate limit partway through a run. Ids beyond the cap are
+// simply never marked seen, so they're picked up on a subsequent run; the
+// backlog clears gradually over several days instead of one run trying (and
+// often failing) to process it all at once.
+const MAX_NEW_CANDIDATES_PER_DOMAIN_PER_RUN = 50;
 
 // CLI entry point: node scripts/discover-projects.mjs [--dry-run]
 // Discovers, classifies, and (unless --dry-run) auto-commits or queues for
@@ -42,7 +51,7 @@ async function main() {
     if (!sourcesConfig[domain.slug]) continue;
 
     const rawIds = await collectCandidateIds(domain.slug, sourcesConfig, { getJson });
-    const newIds = excludeKnownIds(rawIds, knownIds);
+    const newIds = excludeKnownIds(rawIds, knownIds).slice(0, MAX_NEW_CANDIDATES_PER_DOMAIN_PER_RUN);
 
     const metaById = new Map();
     for (const id of newIds) {
@@ -74,30 +83,48 @@ async function main() {
     allEvaluatedIds.push(...evaluatedIds);
 
     const { autoCommit, pending } = selectAutoCommit(classified);
-    if (pending.length > 0) {
-      pendingByDomain[domain.slug] = pending.map((c) => ({ ...c, stars: metaById.get(c.id).stars }));
-    }
 
     console.log(`${domain.slug}: ${evaluatedIds.length} evaluated, ${qualifying.length} passed quality bar, ${autoCommit.length} auto-commit, ${pending.length} pending`);
 
-    if (autoCommit.length === 0 || dryRun) continue;
+    // Candidates that made autoCommit but then failed enrichment (or came back
+    // with an invalid weight) are routed into the review queue below, not
+    // silently dropped — their ids are already permanently in allEvaluatedIds
+    // (added above, before enrichment even runs) so they'd otherwise vanish
+    // without a trace: never committed, never reviewed, never retried.
+    const enrichmentFailures = [];
 
-    const enrichedProjects = [];
-    for (const candidate of autoCommit) {
-      const meta = metaById.get(candidate.id);
-      try {
-        const enriched = await enrichProject({ id: candidate.id, path: candidate.path, desc: meta.description }, { getJson });
-        if (typeof enriched.weight !== "number" || !Number.isInteger(enriched.weight) || enriched.weight <= 0) {
-          console.error(`Warning: enrichment for "${candidate.id}" did not produce a valid weight, skipping auto-commit for today`);
-          continue;
+    if (autoCommit.length > 0 && !dryRun) {
+      const enrichedProjects = [];
+      for (const candidate of autoCommit) {
+        const meta = metaById.get(candidate.id);
+        try {
+          const [, repoName] = candidate.id.split("/");
+          const enriched = await enrichProject(
+            { id: candidate.id, path: candidate.path, name: repoName, link: `https://github.com/${candidate.id}`, desc: meta.description },
+            { getJson },
+          );
+          if (typeof enriched.weight !== "number" || !Number.isInteger(enriched.weight) || enriched.weight <= 0) {
+            console.error(`Warning: enrichment for "${candidate.id}" did not produce a valid weight, adding to review queue instead`);
+            enrichmentFailures.push(candidate);
+            continue;
+          }
+          enrichedProjects.push(enriched);
+        } catch (err) {
+          console.error(`Warning: failed to enrich candidate "${candidate.id}" for auto-commit, adding to review queue instead: ${err.message}`);
+          enrichmentFailures.push(candidate);
         }
-        enrichedProjects.push(enriched);
-      } catch (err) {
-        console.error(`Warning: failed to enrich candidate "${candidate.id}" for auto-commit, skipping for today: ${err.message}`);
       }
+      domain.projects.push(...enrichedProjects);
+      writeFileSync(`${DATA_DIR}/${file}`, JSON.stringify(domain, null, 2) + "\n");
     }
-    domain.projects.push(...enrichedProjects);
-    writeFileSync(`${DATA_DIR}/${file}`, JSON.stringify(domain, null, 2) + "\n");
+
+    // In --dry-run mode enrichmentFailures is always empty (enrichment is
+    // never attempted), so this reflects exactly selectAutoCommit's original
+    // `pending` list, as before.
+    const allPending = [...pending, ...enrichmentFailures];
+    if (allPending.length > 0) {
+      pendingByDomain[domain.slug] = allPending.map((c) => ({ ...c, stars: metaById.get(c.id).stars }));
+    }
   }
 
   if (dryRun) {

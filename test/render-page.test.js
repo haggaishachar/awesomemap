@@ -244,18 +244,31 @@ test("renderRisingPage's inline script applies the domain filter matching the UR
   assert.match(html, /applyDomainFilter\(initialDomain\);/);
 });
 
-test("renderRisingPage's domain filter narrows the Hottest overall rows themselves, not separate per-domain sections", () => {
+test("renderRisingPage's domain filter swaps to that domain's own top-20 section, hiding the others, rather than filtering global rows", () => {
   const domains = [{ slug: "artificial-intelligence", name: "Best Artificial Intelligence Open Source Projects", shortName: "AI" }];
   const leaderboardsByWindow = {
-    7: { global: [], "artificial-intelligence": [] },
+    7: {
+      global: [],
+      "artificial-intelligence": [
+        { rank: 1, id: "a/a", name: "Project A", link: "https://a.example", domain: "AI", starDelta: 40, percentDelta: 40, rankDelta: 1 },
+      ],
+    },
     30: { global: [], "artificial-intelligence": [] },
     90: { global: [], "artificial-intelligence": [] },
   };
   const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
-  assert.match(html, /document\.querySelectorAll\("\.rising-row"\)\.forEach\(\(row\) => \{/);
+  // The domain section is rendered (using the domain-scoped leaderboard, not a slice of global) but starts hidden.
+  assert.match(html, /<section class="rising-section" id="artificial-intelligence" hidden>/);
+  assert.match(html, /<h2 class="rising-section-heading">Hottest in AI<\/h2>/);
+  assert.match(html, /Project A/);
+  // The filter script swaps `.rising-section` visibility by id instead of hiding individual rows.
   assert.match(
     html,
-    /row\.classList\.toggle\("rising-row-hidden", selected !== "all" && row\.dataset\.domain !== selected\);/
+    /const targetSectionId = selected === "all" \? "global" : selected;/
+  );
+  assert.match(
+    html,
+    /document\.querySelectorAll\("\.rising-section"\)\.forEach\(\(section\) => \{\s*section\.hidden = section\.id !== targetSectionId;/
   );
 });
 
@@ -278,7 +291,7 @@ test("renderRisingPage renders all three window variants, only the 7-day one vis
   assert.match(html, /<div class="rising-rows" data-window="90" hidden>/);
 });
 
-test("renderRisingPage renders only the Hottest overall section — no Hottest ecosystems table and no per-domain sections", () => {
+test("renderRisingPage renders the Hottest overall section plus one section per domain — no Hottest ecosystems table", () => {
   const domains = [{ slug: "data-science", name: "Data Science" }];
   const leaderboardsByWindow = {
     7: { global: [], "data-science": [] },
@@ -287,10 +300,10 @@ test("renderRisingPage renders only the Hottest overall section — no Hottest e
   };
   const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
   assert.match(html, /<section class="rising-section" id="global">/);
-  assert.doesNotMatch(html, /<section class="rising-section" id="data-science">/);
+  assert.match(html, /<section class="rising-section" id="data-science" hidden>/);
   assert.doesNotMatch(html, /Hottest ecosystems/);
   const sectionCount = [...html.matchAll(/class="rising-section"/g)].length;
-  assert.equal(sectionCount, 1, "only the Hottest overall section should render");
+  assert.equal(sectionCount, 2, "the Hottest overall section plus one per-domain section should render");
 });
 
 test("renderDomainPage renders a teaser section below the map, linking to that domain's rising anchor", () => {

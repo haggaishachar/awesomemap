@@ -368,10 +368,10 @@ function renderRisingWindowVariants(leaderboardsByWindow, scopeKey, { showDomain
   }).join("");
 }
 
-/** One full leaderboard section (heading + all three window variants), anchorable by `id`. */
-function renderRisingSection({ id, heading, leaderboardsByWindow, scopeKey, showDomain }) {
+/** One full leaderboard section (heading + all three window variants), anchorable by `id`. `hidden` starts the whole section — not just individual rows — collapsed, for sections the domain filter hasn't selected yet. */
+function renderRisingSection({ id, heading, leaderboardsByWindow, scopeKey, showDomain, hidden = false }) {
   return `
-    <section class="rising-section" id="${escapeHtml(id)}">
+    <section class="rising-section" id="${escapeHtml(id)}"${hidden ? " hidden" : ""}>
       <h2 class="rising-section-heading">${escapeHtml(heading)}</h2>
       ${renderRisingWindowVariants(leaderboardsByWindow, scopeKey, { showDomain })}
     </section>`;
@@ -379,14 +379,17 @@ function renderRisingSection({ id, heading, leaderboardsByWindow, scopeKey, show
 
 /**
  * Renders the dedicated Rising page: the cross-domain "Hottest overall"
- * leaderboard, sharing a single 7/30/90-day window toggle with a domain
- * quick filter that narrows those same rows to one domain instead of
- * switching between separate per-domain sections. `domains` is
- * `[{ slug, name, shortName }]`; `leaderboardsByWindow` is
- * `{ [windowDays]: { global: entries[], [slug]: entries[] } }` — the shape
- * `generate.mjs` builds from `leaderboard.mjs`'s `computeLeaderboard`. Only
- * the `global` scope is read here; the per-domain slices exist for other
- * callers (teasers, domain ranks) and are ignored by this page.
+ * leaderboard (global top 20 by score), plus one hidden section per domain
+ * — that domain's own top 20, computed by filtering to it *before* ranking
+ * (`computeLeaderboard(..., { scope: domain.slug })`), not by slicing rows
+ * out of the already-limited global top 20. The domain quick filter swaps
+ * which section is visible instead of hiding individual rows, so a domain
+ * whose risers don't crack the global top 20 (e.g. one growing more slowly
+ * than the domains dominating "Hottest overall") still shows its own
+ * leaders rather than an empty list. `domains` is `[{ slug, name,
+ * shortName }]`; `leaderboardsByWindow` is `{ [windowDays]: { global:
+ * entries[], [slug]: entries[] } }` — the shape `generate.mjs` builds from
+ * `leaderboard.mjs`'s `computeLeaderboard`.
  */
 export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage, siteUrl = "", basePath = "", generatedAt = new Date() }) {
   const globalSection = renderRisingSection({
@@ -397,6 +400,19 @@ export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage
     showDomain: true,
   });
 
+  const domainSections = domains
+    .map((domain) =>
+      renderRisingSection({
+        id: domain.slug,
+        heading: `Hottest in ${domain.shortName ?? domain.name}`,
+        leaderboardsByWindow,
+        scopeKey: domain.slug,
+        showDomain: false,
+        hidden: true,
+      })
+    )
+    .join("");
+
   const windowBar = `
     <div class="rising-window-bar">
       ${RISING_WINDOWS_DAYS.map(
@@ -405,9 +421,9 @@ export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage
       ).join("")}
     </div>`;
 
-  // Narrows the "Hottest overall" rows to one domain instead of scrolling a
-  // filtered-out list — "All" (the default) shows every row; picking a
-  // domain hides every row whose `data-domain` doesn't match.
+  // Swaps which leaderboard section is shown instead of scrolling a
+  // filtered-out list — "All" (the default) shows "Hottest overall";
+  // picking a domain shows that domain's own top 20 section instead.
   const domainFilterBar = `
     <div class="rising-domain-filter" role="group" aria-label="Filter by domain">
       <button type="button" class="rising-domain-button rising-domain-button-active" data-domain="all">All</button>
@@ -430,6 +446,7 @@ export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage
     ${windowBar}
     <div class="rising-page">
       ${globalSection}
+      ${domainSections}
     </div>
     <script>
       document.querySelectorAll(".rising-window-bar button").forEach((button) => {
@@ -447,8 +464,9 @@ export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage
         document.querySelectorAll(".rising-domain-filter button").forEach((b) => {
           b.classList.toggle("rising-domain-button-active", b.dataset.domain === selected);
         });
-        document.querySelectorAll(".rising-row").forEach((row) => {
-          row.classList.toggle("rising-row-hidden", selected !== "all" && row.dataset.domain !== selected);
+        const targetSectionId = selected === "all" ? "global" : selected;
+        document.querySelectorAll(".rising-section").forEach((section) => {
+          section.hidden = section.id !== targetSectionId;
         });
       }
       document.querySelectorAll(".rising-domain-filter button").forEach((button) => {

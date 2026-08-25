@@ -795,15 +795,6 @@ body {
   font-size: 13px;
 }
 
-/* The domain filter's own show/hide state, distinct from the `hidden`
-   attribute the window toggle uses — a plain class here avoids that
-   mechanism's specificity tie against `.rising-row`'s own `display: flex`
-   (see the window-toggle script's use of `hidden` above, which is safe
-   because `.rising-rows` sets no `display` of its own to tie against). */
-.rising-row-hidden {
-  display: none;
-}
-
 .rising-row:last-child {
   border-bottom: none;
 }

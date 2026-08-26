@@ -78,3 +78,18 @@ test("buildItemListJsonLd falls back to a project's id when name is omitted", ()
   const jsonLd = buildItemListJsonLd("Data Science", projects, { url: "https://example.com/data-science/" });
   assert.equal(jsonLd.itemListElement[0].name, "a/a");
 });
+
+test("buildSitemap appends extraPaths after the domain pages", () => {
+  const xml = buildSitemap(["data-science"], {
+    siteUrl: "https://example.com",
+    basePath: "",
+    extraPaths: ["/tags/", "/tags/python/"],
+  });
+  assert.match(xml, /<loc>https:\/\/example\.com\/tags\/<\/loc>/);
+  assert.match(xml, /<loc>https:\/\/example\.com\/tags\/python\/<\/loc>/);
+});
+
+test("buildSitemap defaults extraPaths to empty, unchanged output when omitted", () => {
+  const xml = buildSitemap(["data-science"], { siteUrl: "https://example.com", basePath: "" });
+  assert.doesNotMatch(xml, /\/tags\//);
+});

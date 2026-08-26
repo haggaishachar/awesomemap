@@ -12,8 +12,30 @@
       "link": "https://n8n.io",
       "name": "n8n",
       "desc": "Fair-code workflow automation platform with native AI capabilities",
-      "weight": 201299,
-      "image": "https://avatars.githubusercontent.com/u/45487711?v=4"
+      "weight": 202447,
+      "image": "https://avatars.githubusercontent.com/u/45487711?v=4",
+      "tags": [
+        "ai",
+        "apis",
+        "automation",
+        "cli",
+        "data-flow",
+        "development",
+        "integration-framework",
+        "integrations",
+        "ipaas",
+        "low-code",
+        "low-code-platform",
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "n8n",
+        "no-code",
+        "self-hosted",
+        "typescript",
+        "workflow",
+        "workflow-automation"
+      ]
     },
     {
       "id": "node-red/node-red",
@@ -23,8 +45,16 @@
       "link": "http://nodered.org",
       "name": "Node-RED",
       "desc": "Low-code, flow-based programming tool for wiring together APIs and devices",
-      "weight": 23553,
-      "image": "https://avatars.githubusercontent.com/u/5375661?v=4"
+      "weight": 23584,
+      "image": "https://avatars.githubusercontent.com/u/5375661?v=4",
+      "tags": [
+        "flow-based-programming",
+        "javascript",
+        "low-code",
+        "node-red",
+        "openjs-foundation",
+        "visual-programming"
+      ]
     },
     {
       "id": "activepieces/activepieces",
@@ -34,8 +64,23 @@
       "link": "https://www.activepieces.com",
       "name": "Activepieces",
       "desc": "Open-source AI-powered workflow automation platform",
-      "weight": 23923,
-      "image": "https://avatars.githubusercontent.com/u/99494700?v=4"
+      "weight": 24040,
+      "image": "https://avatars.githubusercontent.com/u/99494700?v=4",
+      "tags": [
+        "ai-agent",
+        "ai-agent-tools",
+        "ai-agents",
+        "ai-agents-framework",
+        "mcp",
+        "mcp-server",
+        "mcp-tools",
+        "mcps",
+        "n8n-alternative",
+        "no-code-automation",
+        "workflow",
+        "workflow-automation",
+        "workflows"
+      ]
     },
     {
       "id": "automatisch/automatisch",
@@ -45,8 +90,17 @@
       "link": "https://automatisch.io",
       "name": "Automatisch",
       "desc": "Open-source alternative to Zapier for workflow automation",
-      "weight": 13938,
-      "image": "https://avatars.githubusercontent.com/u/91699546?v=4"
+      "weight": 13944,
+      "image": "https://avatars.githubusercontent.com/u/91699546?v=4",
+      "tags": [
+        "automation",
+        "automatisch",
+        "low-code",
+        "no-code",
+        "open-source",
+        "self-hosted",
+        "workflow"
+      ]
     },
     {
       "id": "windmill-labs/windmill",
@@ -56,8 +110,17 @@
       "link": "https://windmill.dev",
       "name": "Windmill",
       "desc": "Developer platform for turning scripts into workflows, webhooks, and UIs",
-      "weight": 17589,
-      "image": "https://avatars.githubusercontent.com/u/98025271?v=4"
+      "weight": 17679,
+      "image": "https://avatars.githubusercontent.com/u/98025271?v=4",
+      "tags": [
+        "low-code",
+        "open-source",
+        "platform",
+        "postgresql",
+        "python",
+        "self-hostable",
+        "typescript"
+      ]
     },
     {
       "id": "huginn/huginn",
@@ -67,8 +130,22 @@
       "link": "https://github.com/huginn/huginn",
       "name": "Huginn",
       "desc": "Build agents that monitor events and act on your behalf",
-      "weight": 49825,
-      "image": "https://avatars.githubusercontent.com/u/23225142?v=4"
+      "weight": 49857,
+      "image": "https://avatars.githubusercontent.com/u/23225142?v=4",
+      "tags": [
+        "agent",
+        "automation",
+        "feed",
+        "feedgenerator",
+        "huginn",
+        "monitoring",
+        "notifications",
+        "rss",
+        "scraper",
+        "twitter",
+        "twitter-streaming",
+        "webscraping"
+      ]
     },
     {
       "id": "apache/airflow",
@@ -78,8 +155,30 @@
       "link": "https://airflow.apache.org/",
       "name": "Apache Airflow",
       "desc": "Platform to programmatically author, schedule, and monitor workflows",
-      "weight": 46547,
-      "image": "https://avatars.githubusercontent.com/u/47359?v=4"
+      "weight": 46609,
+      "image": "https://avatars.githubusercontent.com/u/47359?v=4",
+      "tags": [
+        "airflow",
+        "apache",
+        "apache-airflow",
+        "automation",
+        "dag",
+        "data-engineering",
+        "data-integration",
+        "data-orchestrator",
+        "data-pipelines",
+        "data-science",
+        "elt",
+        "etl",
+        "machine-learning",
+        "mlops",
+        "orchestration",
+        "python",
+        "scheduler",
+        "workflow",
+        "workflow-engine",
+        "workflow-orchestration"
+      ]
     },
     {
       "id": "temporalio/temporal",
@@ -89,8 +188,26 @@
       "link": "https://docs.temporal.io",
       "name": "Temporal",
       "desc": "Durable execution platform for orchestrating reliable distributed workflows",
-      "weight": 22418,
-      "image": "https://avatars.githubusercontent.com/u/56493103?v=4"
+      "weight": 22532,
+      "image": "https://avatars.githubusercontent.com/u/56493103?v=4",
+      "tags": [
+        "cronjob-scheduler",
+        "distributed-cron",
+        "distributed-systems",
+        "durable-execution",
+        "golang",
+        "microservice-framework",
+        "microservice-orchestration",
+        "microservices-architecture",
+        "orchestrator",
+        "service-bus",
+        "service-fabric",
+        "workflow-automation",
+        "workflow-engine",
+        "workflow-management",
+        "workflow-management-system",
+        "workflows"
+      ]
     },
     {
       "id": "PrefectHQ/prefect",
@@ -100,8 +217,24 @@
       "link": "https://prefect.io",
       "name": "Prefect",
       "desc": "Workflow orchestration framework for building resilient data pipelines",
-      "weight": 23648,
-      "image": "https://avatars.githubusercontent.com/u/39270919?v=4"
+      "weight": 23687,
+      "image": "https://avatars.githubusercontent.com/u/39270919?v=4",
+      "tags": [
+        "automation",
+        "data",
+        "data-engineering",
+        "data-ops",
+        "data-science",
+        "infrastructure",
+        "ml-ops",
+        "observability",
+        "orchestration",
+        "pipeline",
+        "prefect",
+        "python",
+        "workflow",
+        "workflow-engine"
+      ]
     },
     {
       "id": "dagster-io/dagster",
@@ -111,8 +244,25 @@
       "link": "https://dagster.io",
       "name": "Dagster",
       "desc": "Orchestration platform for the development and observation of data assets",
-      "weight": 16028,
-      "image": "https://avatars.githubusercontent.com/u/40032576?v=4"
+      "weight": 16062,
+      "image": "https://avatars.githubusercontent.com/u/40032576?v=4",
+      "tags": [
+        "analytics",
+        "dagster",
+        "data-engineering",
+        "data-integration",
+        "data-orchestrator",
+        "data-pipelines",
+        "data-science",
+        "etl",
+        "metadata",
+        "mlops",
+        "orchestration",
+        "python",
+        "scheduler",
+        "workflow",
+        "workflow-automation"
+      ]
     },
     {
       "id": "Netflix/conductor",
@@ -123,7 +273,22 @@
       "name": "Conductor",
       "desc": "Microservices orchestration engine",
       "weight": 12752,
-      "image": "https://avatars.githubusercontent.com/u/913567?v=4"
+      "image": "https://avatars.githubusercontent.com/u/913567?v=4",
+      "tags": [
+        "distributed-systems",
+        "grpc",
+        "java",
+        "javascript",
+        "microservice-orchestration",
+        "orchestration-engine",
+        "orchestrator",
+        "reactjs",
+        "spring-boot",
+        "workflow-automation",
+        "workflow-engine",
+        "workflow-management",
+        "workflows"
+      ]
     },
     {
       "id": "cadence-workflow/cadence",
@@ -133,8 +298,21 @@
       "link": "https://cadenceworkflow.io",
       "name": "Cadence",
       "desc": "Distributed, scalable orchestration engine for long-running business logic",
-      "weight": 9407,
-      "image": "https://avatars.githubusercontent.com/u/187651631?v=4"
+      "weight": 9414,
+      "image": "https://avatars.githubusercontent.com/u/187651631?v=4",
+      "tags": [
+        "cadence",
+        "distributed-systems",
+        "golang",
+        "java",
+        "orchestration-engine",
+        "service-bus",
+        "service-fabric",
+        "services-platform",
+        "uber",
+        "workflow-automation",
+        "workflows"
+      ]
     },
     {
       "id": "kestra-io/kestra",
@@ -144,8 +322,30 @@
       "link": "https://go.kestra.io/home",
       "name": "Kestra",
       "desc": "Event-driven orchestration and scheduling platform",
-      "weight": 27859,
-      "image": "https://avatars.githubusercontent.com/u/59033362?v=4"
+      "weight": 27922,
+      "image": "https://avatars.githubusercontent.com/u/59033362?v=4",
+      "tags": [
+        "ai-agents",
+        "automation",
+        "control-plane",
+        "data-engineering",
+        "data-orchestration",
+        "data-orchestrator",
+        "devops",
+        "etl",
+        "hacktoberfest",
+        "high-availability",
+        "infra-automation",
+        "infra-ops",
+        "infrastructure-as-code",
+        "java",
+        "low-code",
+        "orchestration",
+        "pipeline",
+        "pipeline-as-code",
+        "scheduler",
+        "workflow"
+      ]
     },
     {
       "id": "rundeck/rundeck",
@@ -155,8 +355,27 @@
       "link": "http://rundeck.org",
       "name": "Rundeck",
       "desc": "Self-service job scheduling and runbook automation",
-      "weight": 6275,
-      "image": "https://avatars.githubusercontent.com/u/2205640?v=4"
+      "weight": 6277,
+      "image": "https://avatars.githubusercontent.com/u/2205640?v=4",
+      "tags": [
+        "ansible",
+        "audit",
+        "automation",
+        "category-distributed",
+        "deployment",
+        "devops",
+        "devops-team",
+        "devops-tools",
+        "hacktoberfest",
+        "java",
+        "operations",
+        "ops",
+        "orchestration",
+        "runbook",
+        "rundeck",
+        "scheduler",
+        "sre"
+      ]
     },
     {
       "id": "healthchecks/healthchecks",
@@ -166,8 +385,16 @@
       "link": "https://healthchecks.io",
       "name": "Healthchecks",
       "desc": "Cron job and background task monitoring service",
-      "weight": 10264,
-      "image": "https://avatars.githubusercontent.com/u/13053880?v=4"
+      "weight": 10287,
+      "image": "https://avatars.githubusercontent.com/u/13053880?v=4",
+      "tags": [
+        "cron",
+        "cron-jobs",
+        "devops",
+        "django",
+        "monitoring",
+        "ops"
+      ]
     },
     {
       "id": "open-rpa/openrpa",
@@ -177,8 +404,16 @@
       "link": "https://app.openiap.io",
       "name": "OpenRPA",
       "desc": "Open-source robotic process automation platform",
-      "weight": 3044,
-      "image": "https://avatars.githubusercontent.com/u/49598537?v=4"
+      "weight": 3052,
+      "image": "https://avatars.githubusercontent.com/u/49598537?v=4",
+      "tags": [
+        "automation",
+        "multiple-robots",
+        "openflow",
+        "rpa",
+        "rpa-robots",
+        "workflow"
+      ]
     },
     {
       "id": "aisingapore/TagUI",
@@ -188,8 +423,15 @@
       "link": "https://github.com/aisingapore/TagUI",
       "name": "TagUI",
       "desc": "Free command-line RPA tool for automating web, desktop, and CLI tasks",
-      "weight": 6323,
-      "image": "https://avatars.githubusercontent.com/u/110224767?v=4"
+      "weight": 6325,
+      "image": "https://avatars.githubusercontent.com/u/110224767?v=4",
+      "tags": [
+        "ai",
+        "nlp",
+        "opencv",
+        "rpa",
+        "tesseract"
+      ]
     },
     {
       "id": "robocorp/rpaframework",
@@ -199,8 +441,22 @@
       "link": "https://www.rpaframework.org/",
       "name": "RPA Framework",
       "desc": "Open-source libraries for robotic process automation with Python",
-      "weight": 1547,
-      "image": "https://avatars.githubusercontent.com/u/54288445?v=4"
+      "weight": 1550,
+      "image": "https://avatars.githubusercontent.com/u/54288445?v=4",
+      "tags": [
+        "ai",
+        "automation",
+        "documentai",
+        "nlp",
+        "ocr",
+        "opencv",
+        "python",
+        "robocorp",
+        "robot",
+        "robotframework",
+        "rpa",
+        "rpa-robots"
+      ]
     },
     {
       "id": "SeleniumHQ/selenium",
@@ -210,8 +466,18 @@
       "link": "https://selenium.dev",
       "name": "Selenium",
       "desc": "Browser automation framework and ecosystem",
-      "weight": 34380,
-      "image": "https://avatars.githubusercontent.com/u/983927?v=4"
+      "weight": 34392,
+      "image": "https://avatars.githubusercontent.com/u/983927?v=4",
+      "tags": [
+        "dotnet",
+        "java",
+        "javascript",
+        "python",
+        "ruby",
+        "rust",
+        "selenium",
+        "webdriver"
+      ]
     },
     {
       "id": "robotframework/robotframework",
@@ -221,8 +487,18 @@
       "link": "http://robotframework.org",
       "name": "Robot Framework",
       "desc": "Generic automation framework for acceptance testing and RPA",
-      "weight": 11827,
-      "image": "https://avatars.githubusercontent.com/u/574284?v=4"
+      "weight": 11844,
+      "image": "https://avatars.githubusercontent.com/u/574284?v=4",
+      "tags": [
+        "attd",
+        "automation",
+        "bdd",
+        "python",
+        "robotframework",
+        "rpa",
+        "testautomation",
+        "testing"
+      ]
     },
     {
       "id": "scrapy/scrapy",
@@ -232,8 +508,18 @@
       "link": "https://scrapy.org",
       "name": "Scrapy",
       "desc": "Fast, high-level web crawling and scraping framework for Python",
-      "weight": 63974,
-      "image": "https://avatars.githubusercontent.com/u/733635?v=4"
+      "weight": 64036,
+      "image": "https://avatars.githubusercontent.com/u/733635?v=4",
+      "tags": [
+        "crawler",
+        "crawling",
+        "framework",
+        "hacktoberfest",
+        "python",
+        "scraping",
+        "web-scraping",
+        "web-scraping-python"
+      ]
     },
     {
       "id": "apify/crawlee",
@@ -243,8 +529,27 @@
       "link": "https://crawlee.dev",
       "name": "Crawlee",
       "desc": "Web scraping and browser automation library for Node.js",
-      "weight": 25445,
-      "image": "https://avatars.githubusercontent.com/u/24586296?v=4"
+      "weight": 25506,
+      "image": "https://avatars.githubusercontent.com/u/24586296?v=4",
+      "tags": [
+        "apify",
+        "automation",
+        "crawler",
+        "crawling",
+        "headless",
+        "headless-chrome",
+        "javascript",
+        "nodejs",
+        "npm",
+        "playwright",
+        "puppeteer",
+        "scraper",
+        "scraping",
+        "typescript",
+        "web-crawler",
+        "web-crawling",
+        "web-scraping"
+      ]
     },
     {
       "id": "unclecode/crawl4ai",
@@ -254,7 +559,8 @@
       "link": "https://crawl4ai.com",
       "name": "Crawl4AI",
       "desc": "Open-source LLM-friendly web crawler and scraper",
-      "weight": 78756
+      "weight": 79437,
+      "tags": []
     },
     {
       "id": "puppeteer/puppeteer",
@@ -264,8 +570,19 @@
       "link": "https://pptr.dev",
       "name": "Puppeteer",
       "desc": "JavaScript API for automating Chrome and Firefox",
-      "weight": 95472,
-      "image": "https://avatars.githubusercontent.com/u/6906516?v=4"
+      "weight": 95500,
+      "image": "https://avatars.githubusercontent.com/u/6906516?v=4",
+      "tags": [
+        "automation",
+        "chrome",
+        "chromium",
+        "developer-tools",
+        "firefox",
+        "headless-chrome",
+        "node-module",
+        "testing",
+        "web"
+      ]
     },
     {
       "id": "Unstructured-IO/unstructured",
@@ -275,8 +592,30 @@
       "link": "https://www.unstructured.io/",
       "name": "Unstructured",
       "desc": "Open-source ETL for turning complex documents into clean, structured data",
-      "weight": 15325,
-      "image": "https://avatars.githubusercontent.com/u/108372208?v=4"
+      "weight": 15346,
+      "image": "https://avatars.githubusercontent.com/u/108372208?v=4",
+      "tags": [
+        "data-pipelines",
+        "deep-learning",
+        "document-image-analysis",
+        "document-image-processing",
+        "document-parser",
+        "document-parsing",
+        "docx",
+        "donut",
+        "information-retrieval",
+        "langchain",
+        "llm",
+        "machine-learning",
+        "ml",
+        "natural-language-processing",
+        "nlp",
+        "ocr",
+        "pdf",
+        "pdf-to-json",
+        "pdf-to-text",
+        "preprocessing"
+      ]
     },
     {
       "id": "microsoft/markitdown",
@@ -286,8 +625,17 @@
       "link": "https://github.com/microsoft/markitdown",
       "name": "MarkItDown",
       "desc": "Tool for converting files and office documents to Markdown",
-      "weight": 174833,
-      "image": "https://avatars.githubusercontent.com/u/6154722?v=4"
+      "weight": 176318,
+      "image": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "tags": [
+        "autogen",
+        "autogen-extension",
+        "langchain",
+        "markdown",
+        "microsoft-office",
+        "openai",
+        "pdf"
+      ]
     },
     {
       "id": "appsmithorg/appsmith",
@@ -297,8 +645,30 @@
       "link": "https://www.appsmith.com",
       "name": "Appsmith",
       "desc": "Platform for building admin panels, internal tools, and dashboards",
-      "weight": 40709,
-      "image": "https://avatars.githubusercontent.com/u/67620218?v=4"
+      "weight": 40748,
+      "image": "https://avatars.githubusercontent.com/u/67620218?v=4",
+      "tags": [
+        "admin-dashboard",
+        "admin-panels",
+        "app-builder",
+        "automation",
+        "crud",
+        "custom-internal",
+        "developer-tools",
+        "gui",
+        "gui-application",
+        "hacktoberfest",
+        "internal-tools",
+        "java",
+        "javascript",
+        "low-code",
+        "low-code-framework",
+        "react",
+        "self-hosted",
+        "typescript",
+        "webdevelopment",
+        "workflows"
+      ]
     },
     {
       "id": "ToolJet/ToolJet",
@@ -308,8 +678,29 @@
       "link": "https://tooljet.com",
       "name": "ToolJet",
       "desc": "Low-code platform for building internal tools and business applications",
-      "weight": 40554,
-      "image": "https://avatars.githubusercontent.com/u/82193554?v=4"
+      "weight": 40766,
+      "image": "https://avatars.githubusercontent.com/u/82193554?v=4",
+      "tags": [
+        "ai-app-builder",
+        "docker",
+        "hacktoberfest",
+        "internal-applications",
+        "internal-project",
+        "internal-tool",
+        "internal-tools",
+        "javascript",
+        "kubernetes",
+        "low-code",
+        "low-code-development-platform",
+        "low-code-framework",
+        "no-code",
+        "nodejs",
+        "reactjs",
+        "self-hosted",
+        "typescript",
+        "web-development-tools",
+        "workflow-automation"
+      ]
     },
     {
       "id": "Budibase/budibase",
@@ -319,8 +710,29 @@
       "link": "https://budibase.com",
       "name": "Budibase",
       "desc": "Low-code platform for building internal apps and automations",
-      "weight": 28224,
-      "image": "https://avatars.githubusercontent.com/u/45009727?v=4"
+      "weight": 28242,
+      "image": "https://avatars.githubusercontent.com/u/45009727?v=4",
+      "tags": [
+        "ai-app-builder",
+        "ai-applications",
+        "crud-app",
+        "crud-application",
+        "data-application",
+        "data-apps",
+        "internal-tools",
+        "it-workflows",
+        "low-code",
+        "low-code-no-code",
+        "low-code-platform",
+        "no-code",
+        "no-code-platform",
+        "open-source",
+        "rest-api-framework",
+        "sql-gui",
+        "workflow-apps",
+        "workflow-automation",
+        "workflow-engine"
+      ]
     },
     {
       "id": "nocodb/nocodb",
@@ -330,8 +742,24 @@
       "link": "https://nocodb.com",
       "name": "NocoDB",
       "desc": "Open-source, self-hostable Airtable alternative",
-      "weight": 64597,
-      "image": "https://avatars.githubusercontent.com/u/50206778?v=4"
+      "weight": 64733,
+      "image": "https://avatars.githubusercontent.com/u/50206778?v=4",
+      "tags": [
+        "airtable",
+        "airtable-alternative",
+        "automatic-api",
+        "hacktoberfest",
+        "low-code",
+        "no-code",
+        "no-code-database",
+        "no-code-platform",
+        "postgresql",
+        "rest-api",
+        "restful-api",
+        "spreadsheet",
+        "sqlite",
+        "swagger"
+      ]
     },
     {
       "id": "baserow/baserow",
@@ -341,8 +769,26 @@
       "link": "https://baserow.io",
       "name": "Baserow",
       "desc": "Open-source no-code database and app builder",
-      "weight": 5640,
-      "image": "https://avatars.githubusercontent.com/u/68540644?v=4"
+      "weight": 5706,
+      "image": "https://avatars.githubusercontent.com/u/68540644?v=4",
+      "tags": [
+        "airtable",
+        "airtable-alternative",
+        "airtable-replacement",
+        "application-builder",
+        "automations",
+        "dashboards",
+        "database",
+        "low-code",
+        "no-code",
+        "no-code-database",
+        "no-code-platform",
+        "online-database",
+        "postgresql",
+        "restful-api",
+        "self-hosted",
+        "spreadsheet"
+      ]
     },
     {
       "id": "illacloud/illa-builder",
@@ -353,7 +799,25 @@
       "name": "ILLA Builder",
       "desc": "Low-code platform for building internal business apps",
       "weight": 12311,
-      "image": "https://avatars.githubusercontent.com/u/93245159?v=4"
+      "image": "https://avatars.githubusercontent.com/u/93245159?v=4",
+      "tags": [
+        "aiagent",
+        "app-builder",
+        "crud-application",
+        "developer-tool",
+        "developer-tools",
+        "gui",
+        "hacktoberfest",
+        "internal-development",
+        "internal-tool",
+        "internal-tools",
+        "low-code",
+        "low-code-development-platform",
+        "lowcode",
+        "react",
+        "self-hosted",
+        "typescript"
+      ]
     },
     {
       "id": "nocobase/nocobase",
@@ -363,8 +827,29 @@
       "link": "https://www.nocobase.com",
       "name": "NocoBase",
       "desc": "Open-source no-code platform for building business systems",
-      "weight": 23709,
-      "image": "https://avatars.githubusercontent.com/u/66196787?v=4"
+      "weight": 23856,
+      "image": "https://avatars.githubusercontent.com/u/66196787?v=4",
+      "tags": [
+        "admin-dashboard",
+        "ai-agent",
+        "ai-agents",
+        "ai-assistant",
+        "ai-tools",
+        "crm",
+        "crud",
+        "dsh-plugin",
+        "erp",
+        "internal-tool",
+        "internal-tools",
+        "low-code",
+        "lowcode",
+        "no-code",
+        "nocode",
+        "project-management",
+        "salesforce",
+        "self-hosted",
+        "workflows"
+      ]
     },
     {
       "id": "strapi/strapi",
@@ -374,8 +859,29 @@
       "link": "https://strapi.io",
       "name": "Strapi",
       "desc": "Leading open-source headless CMS",
-      "weight": 72976,
-      "image": "https://avatars.githubusercontent.com/u/19872173?v=4"
+      "weight": 73018,
+      "image": "https://avatars.githubusercontent.com/u/19872173?v=4",
+      "tags": [
+        "api",
+        "cms",
+        "cms-framework",
+        "content-management",
+        "content-management-system",
+        "customizable",
+        "dashboard",
+        "graphql",
+        "hacktoberfest",
+        "headless-cms",
+        "jamstack",
+        "javascript",
+        "mysql",
+        "no-code",
+        "nodejs",
+        "posgresql",
+        "rest",
+        "strapi",
+        "typescript"
+      ]
     },
     {
       "id": "directus/directus",
@@ -385,8 +891,30 @@
       "link": "https://directus.com",
       "name": "Directus",
       "desc": "Flexible headless CMS that turns any database into an API",
-      "weight": 37485,
-      "image": "https://avatars.githubusercontent.com/u/15967950?v=4"
+      "weight": 37469,
+      "image": "https://avatars.githubusercontent.com/u/15967950?v=4",
+      "tags": [
+        "api",
+        "app",
+        "cms",
+        "composable",
+        "data-visualization",
+        "database",
+        "directus",
+        "graphql",
+        "headless-cms",
+        "javascript",
+        "mariadb",
+        "mssql",
+        "mysql",
+        "no-code",
+        "node",
+        "postgresql",
+        "sql",
+        "sqlite",
+        "typescript",
+        "vue"
+      ]
     },
     {
       "id": "odoo/odoo",
@@ -396,8 +924,17 @@
       "link": "https://www.odoo.com",
       "name": "Odoo",
       "desc": "Suite of open-source business applications for running a company",
-      "weight": 53816,
-      "image": "https://avatars.githubusercontent.com/u/6368483?v=4"
+      "weight": 53954,
+      "image": "https://avatars.githubusercontent.com/u/6368483?v=4",
+      "tags": [
+        "apps",
+        "business",
+        "erp",
+        "management",
+        "odoo",
+        "odoo-apps",
+        "python"
+      ]
     },
     {
       "id": "frappe/erpnext",
@@ -407,8 +944,26 @@
       "link": "https://frappe.io/erpnext",
       "name": "ERPNext",
       "desc": "Free and open-source enterprise resource planning system",
-      "weight": 38301,
-      "image": "https://avatars.githubusercontent.com/u/836974?v=4"
+      "weight": 38514,
+      "image": "https://avatars.githubusercontent.com/u/836974?v=4",
+      "tags": [
+        "accounting",
+        "asset-management",
+        "crm",
+        "distribution",
+        "erp",
+        "erpnext",
+        "frappe",
+        "healthcare",
+        "hrms",
+        "manufacturing",
+        "point-of-sale",
+        "procurement",
+        "project-management",
+        "python",
+        "retail",
+        "support"
+      ]
     },
     {
       "id": "camunda/camunda",
@@ -419,7 +974,16 @@
       "name": "Camunda",
       "desc": "Process orchestration and workflow automation framework",
       "weight": 4254,
-      "image": "https://avatars.githubusercontent.com/u/2443838?v=4"
+      "image": "https://avatars.githubusercontent.com/u/2443838?v=4",
+      "tags": [
+        "bpmn",
+        "grpc",
+        "java",
+        "microservices",
+        "orchestration-framework",
+        "workflow",
+        "workflow-engine"
+      ]
     },
     {
       "id": "twentyhq/twenty",
@@ -429,8 +993,27 @@
       "link": "https://twenty.com",
       "name": "Twenty",
       "desc": "Open-source CRM alternative to Salesforce",
-      "weight": 55175,
-      "image": "https://avatars.githubusercontent.com/u/119600397?v=4"
+      "weight": 55550,
+      "image": "https://avatars.githubusercontent.com/u/119600397?v=4",
+      "tags": [
+        "crm",
+        "crm-system",
+        "customer",
+        "good-first-issue",
+        "graphql",
+        "hacktoberfest",
+        "javascript",
+        "marketing",
+        "monorepo",
+        "nestjs",
+        "open-source",
+        "postgresql",
+        "react",
+        "reactjs",
+        "sales",
+        "typescript",
+        "web"
+      ]
     },
     {
       "id": "documenso/documenso",
@@ -440,8 +1023,28 @@
       "link": "https://documenso.com",
       "name": "Documenso",
       "desc": "Open-source alternative to DocuSign for document signing",
-      "weight": 14627,
-      "image": "https://avatars.githubusercontent.com/u/127681099?v=4"
+      "weight": 14759,
+      "image": "https://avatars.githubusercontent.com/u/127681099?v=4",
+      "tags": [
+        "digital-signature",
+        "document-signing",
+        "docusign-alternative",
+        "e-signature",
+        "esign",
+        "esignature",
+        "next-auth",
+        "nextjs",
+        "open-source",
+        "pades-standard",
+        "pdf",
+        "pdf-sign",
+        "pdf-signature",
+        "postgresql",
+        "prisma",
+        "self-hosted",
+        "signing",
+        "typescript"
+      ]
     },
     {
       "id": "formbricks/formbricks",
@@ -451,8 +1054,27 @@
       "link": "https://formbricks.com",
       "name": "Formbricks",
       "desc": "Open-source survey and experience management platform",
-      "weight": 12795,
-      "image": "https://avatars.githubusercontent.com/u/105877416?v=4"
+      "weight": 12825,
+      "image": "https://avatars.githubusercontent.com/u/105877416?v=4",
+      "tags": [
+        "experience-management",
+        "form",
+        "forms",
+        "nextjs",
+        "open-source",
+        "react",
+        "reactjs",
+        "survey",
+        "survey-analysis",
+        "survey-data",
+        "survey-form",
+        "surveys",
+        "tailwindcss",
+        "turborepo",
+        "typeform",
+        "typescript",
+        "xm"
+      ]
     },
     {
       "id": "invoiceninja/invoiceninja",
@@ -462,8 +1084,26 @@
       "link": "https://invoiceninja.com",
       "name": "Invoice Ninja",
       "desc": "Invoicing, quoting, and time-tracking application",
-      "weight": 10011,
-      "image": "https://avatars.githubusercontent.com/u/15712270?v=4"
+      "weight": 10025,
+      "image": "https://avatars.githubusercontent.com/u/15712270?v=4",
+      "tags": [
+        "einvoicing",
+        "expenses",
+        "flutter",
+        "hacktoberfest",
+        "invoice",
+        "invoiceninja",
+        "invoices",
+        "javascript",
+        "kanban",
+        "laravel",
+        "payments",
+        "php",
+        "projects",
+        "quotes",
+        "tasks",
+        "time-tracker"
+      ]
     },
     {
       "id": "airbytehq/airbyte",
@@ -473,8 +1113,30 @@
       "link": "https://airbyte.com",
       "name": "Airbyte",
       "desc": "Open-source data movement platform for ELT pipelines",
-      "weight": 21924,
-      "image": "https://avatars.githubusercontent.com/u/59758427?v=4"
+      "weight": 21954,
+      "image": "https://avatars.githubusercontent.com/u/59758427?v=4",
+      "tags": [
+        "bigquery",
+        "change-data-capture",
+        "data",
+        "data-analysis",
+        "data-collection",
+        "data-engineering",
+        "data-integration",
+        "data-pipeline",
+        "elt",
+        "etl",
+        "java",
+        "mssql",
+        "mysql",
+        "pipeline",
+        "postgresql",
+        "python",
+        "redshift",
+        "s3",
+        "self-hosted",
+        "snowflake"
+      ]
     },
     {
       "id": "dlt-hub/dlt",
@@ -484,8 +1146,20 @@
       "link": "https://dlthub.com/docs",
       "name": "dlt",
       "desc": "Python library for loading data into warehouses and lakes",
-      "weight": 5758,
-      "image": "https://avatars.githubusercontent.com/u/89419010?v=4"
+      "weight": 5779,
+      "image": "https://avatars.githubusercontent.com/u/89419010?v=4",
+      "tags": [
+        "data",
+        "data-engineering",
+        "data-lake",
+        "data-loading",
+        "data-warehouse",
+        "elt",
+        "extract",
+        "load",
+        "python",
+        "transform"
+      ]
     },
     {
       "id": "novuhq/novu",
@@ -495,8 +1169,25 @@
       "link": "https://go.novu.co/github",
       "name": "Novu",
       "desc": "Open-source notification infrastructure for multi-channel messaging",
-      "weight": 39619,
-      "image": "https://avatars.githubusercontent.com/u/77433905?v=4"
+      "weight": 39668,
+      "image": "https://avatars.githubusercontent.com/u/77433905?v=4",
+      "tags": [
+        "agents",
+        "communication",
+        "email",
+        "inbox",
+        "infrastructure",
+        "nodejs",
+        "notification-center",
+        "notifications",
+        "novu",
+        "push-notifications",
+        "react",
+        "reactjs",
+        "sms",
+        "transactional",
+        "typescript"
+      ]
     },
     {
       "id": "binwiederhier/ntfy",
@@ -506,7 +1197,16 @@
       "link": "https://ntfy.sh",
       "name": "ntfy",
       "desc": "Simple pub-sub push notification service",
-      "weight": 33633
+      "weight": 33759,
+      "tags": [
+        "curl",
+        "notifications",
+        "ntfy",
+        "ntfysh",
+        "pubsub",
+        "push-notifications",
+        "rest-api"
+      ]
     },
     {
       "id": "mautic/mautic",
@@ -516,8 +1216,22 @@
       "link": "https://www.mautic.org",
       "name": "Mautic",
       "desc": "Open-source marketing automation software",
-      "weight": 10372,
-      "image": "https://avatars.githubusercontent.com/u/5257677?v=4"
+      "weight": 10389,
+      "image": "https://avatars.githubusercontent.com/u/5257677?v=4",
+      "tags": [
+        "digital-experience-platform",
+        "digitalexperienceplatform",
+        "dxp",
+        "email-marketing",
+        "email-marketing-automation",
+        "email-marketing-software",
+        "hacktoberfest",
+        "marketing-automation",
+        "marketing-tools",
+        "mautic",
+        "open-source",
+        "php"
+      ]
     },
     {
       "id": "knadh/listmonk",
@@ -527,7 +1241,22 @@
       "link": "https://listmonk.app",
       "name": "listmonk",
       "desc": "Self-hosted newsletter and mailing list manager",
-      "weight": 23011
+      "weight": 23131,
+      "tags": [
+        "campaign",
+        "campaign-management",
+        "email-marketing",
+        "email-subscription",
+        "listmonk",
+        "mailing-list",
+        "newsletter",
+        "newsletter-management",
+        "newsletter-software",
+        "self-hosted",
+        "sms-gateway",
+        "smtp",
+        "transactional-emails"
+      ]
     },
     {
       "id": "conductor-oss/conductor",
@@ -537,8 +1266,24 @@
       "name": "conductor",
       "link": "https://github.com/conductor-oss/conductor",
       "desc": "Conductor is an event driven agentic workflow engine providing durable and highly resilient execution engine for applications and AI Agents",
-      "weight": 32128,
-      "image": "https://avatars.githubusercontent.com/u/153258413?v=4"
+      "weight": 32129,
+      "image": "https://avatars.githubusercontent.com/u/153258413?v=4",
+      "tags": [
+        "distributed-systems",
+        "durable-execution",
+        "grpc",
+        "java",
+        "javascript",
+        "microservice-orchestration",
+        "orchestration-engine",
+        "orchestrator",
+        "reactjs",
+        "spring-boot",
+        "workflow-automation",
+        "workflow-engine",
+        "workflow-management",
+        "workflows"
+      ]
     },
     {
       "id": "GrapesJS/grapesjs",
@@ -548,8 +1293,22 @@
       "name": "grapesjs",
       "link": "https://github.com/GrapesJS/grapesjs",
       "desc": "Free and Open source Web Builder Framework. Next generation tool for building templates without coding",
-      "weight": 26162,
-      "image": "https://avatars.githubusercontent.com/u/123950155?v=4"
+      "weight": 26163,
+      "image": "https://avatars.githubusercontent.com/u/123950155?v=4",
+      "tags": [
+        "drag-and-drop",
+        "framework",
+        "no-code",
+        "nocode",
+        "page-builder",
+        "site-builder",
+        "site-generator",
+        "template-builder",
+        "ui-builder",
+        "web-builder",
+        "web-builder-framework",
+        "website-builder"
+      ]
     },
     {
       "id": "teableio/teable",
@@ -559,8 +1318,22 @@
       "name": "teable",
       "link": "https://github.com/teableio/teable",
       "desc": "✨ AI Spreadsheet for Business",
-      "weight": 21713,
-      "image": "https://avatars.githubusercontent.com/u/113977713?v=4"
+      "weight": 21715,
+      "image": "https://avatars.githubusercontent.com/u/113977713?v=4",
+      "tags": [
+        "ai-agent",
+        "airtable",
+        "airtable-alternative",
+        "app-builder",
+        "database",
+        "internal-tool",
+        "low-code",
+        "no-code",
+        "postgres",
+        "postgresql",
+        "sandbox",
+        "spreadsheet"
+      ]
     }
   ]
 }

@@ -47,7 +47,7 @@ test("parseGhRepo returns null for a non-string value", () => {
   assert.equal(parseGhRepo(undefined), null);
 });
 
-function fakeGetJson({ repoStars, ownerAvatarUrl, ownerType = "Organization", contentsByPath }) {
+function fakeGetJson({ repoStars, ownerAvatarUrl, ownerType = "Organization", contentsByPath, topics }) {
   return async (url) => {
     const contentsMatch = Object.keys(contentsByPath).find((p) => url.endsWith(`/contents/${p}`));
     if (contentsMatch) {
@@ -59,7 +59,7 @@ function fakeGetJson({ repoStars, ownerAvatarUrl, ownerType = "Organization", co
       }
       return entry;
     }
-    return { stargazers_count: repoStars, owner: { avatar_url: ownerAvatarUrl, type: ownerType } };
+    return { stargazers_count: repoStars, owner: { avatar_url: ownerAvatarUrl, type: ownerType }, topics };
   };
 }
 
@@ -72,6 +72,24 @@ test("enrichProject sets weight from the repo's star count", async () => {
   assert.equal(result.weight, 12345);
   assert.equal(result.id, "facebook/react");
   assert.equal(result.image, undefined);
+});
+
+test("enrichProject sets tags from the repo's GitHub topics", async () => {
+  const project = { id: "facebook/react" };
+  const getJson = fakeGetJson({ repoStars: 12345, contentsByPath: {}, topics: ["ui", "javascript"] });
+
+  const result = await enrichProject(project, { getJson });
+
+  assert.deepEqual(result.tags, ["ui", "javascript"]);
+});
+
+test("enrichProject sets tags to an empty array when the repo has no GitHub topics", async () => {
+  const project = { id: "facebook/react", tags: ["stale"] };
+  const getJson = fakeGetJson({ repoStars: 12345, contentsByPath: {} });
+
+  const result = await enrichProject(project, { getJson });
+
+  assert.deepEqual(result.tags, []);
 });
 
 test("enrichProject sets image to the first matching logo candidate's direct URL", async () => {

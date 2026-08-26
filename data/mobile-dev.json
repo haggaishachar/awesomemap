@@ -12,8 +12,18 @@
       "link": "https://reactnative.dev/",
       "name": "React Native",
       "desc": "A framework for building native apps using React",
-      "weight": 126333,
-      "image": "https://avatars.githubusercontent.com/u/102812?v=4"
+      "weight": 126411,
+      "image": "https://avatars.githubusercontent.com/u/102812?v=4",
+      "tags": [
+        "android",
+        "app-framework",
+        "cross-platform",
+        "ios",
+        "mobile",
+        "mobile-development",
+        "react",
+        "react-native"
+      ]
     },
     {
       "id": "flutter/flutter",
@@ -23,8 +33,29 @@
       "link": "https://flutter.dev/",
       "name": "Flutter",
       "desc": "Google's UI toolkit for building natively compiled apps from a single codebase",
-      "weight": 178365,
-      "image": "https://avatars.githubusercontent.com/u/14101776?v=4"
+      "weight": 178661,
+      "image": "https://avatars.githubusercontent.com/u/14101776?v=4",
+      "tags": [
+        "android",
+        "app-framework",
+        "cross-platform",
+        "dart",
+        "dart-platform",
+        "desktop",
+        "flutter",
+        "flutter-package",
+        "fuchsia",
+        "ios",
+        "linux-desktop",
+        "macos",
+        "material-design",
+        "mobile",
+        "mobile-development",
+        "skia",
+        "web",
+        "web-framework",
+        "windows"
+      ]
     },
     {
       "id": "ionic-team/ionic-framework",
@@ -34,8 +65,28 @@
       "link": "https://ionicframework.com/",
       "name": "Ionic Framework",
       "desc": "Cross-platform UI toolkit for building native-quality iOS, Android, and PWA apps with web technologies",
-      "weight": 52616,
-      "image": "https://avatars.githubusercontent.com/u/3171503?v=4"
+      "weight": 52631,
+      "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
+      "tags": [
+        "angular",
+        "capacitor",
+        "framework",
+        "frontend",
+        "ionic",
+        "ios",
+        "javascript",
+        "material-design",
+        "mobile",
+        "pwa",
+        "react",
+        "stencil",
+        "stenciljs",
+        "typescript",
+        "ui-components",
+        "vue",
+        "web",
+        "webcomponents"
+      ]
     },
     {
       "id": "ionic-team/capacitor",
@@ -45,8 +96,22 @@
       "link": "https://capacitorjs.com/",
       "name": "Capacitor",
       "desc": "Cross-platform native runtime for building web-native mobile apps",
-      "weight": 16296,
-      "image": "https://avatars.githubusercontent.com/u/3171503?v=4"
+      "weight": 16388,
+      "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
+      "tags": [
+        "android",
+        "capacitor",
+        "cordova",
+        "cross-platform",
+        "css",
+        "html",
+        "ionic",
+        "ios",
+        "java",
+        "javascript",
+        "pwa",
+        "swift"
+      ]
     },
     {
       "id": "NativeScript/NativeScript",
@@ -56,8 +121,30 @@
       "link": "https://nativescript.org/",
       "name": "NativeScript",
       "desc": "Build truly native mobile apps with JavaScript, TypeScript, Angular, Vue, or Svelte",
-      "weight": 25603,
-      "image": "https://avatars.githubusercontent.com/u/7392261?v=4"
+      "weight": 25626,
+      "image": "https://avatars.githubusercontent.com/u/7392261?v=4",
+      "tags": [
+        "android",
+        "angular",
+        "capacitor",
+        "cross-platform",
+        "flutter",
+        "ios",
+        "java",
+        "javascript",
+        "kotlin",
+        "nativescript",
+        "objective-c",
+        "react",
+        "solidjs",
+        "svelte",
+        "swift",
+        "swiftui",
+        "typescript",
+        "visionos",
+        "visionpro",
+        "vue"
+      ]
     },
     {
       "id": "tauri-apps/tauri",
@@ -67,8 +154,17 @@
       "link": "https://tauri.app/",
       "name": "Tauri",
       "desc": "Build smaller, faster, and more secure desktop and mobile apps with a web frontend",
-      "weight": 110152,
-      "image": "https://avatars.githubusercontent.com/u/54536011?v=4"
+      "weight": 110569,
+      "image": "https://avatars.githubusercontent.com/u/54536011?v=4",
+      "tags": [
+        "desktop-app",
+        "high-performance",
+        "mobile-app",
+        "native-app",
+        "rust",
+        "web-frontend",
+        "webview"
+      ]
     },
     {
       "id": "lysine-dev/retrofit",
@@ -78,8 +174,12 @@
       "link": "https://github.com/lysine-dev/retrofit",
       "name": "Retrofit",
       "desc": "A type-safe HTTP client for Android and Java",
-      "weight": 43926,
-      "image": "https://avatars.githubusercontent.com/u/265085928?v=4"
+      "weight": 43936,
+      "image": "https://avatars.githubusercontent.com/u/265085928?v=4",
+      "tags": [
+        "android",
+        "java"
+      ]
     },
     {
       "id": "lysine-dev/okhttp",
@@ -89,8 +189,14 @@
       "link": "https://github.com/lysine-dev/okhttp",
       "name": "OkHttp",
       "desc": "An HTTP client for Android, Kotlin, and Java applications",
-      "weight": 47041,
-      "image": "https://avatars.githubusercontent.com/u/265085928?v=4"
+      "weight": 47051,
+      "image": "https://avatars.githubusercontent.com/u/265085928?v=4",
+      "tags": [
+        "android",
+        "graalvm",
+        "java",
+        "kotlin"
+      ]
     },
     {
       "id": "bumptech/glide",
@@ -100,8 +206,9 @@
       "link": "https://bumptech.github.io/glide/",
       "name": "Glide",
       "desc": "An image loading and caching library for Android focused on smooth scrolling",
-      "weight": 35022,
-      "image": "https://avatars.githubusercontent.com/u/423539?v=4"
+      "weight": 35025,
+      "image": "https://avatars.githubusercontent.com/u/423539?v=4",
+      "tags": []
     },
     {
       "id": "coil-kt/coil",
@@ -111,8 +218,20 @@
       "link": "https://coil-kt.github.io/coil/",
       "name": "Coil",
       "desc": "Image loading for Android and Compose Multiplatform backed by Kotlin Coroutines",
-      "weight": 11875,
-      "image": "https://raw.githubusercontent.com/coil-kt/coil/main/logo.svg"
+      "weight": 11879,
+      "image": "https://raw.githubusercontent.com/coil-kt/coil/main/logo.svg",
+      "tags": [
+        "android",
+        "androidx",
+        "compose",
+        "compose-multiplatform",
+        "coroutines",
+        "image-loader",
+        "images",
+        "kotlin",
+        "kotlin-coroutines",
+        "okio"
+      ]
     },
     {
       "id": "google/dagger",
@@ -122,8 +241,9 @@
       "link": "https://dagger.dev/",
       "name": "Dagger",
       "desc": "A fast dependency injector for Android and Java",
-      "weight": 17706,
-      "image": "https://avatars.githubusercontent.com/u/1342004?v=4"
+      "weight": 17703,
+      "image": "https://avatars.githubusercontent.com/u/1342004?v=4",
+      "tags": []
     },
     {
       "id": "square/leakcanary",
@@ -133,8 +253,20 @@
       "link": "https://square.github.io/leakcanary/",
       "name": "LeakCanary",
       "desc": "A memory leak detection library for Android",
-      "weight": 29969,
-      "image": "https://avatars.githubusercontent.com/u/82592?v=4"
+      "weight": 29984,
+      "image": "https://avatars.githubusercontent.com/u/82592?v=4",
+      "tags": [
+        "android",
+        "java",
+        "kotlin",
+        "kotlin-android",
+        "leak-canary",
+        "leak-trace",
+        "leakcanary",
+        "memory-leak",
+        "outofmemory",
+        "outofmemoryerror"
+      ]
     },
     {
       "id": "Alamofire/Alamofire",
@@ -144,8 +276,25 @@
       "link": "https://github.com/Alamofire/Alamofire",
       "name": "Alamofire",
       "desc": "Elegant HTTP networking in Swift",
-      "weight": 42416,
-      "image": "https://avatars.githubusercontent.com/u/7774181?v=4"
+      "weight": 42419,
+      "image": "https://avatars.githubusercontent.com/u/7774181?v=4",
+      "tags": [
+        "alamofire",
+        "carthage",
+        "certificate-pinning",
+        "cocoapods",
+        "httpurlresponse",
+        "networking",
+        "parameter-encoding",
+        "public-key-pinning",
+        "request",
+        "response",
+        "swift",
+        "swift-package-manager",
+        "urlrequest",
+        "urlsession",
+        "xcode"
+      ]
     },
     {
       "id": "onevcat/Kingfisher",
@@ -155,7 +304,18 @@
       "link": "https://github.com/onevcat/Kingfisher",
       "name": "Kingfisher",
       "desc": "A lightweight, pure-Swift library for downloading and caching images from the web",
-      "weight": 24390
+      "weight": 24394,
+      "tags": [
+        "cache",
+        "filters",
+        "image",
+        "image-processor",
+        "ios",
+        "kingfisher",
+        "macos",
+        "swift",
+        "xcode"
+      ]
     },
     {
       "id": "SDWebImage/SDWebImage",
@@ -165,8 +325,26 @@
       "link": "https://github.com/SDWebImage/SDWebImage",
       "name": "SDWebImage",
       "desc": "Asynchronous image downloader with cache support as a UIImageView category",
-      "weight": 25638,
-      "image": "https://avatars.githubusercontent.com/u/33113626?v=4"
+      "weight": 25634,
+      "image": "https://avatars.githubusercontent.com/u/33113626?v=4",
+      "tags": [
+        "cache",
+        "carthage",
+        "cocoapods",
+        "gif",
+        "heif",
+        "image",
+        "ios",
+        "jpeg",
+        "macos",
+        "objective-c",
+        "png",
+        "sdwebimage",
+        "swift",
+        "visionos",
+        "watchos",
+        "webp"
+      ]
     },
     {
       "id": "ReactiveX/RxSwift",
@@ -176,8 +354,18 @@
       "link": "https://github.com/ReactiveX/RxSwift",
       "name": "RxSwift",
       "desc": "Reactive programming in Swift",
-      "weight": 24647,
-      "image": "https://avatars.githubusercontent.com/u/6407041?v=4"
+      "weight": 24646,
+      "image": "https://avatars.githubusercontent.com/u/6407041?v=4",
+      "tags": [
+        "functional",
+        "ios",
+        "observer",
+        "reactive",
+        "reactivex",
+        "rxswift",
+        "swift",
+        "unidirectional"
+      ]
     },
     {
       "id": "Swinject/Swinject",
@@ -187,8 +375,16 @@
       "link": "https://github.com/Swinject/Swinject",
       "name": "Swinject",
       "desc": "A dependency injection framework for Swift",
-      "weight": 6705,
-      "image": "https://avatars.githubusercontent.com/u/13637225?v=4"
+      "weight": 6707,
+      "image": "https://avatars.githubusercontent.com/u/13637225?v=4",
+      "tags": [
+        "dependency-injection",
+        "di-container",
+        "inversion-of-control",
+        "ioc-container",
+        "ios",
+        "swift"
+      ]
     },
     {
       "id": "supabase/supabase",
@@ -198,8 +394,29 @@
       "link": "https://supabase.com/",
       "name": "Supabase",
       "desc": "The open source Firebase alternative: Postgres database, auth, storage, and realtime for web and mobile apps",
-      "weight": 107896,
-      "image": "https://avatars.githubusercontent.com/u/54469796?v=4"
+      "weight": 108418,
+      "image": "https://avatars.githubusercontent.com/u/54469796?v=4",
+      "tags": [
+        "ai",
+        "alternative",
+        "auth",
+        "database",
+        "deno",
+        "embeddings",
+        "example",
+        "firebase",
+        "nextjs",
+        "oauth2",
+        "pgvector",
+        "postgis",
+        "postgres",
+        "postgresql",
+        "postgrest",
+        "realtime",
+        "supabase",
+        "vectors",
+        "websockets"
+      ]
     },
     {
       "id": "appwrite/appwrite",
@@ -209,8 +426,30 @@
       "link": "https://appwrite.io/",
       "name": "Appwrite",
       "desc": "Open source backend server for web, mobile, and Flutter apps covering auth, databases, storage, and functions",
-      "weight": 56903,
-      "image": "https://avatars.githubusercontent.com/u/25003669?v=4"
+      "weight": 57119,
+      "image": "https://avatars.githubusercontent.com/u/25003669?v=4",
+      "tags": [
+        "android",
+        "appwrite",
+        "backend",
+        "backend-as-a-service",
+        "docker",
+        "firebase",
+        "flutter",
+        "hosting",
+        "ios",
+        "javascript",
+        "nextjs",
+        "react",
+        "react-native",
+        "reactnative",
+        "self-hosted",
+        "selfhosted",
+        "serverless",
+        "supabase",
+        "swift",
+        "web"
+      ]
     },
     {
       "id": "parse-community/parse-server",
@@ -220,8 +459,28 @@
       "link": "https://parseplatform.org/",
       "name": "Parse Server",
       "desc": "Open source backend for mobile and web apps, compatible with the Parse SDKs",
-      "weight": 21410,
-      "image": "https://avatars.githubusercontent.com/u/26932219?v=4"
+      "weight": 21412,
+      "image": "https://avatars.githubusercontent.com/u/26932219?v=4",
+      "tags": [
+        "baas",
+        "backend",
+        "file-storage",
+        "graphql",
+        "graphql-api",
+        "graphql-relay",
+        "graphql-server",
+        "hacktoberfest",
+        "mbaas",
+        "mongodb",
+        "nodejs",
+        "notifications",
+        "object-storage",
+        "parse-platform",
+        "parse-server",
+        "postgres",
+        "relay",
+        "rest-api"
+      ]
     },
     {
       "id": "pocketbase/pocketbase",
@@ -231,8 +490,14 @@
       "link": "https://pocketbase.io/",
       "name": "PocketBase",
       "desc": "Open source realtime backend in a single file, with auth, database, and storage",
-      "weight": 60635,
-      "image": "https://avatars.githubusercontent.com/u/101000011?v=4"
+      "weight": 60807,
+      "image": "https://avatars.githubusercontent.com/u/101000011?v=4",
+      "tags": [
+        "authentication",
+        "backend",
+        "golang",
+        "realtime"
+      ]
     },
     {
       "id": "wix/Detox",
@@ -242,8 +507,21 @@
       "link": "https://wix.github.io/Detox/",
       "name": "Detox",
       "desc": "Gray box end-to-end testing and automation framework for mobile apps",
-      "weight": 12005,
-      "image": "https://avatars.githubusercontent.com/u/686511?v=4"
+      "weight": 12012,
+      "image": "https://avatars.githubusercontent.com/u/686511?v=4",
+      "tags": [
+        "android",
+        "automation",
+        "e2e-tests",
+        "hacktoberfest",
+        "hacktoberfest2024",
+        "ios",
+        "javascript",
+        "react-native",
+        "test-automation",
+        "testing",
+        "testing-tools"
+      ]
     },
     {
       "id": "appium/appium",
@@ -253,8 +531,18 @@
       "link": "https://appium.io/",
       "name": "Appium",
       "desc": "Cross-platform automation framework for native, mobile web, and hybrid apps, built on WebDriver",
-      "weight": 21852,
-      "image": "https://avatars.githubusercontent.com/u/3221291?v=4"
+      "weight": 21893,
+      "image": "https://avatars.githubusercontent.com/u/3221291?v=4",
+      "tags": [
+        "android",
+        "appium",
+        "automation",
+        "ios",
+        "macos",
+        "test-automation",
+        "webdriver",
+        "windows"
+      ]
     },
     {
       "id": "mobile-dev-inc/Maestro",
@@ -264,8 +552,14 @@
       "link": "https://maestro.mobile.dev/",
       "name": "Maestro",
       "desc": "Painless end-to-end mobile UI testing for iOS and Android",
-      "weight": 15309,
-      "image": "https://raw.githubusercontent.com/mobile-dev-inc/Maestro/main/logo.png"
+      "weight": 15427,
+      "image": "https://raw.githubusercontent.com/mobile-dev-inc/Maestro/main/logo.png",
+      "tags": [
+        "android",
+        "blackbox-testing",
+        "ios",
+        "ui-automation"
+      ]
     },
     {
       "id": "robolectric/robolectric",
@@ -275,8 +569,14 @@
       "link": "http://robolectric.org/",
       "name": "Robolectric",
       "desc": "An Android unit testing framework that runs tests directly on the JVM",
-      "weight": 6033,
-      "image": "https://avatars.githubusercontent.com/u/3988212?v=4"
+      "weight": 6040,
+      "image": "https://avatars.githubusercontent.com/u/3988212?v=4",
+      "tags": [
+        "android",
+        "java",
+        "robolectric",
+        "unit-testing"
+      ]
     },
     {
       "id": "callstack/react-native-paper",
@@ -286,8 +586,14 @@
       "link": "https://callstack.github.io/react-native-paper/",
       "name": "React Native Paper",
       "desc": "Material Design for React Native on Android and iOS",
-      "weight": 14440,
-      "image": "https://avatars.githubusercontent.com/u/42239399?v=4"
+      "weight": 14449,
+      "image": "https://avatars.githubusercontent.com/u/42239399?v=4",
+      "tags": [
+        "hacktoberfest",
+        "material-design",
+        "react-native",
+        "ui-kit"
+      ]
     },
     {
       "id": "gluestack/gluestack-ui",
@@ -297,8 +603,20 @@
       "link": "https://gluestack.io/",
       "name": "gluestack-ui",
       "desc": "Universal, copy-paste React and React Native components built with Tailwind CSS (NativeWind)",
-      "weight": 5247,
-      "image": "https://avatars.githubusercontent.com/u/120183344?v=4"
+      "weight": 5265,
+      "image": "https://avatars.githubusercontent.com/u/120183344?v=4",
+      "tags": [
+        "accessibility",
+        "component-library",
+        "customizable-components",
+        "design-system",
+        "react",
+        "react-native",
+        "styled-components",
+        "ui",
+        "ui-components",
+        "universal-components"
+      ]
     },
     {
       "id": "react-native-elements/react-native-elements",
@@ -308,8 +626,19 @@
       "link": "https://reactnativeelements.com/",
       "name": "React Native Elements",
       "desc": "Cross-platform React Native UI toolkit",
-      "weight": 25864,
-      "image": "https://avatars.githubusercontent.com/u/49050851?v=4"
+      "weight": 25866,
+      "image": "https://avatars.githubusercontent.com/u/49050851?v=4",
+      "tags": [
+        "android",
+        "cross-platform",
+        "hacktoberfest",
+        "ios",
+        "mobile-app",
+        "react",
+        "react-native",
+        "ui",
+        "ui-components"
+      ]
     },
     {
       "id": "material-components/material-components-android",
@@ -319,8 +648,13 @@
       "link": "https://material.io/develop/android",
       "name": "Material Components for Android",
       "desc": "Modular and customizable Material Design UI components for Android",
-      "weight": 17365,
-      "image": "https://avatars.githubusercontent.com/u/19478152?v=4"
+      "weight": 17370,
+      "image": "https://avatars.githubusercontent.com/u/19478152?v=4",
+      "tags": [
+        "android",
+        "material-components",
+        "material-design"
+      ]
     },
     {
       "id": "TextureGroup/Texture",
@@ -330,8 +664,15 @@
       "link": "https://texturegroup.org/",
       "name": "Texture",
       "desc": "Smooth, asynchronous user interface components for iOS apps",
-      "weight": 8182,
-      "image": "https://avatars.githubusercontent.com/u/25676156?v=4"
+      "weight": 8181,
+      "image": "https://avatars.githubusercontent.com/u/25676156?v=4",
+      "tags": [
+        "asyncdisplaykit",
+        "pinterest",
+        "rendering",
+        "texture",
+        "uikit"
+      ]
     },
     {
       "id": "reduxjs/redux",
@@ -341,8 +682,11 @@
       "link": "https://redux.js.org/",
       "name": "Redux",
       "desc": "A predictable state container for JavaScript apps",
-      "weight": 61522,
-      "image": "https://avatars.githubusercontent.com/u/13142323?v=4"
+      "weight": 61507,
+      "image": "https://avatars.githubusercontent.com/u/13142323?v=4",
+      "tags": [
+        "redux"
+      ]
     },
     {
       "id": "mobxjs/mobx",
@@ -352,8 +696,15 @@
       "link": "https://mobx.js.org/",
       "name": "MobX",
       "desc": "Simple, scalable state management",
-      "weight": 28201,
-      "image": "https://avatars.githubusercontent.com/u/17475736?v=4"
+      "weight": 28206,
+      "image": "https://avatars.githubusercontent.com/u/17475736?v=4",
+      "tags": [
+        "javascript",
+        "mobx",
+        "react",
+        "reactive-programming",
+        "typescript"
+      ]
     },
     {
       "id": "pmndrs/zustand",
@@ -363,8 +714,17 @@
       "link": "https://github.com/pmndrs/zustand",
       "name": "Zustand",
       "desc": "A small, fast, and scalable state management library for React and React Native",
-      "weight": 58558,
-      "image": "https://avatars.githubusercontent.com/u/45790596?v=4"
+      "weight": 58611,
+      "image": "https://avatars.githubusercontent.com/u/45790596?v=4",
+      "tags": [
+        "hacktoberfest",
+        "hooks",
+        "react",
+        "react-context",
+        "reactjs",
+        "redux",
+        "state-management"
+      ]
     },
     {
       "id": "rrousselGit/riverpod",
@@ -374,7 +734,17 @@
       "link": "https://riverpod.dev/",
       "name": "Riverpod",
       "desc": "A reactive caching and data-binding framework for Flutter and Dart",
-      "weight": 7365
+      "weight": 7374,
+      "tags": [
+        "dart",
+        "flutter",
+        "hacktoberfest",
+        "inheritedwidget",
+        "provider",
+        "riverpod",
+        "service-locator",
+        "state-management"
+      ]
     },
     {
       "id": "felangel/bloc",
@@ -384,7 +754,20 @@
       "link": "https://bloclibrary.dev/",
       "name": "Bloc",
       "desc": "A predictable state management library implementing the BLoC pattern for Flutter and Dart",
-      "weight": 12483
+      "weight": 12484,
+      "tags": [
+        "angulardart",
+        "bloc",
+        "concurrency",
+        "dart",
+        "dart-library",
+        "dart-web",
+        "dartlang",
+        "flutter",
+        "flutter-package",
+        "library",
+        "state-management"
+      ]
     },
     {
       "id": "react-navigation/react-navigation",
@@ -394,8 +777,14 @@
       "link": "https://reactnavigation.org/",
       "name": "React Navigation",
       "desc": "Routing and navigation for React Native and web apps",
-      "weight": 24490,
-      "image": "https://avatars.githubusercontent.com/u/29647600?v=4"
+      "weight": 24496,
+      "image": "https://avatars.githubusercontent.com/u/29647600?v=4",
+      "tags": [
+        "navigation",
+        "react",
+        "react-native",
+        "react-navigation"
+      ]
     },
     {
       "id": "wix/react-native-navigation",
@@ -405,8 +794,15 @@
       "link": "https://wix.github.io/react-native-navigation/",
       "name": "React Native Navigation",
       "desc": "A complete native navigation solution for React Native apps",
-      "weight": 13179,
-      "image": "https://avatars.githubusercontent.com/u/686511?v=4"
+      "weight": 13176,
+      "image": "https://avatars.githubusercontent.com/u/686511?v=4",
+      "tags": [
+        "hacktoberfest",
+        "navigation",
+        "navigator",
+        "react-native",
+        "react-native-navigation"
+      ]
     },
     {
       "id": "Milad-Akarie/auto_route_library",
@@ -416,7 +812,15 @@
       "link": "https://pub.dev/packages/auto_route",
       "name": "AutoRoute",
       "desc": "A declarative, type-safe route generator for Flutter",
-      "weight": 1752
+      "weight": 1752,
+      "tags": [
+        "autoroute",
+        "deeplinking",
+        "flutter",
+        "navigation",
+        "nested-routes",
+        "router"
+      ]
     },
     {
       "id": "fastlane/fastlane",
@@ -426,8 +830,20 @@
       "link": "https://fastlane.tools/",
       "name": "fastlane",
       "desc": "The easiest way to automate building and releasing iOS and Android apps",
-      "weight": 41984,
-      "image": "https://avatars.githubusercontent.com/u/11098337?v=4"
+      "weight": 42029,
+      "image": "https://avatars.githubusercontent.com/u/11098337?v=4",
+      "tags": [
+        "android",
+        "apps",
+        "automation",
+        "deployment",
+        "fastlane",
+        "hacktoberfest",
+        "ios",
+        "mobile",
+        "ruby",
+        "screenshots"
+      ]
     },
     {
       "id": "bitrise-io/bitrise",
@@ -437,8 +853,13 @@
       "link": "https://bitrise.io/",
       "name": "Bitrise CLI",
       "desc": "Open source CLI tool to run mobile CI/CD workflows locally or on your own infrastructure",
-      "weight": 894,
-      "image": "https://avatars.githubusercontent.com/u/7174390?v=4"
+      "weight": 896,
+      "image": "https://avatars.githubusercontent.com/u/7174390?v=4",
+      "tags": [
+        "bitrise",
+        "cli",
+        "production-code"
+      ]
     },
     {
       "id": "shorebirdtech/shorebird",
@@ -448,8 +869,14 @@
       "link": "https://shorebird.dev/",
       "name": "Shorebird",
       "desc": "Code push and release tooling for Flutter apps",
-      "weight": 3020,
-      "image": "https://avatars.githubusercontent.com/u/115746275?v=4"
+      "weight": 3025,
+      "image": "https://avatars.githubusercontent.com/u/115746275?v=4",
+      "tags": [
+        "codepush",
+        "deployment",
+        "flutter",
+        "shorebird"
+      ]
     },
     {
       "id": "Triple-T/gradle-play-publisher",
@@ -459,8 +886,21 @@
       "link": "https://github.com/Triple-T/gradle-play-publisher",
       "name": "Gradle Play Publisher",
       "desc": "A Gradle plugin to automate publishing app builds and listings to the Google Play Console",
-      "weight": 4308,
-      "image": "https://raw.githubusercontent.com/Triple-T/gradle-play-publisher/master/assets/logo.svg"
+      "weight": 4315,
+      "image": "https://raw.githubusercontent.com/Triple-T/gradle-play-publisher/master/assets/logo.svg",
+      "tags": [
+        "android",
+        "android-development",
+        "apps",
+        "automation",
+        "deployment",
+        "gpp",
+        "gradle-play-publisher",
+        "gradle-plugin",
+        "mobile",
+        "play-store",
+        "publishing"
+      ]
     },
     {
       "id": "getsentry/sentry",
@@ -470,8 +910,25 @@
       "link": "https://sentry.io/",
       "name": "Sentry",
       "desc": "Developer-first error tracking and performance monitoring for mobile and other platforms",
-      "weight": 44536,
-      "image": "https://avatars.githubusercontent.com/u/1396951?v=4"
+      "weight": 44620,
+      "image": "https://avatars.githubusercontent.com/u/1396951?v=4",
+      "tags": [
+        "apm",
+        "crash-reporting",
+        "crash-reports",
+        "csp-report",
+        "devops",
+        "django",
+        "error-logging",
+        "error-monitoring",
+        "fair-source",
+        "hacktoberfest",
+        "monitor",
+        "monitoring",
+        "python",
+        "sentry",
+        "tag-production"
+      ]
     },
     {
       "id": "PostHog/posthog",
@@ -481,8 +938,25 @@
       "link": "https://posthog.com/",
       "name": "PostHog",
       "desc": "Open source product analytics, session replay, and error tracking platform",
-      "weight": 37636,
-      "image": "https://avatars.githubusercontent.com/u/60330232?v=4"
+      "weight": 39192,
+      "image": "https://avatars.githubusercontent.com/u/60330232?v=4",
+      "tags": [
+        "ab-testing",
+        "ai-analytics",
+        "analytics",
+        "cdp",
+        "data-warehouse",
+        "experiments",
+        "feature-flags",
+        "javascript",
+        "product-analytics",
+        "python",
+        "react",
+        "session-replay",
+        "surveys",
+        "typescript",
+        "web-analytics"
+      ]
     },
     {
       "id": "Countly/countly-server",
@@ -492,8 +966,30 @@
       "link": "https://countly.com/",
       "name": "Countly",
       "desc": "Open source, privacy-friendly product analytics and crash reporting platform",
-      "weight": 5886,
-      "image": "https://avatars.githubusercontent.com/u/1756970?v=4"
+      "weight": 5892,
+      "image": "https://avatars.githubusercontent.com/u/1756970?v=4",
+      "tags": [
+        "ai",
+        "analytics",
+        "coppa",
+        "crash-analytics",
+        "customer-engagement",
+        "dashboard",
+        "data-ownership",
+        "data-privacy",
+        "digital-analytics",
+        "feature-flags",
+        "gdpr",
+        "hipaa",
+        "insights",
+        "mobile-analytics",
+        "push-notifications",
+        "remote-configuration",
+        "tracking",
+        "user-feedback",
+        "user-journeys",
+        "web-analytics"
+      ]
     },
     {
       "id": "matomo-org/matomo",
@@ -503,8 +999,25 @@
       "link": "https://matomo.org/",
       "name": "Matomo",
       "desc": "Open source web and app analytics platform, a privacy-friendly alternative to Google Analytics",
-      "weight": 21760,
-      "image": "https://avatars.githubusercontent.com/u/698038?v=4"
+      "weight": 21806,
+      "image": "https://avatars.githubusercontent.com/u/698038?v=4",
+      "tags": [
+        "analytics",
+        "growth",
+        "hacktoberfest",
+        "intranet",
+        "log",
+        "marketing",
+        "matomo",
+        "mobile",
+        "mysql",
+        "php",
+        "piwik",
+        "privacy",
+        "security",
+        "web-analytics",
+        "website"
+      ]
     },
     {
       "id": "expo/expo",
@@ -514,8 +1027,26 @@
       "name": "expo",
       "link": "https://github.com/expo/expo",
       "desc": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web.",
-      "weight": 51829,
-      "image": "https://avatars.githubusercontent.com/u/12504344?v=4"
+      "weight": 51832,
+      "image": "https://avatars.githubusercontent.com/u/12504344?v=4",
+      "tags": [
+        "android",
+        "app-framework",
+        "expo",
+        "framework",
+        "frontend",
+        "ios",
+        "javascript",
+        "mobile",
+        "native",
+        "native-apps",
+        "react",
+        "react-native",
+        "typescript",
+        "universal",
+        "web",
+        "web-framework"
+      ]
     },
     {
       "id": "dcloudio/uni-app",
@@ -526,7 +1057,21 @@
       "link": "https://github.com/dcloudio/uni-app",
       "desc": "A cross-platform framework using Vue.js",
       "weight": 41602,
-      "image": "https://avatars.githubusercontent.com/u/5485517?v=4"
+      "image": "https://avatars.githubusercontent.com/u/5485517?v=4",
+      "tags": [
+        "android",
+        "cross-platform",
+        "crossplatform",
+        "hbuilderx",
+        "ios",
+        "javascript",
+        "miniprogram",
+        "uni",
+        "uni-app",
+        "uniapp",
+        "vue",
+        "vue3"
+      ]
     },
     {
       "id": "NervJS/taro",
@@ -536,8 +1081,25 @@
       "name": "taro",
       "link": "https://github.com/NervJS/taro",
       "desc": "开放式跨端跨框架解决方案，支持使用 React/Vue 等框架来开发微信/京东/百度/支付宝/字节跳动/ QQ 小程序/H5/React Native 等应用。",
-      "weight": 37654,
-      "image": "https://avatars.githubusercontent.com/u/30794937?v=4"
+      "weight": 37653,
+      "image": "https://avatars.githubusercontent.com/u/30794937?v=4",
+      "tags": [
+        "javascript",
+        "jquery",
+        "nerv",
+        "nervjs",
+        "react",
+        "react-native",
+        "reactjs",
+        "taro",
+        "typescript",
+        "vue",
+        "vue3",
+        "wechat",
+        "wechat-mini-program",
+        "weixin",
+        "wxapp"
+      ]
     }
   ]
 }

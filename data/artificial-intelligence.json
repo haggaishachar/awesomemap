@@ -13,8 +13,11 @@
       "link": "https://github.com/ggerganov/llama.cpp",
       "name": "llama.cpp",
       "desc": "Inference of LLaMA and other large language models in pure C/C++",
-      "weight": 123742,
-      "image": "https://avatars.githubusercontent.com/u/134263123?v=4"
+      "weight": 125680,
+      "image": "https://avatars.githubusercontent.com/u/134263123?v=4",
+      "tags": [
+        "ggml"
+      ]
     },
     {
       "id": "ollama/ollama",
@@ -25,8 +28,25 @@
       "link": "https://ollama.com/",
       "name": "Ollama",
       "desc": "Get up and running with large language models locally",
-      "weight": 178408,
-      "image": "https://raw.githubusercontent.com/ollama/ollama/main/docs/logo.svg"
+      "weight": 179444,
+      "image": "https://raw.githubusercontent.com/ollama/ollama/main/docs/logo.svg",
+      "tags": [
+        "deepseek",
+        "gemma",
+        "gemma3",
+        "glm",
+        "go",
+        "golang",
+        "gpt-oss",
+        "llama",
+        "llama3",
+        "llm",
+        "llms",
+        "minimax",
+        "mistral",
+        "ollama",
+        "qwen"
+      ]
     },
     {
       "id": "vllm-project/vllm",
@@ -37,8 +57,30 @@
       "link": "https://vllm.ai/",
       "name": "vLLM",
       "desc": "A high-throughput and memory-efficient inference and serving engine for LLMs",
-      "weight": 88930,
-      "image": "https://avatars.githubusercontent.com/u/136984999?v=4"
+      "weight": 90074,
+      "image": "https://avatars.githubusercontent.com/u/136984999?v=4",
+      "tags": [
+        "amd",
+        "blackwell",
+        "cuda",
+        "deepseek",
+        "deepseek-v3",
+        "gpt",
+        "gpt-oss",
+        "inference",
+        "kimi",
+        "llama",
+        "llm",
+        "llm-serving",
+        "model-serving",
+        "moe",
+        "openai",
+        "pytorch",
+        "qwen",
+        "qwen3",
+        "tpu",
+        "transformer"
+      ]
     },
     {
       "id": "mlc-ai/mlc-llm",
@@ -49,8 +91,14 @@
       "link": "https://llm.mlc.ai/",
       "name": "MLC LLM",
       "desc": "Universal LLM deployment engine with ML compilation",
-      "weight": 23058,
-      "image": "https://avatars.githubusercontent.com/u/106173866?v=4"
+      "weight": 23090,
+      "image": "https://avatars.githubusercontent.com/u/106173866?v=4",
+      "tags": [
+        "language-model",
+        "llm",
+        "machine-learning-compilation",
+        "tvm"
+      ]
     },
     {
       "id": "NVIDIA/TensorRT-LLM",
@@ -61,8 +109,15 @@
       "link": "https://github.com/NVIDIA/TensorRT-LLM",
       "name": "TensorRT-LLM",
       "desc": "NVIDIA's toolbox for optimized large language model inference",
-      "weight": 14371,
-      "image": "https://avatars.githubusercontent.com/u/1728152?v=4"
+      "weight": 14476,
+      "image": "https://avatars.githubusercontent.com/u/1728152?v=4",
+      "tags": [
+        "blackwell",
+        "cuda",
+        "llm-serving",
+        "moe",
+        "pytorch"
+      ]
     },
     {
       "id": "microsoft/DeepSpeed",
@@ -73,8 +128,23 @@
       "link": "https://www.deepspeed.ai/",
       "name": "DeepSpeed",
       "desc": "Deep learning optimization library for distributed training and inference",
-      "weight": 42921,
-      "image": "https://avatars.githubusercontent.com/u/74068820?v=4"
+      "weight": 43000,
+      "image": "https://avatars.githubusercontent.com/u/74068820?v=4",
+      "tags": [
+        "billion-parameters",
+        "compression",
+        "data-parallelism",
+        "deep-learning",
+        "gpu",
+        "inference",
+        "machine-learning",
+        "mixture-of-experts",
+        "model-parallelism",
+        "pipeline-parallelism",
+        "pytorch",
+        "trillion-parameters",
+        "zero"
+      ]
     },
     {
       "id": "langchain-ai/langchain",
@@ -85,8 +155,30 @@
       "link": "https://www.langchain.com/",
       "name": "LangChain",
       "desc": "Build context-aware, reasoning applications with LLMs",
-      "weight": 144136,
-      "image": "https://avatars.githubusercontent.com/u/126733545?v=4"
+      "weight": 145014,
+      "image": "https://avatars.githubusercontent.com/u/126733545?v=4",
+      "tags": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "deepagents",
+        "enterprise",
+        "framework",
+        "gemini",
+        "generative-ai",
+        "langchain",
+        "langgraph",
+        "llm",
+        "multiagent",
+        "open-source",
+        "openai",
+        "pydantic",
+        "python",
+        "rag",
+        "typescript"
+      ]
     },
     {
       "id": "run-llama/llama_index",
@@ -97,8 +189,20 @@
       "link": "https://www.llamaindex.ai/",
       "name": "LlamaIndex",
       "desc": "Data framework for connecting LLMs with external data",
-      "weight": 51610,
-      "image": "https://avatars.githubusercontent.com/u/130722866?v=4"
+      "weight": 51876,
+      "image": "https://avatars.githubusercontent.com/u/130722866?v=4",
+      "tags": [
+        "agents",
+        "application",
+        "data",
+        "fine-tuning",
+        "framework",
+        "llamaindex",
+        "llm",
+        "multi-agents",
+        "rag",
+        "vector-database"
+      ]
     },
     {
       "id": "deepset-ai/haystack",
@@ -109,8 +213,30 @@
       "link": "https://haystack.deepset.ai/",
       "name": "Haystack",
       "desc": "AI orchestration framework for building production-ready LLM applications",
-      "weight": 26192,
-      "image": "https://avatars.githubusercontent.com/u/51827949?v=4"
+      "weight": 26318,
+      "image": "https://avatars.githubusercontent.com/u/51827949?v=4",
+      "tags": [
+        "agent-framework",
+        "agentic-ai",
+        "agentic-rag",
+        "agents",
+        "ai",
+        "ai-agents",
+        "context-engineering",
+        "framework",
+        "genai",
+        "generative-ai",
+        "information-retrieval",
+        "large-language-models",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "orchestration",
+        "python",
+        "rag",
+        "retrieval-augmented-generation",
+        "semantic-search"
+      ]
     },
     {
       "id": "microsoft/semantic-kernel",
@@ -121,8 +247,15 @@
       "link": "https://github.com/microsoft/semantic-kernel",
       "name": "Semantic Kernel",
       "desc": "Integrate cutting-edge LLM technology into applications",
-      "weight": 28444,
-      "image": "https://avatars.githubusercontent.com/u/6154722?v=4"
+      "weight": 28501,
+      "image": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "tags": [
+        "ai",
+        "artificial-intelligence",
+        "llm",
+        "openai",
+        "sdk"
+      ]
     },
     {
       "id": "Significant-Gravitas/AutoGPT",
@@ -133,8 +266,21 @@
       "link": "https://agpt.co",
       "name": "AutoGPT",
       "desc": "A platform for creating and running autonomous AI agents",
-      "weight": 186575,
-      "image": "https://avatars.githubusercontent.com/u/130738209?v=4"
+      "weight": 186876,
+      "image": "https://avatars.githubusercontent.com/u/130738209?v=4",
+      "tags": [
+        "agentic-ai",
+        "agents",
+        "ai",
+        "artificial-intelligence",
+        "autonomous-agents",
+        "claude",
+        "gpt",
+        "llama-api",
+        "llm",
+        "openai",
+        "python"
+      ]
     },
     {
       "id": "crewAIInc/crewAI",
@@ -145,8 +291,15 @@
       "link": "https://crewai.com",
       "name": "crewAI",
       "desc": "Framework for orchestrating role-playing, autonomous AI agents",
-      "weight": 57010,
-      "image": "https://avatars.githubusercontent.com/u/170677839?v=4"
+      "weight": 57616,
+      "image": "https://avatars.githubusercontent.com/u/170677839?v=4",
+      "tags": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "aiagentframework",
+        "llms"
+      ]
     },
     {
       "id": "microsoft/autogen",
@@ -157,8 +310,20 @@
       "link": "https://microsoft.github.io/autogen/",
       "name": "AutoGen",
       "desc": "Framework for building AI agents and multi-agent conversations",
-      "weight": 60391,
-      "image": "https://avatars.githubusercontent.com/u/6154722?v=4"
+      "weight": 60632,
+      "image": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "tags": [
+        "agentic",
+        "agentic-agi",
+        "agents",
+        "ai",
+        "autogen",
+        "autogen-ecosystem",
+        "chatgpt",
+        "framework",
+        "llm-agent",
+        "llm-framework"
+      ]
     },
     {
       "id": "langchain-ai/langgraph",
@@ -169,8 +334,28 @@
       "link": "https://www.langchain.com/langgraph",
       "name": "LangGraph",
       "desc": "Build resilient, stateful language agents as graphs",
-      "weight": 39581,
-      "image": "https://avatars.githubusercontent.com/u/126733545?v=4"
+      "weight": 40468,
+      "image": "https://avatars.githubusercontent.com/u/126733545?v=4",
+      "tags": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "chatgpt",
+        "deepagents",
+        "enterprise",
+        "framework",
+        "gemini",
+        "generative-ai",
+        "langchain",
+        "langgraph",
+        "llm",
+        "multiagent",
+        "open-source",
+        "openai",
+        "pydantic",
+        "python",
+        "rag"
+      ]
     },
     {
       "id": "browser-use/browser-use",
@@ -181,8 +366,17 @@
       "link": "https://browser-use.com",
       "name": "Browser Use",
       "desc": "Make websites accessible for AI agents",
-      "weight": 109018,
-      "image": "https://avatars.githubusercontent.com/u/192012301?v=4"
+      "weight": 110553,
+      "image": "https://avatars.githubusercontent.com/u/192012301?v=4",
+      "tags": [
+        "ai-agents",
+        "ai-tools",
+        "browser-automation",
+        "browser-use",
+        "llm",
+        "playwright",
+        "python"
+      ]
     },
     {
       "id": "All-Hands-AI/OpenHands",
@@ -193,8 +387,19 @@
       "link": "https://all-hands.dev",
       "name": "OpenHands",
       "desc": "Platform for software development agents powered by AI",
-      "weight": 83874,
-      "image": "https://avatars.githubusercontent.com/u/225919603?v=4"
+      "weight": 85123,
+      "image": "https://avatars.githubusercontent.com/u/225919603?v=4",
+      "tags": [
+        "agent",
+        "artificial-intelligence",
+        "chatgpt",
+        "claude-ai",
+        "cli",
+        "developer-tools",
+        "gpt",
+        "llm",
+        "openai"
+      ]
     },
     {
       "id": "milvus-io/milvus",
@@ -205,8 +410,28 @@
       "link": "https://milvus.io/",
       "name": "Milvus",
       "desc": "A cloud-native vector database for scalable similarity search",
-      "weight": 45621,
-      "image": "https://avatars.githubusercontent.com/u/51735404?v=4"
+      "weight": 45792,
+      "image": "https://avatars.githubusercontent.com/u/51735404?v=4",
+      "tags": [
+        "anns",
+        "cloud-native",
+        "diskann",
+        "distributed",
+        "embedding-database",
+        "embedding-similarity",
+        "embedding-store",
+        "faiss",
+        "golang",
+        "hnsw",
+        "image-search",
+        "llm",
+        "nearest-neighbor-search",
+        "rag",
+        "vector-database",
+        "vector-search",
+        "vector-similarity",
+        "vector-store"
+      ]
     },
     {
       "id": "qdrant/qdrant",
@@ -217,8 +442,30 @@
       "link": "https://qdrant.tech/",
       "name": "Qdrant",
       "desc": "High-performance vector search engine and database",
-      "weight": 33951,
-      "image": "https://raw.githubusercontent.com/qdrant/qdrant/master/docs/logo.svg"
+      "weight": 34196,
+      "image": "https://raw.githubusercontent.com/qdrant/qdrant/master/docs/logo.svg",
+      "tags": [
+        "ai-search",
+        "ai-search-engine",
+        "embeddings-similarity",
+        "hnsw",
+        "hybrid-search",
+        "image-search",
+        "knn-algorithm",
+        "machine-learning",
+        "mlops",
+        "nearest-neighbor-search",
+        "neural-network",
+        "neural-search",
+        "recommender-system",
+        "search",
+        "search-engine",
+        "search-engines",
+        "similarity-search",
+        "vector-database",
+        "vector-search",
+        "vector-search-engine"
+      ]
     },
     {
       "id": "chroma-core/chroma",
@@ -229,8 +476,16 @@
       "link": "https://www.trychroma.com/",
       "name": "Chroma",
       "desc": "The AI-native open-source embedding database",
-      "weight": 29045,
-      "image": "https://avatars.githubusercontent.com/u/105881770?v=4"
+      "weight": 29148,
+      "image": "https://avatars.githubusercontent.com/u/105881770?v=4",
+      "tags": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "database",
+        "rust",
+        "rust-lang"
+      ]
     },
     {
       "id": "weaviate/weaviate",
@@ -241,8 +496,30 @@
       "link": "https://weaviate.io/",
       "name": "Weaviate",
       "desc": "Open source vector database for building AI applications",
-      "weight": 16727,
-      "image": "https://avatars.githubusercontent.com/u/37794290?v=4"
+      "weight": 16754,
+      "image": "https://avatars.githubusercontent.com/u/37794290?v=4",
+      "tags": [
+        "approximate-nearest-neighbor-search",
+        "generative-search",
+        "grpc",
+        "hnsw",
+        "hybrid-search",
+        "image-search",
+        "information-retrieval",
+        "mlops",
+        "nearest-neighbor-search",
+        "neural-search",
+        "recommender-system",
+        "search-engine",
+        "semantic-search",
+        "semantic-search-engine",
+        "similarity-search",
+        "vector-database",
+        "vector-search",
+        "vector-search-engine",
+        "vectors",
+        "weaviate"
+      ]
     },
     {
       "id": "pgvector/pgvector",
@@ -253,8 +530,12 @@
       "link": "https://github.com/pgvector/pgvector",
       "name": "pgvector",
       "desc": "Open-source vector similarity search for Postgres",
-      "weight": 22608,
-      "image": "https://avatars.githubusercontent.com/u/98363230?v=4"
+      "weight": 22746,
+      "image": "https://avatars.githubusercontent.com/u/98363230?v=4",
+      "tags": [
+        "approximate-nearest-neighbor-search",
+        "nearest-neighbor-search"
+      ]
     },
     {
       "id": "promptfoo/promptfoo",
@@ -265,8 +546,28 @@
       "link": "https://www.promptfoo.dev/",
       "name": "Promptfoo",
       "desc": "Test and evaluate LLM apps, agents, and prompts",
-      "weight": 24188,
-      "image": "https://avatars.githubusercontent.com/u/137907881?v=4"
+      "weight": 24577,
+      "image": "https://avatars.githubusercontent.com/u/137907881?v=4",
+      "tags": [
+        "ci",
+        "ci-cd",
+        "cicd",
+        "evaluation",
+        "evaluation-framework",
+        "llm",
+        "llm-eval",
+        "llm-evaluation",
+        "llm-evaluation-framework",
+        "llmops",
+        "pentesting",
+        "prompt-engineering",
+        "prompt-testing",
+        "prompts",
+        "rag",
+        "red-teaming",
+        "testing",
+        "vulnerability-scanners"
+      ]
     },
     {
       "id": "guidance-ai/guidance",
@@ -277,8 +578,9 @@
       "link": "https://github.com/guidance-ai/guidance",
       "name": "Guidance",
       "desc": "A guidance language for controlling large language models",
-      "weight": 21711,
-      "image": "https://avatars.githubusercontent.com/u/142035062?v=4"
+      "weight": 21714,
+      "image": "https://avatars.githubusercontent.com/u/142035062?v=4",
+      "tags": []
     },
     {
       "id": "explodinggradients/ragas",
@@ -289,8 +591,13 @@
       "link": "https://docs.ragas.io/",
       "name": "Ragas",
       "desc": "Evaluation framework for retrieval-augmented generation pipelines",
-      "weight": 15294,
-      "image": "https://avatars.githubusercontent.com/u/122604797?v=4"
+      "weight": 15473,
+      "image": "https://avatars.githubusercontent.com/u/122604797?v=4",
+      "tags": [
+        "evaluation",
+        "llm",
+        "llmops"
+      ]
     },
     {
       "id": "langfuse/langfuse",
@@ -301,8 +608,29 @@
       "link": "https://langfuse.com/",
       "name": "Langfuse",
       "desc": "Open source LLM engineering platform for tracing and evaluation",
-      "weight": 33012,
-      "image": "https://avatars.githubusercontent.com/u/134601687?v=4"
+      "weight": 33719,
+      "image": "https://avatars.githubusercontent.com/u/134601687?v=4",
+      "tags": [
+        "analytics",
+        "autogen",
+        "evaluation",
+        "langchain",
+        "large-language-models",
+        "llama-index",
+        "llm",
+        "llm-evaluation",
+        "llm-observability",
+        "llmops",
+        "monitoring",
+        "observability",
+        "open-source",
+        "openai",
+        "playground",
+        "prompt-engineering",
+        "prompt-management",
+        "self-hosted",
+        "ycombinator"
+      ]
     },
     {
       "id": "BerriAI/litellm",
@@ -313,8 +641,26 @@
       "link": "https://www.litellm.ai/",
       "name": "LiteLLM",
       "desc": "Call all LLM APIs using the OpenAI format, with a unified proxy gateway",
-      "weight": 56227,
-      "image": "https://avatars.githubusercontent.com/u/121462774?v=4"
+      "weight": 57286,
+      "image": "https://avatars.githubusercontent.com/u/121462774?v=4",
+      "tags": [
+        "ai-gateway",
+        "anthropic",
+        "azure-openai",
+        "bedrock",
+        "gateway",
+        "langchain",
+        "litellm",
+        "llm",
+        "llm-gateway",
+        "llmops",
+        "mcp-gateway",
+        "openai",
+        "openai-proxy",
+        "rust",
+        "rust-ai",
+        "vertex-ai"
+      ]
     },
     {
       "id": "Helicone/helicone",
@@ -325,8 +671,29 @@
       "link": "https://www.helicone.ai/",
       "name": "Helicone",
       "desc": "Open source LLM observability platform for logging, monitoring, and debugging",
-      "weight": 6061,
-      "image": "https://raw.githubusercontent.com/Helicone/helicone/main/docs/logo.svg"
+      "weight": 6101,
+      "image": "https://raw.githubusercontent.com/Helicone/helicone/main/docs/logo.svg",
+      "tags": [
+        "agent-monitoring",
+        "analytics",
+        "evaluation",
+        "gpt",
+        "langchain",
+        "large-language-models",
+        "llama-index",
+        "llm",
+        "llm-cost",
+        "llm-evaluation",
+        "llm-observability",
+        "llmops",
+        "monitoring",
+        "open-source",
+        "openai",
+        "playground",
+        "prompt-engineering",
+        "prompt-management",
+        "ycombinator"
+      ]
     },
     {
       "id": "modelcontextprotocol/servers",
@@ -337,8 +704,9 @@
       "link": "https://modelcontextprotocol.io/",
       "name": "MCP Servers",
       "desc": "Reference implementations of Model Context Protocol servers",
-      "weight": 89516,
-      "image": "https://avatars.githubusercontent.com/u/182288589?v=4"
+      "weight": 89869,
+      "image": "https://avatars.githubusercontent.com/u/182288589?v=4",
+      "tags": []
     },
     {
       "id": "modelcontextprotocol/python-sdk",
@@ -349,8 +717,14 @@
       "link": "https://modelcontextprotocol.io/",
       "name": "MCP Python SDK",
       "desc": "Official Python SDK for Model Context Protocol servers and clients",
-      "weight": 23998,
-      "image": "https://avatars.githubusercontent.com/u/182288589?v=4"
+      "weight": 24125,
+      "image": "https://avatars.githubusercontent.com/u/182288589?v=4",
+      "tags": [
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "python"
+      ]
     },
     {
       "id": "continuedev/continue",
@@ -361,8 +735,15 @@
       "link": "https://continue.dev/",
       "name": "Continue",
       "desc": "Open-source AI code assistant for any IDE",
-      "weight": 35466,
-      "image": "https://avatars.githubusercontent.com/u/127876214?v=4"
+      "weight": 35638,
+      "image": "https://avatars.githubusercontent.com/u/127876214?v=4",
+      "tags": [
+        "agent",
+        "ai",
+        "cli",
+        "developer-tools",
+        "open-source"
+      ]
     },
     {
       "id": "Aider-AI/aider",
@@ -373,8 +754,23 @@
       "link": "https://aider.chat/",
       "name": "Aider",
       "desc": "AI pair programming in your terminal",
-      "weight": 48162,
-      "image": "https://avatars.githubusercontent.com/u/172139148?v=4"
+      "weight": 48494,
+      "image": "https://avatars.githubusercontent.com/u/172139148?v=4",
+      "tags": [
+        "anthropic",
+        "chatgpt",
+        "claude-3",
+        "cli",
+        "command-line",
+        "gemini",
+        "gpt-3",
+        "gpt-35-turbo",
+        "gpt-4",
+        "gpt-4o",
+        "llama",
+        "openai",
+        "sonnet"
+      ]
     },
     {
       "id": "cline/cline",
@@ -385,8 +781,9 @@
       "link": "https://cline.bot/",
       "name": "Cline",
       "desc": "Autonomous coding agent that lives in your IDE",
-      "weight": 66110,
-      "image": "https://avatars.githubusercontent.com/u/184127137?v=4"
+      "weight": 66859,
+      "image": "https://avatars.githubusercontent.com/u/184127137?v=4",
+      "tags": []
     },
     {
       "id": "block/goose",
@@ -397,8 +794,14 @@
       "link": "https://block.github.io/goose/",
       "name": "Goose",
       "desc": "An open source, extensible AI agent for engineering tasks",
-      "weight": 52742,
-      "image": "https://avatars.githubusercontent.com/u/271095942?v=4"
+      "weight": 53484,
+      "image": "https://avatars.githubusercontent.com/u/271095942?v=4",
+      "tags": [
+        "acp",
+        "ai",
+        "ai-agents",
+        "mcp"
+      ]
     },
     {
       "id": "openclaw/openclaw",
@@ -409,8 +812,17 @@
       "link": "https://openclaw.ai",
       "name": "OpenClaw",
       "desc": "Your own personal AI assistant, for any OS and platform",
-      "weight": 386178,
-      "image": "https://avatars.githubusercontent.com/u/252820863?v=4"
+      "weight": 387660,
+      "image": "https://avatars.githubusercontent.com/u/252820863?v=4",
+      "tags": [
+        "ai",
+        "assistant",
+        "crustacean",
+        "molty",
+        "openclaw",
+        "own-your-data",
+        "personal"
+      ]
     },
     {
       "id": "NousResearch/hermes-agent",
@@ -421,8 +833,23 @@
       "link": "https://hermes-agent.nousresearch.com",
       "name": "Hermes Agent",
       "desc": "The agent that grows with you",
-      "weight": 230001,
-      "image": "https://avatars.githubusercontent.com/u/134168893?v=4"
+      "weight": 236545,
+      "image": "https://avatars.githubusercontent.com/u/134168893?v=4",
+      "tags": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "nous-research",
+        "openai"
+      ]
     },
     {
       "id": "obra/superpowers",
@@ -433,7 +860,17 @@
       "link": "https://github.com/obra/superpowers",
       "name": "Superpowers",
       "desc": "An agentic skills framework & software development methodology that works",
-      "weight": 271633
+      "weight": 277691,
+      "tags": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ]
     },
     {
       "id": "meta-llama/llama",
@@ -444,8 +881,9 @@
       "link": "https://www.llama.com/",
       "name": "Llama",
       "desc": "Inference code and weights for Meta's Llama models",
-      "weight": 59557,
-      "image": "https://avatars.githubusercontent.com/u/153379578?v=4"
+      "weight": 59579,
+      "image": "https://avatars.githubusercontent.com/u/153379578?v=4",
+      "tags": []
     },
     {
       "id": "mistralai/mistral-inference",
@@ -456,8 +894,13 @@
       "link": "https://mistral.ai/",
       "name": "Mistral Inference",
       "desc": "Official inference library for Mistral open-weight models",
-      "weight": 10836,
-      "image": "https://avatars.githubusercontent.com/u/132372032?v=4"
+      "weight": 10831,
+      "image": "https://avatars.githubusercontent.com/u/132372032?v=4",
+      "tags": [
+        "llm",
+        "llm-inference",
+        "mistralai"
+      ]
     },
     {
       "id": "huggingface/text-generation-inference",
@@ -468,8 +911,19 @@
       "link": "https://huggingface.co/docs/text-generation-inference",
       "name": "Text Generation Inference",
       "desc": "Large language model text generation inference server",
-      "weight": 10885,
-      "image": "https://avatars.githubusercontent.com/u/25720743?v=4"
+      "weight": 10888,
+      "image": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "tags": [
+        "bloom",
+        "deep-learning",
+        "falcon",
+        "gpt",
+        "inference",
+        "nlp",
+        "pytorch",
+        "starcoder",
+        "transformer"
+      ]
     },
     {
       "id": "open-webui/open-webui",
@@ -480,8 +934,25 @@
       "link": "https://openwebui.com/",
       "name": "Open WebUI",
       "desc": "Extensible, self-hosted AI interface for LLMs",
-      "weight": 148647,
-      "image": "https://avatars.githubusercontent.com/u/158137808?v=4"
+      "weight": 149943,
+      "image": "https://avatars.githubusercontent.com/u/158137808?v=4",
+      "tags": [
+        "ai",
+        "llm",
+        "llm-ui",
+        "llm-webui",
+        "llms",
+        "mcp",
+        "ollama",
+        "ollama-webui",
+        "open-webui",
+        "openai",
+        "openapi",
+        "rag",
+        "self-hosted",
+        "ui",
+        "webui"
+      ]
     },
     {
       "id": "mudler/LocalAI",
@@ -492,7 +963,27 @@
       "link": "https://localai.io/",
       "name": "LocalAI",
       "desc": "Self-hosted, OpenAI API-compatible drop-in replacement for local inference",
-      "weight": 48421
+      "weight": 48682,
+      "tags": [
+        "agents",
+        "ai",
+        "api",
+        "audio-generation",
+        "decentralized",
+        "distributed",
+        "image-generation",
+        "libp2p",
+        "llama",
+        "llm",
+        "mamba",
+        "mcp",
+        "musicgen",
+        "object-detection",
+        "rerank",
+        "stable-diffusion",
+        "text-generation",
+        "tts"
+      ]
     },
     {
       "id": "oobabooga/text-generation-webui",
@@ -503,7 +994,8 @@
       "link": "https://github.com/oobabooga/text-generation-webui",
       "name": "Text Generation WebUI",
       "desc": "A Gradio web UI for running local large language models",
-      "weight": 47543
+      "weight": 47577,
+      "tags": []
     },
     {
       "id": "nomic-ai/gpt4all",
@@ -514,8 +1006,12 @@
       "link": "https://www.nomic.ai/gpt4all",
       "name": "GPT4All",
       "desc": "Run open-source LLMs locally on everyday desktops and laptops",
-      "weight": 77411,
-      "image": "https://avatars.githubusercontent.com/u/102670180?v=4"
+      "weight": 77397,
+      "image": "https://avatars.githubusercontent.com/u/102670180?v=4",
+      "tags": [
+        "ai-chat",
+        "llm-inference"
+      ]
     },
     {
       "id": "zylon-ai/private-gpt",
@@ -526,8 +1022,13 @@
       "link": "https://privategpt.dev/",
       "name": "PrivateGPT",
       "desc": "Ask questions to your documents using LLMs, without an internet connection",
-      "weight": 57432,
-      "image": "https://avatars.githubusercontent.com/u/143802295?v=4"
+      "weight": 57466,
+      "image": "https://avatars.githubusercontent.com/u/143802295?v=4",
+      "tags": [
+        "ai",
+        "ai-tools",
+        "on-premise"
+      ]
     },
     {
       "id": "FlowiseAI/Flowise",
@@ -538,8 +1039,27 @@
       "link": "https://flowiseai.com/",
       "name": "Flowise",
       "desc": "Drag & drop UI to build customized LLM flows and agents",
-      "weight": 55363,
-      "image": "https://avatars.githubusercontent.com/u/128289781?v=4"
+      "weight": 55391,
+      "image": "https://avatars.githubusercontent.com/u/128289781?v=4",
+      "tags": [
+        "agentic-ai",
+        "agentic-workflow",
+        "agents",
+        "artificial-intelligence",
+        "chatbot",
+        "chatgpt",
+        "javascript",
+        "langchain",
+        "large-language-models",
+        "low-code",
+        "multiagent-systems",
+        "no-code",
+        "openai",
+        "rag",
+        "react",
+        "typescript",
+        "workflow-automation"
+      ]
     },
     {
       "id": "langgenius/dify",
@@ -550,8 +1070,29 @@
       "link": "https://dify.ai/",
       "name": "Dify",
       "desc": "Open-source platform for developing LLM applications visually",
-      "weight": 152286,
-      "image": "https://avatars.githubusercontent.com/u/127165244?v=4"
+      "weight": 153531,
+      "image": "https://avatars.githubusercontent.com/u/127165244?v=4",
+      "tags": [
+        "agent",
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
+        "ai",
+        "automation",
+        "claude",
+        "deepseek",
+        "genai",
+        "gpt",
+        "llm",
+        "low-code",
+        "mcp",
+        "nextjs",
+        "no-code",
+        "openai",
+        "python",
+        "skills",
+        "workflow"
+      ]
     },
     {
       "id": "CompVis/stable-diffusion",
@@ -561,8 +1102,9 @@
       "link": "https://ommer-lab.com/research/latent-diffusion-models/",
       "name": "Stable Diffusion",
       "desc": "A latent text-to-image diffusion model",
-      "weight": 73302,
-      "image": "https://avatars.githubusercontent.com/u/30233788?v=4"
+      "weight": 73345,
+      "image": "https://avatars.githubusercontent.com/u/30233788?v=4",
+      "tags": []
     },
     {
       "id": "comfyanonymous/ComfyUI",
@@ -572,8 +1114,16 @@
       "link": "https://www.comfy.org/",
       "name": "ComfyUI",
       "desc": "Node-based interface for building generative image and video pipelines",
-      "weight": 127165,
-      "image": "https://avatars.githubusercontent.com/u/166579949?v=4"
+      "weight": 130022,
+      "image": "https://avatars.githubusercontent.com/u/166579949?v=4",
+      "tags": [
+        "ai",
+        "comfy",
+        "comfyui",
+        "python",
+        "pytorch",
+        "stable-diffusion"
+      ]
     },
     {
       "id": "suno-ai/bark",
@@ -583,8 +1133,9 @@
       "link": "https://github.com/suno-ai/bark",
       "name": "Bark",
       "desc": "Text-prompted generative audio model",
-      "weight": 39237,
-      "image": "https://avatars.githubusercontent.com/u/99442120?v=4"
+      "weight": 39248,
+      "image": "https://avatars.githubusercontent.com/u/99442120?v=4",
+      "tags": []
     },
     {
       "id": "coqui-ai/TTS",
@@ -594,8 +1145,29 @@
       "link": "https://github.com/coqui-ai/TTS",
       "name": "Coqui TTS",
       "desc": "A deep learning toolkit for text-to-speech",
-      "weight": 45887,
-      "image": "https://avatars.githubusercontent.com/u/75583352?v=4"
+      "weight": 45948,
+      "image": "https://avatars.githubusercontent.com/u/75583352?v=4",
+      "tags": [
+        "deep-learning",
+        "glow-tts",
+        "hifigan",
+        "melgan",
+        "multi-speaker-tts",
+        "python",
+        "pytorch",
+        "speaker-encoder",
+        "speaker-encodings",
+        "speech",
+        "speech-synthesis",
+        "tacotron",
+        "text-to-speech",
+        "tts",
+        "tts-model",
+        "vocoder",
+        "voice-cloning",
+        "voice-conversion",
+        "voice-synthesis"
+      ]
     },
     {
       "id": "openai/whisper",
@@ -605,8 +1177,9 @@
       "link": "https://github.com/openai/whisper",
       "name": "Whisper",
       "desc": "Robust speech recognition via large-scale weak supervision",
-      "weight": 107188,
-      "image": "https://avatars.githubusercontent.com/u/14957082?v=4"
+      "weight": 107951,
+      "image": "https://avatars.githubusercontent.com/u/14957082?v=4",
+      "tags": []
     },
     {
       "id": "bentoml/BentoML",
@@ -617,8 +1190,25 @@
       "link": "https://www.bentoml.com/",
       "name": "BentoML",
       "desc": "Unified framework for building and serving AI applications",
-      "weight": 8784,
-      "image": "https://avatars.githubusercontent.com/u/49176046?v=4"
+      "weight": 8805,
+      "image": "https://avatars.githubusercontent.com/u/49176046?v=4",
+      "tags": [
+        "ai-inference",
+        "deep-learning",
+        "generative-ai",
+        "inference-platform",
+        "llm",
+        "llm-inference",
+        "llm-serving",
+        "llmops",
+        "machine-learning",
+        "ml-engineering",
+        "mlops",
+        "model-inference-service",
+        "model-serving",
+        "multimodal",
+        "python"
+      ]
     },
     {
       "id": "triton-inference-server/server",
@@ -629,8 +1219,17 @@
       "link": "https://github.com/triton-inference-server/server",
       "name": "Triton Inference Server",
       "desc": "NVIDIA's inference serving software for deploying AI models at scale",
-      "weight": 10916,
-      "image": "https://avatars.githubusercontent.com/u/68086070?v=4"
+      "weight": 10936,
+      "image": "https://avatars.githubusercontent.com/u/68086070?v=4",
+      "tags": [
+        "cloud",
+        "datacenter",
+        "deep-learning",
+        "edge",
+        "gpu",
+        "inference",
+        "machine-learning"
+      ]
     },
     {
       "id": "f/prompts.chat",
@@ -641,7 +1240,27 @@
       "name": "prompts.chat",
       "link": "https://github.com/f/prompts.chat",
       "desc": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-      "weight": 167909
+      "weight": 167914,
+      "tags": [
+        "ai",
+        "artificial-intelligence",
+        "awesome-list",
+        "chatgpt",
+        "chatgpt-prompts",
+        "claude",
+        "gemini",
+        "gpt",
+        "gpt-4",
+        "llm",
+        "machine-learning",
+        "nextjs",
+        "open-source",
+        "openai",
+        "prompt-engineering",
+        "prompts",
+        "prompts-chat",
+        "typescript"
+      ]
     },
     {
       "id": "harry0703/MoneyPrinterTurbo",
@@ -651,7 +1270,23 @@
       "name": "MoneyPrinterTurbo",
       "link": "https://github.com/harry0703/MoneyPrinterTurbo",
       "desc": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-      "weight": 116562
+      "weight": 116613,
+      "tags": [
+        "ai-video-generator",
+        "content-creation",
+        "ffmpeg",
+        "instagram-reels",
+        "llm",
+        "python",
+        "short-video",
+        "subtitles",
+        "text-to-speech",
+        "tiktok",
+        "video-automation",
+        "video-workflow",
+        "workflow-automation",
+        "youtube-shorts"
+      ]
     },
     {
       "id": "rasbt/LLMs-from-scratch",
@@ -662,7 +1297,28 @@
       "name": "LLMs-from-scratch",
       "link": "https://github.com/rasbt/LLMs-from-scratch",
       "desc": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
-      "weight": 103796
+      "weight": 103802,
+      "tags": [
+        "ai",
+        "artificial-intelligence",
+        "attention-mechanism",
+        "deep-learning",
+        "finetuning",
+        "from-scratch",
+        "generative-ai",
+        "gpt",
+        "instruction-tuning",
+        "language-model",
+        "large-language-models",
+        "llm",
+        "machine-learning",
+        "natural-language-processing",
+        "pretraining",
+        "python",
+        "pytorch",
+        "tokenizer",
+        "transformers"
+      ]
     }
   ]
 }

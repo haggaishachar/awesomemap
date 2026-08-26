@@ -51,16 +51,18 @@ const AVATAR_HOST_PATTERN = /^https:\/\/avatars\.githubusercontent\.com\//;
  * back to a generic tile). If a project already carries a stale avatar
  * image from the old (broader) fallback rule and the current run doesn't
  * qualify for a fresh avatar fallback, that stale image is cleared.
- * Neither image is ever downloaded or stored in this repo. Projects whose
- * `id` isn't a parseable owner/repo shorthand are returned unchanged; no
- * network calls are made for them.
+ * Neither image is ever downloaded or stored in this repo. `tags` is
+ * synced from the repo's live GitHub topics on every run (an empty array
+ * if it has none), the same always-overwrite treatment as `weight`.
+ * Projects whose `id` isn't a parseable owner/repo shorthand are returned
+ * unchanged; no network calls are made for them.
  */
 export async function enrichProject(project, { getJson }) {
   const repo = parseGhRepo(project.id);
   if (!repo) return project;
 
   const repoData = await getJson(`https://api.github.com/repos/${repo.owner}/${repo.repo}`);
-  const enriched = { ...project, weight: repoData.stargazers_count };
+  const enriched = { ...project, weight: repoData.stargazers_count, tags: repoData.topics ?? [] };
 
   let foundLogoFile = false;
   for (const path of LOGO_CANDIDATE_PATHS) {
@@ -188,6 +190,7 @@ async function main() {
   const domain = JSON.parse(readFileSync(domainPath, "utf8"));
   let starsFetched = 0;
   let logosFound = 0;
+  let tagsFetched = 0;
   let failed = 0;
   const enrichedProjects = [];
 
@@ -196,6 +199,7 @@ async function main() {
       const enriched = await enrichProject(project, { getJson });
       if (enriched.weight !== undefined) starsFetched += 1;
       if (enriched.image !== undefined && enriched.image !== project.image) logosFound += 1;
+      if (enriched.tags !== undefined) tagsFetched += 1;
       enrichedProjects.push(enriched);
     } catch (err) {
       failed += 1;
@@ -214,7 +218,7 @@ async function main() {
 
   writeFileSync(domainPath, JSON.stringify({ ...domain, projects: enrichedProjects }, null, 2) + "\n");
   console.log(
-    `${domainPath}: ${starsFetched}/${domain.projects.length} weights fetched, ${failed} failed, ${logosFound} logo URLs resolved`,
+    `${domainPath}: ${starsFetched}/${domain.projects.length} weights fetched, ${failed} failed, ${logosFound} logo URLs resolved, ${tagsFetched} tag lists synced`,
   );
 }
 

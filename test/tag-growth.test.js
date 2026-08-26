@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { STOPWORD_TAGS, MIN_PROJECTS_PER_TAG, isSelfReferential, buildTagGroups } from "../scripts/tag-growth.mjs";
+import { STOPWORD_TAGS, MIN_PROJECTS_PER_TAG, isSelfReferential, buildTagGroups, computeTopTags } from "../scripts/tag-growth.mjs";
 
 test("STOPWORD_TAGS excludes known GitHub campaign/meta labels", () => {
   assert.ok(STOPWORD_TAGS.has("hacktoberfest"));
@@ -76,4 +76,48 @@ test("buildTagGroups ignores a project with no tags field", () => {
 
 test("buildTagGroups returns an empty array for an empty project list", () => {
   assert.deepEqual(buildTagGroups([]), []);
+});
+
+test("computeTopTags ranks by total stars descending and stamps 1-based ranks", () => {
+  const groups = buildTagGroups([
+    { id: "a/a", name: "A", weight: 100, tags: ["x"] },
+    { id: "b/b", name: "B", weight: 50, tags: ["x"] },
+    { id: "c/c", name: "C", weight: 40, tags: ["y"] },
+    { id: "d/d", name: "D", weight: 40, tags: ["y"] },
+  ]);
+  const ranked = computeTopTags(groups);
+  assert.deepEqual(ranked.map((r) => r.tag), ["x", "y"]);
+  assert.equal(ranked[0].totalStars, 150);
+  assert.equal(ranked[0].projectCount, 2);
+  assert.deepEqual(ranked.map((r) => r.rank), [1, 2]);
+});
+
+test("computeTopTags breaks a totalStars tie by project count, then alphabetically by tag", () => {
+  const groups = [
+    { tag: "b-tag", projects: [{ id: "1", weight: 10 }, { id: "2", weight: 10 }] },
+    { tag: "a-tag", projects: [{ id: "3", weight: 20 }] },
+  ];
+  const ranked = computeTopTags(groups);
+  assert.deepEqual(ranked.map((r) => r.tag), ["b-tag", "a-tag"], "same totalStars (20) — higher project count wins");
+});
+
+test("computeTopTags respects limit", () => {
+  const groups = [
+    { tag: "a", projects: [{ id: "1", weight: 30 }] },
+    { tag: "b", projects: [{ id: "2", weight: 20 }] },
+    { tag: "c", projects: [{ id: "3", weight: 10 }] },
+  ];
+  assert.equal(computeTopTags(groups, { limit: 2 }).length, 2);
+  assert.equal(computeTopTags(groups).length, 3, "no limit means every group");
+});
+
+test("computeTopTags treats a project with no weight as 0 stars rather than NaN", () => {
+  const groups = [{ tag: "a", projects: [{ id: "1" }, { id: "2" }] }];
+  const ranked = computeTopTags(groups);
+  assert.equal(ranked[0].totalStars, 0);
+  assert.ok(Number.isFinite(ranked[0].totalStars));
+});
+
+test("computeTopTags returns an empty array for no groups", () => {
+  assert.deepEqual(computeTopTags([]), []);
 });

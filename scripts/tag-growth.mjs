@@ -63,3 +63,22 @@ export function buildTagGroups(projects) {
     .filter(([, groupProjects]) => groupProjects.length >= MIN_PROJECTS_PER_TAG)
     .map(([tag, groupProjects]) => ({ tag, projects: groupProjects }));
 }
+
+/**
+ * Ranks tag groups by total stars descending (ties: project count
+ * descending, then tag name ascending) — "top tags" mirrors what
+ * "Popular" already means everywhere else on the site. History-
+ * independent: a tag's popularity doesn't depend on any growth window, so
+ * this needs no `historyById` and can be computed once per scope.
+ */
+export function computeTopTags(tagGroups, { limit } = {}) {
+  const ranked = tagGroups
+    .map(({ tag, projects }) => ({
+      tag,
+      projectCount: projects.length,
+      totalStars: projects.reduce((sum, project) => sum + (typeof project.weight === "number" ? project.weight : 0), 0),
+    }))
+    .sort((a, b) => b.totalStars - a.totalStars || b.projectCount - a.projectCount || a.tag.localeCompare(b.tag))
+    .map((entry, index) => ({ ...entry, rank: index + 1 }));
+  return typeof limit === "number" ? ranked.slice(0, limit) : ranked;
+}

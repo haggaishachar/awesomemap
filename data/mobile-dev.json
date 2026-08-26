@@ -505,6 +505,39 @@
       "desc": "Open source web and app analytics platform, a privacy-friendly alternative to Google Analytics",
       "weight": 21760,
       "image": "https://avatars.githubusercontent.com/u/698038?v=4"
+    },
+    {
+      "id": "expo/expo",
+      "path": [
+        "Cross-Platform Frameworks"
+      ],
+      "name": "expo",
+      "link": "https://github.com/expo/expo",
+      "desc": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web.",
+      "weight": 51829,
+      "image": "https://avatars.githubusercontent.com/u/12504344?v=4"
+    },
+    {
+      "id": "dcloudio/uni-app",
+      "path": [
+        "Cross-Platform Frameworks"
+      ],
+      "name": "uni-app",
+      "link": "https://github.com/dcloudio/uni-app",
+      "desc": "A cross-platform framework using Vue.js",
+      "weight": 41602,
+      "image": "https://avatars.githubusercontent.com/u/5485517?v=4"
+    },
+    {
+      "id": "NervJS/taro",
+      "path": [
+        "Cross-Platform Frameworks"
+      ],
+      "name": "taro",
+      "link": "https://github.com/NervJS/taro",
+      "desc": "开放式跨端跨框架解决方案，支持使用 React/Vue 等框架来开发微信/京东/百度/支付宝/字节跳动/ QQ 小程序/H5/React Native 等应用。",
+      "weight": 37654,
+      "image": "https://avatars.githubusercontent.com/u/30794937?v=4"
     }
   ]
 }

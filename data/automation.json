@@ -528,6 +528,39 @@
       "name": "listmonk",
       "desc": "Self-hosted newsletter and mailing list manager",
       "weight": 23011
+    },
+    {
+      "id": "conductor-oss/conductor",
+      "path": [
+        "Workflow Automation"
+      ],
+      "name": "conductor",
+      "link": "https://github.com/conductor-oss/conductor",
+      "desc": "Conductor is an event driven agentic workflow engine providing durable and highly resilient execution engine for applications and AI Agents",
+      "weight": 32128,
+      "image": "https://avatars.githubusercontent.com/u/153258413?v=4"
+    },
+    {
+      "id": "GrapesJS/grapesjs",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ],
+      "name": "grapesjs",
+      "link": "https://github.com/GrapesJS/grapesjs",
+      "desc": "Free and Open source Web Builder Framework. Next generation tool for building templates without coding",
+      "weight": 26162,
+      "image": "https://avatars.githubusercontent.com/u/123950155?v=4"
+    },
+    {
+      "id": "teableio/teable",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ],
+      "name": "teable",
+      "link": "https://github.com/teableio/teable",
+      "desc": "✨ AI Spreadsheet for Business",
+      "weight": 21713,
+      "image": "https://avatars.githubusercontent.com/u/113977713?v=4"
     }
   ]
 }

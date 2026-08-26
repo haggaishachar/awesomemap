@@ -599,6 +599,38 @@
       "desc": "Crowdsourced, behavior-based intrusion prevention system",
       "weight": 14597,
       "image": "https://avatars.githubusercontent.com/u/63284097?v=4"
+    },
+    {
+      "id": "KeygraphHQ/shannon",
+      "path": [
+        "Web App Security"
+      ],
+      "name": "shannon",
+      "link": "https://github.com/KeygraphHQ/shannon",
+      "desc": "Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.",
+      "weight": 47211,
+      "image": "https://avatars.githubusercontent.com/u/182008209?v=4"
+    },
+    {
+      "id": "lissy93/web-check",
+      "path": [
+        "Network Scanning & Recon"
+      ],
+      "name": "web-check",
+      "link": "https://github.com/lissy93/web-check",
+      "desc": "🕵️‍♂️ All-in-one OSINT tool for analysing any website",
+      "weight": 34600
+    },
+    {
+      "id": "Infisical/infisical",
+      "path": [
+        "Secrets Management"
+      ],
+      "name": "infisical",
+      "link": "https://github.com/Infisical/infisical",
+      "desc": "Infisical is the open-source platform for secrets, certificates, and privileged access management.",
+      "weight": 28963,
+      "image": "https://avatars.githubusercontent.com/u/107880645?v=4"
     }
   ]
 }

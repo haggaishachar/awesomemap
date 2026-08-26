@@ -450,6 +450,37 @@
       "desc": "G-code generator and slicer for 3D printers",
       "weight": 15433,
       "image": "https://avatars.githubusercontent.com/u/134699248?v=4"
+    },
+    {
+      "id": "frenck/awesome-home-assistant",
+      "path": [
+        "Home Automation Platforms"
+      ],
+      "name": "awesome-home-assistant",
+      "link": "https://github.com/frenck/awesome-home-assistant",
+      "desc": "A curated list of amazingly awesome Home Assistant resources.",
+      "weight": 8379
+    },
+    {
+      "id": "home-assistant/frontend",
+      "path": [
+        "Home Automation Platforms"
+      ],
+      "name": "frontend",
+      "link": "https://github.com/home-assistant/frontend",
+      "desc": ":lollipop: Frontend for Home Assistant",
+      "weight": 5625,
+      "image": "https://avatars.githubusercontent.com/u/13844975?v=4"
+    },
+    {
+      "id": "rytilahti/python-miio",
+      "path": [
+        "Device Protocols & Telemetry"
+      ],
+      "name": "python-miio",
+      "link": "https://github.com/rytilahti/python-miio",
+      "desc": "Python library & console tool for controlling Xiaomi smart appliances",
+      "weight": 4294
     }
   ]
 }

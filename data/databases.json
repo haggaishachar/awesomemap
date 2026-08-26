@@ -551,6 +551,39 @@
       "desc": "Serverless Postgres with autoscaling and instant branching",
       "weight": 22908,
       "image": "https://avatars.githubusercontent.com/u/77690634?v=4"
+    },
+    {
+      "id": "pingcap/tidb",
+      "path": [
+        "Relational Databases"
+      ],
+      "name": "tidb",
+      "link": "https://github.com/pingcap/tidb",
+      "desc": "TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling.",
+      "weight": 40472,
+      "image": "https://avatars.githubusercontent.com/u/11855343?v=4"
+    },
+    {
+      "id": "typeorm/typeorm",
+      "path": [
+        "ORMs & Query Builders"
+      ],
+      "name": "typeorm",
+      "link": "https://github.com/typeorm/typeorm",
+      "desc": "TypeScript & JavaScript ORM for Node.js — supports PostgreSQL, MySQL, MariaDB, SQLite, SQL Server, Oracle, and more.",
+      "weight": 36632,
+      "image": "https://avatars.githubusercontent.com/u/20165699?v=4"
+    },
+    {
+      "id": "facebook/rocksdb",
+      "path": [
+        "Key-Value & Caching"
+      ],
+      "name": "rocksdb",
+      "link": "https://github.com/facebook/rocksdb",
+      "desc": "A library that provides an embeddable, persistent key-value store for fast storage.",
+      "weight": 32010,
+      "image": "https://avatars.githubusercontent.com/u/69631?v=4"
     }
   ]
 }

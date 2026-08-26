@@ -597,6 +597,39 @@
       "desc": "Vendor-agnostic pipeline for collecting, processing, and exporting telemetry",
       "weight": 7423,
       "image": "https://avatars.githubusercontent.com/u/49998002?v=4"
+    },
+    {
+      "id": "Kong/kong",
+      "path": [
+        "Reverse Proxy & Load Balancing"
+      ],
+      "name": "kong",
+      "link": "https://github.com/Kong/kong",
+      "desc": "🦍 The API and AI Gateway",
+      "weight": 44038,
+      "image": "https://avatars.githubusercontent.com/u/962416?v=4"
+    },
+    {
+      "id": "portainer/portainer",
+      "path": [
+        "Containers"
+      ],
+      "name": "portainer",
+      "link": "https://github.com/portainer/portainer",
+      "desc": "Making Docker and Kubernetes management easy.",
+      "weight": 38343,
+      "image": "https://avatars.githubusercontent.com/u/22225832?v=4"
+    },
+    {
+      "id": "derailed/k9s",
+      "path": [
+        "Container Orchestration"
+      ],
+      "name": "k9s",
+      "link": "https://github.com/derailed/k9s",
+      "desc": "🐶 Kubernetes CLI To Manage Your Clusters In Style!",
+      "weight": 34435,
+      "image": "https://raw.githubusercontent.com/derailed/k9s/master/assets/logo.png"
     }
   ]
 }

@@ -563,6 +563,37 @@
       "desc": "Open source machine learning deployment",
       "weight": 4770,
       "image": "https://raw.githubusercontent.com/SeldonIO/seldon-core/master/doc/source/images/core-logo.png"
+    },
+    {
+      "id": "rasbt/LLMs-from-scratch",
+      "path": [
+        "Natural Language Processing"
+      ],
+      "name": "LLMs-from-scratch",
+      "link": "https://github.com/rasbt/LLMs-from-scratch",
+      "desc": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+      "weight": 103796
+    },
+    {
+      "id": "microsoft/ML-For-Beginners",
+      "path": [
+        "Classic Machine Learning"
+      ],
+      "name": "ML-For-Beginners",
+      "link": "https://github.com/microsoft/ML-For-Beginners",
+      "desc": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
+      "weight": 89807,
+      "image": "https://avatars.githubusercontent.com/u/6154722?v=4"
+    },
+    {
+      "id": "mlabonne/llm-course",
+      "path": [
+        "Natural Language Processing"
+      ],
+      "name": "llm-course",
+      "link": "https://github.com/mlabonne/llm-course",
+      "desc": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
+      "weight": 81994
     }
   ]
 }

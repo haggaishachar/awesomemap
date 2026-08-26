@@ -631,6 +631,38 @@
       "desc": "NVIDIA's inference serving software for deploying AI models at scale",
       "weight": 10916,
       "image": "https://avatars.githubusercontent.com/u/68086070?v=4"
+    },
+    {
+      "id": "f/prompts.chat",
+      "path": [
+        "LLM Infrastructure",
+        "Prompt Engineering & Evaluation"
+      ],
+      "name": "prompts.chat",
+      "link": "https://github.com/f/prompts.chat",
+      "desc": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "weight": 167909
+    },
+    {
+      "id": "harry0703/MoneyPrinterTurbo",
+      "path": [
+        "Generative Media"
+      ],
+      "name": "MoneyPrinterTurbo",
+      "link": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "desc": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "weight": 116562
+    },
+    {
+      "id": "rasbt/LLMs-from-scratch",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Frameworks & Runtimes"
+      ],
+      "name": "LLMs-from-scratch",
+      "link": "https://github.com/rasbt/LLMs-from-scratch",
+      "desc": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+      "weight": 103796
     }
   ]
 }

@@ -668,3 +668,73 @@ export function renderTagsIndexPage(topTags, risingTagsByWindow, { defaultOgImag
     body,
   });
 }
+
+/**
+ * One row on a per-tag page's project list — same visual shape as a
+ * rising-leaderboard row (rank, icon, name, domain badge), with a plain
+ * star count in the trailing slot instead of a growth delta, since a tag
+ * page ranks by absolute popularity, not by a growth window.
+ */
+function renderTagProjectRow(project, rank) {
+  const icon = project.image ? `<img class="rising-row-icon" src="${escapeHtml(project.image)}" alt="" loading="lazy" />` : "";
+  const domainBadge = project.domainShort
+    ? `<span class="rising-row-domain" title="${escapeHtml(project.domainName ?? project.domainShort)}">${escapeHtml(project.domainShort)}</span>`
+    : "";
+  const stars = typeof project.weight === "number" ? `★ ${formatStars(project.weight)}` : "";
+  return `
+    <li class="rising-row">
+      <span class="rising-row-rank">${rank}</span>
+      ${icon}
+      <span class="rising-row-title">
+        <a class="rising-row-name" href="${escapeHtml(project.link ?? "#")}">${escapeHtml(project.name ?? project.id)}</a>
+      </span>
+      ${domainBadge}
+      <span class="rising-row-delta">${stars}</span>
+    </li>`;
+}
+
+/**
+ * Renders one tag's page: header stats (project count, combined stars,
+ * default-window growth) then every carrying project, in the order the
+ * caller passes them (sorted by stars descending — `generate.mjs`'s job,
+ * not this function's), each with a domain badge since one tag can span
+ * several domains. Gets the same SEO treatment (`ItemList` JSON-LD,
+ * canonical) as a domain page — the ~600 pages like this one are a
+ * genuine long-tail search surface. `growth` is a `computeGroupGrowth`
+ * result for the page's default window (may report
+ * `hasEnoughHistory: false`, rendered the same way `renderMomentumStat`
+ * already handles that everywhere else).
+ */
+export function renderTagPage(tag, projects, growth, { defaultOgImage, siteUrl = "", basePath = "", windowDays = RISING_WINDOWS_DAYS[0] }) {
+  const ogUrl = `${siteUrl}${basePath}/tags/${tagSlug(tag)}/`;
+  const itemListJsonLd = renderJsonLd(buildItemListJsonLd(tag, projects, { url: ogUrl }));
+  const rows = projects.map((project, index) => renderTagProjectRow(project, index + 1)).join("");
+  const totalStars = projects.reduce((sum, project) => sum + (typeof project.weight === "number" ? project.weight : 0), 0);
+  const projectWord = `project${projects.length === 1 ? "" : "s"}`;
+
+  const body = `
+    ${renderSiteHeader(basePath)}
+    ${itemListJsonLd}
+    <header class="rising-hero">
+      <h1>${escapeHtml(tag)}</h1>
+      <p class="rising-hero-tagline">${projects.length} ${projectWord} tagged <strong>${escapeHtml(tag)}</strong> · ★ ${formatStars(totalStars)} combined</p>
+      ${renderMomentumStat(growth, { windowDays })}
+    </header>
+    <div class="rising-page">
+      <section class="rising-section">
+        <ol class="rising-rows-list">${rows}</ol>
+      </section>
+    </div>
+    ${renderSiteFooter()}
+  `;
+
+  return renderShell({
+    title: `${tag} — awesomemap`,
+    ogTitle: `${tag} — awesomemap`,
+    ogDescription: `${projects.length} open-source ${projectWord} tagged ${tag} on awesomemap.`,
+    ogImage: defaultOgImage,
+    ogUrl,
+    base: basePath,
+    body,
+  });
+}

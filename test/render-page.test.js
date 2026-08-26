@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { renderDomainPage, renderLandingPage, renderRisingPage, renderTagsIndexPage, tagSlug } from "../scripts/render-page.mjs";
+import { renderDomainPage, renderLandingPage, renderRisingPage, renderTagsIndexPage, renderTagPage, tagSlug } from "../scripts/render-page.mjs";
 
 const ROOT_TREE = { id: "data-science", name: "Data Science", children: [] };
 
@@ -595,5 +595,57 @@ test("renderTagsIndexPage shows a placeholder when there are no top tags at all"
 test("renderTagsIndexPage's canonical/og:url point at /tags/, respecting BASE_PATH", () => {
   const html = renderTagsIndexPage([], {}, { defaultOgImage: "/og.png", siteUrl: "https://awesomemap.dev", basePath: "/techmap" });
   assert.match(html, /rel="canonical" href="https:\/\/awesomemap\.dev\/techmap\/tags\/"/);
+});
+
+test("renderTagPage lists projects in the caller's order, with domain badges and star counts", () => {
+  const projects = [
+    { id: "a/a", name: "A", link: "https://a.example", weight: 500, image: "https://img/a.png", domainShort: "AI" },
+    { id: "b/b", name: "B", link: "https://b.example", weight: 200, domainShort: "Web" },
+  ];
+  const html = renderTagPage("machine-learning", projects, { hasEnoughHistory: false, oldestDate: null }, { defaultOgImage: "/og.png" });
+  assert.match(html, /<h1>machine-learning<\/h1>/);
+  assert.match(html, /2 projects tagged/);
+  assert.match(html, /★ 700 combined/);
+  assert.match(html, /href="https:\/\/a\.example"/);
+  assert.match(html, />AI</);
+  assert.match(html, />Web</);
+});
+
+test("renderTagPage shows the default-window growth stat when the tag group is tracked", () => {
+  const projects = [{ id: "a/a", name: "A", link: "https://a.example", weight: 500 }];
+  const html = renderTagPage("rust", projects, growth({ percentDelta: 3.2 }), { defaultOgImage: "/og.png" });
+  assert.match(html, /\+3\.2%/);
+});
+
+test("renderTagPage reports 'Not tracked yet' rather than a fabricated 0% when the tag group has no history", () => {
+  const projects = [{ id: "a/a", name: "A", link: "https://a.example", weight: 500 }];
+  const html = renderTagPage("rust", projects, { hasEnoughHistory: false, oldestDate: null }, { defaultOgImage: "/og.png" });
+  assert.match(html, /Not tracked yet/);
+});
+
+test("renderTagPage emits an ItemList JSON-LD block with a ListItem per linked project", () => {
+  const projects = [{ id: "a/a", name: "A", link: "https://a.example", weight: 500 }];
+  const html = renderTagPage("rust", projects, { hasEnoughHistory: false, oldestDate: null }, {
+    defaultOgImage: "/og.png",
+    siteUrl: "https://awesomemap.dev",
+  });
+  const jsonLdMatch = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/);
+  const jsonLd = JSON.parse(jsonLdMatch[1]);
+  assert.equal(jsonLd["@type"], "ItemList");
+  assert.equal(jsonLd.itemListElement[0].name, "A");
+});
+
+test("renderTagPage's canonical/og:url use tagSlug and respect BASE_PATH", () => {
+  const html = renderTagPage("c++", [], { hasEnoughHistory: false, oldestDate: null }, {
+    defaultOgImage: "/og.png",
+    siteUrl: "https://awesomemap.dev",
+    basePath: "/techmap",
+  });
+  assert.match(html, /rel="canonical" href="https:\/\/awesomemap\.dev\/techmap\/tags\/c%2B%2B\/"/);
+});
+
+test("renderTagPage handles a project with no link by falling back to '#' rather than throwing", () => {
+  const projects = [{ id: "a/a", name: "A", weight: 500 }];
+  assert.doesNotThrow(() => renderTagPage("rust", projects, { hasEnoughHistory: false, oldestDate: null }, { defaultOgImage: "/og.png" }));
 });
 

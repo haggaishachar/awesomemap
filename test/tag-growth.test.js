@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { STOPWORD_TAGS, MIN_PROJECTS_PER_TAG, isSelfReferential, buildTagGroups, computeTopTags } from "../scripts/tag-growth.mjs";
+import { STOPWORD_TAGS, MIN_PROJECTS_PER_TAG, isSelfReferential, buildTagGroups, computeTopTags, computeRisingTags } from "../scripts/tag-growth.mjs";
 
 test("STOPWORD_TAGS excludes known GitHub campaign/meta labels", () => {
   assert.ok(STOPWORD_TAGS.has("hacktoberfest"));
@@ -120,4 +120,79 @@ test("computeTopTags treats a project with no weight as 0 stars rather than NaN"
 
 test("computeTopTags returns an empty array for no groups", () => {
   assert.deepEqual(computeTopTags([]), []);
+});
+
+const NOW = "2026-08-08T00:00:00.000Z";
+
+/** Builds a 7-day-spanning history for a project that went `from` -> `to` stars. */
+function history(from, to) {
+  return [
+    { date: "2026-08-01", stars: from },
+    { date: "2026-08-08", stars: to },
+  ];
+}
+
+test("computeRisingTags ranks eligible tag groups by percent growth descending", () => {
+  const groups = buildTagGroups([
+    { id: "a/a", name: "A", weight: 1100, tags: ["fast"] },
+    { id: "b/b", name: "B", weight: 1050, tags: ["fast"] },
+    { id: "c/c", name: "C", weight: 2020, tags: ["slow"] },
+    { id: "d/d", name: "D", weight: 2000, tags: ["slow"] },
+  ]);
+  const historyById = {
+    "a/a": history(1000, 1100),
+    "b/b": history(1000, 1050),
+    "c/c": history(2000, 2020),
+    "d/d": history(2000, 2000),
+  };
+  const ranked = computeRisingTags(groups, historyById, 7, { now: NOW });
+  assert.deepEqual(ranked.map((r) => r.tag), ["fast", "slow"]);
+  assert.ok(ranked[0].growth.percentDelta > ranked[1].growth.percentDelta);
+  assert.deepEqual(ranked.map((r) => r.rank), [1, 2]);
+});
+
+test("computeRisingTags excludes a tag group with no net growth, even if tracked", () => {
+  // "Rising" must never show a flat or shrinking entry — same rule
+  // leaderboard.mjs applies to individual projects.
+  const groups = buildTagGroups([
+    { id: "a/a", name: "A", weight: 900, tags: ["flat"] },
+    { id: "b/b", name: "B", weight: 900, tags: ["flat"] },
+  ]);
+  const historyById = { "a/a": history(1000, 900), "b/b": history(1000, 900) };
+  assert.deepEqual(computeRisingTags(groups, historyById, 7, { now: NOW }), []);
+});
+
+test("computeRisingTags excludes a tag group without enough history", () => {
+  const groups = buildTagGroups([
+    { id: "a/a", name: "A", weight: 1100, tags: ["new"] },
+    { id: "b/b", name: "B", weight: 1050, tags: ["new"] },
+  ]);
+  assert.deepEqual(computeRisingTags(groups, {}, 7, { now: NOW }), []);
+});
+
+test("computeRisingTags carries projectCount/totalStars alongside the growth stat", () => {
+  const groups = buildTagGroups([
+    { id: "a/a", name: "A", weight: 1100, tags: ["fast"] },
+    { id: "b/b", name: "B", weight: 1050, tags: ["fast"] },
+  ]);
+  const historyById = { "a/a": history(1000, 1100), "b/b": history(1000, 1050) };
+  const ranked = computeRisingTags(groups, historyById, 7, { now: NOW });
+  assert.equal(ranked[0].projectCount, 2);
+  assert.equal(ranked[0].totalStars, 2150);
+});
+
+test("computeRisingTags respects limit", () => {
+  const groups = buildTagGroups([
+    { id: "a/a", name: "A", weight: 1100, tags: ["fast"] },
+    { id: "b/b", name: "B", weight: 1050, tags: ["fast"] },
+    { id: "c/c", name: "C", weight: 2200, tags: ["also-fast"] },
+    { id: "d/d", name: "D", weight: 2100, tags: ["also-fast"] },
+  ]);
+  const historyById = {
+    "a/a": history(1000, 1100),
+    "b/b": history(1000, 1050),
+    "c/c": history(2000, 2200),
+    "d/d": history(2000, 2100),
+  };
+  assert.equal(computeRisingTags(groups, historyById, 7, { now: NOW, limit: 1 }).length, 1);
 });

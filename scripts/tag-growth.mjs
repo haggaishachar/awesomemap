@@ -1,3 +1,5 @@
+import { computeGroupGrowth, rankGroups } from "./group-growth.mjs";
+
 /**
  * Tags too generic to ever be an interesting "top tag" — GitHub
  * campaign/meta labels that aren't technology descriptors, so no
@@ -80,5 +82,27 @@ export function computeTopTags(tagGroups, { limit } = {}) {
     }))
     .sort((a, b) => b.totalStars - a.totalStars || b.projectCount - a.projectCount || a.tag.localeCompare(b.tag))
     .map((entry, index) => ({ ...entry, rank: index + 1 }));
+  return typeof limit === "number" ? ranked.slice(0, limit) : ranked;
+}
+
+/**
+ * Ranks tag groups by growth rate over `windowDays`, reusing
+ * `computeGroupGrowth` (the same group-growth math categories and domains
+ * already use) and `rankGroups` (the same sort/tie-break rule) — this
+ * function's only job is deciding which tag groups are *eligible*. A group
+ * qualifies only when it `hasEnoughHistory` AND its aggregate
+ * `starDelta > 0`, the same rule `leaderboard.mjs` applies so a list
+ * called "Rising" never shows a flat or shrinking entry.
+ */
+export function computeRisingTags(tagGroups, historyById, windowDays, { limit, now } = {}) {
+  const groups = tagGroups.map(({ tag, projects }) => ({
+    key: tag,
+    tag,
+    projectCount: projects.length,
+    totalStars: projects.reduce((sum, project) => sum + (typeof project.weight === "number" ? project.weight : 0), 0),
+    growth: computeGroupGrowth(projects, historyById, windowDays, { now }),
+  }));
+  const eligible = groups.filter((group) => group.growth.hasEnoughHistory && group.growth.starDelta > 0);
+  const ranked = rankGroups(eligible).map(({ key, ...rest }) => rest);
   return typeof limit === "number" ? ranked.slice(0, limit) : ranked;
 }

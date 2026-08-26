@@ -33,6 +33,19 @@ function renderJsonLd(data) {
   return `<script type="application/ld+json">${escapeScriptJson(JSON.stringify(data))}</script>`;
 }
 
+/**
+ * Turns a raw tag string into its URL path segment (`/tags/<slug>/`).
+ * GitHub topics are already lowercase and hyphen-separated, so this is
+ * close to identity — centralizing it here (instead of inlining
+ * `encodeURIComponent` at each call site that builds a tag URL) keeps "how
+ * a tag becomes a route" one decision. `generate.mjs` imports this same
+ * function to name each tag's directory on disk, so a page's URL and its
+ * file path can never drift apart.
+ */
+export function tagSlug(tag) {
+  return encodeURIComponent(tag);
+}
+
 /** Site-wide nav bar: brand links home, right side links out to the GitHub repo. Omitted from embeds. */
 function renderSiteHeader(basePath) {
   return `
@@ -79,7 +92,17 @@ function renderShell({ title, ogTitle, ogDescription, ogImage, ogUrl, base, body
 export function renderDomainPage(
   domain,
   tree,
-  { embed = false, defaultOgImage, siteUrl = "", basePath = "", teaser = [], categoryGrowth = [], momentumWindowDays = RISING_WINDOWS_DAYS[0] }
+  {
+    embed = false,
+    defaultOgImage,
+    siteUrl = "",
+    basePath = "",
+    teaser = [],
+    categoryGrowth = [],
+    momentumWindowDays = RISING_WINDOWS_DAYS[0],
+    topTags = [],
+    risingTags = [],
+  }
 ) {
   const header = embed ? "" : renderSiteHeader(basePath);
   const footer = embed ? "" : renderSiteFooter();
@@ -89,6 +112,7 @@ export function renderDomainPage(
   // Omitted from embeds along with the rest of the chrome — an embedded map is
   // a visualization, not a page.
   const categorySection = embed ? "" : renderCategoryMomentum(categoryGrowth, { windowDays: momentumWindowDays });
+  const tagSection = embed ? "" : renderTagWidget(topTags, risingTags, { basePath, windowDays: momentumWindowDays });
   const ogUrl = `${siteUrl}${basePath}/${domain.slug}/`;
   // Omitted from the embed variant along with the header/footer/teaser —
   // it's structured data for search engines, and embed pages are already
@@ -121,6 +145,7 @@ export function renderDomainPage(
     </script>
     <div class="domain-insights">
       ${categorySection}
+      ${tagSection}
       ${teaserSection}
     </div>
     ${footer}
@@ -208,6 +233,42 @@ function renderCategoryMomentum(rankedCategories, { windowDays, limit = 5 }) {
   return `
     <section class="category-momentum">
       <h2 class="category-momentum-heading">Where the heat is</h2>
+      <ol class="momentum-rows-list">${rows}</ol>
+    </section>`;
+}
+
+/**
+ * Renders a domain page's "Top tags" widget — a third section in
+ * `.domain-insights`, alongside "Where the heat is" and the rising teaser.
+ * `topTags` is `computeTopTags` output for this domain's projects (no
+ * history needed); `risingTags` is `computeRisingTags` output for the same
+ * domain at `windowDays`, used only to decorate a top-tag row with a
+ * growth badge when that same tag also qualifies as rising. This lookup is
+ * a display-only join — `tag-growth.mjs` already decided eligibility and
+ * ranking for both lists; this only asks "does this tag also appear in
+ * that other already-ranked list."
+ */
+function renderTagWidget(topTags, risingTags, { basePath, windowDays, limit = 8 }) {
+  if (topTags.length === 0) return "";
+  const risingByTag = new Map(risingTags.map((entry) => [entry.tag, entry]));
+  const rows = topTags
+    .slice(0, limit)
+    .map((entry) => {
+      const rising = risingByTag.get(entry.tag);
+      const badge = rising ? renderMomentumStat(rising.growth, { windowDays }) : "";
+      const count = `${entry.projectCount} project${entry.projectCount === 1 ? "" : "s"}`;
+      return `
+        <li class="momentum-row">
+          <span class="momentum-row-rank">${entry.rank}</span>
+          <a class="momentum-row-name" href="${basePath}/tags/${tagSlug(entry.tag)}/" title="${escapeHtml(entry.tag)}">${escapeHtml(entry.tag)}</a>
+          <span class="momentum-row-coverage">${count}</span>
+          ${badge}
+        </li>`;
+    })
+    .join("");
+  return `
+    <section class="category-momentum">
+      <h2 class="category-momentum-heading">Top tags in this domain</h2>
       <ol class="momentum-rows-list">${rows}</ol>
     </section>`;
 }

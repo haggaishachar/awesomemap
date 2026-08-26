@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { renderDomainPage, renderLandingPage, renderRisingPage } from "../scripts/render-page.mjs";
+import { renderDomainPage, renderLandingPage, renderRisingPage, tagSlug } from "../scripts/render-page.mjs";
 
 const ROOT_TREE = { id: "data-science", name: "Data Science", children: [] };
 
@@ -490,5 +490,62 @@ test("renderDomainPage omits the category section entirely when no category has 
   const categoryGrowth = [{ key: "Hubs", rank: 1, growth: growth({ percentDelta: 0, trackedCount: 0, hasEnoughHistory: false, oldestDate: null }) }];
   const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og.png", categoryGrowth });
   assert.doesNotMatch(html, /Where the heat is/);
+});
+
+test("tagSlug URL-encodes a tag for use as a route segment", () => {
+  assert.equal(tagSlug("machine-learning"), "machine-learning");
+  assert.equal(tagSlug("c++"), "c%2B%2B");
+});
+
+test("renderDomainPage renders a Top tags widget with rank, name link, and project count", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const topTags = [
+    { tag: "machine-learning", projectCount: 12, totalStars: 500000, rank: 1 },
+    { tag: "python", projectCount: 30, totalStars: 900000, rank: 2 },
+  ];
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og.png", topTags });
+  assert.match(html, /Top tags in this domain/);
+  assert.match(html, /href="\/tags\/machine-learning\/"/);
+  assert.match(html, />machine-learning</);
+  assert.match(html, /12 projects/);
+});
+
+test("renderDomainPage's tag widget shows a growth badge only for a tag that also appears in risingTags", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const topTags = [
+    { tag: "machine-learning", projectCount: 12, totalStars: 500000, rank: 1 },
+    { tag: "python", projectCount: 30, totalStars: 900000, rank: 2 },
+  ];
+  const risingTags = [{ tag: "python", projectCount: 30, totalStars: 900000, rank: 1, growth: growth({ percentDelta: 4 }) }];
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og.png", topTags, risingTags });
+  // Split on each row's opening tag so each row's content is bounded by the
+  // next row's opening tag (or end of string for the last) — a fixed-size
+  // character slice would risk bleeding into the next row and asserting on
+  // the wrong row's content.
+  const rows = html.split('<li class="momentum-row">').slice(1);
+  const mlRow = rows.find((row) => row.includes(">machine-learning<"));
+  const pyRow = rows.find((row) => row.includes(">python<"));
+  assert.ok(mlRow && !mlRow.includes("momentum-stat"), "no badge for a tag that isn't rising");
+  assert.ok(pyRow && pyRow.includes("momentum-stat"), "badge shown for the rising tag");
+});
+
+test("renderDomainPage omits the tag widget when there are no qualifying tags", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og.png", topTags: [] });
+  assert.doesNotMatch(html, /Top tags in this domain/);
+});
+
+test("renderDomainPage's embed variant has no tag widget", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const topTags = [{ tag: "python", projectCount: 30, totalStars: 900000, rank: 1 }];
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og.png", embed: true, topTags });
+  assert.doesNotMatch(html, /Top tags in this domain/);
+});
+
+test("renderDomainPage's tag widget links respect BASE_PATH", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const topTags = [{ tag: "python", projectCount: 30, totalStars: 900000, rank: 1 }];
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og.png", basePath: "/techmap", topTags });
+  assert.match(html, /href="\/techmap\/tags\/python\/"/);
 });
 

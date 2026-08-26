@@ -581,6 +581,10 @@ body {
   white-space: nowrap;
 }
 
+a.momentum-row-name:hover {
+  color: var(--color-accent);
+}
+
 .momentum-row-coverage {
   font-size: 11px;
   color: var(--color-text-muted);

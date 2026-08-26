@@ -663,6 +663,42 @@
       "link": "https://github.com/rasbt/LLMs-from-scratch",
       "desc": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
       "weight": 103796
+    },
+    {
+      "id": "oramasearch/orama",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ],
+      "name": "orama",
+      "link": "https://github.com/oramasearch/orama",
+      "desc": "🌌  A complete search engine and RAG pipeline in your browser, server or edge network with support for full-text, vector, and hybrid search in less than 2kb.",
+      "weight": 10532,
+      "image": "https://avatars.githubusercontent.com/u/123180461?v=4"
+    },
+    {
+      "id": "activeloopai/deeplake",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ],
+      "name": "deeplake",
+      "link": "https://github.com/activeloopai/deeplake",
+      "desc": "Deeplake is AI Data Runtime for Agents. It provides serverless postgres with a multimodal datalake, enabling scalable retrieval and training.",
+      "weight": 9228,
+      "image": "https://avatars.githubusercontent.com/u/34816118?v=4"
+    },
+    {
+      "id": "paradedb/paradedb",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ],
+      "name": "paradedb",
+      "link": "https://github.com/paradedb/paradedb",
+      "desc": "One Postgres for your application data, full-text search, vector retrieval, and aggregations. Home of the pg_search extension.",
+      "weight": 9196,
+      "image": "https://avatars.githubusercontent.com/u/124464601?v=4"
     }
   ]
 }

@@ -594,6 +594,38 @@
       "link": "https://github.com/mlabonne/llm-course",
       "desc": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
       "weight": 81994
+    },
+    {
+      "id": "pytorch/vision",
+      "path": [
+        "Computer Vision"
+      ],
+      "name": "vision",
+      "link": "https://github.com/pytorch/vision",
+      "desc": "Datasets, Transforms and Models specific to Computer Vision",
+      "weight": 17884,
+      "image": "https://avatars.githubusercontent.com/u/21003710?v=4"
+    },
+    {
+      "id": "Microsoft/LightGBM",
+      "path": [
+        "Classic Machine Learning"
+      ],
+      "name": "LightGBM",
+      "link": "https://github.com/Microsoft/LightGBM",
+      "desc": "A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks.",
+      "weight": 18714,
+      "image": "https://avatars.githubusercontent.com/u/266222920?v=4"
+    },
+    {
+      "id": "piskvorky/gensim",
+      "path": [
+        "Natural Language Processing"
+      ],
+      "name": "gensim",
+      "link": "https://github.com/piskvorky/gensim",
+      "desc": "Topic Modelling for Humans",
+      "weight": 16479
     }
   ]
 }

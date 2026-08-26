@@ -561,6 +561,39 @@
       "desc": "✨ AI Spreadsheet for Business",
       "weight": 21713,
       "image": "https://avatars.githubusercontent.com/u/113977713?v=4"
+    },
+    {
+      "id": "browser-use/workflow-use",
+      "path": [
+        "RPA & Browser Automation"
+      ],
+      "name": "workflow-use",
+      "link": "https://github.com/browser-use/workflow-use",
+      "desc": "⚙️ Create and run workflows (RPA 2.0)",
+      "weight": 4149,
+      "image": "https://avatars.githubusercontent.com/u/192012301?v=4"
+    },
+    {
+      "id": "OpenAdaptAI/OpenAdapt",
+      "path": [
+        "RPA & Browser Automation"
+      ],
+      "name": "OpenAdapt",
+      "link": "https://github.com/OpenAdaptAI/OpenAdapt",
+      "desc": "Compile a demonstrated GUI workflow into a deterministic, locally executable program. Zero model calls on healthy runs; governed repair; halts instead of guessing. Launcher for openadapt-flow: pip install openadapt",
+      "weight": 1701,
+      "image": "https://avatars.githubusercontent.com/u/132681217?v=4"
+    },
+    {
+      "id": "refinedev/refine",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ],
+      "name": "refine",
+      "link": "https://github.com/refinedev/refine",
+      "desc": "A React Framework for building  internal tools, admin panels, dashboards & B2B apps with unmatched flexibility.",
+      "weight": 35576,
+      "image": "https://raw.githubusercontent.com/refinedev/refine/main/logo.png"
     }
   ]
 }

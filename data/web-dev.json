@@ -639,6 +639,38 @@
       "desc": "High performance, minimalist Go web framework",
       "weight": 32658,
       "image": "https://avatars.githubusercontent.com/u/2624634?v=4"
+    },
+    {
+      "id": "prettier/prettier",
+      "path": [
+        "Developer Tooling"
+      ],
+      "name": "prettier",
+      "link": "https://github.com/prettier/prettier",
+      "desc": "Prettier is an opinionated code formatter.",
+      "weight": 52217,
+      "image": "https://avatars.githubusercontent.com/u/25822731?v=4"
+    },
+    {
+      "id": "Dogfalo/materialize",
+      "path": [
+        "CSS Frameworks & Styling"
+      ],
+      "name": "materialize",
+      "link": "https://github.com/Dogfalo/materialize",
+      "desc": "Materialize, a CSS Framework based on Material Design",
+      "weight": 38813
+    },
+    {
+      "id": "vercel/turborepo",
+      "path": [
+        "Build Tools & Bundlers"
+      ],
+      "name": "turborepo",
+      "link": "https://github.com/vercel/turborepo",
+      "desc": "Build system optimized for JavaScript and TypeScript, written in Rust",
+      "weight": 31017,
+      "image": "https://avatars.githubusercontent.com/u/14985020?v=4"
     }
   ]
 }

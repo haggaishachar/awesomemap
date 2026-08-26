@@ -631,6 +631,38 @@
       "desc": "Infisical is the open-source platform for secrets, certificates, and privileged access management.",
       "weight": 28963,
       "image": "https://avatars.githubusercontent.com/u/107880645?v=4"
+    },
+    {
+      "id": "beenuar/AiSOC",
+      "path": [
+        "SIEM & Threat Detection"
+      ],
+      "name": "AiSOC",
+      "link": "https://github.com/beenuar/AiSOC",
+      "desc": "Open-source AI-powered Security Operations Center — alert fusion, purple-team drills, agent-assisted triage, MITRE ATT&CK investigation. MIT-licensed, self-hostable.",
+      "weight": 2406
+    },
+    {
+      "id": "threathunters-io/laurel",
+      "path": [
+        "SIEM & Threat Detection"
+      ],
+      "name": "laurel",
+      "link": "https://github.com/threathunters-io/laurel",
+      "desc": "Transform Linux Audit logs for SIEM usage",
+      "weight": 855,
+      "image": "https://avatars.githubusercontent.com/u/86109767?v=4"
+    },
+    {
+      "id": "tenzir/tenzir",
+      "path": [
+        "SIEM & Threat Detection"
+      ],
+      "name": "tenzir",
+      "link": "https://github.com/tenzir/tenzir",
+      "desc": "Tenzir is the data pipeline engine for security teams.",
+      "weight": 757,
+      "image": "https://avatars.githubusercontent.com/u/29048253?v=4"
     }
   ]
 }

@@ -481,6 +481,38 @@
       "link": "https://github.com/rytilahti/python-miio",
       "desc": "Python library & console tool for controlling Xiaomi smart appliances",
       "weight": 4294
+    },
+    {
+      "id": "embassy-rs/embassy",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ],
+      "name": "embassy",
+      "link": "https://github.com/embassy-rs/embassy",
+      "desc": "Modern embedded framework, using Rust and async.",
+      "weight": 9740,
+      "image": "https://avatars.githubusercontent.com/u/80000440?v=4"
+    },
+    {
+      "id": "FastLED/FastLED",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ],
+      "name": "FastLED",
+      "link": "https://github.com/FastLED/FastLED",
+      "desc": "The FastLED library for colored LED animation on Arduino.  Please direct questions/requests for help to the FastLED Reddit community: http://fastled.io/r   We'd like to use github \"issues\" just for tracking library bugs / enhancements. ",
+      "weight": 7476,
+      "image": "https://avatars.githubusercontent.com/u/5899270?v=4"
+    },
+    {
+      "id": "bblanchon/ArduinoJson",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ],
+      "name": "ArduinoJson",
+      "link": "https://github.com/bblanchon/ArduinoJson",
+      "desc": "📟 JSON library for Arduino and embedded C++. Simple and efficient.",
+      "weight": 7206
     }
   ]
 }

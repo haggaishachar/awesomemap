@@ -538,6 +538,38 @@
       "desc": "开放式跨端跨框架解决方案，支持使用 React/Vue 等框架来开发微信/京东/百度/支付宝/字节跳动/ QQ 小程序/H5/React Native 等应用。",
       "weight": 37654,
       "image": "https://avatars.githubusercontent.com/u/30794937?v=4"
+    },
+    {
+      "id": "react-native-maps/react-native-maps",
+      "path": [
+        "UI Component Libraries"
+      ],
+      "name": "react-native-maps",
+      "link": "https://github.com/react-native-maps/react-native-maps",
+      "desc": "React Native Mapview component for iOS + Android",
+      "weight": 15993,
+      "image": "https://avatars.githubusercontent.com/u/71155358?v=4"
+    },
+    {
+      "id": "flet-dev/flet",
+      "path": [
+        "Cross-Platform Frameworks"
+      ],
+      "name": "flet",
+      "link": "https://github.com/flet-dev/flet",
+      "desc": "Build realtime web, mobile and desktop apps in Python only. No frontend experience required.",
+      "weight": 16615,
+      "image": "https://avatars.githubusercontent.com/u/102273996?v=4"
+    },
+    {
+      "id": "jonataslaw/getx",
+      "path": [
+        "State Management"
+      ],
+      "name": "getx",
+      "link": "https://github.com/jonataslaw/getx",
+      "desc": "Open screens/snackbars/dialogs/bottomSheets without context, manage states and inject dependencies easily with Get.",
+      "weight": 11197
     }
   ]
 }

@@ -584,6 +584,39 @@
       "desc": "A library that provides an embeddable, persistent key-value store for fast storage.",
       "weight": 32010,
       "image": "https://avatars.githubusercontent.com/u/69631?v=4"
+    },
+    {
+      "id": "ravendb/ravendb",
+      "path": [
+        "Document & Wide-Column Databases"
+      ],
+      "name": "ravendb",
+      "link": "https://github.com/ravendb/ravendb",
+      "desc": "ACID Document Database",
+      "weight": 3993,
+      "image": "https://avatars.githubusercontent.com/u/213792?v=4"
+    },
+    {
+      "id": "influxdb/influxdb",
+      "path": [
+        "Time-Series Databases"
+      ],
+      "name": "influxdb",
+      "link": "https://github.com/influxdb/influxdb",
+      "desc": "Scalable datastore for metrics, events, and real-time analytics",
+      "weight": 31717,
+      "image": "https://avatars.githubusercontent.com/u/5713248?v=4"
+    },
+    {
+      "id": "elasticsearch/elasticsearch",
+      "path": [
+        "Search Engines"
+      ],
+      "name": "elasticsearch",
+      "link": "https://github.com/elasticsearch/elasticsearch",
+      "desc": "Free and Open Source, Distributed, RESTful Search Engine",
+      "weight": 77864,
+      "image": "https://avatars.githubusercontent.com/u/6764390?v=4"
     }
   ]
 }

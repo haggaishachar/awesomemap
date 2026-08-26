@@ -630,6 +630,38 @@
       "desc": "🐶 Kubernetes CLI To Manage Your Clusters In Style!",
       "weight": 34435,
       "image": "https://raw.githubusercontent.com/derailed/k9s/master/assets/logo.png"
+    },
+    {
+      "id": "aquasecurity/tfsec",
+      "path": [
+        "Infrastructure as Code"
+      ],
+      "name": "tfsec",
+      "link": "https://github.com/aquasecurity/tfsec",
+      "desc": "Tfsec is now part of Trivy",
+      "weight": 7032,
+      "image": "https://avatars.githubusercontent.com/u/12783832?v=4"
+    },
+    {
+      "id": "shuaibiyy/awesome-tf",
+      "path": [
+        "Infrastructure as Code"
+      ],
+      "name": "awesome-tf",
+      "link": "https://github.com/shuaibiyy/awesome-tf",
+      "desc": "Curated list of resources on HashiCorp's Terraform and OpenTofu",
+      "weight": 6580
+    },
+    {
+      "id": "diggerhq/digger",
+      "path": [
+        "Infrastructure as Code"
+      ],
+      "name": "digger",
+      "link": "https://github.com/diggerhq/digger",
+      "desc": "Digger is an open source IaC orchestration tool. Digger allows you to run IaC in your existing CI pipeline ⚡️  ",
+      "weight": 5030,
+      "image": "https://avatars.githubusercontent.com/u/71334590?v=4"
     }
   ]
 }

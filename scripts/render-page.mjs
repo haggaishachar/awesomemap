@@ -53,6 +53,7 @@ function renderSiteHeader(basePath) {
       <a class="site-header-brand" href="${basePath}/">awesomemap</a>
       <div class="site-header-links">
         <a class="site-header-rising" href="${basePath}/rising/">Rising</a>
+        <a class="site-header-tags" href="${basePath}/tags/">Tags</a>
         <a class="site-header-github" href="${REPO_URL}" aria-label="View awesomemap on GitHub">
           <svg viewBox="0 0 16 16" width="20" height="20" aria-hidden="true">
             <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
@@ -550,6 +551,119 @@ export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage
     ogDescription: "Star-growth leaders across every awesomemap domain, updated daily.",
     ogImage: defaultOgImage,
     ogUrl: `${siteUrl}${basePath}/rising/`,
+    base: basePath,
+    body,
+  });
+}
+
+/** Formats a plain (non-delta) star count with thousands separators, e.g. `12,400`. */
+function formatStars(stars) {
+  return Number(stars).toLocaleString("en-US");
+}
+
+/** One row in the global "Top tags" list — star-ranked, no growth window involved. */
+function renderTopTagRow(entry, { basePath }) {
+  const count = `${entry.projectCount} project${entry.projectCount === 1 ? "" : "s"}`;
+  return `
+    <li class="momentum-row">
+      <span class="momentum-row-rank">${entry.rank}</span>
+      <a class="momentum-row-name" href="${basePath}/tags/${tagSlug(entry.tag)}/" title="${escapeHtml(entry.tag)}">${escapeHtml(entry.tag)}</a>
+      <span class="momentum-row-coverage">${count}</span>
+      <span class="momentum-abs">★ ${formatStars(entry.totalStars)}</span>
+    </li>`;
+}
+
+function renderTopTagsList(topTags, { basePath, limit }) {
+  if (topTags.length === 0) return `<p class="rising-empty">No tags yet.</p>`;
+  return `<ol class="momentum-rows-list">${topTags
+    .slice(0, limit)
+    .map((entry) => renderTopTagRow(entry, { basePath }))
+    .join("")}</ol>`;
+}
+
+/** One row in a "Rising tags" window's list — same shape as the domain widget's rows, always showing a growth badge (every entry here is, by construction, rising). */
+function renderRisingTagRow(entry, { basePath, windowDays }) {
+  const count = `${entry.projectCount} project${entry.projectCount === 1 ? "" : "s"}`;
+  return `
+    <li class="momentum-row">
+      <span class="momentum-row-rank">${entry.rank}</span>
+      <a class="momentum-row-name" href="${basePath}/tags/${tagSlug(entry.tag)}/" title="${escapeHtml(entry.tag)}">${escapeHtml(entry.tag)}</a>
+      <span class="momentum-row-coverage">${count}</span>
+      ${renderMomentumStat(entry.growth, { windowDays })}
+    </li>`;
+}
+
+/** Renders the three window variants for the "Rising tags" list, only the first shown initially — mirrors `renderRisingWindowVariants`' precomputed/client-toggled pattern. */
+function renderRisingTagsWindowVariants(risingTagsByWindow, { basePath, limit }) {
+  return RISING_WINDOWS_DAYS.map((windowDays, index) => {
+    const entries = (risingTagsByWindow[windowDays] ?? []).slice(0, limit);
+    const hiddenAttr = index === 0 ? "" : " hidden";
+    const body =
+      entries.length === 0
+        ? `<p class="rising-empty">Not enough star-history yet for this window.</p>`
+        : `<ol class="momentum-rows-list">${entries.map((entry) => renderRisingTagRow(entry, { basePath, windowDays })).join("")}</ol>`;
+    return `<div class="rising-rows" data-window="${windowDays}"${hiddenAttr}>${body}</div>`;
+  }).join("");
+}
+
+/**
+ * Renders the global `/tags/` page: a "Top tags" list (star-ranked, no
+ * window) and a "Rising tags" list with the same 7/30/90-day window toggle
+ * `/rising/` uses (precomputed per window, swapped client-side — no
+ * client-side recomputation). No per-domain filtering here — domain-scoped
+ * tag rankings already live on each domain page's widget (see
+ * `renderTagWidget`); a second filtering mechanism for the same data would
+ * just duplicate it.
+ */
+export function renderTagsIndexPage(topTags, risingTagsByWindow, { defaultOgImage, siteUrl = "", basePath = "", generatedAt = new Date(), limit = 30 }) {
+  const windowBar = `
+    <div class="rising-window-bar">
+      ${RISING_WINDOWS_DAYS.map(
+        (windowDays, index) =>
+          `<button type="button" class="treemap-window-button${index === 0 ? " treemap-window-button-active" : ""}" data-window="${windowDays}">${windowDays}d</button>`
+      ).join("")}
+    </div>`;
+
+  const body = `
+    ${renderSiteHeader(basePath)}
+    <header class="rising-hero">
+      <h1>Tags</h1>
+      <p class="rising-hero-tagline">The technologies awesomemap's projects carry, across every domain.</p>
+      <p class="rising-updated">Updated ${escapeHtml(generatedAt.toISOString().slice(0, 10))}</p>
+    </header>
+    <div class="rising-page">
+      <section class="rising-section">
+        <h2 class="rising-section-heading">Top tags</h2>
+        ${renderTopTagsList(topTags, { basePath, limit })}
+      </section>
+      <section class="rising-section">
+        <h2 class="rising-section-heading">Rising tags</h2>
+        ${windowBar}
+        ${renderRisingTagsWindowVariants(risingTagsByWindow, { basePath, limit })}
+      </section>
+    </div>
+    <script>
+      document.querySelectorAll(".rising-window-bar button").forEach((button) => {
+        button.addEventListener("click", () => {
+          const selected = button.dataset.window;
+          document.querySelectorAll(".rising-window-bar button").forEach((b) => {
+            b.classList.toggle("treemap-window-button-active", b === button);
+          });
+          document.querySelectorAll(".rising-rows").forEach((el) => {
+            el.hidden = el.dataset.window !== selected;
+          });
+        });
+      });
+    </script>
+    ${renderSiteFooter()}
+  `;
+
+  return renderShell({
+    title: "Tags — awesomemap",
+    ogTitle: "Tags — awesomemap",
+    ogDescription: "Top and rising technology tags across every awesomemap domain.",
+    ogImage: defaultOgImage,
+    ogUrl: `${siteUrl}${basePath}/tags/`,
     base: basePath,
     body,
   });

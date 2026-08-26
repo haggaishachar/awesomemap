@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { renderDomainPage, renderLandingPage, renderRisingPage, tagSlug } from "../scripts/render-page.mjs";
+import { renderDomainPage, renderLandingPage, renderRisingPage, renderTagsIndexPage, tagSlug } from "../scripts/render-page.mjs";
 
 const ROOT_TREE = { id: "data-science", name: "Data Science", children: [] };
 
@@ -547,5 +547,53 @@ test("renderDomainPage's tag widget links respect BASE_PATH", () => {
   const topTags = [{ tag: "python", projectCount: 30, totalStars: 900000, rank: 1 }];
   const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og.png", basePath: "/techmap", topTags });
   assert.match(html, /href="\/techmap\/tags\/python\/"/);
+});
+
+test("the site header includes a Tags nav link, prefixed by BASE_PATH", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const rootHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og.png", basePath: "" });
+  assert.match(rootHtml, /href="\/tags\/">Tags<\/a>/);
+  const prefixedHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og.png", basePath: "/techmap" });
+  assert.match(prefixedHtml, /href="\/techmap\/tags\/">Tags<\/a>/);
+});
+
+test("renderTagsIndexPage lists top tags ranked by stars, with project count and star total", () => {
+  const topTags = [
+    { tag: "python", projectCount: 30, totalStars: 900000, rank: 1 },
+    { tag: "machine-learning", projectCount: 12, totalStars: 500000, rank: 2 },
+  ];
+  const html = renderTagsIndexPage(topTags, {}, { defaultOgImage: "/og.png" });
+  assert.match(html, /Top tags/);
+  assert.match(html, /href="\/tags\/python\/"/);
+  assert.match(html, /30 projects/);
+  assert.match(html, /900,000/);
+});
+
+test("renderTagsIndexPage renders all three rising windows, only the 7-day one visible initially", () => {
+  const risingTagsByWindow = {
+    7: [{ tag: "rust", projectCount: 4, totalStars: 1000, rank: 1, growth: growth({ percentDelta: 5 }) }],
+    30: [{ tag: "zig", projectCount: 4, totalStars: 1000, rank: 1, growth: growth({ percentDelta: 12 }) }],
+    90: [{ tag: "go", projectCount: 4, totalStars: 1000, rank: 1, growth: growth({ percentDelta: 8 }) }],
+  };
+  const html = renderTagsIndexPage([], risingTagsByWindow, { defaultOgImage: "/og.png" });
+  const day7 = html.match(/<div class="rising-rows" data-window="7">([\s\S]*?)<\/div>/)[1];
+  const day30 = html.match(/<div class="rising-rows" data-window="30" hidden>([\s\S]*?)<\/div>/)[1];
+  assert.match(day7, /rust/);
+  assert.match(day30, /zig/);
+});
+
+test("renderTagsIndexPage shows a not-ready placeholder for a window with no eligible rising tags", () => {
+  const html = renderTagsIndexPage([], { 7: [] }, { defaultOgImage: "/og.png" });
+  assert.match(html, /Not enough star-history yet for this window\./);
+});
+
+test("renderTagsIndexPage shows a placeholder when there are no top tags at all", () => {
+  const html = renderTagsIndexPage([], {}, { defaultOgImage: "/og.png" });
+  assert.match(html, /No tags yet\./);
+});
+
+test("renderTagsIndexPage's canonical/og:url point at /tags/, respecting BASE_PATH", () => {
+  const html = renderTagsIndexPage([], {}, { defaultOgImage: "/og.png", siteUrl: "https://awesomemap.dev", basePath: "/techmap" });
+  assert.match(html, /rel="canonical" href="https:\/\/awesomemap\.dev\/techmap\/tags\/"/);
 });
 

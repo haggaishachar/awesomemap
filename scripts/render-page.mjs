@@ -136,7 +136,7 @@ export function renderDomainPage(
       import { mountTreemap } from "${basePath}/shared/treemap.js";
       import { createDetailPanel } from "${basePath}/shared/detail-panel.js";
       const mapData = JSON.parse(document.getElementById("map-data").textContent);
-      const panel = createDetailPanel(document.body, { historyUrl: "${historyUrl}" });
+      const panel = createDetailPanel(document.body, { historyUrl: "${historyUrl}", basePath: "${basePath}" });
       mountTreemap(
         document.getElementById("app"),
         mapData,

@@ -325,6 +325,26 @@ body {
   margin: 4px 0 0;
 }
 
+.detail-panel-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px 0;
+}
+
+.detail-panel-tag {
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.detail-panel-tag:hover {
+  text-decoration: underline;
+}
+
 .hero {
   position: relative;
   overflow: hidden;

@@ -55,12 +55,12 @@ test("BASE_PATH is prefixed onto every emitted path, and defaults to root-relati
 test("the detail panel is created with a historyUrl pointing at the domain's own history.json, prefixed by BASE_PATH", () => {
   const domain = { slug: "data-science", name: "Data Science", description: "desc" };
   const rootHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "" });
-  assert.match(rootHtml, /createDetailPanel\(document\.body, \{ historyUrl: "\/data-science\/history\.json" \}\)/);
+  assert.match(rootHtml, /createDetailPanel\(document\.body, \{ historyUrl: "\/data-science\/history\.json", basePath: "" \}\)/);
 
   const prefixedHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
   assert.match(
     prefixedHtml,
-    /createDetailPanel\(document\.body, \{ historyUrl: "\/techmap\/data-science\/history\.json" \}\)/
+    /createDetailPanel\(document\.body, \{ historyUrl: "\/techmap\/data-science\/history\.json", basePath: "\/techmap" \}\)/
   );
 });
 

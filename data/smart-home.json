@@ -12,7 +12,7 @@
       "link": "https://www.home-assistant.io",
       "name": "Home Assistant",
       "desc": "Open-source home automation that puts local control and privacy first",
-      "weight": 90118,
+      "weight": 90117,
       "image": "https://avatars.githubusercontent.com/u/13844975?v=4",
       "tags": [
         "asyncio",
@@ -99,7 +99,7 @@
       "link": "https://homebridge.io",
       "name": "Homebridge",
       "desc": "Bridges non-HomeKit smart home devices to Apple HomeKit",
-      "weight": 25467,
+      "weight": 25466,
       "image": "https://avatars.githubusercontent.com/u/38217527?v=4",
       "tags": [
         "hap",
@@ -119,7 +119,7 @@
       "link": "https://www.zigbee2mqtt.io",
       "name": "Zigbee2MQTT",
       "desc": "Bridges Zigbee devices to MQTT without a vendor hub",
-      "weight": 15571,
+      "weight": 15572,
       "tags": [
         "hacktoberfest"
       ]
@@ -132,7 +132,7 @@
       "link": "https://buildwithmatter.com",
       "name": "Matter",
       "desc": "Unified, royalty-free connectivity standard for smart home devices",
-      "weight": 8896,
+      "weight": 8900,
       "image": "https://avatars.githubusercontent.com/u/61027988?v=4",
       "tags": [
         "build-with-matter",
@@ -224,7 +224,7 @@
       "link": "http://nodered.org",
       "name": "Node-RED",
       "desc": "Low-code, flow-based programming tool for wiring together APIs and devices",
-      "weight": 23584,
+      "weight": 23586,
       "image": "https://avatars.githubusercontent.com/u/5375661?v=4",
       "tags": [
         "flow-based-programming",
@@ -307,7 +307,7 @@
       "link": "https://n8n.io",
       "name": "n8n",
       "desc": "Fair-code workflow automation platform with native AI capabilities",
-      "weight": 202448,
+      "weight": 202477,
       "image": "https://avatars.githubusercontent.com/u/45487711?v=4",
       "tags": [
         "ai",
@@ -340,7 +340,7 @@
       "link": "https://tasmota.github.io/docs",
       "name": "Tasmota",
       "desc": "Alternative firmware for ESP8266/ESP32 devices with local MQTT control",
-      "weight": 24728,
+      "weight": 24729,
       "tags": [
         "arduino",
         "automation",
@@ -388,7 +388,7 @@
       "link": "https://github.com/espressif/esp-idf",
       "name": "ESP-IDF",
       "desc": "Official development framework for Espressif SoCs",
-      "weight": 18874,
+      "weight": 18875,
       "image": "https://avatars.githubusercontent.com/u/9460735?v=4",
       "tags": []
     },
@@ -400,7 +400,7 @@
       "link": "https://docs.zephyrproject.org",
       "name": "Zephyr",
       "desc": "Scalable real-time operating system for connected, resource-constrained devices",
-      "weight": 16310,
+      "weight": 16313,
       "image": "https://avatars.githubusercontent.com/u/19595895?v=4",
       "tags": [
         "bluetooth",
@@ -425,7 +425,7 @@
       "link": "https://platformio.org",
       "name": "PlatformIO",
       "desc": "Professional toolchain for embedded software development",
-      "weight": 9424,
+      "weight": 9425,
       "image": "https://avatars.githubusercontent.com/u/11621357?v=4",
       "tags": [
         "arduino",
@@ -482,7 +482,7 @@
       "link": "https://nuttx.apache.org/",
       "name": "Apache NuttX",
       "desc": "Mature, real-time embedded operating system",
-      "weight": 4007,
+      "weight": 4008,
       "image": "https://avatars.githubusercontent.com/u/47359?v=4",
       "tags": [
         "embedded",
@@ -545,7 +545,7 @@
       "link": "http://www.espeasy.com",
       "name": "ESPEasy",
       "desc": "Easy multi-sensor firmware for ESP8266/ESP32 devices",
-      "weight": 3569,
+      "weight": 3570,
       "image": "https://avatars.githubusercontent.com/u/23070406?v=4",
       "tags": []
     },
@@ -606,7 +606,7 @@
       "link": "https://docs.ros.org",
       "name": "ROS 2",
       "desc": "Meta operating system for building robot applications",
-      "weight": 5943,
+      "weight": 5945,
       "image": "https://avatars.githubusercontent.com/u/3979232?v=4",
       "tags": []
     },
@@ -630,7 +630,7 @@
       "link": "https://px4.io",
       "name": "PX4",
       "desc": "Open-source flight control software for drones and other autonomous vehicles",
-      "weight": 12493,
+      "weight": 12498,
       "image": "https://avatars.githubusercontent.com/u/2096014?v=4",
       "tags": [
         "autonomous",
@@ -662,7 +662,7 @@
       "link": "http://ardupilot.org/",
       "name": "ArduPilot",
       "desc": "Open-source autopilot software for drones, rovers, and submarines",
-      "weight": 15745,
+      "weight": 15746,
       "image": "https://avatars.githubusercontent.com/u/17919847?v=4",
       "tags": [
         "arducopter",
@@ -726,7 +726,7 @@
       "link": "https://microsoft.github.io/AirSim/",
       "name": "AirSim",
       "desc": "Open-source simulator for drones and autonomous vehicles",
-      "weight": 18423,
+      "weight": 18424,
       "image": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "tags": [
         "ai",
@@ -756,7 +756,7 @@
       "link": "https://frigate.video",
       "name": "Frigate",
       "desc": "NVR with real-time local object detection for IP cameras",
-      "weight": 35390,
+      "weight": 35392,
       "tags": [
         "ai",
         "camera",
@@ -802,7 +802,7 @@
       "link": "https://go2rtc.org",
       "name": "go2rtc",
       "desc": "Camera streaming application supporting multiple protocols",
-      "weight": 14045,
+      "weight": 14046,
       "tags": [
         "ffmpeg",
         "go",
@@ -846,7 +846,7 @@
       "link": "https://www.prusa3d.com/prusaslicer/",
       "name": "PrusaSlicer",
       "desc": "G-code generator and slicer for 3D printers",
-      "weight": 9244,
+      "weight": 9243,
       "image": "https://avatars.githubusercontent.com/u/14859759?v=4",
       "tags": []
     },
@@ -858,7 +858,7 @@
       "link": "https://github.com/Ultimaker/Cura",
       "name": "Cura",
       "desc": "Slicing application for preparing 3D models for printing",
-      "weight": 7020,
+      "weight": 7021,
       "image": "https://avatars.githubusercontent.com/u/499557?v=4",
       "tags": [
         "3d-printing",
@@ -880,7 +880,7 @@
       "link": "https://marlinfw.org",
       "name": "Marlin",
       "desc": "Firmware for RepRap 3D printers",
-      "weight": 17549,
+      "weight": 17550,
       "image": "https://avatars.githubusercontent.com/u/10418365?v=4",
       "tags": [
         "3d-printing",
@@ -902,7 +902,7 @@
       "link": "https://www.orcaslicer.com",
       "name": "OrcaSlicer",
       "desc": "G-code generator and slicer for 3D printers",
-      "weight": 15493,
+      "weight": 15496,
       "image": "https://avatars.githubusercontent.com/u/134699248?v=4",
       "tags": [
         "3d-printer",
@@ -948,7 +948,7 @@
       "name": "frontend",
       "link": "https://github.com/home-assistant/frontend",
       "desc": ":lollipop: Frontend for Home Assistant",
-      "weight": 5625,
+      "weight": 5626,
       "image": "https://avatars.githubusercontent.com/u/13844975?v=4",
       "tags": [
         "frontend",
@@ -978,6 +978,66 @@
         "python",
         "smart-home",
         "xiaomi"
+      ]
+    },
+    {
+      "id": "embassy-rs/embassy",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ],
+      "name": "embassy",
+      "link": "https://github.com/embassy-rs/embassy",
+      "desc": "Modern embedded framework, using Rust and async.",
+      "weight": 9740,
+      "image": "https://avatars.githubusercontent.com/u/80000440?v=4",
+      "tags": [
+        "async",
+        "drivers",
+        "embedded",
+        "executor",
+        "hal",
+        "rust"
+      ]
+    },
+    {
+      "id": "FastLED/FastLED",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ],
+      "name": "FastLED",
+      "link": "https://github.com/FastLED/FastLED",
+      "desc": "The FastLED library for colored LED animation on Arduino.  Please direct questions/requests for help to the FastLED Reddit community: http://fastled.io/r   We'd like to use github \"issues\" just for tracking library bugs / enhancements. ",
+      "weight": 7476,
+      "image": "https://avatars.githubusercontent.com/u/5899270?v=4",
+      "tags": [
+        "addressable-leds",
+        "apa102",
+        "arduino",
+        "embedded",
+        "esp32",
+        "led",
+        "teensy",
+        "ws2812"
+      ]
+    },
+    {
+      "id": "bblanchon/ArduinoJson",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ],
+      "name": "ArduinoJson",
+      "link": "https://github.com/bblanchon/ArduinoJson",
+      "desc": "📟 JSON library for Arduino and embedded C++. Simple and efficient.",
+      "weight": 7206,
+      "tags": [
+        "arduino",
+        "arduino-library",
+        "c-plus-plus",
+        "embedded",
+        "esp32",
+        "esp8266",
+        "iot",
+        "json"
       ]
     }
   ]

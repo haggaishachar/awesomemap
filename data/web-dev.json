@@ -12,7 +12,7 @@
       "link": "https://react.dev",
       "name": "React",
       "desc": "A JavaScript library for building user interfaces",
-      "weight": 247906,
+      "weight": 247895,
       "image": "https://avatars.githubusercontent.com/u/102812?v=4",
       "tags": [
         "declarative",
@@ -31,7 +31,7 @@
       "link": "https://vuejs.org",
       "name": "Vue",
       "desc": "The Progressive JavaScript Framework",
-      "weight": 54248,
+      "weight": 54250,
       "image": "https://avatars.githubusercontent.com/u/6128107?v=4",
       "tags": []
     },
@@ -43,7 +43,7 @@
       "link": "https://svelte.dev",
       "name": "Svelte",
       "desc": "Cybernetically enhanced web apps",
-      "weight": 87995,
+      "weight": 87998,
       "image": "https://avatars.githubusercontent.com/u/23617963?v=4",
       "tags": [
         "compiler",
@@ -59,7 +59,7 @@
       "link": "https://angular.dev",
       "name": "Angular",
       "desc": "The modern web developer's platform",
-      "weight": 101004,
+      "weight": 101002,
       "image": "https://avatars.githubusercontent.com/u/139426?v=4",
       "tags": [
         "angular",
@@ -100,7 +100,7 @@
       "link": "https://nextjs.org",
       "name": "Next.js",
       "desc": "The React Framework for the Web",
-      "weight": 141934,
+      "weight": 141933,
       "image": "https://avatars.githubusercontent.com/u/14985020?v=4",
       "tags": [
         "blog",
@@ -153,7 +153,7 @@
       "link": "https://kit.svelte.dev",
       "name": "SvelteKit",
       "desc": "Web development, streamlined",
-      "weight": 20763,
+      "weight": 20760,
       "image": "https://avatars.githubusercontent.com/u/23617963?v=4",
       "tags": [
         "svelte"
@@ -167,7 +167,7 @@
       "link": "https://remix.run",
       "name": "Remix",
       "desc": "Build better websites with React",
-      "weight": 33328,
+      "weight": 33324,
       "image": "https://avatars.githubusercontent.com/u/64235328?v=4",
       "tags": []
     },
@@ -179,7 +179,7 @@
       "link": "https://astro.build",
       "name": "Astro",
       "desc": "The web framework for content-driven websites",
-      "weight": 62059,
+      "weight": 62064,
       "image": "https://avatars.githubusercontent.com/u/44914786?v=4",
       "tags": [
         "astro",
@@ -203,7 +203,7 @@
       "link": "https://vitejs.dev",
       "name": "Vite",
       "desc": "Next generation frontend tooling",
-      "weight": 82539,
+      "weight": 82542,
       "image": "https://avatars.githubusercontent.com/u/65625612?v=4",
       "tags": [
         "build-tool",
@@ -250,7 +250,7 @@
       "link": "https://esbuild.github.io",
       "name": "esbuild",
       "desc": "An extremely fast bundler for the web",
-      "weight": 40019,
+      "weight": 40018,
       "tags": [
         "bundler",
         "commonjs",
@@ -285,7 +285,7 @@
       "link": "https://parceljs.org",
       "name": "Parcel",
       "desc": "The zero configuration build tool for the web",
-      "weight": 44020,
+      "weight": 44019,
       "image": "https://avatars.githubusercontent.com/u/32607881?v=4",
       "tags": [
         "assets",
@@ -309,7 +309,7 @@
       "link": "https://tailwindcss.com",
       "name": "Tailwind CSS",
       "desc": "A utility-first CSS framework for rapid UI development",
-      "weight": 97340,
+      "weight": 97341,
       "image": "https://avatars.githubusercontent.com/u/67109815?v=4",
       "tags": [
         "css",
@@ -402,7 +402,7 @@
       "link": "https://expressjs.com",
       "name": "Express",
       "desc": "Fast, unopinionated, minimalist web framework for Node.js",
-      "weight": 69397,
+      "weight": 69398,
       "image": "https://avatars.githubusercontent.com/u/5658226?v=4",
       "tags": [
         "express",
@@ -445,7 +445,7 @@
       "link": "https://fastify.dev",
       "name": "Fastify",
       "desc": "Fast and low overhead web framework, for Node.js",
-      "weight": 37027,
+      "weight": 37025,
       "image": "https://avatars.githubusercontent.com/u/24939410?v=4",
       "tags": [
         "fastify",
@@ -465,7 +465,7 @@
       "link": "https://www.djangoproject.com",
       "name": "Django",
       "desc": "The Web framework for perfectionists with deadlines",
-      "weight": 88969,
+      "weight": 88963,
       "image": "https://avatars.githubusercontent.com/u/27804?v=4",
       "tags": [
         "apps",
@@ -487,7 +487,7 @@
       "link": "https://rubyonrails.org",
       "name": "Ruby on Rails",
       "desc": "A web-application framework for Ruby",
-      "weight": 58717,
+      "weight": 58719,
       "image": "https://avatars.githubusercontent.com/u/4223?v=4",
       "tags": [
         "activejob",
@@ -539,7 +539,7 @@
       "link": "https://zustand-demo.pmnd.rs",
       "name": "Zustand",
       "desc": "A small, fast, and scalable bearbones state-management solution",
-      "weight": 58611,
+      "weight": 58610,
       "image": "https://avatars.githubusercontent.com/u/45790596?v=4",
       "tags": [
         "hacktoberfest",
@@ -559,7 +559,7 @@
       "link": "https://pinia.vuejs.org",
       "name": "Pinia",
       "desc": "The intuitive store for Vue.js",
-      "weight": 14709,
+      "weight": 14707,
       "image": "https://avatars.githubusercontent.com/u/6128107?v=4",
       "tags": [
         "composition-api",
@@ -577,7 +577,7 @@
       "link": "https://stately.ai/docs/xstate",
       "name": "XState",
       "desc": "State machines and statecharts for the modern web",
-      "weight": 30060,
+      "weight": 30061,
       "image": "https://avatars.githubusercontent.com/u/61783956?v=4",
       "tags": [
         "actor-model",
@@ -657,7 +657,7 @@
       "link": "https://playwright.dev",
       "name": "Playwright",
       "desc": "Reliable end-to-end testing for modern web apps",
-      "weight": 95150,
+      "weight": 95155,
       "image": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "tags": [
         "automation",
@@ -685,7 +685,7 @@
       "link": "https://vitest.dev",
       "name": "Vitest",
       "desc": "A blazing fast unit test framework powered by Vite",
-      "weight": 17009,
+      "weight": 17010,
       "image": "https://avatars.githubusercontent.com/u/95747107?v=4",
       "tags": [
         "test",
@@ -726,7 +726,7 @@
       "link": "https://www.gatsbyjs.com",
       "name": "Gatsby",
       "desc": "Build blazing fast, modern apps and websites with React",
-      "weight": 55942,
+      "weight": 55941,
       "image": "https://avatars.githubusercontent.com/u/12551863?v=4",
       "tags": [
         "blog",
@@ -766,7 +766,7 @@
       "link": "https://jekyllrb.com",
       "name": "Jekyll",
       "desc": "Transform your plain text into static websites and blogs",
-      "weight": 51649,
+      "weight": 51651,
       "image": "https://avatars.githubusercontent.com/u/3083652?v=4",
       "tags": [
         "blog-engine",
@@ -804,7 +804,7 @@
       "link": "https://docusaurus.io",
       "name": "Docusaurus",
       "desc": "Easy to maintain open source documentation websites",
-      "weight": 66085,
+      "weight": 66088,
       "image": "https://avatars.githubusercontent.com/u/69631?v=4",
       "tags": [
         "documentation",
@@ -823,7 +823,7 @@
       "link": "https://graphql.org",
       "name": "GraphQL.js",
       "desc": "A reference implementation of GraphQL for JavaScript",
-      "weight": 20345,
+      "weight": 20344,
       "image": "https://avatars.githubusercontent.com/u/12972006?v=4",
       "tags": [
         "graphql",
@@ -838,7 +838,7 @@
       "link": "https://www.apollographql.com/docs/react/",
       "name": "Apollo Client",
       "desc": "A fully-featured caching GraphQL client",
-      "weight": 19810,
+      "weight": 19811,
       "image": "https://avatars.githubusercontent.com/u/17189275?v=4",
       "tags": [
         "apollo-client",
@@ -856,7 +856,7 @@
       "link": "https://trpc.io",
       "name": "tRPC",
       "desc": "End-to-end typesafe APIs made easy",
-      "weight": 40545,
+      "weight": 40546,
       "image": "https://avatars.githubusercontent.com/u/78011399?v=4",
       "tags": [
         "api",
@@ -875,7 +875,7 @@
       "link": "https://www.prisma.io",
       "name": "Prisma",
       "desc": "Next-generation Node.js and TypeScript ORM",
-      "weight": 47569,
+      "weight": 47568,
       "image": "https://avatars.githubusercontent.com/u/17219288?v=4",
       "tags": [
         "cockroachdb",
@@ -926,7 +926,7 @@
       "link": "https://mui.com",
       "name": "Material UI",
       "desc": "React components that implement Google's Material Design",
-      "weight": 98926,
+      "weight": 98929,
       "image": "https://avatars.githubusercontent.com/u/33663932?v=4",
       "tags": [
         "design-system",
@@ -944,7 +944,7 @@
       "link": "https://ant.design",
       "name": "Ant Design",
       "desc": "An enterprise-class UI design language and React UI library",
-      "weight": 99194,
+      "weight": 99201,
       "image": "https://avatars.githubusercontent.com/u/12101536?v=4",
       "tags": [
         "ant-design",
@@ -993,7 +993,7 @@
       "link": "https://ui.shadcn.com",
       "name": "shadcn/ui",
       "desc": "Beautifully designed components you can copy and paste into your apps",
-      "weight": 122145,
+      "weight": 122166,
       "image": "https://avatars.githubusercontent.com/u/139895814?v=4",
       "tags": [
         "base-ui",
@@ -1041,7 +1041,7 @@
       "link": "https://fastapi.tiangolo.com/",
       "name": "FastAPI",
       "desc": "Modern, high-performance Python web framework for building APIs",
-      "weight": 101863,
+      "weight": 101862,
       "image": "https://avatars.githubusercontent.com/u/156354296?v=4",
       "tags": [
         "api",
@@ -1074,7 +1074,7 @@
       "link": "https://laravel.com",
       "name": "Laravel",
       "desc": "PHP web application framework with expressive, elegant syntax",
-      "weight": 84867,
+      "weight": 84870,
       "image": "https://avatars.githubusercontent.com/u/958072?v=4",
       "tags": [
         "framework",
@@ -1090,7 +1090,7 @@
       "link": "https://flask.palletsprojects.com",
       "name": "Flask",
       "desc": "Lightweight WSGI web application framework for Python",
-      "weight": 72147,
+      "weight": 72148,
       "image": "https://avatars.githubusercontent.com/u/16748505?v=4",
       "tags": [
         "flask",
@@ -1110,7 +1110,7 @@
       "link": "https://eslint.org",
       "name": "ESLint",
       "desc": "Pluggable linter for finding and fixing problems in JavaScript code",
-      "weight": 27487,
+      "weight": 27488,
       "image": "https://avatars.githubusercontent.com/u/6019716?v=4",
       "tags": [
         "ecmascript",
@@ -1128,7 +1128,7 @@
       "link": "https://storybook.js.org",
       "name": "Storybook",
       "desc": "Workshop for building, documenting, and testing UI components in isolation",
-      "weight": 90938,
+      "weight": 90939,
       "image": "https://avatars.githubusercontent.com/u/22632046?v=4",
       "tags": [
         "angular",
@@ -1161,7 +1161,7 @@
       "name": "react",
       "link": "https://github.com/react/react",
       "desc": "The library for web and native user interfaces.",
-      "weight": 247906,
+      "weight": 247896,
       "image": "https://avatars.githubusercontent.com/u/102812?v=4",
       "tags": [
         "declarative",
@@ -1224,6 +1224,74 @@
         "web",
         "web-framework",
         "websocket"
+      ]
+    },
+    {
+      "id": "prettier/prettier",
+      "path": [
+        "Developer Tooling"
+      ],
+      "name": "prettier",
+      "link": "https://github.com/prettier/prettier",
+      "desc": "Prettier is an opinionated code formatter.",
+      "weight": 52217,
+      "image": "https://avatars.githubusercontent.com/u/25822731?v=4",
+      "tags": [
+        "angular",
+        "ast",
+        "css",
+        "flow",
+        "formatter",
+        "graphql",
+        "html",
+        "javascript",
+        "json",
+        "jsx",
+        "less",
+        "markdown",
+        "prettier",
+        "printer",
+        "scss",
+        "typescript",
+        "vue",
+        "yaml"
+      ]
+    },
+    {
+      "id": "Dogfalo/materialize",
+      "path": [
+        "CSS Frameworks & Styling"
+      ],
+      "name": "materialize",
+      "link": "https://github.com/Dogfalo/materialize",
+      "desc": "Materialize, a CSS Framework based on Material Design",
+      "weight": 38813,
+      "tags": [
+        "css",
+        "css-framework",
+        "design",
+        "framework",
+        "javascript",
+        "material",
+        "material-design"
+      ]
+    },
+    {
+      "id": "vercel/turborepo",
+      "path": [
+        "Build Tools & Bundlers"
+      ],
+      "name": "turborepo",
+      "link": "https://github.com/vercel/turborepo",
+      "desc": "Build system optimized for JavaScript and TypeScript, written in Rust",
+      "weight": 31019,
+      "image": "https://avatars.githubusercontent.com/u/14985020?v=4",
+      "tags": [
+        "build-system",
+        "build-tool",
+        "javascript",
+        "monorepo",
+        "typescript"
       ]
     }
   ]

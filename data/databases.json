@@ -12,7 +12,7 @@
       "link": "https://www.postgresql.org/",
       "name": "PostgreSQL",
       "desc": "Mirror of the PostgreSQL git repositories",
-      "weight": 21893,
+      "weight": 21894,
       "image": "https://avatars.githubusercontent.com/u/177543?v=4",
       "tags": []
     },
@@ -24,7 +24,7 @@
       "link": "https://www.mysql.com/",
       "name": "MySQL",
       "desc": "MySQL server, the world's most popular open source database",
-      "weight": 12406,
+      "weight": 12407,
       "image": "https://avatars.githubusercontent.com/u/2452804?v=4",
       "tags": []
     },
@@ -66,7 +66,7 @@
       "link": "https://mariadb.org/",
       "name": "MariaDB",
       "desc": "A community-developed fork of MySQL",
-      "weight": 8137,
+      "weight": 8140,
       "image": "https://avatars.githubusercontent.com/u/4739304?v=4",
       "tags": [
         "amazon-web-services",
@@ -94,7 +94,7 @@
       "link": "https://www.mongodb.com/",
       "name": "MongoDB",
       "desc": "The MongoDB database server",
-      "weight": 28505,
+      "weight": 28506,
       "image": "https://avatars.githubusercontent.com/u/45120?v=4",
       "tags": [
         "c-plus-plus",
@@ -170,7 +170,7 @@
       "link": "https://redis.io/",
       "name": "Redis",
       "desc": "In-memory data structure store used as a database, cache, and broker",
-      "weight": 76116,
+      "weight": 76117,
       "image": "https://avatars.githubusercontent.com/u/1529926?v=4",
       "tags": [
         "cache",
@@ -203,7 +203,7 @@
       "link": "https://valkey.io/",
       "name": "Valkey",
       "desc": "A flexible, high-performance key-value datastore, forked from Redis",
-      "weight": 26983,
+      "weight": 26984,
       "image": "https://avatars.githubusercontent.com/u/164458127?v=4",
       "tags": [
         "cache",
@@ -224,7 +224,7 @@
       "link": "https://memcached.org/",
       "name": "Memcached",
       "desc": "A distributed memory object caching system",
-      "weight": 14259,
+      "weight": 14258,
       "image": "https://avatars.githubusercontent.com/u/41836?v=4",
       "tags": []
     },
@@ -236,7 +236,7 @@
       "link": "https://etcd.io/",
       "name": "etcd",
       "desc": "Distributed reliable key-value store for the most critical data",
-      "weight": 52173,
+      "weight": 52175,
       "image": "https://avatars.githubusercontent.com/u/41972792?v=4",
       "tags": [
         "cncf",
@@ -259,7 +259,7 @@
       "link": "https://www.elastic.co/elasticsearch",
       "name": "Elasticsearch",
       "desc": "Distributed, RESTful search and analytics engine",
-      "weight": 77864,
+      "weight": 77863,
       "image": "https://avatars.githubusercontent.com/u/6764390?v=4",
       "tags": [
         "elasticsearch",
@@ -275,7 +275,7 @@
       "link": "https://opensearch.org/",
       "name": "OpenSearch",
       "desc": "Open source distributed and RESTful search engine",
-      "weight": 13578,
+      "weight": 13579,
       "image": "https://avatars.githubusercontent.com/u/80134844?v=4",
       "tags": [
         "analytics",
@@ -294,7 +294,7 @@
       "link": "https://www.meilisearch.com/",
       "name": "Meilisearch",
       "desc": "A lightning-fast search engine that fits effortlessly into your apps",
-      "weight": 59093,
+      "weight": 59095,
       "image": "https://raw.githubusercontent.com/meilisearch/meilisearch/main/assets/logo.svg",
       "tags": [
         "ai",
@@ -327,7 +327,7 @@
       "link": "https://typesense.org/",
       "name": "Typesense",
       "desc": "Open source, typo-tolerant search engine for building delightful search",
-      "weight": 26478,
+      "weight": 26481,
       "image": "https://avatars.githubusercontent.com/u/19822348?v=4",
       "tags": [
         "algolia",
@@ -398,7 +398,7 @@
       "link": "https://www.rabbitmq.com/",
       "name": "RabbitMQ",
       "desc": "Open source multi-protocol messaging broker",
-      "weight": 13804,
+      "weight": 13806,
       "image": "https://avatars.githubusercontent.com/u/96669?v=4",
       "tags": [
         "amqp",
@@ -421,7 +421,7 @@
       "link": "https://nats.io/",
       "name": "NATS Server",
       "desc": "High-performance server for NATS.io, the cloud native messaging system",
-      "weight": 20593,
+      "weight": 20597,
       "image": "https://avatars.githubusercontent.com/u/10203055?v=4",
       "tags": [
         "cloud",
@@ -449,7 +449,7 @@
       "link": "https://www.redpanda.com/",
       "name": "Redpanda",
       "desc": "Kafka-compatible streaming platform without ZooKeeper or JVM",
-      "weight": 12481,
+      "weight": 12484,
       "image": "https://avatars.githubusercontent.com/u/49406389?v=4",
       "tags": [
         "containers",
@@ -475,7 +475,7 @@
       "link": "https://pulsar.apache.org/",
       "name": "Apache Pulsar",
       "desc": "Cloud-native, distributed messaging and streaming platform",
-      "weight": 15311,
+      "weight": 15312,
       "image": "https://avatars.githubusercontent.com/u/47359?v=4",
       "tags": [
         "event-streaming",
@@ -494,7 +494,7 @@
       "link": "https://clickhouse.com/",
       "name": "ClickHouse",
       "desc": "Fast open-source column-oriented database management system",
-      "weight": 49451,
+      "weight": 49456,
       "image": "https://avatars.githubusercontent.com/u/54801242?v=4",
       "tags": [
         "ai",
@@ -524,7 +524,7 @@
       "link": "https://duckdb.org/",
       "name": "DuckDB",
       "desc": "In-process analytical SQL database engine",
-      "weight": 40628,
+      "weight": 40633,
       "image": "https://avatars.githubusercontent.com/u/82039556?v=4",
       "tags": [
         "analytics",
@@ -650,7 +650,7 @@
       "link": "https://neo4j.com/",
       "name": "Neo4j",
       "desc": "Graphs for everyone, native graph database",
-      "weight": 17138,
+      "weight": 17140,
       "image": "https://avatars.githubusercontent.com/u/201120?v=4",
       "tags": [
         "cypher",
@@ -670,7 +670,7 @@
       "link": "https://dgraph.io/",
       "name": "Dgraph",
       "desc": "Native GraphQL database with a graph backend",
-      "weight": 21778,
+      "weight": 21779,
       "image": "https://raw.githubusercontent.com/dgraph-io/dgraph/main/logo.png",
       "tags": [
         "database",
@@ -687,7 +687,7 @@
       "link": "https://www.arangodb.com/",
       "name": "ArangoDB",
       "desc": "Multi-model database for graph, document, and key-value data",
-      "weight": 14264,
+      "weight": 14265,
       "image": "https://avatars.githubusercontent.com/u/5547849?v=4",
       "tags": [
         "arangodb",
@@ -737,7 +737,7 @@
       "link": "https://orm.drizzle.team/",
       "name": "Drizzle ORM",
       "desc": "TypeScript ORM with a head-first, SQL-like API",
-      "weight": 35592,
+      "weight": 35593,
       "image": "https://avatars.githubusercontent.com/u/108468352?v=4",
       "tags": [
         "bunjs",
@@ -825,7 +825,7 @@
       "link": "https://dbeaver.io/",
       "name": "DBeaver",
       "desc": "Free universal database tool and SQL client",
-      "weight": 51543,
+      "weight": 51546,
       "image": "https://avatars.githubusercontent.com/u/34743864?v=4",
       "tags": [
         "ai",
@@ -937,7 +937,7 @@
       "link": "https://airflow.apache.org/",
       "name": "Apache Airflow",
       "desc": "Platform to programmatically author, schedule, and monitor workflows",
-      "weight": 46609,
+      "weight": 46610,
       "image": "https://avatars.githubusercontent.com/u/47359?v=4",
       "tags": [
         "airflow",
@@ -970,7 +970,7 @@
       "link": "https://www.getdbt.com/",
       "name": "dbt Core",
       "desc": "Transform data in your warehouse using SQL",
-      "weight": 13690,
+      "weight": 13692,
       "image": "https://avatars.githubusercontent.com/u/18339788?v=4",
       "tags": [
         "analytics",
@@ -1040,7 +1040,7 @@
       "link": "https://www.metabase.com/",
       "name": "Metabase",
       "desc": "The simplest, fastest way to get business intelligence and analytics",
-      "weight": 48934,
+      "weight": 48940,
       "image": "https://avatars.githubusercontent.com/u/10520629?v=4",
       "tags": [
         "analytics",
@@ -1071,7 +1071,7 @@
       "link": "https://superset.apache.org/",
       "name": "Apache Superset",
       "desc": "Modern data exploration and visualization platform",
-      "weight": 74461,
+      "weight": 74466,
       "image": "https://avatars.githubusercontent.com/u/47359?v=4",
       "tags": [
         "analytics",
@@ -1134,7 +1134,7 @@
       "link": "https://neon.tech",
       "name": "Neon",
       "desc": "Serverless Postgres with autoscaling and instant branching",
-      "weight": 22956,
+      "weight": 22958,
       "image": "https://avatars.githubusercontent.com/u/77690634?v=4",
       "tags": [
         "database",
@@ -1216,6 +1216,70 @@
       "tags": [
         "database",
         "storage-engine"
+      ]
+    },
+    {
+      "id": "ravendb/ravendb",
+      "path": [
+        "Document & Wide-Column Databases"
+      ],
+      "name": "ravendb",
+      "link": "https://github.com/ravendb/ravendb",
+      "desc": "ACID Document Database",
+      "weight": 3993,
+      "image": "https://avatars.githubusercontent.com/u/213792?v=4",
+      "tags": [
+        "csharp",
+        "database",
+        "document-database",
+        "dotnet",
+        "full-text-search",
+        "indexing",
+        "iot",
+        "nosql",
+        "ravendb",
+        "search-engine",
+        "sharding",
+        "spatial",
+        "time-series",
+        "vector-search"
+      ]
+    },
+    {
+      "id": "influxdb/influxdb",
+      "path": [
+        "Time-Series Databases"
+      ],
+      "name": "influxdb",
+      "link": "https://github.com/influxdb/influxdb",
+      "desc": "Scalable datastore for metrics, events, and real-time analytics",
+      "weight": 31717,
+      "image": "https://avatars.githubusercontent.com/u/5713248?v=4",
+      "tags": [
+        "database",
+        "go",
+        "influxdb",
+        "metrics",
+        "monitoring",
+        "react",
+        "rust",
+        "time-series"
+      ]
+    },
+    {
+      "id": "elasticsearch/elasticsearch",
+      "path": [
+        "Search Engines"
+      ],
+      "name": "elasticsearch",
+      "link": "https://github.com/elasticsearch/elasticsearch",
+      "desc": "Free and Open Source, Distributed, RESTful Search Engine",
+      "weight": 77863,
+      "image": "https://avatars.githubusercontent.com/u/6764390?v=4",
+      "tags": [
+        "elasticsearch",
+        "java",
+        "search-engine"
       ]
     }
   ]

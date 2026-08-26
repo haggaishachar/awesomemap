@@ -13,7 +13,7 @@
       "link": "https://github.com/ggerganov/llama.cpp",
       "name": "llama.cpp",
       "desc": "Inference of LLaMA and other large language models in pure C/C++",
-      "weight": 125680,
+      "weight": 125701,
       "image": "https://avatars.githubusercontent.com/u/134263123?v=4",
       "tags": [
         "ggml"
@@ -28,7 +28,7 @@
       "link": "https://ollama.com/",
       "name": "Ollama",
       "desc": "Get up and running with large language models locally",
-      "weight": 179444,
+      "weight": 179464,
       "image": "https://raw.githubusercontent.com/ollama/ollama/main/docs/logo.svg",
       "tags": [
         "deepseek",
@@ -57,7 +57,7 @@
       "link": "https://vllm.ai/",
       "name": "vLLM",
       "desc": "A high-throughput and memory-efficient inference and serving engine for LLMs",
-      "weight": 90074,
+      "weight": 90095,
       "image": "https://avatars.githubusercontent.com/u/136984999?v=4",
       "tags": [
         "amd",
@@ -91,7 +91,7 @@
       "link": "https://llm.mlc.ai/",
       "name": "MLC LLM",
       "desc": "Universal LLM deployment engine with ML compilation",
-      "weight": 23090,
+      "weight": 23092,
       "image": "https://avatars.githubusercontent.com/u/106173866?v=4",
       "tags": [
         "language-model",
@@ -109,7 +109,7 @@
       "link": "https://github.com/NVIDIA/TensorRT-LLM",
       "name": "TensorRT-LLM",
       "desc": "NVIDIA's toolbox for optimized large language model inference",
-      "weight": 14476,
+      "weight": 14479,
       "image": "https://avatars.githubusercontent.com/u/1728152?v=4",
       "tags": [
         "blackwell",
@@ -128,7 +128,7 @@
       "link": "https://www.deepspeed.ai/",
       "name": "DeepSpeed",
       "desc": "Deep learning optimization library for distributed training and inference",
-      "weight": 43000,
+      "weight": 42999,
       "image": "https://avatars.githubusercontent.com/u/74068820?v=4",
       "tags": [
         "billion-parameters",
@@ -155,7 +155,7 @@
       "link": "https://www.langchain.com/",
       "name": "LangChain",
       "desc": "Build context-aware, reasoning applications with LLMs",
-      "weight": 145014,
+      "weight": 145029,
       "image": "https://avatars.githubusercontent.com/u/126733545?v=4",
       "tags": [
         "agents",
@@ -189,7 +189,7 @@
       "link": "https://www.llamaindex.ai/",
       "name": "LlamaIndex",
       "desc": "Data framework for connecting LLMs with external data",
-      "weight": 51876,
+      "weight": 51878,
       "image": "https://avatars.githubusercontent.com/u/130722866?v=4",
       "tags": [
         "agents",
@@ -247,7 +247,7 @@
       "link": "https://github.com/microsoft/semantic-kernel",
       "name": "Semantic Kernel",
       "desc": "Integrate cutting-edge LLM technology into applications",
-      "weight": 28501,
+      "weight": 28502,
       "image": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "tags": [
         "ai",
@@ -291,7 +291,7 @@
       "link": "https://crewai.com",
       "name": "crewAI",
       "desc": "Framework for orchestrating role-playing, autonomous AI agents",
-      "weight": 57616,
+      "weight": 57623,
       "image": "https://avatars.githubusercontent.com/u/170677839?v=4",
       "tags": [
         "agents",
@@ -310,7 +310,7 @@
       "link": "https://microsoft.github.io/autogen/",
       "name": "AutoGen",
       "desc": "Framework for building AI agents and multi-agent conversations",
-      "weight": 60632,
+      "weight": 60634,
       "image": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "tags": [
         "agentic",
@@ -334,7 +334,7 @@
       "link": "https://www.langchain.com/langgraph",
       "name": "LangGraph",
       "desc": "Build resilient, stateful language agents as graphs",
-      "weight": 40468,
+      "weight": 40478,
       "image": "https://avatars.githubusercontent.com/u/126733545?v=4",
       "tags": [
         "agents",
@@ -366,7 +366,7 @@
       "link": "https://browser-use.com",
       "name": "Browser Use",
       "desc": "Make websites accessible for AI agents",
-      "weight": 110553,
+      "weight": 110572,
       "image": "https://avatars.githubusercontent.com/u/192012301?v=4",
       "tags": [
         "ai-agents",
@@ -387,7 +387,7 @@
       "link": "https://all-hands.dev",
       "name": "OpenHands",
       "desc": "Platform for software development agents powered by AI",
-      "weight": 85123,
+      "weight": 85136,
       "image": "https://avatars.githubusercontent.com/u/225919603?v=4",
       "tags": [
         "agent",
@@ -410,7 +410,7 @@
       "link": "https://milvus.io/",
       "name": "Milvus",
       "desc": "A cloud-native vector database for scalable similarity search",
-      "weight": 45792,
+      "weight": 45798,
       "image": "https://avatars.githubusercontent.com/u/51735404?v=4",
       "tags": [
         "anns",
@@ -442,7 +442,7 @@
       "link": "https://qdrant.tech/",
       "name": "Qdrant",
       "desc": "High-performance vector search engine and database",
-      "weight": 34196,
+      "weight": 34198,
       "image": "https://raw.githubusercontent.com/qdrant/qdrant/master/docs/logo.svg",
       "tags": [
         "ai-search",
@@ -476,7 +476,7 @@
       "link": "https://www.trychroma.com/",
       "name": "Chroma",
       "desc": "The AI-native open-source embedding database",
-      "weight": 29148,
+      "weight": 29149,
       "image": "https://avatars.githubusercontent.com/u/105881770?v=4",
       "tags": [
         "agents",
@@ -530,7 +530,7 @@
       "link": "https://github.com/pgvector/pgvector",
       "name": "pgvector",
       "desc": "Open-source vector similarity search for Postgres",
-      "weight": 22746,
+      "weight": 22747,
       "image": "https://avatars.githubusercontent.com/u/98363230?v=4",
       "tags": [
         "approximate-nearest-neighbor-search",
@@ -546,7 +546,7 @@
       "link": "https://www.promptfoo.dev/",
       "name": "Promptfoo",
       "desc": "Test and evaluate LLM apps, agents, and prompts",
-      "weight": 24577,
+      "weight": 24583,
       "image": "https://avatars.githubusercontent.com/u/137907881?v=4",
       "tags": [
         "ci",
@@ -591,7 +591,7 @@
       "link": "https://docs.ragas.io/",
       "name": "Ragas",
       "desc": "Evaluation framework for retrieval-augmented generation pipelines",
-      "weight": 15473,
+      "weight": 15478,
       "image": "https://avatars.githubusercontent.com/u/122604797?v=4",
       "tags": [
         "evaluation",
@@ -608,7 +608,7 @@
       "link": "https://langfuse.com/",
       "name": "Langfuse",
       "desc": "Open source LLM engineering platform for tracing and evaluation",
-      "weight": 33719,
+      "weight": 33741,
       "image": "https://avatars.githubusercontent.com/u/134601687?v=4",
       "tags": [
         "analytics",
@@ -641,7 +641,7 @@
       "link": "https://www.litellm.ai/",
       "name": "LiteLLM",
       "desc": "Call all LLM APIs using the OpenAI format, with a unified proxy gateway",
-      "weight": 57286,
+      "weight": 57301,
       "image": "https://avatars.githubusercontent.com/u/121462774?v=4",
       "tags": [
         "ai-gateway",
@@ -671,7 +671,7 @@
       "link": "https://www.helicone.ai/",
       "name": "Helicone",
       "desc": "Open source LLM observability platform for logging, monitoring, and debugging",
-      "weight": 6101,
+      "weight": 6102,
       "image": "https://raw.githubusercontent.com/Helicone/helicone/main/docs/logo.svg",
       "tags": [
         "agent-monitoring",
@@ -704,7 +704,7 @@
       "link": "https://modelcontextprotocol.io/",
       "name": "MCP Servers",
       "desc": "Reference implementations of Model Context Protocol servers",
-      "weight": 89869,
+      "weight": 89874,
       "image": "https://avatars.githubusercontent.com/u/182288589?v=4",
       "tags": []
     },
@@ -717,7 +717,7 @@
       "link": "https://modelcontextprotocol.io/",
       "name": "MCP Python SDK",
       "desc": "Official Python SDK for Model Context Protocol servers and clients",
-      "weight": 24125,
+      "weight": 24127,
       "image": "https://avatars.githubusercontent.com/u/182288589?v=4",
       "tags": [
         "mcp",
@@ -735,7 +735,7 @@
       "link": "https://continue.dev/",
       "name": "Continue",
       "desc": "Open-source AI code assistant for any IDE",
-      "weight": 35638,
+      "weight": 35640,
       "image": "https://avatars.githubusercontent.com/u/127876214?v=4",
       "tags": [
         "agent",
@@ -754,7 +754,7 @@
       "link": "https://aider.chat/",
       "name": "Aider",
       "desc": "AI pair programming in your terminal",
-      "weight": 48494,
+      "weight": 48498,
       "image": "https://avatars.githubusercontent.com/u/172139148?v=4",
       "tags": [
         "anthropic",
@@ -781,7 +781,7 @@
       "link": "https://cline.bot/",
       "name": "Cline",
       "desc": "Autonomous coding agent that lives in your IDE",
-      "weight": 66859,
+      "weight": 66869,
       "image": "https://avatars.githubusercontent.com/u/184127137?v=4",
       "tags": []
     },
@@ -794,7 +794,7 @@
       "link": "https://block.github.io/goose/",
       "name": "Goose",
       "desc": "An open source, extensible AI agent for engineering tasks",
-      "weight": 53484,
+      "weight": 53496,
       "image": "https://avatars.githubusercontent.com/u/271095942?v=4",
       "tags": [
         "acp",
@@ -812,7 +812,7 @@
       "link": "https://openclaw.ai",
       "name": "OpenClaw",
       "desc": "Your own personal AI assistant, for any OS and platform",
-      "weight": 387660,
+      "weight": 387669,
       "image": "https://avatars.githubusercontent.com/u/252820863?v=4",
       "tags": [
         "ai",
@@ -833,7 +833,7 @@
       "link": "https://hermes-agent.nousresearch.com",
       "name": "Hermes Agent",
       "desc": "The agent that grows with you",
-      "weight": 236545,
+      "weight": 236626,
       "image": "https://avatars.githubusercontent.com/u/134168893?v=4",
       "tags": [
         "ai",
@@ -860,7 +860,7 @@
       "link": "https://github.com/obra/superpowers",
       "name": "Superpowers",
       "desc": "An agentic skills framework & software development methodology that works",
-      "weight": 277691,
+      "weight": 277787,
       "tags": [
         "ai",
         "brainstorming",
@@ -881,7 +881,7 @@
       "link": "https://www.llama.com/",
       "name": "Llama",
       "desc": "Inference code and weights for Meta's Llama models",
-      "weight": 59579,
+      "weight": 59578,
       "image": "https://avatars.githubusercontent.com/u/153379578?v=4",
       "tags": []
     },
@@ -934,7 +934,7 @@
       "link": "https://openwebui.com/",
       "name": "Open WebUI",
       "desc": "Extensible, self-hosted AI interface for LLMs",
-      "weight": 149943,
+      "weight": 149957,
       "image": "https://avatars.githubusercontent.com/u/158137808?v=4",
       "tags": [
         "ai",
@@ -963,7 +963,7 @@
       "link": "https://localai.io/",
       "name": "LocalAI",
       "desc": "Self-hosted, OpenAI API-compatible drop-in replacement for local inference",
-      "weight": 48682,
+      "weight": 48685,
       "tags": [
         "agents",
         "ai",
@@ -994,7 +994,7 @@
       "link": "https://github.com/oobabooga/text-generation-webui",
       "name": "Text Generation WebUI",
       "desc": "A Gradio web UI for running local large language models",
-      "weight": 47577,
+      "weight": 47578,
       "tags": []
     },
     {
@@ -1006,7 +1006,7 @@
       "link": "https://www.nomic.ai/gpt4all",
       "name": "GPT4All",
       "desc": "Run open-source LLMs locally on everyday desktops and laptops",
-      "weight": 77397,
+      "weight": 77396,
       "image": "https://avatars.githubusercontent.com/u/102670180?v=4",
       "tags": [
         "ai-chat",
@@ -1022,7 +1022,7 @@
       "link": "https://privategpt.dev/",
       "name": "PrivateGPT",
       "desc": "Ask questions to your documents using LLMs, without an internet connection",
-      "weight": 57466,
+      "weight": 57468,
       "image": "https://avatars.githubusercontent.com/u/143802295?v=4",
       "tags": [
         "ai",
@@ -1070,7 +1070,7 @@
       "link": "https://dify.ai/",
       "name": "Dify",
       "desc": "Open-source platform for developing LLM applications visually",
-      "weight": 153531,
+      "weight": 153568,
       "image": "https://avatars.githubusercontent.com/u/127165244?v=4",
       "tags": [
         "agent",
@@ -1102,7 +1102,7 @@
       "link": "https://ommer-lab.com/research/latent-diffusion-models/",
       "name": "Stable Diffusion",
       "desc": "A latent text-to-image diffusion model",
-      "weight": 73345,
+      "weight": 73344,
       "image": "https://avatars.githubusercontent.com/u/30233788?v=4",
       "tags": []
     },
@@ -1114,7 +1114,7 @@
       "link": "https://www.comfy.org/",
       "name": "ComfyUI",
       "desc": "Node-based interface for building generative image and video pipelines",
-      "weight": 130022,
+      "weight": 130055,
       "image": "https://avatars.githubusercontent.com/u/166579949?v=4",
       "tags": [
         "ai",
@@ -1177,7 +1177,7 @@
       "link": "https://github.com/openai/whisper",
       "name": "Whisper",
       "desc": "Robust speech recognition via large-scale weak supervision",
-      "weight": 107951,
+      "weight": 107954,
       "image": "https://avatars.githubusercontent.com/u/14957082?v=4",
       "tags": []
     },
@@ -1190,7 +1190,7 @@
       "link": "https://www.bentoml.com/",
       "name": "BentoML",
       "desc": "Unified framework for building and serving AI applications",
-      "weight": 8805,
+      "weight": 8806,
       "image": "https://avatars.githubusercontent.com/u/49176046?v=4",
       "tags": [
         "ai-inference",
@@ -1240,7 +1240,7 @@
       "name": "prompts.chat",
       "link": "https://github.com/f/prompts.chat",
       "desc": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-      "weight": 167914,
+      "weight": 167924,
       "tags": [
         "ai",
         "artificial-intelligence",
@@ -1270,7 +1270,7 @@
       "name": "MoneyPrinterTurbo",
       "link": "https://github.com/harry0703/MoneyPrinterTurbo",
       "desc": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-      "weight": 116613,
+      "weight": 116711,
       "tags": [
         "ai-video-generator",
         "content-creation",
@@ -1297,7 +1297,7 @@
       "name": "LLMs-from-scratch",
       "link": "https://github.com/rasbt/LLMs-from-scratch",
       "desc": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
-      "weight": 103802,
+      "weight": 103814,
       "tags": [
         "ai",
         "artificial-intelligence",
@@ -1318,6 +1318,102 @@
         "pytorch",
         "tokenizer",
         "transformers"
+      ]
+    },
+    {
+      "id": "oramasearch/orama",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ],
+      "name": "orama",
+      "link": "https://github.com/oramasearch/orama",
+      "desc": "🌌  A complete search engine and RAG pipeline in your browser, server or edge network with support for full-text, vector, and hybrid search in less than 2kb.",
+      "weight": 10532,
+      "image": "https://avatars.githubusercontent.com/u/123180461?v=4",
+      "tags": [
+        "algiorithm",
+        "data-structures",
+        "full-text",
+        "javascript",
+        "node",
+        "search",
+        "search-algorithm",
+        "search-engine",
+        "typescript",
+        "typo-tolerance",
+        "vector",
+        "vector-database",
+        "vector-database-embedding",
+        "vector-search",
+        "vector-search-engine"
+      ]
+    },
+    {
+      "id": "activeloopai/deeplake",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ],
+      "name": "deeplake",
+      "link": "https://github.com/activeloopai/deeplake",
+      "desc": "Deeplake is AI Data Runtime for Agents. It provides serverless postgres with a multimodal datalake, enabling scalable retrieval and training.",
+      "weight": 9228,
+      "image": "https://avatars.githubusercontent.com/u/34816118?v=4",
+      "tags": [
+        "agent",
+        "agentic-rag",
+        "ai",
+        "clawbot",
+        "computer-vision",
+        "datalake",
+        "deep-learning",
+        "filesystem",
+        "large-language-models",
+        "llm",
+        "memory",
+        "mlops",
+        "multimodal",
+        "openclaw",
+        "postgres",
+        "pytorch",
+        "rag",
+        "skill",
+        "vector-database"
+      ]
+    },
+    {
+      "id": "paradedb/paradedb",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ],
+      "name": "paradedb",
+      "link": "https://github.com/paradedb/paradedb",
+      "desc": "One Postgres for your application data, full-text search, vector retrieval, and aggregations. Home of the pg_search extension.",
+      "weight": 9197,
+      "image": "https://avatars.githubusercontent.com/u/124464601?v=4",
+      "tags": [
+        "aggregations",
+        "analytics",
+        "bm25",
+        "columnar-storage",
+        "distributed-search",
+        "full-text-search",
+        "htap",
+        "hybrid-search",
+        "mpp",
+        "olap",
+        "postgresql",
+        "postgresql-extension",
+        "real-time-analytics",
+        "rust",
+        "search-engine",
+        "semantic-search",
+        "similarity-search",
+        "sparse-vector",
+        "vector-database",
+        "vector-search"
       ]
     }
   ]

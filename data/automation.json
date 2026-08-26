@@ -12,7 +12,7 @@
       "link": "https://n8n.io",
       "name": "n8n",
       "desc": "Fair-code workflow automation platform with native AI capabilities",
-      "weight": 202447,
+      "weight": 202467,
       "image": "https://avatars.githubusercontent.com/u/45487711?v=4",
       "tags": [
         "ai",
@@ -64,7 +64,7 @@
       "link": "https://www.activepieces.com",
       "name": "Activepieces",
       "desc": "Open-source AI-powered workflow automation platform",
-      "weight": 24040,
+      "weight": 24041,
       "image": "https://avatars.githubusercontent.com/u/99494700?v=4",
       "tags": [
         "ai-agent",
@@ -110,7 +110,7 @@
       "link": "https://windmill.dev",
       "name": "Windmill",
       "desc": "Developer platform for turning scripts into workflows, webhooks, and UIs",
-      "weight": 17679,
+      "weight": 17682,
       "image": "https://avatars.githubusercontent.com/u/98025271?v=4",
       "tags": [
         "low-code",
@@ -130,7 +130,7 @@
       "link": "https://github.com/huginn/huginn",
       "name": "Huginn",
       "desc": "Build agents that monitor events and act on your behalf",
-      "weight": 49857,
+      "weight": 49858,
       "image": "https://avatars.githubusercontent.com/u/23225142?v=4",
       "tags": [
         "agent",
@@ -155,7 +155,7 @@
       "link": "https://airflow.apache.org/",
       "name": "Apache Airflow",
       "desc": "Platform to programmatically author, schedule, and monitor workflows",
-      "weight": 46609,
+      "weight": 46610,
       "image": "https://avatars.githubusercontent.com/u/47359?v=4",
       "tags": [
         "airflow",
@@ -188,7 +188,7 @@
       "link": "https://docs.temporal.io",
       "name": "Temporal",
       "desc": "Durable execution platform for orchestrating reliable distributed workflows",
-      "weight": 22532,
+      "weight": 22538,
       "image": "https://avatars.githubusercontent.com/u/56493103?v=4",
       "tags": [
         "cronjob-scheduler",
@@ -217,7 +217,7 @@
       "link": "https://prefect.io",
       "name": "Prefect",
       "desc": "Workflow orchestration framework for building resilient data pipelines",
-      "weight": 23687,
+      "weight": 23688,
       "image": "https://avatars.githubusercontent.com/u/39270919?v=4",
       "tags": [
         "automation",
@@ -244,7 +244,7 @@
       "link": "https://dagster.io",
       "name": "Dagster",
       "desc": "Orchestration platform for the development and observation of data assets",
-      "weight": 16062,
+      "weight": 16063,
       "image": "https://avatars.githubusercontent.com/u/40032576?v=4",
       "tags": [
         "analytics",
@@ -355,7 +355,7 @@
       "link": "http://rundeck.org",
       "name": "Rundeck",
       "desc": "Self-service job scheduling and runbook automation",
-      "weight": 6277,
+      "weight": 6278,
       "image": "https://avatars.githubusercontent.com/u/2205640?v=4",
       "tags": [
         "ansible",
@@ -404,7 +404,7 @@
       "link": "https://app.openiap.io",
       "name": "OpenRPA",
       "desc": "Open-source robotic process automation platform",
-      "weight": 3052,
+      "weight": 3053,
       "image": "https://avatars.githubusercontent.com/u/49598537?v=4",
       "tags": [
         "automation",
@@ -466,7 +466,7 @@
       "link": "https://selenium.dev",
       "name": "Selenium",
       "desc": "Browser automation framework and ecosystem",
-      "weight": 34392,
+      "weight": 34395,
       "image": "https://avatars.githubusercontent.com/u/983927?v=4",
       "tags": [
         "dotnet",
@@ -508,7 +508,7 @@
       "link": "https://scrapy.org",
       "name": "Scrapy",
       "desc": "Fast, high-level web crawling and scraping framework for Python",
-      "weight": 64036,
+      "weight": 64041,
       "image": "https://avatars.githubusercontent.com/u/733635?v=4",
       "tags": [
         "crawler",
@@ -529,7 +529,7 @@
       "link": "https://crawlee.dev",
       "name": "Crawlee",
       "desc": "Web scraping and browser automation library for Node.js",
-      "weight": 25506,
+      "weight": 25511,
       "image": "https://avatars.githubusercontent.com/u/24586296?v=4",
       "tags": [
         "apify",
@@ -559,7 +559,7 @@
       "link": "https://crawl4ai.com",
       "name": "Crawl4AI",
       "desc": "Open-source LLM-friendly web crawler and scraper",
-      "weight": 79437,
+      "weight": 79450,
       "tags": []
     },
     {
@@ -625,7 +625,7 @@
       "link": "https://github.com/microsoft/markitdown",
       "name": "MarkItDown",
       "desc": "Tool for converting files and office documents to Markdown",
-      "weight": 176318,
+      "weight": 176358,
       "image": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "tags": [
         "autogen",
@@ -645,7 +645,7 @@
       "link": "https://www.appsmith.com",
       "name": "Appsmith",
       "desc": "Platform for building admin panels, internal tools, and dashboards",
-      "weight": 40748,
+      "weight": 40749,
       "image": "https://avatars.githubusercontent.com/u/67620218?v=4",
       "tags": [
         "admin-dashboard",
@@ -678,7 +678,7 @@
       "link": "https://tooljet.com",
       "name": "ToolJet",
       "desc": "Low-code platform for building internal tools and business applications",
-      "weight": 40766,
+      "weight": 40765,
       "image": "https://avatars.githubusercontent.com/u/82193554?v=4",
       "tags": [
         "ai-app-builder",
@@ -710,7 +710,7 @@
       "link": "https://budibase.com",
       "name": "Budibase",
       "desc": "Low-code platform for building internal apps and automations",
-      "weight": 28242,
+      "weight": 28243,
       "image": "https://avatars.githubusercontent.com/u/45009727?v=4",
       "tags": [
         "ai-app-builder",
@@ -742,7 +742,7 @@
       "link": "https://nocodb.com",
       "name": "NocoDB",
       "desc": "Open-source, self-hostable Airtable alternative",
-      "weight": 64733,
+      "weight": 64738,
       "image": "https://avatars.githubusercontent.com/u/50206778?v=4",
       "tags": [
         "airtable",
@@ -769,7 +769,7 @@
       "link": "https://baserow.io",
       "name": "Baserow",
       "desc": "Open-source no-code database and app builder",
-      "weight": 5706,
+      "weight": 5711,
       "image": "https://avatars.githubusercontent.com/u/68540644?v=4",
       "tags": [
         "airtable",
@@ -827,7 +827,7 @@
       "link": "https://www.nocobase.com",
       "name": "NocoBase",
       "desc": "Open-source no-code platform for building business systems",
-      "weight": 23856,
+      "weight": 23863,
       "image": "https://avatars.githubusercontent.com/u/66196787?v=4",
       "tags": [
         "admin-dashboard",
@@ -859,7 +859,7 @@
       "link": "https://strapi.io",
       "name": "Strapi",
       "desc": "Leading open-source headless CMS",
-      "weight": 73018,
+      "weight": 73015,
       "image": "https://avatars.githubusercontent.com/u/19872173?v=4",
       "tags": [
         "api",
@@ -891,7 +891,7 @@
       "link": "https://directus.com",
       "name": "Directus",
       "desc": "Flexible headless CMS that turns any database into an API",
-      "weight": 37469,
+      "weight": 37530,
       "image": "https://avatars.githubusercontent.com/u/15967950?v=4",
       "tags": [
         "api",
@@ -924,7 +924,7 @@
       "link": "https://www.odoo.com",
       "name": "Odoo",
       "desc": "Suite of open-source business applications for running a company",
-      "weight": 53954,
+      "weight": 53957,
       "image": "https://avatars.githubusercontent.com/u/6368483?v=4",
       "tags": [
         "apps",
@@ -973,7 +973,7 @@
       "link": "https://camunda.com/platform/",
       "name": "Camunda",
       "desc": "Process orchestration and workflow automation framework",
-      "weight": 4254,
+      "weight": 4255,
       "image": "https://avatars.githubusercontent.com/u/2443838?v=4",
       "tags": [
         "bpmn",
@@ -993,7 +993,7 @@
       "link": "https://twenty.com",
       "name": "Twenty",
       "desc": "Open-source CRM alternative to Salesforce",
-      "weight": 55550,
+      "weight": 55553,
       "image": "https://avatars.githubusercontent.com/u/119600397?v=4",
       "tags": [
         "crm",
@@ -1023,7 +1023,7 @@
       "link": "https://documenso.com",
       "name": "Documenso",
       "desc": "Open-source alternative to DocuSign for document signing",
-      "weight": 14759,
+      "weight": 14760,
       "image": "https://avatars.githubusercontent.com/u/127681099?v=4",
       "tags": [
         "digital-signature",
@@ -1054,7 +1054,7 @@
       "link": "https://formbricks.com",
       "name": "Formbricks",
       "desc": "Open-source survey and experience management platform",
-      "weight": 12825,
+      "weight": 12827,
       "image": "https://avatars.githubusercontent.com/u/105877416?v=4",
       "tags": [
         "experience-management",
@@ -1084,7 +1084,7 @@
       "link": "https://invoiceninja.com",
       "name": "Invoice Ninja",
       "desc": "Invoicing, quoting, and time-tracking application",
-      "weight": 10025,
+      "weight": 10027,
       "image": "https://avatars.githubusercontent.com/u/15712270?v=4",
       "tags": [
         "einvoicing",
@@ -1113,7 +1113,7 @@
       "link": "https://airbyte.com",
       "name": "Airbyte",
       "desc": "Open-source data movement platform for ELT pipelines",
-      "weight": 21954,
+      "weight": 21956,
       "image": "https://avatars.githubusercontent.com/u/59758427?v=4",
       "tags": [
         "bigquery",
@@ -1146,7 +1146,7 @@
       "link": "https://dlthub.com/docs",
       "name": "dlt",
       "desc": "Python library for loading data into warehouses and lakes",
-      "weight": 5779,
+      "weight": 5778,
       "image": "https://avatars.githubusercontent.com/u/89419010?v=4",
       "tags": [
         "data",
@@ -1169,7 +1169,7 @@
       "link": "https://go.novu.co/github",
       "name": "Novu",
       "desc": "Open-source notification infrastructure for multi-channel messaging",
-      "weight": 39668,
+      "weight": 39671,
       "image": "https://avatars.githubusercontent.com/u/77433905?v=4",
       "tags": [
         "agents",
@@ -1197,7 +1197,7 @@
       "link": "https://ntfy.sh",
       "name": "ntfy",
       "desc": "Simple pub-sub push notification service",
-      "weight": 33759,
+      "weight": 33764,
       "tags": [
         "curl",
         "notifications",
@@ -1241,7 +1241,7 @@
       "link": "https://listmonk.app",
       "name": "listmonk",
       "desc": "Self-hosted newsletter and mailing list manager",
-      "weight": 23131,
+      "weight": 23136,
       "tags": [
         "campaign",
         "campaign-management",
@@ -1266,7 +1266,7 @@
       "name": "conductor",
       "link": "https://github.com/conductor-oss/conductor",
       "desc": "Conductor is an event driven agentic workflow engine providing durable and highly resilient execution engine for applications and AI Agents",
-      "weight": 32129,
+      "weight": 32131,
       "image": "https://avatars.githubusercontent.com/u/153258413?v=4",
       "tags": [
         "distributed-systems",
@@ -1318,7 +1318,7 @@
       "name": "teable",
       "link": "https://github.com/teableio/teable",
       "desc": "✨ AI Spreadsheet for Business",
-      "weight": 21715,
+      "weight": 21717,
       "image": "https://avatars.githubusercontent.com/u/113977713?v=4",
       "tags": [
         "ai-agent",
@@ -1333,6 +1333,88 @@
         "postgresql",
         "sandbox",
         "spreadsheet"
+      ]
+    },
+    {
+      "id": "browser-use/workflow-use",
+      "path": [
+        "RPA & Browser Automation"
+      ],
+      "name": "workflow-use",
+      "link": "https://github.com/browser-use/workflow-use",
+      "desc": "⚙️ Create and run workflows (RPA 2.0)",
+      "weight": 4149,
+      "image": "https://avatars.githubusercontent.com/u/192012301?v=4",
+      "tags": [
+        "browser-automation",
+        "browser-use-box",
+        "rpa",
+        "telegram-automation"
+      ]
+    },
+    {
+      "id": "OpenAdaptAI/OpenAdapt",
+      "path": [
+        "RPA & Browser Automation"
+      ],
+      "name": "OpenAdapt",
+      "link": "https://github.com/OpenAdaptAI/OpenAdapt",
+      "desc": "Compile a demonstrated GUI workflow into a deterministic, locally executable program. Zero model calls on healthy runs; governed repair; halts instead of guessing. Launcher for openadapt-flow: pip install openadapt",
+      "weight": 1702,
+      "image": "https://avatars.githubusercontent.com/u/132681217?v=4",
+      "tags": [
+        "agents",
+        "ai-agents",
+        "browser-automation",
+        "citrix",
+        "computer-use",
+        "computer-use-agents",
+        "demonstration-compiler",
+        "desktop-automation",
+        "deterministic-replay",
+        "effect-verification",
+        "gui-automation",
+        "healthcare-automation",
+        "local-first",
+        "process-automation",
+        "python",
+        "rdp",
+        "rpa",
+        "ui-automation",
+        "workflow-automation"
+      ]
+    },
+    {
+      "id": "refinedev/refine",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ],
+      "name": "refine",
+      "link": "https://github.com/refinedev/refine",
+      "desc": "A React Framework for building  internal tools, admin panels, dashboards & B2B apps with unmatched flexibility.",
+      "weight": 35577,
+      "image": "https://raw.githubusercontent.com/refinedev/refine/main/logo.png",
+      "tags": [
+        "admin",
+        "admin-ui",
+        "ant-design",
+        "crud",
+        "developer-tools",
+        "frontend-framework",
+        "good-first-issue",
+        "graphql",
+        "hacktoberfest",
+        "headless",
+        "internal-tools",
+        "javascript",
+        "low-code",
+        "nestjs",
+        "nextjs",
+        "open-source-project",
+        "react",
+        "react-framework",
+        "react-hooks",
+        "typescript"
       ]
     }
   ]

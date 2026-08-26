@@ -12,7 +12,7 @@
       "link": "https://reactnative.dev/",
       "name": "React Native",
       "desc": "A framework for building native apps using React",
-      "weight": 126411,
+      "weight": 126410,
       "image": "https://avatars.githubusercontent.com/u/102812?v=4",
       "tags": [
         "android",
@@ -33,7 +33,7 @@
       "link": "https://flutter.dev/",
       "name": "Flutter",
       "desc": "Google's UI toolkit for building natively compiled apps from a single codebase",
-      "weight": 178661,
+      "weight": 178660,
       "image": "https://avatars.githubusercontent.com/u/14101776?v=4",
       "tags": [
         "android",
@@ -65,7 +65,7 @@
       "link": "https://ionicframework.com/",
       "name": "Ionic Framework",
       "desc": "Cross-platform UI toolkit for building native-quality iOS, Android, and PWA apps with web technologies",
-      "weight": 52631,
+      "weight": 52630,
       "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
       "tags": [
         "angular",
@@ -96,7 +96,7 @@
       "link": "https://capacitorjs.com/",
       "name": "Capacitor",
       "desc": "Cross-platform native runtime for building web-native mobile apps",
-      "weight": 16388,
+      "weight": 16387,
       "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
       "tags": [
         "android",
@@ -154,7 +154,7 @@
       "link": "https://tauri.app/",
       "name": "Tauri",
       "desc": "Build smaller, faster, and more secure desktop and mobile apps with a web frontend",
-      "weight": 110569,
+      "weight": 110573,
       "image": "https://avatars.githubusercontent.com/u/54536011?v=4",
       "tags": [
         "desktop-app",
@@ -174,7 +174,7 @@
       "link": "https://github.com/lysine-dev/retrofit",
       "name": "Retrofit",
       "desc": "A type-safe HTTP client for Android and Java",
-      "weight": 43936,
+      "weight": 43935,
       "image": "https://avatars.githubusercontent.com/u/265085928?v=4",
       "tags": [
         "android",
@@ -276,7 +276,7 @@
       "link": "https://github.com/Alamofire/Alamofire",
       "name": "Alamofire",
       "desc": "Elegant HTTP networking in Swift",
-      "weight": 42419,
+      "weight": 42420,
       "image": "https://avatars.githubusercontent.com/u/7774181?v=4",
       "tags": [
         "alamofire",
@@ -304,7 +304,7 @@
       "link": "https://github.com/onevcat/Kingfisher",
       "name": "Kingfisher",
       "desc": "A lightweight, pure-Swift library for downloading and caching images from the web",
-      "weight": 24394,
+      "weight": 24395,
       "tags": [
         "cache",
         "filters",
@@ -426,7 +426,7 @@
       "link": "https://appwrite.io/",
       "name": "Appwrite",
       "desc": "Open source backend server for web, mobile, and Flutter apps covering auth, databases, storage, and functions",
-      "weight": 57119,
+      "weight": 57122,
       "image": "https://avatars.githubusercontent.com/u/25003669?v=4",
       "tags": [
         "android",
@@ -490,7 +490,7 @@
       "link": "https://pocketbase.io/",
       "name": "PocketBase",
       "desc": "Open source realtime backend in a single file, with auth, database, and storage",
-      "weight": 60807,
+      "weight": 60813,
       "image": "https://avatars.githubusercontent.com/u/101000011?v=4",
       "tags": [
         "authentication",
@@ -531,7 +531,7 @@
       "link": "https://appium.io/",
       "name": "Appium",
       "desc": "Cross-platform automation framework for native, mobile web, and hybrid apps, built on WebDriver",
-      "weight": 21893,
+      "weight": 21897,
       "image": "https://avatars.githubusercontent.com/u/3221291?v=4",
       "tags": [
         "android",
@@ -714,7 +714,7 @@
       "link": "https://github.com/pmndrs/zustand",
       "name": "Zustand",
       "desc": "A small, fast, and scalable state management library for React and React Native",
-      "weight": 58611,
+      "weight": 58610,
       "image": "https://avatars.githubusercontent.com/u/45790596?v=4",
       "tags": [
         "hacktoberfest",
@@ -830,7 +830,7 @@
       "link": "https://fastlane.tools/",
       "name": "fastlane",
       "desc": "The easiest way to automate building and releasing iOS and Android apps",
-      "weight": 42029,
+      "weight": 42030,
       "image": "https://avatars.githubusercontent.com/u/11098337?v=4",
       "tags": [
         "android",
@@ -910,7 +910,7 @@
       "link": "https://sentry.io/",
       "name": "Sentry",
       "desc": "Developer-first error tracking and performance monitoring for mobile and other platforms",
-      "weight": 44620,
+      "weight": 44621,
       "image": "https://avatars.githubusercontent.com/u/1396951?v=4",
       "tags": [
         "apm",
@@ -938,7 +938,7 @@
       "link": "https://posthog.com/",
       "name": "PostHog",
       "desc": "Open source product analytics, session replay, and error tracking platform",
-      "weight": 39192,
+      "weight": 39198,
       "image": "https://avatars.githubusercontent.com/u/60330232?v=4",
       "tags": [
         "ab-testing",
@@ -1056,7 +1056,7 @@
       "name": "uni-app",
       "link": "https://github.com/dcloudio/uni-app",
       "desc": "A cross-platform framework using Vue.js",
-      "weight": 41602,
+      "weight": 41603,
       "image": "https://avatars.githubusercontent.com/u/5485517?v=4",
       "tags": [
         "android",
@@ -1081,7 +1081,7 @@
       "name": "taro",
       "link": "https://github.com/NervJS/taro",
       "desc": "开放式跨端跨框架解决方案，支持使用 React/Vue 等框架来开发微信/京东/百度/支付宝/字节跳动/ QQ 小程序/H5/React Native 等应用。",
-      "weight": 37653,
+      "weight": 37652,
       "image": "https://avatars.githubusercontent.com/u/30794937?v=4",
       "tags": [
         "javascript",
@@ -1099,6 +1099,67 @@
         "wechat-mini-program",
         "weixin",
         "wxapp"
+      ]
+    },
+    {
+      "id": "react-native-maps/react-native-maps",
+      "path": [
+        "UI Component Libraries"
+      ],
+      "name": "react-native-maps",
+      "link": "https://github.com/react-native-maps/react-native-maps",
+      "desc": "React Native Mapview component for iOS + Android",
+      "weight": 15993,
+      "image": "https://avatars.githubusercontent.com/u/71155358?v=4",
+      "tags": [
+        "google-maps",
+        "maps",
+        "react-native"
+      ]
+    },
+    {
+      "id": "flet-dev/flet",
+      "path": [
+        "Cross-Platform Frameworks"
+      ],
+      "name": "flet",
+      "link": "https://github.com/flet-dev/flet",
+      "desc": "Build realtime web, mobile and desktop apps in Python only. No frontend experience required.",
+      "weight": 16615,
+      "image": "https://avatars.githubusercontent.com/u/102273996?v=4",
+      "tags": [
+        "android",
+        "cross-platform",
+        "desktop",
+        "flutter",
+        "ios",
+        "python",
+        "server-driven-ui",
+        "web"
+      ]
+    },
+    {
+      "id": "jonataslaw/getx",
+      "path": [
+        "State Management"
+      ],
+      "name": "getx",
+      "link": "https://github.com/jonataslaw/getx",
+      "desc": "Open screens/snackbars/dialogs/bottomSheets without context, manage states and inject dependencies easily with Get.",
+      "weight": 11197,
+      "tags": [
+        "dart",
+        "dependency-injection",
+        "flutter",
+        "framework",
+        "get",
+        "getx",
+        "http",
+        "internationalization",
+        "mobile",
+        "routes",
+        "state-management",
+        "web"
       ]
     }
   ]

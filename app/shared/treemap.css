@@ -711,6 +711,17 @@ a.momentum-row-name:hover {
   color: var(--color-text);
 }
 
+.site-header-tags {
+  color: var(--color-text-muted);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.site-header-tags:hover {
+  color: var(--color-text);
+}
+
 .rising-hero {
   text-align: center;
   padding: 48px 24px 24px;

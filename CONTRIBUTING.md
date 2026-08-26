@@ -102,7 +102,10 @@ Add `data/<slug>.json`:
   enriched (see below), so give it `weight` yourself. `path` is the
   breadcrumb of category names from root to the project (a single-level
   category is a one-element array; deeper nesting is a longer array).
-- `name`, `desc`, `link`, and `weight` may be omitted.
+- `name`, `desc`, `link`, `weight`, and `tags` may be omitted. `tags` is an
+  array of strings (typically the repo's GitHub topics) shown alongside the
+  project; the automated discovery job (see below) fills it in from the
+  candidate's GitHub topics automatically.
 - Logos aren't stored in this repo. Set `image` on the project to a direct
   URL into its source (e.g. a `raw.githubusercontent.com` link) and it's
   hotlinked as-is; `node scripts/enrich-domain.mjs data/<slug>.json` fills
@@ -156,7 +159,9 @@ own, using the search topics and awesome-lists configured per domain in
 quality bar (500+ stars, not a fork/archived, has a license, pushed
 within the last 12 months) before an LLM (OpenRouter, currently
 `google/gemini-3.7-flash`) classifies it into that domain's existing
-category tree.
+category tree. The candidate's GitHub topics are fetched alongside its
+other metadata, both to help the classifier and to populate the
+auto-committed entry's `tags` field.
 
 - A candidate the classifier is confident about (an existing category
   fit, ≥80% confidence) is auto-committed directly, up to 3 per domain

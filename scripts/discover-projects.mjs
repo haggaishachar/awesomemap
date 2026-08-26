@@ -100,7 +100,7 @@ async function main() {
         try {
           const [, repoName] = candidate.id.split("/");
           const enriched = await enrichProject(
-            { id: candidate.id, path: candidate.path, name: repoName, link: `https://github.com/${candidate.id}`, desc: meta.description },
+            { id: candidate.id, path: candidate.path, name: repoName, link: `https://github.com/${candidate.id}`, desc: meta.description, tags: meta.topics },
             { getJson },
           );
           if (typeof enriched.weight !== "number" || !Number.isInteger(enriched.weight) || enriched.weight <= 0) {

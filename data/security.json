@@ -12,8 +12,27 @@
       "link": "https://nmap.org/",
       "name": "Nmap",
       "desc": "The Network Mapper - free network discovery and security auditing utility",
-      "weight": 13394,
-      "image": "https://avatars.githubusercontent.com/u/63385?v=4"
+      "weight": 13461,
+      "image": "https://avatars.githubusercontent.com/u/63385?v=4",
+      "tags": [
+        "asynchronous",
+        "c-plus-plus",
+        "libpcap",
+        "linux",
+        "lua",
+        "machine-learning",
+        "netcat",
+        "network-discovery",
+        "nmap",
+        "osx",
+        "pcre",
+        "ping",
+        "port-scanner",
+        "security",
+        "service-discovery",
+        "socket",
+        "windows"
+      ]
     },
     {
       "id": "robertdavidgraham/masscan",
@@ -23,7 +42,8 @@
       "link": "https://github.com/robertdavidgraham/masscan",
       "name": "Masscan",
       "desc": "TCP port scanner that spews SYN packets asynchronously, scanning the entire Internet in under 5 minutes",
-      "weight": 25938
+      "weight": 25954,
+      "tags": []
     },
     {
       "id": "zmap/zmap",
@@ -33,8 +53,14 @@
       "link": "https://zmap.io/",
       "name": "ZMap",
       "desc": "A fast single-packet network scanner designed for Internet-wide network surveys",
-      "weight": 6359,
-      "image": "https://avatars.githubusercontent.com/u/3345672?v=4"
+      "weight": 6366,
+      "image": "https://avatars.githubusercontent.com/u/3345672?v=4",
+      "tags": [
+        "internet-measurement",
+        "internet-scanning",
+        "port-scanner",
+        "research"
+      ]
     },
     {
       "id": "owasp-amass/amass",
@@ -44,8 +70,23 @@
       "link": "https://owasp.org/www-project-amass/",
       "name": "Amass",
       "desc": "In-depth attack surface mapping and asset discovery",
-      "weight": 14997,
-      "image": "https://avatars.githubusercontent.com/u/128647419?v=4"
+      "weight": 15046,
+      "image": "https://avatars.githubusercontent.com/u/128647419?v=4",
+      "tags": [
+        "attack-surfaces",
+        "dns",
+        "enumeration",
+        "go",
+        "golang",
+        "information-gathering",
+        "maltego",
+        "network-security",
+        "osint",
+        "osint-reconnaissance",
+        "owasp",
+        "recon",
+        "subdomain"
+      ]
     },
     {
       "id": "lanmaster53/recon-ng",
@@ -55,7 +96,8 @@
       "link": "https://github.com/lanmaster53/recon-ng",
       "name": "Recon-ng",
       "desc": "Open source intelligence gathering tool aimed at reducing the time spent harvesting information from open sources",
-      "weight": 5860
+      "weight": 5871,
+      "tags": []
     },
     {
       "id": "laramies/theHarvester",
@@ -65,7 +107,19 @@
       "link": "https://github.com/laramies/theHarvester",
       "name": "theHarvester",
       "desc": "E-mails, subdomains and names harvester - OSINT reconnaissance tool",
-      "weight": 17131
+      "weight": 17198,
+      "tags": [
+        "blueteam",
+        "discovery",
+        "emails",
+        "information-gathering",
+        "osint",
+        "python",
+        "recon",
+        "reconnaissance",
+        "redteam",
+        "subdomain-enumeration"
+      ]
     },
     {
       "id": "greenbone/openvas-scanner",
@@ -75,8 +129,25 @@
       "link": "https://www.greenbone.net/en/community-edition/",
       "name": "OpenVAS Scanner",
       "desc": "The scanner component of Greenbone Community Edition, a full-featured vulnerability scanning engine",
-      "weight": 4786,
-      "image": "https://avatars.githubusercontent.com/u/31986857?v=4"
+      "weight": 4794,
+      "image": "https://avatars.githubusercontent.com/u/31986857?v=4",
+      "tags": [
+        "c",
+        "foo",
+        "greenbone",
+        "greenbone-community-edition",
+        "greenbone-vulnerability-management",
+        "gvm",
+        "openvas",
+        "openvas-scanner",
+        "scanner",
+        "techops",
+        "vulnerability",
+        "vulnerability-assessment",
+        "vulnerability-detection",
+        "vulnerability-management",
+        "vulnerability-scanners"
+      ]
     },
     {
       "id": "sullo/nikto",
@@ -86,7 +157,8 @@
       "link": "https://cirt.net/Nikto2",
       "name": "Nikto",
       "desc": "Web server scanner that tests for dangerous files, outdated software, and other vulnerabilities",
-      "weight": 10674
+      "weight": 10681,
+      "tags": []
     },
     {
       "id": "projectdiscovery/nuclei",
@@ -96,8 +168,21 @@
       "link": "https://nuclei.projectdiscovery.io/",
       "name": "Nuclei",
       "desc": "Fast, template-based vulnerability scanner for applications, APIs, networks, DNS, and cloud configurations",
-      "weight": 30614,
-      "image": "https://avatars.githubusercontent.com/u/50994705?v=4"
+      "weight": 30837,
+      "image": "https://avatars.githubusercontent.com/u/50994705?v=4",
+      "tags": [
+        "attack-surface",
+        "cve-scanner",
+        "dast",
+        "hacktoberfest",
+        "nuclei-engine",
+        "security",
+        "security-scanner",
+        "subdomain-takeover",
+        "vulnerability-assessment",
+        "vulnerability-detection",
+        "vulnerability-scanner"
+      ]
     },
     {
       "id": "wapiti-scanner/wapiti",
@@ -107,8 +192,9 @@
       "link": "https://wapiti-scanner.github.io/",
       "name": "Wapiti",
       "desc": "Web application vulnerability scanner written in Python",
-      "weight": 1841,
-      "image": "https://avatars.githubusercontent.com/u/66414381?v=4"
+      "weight": 1845,
+      "image": "https://avatars.githubusercontent.com/u/66414381?v=4",
+      "tags": []
     },
     {
       "id": "zaproxy/zaproxy",
@@ -118,8 +204,19 @@
       "link": "https://www.zaproxy.org/",
       "name": "OWASP ZAP",
       "desc": "The world's most widely used web application scanner and intercepting proxy",
-      "weight": 15644,
-      "image": "https://avatars.githubusercontent.com/u/6716868?v=4"
+      "weight": 15684,
+      "image": "https://avatars.githubusercontent.com/u/6716868?v=4",
+      "tags": [
+        "appsec",
+        "dast",
+        "hacktoberfest",
+        "opensource",
+        "security",
+        "security-scanner",
+        "zap",
+        "zap-development",
+        "zaproxy"
+      ]
     },
     {
       "id": "sqlmapproject/sqlmap",
@@ -129,8 +226,25 @@
       "link": "https://sqlmap.org/",
       "name": "sqlmap",
       "desc": "Automatic SQL injection and database takeover tool",
-      "weight": 38227,
-      "image": "https://avatars.githubusercontent.com/u/735289?v=4"
+      "weight": 38266,
+      "image": "https://avatars.githubusercontent.com/u/735289?v=4",
+      "tags": [
+        "api-security",
+        "appsec",
+        "database",
+        "database-security",
+        "dbms",
+        "detection",
+        "exploitation",
+        "pentesting",
+        "python",
+        "security-testing",
+        "security-testing-tool",
+        "sql-injection",
+        "sqlinjection",
+        "webapp-security",
+        "webappsec"
+      ]
     },
     {
       "id": "hahwul/dalfox",
@@ -140,7 +254,17 @@
       "link": "https://dalfox.hahwul.com/",
       "name": "Dalfox",
       "desc": "Powerful open source XSS scanner and parameter analysis tool focused on automation",
-      "weight": 5240
+      "weight": 5255,
+      "tags": [
+        "bugbounty",
+        "bugbounty-tool",
+        "devsecops",
+        "hacktoberfest",
+        "rust",
+        "security",
+        "xss",
+        "xss-scanner"
+      ]
     },
     {
       "id": "xmendez/wfuzz",
@@ -150,7 +274,8 @@
       "link": "https://github.com/xmendez/wfuzz",
       "name": "Wfuzz",
       "desc": "Web application fuzzer for brute-forcing parameters, forms, and directories",
-      "weight": 6555
+      "weight": 6557,
+      "tags": []
     },
     {
       "id": "ffuf/ffuf",
@@ -160,8 +285,14 @@
       "link": "https://github.com/ffuf/ffuf",
       "name": "ffuf",
       "desc": "Fast web fuzzer written in Go",
-      "weight": 16549,
-      "image": "https://avatars.githubusercontent.com/u/42502069?v=4"
+      "weight": 16588,
+      "image": "https://avatars.githubusercontent.com/u/42502069?v=4",
+      "tags": [
+        "fuzzer",
+        "infosec",
+        "pentesting",
+        "web"
+      ]
     },
     {
       "id": "rapid7/metasploit-framework",
@@ -171,8 +302,11 @@
       "link": "https://www.metasploit.com/",
       "name": "Metasploit Framework",
       "desc": "Penetration testing and exploit development framework",
-      "weight": 38832,
-      "image": "https://avatars.githubusercontent.com/u/1013671?v=4"
+      "weight": 38880,
+      "image": "https://avatars.githubusercontent.com/u/1013671?v=4",
+      "tags": [
+        "hacktoberfest"
+      ]
     },
     {
       "id": "beefproject/beef",
@@ -182,8 +316,9 @@
       "link": "https://beefproject.com/",
       "name": "BeEF",
       "desc": "The Browser Exploitation Framework, focused on assessing web browser security",
-      "weight": 10977,
-      "image": "https://avatars.githubusercontent.com/u/1214850?v=4"
+      "weight": 10982,
+      "image": "https://avatars.githubusercontent.com/u/1214850?v=4",
+      "tags": []
     },
     {
       "id": "BC-SECURITY/Empire",
@@ -193,8 +328,14 @@
       "link": "https://github.com/BC-SECURITY/Empire",
       "name": "Empire",
       "desc": "Post-exploitation and adversary emulation framework used by red teams and penetration testers",
-      "weight": 5257,
-      "image": "https://avatars.githubusercontent.com/u/53022351?v=4"
+      "weight": 5265,
+      "image": "https://avatars.githubusercontent.com/u/53022351?v=4",
+      "tags": [
+        "c2",
+        "empire",
+        "hacktoberfest",
+        "redteam-infrastructure"
+      ]
     },
     {
       "id": "BishopFox/sliver",
@@ -204,8 +345,25 @@
       "link": "https://sliver.sh/",
       "name": "Sliver",
       "desc": "Open source adversary emulation and cross-platform command & control framework",
-      "weight": 11702,
-      "image": "https://avatars.githubusercontent.com/u/4523757?v=4"
+      "weight": 11728,
+      "image": "https://avatars.githubusercontent.com/u/4523757?v=4",
+      "tags": [
+        "adversarial-attacks",
+        "adversary-simulation",
+        "c2",
+        "command-and-control",
+        "dns",
+        "dns-server",
+        "golang",
+        "gplv3",
+        "http",
+        "implant",
+        "red-team",
+        "red-team-engagement",
+        "red-teaming",
+        "security-tools",
+        "sliver"
+      ]
     },
     {
       "id": "wazuh/wazuh",
@@ -215,8 +373,30 @@
       "link": "https://wazuh.com/",
       "name": "Wazuh",
       "desc": "Open source security platform providing unified XDR and SIEM protection for endpoints and cloud workloads",
-      "weight": 16611,
-      "image": "https://avatars.githubusercontent.com/u/13752566?v=4"
+      "weight": 16684,
+      "image": "https://avatars.githubusercontent.com/u/13752566?v=4",
+      "tags": [
+        "cloud-security",
+        "compliance",
+        "configuration-assessement",
+        "container-security",
+        "cybersecurity",
+        "file-integrity-monitoring",
+        "incident-response",
+        "infosec",
+        "log-analysis",
+        "malware-detection",
+        "pci-dss",
+        "security",
+        "security-audit",
+        "security-automation",
+        "security-hardening",
+        "security-tools",
+        "siem",
+        "vulnerability-detection",
+        "wazuh",
+        "xdr"
+      ]
     },
     {
       "id": "ossec/ossec-hids",
@@ -226,8 +406,21 @@
       "link": "https://www.ossec.net/",
       "name": "OSSEC",
       "desc": "Open source host-based intrusion detection system with log analysis, file integrity checking, and rootkit detection",
-      "weight": 5044,
-      "image": "https://avatars.githubusercontent.com/u/5479983?v=4"
+      "weight": 5047,
+      "image": "https://avatars.githubusercontent.com/u/5479983?v=4",
+      "tags": [
+        "compliance",
+        "file-integrity-management",
+        "fim",
+        "hids",
+        "intrusion-detection",
+        "loganalyzer",
+        "nist800-53",
+        "ossec",
+        "pci-dss",
+        "policy-monitoring",
+        "security"
+      ]
     },
     {
       "id": "OISF/suricata",
@@ -237,8 +430,21 @@
       "link": "https://suricata.io/",
       "name": "Suricata",
       "desc": "Network intrusion detection, prevention, and security monitoring engine",
-      "weight": 6558,
-      "image": "https://avatars.githubusercontent.com/u/2188963?v=4"
+      "weight": 6569,
+      "image": "https://avatars.githubusercontent.com/u/2188963?v=4",
+      "tags": [
+        "cybersecurity",
+        "ids",
+        "intrusion-detection-system",
+        "intrusion-prevention-system",
+        "ips",
+        "network-monitor",
+        "network-monitoring",
+        "nsm",
+        "security",
+        "suricata",
+        "threat-hunting"
+      ]
     },
     {
       "id": "zeek/zeek",
@@ -248,8 +454,18 @@
       "link": "https://zeek.org/",
       "name": "Zeek",
       "desc": "Powerful network analysis framework focused on security monitoring",
-      "weight": 7893,
-      "image": "https://avatars.githubusercontent.com/u/1194067?v=4"
+      "weight": 7906,
+      "image": "https://avatars.githubusercontent.com/u/1194067?v=4",
+      "tags": [
+        "bro",
+        "dfir",
+        "ndr",
+        "network-monitoring",
+        "nsm",
+        "pcap",
+        "security",
+        "zeek"
+      ]
     },
     {
       "id": "Security-Onion-Solutions/securityonion",
@@ -259,8 +475,20 @@
       "link": "https://securityonionsolutions.com/",
       "name": "Security Onion",
       "desc": "Free and open platform for threat hunting, enterprise security monitoring, and log management",
-      "weight": 4834,
-      "image": "https://avatars.githubusercontent.com/u/8959843?v=4"
+      "weight": 4845,
+      "image": "https://avatars.githubusercontent.com/u/8959843?v=4",
+      "tags": [
+        "case-management",
+        "cyber-security",
+        "endpoint-security",
+        "information-security",
+        "intrusion-detection-system",
+        "monitoring",
+        "network-security",
+        "security",
+        "security-tools",
+        "threat-hunting"
+      ]
     },
     {
       "id": "openwall/john",
@@ -270,8 +498,26 @@
       "link": "https://www.openwall.com/john/",
       "name": "John the Ripper",
       "desc": "Advanced offline password cracker supporting hundreds of hash and cipher types",
-      "weight": 13519,
-      "image": "https://avatars.githubusercontent.com/u/1579552?v=4"
+      "weight": 13540,
+      "image": "https://avatars.githubusercontent.com/u/1579552?v=4",
+      "tags": [
+        "assembler",
+        "c",
+        "cracker",
+        "crypt",
+        "fpga",
+        "gpgpu",
+        "gpu",
+        "hash",
+        "john",
+        "jtr",
+        "mpi",
+        "opencl",
+        "openmp",
+        "password",
+        "ripper",
+        "simd"
+      ]
     },
     {
       "id": "hashcat/hashcat",
@@ -281,8 +527,18 @@
       "link": "https://hashcat.net/hashcat/",
       "name": "Hashcat",
       "desc": "World's fastest and most advanced password recovery utility",
-      "weight": 26583,
-      "image": "https://avatars.githubusercontent.com/u/15949799?v=4"
+      "weight": 26628,
+      "image": "https://avatars.githubusercontent.com/u/15949799?v=4",
+      "tags": [
+        "c",
+        "cracking",
+        "cuda",
+        "gpgpu",
+        "hashcat",
+        "hashes",
+        "opencl",
+        "password"
+      ]
     },
     {
       "id": "vanhauser-thc/thc-hydra",
@@ -292,7 +548,25 @@
       "link": "https://github.com/vanhauser-thc/thc-hydra",
       "name": "THC-Hydra",
       "desc": "Parallelized login cracker supporting numerous protocols to attack",
-      "weight": 12172
+      "weight": 12197,
+      "tags": [
+        "brute-force",
+        "brute-force-attacks",
+        "brute-force-passwords",
+        "bruteforce",
+        "bruteforce-attacks",
+        "bruteforcer",
+        "bruteforcing",
+        "hydra",
+        "network-security",
+        "password-cracker",
+        "password-cracking",
+        "penetration-testing",
+        "pentest",
+        "pentest-tool",
+        "pentesting",
+        "thc"
+      ]
     },
     {
       "id": "Pennyw0rth/NetExec",
@@ -302,8 +576,25 @@
       "link": "https://www.netexec.wiki/",
       "name": "NetExec",
       "desc": "Network service exploitation tool for credential auditing across Active Directory environments",
-      "weight": 5799,
-      "image": "https://avatars.githubusercontent.com/u/144470396?v=4"
+      "weight": 5813,
+      "image": "https://avatars.githubusercontent.com/u/144470396?v=4",
+      "tags": [
+        "active-directory",
+        "hacking",
+        "infosec",
+        "infosectools",
+        "networks",
+        "pentest",
+        "pentest-tool",
+        "pentest-tools",
+        "pentesting",
+        "python",
+        "python3",
+        "red-team",
+        "security",
+        "security-tools",
+        "windows"
+      ]
     },
     {
       "id": "jmk-foofus/medusa",
@@ -313,7 +604,8 @@
       "link": "http://foofus.net/goons/jmk/medusa/medusa.html",
       "name": "Medusa",
       "desc": "Speedy, parallel, and modular login brute-forcer",
-      "weight": 881
+      "weight": 883,
+      "tags": []
     },
     {
       "id": "semgrep/semgrep",
@@ -323,8 +615,22 @@
       "link": "https://semgrep.dev/",
       "name": "Semgrep",
       "desc": "Lightweight static analysis tool for finding bugs and enforcing code standards across many languages",
-      "weight": 16313,
-      "image": "https://avatars.githubusercontent.com/u/29760937?v=4"
+      "weight": 16403,
+      "image": "https://avatars.githubusercontent.com/u/29760937?v=4",
+      "tags": [
+        "c",
+        "go",
+        "java",
+        "javascript",
+        "python",
+        "r2c",
+        "ruby",
+        "sast",
+        "semgrep",
+        "static-analysis",
+        "static-code-analysis",
+        "typescript"
+      ]
     },
     {
       "id": "PyCQA/bandit",
@@ -334,8 +640,17 @@
       "link": "https://bandit.readthedocs.io/",
       "name": "Bandit",
       "desc": "Tool designed to find common security issues in Python code",
-      "weight": 8224,
-      "image": "https://avatars.githubusercontent.com/u/8749848?v=4"
+      "weight": 8242,
+      "image": "https://avatars.githubusercontent.com/u/8749848?v=4",
+      "tags": [
+        "bandit",
+        "linter",
+        "python",
+        "security",
+        "security-scanner",
+        "security-tools",
+        "static-code-analysis"
+      ]
     },
     {
       "id": "presidentbeef/brakeman",
@@ -345,7 +660,18 @@
       "link": "https://brakemanscanner.org/",
       "name": "Brakeman",
       "desc": "Static analysis security vulnerability scanner for Ruby on Rails applications",
-      "weight": 7261
+      "weight": 7262,
+      "tags": [
+        "brakeman",
+        "rails",
+        "ruby",
+        "security",
+        "security-audit",
+        "security-tools",
+        "security-vulnerability",
+        "static-analysis",
+        "vulnerabilities"
+      ]
     },
     {
       "id": "github/codeql",
@@ -355,8 +681,15 @@
       "link": "https://codeql.github.com/",
       "name": "CodeQL",
       "desc": "Libraries and queries that power semantic code analysis for security research and code scanning",
-      "weight": 9984,
-      "image": "https://avatars.githubusercontent.com/u/9919?v=4"
+      "weight": 10012,
+      "image": "https://avatars.githubusercontent.com/u/9919?v=4",
+      "tags": [
+        "codeql",
+        "github-advanced-security",
+        "github-security-lab",
+        "semmle-ql",
+        "works-with-codespaces"
+      ]
     },
     {
       "id": "SonarSource/sonarqube",
@@ -366,8 +699,13 @@
       "link": "https://www.sonarsource.com/products/sonarqube/",
       "name": "SonarQube",
       "desc": "Continuous inspection platform for code quality and security analysis",
-      "weight": 10910,
-      "image": "https://avatars.githubusercontent.com/u/545988?v=4"
+      "weight": 10925,
+      "image": "https://avatars.githubusercontent.com/u/545988?v=4",
+      "tags": [
+        "code-quality",
+        "sonarqube",
+        "static-analysis"
+      ]
     },
     {
       "id": "hashicorp/vault",
@@ -377,8 +715,13 @@
       "link": "https://www.vaultproject.io/",
       "name": "HashiCorp Vault",
       "desc": "Tool for secrets management, encryption as a service, and privileged access management",
-      "weight": 36146,
-      "image": "https://avatars.githubusercontent.com/u/761456?v=4"
+      "weight": 36171,
+      "image": "https://avatars.githubusercontent.com/u/761456?v=4",
+      "tags": [
+        "go",
+        "secrets",
+        "vault"
+      ]
     },
     {
       "id": "awslabs/git-secrets",
@@ -388,8 +731,9 @@
       "link": "https://github.com/awslabs/git-secrets",
       "name": "git-secrets",
       "desc": "Prevents you from committing secrets and credentials into git repositories",
-      "weight": 13377,
-      "image": "https://avatars.githubusercontent.com/u/3299148?v=4"
+      "weight": 13379,
+      "image": "https://avatars.githubusercontent.com/u/3299148?v=4",
+      "tags": []
     },
     {
       "id": "gitleaks/gitleaks",
@@ -399,8 +743,30 @@
       "link": "https://github.com/gitleaks/gitleaks",
       "name": "Gitleaks",
       "desc": "Scans git repositories, filesystems, and directories for hardcoded secrets and credentials",
-      "weight": 28853,
-      "image": "https://avatars.githubusercontent.com/u/90395851?v=4"
+      "weight": 28958,
+      "image": "https://avatars.githubusercontent.com/u/90395851?v=4",
+      "tags": [
+        "ai-powered",
+        "ci-cd",
+        "cicd",
+        "cli",
+        "data-loss-prevention",
+        "devsecops",
+        "dlp",
+        "git",
+        "gitleaks",
+        "go",
+        "golang",
+        "hacktoberfest",
+        "llm",
+        "llm-inference",
+        "llm-training",
+        "nhi",
+        "open-source",
+        "secret",
+        "security",
+        "security-tools"
+      ]
     },
     {
       "id": "trufflesecurity/trufflehog",
@@ -410,8 +776,22 @@
       "link": "https://trufflesecurity.com/trufflehog",
       "name": "TruffleHog",
       "desc": "Finds, verifies, and analyzes leaked credentials across git history and beyond",
-      "weight": 27526,
-      "image": "https://avatars.githubusercontent.com/u/79229934?v=4"
+      "weight": 27589,
+      "image": "https://avatars.githubusercontent.com/u/79229934?v=4",
+      "tags": [
+        "credentials",
+        "devsecops",
+        "dynamic-analysis",
+        "precommit",
+        "scanning",
+        "secret",
+        "secret-management",
+        "secrets",
+        "security",
+        "security-tools",
+        "trufflehog",
+        "verification"
+      ]
     },
     {
       "id": "getsops/sops",
@@ -421,8 +801,19 @@
       "link": "https://github.com/getsops/sops",
       "name": "SOPS",
       "desc": "Simple and flexible tool for managing and encrypting secrets in files",
-      "weight": 22866,
-      "image": "https://avatars.githubusercontent.com/u/129185620?v=4"
+      "weight": 22926,
+      "image": "https://avatars.githubusercontent.com/u/129185620?v=4",
+      "tags": [
+        "aws",
+        "azure",
+        "devops",
+        "gcp",
+        "pgp",
+        "secret-distribution",
+        "secret-management",
+        "security",
+        "sops"
+      ]
     },
     {
       "id": "aquasecurity/trivy",
@@ -432,8 +823,25 @@
       "link": "https://trivy.dev/",
       "name": "Trivy",
       "desc": "Finds vulnerabilities, misconfigurations, secrets, and SBOMs in containers, Kubernetes, and code repositories",
-      "weight": 37520,
-      "image": "https://avatars.githubusercontent.com/u/12783832?v=4"
+      "weight": 37617,
+      "image": "https://avatars.githubusercontent.com/u/12783832?v=4",
+      "tags": [
+        "containers",
+        "devsecops",
+        "docker",
+        "go",
+        "golang",
+        "hacktoberfest",
+        "iac",
+        "infrastructure-as-code",
+        "kubernetes",
+        "misconfiguration",
+        "security",
+        "security-tools",
+        "vulnerability",
+        "vulnerability-detection",
+        "vulnerability-scanners"
+      ]
     },
     {
       "id": "falcosecurity/falco",
@@ -443,8 +851,20 @@
       "link": "https://falco.org/",
       "name": "Falco",
       "desc": "Cloud-native runtime security tool for detecting anomalous activity in containers and hosts",
-      "weight": 9287,
-      "image": "https://avatars.githubusercontent.com/u/42391047?v=4"
+      "weight": 9305,
+      "image": "https://avatars.githubusercontent.com/u/42391047?v=4",
+      "tags": [
+        "cloud-native",
+        "cncf",
+        "cncf-project",
+        "containers",
+        "ebpf",
+        "falco",
+        "hacktoberfest",
+        "kubernetes",
+        "runtime-security",
+        "security"
+      ]
     },
     {
       "id": "quay/clair",
@@ -454,8 +874,19 @@
       "link": "https://quay.github.io/clair/",
       "name": "Clair",
       "desc": "Static vulnerability analysis for application containers",
-      "weight": 11049,
-      "image": "https://avatars.githubusercontent.com/u/38353654?v=4"
+      "weight": 11052,
+      "image": "https://avatars.githubusercontent.com/u/38353654?v=4",
+      "tags": [
+        "clair",
+        "containers",
+        "docker",
+        "go",
+        "kubernetes",
+        "oci",
+        "oci-image",
+        "static-analysis",
+        "vulnerabilities"
+      ]
     },
     {
       "id": "aquasecurity/kube-bench",
@@ -465,8 +896,18 @@
       "link": "https://github.com/aquasecurity/kube-bench",
       "name": "kube-bench",
       "desc": "Checks whether Kubernetes is deployed according to security best practices from the CIS Kubernetes Benchmark",
-      "weight": 8148,
-      "image": "https://avatars.githubusercontent.com/u/12783832?v=4"
+      "weight": 8153,
+      "image": "https://avatars.githubusercontent.com/u/12783832?v=4",
+      "tags": [
+        "cis-benchmark",
+        "cis-kubernetes-benchmark",
+        "cis-security",
+        "hacktoberfest",
+        "kube-bench",
+        "kubernetes",
+        "kubernetes-security",
+        "openshift"
+      ]
     },
     {
       "id": "prowler-cloud/prowler",
@@ -476,8 +917,30 @@
       "link": "https://prowler.com/",
       "name": "Prowler",
       "desc": "Open source cloud security platform that automates security and compliance checks across cloud environments",
-      "weight": 14629,
-      "image": "https://avatars.githubusercontent.com/u/97106991?v=4"
+      "weight": 14679,
+      "image": "https://avatars.githubusercontent.com/u/97106991?v=4",
+      "tags": [
+        "aws",
+        "azure",
+        "cis-benchmark",
+        "cloud",
+        "cloudsecurity",
+        "compliance",
+        "cspm",
+        "devsecops",
+        "forensics",
+        "gcp",
+        "gdpr",
+        "hacktoberfest",
+        "hardening",
+        "iam",
+        "multi-cloud",
+        "python",
+        "security",
+        "security-audit",
+        "security-hardening",
+        "security-tools"
+      ]
     },
     {
       "id": "nccgroup/ScoutSuite",
@@ -487,8 +950,16 @@
       "link": "https://github.com/nccgroup/ScoutSuite",
       "name": "Scout Suite",
       "desc": "Multi-cloud security auditing tool for assessing the security posture of cloud environments",
-      "weight": 7793,
-      "image": "https://avatars.githubusercontent.com/u/4067082?v=4"
+      "weight": 7800,
+      "image": "https://avatars.githubusercontent.com/u/4067082?v=4",
+      "tags": [
+        "auditing",
+        "aws",
+        "azure",
+        "cloud",
+        "gcp",
+        "security"
+      ]
     },
     {
       "id": "NationalSecurityAgency/ghidra",
@@ -498,8 +969,13 @@
       "link": "https://ghidra-sre.org/",
       "name": "Ghidra",
       "desc": "Software reverse engineering framework developed by the NSA",
-      "weight": 72565,
-      "image": "https://avatars.githubusercontent.com/u/11298292?v=4"
+      "weight": 72813,
+      "image": "https://avatars.githubusercontent.com/u/11298292?v=4",
+      "tags": [
+        "disassembler",
+        "reverse-engineering",
+        "software-analysis"
+      ]
     },
     {
       "id": "radareorg/radare2",
@@ -509,8 +985,20 @@
       "link": "https://rada.re/n/",
       "name": "Radare2",
       "desc": "UNIX-like reverse engineering framework and command-line toolset",
-      "weight": 24608,
-      "image": "https://avatars.githubusercontent.com/u/2842539?v=4"
+      "weight": 24648,
+      "image": "https://avatars.githubusercontent.com/u/2842539?v=4",
+      "tags": [
+        "binary-analysis",
+        "c",
+        "commandline",
+        "disassembler",
+        "forensics",
+        "hacktoberfest",
+        "malware-analysis",
+        "radare2",
+        "reverse-engineering",
+        "security"
+      ]
     },
     {
       "id": "volatilityfoundation/volatility3",
@@ -520,8 +1008,19 @@
       "link": "https://volatilityfoundation.org/",
       "name": "Volatility 3",
       "desc": "Memory forensics framework for extracting digital artifacts from volatile memory samples",
-      "weight": 4336,
-      "image": "https://avatars.githubusercontent.com/u/6001145?v=4"
+      "weight": 4356,
+      "image": "https://avatars.githubusercontent.com/u/6001145?v=4",
+      "tags": [
+        "digital-investigation",
+        "forensics",
+        "incident-response",
+        "malware",
+        "memory",
+        "python",
+        "ram",
+        "volatility",
+        "volatility-framework"
+      ]
     },
     {
       "id": "sleuthkit/autopsy",
@@ -531,8 +1030,12 @@
       "link": "https://www.autopsy.com/",
       "name": "Autopsy",
       "desc": "Digital forensics platform and graphical interface to The Sleuth Kit and other forensics tools",
-      "weight": 3288,
-      "image": "https://avatars.githubusercontent.com/u/866922?v=4"
+      "weight": 3296,
+      "image": "https://avatars.githubusercontent.com/u/866922?v=4",
+      "tags": [
+        "forensics",
+        "java"
+      ]
     },
     {
       "id": "sleuthkit/sleuthkit",
@@ -542,8 +1045,15 @@
       "link": "https://www.sleuthkit.org/",
       "name": "The Sleuth Kit",
       "desc": "Library and collection of command line digital forensics tools for investigating volume and file system data",
-      "weight": 3132,
-      "image": "https://avatars.githubusercontent.com/u/866922?v=4"
+      "weight": 3137,
+      "image": "https://avatars.githubusercontent.com/u/866922?v=4",
+      "tags": [
+        "forensics",
+        "incident-response",
+        "ntfs",
+        "sleuthkit",
+        "tct"
+      ]
     },
     {
       "id": "x64dbg/x64dbg",
@@ -553,8 +1063,30 @@
       "link": "https://x64dbg.com/",
       "name": "x64dbg",
       "desc": "Open source user mode debugger for Windows, optimized for reverse engineering and malware analysis",
-      "weight": 49202,
-      "image": "https://avatars.githubusercontent.com/u/7937360?v=4"
+      "weight": 49301,
+      "image": "https://avatars.githubusercontent.com/u/7937360?v=4",
+      "tags": [
+        "binary-analysis",
+        "ctf",
+        "cybersecurity",
+        "debugger",
+        "debugging",
+        "disassembler",
+        "dynamic-analysis",
+        "exploit-development",
+        "hacking",
+        "malware-analysis",
+        "offensive-security",
+        "oscp",
+        "program-analysis",
+        "reverse-engineering",
+        "security",
+        "security-tools",
+        "windows",
+        "x64",
+        "x86",
+        "x86-64"
+      ]
     },
     {
       "id": "wireshark/wireshark",
@@ -564,8 +1096,14 @@
       "link": "https://www.wireshark.org",
       "name": "Wireshark",
       "desc": "Network protocol analyzer for capturing and inspecting traffic",
-      "weight": 9741,
-      "image": "https://avatars.githubusercontent.com/u/6233056?v=4"
+      "weight": 9780,
+      "image": "https://avatars.githubusercontent.com/u/6233056?v=4",
+      "tags": [
+        "packet-capture",
+        "stratoshark",
+        "tshark",
+        "wireshark"
+      ]
     },
     {
       "id": "VirusTotal/yara",
@@ -575,8 +1113,9 @@
       "link": "https://virustotal.github.io/yara/",
       "name": "YARA",
       "desc": "Pattern-matching tool for identifying and classifying malware",
-      "weight": 9814,
-      "image": "https://avatars.githubusercontent.com/u/7701252?v=4"
+      "weight": 9828,
+      "image": "https://avatars.githubusercontent.com/u/7701252?v=4",
+      "tags": []
     },
     {
       "id": "osquery/osquery",
@@ -586,8 +1125,15 @@
       "link": "https://osquery.io",
       "name": "osquery",
       "desc": "SQL-powered operating system instrumentation and monitoring",
-      "weight": 23478,
-      "image": "https://avatars.githubusercontent.com/u/8315868?v=4"
+      "weight": 23522,
+      "image": "https://avatars.githubusercontent.com/u/8315868?v=4",
+      "tags": [
+        "hacktoberfest",
+        "intrusion-detection",
+        "monitoring",
+        "security",
+        "sql"
+      ]
     },
     {
       "id": "crowdsecurity/crowdsec",
@@ -597,8 +1143,18 @@
       "link": "https://crowdsec.net",
       "name": "CrowdSec",
       "desc": "Crowdsourced, behavior-based intrusion prevention system",
-      "weight": 14597,
-      "image": "https://avatars.githubusercontent.com/u/63284097?v=4"
+      "weight": 14649,
+      "image": "https://avatars.githubusercontent.com/u/63284097?v=4",
+      "tags": [
+        "attacks-prevention",
+        "detection",
+        "ids",
+        "ips",
+        "linux",
+        "protection",
+        "security",
+        "waf"
+      ]
     },
     {
       "id": "KeygraphHQ/shannon",
@@ -608,8 +1164,30 @@
       "name": "shannon",
       "link": "https://github.com/KeygraphHQ/shannon",
       "desc": "Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.",
-      "weight": 47211,
-      "image": "https://avatars.githubusercontent.com/u/182008209?v=4"
+      "weight": 47212,
+      "image": "https://avatars.githubusercontent.com/u/182008209?v=4",
+      "tags": [
+        "ai-penetration-testing",
+        "ai-security",
+        "api-security",
+        "appsec",
+        "ci-cd",
+        "cybersecurity",
+        "devsecops",
+        "ethical-hacking",
+        "offensive-security",
+        "owasp",
+        "penetration-testing",
+        "pentesting",
+        "pentesting-tools",
+        "red-teaming",
+        "sarif",
+        "security",
+        "security-audit",
+        "security-automation",
+        "security-testing",
+        "security-tools"
+      ]
     },
     {
       "id": "lissy93/web-check",
@@ -619,7 +1197,14 @@
       "name": "web-check",
       "link": "https://github.com/lissy93/web-check",
       "desc": "🕵️‍♂️ All-in-one OSINT tool for analysing any website",
-      "weight": 34600
+      "weight": 34602,
+      "tags": [
+        "osint",
+        "privacy",
+        "security",
+        "security-tools",
+        "sysadmin"
+      ]
     },
     {
       "id": "Infisical/infisical",
@@ -629,8 +1214,30 @@
       "name": "infisical",
       "link": "https://github.com/Infisical/infisical",
       "desc": "Infisical is the open-source platform for secrets, certificates, and privileged access management.",
-      "weight": 28963,
-      "image": "https://avatars.githubusercontent.com/u/107880645?v=4"
+      "weight": 28971,
+      "image": "https://avatars.githubusercontent.com/u/107880645?v=4",
+      "tags": [
+        "acme",
+        "certificate-management",
+        "cli",
+        "environment-variables",
+        "go",
+        "golang",
+        "node-js",
+        "open-source",
+        "pki",
+        "postgres",
+        "private-ca",
+        "secret-management",
+        "secret-manager",
+        "secret-scanning",
+        "secrets",
+        "secrets-management",
+        "security",
+        "security-tools",
+        "typescript",
+        "vault"
+      ]
     },
     {
       "id": "beenuar/AiSOC",
@@ -640,7 +1247,29 @@
       "name": "AiSOC",
       "link": "https://github.com/beenuar/AiSOC",
       "desc": "Open-source AI-powered Security Operations Center — alert fusion, purple-team drills, agent-assisted triage, MITRE ATT&CK investigation. MIT-licensed, self-hostable.",
-      "weight": 2406
+      "weight": 2406,
+      "tags": [
+        "agentic-ai",
+        "ai-security",
+        "alert-triage",
+        "clickhouse",
+        "cybersecurity",
+        "detection-engineering",
+        "incident-response",
+        "investigation-ledger",
+        "langgraph",
+        "mitre-attack",
+        "neo4j",
+        "open-source",
+        "purple-team",
+        "security-operations",
+        "self-hosted",
+        "siem",
+        "soar",
+        "soc",
+        "threat-detection",
+        "threat-intelligence"
+      ]
     },
     {
       "id": "threathunters-io/laurel",
@@ -651,7 +1280,17 @@
       "link": "https://github.com/threathunters-io/laurel",
       "desc": "Transform Linux Audit logs for SIEM usage",
       "weight": 855,
-      "image": "https://avatars.githubusercontent.com/u/86109767?v=4"
+      "image": "https://avatars.githubusercontent.com/u/86109767?v=4",
+      "tags": [
+        "audispd",
+        "auditd",
+        "contributions-welcome",
+        "linux",
+        "rust",
+        "security",
+        "security-monitoring",
+        "siem"
+      ]
     },
     {
       "id": "tenzir/tenzir",
@@ -662,7 +1301,24 @@
       "link": "https://github.com/tenzir/tenzir",
       "desc": "Tenzir is the data pipeline engine for security teams.",
       "weight": 757,
-      "image": "https://avatars.githubusercontent.com/u/29048253?v=4"
+      "image": "https://avatars.githubusercontent.com/u/29048253?v=4",
+      "tags": [
+        "dataops",
+        "hacktoberfest",
+        "incident-response",
+        "investigation",
+        "netflow",
+        "pcap",
+        "pipelines",
+        "secdataops",
+        "security",
+        "siem",
+        "sigma",
+        "soc",
+        "suricata",
+        "threathunting",
+        "zeek"
+      ]
     }
   ]
 }

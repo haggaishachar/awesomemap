@@ -526,10 +526,15 @@ test("renderDomainPage's tag widget shows a growth badge only for a tag that als
   ];
   const risingTags = [{ tag: "python", projectCount: 30, totalStars: 900000, rank: 1, growth: growth({ percentDelta: 4 }) }];
   const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og.png", topTags, risingTags });
-  const mlSlice = html.slice(html.indexOf("machine-learning"), html.indexOf("machine-learning") + 400);
-  const pySlice = html.slice(html.indexOf(">python<"), html.indexOf(">python<") + 400);
-  assert.ok(!mlSlice.includes("momentum-stat"), "no badge for a tag that isn't rising");
-  assert.ok(pySlice.includes("momentum-stat"), "badge shown for the rising tag");
+  // Split on each row's opening tag so each row's content is bounded by the
+  // next row's opening tag (or end of string for the last) — a fixed-size
+  // character slice would risk bleeding into the next row and asserting on
+  // the wrong row's content.
+  const rows = html.split('<li class="momentum-row">').slice(1);
+  const mlRow = rows.find((row) => row.includes(">machine-learning<"));
+  const pyRow = rows.find((row) => row.includes(">python<"));
+  assert.ok(mlRow && !mlRow.includes("momentum-stat"), "no badge for a tag that isn't rising");
+  assert.ok(pyRow && pyRow.includes("momentum-stat"), "badge shown for the rising tag");
 });
 
 test("renderDomainPage omits the tag widget when there are no qualifying tags", () => {
@@ -1223,22 +1228,28 @@ Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>"
 - Consumes: `leafData.tags: string[]` (already flows onto tree leaves via `build-tree.mjs`'s field spread — no change needed there), `basePath` passed into `createDetailPanel`.
 - Produces: `createDetailPanel(container, { historyUrl, basePath = "" })` — `basePath` is new and optional; existing callers omitting it keep working (chips just link relative to root).
 
-- [ ] **Step 1: Write the failing test (server-side thread-through)**
+- [ ] **Step 1: Update the pre-existing detail-panel test to expect `basePath`**
 
-Append to `test/render-page.test.js`:
+A pre-existing test at `test/render-page.test.js:55-64` ("the detail panel is created with a historyUrl pointing at the domain's own history.json, prefixed by BASE_PATH") asserts the *exact* `createDetailPanel(document.body, { historyUrl: "..." })` string with no trailing field — Step 3 below adds a `basePath` field to that call, which would otherwise break this test. Update it in place to expect `basePath` too:
 
 ```js
-test("renderDomainPage threads basePath into createDetailPanel, so its tag chips can build correct links", () => {
+test("the detail panel is created with a historyUrl pointing at the domain's own history.json, prefixed by BASE_PATH", () => {
   const domain = { slug: "data-science", name: "Data Science", description: "desc" };
-  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og.png", basePath: "/techmap" });
-  assert.match(html, /createDetailPanel\(document\.body, \{ historyUrl: "\/techmap\/data-science\/history\.json", basePath: "\/techmap" \}\)/);
+  const rootHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "" });
+  assert.match(rootHtml, /createDetailPanel\(document\.body, \{ historyUrl: "\/data-science\/history\.json", basePath: "" \}\)/);
+
+  const prefixedHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
+  assert.match(
+    prefixedHtml,
+    /createDetailPanel\(document\.body, \{ historyUrl: "\/techmap\/data-science\/history\.json", basePath: "\/techmap" \}\)/
+  );
 });
 ```
 
 - [ ] **Step 2: Run the test to verify it fails**
 
 Run: `node --test test/render-page.test.js`
-Expected: FAIL — current script only passes `historyUrl`
+Expected: FAIL — current script only passes `historyUrl`, so the updated regexes (which now require a trailing `basePath` field) don't match
 
 - [ ] **Step 3: Update `renderDomainPage`'s inline script**
 

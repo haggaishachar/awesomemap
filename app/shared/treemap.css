@@ -325,6 +325,26 @@ body {
   margin: 4px 0 0;
 }
 
+.detail-panel-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px 0;
+}
+
+.detail-panel-tag {
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.detail-panel-tag:hover {
+  text-decoration: underline;
+}
+
 .hero {
   position: relative;
   overflow: hidden;
@@ -581,6 +601,10 @@ body {
   white-space: nowrap;
 }
 
+a.momentum-row-name:hover {
+  color: var(--color-accent);
+}
+
 .momentum-row-coverage {
   font-size: 11px;
   color: var(--color-text-muted);
@@ -704,6 +728,17 @@ body {
 }
 
 .site-header-rising:hover {
+  color: var(--color-text);
+}
+
+.site-header-tags {
+  color: var(--color-text-muted);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.site-header-tags:hover {
   color: var(--color-text);
 }
 

@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 import { readdirSync, readFileSync, writeFileSync, mkdirSync, copyFileSync, rmSync, cpSync, existsSync } from "node:fs";
 import { buildTree } from "./build-tree.mjs";
-import { renderDomainPage, renderLandingPage, renderRisingPage } from "./render-page.mjs";
+import { renderDomainPage, renderLandingPage, renderRisingPage, renderTagsIndexPage, renderTagPage, tagSlug } from "./render-page.mjs";
 import { computeProjectSizing, findInvalidSizes, RISING_WINDOWS_DAYS } from "./velocity.mjs";
 import { computeLeaderboard } from "./leaderboard.mjs";
 import { computeGroupGrowth, rankGroups } from "./group-growth.mjs";
+import { buildTagGroups, computeTopTags, computeRisingTags } from "./tag-growth.mjs";
 import { buildSitemap, buildRobots } from "./seo.mjs";
 
 const DATA_DIR = "data";
@@ -12,6 +13,8 @@ const DIST_DIR = "dist";
 const APP_DIR = "app";
 const LEADERBOARD_LIMIT = 20;
 const TEASER_LIMIT = 5;
+const TAG_WIDGET_LIMIT = 8;
+const TAGS_INDEX_LIMIT = 30;
 const TEASER_WINDOW_DAYS = RISING_WINDOWS_DAYS[0];
 
 // The window the landing page's domain-momentum line and each domain page's
@@ -144,6 +147,50 @@ for (const domain of parsedDomains) {
   categoryGrowthBySlug[domain.slug] = rankGroups(groups);
 }
 
+// Pass 2c: group projects by shared tag (GitHub topics), then rank those
+// groups by popularity and by growth — the same "how did this slice of the
+// ecosystem move" question Pass 2b already answers for categories and
+// domains, just grouped a third way. `tag-growth.mjs` owns every
+// filtering/ranking rule; this pass only calls it and stores results for
+// Pass 3's domain widget and the /tags/ pages built after the domain loop.
+const domainTopTagsBySlug = {};
+const domainRisingTagsBySlug = {};
+for (const domain of parsedDomains) {
+  const tagGroups = buildTagGroups(domain.projects);
+  domainTopTagsBySlug[domain.slug] = computeTopTags(tagGroups, { limit: TAG_WIDGET_LIMIT });
+  domainRisingTagsBySlug[domain.slug] = computeRisingTags(tagGroups, historyBySlug[domain.slug], MOMENTUM_WINDOW_DAYS, { limit: TAG_WIDGET_LIMIT });
+}
+
+// Global tag groups additionally carry each project's originating domain
+// (short name + slug) — a project's own record doesn't know that on its
+// own, and a per-tag page needs it since tags cross domains.
+// Dedupe by id: a project curated into more than one domain would otherwise
+// be double-counted in every global tag group it lands in — fabricating
+// tag pages that only clear MIN_PROJECTS_PER_TAG via the duplicate, and
+// doubling totalStars/growth on every group containing one. Same
+// last-write-wins simplification globalHistoryById already applies below,
+// extended to project identity.
+const allProjectsWithDomain = [
+  ...new Map(
+    parsedDomains.flatMap((domain) =>
+      domain.projects.map((project) => [project.id, { ...project, domainSlug: domain.slug, domainShort: domain.shortName ?? domain.name }])
+    )
+  ).values(),
+];
+// A project curated into more than one domain is the same GitHub repo
+// regardless of which domain's history file recorded it, so merging here
+// (last write wins on the rare collision) is a reasonable simplification
+// for a group-level growth figure — unlike leaderboard.mjs's global scope,
+// which must keep a project's single best-scoring domain listing, nothing
+// here needs to trace a stat back to one specific domain's copy.
+const globalHistoryById = Object.assign({}, ...Object.values(historyBySlug));
+const globalTagGroups = buildTagGroups(allProjectsWithDomain);
+const globalTopTags = computeTopTags(globalTagGroups, { limit: TAGS_INDEX_LIMIT });
+const globalRisingTagsByWindow = {};
+for (const windowDays of RISING_WINDOWS_DAYS) {
+  globalRisingTagsByWindow[windowDays] = computeRisingTags(globalTagGroups, globalHistoryById, windowDays, { limit: TAGS_INDEX_LIMIT });
+}
+
 // Pass 3: render every domain's full page, embed page, and history.json,
 // now that its teaser (the top of its own 7-day leaderboard) is available.
 const domains = [];
@@ -191,6 +238,8 @@ for (const domain of parsedDomains) {
       teaser,
       categoryGrowth: categoryGrowthBySlug[slug],
       momentumWindowDays: MOMENTUM_WINDOW_DAYS,
+      topTags: domainTopTagsBySlug[slug],
+      risingTags: domainRisingTagsBySlug[slug],
     })
   );
   writeFileSync(
@@ -229,13 +278,48 @@ writeFileSync(
   })
 );
 
+mkdirSync(`${DIST_DIR}/tags`, { recursive: true });
+writeFileSync(
+  `${DIST_DIR}/tags/index.html`,
+  renderTagsIndexPage(globalTopTags, globalRisingTagsByWindow, {
+    defaultOgImage: DEFAULT_OG_IMAGE,
+    siteUrl: SITE_URL,
+    basePath: BASE_PATH,
+  })
+);
+
+// One page per qualifying global tag (~600 at current data volume),
+// sorted by stars descending — the same ranking `computeTopTags` uses,
+// just applied here to one tag's own project list rather than across tags.
+const tagPagePaths = [];
+for (const { tag, projects } of globalTagGroups) {
+  const sortedProjects = [...projects].sort((a, b) => (b.weight ?? 0) - (a.weight ?? 0));
+  const tagGrowth = computeGroupGrowth(sortedProjects, globalHistoryById, MOMENTUM_WINDOW_DAYS);
+  const slug = tagSlug(tag);
+  mkdirSync(`${DIST_DIR}/tags/${slug}`, { recursive: true });
+  writeFileSync(
+    `${DIST_DIR}/tags/${slug}/index.html`,
+    renderTagPage(tag, sortedProjects, tagGrowth, {
+      defaultOgImage: DEFAULT_OG_IMAGE,
+      siteUrl: SITE_URL,
+      basePath: BASE_PATH,
+      windowDays: MOMENTUM_WINDOW_DAYS,
+    })
+  );
+  tagPagePaths.push(`/tags/${slug}/`);
+}
+
 cpSync(`${APP_DIR}/shared`, `${DIST_DIR}/shared`, { recursive: true });
 cpSync(`${APP_DIR}/vendor`, `${DIST_DIR}/vendor`, { recursive: true });
 copyFileSync(`${APP_DIR}/og-default.png`, `${DIST_DIR}/og-default.png`);
 copyFileSync(`${APP_DIR}/favicon.svg`, `${DIST_DIR}/favicon.svg`);
 if (CNAME) writeFileSync(`${DIST_DIR}/CNAME`, `${CNAME}\n`);
 
-const sitemap = buildSitemap(domains.map((d) => d.slug), { siteUrl: SITE_URL, basePath: BASE_PATH });
+const sitemap = buildSitemap(domains.map((d) => d.slug), {
+  siteUrl: SITE_URL,
+  basePath: BASE_PATH,
+  extraPaths: ["/tags/", ...tagPagePaths],
+});
 if (sitemap) writeFileSync(`${DIST_DIR}/sitemap.xml`, sitemap);
 writeFileSync(`${DIST_DIR}/robots.txt`, buildRobots({ siteUrl: SITE_URL, basePath: BASE_PATH }));
 

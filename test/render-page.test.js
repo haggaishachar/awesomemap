@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { renderDomainPage, renderLandingPage, renderRisingPage } from "../scripts/render-page.mjs";
+import { renderDomainPage, renderLandingPage, renderRisingPage, renderTagsIndexPage, renderTagPage, tagSlug } from "../scripts/render-page.mjs";
 
 const ROOT_TREE = { id: "data-science", name: "Data Science", children: [] };
 
@@ -55,12 +55,12 @@ test("BASE_PATH is prefixed onto every emitted path, and defaults to root-relati
 test("the detail panel is created with a historyUrl pointing at the domain's own history.json, prefixed by BASE_PATH", () => {
   const domain = { slug: "data-science", name: "Data Science", description: "desc" };
   const rootHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "" });
-  assert.match(rootHtml, /createDetailPanel\(document\.body, \{ historyUrl: "\/data-science\/history\.json" \}\)/);
+  assert.match(rootHtml, /createDetailPanel\(document\.body, \{ historyUrl: "\/data-science\/history\.json", basePath: "" \}\)/);
 
   const prefixedHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
   assert.match(
     prefixedHtml,
-    /createDetailPanel\(document\.body, \{ historyUrl: "\/techmap\/data-science\/history\.json" \}\)/
+    /createDetailPanel\(document\.body, \{ historyUrl: "\/techmap\/data-science\/history\.json", basePath: "\/techmap" \}\)/
   );
 });
 
@@ -490,5 +490,162 @@ test("renderDomainPage omits the category section entirely when no category has 
   const categoryGrowth = [{ key: "Hubs", rank: 1, growth: growth({ percentDelta: 0, trackedCount: 0, hasEnoughHistory: false, oldestDate: null }) }];
   const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og.png", categoryGrowth });
   assert.doesNotMatch(html, /Where the heat is/);
+});
+
+test("tagSlug URL-encodes a tag for use as a route segment", () => {
+  assert.equal(tagSlug("machine-learning"), "machine-learning");
+  assert.equal(tagSlug("c++"), "c%2B%2B");
+});
+
+test("renderDomainPage renders a Top tags widget with rank, name link, and project count", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const topTags = [
+    { tag: "machine-learning", projectCount: 12, totalStars: 500000, rank: 1 },
+    { tag: "python", projectCount: 30, totalStars: 900000, rank: 2 },
+  ];
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og.png", topTags });
+  assert.match(html, /Top tags in this domain/);
+  assert.match(html, /href="\/tags\/machine-learning\/"/);
+  assert.match(html, />machine-learning</);
+  assert.match(html, /12 projects/);
+});
+
+test("renderDomainPage's tag widget shows a growth badge only for a tag that also appears in risingTags", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const topTags = [
+    { tag: "machine-learning", projectCount: 12, totalStars: 500000, rank: 1 },
+    { tag: "python", projectCount: 30, totalStars: 900000, rank: 2 },
+  ];
+  const risingTags = [{ tag: "python", projectCount: 30, totalStars: 900000, rank: 1, growth: growth({ percentDelta: 4 }) }];
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og.png", topTags, risingTags });
+  // Split on each row's opening tag so each row's content is bounded by the
+  // next row's opening tag (or end of string for the last) — a fixed-size
+  // character slice would risk bleeding into the next row and asserting on
+  // the wrong row's content.
+  const rows = html.split('<li class="momentum-row">').slice(1);
+  const mlRow = rows.find((row) => row.includes(">machine-learning<"));
+  const pyRow = rows.find((row) => row.includes(">python<"));
+  assert.ok(mlRow && !mlRow.includes("momentum-stat"), "no badge for a tag that isn't rising");
+  assert.ok(pyRow && pyRow.includes("momentum-stat"), "badge shown for the rising tag");
+});
+
+test("renderDomainPage omits the tag widget when there are no qualifying tags", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og.png", topTags: [] });
+  assert.doesNotMatch(html, /Top tags in this domain/);
+});
+
+test("renderDomainPage's embed variant has no tag widget", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const topTags = [{ tag: "python", projectCount: 30, totalStars: 900000, rank: 1 }];
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og.png", embed: true, topTags });
+  assert.doesNotMatch(html, /Top tags in this domain/);
+});
+
+test("renderDomainPage's tag widget links respect BASE_PATH", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const topTags = [{ tag: "python", projectCount: 30, totalStars: 900000, rank: 1 }];
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og.png", basePath: "/techmap", topTags });
+  assert.match(html, /href="\/techmap\/tags\/python\/"/);
+});
+
+test("the site header includes a Tags nav link, prefixed by BASE_PATH", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const rootHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og.png", basePath: "" });
+  assert.match(rootHtml, /href="\/tags\/">Tags<\/a>/);
+  const prefixedHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og.png", basePath: "/techmap" });
+  assert.match(prefixedHtml, /href="\/techmap\/tags\/">Tags<\/a>/);
+});
+
+test("renderTagsIndexPage lists top tags ranked by stars, with project count and star total", () => {
+  const topTags = [
+    { tag: "python", projectCount: 30, totalStars: 900000, rank: 1 },
+    { tag: "machine-learning", projectCount: 12, totalStars: 500000, rank: 2 },
+  ];
+  const html = renderTagsIndexPage(topTags, {}, { defaultOgImage: "/og.png" });
+  assert.match(html, /Top tags/);
+  assert.match(html, /href="\/tags\/python\/"/);
+  assert.match(html, /30 projects/);
+  assert.match(html, /900,000/);
+});
+
+test("renderTagsIndexPage renders all three rising windows, only the 7-day one visible initially", () => {
+  const risingTagsByWindow = {
+    7: [{ tag: "rust", projectCount: 4, totalStars: 1000, rank: 1, growth: growth({ percentDelta: 5 }) }],
+    30: [{ tag: "zig", projectCount: 4, totalStars: 1000, rank: 1, growth: growth({ percentDelta: 12 }) }],
+    90: [{ tag: "go", projectCount: 4, totalStars: 1000, rank: 1, growth: growth({ percentDelta: 8 }) }],
+  };
+  const html = renderTagsIndexPage([], risingTagsByWindow, { defaultOgImage: "/og.png" });
+  const day7 = html.match(/<div class="rising-rows" data-window="7">([\s\S]*?)<\/div>/)[1];
+  const day30 = html.match(/<div class="rising-rows" data-window="30" hidden>([\s\S]*?)<\/div>/)[1];
+  assert.match(day7, /rust/);
+  assert.match(day30, /zig/);
+});
+
+test("renderTagsIndexPage shows a not-ready placeholder for a window with no eligible rising tags", () => {
+  const html = renderTagsIndexPage([], { 7: [] }, { defaultOgImage: "/og.png" });
+  assert.match(html, /Not enough star-history yet for this window\./);
+});
+
+test("renderTagsIndexPage shows a placeholder when there are no top tags at all", () => {
+  const html = renderTagsIndexPage([], {}, { defaultOgImage: "/og.png" });
+  assert.match(html, /No tags yet\./);
+});
+
+test("renderTagsIndexPage's canonical/og:url point at /tags/, respecting BASE_PATH", () => {
+  const html = renderTagsIndexPage([], {}, { defaultOgImage: "/og.png", siteUrl: "https://awesomemap.dev", basePath: "/techmap" });
+  assert.match(html, /rel="canonical" href="https:\/\/awesomemap\.dev\/techmap\/tags\/"/);
+});
+
+test("renderTagPage lists projects in the caller's order, with domain badges and star counts", () => {
+  const projects = [
+    { id: "a/a", name: "A", link: "https://a.example", weight: 500, image: "https://img/a.png", domainShort: "AI" },
+    { id: "b/b", name: "B", link: "https://b.example", weight: 200, domainShort: "Web" },
+  ];
+  const html = renderTagPage("machine-learning", projects, { hasEnoughHistory: false, oldestDate: null }, { defaultOgImage: "/og.png" });
+  assert.match(html, /<h1>machine-learning<\/h1>/);
+  assert.match(html, /2 projects tagged/);
+  assert.match(html, /★ 700 combined/);
+  assert.match(html, /href="https:\/\/a\.example"/);
+  assert.match(html, />AI</);
+  assert.match(html, />Web</);
+});
+
+test("renderTagPage shows the default-window growth stat when the tag group is tracked", () => {
+  const projects = [{ id: "a/a", name: "A", link: "https://a.example", weight: 500 }];
+  const html = renderTagPage("rust", projects, growth({ percentDelta: 3.2 }), { defaultOgImage: "/og.png" });
+  assert.match(html, /\+3\.2%/);
+});
+
+test("renderTagPage reports 'Not tracked yet' rather than a fabricated 0% when the tag group has no history", () => {
+  const projects = [{ id: "a/a", name: "A", link: "https://a.example", weight: 500 }];
+  const html = renderTagPage("rust", projects, { hasEnoughHistory: false, oldestDate: null }, { defaultOgImage: "/og.png" });
+  assert.match(html, /Not tracked yet/);
+});
+
+test("renderTagPage emits an ItemList JSON-LD block with a ListItem per linked project", () => {
+  const projects = [{ id: "a/a", name: "A", link: "https://a.example", weight: 500 }];
+  const html = renderTagPage("rust", projects, { hasEnoughHistory: false, oldestDate: null }, {
+    defaultOgImage: "/og.png",
+    siteUrl: "https://awesomemap.dev",
+  });
+  const jsonLdMatch = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/);
+  const jsonLd = JSON.parse(jsonLdMatch[1]);
+  assert.equal(jsonLd["@type"], "ItemList");
+  assert.equal(jsonLd.itemListElement[0].name, "A");
+});
+
+test("renderTagPage's canonical/og:url use tagSlug and respect BASE_PATH", () => {
+  const html = renderTagPage("c++", [], { hasEnoughHistory: false, oldestDate: null }, {
+    defaultOgImage: "/og.png",
+    siteUrl: "https://awesomemap.dev",
+    basePath: "/techmap",
+  });
+  assert.match(html, /rel="canonical" href="https:\/\/awesomemap\.dev\/techmap\/tags\/c%2B%2B\/"/);
+});
+
+test("renderTagPage handles a project with no link by falling back to '#' rather than throwing", () => {
+  const projects = [{ id: "a/a", name: "A", weight: 500 }];
+  assert.doesNotThrow(() => renderTagPage("rust", projects, { hasEnoughHistory: false, oldestDate: null }, { defaultOgImage: "/og.png" }));
 });
 

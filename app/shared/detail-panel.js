@@ -1,6 +1,32 @@
 import { githubRepoUrl, formatStarCount, starHistoryFor, buildSparklinePath, starHistoryCaption } from "./star-history.js";
 
 /**
+ * Turns a raw tag string into its URL path segment. Mirrors
+ * `render-page.mjs`'s identical `tagSlug` — duplicated rather than
+ * shared, since this file runs in the browser and can't import the
+ * server-side module; both sides are a one-line `encodeURIComponent`, so
+ * the duplication is cheap to keep in sync.
+ */
+function tagSlug(tag) {
+  return encodeURIComponent(tag);
+}
+
+/** Builds the row of tag chips shown on a project's detail panel, or `null` when it has no tags. Each chip links to that tag's `/tags/<slug>/` page. */
+function renderTagChips(tags, basePath) {
+  if (!Array.isArray(tags) || tags.length === 0) return null;
+  const list = document.createElement("div");
+  list.className = "detail-panel-tags";
+  for (const tag of tags) {
+    const chip = document.createElement("a");
+    chip.className = "detail-panel-tag";
+    chip.href = `${basePath}/tags/${tagSlug(tag)}/`;
+    chip.textContent = tag;
+    list.appendChild(chip);
+  }
+  return list;
+}
+
+/**
  * Creates a slide-in detail panel appended to `container`. A leaf's
  * `image`, when present, is already a direct URL into its source repo.
  * `leafData` passed to `open()` may carry an `activeSizeKey` field (set by
@@ -11,7 +37,7 @@ import { githubRepoUrl, formatStarCount, starHistoryFor, buildSparklinePath, sta
  * lazily and cached on first use to draw a leaf's star-history sparkline.
  * Returns { open(leafData), close() }.
  */
-export function createDetailPanel(container, { historyUrl } = {}) {
+export function createDetailPanel(container, { historyUrl, basePath = "" } = {}) {
   const panel = document.createElement("aside");
   panel.className = "detail-panel";
   container.appendChild(panel);
@@ -100,6 +126,9 @@ export function createDetailPanel(container, { historyUrl } = {}) {
       desc.textContent = leafData.desc;
       panel.appendChild(desc);
     }
+
+    const tagList = renderTagChips(leafData.tags, basePath);
+    if (tagList) panel.appendChild(tagList);
 
     if (leafData.id) {
       const starsLink = document.createElement("a");

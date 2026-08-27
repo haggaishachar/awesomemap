@@ -4,6 +4,54 @@ Ongoing, non-urgent improvement ideas for awesomemap.dev, gathered from a
 review of the live site and generator source on 2026-08-19. Not a
 commitment or a schedule — a running list to pull from.
 
+## Flow & conversion
+
+Added from a user-perspective walkthrough of the live site and source on
+2026-08-28, focused on where visitors get stuck or leave earlier than they
+need to.
+
+- [ ] Point leaderboard rows at the internal project page instead of the
+      project's external homepage. `renderRisingRow` in
+      `scripts/render-page.mjs` links each row's name to `entry.link`
+      (sourced from `project.link`) — on the homepage teaser and the full
+      `/rising/` page alike — so the site's most shareable surface sends
+      visitors straight off-domain before they ever see the description,
+      star-history sparkline, domain rank, or tags that live on
+      `/projects/<id>/` (and in the treemap's detail panel,
+      `app/shared/detail-panel.js`). Link the name internally and let that
+      page be the one that sends people onward to GitHub/homepage.
+- [ ] Give category and leaf boxes a distinct visual affordance.
+      `.treemap-category` and `.treemap-leaf` (`app/shared/treemap.css`)
+      share the same chrome and both use `cursor: pointer` — a category
+      click zooms in, a leaf click opens the detail panel, and nothing
+      distinguishes the two until you click. A corner chevron/folder glyph
+      on categories (or a subtly different border) would remove the
+      guesswork on a visitor's first interaction.
+- [ ] Reflect zoom depth and mode/window in the URL. `zoomTo`/
+      `zoomToOthers` in `app/shared/treemap.js` never call
+      `history.pushState` — so a zoomed-in view can't be shared or
+      bookmarked, and on mobile the back button/gesture exits the page
+      instead of stepping back one zoom level the way users expect.
+- [ ] Add a backdrop-click / Escape dismissal to the detail panel.
+      `createDetailPanel` (`app/shared/detail-panel.js`) only wires close
+      to the `×` button and to a mode switch — on narrow viewports the
+      panel is a fixed 320px slide-in with only that small button as an
+      escape hatch.
+- [ ] Surface a note when a mode/window switch relocates focus out of an
+      "Others" bucket. `findNodeByIdPath` in `app/shared/treemap.js`
+      intentionally bounces focus up to the real parent category when
+      Others' synthetic id doesn't survive a Popular/Rising switch (its
+      membership isn't stable across sizing modes) — correct behavior, but
+      silent, so it can read as "where did my view go?" A brief transient
+      note would close the gap.
+- [ ] Explain Popular/Rising and box sizing on pages reached without going
+      through the homepage first. The tagline on `/` (in
+      `scripts/render-page.mjs`) is the only place that spells out what the
+      mode toggle and box size represent — a domain page or `/rising/`
+      reached via search or a shared link has no equivalent, just the mode
+      bar itself. A small "?" affordance near the mode bar would cover
+      that entry path.
+
 ## SEO
 
 - [x] Add a plain `<meta name="description">` to the page shell

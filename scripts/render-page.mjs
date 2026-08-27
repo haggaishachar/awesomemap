@@ -766,7 +766,7 @@ function renderProjectBreadcrumb(project, domain, basePath) {
     `<a href="${basePath}/${escapeHtml(domain.slug)}/">${escapeHtml(domain.shortName ?? domain.name)}</a>`,
     ...(project.path ?? []).map((segment) => `<span>${escapeHtml(segment)}</span>`),
   ];
-  return `<nav class="project-breadcrumb" aria-label="Breadcrumb">${crumbs.join(" › ")}</nav>`;
+  return `<nav class="project-breadcrumb" aria-label="Breadcrumb">${crumbs.join('<span aria-hidden="true"> › </span>')}</nav>`;
 }
 
 /**
@@ -817,7 +817,7 @@ function renderProjectTagChips(tags, basePath) {
  */
 export function renderProjectPage(
   project,
-  { domain, signal, historySeries = [], defaultOgImage, siteUrl = "", basePath = "" }
+  { domain, signal = {}, historySeries = [], defaultOgImage, siteUrl = "", basePath = "" }
 ) {
   const ogUrl = `${siteUrl}${basePath}/projects/${project.id}/`;
   const jsonLd = renderJsonLd(
@@ -851,7 +851,7 @@ export function renderProjectPage(
       <div class="project-momentum-grid">${momentumChips}</div>
       ${renderProjectStarChart(historySeries)}
       <div class="project-links">
-        <a class="detail-panel-stars" href="${githubRepoUrl(project.id)}" target="_blank" rel="noopener">★ ${formatStars(project.weight ?? 0)} stars on GitHub</a>
+        <a class="detail-panel-stars" href="${escapeHtml(githubRepoUrl(project.id))}" target="_blank" rel="noopener">★ ${formatStars(project.weight ?? 0)} stars on GitHub</a>
         ${project.link ? `<a class="detail-panel-link" href="${escapeHtml(project.link)}" target="_blank" rel="noopener">Visit site ↗</a>` : ""}
       </div>
       ${renderProjectTagChips(project.tags, basePath)}

@@ -320,7 +320,7 @@ mkdirSync(`${DIST_DIR}/projects`, { recursive: true });
 const projectPagePaths = [];
 for (const project of allProjectsWithDomain) {
   const idParts = project.id.split("/");
-  if (idParts.length !== 2 || idParts.some((part) => part.length === 0)) {
+  if (idParts.length !== 2 || idParts.some((part) => !/^[A-Za-z0-9._-]+$/.test(part))) {
     throw new Error(`project "${project.id}": "id" must be a GitHub "owner/repo" shorthand to build its /projects/ page`);
   }
 

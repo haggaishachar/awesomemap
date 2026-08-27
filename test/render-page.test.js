@@ -202,9 +202,26 @@ test("renderRisingPage renders a row per leaderboard entry, with rank, arrow, an
   };
   const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
   assert.match(html, /<span class="rising-row-rank">1<\/span>/);
-  assert.match(html, /<a class="rising-row-name" href="https:\/\/a\.example">Project A<\/a>/);
+  assert.match(html, /<a class="rising-row-name" href="\/projects\/a\/a\/">Project A<\/a>/);
   assert.match(html, /rising-row-up">▲1<\/span>/);
   assert.match(html, /\+40 \(\+40\.0%\)/);
+});
+
+test("renderRisingPage's row links point at the project's own internal page (prefixed by BASE_PATH), not its external homepage — so visitors see the description, sparkline, and tags before leaving the site", () => {
+  const domains = [{ slug: "data-science", name: "Data Science" }];
+  const leaderboardsByWindow = {
+    7: {
+      global: [
+        { rank: 1, id: "a/a", name: "Project A", link: "https://a.example", domain: "Data Science", starDelta: 40, percentDelta: 40, rankDelta: 1 },
+      ],
+      "data-science": [],
+    },
+    30: { global: [], "data-science": [] },
+    90: { global: [], "data-science": [] },
+  };
+  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
+  assert.match(html, /<a class="rising-row-name" href="\/techmap\/projects\/a\/a\/">Project A<\/a>/);
+  assert.doesNotMatch(html, /href="https:\/\/a\.example"/);
 });
 
 test("renderRisingPage's rows show the repo id and the domain's short name, and carry the domain's slug for filtering", () => {
@@ -334,6 +351,13 @@ test("renderDomainPage renders a teaser section below the map, linking to that d
   assert.ok(html.indexOf('id="app"') < html.indexOf('class="rising-teaser"'));
 });
 
+test("renderDomainPage's teaser row links at the project's internal page, prefixed by BASE_PATH", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const teaser = [{ rank: 1, id: "a/a", name: "Project A", link: "https://a.example", domain: "Data Science", starDelta: 40, percentDelta: 40, rankDelta: 0 }];
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "/techmap", teaser });
+  assert.match(html, /<a class="rising-row-name" href="\/techmap\/projects\/a\/a\/">Project A<\/a>/);
+});
+
 test("renderDomainPage's embed variant has no teaser section", () => {
   const domain = { slug: "data-science", name: "Data Science", description: "desc" };
   const teaser = [{ rank: 1, id: "a/a", name: "Project A", link: "https://a.example", domain: "Data Science", starDelta: 40, percentDelta: 40, rankDelta: 0 }];
@@ -347,6 +371,16 @@ test("renderLandingPage renders a global teaser section between the hero and the
   assert.match(html, /class="rising-teaser-link" href="\/rising\/"/);
   assert.ok(html.indexOf('class="hero"') < html.indexOf('class="rising-teaser"'));
   assert.ok(html.indexOf('class="rising-teaser"') < html.indexOf('class="map-grid"'));
+});
+
+test("renderLandingPage's teaser row links at the project's internal page, prefixed by BASE_PATH", () => {
+  const teaser = [{ rank: 1, id: "a/a", name: "Project A", link: "https://a.example", domain: "Data Science", starDelta: 40, percentDelta: 40, rankDelta: 0 }];
+  const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], {
+    defaultOgImage: "/og-default.png",
+    basePath: "/techmap",
+    teaser,
+  });
+  assert.match(html, /<a class="rising-row-name" href="\/techmap\/projects\/a\/a\/">Project A<\/a>/);
 });
 
 test("renderLandingPage's hero includes a quick-jump link per domain, using its short name", () => {

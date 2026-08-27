@@ -10,7 +10,7 @@ Added from a user-perspective walkthrough of the live site and source on
 2026-08-28, focused on where visitors get stuck or leave earlier than they
 need to.
 
-- [ ] Point leaderboard rows at the internal project page instead of the
+- [x] Point leaderboard rows at the internal project page instead of the
       project's external homepage. `renderRisingRow` in
       `scripts/render-page.mjs` links each row's name to `entry.link`
       (sourced from `project.link`) — on the homepage teaser and the full

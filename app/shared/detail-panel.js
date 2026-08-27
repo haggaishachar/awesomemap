@@ -1,5 +1,14 @@
 import { githubRepoUrl, formatStarCount, starHistoryFor, buildSparklinePath, starHistoryCaption } from "./star-history.js";
 
+// Popular mode has no "active" rising window of its own, but every leaf
+// still carries growth data for every window (see velocity.mjs's
+// computeProjectSizing) — defaulting to the shortest window here is what
+// makes momentum visible in Popular mode, not just Rising mode. Duplicated
+// from scripts/velocity.mjs's RISING_WINDOWS_DAYS[0] rather than imported,
+// for the same reason treemap.js's own copy of that list is duplicated:
+// scripts/ is build-time-only and never copied into dist/.
+const DEFAULT_MOMENTUM_WINDOW_DAYS = 7;
+
 /**
  * Turns a raw tag string into its URL path segment. Mirrors
  * `render-page.mjs`'s identical `tagSlug` — duplicated rather than
@@ -37,7 +46,7 @@ function renderTagChips(tags, basePath) {
  * lazily and cached on first use to draw a leaf's star-history sparkline.
  * Returns { open(leafData), close() }.
  */
-export function createDetailPanel(container, { historyUrl, basePath = "" } = {}) {
+export function createDetailPanel(container, { historyUrl, basePath = "", showProjectPageLink = true } = {}) {
   const panel = document.createElement("aside");
   panel.className = "detail-panel";
   container.appendChild(panel);
@@ -156,6 +165,14 @@ export function createDetailPanel(container, { historyUrl, basePath = "" } = {})
       panel.appendChild(link);
     }
 
+    if (showProjectPageLink && leafData.id) {
+      const projectLink = document.createElement("a");
+      projectLink.className = "detail-panel-link";
+      projectLink.href = `${basePath}/projects/${leafData.id}/`;
+      projectLink.textContent = "View full project page →";
+      panel.appendChild(projectLink);
+    }
+
     panel.classList.add("detail-panel-open");
   }
 
@@ -163,14 +180,18 @@ export function createDetailPanel(container, { historyUrl, basePath = "" } = {})
 }
 
 /**
- * Builds the Rising-mode growth line ("+340 stars (+18%) in 30 days", or
- * an insufficient-history notice) for `leafData.activeSizeKey`. Returns
- * `null` for Popular mode (no `activeSizeKey`, or `"popular"`) — there's
- * no growth stat to show there.
+ * Builds the growth line ("+340 stars (+18%) in 30 days", or an
+ * insufficient-history notice) for `leafData.activeSizeKey`. In Popular
+ * mode (no `activeSizeKey`, or `"popular"`) this falls back to
+ * DEFAULT_MOMENTUM_WINDOW_DAYS rather than showing nothing — Popular is the
+ * mode every visitor lands in by default, so it's the one place a momentum
+ * blind spot mattered most.
  */
 function renderGrowthLine(leafData) {
-  const key = leafData.activeSizeKey;
-  if (!key || key === "popular") return null;
+  const key =
+    leafData.activeSizeKey && leafData.activeSizeKey !== "popular"
+      ? leafData.activeSizeKey
+      : `rising${DEFAULT_MOMENTUM_WINDOW_DAYS}`;
 
   const paragraph = document.createElement("p");
   paragraph.className = "detail-panel-growth";

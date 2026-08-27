@@ -1,7 +1,8 @@
 import { readFileSync } from "node:fs";
 import { RISING_WINDOWS_DAYS } from "./velocity.mjs";
 import { rankGroups } from "./group-growth.mjs";
-import { buildWebsiteJsonLd, buildItemListJsonLd } from "./seo.mjs";
+import { buildWebsiteJsonLd, buildItemListJsonLd, buildSoftwareSourceCodeJsonLd } from "./seo.mjs";
+import { githubRepoUrl, buildSparklinePath, starHistoryCaption } from "../app/shared/star-history.js";
 
 const TEMPLATE = readFileSync(new URL("../app/index.html.template", import.meta.url), "utf8");
 
@@ -136,7 +137,7 @@ export function renderDomainPage(
       import { mountTreemap } from "${basePath}/shared/treemap.js";
       import { createDetailPanel } from "${basePath}/shared/detail-panel.js";
       const mapData = JSON.parse(document.getElementById("map-data").textContent);
-      const panel = createDetailPanel(document.body, { historyUrl: "${historyUrl}", basePath: "${basePath}" });
+      const panel = createDetailPanel(document.body, { historyUrl: "${historyUrl}", basePath: "${basePath}", showProjectPageLink: ${!embed} });
       mountTreemap(
         document.getElementById("app"),
         mapData,
@@ -732,6 +733,136 @@ export function renderTagPage(tag, projects, growth, { defaultOgImage, siteUrl =
     title: `${tag} — awesomemap`,
     ogTitle: `${tag} — awesomemap`,
     ogDescription: `${projects.length} open-source ${projectWord} tagged ${tag} on awesomemap.`,
+    ogImage: defaultOgImage,
+    ogUrl,
+    base: basePath,
+    body,
+  });
+}
+
+/**
+ * Merges a project's parallel `growth`/`hasEnoughHistory` objects (as built
+ * by `computeProjectSizing` in velocity.mjs, kept separate for the
+ * treemap's own sizing use) into the single `{ ...growth, hasEnoughHistory
+ * }` shape `renderMomentumStat` expects — the same shape a
+ * `computeGroupGrowth` result already carries inline.
+ */
+function projectGrowthStat(project, windowDays) {
+  const key = `rising${windowDays}`;
+  return { ...project.growth?.[key], hasEnoughHistory: project.hasEnoughHistory?.[key] === true };
+}
+
+/**
+ * Renders a project page's breadcrumb: Home, its canonical domain, then
+ * every level of its category path (e.g. two segments for the
+ * artificial-intelligence domain's nested categories) — a display-only
+ * walk of `project.path`. The signal's category-relative comparison (built
+ * in generate.mjs) is always pinned to `path[0]` regardless of how many
+ * levels render here.
+ */
+function renderProjectBreadcrumb(project, domain, basePath) {
+  const crumbs = [
+    `<a href="${basePath}/">Home</a>`,
+    `<a href="${basePath}/${escapeHtml(domain.slug)}/">${escapeHtml(domain.shortName ?? domain.name)}</a>`,
+    ...(project.path ?? []).map((segment) => `<span>${escapeHtml(segment)}</span>`),
+  ];
+  return `<nav class="project-breadcrumb" aria-label="Breadcrumb">${crumbs.join('<span aria-hidden="true"> › </span>')}</nav>`;
+}
+
+/**
+ * Server-rendered star-history sparkline for a project page — reuses the
+ * same SVG path math app/shared/star-history.js already provides for the
+ * client-side detail panel (a static page has no client fetch to lazily
+ * draw it from). `historySeries` is `starHistoryFor`'s output (oldest-first
+ * `{date, stars}[]`). Renders nothing when there are fewer than 2 points,
+ * matching `buildSparklinePath`'s own "nothing to draw" convention.
+ */
+function renderProjectStarChart(historySeries) {
+  const spark = buildSparklinePath(historySeries);
+  if (!spark) return "";
+  const caption = starHistoryCaption(historySeries);
+  return `
+    <div class="detail-panel-star-chart">
+      <svg class="detail-panel-star-chart-svg" viewBox="0 0 ${spark.width} ${spark.height}" width="${spark.width}" height="${spark.height}">
+        <path d="${spark.path}" />
+      </svg>
+      <p class="detail-panel-star-chart-caption">${escapeHtml(caption)}</p>
+    </div>`;
+}
+
+/**
+ * Server-rendered tag chips for a project page — same visual/routing
+ * convention as the detail panel's client-rendered chips
+ * (app/shared/detail-panel.js's renderTagChips), reimplemented as an HTML
+ * string since this runs at build time, not in the browser.
+ */
+function renderProjectTagChips(tags, basePath) {
+  if (!Array.isArray(tags) || tags.length === 0) return "";
+  const chips = tags
+    .map((tag) => `<a class="detail-panel-tag" href="${basePath}/tags/${tagSlug(tag)}/">${escapeHtml(tag)}</a>`)
+    .join("");
+  return `<div class="detail-panel-tags">${chips}</div>`;
+}
+
+/**
+ * Renders one project's canonical page — the shareable, indexable home for
+ * a project that today only exists as ephemeral detail-panel state inside
+ * one domain's treemap. `project` is a sized project record (see
+ * velocity.mjs's `computeProjectSizing` — `growth`/`hasEnoughHistory` keyed
+ * per rising window). `domain` is `{ slug, name, shortName }` — the
+ * project's canonical domain (see generate.mjs's last-write-wins dedup).
+ * `signal` is an `explainSignal` result (scripts/signal.mjs), already
+ * computed by the caller. `historySeries` is `starHistoryFor`'s output for
+ * this project.
+ */
+export function renderProjectPage(
+  project,
+  { domain, signal = {}, historySeries = [], defaultOgImage, siteUrl = "", basePath = "" }
+) {
+  const ogUrl = `${siteUrl}${basePath}/projects/${project.id}/`;
+  const jsonLd = renderJsonLd(
+    buildSoftwareSourceCodeJsonLd({
+      name: project.name ?? project.id,
+      description: project.desc ?? "",
+      url: ogUrl,
+      codeRepository: githubRepoUrl(project.id),
+    })
+  );
+
+  const momentumChips = RISING_WINDOWS_DAYS.map(
+    (windowDays) => `
+      <div class="project-momentum-chip">
+        <span class="project-momentum-chip-window">${windowDays}d</span>
+        ${renderMomentumStat(projectGrowthStat(project, windowDays), { windowDays })}
+      </div>`
+  ).join("");
+
+  const body = `
+    ${renderSiteHeader(basePath)}
+    ${jsonLd}
+    <header class="project-hero">
+      ${renderProjectBreadcrumb(project, domain, basePath)}
+      ${project.image ? `<img class="detail-panel-logo" src="${escapeHtml(project.image)}" alt="" loading="lazy" />` : ""}
+      <h1>${escapeHtml(project.name ?? project.id)}</h1>
+      ${project.desc ? `<p class="project-hero-desc">${escapeHtml(project.desc)}</p>` : ""}
+      ${signal.headline ? `<p class="project-signal">${escapeHtml(signal.headline)}</p>` : ""}
+    </header>
+    <div class="project-body">
+      <div class="project-momentum-grid">${momentumChips}</div>
+      ${renderProjectStarChart(historySeries)}
+      <div class="project-links">
+        <a class="detail-panel-stars" href="${escapeHtml(githubRepoUrl(project.id))}" target="_blank" rel="noopener">★ ${formatStars(project.weight ?? 0)} stars on GitHub</a>
+        ${project.link ? `<a class="detail-panel-link" href="${escapeHtml(project.link)}" target="_blank" rel="noopener">Visit site ↗</a>` : ""}
+      </div>
+      ${renderProjectTagChips(project.tags, basePath)}
+    </div>
+    ${renderSiteFooter()}
+  `;
+
+  return renderShell({
+    title: `${project.name ?? project.id} — awesomemap`,
+    ogTitle: project.name ?? project.id,
+    ogDescription: project.desc ?? "",
     ogImage: defaultOgImage,
     ogUrl,
     base: basePath,

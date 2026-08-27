@@ -1,6 +1,14 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { renderDomainPage, renderLandingPage, renderRisingPage, renderTagsIndexPage, renderTagPage, tagSlug } from "../scripts/render-page.mjs";
+import {
+  renderDomainPage,
+  renderLandingPage,
+  renderRisingPage,
+  renderTagsIndexPage,
+  renderTagPage,
+  renderProjectPage,
+  tagSlug,
+} from "../scripts/render-page.mjs";
 
 const ROOT_TREE = { id: "data-science", name: "Data Science", children: [] };
 
@@ -55,12 +63,24 @@ test("BASE_PATH is prefixed onto every emitted path, and defaults to root-relati
 test("the detail panel is created with a historyUrl pointing at the domain's own history.json, prefixed by BASE_PATH", () => {
   const domain = { slug: "data-science", name: "Data Science", description: "desc" };
   const rootHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "" });
-  assert.match(rootHtml, /createDetailPanel\(document\.body, \{ historyUrl: "\/data-science\/history\.json", basePath: "" \}\)/);
+  assert.match(
+    rootHtml,
+    /createDetailPanel\(document\.body, \{ historyUrl: "\/data-science\/history\.json", basePath: "", showProjectPageLink: true \}\)/
+  );
 
   const prefixedHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
   assert.match(
     prefixedHtml,
-    /createDetailPanel\(document\.body, \{ historyUrl: "\/techmap\/data-science\/history\.json", basePath: "\/techmap" \}\)/
+    /createDetailPanel\(document\.body, \{ historyUrl: "\/techmap\/data-science\/history\.json", basePath: "\/techmap", showProjectPageLink: true \}\)/
+  );
+});
+
+test("the embed variant's detail panel has showProjectPageLink set to false", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "", embed: true });
+  assert.match(
+    html,
+    /createDetailPanel\(document\.body, \{ historyUrl: "\/data-science\/history\.json", basePath: "", showProjectPageLink: false \}\)/
   );
 });
 
@@ -647,5 +667,123 @@ test("renderTagPage's canonical/og:url use tagSlug and respect BASE_PATH", () =>
 test("renderTagPage handles a project with no link by falling back to '#' rather than throwing", () => {
   const projects = [{ id: "a/a", name: "A", weight: 500 }];
   assert.doesNotThrow(() => renderTagPage("rust", projects, { hasEnoughHistory: false, oldestDate: null }, { defaultOgImage: "/og.png" }));
+});
+
+const PROJECT = {
+  id: "ggerganov/llama.cpp",
+  name: "llama.cpp",
+  desc: "Inference of LLaMA and other large language models in pure C/C++",
+  weight: 125701,
+  image: "https://avatars.githubusercontent.com/u/1?v=4",
+  link: "https://github.com/ggerganov/llama.cpp",
+  tags: ["ggml"],
+  path: ["LLM Infrastructure", "LLM Frameworks & Runtimes"],
+  growth: {
+    rising7: { starDelta: 500, percentDelta: 0.4, oldestDate: "2026-08-01" },
+    rising30: { starDelta: 2000, percentDelta: 1.6, oldestDate: "2026-07-01" },
+    rising90: { starDelta: 6000, percentDelta: 5.0, oldestDate: "2026-05-01" },
+  },
+  hasEnoughHistory: { rising7: true, rising30: true, rising90: true },
+};
+
+const PROJECT_DOMAIN = { slug: "artificial-intelligence", name: "Artificial Intelligence", shortName: "AI" };
+
+const NO_SIGNAL = { sustained: null, relativeMultiple: null, headline: null };
+
+test("renderProjectPage renders a momentum chip for each rising window", () => {
+  const html = renderProjectPage(PROJECT, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
+  assert.match(html, /project-momentum-chip-window">7d</);
+  assert.match(html, /project-momentum-chip-window">30d</);
+  assert.match(html, /project-momentum-chip-window">90d</);
+  assert.match(html, /\+500/);
+  assert.match(html, /\+6,000/);
+});
+
+test("renderProjectPage renders the signal headline when present, and omits the element when null", () => {
+  const withSignal = renderProjectPage(PROJECT, {
+    domain: PROJECT_DOMAIN,
+    signal: { sustained: true, relativeMultiple: 3.2, headline: "Growing steadily, 3.2× faster than LLM Infrastructure this week" },
+    defaultOgImage: "/og-default.png",
+  });
+  assert.match(withSignal, /class="project-signal">Growing steadily, 3\.2× faster than LLM Infrastructure this week</);
+
+  const withoutSignal = renderProjectPage(PROJECT, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
+  assert.doesNotMatch(withoutSignal, /class="project-signal"/);
+});
+
+test("renderProjectPage includes SoftwareSourceCode JSON-LD with the project's name, description, and GitHub URL", () => {
+  const html = renderProjectPage(PROJECT, {
+    domain: PROJECT_DOMAIN,
+    signal: NO_SIGNAL,
+    defaultOgImage: "/og-default.png",
+    siteUrl: "https://example.com",
+    basePath: "",
+  });
+  assert.match(html, /"@type":"SoftwareSourceCode"/);
+  assert.match(html, /"name":"llama\.cpp"/);
+  assert.match(html, /"codeRepository":"https:\/\/github\.com\/ggerganov\/llama\.cpp"/);
+  assert.match(html, /"url":"https:\/\/example\.com\/projects\/ggerganov\/llama\.cpp\/"/);
+});
+
+test("renderProjectPage's breadcrumb links to the domain page and lists every level of the project's category path", () => {
+  const html = renderProjectPage(PROJECT, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png", basePath: "" });
+  assert.match(html, /<a href="\/artificial-intelligence\/">AI<\/a>/);
+  assert.match(html, />LLM Infrastructure<\/span>/);
+  assert.match(html, />LLM Frameworks &amp; Runtimes<\/span>/);
+});
+
+test("renderProjectPage renders tag chips linking to /tags/<slug>/", () => {
+  const html = renderProjectPage(PROJECT, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png", basePath: "" });
+  assert.match(html, /class="detail-panel-tag" href="\/tags\/ggml\/">ggml</);
+});
+
+test("renderProjectPage renders a star-history sparkline when given at least two history points, and omits it otherwise", () => {
+  const withHistory = renderProjectPage(PROJECT, {
+    domain: PROJECT_DOMAIN,
+    signal: NO_SIGNAL,
+    defaultOgImage: "/og-default.png",
+    historySeries: [
+      { date: "2026-08-01", stars: 120000 },
+      { date: "2026-08-08", stars: 125701 },
+    ],
+  });
+  assert.match(withHistory, /class="detail-panel-star-chart"/);
+  assert.match(withHistory, /125,701 stars since/);
+
+  const withoutHistory = renderProjectPage(PROJECT, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
+  assert.doesNotMatch(withoutHistory, /class="detail-panel-star-chart"/);
+});
+
+test("renderProjectPage degrades gracefully for a minimal project record with only an id", () => {
+  const minimal = { id: "a/b" };
+  const html = renderProjectPage(minimal, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png", basePath: "" });
+
+  // Title falls back to id.
+  assert.match(html, /<h1>a\/b<\/h1>/);
+  // No tag-chip block.
+  assert.doesNotMatch(html, /class="detail-panel-tags"/);
+  // No "Visit site" link.
+  assert.doesNotMatch(html, /class="detail-panel-link"/);
+  // No hero image.
+  assert.doesNotMatch(html, /class="detail-panel-logo"/);
+  // Breadcrumb shows just Home + domain, no category crumbs.
+  assert.match(html, /<nav class="project-breadcrumb"[^>]*><a href="\/">Home<\/a><span aria-hidden="true"> › <\/span><a href="\/artificial-intelligence\/">AI<\/a><\/nav>/);
+});
+
+test("renderProjectPage's canonical URL is shaped /projects/<id>/, and gets the BASE_PATH prefix", () => {
+  const html = renderProjectPage(PROJECT, {
+    domain: PROJECT_DOMAIN,
+    signal: NO_SIGNAL,
+    defaultOgImage: "/og-default.png",
+    siteUrl: "https://example.com",
+    basePath: "/techmap",
+  });
+  assert.match(html, /<link rel="canonical" href="https:\/\/example\.com\/techmap\/projects\/ggerganov\/llama\.cpp\/"/);
+});
+
+test("renderProjectPage's momentum chip reports 'not tracked yet' for a window with insufficient history", () => {
+  const project = { ...PROJECT, hasEnoughHistory: { rising7: true, rising30: true, rising90: false } };
+  const html = renderProjectPage(project, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
+  assert.match(html, /Not tracked yet — first tracked 2026-05-01/);
 });
 

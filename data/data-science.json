@@ -1219,32 +1219,6 @@
       ]
     },
     {
-      "id": "Microsoft/LightGBM",
-      "path": [
-        "Classic Machine Learning"
-      ],
-      "name": "LightGBM",
-      "link": "https://github.com/Microsoft/LightGBM",
-      "desc": "A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks.",
-      "weight": 18714,
-      "image": "https://avatars.githubusercontent.com/u/266222920?v=4",
-      "tags": [
-        "data-mining",
-        "decision-trees",
-        "distributed",
-        "gbdt",
-        "gbm",
-        "gbrt",
-        "gradient-boosting",
-        "kaggle",
-        "lightgbm",
-        "machine-learning",
-        "parallel",
-        "python",
-        "r"
-      ]
-    },
-    {
       "id": "piskvorky/gensim",
       "path": [
         "Natural Language Processing"

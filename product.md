@@ -20,13 +20,14 @@ need to.
       `/projects/<id>/` (and in the treemap's detail panel,
       `app/shared/detail-panel.js`). Link the name internally and let that
       page be the one that sends people onward to GitHub/homepage.
-- [ ] Give category and leaf boxes a distinct visual affordance.
+- [x] Give category and leaf boxes a distinct visual affordance.
       `.treemap-category` and `.treemap-leaf` (`app/shared/treemap.css`)
       share the same chrome and both use `cursor: pointer` — a category
       click zooms in, a leaf click opens the detail panel, and nothing
-      distinguishes the two until you click. A corner chevron/folder glyph
-      on categories (or a subtly different border) would remove the
-      guesswork on a visitor's first interaction.
+      distinguishes the two until you click. Fixed with a `▸` corner
+      glyph on `.treemap-category` (via `::after`, colored with
+      `--color-accent` so it follows light/dark mode) to signal
+      "zooms into more" before the first click.
 - [ ] Reflect zoom depth and mode/window in the URL. `zoomTo`/
       `zoomToOthers` in `app/shared/treemap.js` never call
       `history.pushState` — so a zoomed-in view can't be shared or

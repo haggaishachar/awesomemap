@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 import { readdirSync, readFileSync, writeFileSync, mkdirSync, copyFileSync, rmSync, cpSync, existsSync } from "node:fs";
 import { buildTree } from "./build-tree.mjs";
-import { renderDomainPage, renderLandingPage, renderRisingPage, renderTagsIndexPage, renderTagPage, tagSlug } from "./render-page.mjs";
+import { renderDomainPage, renderLandingPage, renderRisingPage, renderTagsIndexPage, renderTagPage, renderProjectPage, tagSlug } from "./render-page.mjs";
+import { explainSignal } from "./signal.mjs";
+import { starHistoryFor } from "../app/shared/star-history.js";
 import { computeProjectSizing, findInvalidSizes, RISING_WINDOWS_DAYS } from "./velocity.mjs";
 import { computeLeaderboard } from "./leaderboard.mjs";
 import { computeGroupGrowth, rankGroups } from "./group-growth.mjs";
@@ -309,6 +311,47 @@ for (const { tag, projects } of globalTagGroups) {
   tagPagePaths.push(`/tags/${slug}/`);
 }
 
+// Pass 4: render one canonical page per project — see the project-pages
+// design spec. Reuses the same last-write-wins dedup already computed
+// above for global tag groups (`allProjectsWithDomain`), so a project
+// curated into more than one domain gets exactly one page, attributed to
+// whichever domain won that dedup.
+mkdirSync(`${DIST_DIR}/projects`, { recursive: true });
+const projectPagePaths = [];
+for (const project of allProjectsWithDomain) {
+  const idParts = project.id.split("/");
+  if (idParts.length !== 2 || idParts.some((part) => part.length === 0)) {
+    throw new Error(`project "${project.id}": "id" must be a GitHub "owner/repo" shorthand to build its /projects/ page`);
+  }
+
+  const categoryEntry = categoryGrowthBySlug[project.domainSlug]?.find((category) => category.key === project.path[0]);
+  const signal = explainSignal({
+    growthByWindow: project.growth,
+    hasEnoughHistory: project.hasEnoughHistory,
+    categoryGrowth7d: categoryEntry?.growth,
+    categoryName: categoryEntry?.key,
+  });
+  const historySeries = starHistoryFor(globalHistoryById, project.id);
+
+  // `allProjectsWithDomain` already carries `domainSlug`/`domainShort`
+  // (see the dedup pass above) — `domainShort` is already `domain.shortName
+  // ?? domain.name`, so there's no need to look the domain back up in
+  // `domains` just to re-derive the same fallback.
+  mkdirSync(`${DIST_DIR}/projects/${project.id}`, { recursive: true });
+  writeFileSync(
+    `${DIST_DIR}/projects/${project.id}/index.html`,
+    renderProjectPage(project, {
+      domain: { slug: project.domainSlug, shortName: project.domainShort },
+      signal,
+      historySeries,
+      defaultOgImage: DEFAULT_OG_IMAGE,
+      siteUrl: SITE_URL,
+      basePath: BASE_PATH,
+    })
+  );
+  projectPagePaths.push(`/projects/${project.id}/`);
+}
+
 cpSync(`${APP_DIR}/shared`, `${DIST_DIR}/shared`, { recursive: true });
 cpSync(`${APP_DIR}/vendor`, `${DIST_DIR}/vendor`, { recursive: true });
 copyFileSync(`${APP_DIR}/og-default.png`, `${DIST_DIR}/og-default.png`);
@@ -318,7 +361,7 @@ if (CNAME) writeFileSync(`${DIST_DIR}/CNAME`, `${CNAME}\n`);
 const sitemap = buildSitemap(domains.map((d) => d.slug), {
   siteUrl: SITE_URL,
   basePath: BASE_PATH,
-  extraPaths: ["/tags/", ...tagPagePaths],
+  extraPaths: ["/tags/", ...tagPagePaths, ...projectPagePaths],
 });
 if (sitemap) writeFileSync(`${DIST_DIR}/sitemap.xml`, sitemap);
 writeFileSync(`${DIST_DIR}/robots.txt`, buildRobots({ siteUrl: SITE_URL, basePath: BASE_PATH }));

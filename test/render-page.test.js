@@ -63,12 +63,24 @@ test("BASE_PATH is prefixed onto every emitted path, and defaults to root-relati
 test("the detail panel is created with a historyUrl pointing at the domain's own history.json, prefixed by BASE_PATH", () => {
   const domain = { slug: "data-science", name: "Data Science", description: "desc" };
   const rootHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "" });
-  assert.match(rootHtml, /createDetailPanel\(document\.body, \{ historyUrl: "\/data-science\/history\.json", basePath: "" \}\)/);
+  assert.match(
+    rootHtml,
+    /createDetailPanel\(document\.body, \{ historyUrl: "\/data-science\/history\.json", basePath: "", showProjectPageLink: true \}\)/
+  );
 
   const prefixedHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
   assert.match(
     prefixedHtml,
-    /createDetailPanel\(document\.body, \{ historyUrl: "\/techmap\/data-science\/history\.json", basePath: "\/techmap" \}\)/
+    /createDetailPanel\(document\.body, \{ historyUrl: "\/techmap\/data-science\/history\.json", basePath: "\/techmap", showProjectPageLink: true \}\)/
+  );
+});
+
+test("the embed variant's detail panel has showProjectPageLink set to false", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "", embed: true });
+  assert.match(
+    html,
+    /createDetailPanel\(document\.body, \{ historyUrl: "\/data-science\/history\.json", basePath: "", showProjectPageLink: false \}\)/
   );
 });
 

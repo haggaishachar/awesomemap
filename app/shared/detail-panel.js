@@ -39,12 +39,18 @@ function renderTagChips(tags, basePath) {
  * Creates a slide-in detail panel appended to `container`. A leaf's
  * `image`, when present, is already a direct URL into its source repo.
  * `leafData` passed to `open()` may carry an `activeSizeKey` field (set by
- * treemap.js) naming the size mode active when the leaf was clicked; when
- * it's a "rising*" key, a growth-stat line is shown using the leaf's
- * `growth`/`hasEnoughHistory` data for that window. `historyUrl`, when
- * given, is the domain's `history.json` (see render-page.mjs) — fetched
- * lazily and cached on first use to draw a leaf's star-history sparkline.
- * Returns { open(leafData), close() }.
+ * treemap.js) naming the size mode active when the leaf was clicked; a
+ * growth-stat line is always shown, using the leaf's `growth`/
+ * `hasEnoughHistory` data for whichever window is active — when
+ * `activeSizeKey` names a "rising*" key that window is used, otherwise
+ * (Popular mode, which has no "active" rising window of its own) it falls
+ * back to `DEFAULT_MOMENTUM_WINDOW_DAYS`. `historyUrl`, when given, is the
+ * domain's `history.json` (see render-page.mjs) — fetched lazily and
+ * cached on first use to draw a leaf's star-history sparkline.
+ * `showProjectPageLink` (default `true`) controls whether a "View full
+ * project page" link to the leaf's `/projects/<id>/` page is rendered;
+ * pass `false` when embedding the panel somewhere that page would be
+ * redundant (e.g. the project page itself). Returns { open(leafData), close() }.
  */
 export function createDetailPanel(container, { historyUrl, basePath = "", showProjectPageLink = true } = {}) {
   const panel = document.createElement("aside");

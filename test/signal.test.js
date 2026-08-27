@@ -146,3 +146,21 @@ test("headline is null when neither signal is available", () => {
   });
   assert.equal(result.headline, null);
 });
+
+test("relativeMultiple is null when the project grew slower than its category, even though both are positive", () => {
+  const result = explainSignal({
+    growthByWindow: { rising7: growth(2, 1), rising30: growth(2, 1), rising90: growth(2, 1) },
+    hasEnoughHistory: ALL_TRACKED,
+    categoryGrowth7d: { hasEnoughHistory: true, percentDelta: 5 },
+  });
+  assert.equal(result.relativeMultiple, null);
+});
+
+test("relativeMultiple is exactly 1 when the project matched its category's growth rate exactly", () => {
+  const result = explainSignal({
+    growthByWindow: { rising7: growth(10, 5), rising30: growth(10, 5), rising90: growth(10, 5) },
+    hasEnoughHistory: ALL_TRACKED,
+    categoryGrowth7d: { hasEnoughHistory: true, percentDelta: 5 },
+  });
+  assert.equal(result.relativeMultiple, 1);
+});

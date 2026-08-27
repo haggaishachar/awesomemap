@@ -48,7 +48,9 @@ function computeSustained(growthByWindow, hasEnoughHistory) {
  * meaningful: the project's own 7-day growth isn't tracked or isn't
  * positive (nothing to call "faster"), or the category's isn't tracked or
  * isn't positive (dividing by a flat/shrinking baseline isn't a real
- * "faster than" claim).
+ * "faster than" claim), or the project's growth is equal to or slower than
+ * its category's (a "faster than" claim requires the project to actually
+ * outperform, i.e., a multiple of at least 1.0).
  */
 function computeRelativeMultiple(growthByWindow, hasEnoughHistory, categoryGrowth7d) {
   if (!hasEnoughHistory?.rising7) return null;
@@ -56,7 +58,8 @@ function computeRelativeMultiple(growthByWindow, hasEnoughHistory, categoryGrowt
   if (!(projectPercent > 0)) return null;
   if (!categoryGrowth7d?.hasEnoughHistory) return null;
   if (!(categoryGrowth7d.percentDelta > 0)) return null;
-  return projectPercent / categoryGrowth7d.percentDelta;
+  const multiple = projectPercent / categoryGrowth7d.percentDelta;
+  return multiple >= 1 ? multiple : null;
 }
 
 /** Composes whichever of the two clauses is available into one sentence, or `null` if neither is. */

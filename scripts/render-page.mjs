@@ -110,7 +110,7 @@ export function renderDomainPage(
   const footer = embed ? "" : renderSiteFooter();
   const teaserSection = embed
     ? ""
-    : renderRisingTeaser(teaser, { heading: "Rising this week", href: `${basePath}/rising/#${domain.slug}`, showDomain: false });
+    : renderRisingTeaser(teaser, { heading: "Rising this week", href: `${basePath}/rising/#${domain.slug}`, showDomain: false, basePath });
   // Omitted from embeds along with the rest of the chrome — an embedded map is
   // a visualization, not a page.
   const categorySection = embed ? "" : renderCategoryMomentum(categoryGrowth, { windowDays: momentumWindowDays });
@@ -323,7 +323,7 @@ export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", baseP
         </a>`;
     })
     .join("");
-  const teaserSection = renderRisingTeaser(teaser, { heading: "Rising this week", href: `${basePath}/rising/`, showDomain: true });
+  const teaserSection = renderRisingTeaser(teaser, { heading: "Rising this week", href: `${basePath}/rising/`, showDomain: true, basePath });
   const websiteJsonLd = renderJsonLd(
     buildWebsiteJsonLd({
       name: "awesomemap",
@@ -366,8 +366,18 @@ export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", baseP
   });
 }
 
-/** Formats one leaderboard entry (as returned by leaderboard.mjs's computeLeaderboard) as a row. `showDomain` controls whether the cross-domain tag is shown — true for the global list, false for a single domain's own list. */
-function renderRisingRow(entry, { showDomain }) {
+/**
+ * Formats one leaderboard entry (as returned by leaderboard.mjs's
+ * computeLeaderboard) as a row. `showDomain` controls whether the
+ * cross-domain tag is shown — true for the global list, false for a single
+ * domain's own list. The name links to the project's own internal page
+ * (`/projects/<id>/`, prefixed by `basePath`) rather than straight to
+ * `entry.link` (the external homepage) — that page is what shows the
+ * description, star-history sparkline, domain rank, and tags before
+ * sending visitors onward. `entry.link` is used only as a fallback for the
+ * (currently theoretical) case of an entry with no project id.
+ */
+function renderRisingRow(entry, { showDomain, basePath }) {
   const arrowSymbol = entry.rankDelta > 0 ? "▲" : entry.rankDelta < 0 ? "▼" : "–";
   const arrowClass = entry.rankDelta > 0 ? "rising-row-up" : entry.rankDelta < 0 ? "rising-row-down" : "rising-row-flat";
   const movedBy = Math.abs(entry.rankDelta);
@@ -379,12 +389,13 @@ function renderRisingRow(entry, { showDomain }) {
     ? `<span class="rising-row-domain" title="${escapeHtml(entry.domain)}">${escapeHtml(domainShort)}</span>`
     : "";
   const repoId = entry.id ? `<span class="rising-row-repo">${escapeHtml(entry.id)}</span>` : "";
+  const projectHref = entry.id ? `${basePath}/projects/${entry.id}/` : (entry.link ?? "#");
   return `
     <li class="rising-row" data-domain="${escapeHtml(entry.domainSlug ?? "")}">
       <span class="rising-row-rank">${entry.rank}</span>
       ${icon}
       <span class="rising-row-title">
-        <a class="rising-row-name" href="${escapeHtml(entry.link ?? "#")}">${escapeHtml(entry.name)}</a>
+        <a class="rising-row-name" href="${escapeHtml(projectHref)}">${escapeHtml(entry.name)}</a>
         ${repoId}
       </span>
       ${domainTag}
@@ -394,11 +405,11 @@ function renderRisingRow(entry, { showDomain }) {
 }
 
 /** Renders a leaderboard's rows, or a not-ready placeholder when `entries` is empty (e.g. a domain too new for this window). Shared with the teaser sections added in Task 4. */
-function renderRisingRows(entries, { showDomain }) {
+function renderRisingRows(entries, { showDomain, basePath }) {
   if (entries.length === 0) {
     return `<p class="rising-empty">Not enough star-history yet for this window.</p>`;
   }
-  return `<ol class="rising-rows-list">${entries.map((entry) => renderRisingRow(entry, { showDomain })).join("")}</ol>`;
+  return `<ol class="rising-rows-list">${entries.map((entry) => renderRisingRow(entry, { showDomain, basePath })).join("")}</ol>`;
 }
 
 /**
@@ -406,11 +417,11 @@ function renderRisingRows(entries, { showDomain }) {
  * window) linking to the full leaderboard — used on the landing page
  * (global) and each domain page (that domain's own list).
  */
-function renderRisingTeaser(entries, { heading, href, showDomain }) {
+function renderRisingTeaser(entries, { heading, href, showDomain, basePath }) {
   return `
     <section class="rising-teaser">
       <h2 class="rising-teaser-heading">${escapeHtml(heading)}</h2>
-      ${renderRisingRows(entries, { showDomain })}
+      ${renderRisingRows(entries, { showDomain, basePath })}
       <a class="rising-teaser-link" href="${escapeHtml(href)}">See full leaderboard →</a>
     </section>`;
 }
@@ -423,20 +434,20 @@ function renderRisingTeaser(entries, { heading, href, showDomain }) {
  * `{ [windowDays]: { [scopeKey]: entries[] } }`; `scopeKey` selects which
  * leaderboard within each window this section shows.
  */
-function renderRisingWindowVariants(leaderboardsByWindow, scopeKey, { showDomain }) {
+function renderRisingWindowVariants(leaderboardsByWindow, scopeKey, { showDomain, basePath }) {
   return RISING_WINDOWS_DAYS.map((windowDays, index) => {
     const entries = leaderboardsByWindow[windowDays]?.[scopeKey] ?? [];
     const hiddenAttr = index === 0 ? "" : " hidden";
-    return `<div class="rising-rows" data-window="${windowDays}"${hiddenAttr}>${renderRisingRows(entries, { showDomain })}</div>`;
+    return `<div class="rising-rows" data-window="${windowDays}"${hiddenAttr}>${renderRisingRows(entries, { showDomain, basePath })}</div>`;
   }).join("");
 }
 
 /** One full leaderboard section (heading + all three window variants), anchorable by `id`. `hidden` starts the whole section — not just individual rows — collapsed, for sections the domain filter hasn't selected yet. */
-function renderRisingSection({ id, heading, leaderboardsByWindow, scopeKey, showDomain, hidden = false }) {
+function renderRisingSection({ id, heading, leaderboardsByWindow, scopeKey, showDomain, basePath, hidden = false }) {
   return `
     <section class="rising-section" id="${escapeHtml(id)}"${hidden ? " hidden" : ""}>
       <h2 class="rising-section-heading">${escapeHtml(heading)}</h2>
-      ${renderRisingWindowVariants(leaderboardsByWindow, scopeKey, { showDomain })}
+      ${renderRisingWindowVariants(leaderboardsByWindow, scopeKey, { showDomain, basePath })}
     </section>`;
 }
 
@@ -461,6 +472,7 @@ export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage
     leaderboardsByWindow,
     scopeKey: "global",
     showDomain: true,
+    basePath,
   });
 
   const domainSections = domains
@@ -471,6 +483,7 @@ export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage
         leaderboardsByWindow,
         scopeKey: domain.slug,
         showDomain: false,
+        basePath,
         hidden: true,
       })
     )

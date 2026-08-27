@@ -72,3 +72,13 @@ export function buildItemListJsonLd(domainName, projects, { url }) {
     }));
   return { "@context": "https://schema.org", "@type": "ItemList", name: domainName, url, itemListElement };
 }
+
+/**
+ * Builds a schema.org SoftwareSourceCode JSON-LD object for one project's
+ * canonical page — mirrors buildItemListJsonLd's plain-object style (the
+ * caller JSON.stringify's it). `codeRepository` is the project's GitHub
+ * URL.
+ */
+export function buildSoftwareSourceCodeJsonLd({ name, description, url, codeRepository }) {
+  return { "@context": "https://schema.org", "@type": "SoftwareSourceCode", name, description, url, codeRepository };
+}

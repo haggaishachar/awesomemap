@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { buildSitemap, buildRobots, buildWebsiteJsonLd, buildItemListJsonLd } from "../scripts/seo.mjs";
+import { buildSitemap, buildRobots, buildWebsiteJsonLd, buildItemListJsonLd, buildSoftwareSourceCodeJsonLd } from "../scripts/seo.mjs";
 
 test("buildSitemap lists the landing page and every domain page", () => {
   const xml = buildSitemap(["data-science", "security"], {
@@ -92,4 +92,19 @@ test("buildSitemap appends extraPaths after the domain pages", () => {
 test("buildSitemap defaults extraPaths to empty, unchanged output when omitted", () => {
   const xml = buildSitemap(["data-science"], { siteUrl: "https://example.com", basePath: "" });
   assert.doesNotMatch(xml, /\/tags\//);
+});
+
+test("buildSoftwareSourceCodeJsonLd returns a schema.org SoftwareSourceCode object", () => {
+  const jsonLd = buildSoftwareSourceCodeJsonLd({
+    name: "llama.cpp",
+    description: "Inference of LLaMA and other large language models in pure C/C++",
+    url: "https://example.com/projects/ggerganov/llama.cpp/",
+    codeRepository: "https://github.com/ggerganov/llama.cpp",
+  });
+  assert.equal(jsonLd["@context"], "https://schema.org");
+  assert.equal(jsonLd["@type"], "SoftwareSourceCode");
+  assert.equal(jsonLd.name, "llama.cpp");
+  assert.equal(jsonLd.description, "Inference of LLaMA and other large language models in pure C/C++");
+  assert.equal(jsonLd.url, "https://example.com/projects/ggerganov/llama.cpp/");
+  assert.equal(jsonLd.codeRepository, "https://github.com/ggerganov/llama.cpp");
 });

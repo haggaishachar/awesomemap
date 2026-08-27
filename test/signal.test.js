@@ -156,11 +156,20 @@ test("relativeMultiple is null when the project grew slower than its category, e
   assert.equal(result.relativeMultiple, null);
 });
 
-test("relativeMultiple is exactly 1 when the project matched its category's growth rate exactly", () => {
+test("relativeMultiple is null when the project barely matched its category's growth rate (below the rounding-safe floor)", () => {
   const result = explainSignal({
     growthByWindow: { rising7: growth(10, 5), rising30: growth(10, 5), rising90: growth(10, 5) },
     hasEnoughHistory: ALL_TRACKED,
     categoryGrowth7d: { hasEnoughHistory: true, percentDelta: 5 },
   });
-  assert.equal(result.relativeMultiple, 1);
+  assert.equal(result.relativeMultiple, null);
+});
+
+test("relativeMultiple is kept when the multiple is just at the rounding-safe floor", () => {
+  const result = explainSignal({
+    growthByWindow: { rising7: growth(10, 10.5), rising30: growth(10, 10.5), rising90: growth(10, 10.5) },
+    hasEnoughHistory: ALL_TRACKED,
+    categoryGrowth7d: { hasEnoughHistory: true, percentDelta: 10 },
+  });
+  assert.equal(result.relativeMultiple, 1.05);
 });

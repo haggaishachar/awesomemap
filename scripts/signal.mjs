@@ -42,6 +42,12 @@ function computeSustained(growthByWindow, hasEnoughHistory) {
   return growthByWindow.rising7.starDelta > 0 ? false : null;
 }
 
+// The smallest multiple that still reads as "faster" after buildHeadline's
+// toFixed(1) rounding — anything below this renders as the literal,
+// self-contradictory "1.0× faster than X", even though the true value is
+// >= 1.0. Confirmed: (1.05).toFixed(1) === "1.1", (1.049).toFixed(1) === "1.0".
+const RELATIVE_MULTIPLE_FLOOR = 1.05;
+
 /**
  * How many times faster the project grew (7-day window) than its category
  * did over the same period, or `null` when the comparison wouldn't be
@@ -50,7 +56,7 @@ function computeSustained(growthByWindow, hasEnoughHistory) {
  * isn't positive (dividing by a flat/shrinking baseline isn't a real
  * "faster than" claim), or the project's growth is equal to or slower than
  * its category's (a "faster than" claim requires the project to actually
- * outperform, i.e., a multiple of at least 1.0).
+ * outperform, i.e., a multiple of at least `RELATIVE_MULTIPLE_FLOOR`).
  */
 function computeRelativeMultiple(growthByWindow, hasEnoughHistory, categoryGrowth7d) {
   if (!hasEnoughHistory?.rising7) return null;
@@ -59,7 +65,7 @@ function computeRelativeMultiple(growthByWindow, hasEnoughHistory, categoryGrowt
   if (!categoryGrowth7d?.hasEnoughHistory) return null;
   if (!(categoryGrowth7d.percentDelta > 0)) return null;
   const multiple = projectPercent / categoryGrowth7d.percentDelta;
-  return multiple >= 1 ? multiple : null;
+  return multiple >= RELATIVE_MULTIPLE_FLOOR ? multiple : null;
 }
 
 /** Composes whichever of the two clauses is available into one sentence, or `null` if neither is. */

@@ -127,7 +127,7 @@ much larger one.
 - After Pass 3 (per-domain pages) computes `categoryGrowthBySlug`, builds
   the canonical project list the same way the existing global-tag-groups
   dedup already does: `[...new Map(parsedDomains.flatMap(...)).values()]`,
-  keyed by `id`, first domain read wins — reusing `allProjectsWithDomain`
+  keyed by `id`, last domain read wins — reusing `allProjectsWithDomain`
   directly rather than a second, separately-ordered dedup pass.
 - For each canonical project, looks up its category's `categoryGrowthBySlug[domainSlug]`
   entry (matched by `path[0]`, same key `generate.mjs`'s existing category

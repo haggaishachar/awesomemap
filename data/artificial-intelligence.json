@@ -1415,6 +1415,59 @@
         "vector-database",
         "vector-search"
       ]
+    },
+    {
+      "id": "ggml-org/llama.cpp",
+      "path": [
+        "LLM Infrastructure",
+        "Open-Weight Models & Inference"
+      ],
+      "name": "llama.cpp",
+      "link": "https://github.com/ggml-org/llama.cpp",
+      "desc": "LLM inference in C/C++",
+      "tags": [
+        "ggml"
+      ],
+      "weight": 125933,
+      "image": "https://avatars.githubusercontent.com/u/134263123?v=4"
+    },
+    {
+      "id": "modelcontextprotocol/modelcontextprotocol",
+      "path": [
+        "Agents & Coding",
+        "Model Context Protocol"
+      ],
+      "name": "modelcontextprotocol",
+      "link": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+      "desc": "Specification and documentation for the Model Context Protocol",
+      "tags": [
+        "docs",
+        "mcp",
+        "specification",
+        "standard"
+      ],
+      "weight": 9066,
+      "image": "https://avatars.githubusercontent.com/u/182288589?v=4"
+    },
+    {
+      "id": "ggml-org/whisper.cpp",
+      "path": [
+        "LLM Infrastructure",
+        "Open-Weight Models & Inference"
+      ],
+      "name": "whisper.cpp",
+      "link": "https://github.com/ggml-org/whisper.cpp",
+      "desc": "Port of OpenAI's Whisper model in C/C++",
+      "tags": [
+        "inference",
+        "openai",
+        "speech-recognition",
+        "speech-to-text",
+        "transformer",
+        "whisper"
+      ],
+      "weight": 53231,
+      "image": "https://avatars.githubusercontent.com/u/134263123?v=4"
     }
   ]
 }

@@ -1244,6 +1244,83 @@
         "word-similarity",
         "word2vec"
       ]
+    },
+    {
+      "id": "pycaret/pycaret",
+      "path": [
+        "AutoML"
+      ],
+      "name": "pycaret",
+      "link": "https://github.com/pycaret/pycaret",
+      "desc": "Open-source, low-code AutoML platform for Python. PyCaret 4.0: sklearn-native engine + React control plane.",
+      "tags": [
+        "anomaly-detection",
+        "automl",
+        "classification",
+        "clustering",
+        "data-science",
+        "fastapi",
+        "machine-learning",
+        "ml",
+        "mlops",
+        "open-source",
+        "pycaret",
+        "python",
+        "react",
+        "regression",
+        "scikit-learn"
+      ],
+      "weight": 9834,
+      "image": "https://avatars.githubusercontent.com/u/58118658?v=4"
+    },
+    {
+      "id": "google/sentencepiece",
+      "path": [
+        "Natural Language Processing"
+      ],
+      "name": "sentencepiece",
+      "link": "https://github.com/google/sentencepiece",
+      "desc": "Unsupervised text tokenizer for Neural Network-based text generation.",
+      "tags": [
+        "natural-language-processing",
+        "neural-machine-translation",
+        "word-segmentation"
+      ],
+      "weight": 12046,
+      "image": "https://avatars.githubusercontent.com/u/1342004?v=4"
+    },
+    {
+      "id": "alphacep/vosk-api",
+      "path": [
+        "Speech Recognition"
+      ],
+      "name": "vosk-api",
+      "link": "https://github.com/alphacep/vosk-api",
+      "desc": "Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node",
+      "tags": [
+        "android",
+        "asr",
+        "deep-learning",
+        "deep-neural-networks",
+        "deepspeech",
+        "google-speech-to-text",
+        "ios",
+        "kaldi",
+        "offline",
+        "privacy",
+        "python",
+        "raspberry-pi",
+        "speaker-identification",
+        "speaker-verification",
+        "speech-recognition",
+        "speech-to-text",
+        "speech-to-text-android",
+        "stt",
+        "voice-recognition",
+        "vosk"
+      ],
+      "weight": 15080,
+      "image": "https://avatars.githubusercontent.com/u/26358566?v=4"
     }
   ]
 }

@@ -1281,6 +1281,39 @@
         "java",
         "search-engine"
       ]
+    },
+    {
+      "id": "prisma/orm",
+      "path": [
+        "ORMs & Query Builders"
+      ],
+      "name": "orm",
+      "link": "https://github.com/prisma/orm",
+      "desc": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
+      "tags": [
+        "cockroachdb",
+        "database",
+        "javascript",
+        "loggy-core",
+        "loggy-terminal",
+        "mariadb",
+        "mongodb",
+        "mssql",
+        "mysql",
+        "nodejs",
+        "orm",
+        "postgres",
+        "postgresql",
+        "prisma",
+        "prisma-client",
+        "query-builder",
+        "sql-server",
+        "sqlite",
+        "sqlserver",
+        "typescript"
+      ],
+      "weight": 47566,
+      "image": "https://avatars.githubusercontent.com/u/17219288?v=4"
     }
   ]
 }

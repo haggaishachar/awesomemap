@@ -1293,6 +1293,65 @@
         "monorepo",
         "typescript"
       ]
+    },
+    {
+      "id": "web-infra-dev/rsbuild",
+      "path": [
+        "Build Tools & Bundlers"
+      ],
+      "name": "rsbuild",
+      "link": "https://github.com/web-infra-dev/rsbuild",
+      "desc": "Fast, extensible build tool for modern web development",
+      "tags": [
+        "build-tool",
+        "bundler",
+        "frontend",
+        "javascript",
+        "rsbuild",
+        "rspack",
+        "rstack",
+        "typescript",
+        "webpack"
+      ],
+      "weight": 3367,
+      "image": "https://avatars.githubusercontent.com/u/87694465?v=4"
+    },
+    {
+      "id": "brunch/brunch",
+      "path": [
+        "Build Tools & Bundlers"
+      ],
+      "name": "brunch",
+      "link": "https://github.com/brunch/brunch",
+      "desc": "🍴 Web applications made easy. Since 2011.",
+      "tags": [
+        "brunch",
+        "build-automation",
+        "javascript",
+        "pipeline",
+        "workflow"
+      ],
+      "weight": 6758,
+      "image": "https://avatars.githubusercontent.com/u/575509?v=4"
+    },
+    {
+      "id": "developit/microbundle",
+      "path": [
+        "Build Tools & Bundlers"
+      ],
+      "name": "microbundle",
+      "link": "https://github.com/developit/microbundle",
+      "desc": "📦 Zero-configuration bundler for tiny modules.",
+      "tags": [
+        "build",
+        "bundle",
+        "microlib",
+        "module-bundler",
+        "rollup",
+        "tiny-modules",
+        "umd"
+      ],
+      "weight": 8129
     }
   ]
 }

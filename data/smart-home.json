@@ -1039,6 +1039,66 @@
         "iot",
         "json"
       ]
+    },
+    {
+      "id": "jmcollin78/versatile_thermostat",
+      "path": [
+        "Home Automation Platforms"
+      ],
+      "name": "versatile_thermostat",
+      "link": "https://github.com/jmcollin78/versatile_thermostat",
+      "desc": "A full featured Thermostat for Home Assistant: presets, window, motion, presence and overpowering management",
+      "tags": [
+        "hacs-custom",
+        "hacs-integration",
+        "home-assistant",
+        "python",
+        "thermostat"
+      ],
+      "weight": 1164
+    },
+    {
+      "id": "bramstroker/homeassistant-powercalc",
+      "path": [
+        "Home Automation Platforms"
+      ],
+      "name": "homeassistant-powercalc",
+      "link": "https://github.com/bramstroker/homeassistant-powercalc",
+      "desc": "Home Assistant Custom component to calculate estimated power consumption of lights and other appliances",
+      "tags": [
+        "consumption",
+        "energy-consumption",
+        "energy-monitor",
+        "energy-monitoring",
+        "hacktoberfest",
+        "hacs",
+        "home-assistant",
+        "home-assistant-hacs",
+        "homeassistant",
+        "iot",
+        "metering",
+        "power",
+        "smart-home",
+        "sustainability",
+        "virtual-sensors"
+      ],
+      "weight": 1568
+    },
+    {
+      "id": "thomluther/ha-anker-solix",
+      "path": [
+        "Home Automation Platforms"
+      ],
+      "name": "ha-anker-solix",
+      "link": "https://github.com/thomluther/ha-anker-solix",
+      "desc": "Home Assistant integration for Anker Solix Power devices",
+      "tags": [
+        "hacs-integration",
+        "home-assistant",
+        "integration",
+        "python"
+      ],
+      "weight": 1072
     }
   ]
 }

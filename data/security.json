@@ -1319,6 +1319,76 @@
         "threathunting",
         "zeek"
       ]
+    },
+    {
+      "id": "RustScan/RustScan",
+      "path": [
+        "Network Scanning & Recon"
+      ],
+      "name": "RustScan",
+      "link": "https://github.com/RustScan/RustScan",
+      "desc": "🤖 The Modern Port Scanner 🤖",
+      "tags": [
+        "docker",
+        "hacking",
+        "hacktoberfest",
+        "networking",
+        "nmap",
+        "pentesting",
+        "port",
+        "rust",
+        "scanning",
+        "security",
+        "security-tools"
+      ],
+      "weight": 20336
+    },
+    {
+      "id": "jtpereyda/boofuzz",
+      "path": [
+        "Static & Dynamic Analysis"
+      ],
+      "name": "boofuzz",
+      "link": "https://github.com/jtpereyda/boofuzz",
+      "desc": "A fork and successor of the Sulley Fuzzing Framework",
+      "tags": [
+        "fuzzing",
+        "python",
+        "security"
+      ],
+      "weight": 2354
+    },
+    {
+      "id": "deepfence/ThreatMapper",
+      "path": [
+        "Container & Cloud Security"
+      ],
+      "name": "ThreatMapper",
+      "link": "https://github.com/deepfence/ThreatMapper",
+      "desc": "Open Source Cloud Native Application Protection Platform (CNAPP)",
+      "tags": [
+        "cloud-native",
+        "cloudsecurity",
+        "cnapp",
+        "compliance",
+        "containers",
+        "cspm",
+        "cwpp",
+        "devops",
+        "devsecops",
+        "kubernetes",
+        "observability",
+        "registry-scanning",
+        "scanning-tool",
+        "secops",
+        "security-tools",
+        "threat-analysis",
+        "vulnerability-detection",
+        "vulnerability-management",
+        "vulnerability-scanners"
+      ],
+      "weight": 5318,
+      "image": "https://avatars.githubusercontent.com/u/35167630?v=4"
     }
   ]
 }

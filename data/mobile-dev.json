@@ -1161,6 +1161,62 @@
         "state-management",
         "web"
       ]
+    },
+    {
+      "id": "tamagui/tamagui",
+      "path": [
+        "UI Component Libraries"
+      ],
+      "name": "tamagui",
+      "link": "https://github.com/tamagui/tamagui",
+      "desc": "Style React fast with 100% parity on React Native, an optional UI kit, and optimizing compiler.",
+      "tags": [
+        "atomic-css",
+        "css-in-js",
+        "optimizing-compiler",
+        "react",
+        "react-native",
+        "react-native-web",
+        "tailwind",
+        "typescript",
+        "ui",
+        "ui-components",
+        "vite",
+        "webpack"
+      ],
+      "weight": 14156,
+      "image": "https://avatars.githubusercontent.com/u/94025540?v=4"
+    },
+    {
+      "id": "shoutem/ui",
+      "path": [
+        "UI Component Libraries"
+      ],
+      "name": "ui",
+      "link": "https://github.com/shoutem/ui",
+      "desc": "Customizable set of components for React Native applications",
+      "tags": [
+        "android",
+        "ios",
+        "native-components",
+        "react-native",
+        "shoutem",
+        "shoutem-ui"
+      ],
+      "weight": 4979,
+      "image": "https://avatars.githubusercontent.com/u/962929?v=4"
+    },
+    {
+      "id": "software-mansion/react-native-svg",
+      "path": [
+        "UI Component Libraries"
+      ],
+      "name": "react-native-svg",
+      "link": "https://github.com/software-mansion/react-native-svg",
+      "desc": "SVG library for React Native, React Native Web, and plain React web projects.",
+      "tags": [],
+      "weight": 8002,
+      "image": "https://avatars.githubusercontent.com/u/56880679?v=4"
     }
   ]
 }

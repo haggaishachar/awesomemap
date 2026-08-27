@@ -18,6 +18,20 @@ export const STOPWORD_TAGS = new Set(["hacktoberfest", "open-source", "awesome"]
  */
 export const MIN_PROJECTS_PER_TAG = 2;
 
+/**
+ * A tag group needs at least this many *tracked* projects (not just
+ * MIN_PROJECTS_PER_TAG's raw project count) to be eligible for "rising."
+ * A 2-project group's percent growth is dominated by whichever single
+ * project happens to be tracked — group-growth.mjs's own justification for
+ * using a plain ratio ("stable because it's a sum over dozens of
+ * projects") doesn't hold at that size, so a tag can end up "rising" only
+ * because one popular repo carries it alongside one small one. This floor
+ * only gates rising eligibility; a 2-project tag still qualifies for
+ * MIN_PROJECTS_PER_TAG-gated popularity ranking (computeTopTags) and still
+ * gets its own /tags/<slug>/ page.
+ */
+export const MIN_TRACKED_PROJECTS_FOR_RISING = 4;
+
 /** Lowercases and strips everything but letters/digits, so "SciKit Learn", "scikit-learn", and "scikit_learn" all compare equal. */
 function normalize(value) {
   return String(value).toLowerCase().replace(/[^a-z0-9]/g, "");
@@ -102,7 +116,9 @@ export function computeRisingTags(tagGroups, historyById, windowDays, { limit, n
     totalStars: projects.reduce((sum, project) => sum + (typeof project.weight === "number" ? project.weight : 0), 0),
     growth: computeGroupGrowth(projects, historyById, windowDays, { now }),
   }));
-  const eligible = groups.filter((group) => group.growth.hasEnoughHistory && group.growth.starDelta > 0);
+  const eligible = groups.filter(
+    (group) => group.growth.hasEnoughHistory && group.growth.starDelta > 0 && group.growth.trackedCount >= MIN_TRACKED_PROJECTS_FOR_RISING
+  );
   const ranked = rankGroups(eligible).map(({ key, ...rest }) => rest);
   return typeof limit === "number" ? ranked.slice(0, limit) : ranked;
 }

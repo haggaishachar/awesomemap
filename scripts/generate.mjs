@@ -164,9 +164,19 @@ for (const domain of parsedDomains) {
 // Global tag groups additionally carry each project's originating domain
 // (short name + slug) — a project's own record doesn't know that on its
 // own, and a per-tag page needs it since tags cross domains.
-const allProjectsWithDomain = parsedDomains.flatMap((domain) =>
-  domain.projects.map((project) => ({ ...project, domainSlug: domain.slug, domainShort: domain.shortName ?? domain.name }))
-);
+// Dedupe by id: a project curated into more than one domain would otherwise
+// be double-counted in every global tag group it lands in — fabricating
+// tag pages that only clear MIN_PROJECTS_PER_TAG via the duplicate, and
+// doubling totalStars/growth on every group containing one. Same
+// last-write-wins simplification globalHistoryById already applies below,
+// extended to project identity.
+const allProjectsWithDomain = [
+  ...new Map(
+    parsedDomains.flatMap((domain) =>
+      domain.projects.map((project) => [project.id, { ...project, domainSlug: domain.slug, domainShort: domain.shortName ?? domain.name }])
+    )
+  ).values(),
+];
 // A project curated into more than one domain is the same GitHub repo
 // regardless of which domain's history file recorded it, so merging here
 // (last write wins on the rare collision) is a reasonable simplification

@@ -754,6 +754,22 @@ test("renderProjectPage renders a star-history sparkline when given at least two
   assert.doesNotMatch(withoutHistory, /class="detail-panel-star-chart"/);
 });
 
+test("renderProjectPage degrades gracefully for a minimal project record with only an id", () => {
+  const minimal = { id: "a/b" };
+  const html = renderProjectPage(minimal, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png", basePath: "" });
+
+  // Title falls back to id.
+  assert.match(html, /<h1>a\/b<\/h1>/);
+  // No tag-chip block.
+  assert.doesNotMatch(html, /class="detail-panel-tags"/);
+  // No "Visit site" link.
+  assert.doesNotMatch(html, /class="detail-panel-link"/);
+  // No hero image.
+  assert.doesNotMatch(html, /class="detail-panel-logo"/);
+  // Breadcrumb shows just Home + domain, no category crumbs.
+  assert.match(html, /<nav class="project-breadcrumb"[^>]*><a href="\/">Home<\/a><span aria-hidden="true"> › <\/span><a href="\/artificial-intelligence\/">AI<\/a><\/nav>/);
+});
+
 test("renderProjectPage's canonical URL is shaped /projects/<id>/, and gets the BASE_PATH prefix", () => {
   const html = renderProjectPage(PROJECT, {
     domain: PROJECT_DOMAIN,

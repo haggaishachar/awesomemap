@@ -325,7 +325,7 @@ function renderDomainQuicklinks(domains, basePath) {
  * on an answer ("AI is moving fastest this week") instead of an alphabetical
  * index. Untracked domains sort last — see `rankGroups`.
  */
-export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", basePath = "", teaser = [], momentumWindowDays = RISING_WINDOWS_DAYS[0] }) {
+export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", basePath = "", signals = {}, momentumWindowDays = RISING_WINDOWS_DAYS[0] }) {
   const rankedDomains = rankGroups(
     domains.map((domain) => ({
       key: domain.slug,
@@ -353,7 +353,7 @@ export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", baseP
         </a>`;
     })
     .join("");
-  const teaserSection = renderRisingTeaser(teaser, { heading: "Rising this week", href: `${basePath}/rising/`, showDomain: true, basePath });
+  const signalsSection = renderTodaysSignals(signals, { basePath });
   const websiteJsonLd = renderJsonLd(
     buildWebsiteJsonLd({
       name: "awesomemap",
@@ -373,11 +373,11 @@ export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", baseP
       </div>
       <div class="hero-content">
         <h1>awesomemap</h1>
-        <p class="hero-tagline">Interactive maps of open-source ecosystems — see which whole ecosystems are heating up, and which projects inside them are rising fastest.</p>
+        <p class="hero-tagline">What's taking off in open source — spotted by growth, not just stars.</p>
         ${renderDomainQuicklinks(domains, basePath)}
       </div>
     </header>
-    ${teaserSection}
+    ${signalsSection}
     <div class="map-index">
       <h2 class="map-index-heading">Explore the maps</h2>
       <p class="map-index-note">Ranked by how fast each ecosystem grew over the last ${momentumWindowDays} days — growth rate, not size.</p>
@@ -453,6 +453,61 @@ function renderRisingTeaser(entries, { heading, href, showDomain, basePath }) {
       <h2 class="rising-teaser-heading">${escapeHtml(heading)}</h2>
       ${renderRisingRows(entries, { showDomain, basePath })}
       <a class="rising-teaser-link" href="${escapeHtml(href)}">See full leaderboard →</a>
+    </section>`;
+}
+
+/** One card in the landing page's "Today's signals" module — same shape for every signal type, just a different label/title/stat/meta/href. */
+function renderSignalCard({ label, title, stat, meta, href }) {
+  const metaLine = meta ? `<span class="signal-card-meta">${escapeHtml(meta)}</span>` : "";
+  return `
+    <a class="signal-card" href="${escapeHtml(href)}">
+      <span class="signal-card-label">${label}</span>
+      <span class="signal-card-title">${escapeHtml(title)}</span>
+      <span class="signal-card-stat">${stat}</span>
+      ${metaLine}
+    </a>`;
+}
+
+/**
+ * Renders the landing page's "Today's signals" module — up to three cards
+ * (biggest mover, heating-up ecosystem, one-to-watch) built from
+ * `pickTodaysSignals`'s output (see todays-signals.mjs). Any signal that's
+ * `null` (no qualifying candidate yet) is skipped; the whole section is
+ * omitted when none qualify, rather than rendering an empty shell.
+ */
+function renderTodaysSignals({ mover, ecosystem, watch } = {}, { basePath }) {
+  const cards = [
+    mover &&
+      renderSignalCard({
+        label: "🔥 Biggest mover",
+        title: mover.name,
+        stat: `+${mover.starDelta} stars (+${mover.percentDelta.toFixed(1)}%) this week`,
+        meta: mover.domainShort,
+        href: `${basePath}/projects/${mover.id}/`,
+      }),
+    ecosystem &&
+      renderSignalCard({
+        label: "📈 Heating up",
+        title: ecosystem.shortName ?? ecosystem.name,
+        stat: `+${ecosystem.percentDelta.toFixed(1)}% this week`,
+        href: `${basePath}/${ecosystem.slug}/`,
+      }),
+    watch &&
+      renderSignalCard({
+        label: "👀 One to watch",
+        title: watch.name,
+        stat: `+${watch.percentDelta.toFixed(1)}% this week · ★ ${formatStars(watch.currentStars)}`,
+        meta: watch.domainShort,
+        href: `${basePath}/projects/${watch.id}/`,
+      }),
+  ].filter(Boolean);
+
+  if (cards.length === 0) return "";
+
+  return `
+    <section class="todays-signals">
+      <h2 class="todays-signals-heading">Today's signals</h2>
+      <div class="signals-grid">${cards.join("")}</div>
     </section>`;
 }
 

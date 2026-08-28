@@ -16,7 +16,27 @@ test("computeVelocity reports no history for an empty history array", () => {
   assert.equal(result.starDelta, 0);
   assert.equal(result.percentDelta, 0);
   assert.equal(result.oldestDate, null);
+  assert.equal(result.currentStars, 0);
   assert.ok(result.score > 0, "score must stay positive so the treemap never gets a zero/negative weight");
+});
+
+test("computeVelocity reports currentStars as the most recent snapshot's star count", () => {
+  const history = [
+    { date: "2026-07-09", stars: 100 },
+    { date: "2026-08-08", stars: 150 },
+  ];
+  const result = computeVelocity(history, 30, { now: NOW });
+  assert.equal(result.currentStars, 150);
+});
+
+test("computeVelocity reports currentStars even when history is insufficient for the window", () => {
+  const history = [
+    { date: "2026-08-01", stars: 100 },
+    { date: "2026-08-08", stars: 120 },
+  ];
+  const result = computeVelocity(history, 30, { now: NOW });
+  assert.equal(result.hasEnoughHistory, false);
+  assert.equal(result.currentStars, 120);
 });
 
 test("computeVelocity uses a snapshot exactly at the window boundary", () => {

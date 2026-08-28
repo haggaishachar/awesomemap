@@ -36,13 +36,19 @@ export const SCORE_SMOOTHING_CONSTANT = 2000;
  * even for a shrinking project. The smoothing constant keeps a tiny
  * project's noisy swing from outscoring a large project's genuinely
  * bigger gain (see `SCORE_SMOOTHING_CONSTANT`'s doc comment).
+ *
+ * `currentStars` (the latest snapshot's raw star count, 0 when `history`
+ * is empty) rides along on every return path, even an insufficient-history
+ * one — callers that need to tell a small project from a large one (e.g.
+ * picking a "small but fast-growing" highlight) shouldn't have to re-derive
+ * it from `history` themselves.
  */
 export function computeVelocity(history, windowDays, { now = new Date() } = {}) {
   const sorted = [...history].sort((a, b) => a.date.localeCompare(b.date));
   const oldestDate = sorted.length > 0 ? sorted[0].date : null;
 
   if (sorted.length === 0) {
-    return { score: SCORE_FLOOR, hasEnoughHistory: false, starDelta: 0, percentDelta: 0, oldestDate };
+    return { score: SCORE_FLOOR, hasEnoughHistory: false, starDelta: 0, percentDelta: 0, oldestDate, currentStars: 0 };
   }
 
   const currentStars = sorted[sorted.length - 1].stars;
@@ -55,14 +61,14 @@ export function computeVelocity(history, windowDays, { now = new Date() } = {}) 
   }
 
   if (baseline === null) {
-    return { score: SCORE_FLOOR, hasEnoughHistory: false, starDelta: 0, percentDelta: 0, oldestDate };
+    return { score: SCORE_FLOOR, hasEnoughHistory: false, starDelta: 0, percentDelta: 0, oldestDate, currentStars };
   }
 
   const starDelta = currentStars - baseline.stars;
   const percentDelta = baseline.stars > 0 ? (starDelta / baseline.stars) * 100 : 0;
   const rawScore = starDelta / Math.sqrt(currentStars + SCORE_SMOOTHING_CONSTANT);
 
-  return { score: Math.max(rawScore, SCORE_FLOOR), hasEnoughHistory: true, starDelta, percentDelta, oldestDate };
+  return { score: Math.max(rawScore, SCORE_FLOOR), hasEnoughHistory: true, starDelta, percentDelta, oldestDate, currentStars };
 }
 
 /**

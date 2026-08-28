@@ -60,6 +60,14 @@ test("computeLeaderboard ranks by score descending and computes rank movement vs
   assert.equal(aRow.rankDelta, 0); // unchanged at #3
 });
 
+test("computeLeaderboard's rows carry currentStars, the latest snapshot's star count", () => {
+  const result = computeLeaderboard(DOMAINS, HISTORY, { scope: "global", windowDays: 7, limit: 20, now: NOW });
+  const cRow = result.find((r) => r.id === "c/c");
+  assert.equal(cRow.currentStars, 200);
+  const bRow = result.find((r) => r.id === "b/b");
+  assert.equal(bRow.currentStars, 610);
+});
+
 test("computeLeaderboard's domainShort falls back to the full domain name when a domain has no shortName", () => {
   const result = computeLeaderboard(DOMAINS, HISTORY, { scope: "global", windowDays: 7, limit: 20, now: NOW });
   const cRow = result.find((r) => r.id === "c/c");

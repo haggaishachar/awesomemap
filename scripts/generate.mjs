@@ -8,6 +8,7 @@ import { computeProjectSizing, findInvalidSizes, RISING_WINDOWS_DAYS } from "./v
 import { computeLeaderboard } from "./leaderboard.mjs";
 import { computeGroupGrowth, rankGroups } from "./group-growth.mjs";
 import { buildTagGroups, computeTopTags, computeRisingTags } from "./tag-growth.mjs";
+import { pickTodaysSignals } from "./todays-signals.mjs";
 import { buildSitemap, buildRobots } from "./seo.mjs";
 
 const DATA_DIR = "data";
@@ -258,14 +259,22 @@ for (const domain of parsedDomains) {
   });
 }
 
-const globalTeaser = leaderboardsByWindow[TEASER_WINDOW_DAYS].global.slice(0, TEASER_LIMIT);
+// Today's-signals' "one to watch" needs to compare percentDelta across every
+// eligible project, not just the top LEADERBOARD_LIMIT by score — a small,
+// fast-growing project can rank well outside the top 20 on score (which
+// favors absolute gains) while still being the best percentDelta overall.
+// A fresh, uncapped call is cheap at this repo's scale and keeps
+// LEADERBOARD_LIMIT (the /rising/ page's own per-section row count)
+// untouched.
+const globalSignalsPool = computeLeaderboard(parsedDomains, historyBySlug, { scope: "global", windowDays: TEASER_WINDOW_DAYS, limit: Infinity });
+const todaysSignals = pickTodaysSignals(globalSignalsPool, domains);
 writeFileSync(
   `${DIST_DIR}/index.html`,
   renderLandingPage(domains, {
     defaultOgImage: DEFAULT_OG_IMAGE,
     siteUrl: SITE_URL,
     basePath: BASE_PATH,
-    teaser: globalTeaser,
+    signals: todaysSignals,
     momentumWindowDays: MOMENTUM_WINDOW_DAYS,
   })
 );

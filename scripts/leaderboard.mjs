@@ -38,6 +38,7 @@ function collectCandidates(domains, historyBySlug, scope, windowDays, asOf) {
         score: velocity.score,
         starDelta: velocity.starDelta,
         percentDelta: velocity.percentDelta,
+        currentStars: velocity.currentStars,
       });
     }
   }
@@ -99,6 +100,7 @@ export function computeLeaderboard(domains, historyBySlug, { scope, windowDays, 
       domainSlug: c.domainSlug,
       starDelta: c.starDelta,
       percentDelta: c.percentDelta,
+      currentStars: c.currentStars,
       rankDelta: yesterdayRankById.get(c.id) - c.rank,
     }));
 }

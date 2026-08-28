@@ -18,15 +18,6 @@ this rising" as P1; compare and personalized tracking as P2. Project pages
 and tags (P0/P1) had already landed or were in flight before this review —
 see Shipped, at the end of this file.
 
-- [ ] Rewrite the homepage hero around outcome/discovery ("what's taking
-      off in open source") instead of the current descriptive tagline.
-      `hero-tagline` in `scripts/render-page.mjs` (line 346) still reads
-      "Interactive maps of open-source ecosystems — see which whole
-      ecosystems are heating up..." — accurate, but it explains the product
-      instead of making a visitor want to use it. Pair the new hero with a
-      short "today's signals" teaser (biggest single-project mover, a
-      heating-up ecosystem, a small high-acceleration project to watch)
-      directly beneath it, ahead of the domain grid.
 - [ ] Give the ecosystem map genuine map-like affordances: a growth-based
       color/intensity scale (not just box area for size), and a visual cue
       that distinguishes a "zoom into category" box from an "open project
@@ -160,6 +151,21 @@ need to.
 
 ## Shipped
 
+- [x] Rewrite the homepage hero around outcome/discovery, paired with a
+      "today's signals" teaser (biggest single-project mover, a heating-up
+      ecosystem, a small high-acceleration project to watch) ahead of the
+      domain grid.
+      _Done 2026-08-28: `hero-tagline` in `scripts/render-page.mjs` now reads
+      "What's taking off in open source — spotted by growth, not just
+      stars." The old "Rising this week" teaser on the landing page is
+      replaced by a new `todays-signals` module (`renderTodaysSignals`) fed
+      by a new `scripts/todays-signals.mjs` (`pickTodaysSignals`), reusing
+      an uncapped global leaderboard pool (`computeVelocity`/
+      `computeLeaderboard` now also carry each candidate's `currentStars`)
+      plus the same domain-growth ranking the map cards already use. Each
+      of the three cards is omitted individually when no candidate
+      qualifies, and the whole section is omitted when none do. Domain
+      pages keep their own per-domain teaser unchanged._
 - [x] Reflect zoom depth and mode/window in the URL. `zoomTo`/
       `zoomToOthers` in `app/shared/treemap.js` never call
       `history.pushState` — so a zoomed-in view can't be shared or

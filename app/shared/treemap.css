@@ -959,6 +959,67 @@ a.momentum-row-name:hover {
   text-decoration: underline;
 }
 
+.todays-signals {
+  box-sizing: border-box;
+  max-width: 960px;
+  margin: 0 auto 32px;
+  padding: 0 24px;
+}
+
+.todays-signals-heading {
+  font-size: 15px;
+  margin: 0 0 12px;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.signals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.signal-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px;
+  border-radius: 10px;
+  background: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s ease-out, box-shadow 0.15s ease-out;
+}
+
+.signal-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.signal-card-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+
+.signal-card-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
+.signal-card-stat {
+  font-size: 13px;
+  color: var(--color-text);
+}
+
+.signal-card-meta {
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
 .project-hero {
   max-width: 640px;
   margin: 0 auto;

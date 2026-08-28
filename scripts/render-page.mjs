@@ -136,14 +136,44 @@ export function renderDomainPage(
     <script type="module">
       import { mountTreemap } from "${basePath}/shared/treemap.js";
       import { createDetailPanel } from "${basePath}/shared/detail-panel.js";
+      import { parseZoomState, formatZoomState } from "${basePath}/shared/zoom-url.js";
       const mapData = JSON.parse(document.getElementById("map-data").textContent);
       const panel = createDetailPanel(document.body, { historyUrl: "${historyUrl}", basePath: "${basePath}", showProjectPageLink: ${!embed} });
-      mountTreemap(
+      // \`validWindows\` comes from generate.mjs's own RISING_WINDOWS_DAYS
+      // (baked in at build time) rather than a browser-side copy, so this
+      // list can't drift from the one that actually built \`mapData\`.
+      const zoomUrlOptions = { rootId: "${tree.id}", validWindows: ${JSON.stringify(RISING_WINDOWS_DAYS)} };
+      function stateUrl(state) {
+        return location.pathname + formatZoomState(state, zoomUrlOptions) + location.hash;
+      }
+      const initialState = parseZoomState(new URLSearchParams(location.search), zoomUrlOptions);
+      // Gives the very first back-press (after any zoom) a defined entry to
+      // return to, instead of one with no state attached.
+      history.replaceState(initialState, "", stateUrl(initialState));
+      const treemap = mountTreemap(
         document.getElementById("app"),
         mapData,
         (leafData) => panel.open(leafData),
-        () => panel.close()
+        () => panel.close(),
+        {
+          initialState,
+          onNavigate: (state, { replace }) => {
+            if (replace) {
+              history.replaceState(state, "", stateUrl(state));
+            } else {
+              history.pushState(state, "", stateUrl(state));
+            }
+          },
+        }
       );
+      // Restores the treemap to match the URL after a back/forward
+      // navigation — \`event.state\` is whatever was pushed/replaced above,
+      // except on the very first pop back to a page loaded before this
+      // code ever ran a replaceState, when it's null.
+      window.addEventListener("popstate", (event) => {
+        const state = event.state ?? parseZoomState(new URLSearchParams(location.search), zoomUrlOptions);
+        treemap.applyState(state);
+      });
     </script>
     <div class="domain-insights">
       ${categorySection}

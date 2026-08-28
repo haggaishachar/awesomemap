@@ -62,9 +62,23 @@ const COLLAGE_MAX_ICONS = 4;
  * arguments right after the Popular/Rising mode or window is switched —
  * consumers use it to dismiss any already-open detail panel, since its
  * baked-in growth stats would otherwise go stale against the new mode.
+ *
+ * `initialState` (`{ mode, window, idPath }`, e.g. from `zoom-url.js`'s
+ * `parseZoomState`), if given, seeds the mode/window/zoom depth the
+ * treemap mounts into — before the first render, so there's no flash of
+ * the root view. `onNavigate(state, { replace })`, if given, is called
+ * with the same shape right after a real (non-Others) zoom or a mode/window
+ * switch, so a caller can mirror it into the URL; `replace` is `true` for
+ * a mode/window switch (in place — not a step a back button should undo)
+ * and `false` for a zoom (its own history entry). Zooming into a synthetic
+ * "Others" box deliberately does *not* fire `onNavigate` — see
+ * `zoomToOthers`. The returned handle's `applyState(state)` is the
+ * inverse of `onNavigate`: it restores the treemap to match a state
+ * (e.g. from a `popstate` event) without re-firing `onNavigate` itself,
+ * so callers can round-trip state through the URL without looping.
  */
-export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
-  let sizeMode = "popular"; // "popular" | "rising"
+export function mountTreemap(container, mapData, onLeafClick, onModeChange, { initialState, onNavigate } = {}) {
+  let sizeMode = initialState?.mode ?? "popular"; // "popular" | "rising"
   // The shortest window, matching the one every server-rendered surface leads
   // with (generate.mjs's MOMENTUM_WINDOW_DAYS / TEASER_WINDOW_DAYS, both
   // RISING_WINDOWS_DAYS[0]), so a visitor who arrives from a landing card or a
@@ -72,10 +86,13 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
   // It's also the only window that degrades gracefully as history accrues: a
   // longer default renders every box as insufficient-history until the
   // snapshot archive is deep enough to fill it.
-  let risingWindow = RISING_WINDOWS_DAYS[0];
+  let risingWindow = initialState?.window ?? RISING_WINDOWS_DAYS[0];
   let root = buildHierarchy(mapData, activeSizeKey());
-  let focusNode = root;
-  let focusIdPath = [root.data.id];
+  // `findNodeByIdPath` walks as far into `initialState.idPath` as the
+  // hierarchy actually resolves, falling back the same way a mode switch
+  // does for a stale/foreign id — see its own doc comment.
+  let focusNode = initialState?.idPath ? findNodeByIdPath(root, initialState.idPath) : root;
+  let focusIdPath = focusNode.ancestors().reverse().map((ancestor) => ancestor.data.id);
 
   let stageWidth;
   let stageHeight;
@@ -126,11 +143,44 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
     return sizeMode === "popular" ? "popular" : `rising${risingWindow}`;
   }
 
+  /** The `{ mode, window, idPath }` shape `onNavigate`/`applyState` share with `zoom-url.js`. */
+  function currentState() {
+    return { mode: sizeMode, window: risingWindow, idPath: focusIdPath };
+  }
+
   function setSizeMode(nextMode, nextWindow) {
     sizeMode = nextMode;
     risingWindow = nextWindow;
     root = buildHierarchy(mapData, activeSizeKey());
     focusNode = findNodeByIdPath(root, focusIdPath);
+    // Re-derived from the (possibly bailed-out-to-a-real-ancestor) focusNode
+    // rather than left as-is: if Others didn't survive the switch, the old
+    // focusIdPath would otherwise still describe the no-longer-current
+    // synthetic node.
+    focusIdPath = focusNode.ancestors().reverse().map((ancestor) => ancestor.data.id);
+    renderModeBar();
+    renderBreadcrumb();
+    renderLevel();
+    onModeChange?.();
+    onNavigate?.(currentState(), { replace: true });
+  }
+
+  /**
+   * Restores the treemap to `state` (`{ mode, window, idPath }`) without
+   * firing `onNavigate` — the inverse direction from `setSizeMode`/`zoomTo`,
+   * for a caller re-driving the treemap *from* an already-decided target
+   * (e.g. a `popstate` event) rather than reporting a change it made itself.
+   * Also fires `onModeChange` unconditionally: any already-open detail
+   * panel may no longer even correspond to a visible leaf once focus has
+   * jumped elsewhere, so it's dismissed the same as an in-treemap mode
+   * switch would.
+   */
+  function applyState(state) {
+    sizeMode = state.mode;
+    risingWindow = state.window;
+    root = buildHierarchy(mapData, activeSizeKey());
+    focusNode = findNodeByIdPath(root, state.idPath);
+    focusIdPath = focusNode.ancestors().reverse().map((ancestor) => ancestor.data.id);
     renderModeBar();
     renderBreadcrumb();
     renderLevel();
@@ -168,11 +218,17 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
     return current;
   }
 
-  function zoomTo(node) {
+  /** Sets focus to `node` and re-renders, without touching navigation state. */
+  function focusOn(node) {
     focusNode = node;
     focusIdPath = node.ancestors().reverse().map((ancestor) => ancestor.data.id);
     renderBreadcrumb();
     renderLevel();
+  }
+
+  function zoomTo(node) {
+    focusOn(node);
+    onNavigate?.(currentState(), { replace: false });
   }
 
   /**
@@ -183,6 +239,12 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
    * `ancestors()` (breadcrumb, `focusIdPath`) walks back through the real
    * tree exactly like zooming into an ordinary category would.
    *
+   * Deliberately calls `focusOn` rather than `zoomTo`: an Others bucket's
+   * membership isn't stable across a mode/window switch (see
+   * `findNodeByIdPath`), so it's not a meaningful thing to bookmark or
+   * share — this view updates on-page like any other zoom, it just never
+   * reaches `onNavigate`/the URL.
+   *
    * Note: switching Popular/Rising mode (or window) while focus is on this
    * synthetic node will not restore it — see `findNodeByIdPath` for why
    * that's the intended fallback, not a bug.
@@ -190,7 +252,7 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
   function zoomToOthers(othersData, parentNode) {
     const syntheticNode = buildHierarchy(othersData, activeSizeKey());
     syntheticNode.parent = parentNode;
-    zoomTo(syntheticNode);
+    focusOn(syntheticNode);
   }
 
   function renderModeBar() {
@@ -497,7 +559,7 @@ export function mountTreemap(container, mapData, onLeafClick, onModeChange) {
   });
   resizeObserver.observe(container);
 
-  return { zoomTo, root };
+  return { zoomTo, root, applyState };
 }
 
 /**

@@ -75,6 +75,25 @@ test("the detail panel is created with a historyUrl pointing at the domain's own
   );
 });
 
+test("the domain page's inline script restores zoom/mode state from the URL on load and replaces the initial history entry with it", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "" });
+  assert.match(html, /import \{ parseZoomState, formatZoomState \} from "\/shared\/zoom-url\.js"/);
+  assert.match(html, /parseZoomState\(new URLSearchParams\(location\.search\), zoomUrlOptions\)/);
+  assert.match(html, /history\.replaceState\(initialState, "", /);
+  assert.match(html, /mountTreemap\(\s*document\.getElementById\("app"\),\s*mapData,\s*\(leafData\) => panel\.open\(leafData\),\s*\(\) => panel\.close\(\),\s*\{\s*initialState,/);
+});
+
+test("the domain page's inline script mirrors zoom/mode navigation into the URL via history.pushState/replaceState and restores state on popstate", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "" });
+  assert.match(html, /onNavigate: \(state, \{ replace \}\) => \{/);
+  assert.match(html, /history\.pushState\(state, "", /);
+  assert.match(html, /history\.replaceState\(state, "", /);
+  assert.match(html, /addEventListener\("popstate", \(event\) => \{/);
+  assert.match(html, /treemap\.applyState\(state\)/);
+});
+
 test("the embed variant's detail panel has showProjectPageLink set to false", () => {
   const domain = { slug: "data-science", name: "Data Science", description: "desc" };
   const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "", embed: true });

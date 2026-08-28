@@ -1389,6 +1389,52 @@
       ],
       "weight": 5318,
       "image": "https://avatars.githubusercontent.com/u/35167630?v=4"
+    },
+    {
+      "id": "iBotPeaches/Apktool",
+      "path": [
+        "Forensics & Reverse Engineering"
+      ],
+      "name": "Apktool",
+      "link": "https://github.com/iBotPeaches/Apktool",
+      "desc": "A tool for reverse engineering Android apk files",
+      "tags": [
+        "9patch",
+        "android",
+        "apk",
+        "apktool",
+        "arsc",
+        "reverse-engineering"
+      ],
+      "weight": 25402
+    },
+    {
+      "id": "skylot/jadx",
+      "path": [
+        "Forensics & Reverse Engineering"
+      ],
+      "name": "jadx",
+      "link": "https://github.com/skylot/jadx",
+      "desc": "Dex to Java decompiler",
+      "tags": [
+        "android",
+        "decompiler",
+        "dex",
+        "java"
+      ],
+      "weight": 50246
+    },
+    {
+      "id": "google/grr",
+      "path": [
+        "Forensics & Reverse Engineering"
+      ],
+      "name": "grr",
+      "link": "https://github.com/google/grr",
+      "desc": "GRR Rapid Response: remote live forensics for incident response",
+      "tags": [],
+      "weight": 5088,
+      "image": "https://avatars.githubusercontent.com/u/1342004?v=4"
     }
   ]
 }

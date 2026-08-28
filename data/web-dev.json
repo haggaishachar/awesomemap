@@ -1352,6 +1352,67 @@
         "umd"
       ],
       "weight": 8129
+    },
+    {
+      "id": "karma-runner/karma",
+      "path": [
+        "Testing"
+      ],
+      "name": "karma",
+      "link": "https://github.com/karma-runner/karma",
+      "desc": "Spectacular Test Runner for JavaScript",
+      "tags": [],
+      "weight": 11965,
+      "image": "https://avatars.githubusercontent.com/u/3284117?v=4"
+    },
+    {
+      "id": "nightwatchjs/nightwatch",
+      "path": [
+        "Testing"
+      ],
+      "name": "nightwatch",
+      "link": "https://github.com/nightwatchjs/nightwatch",
+      "desc": "Integrated end-to-end testing framework written in Node.js and using W3C Webdriver API. Developed at @browserstack",
+      "tags": [
+        "automated-testing",
+        "chromedriver",
+        "end-to-end-testing",
+        "hacktoberfest",
+        "javascript",
+        "nightwatch",
+        "nightwatchjs",
+        "nodejs",
+        "selenium",
+        "selenium-server",
+        "selenium-webdriver",
+        "testing",
+        "w3c-webdriver",
+        "webdriver"
+      ],
+      "weight": 11956,
+      "image": "https://avatars.githubusercontent.com/u/12559275?v=4"
+    },
+    {
+      "id": "GoogleChrome/puppeteer",
+      "path": [
+        "Testing"
+      ],
+      "name": "puppeteer",
+      "link": "https://github.com/GoogleChrome/puppeteer",
+      "desc": "JavaScript API for Chrome and Firefox",
+      "tags": [
+        "automation",
+        "chrome",
+        "chromium",
+        "developer-tools",
+        "firefox",
+        "headless-chrome",
+        "node-module",
+        "testing",
+        "web"
+      ],
+      "weight": 95515,
+      "image": "https://avatars.githubusercontent.com/u/6906516?v=4"
     }
   ]
 }

@@ -1217,6 +1217,92 @@
       "tags": [],
       "weight": 8002,
       "image": "https://avatars.githubusercontent.com/u/56880679?v=4"
+    },
+    {
+      "id": "invertase/react-native-firebase",
+      "path": [
+        "Backend-as-a-Service"
+      ],
+      "name": "react-native-firebase",
+      "link": "https://github.com/invertase/react-native-firebase",
+      "desc": "🔥 A well-tested feature-rich modular Firebase implementation for React Native. Supports both iOS & Android platforms for all Firebase services.",
+      "tags": [
+        "analytics",
+        "android",
+        "auth",
+        "crashlytics",
+        "database",
+        "fcm",
+        "firebase",
+        "firestore",
+        "ios",
+        "javascript",
+        "push-notifications",
+        "react",
+        "react-hooks",
+        "react-native",
+        "react-native-app",
+        "realtime-database",
+        "remote-config",
+        "storage",
+        "transactions",
+        "web-sdk"
+      ],
+      "weight": 12301,
+      "image": "https://avatars.githubusercontent.com/u/13588260?v=4"
+    },
+    {
+      "id": "obipawan/react-native-hyperlink",
+      "path": [
+        "UI Component Libraries"
+      ],
+      "name": "react-native-hyperlink",
+      "link": "https://github.com/obipawan/react-native-hyperlink",
+      "desc": "A <Hyperlink /> component for react-native that makes urls, fuzzy links, emails etc clickable",
+      "tags": [
+        "autolink",
+        "fuzzy-links",
+        "hyperlink",
+        "link",
+        "react",
+        "react-native",
+        "react-native-web",
+        "text",
+        "url"
+      ],
+      "weight": 812
+    },
+    {
+      "id": "margelo/react-native-graph",
+      "path": [
+        "UI Component Libraries"
+      ],
+      "name": "react-native-graph",
+      "link": "https://github.com/margelo/react-native-graph",
+      "desc": "📈 Beautiful, high-performance Graphs and Charts for React Native built with Skia",
+      "tags": [
+        "android",
+        "animated",
+        "animation",
+        "beautiful",
+        "chart",
+        "charts",
+        "crypto",
+        "graph",
+        "graphs",
+        "ios",
+        "library",
+        "linegraph",
+        "performance",
+        "react",
+        "react-native",
+        "skia",
+        "stock",
+        "svg",
+        "wallet"
+      ],
+      "weight": 2607,
+      "image": "https://avatars.githubusercontent.com/u/91980534?v=4"
     }
   ]
 }

@@ -1321,6 +1321,28 @@
       ],
       "weight": 15080,
       "image": "https://avatars.githubusercontent.com/u/26358566?v=4"
+    },
+    {
+      "id": "techascent/tech.ml.dataset",
+      "path": [
+        "Data Manipulation & Analysis"
+      ],
+      "name": "tech.ml.dataset",
+      "link": "https://github.com/techascent/tech.ml.dataset",
+      "desc": "A Clojure high performance data processing system",
+      "tags": [
+        "clojure",
+        "csv",
+        "dataframe",
+        "datascience",
+        "dataset",
+        "etl-pipeline",
+        "java",
+        "machine-learning",
+        "xlsx"
+      ],
+      "weight": 760,
+      "image": "https://raw.githubusercontent.com/techascent/tech.ml.dataset/master/logo.svg"
     }
   ]
 }

@@ -1099,6 +1099,77 @@
         "python"
       ],
       "weight": 1072
+    },
+    {
+      "id": "custom-components/ble_monitor",
+      "path": [
+        "Home Automation Platforms"
+      ],
+      "name": "ble_monitor",
+      "link": "https://github.com/custom-components/ble_monitor",
+      "desc": "BLE monitor for passive BLE sensors",
+      "tags": [
+        "atc",
+        "custom-component",
+        "govee",
+        "hacs",
+        "hassio",
+        "home-assistant",
+        "homeassistant",
+        "inkbird",
+        "kegtron",
+        "mibeacon",
+        "mijia",
+        "mitemp-bt",
+        "qingping",
+        "scales",
+        "thermoplus",
+        "thermopro",
+        "thermplus",
+        "xiaomi",
+        "xiaomi-sensors"
+      ],
+      "weight": 2237,
+      "image": "https://avatars.githubusercontent.com/u/40870121?v=4"
+    },
+    {
+      "id": "agittins/bermuda",
+      "path": [
+        "Home Automation Platforms"
+      ],
+      "name": "bermuda",
+      "link": "https://github.com/agittins/bermuda",
+      "desc": "Bermuda Bluetooth/BLE Triangulation / Trilateration for HomeAssistant",
+      "tags": [
+        "ble",
+        "bluetooth-beacons",
+        "bluetooth-low-energy",
+        "bluetooth-proxy",
+        "esphome",
+        "hacs-integration",
+        "homeassistant-custom-component",
+        "triangulation",
+        "trilateration"
+      ],
+      "weight": 1978
+    },
+    {
+      "id": "andrew-codechimp/HA-Battery-Notes",
+      "path": [
+        "Home Automation Platforms"
+      ],
+      "name": "HA-Battery-Notes",
+      "link": "https://github.com/andrew-codechimp/HA-Battery-Notes",
+      "desc": "A Home Assistant integration to provide battery details of devices",
+      "tags": [
+        "hacs",
+        "hacs-integration",
+        "home-assistant",
+        "homeassistant",
+        "homeassistant-custom-component",
+        "homeassistant-integration"
+      ],
+      "weight": 1153
     }
   ]
 }

@@ -127,11 +127,6 @@ need to.
       reached via search or a shared link has no equivalent, just the mode
       bar itself. A small "?" affordance near the mode bar would cover
       that entry path.
-- [ ] Reflect zoom depth and mode/window in the URL. `zoomTo`/
-      `zoomToOthers` in `app/shared/treemap.js` never call
-      `history.pushState` — so a zoomed-in view can't be shared or
-      bookmarked, and on mobile the back button/gesture exits the page
-      instead of stepping back one zoom level the way users expect.
 - [ ] Add a backdrop-click / Escape dismissal to the detail panel.
       `createDetailPanel` (`app/shared/detail-panel.js`) only wires close
       to the `×` button and to a mode switch — on narrow viewports the
@@ -165,6 +160,19 @@ need to.
 
 ## Shipped
 
+- [x] Reflect zoom depth and mode/window in the URL. `zoomTo`/
+      `zoomToOthers` in `app/shared/treemap.js` never call
+      `history.pushState` — so a zoomed-in view can't be shared or
+      bookmarked, and on mobile the back button/gesture exits the page
+      instead of stepping back one zoom level the way users expect. Fixed
+      via a new `app/shared/zoom-url.js` (pure encode/decode of
+      `{mode, window, idPath}` to/from a query string) wired into
+      `mountTreemap`'s new `initialState`/`onNavigate` options and the
+      domain page's inline script: a zoom pushes a history entry (so back
+      steps back one level), a mode/window switch replaces it in place
+      (visible in the URL but not its own undo step), and zooming into a
+      synthetic "N more" bucket touches neither, since its membership
+      isn't stable across modes.
 - [x] Point leaderboard rows at the internal project page instead of the
       project's external homepage. `renderRisingRow` in
       `scripts/render-page.mjs` links each row's name to `entry.link`

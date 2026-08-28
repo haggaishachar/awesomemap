@@ -384,22 +384,59 @@ test("renderDomainPage's embed variant has no teaser section", () => {
   assert.doesNotMatch(html, /rising-teaser/);
 });
 
-test("renderLandingPage renders a global teaser section between the hero and the map grid", () => {
-  const teaser = [{ rank: 1, id: "a/a", name: "Project A", link: "https://a.example", domain: "Data Science", starDelta: 40, percentDelta: 40, rankDelta: 0 }];
-  const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], { defaultOgImage: "/og-default.png", teaser });
-  assert.match(html, /class="rising-teaser-link" href="\/rising\/"/);
-  assert.ok(html.indexOf('class="hero"') < html.indexOf('class="rising-teaser"'));
-  assert.ok(html.indexOf('class="rising-teaser"') < html.indexOf('class="map-grid"'));
+test("renderLandingPage no longer renders the old global rising-teaser section", () => {
+  const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], { defaultOgImage: "/og-default.png" });
+  assert.doesNotMatch(html, /rising-teaser/);
 });
 
-test("renderLandingPage's teaser row links at the project's internal page, prefixed by BASE_PATH", () => {
-  const teaser = [{ rank: 1, id: "a/a", name: "Project A", link: "https://a.example", domain: "Data Science", starDelta: 40, percentDelta: 40, rankDelta: 0 }];
+test("renderLandingPage renders a today's-signals section between the hero and the map grid", () => {
+  const signals = {
+    mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 },
+    ecosystem: { slug: "data-science", shortName: "Data Science", percentDelta: 12 },
+    watch: { id: "b/b", name: "Project B", domainShort: "Security", percentDelta: 80, currentStars: 900 },
+  };
+  const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], { defaultOgImage: "/og-default.png", signals });
+  assert.match(html, /<section class="todays-signals">/);
+  assert.ok(html.indexOf('class="hero"') < html.indexOf('class="todays-signals"'));
+  assert.ok(html.indexOf('class="todays-signals"') < html.indexOf('class="map-grid"'));
+});
+
+test("renderLandingPage's mover and watch signal cards link at the project's internal page, prefixed by BASE_PATH", () => {
+  const signals = {
+    mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 },
+    ecosystem: null,
+    watch: { id: "b/b", name: "Project B", domainShort: "Security", percentDelta: 80, currentStars: 900 },
+  };
   const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], {
     defaultOgImage: "/og-default.png",
     basePath: "/techmap",
-    teaser,
+    signals,
   });
-  assert.match(html, /<a class="rising-row-name" href="\/techmap\/projects\/a\/a\/">Project A<\/a>/);
+  assert.match(html, /<a class="signal-card" href="\/techmap\/projects\/a\/a\/">[\s\S]*?Project A[\s\S]*?<\/a>/);
+  assert.match(html, /<a class="signal-card" href="\/techmap\/projects\/b\/b\/">[\s\S]*?Project B[\s\S]*?<\/a>/);
+});
+
+test("renderLandingPage's ecosystem signal card links at that domain's own page, prefixed by BASE_PATH", () => {
+  const signals = { mover: null, ecosystem: { slug: "data-science", shortName: "Data Science", percentDelta: 12 }, watch: null };
+  const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], {
+    defaultOgImage: "/og-default.png",
+    basePath: "/techmap",
+    signals,
+  });
+  assert.match(html, /<a class="signal-card" href="\/techmap\/data-science\/">[\s\S]*?Data Science[\s\S]*?<\/a>/);
+});
+
+test("renderLandingPage omits the today's-signals section entirely when no signal qualifies", () => {
+  const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], {
+    defaultOgImage: "/og-default.png",
+    signals: { mover: null, ecosystem: null, watch: null },
+  });
+  assert.doesNotMatch(html, /todays-signals/);
+});
+
+test("renderLandingPage defaults to no today's-signals section when the option is omitted entirely", () => {
+  const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], { defaultOgImage: "/og-default.png" });
+  assert.doesNotMatch(html, /todays-signals/);
 });
 
 test("renderLandingPage's hero includes a quick-jump link per domain, using its short name", () => {

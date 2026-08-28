@@ -72,6 +72,20 @@ body {
   z-index: 1;
 }
 
+/* A category zooms in on click while a leaf opens the detail panel, and
+   the two otherwise share the same chrome — this corner chevron gives a
+   visual cue for "there's more inside" before the first click. */
+.treemap-category::after {
+  content: "▸";
+  position: absolute;
+  top: 2px;
+  right: 4px;
+  font-size: 10px;
+  line-height: 1;
+  color: var(--color-accent);
+  pointer-events: none;
+}
+
 .treemap-category {
   background: var(--color-accent-soft);
   align-items: flex-start;

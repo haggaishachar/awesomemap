@@ -120,13 +120,6 @@ Added from a user-perspective walkthrough of the live site and source on
 2026-08-28, focused on where visitors get stuck or leave earlier than they
 need to.
 
-- [ ] Give category and leaf boxes a distinct visual affordance.
-      `.treemap-category` and `.treemap-leaf` (`app/shared/treemap.css`)
-      share the same chrome and both use `cursor: pointer` — a category
-      click zooms in, a leaf click opens the detail panel, and nothing
-      distinguishes the two until you click. A corner chevron/folder glyph
-      on categories (or a subtly different border) would remove the
-      guesswork on a visitor's first interaction.
 - [ ] Explain Popular/Rising and box sizing on pages reached without going
       through the homepage first. The tagline on `/` (in
       `scripts/render-page.mjs`) is the only place that spells out what the
@@ -182,6 +175,14 @@ need to.
       `/projects/<id>/` (and in the treemap's detail panel,
       `app/shared/detail-panel.js`). Link the name internally and let that
       page be the one that sends people onward to GitHub/homepage.
+- [x] Give category and leaf boxes a distinct visual affordance.
+      `.treemap-category` and `.treemap-leaf` (`app/shared/treemap.css`)
+      share the same chrome and both use `cursor: pointer` — a category
+      click zooms in, a leaf click opens the detail panel, and nothing
+      distinguishes the two until you click. Fixed with a `▸` corner
+      glyph on `.treemap-category` (via `::after`, colored with
+      `--color-accent` so it follows light/dark mode) to signal
+      "zooms into more" before the first click.
 - [x] Give every project a canonical, shareable page with always-on
       momentum stats and a "why is this rising" narrative line
       (sustained-vs-spike, growth relative to its category). This directly

@@ -1303,6 +1303,48 @@
       ],
       "weight": 2607,
       "image": "https://avatars.githubusercontent.com/u/91980534?v=4"
+    },
+    {
+      "id": "react-native-webview/react-native-webview",
+      "path": [
+        "UI Component Libraries"
+      ],
+      "name": "react-native-webview",
+      "link": "https://github.com/react-native-webview/react-native-webview",
+      "desc": "React Native Cross-Platform WebView",
+      "tags": [],
+      "weight": 7191,
+      "image": "https://avatars.githubusercontent.com/u/71109261?v=4"
+    },
+    {
+      "id": "pmndrs/jotai",
+      "path": [
+        "State Management"
+      ],
+      "name": "jotai",
+      "link": "https://github.com/pmndrs/jotai",
+      "desc": "👻 Primitive and flexible state management for React",
+      "tags": [
+        "atomic",
+        "hacktoberfest",
+        "management",
+        "react",
+        "state"
+      ],
+      "weight": 21247,
+      "image": "https://avatars.githubusercontent.com/u/45790596?v=4"
+    },
+    {
+      "id": "reduxjs/redux-toolkit",
+      "path": [
+        "State Management"
+      ],
+      "name": "redux-toolkit",
+      "link": "https://github.com/reduxjs/redux-toolkit",
+      "desc": "The official, opinionated, batteries-included toolset for efficient Redux development",
+      "tags": [],
+      "weight": 11225,
+      "image": "https://avatars.githubusercontent.com/u/13142323?v=4"
     }
   ]
 }

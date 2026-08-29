@@ -1435,6 +1435,72 @@
       "tags": [],
       "weight": 5088,
       "image": "https://avatars.githubusercontent.com/u/1342004?v=4"
+    },
+    {
+      "id": "mozilla/sops",
+      "path": [
+        "Secrets Management"
+      ],
+      "name": "sops",
+      "link": "https://github.com/mozilla/sops",
+      "desc": "Simple and flexible tool for managing secrets",
+      "tags": [
+        "aws",
+        "azure",
+        "devops",
+        "gcp",
+        "pgp",
+        "secret-distribution",
+        "secret-management",
+        "security",
+        "sops"
+      ],
+      "weight": 22958,
+      "image": "https://avatars.githubusercontent.com/u/129185620?v=4"
+    },
+    {
+      "id": "Bearer/bearer",
+      "path": [
+        "Static & Dynamic Analysis"
+      ],
+      "name": "bearer",
+      "link": "https://github.com/Bearer/bearer",
+      "desc": "Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks.",
+      "tags": [
+        "appsec",
+        "code-quality",
+        "compliance",
+        "dataflow",
+        "devsecops",
+        "devsecops-tools",
+        "gdpr",
+        "owasp",
+        "privacy",
+        "sast",
+        "security",
+        "security-audit",
+        "security-automation",
+        "security-scanner",
+        "security-tools",
+        "static-analysis",
+        "static-code-analysis",
+        "vulnerabilities",
+        "vulnerability"
+      ],
+      "weight": 2739,
+      "image": "https://avatars.githubusercontent.com/u/36886676?v=4"
+    },
+    {
+      "id": "segmentio/chamber",
+      "path": [
+        "Secrets Management"
+      ],
+      "name": "chamber",
+      "link": "https://github.com/segmentio/chamber",
+      "desc": "CLI for managing secrets",
+      "tags": [],
+      "weight": 2615,
+      "image": "https://avatars.githubusercontent.com/u/819518?v=4"
     }
   ]
 }

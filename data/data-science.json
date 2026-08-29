@@ -1343,6 +1343,61 @@
       ],
       "weight": 760,
       "image": "https://raw.githubusercontent.com/techascent/tech.ml.dataset/master/logo.svg"
+    },
+    {
+      "id": "hybridgroup/gocv",
+      "path": [
+        "Computer Vision"
+      ],
+      "name": "gocv",
+      "link": "https://github.com/hybridgroup/gocv",
+      "desc": "Go package for computer vision using OpenCV 4 and beyond. Includes support for DNN, CUDA, OpenCV Contrib, and OpenVINO.",
+      "tags": [
+        "computer-vision",
+        "computervision",
+        "cuda",
+        "dnn",
+        "face-tracking",
+        "gocv",
+        "golang",
+        "image-processing",
+        "mjpeg",
+        "mjpeg-stream",
+        "object-classification",
+        "object-tracking",
+        "onnx",
+        "opencv",
+        "openvino",
+        "tensorflow",
+        "video",
+        "video-capture",
+        "yolo"
+      ],
+      "weight": 7492,
+      "image": "https://avatars.githubusercontent.com/u/212109?v=4"
+    },
+    {
+      "id": "jbrukh/bayesian",
+      "path": [
+        "Classic Machine Learning"
+      ],
+      "name": "bayesian",
+      "link": "https://github.com/jbrukh/bayesian",
+      "desc": "Naive Bayesian Classification for Golang.",
+      "tags": [],
+      "weight": 816
+    },
+    {
+      "id": "airbnb/aerosolve",
+      "path": [
+        "Classic Machine Learning"
+      ],
+      "name": "aerosolve",
+      "link": "https://github.com/airbnb/aerosolve",
+      "desc": "A machine learning package built for humans.",
+      "tags": [],
+      "weight": 4808,
+      "image": "https://avatars.githubusercontent.com/u/698437?v=4"
     }
   ]
 }

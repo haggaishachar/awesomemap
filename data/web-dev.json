@@ -1413,6 +1413,88 @@
       ],
       "weight": 95515,
       "image": "https://avatars.githubusercontent.com/u/6906516?v=4"
+    },
+    {
+      "id": "aidenybai/million",
+      "path": [
+        "Build Tools & Bundlers"
+      ],
+      "name": "million",
+      "link": "https://github.com/aidenybai/million",
+      "desc": "Optimizing compiler for React",
+      "tags": [
+        "best-practices",
+        "blockdom",
+        "compiler",
+        "hacktoberfest",
+        "memo",
+        "million",
+        "millionjs",
+        "optimization",
+        "optimize",
+        "performance",
+        "preact",
+        "react",
+        "react-hooks",
+        "react-optimize",
+        "renderer",
+        "rendering",
+        "virtual-dom"
+      ],
+      "weight": 17670
+    },
+    {
+      "id": "remult/remult",
+      "path": [
+        "API & Data Layer"
+      ],
+      "name": "remult",
+      "link": "https://github.com/remult/remult",
+      "desc": "Full-stack CRUD, simplified, with SSOT TypeScript entities",
+      "tags": [
+        "angular",
+        "api",
+        "crud",
+        "express-middleware",
+        "fullstack",
+        "fullstack-typescript",
+        "jamstack",
+        "nextjs",
+        "orm",
+        "postgresql",
+        "react",
+        "rest",
+        "typescript",
+        "validation",
+        "vue"
+      ],
+      "weight": 3208,
+      "image": "https://avatars.githubusercontent.com/u/87660479?v=4"
+    },
+    {
+      "id": "artf/grapesjs",
+      "path": [
+        "UI Component Libraries"
+      ],
+      "name": "grapesjs",
+      "link": "https://github.com/artf/grapesjs",
+      "desc": "Free and Open source Web Builder Framework. Next generation tool for building templates without coding",
+      "tags": [
+        "drag-and-drop",
+        "framework",
+        "no-code",
+        "nocode",
+        "page-builder",
+        "site-builder",
+        "site-generator",
+        "template-builder",
+        "ui-builder",
+        "web-builder",
+        "web-builder-framework",
+        "website-builder"
+      ],
+      "weight": 26171,
+      "image": "https://avatars.githubusercontent.com/u/123950155?v=4"
     }
   ]
 }

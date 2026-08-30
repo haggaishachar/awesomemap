@@ -66,13 +66,13 @@ test("the detail panel is created with a historyUrl pointing at the domain's own
   const rootHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "" });
   assert.match(
     rootHtml,
-    /createDetailPanel\(document\.body, \{ historyUrl: "\/data-science\/history\.json", basePath: "", showProjectPageLink: true \}\)/
+    /createDetailPanel\(document\.body, \{ historyUrl: "\/data-science\/history\.json", basePath: "", showProjectPageLink: true, showCompareLink: true \}\)/
   );
 
   const prefixedHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
   assert.match(
     prefixedHtml,
-    /createDetailPanel\(document\.body, \{ historyUrl: "\/techmap\/data-science\/history\.json", basePath: "\/techmap", showProjectPageLink: true \}\)/
+    /createDetailPanel\(document\.body, \{ historyUrl: "\/techmap\/data-science\/history\.json", basePath: "\/techmap", showProjectPageLink: true, showCompareLink: true \}\)/
   );
 });
 
@@ -100,8 +100,17 @@ test("the embed variant's detail panel has showProjectPageLink set to false", ()
   const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "", embed: true });
   assert.match(
     html,
-    /createDetailPanel\(document\.body, \{ historyUrl: "\/data-science\/history\.json", basePath: "", showProjectPageLink: false \}\)/
+    /createDetailPanel\(document\.body, \{ historyUrl: "\/data-science\/history\.json", basePath: "", showProjectPageLink: false, showCompareLink: false \}\)/
   );
+});
+
+test("the embed variant's detail panel has showCompareLink set to false", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const embedHtml = renderDomainPage(domain, ROOT_TREE, { embed: true, defaultOgImage: "/og-default.png" });
+  assert.match(embedHtml, /showCompareLink: false/);
+
+  const fullHtml = renderDomainPage(domain, ROOT_TREE, { embed: false, defaultOgImage: "/og-default.png" });
+  assert.match(fullHtml, /showCompareLink: true/);
 });
 
 test("og:image and og:url are absolute when SITE_URL is set (origin only, combined with BASE_PATH)", () => {

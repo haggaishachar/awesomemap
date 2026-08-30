@@ -138,7 +138,7 @@ export function renderDomainPage(
       import { createDetailPanel } from "${basePath}/shared/detail-panel.js";
       import { parseZoomState, formatZoomState } from "${basePath}/shared/zoom-url.js";
       const mapData = JSON.parse(document.getElementById("map-data").textContent);
-      const panel = createDetailPanel(document.body, { historyUrl: "${historyUrl}", basePath: "${basePath}", showProjectPageLink: ${!embed} });
+      const panel = createDetailPanel(document.body, { historyUrl: "${historyUrl}", basePath: "${basePath}", showProjectPageLink: ${!embed}, showCompareLink: ${!embed} });
       // \`validWindows\` comes from generate.mjs's own RISING_WINDOWS_DAYS
       // (baked in at build time) rather than a browser-side copy, so this
       // list can't drift from the one that actually built \`mapData\`.

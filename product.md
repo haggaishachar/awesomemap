@@ -131,6 +131,63 @@ need to.
       silent, so it can read as "where did my view go?" A brief transient
       note would close the gap.
 
+## Data foundation
+
+Added from a review of an external product-backlog brainstorm received
+2026-08-30. Most of that brainstorm's ideas (tags, project pages, a
+"why is this rising" narrative, a weekly risers digest, automated
+candidate discovery + review, keyboard a11y, compare view, search) turned
+out to already be shipped or already tracked above — this section is what
+was left after checking against the actual code: the site's momentum
+signal is real but built on stars alone, and has no visible reliability
+net if the daily jobs that feed it go quiet.
+
+- [ ] Track more than stars per daily snapshot. `appendSnapshotEntry`
+      (`scripts/snapshot-history.mjs`) records only `{date, stars}` per
+      project per day — forks and open-issue counts are already sitting
+      unused in the same GitHub API response `enrich-domain.mjs` calls for
+      `stargazers_count`/`topics` (`repoData.forks_count`,
+      `repoData.open_issues_count`), so capturing them alongside stars is
+      close to free. A star spike corroborated by fork/contributor
+      movement reads very differently from one that isn't — right now the
+      site can't tell the two apart.
+- [ ] Statistical anomaly detection, not just sign-based sustained/spike.
+      `computeSustained` (`scripts/signal.mjs`) only checks whether growth
+      is positive in every window — it can't say "this is 3× this
+      project's own trailing average," which is what actually
+      distinguishes a genuine breakout from routine growth. Comparing each
+      window's delta to the project's own prior-window baseline (not just
+      its category's, which `computeRelativeMultiple` already does) would
+      sharpen the "why is this rising" headline beyond today's two-state
+      verdict.
+- [ ] A single normalized momentum score (e.g. "Momentum 92 🔥") to
+      complement `explainSignal`'s sustained/spike + relative-multiple
+      narrative — something a reader can compare across projects at a
+      glance without parsing a sentence. Sequence this after the two items
+      above: a score built from stars alone would be as gameable as a
+      star count is today, and less trustworthy than one corroborated by
+      forks/issues activity and anomaly detection.
+- [ ] On-site data freshness indicator (e.g. "Data updated 6h ago"), from
+      `data/history/<slug>.json`'s latest snapshot date — already
+      computed for the "not enough history yet" checks. Cheap trust
+      signal, and doubles as a visible canary if
+      `.github/workflows/snapshot-history.yml` ever silently stops
+      running.
+- [ ] Missing-snapshot / failed-ingestion alerting. `snapshot-history.yml`
+      and `discovery.yml` run on GitHub's best-effort daily cron, which is
+      known to skip runs under load; today a failure or a skipped day only
+      shows up as a red X in the Actions tab, if anyone happens to look. A
+      check that fails loudly when a domain's latest history entry is
+      older than ~36h would catch a silent gap before Rising mode quietly
+      goes stale.
+- [ ] Backfill tooling. There's no supported way to rebuild
+      `data/history/*.json` if the velocity formula (`scripts/velocity.mjs`)
+      or its 120-day pruning window changes — today that means either
+      living with the old computation until enough fresh data
+      re-accumulates, or hand-editing history files. A script to
+      recompute/re-derive stored history would make future formula
+      changes safe to ship.
+
 ## Measurement
 
 - [ ] Add privacy-friendly analytics (e.g. Plausible, GoatCounter, Umami —
@@ -142,6 +199,17 @@ need to.
 
 - [ ] Cross-link related/similar projects from the detail panel to
       increase session depth (currently just GitHub link + homepage).
+- [ ] Add a lightweight "Suggest a project" GitHub issue template
+      alongside the existing `new-domain-proposal.md`
+      (`.github/ISSUE_TEMPLATE/`). Today nominating a repo means either
+      opening a PR that edits `data/<slug>.json` directly
+      (`CONTRIBUTING.md`) or waiting for the automated discovery job
+      (`discovery.yml`) to stumble onto it via topic search/awesome-list
+      scraping — there's no path for a visitor who isn't comfortable with
+      either to just point at a repo they like. A short template (repo
+      URL, target map, why) can feed the same "🔍 Discovery review" issue
+      a maintainer already triages, reusing existing review muscle instead
+      of adding a new one.
 - [ ] Publish an explicit roadmap or a pinned "vote on the next domain"
       issue — the README has said "More domains are on the way" for a
       while with no visible mechanism for visitors to weigh in.

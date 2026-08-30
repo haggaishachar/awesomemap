@@ -477,7 +477,7 @@ test("renderComparePage mounts compare.js against the compare index, prefixed by
   const html = renderComparePage({ defaultOgImage: "/og-default.png", basePath: "/techmap" });
   assert.match(html, /import \{ mountCompare \} from "\/techmap\/shared\/compare.js"/);
   assert.match(html, /import \{ parseCompareIds, formatCompareIds \} from "\/techmap\/shared\/compare-url.js"/);
-  assert.match(html, /const compareIndexUrl = "\/techmap\/compare-index.json"/);
+  assert.match(html, /compareIndexUrl: "\/techmap\/compare-index.json"/);
   assert.match(html, /<div id="app" class="compare-app"><\/div>/);
 });
 
@@ -491,7 +491,7 @@ test("renderComparePage has a site header and footer and a canonical /compare/ U
 test("renderComparePage defaults to root-relative paths when basePath is empty", () => {
   const html = renderComparePage({ defaultOgImage: "/og-default.png" });
   assert.match(html, /from "\/shared\/compare.js"/);
-  assert.match(html, /const compareIndexUrl = "\/compare-index.json"/);
+  assert.match(html, /compareIndexUrl: "\/compare-index.json"/);
 });
 ```
 

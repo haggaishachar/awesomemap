@@ -1108,3 +1108,105 @@ a.momentum-row-name:hover {
     grid-template-columns: 1fr;
   }
 }
+
+/* Compare page — up to 4 side-by-side project columns, all reusing
+   .detail-panel-* chip/link classes for visual consistency with the
+   detail panel and project pages. */
+.compare-app {
+  max-width: 960px;
+  margin: 24px auto 48px;
+  padding: 0 24px;
+}
+
+.compare-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  align-items: start;
+}
+
+.compare-column {
+  position: relative;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+}
+
+.compare-column-missing {
+  color: var(--color-text-muted);
+}
+
+.compare-remove {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--color-text-muted);
+}
+
+.compare-remove:hover {
+  color: var(--color-accent);
+}
+
+.compare-domain {
+  display: block;
+  font-size: 12px;
+  color: var(--color-text-muted);
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.compare-desc {
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.compare-stat {
+  text-align: left;
+  font-size: 13px;
+  border-top: 1px solid var(--color-border);
+  padding: 6px 0;
+  margin: 0;
+}
+
+.compare-stat-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.compare-signal {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+.compare-add-column {
+  border-style: dashed;
+}
+
+.compare-add-form input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
+
+.compare-add-error {
+  color: var(--color-rising-down);
+  font-size: 12px;
+  min-height: 1em;
+}
+
+@media (max-width: 480px) {
+  .compare-grid {
+    grid-template-columns: 1fr;
+  }
+}

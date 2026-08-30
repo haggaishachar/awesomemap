@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 import { readdirSync, readFileSync, writeFileSync, mkdirSync, copyFileSync, rmSync, cpSync, existsSync } from "node:fs";
 import { buildTree } from "./build-tree.mjs";
-import { renderDomainPage, renderLandingPage, renderRisingPage, renderTagsIndexPage, renderTagPage, renderProjectPage, tagSlug } from "./render-page.mjs";
+import { renderDomainPage, renderLandingPage, renderRisingPage, renderTagsIndexPage, renderTagPage, renderProjectPage, renderComparePage, tagSlug } from "./render-page.mjs";
+import { buildCompareRecord, buildCompareIndex } from "./compare-index.mjs";
 import { explainSignal } from "./signal.mjs";
 import { starHistoryFor } from "../app/shared/star-history.js";
 import { computeProjectSizing, findInvalidSizes, RISING_WINDOWS_DAYS } from "./velocity.mjs";
@@ -327,6 +328,7 @@ for (const { tag, projects } of globalTagGroups) {
 // whichever domain won that dedup.
 mkdirSync(`${DIST_DIR}/projects`, { recursive: true });
 const projectPagePaths = [];
+const compareRecords = [];
 for (const project of allProjectsWithDomain) {
   const idParts = project.id.split("/");
   if (idParts.length !== 2 || idParts.some((part) => !/^[A-Za-z0-9._-]+$/.test(part))) {
@@ -341,6 +343,7 @@ for (const project of allProjectsWithDomain) {
     categoryName: categoryEntry?.key,
   });
   const historySeries = starHistoryFor(globalHistoryById, project.id);
+  compareRecords.push(buildCompareRecord(project, { historySeries, signalHeadline: signal.headline }));
 
   // `allProjectsWithDomain` already carries `domainSlug`/`domainShort`
   // (see the dedup pass above) — `domainShort` is already `domain.shortName
@@ -361,6 +364,17 @@ for (const project of allProjectsWithDomain) {
   projectPagePaths.push(`/projects/${project.id}/`);
 }
 
+// Cross-domain lookup index for the /compare/ page — one file for the
+// whole site, built from data already collected during Pass 4 above (see
+// compare-index.mjs).
+writeFileSync(`${DIST_DIR}/compare-index.json`, JSON.stringify(buildCompareIndex(compareRecords)));
+
+mkdirSync(`${DIST_DIR}/compare`, { recursive: true });
+writeFileSync(
+  `${DIST_DIR}/compare/index.html`,
+  renderComparePage({ defaultOgImage: DEFAULT_OG_IMAGE, siteUrl: SITE_URL, basePath: BASE_PATH })
+);
+
 cpSync(`${APP_DIR}/shared`, `${DIST_DIR}/shared`, { recursive: true });
 cpSync(`${APP_DIR}/vendor`, `${DIST_DIR}/vendor`, { recursive: true });
 copyFileSync(`${APP_DIR}/og-default.png`, `${DIST_DIR}/og-default.png`);
@@ -370,7 +384,7 @@ if (CNAME) writeFileSync(`${DIST_DIR}/CNAME`, `${CNAME}\n`);
 const sitemap = buildSitemap(domains.map((d) => d.slug), {
   siteUrl: SITE_URL,
   basePath: BASE_PATH,
-  extraPaths: ["/tags/", ...tagPagePaths, ...projectPagePaths],
+  extraPaths: ["/tags/", "/compare/", ...tagPagePaths, ...projectPagePaths],
 });
 if (sitemap) writeFileSync(`${DIST_DIR}/sitemap.xml`, sitemap);
 writeFileSync(`${DIST_DIR}/robots.txt`, buildRobots({ siteUrl: SITE_URL, basePath: BASE_PATH }));

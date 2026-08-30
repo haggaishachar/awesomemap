@@ -138,7 +138,7 @@ export function renderDomainPage(
       import { createDetailPanel } from "${basePath}/shared/detail-panel.js";
       import { parseZoomState, formatZoomState } from "${basePath}/shared/zoom-url.js";
       const mapData = JSON.parse(document.getElementById("map-data").textContent);
-      const panel = createDetailPanel(document.body, { historyUrl: "${historyUrl}", basePath: "${basePath}", showProjectPageLink: ${!embed} });
+      const panel = createDetailPanel(document.body, { historyUrl: "${historyUrl}", basePath: "${basePath}", showProjectPageLink: ${!embed}, showCompareLink: ${!embed} });
       // \`validWindows\` comes from generate.mjs's own RISING_WINDOWS_DAYS
       // (baked in at build time) rather than a browser-side copy, so this
       // list can't drift from the one that actually built \`mapData\`.
@@ -952,6 +952,7 @@ export function renderProjectPage(
       <div class="project-links">
         <a class="detail-panel-stars" href="${escapeHtml(githubRepoUrl(project.id))}" target="_blank" rel="noopener">★ ${formatStars(project.weight ?? 0)} stars on GitHub</a>
         ${project.link ? `<a class="detail-panel-link" href="${escapeHtml(project.link)}" target="_blank" rel="noopener">Visit site ↗</a>` : ""}
+        <a class="detail-panel-link" href="${basePath}/compare/?id=${encodeURIComponent(project.id)}">+ Compare</a>
       </div>
       ${renderProjectTagChips(project.tags, basePath)}
     </div>
@@ -962,6 +963,61 @@ export function renderProjectPage(
     title: `${project.name ?? project.id} — awesomemap`,
     ogTitle: project.name ?? project.id,
     ogDescription: project.desc ?? "",
+    ogImage: defaultOgImage,
+    ogUrl,
+    base: basePath,
+    body,
+  });
+}
+
+/**
+ * Renders the /compare/ page's static shell. Unlike every other page here,
+ * this shell carries no project data of its own — which projects are being
+ * compared is only known once the browser parses the URL's `id=` params, so
+ * the actual table is built entirely client-side by compare.js against
+ * dist/compare-index.json (see generate.mjs). Generic OG copy, since a
+ * static build can't know the query string in advance.
+ */
+export function renderComparePage({ defaultOgImage, siteUrl = "", basePath = "" } = {}) {
+  const ogUrl = `${siteUrl}${basePath}/compare/`;
+  const compareIndexUrl = `${basePath}/compare-index.json`;
+  const body = `
+    ${renderSiteHeader(basePath)}
+    <header class="rising-hero">
+      <h1>Compare projects</h1>
+      <p class="rising-hero-tagline">See stars, growth, and momentum for up to four open-source projects side by side.</p>
+    </header>
+    <div id="app" class="compare-app"></div>
+    <script type="module">
+      import { mountCompare } from "${basePath}/shared/compare.js";
+      import { parseCompareIds, formatCompareIds } from "${basePath}/shared/compare-url.js";
+      function stateUrl(ids) {
+        return location.pathname + formatCompareIds(ids);
+      }
+      const initialIds = parseCompareIds(new URLSearchParams(location.search));
+      // Gives the very first back-press a defined entry to return to,
+      // mirroring the same pattern renderDomainPage's inline script uses
+      // for zoom state.
+      history.replaceState(initialIds, "", stateUrl(initialIds));
+      const compare = mountCompare(document.getElementById("app"), {
+        compareIndexUrl: "${compareIndexUrl}",
+        basePath: "${basePath}",
+        initialIds,
+        onIdsChange: (ids) => {
+          history.pushState(ids, "", stateUrl(ids));
+        },
+      });
+      window.addEventListener("popstate", (event) => {
+        const ids = event.state ?? parseCompareIds(new URLSearchParams(location.search));
+        compare.applyIds(ids);
+      });
+    </script>
+    ${renderSiteFooter()}
+  `;
+  return renderShell({
+    title: "Compare projects — awesomemap",
+    ogTitle: "Compare projects — awesomemap",
+    ogDescription: "Compare stars, growth, and momentum across up to four open-source projects side by side.",
     ogImage: defaultOgImage,
     ogUrl,
     base: basePath,

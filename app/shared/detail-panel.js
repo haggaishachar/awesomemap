@@ -16,12 +16,12 @@ const DEFAULT_MOMENTUM_WINDOW_DAYS = 7;
  * server-side module; both sides are a one-line `encodeURIComponent`, so
  * the duplication is cheap to keep in sync.
  */
-function tagSlug(tag) {
+export function tagSlug(tag) {
   return encodeURIComponent(tag);
 }
 
 /** Builds the row of tag chips shown on a project's detail panel, or `null` when it has no tags. Each chip links to that tag's `/tags/<slug>/` page. */
-function renderTagChips(tags, basePath) {
+export function renderTagChips(tags, basePath) {
   if (!Array.isArray(tags) || tags.length === 0) return null;
   const list = document.createElement("div");
   list.className = "detail-panel-tags";
@@ -50,9 +50,12 @@ function renderTagChips(tags, basePath) {
  * `showProjectPageLink` (default `true`) controls whether a "View full
  * project page" link to the leaf's `/projects/<id>/` page is rendered;
  * pass `false` when embedding the panel somewhere that page would be
- * redundant (e.g. the project page itself). Returns { open(leafData), close() }.
+ * redundant (e.g. the project page itself). `showCompareLink` (default
+ * `true`) controls the same way whether a "+ Compare" link to the leaf's
+ * `/compare/?id=<id>` page is rendered; pass `false` for the same reason.
+ * Returns { open(leafData), close() }.
  */
-export function createDetailPanel(container, { historyUrl, basePath = "", showProjectPageLink = true } = {}) {
+export function createDetailPanel(container, { historyUrl, basePath = "", showProjectPageLink = true, showCompareLink = true } = {}) {
   const panel = document.createElement("aside");
   panel.className = "detail-panel";
   container.appendChild(panel);
@@ -169,6 +172,14 @@ export function createDetailPanel(container, { historyUrl, basePath = "", showPr
       link.rel = "noopener";
       link.textContent = "Visit site ↗";
       panel.appendChild(link);
+    }
+
+    if (showCompareLink && leafData.id) {
+      const compareLink = document.createElement("a");
+      compareLink.className = "detail-panel-link";
+      compareLink.href = `${basePath}/compare/?id=${encodeURIComponent(leafData.id)}`;
+      compareLink.textContent = "+ Compare";
+      panel.appendChild(compareLink);
     }
 
     if (showProjectPageLink && leafData.id) {

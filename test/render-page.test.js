@@ -7,6 +7,7 @@ import {
   renderTagsIndexPage,
   renderTagPage,
   renderProjectPage,
+  renderComparePage,
   tagSlug,
 } from "../scripts/render-page.mjs";
 
@@ -65,13 +66,13 @@ test("the detail panel is created with a historyUrl pointing at the domain's own
   const rootHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "" });
   assert.match(
     rootHtml,
-    /createDetailPanel\(document\.body, \{ historyUrl: "\/data-science\/history\.json", basePath: "", showProjectPageLink: true \}\)/
+    /createDetailPanel\(document\.body, \{ historyUrl: "\/data-science\/history\.json", basePath: "", showProjectPageLink: true, showCompareLink: true \}\)/
   );
 
   const prefixedHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
   assert.match(
     prefixedHtml,
-    /createDetailPanel\(document\.body, \{ historyUrl: "\/techmap\/data-science\/history\.json", basePath: "\/techmap", showProjectPageLink: true \}\)/
+    /createDetailPanel\(document\.body, \{ historyUrl: "\/techmap\/data-science\/history\.json", basePath: "\/techmap", showProjectPageLink: true, showCompareLink: true \}\)/
   );
 });
 
@@ -99,8 +100,17 @@ test("the embed variant's detail panel has showProjectPageLink set to false", ()
   const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "", embed: true });
   assert.match(
     html,
-    /createDetailPanel\(document\.body, \{ historyUrl: "\/data-science\/history\.json", basePath: "", showProjectPageLink: false \}\)/
+    /createDetailPanel\(document\.body, \{ historyUrl: "\/data-science\/history\.json", basePath: "", showProjectPageLink: false, showCompareLink: false \}\)/
   );
+});
+
+test("the embed variant's detail panel has showCompareLink set to false", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const embedHtml = renderDomainPage(domain, ROOT_TREE, { embed: true, defaultOgImage: "/og-default.png" });
+  assert.match(embedHtml, /showCompareLink: false/);
+
+  const fullHtml = renderDomainPage(domain, ROOT_TREE, { embed: false, defaultOgImage: "/og-default.png" });
+  assert.match(fullHtml, /showCompareLink: true/);
 });
 
 test("og:image and og:url are absolute when SITE_URL is set (origin only, combined with BASE_PATH)", () => {
@@ -852,8 +862,9 @@ test("renderProjectPage degrades gracefully for a minimal project record with on
   assert.match(html, /<h1>a\/b<\/h1>/);
   // No tag-chip block.
   assert.doesNotMatch(html, /class="detail-panel-tags"/);
-  // No "Visit site" link.
-  assert.doesNotMatch(html, /class="detail-panel-link"/);
+  // Has "+ Compare" link but no "Visit site" link.
+  assert.match(html, />\+ Compare</);
+  assert.doesNotMatch(html, /Visit site ↗/);
   // No hero image.
   assert.doesNotMatch(html, /class="detail-panel-logo"/);
   // Breadcrumb shows just Home + domain, no category crumbs.
@@ -875,5 +886,51 @@ test("renderProjectPage's momentum chip reports 'not tracked yet' for a window w
   const project = { ...PROJECT, hasEnoughHistory: { rising7: true, rising30: true, rising90: false } };
   const html = renderProjectPage(project, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
   assert.match(html, /Not tracked yet — first tracked 2026-05-01/);
+});
+
+test("renderProjectPage includes a + Compare link seeded with the project's own id", () => {
+  const project = {
+    id: "facebook/react",
+    name: "React",
+    path: ["Frontend Frameworks"],
+    weight: 1000,
+    growth: {},
+    hasEnoughHistory: {},
+  };
+  const html = renderProjectPage(project, {
+    domain: { slug: "web-dev", shortName: "Web Dev" },
+    defaultOgImage: "/og-default.png",
+    basePath: "/techmap",
+  });
+  assert.match(html, /href="\/techmap\/compare\/\?id=facebook%2Freact"/);
+  assert.match(html, />\+ Compare</);
+});
+
+test("renderComparePage mounts compare.js against the compare index, prefixed by BASE_PATH", () => {
+  const html = renderComparePage({ defaultOgImage: "/og-default.png", basePath: "/techmap" });
+  assert.match(html, /import \{ mountCompare \} from "\/techmap\/shared\/compare.js"/);
+  assert.match(html, /import \{ parseCompareIds, formatCompareIds \} from "\/techmap\/shared\/compare-url.js"/);
+  assert.match(html, /compareIndexUrl: "\/techmap\/compare-index.json"/);
+  assert.match(html, /<div id="app" class="compare-app"><\/div>/);
+});
+
+test("renderComparePage has a site header and footer and a canonical /compare/ URL", () => {
+  const html = renderComparePage({ defaultOgImage: "/og-default.png", siteUrl: "https://awesomemap.dev", basePath: "" });
+  assert.match(html, /class="site-header"/);
+  assert.match(html, /class="site-footer"/);
+  assert.match(html, /href="https:\/\/awesomemap.dev\/compare\/"/);
+});
+
+test("renderComparePage defaults to root-relative paths when basePath is empty", () => {
+  const html = renderComparePage({ defaultOgImage: "/og-default.png" });
+  assert.match(html, /from "\/shared\/compare.js"/);
+  assert.match(html, /compareIndexUrl: "\/compare-index.json"/);
+});
+
+test("renderComparePage renders a static heading and description before the mount point", () => {
+  const html = renderComparePage({ defaultOgImage: "/og-default.png" });
+  assert.match(html, /<h1>Compare[^<]*<\/h1>/);
+  assert.match(html, /<div id="app" class="compare-app">/);
+  assert(html.indexOf("<h1>Compare") < html.indexOf('<div id="app" class="compare-app">'));
 });
 

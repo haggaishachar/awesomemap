@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { appendSnapshotEntry, pruneOldEntries } from "../scripts/snapshot-history.mjs";
+import { appendSnapshotEntry, pruneOldEntries, buildSnapshotEntry } from "../scripts/snapshot-history.mjs";
 
 test("appendSnapshotEntry appends a new day's entry, keeping entries sorted by date", () => {
   const entries = [{ date: "2026-08-06", stars: 100 }];
@@ -52,4 +52,23 @@ test("pruneOldEntries keeps an entry exactly at the maxAgeDays boundary", () => 
   ];
   const result = pruneOldEntries(entries, { now: "2026-08-08T00:00:00.000Z", maxAgeDays: 120 });
   assert.deepEqual(result, entries);
+});
+
+test("buildSnapshotEntry pulls stars, forks, open issues, name, and description off repo data", () => {
+  const repoData = {
+    stargazers_count: 247895,
+    forks_count: 34210,
+    open_issues_count: 891,
+    name: "react",
+    description: "The library for web and native user interfaces.",
+  };
+  const result = buildSnapshotEntry(repoData, "2026-08-30");
+  assert.deepEqual(result, {
+    date: "2026-08-30",
+    stars: 247895,
+    forks: 34210,
+    openIssues: 891,
+    name: "react",
+    description: "The library for web and native user interfaces.",
+  });
 });

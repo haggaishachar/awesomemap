@@ -70,7 +70,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 21942
+      "stars": 21945,
+      "forks": 5878,
+      "openIssues": 0,
+      "name": "postgres",
+      "description": "Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute, please see https://wiki.postgresql.org/wiki/Submitting_a_Patch"
     }
   ],
   "mysql/mysql-server": [
@@ -144,7 +148,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 12406
+      "stars": 12406,
+      "forks": 4341,
+      "openIssues": 43,
+      "name": "mysql-server",
+      "description": "MySQL Server, the world's most popular open source database, and MySQL Cluster, a real-time, open source transactional database."
     }
   ],
   "sqlite/sqlite": [
@@ -218,7 +226,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 10367
+      "stars": 10371,
+      "forks": 1634,
+      "openIssues": 23,
+      "name": "sqlite",
+      "description": "Official Git mirror of the SQLite source tree"
     }
   ],
   "cockroachdb/cockroach": [
@@ -292,7 +304,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 32433
+      "stars": 32433,
+      "forks": 4099,
+      "openIssues": 8470,
+      "name": "cockroach",
+      "description": "CockroachDB — the cloud native, distributed SQL database designed for high availability, effortless scale, and control over data placement."
     }
   ],
   "MariaDB/server": [
@@ -366,7 +382,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 8156
+      "stars": 8157,
+      "forks": 2090,
+      "openIssues": 476,
+      "name": "server",
+      "description": "MariaDB server is a community developed fork of MySQL server. Started by core members of the original MySQL team, MariaDB actively works with outside developers to deliver the most featureful, stable, and sanely licensed open SQL server in the industry."
     }
   ],
   "mongodb/mongo": [
@@ -440,7 +460,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 28519
+      "stars": 28521,
+      "forks": 5799,
+      "openIssues": 32,
+      "name": "mongo",
+      "description": "The MongoDB Database"
     }
   ],
   "apache/cassandra": [
@@ -514,7 +538,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 10087
+      "stars": 10090,
+      "forks": 4111,
+      "openIssues": 476,
+      "name": "cassandra",
+      "description": "Open source transactional distributed database. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure without compromising performance."
     }
   ],
   "apache/couchdb": [
@@ -588,7 +616,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 6944
+      "stars": 6944,
+      "forks": 1077,
+      "openIssues": 368,
+      "name": "couchdb",
+      "description": "Seamless multi-primary syncing database with an intuitive HTTP/JSON API, designed for reliability"
     }
   ],
   "scylladb/scylladb": [
@@ -662,7 +694,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 15728
+      "stars": 15728,
+      "forks": 1513,
+      "openIssues": 3640,
+      "name": "scylladb",
+      "description": "NoSQL data store using the Seastar framework, compatible with Apache Cassandra and Amazon DynamoDB"
     }
   ],
   "redis/redis": [
@@ -736,7 +772,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 76146
+      "stars": 76149,
+      "forks": 24766,
+      "openIssues": 2922,
+      "name": "redis",
+      "description": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine."
     }
   ],
   "valkey-io/valkey": [
@@ -810,7 +850,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 27042
+      "stars": 27049,
+      "forks": 1304,
+      "openIssues": 894,
+      "name": "valkey",
+      "description": "A flexible distributed key-value database that is optimized for caching and other realtime workloads."
     }
   ],
   "memcached/memcached": [
@@ -884,7 +928,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 14262
+      "stars": 14263,
+      "forks": 3340,
+      "openIssues": 103,
+      "name": "memcached",
+      "description": "memcached development tree"
     }
   ],
   "etcd-io/etcd": [
@@ -958,7 +1006,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 52205
+      "stars": 52207,
+      "forks": 10481,
+      "openIssues": 331,
+      "name": "etcd",
+      "description": "Distributed reliable key-value store for the most critical data of a distributed system"
     }
   ],
   "elastic/elasticsearch": [
@@ -1032,7 +1084,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 77878
+      "stars": 77882,
+      "forks": 26068,
+      "openIssues": 6016,
+      "name": "elasticsearch",
+      "description": "Free and Open Source, Distributed, RESTful Search Engine"
     }
   ],
   "opensearch-project/OpenSearch": [
@@ -1106,7 +1162,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 13602
+      "stars": 13605,
+      "forks": 2936,
+      "openIssues": 3141,
+      "name": "OpenSearch",
+      "description": "🔎 Open source distributed and RESTful search engine."
     }
   ],
   "meilisearch/meilisearch": [
@@ -1180,7 +1240,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 59131
+      "stars": 59136,
+      "forks": 2692,
+      "openIssues": 319,
+      "name": "meilisearch",
+      "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications."
     }
   ],
   "typesense/typesense": [
@@ -1254,7 +1318,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 26490
+      "stars": 26490,
+      "forks": 967,
+      "openIssues": 875,
+      "name": "typesense",
+      "description": "Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences"
     }
   ],
   "apache/solr": [
@@ -1328,7 +1396,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 1670
+      "stars": 1670,
+      "forks": 859,
+      "openIssues": 166,
+      "name": "solr",
+      "description": "Apache Solr open-source search software"
     }
   ],
   "apache/kafka": [
@@ -1402,7 +1474,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 33641
+      "stars": 33644,
+      "forks": 15467,
+      "openIssues": 527,
+      "name": "kafka",
+      "description": "Apache Kafka - A distributed event streaming platform"
     }
   ],
   "rabbitmq/rabbitmq-server": [
@@ -1476,7 +1552,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 13824
+      "stars": 13828,
+      "forks": 4018,
+      "openIssues": 259,
+      "name": "rabbitmq-server",
+      "description": "Open source RabbitMQ: core server and tier 1 (built-in) plugins"
     }
   ],
   "nats-io/nats-server": [
@@ -1550,7 +1630,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 20630
+      "stars": 20634,
+      "forks": 1926,
+      "openIssues": 544,
+      "name": "nats-server",
+      "description": "High-Performance server for NATS.io, the cloud and edge native messaging system."
     }
   ],
   "redpanda-data/redpanda": [
@@ -1624,7 +1708,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 12500
+      "stars": 12499,
+      "forks": 786,
+      "openIssues": 546,
+      "name": "redpanda",
+      "description": "Redpanda is a streaming data platform for developers. Kafka API compatible. 10x faster. No ZooKeeper. No JVM!"
     }
   ],
   "apache/pulsar": [
@@ -1698,7 +1786,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 15319
+      "stars": 15319,
+      "forks": 3750,
+      "openIssues": 1731,
+      "name": "pulsar",
+      "description": "Apache Pulsar - distributed pub-sub messaging system"
     }
   ],
   "ClickHouse/ClickHouse": [
@@ -1772,7 +1864,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 49535
+      "stars": 49542,
+      "forks": 8875,
+      "openIssues": 7191,
+      "name": "ClickHouse",
+      "description": "ClickHouse® is a real-time analytics database management system"
     }
   ],
   "duckdb/duckdb": [
@@ -1846,7 +1942,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 40816
+      "stars": 40825,
+      "forks": 3663,
+      "openIssues": 856,
+      "name": "duckdb",
+      "description": "DuckDB is an analytical in-process SQL database management system"
     }
   ],
   "apache/druid": [
@@ -1920,7 +2020,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 14047
+      "stars": 14047,
+      "forks": 3801,
+      "openIssues": 775,
+      "name": "druid",
+      "description": "Apache Druid: a high performance real-time analytics database."
     }
   ],
   "apache/pinot": [
@@ -1994,7 +2098,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 6128
+      "stars": 6128,
+      "forks": 1503,
+      "openIssues": 1384,
+      "name": "pinot",
+      "description": "Apache Pinot - A realtime distributed OLAP datastore"
     }
   ],
   "influxdata/influxdb": [
@@ -2068,7 +2176,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 31731
+      "stars": 31732,
+      "forks": 3718,
+      "openIssues": 2157,
+      "name": "influxdb",
+      "description": "Scalable datastore for metrics, events, and real-time analytics"
     }
   ],
   "timescale/timescaledb": [
@@ -2142,7 +2254,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 23443
+      "stars": 23445,
+      "forks": 1141,
+      "openIssues": 398,
+      "name": "timescaledb",
+      "description": "A time-series database for high-performance real-time analytics packaged as a Postgres extension"
     }
   ],
   "questdb/questdb": [
@@ -2216,7 +2332,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 17289
+      "stars": 17292,
+      "forks": 1642,
+      "openIssues": 941,
+      "name": "questdb",
+      "description": "QuestDB is a high performance, open-source, time-series database"
     }
   ],
   "neo4j/neo4j": [
@@ -2290,7 +2410,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 17163
+      "stars": 17165,
+      "forks": 2689,
+      "openIssues": 255,
+      "name": "neo4j",
+      "description": "Graphs for Everyone"
     }
   ],
   "dgraph-io/dgraph": [
@@ -2364,7 +2488,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 21783
+      "stars": 21785,
+      "forks": 1603,
+      "openIssues": 97,
+      "name": "dgraph",
+      "description": "high-performance graph database for real-time use cases"
     }
   ],
   "arangodb/arangodb": [
@@ -2438,7 +2566,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 14268
+      "stars": 14268,
+      "forks": 885,
+      "openIssues": 834,
+      "name": "arangodb",
+      "description": "🥑 ArangoDB is a native multi-model database with flexible data models for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript extensions."
     }
   ],
   "hibernate/hibernate-orm": [
@@ -2512,7 +2644,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 6470
+      "stars": 6471,
+      "forks": 3811,
+      "openIssues": 162,
+      "name": "hibernate-orm",
+      "description": "Idiomatic persistence for Java and relational databases"
     }
   ],
   "drizzle-team/drizzle-orm": [
@@ -2586,7 +2722,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 35628
+      "stars": 35629,
+      "forks": 1563,
+      "openIssues": 1998,
+      "name": "drizzle-orm",
+      "description": "ORM"
     }
   ],
   "go-gorm/gorm": [
@@ -2660,7 +2800,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 39938
+      "stars": 39938,
+      "forks": 4176,
+      "openIssues": 522,
+      "name": "gorm",
+      "description": "The fantastic ORM library for Golang, aims to be developer friendly"
     }
   ],
   "sequelize/sequelize": [
@@ -2734,7 +2878,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 30375
+      "stars": 30375,
+      "forks": 4341,
+      "openIssues": 1079,
+      "name": "sequelize",
+      "description": "Feature-rich ORM for modern Node.js and TypeScript, it supports PostgreSQL (with JSON and JSONB support), MySQL, MariaDB, SQLite, MS SQL Server, Snowflake, Oracle DB, DB2 and DB2 for IBM i."
     }
   ],
   "sqlalchemy/sqlalchemy": [
@@ -2808,7 +2956,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 12120
+      "stars": 12119,
+      "forks": 1763,
+      "openIssues": 207,
+      "name": "sqlalchemy",
+      "description": "The Database Toolkit for Python"
     }
   ],
   "dbeaver/dbeaver": [
@@ -2882,7 +3034,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 51593
+      "stars": 51593,
+      "forks": 4364,
+      "openIssues": 3373,
+      "name": "dbeaver",
+      "description": "Free universal database tool and SQL client"
     }
   ],
   "vrana/adminer": [
@@ -2956,7 +3112,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 7838
+      "stars": 7839,
+      "forks": 1181,
+      "openIssues": 7,
+      "name": "adminer",
+      "description": "Database management in a single PHP file"
     }
   ],
   "flyway/flyway": [
@@ -3030,7 +3190,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 10043
+      "stars": 10042,
+      "forks": 1631,
+      "openIssues": 256,
+      "name": "flyway",
+      "description": "Flyway by Redgate • Database Migrations Made Easy."
     }
   ],
   "liquibase/liquibase": [
@@ -3104,7 +3268,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 5596
+      "stars": 5596,
+      "forks": 1972,
+      "openIssues": 254,
+      "name": "liquibase",
+      "description": "Main Liquibase Source"
     }
   ],
   "apache/airflow": [
@@ -3178,7 +3346,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 46645
+      "stars": 46647,
+      "forks": 17702,
+      "openIssues": 1985,
+      "name": "airflow",
+      "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows"
     }
   ],
   "dbt-labs/dbt-core": [
@@ -3252,7 +3424,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 13730
+      "stars": 13732,
+      "forks": 2535,
+      "openIssues": 1548,
+      "name": "dbt-core",
+      "description": "dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications."
     }
   ],
   "meltano/meltano": [
@@ -3326,7 +3502,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 2615
+      "stars": 2615,
+      "forks": 266,
+      "openIssues": 147,
+      "name": "meltano",
+      "description": "Meltano: the declarative code-first data integration engine that powers your wildest data and ML-powered product ideas. Say goodbye to writing, maintaining, and scaling your own API integrations."
     }
   ],
   "apache/nifi": [
@@ -3400,7 +3580,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 6211
+      "stars": 6211,
+      "forks": 2974,
+      "openIssues": 34,
+      "name": "nifi",
+      "description": "Apache NiFi"
     }
   ],
   "metabase/metabase": [
@@ -3474,7 +3658,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 48993
+      "stars": 48998,
+      "forks": 6777,
+      "openIssues": 4457,
+      "name": "metabase",
+      "description": "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:"
     }
   ],
   "apache/superset": [
@@ -3548,7 +3736,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 74536
+      "stars": 74541,
+      "forks": 18203,
+      "openIssues": 608,
+      "name": "superset",
+      "description": "Apache Superset is a Data Visualization and Data Exploration Platform"
     }
   ],
   "getredash/redash": [
@@ -3622,7 +3814,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 28767
+      "stars": 28767,
+      "forks": 4624,
+      "openIssues": 802,
+      "name": "redash",
+      "description": "Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data."
     }
   ],
   "neondatabase/neon": [
@@ -3664,7 +3860,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 22998
+      "stars": 23000,
+      "forks": 1080,
+      "openIssues": 558,
+      "name": "neon",
+      "description": "Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero."
     }
   ],
   "pingcap/tidb": [
@@ -3686,7 +3886,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 40478
+      "stars": 40477,
+      "forks": 6232,
+      "openIssues": 6835,
+      "name": "tidb",
+      "description": "TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling."
     }
   ],
   "typeorm/typeorm": [
@@ -3708,7 +3912,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 36638
+      "stars": 36637,
+      "forks": 6658,
+      "openIssues": 618,
+      "name": "typeorm",
+      "description": "TypeScript & JavaScript ORM for Node.js — supports PostgreSQL, MySQL, MariaDB, SQLite, SQL Server, Oracle, and more."
     }
   ],
   "facebook/rocksdb": [
@@ -3730,7 +3938,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 32030
+      "stars": 32030,
+      "forks": 6911,
+      "openIssues": 1631,
+      "name": "rocksdb",
+      "description": "A library that provides an embeddable, persistent key-value store for fast storage."
     }
   ],
   "ravendb/ravendb": [
@@ -3748,7 +3960,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 3994
+      "stars": 3995,
+      "forks": 864,
+      "openIssues": 75,
+      "name": "ravendb",
+      "description": "ACID Document Database"
     }
   ],
   "influxdb/influxdb": [
@@ -3766,7 +3982,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 31731
+      "stars": 31732,
+      "forks": 3718,
+      "openIssues": 2157,
+      "name": "influxdb",
+      "description": "Scalable datastore for metrics, events, and real-time analytics"
     }
   ],
   "elasticsearch/elasticsearch": [
@@ -3784,7 +4004,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 77878
+      "stars": 77882,
+      "forks": 26068,
+      "openIssues": 6016,
+      "name": "elasticsearch",
+      "description": "Free and Open Source, Distributed, RESTful Search Engine"
     }
   ],
   "prisma/orm": [
@@ -3798,7 +4022,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 47572
+      "stars": 47573,
+      "forks": 2536,
+      "openIssues": 2581,
+      "name": "orm",
+      "description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB"
     }
   ]
 }

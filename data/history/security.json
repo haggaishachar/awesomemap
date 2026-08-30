@@ -90,7 +90,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 13486
+      "stars": 13487,
+      "forks": 2892,
+      "openIssues": 675,
+      "name": "nmap",
+      "description": "Nmap - the Network Mapper. Github mirror of official SVN repository."
     }
   ],
   "robertdavidgraham/masscan": [
@@ -184,7 +188,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 25962
+      "stars": 25963,
+      "forks": 3237,
+      "openIssues": 414,
+      "name": "masscan",
+      "description": "TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes."
     }
   ],
   "zmap/zmap": [
@@ -278,7 +286,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 6366
+      "stars": 6366,
+      "forks": 986,
+      "openIssues": 12,
+      "name": "zmap",
+      "description": "ZMap is a fast single packet network scanner designed for Internet-wide network surveys."
     }
   ],
   "owasp-amass/amass": [
@@ -372,7 +384,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 15063
+      "stars": 15065,
+      "forks": 2174,
+      "openIssues": 239,
+      "name": "amass",
+      "description": "In-depth attack surface mapping and asset discovery"
     }
   ],
   "lanmaster53/recon-ng": [
@@ -466,7 +482,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 5879
+      "stars": 5881,
+      "forks": 917,
+      "openIssues": 38,
+      "name": "recon-ng",
+      "description": "Open Source Intelligence gathering tool aimed at reducing the time spent harvesting information from open sources."
     }
   ],
   "laramies/theHarvester": [
@@ -560,7 +580,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 17234
+      "stars": 17237,
+      "forks": 2569,
+      "openIssues": 7,
+      "name": "theHarvester",
+      "description": "E-mails, subdomains and names Harvester - OSINT "
     }
   ],
   "greenbone/openvas-scanner": [
@@ -654,7 +678,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 4803
+      "stars": 4803,
+      "forks": 798,
+      "openIssues": 22,
+      "name": "openvas-scanner",
+      "description": "This repository contains the scanner component for Greenbone Community Edition."
     }
   ],
   "sullo/nikto": [
@@ -748,7 +776,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 10693
+      "stars": 10692,
+      "forks": 1453,
+      "openIssues": 1,
+      "name": "nikto",
+      "description": "Nikto web server scanner"
     }
   ],
   "projectdiscovery/nuclei": [
@@ -842,7 +874,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 30927
+      "stars": 30939,
+      "forks": 3847,
+      "openIssues": 108,
+      "name": "nuclei",
+      "description": "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations."
     }
   ],
   "wapiti-scanner/wapiti": [
@@ -936,7 +972,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 1849
+      "stars": 1850,
+      "forks": 268,
+      "openIssues": 8,
+      "name": "wapiti",
+      "description": "Web vulnerability scanner written in Python3"
     }
   ],
   "zaproxy/zaproxy": [
@@ -1030,7 +1070,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 15707
+      "stars": 15709,
+      "forks": 2627,
+      "openIssues": 858,
+      "name": "zaproxy",
+      "description": "The ZAP by Checkmarx Core project"
     }
   ],
   "sqlmapproject/sqlmap": [
@@ -1124,7 +1168,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 38315
+      "stars": 38317,
+      "forks": 6351,
+      "openIssues": 34,
+      "name": "sqlmap",
+      "description": "Automatic SQL injection and database takeover tool"
     }
   ],
   "hahwul/dalfox": [
@@ -1218,7 +1266,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 5263
+      "stars": 5263,
+      "forks": 562,
+      "openIssues": 0,
+      "name": "dalfox",
+      "description": "🌙🦊 Dalfox is a powerful open-source XSS scanner and utility focused on automation."
     }
   ],
   "xmendez/wfuzz": [
@@ -1312,7 +1364,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 6561
+      "stars": 6561,
+      "forks": 1398,
+      "openIssues": 117,
+      "name": "wfuzz",
+      "description": "Web application fuzzer"
     }
   ],
   "ffuf/ffuf": [
@@ -1406,7 +1462,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 16606
+      "stars": 16608,
+      "forks": 1597,
+      "openIssues": 231,
+      "name": "ffuf",
+      "description": "Fast web fuzzer written in Go"
     }
   ],
   "rapid7/metasploit-framework": [
@@ -1500,7 +1560,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 38916
+      "stars": 38916,
+      "forks": 14956,
+      "openIssues": 598,
+      "name": "metasploit-framework",
+      "description": "Metasploit Framework"
     }
   ],
   "beefproject/beef": [
@@ -1594,7 +1658,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 10992
+      "stars": 10992,
+      "forks": 2368,
+      "openIssues": 37,
+      "name": "beef",
+      "description": "The Browser Exploitation Framework Project"
     }
   ],
   "BC-SECURITY/Empire": [
@@ -1688,7 +1756,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 5268
+      "stars": 5268,
+      "forks": 691,
+      "openIssues": 45,
+      "name": "Empire",
+      "description": "Empire is a post-exploitation and adversary emulation framework that is used to aid Red Teams and Penetration Testers."
     }
   ],
   "BishopFox/sliver": [
@@ -1782,7 +1854,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 11751
+      "stars": 11754,
+      "forks": 1579,
+      "openIssues": 226,
+      "name": "sliver",
+      "description": "Adversary Emulation Framework"
     }
   ],
   "wazuh/wazuh": [
@@ -1876,7 +1952,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 16719
+      "stars": 16723,
+      "forks": 2462,
+      "openIssues": 3007,
+      "name": "wazuh",
+      "description": "Wazuh - The Open Source Security Platform. Unified XDR and SIEM protection for endpoints and cloud workloads."
     }
   ],
   "ossec/ossec-hids": [
@@ -1970,7 +2050,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 5048
+      "stars": 5049,
+      "forks": 1074,
+      "openIssues": 124,
+      "name": "ossec-hids",
+      "description": "OSSEC is an Open Source Host-based Intrusion Detection System that performs log analysis, file integrity checking, policy monitoring, rootkit detection, real-time alerting and active response."
     }
   ],
   "OISF/suricata": [
@@ -2064,7 +2148,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 6581
+      "stars": 6582,
+      "forks": 1758,
+      "openIssues": 102,
+      "name": "suricata",
+      "description": "Suricata is a network Intrusion Detection System, Intrusion Prevention System and Network Security Monitoring engine developed by the OISF and the Suricata community."
     }
   ],
   "zeek/zeek": [
@@ -2158,7 +2246,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 7921
+      "stars": 7923,
+      "forks": 1403,
+      "openIssues": 258,
+      "name": "zeek",
+      "description": "Zeek is a powerful network analysis framework that is much different from the typical IDS you may know."
     }
   ],
   "Security-Onion-Solutions/securityonion": [
@@ -2252,7 +2344,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 4854
+      "stars": 4854,
+      "forks": 670,
+      "openIssues": 81,
+      "name": "securityonion",
+      "description": "Security Onion is a free and open platform for threat hunting, enterprise security monitoring, and log management. It includes our own interfaces for alerting, dashboards, hunting, PCAP, detections, and case management. It also includes other tools such as osquery, CyberChef, Elasticsearch, Logstash, Kibana, Suricata, and Zeek."
     }
   ],
   "openwall/john": [
@@ -2346,7 +2442,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 13568
+      "stars": 13568,
+      "forks": 2545,
+      "openIssues": 513,
+      "name": "john",
+      "description": "John the Ripper jumbo - advanced offline password cracker, which supports hundreds of hash and cipher types, and runs on many operating systems, CPUs, GPUs, and even some FPGAs"
     }
   ],
   "hashcat/hashcat": [
@@ -2440,7 +2540,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 26656
+      "stars": 26660,
+      "forks": 3545,
+      "openIssues": 355,
+      "name": "hashcat",
+      "description": "World's fastest and most advanced password recovery utility"
     }
   ],
   "vanhauser-thc/thc-hydra": [
@@ -2534,7 +2638,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 12215
+      "stars": 12215,
+      "forks": 2651,
+      "openIssues": 49,
+      "name": "thc-hydra",
+      "description": "hydra"
     }
   ],
   "Pennyw0rth/NetExec": [
@@ -2628,7 +2736,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 5821
+      "stars": 5821,
+      "forks": 757,
+      "openIssues": 165,
+      "name": "NetExec",
+      "description": "The Network Execution Tool"
     }
   ],
   "jmk-foofus/medusa": [
@@ -2722,7 +2834,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 884
+      "stars": 884,
+      "forks": 201,
+      "openIssues": 15,
+      "name": "medusa",
+      "description": "Medusa is a speedy, parallel, and modular, login brute-forcer. "
     }
   ],
   "semgrep/semgrep": [
@@ -2816,7 +2932,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 16443
+      "stars": 16446,
+      "forks": 1042,
+      "openIssues": 905,
+      "name": "semgrep",
+      "description": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code."
     }
   ],
   "PyCQA/bandit": [
@@ -2910,7 +3030,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 8247
+      "stars": 8248,
+      "forks": 830,
+      "openIssues": 259,
+      "name": "bandit",
+      "description": "Bandit is a tool designed to find common security issues in Python code."
     }
   ],
   "presidentbeef/brakeman": [
@@ -3004,7 +3128,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 7265
+      "stars": 7265,
+      "forks": 776,
+      "openIssues": 115,
+      "name": "brakeman",
+      "description": "A static analysis security vulnerability scanner for Ruby on Rails applications"
     }
   ],
   "github/codeql": [
@@ -3098,7 +3226,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 10029
+      "stars": 10029,
+      "forks": 2070,
+      "openIssues": 1465,
+      "name": "codeql",
+      "description": "CodeQL: the libraries and queries that power security researchers around the world, as well as code scanning in GitHub Advanced Security"
     }
   ],
   "SonarSource/sonarqube": [
@@ -3192,7 +3324,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 10939
+      "stars": 10940,
+      "forks": 2226,
+      "openIssues": 1,
+      "name": "sonarqube",
+      "description": "Continuous Inspection"
     }
   ],
   "hashicorp/vault": [
@@ -3286,7 +3422,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 36188
+      "stars": 36188,
+      "forks": 4748,
+      "openIssues": 1431,
+      "name": "vault",
+      "description": "A tool for secrets management, encryption as a service, and privileged access management"
     }
   ],
   "awslabs/git-secrets": [
@@ -3380,7 +3520,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 13386
+      "stars": 13385,
+      "forks": 1253,
+      "openIssues": 131,
+      "name": "git-secrets",
+      "description": "Prevents you from committing secrets and credentials into git repositories"
     }
   ],
   "gitleaks/gitleaks": [
@@ -3474,7 +3618,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 29014
+      "stars": 29018,
+      "forks": 2224,
+      "openIssues": 470,
+      "name": "gitleaks",
+      "description": "Find secrets with Gitleaks 🔑"
     }
   ],
   "trufflesecurity/trufflehog": [
@@ -3568,7 +3716,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 27631
+      "stars": 27632,
+      "forks": 2557,
+      "openIssues": 525,
+      "name": "trufflehog",
+      "description": "Find, verify, and analyze leaked credentials"
     }
   ],
   "getsops/sops": [
@@ -3662,7 +3814,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 22964
+      "stars": 22966,
+      "forks": 1075,
+      "openIssues": 444,
+      "name": "sops",
+      "description": "Simple and flexible tool for managing secrets"
     }
   ],
   "aquasecurity/trivy": [
@@ -3756,7 +3912,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 37693
+      "stars": 37695,
+      "forks": 640,
+      "openIssues": 258,
+      "name": "trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
     }
   ],
   "falcosecurity/falco": [
@@ -3850,7 +4010,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 9314
+      "stars": 9315,
+      "forks": 1069,
+      "openIssues": 65,
+      "name": "falco",
+      "description": "Cloud Native Runtime Security"
     }
   ],
   "quay/clair": [
@@ -3944,7 +4108,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 11054
+      "stars": 11054,
+      "forks": 1216,
+      "openIssues": 59,
+      "name": "clair",
+      "description": "Vulnerability Static Analysis for Containers"
     }
   ],
   "aquasecurity/kube-bench": [
@@ -4038,7 +4206,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 8160
+      "stars": 8160,
+      "forks": 1337,
+      "openIssues": 97,
+      "name": "kube-bench",
+      "description": "Checks whether Kubernetes is deployed according to security best practices as defined in the CIS Kubernetes Benchmark"
     }
   ],
   "prowler-cloud/prowler": [
@@ -4132,7 +4304,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 14717
+      "stars": 14718,
+      "forks": 2349,
+      "openIssues": 349,
+      "name": "prowler",
+      "description": "Prowler is the world’s most widely used open-source cloud security platform that automates security and compliance across any cloud environment."
     }
   ],
   "nccgroup/ScoutSuite": [
@@ -4226,7 +4402,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 7804
+      "stars": 7804,
+      "forks": 1228,
+      "openIssues": 296,
+      "name": "ScoutSuite",
+      "description": "Multi-Cloud Security Auditing Tool"
     }
   ],
   "NationalSecurityAgency/ghidra": [
@@ -4320,7 +4500,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 73657
+      "stars": 73784,
+      "forks": 8056,
+      "openIssues": 1922,
+      "name": "ghidra",
+      "description": "Ghidra is a software reverse engineering (SRE) framework"
     }
   ],
   "radareorg/radare2": [
@@ -4414,7 +4598,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 24680
+      "stars": 24681,
+      "forks": 3310,
+      "openIssues": 822,
+      "name": "radare2",
+      "description": "UNIX-like reverse engineering framework and command-line toolset"
     }
   ],
   "volatilityfoundation/volatility3": [
@@ -4508,7 +4696,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 4360
+      "stars": 4362,
+      "forks": 698,
+      "openIssues": 135,
+      "name": "volatility3",
+      "description": "Volatility 3.0 development"
     }
   ],
   "sleuthkit/autopsy": [
@@ -4602,7 +4794,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 3301
+      "stars": 3301,
+      "forks": 693,
+      "openIssues": 399,
+      "name": "autopsy",
+      "description": "Autopsy® is a digital forensics platform and graphical interface to The Sleuth Kit® and other digital forensics tools. It can be used by law enforcement, military, and corporate examiners to investigate what happened on a computer. You can even use it to recover photos from your camera's memory card. "
     }
   ],
   "sleuthkit/sleuthkit": [
@@ -4696,7 +4892,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 3137
+      "stars": 3137,
+      "forks": 705,
+      "openIssues": 479,
+      "name": "sleuthkit",
+      "description": "The Sleuth Kit® (TSK) is a library and collection of command line digital forensics tools that allow you to investigate volume and file system data. The library can be incorporated into larger digital forensics tools and the command line tools can be directly used to find evidence. "
     }
   ],
   "x64dbg/x64dbg": [
@@ -4790,7 +4990,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 49356
+      "stars": 49358,
+      "forks": 2833,
+      "openIssues": 574,
+      "name": "x64dbg",
+      "description": "An open-source user mode debugger for Windows. Optimized for reverse engineering and malware analysis."
     }
   ],
   "wireshark/wireshark": [
@@ -4832,7 +5036,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 9796
+      "stars": 9797,
+      "forks": 2201,
+      "openIssues": 2,
+      "name": "wireshark",
+      "description": "Read-only mirror of Wireshark's Git repository at https://gitlab.com/wireshark/wireshark. You're welcome to submit pull requests there."
     }
   ],
   "VirusTotal/yara": [
@@ -4874,7 +5082,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 9840
+      "stars": 9841,
+      "forks": 1586,
+      "openIssues": 170,
+      "name": "yara",
+      "description": "The pattern matching swiss knife"
     }
   ],
   "osquery/osquery": [
@@ -4916,7 +5128,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 23532
+      "stars": 23532,
+      "forks": 2595,
+      "openIssues": 632,
+      "name": "osquery",
+      "description": "SQL powered operating system instrumentation, monitoring, and analytics."
     }
   ],
   "crowdsecurity/crowdsec": [
@@ -4958,7 +5174,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 14675
+      "stars": 14682,
+      "forks": 711,
+      "openIssues": 290,
+      "name": "crowdsec",
+      "description": "CrowdSec - the open-source and participative security solution offering crowdsourced protection against malicious IPs and access to the most advanced real-world CTI."
     }
   ],
   "KeygraphHQ/shannon": [
@@ -4980,7 +5200,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 47288
+      "stars": 47298,
+      "forks": 5440,
+      "openIssues": 31,
+      "name": "shannon",
+      "description": "Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production."
     }
   ],
   "lissy93/web-check": [
@@ -5002,7 +5226,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 34623
+      "stars": 34625,
+      "forks": 2833,
+      "openIssues": 32,
+      "name": "web-check",
+      "description": "🕵️‍♂️ All-in-one OSINT tool for analysing any website"
     }
   ],
   "Infisical/infisical": [
@@ -5024,7 +5252,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 29028
+      "stars": 29032,
+      "forks": 2229,
+      "openIssues": 740,
+      "name": "infisical",
+      "description": "Infisical is the open-source platform for secrets, certificates, and privileged access management."
     }
   ],
   "beenuar/AiSOC": [
@@ -5042,7 +5274,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 2362
+      "stars": 2363,
+      "forks": 251,
+      "openIssues": 23,
+      "name": "AiSOC",
+      "description": "Open-source AI-powered Security Operations Center — alert fusion, purple-team drills, agent-assisted triage, MITRE ATT&CK investigation. MIT-licensed, self-hostable."
     }
   ],
   "threathunters-io/laurel": [
@@ -5060,7 +5296,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 856
+      "stars": 856,
+      "forks": 65,
+      "openIssues": 8,
+      "name": "laurel",
+      "description": "Transform Linux Audit logs for SIEM usage"
     }
   ],
   "tenzir/tenzir": [
@@ -5078,7 +5318,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 757
+      "stars": 757,
+      "forks": 109,
+      "openIssues": 0,
+      "name": "tenzir",
+      "description": "Tenzir is the data pipeline engine for security teams."
     }
   ],
   "RustScan/RustScan": [
@@ -5092,7 +5336,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 20342
+      "stars": 20342,
+      "forks": 1377,
+      "openIssues": 61,
+      "name": "RustScan",
+      "description": "🤖 The Modern Port Scanner 🤖"
     }
   ],
   "jtpereyda/boofuzz": [
@@ -5106,7 +5354,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 2355
+      "stars": 2355,
+      "forks": 381,
+      "openIssues": 101,
+      "name": "boofuzz",
+      "description": "A fork and successor of the Sulley Fuzzing Framework"
     }
   ],
   "deepfence/ThreatMapper": [
@@ -5120,7 +5372,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 5318
+      "stars": 5318,
+      "forks": 631,
+      "openIssues": 144,
+      "name": "ThreatMapper",
+      "description": "Open Source Cloud Native Application Protection Platform (CNAPP)"
     }
   ],
   "iBotPeaches/Apktool": [
@@ -5130,7 +5386,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 25415
+      "stars": 25417,
+      "forks": 3989,
+      "openIssues": 83,
+      "name": "Apktool",
+      "description": "A tool for reverse engineering Android apk files"
     }
   ],
   "skylot/jadx": [
@@ -5140,7 +5400,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 50267
+      "stars": 50272,
+      "forks": 5739,
+      "openIssues": 442,
+      "name": "jadx",
+      "description": "Dex to Java decompiler"
     }
   ],
   "google/grr": [
@@ -5150,25 +5414,71 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 5089
+      "stars": 5089,
+      "forks": 797,
+      "openIssues": 191,
+      "name": "grr",
+      "description": "GRR Rapid Response: remote live forensics for incident response"
     }
   ],
   "mozilla/sops": [
     {
       "date": "2026-08-30",
-      "stars": 22964
+      "stars": 22966,
+      "forks": 1075,
+      "openIssues": 444,
+      "name": "sops",
+      "description": "Simple and flexible tool for managing secrets"
     }
   ],
   "Bearer/bearer": [
     {
       "date": "2026-08-30",
-      "stars": 2740
+      "stars": 2740,
+      "forks": 149,
+      "openIssues": 17,
+      "name": "bearer",
+      "description": "Code security scanning tool (SAST) to discover, filter and prioritize security and privacy risks."
     }
   ],
   "segmentio/chamber": [
     {
       "date": "2026-08-30",
-      "stars": 2615
+      "stars": 2615,
+      "forks": 185,
+      "openIssues": 38,
+      "name": "chamber",
+      "description": "CLI for managing secrets"
+    }
+  ],
+  "meirwah/awesome-incident-response": [
+    {
+      "date": "2026-08-30",
+      "stars": 9361,
+      "forks": 1737,
+      "openIssues": 76,
+      "name": "awesome-incident-response",
+      "description": "A curated list of tools for incident response"
+    }
+  ],
+  "hslatman/awesome-threat-intelligence": [
+    {
+      "date": "2026-08-30",
+      "stars": 10584,
+      "forks": 1821,
+      "openIssues": 117,
+      "name": "awesome-threat-intelligence",
+      "description": "A curated list of Awesome Threat Intelligence resources"
+    }
+  ],
+  "InQuest/awesome-yara": [
+    {
+      "date": "2026-08-30",
+      "stars": 4264,
+      "forks": 552,
+      "openIssues": 1,
+      "name": "awesome-yara",
+      "description": "A curated list of awesome YARA rules, tools, and people."
     }
   ]
 }

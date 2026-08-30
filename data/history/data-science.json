@@ -90,7 +90,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 67097
+      "stars": 67103,
+      "forks": 27335,
+      "openIssues": 2136,
+      "name": "scikit-learn",
+      "description": "scikit-learn: machine learning in Python"
     }
   ],
   "dmlc/xgboost": [
@@ -184,7 +188,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 28710
+      "stars": 28714,
+      "forks": 8890,
+      "openIssues": 429,
+      "name": "xgboost",
+      "description": "Scalable, Portable and Distributed Gradient Boosting (GBDT, GBRT or GBM) Library,  for Python, R, Java, Scala, C and more. Runs on single machine, Hadoop, Spark, Dask, Flink and DataFlow"
     }
   ],
   "accord-net/framework": [
@@ -278,7 +286,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 4535
+      "stars": 4535,
+      "forks": 1977,
+      "openIssues": 760,
+      "name": "framework",
+      "description": "Machine learning, computer vision, statistics and general scientific computing for .NET"
     }
   ],
   "tensorflow/tensorflow": [
@@ -372,7 +384,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 198031
+      "stars": 198067,
+      "forks": 76200,
+      "openIssues": 2984,
+      "name": "tensorflow",
+      "description": "An Open Source Machine Learning Framework for Everyone"
     }
   ],
   "deepmind/sonnet": [
@@ -492,7 +508,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 102666
+      "stars": 102678,
+      "forks": 29041,
+      "openIssues": 17472,
+      "name": "pytorch",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration"
     }
   ],
   "apache/incubator-mxnet": [
@@ -612,7 +632,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 14248
+      "stars": 14248,
+      "forks": 3826,
+      "openIssues": 59,
+      "name": "deeplearning4j",
+      "description": "Suite of tools for deploying and training deep learning models using the JVM. Highlights include model import for keras, tensorflow, and onnx/pytorch, a modular and tiny c++ library for running math code and a java based math library on top of the core c++ library. Also includes samediff: a pytorch/tensorflow like library for running deep learn..."
     }
   ],
   "openai/gym": [
@@ -732,7 +756,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 10902
+      "stars": 10902,
+      "forks": 1390,
+      "openIssues": 111,
+      "name": "dopamine",
+      "description": "Dopamine is a research framework for fast prototyping of reinforcement learning algorithms. "
     }
   ],
   "facebookresearch/ReAgent": [
@@ -826,7 +854,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 3712
+      "stars": 3712,
+      "forks": 529,
+      "openIssues": 85,
+      "name": "ReAgent",
+      "description": "A platform for Reasoning systems (Reinforcement Learning, Contextual Bandits, etc.)"
     }
   ],
   "tensorlayer/tensorlayer": [
@@ -946,7 +978,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 40046
+      "stars": 40046,
+      "forks": 9678,
+      "openIssues": 880,
+      "name": "bert",
+      "description": "TensorFlow code and pre-trained models for BERT"
     }
   ],
   "huggingface/transformers": [
@@ -1040,7 +1076,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 164627
+      "stars": 164636,
+      "forks": 34394,
+      "openIssues": 2402,
+      "name": "transformers",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. "
     }
   ],
   "allenai/allennlp": [
@@ -1134,7 +1174,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 11886
+      "stars": 11886,
+      "forks": 2205,
+      "openIssues": 91,
+      "name": "allennlp",
+      "description": "An open-source NLP research library, built on PyTorch."
     }
   ],
   "flairNLP/flair": [
@@ -1228,7 +1272,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 14384
+      "stars": 14384,
+      "forks": 2103,
+      "openIssues": 31,
+      "name": "flair",
+      "description": "A very simple framework for state-of-the-art Natural Language Processing (NLP)"
     }
   ],
   "explosion/spaCy": [
@@ -1322,7 +1370,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 33866
+      "stars": 33864,
+      "forks": 4721,
+      "openIssues": 236,
+      "name": "spaCy",
+      "description": "💫 Industrial-strength Natural Language Processing (NLP) in Python"
     }
   ],
   "facebookresearch/fastText": [
@@ -1416,7 +1468,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 26535
+      "stars": 26534,
+      "forks": 4836,
+      "openIssues": 554,
+      "name": "fastText",
+      "description": "Library for fast text representation and classification."
     }
   ],
   "kaldi-asr/kaldi": [
@@ -1510,7 +1566,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 15471
+      "stars": 15472,
+      "forks": 5354,
+      "openIssues": 261,
+      "name": "kaldi",
+      "description": "kaldi-asr/kaldi is the official location of the Kaldi project."
     }
   ],
   "mozilla/DeepSpeech": [
@@ -1604,7 +1664,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 26774
+      "stars": 26774,
+      "forks": 4079,
+      "openIssues": 151,
+      "name": "DeepSpeech",
+      "description": "DeepSpeech is an open source embedded (offline, on-device) speech-to-text engine which can run in real time on devices ranging from a Raspberry Pi 4 to high power GPU servers."
     }
   ],
   "facebookresearch/wav2letter": [
@@ -1698,7 +1762,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 6436
+      "stars": 6436,
+      "forks": 988,
+      "openIssues": 107,
+      "name": "wav2letter",
+      "description": "Facebook AI Research's Automatic Speech Recognition Toolkit "
     }
   ],
   "pjreddie/darknet": [
@@ -1792,7 +1860,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 26494
+      "stars": 26494,
+      "forks": 21012,
+      "openIssues": 1976,
+      "name": "darknet",
+      "description": "Convolutional Neural Networks"
     }
   ],
   "opencv/opencv": [
@@ -1886,7 +1958,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 90644
+      "stars": 90645,
+      "forks": 56977,
+      "openIssues": 2755,
+      "name": "opencv",
+      "description": "Open Source Computer Vision Library"
     }
   ],
   "facebookresearch/detectron2": [
@@ -1980,7 +2056,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 34693
+      "stars": 34693,
+      "forks": 7941,
+      "openIssues": 588,
+      "name": "detectron2",
+      "description": "Detectron2 is a platform for object detection, segmentation and other visual recognition tasks."
     }
   ],
   "CMU-Perceptual-Computing-Lab/openpose": [
@@ -2074,7 +2154,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 34419
+      "stars": 34420,
+      "forks": 8038,
+      "openIssues": 359,
+      "name": "openpose",
+      "description": "OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation"
     }
   ],
   "davidsandberg/facenet": [
@@ -2168,7 +2252,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 14343
+      "stars": 14343,
+      "forks": 4774,
+      "openIssues": 553,
+      "name": "facenet",
+      "description": "Face recognition using Tensorflow"
     }
   ],
   "apache/spark": [
@@ -2262,7 +2350,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 43909
+      "stars": 43914,
+      "forks": 29357,
+      "openIssues": 506,
+      "name": "spark",
+      "description": "Apache Spark - A unified analytics engine for large-scale data processing"
     }
   ],
   "apache/mahout": [
@@ -2356,7 +2448,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 2305
+      "stars": 2305,
+      "forks": 997,
+      "openIssues": 74,
+      "name": "mahout",
+      "description": "Apache Mahout - an environment for quickly creating scalable, performant machine learning applications."
     }
   ],
   "horovod/horovod": [
@@ -2450,7 +2546,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 14688
+      "stars": 14687,
+      "forks": 2234,
+      "openIssues": 406,
+      "name": "horovod",
+      "description": "Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet."
     }
   ],
   "dask/dask": [
@@ -2544,7 +2644,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 13905
+      "stars": 13907,
+      "forks": 1941,
+      "openIssues": 1320,
+      "name": "dask",
+      "description": "Parallel computing with task scheduling"
     }
   ],
   "ray-project/ray": [
@@ -2638,7 +2742,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 43651
+      "stars": 43655,
+      "forks": 7980,
+      "openIssues": 3546,
+      "name": "ray",
+      "description": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads."
     }
   ],
   "EpistasisLab/tpot": [
@@ -2732,7 +2840,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 10051
+      "stars": 10051,
+      "forks": 1562,
+      "openIssues": 312,
+      "name": "tpot",
+      "description": "A Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming."
     }
   ],
   "keras-team/autokeras": [
@@ -2826,7 +2938,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 9327
+      "stars": 9327,
+      "forks": 1390,
+      "openIssues": 160,
+      "name": "autokeras",
+      "description": "AutoML library for deep learning"
     }
   ],
   "FeatureLabs/featuretools": [
@@ -2998,7 +3114,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 15350
+      "stars": 15350,
+      "forks": 4546,
+      "openIssues": 46,
+      "name": "jupyter",
+      "description": "Jupyter metapackage for installation and documentation"
     }
   ],
   "spyder-ide/spyder": [
@@ -3092,7 +3212,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 9299
+      "stars": 9299,
+      "forks": 1792,
+      "openIssues": 1341,
+      "name": "spyder",
+      "description": "Official repository for Spyder - The Scientific Python Development Environment"
     }
   ],
   "apache/zeppelin": [
@@ -3186,7 +3310,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 6655
+      "stars": 6655,
+      "forks": 2837,
+      "openIssues": 63,
+      "name": "zeppelin",
+      "description": "Web-based notebook that enables data-driven, interactive data analytics and collaborative documents with SQL, Scala and more."
     }
   ],
   "h2oai/h2o-3": [
@@ -3280,7 +3408,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 7497
+      "stars": 7497,
+      "forks": 2024,
+      "openIssues": 2883,
+      "name": "h2o-3",
+      "description": "H2O is an Open Source, Distributed, Fast & Scalable Machine Learning Platform: Deep Learning, Gradient Boosting (GBM) & XGBoost, Random Forest, Generalized Linear Modeling (GLM with Elastic Net), K-Means, PCA, Generalized Additive Models (GAM), RuleFit, Support Vector Machine (SVM), Stacked Ensembles, Automatic Machine Learning (AutoML), etc."
     }
   ],
   "mlflow/mlflow": [
@@ -3374,7 +3506,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 27734
+      "stars": 27738,
+      "forks": 6234,
+      "openIssues": 2059,
+      "name": "mlflow",
+      "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data."
     }
   ],
   "kubeflow/kubeflow": [
@@ -3468,7 +3604,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 15841
+      "stars": 15841,
+      "forks": 2693,
+      "openIssues": 0,
+      "name": "kubeflow",
+      "description": "Machine Learning Toolkit for Kubernetes"
     }
   ],
   "onnx/onnx": [
@@ -3562,7 +3702,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 21380
+      "stars": 21384,
+      "forks": 4015,
+      "openIssues": 279,
+      "name": "onnx",
+      "description": "Open standard for machine learning interoperability"
     }
   ],
   "SeldonIO/seldon-core": [
@@ -3656,7 +3800,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 4779
+      "stars": 4779,
+      "forks": 868,
+      "openIssues": 396,
+      "name": "seldon-core",
+      "description": "An MLOps framework to package, deploy, monitor and manage thousands of production machine learning models"
     }
   ],
   "pandas-dev/pandas": [
@@ -3730,7 +3878,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 49596
+      "stars": 49600,
+      "forks": 20309,
+      "openIssues": 2746,
+      "name": "pandas",
+      "description": "Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more"
     }
   ],
   "numpy/numpy": [
@@ -3804,7 +3956,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 32630
+      "stars": 32633,
+      "forks": 12693,
+      "openIssues": 2342,
+      "name": "numpy",
+      "description": "The fundamental package for scientific computing with Python."
     }
   ],
   "pola-rs/polars": [
@@ -3878,7 +4034,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 39549
+      "stars": 39556,
+      "forks": 3068,
+      "openIssues": 2877,
+      "name": "polars",
+      "description": "Extremely fast Query Engine for DataFrames, written in Rust"
     }
   ],
   "lightgbm-org/LightGBM": [
@@ -3952,7 +4112,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 18728
+      "stars": 18729,
+      "forks": 4062,
+      "openIssues": 517,
+      "name": "LightGBM",
+      "description": "A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks."
     }
   ],
   "catboost/catboost": [
@@ -4026,7 +4190,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 9086
+      "stars": 9086,
+      "forks": 1329,
+      "openIssues": 712,
+      "name": "catboost",
+      "description": "A fast, scalable, high performance Gradient Boosting on Decision Trees library, used for ranking, classification, regression and other machine learning tasks for Python, R, Java, C++. Supports computation on CPU and GPU."
     }
   ],
   "google-deepmind/sonnet": [
@@ -4100,7 +4268,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 9960
+      "stars": 9960,
+      "forks": 1304,
+      "openIssues": 43,
+      "name": "sonnet",
+      "description": "TensorFlow-based neural network library"
     }
   ],
   "keras-team/keras": [
@@ -4174,7 +4346,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 64269
+      "stars": 64269,
+      "forks": 19772,
+      "openIssues": 233,
+      "name": "keras",
+      "description": "Deep Learning for humans"
     }
   ],
   "jax-ml/jax": [
@@ -4248,7 +4424,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 36226
+      "stars": 36226,
+      "forks": 3749,
+      "openIssues": 2493,
+      "name": "jax",
+      "description": "Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more"
     }
   ],
   "Farama-Foundation/Gymnasium": [
@@ -4322,7 +4502,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 12433
+      "stars": 12434,
+      "forks": 1447,
+      "openIssues": 77,
+      "name": "Gymnasium",
+      "description": "A standard API for single-agent reinforcement learning environments, with popular reference environments and related utilities (formerly Gym)"
     }
   ],
   "DLR-RM/stable-baselines3": [
@@ -4396,7 +4580,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 13738
+      "stars": 13739,
+      "forks": 2172,
+      "openIssues": 85,
+      "name": "stable-baselines3",
+      "description": "PyTorch version of Stable Baselines, reliable implementations of reinforcement learning algorithms. "
     }
   ],
   "alteryx/featuretools": [
@@ -4470,7 +4658,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 7672
+      "stars": 7672,
+      "forks": 915,
+      "openIssues": 169,
+      "name": "featuretools",
+      "description": "An open source python library for automated feature engineering"
     }
   ],
   "optuna/optuna": [
@@ -4544,7 +4736,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 14728
+      "stars": 14729,
+      "forks": 1383,
+      "openIssues": 22,
+      "name": "optuna",
+      "description": "A hyperparameter optimization framework"
     }
   ],
   "autogluon/autogluon": [
@@ -4618,7 +4814,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 10624
+      "stars": 10624,
+      "forks": 1181,
+      "openIssues": 376,
+      "name": "autogluon",
+      "description": "Fast and Accurate ML in 3 Lines of Code"
     }
   ],
   "wandb/wandb": [
@@ -4692,7 +4892,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 11244
+      "stars": 11244,
+      "forks": 891,
+      "openIssues": 951,
+      "name": "wandb",
+      "description": "The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production."
     }
   ],
   "rasbt/LLMs-from-scratch": [
@@ -4714,7 +4918,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 104037
+      "stars": 104061,
+      "forks": 15930,
+      "openIssues": 2,
+      "name": "LLMs-from-scratch",
+      "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step"
     }
   ],
   "microsoft/ML-For-Beginners": [
@@ -4736,7 +4944,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 89923
+      "stars": 89935,
+      "forks": 22125,
+      "openIssues": 13,
+      "name": "ML-For-Beginners",
+      "description": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all"
     }
   ],
   "mlabonne/llm-course": [
@@ -4758,7 +4970,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 82105
+      "stars": 82111,
+      "forks": 9554,
+      "openIssues": 90,
+      "name": "llm-course",
+      "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks."
     }
   ],
   "pytorch/vision": [
@@ -4776,7 +4992,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 17893
+      "stars": 17894,
+      "forks": 7256,
+      "openIssues": 1201,
+      "name": "vision",
+      "description": "Datasets, Transforms and Models specific to Computer Vision"
     }
   ],
   "piskvorky/gensim": [
@@ -4794,7 +5014,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 16480
+      "stars": 16480,
+      "forks": 4406,
+      "openIssues": 439,
+      "name": "gensim",
+      "description": "Topic Modelling for Humans"
     }
   ],
   "pycaret/pycaret": [
@@ -4808,7 +5032,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 9833
+      "stars": 9833,
+      "forks": 1844,
+      "openIssues": 33,
+      "name": "pycaret",
+      "description": "Open-source, low-code AutoML platform for Python. PyCaret 4.0: sklearn-native engine + React control plane."
     }
   ],
   "google/sentencepiece": [
@@ -4822,7 +5050,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 12051
+      "stars": 12052,
+      "forks": 1381,
+      "openIssues": 6,
+      "name": "sentencepiece",
+      "description": "Unsupervised text tokenizer for Neural Network-based text generation."
     }
   ],
   "alphacep/vosk-api": [
@@ -4836,7 +5068,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 15085
+      "stars": 15085,
+      "forks": 1750,
+      "openIssues": 602,
+      "name": "vosk-api",
+      "description": "Offline speech recognition API for Android, iOS, Raspberry Pi and servers with Python, Java, C# and Node"
     }
   ],
   "techascent/tech.ml.dataset": [
@@ -4846,25 +5082,71 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 760
+      "stars": 760,
+      "forks": 34,
+      "openIssues": 32,
+      "name": "tech.ml.dataset",
+      "description": "A Clojure high performance data processing system"
     }
   ],
   "hybridgroup/gocv": [
     {
       "date": "2026-08-30",
-      "stars": 7492
+      "stars": 7492,
+      "forks": 901,
+      "openIssues": 357,
+      "name": "gocv",
+      "description": "Go package for computer vision using OpenCV 4 and beyond. Includes support for DNN, CUDA, OpenCV Contrib, and OpenVINO."
     }
   ],
   "jbrukh/bayesian": [
     {
       "date": "2026-08-30",
-      "stars": 816
+      "stars": 816,
+      "forks": 128,
+      "openIssues": 0,
+      "name": "bayesian",
+      "description": "Naive Bayesian Classification for Golang."
     }
   ],
   "airbnb/aerosolve": [
     {
       "date": "2026-08-30",
-      "stars": 4809
+      "stars": 4809,
+      "forks": 563,
+      "openIssues": 10,
+      "name": "aerosolve",
+      "description": "A machine learning package built for humans."
+    }
+  ],
+  "deeplearning4j/deeplearning4j": [
+    {
+      "date": "2026-08-30",
+      "stars": 14248,
+      "forks": 3826,
+      "openIssues": 59,
+      "name": "deeplearning4j",
+      "description": "Suite of tools for deploying and training deep learning models using the JVM. Highlights include model import for keras, tensorflow, and onnx/pytorch, a modular and tiny c++ library for running math code and a java based math library on top of the core c++ library. Also includes samediff: a pytorch/tensorflow like library for running deep learn..."
+    }
+  ],
+  "deepjavalibrary/djl": [
+    {
+      "date": "2026-08-30",
+      "stars": 4849,
+      "forks": 760,
+      "openIssues": 224,
+      "name": "djl",
+      "description": "An Engine-Agnostic Deep Learning Framework in Java"
+    }
+  ],
+  "NaturalNode/natural": [
+    {
+      "date": "2026-08-30",
+      "stars": 10881,
+      "forks": 855,
+      "openIssues": 87,
+      "name": "natural",
+      "description": "general natural language facilities for node"
     }
   ]
 }

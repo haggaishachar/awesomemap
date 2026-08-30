@@ -90,7 +90,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 126460
+      "stars": 126459,
+      "forks": 25234,
+      "openIssues": 1158,
+      "name": "react-native",
+      "description": "A framework for building native applications using React"
     }
   ],
   "flutter/flutter": [
@@ -184,7 +188,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 178716
+      "stars": 178718,
+      "forks": 31019,
+      "openIssues": 13207,
+      "name": "flutter",
+      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond"
     }
   ],
   "ionic-team/ionic-framework": [
@@ -278,7 +286,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 52635
+      "stars": 52635,
+      "forks": 13315,
+      "openIssues": 592,
+      "name": "ionic-framework",
+      "description": "A powerful cross-platform UI toolkit for building native-quality iOS, Android, and Progressive Web Apps with HTML, CSS, and JavaScript."
     }
   ],
   "ionic-team/capacitor": [
@@ -372,7 +384,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 16430
+      "stars": 16455,
+      "forks": 1241,
+      "openIssues": 123,
+      "name": "capacitor",
+      "description": "Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web ⚡️"
     }
   ],
   "NativeScript/NativeScript": [
@@ -466,7 +482,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 25632
+      "stars": 25632,
+      "forks": 1738,
+      "openIssues": 834,
+      "name": "NativeScript",
+      "description": "⚡ Write Native with TypeScript ✨ Best of all worlds (TypeScript, Swift, Objective C, Kotlin, Java, Dart). Use what you love ❤️ Angular, React, Solid, Svelte, Vue with: iOS (UIKit, SwiftUI), Android (View, Jetpack Compose), Flutter and you name it compatible."
     }
   ],
   "tauri-apps/tauri": [
@@ -560,7 +580,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 110670
+      "stars": 110678,
+      "forks": 3907,
+      "openIssues": 1466,
+      "name": "tauri",
+      "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend."
     }
   ],
   "lysine-dev/retrofit": [
@@ -654,7 +678,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 43936
+      "stars": 43937,
+      "forks": 7339,
+      "openIssues": 168,
+      "name": "retrofit",
+      "description": "A type-safe HTTP client for Android and the JVM"
     }
   ],
   "lysine-dev/okhttp": [
@@ -748,7 +776,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 47055
+      "stars": 47055,
+      "forks": 9292,
+      "openIssues": 142,
+      "name": "okhttp",
+      "description": "A meticulous HTTP client for the JVM, Android, and GraalVM."
     }
   ],
   "bumptech/glide": [
@@ -842,7 +874,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 35025
+      "stars": 35025,
+      "forks": 6180,
+      "openIssues": 658,
+      "name": "glide",
+      "description": "An image loading and caching library for Android focused on smooth scrolling"
     }
   ],
   "coil-kt/coil": [
@@ -936,7 +972,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 11885
+      "stars": 11885,
+      "forks": 787,
+      "openIssues": 70,
+      "name": "coil",
+      "description": "Image loading for Android and Compose Multiplatform."
     }
   ],
   "google/dagger": [
@@ -1030,7 +1070,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 17702
+      "stars": 17701,
+      "forks": 2040,
+      "openIssues": 366,
+      "name": "dagger",
+      "description": "A fast dependency injector for Android and Java."
     }
   ],
   "square/leakcanary": [
@@ -1124,7 +1168,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 29987
+      "stars": 29988,
+      "forks": 3992,
+      "openIssues": 132,
+      "name": "leakcanary",
+      "description": "A memory leak detection library for Android."
     }
   ],
   "Alamofire/Alamofire": [
@@ -1218,7 +1266,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 42427
+      "stars": 42427,
+      "forks": 7659,
+      "openIssues": 44,
+      "name": "Alamofire",
+      "description": "Elegant HTTP Networking in Swift"
     }
   ],
   "onevcat/Kingfisher": [
@@ -1312,7 +1364,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 24395
+      "stars": 24395,
+      "forks": 2766,
+      "openIssues": 170,
+      "name": "Kingfisher",
+      "description": "A lightweight, pure-Swift library for downloading and caching images from the web."
     }
   ],
   "SDWebImage/SDWebImage": [
@@ -1406,7 +1462,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 25634
+      "stars": 25634,
+      "forks": 5958,
+      "openIssues": 131,
+      "name": "SDWebImage",
+      "description": "Asynchronous image downloader with cache support as a UIImageView category"
     }
   ],
   "ReactiveX/RxSwift": [
@@ -1500,7 +1560,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 24649
+      "stars": 24650,
+      "forks": 4154,
+      "openIssues": 12,
+      "name": "RxSwift",
+      "description": "Reactive Programming in Swift"
     }
   ],
   "Swinject/Swinject": [
@@ -1594,7 +1658,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 6708
+      "stars": 6708,
+      "forks": 539,
+      "openIssues": 70,
+      "name": "Swinject",
+      "description": "Dependency injection framework for Swift with iOS/macOS/Linux"
     }
   ],
   "supabase/supabase": [
@@ -1688,7 +1756,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 108595
+      "stars": 108612,
+      "forks": 13676,
+      "openIssues": 1076,
+      "name": "supabase",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications."
     }
   ],
   "appwrite/appwrite": [
@@ -1782,7 +1854,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 57165
+      "stars": 57174,
+      "forks": 5673,
+      "openIssues": 1022,
+      "name": "appwrite",
+      "description": "Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more"
     }
   ],
   "parse-community/parse-server": [
@@ -1876,7 +1952,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 21411
+      "stars": 21412,
+      "forks": 4813,
+      "openIssues": 552,
+      "name": "parse-server",
+      "description": "Parse Server for Node.js / Express"
     }
   ],
   "pocketbase/pocketbase": [
@@ -1970,7 +2050,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 60884
+      "stars": 60886,
+      "forks": 3664,
+      "openIssues": 19,
+      "name": "pocketbase",
+      "description": "Open Source realtime backend in 1 file"
     }
   ],
   "wix/Detox": [
@@ -2064,7 +2148,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 12019
+      "stars": 12019,
+      "forks": 1913,
+      "openIssues": 204,
+      "name": "Detox",
+      "description": "Gray box end-to-end testing and automation framework for mobile apps"
     }
   ],
   "appium/appium": [
@@ -2158,7 +2246,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 21909
+      "stars": 21910,
+      "forks": 6284,
+      "openIssues": 60,
+      "name": "appium",
+      "description": "Cross-platform automation framework for all kinds of apps, built on top of the W3C WebDriver protocol"
     }
   ],
   "mobile-dev-inc/Maestro": [
@@ -2252,7 +2344,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 15456
+      "stars": 15456,
+      "forks": 936,
+      "openIssues": 496,
+      "name": "Maestro",
+      "description": "Painless E2E Automation for Mobile and Web"
     }
   ],
   "robolectric/robolectric": [
@@ -2346,7 +2442,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 6042
+      "stars": 6041,
+      "forks": 1390,
+      "openIssues": 498,
+      "name": "robolectric",
+      "description": "Android Unit Testing Framework"
     }
   ],
   "callstack/react-native-paper": [
@@ -2440,7 +2540,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 14448
+      "stars": 14447,
+      "forks": 2241,
+      "openIssues": 476,
+      "name": "react-native-paper",
+      "description": "Material Design for React Native (Android & iOS)"
     }
   ],
   "gluestack/gluestack-ui": [
@@ -2534,7 +2638,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 5277
+      "stars": 5278,
+      "forks": 231,
+      "openIssues": 12,
+      "name": "gluestack-ui",
+      "description": "React & React Native Components & Patterns (copy-paste components & patterns crafted with Tailwind CSS (NativeWind))"
     }
   ],
   "react-native-elements/react-native-elements": [
@@ -2628,7 +2736,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 25862
+      "stars": 25860,
+      "forks": 4676,
+      "openIssues": 156,
+      "name": "react-native-elements",
+      "description": "Cross-Platform React Native UI Toolkit"
     }
   ],
   "material-components/material-components-android": [
@@ -2722,7 +2834,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 17381
+      "stars": 17381,
+      "forks": 3227,
+      "openIssues": 805,
+      "name": "material-components-android",
+      "description": "[MAINTENANCE MODE] Modular and customizable Material Design UI components for Android"
     }
   ],
   "TextureGroup/Texture": [
@@ -2816,7 +2932,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 8181
+      "stars": 8181,
+      "forks": 1309,
+      "openIssues": 625,
+      "name": "Texture",
+      "description": "Smooth asynchronous user interfaces for iOS apps."
     }
   ],
   "reduxjs/redux": [
@@ -2910,7 +3030,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 61506
+      "stars": 61506,
+      "forks": 15191,
+      "openIssues": 49,
+      "name": "redux",
+      "description": "A JS library for predictable global state management"
     }
   ],
   "mobxjs/mobx": [
@@ -3004,7 +3128,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 28206
+      "stars": 28206,
+      "forks": 1800,
+      "openIssues": 57,
+      "name": "mobx",
+      "description": "Simple, scalable state management."
     }
   ],
   "pmndrs/zustand": [
@@ -3098,7 +3226,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 58630
+      "stars": 58630,
+      "forks": 2187,
+      "openIssues": 5,
+      "name": "zustand",
+      "description": "🐻 Bear necessities for state management in React"
     }
   ],
   "rrousselGit/riverpod": [
@@ -3192,7 +3324,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 7374
+      "stars": 7374,
+      "forks": 1112,
+      "openIssues": 157,
+      "name": "riverpod",
+      "description": "A reactive caching and data-binding framework.   Riverpod makes working with asynchronous code a breeze."
     }
   ],
   "felangel/bloc": [
@@ -3286,7 +3422,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 12482
+      "stars": 12482,
+      "forks": 3420,
+      "openIssues": 84,
+      "name": "bloc",
+      "description": "A predictable state management library that helps implement the BLoC design pattern"
     }
   ],
   "react-navigation/react-navigation": [
@@ -3380,7 +3520,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 24501
+      "stars": 24501,
+      "forks": 5131,
+      "openIssues": 843,
+      "name": "react-navigation",
+      "description": "Routing and navigation for React Native and Web apps"
     }
   ],
   "wix/react-native-navigation": [
@@ -3474,7 +3618,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 13176
+      "stars": 13176,
+      "forks": 2629,
+      "openIssues": 42,
+      "name": "react-native-navigation",
+      "description": "A complete native navigation solution for React Native"
     }
   ],
   "Milad-Akarie/auto_route_library": [
@@ -3568,7 +3716,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 1753
+      "stars": 1753,
+      "forks": 470,
+      "openIssues": 264,
+      "name": "auto_route_library",
+      "description": "Flutter route generator"
     }
   ],
   "fastlane/fastlane": [
@@ -3662,7 +3814,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 42041
+      "stars": 42043,
+      "forks": 6025,
+      "openIssues": 674,
+      "name": "fastlane",
+      "description": "🚀 The easiest way to automate building and releasing your iOS and Android apps"
     }
   ],
   "bitrise-io/bitrise": [
@@ -3756,7 +3912,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 896
+      "stars": 896,
+      "forks": 131,
+      "openIssues": 29,
+      "name": "bitrise",
+      "description": "Bitrise runner CLI - run your automations on your Mac or Linux machine -"
     }
   ],
   "shorebirdtech/shorebird": [
@@ -3850,7 +4010,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 3026
+      "stars": 3026,
+      "forks": 233,
+      "openIssues": 250,
+      "name": "shorebird",
+      "description": "Code Push for Flutter and other tools for Flutter businesses."
     }
   ],
   "Triple-T/gradle-play-publisher": [
@@ -3944,7 +4108,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 4317
+      "stars": 4317,
+      "forks": 348,
+      "openIssues": 23,
+      "name": "gradle-play-publisher",
+      "description": "GPP is Android's unofficial release automation Gradle Plugin. It can do anything from building, uploading, and then promoting your App Bundle or APK to publishing app listings and other metadata."
     }
   ],
   "getsentry/sentry": [
@@ -4038,7 +4206,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 44658
+      "stars": 44658,
+      "forks": 4826,
+      "openIssues": 2234,
+      "name": "sentry",
+      "description": "Developer-first error tracking and performance monitoring"
     }
   ],
   "PostHog/posthog": [
@@ -4132,7 +4304,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 39479
+      "stars": 39483,
+      "forks": 3319,
+      "openIssues": 5213,
+      "name": "posthog",
+      "description": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP."
     }
   ],
   "Countly/countly-server": [
@@ -4226,7 +4402,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 5894
+      "stars": 5894,
+      "forks": 983,
+      "openIssues": 16,
+      "name": "countly-server",
+      "description": "Countly is a privacy-first, AI-powered analytics and engagement platform for understanding and optimizing customer journeys across digital applications, from desktop and mobile to IoT and connected environments."
     }
   ],
   "matomo-org/matomo": [
@@ -4320,7 +4500,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 21826
+      "stars": 21826,
+      "forks": 2896,
+      "openIssues": 2572,
+      "name": "matomo",
+      "description": "Empowering People Ethically 🚀 — Matomo is hiring! Join us → https://matomo.org/jobs Matomo is the leading open-source alternative to Google Analytics, giving you complete control and built-in privacy. Easily collect, visualise, and analyse data from websites & apps. Star us on GitHub ⭐️  – Pull Requests welcome! "
     }
   ],
   "expo/expo": [
@@ -4342,7 +4526,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 51909
+      "stars": 51915,
+      "forks": 13699,
+      "openIssues": 761,
+      "name": "expo",
+      "description": "An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web."
     }
   ],
   "dcloudio/uni-app": [
@@ -4364,7 +4552,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 41607
+      "stars": 41607,
+      "forks": 3712,
+      "openIssues": 702,
+      "name": "uni-app",
+      "description": "A cross-platform framework using Vue.js"
     }
   ],
   "NervJS/taro": [
@@ -4386,7 +4578,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 37659
+      "stars": 37660,
+      "forks": 4871,
+      "openIssues": 1596,
+      "name": "taro",
+      "description": "开放式跨端跨框架解决方案，支持使用 React/Vue 等框架来开发微信/京东/百度/支付宝/字节跳动/ QQ 小程序/H5/React Native 等应用。"
     }
   ],
   "react-native-maps/react-native-maps": [
@@ -4404,7 +4600,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 15995
+      "stars": 15995,
+      "forks": 4958,
+      "openIssues": 99,
+      "name": "react-native-maps",
+      "description": "React Native Mapview component for iOS + Android"
     }
   ],
   "flet-dev/flet": [
@@ -4422,7 +4622,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 16629
+      "stars": 16628,
+      "forks": 685,
+      "openIssues": 346,
+      "name": "flet",
+      "description": "Build realtime web, mobile and desktop apps in Python only. No frontend experience required."
     }
   ],
   "jonataslaw/getx": [
@@ -4440,7 +4644,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 11200
+      "stars": 11200,
+      "forks": 1848,
+      "openIssues": 1178,
+      "name": "getx",
+      "description": "Open screens/snackbars/dialogs/bottomSheets without context, manage states and inject dependencies easily with Get."
     }
   ],
   "tamagui/tamagui": [
@@ -4454,7 +4662,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 14163
+      "stars": 14164,
+      "forks": 613,
+      "openIssues": 108,
+      "name": "tamagui",
+      "description": "Style React fast with 100% parity on React Native, an optional UI kit, and optimizing compiler."
     }
   ],
   "shoutem/ui": [
@@ -4468,7 +4680,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 4979
+      "stars": 4979,
+      "forks": 454,
+      "openIssues": 103,
+      "name": "ui",
+      "description": "Customizable set of components for React Native applications"
     }
   ],
   "software-mansion/react-native-svg": [
@@ -4482,7 +4698,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 8003
+      "stars": 8003,
+      "forks": 1198,
+      "openIssues": 237,
+      "name": "react-native-svg",
+      "description": "SVG library for React Native, React Native Web, and plain React web projects."
     }
   ],
   "invertase/react-native-firebase": [
@@ -4492,7 +4712,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 12302
+      "stars": 12301,
+      "forks": 2328,
+      "openIssues": 86,
+      "name": "react-native-firebase",
+      "description": "🔥 A well-tested feature-rich modular Firebase implementation for React Native. Supports both iOS & Android platforms for all Firebase services."
     }
   ],
   "obipawan/react-native-hyperlink": [
@@ -4502,7 +4726,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 812
+      "stars": 812,
+      "forks": 85,
+      "openIssues": 12,
+      "name": "react-native-hyperlink",
+      "description": "A <Hyperlink /> component for react-native that makes urls, fuzzy links, emails etc clickable"
     }
   ],
   "margelo/react-native-graph": [
@@ -4512,25 +4740,41 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 2608
+      "stars": 2608,
+      "forks": 137,
+      "openIssues": 47,
+      "name": "react-native-graph",
+      "description": "📈 Beautiful, high-performance Graphs and Charts for React Native built with Skia"
     }
   ],
   "react-native-webview/react-native-webview": [
     {
       "date": "2026-08-30",
-      "stars": 7191
+      "stars": 7191,
+      "forks": 3175,
+      "openIssues": 50,
+      "name": "react-native-webview",
+      "description": "React Native Cross-Platform WebView"
     }
   ],
   "pmndrs/jotai": [
     {
       "date": "2026-08-30",
-      "stars": 21250
+      "stars": 21250,
+      "forks": 724,
+      "openIssues": 4,
+      "name": "jotai",
+      "description": "👻 Primitive and flexible state management for React"
     }
   ],
   "reduxjs/redux-toolkit": [
     {
       "date": "2026-08-30",
-      "stars": 11225
+      "stars": 11225,
+      "forks": 1292,
+      "openIssues": 313,
+      "name": "redux-toolkit",
+      "description": "The official, opinionated, batteries-included toolset for efficient Redux development"
     }
   ]
 }

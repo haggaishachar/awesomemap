@@ -38,7 +38,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 90185
+      "stars": 90187,
+      "forks": 38434,
+      "openIssues": 3399,
+      "name": "core",
+      "description": ":house_with_garden: Open source home automation that puts local control and privacy first."
     }
   ],
   "openhab/openhab-addons": [
@@ -80,7 +84,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 2066
+      "stars": 2066,
+      "forks": 3731,
+      "openIssues": 736,
+      "name": "openhab-addons",
+      "description": "Add-ons for openHAB"
     }
   ],
   "domoticz/domoticz": [
@@ -122,7 +130,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 3795
+      "stars": 3795,
+      "forks": 1162,
+      "openIssues": 18,
+      "name": "domoticz",
+      "description": "Free open source home automation system for Linux, Windows, Raspberry Pi. Supports Z-Wave, Zigbee, MQTT, and 150+ devices."
     }
   ],
   "ioBroker/ioBroker": [
@@ -164,7 +176,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 1374
+      "stars": 1374,
+      "forks": 160,
+      "openIssues": 40,
+      "name": "ioBroker",
+      "description": "Automate your life!"
     }
   ],
   "homebridge/homebridge": [
@@ -206,7 +222,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 25467
+      "stars": 25467,
+      "forks": 2016,
+      "openIssues": 18,
+      "name": "homebridge",
+      "description": "HomeKit support for the impatient."
     }
   ],
   "Koenkk/zigbee2mqtt": [
@@ -248,7 +268,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 15583
+      "stars": 15585,
+      "forks": 1997,
+      "openIssues": 449,
+      "name": "zigbee2mqtt",
+      "description": "Zigbee 🐝 to MQTT bridge 🌉, get rid of your proprietary Zigbee bridges 🔨"
     }
   ],
   "project-chip/connectedhomeip": [
@@ -290,7 +314,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 8910
+      "stars": 8910,
+      "forks": 2459,
+      "openIssues": 2798,
+      "name": "connectedhomeip",
+      "description": "Matter (formerly Project CHIP) creates more connections between more objects, simplifying development for manufacturers and increasing compatibility for consumers, guided by the Connectivity Standards Alliance."
     }
   ],
   "eclipse-mosquitto/mosquitto": [
@@ -332,7 +360,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 11167
+      "stars": 11168,
+      "forks": 2630,
+      "openIssues": 875,
+      "name": "mosquitto",
+      "description": "Eclipse Mosquitto - An open source MQTT broker"
     }
   ],
   "zwave-js/zwave-js-ui": [
@@ -374,7 +406,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 1237
+      "stars": 1237,
+      "forks": 246,
+      "openIssues": 123,
+      "name": "zwave-js-ui",
+      "description": "Full featured Z-Wave Control Panel UI and MQTT gateway. Built using Nodejs, and Vue/Vuetify"
     }
   ],
   "influxdata/telegraf": [
@@ -416,7 +452,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 17780
+      "stars": 17780,
+      "forks": 5837,
+      "openIssues": 428,
+      "name": "telegraf",
+      "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data."
     }
   ],
   "node-red/node-red": [
@@ -458,7 +498,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 23597
+      "stars": 23599,
+      "forks": 3882,
+      "openIssues": 324,
+      "name": "node-red",
+      "description": "Low-code programming for event-driven applications"
     }
   ],
   "thingsboard/thingsboard": [
@@ -500,7 +544,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 22327
+      "stars": 22327,
+      "forks": 6424,
+      "openIssues": 295,
+      "name": "thingsboard",
+      "description": "Open-source IoT Platform - Device management, data collection, processing and visualization."
     }
   ],
   "openremote/openremote": [
@@ -542,7 +590,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 1884
+      "stars": 1884,
+      "forks": 465,
+      "openIssues": 436,
+      "name": "openremote",
+      "description": "100% open-source IoT Platform - Integrate your devices, add intelligence, build custom apps"
     }
   ],
   "n8n-io/n8n": [
@@ -584,7 +636,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 202837
+      "stars": 202871,
+      "forks": 60463,
+      "openIssues": 1130,
+      "name": "n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
     }
   ],
   "arendst/Tasmota": [
@@ -626,7 +682,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 24732
+      "stars": 24730,
+      "forks": 5167,
+      "openIssues": 14,
+      "name": "Tasmota",
+      "description": "Alternative firmware for ESP8266 and ESP32 based devices with easy configuration using webUI, OTA updates, automation using timers or rules, expandability and entirely local control over MQTT, HTTP, Serial or KNX. Full documentation at"
     }
   ],
   "esphome/esphome": [
@@ -668,7 +728,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 11614
+      "stars": 11616,
+      "forks": 5590,
+      "openIssues": 753,
+      "name": "esphome",
+      "description": "ESPHome is a system to control your ESP32, ESP8266, BK72xx, RP2040 by simple yet powerful configuration files and control them remotely through Home Automation systems."
     }
   ],
   "espressif/esp-idf": [
@@ -710,7 +774,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 18900
+      "stars": 18901,
+      "forks": 8458,
+      "openIssues": 1676,
+      "name": "esp-idf",
+      "description": "Espressif IoT Development Framework. Official development framework for Espressif SoCs."
     }
   ],
   "zephyrproject-rtos/zephyr": [
@@ -752,7 +820,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 16340
+      "stars": 16342,
+      "forks": 9867,
+      "openIssues": 3880,
+      "name": "zephyr",
+      "description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures."
     }
   ],
   "platformio/platformio-core": [
@@ -794,7 +866,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 9430
+      "stars": 9430,
+      "forks": 905,
+      "openIssues": 313,
+      "name": "platformio-core",
+      "description": "Your Gateway to Embedded Software Development Excellence :alien:"
     }
   ],
   "RIOT-OS/RIOT": [
@@ -836,7 +912,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 5781
+      "stars": 5781,
+      "forks": 2107,
+      "openIssues": 876,
+      "name": "RIOT",
+      "description": "RIOT -  The friendly OS for IoT"
     }
   ],
   "apache/nuttx": [
@@ -878,7 +958,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 4013
+      "stars": 4013,
+      "forks": 1681,
+      "openIssues": 753,
+      "name": "nuttx",
+      "description": "Apache NuttX is a mature, real-time embedded operating system (RTOS)"
     }
   ],
   "micropython/micropython": [
@@ -920,7 +1004,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 22022
+      "stars": 22025,
+      "forks": 8946,
+      "openIssues": 1536,
+      "name": "micropython",
+      "description": "MicroPython - a lean and efficient Python implementation for microcontrollers and constrained systems"
     }
   ],
   "arduino/Arduino": [
@@ -962,7 +1050,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 14642
+      "stars": 14643,
+      "forks": 6963,
+      "openIssues": 734,
+      "name": "Arduino",
+      "description": "Arduino IDE 1.x"
     }
   ],
   "espruino/Espruino": [
@@ -1004,7 +1096,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 2967
+      "stars": 2967,
+      "forks": 766,
+      "openIssues": 130,
+      "name": "Espruino",
+      "description": "The Espruino JavaScript interpreter - Official Repo"
     }
   ],
   "letscontrolit/ESPEasy": [
@@ -1046,7 +1142,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 3587
+      "stars": 3587,
+      "forks": 2223,
+      "openIssues": 381,
+      "name": "ESPEasy",
+      "description": "Easy MultiSensor device based on ESP8266/ESP32"
     }
   ],
   "rhasspy/rhasspy": [
@@ -1088,7 +1188,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 2749
+      "stars": 2749,
+      "forks": 208,
+      "openIssues": 131,
+      "name": "rhasspy",
+      "description": "Offline private voice assistant for many human languages"
     }
   ],
   "MycroftAI/mycroft-core": [
@@ -1130,7 +1234,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 6612
+      "stars": 6611,
+      "forks": 1292,
+      "openIssues": 1,
+      "name": "mycroft-core",
+      "description": "Mycroft Core, the Mycroft Artificial Intelligence platform. "
     }
   ],
   "ros2/ros2": [
@@ -1172,7 +1280,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 5966
+      "stars": 5967,
+      "forks": 951,
+      "openIssues": 149,
+      "name": "ros2",
+      "description": "The Robot Operating System, is a meta operating system for robots."
     }
   ],
   "ros/ros": [
@@ -1214,7 +1326,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 3251
+      "stars": 3251,
+      "forks": 805,
+      "openIssues": 0,
+      "name": "ros",
+      "description": "Core ROS packages"
     }
   ],
   "PX4/PX4-Autopilot": [
@@ -1256,7 +1372,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 12516
+      "stars": 12517,
+      "forks": 15929,
+      "openIssues": 327,
+      "name": "PX4-Autopilot",
+      "description": "PX4 Autopilot Software"
     }
   ],
   "ArduPilot/ardupilot": [
@@ -1298,7 +1418,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 15768
+      "stars": 15770,
+      "forks": 21311,
+      "openIssues": 3173,
+      "name": "ardupilot",
+      "description": "ArduPlane, ArduCopter, ArduRover, ArduSub source"
     }
   ],
   "gazebosim/gz-sim": [
@@ -1340,7 +1464,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 1474
+      "stars": 1474,
+      "forks": 460,
+      "openIssues": 613,
+      "name": "gz-sim",
+      "description": "Open source robotics simulator. The latest version of Gazebo."
     }
   ],
   "microsoft/AirSim": [
@@ -1382,7 +1510,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 18426
+      "stars": 18426,
+      "forks": 4916,
+      "openIssues": 780,
+      "name": "AirSim",
+      "description": "Open source simulator for autonomous vehicles built on Unreal Engine / Unity, from Microsoft AI & Research"
     }
   ],
   "blakeblackshear/frigate": [
@@ -1424,7 +1556,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 35499
+      "stars": 35506,
+      "forks": 3544,
+      "openIssues": 166,
+      "name": "frigate",
+      "description": "NVR with realtime local object detection for IP cameras"
     }
   ],
   "ZoneMinder/zoneminder": [
@@ -1466,7 +1602,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 5921
+      "stars": 5921,
+      "forks": 1305,
+      "openIssues": 135,
+      "name": "zoneminder",
+      "description": "ZoneMinder is a free, open source Closed-circuit television software application developed for Linux which supports IP, USB and Analog cameras. "
     }
   ],
   "AlexxIT/go2rtc": [
@@ -1508,7 +1648,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 14067
+      "stars": 14070,
+      "forks": 1288,
+      "openIssues": 896,
+      "name": "go2rtc",
+      "description": "Ultimate camera streaming application"
     }
   ],
   "Klipper3d/klipper": [
@@ -1550,7 +1694,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 11853
+      "stars": 11855,
+      "forks": 5939,
+      "openIssues": 243,
+      "name": "klipper",
+      "description": "Klipper is a 3d-printer firmware"
     }
   ],
   "prusa3d/PrusaSlicer": [
@@ -1592,7 +1740,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 9250
+      "stars": 9250,
+      "forks": 2318,
+      "openIssues": 5717,
+      "name": "PrusaSlicer",
+      "description": "G-code generator for 3D printers (RepRap, Makerbot, Ultimaker etc.)"
     }
   ],
   "Ultimaker/Cura": [
@@ -1634,7 +1786,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 7026
+      "stars": 7026,
+      "forks": 2176,
+      "openIssues": 3529,
+      "name": "Cura",
+      "description": "3D printer / slicing GUI built on top of the Uranium framework"
     }
   ],
   "MarlinFirmware/Marlin": [
@@ -1676,7 +1832,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 17556
+      "stars": 17558,
+      "forks": 19720,
+      "openIssues": 794,
+      "name": "Marlin",
+      "description": "Marlin is a firmware for RepRap 3D printers optimized for both 8 and 32 bit microcontrollers.  Marlin supports all common platforms.   Many commercial 3D printers come with Marlin installed.  Check with your vendor if you need source code for your specific machine."
     }
   ],
   "OrcaSlicer/OrcaSlicer": [
@@ -1718,7 +1878,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 15526
+      "stars": 15530,
+      "forks": 2982,
+      "openIssues": 2627,
+      "name": "OrcaSlicer",
+      "description": "G-code generator for 3D printers (Bambu, Prusa, Voron, VzBot, RatRig, Creality, etc.)"
     }
   ],
   "frenck/awesome-home-assistant": [
@@ -1740,7 +1904,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 8392
+      "stars": 8392,
+      "forks": 422,
+      "openIssues": 22,
+      "name": "awesome-home-assistant",
+      "description": "A curated list of amazingly awesome Home Assistant resources."
     }
   ],
   "home-assistant/frontend": [
@@ -1762,7 +1930,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 5639
+      "stars": 5639,
+      "forks": 3791,
+      "openIssues": 336,
+      "name": "frontend",
+      "description": ":lollipop: Frontend for Home Assistant"
     }
   ],
   "rytilahti/python-miio": [
@@ -1784,7 +1956,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 4294
+      "stars": 4294,
+      "forks": 603,
+      "openIssues": 313,
+      "name": "python-miio",
+      "description": "Python library & console tool for controlling Xiaomi smart appliances"
     }
   ],
   "embassy-rs/embassy": [
@@ -1802,7 +1978,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 9751
+      "stars": 9752,
+      "forks": 1640,
+      "openIssues": 625,
+      "name": "embassy",
+      "description": "Modern embedded framework, using Rust and async."
     }
   ],
   "FastLED/FastLED": [
@@ -1820,7 +2000,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 7478
+      "stars": 7478,
+      "forks": 1757,
+      "openIssues": 221,
+      "name": "FastLED",
+      "description": "The FastLED library for colored LED animation on Arduino.  Please direct questions/requests for help to the FastLED Reddit community: http://fastled.io/r   We'd like to use github \"issues\" just for tracking library bugs / enhancements. "
     }
   ],
   "bblanchon/ArduinoJson": [
@@ -1838,7 +2022,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 7206
+      "stars": 7206,
+      "forks": 1170,
+      "openIssues": 17,
+      "name": "ArduinoJson",
+      "description": "📟 JSON library for Arduino and embedded C++. Simple and efficient."
     }
   ],
   "jmcollin78/versatile_thermostat": [
@@ -1852,7 +2040,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 1165
+      "stars": 1165,
+      "forks": 141,
+      "openIssues": 18,
+      "name": "versatile_thermostat",
+      "description": "A full featured Thermostat for Home Assistant: presets, window, motion, presence and overpowering management"
     }
   ],
   "bramstroker/homeassistant-powercalc": [
@@ -1866,7 +2058,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 1569
+      "stars": 1569,
+      "forks": 407,
+      "openIssues": 23,
+      "name": "homeassistant-powercalc",
+      "description": "Home Assistant Custom component to calculate estimated power consumption of lights and other appliances"
     }
   ],
   "thomluther/ha-anker-solix": [
@@ -1880,7 +2076,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 1077
+      "stars": 1078,
+      "forks": 43,
+      "openIssues": 9,
+      "name": "ha-anker-solix",
+      "description": "Home Assistant integration for Anker Solix Power devices"
     }
   ],
   "custom-components/ble_monitor": [
@@ -1890,7 +2090,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 2237
+      "stars": 2237,
+      "forks": 281,
+      "openIssues": 115,
+      "name": "ble_monitor",
+      "description": "BLE monitor for passive BLE sensors"
     }
   ],
   "agittins/bermuda": [
@@ -1900,7 +2104,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 1979
+      "stars": 1982,
+      "forks": 66,
+      "openIssues": 117,
+      "name": "bermuda",
+      "description": "Bermuda Bluetooth/BLE Triangulation / Trilateration for HomeAssistant"
     }
   ],
   "andrew-codechimp/HA-Battery-Notes": [
@@ -1910,25 +2118,71 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 1153
+      "stars": 1154,
+      "forks": 129,
+      "openIssues": 8,
+      "name": "HA-Battery-Notes",
+      "description": "A Home Assistant integration to provide battery details of devices"
     }
   ],
   "Clooos/Bubble-Card": [
     {
       "date": "2026-08-30",
-      "stars": 4533
+      "stars": 4536,
+      "forks": 174,
+      "openIssues": 49,
+      "name": "Bubble-Card",
+      "description": "Bubble Card is a minimalist and customizable card collection for Home Assistant, featuring modern pop-ups and an integrated Module Store with over 100 community-made modules."
     }
   ],
   "ExperienceLovelace/ha-floorplan": [
     {
       "date": "2026-08-30",
-      "stars": 1603
+      "stars": 1603,
+      "forks": 199,
+      "openIssues": 12,
+      "name": "ha-floorplan",
+      "description": "Bring new life to Home Assistant. By mapping entities to a SVG-object, you're able to control devices, show states, calling services - and much more. Add custom styling on top, to visualize whatever you can think of. Your imagination just became the new limit."
     }
   ],
   "UI-Lovelace-Minimalist/UI": [
     {
       "date": "2026-08-30",
-      "stars": 2059
+      "stars": 2059,
+      "forks": 425,
+      "openIssues": 42,
+      "name": "UI",
+      "description": "UI-Lovelace-Minimalist is a \"theme\" for HomeAssistant"
+    }
+  ],
+  "alexpfau/calendar-card-pro": [
+    {
+      "date": "2026-08-30",
+      "stars": 1192,
+      "forks": 97,
+      "openIssues": 63,
+      "name": "calendar-card-pro",
+      "description": "📅 A sleek and highly customizable calendar card for Home Assistant, designed for performance and a clean, modern look."
+    }
+  ],
+  "PRProd/HA-Firemote": [
+    {
+      "date": "2026-08-30",
+      "stars": 1043,
+      "forks": 101,
+      "openIssues": 198,
+      "name": "HA-Firemote",
+      "description": "Apple TV, Amazon Fire TV, Chromecast, Homatics, NVIDIA Shield, onn., Roku, Xiaomi Mi, and Android TV remote control card for Home Assistant"
+    }
+  ],
+  "Nerwyn/universal-remote-card": [
+    {
+      "date": "2026-08-30",
+      "stars": 593,
+      "forks": 35,
+      "openIssues": 5,
+      "name": "universal-remote-card",
+      "description": "A completely customizable universal remote card for Home Assistant. Supports multiple platforms out of the box."
     }
   ]
 }

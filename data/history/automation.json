@@ -38,7 +38,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 202836
+      "stars": 202871,
+      "forks": 60463,
+      "openIssues": 1130,
+      "name": "n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
     }
   ],
   "node-red/node-red": [
@@ -80,7 +84,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 23597
+      "stars": 23599,
+      "forks": 3882,
+      "openIssues": 324,
+      "name": "node-red",
+      "description": "Low-code programming for event-driven applications"
     }
   ],
   "activepieces/activepieces": [
@@ -122,7 +130,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 24108
+      "stars": 24121,
+      "forks": 4117,
+      "openIssues": 507,
+      "name": "activepieces",
+      "description": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents"
     }
   ],
   "automatisch/automatisch": [
@@ -164,7 +176,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 13949
+      "stars": 13949,
+      "forks": 1063,
+      "openIssues": 287,
+      "name": "automatisch",
+      "description": "The open source Zapier alternative. Build workflow automation without spending time and money."
     }
   ],
   "windmill-labs/windmill": [
@@ -206,7 +222,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 17720
+      "stars": 17725,
+      "forks": 1089,
+      "openIssues": 836,
+      "name": "windmill",
+      "description": "Open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal."
     }
   ],
   "huginn/huginn": [
@@ -248,7 +268,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 49872
+      "stars": 49874,
+      "forks": 4303,
+      "openIssues": 695,
+      "name": "huginn",
+      "description": "Create agents that monitor and act on your behalf.  Your agents are standing by!"
     }
   ],
   "apache/airflow": [
@@ -290,7 +314,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 46645
+      "stars": 46647,
+      "forks": 17702,
+      "openIssues": 1985,
+      "name": "airflow",
+      "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows"
     }
   ],
   "temporalio/temporal": [
@@ -332,7 +360,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 22602
+      "stars": 22604,
+      "forks": 1850,
+      "openIssues": 933,
+      "name": "temporal",
+      "description": "Temporal service"
     }
   ],
   "PrefectHQ/prefect": [
@@ -374,7 +406,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 23719
+      "stars": 23723,
+      "forks": 2492,
+      "openIssues": 865,
+      "name": "prefect",
+      "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python."
     }
   ],
   "dagster-io/dagster": [
@@ -416,7 +452,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 16073
+      "stars": 16073,
+      "forks": 2264,
+      "openIssues": 2583,
+      "name": "dagster",
+      "description": "An orchestration platform for the development, production, and observation of data assets."
     }
   ],
   "Netflix/conductor": [
@@ -458,7 +498,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 12754
+      "stars": 12754,
+      "forks": 2328,
+      "openIssues": 164,
+      "name": "conductor",
+      "description": "Conductor is a microservices orchestration engine."
     }
   ],
   "cadence-workflow/cadence": [
@@ -500,7 +544,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 9424
+      "stars": 9425,
+      "forks": 911,
+      "openIssues": 202,
+      "name": "cadence",
+      "description": "Cadence is a distributed, scalable, durable, and highly available orchestration engine to execute asynchronous long-running business logic in a scalable and resilient way."
     }
   ],
   "kestra-io/kestra": [
@@ -542,7 +590,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 27951
+      "stars": 27953,
+      "forks": 2963,
+      "openIssues": 678,
+      "name": "kestra",
+      "description": "Event Driven Orchestration & Scheduling Platform for Mission Critical Applications"
     }
   ],
   "rundeck/rundeck": [
@@ -584,7 +636,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 6281
+      "stars": 6281,
+      "forks": 987,
+      "openIssues": 64,
+      "name": "rundeck",
+      "description": "Enable Self-Service Operations: Give specific users access to your existing tools, services, and scripts"
     }
   ],
   "healthchecks/healthchecks": [
@@ -626,7 +682,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 10293
+      "stars": 10293,
+      "forks": 1002,
+      "openIssues": 53,
+      "name": "healthchecks",
+      "description": "Open-source cron job and background task monitoring service, written in Python & Django"
     }
   ],
   "open-rpa/openrpa": [
@@ -668,7 +728,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 3057
+      "stars": 3057,
+      "forks": 660,
+      "openIssues": 2,
+      "name": "openrpa",
+      "description": "Free Open Source Enterprise Grade RPA"
     }
   ],
   "aisingapore/TagUI": [
@@ -710,7 +774,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 6325
+      "stars": 6325,
+      "forks": 647,
+      "openIssues": 0,
+      "name": "TagUI",
+      "description": "Free RPA tool by AI Singapore"
     }
   ],
   "robocorp/rpaframework": [
@@ -752,7 +820,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 1554
+      "stars": 1554,
+      "forks": 277,
+      "openIssues": 42,
+      "name": "rpaframework",
+      "description": "Collection of open-source libraries and tools for Robotic Process Automation (RPA), designed to be used with both Robot Framework and Python"
     }
   ],
   "SeleniumHQ/selenium": [
@@ -794,7 +866,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 34425
+      "stars": 34427,
+      "forks": 8719,
+      "openIssues": 191,
+      "name": "selenium",
+      "description": "A browser automation framework and ecosystem."
     }
   ],
   "robotframework/robotframework": [
@@ -836,7 +912,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 11850
+      "stars": 11849,
+      "forks": 2561,
+      "openIssues": 302,
+      "name": "robotframework",
+      "description": "Generic automation framework for acceptance testing and RPA"
     }
   ],
   "scrapy/scrapy": [
@@ -878,7 +958,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 64103
+      "stars": 64109,
+      "forks": 11930,
+      "openIssues": 448,
+      "name": "scrapy",
+      "description": "Scrapy, a fast high-level web crawling & scraping framework for Python."
     }
   ],
   "apify/crawlee": [
@@ -920,7 +1004,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 25567
+      "stars": 25575,
+      "forks": 1653,
+      "openIssues": 152,
+      "name": "crawlee",
+      "description": "Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation."
     }
   ],
   "unclecode/crawl4ai": [
@@ -962,7 +1050,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 79990
+      "stars": 80123,
+      "forks": 8300,
+      "openIssues": 175,
+      "name": "crawl4ai",
+      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN"
     }
   ],
   "puppeteer/puppeteer": [
@@ -1004,7 +1096,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 95526
+      "stars": 95528,
+      "forks": 9574,
+      "openIssues": 267,
+      "name": "puppeteer",
+      "description": "JavaScript API for Chrome and Firefox"
     }
   ],
   "Unstructured-IO/unstructured": [
@@ -1046,7 +1142,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 15363
+      "stars": 15363,
+      "forks": 1312,
+      "openIssues": 299,
+      "name": "unstructured",
+      "description": "Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models.  Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning, enrichments, chunking and embedding."
     }
   ],
   "microsoft/markitdown": [
@@ -1088,7 +1188,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 177106
+      "stars": 177167,
+      "forks": 13027,
+      "openIssues": 907,
+      "name": "markitdown",
+      "description": "Python tool for converting files and office documents to Markdown."
     }
   ],
   "appsmithorg/appsmith": [
@@ -1130,7 +1234,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 40784
+      "stars": 40785,
+      "forks": 4736,
+      "openIssues": 4471,
+      "name": "appsmith",
+      "description": "Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API."
     }
   ],
   "ToolJet/ToolJet": [
@@ -1172,7 +1280,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 40794
+      "stars": 40796,
+      "forks": 5423,
+      "openIssues": 1170,
+      "name": "ToolJet",
+      "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀"
     }
   ],
   "Budibase/budibase": [
@@ -1214,7 +1326,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 28247
+      "stars": 28247,
+      "forks": 2201,
+      "openIssues": 272,
+      "name": "budibase",
+      "description": "AI agents, automations and apps that run your operations. Model agnostic."
     }
   ],
   "nocodb/nocodb": [
@@ -1256,7 +1372,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 64779
+      "stars": 64780,
+      "forks": 5023,
+      "openIssues": 714,
+      "name": "nocodb",
+      "description": "🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative"
     }
   ],
   "baserow/baserow": [
@@ -1298,7 +1418,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 5748
+      "stars": 5748,
+      "forks": 708,
+      "openIssues": 1220,
+      "name": "baserow",
+      "description": "Build databases, automations, apps & agents with AI — no code.  Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative."
     }
   ],
   "illacloud/illa-builder": [
@@ -1340,7 +1464,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 12311
+      "stars": 12311,
+      "forks": 1207,
+      "openIssues": 43,
+      "name": "illa-builder",
+      "description": "Low-code platform allows you to build business apps, enables you to quickly create internal tools such as dashboard, crud app, admin panel, crm, cms, etc. Supports PostgreSQL, MySQL, Supabase, GraphQL, MongoDB, MSSQL, Rest API, Hugging Face, Redis, etc. Automate workflows with schedule or webhook. Open source Retool. "
     }
   ],
   "nocobase/nocobase": [
@@ -1382,7 +1510,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 23935
+      "stars": 23940,
+      "forks": 2848,
+      "openIssues": 300,
+      "name": "nocobase",
+      "description": "NocoBase is an open-source AI + no-code platform for building business systems fast. Instead of generating everything from scratch, AI works on top of production-proven infrastructure and a WYSIWYG no-code interface, so you get both speed and reliability."
     }
   ],
   "strapi/strapi": [
@@ -1424,7 +1556,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 73044
+      "stars": 73043,
+      "forks": 9854,
+      "openIssues": 550,
+      "name": "strapi",
+      "description": "🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first."
     }
   ],
   "directus/directus": [
@@ -1466,7 +1602,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 37657
+      "stars": 37657,
+      "forks": 4915,
+      "openIssues": 389,
+      "name": "directus",
+      "description": "The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more."
     }
   ],
   "odoo/odoo": [
@@ -1508,7 +1648,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 54040
+      "stars": 54047,
+      "forks": 33566,
+      "openIssues": 10370,
+      "name": "odoo",
+      "description": "Odoo. Open Source Apps To Grow Your Business."
     }
   ],
   "frappe/erpnext": [
@@ -1550,7 +1694,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 38665
+      "stars": 38680,
+      "forks": 12651,
+      "openIssues": 1819,
+      "name": "erpnext",
+      "description": "Free and Open Source Enterprise Resource Planning (ERP)"
     }
   ],
   "camunda/camunda": [
@@ -1592,7 +1740,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 4256
+      "stars": 4256,
+      "forks": 816,
+      "openIssues": 2922,
+      "name": "camunda",
+      "description": "Process Orchestration Framework"
     }
   ],
   "twentyhq/twenty": [
@@ -1634,7 +1786,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 55874
+      "stars": 55890,
+      "forks": 8822,
+      "openIssues": 156,
+      "name": "twenty",
+      "description": "The open alternative to Salesforce, designed for AI."
     }
   ],
   "documenso/documenso": [
@@ -1676,7 +1832,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 14811
+      "stars": 14814,
+      "forks": 3150,
+      "openIssues": 256,
+      "name": "documenso",
+      "description": "The Open Source DocuSign Alternative."
     }
   ],
   "formbricks/formbricks": [
@@ -1718,7 +1878,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 12839
+      "stars": 12841,
+      "forks": 2496,
+      "openIssues": 244,
+      "name": "formbricks",
+      "description": "Open Source Qualtrics Alternative"
     }
   ],
   "invoiceninja/invoiceninja": [
@@ -1760,7 +1924,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 10036
+      "stars": 10037,
+      "forks": 2686,
+      "openIssues": 926,
+      "name": "invoiceninja",
+      "description": "A source-available invoice, quote, project and time-tracking app built with Laravel"
     }
   ],
   "airbytehq/airbyte": [
@@ -1802,7 +1970,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 21971
+      "stars": 21972,
+      "forks": 5322,
+      "openIssues": 2378,
+      "name": "airbyte",
+      "description": "Open-source data movement for ELT pipelines and AI agents — from APIs, databases & files to warehouses, lakes, and AI applications. Both self-hosted and Cloud."
     }
   ],
   "dlt-hub/dlt": [
@@ -1844,7 +2016,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 5798
+      "stars": 5798,
+      "forks": 592,
+      "openIssues": 416,
+      "name": "dlt",
+      "description": "data load tool (dlt) is an open source Python library that makes data loading easy 🛠️ "
     }
   ],
   "novuhq/novu": [
@@ -1886,7 +2062,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 39693
+      "stars": 39696,
+      "forks": 4448,
+      "openIssues": 104,
+      "name": "novu",
+      "description": "The open-source communication infrastructure for agents and products"
     }
   ],
   "binwiederhier/ntfy": [
@@ -1928,7 +2108,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 33850
+      "stars": 33860,
+      "forks": 1570,
+      "openIssues": 374,
+      "name": "ntfy",
+      "description": "Send push notifications to your phone or desktop using PUT/POST"
     }
   ],
   "mautic/mautic": [
@@ -1970,7 +2154,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 10417
+      "stars": 10418,
+      "forks": 3429,
+      "openIssues": 192,
+      "name": "mautic",
+      "description": "Mautic: Open Source Marketing Automation Software."
     }
   ],
   "knadh/listmonk": [
@@ -2012,7 +2200,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 23177
+      "stars": 23185,
+      "forks": 2574,
+      "openIssues": 115,
+      "name": "listmonk",
+      "description": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app."
     }
   ],
   "conductor-oss/conductor": [
@@ -2034,7 +2226,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 32146
+      "stars": 32146,
+      "forks": 997,
+      "openIssues": 255,
+      "name": "conductor",
+      "description": "Conductor is an event driven agentic workflow engine providing durable and highly resilient execution engine for applications and AI Agents"
     }
   ],
   "GrapesJS/grapesjs": [
@@ -2056,7 +2252,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 26173
+      "stars": 26174,
+      "forks": 4642,
+      "openIssues": 37,
+      "name": "grapesjs",
+      "description": "Free and Open source Web Builder Framework. Next generation tool for building templates without coding"
     }
   ],
   "teableio/teable": [
@@ -2078,7 +2278,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 21737
+      "stars": 21738,
+      "forks": 1340,
+      "openIssues": 127,
+      "name": "teable",
+      "description": "✨ AI Spreadsheet for Business"
     }
   ],
   "browser-use/workflow-use": [
@@ -2096,7 +2300,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 4155
+      "stars": 4155,
+      "forks": 346,
+      "openIssues": 64,
+      "name": "workflow-use",
+      "description": "⚙️ Create and run workflows (RPA 2.0)"
     }
   ],
   "OpenAdaptAI/OpenAdapt": [
@@ -2114,7 +2322,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 1707
+      "stars": 1707,
+      "forks": 263,
+      "openIssues": 4,
+      "name": "OpenAdapt",
+      "description": "Compiles a demonstrated GUI task into a program that reports VERIFIED only if an independent check agrees. pip install openadapt; openadapt quickstart. Compiler lives in openadapt-flow."
     }
   ],
   "refinedev/refine": [
@@ -2132,7 +2344,21 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 35599
+      "stars": 35598,
+      "forks": 3198,
+      "openIssues": 109,
+      "name": "refine",
+      "description": "A React Framework for building  internal tools, admin panels, dashboards & B2B apps with unmatched flexibility."
+    }
+  ],
+  "browser-act/skills": [
+    {
+      "date": "2026-08-30",
+      "stars": 5524,
+      "forks": 269,
+      "openIssues": 9,
+      "name": "skills",
+      "description": "Browser automation CLI built for AI agents. Break through anti-bot walls, hand off to humans across platforms when stuck. Parallel multi-task execution, independent multi-session operation, isolated multi-account browsing."
     }
   ]
 }

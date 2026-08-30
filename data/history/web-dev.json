@@ -90,7 +90,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 248326
+      "stars": 248329,
+      "forks": 51263,
+      "openIssues": 1334,
+      "name": "react",
+      "description": "The library for web and native user interfaces."
     }
   ],
   "vuejs/core": [
@@ -184,7 +188,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 54270
+      "stars": 54273,
+      "forks": 9187,
+      "openIssues": 906,
+      "name": "core",
+      "description": "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web."
     }
   ],
   "sveltejs/svelte": [
@@ -278,7 +286,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 88020
+      "stars": 88020,
+      "forks": 5226,
+      "openIssues": 1059,
+      "name": "svelte",
+      "description": "web development for the rest of us"
     }
   ],
   "angular/angular": [
@@ -372,7 +384,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 101012
+      "stars": 101014,
+      "forks": 27448,
+      "openIssues": 1157,
+      "name": "angular",
+      "description": "Deliver web apps with confidence 🚀"
     }
   ],
   "solidjs/solid": [
@@ -466,7 +482,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 35943
+      "stars": 35943,
+      "forks": 1096,
+      "openIssues": 51,
+      "name": "solid",
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces."
     }
   ],
   "vercel/next.js": [
@@ -560,7 +580,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 142016
+      "stars": 142020,
+      "forks": 31828,
+      "openIssues": 3644,
+      "name": "next.js",
+      "description": "The React Framework"
     }
   ],
   "nuxt/nuxt": [
@@ -654,7 +678,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 60805
+      "stars": 60803,
+      "forks": 5810,
+      "openIssues": 535,
+      "name": "nuxt",
+      "description": "the full-stack Vue framework"
     }
   ],
   "sveltejs/kit": [
@@ -748,7 +776,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 20770
+      "stars": 20769,
+      "forks": 2313,
+      "openIssues": 823,
+      "name": "kit",
+      "description": "web development, streamlined"
     }
   ],
   "remix-run/remix": [
@@ -842,7 +874,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 33335
+      "stars": 33335,
+      "forks": 2790,
+      "openIssues": 53,
+      "name": "remix",
+      "description": "Build Better Websites. Create modern, resilient user experiences with web fundamentals."
     }
   ],
   "withastro/astro": [
@@ -936,7 +972,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 62171
+      "stars": 62177,
+      "forks": 3754,
+      "openIssues": 99,
+      "name": "astro",
+      "description": "The web framework for content-driven websites. ⭐️ Star to support our work!"
     }
   ],
   "vitejs/vite": [
@@ -1030,7 +1070,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 82604
+      "stars": 82605,
+      "forks": 8686,
+      "openIssues": 771,
+      "name": "vite",
+      "description": "Next generation frontend tooling. It's fast!"
     }
   ],
   "webpack/webpack": [
@@ -1124,7 +1168,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 65963
+      "stars": 65963,
+      "forks": 9538,
+      "openIssues": 135,
+      "name": "webpack",
+      "description": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff."
     }
   ],
   "evanw/esbuild": [
@@ -1218,7 +1266,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 40028
+      "stars": 40028,
+      "forks": 1340,
+      "openIssues": 613,
+      "name": "esbuild",
+      "description": "An extremely fast bundler for the web"
     }
   ],
   "rollup/rollup": [
@@ -1312,7 +1364,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 26305
+      "stars": 26305,
+      "forks": 1768,
+      "openIssues": 606,
+      "name": "rollup",
+      "description": "Next-generation ES module bundler"
     }
   ],
   "parcel-bundler/parcel": [
@@ -1406,7 +1462,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 44022
+      "stars": 44022,
+      "forks": 2288,
+      "openIssues": 604,
+      "name": "parcel",
+      "description": "The zero configuration build tool for the web. 📦🚀"
     }
   ],
   "tailwindlabs/tailwindcss": [
@@ -1500,7 +1560,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 97395
+      "stars": 97398,
+      "forks": 5599,
+      "openIssues": 64,
+      "name": "tailwindcss",
+      "description": "A utility-first CSS framework for rapid UI development."
     }
   ],
   "twbs/bootstrap": [
@@ -1594,7 +1658,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 174677
+      "stars": 174678,
+      "forks": 78630,
+      "openIssues": 227,
+      "name": "bootstrap",
+      "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web."
     }
   ],
   "jgthms/bulma": [
@@ -1688,7 +1756,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 50065
+      "stars": 50065,
+      "forks": 3884,
+      "openIssues": 527,
+      "name": "bulma",
+      "description": "Modern CSS framework based on Flexbox"
     }
   ],
   "styled-components/styled-components": [
@@ -1782,7 +1854,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 41125
+      "stars": 41124,
+      "forks": 2685,
+      "openIssues": 23,
+      "name": "styled-components",
+      "description": "Fast, expressive styling for React. Server components, client components, streaming SSR, React Native—one API."
     }
   ],
   "sass/dart-sass": [
@@ -1876,7 +1952,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 4216
+      "stars": 4217,
+      "forks": 377,
+      "openIssues": 71,
+      "name": "dart-sass",
+      "description": "The reference implementation of Sass, written in Dart."
     }
   ],
   "expressjs/express": [
@@ -1970,7 +2050,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 69405
+      "stars": 69409,
+      "forks": 24899,
+      "openIssues": 228,
+      "name": "express",
+      "description": "Fast, unopinionated, minimalist web framework for node."
     }
   ],
   "nestjs/nest": [
@@ -2064,7 +2148,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 76504
+      "stars": 76510,
+      "forks": 8539,
+      "openIssues": 33,
+      "name": "nest",
+      "description": "A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications with TypeScript/JavaScript 🚀"
     }
   ],
   "fastify/fastify": [
@@ -2158,7 +2246,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 37058
+      "stars": 37061,
+      "forks": 3007,
+      "openIssues": 149,
+      "name": "fastify",
+      "description": "Fast and low overhead web framework, for Node.js"
     }
   ],
   "django/django": [
@@ -2252,7 +2344,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 89287
+      "stars": 89289,
+      "forks": 34207,
+      "openIssues": 482,
+      "name": "django",
+      "description": "The Web framework for perfectionists with deadlines."
     }
   ],
   "rails/rails": [
@@ -2346,7 +2442,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 58741
+      "stars": 58745,
+      "forks": 22378,
+      "openIssues": 1611,
+      "name": "rails",
+      "description": "Ruby on Rails"
     }
   ],
   "reduxjs/redux": [
@@ -2440,7 +2540,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 61506
+      "stars": 61506,
+      "forks": 15191,
+      "openIssues": 49,
+      "name": "redux",
+      "description": "A JS library for predictable global state management"
     }
   ],
   "mobxjs/mobx": [
@@ -2534,7 +2638,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 28206
+      "stars": 28206,
+      "forks": 1800,
+      "openIssues": 57,
+      "name": "mobx",
+      "description": "Simple, scalable state management."
     }
   ],
   "pmndrs/zustand": [
@@ -2628,7 +2736,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 58630
+      "stars": 58630,
+      "forks": 2187,
+      "openIssues": 5,
+      "name": "zustand",
+      "description": "🐻 Bear necessities for state management in React"
     }
   ],
   "vuejs/pinia": [
@@ -2722,7 +2834,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 14714
+      "stars": 14714,
+      "forks": 1197,
+      "openIssues": 21,
+      "name": "pinia",
+      "description": "🍍 Intuitive, type safe, light and flexible Store for Vue using the composition api with DevTools support"
     }
   ],
   "statelyai/xstate": [
@@ -2816,7 +2932,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 30072
+      "stars": 30074,
+      "forks": 1386,
+      "openIssues": 122,
+      "name": "xstate",
+      "description": "State machines, statecharts, and actors for complex logic"
     }
   ],
   "jestjs/jest": [
@@ -2910,7 +3030,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 45475
+      "stars": 45472,
+      "forks": 6733,
+      "openIssues": 185,
+      "name": "jest",
+      "description": "Delightful JavaScript Testing."
     }
   ],
   "cypress-io/cypress": [
@@ -3004,7 +3128,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 51015
+      "stars": 51018,
+      "forks": 3654,
+      "openIssues": 1071,
+      "name": "cypress",
+      "description": "Fast, easy and reliable testing for anything that runs in a browser."
     }
   ],
   "microsoft/playwright": [
@@ -3098,7 +3226,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 95369
+      "stars": 95384,
+      "forks": 6359,
+      "openIssues": 177,
+      "name": "playwright",
+      "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. "
     }
   ],
   "vitest-dev/vitest": [
@@ -3192,7 +3324,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 17024
+      "stars": 17024,
+      "forks": 1944,
+      "openIssues": 385,
+      "name": "vitest",
+      "description": "Next generation testing framework powered by Vite."
     }
   ],
   "mochajs/mocha": [
@@ -3286,7 +3422,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 22908
+      "stars": 22908,
+      "forks": 3157,
+      "openIssues": 270,
+      "name": "mocha",
+      "description": "☕️ Classic, reliable, trusted test framework for Node.js and the browser"
     }
   ],
   "gatsbyjs/gatsby": [
@@ -3380,7 +3520,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 55944
+      "stars": 55944,
+      "forks": 10126,
+      "openIssues": 437,
+      "name": "gatsby",
+      "description": "React-based framework with performance, scalability, and security built in."
     }
   ],
   "gohugoio/hugo": [
@@ -3474,7 +3618,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 89631
+      "stars": 89633,
+      "forks": 8356,
+      "openIssues": 246,
+      "name": "hugo",
+      "description": "The world’s fastest framework for building websites."
     }
   ],
   "jekyll/jekyll": [
@@ -3568,7 +3716,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 51658
+      "stars": 51659,
+      "forks": 10298,
+      "openIssues": 256,
+      "name": "jekyll",
+      "description": ":globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby"
     }
   ],
   "11ty/eleventy": [
@@ -3662,7 +3814,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 19871
+      "stars": 19870,
+      "forks": 588,
+      "openIssues": 183,
+      "name": "buildawesome",
+      "description": "A simpler site generator. Transforms a directory of templates (of varying types) into HTML."
     }
   ],
   "facebook/docusaurus": [
@@ -3756,7 +3912,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 66125
+      "stars": 66123,
+      "forks": 10023,
+      "openIssues": 398,
+      "name": "docusaurus",
+      "description": "Easy to maintain open source documentation websites."
     }
   ],
   "graphql/graphql-js": [
@@ -3850,7 +4010,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 20347
+      "stars": 20347,
+      "forks": 2129,
+      "openIssues": 98,
+      "name": "graphql-js",
+      "description": "A reference implementation of GraphQL for JavaScript"
     }
   ],
   "apollographql/apollo-client": [
@@ -3944,7 +4108,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 19812
+      "stars": 19812,
+      "forks": 2879,
+      "openIssues": 404,
+      "name": "apollo-client",
+      "description": "The industry-leading GraphQL client for TypeScript, JavaScript, React, Vue, Angular, and more. Apollo Client delivers powerful caching, intuitive APIs, and comprehensive developer tools to accelerate your app development."
     }
   ],
   "trpc/trpc": [
@@ -4038,7 +4206,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 40561
+      "stars": 40560,
+      "forks": 1655,
+      "openIssues": 273,
+      "name": "trpc",
+      "description": "🧙‍♀️  Move Fast and Break Nothing. End-to-end typesafe APIs made easy. "
     }
   ],
   "prisma/prisma": [
@@ -4132,7 +4304,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 47572
+      "stars": 47573,
+      "forks": 2536,
+      "openIssues": 2581,
+      "name": "orm",
+      "description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB"
     }
   ],
   "axios/axios": [
@@ -4226,7 +4402,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 109194
+      "stars": 109193,
+      "forks": 11829,
+      "openIssues": 78,
+      "name": "axios",
+      "description": "Promise based HTTP client for the browser and node.js"
     }
   ],
   "mui/material-ui": [
@@ -4320,7 +4500,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 98969
+      "stars": 98974,
+      "forks": 32555,
+      "openIssues": 1503,
+      "name": "material-ui",
+      "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever."
     }
   ],
   "ant-design/ant-design": [
@@ -4414,7 +4598,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 99276
+      "stars": 99288,
+      "forks": 54697,
+      "openIssues": 1109,
+      "name": "ant-design",
+      "description": "An enterprise-class UI design language and React UI library"
     }
   ],
   "chakra-ui/chakra-ui": [
@@ -4508,7 +4696,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 40605
+      "stars": 40609,
+      "forks": 3640,
+      "openIssues": 12,
+      "name": "chakra-ui",
+      "description": "Chakra UI is a component system for building SaaS products with speed ⚡️"
     }
   ],
   "shadcn-ui/ui": [
@@ -4602,7 +4794,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 122542
+      "stars": 122565,
+      "forks": 10038,
+      "openIssues": 2186,
+      "name": "ui",
+      "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code."
     }
   ],
   "radix-ui/primitives": [
@@ -4696,7 +4892,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 19222
+      "stars": 19222,
+      "forks": 1236,
+      "openIssues": 343,
+      "name": "primitives",
+      "description": "Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos."
     }
   ],
   "fastapi/fastapi": [
@@ -4738,7 +4938,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 101937
+      "stars": 101938,
+      "forks": 9830,
+      "openIssues": 86,
+      "name": "fastapi",
+      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production"
     }
   ],
   "laravel/laravel": [
@@ -4780,7 +4984,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 84895
+      "stars": 84898,
+      "forks": 24895,
+      "openIssues": 32,
+      "name": "laravel",
+      "description": "Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your next big idea — freeing you to create without sweating the small things."
     }
   ],
   "pallets/flask": [
@@ -4822,7 +5030,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 72149
+      "stars": 72151,
+      "forks": 16953,
+      "openIssues": 3,
+      "name": "flask",
+      "description": "The Python micro framework for building web applications."
     }
   ],
   "eslint/eslint": [
@@ -4864,7 +5076,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 27491
+      "stars": 27492,
+      "forks": 5176,
+      "openIssues": 138,
+      "name": "eslint",
+      "description": "Find and fix problems in your JavaScript code."
     }
   ],
   "storybookjs/storybook": [
@@ -4906,7 +5122,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 90962
+      "stars": 90964,
+      "forks": 10424,
+      "openIssues": 1772,
+      "name": "storybook",
+      "description": "Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation"
     }
   ],
   "react/react": [
@@ -4928,7 +5148,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 248326
+      "stars": 248329,
+      "forks": 51263,
+      "openIssues": 1334,
+      "name": "react",
+      "description": "The library for web and native user interfaces."
     }
   ],
   "vueComponent/ant-design-vue": [
@@ -4950,7 +5174,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 21635
+      "stars": 21634,
+      "forks": 3894,
+      "openIssues": 123,
+      "name": "ant-design-vue",
+      "description": "🌈  An enterprise-class UI components based on Ant Design and Vue. 🐜"
     }
   ],
   "labstack/echo": [
@@ -4972,7 +5200,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 32675
+      "stars": 32671,
+      "forks": 2360,
+      "openIssues": 30,
+      "name": "echo",
+      "description": "High performance, minimalist Go web framework"
     }
   ],
   "prettier/prettier": [
@@ -4990,7 +5222,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 52221
+      "stars": 52222,
+      "forks": 4997,
+      "openIssues": 1418,
+      "name": "prettier",
+      "description": "Prettier is an opinionated code formatter."
     }
   ],
   "Dogfalo/materialize": [
@@ -5008,7 +5244,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 38815
+      "stars": 38814,
+      "forks": 4603,
+      "openIssues": 791,
+      "name": "materialize",
+      "description": "Materialize, a CSS Framework based on Material Design"
     }
   ],
   "vercel/turborepo": [
@@ -5026,7 +5266,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 31037
+      "stars": 31035,
+      "forks": 2428,
+      "openIssues": 17,
+      "name": "turborepo",
+      "description": "Build system optimized for JavaScript and TypeScript, written in Rust"
     }
   ],
   "web-infra-dev/rsbuild": [
@@ -5040,7 +5284,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 3368
+      "stars": 3368,
+      "forks": 278,
+      "openIssues": 21,
+      "name": "rsbuild",
+      "description": "Fast, extensible build tool for modern web development"
     }
   ],
   "brunch/brunch": [
@@ -5054,7 +5302,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 6758
+      "stars": 6758,
+      "forks": 424,
+      "openIssues": 0,
+      "name": "brunch",
+      "description": "🍴 Web applications made easy. Since 2011."
     }
   ],
   "developit/microbundle": [
@@ -5068,7 +5320,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 8129
+      "stars": 8129,
+      "forks": 359,
+      "openIssues": 102,
+      "name": "microbundle",
+      "description": "📦 Zero-configuration bundler for tiny modules."
     }
   ],
   "karma-runner/karma": [
@@ -5078,7 +5334,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 11965
+      "stars": 11965,
+      "forks": 1712,
+      "openIssues": 402,
+      "name": "karma",
+      "description": "Spectacular Test Runner for JavaScript"
     }
   ],
   "nightwatchjs/nightwatch": [
@@ -5088,7 +5348,11 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 11957
+      "stars": 11957,
+      "forks": 1395,
+      "openIssues": 334,
+      "name": "nightwatch",
+      "description": "Integrated end-to-end testing framework written in Node.js and using W3C Webdriver API. Developed at @browserstack"
     }
   ],
   "GoogleChrome/puppeteer": [
@@ -5098,25 +5362,71 @@
     },
     {
       "date": "2026-08-30",
-      "stars": 95526
+      "stars": 95528,
+      "forks": 9574,
+      "openIssues": 267,
+      "name": "puppeteer",
+      "description": "JavaScript API for Chrome and Firefox"
     }
   ],
   "aidenybai/million": [
     {
       "date": "2026-08-30",
-      "stars": 17669
+      "stars": 17669,
+      "forks": 596,
+      "openIssues": 2,
+      "name": "million",
+      "description": "Optimizing compiler for React"
     }
   ],
   "remult/remult": [
     {
       "date": "2026-08-30",
-      "stars": 3208
+      "stars": 3208,
+      "forks": 157,
+      "openIssues": 119,
+      "name": "remult",
+      "description": "Full-stack CRUD, simplified, with SSOT TypeScript entities"
     }
   ],
   "artf/grapesjs": [
     {
       "date": "2026-08-30",
-      "stars": 26173
+      "stars": 26174,
+      "forks": 4642,
+      "openIssues": 37,
+      "name": "grapesjs",
+      "description": "Free and Open source Web Builder Framework. Next generation tool for building templates without coding"
+    }
+  ],
+  "handsontable/handsontable": [
+    {
+      "date": "2026-08-30",
+      "stars": 22029,
+      "forks": 3189,
+      "openIssues": 61,
+      "name": "handsontable",
+      "description": "JavaScript Data Grid / Data Table with a Spreadsheet Look & Feel. Works with React, Angular, and Vue. Supported by the Handsontable team ⚡"
+    }
+  ],
+  "frappe/datatable": [
+    {
+      "date": "2026-08-30",
+      "stars": 1331,
+      "forks": 217,
+      "openIssues": 62,
+      "name": "datatable",
+      "description": "The Missing Javascript Datatable for the Web"
+    }
+  ],
+  "jspreadsheet/ce": [
+    {
+      "date": "2026-08-30",
+      "stars": 7220,
+      "forks": 890,
+      "openIssues": 150,
+      "name": "ce",
+      "description": "Jspreadsheet is a lightweight JavaScript data grid component for creating interactive data grids with advanced spreadsheet controls."
     }
   ]
 }

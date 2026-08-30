@@ -29,11 +29,15 @@ export function mountCompare(container, { compareIndexUrl, basePath = "", initia
   let index = null;
   let currentIds = initialIds;
 
-  fetch(compareIndexUrl)
+  // The fetch/parse chain's .catch() is deliberately scoped to just this
+  // chain (fetch + json parse + assigning `index`), not to the render()
+  // call below — otherwise a bug inside render() itself would surface as
+  // "Couldn't load comparison data", which is wrong: the data loaded fine,
+  // rendering it is what failed.
+  const indexLoaded = fetch(compareIndexUrl)
     .then((res) => (res.ok ? res.json() : Promise.reject(new Error(String(res.status)))))
     .then((data) => {
       index = data;
-      render();
     })
     .catch(() => {
       root.innerHTML = "";
@@ -43,10 +47,19 @@ export function mountCompare(container, { compareIndexUrl, basePath = "", initia
       root.appendChild(error);
     });
 
+  indexLoaded.then(() => {
+    if (index) render();
+  });
+
   function render() {
     root.innerHTML = "";
     for (const id of currentIds) {
-      root.appendChild(index[id] ? renderColumn(index[id]) : renderNotFoundColumn(id));
+      // `index` is a JSON.parse result, so it inherits from Object.prototype
+      // — a truthy `index[id]` check would treat inherited keys like
+      // "constructor"/"toString" as found records. Object.hasOwn checks own
+      // enumerable-or-not properties only, so an id that merely collides
+      // with a prototype member correctly falls through to "not found".
+      root.appendChild(Object.hasOwn(index, id) ? renderColumn(index[id]) : renderNotFoundColumn(id));
     }
     if (currentIds.length < MAX_COMPARE_IDS) {
       root.appendChild(renderAddColumn());
@@ -128,6 +141,16 @@ export function mountCompare(container, { compareIndexUrl, basePath = "", initia
     column.appendChild(statRow("Forks", formatCount(record.forks)));
     column.appendChild(statRow("Open issues", formatCount(record.openIssues)));
 
+    if (record.link) {
+      const siteLink = document.createElement("a");
+      siteLink.className = "detail-panel-link";
+      siteLink.href = record.link;
+      siteLink.target = "_blank";
+      siteLink.rel = "noopener";
+      siteLink.textContent = "Visit site ↗";
+      column.appendChild(siteLink);
+    }
+
     const githubLink = document.createElement("a");
     githubLink.className = "detail-panel-link";
     githubLink.href = githubRepoUrl(record.id);
@@ -178,7 +201,7 @@ export function mountCompare(container, { compareIndexUrl, basePath = "", initia
       error.textContent = "";
       const id = normalizeProjectId(input.value);
       if (!id) return;
-      if (!index || !index[id]) {
+      if (!index || !Object.hasOwn(index, id)) {
         error.textContent = `Couldn't find "${id}".`;
         return;
       }

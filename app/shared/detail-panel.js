@@ -50,7 +50,10 @@ export function renderTagChips(tags, basePath) {
  * `showProjectPageLink` (default `true`) controls whether a "View full
  * project page" link to the leaf's `/projects/<id>/` page is rendered;
  * pass `false` when embedding the panel somewhere that page would be
- * redundant (e.g. the project page itself). Returns { open(leafData), close() }.
+ * redundant (e.g. the project page itself). `showCompareLink` (default
+ * `true`) controls the same way whether a "+ Compare" link to the leaf's
+ * `/compare/?id=<id>` page is rendered; pass `false` for the same reason.
+ * Returns { open(leafData), close() }.
  */
 export function createDetailPanel(container, { historyUrl, basePath = "", showProjectPageLink = true, showCompareLink = true } = {}) {
   const panel = document.createElement("aside");

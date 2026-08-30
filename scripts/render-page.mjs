@@ -983,6 +983,10 @@ export function renderComparePage({ defaultOgImage, siteUrl = "", basePath = "" 
   const compareIndexUrl = `${basePath}/compare-index.json`;
   const body = `
     ${renderSiteHeader(basePath)}
+    <header class="rising-hero">
+      <h1>Compare projects</h1>
+      <p class="rising-hero-tagline">See stars, growth, and momentum for up to four open-source projects side by side.</p>
+    </header>
     <div id="app" class="compare-app"></div>
     <script type="module">
       import { mountCompare } from "${basePath}/shared/compare.js";

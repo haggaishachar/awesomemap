@@ -927,3 +927,10 @@ test("renderComparePage defaults to root-relative paths when basePath is empty",
   assert.match(html, /compareIndexUrl: "\/compare-index.json"/);
 });
 
+test("renderComparePage renders a static heading and description before the mount point", () => {
+  const html = renderComparePage({ defaultOgImage: "/og-default.png" });
+  assert.match(html, /<h1>Compare[^<]*<\/h1>/);
+  assert.match(html, /<div id="app" class="compare-app">/);
+  assert(html.indexOf("<h1>Compare") < html.indexOf('<div id="app" class="compare-app">'));
+});
+

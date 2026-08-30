@@ -8,6 +8,23 @@
  */
 
 /**
+ * Rounds every window's `percentDelta` to 2 decimal places — the most
+ * precision compare-format.js's formatSignedPercent ever displays (see its
+ * `.toFixed(magnitude < 1 ? 2 : 1)`) — while leaving `starDelta` (already an
+ * integer) and `oldestDate` untouched. Full floating-point precision on
+ * `percentDelta` (e.g. `0.9328104909234664`) buys nothing the UI ever shows
+ * and meaningfully bloats dist/compare-index.json across hundreds of
+ * projects × three windows each.
+ */
+function roundGrowth(growth) {
+  const rounded = {};
+  for (const [key, window] of Object.entries(growth)) {
+    rounded[key] = { ...window, percentDelta: Math.round(window.percentDelta * 100) / 100 };
+  }
+  return rounded;
+}
+
+/**
  * `project` is a sized, domain-attributed project record (see
  * velocity.mjs's computeProjectSizing and generate.mjs's
  * `allProjectsWithDomain`). `historySeries` is `starHistoryFor`'s
@@ -30,7 +47,7 @@ export function buildCompareRecord(project, { historySeries = [], signalHeadline
     desc: project.desc ?? null,
     tags: project.tags ?? [],
     weight: project.weight ?? 0,
-    growth: project.growth ?? {},
+    growth: roundGrowth(project.growth ?? {}),
     hasEnoughHistory: project.hasEnoughHistory ?? {},
     forks: typeof latest?.forks === "number" ? latest.forks : null,
     openIssues: typeof latest?.openIssues === "number" ? latest.openIssues : null,

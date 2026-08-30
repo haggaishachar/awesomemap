@@ -259,15 +259,15 @@ for (const domain of parsedDomains) {
   });
 }
 
-// Today's-signals' "one to watch" needs to compare percentDelta across every
-// eligible project, not just the top LEADERBOARD_LIMIT by score — a small,
-// fast-growing project can rank well outside the top 20 on score (which
-// favors absolute gains) while still being the best percentDelta overall.
-// A fresh, uncapped call is cheap at this repo's scale and keeps
-// LEADERBOARD_LIMIT (the /rising/ page's own per-section row count)
-// untouched.
+// Today's-signals' "one to watch" and "heating up" need to compare
+// percentDelta across every eligible project, not just the top
+// LEADERBOARD_LIMIT by score — a small, fast-growing project can rank well
+// outside the top 20 on score (which favors absolute gains) while still
+// being the best percentDelta overall. A fresh, uncapped call is cheap at
+// this repo's scale and keeps LEADERBOARD_LIMIT (the /rising/ page's own
+// per-section row count) untouched.
 const globalSignalsPool = computeLeaderboard(parsedDomains, historyBySlug, { scope: "global", windowDays: TEASER_WINDOW_DAYS, limit: Infinity });
-const todaysSignals = pickTodaysSignals(globalSignalsPool, domains);
+const todaysSignals = pickTodaysSignals(globalSignalsPool);
 writeFileSync(
   `${DIST_DIR}/index.html`,
   renderLandingPage(domains, {

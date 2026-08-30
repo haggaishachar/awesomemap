@@ -1,5 +1,3 @@
-import { rankGroups } from "./group-growth.mjs";
-
 // The largest current star count a project can have and still count as
 // "small" for the `watch` signal — calibrated against this repo's tracked
 // projects (velocity.mjs notes star counts range from ~500 to ~386k, with
@@ -18,19 +16,23 @@ export const SMALL_PROJECT_STAR_THRESHOLD = 5000;
  * `computeLeaderboard` result with `limit` high enough to include every
  * eligible candidate, not just the top N) — capping it before this
  * function runs would let a small-but-fast-growing project get cut off
- * before its `percentDelta` is ever compared for `watch`. `domains` is the
- * same `{ slug, shortName, growth }` list the landing page's own map-card
- * ordering ranks via `rankGroups`.
+ * before its `percentDelta` is ever compared for `watch`/`heatingUp`.
  *
- * Each of `mover`/`ecosystem`/`watch` is `null` when no candidate
+ * Each of `mover`/`heatingUp`/`watch` is `null` when no candidate
  * qualifies (e.g. too early in the dataset's life) — `renderTodaysSignals`
- * omits that card rather than rendering an empty one.
+ * omits that card rather than rendering an empty one. `mover` and `watch`
+ * are picked first so `heatingUp` can exclude their ids — otherwise it'd
+ * often just repeat `watch` (percentage growth is usually won by small
+ * projects).
  */
-export function pickTodaysSignals(moverPool, domains, { starThreshold = SMALL_PROJECT_STAR_THRESHOLD } = {}) {
+export function pickTodaysSignals(moverPool, { starThreshold = SMALL_PROJECT_STAR_THRESHOLD } = {}) {
+  const mover = pickBiggestMover(moverPool);
+  const watch = pickOneToWatch(moverPool, starThreshold);
+  const claimedIds = new Set([mover?.id, watch?.id].filter(Boolean));
   return {
-    mover: pickBiggestMover(moverPool),
-    ecosystem: pickHeatingUpEcosystem(domains),
-    watch: pickOneToWatch(moverPool, starThreshold),
+    mover,
+    heatingUp: pickHeatingUpProject(moverPool, claimedIds),
+    watch,
   };
 }
 
@@ -47,15 +49,9 @@ function pickOneToWatch(pool, starThreshold) {
   return small.reduce((best, candidate) => (candidate.percentDelta > best.percentDelta ? candidate : best));
 }
 
-/**
- * The top domain by growth rate, via the same `rankGroups` ordering the
- * landing page's map cards already use — untracked domains sort last, so a
- * tracked top entry is only missing when every domain is untracked.
- */
-function pickHeatingUpEcosystem(domains) {
-  if (domains.length === 0) return null;
-  const ranked = rankGroups(domains.map((domain) => ({ key: domain.slug, domain, growth: domain.growth })));
-  const top = ranked[0];
-  if (!top.growth.hasEnoughHistory) return null;
-  return { ...top.domain, percentDelta: top.growth.percentDelta };
+/** The highest-percentDelta candidate in the pool, skipping any id already claimed by another signal — or null if none remain. */
+function pickHeatingUpProject(pool, claimedIds) {
+  const eligible = pool.filter((candidate) => !claimedIds.has(candidate.id));
+  if (eligible.length === 0) return null;
+  return eligible.reduce((best, candidate) => (candidate.percentDelta > best.percentDelta ? candidate : best));
 }

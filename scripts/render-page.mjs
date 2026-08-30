@@ -470,12 +470,12 @@ function renderSignalCard({ label, title, stat, meta, href }) {
 
 /**
  * Renders the landing page's "Today's signals" module — up to three cards
- * (biggest mover, heating-up ecosystem, one-to-watch) built from
+ * (biggest mover, heating-up project, one-to-watch) built from
  * `pickTodaysSignals`'s output (see todays-signals.mjs). Any signal that's
  * `null` (no qualifying candidate yet) is skipped; the whole section is
  * omitted when none qualify, rather than rendering an empty shell.
  */
-function renderTodaysSignals({ mover, ecosystem, watch } = {}, { basePath }) {
+function renderTodaysSignals({ mover, heatingUp, watch } = {}, { basePath }) {
   const cards = [
     mover &&
       renderSignalCard({
@@ -485,12 +485,13 @@ function renderTodaysSignals({ mover, ecosystem, watch } = {}, { basePath }) {
         meta: mover.domainShort,
         href: `${basePath}/projects/${mover.id}/`,
       }),
-    ecosystem &&
+    heatingUp &&
       renderSignalCard({
         label: "📈 Heating up",
-        title: ecosystem.shortName ?? ecosystem.name,
-        stat: `+${ecosystem.percentDelta.toFixed(1)}% this week`,
-        href: `${basePath}/${ecosystem.slug}/`,
+        title: heatingUp.name,
+        stat: `+${heatingUp.percentDelta.toFixed(1)}% this week`,
+        meta: heatingUp.domainShort,
+        href: `${basePath}/projects/${heatingUp.id}/`,
       }),
     watch &&
       renderSignalCard({

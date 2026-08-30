@@ -1495,6 +1495,88 @@
       ],
       "weight": 26171,
       "image": "https://avatars.githubusercontent.com/u/123950155?v=4"
+    },
+    {
+      "id": "handsontable/handsontable",
+      "path": [
+        "UI Component Libraries"
+      ],
+      "name": "handsontable",
+      "link": "https://github.com/handsontable/handsontable",
+      "desc": "JavaScript Data Grid / Data Table with a Spreadsheet Look & Feel. Works with React, Angular, and Vue. Supported by the Handsontable team ⚡",
+      "tags": [
+        "angular-datagrid",
+        "angular-table",
+        "component",
+        "crud-operations",
+        "data-editing",
+        "data-grid",
+        "data-management",
+        "data-tables",
+        "datagrid",
+        "datatable",
+        "excel",
+        "excel-javascript",
+        "grid",
+        "grid-component",
+        "react-datatable",
+        "react-grid",
+        "spreadsheet",
+        "table",
+        "vue-table"
+      ],
+      "weight": 22030,
+      "image": "https://avatars.githubusercontent.com/u/8068250?v=4"
+    },
+    {
+      "id": "frappe/datatable",
+      "path": [
+        "UI Component Libraries"
+      ],
+      "name": "datatable",
+      "link": "https://github.com/frappe/datatable",
+      "desc": "The Missing Javascript Datatable for the Web",
+      "tags": [
+        "datagrid",
+        "datatable",
+        "datatables-library",
+        "editable-grid",
+        "editable-table",
+        "grid",
+        "interactive",
+        "modern",
+        "simple",
+        "table"
+      ],
+      "weight": 1331,
+      "image": "https://avatars.githubusercontent.com/u/836974?v=4"
+    },
+    {
+      "id": "jspreadsheet/ce",
+      "path": [
+        "UI Component Libraries"
+      ],
+      "name": "ce",
+      "link": "https://github.com/jspreadsheet/ce",
+      "desc": "Jspreadsheet is a lightweight JavaScript data grid component for creating interactive data grids with advanced spreadsheet controls.",
+      "tags": [
+        "data-grid",
+        "datagrid",
+        "datatables",
+        "excel",
+        "grid",
+        "javascript",
+        "javascript-data-grid",
+        "jexcel",
+        "js",
+        "jspreadsheet",
+        "online-spreadsheet",
+        "spreadsheet",
+        "spreadsheets",
+        "table"
+      ],
+      "weight": 7220,
+      "image": "https://avatars.githubusercontent.com/u/75171656?v=4"
     }
   ]
 }

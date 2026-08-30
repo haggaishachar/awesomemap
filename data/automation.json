@@ -1416,6 +1416,39 @@
         "react-hooks",
         "typescript"
       ]
+    },
+    {
+      "id": "browser-act/skills",
+      "path": [
+        "RPA & Browser Automation"
+      ],
+      "name": "skills",
+      "link": "https://github.com/browser-act/skills",
+      "desc": "Browser automation CLI built for AI agents. Break through anti-bot walls, hand off to humans across platforms when stuck. Parallel multi-task execution, independent multi-session operation, isolated multi-account browsing.",
+      "tags": [
+        "agent-infrastructure",
+        "ai-agents",
+        "automation",
+        "claude-cli",
+        "claude-code",
+        "claude-code-skills",
+        "claude-skills",
+        "codex",
+        "codex-cli",
+        "codex-skill",
+        "cursor",
+        "data-extraction",
+        "no-code",
+        "openclaw",
+        "openclaw-cli",
+        "openclaw-skill",
+        "openclaw-skills",
+        "web-data-extraction",
+        "web-scraping",
+        "web-scraping-api"
+      ],
+      "weight": 5524,
+      "image": "https://avatars.githubusercontent.com/u/255086931?v=4"
     }
   ]
 }

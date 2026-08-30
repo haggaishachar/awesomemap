@@ -1237,6 +1237,88 @@
       ],
       "weight": 2058,
       "image": "https://avatars.githubusercontent.com/u/91642233?v=4"
+    },
+    {
+      "id": "alexpfau/calendar-card-pro",
+      "path": [
+        "Automation Rules & Dashboards"
+      ],
+      "name": "calendar-card-pro",
+      "link": "https://github.com/alexpfau/calendar-card-pro",
+      "desc": "📅 A sleek and highly customizable calendar card for Home Assistant, designed for performance and a clean, modern look.",
+      "tags": [
+        "calendar",
+        "card",
+        "custom-card",
+        "hacs",
+        "home-assistant",
+        "homeassistant",
+        "lovelace"
+      ],
+      "weight": 1192
+    },
+    {
+      "id": "PRProd/HA-Firemote",
+      "path": [
+        "Automation Rules & Dashboards"
+      ],
+      "name": "HA-Firemote",
+      "link": "https://github.com/PRProd/HA-Firemote",
+      "desc": "Apple TV, Amazon Fire TV, Chromecast, Homatics, NVIDIA Shield, onn., Roku, Xiaomi Mi, and Android TV remote control card for Home Assistant",
+      "tags": [
+        "amazon-fire",
+        "amazon-fire-tv",
+        "android",
+        "android-debug-bridge",
+        "android-tv",
+        "apple-tv",
+        "chromecast",
+        "google-tv",
+        "homatics",
+        "home-assistant",
+        "home-automation",
+        "nvidia",
+        "nvidia-shield",
+        "onn",
+        "remote-control",
+        "roku",
+        "roku-tv",
+        "shield",
+        "xiaomi",
+        "xiaomi-mi"
+      ],
+      "weight": 1042
+    },
+    {
+      "id": "Nerwyn/universal-remote-card",
+      "path": [
+        "Automation Rules & Dashboards"
+      ],
+      "name": "universal-remote-card",
+      "link": "https://github.com/Nerwyn/universal-remote-card",
+      "desc": "A completely customizable universal remote card for Home Assistant. Supports multiple platforms out of the box.",
+      "tags": [
+        "adb",
+        "android-tv",
+        "androidtv",
+        "apple-tv",
+        "bravia",
+        "fire-tv",
+        "hacs",
+        "hass",
+        "hassio",
+        "home-assistant",
+        "jellyfin",
+        "kodi",
+        "lovelace",
+        "remote",
+        "roku",
+        "samsung-tv",
+        "unified-remote",
+        "webos",
+        "webos-tv"
+      ],
+      "weight": 593
     }
   ]
 }

@@ -1501,6 +1501,68 @@
       "tags": [],
       "weight": 2615,
       "image": "https://avatars.githubusercontent.com/u/819518?v=4"
+    },
+    {
+      "id": "meirwah/awesome-incident-response",
+      "path": [
+        "Forensics & Reverse Engineering"
+      ],
+      "name": "awesome-incident-response",
+      "link": "https://github.com/meirwah/awesome-incident-response",
+      "desc": "A curated list of tools for incident response",
+      "tags": [
+        "awesome",
+        "awesome-list",
+        "cybersecurity",
+        "dfir",
+        "incident-response",
+        "incident-response-tooling",
+        "list",
+        "security"
+      ],
+      "weight": 9361
+    },
+    {
+      "id": "hslatman/awesome-threat-intelligence",
+      "path": [
+        "SIEM & Threat Detection"
+      ],
+      "name": "awesome-threat-intelligence",
+      "link": "https://github.com/hslatman/awesome-threat-intelligence",
+      "desc": "A curated list of Awesome Threat Intelligence resources",
+      "tags": [
+        "awesome",
+        "awesome-list",
+        "hacktoberfest",
+        "security"
+      ],
+      "weight": 10583
+    },
+    {
+      "id": "InQuest/awesome-yara",
+      "path": [
+        "SIEM & Threat Detection"
+      ],
+      "name": "awesome-yara",
+      "link": "https://github.com/InQuest/awesome-yara",
+      "desc": "A curated list of awesome YARA rules, tools, and people.",
+      "tags": [
+        "awesome",
+        "awesome-list",
+        "awesome-yara",
+        "ioc",
+        "malware-analysis",
+        "malware-detection",
+        "malware-research",
+        "malware-rules",
+        "threat-hunting",
+        "yara",
+        "yara-manager",
+        "yara-rules",
+        "yara-scanner",
+        "yara-signatures"
+      ],
+      "weight": 4264
     }
   ]
 }

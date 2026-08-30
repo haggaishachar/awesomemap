@@ -1398,6 +1398,72 @@
       "tags": [],
       "weight": 4808,
       "image": "https://avatars.githubusercontent.com/u/698437?v=4"
+    },
+    {
+      "id": "deeplearning4j/deeplearning4j",
+      "path": [
+        "Deep Learning"
+      ],
+      "name": "deeplearning4j",
+      "link": "https://github.com/deeplearning4j/deeplearning4j",
+      "desc": "Suite of tools for deploying and training deep learning models using the JVM. Highlights include model import for keras, tensorflow, and onnx/pytorch, a modular and tiny c++ library for running math code and a java based math library on top of the core c++ library. Also includes samediff: a pytorch/tensorflow like library for running deep learn...",
+      "tags": [
+        "artificial-intelligence",
+        "clojure",
+        "deeplearning",
+        "deeplearning4j",
+        "dl4j",
+        "gpu",
+        "hadoop",
+        "intellij",
+        "java",
+        "linear-algebra",
+        "matrix-library",
+        "neural-nets",
+        "python",
+        "scala",
+        "spark"
+      ],
+      "weight": 14248,
+      "image": "https://avatars.githubusercontent.com/u/105231133?v=4"
+    },
+    {
+      "id": "deepjavalibrary/djl",
+      "path": [
+        "Deep Learning"
+      ],
+      "name": "djl",
+      "link": "https://github.com/deepjavalibrary/djl",
+      "desc": "An Engine-Agnostic Deep Learning Framework in Java",
+      "tags": [
+        "ai",
+        "autograd",
+        "deep-learning",
+        "deep-neural-networks",
+        "djl",
+        "java",
+        "machine-learning",
+        "ml",
+        "mxnet",
+        "neural-network",
+        "onnxruntime",
+        "pytorch",
+        "tensorflow"
+      ],
+      "weight": 4849,
+      "image": "https://avatars.githubusercontent.com/u/82605399?v=4"
+    },
+    {
+      "id": "NaturalNode/natural",
+      "path": [
+        "Natural Language Processing"
+      ],
+      "name": "natural",
+      "link": "https://github.com/NaturalNode/natural",
+      "desc": "general natural language facilities for node",
+      "tags": [],
+      "weight": 10881,
+      "image": "https://avatars.githubusercontent.com/u/1005344?v=4"
     }
   ]
 }

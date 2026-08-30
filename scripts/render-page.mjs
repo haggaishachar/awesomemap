@@ -952,6 +952,7 @@ export function renderProjectPage(
       <div class="project-links">
         <a class="detail-panel-stars" href="${escapeHtml(githubRepoUrl(project.id))}" target="_blank" rel="noopener">★ ${formatStars(project.weight ?? 0)} stars on GitHub</a>
         ${project.link ? `<a class="detail-panel-link" href="${escapeHtml(project.link)}" target="_blank" rel="noopener">Visit site ↗</a>` : ""}
+        <a class="detail-panel-link" href="${basePath}/compare/?id=${encodeURIComponent(project.id)}">+ Compare</a>
       </div>
       ${renderProjectTagChips(project.tags, basePath)}
     </div>

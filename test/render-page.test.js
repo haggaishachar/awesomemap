@@ -853,8 +853,9 @@ test("renderProjectPage degrades gracefully for a minimal project record with on
   assert.match(html, /<h1>a\/b<\/h1>/);
   // No tag-chip block.
   assert.doesNotMatch(html, /class="detail-panel-tags"/);
-  // No "Visit site" link.
-  assert.doesNotMatch(html, /class="detail-panel-link"/);
+  // Has "+ Compare" link but no "Visit site" link.
+  assert.match(html, />\+ Compare</);
+  assert.doesNotMatch(html, /Visit site ↗/);
   // No hero image.
   assert.doesNotMatch(html, /class="detail-panel-logo"/);
   // Breadcrumb shows just Home + domain, no category crumbs.
@@ -876,6 +877,24 @@ test("renderProjectPage's momentum chip reports 'not tracked yet' for a window w
   const project = { ...PROJECT, hasEnoughHistory: { rising7: true, rising30: true, rising90: false } };
   const html = renderProjectPage(project, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
   assert.match(html, /Not tracked yet — first tracked 2026-05-01/);
+});
+
+test("renderProjectPage includes a + Compare link seeded with the project's own id", () => {
+  const project = {
+    id: "facebook/react",
+    name: "React",
+    path: ["Frontend Frameworks"],
+    weight: 1000,
+    growth: {},
+    hasEnoughHistory: {},
+  };
+  const html = renderProjectPage(project, {
+    domain: { slug: "web-dev", shortName: "Web Dev" },
+    defaultOgImage: "/og-default.png",
+    basePath: "/techmap",
+  });
+  assert.match(html, /href="\/techmap\/compare\/\?id=facebook%2Freact"/);
+  assert.match(html, />\+ Compare</);
 });
 
 test("renderComparePage mounts compare.js against the compare index, prefixed by BASE_PATH", () => {

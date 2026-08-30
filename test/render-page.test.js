@@ -7,6 +7,7 @@ import {
   renderTagsIndexPage,
   renderTagPage,
   renderProjectPage,
+  renderComparePage,
   tagSlug,
 } from "../scripts/render-page.mjs";
 
@@ -875,5 +876,26 @@ test("renderProjectPage's momentum chip reports 'not tracked yet' for a window w
   const project = { ...PROJECT, hasEnoughHistory: { rising7: true, rising30: true, rising90: false } };
   const html = renderProjectPage(project, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
   assert.match(html, /Not tracked yet — first tracked 2026-05-01/);
+});
+
+test("renderComparePage mounts compare.js against the compare index, prefixed by BASE_PATH", () => {
+  const html = renderComparePage({ defaultOgImage: "/og-default.png", basePath: "/techmap" });
+  assert.match(html, /import \{ mountCompare \} from "\/techmap\/shared\/compare.js"/);
+  assert.match(html, /import \{ parseCompareIds, formatCompareIds \} from "\/techmap\/shared\/compare-url.js"/);
+  assert.match(html, /compareIndexUrl: "\/techmap\/compare-index.json"/);
+  assert.match(html, /<div id="app" class="compare-app"><\/div>/);
+});
+
+test("renderComparePage has a site header and footer and a canonical /compare/ URL", () => {
+  const html = renderComparePage({ defaultOgImage: "/og-default.png", siteUrl: "https://awesomemap.dev", basePath: "" });
+  assert.match(html, /class="site-header"/);
+  assert.match(html, /class="site-footer"/);
+  assert.match(html, /href="https:\/\/awesomemap.dev\/compare\/"/);
+});
+
+test("renderComparePage defaults to root-relative paths when basePath is empty", () => {
+  const html = renderComparePage({ defaultOgImage: "/og-default.png" });
+  assert.match(html, /from "\/shared\/compare.js"/);
+  assert.match(html, /compareIndexUrl: "\/compare-index.json"/);
 });
 

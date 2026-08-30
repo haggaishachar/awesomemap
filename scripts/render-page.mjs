@@ -968,3 +968,54 @@ export function renderProjectPage(
     body,
   });
 }
+
+/**
+ * Renders the /compare/ page's static shell. Unlike every other page here,
+ * this shell carries no project data of its own — which projects are being
+ * compared is only known once the browser parses the URL's `id=` params, so
+ * the actual table is built entirely client-side by compare.js against
+ * dist/compare-index.json (see generate.mjs). Generic OG copy, since a
+ * static build can't know the query string in advance.
+ */
+export function renderComparePage({ defaultOgImage, siteUrl = "", basePath = "" } = {}) {
+  const ogUrl = `${siteUrl}${basePath}/compare/`;
+  const compareIndexUrl = `${basePath}/compare-index.json`;
+  const body = `
+    ${renderSiteHeader(basePath)}
+    <div id="app" class="compare-app"></div>
+    <script type="module">
+      import { mountCompare } from "${basePath}/shared/compare.js";
+      import { parseCompareIds, formatCompareIds } from "${basePath}/shared/compare-url.js";
+      function stateUrl(ids) {
+        return location.pathname + formatCompareIds(ids);
+      }
+      const initialIds = parseCompareIds(new URLSearchParams(location.search));
+      // Gives the very first back-press a defined entry to return to,
+      // mirroring the same pattern renderDomainPage's inline script uses
+      // for zoom state.
+      history.replaceState(initialIds, "", stateUrl(initialIds));
+      const compare = mountCompare(document.getElementById("app"), {
+        compareIndexUrl: "${compareIndexUrl}",
+        basePath: "${basePath}",
+        initialIds,
+        onIdsChange: (ids) => {
+          history.pushState(ids, "", stateUrl(ids));
+        },
+      });
+      window.addEventListener("popstate", (event) => {
+        const ids = event.state ?? parseCompareIds(new URLSearchParams(location.search));
+        compare.applyIds(ids);
+      });
+    </script>
+    ${renderSiteFooter()}
+  `;
+  return renderShell({
+    title: "Compare projects — awesomemap",
+    ogTitle: "Compare projects — awesomemap",
+    ogDescription: "Compare stars, growth, and momentum across up to four open-source projects side by side.",
+    ogImage: defaultOgImage,
+    ogUrl,
+    base: basePath,
+    body,
+  });
+}

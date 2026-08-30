@@ -8,10 +8,11 @@ const HISTORY_DIR = "data/history";
 const MAX_AGE_DAYS = 120;
 
 /**
- * Inserts today's `{ date, stars }` snapshot into a project's history array,
- * keeping entries sorted ascending by date. A snapshot sharing an existing
- * entry's date replaces that entry rather than duplicating it, so running
- * the job twice in one day is a no-op the second time.
+ * Inserts today's snapshot (see `buildSnapshotEntry`) into a project's
+ * history array, keeping entries sorted ascending by date. A snapshot
+ * sharing an existing entry's date replaces that entry rather than
+ * duplicating it, so running the job twice in one day is a no-op the
+ * second time.
  */
 export function appendSnapshotEntry(entries, snapshot) {
   const withoutSameDate = entries.filter((entry) => entry.date !== snapshot.date);
@@ -30,6 +31,26 @@ export function pruneOldEntries(entries, { now = new Date(), maxAgeDays = MAX_AG
 
 function todayIso(now) {
   return new Date(now).toISOString().slice(0, 10);
+}
+
+/**
+ * Maps a GitHub repo API response onto today's history entry: stars,
+ * forks, and open issues ride along for free since they're already in the
+ * same response the daily job fetches for `stargazers_count`, no extra API
+ * call needed. `name`/`description` are GitHub's own values (not the
+ * curated display name/desc in `data/*.json`) — snapshotted daily so the
+ * compare view can show current copy, and so drift from the curated
+ * values is detectable later.
+ */
+export function buildSnapshotEntry(repoData, date) {
+  return {
+    date,
+    stars: repoData.stargazers_count,
+    forks: repoData.forks_count,
+    openIssues: repoData.open_issues_count,
+    name: repoData.name,
+    description: repoData.description,
+  };
 }
 
 // CLI entry point: node scripts/snapshot-history.mjs
@@ -62,7 +83,7 @@ async function main() {
       try {
         const repoData = await getJson(`https://api.github.com/repos/${repo.owner}/${repo.repo}`);
         const existing = history[project.id] ?? [];
-        const withToday = appendSnapshotEntry(existing, { date: today, stars: repoData.stargazers_count });
+        const withToday = appendSnapshotEntry(existing, buildSnapshotEntry(repoData, today));
         history[project.id] = pruneOldEntries(withToday, { now: new Date() });
         fetched += 1;
         totalFetched += 1;

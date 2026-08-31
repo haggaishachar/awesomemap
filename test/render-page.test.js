@@ -217,6 +217,15 @@ test("the site header includes a Rising nav link, prefixed by BASE_PATH", () => 
   assert.match(prefixedHtml, /class="site-header-rising" href="\/techmap\/rising\/"/);
 });
 
+test("the site header includes a Compare nav link, prefixed by BASE_PATH", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const rootHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "" });
+  assert.match(rootHtml, /class="site-header-compare" href="\/compare\/"/);
+
+  const prefixedHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
+  assert.match(prefixedHtml, /class="site-header-compare" href="\/techmap\/compare\/"/);
+});
+
 test("renderRisingPage renders a row per leaderboard entry, with rank, arrow, and star delta", () => {
   const domains = [{ slug: "data-science", name: "Data Science" }];
   const leaderboardsByWindow = {

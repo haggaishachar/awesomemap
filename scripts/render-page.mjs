@@ -55,7 +55,7 @@ function renderSiteHeader(basePath) {
       <div class="site-header-links">
         <a class="site-header-rising" href="${basePath}/rising/">Rising</a>
         <a class="site-header-tags" href="${basePath}/tags/">Tags</a>
-        <a class="site-header-compare" href="${basePath}/compare/">Compare</a>
+        <a class="site-header-compare" id="site-header-compare" href="${basePath}/compare/">Compare</a>
         <a class="site-header-github" href="${REPO_URL}" aria-label="View awesomemap on GitHub">
           <svg viewBox="0 0 16 16" width="20" height="20" aria-hidden="true">
             <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
@@ -64,6 +64,24 @@ function renderSiteHeader(basePath) {
         <img class="site-header-stars" src="https://img.shields.io/github/stars/haggaishachar/awesomemap?style=social" alt="GitHub stars" width="94" height="20" loading="lazy" />
       </div>
     </header>`;
+}
+
+/**
+ * Bootstrap script wiring up the compare cart (app/shared/compare-cart.js)
+ * for any page that can show a + Compare button — the detail panel,
+ * project pages, /rising/ rows, and tag-page rows. Sits right after
+ * renderSiteHeader in every caller (both are omitted together for
+ * embeds), since it needs #site-header-compare to already be in the DOM.
+ * A page with no + Compare buttons at all still gets this for free (it's
+ * a no-op until one exists), rather than every page-render function
+ * needing to remember to opt in individually.
+ */
+function renderCompareCartBootstrap(basePath) {
+  return `
+    <script type="module">
+      import { initCompareCartUI } from "${basePath}/shared/compare-cart.js";
+      initCompareCartUI("${basePath}");
+    </script>`;
 }
 
 /** Site-wide footer: links back to the repo's license, contributing guide, and issue tracker. Omitted from embeds. */
@@ -108,6 +126,7 @@ export function renderDomainPage(
   }
 ) {
   const header = embed ? "" : renderSiteHeader(basePath);
+  const compareCartScript = embed ? "" : renderCompareCartBootstrap(basePath);
   const footer = embed ? "" : renderSiteFooter();
   const teaserSection = embed
     ? ""
@@ -131,6 +150,7 @@ export function renderDomainPage(
   const historyUrl = `${basePath}/${domain.slug}/history.json`;
   const body = `
     ${header}
+    ${compareCartScript}
     ${itemListJsonLd}
     <div id="app"></div>
     <script type="application/json" id="map-data">${escapeScriptJson(JSON.stringify(tree))}</script>
@@ -364,6 +384,7 @@ export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", baseP
   );
   const body = `
     ${renderSiteHeader(basePath)}
+    ${renderCompareCartBootstrap(basePath)}
     ${websiteJsonLd}
     <header class="hero">
       <div class="hero-motif" aria-hidden="true">
@@ -421,6 +442,12 @@ function renderRisingRow(entry, { showDomain, basePath }) {
     : "";
   const repoId = entry.id ? `<span class="rising-row-repo">${escapeHtml(entry.id)}</span>` : "";
   const projectHref = entry.id ? `${basePath}/projects/${entry.id}/` : (entry.link ?? "#");
+  // Only a real project id is addable to the compare cart — an entry
+  // without one (the theoretical fallback above) has no compare-index.json
+  // record to toggle against.
+  const compareToggle = entry.id
+    ? `<button type="button" class="rising-row-compare compare-toggle" data-compare-id="${escapeHtml(entry.id)}" aria-pressed="false">+ Compare</button>`
+    : "";
   return `
     <li class="rising-row" data-domain="${escapeHtml(entry.domainSlug ?? "")}">
       <span class="rising-row-rank">${entry.rank}</span>
@@ -432,6 +459,7 @@ function renderRisingRow(entry, { showDomain, basePath }) {
       ${domainTag}
       <span class="rising-row-arrow ${arrowClass}">${arrowSymbol}${movedBy > 0 ? movedBy : ""}</span>
       <span class="rising-row-delta">${sign}${entry.starDelta} (${sign}${pct}%)</span>
+      ${compareToggle}
     </li>`;
 }
 
@@ -600,6 +628,7 @@ export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage
 
   const body = `
     ${renderSiteHeader(basePath)}
+    ${renderCompareCartBootstrap(basePath)}
     <header class="rising-hero">
       <h1>Rising stars</h1>
       <p class="rising-hero-tagline">Star-growth leaders across every awesomemap domain.</p>
@@ -727,6 +756,7 @@ export function renderTagsIndexPage(topTags, risingTagsByWindow, { defaultOgImag
 
   const body = `
     ${renderSiteHeader(basePath)}
+    ${renderCompareCartBootstrap(basePath)}
     <header class="rising-hero">
       <h1>Tags</h1>
       <p class="rising-hero-tagline">The technologies awesomemap's projects carry, across every domain.</p>
@@ -782,6 +812,9 @@ function renderTagProjectRow(project, rank) {
     ? `<span class="rising-row-domain" title="${escapeHtml(project.domainName ?? project.domainShort)}">${escapeHtml(project.domainShort)}</span>`
     : "";
   const stars = typeof project.weight === "number" ? `★ ${formatStars(project.weight)}` : "";
+  const compareToggle = project.id
+    ? `<button type="button" class="rising-row-compare compare-toggle" data-compare-id="${escapeHtml(project.id)}" aria-pressed="false">+ Compare</button>`
+    : "";
   return `
     <li class="rising-row">
       <span class="rising-row-rank">${rank}</span>
@@ -791,6 +824,7 @@ function renderTagProjectRow(project, rank) {
       </span>
       ${domainBadge}
       <span class="rising-row-delta">${stars}</span>
+      ${compareToggle}
     </li>`;
 }
 
@@ -815,6 +849,7 @@ export function renderTagPage(tag, projects, growth, { defaultOgImage, siteUrl =
 
   const body = `
     ${renderSiteHeader(basePath)}
+    ${renderCompareCartBootstrap(basePath)}
     ${itemListJsonLd}
     <header class="rising-hero">
       <h1>${escapeHtml(tag)}</h1>
@@ -939,6 +974,7 @@ export function renderProjectPage(
 
   const body = `
     ${renderSiteHeader(basePath)}
+    ${renderCompareCartBootstrap(basePath)}
     ${jsonLd}
     <header class="project-hero">
       ${renderProjectBreadcrumb(project, domain, basePath)}
@@ -953,7 +989,7 @@ export function renderProjectPage(
       <div class="project-links">
         <a class="detail-panel-stars" href="${escapeHtml(githubRepoUrl(project.id))}" target="_blank" rel="noopener">★ ${formatStars(project.weight ?? 0)} stars on GitHub</a>
         ${project.link ? `<a class="detail-panel-link" href="${escapeHtml(project.link)}" target="_blank" rel="noopener">Visit site ↗</a>` : ""}
-        <a class="detail-panel-link" href="${basePath}/compare/?id=${encodeURIComponent(project.id)}">+ Compare</a>
+        <button type="button" class="detail-panel-link compare-toggle" data-compare-id="${escapeHtml(project.id)}" aria-pressed="false">+ Compare</button>
       </div>
       ${renderProjectTagChips(project.tags, basePath)}
     </div>
@@ -984,6 +1020,7 @@ export function renderComparePage({ defaultOgImage, siteUrl = "", basePath = "" 
   const compareIndexUrl = `${basePath}/compare-index.json`;
   const body = `
     ${renderSiteHeader(basePath)}
+    ${renderCompareCartBootstrap(basePath)}
     <header class="rising-hero">
       <h1>Compare projects</h1>
       <p class="rising-hero-tagline">See stars, growth, and momentum for up to four open-source projects side by side.</p>

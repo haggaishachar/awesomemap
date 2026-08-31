@@ -217,13 +217,23 @@ test("the site header includes a Rising nav link, prefixed by BASE_PATH", () => 
   assert.match(prefixedHtml, /class="site-header-rising" href="\/techmap\/rising\/"/);
 });
 
-test("the site header includes a Compare nav link, prefixed by BASE_PATH", () => {
+test("the site header includes a Compare nav link with a stable id, prefixed by BASE_PATH", () => {
   const domain = { slug: "data-science", name: "Data Science", description: "desc" };
   const rootHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "" });
-  assert.match(rootHtml, /class="site-header-compare" href="\/compare\/"/);
+  assert.match(rootHtml, /class="site-header-compare" id="site-header-compare" href="\/compare\/"/);
 
   const prefixedHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
-  assert.match(prefixedHtml, /class="site-header-compare" href="\/techmap\/compare\/"/);
+  assert.match(prefixedHtml, /class="site-header-compare" id="site-header-compare" href="\/techmap\/compare\/"/);
+});
+
+test("every full (non-embed) page wires up the compare-cart bootstrap script, prefixed by BASE_PATH", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const fullHtml = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
+  assert.match(fullHtml, /import \{ initCompareCartUI \} from "\/techmap\/shared\/compare-cart.js"/);
+  assert.match(fullHtml, /initCompareCartUI\("\/techmap"\)/);
+
+  const embedHtml = renderDomainPage(domain, ROOT_TREE, { embed: true, defaultOgImage: "/og-default.png" });
+  assert.doesNotMatch(embedHtml, /compare-cart.js/);
 });
 
 test("renderRisingPage renders a row per leaderboard entry, with rank, arrow, and star delta", () => {
@@ -243,6 +253,22 @@ test("renderRisingPage renders a row per leaderboard entry, with rank, arrow, an
   assert.match(html, /<a class="rising-row-name" href="\/projects\/a\/a\/">Project A<\/a>/);
   assert.match(html, /rising-row-up">▲1<\/span>/);
   assert.match(html, /\+40 \(\+40\.0%\)/);
+});
+
+test("renderRisingPage's rows include a + Compare toggle button carrying the project's id", () => {
+  const domains = [{ slug: "data-science", name: "Data Science" }];
+  const leaderboardsByWindow = {
+    7: {
+      global: [
+        { rank: 1, id: "a/a", name: "Project A", link: "https://a.example", domain: "Data Science", starDelta: 40, percentDelta: 40, rankDelta: 1 },
+      ],
+      "data-science": [],
+    },
+    30: { global: [], "data-science": [] },
+    90: { global: [], "data-science": [] },
+  };
+  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /<button type="button" class="rising-row-compare compare-toggle" data-compare-id="a\/a" aria-pressed="false">\+ Compare<\/button>/);
 });
 
 test("renderRisingPage's row links point at the project's own internal page (prefixed by BASE_PATH), not its external homepage — so visitors see the description, sparkline, and tags before leaving the site", () => {
@@ -740,6 +766,12 @@ test("renderTagPage lists projects in the caller's order, with domain badges and
   assert.match(html, />Web</);
 });
 
+test("renderTagPage's rows include a + Compare toggle button carrying each project's id", () => {
+  const projects = [{ id: "a/a", name: "A", link: "https://a.example", weight: 500, domainShort: "AI" }];
+  const html = renderTagPage("machine-learning", projects, { hasEnoughHistory: false, oldestDate: null }, { defaultOgImage: "/og.png" });
+  assert.match(html, /<button type="button" class="rising-row-compare compare-toggle" data-compare-id="a\/a" aria-pressed="false">\+ Compare<\/button>/);
+});
+
 test("renderTagPage shows the default-window growth stat when the tag group is tracked", () => {
   const projects = [{ id: "a/a", name: "A", link: "https://a.example", weight: 500 }];
   const html = renderTagPage("rust", projects, growth({ percentDelta: 3.2 }), { defaultOgImage: "/og.png" });
@@ -897,7 +929,7 @@ test("renderProjectPage's momentum chip reports 'not tracked yet' for a window w
   assert.match(html, /Not tracked yet — first tracked 2026-05-01/);
 });
 
-test("renderProjectPage includes a + Compare link seeded with the project's own id", () => {
+test("renderProjectPage includes a + Compare toggle button carrying the project's own id", () => {
   const project = {
     id: "facebook/react",
     name: "React",
@@ -911,7 +943,7 @@ test("renderProjectPage includes a + Compare link seeded with the project's own 
     defaultOgImage: "/og-default.png",
     basePath: "/techmap",
   });
-  assert.match(html, /href="\/techmap\/compare\/\?id=facebook%2Freact"/);
+  assert.match(html, /data-compare-id="facebook\/react"/);
   assert.match(html, />\+ Compare</);
 });
 

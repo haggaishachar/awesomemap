@@ -1,4 +1,5 @@
 import { githubRepoUrl, formatStarCount, starHistoryFor, buildSparklinePath, starHistoryCaption } from "./star-history.js";
+import { refreshCompareButtons } from "./compare-cart.js";
 
 // Popular mode has no "active" rising window of its own, but every leaf
 // still carries growth data for every window (see velocity.mjs's
@@ -51,8 +52,10 @@ export function renderTagChips(tags, basePath) {
  * project page" link to the leaf's `/projects/<id>/` page is rendered;
  * pass `false` when embedding the panel somewhere that page would be
  * redundant (e.g. the project page itself). `showCompareLink` (default
- * `true`) controls the same way whether a "+ Compare" link to the leaf's
- * `/compare/?id=<id>` page is rendered; pass `false` for the same reason.
+ * `true`) controls the same way whether a + Compare toggle button is
+ * rendered — clicking it adds/removes the leaf from the persistent
+ * compare cart (app/shared/compare-cart.js) rather than navigating away;
+ * pass `false` for the same reason `showProjectPageLink` can be disabled.
  * Returns { open(leafData), close() }.
  */
 export function createDetailPanel(container, { historyUrl, basePath = "", showProjectPageLink = true, showCompareLink = true } = {}) {
@@ -175,11 +178,13 @@ export function createDetailPanel(container, { historyUrl, basePath = "", showPr
     }
 
     if (showCompareLink && leafData.id) {
-      const compareLink = document.createElement("a");
-      compareLink.className = "detail-panel-link";
-      compareLink.href = `${basePath}/compare/?id=${encodeURIComponent(leafData.id)}`;
-      compareLink.textContent = "+ Compare";
-      panel.appendChild(compareLink);
+      const compareButton = document.createElement("button");
+      compareButton.type = "button";
+      compareButton.className = "detail-panel-link compare-toggle";
+      compareButton.dataset.compareId = leafData.id;
+      compareButton.setAttribute("aria-pressed", "false");
+      compareButton.textContent = "+ Compare";
+      panel.appendChild(compareButton);
     }
 
     if (showProjectPageLink && leafData.id) {
@@ -191,6 +196,13 @@ export function createDetailPanel(container, { historyUrl, basePath = "", showPr
     }
 
     panel.classList.add("detail-panel-open");
+
+    // The compare button above was just (re)created for this leaf — sync
+    // its added/not-added state (and every other compare button already on
+    // the page) from the cart now, rather than waiting for the next click
+    // anywhere on the page. initCompareCartUI's delegated click listener
+    // keeps working for this button without any extra wiring here.
+    refreshCompareButtons();
   }
 
   return { open, close };

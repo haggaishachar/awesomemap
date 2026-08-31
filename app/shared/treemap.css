@@ -307,6 +307,35 @@ body {
   color: var(--color-accent);
 }
 
+/* Shared look for every + Compare / ✓ Added toggle button, wherever it
+   appears (detail panel, project pages, Rising/Tags rows) — a pill
+   rather than plain link styling, so it reads as an interactive control
+   you click repeatedly, not a one-way navigation link. */
+.compare-toggle {
+  padding: 3px 12px;
+  border: 1px solid var(--color-accent);
+  border-radius: 999px;
+  background: none;
+  color: var(--color-accent);
+  font: inherit;
+  font-size: 13px;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.compare-toggle:hover {
+  background: var(--color-accent-soft);
+}
+
+.compare-toggle-added {
+  background: var(--color-accent);
+  color: var(--color-surface);
+}
+
+.compare-toggle-added:hover {
+  opacity: 0.85;
+}
+
 .detail-panel-growth {
   font-size: 13px;
   font-weight: 600;
@@ -934,6 +963,18 @@ a.momentum-row-name:hover {
   text-align: right;
   color: var(--color-text-muted);
   font-variant-numeric: tabular-nums;
+}
+
+.rising-row-compare {
+  flex-shrink: 0;
+  font-size: 12px;
+  padding: 2px 10px;
+}
+
+@media (max-width: 480px) {
+  .rising-row-compare {
+    display: none;
+  }
 }
 
 .rising-empty {

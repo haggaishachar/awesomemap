@@ -76,8 +76,10 @@ Swap `data-science` for any slug from the table above.
 
 ## Contributing
 
-Want to add a project, fix a map, or run awesomemap locally? See
-[CONTRIBUTING.md](CONTRIBUTING.md).
+Know a project that belongs on one of the maps? Suggest it at
+[awesomemap.dev/submit/](https://awesomemap.dev/submit/) — no PR needed,
+it's reviewed automatically within minutes. Want to improve the site
+itself or run it locally? See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Star History
 

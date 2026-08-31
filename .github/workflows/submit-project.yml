@@ -1,0 +1,53 @@
+name: Process project submission
+
+# Fires the instant a "Suggest a project" issue is opened — whether via
+# the /submit/ page's prefilled redirect or typed by hand — and
+# auto-processes it end to end (scripts/process-submission.mjs): parse,
+# quality bar, classify, commit or reject, always closing the issue with
+# a comment. No maintainer step, matching CONTRIBUTING.md's "Automated
+# project discovery" section.
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: submission-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  process:
+    # The "discovery" label is applied automatically by suggest-a-project.md
+    # (see .github/ISSUE_TEMPLATE/) — scoping on it (rather than every
+    # opened issue) keeps this from firing on a New domain proposal or a
+    # plain bug report.
+    if: contains(github.event.issue.labels.*.name, 'discovery')
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: node scripts/process-submission.mjs --issue "${{ github.event.issue.number }}"
+      # if: always() — commits whatever was already written to disk even if
+      # the previous step exited non-zero partway through (e.g. it managed
+      # to save the project/domain files but the closing `gh issue close`
+      # call itself failed), same reasoning as discovery.yml's commit step.
+      - if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/domains/*.json data/projects/
+          if git diff --cached --quiet; then
+            echo "No submission changes to commit."
+          else
+            git commit -m "chore: project submission #${{ github.event.issue.number }}"
+            git push
+          fi

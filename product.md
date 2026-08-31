@@ -225,17 +225,6 @@ net if the daily jobs that feed it go quiet.
 
 - [ ] Cross-link related/similar projects from the detail panel to
       increase session depth (currently just GitHub link + homepage).
-- [ ] Add a lightweight "Suggest a project" GitHub issue template
-      alongside the existing `new-domain-proposal.md`
-      (`.github/ISSUE_TEMPLATE/`). Today nominating a repo means either
-      opening a PR that edits `data/<slug>.json` directly
-      (`CONTRIBUTING.md`) or waiting for the automated discovery job
-      (`discovery.yml`) to stumble onto it via topic search/awesome-list
-      scraping — there's no path for a visitor who isn't comfortable with
-      either to just point at a repo they like. A short template (repo
-      URL, target map, why) can feed the same "🔍 Discovery review" issue
-      a maintainer already triages, reusing existing review muscle instead
-      of adding a new one. `MVP.md` item #2.
 - [ ] Publish an explicit roadmap or a pinned "vote on the next domain"
       issue — the README has said "More domains are on the way" for a
       while with no visible mechanism for visitors to weigh in.
@@ -245,6 +234,26 @@ net if the daily jobs that feed it go quiet.
 
 ## Shipped
 
+- [x] On-site project submission, with the human review queue removed
+      entirely — data contribution is now hands-off end to end, so
+      contributor effort (`CONTRIBUTING.md`) can point entirely at
+      platform/code work instead. A `/submit/` page
+      (`renderSubmitPage`/`app/shared/submit-project.js`) lets any
+      visitor nominate a repo without a GitHub account beyond opening the
+      prefilled issue it builds (the `suggest-a-project.md` template from
+      the earlier version of this item); `scripts/process-submission.mjs`
+      + `.github/workflows/submit-project.yml` then classify and commit
+      or reject it within minutes and always close the issue — no
+      maintainer step, whether the issue came from the form or was typed
+      by hand. The scheduled discovery job
+      (`scripts/discover-projects.mjs`) dropped its daily cap and
+      confidence gate to match: `scripts/apply-discoveries.mjs`'s
+      `routeCandidate` now auto-commits every `fits: true` verdict
+      (auto-creating a suggested new category rather than parking it),
+      and the daily "🔍 Discovery review" issue is gone — a classification
+      or enrichment failure is simply retried on a later run instead of
+      waiting on a human.
+      _Done 2026-08-31._
 - [x] Project comparison view (`/compare/?id=…`), picking 2-4 projects and
       seeing stars, 7/30/90d growth, momentum signal, forks, and open
       issues side by side, plus a cross-page "+ Compare" cart

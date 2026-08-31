@@ -2,38 +2,23 @@
 
 Local development and contribution guide for awesomemap.
 
-## Contribution flow
+**Contributions here are code/platform contributions, not data
+submissions.** Adding a project to a map is fully automated (see "How
+project data gets added" below) — a human PR is no longer the way that
+happens, so please don't open one just to add or nominate a project. If
+you want to help, pick something from [`MVP.md`](MVP.md) (the current
+priority shortlist) or [`product.md`](product.md) (the fuller backlog):
+a feature, a bug fix, better test coverage, or a design/UX improvement.
 
-Project data is split across two directories (see "Data layout" below):
-`data/domains/<slug>.json` (which map(s) a project appears in, and where)
-and `data/projects/<owner>/<repo>.json` (the project's own metadata,
-one file per project, shared across every domain that references it).
+## Contributing code
 
-- **Adding a project already curated elsewhere to another map:** open a PR
-  adding `{ "id": "owner/repo", "path": [...] }` to the target
-  `data/domains/<slug>.json` — no need to touch `data/projects/`, its
-  metadata already exists.
-- **Adding a brand-new project:** open a PR that both adds the membership
-  entry above *and* creates `data/projects/<owner>/<repo>.json` (see
-  "Adding a new map" below for its shape).
-- **Proposing a brand-new domain map:** open a
-  [New domain proposal](../../issues/new?template=new-domain-proposal.md)
-  issue first — a two-minute form covering the domain, its rough
-  categories, and why it fits. This keeps the site from ending up with a
-  pile of overlapping, half-finished maps; most reasonable proposals get
-  a quick go-ahead. Once it's green-lit, follow up with a PR adding
-  `data/domains/<new-slug>.json`.
-
-[`pr-check.yml`](.github/workflows/pr-check.yml) runs the test suite and a
-full site build on every PR automatically — it catches malformed JSON,
-missing `id`/`path`, duplicate slugs, a dangling membership reference (no
-matching `data/projects/` file), and broken builds before a human ever
-needs to look. A maintainer reviews for fit/quality once CI is green.
-
-Either way, the data files are the only thing a contribution PR usually
-touches — the site's rendering code, tests, and CI are unaffected by a
-data-only PR, so there's no way a project or map submission can break
-anything outside its own file(s).
+- Pick an item from `MVP.md`/`product.md`, or open an issue first if
+  you're proposing something not already listed.
+- `npm install && npm run dev` for local development (see "Develop"
+  below); `npm test` before opening a PR.
+- Open a PR against `master`. [`pr-check.yml`](.github/workflows/pr-check.yml)
+  runs the test suite and a full site build automatically; a maintainer
+  reviews once CI is green.
 
 ## Develop
 
@@ -87,6 +72,59 @@ This is an explicit, documented choice, not a hidden assumption — if you
 fork this repo or serve it from a different path, set these env vars to
 match your own deployment.
 
+## How project data gets added
+
+There is no manual "add a project" contribution path anymore — every
+project on the site arrives through one of two fully automated pipelines,
+neither of which waits on a maintainer:
+
+- **Automated discovery.** A daily scheduled job
+  (`.github/workflows/discovery.yml`, running `scripts/discover-projects.mjs`)
+  looks for new candidates on its own, using the search topics and
+  awesome-lists configured per domain in `data/discovery/sources.json`.
+- **On-site submission.** Anyone can nominate a specific repo via the
+  [/submit/](https://awesomemap.dev/submit/) page — no GitHub account
+  gymnastics beyond opening the issue it redirects to. The moment that
+  issue is opened (whether via the form or hand-filled from the
+  [Suggest a project](.github/ISSUE_TEMPLATE/suggest-a-project.md)
+  template), `.github/workflows/submit-project.yml` runs
+  `scripts/process-submission.mjs` against it and **always closes the
+  issue** with a comment explaining the outcome — committed, already
+  present, or rejected and why — regardless of whether the issue was
+  opened by the form or typed by hand.
+
+Both pipelines share the same classification and commit logic
+(`scripts/classify-candidates.mjs`, `scripts/apply-discoveries.mjs`):
+
+- Every candidate is checked against a hard, objective quality bar first
+  (500+ stars, not a fork/archived, has a license, pushed within the last
+  12 months) — `scripts/discover-candidates.mjs`'s `passesQualityBar`.
+  This runs before any LLM call, so no tokens are spent on a repo that
+  wouldn't qualify anyway.
+- A candidate that clears the bar is classified (OpenRouter, currently
+  `google/gemini-3.7-flash`) into that domain's existing category tree —
+  or, if none fits, the classifier's own suggested new category is
+  created on the spot. A `fits: true` verdict is committed immediately;
+  there is no confidence threshold, no daily cap, and no human-reviewed
+  queue in between. A `fits: false` verdict is a real rejection and
+  isn't reconsidered.
+- A failure in the pipeline itself (an unparseable classification, a
+  failed enrichment) is never treated as a rejection — it's simply left
+  out of `data/discovery/seen.json` so a later run retries it
+  automatically, no human intervention needed either way.
+- The candidate's GitHub topics are fetched alongside its other metadata,
+  both to help the classifier and to populate the committed entry's
+  `tags` field automatically.
+
+**Fixing bad data** (a wrong category, a stale description, a typo) is
+still a normal hand-edited PR against `data/domains/<slug>.json` or
+`data/projects/<owner>/<repo>.json` — see "Data layout" below for their
+shape. **Proposing a brand-new domain map** (not an addition to an
+existing one) also still goes through a
+[New domain proposal](../../issues/new?template=new-domain-proposal.md)
+issue and a follow-up PR, since that's a structural decision the
+automated pipelines above never make on their own.
+
 ## Data layout
 
     data/
@@ -114,9 +152,7 @@ match your own deployment.
   category names from root to the project (a single-level category is a
   one-element array; deeper nesting is a longer array).
 - `id` must have a matching `data/projects/<owner>/<repo>.json` file —
-  `generate.mjs` fails the build on a dangling reference. A project already
-  curated into another domain already has one; a brand-new project needs
-  one created (below).
+  `generate.mjs` fails the build on a dangling reference.
 
 `data/projects/<owner>/<repo>.json` — one file per project, holding
 everything about the project itself (never duplicated across domains, even
@@ -135,10 +171,10 @@ when the same project is referenced from more than one):
 
 - `name`, `desc`, `link`, `weight`, and `tags` may be omitted. `tags` is an
   array of strings (typically the repo's GitHub topics) shown alongside the
-  project; the automated discovery job (see below) fills it in from the
-  candidate's GitHub topics automatically. For a project with no public
-  GitHub repo, use any other unique string as `id`; it just won't be
-  enriched (see below), so give it `weight` yourself.
+  project; the automated pipelines above fill it in from the candidate's
+  GitHub topics automatically. For a project with no public GitHub repo,
+  use any other unique string as `id`; it just won't be enriched (see
+  below), so give it `weight` yourself.
 - Logos aren't stored in this repo. Set `image` on the project to a direct
   URL into its source (e.g. a `raw.githubusercontent.com` link) and it's
   hotlinked as-is; `node scripts/enrich-domain.mjs data/domains/<slug>.json`
@@ -148,8 +184,7 @@ when the same project is referenced from more than one):
 - `githubName`/`githubDescription` (GitHub's own current name/description,
   for drift detection against the curated `name`/`desc` above) and
   `history` (the daily star/forks/open-issues snapshot log) are entirely
-  generated — see "Star history & Rising mode" below. Leave `history` as
-  `[]` for a new project.
+  generated — see "Star history & Rising mode" below.
 
 Run `npm run generate` to confirm it builds before opening a PR.
 
@@ -180,41 +215,10 @@ This is entirely generated data — nothing here is hand-authored:
 
 Every domain's Rising leaderboard is live on the site at `/rising/`
 (global list plus one per domain), with short teasers on the landing page
-and each domain page — this is a good reason to add smaller, newer
-projects, not just already-popular ones: the whole point of "Rising" is
-surfacing genuine momentum a star count alone won't show yet. Keep the
-same quality bar as any other addition (real, maintained, fits the
-category) — size just isn't a gate.
+and each domain page — the whole point of "Rising" is surfacing genuine
+momentum a star count alone won't show yet.
 
 One thing to expect: a newly-added project needs `windowDays + 1` days of
 accumulated daily star snapshots (up to 91 days for the 90-day window)
 before it can appear on any leaderboard — see "Star history & Rising
-mode" above for how snapshots accumulate. Don't expect immediate results.
-
-## Automated project discovery
-
-A daily scheduled job (`.github/workflows/discovery.yml`, running
-`scripts/discover-projects.mjs`) looks for new candidate projects on its
-own, using the search topics and awesome-lists configured per domain in
-`data/discovery/sources.json`. Every candidate is checked against a
-quality bar (500+ stars, not a fork/archived, has a license, pushed
-within the last 12 months) before an LLM (OpenRouter, currently
-`google/gemini-3.7-flash`) classifies it into that domain's existing
-category tree. The candidate's GitHub topics are fetched alongside its
-other metadata, both to help the classifier and to populate the
-auto-committed entry's `tags` field.
-
-- A candidate the classifier is confident about (an existing category
-  fit, ≥80% confidence) is auto-committed directly, up to 3 per domain
-  per day — no PR, no human review, unlike every other addition described
-  above. This is a deliberate, bounded exception to this doc's normal
-  "every addition gets a human-reviewed PR" rule.
-- Everything else that passed the quality bar — low confidence, a
-  suggested new category, or capped-out overflow — lands in a daily
-  "🔍 Discovery review" GitHub issue instead. Nothing is silently
-  discarded and no category is ever auto-created; a maintainer turns a
-  wanted candidate into a normal contribution PR.
-- A candidate is only ever evaluated once (tracked in
-  `data/discovery/seen.json`); an ignored review-issue candidate won't
-  reappear the next day, so the issue itself is the durable record if you
-  want to revisit it later.
+mode" above for how snapshots accumulate.

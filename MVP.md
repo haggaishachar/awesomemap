@@ -1,7 +1,7 @@
 # MVP
 
-The current, curated slice of [`product.md`](product.md)'s backlog: the eight
-items judged most important to ship next, in priority order. Unlike
+The current, curated slice of [`product.md`](product.md)'s backlog: the
+seven items judged most important to ship next, in priority order. Unlike
 `product.md` — an ongoing, non-committal idea list — this file is a
 commitment-shaped shortlist; when an item ships, move it to `product.md`'s
 Shipped section and drop it from here rather than checking it off in place.
@@ -15,20 +15,11 @@ Shipped section and drop it from here rather than checking it off in place.
    `data/history/<slug>.json` entries (`buildSnapshotEntry` in
    `scripts/snapshot-history.mjs`) have grown ad hoc alongside them (stars →
    stars+forks+openIssues+name+desc, with no versioning). Foundation for the
-   rest of this list, especially #6 and #8, which need domain- and
+   rest of this list, especially #5 and #7, which need domain- and
    project-level stats read consistently rather than re-assembled per script.
    Needs its own design pass to settle the target shape before migrating.
 
-2. **[ ] Ability to add a project.** Today the only paths are a hand-edited
-   PR to `data/<slug>.json` (`CONTRIBUTING.md`) or waiting for the
-   automated discovery job (`discovery.yml`) to stumble onto a repo via
-   topic search/awesome-list scraping — there's no way for a visitor who
-   isn't comfortable opening a PR to nominate one. Ship the "Suggest a
-   project" GitHub issue template already flagged in `product.md`'s Content
-   & growth section (repo URL, target map, why), feeding the same
-   "🔍 Discovery review" issue a maintainer already triages.
-
-3. **[ ] "+ Compare" everywhere.** Already on the detail panel
+2. **[ ] "+ Compare" everywhere.** Already on the detail panel
    (`app/shared/detail-panel.js`), project pages (`renderProjectPage`),
    Rising rows (`renderRisingRow` — homepage teaser, `/rising/`, each
    domain's own teaser), and tag-page rows (`renderTagProjectRow`). Still
@@ -38,7 +29,7 @@ Shipped section and drop it from here rather than checking it off in place.
    id appears in list form carries the same toggle, wired to the existing
    `compare-cart` localStorage logic.
 
-4. **[ ] Rename to "This week's signals."** The homepage module is
+3. **[ ] Rename to "This week's signals."** The homepage module is
    currently headed "Today's signals" (`renderTodaysSignals`,
    `.todays-signals-heading`, fed by `scripts/todays-signals.mjs`), but its
    own card copy already says "this week" (e.g. "+643 stars (+0.4%) this
@@ -49,14 +40,14 @@ Shipped section and drop it from here rather than checking it off in place.
    `product.md`'s broader "site-wide copy pass toward heat/momentum
    language" item.
 
-5. **[ ] Signals per domain.** The global "This week's signals" module
-   (#4) only runs on the homepage — each domain page keeps its own plain
+4. **[ ] Signals per domain.** The global "This week's signals" module
+   (#3) only runs on the homepage — each domain page keeps its own plain
    Rising-rows teaser instead. Reuse the same mover/heating-up/watch
    selection (`pickTodaysSignals`, to become `pickThisWeeksSignals`) scoped
    to one domain's projects, so every domain page gets its own signals
    module, not just a generic leaderboard slice.
 
-6. **[ ] Top rising domains.** `generate.mjs` already computes each
+5. **[ ] Top rising domains.** `generate.mjs` already computes each
    domain's own growth per window (`domainGrowthByWindow`, via
    `computeGroupGrowth`) and threads it onto that domain's landing-page
    card, and `group-growth.mjs`'s `rankGroups` already ranks tags and
@@ -66,7 +57,7 @@ Shipped section and drop it from here rather than checking it off in place.
    alongside "This week's signals," so a visitor can answer "what's hot"
    at the ecosystem level, not just the single-project level.
 
-7. **[ ] Improve compare side-by-side.** `app/shared/compare.js` currently
+6. **[ ] Improve compare side-by-side.** `app/shared/compare.js` currently
    renders one full vertical stat card per project, laid out as sibling
    columns that each repeat the same Stars/7d/30d/90d-growth/Forks/Open-issues
    sequence — not a genuine row-aligned table, so there's no way to scan
@@ -76,7 +67,7 @@ Shipped section and drop it from here rather than checking it off in place.
    narrow viewports, building on the compare-index.json/compare-cart
    plumbing that already shipped.
 
-8. **[ ] Project page: add forks, issues, etc.** `buildSnapshotEntry`
+7. **[ ] Project page: add forks, issues, etc.** `buildSnapshotEntry`
    (`scripts/snapshot-history.mjs`) already captures `forks` and
    `openIssues` in every daily snapshot, and the compare view already
    displays them (`compare.js`'s "Forks"/"Open issues" stat rows) — but

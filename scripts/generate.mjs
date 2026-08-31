@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { readFileSync, writeFileSync, mkdirSync, copyFileSync, rmSync, cpSync } from "node:fs";
 import { buildTree } from "./build-tree.mjs";
-import { renderDomainPage, renderLandingPage, renderRisingPage, renderTagsIndexPage, renderTagPage, renderProjectPage, renderComparePage, tagSlug } from "./render-page.mjs";
+import { renderDomainPage, renderLandingPage, renderRisingPage, renderTagsIndexPage, renderTagPage, renderProjectPage, renderComparePage, renderSubmitPage, tagSlug } from "./render-page.mjs";
 import { buildCompareRecord, buildCompareIndex } from "./compare-index.mjs";
 import { explainSignal } from "./signal.mjs";
 import { sortedHistory } from "../app/shared/star-history.js";
@@ -368,6 +368,12 @@ writeFileSync(
   renderComparePage({ defaultOgImage: DEFAULT_OG_IMAGE, siteUrl: SITE_URL, basePath: BASE_PATH })
 );
 
+mkdirSync(`${DIST_DIR}/submit`, { recursive: true });
+writeFileSync(
+  `${DIST_DIR}/submit/index.html`,
+  renderSubmitPage({ domains, defaultOgImage: DEFAULT_OG_IMAGE, siteUrl: SITE_URL, basePath: BASE_PATH })
+);
+
 cpSync(`${APP_DIR}/shared`, `${DIST_DIR}/shared`, { recursive: true });
 cpSync(`${APP_DIR}/vendor`, `${DIST_DIR}/vendor`, { recursive: true });
 copyFileSync(`${APP_DIR}/og-default.png`, `${DIST_DIR}/og-default.png`);
@@ -377,7 +383,7 @@ if (CNAME) writeFileSync(`${DIST_DIR}/CNAME`, `${CNAME}\n`);
 const sitemap = buildSitemap(domains.map((d) => d.slug), {
   siteUrl: SITE_URL,
   basePath: BASE_PATH,
-  extraPaths: ["/tags/", "/compare/", ...tagPagePaths, ...projectPagePaths],
+  extraPaths: ["/tags/", "/compare/", "/submit/", ...tagPagePaths, ...projectPagePaths],
 });
 if (sitemap) writeFileSync(`${DIST_DIR}/sitemap.xml`, sitemap);
 writeFileSync(`${DIST_DIR}/robots.txt`, buildRobots({ siteUrl: SITE_URL, basePath: BASE_PATH }));

@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write
-  issues: write
 
 concurrency:
   group: discovery
@@ -26,13 +25,10 @@ jobs:
           node-version: 20
       - run: npm ci
       - run: node scripts/discover-projects.mjs
-      # if: always() — must still run and commit whatever was already
-      # written to disk (domain files + seen.json) even if the previous
-      # step exited non-zero (e.g. gh issue create failed after all
-      # writes succeeded, per the process.exitCode handling in
-      # discover-projects.mjs). Without this, a review-issue failure
-      # would silently drop that day's auto-committed additions instead
-      # of just failing loudly.
+      # if: always() — must still commit whatever was already written to
+      # disk (domain files + seen.json) even if the previous step exited
+      # non-zero partway through (e.g. a mid-run network failure), so a
+      # partial run's real progress isn't silently lost.
       - if: always()
         run: |
           git config user.name "github-actions[bot]"

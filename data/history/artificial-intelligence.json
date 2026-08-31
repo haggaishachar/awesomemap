@@ -71,6 +71,14 @@
       "openIssues": 2306,
       "name": "llama.cpp",
       "description": "LLM inference in C/C++"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 126481,
+      "forks": 22531,
+      "openIssues": 2317,
+      "name": "llama.cpp",
+      "description": "LLM inference in C/C++"
     }
   ],
   "ollama/ollama": [
@@ -143,6 +151,14 @@
       "stars": 179791,
       "forks": 17617,
       "openIssues": 3854,
+      "name": "ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 179826,
+      "forks": 17617,
+      "openIssues": 3855,
       "name": "ollama",
       "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
     }
@@ -219,6 +235,14 @@
       "openIssues": 7224,
       "name": "vllm",
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 90578,
+      "forks": 21471,
+      "openIssues": 7242,
+      "name": "vllm",
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs"
     }
   ],
   "mlc-ai/mlc-llm": [
@@ -291,6 +315,14 @@
       "stars": 23112,
       "forks": 2126,
       "openIssues": 337,
+      "name": "mlc-llm",
+      "description": "Universal LLM Deployment Engine with ML Compilation"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 23116,
+      "forks": 2129,
+      "openIssues": 338,
       "name": "mlc-llm",
       "description": "Universal LLM Deployment Engine with ML Compilation"
     }
@@ -367,6 +399,14 @@
       "openIssues": 1408,
       "name": "TensorRT-LLM",
       "description": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT LLM also contains components to create Python and C++ runtimes that orchestrate the inference execution in a performant way."
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 14514,
+      "forks": 2708,
+      "openIssues": 1413,
+      "name": "TensorRT-LLM",
+      "description": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT LLM also contains components to create Python and C++ runtimes that orchestrate the inference execution in a performant way."
     }
   ],
   "microsoft/DeepSpeed": [
@@ -439,6 +479,14 @@
       "stars": 43026,
       "forks": 4951,
       "openIssues": 1346,
+      "name": "DeepSpeed",
+      "description": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective."
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 43037,
+      "forks": 4954,
+      "openIssues": 1345,
       "name": "DeepSpeed",
       "description": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective."
     }
@@ -515,6 +563,14 @@
       "openIssues": 430,
       "name": "langchain",
       "description": "The agent engineering platform."
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 145335,
+      "forks": 24251,
+      "openIssues": 431,
+      "name": "langchain",
+      "description": "The agent engineering platform."
     }
   ],
   "run-llama/llama_index": [
@@ -587,6 +643,14 @@
       "stars": 51922,
       "forks": 8053,
       "openIssues": 676,
+      "name": "llama_index",
+      "description": "LlamaIndex is the leading document agent and OCR platform"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 51936,
+      "forks": 8056,
+      "openIssues": 675,
       "name": "llama_index",
       "description": "LlamaIndex is the leading document agent and OCR platform"
     }
@@ -663,6 +727,14 @@
       "openIssues": 118,
       "name": "haystack",
       "description": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems."
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 26369,
+      "forks": 3057,
+      "openIssues": 104,
+      "name": "haystack",
+      "description": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems."
     }
   ],
   "microsoft/semantic-kernel": [
@@ -735,6 +807,14 @@
       "stars": 28518,
       "forks": 4747,
       "openIssues": 265,
+      "name": "semantic-kernel",
+      "description": "Integrate cutting-edge LLM technology quickly and easily into your apps"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 28518,
+      "forks": 4751,
+      "openIssues": 267,
       "name": "semantic-kernel",
       "description": "Integrate cutting-edge LLM technology quickly and easily into your apps"
     }
@@ -811,6 +891,14 @@
       "openIssues": 522,
       "name": "AutoGPT",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 187027,
+      "forks": 46045,
+      "openIssues": 524,
+      "name": "AutoGPT",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
     }
   ],
   "crewAIInc/crewAI": [
@@ -883,6 +971,14 @@
       "stars": 57832,
       "forks": 8284,
       "openIssues": 767,
+      "name": "crewAI",
+      "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks."
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 57868,
+      "forks": 8288,
+      "openIssues": 773,
       "name": "crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks."
     }
@@ -959,6 +1055,14 @@
       "openIssues": 999,
       "name": "autogen",
       "description": "A programming framework for agentic AI"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 60717,
+      "forks": 9168,
+      "openIssues": 1004,
+      "name": "autogen",
+      "description": "A programming framework for agentic AI"
     }
   ],
   "langchain-ai/langgraph": [
@@ -1031,6 +1135,14 @@
       "stars": 40719,
       "forks": 6870,
       "openIssues": 728,
+      "name": "langgraph",
+      "description": "Build resilient agents."
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 40776,
+      "forks": 6875,
+      "openIssues": 730,
       "name": "langgraph",
       "description": "Build resilient agents."
     }
@@ -1107,6 +1219,14 @@
       "openIssues": 386,
       "name": "browser-use",
       "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease."
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 111817,
+      "forks": 12272,
+      "openIssues": 384,
+      "name": "browser-use",
+      "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease."
     }
   ],
   "All-Hands-AI/OpenHands": [
@@ -1179,6 +1299,14 @@
       "stars": 85648,
       "forks": 11219,
       "openIssues": 601,
+      "name": "OpenHands",
+      "description": "🙌 OpenHands: AI-Driven Development"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 85739,
+      "forks": 11230,
+      "openIssues": 608,
       "name": "OpenHands",
       "description": "🙌 OpenHands: AI-Driven Development"
     }
@@ -1255,6 +1383,14 @@
       "openIssues": 1317,
       "name": "milvus",
       "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 45902,
+      "forks": 4212,
+      "openIssues": 1299,
+      "name": "milvus",
+      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search"
     }
   ],
   "qdrant/qdrant": [
@@ -1329,6 +1465,14 @@
       "openIssues": 729,
       "name": "qdrant",
       "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 34290,
+      "forks": 2630,
+      "openIssues": 702,
+      "name": "qdrant",
+      "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/"
     }
   ],
   "chroma-core/chroma": [
@@ -1399,6 +1543,14 @@
     {
       "date": "2026-08-30",
       "stars": 29182,
+      "forks": 2473,
+      "openIssues": 818,
+      "name": "chroma",
+      "description": "Search infrastructure for AI"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 29191,
       "forks": 2473,
       "openIssues": 818,
       "name": "chroma",
@@ -1477,6 +1629,14 @@
       "openIssues": 692,
       "name": "weaviate",
       "description": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​."
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 16768,
+      "forks": 1383,
+      "openIssues": 694,
+      "name": "weaviate",
+      "description": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​."
     }
   ],
   "pgvector/pgvector": [
@@ -1548,6 +1708,14 @@
       "date": "2026-08-30",
       "stars": 22824,
       "forks": 1304,
+      "openIssues": 14,
+      "name": "pgvector",
+      "description": "Open-source vector similarity search for Postgres"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 22835,
+      "forks": 1305,
       "openIssues": 14,
       "name": "pgvector",
       "description": "Open-source vector similarity search for Postgres"
@@ -1625,6 +1793,14 @@
       "openIssues": 551,
       "name": "promptfoo",
       "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic."
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 24693,
+      "forks": 2251,
+      "openIssues": 562,
+      "name": "promptfoo",
+      "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic."
     }
   ],
   "guidance-ai/guidance": [
@@ -1694,6 +1870,14 @@
     },
     {
       "date": "2026-08-30",
+      "stars": 21728,
+      "forks": 1203,
+      "openIssues": 323,
+      "name": "guidance",
+      "description": "A guidance language for controlling large language models."
+    },
+    {
+      "date": "2026-08-31",
       "stars": 21728,
       "forks": 1203,
       "openIssues": 323,
@@ -1773,6 +1957,14 @@
       "openIssues": 579,
       "name": "ragas",
       "description": "Supercharge Your LLM Application Evaluations 🚀"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 15559,
+      "forks": 1664,
+      "openIssues": 579,
+      "name": "ragas",
+      "description": "Supercharge Your LLM Application Evaluations 🚀"
     }
   ],
   "langfuse/langfuse": [
@@ -1844,6 +2036,14 @@
       "date": "2026-08-30",
       "stars": 33932,
       "forks": 3666,
+      "openIssues": 862,
+      "name": "langfuse",
+      "description": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 "
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 33971,
+      "forks": 3668,
       "openIssues": 862,
       "name": "langfuse",
       "description": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 "
@@ -1921,6 +2121,14 @@
       "openIssues": 4901,
       "name": "litellm",
       "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 57662,
+      "forks": 11039,
+      "openIssues": 4913,
+      "name": "litellm",
+      "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]"
     }
   ],
   "Helicone/helicone": [
@@ -1993,6 +2201,14 @@
       "stars": 6115,
       "forks": 661,
       "openIssues": 155,
+      "name": "helicone",
+      "description": "🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 6117,
+      "forks": 661,
+      "openIssues": 156,
       "name": "helicone",
       "description": "🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓"
     }
@@ -2069,6 +2285,14 @@
       "openIssues": 515,
       "name": "servers",
       "description": "Model Context Protocol Servers"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 89986,
+      "forks": 11534,
+      "openIssues": 516,
+      "name": "servers",
+      "description": "Model Context Protocol Servers"
     }
   ],
   "modelcontextprotocol/python-sdk": [
@@ -2140,6 +2364,14 @@
       "date": "2026-08-30",
       "stars": 24161,
       "forks": 3848,
+      "openIssues": 391,
+      "name": "python-sdk",
+      "description": "The official Python SDK for Model Context Protocol servers and clients"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 24168,
+      "forks": 3851,
       "openIssues": 391,
       "name": "python-sdk",
       "description": "The official Python SDK for Model Context Protocol servers and clients"
@@ -2217,6 +2449,14 @@
       "openIssues": 944,
       "name": "continue",
       "description": "open-source coding agent"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 35710,
+      "forks": 5312,
+      "openIssues": 944,
+      "name": "continue",
+      "description": "open-source coding agent"
     }
   ],
   "Aider-AI/aider": [
@@ -2289,6 +2529,14 @@
       "stars": 48606,
       "forks": 4901,
       "openIssues": 1838,
+      "name": "aider",
+      "description": "aider is AI pair programming in your terminal"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 48622,
+      "forks": 4906,
+      "openIssues": 1839,
       "name": "aider",
       "description": "aider is AI pair programming in your terminal"
     }
@@ -2365,6 +2613,14 @@
       "openIssues": 1151,
       "name": "cline",
       "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant."
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 67217,
+      "forks": 7258,
+      "openIssues": 1158,
+      "name": "cline",
+      "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant."
     }
   ],
   "block/goose": [
@@ -2437,6 +2693,14 @@
       "stars": 53699,
       "forks": 6150,
       "openIssues": 232,
+      "name": "goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 53733,
+      "forks": 6155,
+      "openIssues": 240,
       "name": "goose",
       "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM"
     }
@@ -2513,6 +2777,14 @@
       "openIssues": 5749,
       "name": "openclaw",
       "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 "
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 388191,
+      "forks": 81494,
+      "openIssues": 5832,
+      "name": "openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 "
     }
   ],
   "NousResearch/hermes-agent": [
@@ -2585,6 +2857,14 @@
       "stars": 238430,
       "forks": 48534,
       "openIssues": 37770,
+      "name": "hermes-agent",
+      "description": "The agent that grows with you"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 238760,
+      "forks": 48665,
+      "openIssues": 38221,
       "name": "hermes-agent",
       "description": "The agent that grows with you"
     }
@@ -2661,6 +2941,14 @@
       "openIssues": 337,
       "name": "superpowers",
       "description": "An agentic skills framework & software development methodology that works."
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 279891,
+      "forks": 25087,
+      "openIssues": 343,
+      "name": "superpowers",
+      "description": "An agentic skills framework & software development methodology that works."
     }
   ],
   "meta-llama/llama": [
@@ -2735,6 +3023,14 @@
       "openIssues": 531,
       "name": "llama",
       "description": "Inference code for Llama models"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 59585,
+      "forks": 9786,
+      "openIssues": 531,
+      "name": "llama",
+      "description": "Inference code for Llama models"
     }
   ],
   "mistralai/mistral-inference": [
@@ -2804,6 +3100,14 @@
     },
     {
       "date": "2026-08-30",
+      "stars": 10831,
+      "forks": 1059,
+      "openIssues": 1,
+      "name": "mistral-inference",
+      "description": "Official inference library for Mistral models"
+    },
+    {
+      "date": "2026-08-31",
       "stars": 10831,
       "forks": 1059,
       "openIssues": 1,
@@ -2883,6 +3187,14 @@
       "openIssues": 324,
       "name": "text-generation-inference",
       "description": "Large Language Model Text Generation Inference"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 10889,
+      "forks": 1283,
+      "openIssues": 324,
+      "name": "text-generation-inference",
+      "description": "Large Language Model Text Generation Inference"
     }
   ],
   "open-webui/open-webui": [
@@ -2955,6 +3267,14 @@
       "stars": 150419,
       "forks": 21957,
       "openIssues": 233,
+      "name": "open-webui",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 150483,
+      "forks": 21969,
+      "openIssues": 201,
       "name": "open-webui",
       "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
     }
@@ -3031,6 +3351,14 @@
       "openIssues": 172,
       "name": "LocalAI",
       "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required."
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 48780,
+      "forks": 4401,
+      "openIssues": 182,
+      "name": "LocalAI",
+      "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required."
     }
   ],
   "oobabooga/text-generation-webui": [
@@ -3105,6 +3433,14 @@
       "openIssues": 840,
       "name": "textgen",
       "description": "Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API. 100% private."
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 47597,
+      "forks": 5982,
+      "openIssues": 840,
+      "name": "textgen",
+      "description": "Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API. 100% private."
     }
   ],
   "nomic-ai/gpt4all": [
@@ -3174,6 +3510,14 @@
     },
     {
       "date": "2026-08-30",
+      "stars": 77390,
+      "forks": 8294,
+      "openIssues": 772,
+      "name": "gpt4all",
+      "description": "GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use."
+    },
+    {
+      "date": "2026-08-31",
       "stars": 77390,
       "forks": 8294,
       "openIssues": 772,
@@ -3253,6 +3597,14 @@
       "openIssues": 4,
       "name": "private-gpt",
       "description": "Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more. Works with any OpenAI-compatible inference server."
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 57491,
+      "forks": 7609,
+      "openIssues": 6,
+      "name": "private-gpt",
+      "description": "Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more. Works with any OpenAI-compatible inference server."
     }
   ],
   "FlowiseAI/Flowise": [
@@ -3324,6 +3676,14 @@
       "date": "2026-08-30",
       "stars": 55398,
       "forks": 24968,
+      "openIssues": 1046,
+      "name": "Flowise",
+      "description": "Build AI Agents, Visually"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 55399,
+      "forks": 24969,
       "openIssues": 1046,
       "name": "Flowise",
       "description": "Build AI Agents, Visually"
@@ -3401,6 +3761,14 @@
       "openIssues": 998,
       "name": "dify",
       "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack."
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 153988,
+      "forks": 24327,
+      "openIssues": 1000,
+      "name": "dify",
+      "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack."
     }
   ],
   "CompVis/stable-diffusion": [
@@ -3472,6 +3840,14 @@
       "date": "2026-08-30",
       "stars": 73361,
       "forks": 10570,
+      "openIssues": 618,
+      "name": "stable-diffusion",
+      "description": "A latent text-to-image diffusion model"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 73361,
+      "forks": 10571,
       "openIssues": 618,
       "name": "stable-diffusion",
       "description": "A latent text-to-image diffusion model"
@@ -3549,6 +3925,14 @@
       "openIssues": 4756,
       "name": "ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface."
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 130851,
+      "forks": 15416,
+      "openIssues": 4762,
+      "name": "ComfyUI",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface."
     }
   ],
   "suno-ai/bark": [
@@ -3623,6 +4007,14 @@
       "openIssues": 268,
       "name": "bark",
       "description": "🔊 Text-Prompted Generative Audio Model"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 39260,
+      "forks": 4668,
+      "openIssues": 268,
+      "name": "bark",
+      "description": "🔊 Text-Prompted Generative Audio Model"
     }
   ],
   "coqui-ai/TTS": [
@@ -3693,6 +4085,14 @@
     {
       "date": "2026-08-30",
       "stars": 45970,
+      "forks": 6146,
+      "openIssues": 2,
+      "name": "TTS",
+      "description": "🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 45972,
       "forks": 6146,
       "openIssues": 2,
       "name": "TTS",
@@ -3771,6 +4171,14 @@
       "openIssues": 137,
       "name": "whisper",
       "description": "Robust Speech Recognition via Large-Scale Weak Supervision"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 108194,
+      "forks": 13120,
+      "openIssues": 137,
+      "name": "whisper",
+      "description": "Robust Speech Recognition via Large-Scale Weak Supervision"
     }
   ],
   "bentoml/BentoML": [
@@ -3843,6 +4251,14 @@
       "stars": 8812,
       "forks": 1019,
       "openIssues": 210,
+      "name": "BentoML",
+      "description": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 8814,
+      "forks": 1020,
+      "openIssues": 212,
       "name": "BentoML",
       "description": "The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!"
     }
@@ -3919,6 +4335,14 @@
       "openIssues": 888,
       "name": "server",
       "description": "The Triton Inference Server provides an optimized cloud and edge inferencing solution. "
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 10952,
+      "forks": 1832,
+      "openIssues": 887,
+      "name": "server",
+      "description": "The Triton Inference Server provides an optimized cloud and edge inferencing solution. "
     }
   ],
   "f/prompts.chat": [
@@ -3942,6 +4366,14 @@
       "date": "2026-08-30",
       "stars": 168210,
       "forks": 21685,
+      "openIssues": 70,
+      "name": "prompts.chat",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy."
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 168303,
+      "forks": 21697,
       "openIssues": 70,
       "name": "prompts.chat",
       "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy."
@@ -3971,6 +4403,14 @@
       "openIssues": 15,
       "name": "MoneyPrinterTurbo",
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow."
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 118976,
+      "forks": 18198,
+      "openIssues": 14,
+      "name": "MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow."
     }
   ],
   "rasbt/LLMs-from-scratch": [
@@ -3997,6 +4437,14 @@
       "openIssues": 2,
       "name": "LLMs-from-scratch",
       "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 104110,
+      "forks": 15942,
+      "openIssues": 2,
+      "name": "LLMs-from-scratch",
+      "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step"
     }
   ],
   "oramasearch/orama": [
@@ -4015,6 +4463,14 @@
     {
       "date": "2026-08-30",
       "stars": 10538,
+      "forks": 400,
+      "openIssues": 21,
+      "name": "orama",
+      "description": "🌌  A complete search engine and RAG pipeline in your browser, server or edge network with support for full-text, vector, and hybrid search in less than 2kb."
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 10539,
       "forks": 400,
       "openIssues": 21,
       "name": "orama",
@@ -4041,6 +4497,14 @@
       "openIssues": 66,
       "name": "deeplake",
       "description": "Deeplake is AI Data Runtime for Agents. It provides serverless postgres with a multimodal datalake, enabling scalable retrieval and training."
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 9228,
+      "forks": 724,
+      "openIssues": 66,
+      "name": "deeplake",
+      "description": "Deeplake is AI Data Runtime for Agents. It provides serverless postgres with a multimodal datalake, enabling scalable retrieval and training."
     }
   ],
   "paradedb/paradedb": [
@@ -4063,6 +4527,14 @@
       "openIssues": 194,
       "name": "paradedb",
       "description": "One Postgres for your application data, full-text search, vector retrieval, and aggregations. Home of the pg_search extension."
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 9215,
+      "forks": 445,
+      "openIssues": 197,
+      "name": "paradedb",
+      "description": "One Postgres for your application data, full-text search, vector retrieval, and aggregations. Home of the pg_search extension."
     }
   ],
   "ggml-org/llama.cpp": [
@@ -4079,6 +4551,14 @@
       "stars": 126381,
       "forks": 22487,
       "openIssues": 2306,
+      "name": "llama.cpp",
+      "description": "LLM inference in C/C++"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 126481,
+      "forks": 22531,
+      "openIssues": 2317,
       "name": "llama.cpp",
       "description": "LLM inference in C/C++"
     }
@@ -4099,6 +4579,14 @@
       "openIssues": 142,
       "name": "modelcontextprotocol",
       "description": "Specification and documentation for the Model Context Protocol"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 9089,
+      "forks": 1763,
+      "openIssues": 140,
+      "name": "modelcontextprotocol",
+      "description": "Specification and documentation for the Model Context Protocol"
     }
   ],
   "ggml-org/whisper.cpp": [
@@ -4115,6 +4603,14 @@
       "stars": 53299,
       "forks": 6116,
       "openIssues": 1239,
+      "name": "whisper.cpp",
+      "description": "Port of OpenAI's Whisper model in C/C++"
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 53324,
+      "forks": 6123,
+      "openIssues": 1237,
       "name": "whisper.cpp",
       "description": "Port of OpenAI's Whisper model in C/C++"
     }

@@ -5,6 +5,9 @@ to pull from, not a commitment or a schedule. Sections and items are
 ordered most-impactful-first; completed items move to Shipped at the end
 instead of cluttering the top.
 
+See [`MVP.md`](MVP.md) for the current curated, priority-ordered shortlist
+pulled from this backlog — the commitment-shaped subset of the ideas below.
+
 ## Positioning & discovery experience
 
 Added from an external first-time-user review of the live site received
@@ -80,12 +83,9 @@ see Shipped, at the end of this file.
 - [ ] Site-wide copy pass toward heat/momentum/discovery language, e.g.
       "🔥 What's heating up" instead of "Rising stars," "🗺 Explore the
       ecosystems" instead of "Explore the maps." Low-effort, and ties
-      together every item above into one consistent voice.
-- [ ] Project comparison view (e.g. picking 2-4 projects from search
-      results, or a `/compare/?ids=…` URL) showing stars, 7/30/90d growth,
-      momentum tier, and ecosystem side by side. No existing scaffolding —
-      a new surface. Flagged by the reviewer as the feature most likely to
-      turn a 30-second visit into a 10-minute one.
+      together every item above into one consistent voice. `MVP.md` item
+      #4 (renaming "Today's signals" to "This week's signals") is the
+      first slice of this.
 - [ ] Longer-term: personalized tracking — "follow" a domain/category/tag
       and get a "N things changed since your last visit" digest. No
       accounts or persistence exist today; sequence this after search and
@@ -142,15 +142,6 @@ was left after checking against the actual code: the site's momentum
 signal is real but built on stars alone, and has no visible reliability
 net if the daily jobs that feed it go quiet.
 
-- [ ] Track more than stars per daily snapshot. `appendSnapshotEntry`
-      (`scripts/snapshot-history.mjs`) records only `{date, stars}` per
-      project per day — forks and open-issue counts are already sitting
-      unused in the same GitHub API response `enrich-domain.mjs` calls for
-      `stargazers_count`/`topics` (`repoData.forks_count`,
-      `repoData.open_issues_count`), so capturing them alongside stars is
-      close to free. A star spike corroborated by fork/contributor
-      movement reads very differently from one that isn't — right now the
-      site can't tell the two apart.
 - [ ] Statistical anomaly detection, not just sign-based sustained/spike.
       `computeSustained` (`scripts/signal.mjs`) only checks whether growth
       is positive in every window — it can't say "this is 3× this
@@ -159,7 +150,10 @@ net if the daily jobs that feed it go quiet.
       window's delta to the project's own prior-window baseline (not just
       its category's, which `computeRelativeMultiple` already does) would
       sharpen the "why is this rising" headline beyond today's two-state
-      verdict.
+      verdict. Forks/open-issues history is now captured (see Shipped)
+      but not yet fed into this — a star spike corroborated by fork
+      movement should read differently from one that isn't, and today the
+      signal still can't tell the two apart.
 - [ ] A single normalized momentum score (e.g. "Momentum 92 🔥") to
       complement `explainSignal`'s sustained/spike + relative-multiple
       narrative — something a reader can compare across projects at a
@@ -209,7 +203,7 @@ net if the daily jobs that feed it go quiet.
       either to just point at a repo they like. A short template (repo
       URL, target map, why) can feed the same "🔍 Discovery review" issue
       a maintainer already triages, reusing existing review muscle instead
-      of adding a new one.
+      of adding a new one. `MVP.md` item #2.
 - [ ] Publish an explicit roadmap or a pinned "vote on the next domain"
       issue — the README has said "More domains are on the way" for a
       while with no visible mechanism for visitors to weigh in.
@@ -219,6 +213,32 @@ net if the daily jobs that feed it go quiet.
 
 ## Shipped
 
+- [x] Project comparison view (`/compare/?id=…`), picking 2-4 projects and
+      seeing stars, 7/30/90d growth, momentum signal, forks, and open
+      issues side by side, plus a cross-page "+ Compare" cart
+      (`app/shared/compare-cart.js`) that persists the selection across
+      navigation via localStorage. Flagged by an external reviewer as the
+      feature most likely to turn a 30-second visit into a 10-minute one —
+      see `docs/superpowers/specs/2026-08-30-compare-view-design.md`.
+      _Done 2026-08-31: `scripts/compare-index.mjs` builds the static
+      `dist/compare-index.json` artifact, `app/shared/compare.js` renders
+      the table client-side, and the compare-cart wiring adds "+ Compare"
+      toggle buttons to the detail panel, project pages, and Rising/tag
+      rows. Extending the toggle to every remaining list surface and
+      reworking the table into a true row-aligned layout are now tracked
+      as `MVP.md` items #3 and #7._
+- [x] Track more than stars per daily snapshot. `buildSnapshotEntry`
+      (`scripts/snapshot-history.mjs`) now records `forks` and
+      `openIssues` (plus GitHub's own `name`/`description`, for drift
+      detection) alongside `stars` in every day's snapshot, riding along
+      free on the same GitHub API response `enrich-domain.mjs` already
+      fetches.
+      _Done 2026-08-30. Currently consumed by the compare view only
+      (`compare.js`'s "Forks"/"Open issues" rows); surfacing the same
+      stats on the individual project page is `MVP.md` item #8, and
+      feeding them into the momentum signal itself (a spike corroborated
+      by fork/contributor movement) remains the separate "statistical
+      anomaly detection" item below, still unbuilt._
 - [x] Rewrite the homepage hero around outcome/discovery, paired with a
       "today's signals" teaser (biggest single-project mover, a heating-up
       ecosystem, a small high-acceleration project to watch) ahead of the

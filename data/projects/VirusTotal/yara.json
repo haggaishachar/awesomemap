@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "VirusTotal/yara",
+  "link": "https://virustotal.github.io/yara/",
+  "name": "YARA",
+  "desc": "Pattern-matching tool for identifying and classifying malware",
+  "githubName": "yara",
+  "githubDescription": "The pattern matching swiss knife",
+  "weight": 9828,
+  "image": "https://avatars.githubusercontent.com/u/7701252?v=4",
+  "tags": [],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 9813
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 9816
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 9817
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 9819
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 9822
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 9826
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 9833
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 9836
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 9837
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 9841,
+      "forks": 1586,
+      "openIssues": 170
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 9844,
+      "forks": 1586,
+      "openIssues": 170
+    }
+  ]
+}

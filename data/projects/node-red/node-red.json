@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "node-red/node-red",
+  "link": "http://nodered.org",
+  "name": "Node-RED",
+  "desc": "Low-code, flow-based programming tool for wiring together APIs and devices",
+  "githubName": "node-red",
+  "githubDescription": "Low-code programming for event-driven applications",
+  "weight": 23584,
+  "image": "https://avatars.githubusercontent.com/u/5375661?v=4",
+  "tags": [
+    "flow-based-programming",
+    "javascript",
+    "low-code",
+    "node-red",
+    "openjs-foundation",
+    "visual-programming"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 23559
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 23567
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 23568
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 23571
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 23575
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 23584
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 23592
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 23595
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 23597
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 23599,
+      "forks": 3882,
+      "openIssues": 324
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 23602,
+      "forks": 3883,
+      "openIssues": 325
+    }
+  ]
+}

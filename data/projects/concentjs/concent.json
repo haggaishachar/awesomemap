@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "concentjs/concent",
+  "link": "https://github.com/concentjs/concent",
+  "name": "concent",
+  "desc": "A reactive atomic state engine for React(including React 18) and all React like, carrying dependency collection feature, supporting fine-grained updates.",
+  "githubName": null,
+  "githubDescription": null,
+  "weight": 1388,
+  "image": "https://avatars.githubusercontent.com/u/139111050?v=4",
+  "tags": [
+    "atom",
+    "better-redux",
+    "better-than-recoil",
+    "concent",
+    "dependency-collection",
+    "fine-grained-responsive-updates",
+    "helux",
+    "high-performance",
+    "immutable",
+    "mutable",
+    "proxy",
+    "react",
+    "reactive",
+    "replace-recoil",
+    "signal",
+    "state",
+    "state-management"
+  ],
+  "history": []
+}

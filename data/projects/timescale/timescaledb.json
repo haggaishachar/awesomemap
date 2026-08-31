@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "timescale/timescaledb",
+  "link": "https://www.timescale.com/",
+  "name": "TimescaleDB",
+  "desc": "Open-source time-series database built on PostgreSQL",
+  "githubName": "timescaledb",
+  "githubDescription": "A time-series database for high-performance real-time analytics packaged as a Postgres extension",
+  "weight": 23418,
+  "image": "https://avatars.githubusercontent.com/u/8986001?v=4",
+  "tags": [
+    "analytics",
+    "database",
+    "financial-analysis",
+    "historian",
+    "iot",
+    "postgres",
+    "postgresql",
+    "sql",
+    "tigerdata",
+    "time-series",
+    "time-series-database",
+    "timescaledb",
+    "tsdb"
+  ],
+  "history": [
+    {
+      "date": "2026-08-13",
+      "stars": 23319
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 23324
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 23333
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 23334
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 23334
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 23342
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 23348
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 23374
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 23386
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 23396
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 23402
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 23403
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 23406
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 23418
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 23429
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 23437
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 23438
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 23445,
+      "forks": 1141,
+      "openIssues": 398
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 23450,
+      "forks": 1141,
+      "openIssues": 396
+    }
+  ]
+}

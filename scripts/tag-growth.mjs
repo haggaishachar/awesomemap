@@ -108,13 +108,13 @@ export function computeTopTags(tagGroups, { limit } = {}) {
  * `starDelta > 0`, the same rule `leaderboard.mjs` applies so a list
  * called "Rising" never shows a flat or shrinking entry.
  */
-export function computeRisingTags(tagGroups, historyById, windowDays, { limit, now } = {}) {
+export function computeRisingTags(tagGroups, windowDays, { limit, now } = {}) {
   const groups = tagGroups.map(({ tag, projects }) => ({
     key: tag,
     tag,
     projectCount: projects.length,
     totalStars: projects.reduce((sum, project) => sum + (typeof project.weight === "number" ? project.weight : 0), 0),
-    growth: computeGroupGrowth(projects, historyById, windowDays, { now }),
+    growth: computeGroupGrowth(projects, windowDays, { now }),
   }));
   const eligible = groups.filter(
     (group) => group.growth.hasEnoughHistory && group.growth.starDelta > 0 && group.growth.trackedCount >= MIN_TRACKED_PROJECTS_FOR_RISING

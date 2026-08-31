@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "id": "wireshark/wireshark",
+  "link": "https://www.wireshark.org",
+  "name": "Wireshark",
+  "desc": "Network protocol analyzer for capturing and inspecting traffic",
+  "githubName": "wireshark",
+  "githubDescription": "Read-only mirror of Wireshark's Git repository at https://gitlab.com/wireshark/wireshark. You're welcome to submit pull requests there.",
+  "weight": 9780,
+  "image": "https://avatars.githubusercontent.com/u/6233056?v=4",
+  "tags": [
+    "packet-capture",
+    "stratoshark",
+    "tshark",
+    "wireshark"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 9744
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 9756
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 9759
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 9766
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 9774
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 9780
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 9786
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 9791
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 9793
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 9797,
+      "forks": 2201,
+      "openIssues": 2
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 9799,
+      "forks": 2201,
+      "openIssues": 2
+    }
+  ]
+}

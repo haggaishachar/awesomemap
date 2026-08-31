@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "slug": "automation",
+  "name": "Best Automation & No-Code Open Source Projects",
+  "shortName": "Automation",
+  "description": "Workflow automation, RPA, no-code app builders, and business process tooling.",
+  "projects": [
+    {
+      "id": "n8n-io/n8n",
+      "path": [
+        "Workflow Automation"
+      ]
+    },
+    {
+      "id": "node-red/node-red",
+      "path": [
+        "Workflow Automation"
+      ]
+    },
+    {
+      "id": "activepieces/activepieces",
+      "path": [
+        "Workflow Automation"
+      ]
+    },
+    {
+      "id": "automatisch/automatisch",
+      "path": [
+        "Workflow Automation"
+      ]
+    },
+    {
+      "id": "windmill-labs/windmill",
+      "path": [
+        "Workflow Automation"
+      ]
+    },
+    {
+      "id": "huginn/huginn",
+      "path": [
+        "Workflow Automation"
+      ]
+    },
+    {
+      "id": "apache/airflow",
+      "path": [
+        "Workflow Automation"
+      ]
+    },
+    {
+      "id": "temporalio/temporal",
+      "path": [
+        "Job Orchestration & Scheduling"
+      ]
+    },
+    {
+      "id": "PrefectHQ/prefect",
+      "path": [
+        "Job Orchestration & Scheduling"
+      ]
+    },
+    {
+      "id": "dagster-io/dagster",
+      "path": [
+        "Job Orchestration & Scheduling"
+      ]
+    },
+    {
+      "id": "Netflix/conductor",
+      "path": [
+        "Job Orchestration & Scheduling"
+      ]
+    },
+    {
+      "id": "cadence-workflow/cadence",
+      "path": [
+        "Job Orchestration & Scheduling"
+      ]
+    },
+    {
+      "id": "kestra-io/kestra",
+      "path": [
+        "Job Orchestration & Scheduling"
+      ]
+    },
+    {
+      "id": "rundeck/rundeck",
+      "path": [
+        "Job Orchestration & Scheduling"
+      ]
+    },
+    {
+      "id": "healthchecks/healthchecks",
+      "path": [
+        "Job Orchestration & Scheduling"
+      ]
+    },
+    {
+      "id": "open-rpa/openrpa",
+      "path": [
+        "RPA & Browser Automation"
+      ]
+    },
+    {
+      "id": "aisingapore/TagUI",
+      "path": [
+        "RPA & Browser Automation"
+      ]
+    },
+    {
+      "id": "robocorp/rpaframework",
+      "path": [
+        "RPA & Browser Automation"
+      ]
+    },
+    {
+      "id": "SeleniumHQ/selenium",
+      "path": [
+        "RPA & Browser Automation"
+      ]
+    },
+    {
+      "id": "robotframework/robotframework",
+      "path": [
+        "RPA & Browser Automation"
+      ]
+    },
+    {
+      "id": "scrapy/scrapy",
+      "path": [
+        "Web Scraping & Data Extraction"
+      ]
+    },
+    {
+      "id": "apify/crawlee",
+      "path": [
+        "Web Scraping & Data Extraction"
+      ]
+    },
+    {
+      "id": "unclecode/crawl4ai",
+      "path": [
+        "Web Scraping & Data Extraction"
+      ]
+    },
+    {
+      "id": "puppeteer/puppeteer",
+      "path": [
+        "Web Scraping & Data Extraction"
+      ]
+    },
+    {
+      "id": "Unstructured-IO/unstructured",
+      "path": [
+        "Web Scraping & Data Extraction"
+      ]
+    },
+    {
+      "id": "microsoft/markitdown",
+      "path": [
+        "Web Scraping & Data Extraction"
+      ]
+    },
+    {
+      "id": "appsmithorg/appsmith",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ]
+    },
+    {
+      "id": "ToolJet/ToolJet",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ]
+    },
+    {
+      "id": "Budibase/budibase",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ]
+    },
+    {
+      "id": "nocodb/nocodb",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ]
+    },
+    {
+      "id": "baserow/baserow",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ]
+    },
+    {
+      "id": "illacloud/illa-builder",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ]
+    },
+    {
+      "id": "nocobase/nocobase",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ]
+    },
+    {
+      "id": "strapi/strapi",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ]
+    },
+    {
+      "id": "directus/directus",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ]
+    },
+    {
+      "id": "odoo/odoo",
+      "path": [
+        "Business Process, ERP & Finance"
+      ]
+    },
+    {
+      "id": "frappe/erpnext",
+      "path": [
+        "Business Process, ERP & Finance"
+      ]
+    },
+    {
+      "id": "camunda/camunda",
+      "path": [
+        "Business Process, ERP & Finance"
+      ]
+    },
+    {
+      "id": "twentyhq/twenty",
+      "path": [
+        "Business Process, ERP & Finance"
+      ]
+    },
+    {
+      "id": "documenso/documenso",
+      "path": [
+        "Business Process, ERP & Finance"
+      ]
+    },
+    {
+      "id": "formbricks/formbricks",
+      "path": [
+        "Business Process, ERP & Finance"
+      ]
+    },
+    {
+      "id": "invoiceninja/invoiceninja",
+      "path": [
+        "Business Process, ERP & Finance"
+      ]
+    },
+    {
+      "id": "airbytehq/airbyte",
+      "path": [
+        "Data & Notification Integration"
+      ]
+    },
+    {
+      "id": "dlt-hub/dlt",
+      "path": [
+        "Data & Notification Integration"
+      ]
+    },
+    {
+      "id": "novuhq/novu",
+      "path": [
+        "Data & Notification Integration"
+      ]
+    },
+    {
+      "id": "binwiederhier/ntfy",
+      "path": [
+        "Data & Notification Integration"
+      ]
+    },
+    {
+      "id": "mautic/mautic",
+      "path": [
+        "Marketing & Email Automation"
+      ]
+    },
+    {
+      "id": "knadh/listmonk",
+      "path": [
+        "Marketing & Email Automation"
+      ]
+    },
+    {
+      "id": "conductor-oss/conductor",
+      "path": [
+        "Workflow Automation"
+      ]
+    },
+    {
+      "id": "GrapesJS/grapesjs",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ]
+    },
+    {
+      "id": "teableio/teable",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ]
+    },
+    {
+      "id": "browser-use/workflow-use",
+      "path": [
+        "RPA & Browser Automation"
+      ]
+    },
+    {
+      "id": "OpenAdaptAI/OpenAdapt",
+      "path": [
+        "RPA & Browser Automation"
+      ]
+    },
+    {
+      "id": "refinedev/refine",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ]
+    },
+    {
+      "id": "browser-act/skills",
+      "path": [
+        "RPA & Browser Automation"
+      ]
+    }
+  ]
+}

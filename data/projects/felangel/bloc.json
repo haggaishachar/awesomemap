@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "felangel/bloc",
+  "link": "https://bloclibrary.dev/",
+  "name": "Bloc",
+  "desc": "A predictable state management library implementing the BLoC pattern for Flutter and Dart",
+  "githubName": "bloc",
+  "githubDescription": "A predictable state management library that helps implement the BLoC design pattern",
+  "weight": 12484,
+  "image": null,
+  "tags": [
+    "angulardart",
+    "bloc",
+    "concurrency",
+    "dart",
+    "dart-library",
+    "dart-web",
+    "dartlang",
+    "flutter",
+    "flutter-package",
+    "library",
+    "state-management"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 12483
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 12482
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 12482
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 12483
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 12483
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 12481
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 12481
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 12481
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 12481
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 12485
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 12485
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 12484
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 12483
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 12483
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 12483
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 12484
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 12484
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 12483
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 12484
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 12483
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 12483
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 12483
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 12482,
+      "forks": 3420,
+      "openIssues": 84
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 12481,
+      "forks": 3421,
+      "openIssues": 85
+    }
+  ]
+}

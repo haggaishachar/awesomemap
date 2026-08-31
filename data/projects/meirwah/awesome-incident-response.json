@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "meirwah/awesome-incident-response",
+  "link": "https://github.com/meirwah/awesome-incident-response",
+  "name": "awesome-incident-response",
+  "desc": "A curated list of tools for incident response",
+  "githubName": "awesome-incident-response",
+  "githubDescription": "A curated list of tools for incident response",
+  "weight": 9361,
+  "image": null,
+  "tags": [
+    "awesome",
+    "awesome-list",
+    "cybersecurity",
+    "dfir",
+    "incident-response",
+    "incident-response-tooling",
+    "list",
+    "security"
+  ],
+  "history": [
+    {
+      "date": "2026-08-30",
+      "stars": 9361,
+      "forks": 1737,
+      "openIssues": 76
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 9363,
+      "forks": 1737,
+      "openIssues": 76
+    }
+  ]
+}

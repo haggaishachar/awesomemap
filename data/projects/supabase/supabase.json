@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "supabase/supabase",
+  "link": "https://supabase.com/",
+  "name": "Supabase",
+  "desc": "The open source Firebase alternative: Postgres database, auth, storage, and realtime for web and mobile apps",
+  "githubName": "supabase",
+  "githubDescription": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+  "weight": 108418,
+  "image": "https://avatars.githubusercontent.com/u/54469796?v=4",
+  "tags": [
+    "ai",
+    "alternative",
+    "auth",
+    "database",
+    "deno",
+    "embeddings",
+    "example",
+    "firebase",
+    "nextjs",
+    "oauth2",
+    "pgvector",
+    "postgis",
+    "postgres",
+    "postgresql",
+    "postgrest",
+    "realtime",
+    "supabase",
+    "vectors",
+    "websockets"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 107685
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 107713
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 107765
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 107812
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 107867
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 107954
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 107975
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 108002
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 108035
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 108072
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 108110
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 108148
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 108186
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 108222
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 108253
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 108288
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 108332
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 108368
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 108417
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 108487
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 108530
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 108559
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 108612,
+      "forks": 13676,
+      "openIssues": 1076
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 108637,
+      "forks": 13684,
+      "openIssues": 1081
+    }
+  ]
+}

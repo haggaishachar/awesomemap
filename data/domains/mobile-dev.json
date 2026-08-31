@@ -1,0 +1,375 @@
+{
+  "schemaVersion": 1,
+  "slug": "mobile-dev",
+  "name": "Best Mobile Development Open Source Projects",
+  "shortName": "Mobile Dev",
+  "description": "Cross-platform frameworks, native tooling, testing, state management, and more.",
+  "projects": [
+    {
+      "id": "react/react-native",
+      "path": [
+        "Cross-Platform Frameworks"
+      ]
+    },
+    {
+      "id": "flutter/flutter",
+      "path": [
+        "Cross-Platform Frameworks"
+      ]
+    },
+    {
+      "id": "ionic-team/ionic-framework",
+      "path": [
+        "Cross-Platform Frameworks"
+      ]
+    },
+    {
+      "id": "ionic-team/capacitor",
+      "path": [
+        "Cross-Platform Frameworks"
+      ]
+    },
+    {
+      "id": "NativeScript/NativeScript",
+      "path": [
+        "Cross-Platform Frameworks"
+      ]
+    },
+    {
+      "id": "tauri-apps/tauri",
+      "path": [
+        "Cross-Platform Frameworks"
+      ]
+    },
+    {
+      "id": "lysine-dev/retrofit",
+      "path": [
+        "Native Android Libraries"
+      ]
+    },
+    {
+      "id": "lysine-dev/okhttp",
+      "path": [
+        "Native Android Libraries"
+      ]
+    },
+    {
+      "id": "bumptech/glide",
+      "path": [
+        "Native Android Libraries"
+      ]
+    },
+    {
+      "id": "coil-kt/coil",
+      "path": [
+        "Native Android Libraries"
+      ]
+    },
+    {
+      "id": "google/dagger",
+      "path": [
+        "Native Android Libraries"
+      ]
+    },
+    {
+      "id": "square/leakcanary",
+      "path": [
+        "Native Android Libraries"
+      ]
+    },
+    {
+      "id": "Alamofire/Alamofire",
+      "path": [
+        "Native iOS Libraries"
+      ]
+    },
+    {
+      "id": "onevcat/Kingfisher",
+      "path": [
+        "Native iOS Libraries"
+      ]
+    },
+    {
+      "id": "SDWebImage/SDWebImage",
+      "path": [
+        "Native iOS Libraries"
+      ]
+    },
+    {
+      "id": "ReactiveX/RxSwift",
+      "path": [
+        "Native iOS Libraries"
+      ]
+    },
+    {
+      "id": "Swinject/Swinject",
+      "path": [
+        "Native iOS Libraries"
+      ]
+    },
+    {
+      "id": "supabase/supabase",
+      "path": [
+        "Backend-as-a-Service"
+      ]
+    },
+    {
+      "id": "appwrite/appwrite",
+      "path": [
+        "Backend-as-a-Service"
+      ]
+    },
+    {
+      "id": "parse-community/parse-server",
+      "path": [
+        "Backend-as-a-Service"
+      ]
+    },
+    {
+      "id": "pocketbase/pocketbase",
+      "path": [
+        "Backend-as-a-Service"
+      ]
+    },
+    {
+      "id": "wix/Detox",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "appium/appium",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "mobile-dev-inc/Maestro",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "robolectric/robolectric",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "callstack/react-native-paper",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "gluestack/gluestack-ui",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "react-native-elements/react-native-elements",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "material-components/material-components-android",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "TextureGroup/Texture",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "reduxjs/redux",
+      "path": [
+        "State Management"
+      ]
+    },
+    {
+      "id": "mobxjs/mobx",
+      "path": [
+        "State Management"
+      ]
+    },
+    {
+      "id": "pmndrs/zustand",
+      "path": [
+        "State Management"
+      ]
+    },
+    {
+      "id": "rrousselGit/riverpod",
+      "path": [
+        "State Management"
+      ]
+    },
+    {
+      "id": "felangel/bloc",
+      "path": [
+        "State Management"
+      ]
+    },
+    {
+      "id": "react-navigation/react-navigation",
+      "path": [
+        "Navigation"
+      ]
+    },
+    {
+      "id": "wix/react-native-navigation",
+      "path": [
+        "Navigation"
+      ]
+    },
+    {
+      "id": "Milad-Akarie/auto_route_library",
+      "path": [
+        "Navigation"
+      ]
+    },
+    {
+      "id": "fastlane/fastlane",
+      "path": [
+        "CI/CD & Distribution"
+      ]
+    },
+    {
+      "id": "bitrise-io/bitrise",
+      "path": [
+        "CI/CD & Distribution"
+      ]
+    },
+    {
+      "id": "shorebirdtech/shorebird",
+      "path": [
+        "CI/CD & Distribution"
+      ]
+    },
+    {
+      "id": "Triple-T/gradle-play-publisher",
+      "path": [
+        "CI/CD & Distribution"
+      ]
+    },
+    {
+      "id": "getsentry/sentry",
+      "path": [
+        "Analytics & Crash Reporting"
+      ]
+    },
+    {
+      "id": "PostHog/posthog",
+      "path": [
+        "Analytics & Crash Reporting"
+      ]
+    },
+    {
+      "id": "Countly/countly-server",
+      "path": [
+        "Analytics & Crash Reporting"
+      ]
+    },
+    {
+      "id": "matomo-org/matomo",
+      "path": [
+        "Analytics & Crash Reporting"
+      ]
+    },
+    {
+      "id": "expo/expo",
+      "path": [
+        "Cross-Platform Frameworks"
+      ]
+    },
+    {
+      "id": "dcloudio/uni-app",
+      "path": [
+        "Cross-Platform Frameworks"
+      ]
+    },
+    {
+      "id": "NervJS/taro",
+      "path": [
+        "Cross-Platform Frameworks"
+      ]
+    },
+    {
+      "id": "react-native-maps/react-native-maps",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "flet-dev/flet",
+      "path": [
+        "Cross-Platform Frameworks"
+      ]
+    },
+    {
+      "id": "jonataslaw/getx",
+      "path": [
+        "State Management"
+      ]
+    },
+    {
+      "id": "tamagui/tamagui",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "shoutem/ui",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "software-mansion/react-native-svg",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "invertase/react-native-firebase",
+      "path": [
+        "Backend-as-a-Service"
+      ]
+    },
+    {
+      "id": "obipawan/react-native-hyperlink",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "margelo/react-native-graph",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "react-native-webview/react-native-webview",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "pmndrs/jotai",
+      "path": [
+        "State Management"
+      ]
+    },
+    {
+      "id": "reduxjs/redux-toolkit",
+      "path": [
+        "State Management"
+      ]
+    }
+  ]
+}

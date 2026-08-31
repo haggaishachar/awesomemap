@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "All-Hands-AI/OpenHands",
+  "link": "https://all-hands.dev",
+  "name": "OpenHands",
+  "desc": "Platform for software development agents powered by AI",
+  "githubName": "OpenHands",
+  "githubDescription": "🙌 OpenHands: AI-Driven Development",
+  "weight": 85136,
+  "image": "https://avatars.githubusercontent.com/u/225919603?v=4",
+  "tags": [
+    "agent",
+    "artificial-intelligence",
+    "chatgpt",
+    "claude-ai",
+    "cli",
+    "developer-tools",
+    "gpt",
+    "llm",
+    "openai"
+  ],
+  "history": [
+    {
+      "date": "2026-08-14",
+      "stars": 83984
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 84076
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 84154
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 84252
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 84355
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 84445
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 84531
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 84656
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 84753
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 84822
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 84902
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 85009
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 85124
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 85281
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 85446
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 85516
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 85648,
+      "forks": 11219,
+      "openIssues": 601
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 85739,
+      "forks": 11230,
+      "openIssues": 608
+    }
+  ]
+}

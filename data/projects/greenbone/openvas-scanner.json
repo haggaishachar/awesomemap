@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "greenbone/openvas-scanner",
+  "link": "https://www.greenbone.net/en/community-edition/",
+  "name": "OpenVAS Scanner",
+  "desc": "The scanner component of Greenbone Community Edition, a full-featured vulnerability scanning engine",
+  "githubName": "openvas-scanner",
+  "githubDescription": "This repository contains the scanner component for Greenbone Community Edition.",
+  "weight": 4794,
+  "image": "https://avatars.githubusercontent.com/u/31986857?v=4",
+  "tags": [
+    "c",
+    "foo",
+    "greenbone",
+    "greenbone-community-edition",
+    "greenbone-vulnerability-management",
+    "gvm",
+    "openvas",
+    "openvas-scanner",
+    "scanner",
+    "techops",
+    "vulnerability",
+    "vulnerability-assessment",
+    "vulnerability-detection",
+    "vulnerability-management",
+    "vulnerability-scanners"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 4758
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 4760
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 4762
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 4763
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 4763
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 4766
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 4767
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 4771
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 4772
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 4775
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 4778
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 4780
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 4786
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 4786
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 4787
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 4786
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 4788
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 4789
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 4792
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 4797
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 4798
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 4802
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 4803,
+      "forks": 798,
+      "openIssues": 22
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 4803,
+      "forks": 799,
+      "openIssues": 22
+    }
+  ]
+}

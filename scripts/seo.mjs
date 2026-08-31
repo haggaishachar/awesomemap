@@ -54,8 +54,8 @@ export function buildWebsiteJsonLd({ name, description, url }) {
  * Builds a schema.org ItemList JSON-LD object for one domain page, one
  * ListItem per project — in the same order the caller passes them,
  * 1-indexed per schema.org's `position` convention. `projects` is a
- * domain's flat project list (each `{ id, name, link, ... }`, the same
- * shape `generate.mjs` reads from `data/<slug>.json`).
+ * domain's flat project list (each `{ id, name, link, ... }`, the joined
+ * shape `generate.mjs` builds from `data/domains/` + `data/projects/`).
  *
  * A project with no `link` is omitted rather than guessed at — `id` is
  * usually an `owner/repo` GitHub shorthand (see CONTRIBUTING.md) but isn't

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "radix-ui/primitives",
+  "link": "https://www.radix-ui.com",
+  "name": "Radix UI",
+  "desc": "An open-source UI component library for building accessible design systems",
+  "githubName": "primitives",
+  "githubDescription": "Radix Primitives is an open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @workos.",
+  "weight": 19210,
+  "image": "https://avatars.githubusercontent.com/u/75042455?v=4",
+  "tags": [
+    "accessibility",
+    "colors",
+    "component-library",
+    "design-systems",
+    "radix-ui",
+    "react",
+    "ui",
+    "ui-components",
+    "ui-kit"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 19149
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 19149
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 19150
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 19154
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 19156
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 19160
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 19160
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 19163
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 19166
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 19169
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 19177
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 19185
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 19187
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 19194
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 19198
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 19198
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 19201
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 19207
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 19210
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 19215
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 19218
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 19220
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 19222,
+      "forks": 1236,
+      "openIssues": 343
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 19224,
+      "forks": 1237,
+      "openIssues": 345
+    }
+  ]
+}

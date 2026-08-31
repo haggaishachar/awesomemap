@@ -3,10 +3,11 @@ name: PR Check
 # Runs on every pull request so a contribution gets automated feedback
 # before a human ever looks at it — the same test suite and build that
 # deploy.yml runs on master, just moved earlier (to PR time) instead of
-# discovering a broken data/*.json only after merge. generate.mjs already
-# validates JSON structure, required fields (id/path), slug uniqueness,
-# and computed sizes; this workflow just makes sure that validation runs
-# as a required status check on every PR that could touch it.
+# discovering a broken data/domains/ or data/projects/ file only after
+# merge. generate.mjs already validates JSON structure, required fields
+# (id/path), slug uniqueness, and computed sizes; this workflow just makes
+# sure that validation runs as a required status check on every PR that
+# could touch it.
 
 on:
   pull_request:
@@ -25,5 +26,5 @@ jobs:
           node-version: 20
       - run: npm ci
       - run: npm test
-      - name: Build (validates every data/*.json)
+      - name: Build (validates every data/domains/ and data/projects/ file)
         run: node scripts/generate.mjs

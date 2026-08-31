@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "modelcontextprotocol/modelcontextprotocol",
+  "link": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+  "name": "modelcontextprotocol",
+  "desc": "Specification and documentation for the Model Context Protocol",
+  "githubName": "modelcontextprotocol",
+  "githubDescription": "Specification and documentation for the Model Context Protocol",
+  "weight": 9066,
+  "image": "https://avatars.githubusercontent.com/u/182288589?v=4",
+  "tags": [
+    "docs",
+    "mcp",
+    "specification",
+    "standard"
+  ],
+  "history": [
+    {
+      "date": "2026-08-28",
+      "stars": 9072
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 9076
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 9084,
+      "forks": 1761,
+      "openIssues": 142
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 9089,
+      "forks": 1763,
+      "openIssues": 140
+    }
+  ]
+}

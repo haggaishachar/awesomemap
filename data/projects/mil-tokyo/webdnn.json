@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "mil-tokyo/webdnn",
+  "link": "https://github.com/mil-tokyo/webdnn",
+  "name": "webdnn",
+  "desc": "The Fastest DNN Running Framework on Web Browser",
+  "githubName": null,
+  "githubDescription": null,
+  "weight": 1999,
+  "image": "https://avatars.githubusercontent.com/u/9211471?v=4",
+  "tags": [
+    "accelerate",
+    "deep-neural-networks",
+    "javascript",
+    "optimization",
+    "webgpu"
+  ],
+  "history": []
+}

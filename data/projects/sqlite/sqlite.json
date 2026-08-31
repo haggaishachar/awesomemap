@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "sqlite/sqlite",
+  "link": "https://www.sqlite.org/",
+  "name": "SQLite",
+  "desc": "Official Git mirror of the SQLite source tree",
+  "githubName": "sqlite",
+  "githubDescription": "Official Git mirror of the SQLite source tree",
+  "weight": 10342,
+  "image": null,
+  "tags": [],
+  "history": [
+    {
+      "date": "2026-08-13",
+      "stars": 10255
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 10258
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 10265
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 10274
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 10279
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 10287
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 10296
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 10303
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 10308
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 10314
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 10318
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 10324
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 10333
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 10342
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 10354
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 10358
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 10364
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 10371,
+      "forks": 1634,
+      "openIssues": 23
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 10378,
+      "forks": 1635,
+      "openIssues": 23
+    }
+  ]
+}

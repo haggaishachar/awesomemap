@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "hslatman/awesome-threat-intelligence",
+  "link": "https://github.com/hslatman/awesome-threat-intelligence",
+  "name": "awesome-threat-intelligence",
+  "desc": "A curated list of Awesome Threat Intelligence resources",
+  "githubName": "awesome-threat-intelligence",
+  "githubDescription": "A curated list of Awesome Threat Intelligence resources",
+  "weight": 10583,
+  "image": null,
+  "tags": [
+    "awesome",
+    "awesome-list",
+    "hacktoberfest",
+    "security"
+  ],
+  "history": [
+    {
+      "date": "2026-08-30",
+      "stars": 10584,
+      "forks": 1821,
+      "openIssues": 117
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 10583,
+      "forks": 1822,
+      "openIssues": 117
+    }
+  ]
+}

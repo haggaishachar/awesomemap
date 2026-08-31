@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "jbrukh/bayesian",
+  "link": "https://github.com/jbrukh/bayesian",
+  "name": "bayesian",
+  "desc": "Naive Bayesian Classification for Golang.",
+  "githubName": "bayesian",
+  "githubDescription": "Naive Bayesian Classification for Golang.",
+  "weight": 816,
+  "image": null,
+  "tags": [],
+  "history": [
+    {
+      "date": "2026-08-30",
+      "stars": 816,
+      "forks": 128,
+      "openIssues": 0
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 815,
+      "forks": 128,
+      "openIssues": 0
+    }
+  ]
+}

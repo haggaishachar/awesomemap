@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "knadh/listmonk",
+  "link": "https://listmonk.app",
+  "name": "listmonk",
+  "desc": "Self-hosted newsletter and mailing list manager",
+  "githubName": "listmonk",
+  "githubDescription": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.",
+  "weight": 23136,
+  "image": null,
+  "tags": [
+    "campaign",
+    "campaign-management",
+    "email-marketing",
+    "email-subscription",
+    "listmonk",
+    "mailing-list",
+    "newsletter",
+    "newsletter-management",
+    "newsletter-software",
+    "self-hosted",
+    "sms-gateway",
+    "smtp",
+    "transactional-emails"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 23017
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 23033
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 23051
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 23079
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 23101
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 23131
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 23146
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 23157
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 23169
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 23185,
+      "forks": 2574,
+      "openIssues": 115
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 23191,
+      "forks": 2573,
+      "openIssues": 115
+    }
+  ]
+}

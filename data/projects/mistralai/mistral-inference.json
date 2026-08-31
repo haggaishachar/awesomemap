@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "mistralai/mistral-inference",
+  "link": "https://mistral.ai/",
+  "name": "Mistral Inference",
+  "desc": "Official inference library for Mistral open-weight models",
+  "githubName": "mistral-inference",
+  "githubDescription": "Official inference library for Mistral models",
+  "weight": 10831,
+  "image": "https://avatars.githubusercontent.com/u/132372032?v=4",
+  "tags": [
+    "llm",
+    "llm-inference",
+    "mistralai"
+  ],
+  "history": [
+    {
+      "date": "2026-08-14",
+      "stars": 10836
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 10836
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 10836
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 10835
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 10835
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 10833
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 10831
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 10830
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 10830
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 10829
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 10829
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 10830
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 10831
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 10831
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 10832
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 10832
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 10831,
+      "forks": 1059,
+      "openIssues": 1
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 10831,
+      "forks": 1059,
+      "openIssues": 1
+    }
+  ]
+}

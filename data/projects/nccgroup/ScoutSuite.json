@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "nccgroup/ScoutSuite",
+  "link": "https://github.com/nccgroup/ScoutSuite",
+  "name": "Scout Suite",
+  "desc": "Multi-cloud security auditing tool for assessing the security posture of cloud environments",
+  "githubName": "ScoutSuite",
+  "githubDescription": "Multi-Cloud Security Auditing Tool",
+  "weight": 7800,
+  "image": "https://avatars.githubusercontent.com/u/4067082?v=4",
+  "tags": [
+    "auditing",
+    "aws",
+    "azure",
+    "cloud",
+    "gcp",
+    "security"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 7787
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 7787
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 7787
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 7787
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 7786
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 7788
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 7788
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 7789
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 7789
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 7791
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 7793
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 7794
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 7795
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 7794
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 7795
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 7795
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 7797
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 7799
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 7800
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 7802
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 7803
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 7804
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 7804,
+      "forks": 1228,
+      "openIssues": 296
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 7807,
+      "forks": 1228,
+      "openIssues": 296
+    }
+  ]
+}

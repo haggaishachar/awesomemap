@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "browser-act/skills",
+  "link": "https://github.com/browser-act/skills",
+  "name": "skills",
+  "desc": "Browser automation CLI built for AI agents. Break through anti-bot walls, hand off to humans across platforms when stuck. Parallel multi-task execution, independent multi-session operation, isolated multi-account browsing.",
+  "githubName": "skills",
+  "githubDescription": "Browser automation CLI built for AI agents. Break through anti-bot walls, hand off to humans across platforms when stuck. Parallel multi-task execution, independent multi-session operation, isolated multi-account browsing.",
+  "weight": 5524,
+  "image": "https://avatars.githubusercontent.com/u/255086931?v=4",
+  "tags": [
+    "agent-infrastructure",
+    "ai-agents",
+    "automation",
+    "claude-cli",
+    "claude-code",
+    "claude-code-skills",
+    "claude-skills",
+    "codex",
+    "codex-cli",
+    "codex-skill",
+    "cursor",
+    "data-extraction",
+    "no-code",
+    "openclaw",
+    "openclaw-cli",
+    "openclaw-skill",
+    "openclaw-skills",
+    "web-data-extraction",
+    "web-scraping",
+    "web-scraping-api"
+  ],
+  "history": [
+    {
+      "date": "2026-08-30",
+      "stars": 5524,
+      "forks": 269,
+      "openIssues": 9
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 5529,
+      "forks": 270,
+      "openIssues": 7
+    }
+  ]
+}

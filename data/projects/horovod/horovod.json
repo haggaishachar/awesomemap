@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "horovod/horovod",
+  "link": "https://eng.uber.com/horovod/",
+  "name": "Horovod",
+  "desc": "Uber's Open Source Distributed Deep Learning Framework for TensorFlow",
+  "githubName": "horovod",
+  "githubDescription": "Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet.",
+  "weight": 14688,
+  "image": "https://avatars.githubusercontent.com/u/46361271?v=4",
+  "tags": [
+    "baidu",
+    "deep-learning",
+    "deeplearning",
+    "keras",
+    "machine-learning",
+    "machinelearning",
+    "mpi",
+    "mxnet",
+    "pytorch",
+    "ray",
+    "spark",
+    "tensorflow",
+    "uber"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 14695
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 14694
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 14693
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 14693
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 14693
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 14692
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 14691
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 14691
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 14691
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 14691
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 14690
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 14689
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 14689
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 14688
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 14688
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 14689
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 14689
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 14689
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 14688
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 14688
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 14688
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 14688
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 14687,
+      "forks": 2234,
+      "openIssues": 406
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 14687,
+      "forks": 2234,
+      "openIssues": 406
+    }
+  ]
+}

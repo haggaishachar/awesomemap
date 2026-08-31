@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "xmendez/wfuzz",
+  "link": "https://github.com/xmendez/wfuzz",
+  "name": "Wfuzz",
+  "desc": "Web application fuzzer for brute-forcing parameters, forms, and directories",
+  "githubName": "wfuzz",
+  "githubDescription": "Web application fuzzer",
+  "weight": 6557,
+  "image": null,
+  "tags": [],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 6548
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 6549
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 6549
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 6550
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 6550
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 6551
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 6551
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 6553
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 6554
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 6554
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 6556
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 6555
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 6555
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 6555
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 6555
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 6556
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 6557
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 6558
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 6557
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 6558
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 6559
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 6559
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 6561,
+      "forks": 1398,
+      "openIssues": 117
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 6562,
+      "forks": 1398,
+      "openIssues": 117
+    }
+  ]
+}

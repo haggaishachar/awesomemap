@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "jtpereyda/boofuzz",
+  "link": "https://github.com/jtpereyda/boofuzz",
+  "name": "boofuzz",
+  "desc": "A fork and successor of the Sulley Fuzzing Framework",
+  "githubName": "boofuzz",
+  "githubDescription": "A fork and successor of the Sulley Fuzzing Framework",
+  "weight": 2354,
+  "image": null,
+  "tags": [
+    "fuzzing",
+    "python",
+    "security"
+  ],
+  "history": [
+    {
+      "date": "2026-08-28",
+      "stars": 2354
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 2354
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 2355,
+      "forks": 381,
+      "openIssues": 101
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 2355,
+      "forks": 381,
+      "openIssues": 101
+    }
+  ]
+}

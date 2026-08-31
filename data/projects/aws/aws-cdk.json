@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "aws/aws-cdk",
+  "link": "https://aws.amazon.com/cdk/",
+  "name": "AWS CDK",
+  "desc": "An open source software development framework to define cloud infrastructure in code",
+  "githubName": "aws-cdk",
+  "githubDescription": "The AWS Cloud Development Kit is a framework for defining cloud infrastructure in code",
+  "weight": 12876,
+  "image": "https://avatars.githubusercontent.com/u/2232217?v=4",
+  "tags": [
+    "aws",
+    "cloud-infrastructure",
+    "hacktoberfest",
+    "infrastructure-as-code",
+    "typescript"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 12859
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 12859
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 12860
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 12862
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 12863
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 12866
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 12867
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 12870
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 12870
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 12869
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 12870
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 12871
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 12873
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 12873
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 12875
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 12876
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 12876
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 12876
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 12876
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 12874
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 12875
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 12877
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 12880,
+      "forks": 4614,
+      "openIssues": 2855
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 12880,
+      "forks": 4614,
+      "openIssues": 2857
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "sullo/nikto",
+  "link": "https://cirt.net/Nikto2",
+  "name": "Nikto",
+  "desc": "Web server scanner that tests for dangerous files, outdated software, and other vulnerabilities",
+  "githubName": "nikto",
+  "githubDescription": "Nikto web server scanner",
+  "weight": 10681,
+  "image": null,
+  "tags": [],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 10633
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 10638
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 10640
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 10643
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 10646
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 10646
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 10648
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 10650
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 10653
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 10658
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 10660
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 10666
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 10671
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 10675
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 10672
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 10674
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 10676
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 10678
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 10681
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 10688
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 10689
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 10691
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 10692,
+      "forks": 1453,
+      "openIssues": 1
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 10692,
+      "forks": 1453,
+      "openIssues": 1
+    }
+  ]
+}

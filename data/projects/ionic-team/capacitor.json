@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "ionic-team/capacitor",
+  "link": "https://capacitorjs.com/",
+  "name": "Capacitor",
+  "desc": "Cross-platform native runtime for building web-native mobile apps",
+  "githubName": "capacitor",
+  "githubDescription": "Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web ⚡️",
+  "weight": 16387,
+  "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
+  "tags": [
+    "android",
+    "capacitor",
+    "cordova",
+    "cross-platform",
+    "css",
+    "html",
+    "ionic",
+    "ios",
+    "java",
+    "javascript",
+    "pwa",
+    "swift"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 16255
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 16262
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 16278
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 16289
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 16295
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 16303
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 16305
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 16312
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 16317
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 16323
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 16334
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 16344
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 16350
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 16363
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 16365
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 16369
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 16375
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 16383
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 16388
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 16399
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 16410
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 16413
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 16455,
+      "forks": 1241,
+      "openIssues": 123
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 16506,
+      "forks": 1250,
+      "openIssues": 123
+    }
+  ]
+}

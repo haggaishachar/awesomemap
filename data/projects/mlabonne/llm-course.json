@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "mlabonne/llm-course",
+  "link": "https://github.com/mlabonne/llm-course",
+  "name": "llm-course",
+  "desc": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
+  "githubName": "llm-course",
+  "githubDescription": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
+  "weight": 82001,
+  "image": null,
+  "tags": [
+    "course",
+    "large-language-models",
+    "llm",
+    "machine-learning",
+    "roadmap"
+  ],
+  "history": [
+    {
+      "date": "2026-08-26",
+      "stars": 81996
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 82024
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 82058
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 82076
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 82111,
+      "forks": 9554,
+      "openIssues": 90
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 82134,
+      "forks": 9556,
+      "openIssues": 90
+    }
+  ]
+}

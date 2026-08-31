@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "explosion/spaCy",
+  "link": "https://spacy.io",
+  "name": "spaCy",
+  "desc": "Industrial-Strength Natural Language Processing",
+  "githubName": "spaCy",
+  "githubDescription": "💫 Industrial-strength Natural Language Processing (NLP) in Python",
+  "weight": 33848,
+  "image": "https://avatars.githubusercontent.com/u/20011530?v=4",
+  "tags": [
+    "ai",
+    "artificial-intelligence",
+    "cython",
+    "data-science",
+    "deep-learning",
+    "entity-linking",
+    "machine-learning",
+    "named-entity-recognition",
+    "natural-language-processing",
+    "neural-network",
+    "neural-networks",
+    "nlp",
+    "nlp-library",
+    "python",
+    "spacy",
+    "text-classification",
+    "tokenization"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 33813
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 33813
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 33812
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 33815
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 33813
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 33815
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 33818
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 33821
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 33823
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 33823
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 33826
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 33829
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 33832
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 33836
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 33838
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 33840
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 33840
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 33841
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 33848
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 33854
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 33859
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 33860
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 33864,
+      "forks": 4721,
+      "openIssues": 236
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 33863,
+      "forks": 4722,
+      "openIssues": 237
+    }
+  ]
+}

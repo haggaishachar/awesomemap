@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "chroma-core/chroma",
+  "link": "https://www.trychroma.com/",
+  "name": "Chroma",
+  "desc": "The AI-native open-source embedding database",
+  "githubName": "chroma",
+  "githubDescription": "Search infrastructure for AI",
+  "weight": 29149,
+  "image": "https://avatars.githubusercontent.com/u/105881770?v=4",
+  "tags": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "database",
+    "rust",
+    "rust-lang"
+  ],
+  "history": [
+    {
+      "date": "2026-08-14",
+      "stars": 29054
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 29059
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 29062
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 29072
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 29076
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 29082
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 29096
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 29113
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 29125
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 29130
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 29131
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 29138
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 29148
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 29161
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 29175
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 29179
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 29182,
+      "forks": 2473,
+      "openIssues": 818
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 29191,
+      "forks": 2473,
+      "openIssues": 818
+    }
+  ]
+}

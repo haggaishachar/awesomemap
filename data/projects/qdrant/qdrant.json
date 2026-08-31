@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "qdrant/qdrant",
+  "link": "https://qdrant.tech/",
+  "name": "Qdrant",
+  "desc": "High-performance vector search engine and database",
+  "githubName": "qdrant",
+  "githubDescription": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/",
+  "weight": 34198,
+  "image": "https://raw.githubusercontent.com/qdrant/qdrant/master/docs/logo.svg",
+  "tags": [
+    "ai-search",
+    "ai-search-engine",
+    "embeddings-similarity",
+    "hnsw",
+    "hybrid-search",
+    "image-search",
+    "knn-algorithm",
+    "machine-learning",
+    "mlops",
+    "nearest-neighbor-search",
+    "neural-network",
+    "neural-search",
+    "recommender-system",
+    "search",
+    "search-engine",
+    "search-engines",
+    "similarity-search",
+    "vector-database",
+    "vector-search",
+    "vector-search-engine"
+  ],
+  "history": [
+    {
+      "date": "2026-08-14",
+      "stars": 33968
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 33982
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 33994
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 34014
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 34036
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 34055
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 34075
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 34106
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 34121
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 34133
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 34151
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 34171
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 34196
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 34223
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 34246
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 34252
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 34272,
+      "forks": 2629,
+      "openIssues": 729
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 34290,
+      "forks": 2630,
+      "openIssues": 702
+    }
+  ]
+}

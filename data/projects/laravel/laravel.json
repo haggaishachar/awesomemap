@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "laravel/laravel",
+  "link": "https://laravel.com",
+  "name": "Laravel",
+  "desc": "PHP web application framework with expressive, elegant syntax",
+  "githubName": "laravel",
+  "githubDescription": "Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your next big idea — freeing you to create without sweating the small things.",
+  "weight": 84870,
+  "image": "https://avatars.githubusercontent.com/u/958072?v=4",
+  "tags": [
+    "framework",
+    "laravel",
+    "php"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 84832
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 84839
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 84845
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 84856
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 84865
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 84867
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 84882
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 84888
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 84890
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 84898,
+      "forks": 24895,
+      "openIssues": 32
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 84902,
+      "forks": 24903,
+      "openIssues": 32
+    }
+  ]
+}

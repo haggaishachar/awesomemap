@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "ggml-org/llama.cpp",
+  "link": "https://github.com/ggml-org/llama.cpp",
+  "name": "llama.cpp",
+  "desc": "LLM inference in C/C++",
+  "githubName": "llama.cpp",
+  "githubDescription": "LLM inference in C/C++",
+  "weight": 125933,
+  "image": "https://avatars.githubusercontent.com/u/134263123?v=4",
+  "tags": [
+    "ggml"
+  ],
+  "history": [
+    {
+      "date": "2026-08-28",
+      "stars": 126089
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 126183
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 126381,
+      "forks": 22487,
+      "openIssues": 2306
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 126481,
+      "forks": 22531,
+      "openIssues": 2317
+    }
+  ]
+}

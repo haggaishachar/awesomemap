@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "alibaba/pipcook",
+  "link": "https://github.com/alibaba/pipcook",
+  "name": "pipcook",
+  "desc": "Machine learning platform for Web developers",
+  "githubName": null,
+  "githubDescription": null,
+  "weight": 2595,
+  "image": "https://avatars.githubusercontent.com/u/1961952?v=4",
+  "tags": [
+    "js",
+    "machine-learning",
+    "pipeline",
+    "tensorflow"
+  ],
+  "history": []
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "prettier/prettier",
+  "link": "https://github.com/prettier/prettier",
+  "name": "prettier",
+  "desc": "Prettier is an opinionated code formatter.",
+  "githubName": "prettier",
+  "githubDescription": "Prettier is an opinionated code formatter.",
+  "weight": 52217,
+  "image": "https://avatars.githubusercontent.com/u/25822731?v=4",
+  "tags": [
+    "angular",
+    "ast",
+    "css",
+    "flow",
+    "formatter",
+    "graphql",
+    "html",
+    "javascript",
+    "json",
+    "jsx",
+    "less",
+    "markdown",
+    "prettier",
+    "printer",
+    "scss",
+    "typescript",
+    "vue",
+    "yaml"
+  ],
+  "history": [
+    {
+      "date": "2026-08-27",
+      "stars": 52214
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 52216
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 52218
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 52222,
+      "forks": 4997,
+      "openIssues": 1418
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 52228,
+      "forks": 5002,
+      "openIssues": 1419
+    }
+  ]
+}

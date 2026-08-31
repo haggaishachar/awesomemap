@@ -19,16 +19,33 @@ export function formatStarCount(weight) {
   return typeof weight === "number" && Number.isFinite(weight) ? weight.toLocaleString("en-US") : null;
 }
 
+function sortSeries(series) {
+  return [...series].sort((a, b) => a.date.localeCompare(b.date));
+}
+
 /**
  * Looks up `id`'s `{date, stars}` series in a fetched `history.json` blob
- * (shaped like `data/history/<slug>.json`: `{ [id]: [{date, stars}] }`),
- * sorted oldest-first. Returns `[]` when the id has no history yet
- * (new project, or a domain with no history file at all).
+ * (a per-domain, build-time-generated map of `{ [id]: [{date, stars}] }` —
+ * one entry per project's own `history` array, see generate.mjs's Pass 3),
+ * sorted oldest-first. Returns `[]` when the id has no history yet (new
+ * project, or a domain with no tracked projects at all).
  */
 export function starHistoryFor(historyData, id) {
   const series = historyData?.[id];
   if (!Array.isArray(series)) return [];
-  return [...series].sort((a, b) => a.date.localeCompare(b.date));
+  return sortSeries(series);
+}
+
+/**
+ * Sorts a project entity's own `history` array oldest-first — the
+ * build-time equivalent of `starHistoryFor`'s lookup, for callers that
+ * already have one project's series in hand (e.g. generate.mjs building a
+ * compare record or a project page) rather than a fetched multi-project
+ * blob. Returns `[]` for anything that isn't a real array (e.g. a
+ * brand-new project with no snapshots yet).
+ */
+export function sortedHistory(series) {
+  return Array.isArray(series) ? sortSeries(series) : [];
 }
 
 /**

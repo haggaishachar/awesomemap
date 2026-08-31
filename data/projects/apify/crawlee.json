@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "apify/crawlee",
+  "link": "https://crawlee.dev",
+  "name": "Crawlee",
+  "desc": "Web scraping and browser automation library for Node.js",
+  "githubName": "crawlee",
+  "githubDescription": "Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation.",
+  "weight": 25511,
+  "image": "https://avatars.githubusercontent.com/u/24586296?v=4",
+  "tags": [
+    "apify",
+    "automation",
+    "crawler",
+    "crawling",
+    "headless",
+    "headless-chrome",
+    "javascript",
+    "nodejs",
+    "npm",
+    "playwright",
+    "puppeteer",
+    "scraper",
+    "scraping",
+    "typescript",
+    "web-crawler",
+    "web-crawling",
+    "web-scraping"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 25451
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 25458
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 25469
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 25480
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 25487
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 25506
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 25522
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 25539
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 25549
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 25575,
+      "forks": 1653,
+      "openIssues": 152
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 25582,
+      "forks": 1653,
+      "openIssues": 155
+    }
+  ]
+}

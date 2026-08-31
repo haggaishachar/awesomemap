@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "novuhq/novu",
+  "link": "https://go.novu.co/github",
+  "name": "Novu",
+  "desc": "Open-source notification infrastructure for multi-channel messaging",
+  "githubName": "novu",
+  "githubDescription": "The open-source communication infrastructure for agents and products",
+  "weight": 39671,
+  "image": "https://avatars.githubusercontent.com/u/77433905?v=4",
+  "tags": [
+    "agents",
+    "communication",
+    "email",
+    "inbox",
+    "infrastructure",
+    "nodejs",
+    "notification-center",
+    "notifications",
+    "novu",
+    "push-notifications",
+    "react",
+    "reactjs",
+    "sms",
+    "transactional",
+    "typescript"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 39622
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 39632
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 39636
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 39654
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 39662
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 39668
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 39679
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 39680
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 39682
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 39696,
+      "forks": 4448,
+      "openIssues": 104
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 39699,
+      "forks": 4448,
+      "openIssues": 106
+    }
+  ]
+}

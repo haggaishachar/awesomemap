@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "BerriAI/litellm",
+  "link": "https://www.litellm.ai/",
+  "name": "LiteLLM",
+  "desc": "Call all LLM APIs using the OpenAI format, with a unified proxy gateway",
+  "githubName": "litellm",
+  "githubDescription": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+  "weight": 57301,
+  "image": "https://avatars.githubusercontent.com/u/121462774?v=4",
+  "tags": [
+    "ai-gateway",
+    "anthropic",
+    "azure-openai",
+    "bedrock",
+    "gateway",
+    "langchain",
+    "litellm",
+    "llm",
+    "llm-gateway",
+    "llmops",
+    "mcp-gateway",
+    "openai",
+    "openai-proxy",
+    "rust",
+    "rust-ai",
+    "vertex-ai"
+  ],
+  "history": [
+    {
+      "date": "2026-08-14",
+      "stars": 56300
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 56372
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 56435
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 56500
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 56593
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 56709
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 56796
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 56892
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 56974
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 57033
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 57106
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 57199
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 57284
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 57407
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 57491
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 57522
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 57597,
+      "forks": 11023,
+      "openIssues": 4901
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 57662,
+      "forks": 11039,
+      "openIssues": 4913
+    }
+  ]
+}

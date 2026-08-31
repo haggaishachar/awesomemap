@@ -1,0 +1,423 @@
+{
+  "schemaVersion": 1,
+  "slug": "data-science",
+  "name": "Best Data Science Open Source Projects",
+  "shortName": "Data Science",
+  "description": "Machine learning, deep learning, NLP, computer vision, and more.",
+  "projects": [
+    {
+      "id": "pandas-dev/pandas",
+      "path": [
+        "Data Manipulation & Analysis"
+      ]
+    },
+    {
+      "id": "numpy/numpy",
+      "path": [
+        "Data Manipulation & Analysis"
+      ]
+    },
+    {
+      "id": "pola-rs/polars",
+      "path": [
+        "Data Manipulation & Analysis"
+      ]
+    },
+    {
+      "id": "scikit-learn/scikit-learn",
+      "path": [
+        "Classic Machine Learning"
+      ]
+    },
+    {
+      "id": "dmlc/xgboost",
+      "path": [
+        "Classic Machine Learning"
+      ]
+    },
+    {
+      "id": "accord-net/framework",
+      "path": [
+        "Classic Machine Learning"
+      ]
+    },
+    {
+      "id": "lightgbm-org/LightGBM",
+      "path": [
+        "Classic Machine Learning"
+      ]
+    },
+    {
+      "id": "catboost/catboost",
+      "path": [
+        "Classic Machine Learning"
+      ]
+    },
+    {
+      "id": "tensorflow/tensorflow",
+      "path": [
+        "Deep Learning"
+      ]
+    },
+    {
+      "id": "google-deepmind/sonnet",
+      "path": [
+        "Deep Learning"
+      ]
+    },
+    {
+      "id": "pytorch/pytorch",
+      "path": [
+        "Deep Learning"
+      ]
+    },
+    {
+      "id": "keras-team/keras",
+      "path": [
+        "Deep Learning"
+      ]
+    },
+    {
+      "id": "jax-ml/jax",
+      "path": [
+        "Deep Learning"
+      ]
+    },
+    {
+      "id": "eclipse/deeplearning4j",
+      "path": [
+        "Deep Learning"
+      ]
+    },
+    {
+      "id": "Farama-Foundation/Gymnasium",
+      "path": [
+        "Reinforment Learning"
+      ]
+    },
+    {
+      "id": "google/dopamine",
+      "path": [
+        "Reinforment Learning"
+      ]
+    },
+    {
+      "id": "facebookresearch/ReAgent",
+      "path": [
+        "Reinforment Learning"
+      ]
+    },
+    {
+      "id": "DLR-RM/stable-baselines3",
+      "path": [
+        "Reinforment Learning"
+      ]
+    },
+    {
+      "id": "google-research/bert",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "huggingface/transformers",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "allenai/allennlp",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "flairNLP/flair",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "explosion/spaCy",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "facebookresearch/fastText",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "kaldi-asr/kaldi",
+      "path": [
+        "Speech Recognition"
+      ]
+    },
+    {
+      "id": "mozilla/DeepSpeech",
+      "path": [
+        "Speech Recognition"
+      ]
+    },
+    {
+      "id": "facebookresearch/wav2letter",
+      "path": [
+        "Speech Recognition"
+      ]
+    },
+    {
+      "id": "pjreddie/darknet",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "opencv/opencv",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "facebookresearch/detectron2",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "CMU-Perceptual-Computing-Lab/openpose",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "davidsandberg/facenet",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "apache/spark",
+      "path": [
+        "Distributed Training"
+      ]
+    },
+    {
+      "id": "apache/mahout",
+      "path": [
+        "Distributed Training"
+      ]
+    },
+    {
+      "id": "horovod/horovod",
+      "path": [
+        "Distributed Training"
+      ]
+    },
+    {
+      "id": "dask/dask",
+      "path": [
+        "Distributed Training"
+      ]
+    },
+    {
+      "id": "ray-project/ray",
+      "path": [
+        "Distributed Training"
+      ]
+    },
+    {
+      "id": "EpistasisLab/tpot",
+      "path": [
+        "AutoML"
+      ]
+    },
+    {
+      "id": "keras-team/autokeras",
+      "path": [
+        "AutoML"
+      ]
+    },
+    {
+      "id": "alteryx/featuretools",
+      "path": [
+        "AutoML"
+      ]
+    },
+    {
+      "id": "optuna/optuna",
+      "path": [
+        "AutoML"
+      ]
+    },
+    {
+      "id": "autogluon/autogluon",
+      "path": [
+        "AutoML"
+      ]
+    },
+    {
+      "id": "jupyter/jupyter",
+      "path": [
+        "IDEs"
+      ]
+    },
+    {
+      "id": "spyder-ide/spyder",
+      "path": [
+        "IDEs"
+      ]
+    },
+    {
+      "id": "apache/zeppelin",
+      "path": [
+        "IDEs"
+      ]
+    },
+    {
+      "id": "h2oai/h2o-3",
+      "path": [
+        "Platforms"
+      ]
+    },
+    {
+      "id": "mlflow/mlflow",
+      "path": [
+        "Platforms"
+      ]
+    },
+    {
+      "id": "kubeflow/kubeflow",
+      "path": [
+        "Platforms"
+      ]
+    },
+    {
+      "id": "wandb/wandb",
+      "path": [
+        "Platforms"
+      ]
+    },
+    {
+      "id": "onnx/onnx",
+      "path": [
+        "Scoring"
+      ]
+    },
+    {
+      "id": "SeldonIO/seldon-core",
+      "path": [
+        "Scoring"
+      ]
+    },
+    {
+      "id": "rasbt/LLMs-from-scratch",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "microsoft/ML-For-Beginners",
+      "path": [
+        "Classic Machine Learning"
+      ]
+    },
+    {
+      "id": "mlabonne/llm-course",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "pytorch/vision",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "piskvorky/gensim",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "pycaret/pycaret",
+      "path": [
+        "AutoML"
+      ]
+    },
+    {
+      "id": "google/sentencepiece",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "alphacep/vosk-api",
+      "path": [
+        "Speech Recognition"
+      ]
+    },
+    {
+      "id": "techascent/tech.ml.dataset",
+      "path": [
+        "Data Manipulation & Analysis"
+      ]
+    },
+    {
+      "id": "hybridgroup/gocv",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "jbrukh/bayesian",
+      "path": [
+        "Classic Machine Learning"
+      ]
+    },
+    {
+      "id": "airbnb/aerosolve",
+      "path": [
+        "Classic Machine Learning"
+      ]
+    },
+    {
+      "id": "deeplearning4j/deeplearning4j",
+      "path": [
+        "Deep Learning"
+      ]
+    },
+    {
+      "id": "deepjavalibrary/djl",
+      "path": [
+        "Deep Learning"
+      ]
+    },
+    {
+      "id": "NaturalNode/natural",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "mil-tokyo/webdnn",
+      "path": [
+        "Deep Learning"
+      ]
+    },
+    {
+      "id": "alibaba/pipcook",
+      "path": [
+        "Platforms"
+      ]
+    },
+    {
+      "id": "JuliaStats/GLM.jl",
+      "path": [
+        "Classic Machine Learning"
+      ]
+    }
+  ]
+}

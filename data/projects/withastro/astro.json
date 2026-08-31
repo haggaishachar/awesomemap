@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "withastro/astro",
+  "link": "https://astro.build",
+  "name": "Astro",
+  "desc": "The web framework for content-driven websites",
+  "githubName": "astro",
+  "githubDescription": "The web framework for content-driven websites. ⭐️ Star to support our work!",
+  "weight": 62064,
+  "image": "https://avatars.githubusercontent.com/u/44914786?v=4",
+  "tags": [
+    "astro",
+    "blog",
+    "browser",
+    "components",
+    "hybrid",
+    "islands",
+    "node",
+    "server",
+    "static",
+    "static-site-generator",
+    "universal"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 61639
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 61654
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 61668
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 61678
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 61702
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 61749
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 61765
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 61788
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 61807
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 61817
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 61835
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 61855
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 61878
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 61904
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 61920
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 61952
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 61991
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 62018
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 62058
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 62095
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 62119
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 62142
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 62177,
+      "forks": 3754,
+      "openIssues": 99
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 62192,
+      "forks": 3759,
+      "openIssues": 107
+    }
+  ]
+}

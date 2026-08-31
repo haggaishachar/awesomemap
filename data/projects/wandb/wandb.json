@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "wandb/wandb",
+  "link": "https://wandb.ai/",
+  "name": "Weights & Biases",
+  "desc": "The AI developer platform for experiment tracking and model management",
+  "githubName": "wandb",
+  "githubDescription": "The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production.",
+  "weight": 11240,
+  "image": "https://raw.githubusercontent.com/wandb/wandb/main/assets/logo.svg",
+  "tags": [
+    "ai",
+    "collaboration",
+    "data-science",
+    "data-versioning",
+    "deep-learning",
+    "experiment-track",
+    "hyperparameter-optimization",
+    "hyperparameter-search",
+    "hyperparameter-tuning",
+    "jax",
+    "keras",
+    "machine-learning",
+    "ml-platform",
+    "mlops",
+    "model-versioning",
+    "pytorch",
+    "reinforcement-learning",
+    "reproducibility",
+    "tensorflow"
+  ],
+  "history": [
+    {
+      "date": "2026-08-13",
+      "stars": 11231
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 11230
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 11231
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 11232
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 11234
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 11233
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 11232
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 11233
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 11235
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 11236
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 11236
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 11237
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 11239
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 11240
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 11240
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 11243
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 11245
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 11244,
+      "forks": 891,
+      "openIssues": 951
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 11246,
+      "forks": 892,
+      "openIssues": 960
+    }
+  ]
+}

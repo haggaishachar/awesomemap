@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "Infisical/infisical",
+  "link": "https://github.com/Infisical/infisical",
+  "name": "infisical",
+  "desc": "Infisical is the open-source platform for secrets, certificates, and privileged access management.",
+  "githubName": "infisical",
+  "githubDescription": "Infisical is the open-source platform for secrets, certificates, and privileged access management.",
+  "weight": 28971,
+  "image": "https://avatars.githubusercontent.com/u/107880645?v=4",
+  "tags": [
+    "acme",
+    "certificate-management",
+    "cli",
+    "environment-variables",
+    "go",
+    "golang",
+    "node-js",
+    "open-source",
+    "pki",
+    "postgres",
+    "private-ca",
+    "secret-management",
+    "secret-manager",
+    "secret-scanning",
+    "secrets",
+    "secrets-management",
+    "security",
+    "security-tools",
+    "typescript",
+    "vault"
+  ],
+  "history": [
+    {
+      "date": "2026-08-26",
+      "stars": 28964
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 28990
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 29010
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 29014
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 29032,
+      "forks": 2229,
+      "openIssues": 740
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 29044,
+      "forks": 2231,
+      "openIssues": 742
+    }
+  ]
+}

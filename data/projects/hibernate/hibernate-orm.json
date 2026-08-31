@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "hibernate/hibernate-orm",
+  "link": "https://hibernate.org/orm/",
+  "name": "Hibernate ORM",
+  "desc": "Object/relational mapping for Java",
+  "githubName": "hibernate-orm",
+  "githubDescription": "Idiomatic persistence for Java and relational databases",
+  "weight": 6468,
+  "image": "https://avatars.githubusercontent.com/u/348262?v=4",
+  "tags": [
+    "database",
+    "envers",
+    "hibernate",
+    "hibernate-orm",
+    "jakarta-persistence",
+    "jakartaee",
+    "java",
+    "jdbc",
+    "jpa",
+    "object-relational-mapper",
+    "object-relational-mapping",
+    "orm",
+    "persistence",
+    "persistence-framework",
+    "sql"
+  ],
+  "history": [
+    {
+      "date": "2026-08-13",
+      "stars": 6472
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 6472
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 6469
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 6469
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 6458
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 6458
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 6458
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 6461
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 6463
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 6463
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 6463
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 6465
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 6466
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 6468
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 6470
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 6470
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 6470
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 6471,
+      "forks": 3811,
+      "openIssues": 162
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 6470,
+      "forks": 3810,
+      "openIssues": 164
+    }
+  ]
+}

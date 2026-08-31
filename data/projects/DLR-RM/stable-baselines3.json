@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "DLR-RM/stable-baselines3",
+  "link": "https://stable-baselines3.readthedocs.io/",
+  "name": "Stable-Baselines3",
+  "desc": "Reliable implementations of reinforcement learning algorithms in PyTorch",
+  "githubName": "stable-baselines3",
+  "githubDescription": "PyTorch version of Stable Baselines, reliable implementations of reinforcement learning algorithms. ",
+  "weight": 13727,
+  "image": "https://avatars.githubusercontent.com/u/25227811?v=4",
+  "tags": [
+    "baselines",
+    "gsde",
+    "gym",
+    "machine-learning",
+    "openai",
+    "python",
+    "pytorch",
+    "reinforcement-learning",
+    "reinforcement-learning-algorithms",
+    "robotics",
+    "sb3",
+    "sde",
+    "stable-baselines",
+    "toolbox"
+  ],
+  "history": [
+    {
+      "date": "2026-08-13",
+      "stars": 13685
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 13686
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 13692
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 13695
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 13699
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 13704
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 13708
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 13710
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 13713
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 13717
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 13716
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 13718
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 13721
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 13726
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 13729
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 13733
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 13735
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 13739,
+      "forks": 2172,
+      "openIssues": 85
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 13739,
+      "forks": 2174,
+      "openIssues": 85
+    }
+  ]
+}

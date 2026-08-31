@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "triton-inference-server/server",
+  "link": "https://github.com/triton-inference-server/server",
+  "name": "Triton Inference Server",
+  "desc": "NVIDIA's inference serving software for deploying AI models at scale",
+  "githubName": "server",
+  "githubDescription": "The Triton Inference Server provides an optimized cloud and edge inferencing solution. ",
+  "weight": 10936,
+  "image": "https://avatars.githubusercontent.com/u/68086070?v=4",
+  "tags": [
+    "cloud",
+    "datacenter",
+    "deep-learning",
+    "edge",
+    "gpu",
+    "inference",
+    "machine-learning"
+  ],
+  "history": [
+    {
+      "date": "2026-08-14",
+      "stars": 10917
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 10920
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 10921
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 10922
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 10923
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 10926
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 10927
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 10931
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 10931
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 10932
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 10934
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 10935
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 10936
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 10943
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 10948
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 10949
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 10951,
+      "forks": 1832,
+      "openIssues": 888
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 10952,
+      "forks": 1832,
+      "openIssues": 887
+    }
+  ]
+}

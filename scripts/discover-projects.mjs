@@ -1,11 +1,11 @@
-import { readdirSync, readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 import { enrichProject, createGetJson, withRetry } from "./enrich-domain.mjs";
 import { collectCandidateIds, excludeKnownIds, fetchRepoMetadata, passesQualityBar } from "./discover-candidates.mjs";
 import { classifyCandidates, callOpenRouterApi } from "./classify-candidates.mjs";
 import { selectAutoCommit, formatReviewIssueBody, updateSeenIds } from "./apply-discoveries.mjs";
+import { loadAllDomains, saveDomain, saveProjectEntity, SCHEMA_VERSION } from "./data-store.mjs";
 
-const DATA_DIR = "data";
 const SOURCES_PATH = "data/discovery/sources.json";
 const SEEN_PATH = "data/discovery/seen.json";
 // Caps per-domain unseen ids fetched in a single run. An early run (empty or
@@ -37,17 +37,16 @@ async function main() {
   const getJson = createGetJson(ghToken);
 
   const sourcesConfig = existsSync(SOURCES_PATH) ? JSON.parse(readFileSync(SOURCES_PATH, "utf8")) : {};
-  const domainFiles = readdirSync(DATA_DIR).filter((name) => name.endsWith(".json"));
-  const domainEntries = domainFiles.map((file) => ({ file, domain: JSON.parse(readFileSync(`${DATA_DIR}/${file}`, "utf8")) }));
+  const domains = loadAllDomains();
 
-  const existingIds = new Set(domainEntries.flatMap(({ domain }) => domain.projects.map((p) => p.id)));
+  const existingIds = new Set(domains.flatMap((domain) => domain.projects.map((p) => p.id)));
   const previouslySeenIds = existsSync(SEEN_PATH) ? JSON.parse(readFileSync(SEEN_PATH, "utf8")) : [];
   const knownIds = new Set([...existingIds, ...previouslySeenIds]);
 
   const allEvaluatedIds = [];
   const pendingByDomain = {};
 
-  for (const { file, domain } of domainEntries) {
+  for (const domain of domains) {
     if (!sourcesConfig[domain.slug]) continue;
 
     const rawIds = await collectCandidateIds(domain.slug, sourcesConfig, { getJson });
@@ -94,13 +93,26 @@ async function main() {
     const enrichmentFailures = [];
 
     if (autoCommit.length > 0 && !dryRun) {
-      const enrichedProjects = [];
+      const newMembers = [];
       for (const candidate of autoCommit) {
         const meta = metaById.get(candidate.id);
         try {
           const [, repoName] = candidate.id.split("/");
           const enriched = await enrichProject(
-            { id: candidate.id, path: candidate.path, name: repoName, link: `https://github.com/${candidate.id}`, desc: meta.description, tags: meta.topics },
+            {
+              schemaVersion: SCHEMA_VERSION,
+              id: candidate.id,
+              link: `https://github.com/${candidate.id}`,
+              name: repoName,
+              desc: meta.description,
+              // GitHub's own name/description are left null here rather than
+              // guessed — the next daily snapshot-history.mjs run upserts
+              // both from a fresh fetch, same as every other project.
+              githubName: null,
+              githubDescription: null,
+              tags: meta.topics,
+              history: [],
+            },
             { getJson },
           );
           if (typeof enriched.weight !== "number" || !Number.isInteger(enriched.weight) || enriched.weight <= 0) {
@@ -108,14 +120,15 @@ async function main() {
             enrichmentFailures.push(candidate);
             continue;
           }
-          enrichedProjects.push(enriched);
+          saveProjectEntity(enriched);
+          newMembers.push({ id: candidate.id, path: candidate.path });
         } catch (err) {
           console.error(`Warning: failed to enrich candidate "${candidate.id}" for auto-commit, adding to review queue instead: ${err.message}`);
           enrichmentFailures.push(candidate);
         }
       }
-      domain.projects.push(...enrichedProjects);
-      writeFileSync(`${DATA_DIR}/${file}`, JSON.stringify(domain, null, 2) + "\n");
+      domain.projects.push(...newMembers);
+      saveDomain(domain);
     }
 
     // In --dry-run mode enrichmentFailures is always empty (enrichment is

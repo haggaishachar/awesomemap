@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "ToolJet/ToolJet",
+  "link": "https://tooljet.com",
+  "name": "ToolJet",
+  "desc": "Low-code platform for building internal tools and business applications",
+  "githubName": "ToolJet",
+  "githubDescription": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+  "weight": 40765,
+  "image": "https://avatars.githubusercontent.com/u/82193554?v=4",
+  "tags": [
+    "ai-app-builder",
+    "docker",
+    "hacktoberfest",
+    "internal-applications",
+    "internal-project",
+    "internal-tool",
+    "internal-tools",
+    "javascript",
+    "kubernetes",
+    "low-code",
+    "low-code-development-platform",
+    "low-code-framework",
+    "no-code",
+    "nodejs",
+    "reactjs",
+    "self-hosted",
+    "typescript",
+    "web-development-tools",
+    "workflow-automation"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 40628
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 40671
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 40703
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 40736
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 40758
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 40766
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 40783
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 40787
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 40789
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 40796,
+      "forks": 5423,
+      "openIssues": 1170
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 40803,
+      "forks": 5422,
+      "openIssues": 1174
+    }
+  ]
+}

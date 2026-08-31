@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "id": "radareorg/radare2",
+  "link": "https://rada.re/n/",
+  "name": "Radare2",
+  "desc": "UNIX-like reverse engineering framework and command-line toolset",
+  "githubName": "radare2",
+  "githubDescription": "UNIX-like reverse engineering framework and command-line toolset",
+  "weight": 24648,
+  "image": "https://avatars.githubusercontent.com/u/2842539?v=4",
+  "tags": [
+    "binary-analysis",
+    "c",
+    "commandline",
+    "disassembler",
+    "forensics",
+    "hacktoberfest",
+    "malware-analysis",
+    "radare2",
+    "reverse-engineering",
+    "security"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 24521
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 24530
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 24538
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 24544
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 24554
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 24564
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 24567
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 24569
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 24578
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 24583
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 24587
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 24595
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 24606
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 24610
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 24616
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 24621
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 24630
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 24638
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 24649
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 24660
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 24672
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 24674
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 24681,
+      "forks": 3310,
+      "openIssues": 822
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 24689,
+      "forks": 3309,
+      "openIssues": 823
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "camunda/camunda",
+  "link": "https://camunda.com/platform/",
+  "name": "Camunda",
+  "desc": "Process orchestration and workflow automation framework",
+  "githubName": "camunda",
+  "githubDescription": "Process Orchestration Framework",
+  "weight": 4255,
+  "image": "https://avatars.githubusercontent.com/u/2443838?v=4",
+  "tags": [
+    "bpmn",
+    "grpc",
+    "java",
+    "microservices",
+    "orchestration-framework",
+    "workflow",
+    "workflow-engine"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 4254
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 4254
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 4254
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 4253
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 4254
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 4254
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 4255
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 4256
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 4256
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 4256,
+      "forks": 816,
+      "openIssues": 2922
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 4259,
+      "forks": 816,
+      "openIssues": 2925
+    }
+  ]
+}

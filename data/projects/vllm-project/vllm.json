@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "vllm-project/vllm",
+  "link": "https://vllm.ai/",
+  "name": "vLLM",
+  "desc": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+  "githubName": "vllm",
+  "githubDescription": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+  "weight": 90095,
+  "image": "https://avatars.githubusercontent.com/u/136984999?v=4",
+  "tags": [
+    "amd",
+    "blackwell",
+    "cuda",
+    "deepseek",
+    "deepseek-v3",
+    "gpt",
+    "gpt-oss",
+    "inference",
+    "kimi",
+    "llama",
+    "llm",
+    "llm-serving",
+    "model-serving",
+    "moe",
+    "openai",
+    "pytorch",
+    "qwen",
+    "qwen3",
+    "tpu",
+    "transformer"
+  ],
+  "history": [
+    {
+      "date": "2026-08-14",
+      "stars": 89026
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 89074
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 89149
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 89221
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 89313
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 89398
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 89489
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 89595
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 89677
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 89742
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 89831
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 89932
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 90072
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 90230
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 90322
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 90381
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 90497,
+      "forks": 21436,
+      "openIssues": 7224
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 90578,
+      "forks": 21471,
+      "openIssues": 7242
+    }
+  ]
+}

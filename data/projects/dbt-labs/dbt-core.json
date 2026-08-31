@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "dbt-labs/dbt-core",
+  "link": "https://www.getdbt.com/",
+  "name": "dbt Core",
+  "desc": "Transform data in your warehouse using SQL",
+  "githubName": "dbt-core",
+  "githubDescription": "dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications.",
+  "weight": 13692,
+  "image": "https://avatars.githubusercontent.com/u/18339788?v=4",
+  "tags": [
+    "analytics",
+    "business-intelligence",
+    "data-modeling",
+    "dbt-viewpoint",
+    "elt",
+    "pypa",
+    "slack"
+  ],
+  "history": [
+    {
+      "date": "2026-08-13",
+      "stars": 13638
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 13639
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 13645
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 13647
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 13650
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 13651
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 13658
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 13667
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 13674
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 13675
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 13679
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 13683
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 13685
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 13690
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 13702
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 13708
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 13717
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 13732,
+      "forks": 2535,
+      "openIssues": 1548
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 13741,
+      "forks": 2538,
+      "openIssues": 1547
+    }
+  ]
+}

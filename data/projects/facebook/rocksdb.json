@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "facebook/rocksdb",
+  "link": "https://github.com/facebook/rocksdb",
+  "name": "rocksdb",
+  "desc": "A library that provides an embeddable, persistent key-value store for fast storage.",
+  "githubName": "rocksdb",
+  "githubDescription": "A library that provides an embeddable, persistent key-value store for fast storage.",
+  "weight": 32009,
+  "image": "https://avatars.githubusercontent.com/u/69631?v=4",
+  "tags": [
+    "database",
+    "storage-engine"
+  ],
+  "history": [
+    {
+      "date": "2026-08-26",
+      "stars": 32009
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 32016
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 32024
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 32026
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 32030,
+      "forks": 6911,
+      "openIssues": 1631
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 32031,
+      "forks": 6908,
+      "openIssues": 1631
+    }
+  ]
+}

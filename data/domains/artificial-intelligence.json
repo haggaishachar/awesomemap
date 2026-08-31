@@ -1,0 +1,437 @@
+{
+  "schemaVersion": 1,
+  "slug": "artificial-intelligence",
+  "name": "Best Artificial Intelligence Open Source Projects",
+  "shortName": "AI",
+  "description": "LLM frameworks, AI agents, RAG, vector databases, coding assistants, and more.",
+  "projects": [
+    {
+      "id": "ggerganov/llama.cpp",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Frameworks & Runtimes"
+      ]
+    },
+    {
+      "id": "ollama/ollama",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Frameworks & Runtimes"
+      ]
+    },
+    {
+      "id": "vllm-project/vllm",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Frameworks & Runtimes"
+      ]
+    },
+    {
+      "id": "mlc-ai/mlc-llm",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Frameworks & Runtimes"
+      ]
+    },
+    {
+      "id": "NVIDIA/TensorRT-LLM",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Frameworks & Runtimes"
+      ]
+    },
+    {
+      "id": "microsoft/DeepSpeed",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Frameworks & Runtimes"
+      ]
+    },
+    {
+      "id": "langchain-ai/langchain",
+      "path": [
+        "Agents & Coding",
+        "Orchestration Frameworks"
+      ]
+    },
+    {
+      "id": "run-llama/llama_index",
+      "path": [
+        "Agents & Coding",
+        "Orchestration Frameworks"
+      ]
+    },
+    {
+      "id": "deepset-ai/haystack",
+      "path": [
+        "Agents & Coding",
+        "Orchestration Frameworks"
+      ]
+    },
+    {
+      "id": "microsoft/semantic-kernel",
+      "path": [
+        "Agents & Coding",
+        "Orchestration Frameworks"
+      ]
+    },
+    {
+      "id": "Significant-Gravitas/AutoGPT",
+      "path": [
+        "Agents & Coding",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": "crewAIInc/crewAI",
+      "path": [
+        "Agents & Coding",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": "microsoft/autogen",
+      "path": [
+        "Agents & Coding",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": "langchain-ai/langgraph",
+      "path": [
+        "Agents & Coding",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": "browser-use/browser-use",
+      "path": [
+        "Agents & Coding",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": "All-Hands-AI/OpenHands",
+      "path": [
+        "Agents & Coding",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": "milvus-io/milvus",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "qdrant/qdrant",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "chroma-core/chroma",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "weaviate/weaviate",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "pgvector/pgvector",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "promptfoo/promptfoo",
+      "path": [
+        "LLM Infrastructure",
+        "Prompt Engineering & Evaluation"
+      ]
+    },
+    {
+      "id": "guidance-ai/guidance",
+      "path": [
+        "LLM Infrastructure",
+        "Prompt Engineering & Evaluation"
+      ]
+    },
+    {
+      "id": "explodinggradients/ragas",
+      "path": [
+        "LLM Infrastructure",
+        "Prompt Engineering & Evaluation"
+      ]
+    },
+    {
+      "id": "langfuse/langfuse",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Observability & Gateways"
+      ]
+    },
+    {
+      "id": "BerriAI/litellm",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Observability & Gateways"
+      ]
+    },
+    {
+      "id": "Helicone/helicone",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Observability & Gateways"
+      ]
+    },
+    {
+      "id": "modelcontextprotocol/servers",
+      "path": [
+        "Agents & Coding",
+        "Model Context Protocol"
+      ]
+    },
+    {
+      "id": "modelcontextprotocol/python-sdk",
+      "path": [
+        "Agents & Coding",
+        "Model Context Protocol"
+      ]
+    },
+    {
+      "id": "continuedev/continue",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "Aider-AI/aider",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "cline/cline",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "block/goose",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "openclaw/openclaw",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "NousResearch/hermes-agent",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "obra/superpowers",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "meta-llama/llama",
+      "path": [
+        "LLM Infrastructure",
+        "Open-Weight Models & Inference"
+      ]
+    },
+    {
+      "id": "mistralai/mistral-inference",
+      "path": [
+        "LLM Infrastructure",
+        "Open-Weight Models & Inference"
+      ]
+    },
+    {
+      "id": "huggingface/text-generation-inference",
+      "path": [
+        "LLM Infrastructure",
+        "Open-Weight Models & Inference"
+      ]
+    },
+    {
+      "id": "open-webui/open-webui",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Interfaces & Local Deployment"
+      ]
+    },
+    {
+      "id": "mudler/LocalAI",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Interfaces & Local Deployment"
+      ]
+    },
+    {
+      "id": "oobabooga/text-generation-webui",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Interfaces & Local Deployment"
+      ]
+    },
+    {
+      "id": "nomic-ai/gpt4all",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Interfaces & Local Deployment"
+      ]
+    },
+    {
+      "id": "zylon-ai/private-gpt",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Interfaces & Local Deployment"
+      ]
+    },
+    {
+      "id": "FlowiseAI/Flowise",
+      "path": [
+        "Agents & Coding",
+        "No-Code AI Builders"
+      ]
+    },
+    {
+      "id": "langgenius/dify",
+      "path": [
+        "Agents & Coding",
+        "No-Code AI Builders"
+      ]
+    },
+    {
+      "id": "CompVis/stable-diffusion",
+      "path": [
+        "Generative Media"
+      ]
+    },
+    {
+      "id": "comfyanonymous/ComfyUI",
+      "path": [
+        "Generative Media"
+      ]
+    },
+    {
+      "id": "suno-ai/bark",
+      "path": [
+        "Generative Media"
+      ]
+    },
+    {
+      "id": "coqui-ai/TTS",
+      "path": [
+        "Generative Media"
+      ]
+    },
+    {
+      "id": "openai/whisper",
+      "path": [
+        "Generative Media"
+      ]
+    },
+    {
+      "id": "bentoml/BentoML",
+      "path": [
+        "LLM Infrastructure",
+        "MLOps & Serving"
+      ]
+    },
+    {
+      "id": "triton-inference-server/server",
+      "path": [
+        "LLM Infrastructure",
+        "MLOps & Serving"
+      ]
+    },
+    {
+      "id": "f/prompts.chat",
+      "path": [
+        "LLM Infrastructure",
+        "Prompt Engineering & Evaluation"
+      ]
+    },
+    {
+      "id": "harry0703/MoneyPrinterTurbo",
+      "path": [
+        "Generative Media"
+      ]
+    },
+    {
+      "id": "rasbt/LLMs-from-scratch",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Frameworks & Runtimes"
+      ]
+    },
+    {
+      "id": "oramasearch/orama",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "activeloopai/deeplake",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "paradedb/paradedb",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "ggml-org/llama.cpp",
+      "path": [
+        "LLM Infrastructure",
+        "Open-Weight Models & Inference"
+      ]
+    },
+    {
+      "id": "modelcontextprotocol/modelcontextprotocol",
+      "path": [
+        "Agents & Coding",
+        "Model Context Protocol"
+      ]
+    },
+    {
+      "id": "ggml-org/whisper.cpp",
+      "path": [
+        "LLM Infrastructure",
+        "Open-Weight Models & Inference"
+      ]
+    }
+  ]
+}

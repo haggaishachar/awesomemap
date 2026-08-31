@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "invoiceninja/invoiceninja",
+  "link": "https://invoiceninja.com",
+  "name": "Invoice Ninja",
+  "desc": "Invoicing, quoting, and time-tracking application",
+  "githubName": "invoiceninja",
+  "githubDescription": "A source-available invoice, quote, project and time-tracking app built with Laravel",
+  "weight": 10027,
+  "image": "https://avatars.githubusercontent.com/u/15712270?v=4",
+  "tags": [
+    "einvoicing",
+    "expenses",
+    "flutter",
+    "hacktoberfest",
+    "invoice",
+    "invoiceninja",
+    "invoices",
+    "javascript",
+    "kanban",
+    "laravel",
+    "payments",
+    "php",
+    "projects",
+    "quotes",
+    "tasks",
+    "time-tracker"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 10012
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 10016
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 10017
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 10021
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 10022
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 10025
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 10030
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 10032
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 10034
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 10037,
+      "forks": 2686,
+      "openIssues": 926
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 10038,
+      "forks": 2688,
+      "openIssues": 928
+    }
+  ]
+}

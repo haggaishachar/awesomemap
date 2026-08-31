@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "id": "laramies/theHarvester",
+  "link": "https://github.com/laramies/theHarvester",
+  "name": "theHarvester",
+  "desc": "E-mails, subdomains and names harvester - OSINT reconnaissance tool",
+  "githubName": "theHarvester",
+  "githubDescription": "E-mails, subdomains and names Harvester - OSINT ",
+  "weight": 17198,
+  "image": null,
+  "tags": [
+    "blueteam",
+    "discovery",
+    "emails",
+    "information-gathering",
+    "osint",
+    "python",
+    "recon",
+    "reconnaissance",
+    "redteam",
+    "subdomain-enumeration"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 16981
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 16987
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 16992
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 17004
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 17018
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 17038
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 17048
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 17054
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 17064
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 17076
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 17093
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 17109
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 17125
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 17143
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 17155
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 17163
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 17177
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 17191
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 17196
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 17212
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 17224
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 17225
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 17237,
+      "forks": 2569,
+      "openIssues": 7
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 17244,
+      "forks": 2571,
+      "openIssues": 9
+    }
+  ]
+}

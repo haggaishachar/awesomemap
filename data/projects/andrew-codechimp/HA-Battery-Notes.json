@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "andrew-codechimp/HA-Battery-Notes",
+  "link": "https://github.com/andrew-codechimp/HA-Battery-Notes",
+  "name": "HA-Battery-Notes",
+  "desc": "A Home Assistant integration to provide battery details of devices",
+  "githubName": "HA-Battery-Notes",
+  "githubDescription": "A Home Assistant integration to provide battery details of devices",
+  "weight": 1153,
+  "image": null,
+  "tags": [
+    "hacs",
+    "hacs-integration",
+    "home-assistant",
+    "homeassistant",
+    "homeassistant-custom-component",
+    "homeassistant-integration"
+  ],
+  "history": [
+    {
+      "date": "2026-08-29",
+      "stars": 1153
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 1154,
+      "forks": 129,
+      "openIssues": 8
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 1155,
+      "forks": 130,
+      "openIssues": 8
+    }
+  ]
+}

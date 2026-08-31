@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "id": "Significant-Gravitas/AutoGPT",
+  "link": "https://agpt.co",
+  "name": "AutoGPT",
+  "desc": "A platform for creating and running autonomous AI agents",
+  "githubName": "AutoGPT",
+  "githubDescription": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+  "weight": 186876,
+  "image": "https://avatars.githubusercontent.com/u/130738209?v=4",
+  "tags": [
+    "agentic-ai",
+    "agents",
+    "ai",
+    "artificial-intelligence",
+    "autonomous-agents",
+    "claude",
+    "gpt",
+    "llama-api",
+    "llm",
+    "openai",
+    "python"
+  ],
+  "history": [
+    {
+      "date": "2026-08-14",
+      "stars": 186615
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 186607
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 186629
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 186641
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 186661
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 186683
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 186692
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 186693
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 186739
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 186786
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 186838
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 186852
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 186875
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 186931
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 186962
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 186969
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 187013,
+      "forks": 46044,
+      "openIssues": 522
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 187027,
+      "forks": 46045,
+      "openIssues": 524
+    }
+  ]
+}

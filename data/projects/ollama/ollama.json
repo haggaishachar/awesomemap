@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "ollama/ollama",
+  "link": "https://ollama.com/",
+  "name": "Ollama",
+  "desc": "Get up and running with large language models locally",
+  "githubName": "ollama",
+  "githubDescription": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+  "weight": 179464,
+  "image": "https://raw.githubusercontent.com/ollama/ollama/main/docs/logo.svg",
+  "tags": [
+    "deepseek",
+    "gemma",
+    "gemma3",
+    "glm",
+    "go",
+    "golang",
+    "gpt-oss",
+    "llama",
+    "llama3",
+    "llm",
+    "llms",
+    "minimax",
+    "mistral",
+    "ollama",
+    "qwen"
+  ],
+  "history": [
+    {
+      "date": "2026-08-14",
+      "stars": 178510
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 178524
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 178628
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 178738
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 178838
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 178921
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 179007
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 179082
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 179142
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 179226
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 179300
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 179371
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 179442
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 179563
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 179645
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 179699
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 179791,
+      "forks": 17617,
+      "openIssues": 3854
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 179826,
+      "forks": 17617,
+      "openIssues": 3855
+    }
+  ]
+}

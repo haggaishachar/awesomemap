@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "odoo/odoo",
+  "link": "https://www.odoo.com",
+  "name": "Odoo",
+  "desc": "Suite of open-source business applications for running a company",
+  "githubName": "odoo",
+  "githubDescription": "Odoo. Open Source Apps To Grow Your Business.",
+  "weight": 53957,
+  "image": "https://avatars.githubusercontent.com/u/6368483?v=4",
+  "tags": [
+    "apps",
+    "business",
+    "erp",
+    "management",
+    "odoo",
+    "odoo-apps",
+    "python"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 53830
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 53848
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 53867
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 53899
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 53924
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 53953
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 53987
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 54012
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 54024
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 54047,
+      "forks": 33566,
+      "openIssues": 10370
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 54071,
+      "forks": 33575,
+      "openIssues": 10353
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "getsentry/sentry",
+  "link": "https://sentry.io/",
+  "name": "Sentry",
+  "desc": "Developer-first error tracking and performance monitoring for mobile and other platforms",
+  "githubName": "sentry",
+  "githubDescription": "Developer-first error tracking and performance monitoring",
+  "weight": 44621,
+  "image": "https://avatars.githubusercontent.com/u/1396951?v=4",
+  "tags": [
+    "apm",
+    "crash-reporting",
+    "crash-reports",
+    "csp-report",
+    "devops",
+    "django",
+    "error-logging",
+    "error-monitoring",
+    "fair-source",
+    "hacktoberfest",
+    "monitor",
+    "monitoring",
+    "python",
+    "sentry",
+    "tag-production"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 44486
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 44490
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 44510
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 44521
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 44533
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 44542
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 44541
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 44547
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 44556
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 44559
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 44566
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 44573
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 44578
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 44587
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 44591
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 44601
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 44608
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 44612
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 44619
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 44629
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 44639
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 44651
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 44658,
+      "forks": 4826,
+      "openIssues": 2234
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 44688,
+      "forks": 4829,
+      "openIssues": 2230
+    }
+  ]
+}

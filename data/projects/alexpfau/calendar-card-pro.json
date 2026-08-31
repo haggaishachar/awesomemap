@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "alexpfau/calendar-card-pro",
+  "link": "https://github.com/alexpfau/calendar-card-pro",
+  "name": "calendar-card-pro",
+  "desc": "📅 A sleek and highly customizable calendar card for Home Assistant, designed for performance and a clean, modern look.",
+  "githubName": "calendar-card-pro",
+  "githubDescription": "📅 A sleek and highly customizable calendar card for Home Assistant, designed for performance and a clean, modern look.",
+  "weight": 1192,
+  "image": null,
+  "tags": [
+    "calendar",
+    "card",
+    "custom-card",
+    "hacs",
+    "home-assistant",
+    "homeassistant",
+    "lovelace"
+  ],
+  "history": [
+    {
+      "date": "2026-08-30",
+      "stars": 1192,
+      "forks": 97,
+      "openIssues": 63
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 1194,
+      "forks": 97,
+      "openIssues": 63
+    }
+  ]
+}

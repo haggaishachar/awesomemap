@@ -1,18 +1,18 @@
 #!/usr/bin/env node
-import { readdirSync, readFileSync, writeFileSync, mkdirSync, copyFileSync, rmSync, cpSync, existsSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, copyFileSync, rmSync, cpSync } from "node:fs";
 import { buildTree } from "./build-tree.mjs";
 import { renderDomainPage, renderLandingPage, renderRisingPage, renderTagsIndexPage, renderTagPage, renderProjectPage, renderComparePage, tagSlug } from "./render-page.mjs";
 import { buildCompareRecord, buildCompareIndex } from "./compare-index.mjs";
 import { explainSignal } from "./signal.mjs";
-import { starHistoryFor } from "../app/shared/star-history.js";
+import { sortedHistory } from "../app/shared/star-history.js";
 import { computeProjectSizing, findInvalidSizes, RISING_WINDOWS_DAYS } from "./velocity.mjs";
 import { computeLeaderboard } from "./leaderboard.mjs";
 import { computeGroupGrowth, rankGroups } from "./group-growth.mjs";
 import { buildTagGroups, computeTopTags, computeRisingTags } from "./tag-growth.mjs";
 import { pickTodaysSignals } from "./todays-signals.mjs";
 import { buildSitemap, buildRobots } from "./seo.mjs";
+import { loadAllDomains, loadAllProjectEntities, joinDomainProjects } from "./data-store.mjs";
 
-const DATA_DIR = "data";
 const DIST_DIR = "dist";
 const APP_DIR = "app";
 const LEADERBOARD_LIMIT = 20;
@@ -47,50 +47,42 @@ const DEFAULT_OG_IMAGE = `${SITE_URL}${BASE_PATH}/og-default.png`;
 rmSync(DIST_DIR, { recursive: true, force: true });
 mkdirSync(DIST_DIR, { recursive: true });
 
-const domainFiles = readdirSync(DATA_DIR).filter((name) => name.endsWith(".json"));
+// Pass 1: load every domain + project entity (data-store.mjs), validate,
+// join, and size every domain's projects. Collects the full set of domains
+// before any page is rendered — the Rising page's global leaderboard (Pass
+// 2) spans every domain, so it can't be computed incrementally inside a
+// single per-domain loop the way sizing can.
+const rawDomains = loadAllDomains();
+const projectEntities = loadAllProjectEntities();
 
-// Pass 1: parse, validate, and size every domain. Collects the full set of
-// domains + history before any page is rendered — the Rising page's global
-// leaderboard (Pass 2) spans every domain, so it can't be computed
-// incrementally inside a single per-domain loop the way sizing can.
 const parsedDomains = [];
-const historyBySlug = {};
-const seenSlugs = new Map();
+const seenSlugs = new Set();
 
-for (const file of domainFiles) {
-  const domainPath = `${DATA_DIR}/${file}`;
-  let domain;
-  try {
-    domain = JSON.parse(readFileSync(domainPath, "utf8"));
-  } catch (err) {
-    throw new Error(`${domainPath}: invalid JSON — ${err.message}`);
-  }
+for (const domain of rawDomains) {
+  const domainPath = `data/domains/${domain.slug}.json`;
   const slug = domain.slug;
 
   if (typeof slug !== "string" || slug.length === 0 || !/^[a-z0-9-]+$/.test(slug)) {
     throw new Error(`${domainPath}: "slug" must be a non-empty string matching /^[a-z0-9-]+$/, got ${JSON.stringify(slug)}`);
   }
   if (seenSlugs.has(slug)) {
-    throw new Error(`${domainPath}: duplicate slug "${slug}" (already used by ${seenSlugs.get(slug)})`);
+    throw new Error(`${domainPath}: duplicate slug "${slug}"`);
   }
-  seenSlugs.set(slug, domainPath);
+  seenSlugs.add(slug);
 
   if (!Array.isArray(domain.projects)) {
     throw new Error(`${domainPath}: "projects" must be an array`);
   }
-
   for (const project of domain.projects) {
     if (!project.id || !Array.isArray(project.path)) {
       throw new Error(`${domainPath}: project missing "id" or non-array "path": ${JSON.stringify(project)}`);
     }
   }
 
-  const historyPath = `${DATA_DIR}/history/${slug}.json`;
-  const projectHistory = existsSync(historyPath) ? JSON.parse(readFileSync(historyPath, "utf8")) : {};
-  historyBySlug[slug] = projectHistory;
+  const joined = joinDomainProjects(domain, projectEntities); // throws on a dangling id reference (no data/projects/ entity file)
 
-  const sizedProjects = domain.projects.map((project) => {
-    const { sizes, hasEnoughHistory, growth } = computeProjectSizing(project, projectHistory[project.id] ?? []);
+  const sizedProjects = joined.map((project) => {
+    const { sizes, hasEnoughHistory, growth } = computeProjectSizing(project, project.history ?? []);
     return { ...project, sizes, hasEnoughHistory, growth };
   });
 
@@ -102,7 +94,7 @@ for (const file of domainFiles) {
   // Project `image` values (when present) are already direct URLs into the
   // project's source repo — set by `enrich-domain.mjs` — so no local
   // resolution or copying is needed here.
-  parsedDomains.push({ ...domain, projects: sizedProjects, historyPath });
+  parsedDomains.push({ ...domain, projects: sizedProjects });
 }
 
 // Pass 2: compute every window's leaderboard (global + one per domain) from
@@ -111,10 +103,10 @@ for (const file of domainFiles) {
 const leaderboardsByWindow = {};
 for (const windowDays of RISING_WINDOWS_DAYS) {
   const byScope = {
-    global: computeLeaderboard(parsedDomains, historyBySlug, { scope: "global", windowDays, limit: LEADERBOARD_LIMIT }),
+    global: computeLeaderboard(parsedDomains, { scope: "global", windowDays, limit: LEADERBOARD_LIMIT }),
   };
   for (const domain of parsedDomains) {
-    byScope[domain.slug] = computeLeaderboard(parsedDomains, historyBySlug, { scope: domain.slug, windowDays, limit: LEADERBOARD_LIMIT });
+    byScope[domain.slug] = computeLeaderboard(parsedDomains, { scope: domain.slug, windowDays, limit: LEADERBOARD_LIMIT });
   }
   leaderboardsByWindow[windowDays] = byScope;
 }
@@ -127,7 +119,7 @@ const domainGrowthByWindow = {};
 for (const windowDays of RISING_WINDOWS_DAYS) {
   const bySlug = {};
   for (const domain of parsedDomains) {
-    bySlug[domain.slug] = computeGroupGrowth(domain.projects, historyBySlug[domain.slug], windowDays);
+    bySlug[domain.slug] = computeGroupGrowth(domain.projects, windowDays);
   }
   domainGrowthByWindow[windowDays] = bySlug;
 }
@@ -146,7 +138,7 @@ for (const domain of parsedDomains) {
   }
   const groups = [...byCategory].map(([category, projects]) => ({
     key: category,
-    growth: computeGroupGrowth(projects, historyBySlug[domain.slug], MOMENTUM_WINDOW_DAYS),
+    growth: computeGroupGrowth(projects, MOMENTUM_WINDOW_DAYS),
   }));
   categoryGrowthBySlug[domain.slug] = rankGroups(groups);
 }
@@ -162,7 +154,7 @@ const domainRisingTagsBySlug = {};
 for (const domain of parsedDomains) {
   const tagGroups = buildTagGroups(domain.projects);
   domainTopTagsBySlug[domain.slug] = computeTopTags(tagGroups, { limit: TAG_WIDGET_LIMIT });
-  domainRisingTagsBySlug[domain.slug] = computeRisingTags(tagGroups, historyBySlug[domain.slug], MOMENTUM_WINDOW_DAYS, { limit: TAG_WIDGET_LIMIT });
+  domainRisingTagsBySlug[domain.slug] = computeRisingTags(tagGroups, MOMENTUM_WINDOW_DAYS, { limit: TAG_WIDGET_LIMIT });
 }
 
 // Global tag groups additionally carry each project's originating domain
@@ -171,9 +163,11 @@ for (const domain of parsedDomains) {
 // Dedupe by id: a project curated into more than one domain would otherwise
 // be double-counted in every global tag group it lands in — fabricating
 // tag pages that only clear MIN_PROJECTS_PER_TAG via the duplicate, and
-// doubling totalStars/growth on every group containing one. Same
-// last-write-wins simplification globalHistoryById already applies below,
-// extended to project identity.
+// doubling totalStars/growth on every group containing one. Each project
+// entity has exactly one `history` regardless of which domain(s) reference
+// it (data-store.mjs's join), so unlike before the refactor there's no
+// separate history map to merge here — last-write-wins only applies to the
+// (identical) entity fields themselves on the rare id collision.
 const allProjectsWithDomain = [
   ...new Map(
     parsedDomains.flatMap((domain) =>
@@ -181,18 +175,11 @@ const allProjectsWithDomain = [
     )
   ).values(),
 ];
-// A project curated into more than one domain is the same GitHub repo
-// regardless of which domain's history file recorded it, so merging here
-// (last write wins on the rare collision) is a reasonable simplification
-// for a group-level growth figure — unlike leaderboard.mjs's global scope,
-// which must keep a project's single best-scoring domain listing, nothing
-// here needs to trace a stat back to one specific domain's copy.
-const globalHistoryById = Object.assign({}, ...Object.values(historyBySlug));
 const globalTagGroups = buildTagGroups(allProjectsWithDomain);
 const globalTopTags = computeTopTags(globalTagGroups, { limit: TAGS_INDEX_LIMIT });
 const globalRisingTagsByWindow = {};
 for (const windowDays of RISING_WINDOWS_DAYS) {
-  globalRisingTagsByWindow[windowDays] = computeRisingTags(globalTagGroups, globalHistoryById, windowDays, { limit: TAGS_INDEX_LIMIT });
+  globalRisingTagsByWindow[windowDays] = computeRisingTags(globalTagGroups, windowDays, { limit: TAGS_INDEX_LIMIT });
 }
 
 // Pass 3: render every domain's full page, embed page, and history.json,
@@ -200,7 +187,7 @@ for (const windowDays of RISING_WINDOWS_DAYS) {
 const domains = [];
 
 for (const domain of parsedDomains) {
-  const { slug, historyPath } = domain;
+  const { slug } = domain;
 
   // Each project's rank on its own domain's leaderboard, per window — the
   // "#3 rising in AI" context the detail panel shows. Stored per window (not
@@ -212,9 +199,16 @@ for (const domain of parsedDomains) {
       const entry = leaderboardsByWindow[windowDays][slug].find((row) => row.id === project.id);
       domainRank[`rising${windowDays}`] = entry ? entry.rank : null;
     }
+    // `history` is dropped here rather than carried onto the leaf — it's a
+    // per-day series that can run to ~120 entries, and this object is what
+    // buildTree embeds directly into the domain page's `<script
+    // id="map-data">` payload (see render-page.mjs). It ships separately as
+    // this domain's history.json (below), fetched lazily by the detail
+    // panel instead of bloating every page load.
+    const { history, ...rest } = project;
     // The short domain name rides along on the leaf so the detail panel can
     // name the domain a project ranks in without needing the domain record.
-    return { ...project, domainRank, domainShort: domain.shortName ?? domain.name };
+    return { ...rest, domainRank, domainShort: domain.shortName ?? domain.name };
   });
 
   const tree = buildTree(rankedProjects, { id: slug, name: domain.name });
@@ -223,14 +217,13 @@ for (const domain of parsedDomains) {
   mkdirSync(`${DIST_DIR}/${slug}`, { recursive: true });
   mkdirSync(`${DIST_DIR}/embed/${slug}`, { recursive: true });
 
-  // Ships the raw per-repo history (already loaded in Pass 1) to the
-  // client as-is, so the detail panel can fetch it on demand to draw a
-  // leaf's star-history sparkline. Skipped when the domain has no history
-  // file yet — the panel's fetch fails gracefully in that case (see
-  // render-page.mjs).
-  if (existsSync(historyPath)) {
-    copyFileSync(historyPath, `${DIST_DIR}/${slug}/history.json`);
-  }
+  // Ships each project's own raw history (already loaded in Pass 1) to the
+  // client, keyed by id — the same shape a pre-refactor
+  // data/history/<slug>.json had — so the detail panel can fetch it on
+  // demand to draw a leaf's star-history sparkline, unchanged.
+  const historyBlob = {};
+  for (const project of domain.projects) historyBlob[project.id] = project.history ?? [];
+  writeFileSync(`${DIST_DIR}/${slug}/history.json`, JSON.stringify(historyBlob));
 
   writeFileSync(
     `${DIST_DIR}/${slug}/index.html`,
@@ -267,7 +260,7 @@ for (const domain of parsedDomains) {
 // being the best percentDelta overall. A fresh, uncapped call is cheap at
 // this repo's scale and keeps LEADERBOARD_LIMIT (the /rising/ page's own
 // per-section row count) untouched.
-const globalSignalsPool = computeLeaderboard(parsedDomains, historyBySlug, { scope: "global", windowDays: TEASER_WINDOW_DAYS, limit: Infinity });
+const globalSignalsPool = computeLeaderboard(parsedDomains, { scope: "global", windowDays: TEASER_WINDOW_DAYS, limit: Infinity });
 const todaysSignals = pickTodaysSignals(globalSignalsPool);
 writeFileSync(
   `${DIST_DIR}/index.html`,
@@ -306,7 +299,7 @@ writeFileSync(
 const tagPagePaths = [];
 for (const { tag, projects } of globalTagGroups) {
   const sortedProjects = [...projects].sort((a, b) => (b.weight ?? 0) - (a.weight ?? 0));
-  const tagGrowth = computeGroupGrowth(sortedProjects, globalHistoryById, MOMENTUM_WINDOW_DAYS);
+  const tagGrowth = computeGroupGrowth(sortedProjects, MOMENTUM_WINDOW_DAYS);
   const slug = tagSlug(tag);
   mkdirSync(`${DIST_DIR}/tags/${slug}`, { recursive: true });
   writeFileSync(
@@ -342,7 +335,7 @@ for (const project of allProjectsWithDomain) {
     categoryGrowth7d: categoryEntry?.growth,
     categoryName: categoryEntry?.key,
   });
-  const historySeries = starHistoryFor(globalHistoryById, project.id);
+  const historySeries = sortedHistory(project.history);
   compareRecords.push(buildCompareRecord(project, { historySeries, signalHeadline: signal.headline }));
 
   // `allProjectsWithDomain` already carries `domainSlug`/`domainShort`

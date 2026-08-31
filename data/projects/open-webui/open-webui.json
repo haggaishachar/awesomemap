@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "open-webui/open-webui",
+  "link": "https://openwebui.com/",
+  "name": "Open WebUI",
+  "desc": "Extensible, self-hosted AI interface for LLMs",
+  "githubName": "open-webui",
+  "githubDescription": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+  "weight": 149957,
+  "image": "https://avatars.githubusercontent.com/u/158137808?v=4",
+  "tags": [
+    "ai",
+    "llm",
+    "llm-ui",
+    "llm-webui",
+    "llms",
+    "mcp",
+    "ollama",
+    "ollama-webui",
+    "open-webui",
+    "openai",
+    "openapi",
+    "rag",
+    "self-hosted",
+    "ui",
+    "webui"
+  ],
+  "history": [
+    {
+      "date": "2026-08-14",
+      "stars": 148746
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 148812
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 148891
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 148976
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 149082
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 149191
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 149311
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 149420
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 149533
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 149611
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 149714
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 149827
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 149942
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 150114
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 150232
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 150291
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 150419,
+      "forks": 21957,
+      "openIssues": 233
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 150483,
+      "forks": 21969,
+      "openIssues": 201
+    }
+  ]
+}

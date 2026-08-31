@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "activeloopai/deeplake",
+  "link": "https://github.com/activeloopai/deeplake",
+  "name": "deeplake",
+  "desc": "Deeplake is AI Data Runtime for Agents. It provides serverless postgres with a multimodal datalake, enabling scalable retrieval and training.",
+  "githubName": "deeplake",
+  "githubDescription": "Deeplake is AI Data Runtime for Agents. It provides serverless postgres with a multimodal datalake, enabling scalable retrieval and training.",
+  "weight": 9228,
+  "image": "https://avatars.githubusercontent.com/u/34816118?v=4",
+  "tags": [
+    "agent",
+    "agentic-rag",
+    "ai",
+    "clawbot",
+    "computer-vision",
+    "datalake",
+    "deep-learning",
+    "filesystem",
+    "large-language-models",
+    "llm",
+    "memory",
+    "mlops",
+    "multimodal",
+    "openclaw",
+    "postgres",
+    "pytorch",
+    "rag",
+    "skill",
+    "vector-database"
+  ],
+  "history": [
+    {
+      "date": "2026-08-27",
+      "stars": 9228
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 9230
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 9230
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 9229,
+      "forks": 724,
+      "openIssues": 66
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 9228,
+      "forks": 724,
+      "openIssues": 66
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "google/sentencepiece",
+  "link": "https://github.com/google/sentencepiece",
+  "name": "sentencepiece",
+  "desc": "Unsupervised text tokenizer for Neural Network-based text generation.",
+  "githubName": "sentencepiece",
+  "githubDescription": "Unsupervised text tokenizer for Neural Network-based text generation.",
+  "weight": 12046,
+  "image": "https://avatars.githubusercontent.com/u/1342004?v=4",
+  "tags": [
+    "natural-language-processing",
+    "neural-machine-translation",
+    "word-segmentation"
+  ],
+  "history": [
+    {
+      "date": "2026-08-28",
+      "stars": 12049
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 12051
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 12052,
+      "forks": 1381,
+      "openIssues": 6
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 12052,
+      "forks": 1381,
+      "openIssues": 5
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "id": "ioBroker/ioBroker",
+  "link": "http://iobroker.net",
+  "name": "ioBroker",
+  "desc": "Integration platform for the Internet of Things",
+  "githubName": "ioBroker",
+  "githubDescription": "Automate your life!",
+  "weight": 1374,
+  "image": "https://avatars.githubusercontent.com/u/7231148?v=4",
+  "tags": [
+    "home-automation",
+    "iobroker",
+    "nodejs",
+    "smarthome"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 1373
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 1373
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 1374
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 1374
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 1374
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 1374
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 1374
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 1374
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 1374
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 1374,
+      "forks": 160,
+      "openIssues": 40
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 1374,
+      "forks": 160,
+      "openIssues": 38
+    }
+  ]
+}

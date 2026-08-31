@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "frappe/erpnext",
+  "link": "https://frappe.io/erpnext",
+  "name": "ERPNext",
+  "desc": "Free and open-source enterprise resource planning system",
+  "githubName": "erpnext",
+  "githubDescription": "Free and Open Source Enterprise Resource Planning (ERP)",
+  "weight": 38514,
+  "image": "https://avatars.githubusercontent.com/u/836974?v=4",
+  "tags": [
+    "accounting",
+    "asset-management",
+    "crm",
+    "distribution",
+    "erp",
+    "erpnext",
+    "frappe",
+    "healthcare",
+    "hrms",
+    "manufacturing",
+    "point-of-sale",
+    "procurement",
+    "project-management",
+    "python",
+    "retail",
+    "support"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 38326
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 38352
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 38396
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 38430
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 38461
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 38513
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 38570
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 38603
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 38628
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 38680,
+      "forks": 12651,
+      "openIssues": 1819
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 38718,
+      "forks": 12659,
+      "openIssues": 1809
+    }
+  ]
+}

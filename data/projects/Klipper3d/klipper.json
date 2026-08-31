@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "Klipper3d/klipper",
+  "link": "https://github.com/Klipper3d/klipper",
+  "name": "Klipper",
+  "desc": "3D printer firmware for fast, high-precision printing",
+  "githubName": "klipper",
+  "githubDescription": "Klipper is a 3d-printer firmware",
+  "weight": 11844,
+  "image": "https://avatars.githubusercontent.com/u/90982958?v=4",
+  "tags": [],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 11829
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 11830
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 11835
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 11835
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 11838
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 11843
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 11846
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 11847
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 11848
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 11855,
+      "forks": 5939,
+      "openIssues": 243
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 11856,
+      "forks": 5938,
+      "openIssues": 243
+    }
+  ]
+}

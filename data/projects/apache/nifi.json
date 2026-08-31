@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "apache/nifi",
+  "link": "https://nifi.apache.org/",
+  "name": "Apache NiFi",
+  "desc": "Easy-to-use, powerful system to process and distribute data",
+  "githubName": "nifi",
+  "githubDescription": "Apache NiFi",
+  "weight": 6208,
+  "image": "https://avatars.githubusercontent.com/u/47359?v=4",
+  "tags": [
+    "apache",
+    "hacktoberfest",
+    "java",
+    "nifi"
+  ],
+  "history": [
+    {
+      "date": "2026-08-13",
+      "stars": 6191
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 6191
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 6191
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 6194
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 6197
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 6198
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 6199
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 6200
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 6203
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 6205
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 6207
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 6207
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 6207
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 6208
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 6209
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 6210
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 6211
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 6211,
+      "forks": 2974,
+      "openIssues": 34
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 6211,
+      "forks": 2974,
+      "openIssues": 31
+    }
+  ]
+}

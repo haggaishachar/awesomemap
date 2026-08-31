@@ -1,9 +1,8 @@
-import { readdirSync, readFileSync, existsSync, writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 import { computeLeaderboard } from "./leaderboard.mjs";
+import { loadAllDomains, loadAllProjectEntities, joinDomainProjects } from "./data-store.mjs";
 
-const DATA_DIR = "data";
-const HISTORY_DIR = "data/history";
 const WINDOW_DAYS = 7;
 const LIMIT = 5;
 
@@ -66,23 +65,18 @@ export function updateReadme(readme, sectionMarkdown, { startMarker = README_RIS
 }
 
 // CLI entry point: node scripts/social-digest.mjs
-// Reads every data/<slug>.json + data/history/<slug>.json, computes the
-// week's top risers, and opens a GitHub issue with the digest so it's
+// Reads every data/domains/<slug>.json + data/projects/**/*.json, computes
+// the week's top risers, and opens a GitHub issue with the digest so it's
 // public content ready to reuse for social posts — no external
 // credentials needed, same GITHUB_TOKEN pattern as snapshot-history.mjs.
 // Thin I/O orchestration, not unit tested (same convention as
 // generate.mjs's main()).
 function main() {
-  const domainFiles = readdirSync(DATA_DIR).filter((name) => name.endsWith(".json"));
-  const domains = domainFiles.map((file) => JSON.parse(readFileSync(`${DATA_DIR}/${file}`, "utf8")));
+  const rawDomains = loadAllDomains();
+  const projectEntities = loadAllProjectEntities();
+  const domains = rawDomains.map((domain) => ({ ...domain, projects: joinDomainProjects(domain, projectEntities) }));
 
-  const historyBySlug = {};
-  for (const domain of domains) {
-    const historyPath = `${HISTORY_DIR}/${domain.slug}.json`;
-    historyBySlug[domain.slug] = existsSync(historyPath) ? JSON.parse(readFileSync(historyPath, "utf8")) : {};
-  }
-
-  const risers = computeLeaderboard(domains, historyBySlug, { scope: "global", windowDays: WINDOW_DAYS, limit: LIMIT });
+  const risers = computeLeaderboard(domains, { scope: "global", windowDays: WINDOW_DAYS, limit: LIMIT });
   const body = formatDigest(risers, {});
 
   const readmePath = "README.md";

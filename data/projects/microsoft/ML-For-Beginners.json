@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "microsoft/ML-For-Beginners",
+  "link": "https://github.com/microsoft/ML-For-Beginners",
+  "name": "ML-For-Beginners",
+  "desc": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
+  "githubName": "ML-For-Beginners",
+  "githubDescription": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
+  "weight": 89817,
+  "image": "https://avatars.githubusercontent.com/u/6154722?v=4",
+  "tags": [
+    "data-science",
+    "education",
+    "machine-learning",
+    "machine-learning-algorithms",
+    "machinelearning",
+    "machinelearning-python",
+    "microsoft-for-beginners",
+    "ml",
+    "python",
+    "r",
+    "scikit-learn",
+    "scikit-learn-python"
+  ],
+  "history": [
+    {
+      "date": "2026-08-26",
+      "stars": 89808
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 89840
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 89868
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 89882
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 89935,
+      "forks": 22125,
+      "openIssues": 13
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 89961,
+      "forks": 22130,
+      "openIssues": 13
+    }
+  ]
+}

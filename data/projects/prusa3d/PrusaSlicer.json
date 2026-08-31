@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "prusa3d/PrusaSlicer",
+  "link": "https://www.prusa3d.com/prusaslicer/",
+  "name": "PrusaSlicer",
+  "desc": "G-code generator and slicer for 3D printers",
+  "githubName": "PrusaSlicer",
+  "githubDescription": "G-code generator for 3D printers (RepRap, Makerbot, Ultimaker etc.)",
+  "weight": 9243,
+  "image": "https://avatars.githubusercontent.com/u/14859759?v=4",
+  "tags": [],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 9242
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 9240
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 9242
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 9242
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 9244
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 9245
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 9247
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 9251
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 9251
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 9250,
+      "forks": 2318,
+      "openIssues": 5717
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 9251,
+      "forks": 2318,
+      "openIssues": 5718
+    }
+  ]
+}

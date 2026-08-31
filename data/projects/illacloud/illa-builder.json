@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "illacloud/illa-builder",
+  "link": "https://github.com/illacloud/illa-builder",
+  "name": "ILLA Builder",
+  "desc": "Low-code platform for building internal business apps",
+  "githubName": "illa-builder",
+  "githubDescription": "Low-code platform allows you to build business apps, enables you to quickly create internal tools such as dashboard, crud app, admin panel, crm, cms, etc. Supports PostgreSQL, MySQL, Supabase, GraphQL, MongoDB, MSSQL, Rest API, Hugging Face, Redis, etc. Automate workflows with schedule or webhook. Open source Retool. ",
+  "weight": 12311,
+  "image": "https://avatars.githubusercontent.com/u/93245159?v=4",
+  "tags": [
+    "aiagent",
+    "app-builder",
+    "crud-application",
+    "developer-tool",
+    "developer-tools",
+    "gui",
+    "hacktoberfest",
+    "internal-development",
+    "internal-tool",
+    "internal-tools",
+    "low-code",
+    "low-code-development-platform",
+    "lowcode",
+    "react",
+    "self-hosted",
+    "typescript"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 12310
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 12310
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 12310
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 12310
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 12310
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 12311
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 12312
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 12312
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 12312
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 12311,
+      "forks": 1207,
+      "openIssues": 43
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 12311,
+      "forks": 1207,
+      "openIssues": 43
+    }
+  ]
+}

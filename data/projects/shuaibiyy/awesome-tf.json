@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "shuaibiyy/awesome-tf",
+  "link": "https://github.com/shuaibiyy/awesome-tf",
+  "name": "awesome-tf",
+  "desc": "Curated list of resources on HashiCorp's Terraform and OpenTofu",
+  "githubName": "awesome-tf",
+  "githubDescription": "Curated list of resources on HashiCorp's Terraform and OpenTofu",
+  "weight": 6580,
+  "image": null,
+  "tags": [
+    "awesome",
+    "awesome-list",
+    "devops",
+    "hashicorp-terraform",
+    "infrastructure-as-code",
+    "opentofu",
+    "terraform",
+    "terraform-modules"
+  ],
+  "history": [
+    {
+      "date": "2026-08-27",
+      "stars": 6582
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 6582
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 6582
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 6581,
+      "forks": 1053,
+      "openIssues": 10
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 6581,
+      "forks": 1056,
+      "openIssues": 10
+    }
+  ]
+}

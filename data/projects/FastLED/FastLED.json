@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "FastLED/FastLED",
+  "link": "https://github.com/FastLED/FastLED",
+  "name": "FastLED",
+  "desc": "The FastLED library for colored LED animation on Arduino.  Please direct questions/requests for help to the FastLED Reddit community: http://fastled.io/r   We'd like to use github \"issues\" just for tracking library bugs / enhancements. ",
+  "githubName": "FastLED",
+  "githubDescription": "The FastLED library for colored LED animation on Arduino.  Please direct questions/requests for help to the FastLED Reddit community: http://fastled.io/r   We'd like to use github \"issues\" just for tracking library bugs / enhancements. ",
+  "weight": 7476,
+  "image": "https://avatars.githubusercontent.com/u/5899270?v=4",
+  "tags": [
+    "addressable-leds",
+    "apa102",
+    "arduino",
+    "embedded",
+    "esp32",
+    "led",
+    "teensy",
+    "ws2812"
+  ],
+  "history": [
+    {
+      "date": "2026-08-27",
+      "stars": 7477
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 7477
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 7477
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 7478,
+      "forks": 1757,
+      "openIssues": 221
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 7478,
+      "forks": 1757,
+      "openIssues": 201
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "numpy/numpy",
+  "link": "https://numpy.org/",
+  "name": "NumPy",
+  "desc": "The fundamental package for array computing in Python",
+  "githubName": "numpy",
+  "githubDescription": "The fundamental package for scientific computing with Python.",
+  "weight": 32601,
+  "image": "https://avatars.githubusercontent.com/u/288276?v=4",
+  "tags": [
+    "numpy",
+    "python"
+  ],
+  "history": [
+    {
+      "date": "2026-08-13",
+      "stars": 32531
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 32533
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 32544
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 32543
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 32544
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 32548
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 32554
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 32561
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 32571
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 32579
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 32586
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 32590
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 32597
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 32602
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 32612
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 32621
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 32627
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 32633,
+      "forks": 12693,
+      "openIssues": 2342
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 32636,
+      "forks": 12697,
+      "openIssues": 2340
+    }
+  ]
+}

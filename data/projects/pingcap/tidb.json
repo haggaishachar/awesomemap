@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "pingcap/tidb",
+  "link": "https://github.com/pingcap/tidb",
+  "name": "tidb",
+  "desc": "TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling.",
+  "githubName": "tidb",
+  "githubDescription": "TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling.",
+  "weight": 40472,
+  "image": "https://avatars.githubusercontent.com/u/11855343?v=4",
+  "tags": [
+    "agent",
+    "agent-context",
+    "agent-memory",
+    "agentic",
+    "ai",
+    "cloud-native",
+    "database",
+    "distributed-database",
+    "distributed-transactions",
+    "go",
+    "hacktoberfest",
+    "htap",
+    "memory",
+    "mysql",
+    "mysql-compatibility",
+    "scale",
+    "serverless",
+    "sql",
+    "tidb"
+  ],
+  "history": [
+    {
+      "date": "2026-08-26",
+      "stars": 40472
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 40475
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 40478
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 40478
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 40477,
+      "forks": 6232,
+      "openIssues": 6835
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 40477,
+      "forks": 6234,
+      "openIssues": 6845
+    }
+  ]
+}

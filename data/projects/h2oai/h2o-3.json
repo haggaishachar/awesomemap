@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "h2oai/h2o-3",
+  "link": "https://www.h2o.ai/",
+  "name": "H2O",
+  "desc": "Fast Scalable Machine Learning For Smarter Applications",
+  "githubName": "h2o-3",
+  "githubDescription": "H2O is an Open Source, Distributed, Fast & Scalable Machine Learning Platform: Deep Learning, Gradient Boosting (GBM) & XGBoost, Random Forest, Generalized Linear Modeling (GLM with Elastic Net), K-Means, PCA, Generalized Additive Models (GAM), RuleFit, Support Vector Machine (SVM), Stacked Ensembles, Automatic Machine Learning (AutoML), etc.",
+  "weight": 7494,
+  "image": "https://avatars.githubusercontent.com/u/1402695?v=4",
+  "tags": [
+    "automl",
+    "big-data",
+    "data-science",
+    "deep-learning",
+    "distributed",
+    "ensemble-learning",
+    "gbm",
+    "gpu",
+    "h2o",
+    "h2o-automl",
+    "hadoop",
+    "java",
+    "machine-learning",
+    "naive-bayes",
+    "opensource",
+    "pca",
+    "python",
+    "r",
+    "random-forest",
+    "spark"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 7505
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 7505
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 7505
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 7505
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 7505
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 7505
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 7504
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 7504
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 7503
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 7495
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 7494
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 7492
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 7495
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 7495
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 7495
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 7495
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 7495
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 7495
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 7495
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 7494
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 7495
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 7496
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 7497,
+      "forks": 2024,
+      "openIssues": 2883
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 7497,
+      "forks": 2024,
+      "openIssues": 2883
+    }
+  ]
+}

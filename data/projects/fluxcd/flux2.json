@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "fluxcd/flux2",
+  "link": "https://fluxcd.io/",
+  "name": "Flux",
+  "desc": "Open and extensible continuous delivery solution for Kubernetes, powered by GitOps",
+  "githubName": "flux2",
+  "githubDescription": "Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit.",
+  "weight": 8372,
+  "image": "https://avatars.githubusercontent.com/u/52158677?v=4",
+  "tags": [
+    "continuous-delivery",
+    "gitops",
+    "gitops-toolkit",
+    "helm",
+    "kubernetes",
+    "kustomize"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 8321
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 8323
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 8325
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 8325
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 8325
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 8333
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 8335
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 8334
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 8334
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 8336
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 8342
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 8351
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 8356
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 8360
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 8362
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 8363
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 8367
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 8370
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 8372
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 8373
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 8374
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 8375
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 8376,
+      "forks": 778,
+      "openIssues": 254
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 8376,
+      "forks": 778,
+      "openIssues": 255
+    }
+  ]
+}

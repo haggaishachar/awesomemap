@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "MycroftAI/mycroft-core",
+  "link": "https://mycroft.ai",
+  "name": "Mycroft",
+  "desc": "Open-source voice assistant platform",
+  "githubName": "mycroft-core",
+  "githubDescription": "Mycroft Core, the Mycroft Artificial Intelligence platform. ",
+  "weight": 6611,
+  "image": "https://avatars.githubusercontent.com/u/14171097?v=4",
+  "tags": [
+    "ai",
+    "arch",
+    "artificial-intelligence",
+    "fedora",
+    "hacktoberfest",
+    "linux",
+    "natural-language",
+    "natural-language-processing",
+    "nlp",
+    "open-source",
+    "oss",
+    "personal-assistant",
+    "python",
+    "raspberry-pi",
+    "skills",
+    "voice-as-an-interface",
+    "voice-assistant"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 6610
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 6610
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 6610
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 6611
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 6611
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 6611
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 6611
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 6611
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 6611
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 6611,
+      "forks": 1292,
+      "openIssues": 1
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 6611,
+      "forks": 1292,
+      "openIssues": 1
+    }
+  ]
+}

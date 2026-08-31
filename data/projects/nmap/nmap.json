@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "nmap/nmap",
+  "link": "https://nmap.org/",
+  "name": "Nmap",
+  "desc": "The Network Mapper - free network discovery and security auditing utility",
+  "githubName": "nmap",
+  "githubDescription": "Nmap - the Network Mapper. Github mirror of official SVN repository.",
+  "weight": 13461,
+  "image": "https://avatars.githubusercontent.com/u/63385?v=4",
+  "tags": [
+    "asynchronous",
+    "c-plus-plus",
+    "libpcap",
+    "linux",
+    "lua",
+    "machine-learning",
+    "netcat",
+    "network-discovery",
+    "nmap",
+    "osx",
+    "pcre",
+    "ping",
+    "port-scanner",
+    "security",
+    "service-discovery",
+    "socket",
+    "windows"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 13321
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 13327
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 13334
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 13337
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 13339
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 13346
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 13350
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 13356
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 13363
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 13365
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 13376
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 13385
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 13393
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 13400
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 13403
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 13413
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 13431
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 13445
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 13456
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 13469
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 13473
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 13480
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 13487,
+      "forks": 2892,
+      "openIssues": 675
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 13488,
+      "forks": 2892,
+      "openIssues": 675
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "apache/airflow",
+  "link": "https://airflow.apache.org/",
+  "name": "Apache Airflow",
+  "desc": "Platform to programmatically author, schedule, and monitor workflows",
+  "githubName": "airflow",
+  "githubDescription": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
+  "weight": 46610,
+  "image": "https://avatars.githubusercontent.com/u/47359?v=4",
+  "tags": [
+    "airflow",
+    "apache",
+    "apache-airflow",
+    "automation",
+    "dag",
+    "data-engineering",
+    "data-integration",
+    "data-orchestrator",
+    "data-pipelines",
+    "data-science",
+    "elt",
+    "etl",
+    "machine-learning",
+    "mlops",
+    "orchestration",
+    "python",
+    "scheduler",
+    "workflow",
+    "workflow-engine",
+    "workflow-orchestration"
+  ],
+  "history": [
+    {
+      "date": "2026-08-13",
+      "stars": 46470
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 46477
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 46495
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 46505
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 46505
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 46518
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 46528
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 46543
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 46562
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 46575
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 46583
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 46590
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 46597
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 46608
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 46620
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 46629
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 46631
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 46647,
+      "forks": 17702,
+      "openIssues": 1985
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 46662,
+      "forks": 17709,
+      "openIssues": 2010
+    }
+  ]
+}

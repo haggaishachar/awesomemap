@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "lightgbm-org/LightGBM",
+  "link": "https://lightgbm.readthedocs.io/",
+  "name": "LightGBM",
+  "desc": "A fast, distributed, high-performance gradient boosting framework",
+  "githubName": "LightGBM",
+  "githubDescription": "A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks.",
+  "weight": 18714,
+  "image": "https://avatars.githubusercontent.com/u/266222920?v=4",
+  "tags": [
+    "data-mining",
+    "decision-trees",
+    "distributed",
+    "gbdt",
+    "gbm",
+    "gbrt",
+    "gradient-boosting",
+    "kaggle",
+    "lightgbm",
+    "machine-learning",
+    "parallel",
+    "python",
+    "r"
+  ],
+  "history": [
+    {
+      "date": "2026-08-13",
+      "stars": 18682
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 18683
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 18683
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 18687
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 18688
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 18691
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 18698
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 18701
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 18703
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 18707
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 18707
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 18709
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 18710
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 18714
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 18718
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 18721
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 18727
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 18729,
+      "forks": 4062,
+      "openIssues": 517
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 18731,
+      "forks": 4062,
+      "openIssues": 515
+    }
+  ]
+}

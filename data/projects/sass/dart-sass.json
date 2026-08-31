@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "sass/dart-sass",
+  "link": "https://sass-lang.com",
+  "name": "Sass",
+  "desc": "Dart implementation of Sass, a CSS preprocessor",
+  "githubName": "dart-sass",
+  "githubDescription": "The reference implementation of Sass, written in Dart.",
+  "weight": 4216,
+  "image": "https://avatars.githubusercontent.com/u/317889?v=4",
+  "tags": [
+    "css-preprocessor",
+    "dart",
+    "dart-sass",
+    "sass"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 4214
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 4214
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 4214
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 4215
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 4213
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 4214
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 4214
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 4214
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 4215
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 4215
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 4215
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 4215
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 4215
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 4214
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 4214
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 4214
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 4216
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 4216
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 4216
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 4216
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 4216
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 4216
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 4217,
+      "forks": 377,
+      "openIssues": 71
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 4217,
+      "forks": 377,
+      "openIssues": 71
+    }
+  ]
+}

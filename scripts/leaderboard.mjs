@@ -12,15 +12,14 @@ import { computeVelocity, MS_PER_DAY } from "./velocity.mjs";
  * deduped to its single best-scoring listing (ties keep whichever domain
  * was encountered first).
  */
-function collectCandidates(domains, historyBySlug, scope, windowDays, asOf) {
+function collectCandidates(domains, scope, windowDays, asOf) {
   const relevantDomains = scope === "global" ? domains : domains.filter((d) => d.slug === scope);
   const asOfDateStr = asOf.toISOString().slice(0, 10);
 
   const candidates = [];
   for (const domain of relevantDomains) {
-    const history = historyBySlug[domain.slug] ?? {};
     for (const project of domain.projects) {
-      const truncated = (history[project.id] ?? []).filter((entry) => entry.date <= asOfDateStr);
+      const truncated = (project.history ?? []).filter((entry) => entry.date <= asOfDateStr);
       const velocity = computeVelocity(truncated, windowDays, { now: asOf });
       if (!velocity.hasEnoughHistory) continue;
       // A leaderboard called "Rising"/"risers" must never surface a flat or
@@ -65,16 +64,17 @@ function rankCandidates(candidates) {
  * history to rank both today and "yesterday" (`now` minus one day) — so
  * every returned entry always has a real prior rank to diff against, and
  * there's no ambiguous "new entry" case to special-case downstream.
- * `domains` is the raw `data/<slug>.json` shape (each
- * `{ slug, name, projects }`); `historyBySlug` maps slug to that domain's
- * `data/history/<slug>.json` contents.
+ * `domains` is a domain list with each project already joined against its
+ * own entity (see data-store.mjs's `joinDomainProjects`) — each
+ * `{ slug, name, projects }`, where every project carries its own
+ * `history` array directly, no separate history-by-slug map needed.
  */
-export function computeLeaderboard(domains, historyBySlug, { scope, windowDays, limit = 20, now = new Date() }) {
+export function computeLeaderboard(domains, { scope, windowDays, limit = 20, now = new Date() }) {
   const nowDate = new Date(now);
   const yesterdayDate = new Date(nowDate.getTime() - MS_PER_DAY);
 
-  const todayCandidates = collectCandidates(domains, historyBySlug, scope, windowDays, nowDate);
-  const yesterdayCandidates = collectCandidates(domains, historyBySlug, scope, windowDays, yesterdayDate);
+  const todayCandidates = collectCandidates(domains, scope, windowDays, nowDate);
+  const yesterdayCandidates = collectCandidates(domains, scope, windowDays, yesterdayDate);
 
   // Intersect by id BEFORE ranking, so both today's and yesterday's ranks are
   // computed over the same population — otherwise rank numbers gap once

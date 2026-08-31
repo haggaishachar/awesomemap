@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "comfyanonymous/ComfyUI",
+  "link": "https://www.comfy.org/",
+  "name": "ComfyUI",
+  "desc": "Node-based interface for building generative image and video pipelines",
+  "githubName": "ComfyUI",
+  "githubDescription": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+  "weight": 130055,
+  "image": "https://avatars.githubusercontent.com/u/166579949?v=4",
+  "tags": [
+    "ai",
+    "comfy",
+    "comfyui",
+    "python",
+    "pytorch",
+    "stable-diffusion"
+  ],
+  "history": [
+    {
+      "date": "2026-08-14",
+      "stars": 127458
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 127653
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 127817
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 127990
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 128192
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 128344
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 128532
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 128696
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 128884
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 129048
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 129551
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 129819
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 130020
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 130290
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 130446
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 130550
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 130733,
+      "forks": 15403,
+      "openIssues": 4756
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 130851,
+      "forks": 15416,
+      "openIssues": 4762
+    }
+  ]
+}

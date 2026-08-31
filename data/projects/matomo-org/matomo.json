@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "matomo-org/matomo",
+  "link": "https://matomo.org/",
+  "name": "Matomo",
+  "desc": "Open source web and app analytics platform, a privacy-friendly alternative to Google Analytics",
+  "githubName": "matomo",
+  "githubDescription": "Empowering People Ethically 🚀 — Matomo is hiring! Join us → https://matomo.org/jobs Matomo is the leading open-source alternative to Google Analytics, giving you complete control and built-in privacy. Easily collect, visualise, and analyse data from websites & apps. Star us on GitHub ⭐️  – Pull Requests welcome! ",
+  "weight": 21806,
+  "image": "https://avatars.githubusercontent.com/u/698038?v=4",
+  "tags": [
+    "analytics",
+    "growth",
+    "hacktoberfest",
+    "intranet",
+    "log",
+    "marketing",
+    "matomo",
+    "mobile",
+    "mysql",
+    "php",
+    "piwik",
+    "privacy",
+    "security",
+    "web-analytics",
+    "website"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 21750
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 21747
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 21750
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 21756
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 21757
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 21762
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 21767
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 21769
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 21773
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 21775
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 21780
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 21786
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 21791
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 21794
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 21795
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 21797
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 21800
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 21802
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 21806
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 21809
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 21824
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 21826
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 21826,
+      "forks": 2896,
+      "openIssues": 2572
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 21825,
+      "forks": 2897,
+      "openIssues": 2569
+    }
+  ]
+}

@@ -50,29 +50,33 @@ test("the digest's ranking (via computeLeaderboard) is normalized by score, not 
       slug: "data-science",
       name: "Data Science",
       projects: [
-        { id: "big/big", name: "Big Repo", link: "https://big.example" },
-        { id: "small/small", name: "Small Repo", link: "https://small.example" },
+        {
+          id: "big/big",
+          name: "Big Repo",
+          link: "https://big.example",
+          // Bigger absolute star gain (+330) but on a much larger repo, so
+          // its score (normalized by sqrt(currentStars)) is lower than the
+          // small repo's smaller absolute gain (+208) on a much smaller repo.
+          history: [
+            { date: "2026-08-05", stars: 50000 },
+            { date: "2026-08-14", stars: 50200 },
+            { date: "2026-08-15", stars: 50330 },
+          ],
+        },
+        {
+          id: "small/small",
+          name: "Small Repo",
+          link: "https://small.example",
+          history: [
+            { date: "2026-08-05", stars: 900 },
+            { date: "2026-08-14", stars: 1000 },
+            { date: "2026-08-15", stars: 1108 },
+          ],
+        },
       ],
     },
   ];
-  const history = {
-    "data-science": {
-      // Bigger absolute star gain (+330) but on a much larger repo, so its
-      // score (normalized by sqrt(currentStars)) is lower than the small
-      // repo's smaller absolute gain (+208) on a much smaller repo.
-      "big/big": [
-        { date: "2026-08-05", stars: 50000 },
-        { date: "2026-08-14", stars: 50200 },
-        { date: "2026-08-15", stars: 50330 },
-      ],
-      "small/small": [
-        { date: "2026-08-05", stars: 900 },
-        { date: "2026-08-14", stars: 1000 },
-        { date: "2026-08-15", stars: 1108 },
-      ],
-    },
-  };
-  const result = computeLeaderboard(domains, history, { scope: "global", windowDays: 7, limit: 5, now: "2026-08-15T00:00:00.000Z" });
+  const result = computeLeaderboard(domains, { scope: "global", windowDays: 7, limit: 5, now: "2026-08-15T00:00:00.000Z" });
   // small/small's score (208/sqrt(1108) ≈ 6.25) beats big/big's
   // (330/sqrt(50330) ≈ 1.47) despite the smaller absolute star count —
   // this is the intended behavior (same metric as the site's Rising mode

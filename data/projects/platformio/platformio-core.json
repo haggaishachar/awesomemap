@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "platformio/platformio-core",
+  "link": "https://platformio.org",
+  "name": "PlatformIO",
+  "desc": "Professional toolchain for embedded software development",
+  "githubName": "platformio-core",
+  "githubDescription": "Your Gateway to Embedded Software Development Excellence :alien:",
+  "weight": 9425,
+  "image": "https://avatars.githubusercontent.com/u/11621357?v=4",
+  "tags": [
+    "arduino",
+    "arm",
+    "avr",
+    "build-system",
+    "cmsis",
+    "debugging",
+    "embedded",
+    "esp32",
+    "esp8266",
+    "firmware",
+    "ide",
+    "iot",
+    "libraries",
+    "microcontroller",
+    "package-manager",
+    "platformio",
+    "risc-v",
+    "rtos",
+    "unit-testing",
+    "zephyr-rtos"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 9412
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 9415
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 9417
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 9418
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 9421
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 9424
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 9429
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 9430
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 9430
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 9430,
+      "forks": 905,
+      "openIssues": 313
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 9432,
+      "forks": 905,
+      "openIssues": 313
+    }
+  ]
+}

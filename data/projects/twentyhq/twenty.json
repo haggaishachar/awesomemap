@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "twentyhq/twenty",
+  "link": "https://twenty.com",
+  "name": "Twenty",
+  "desc": "Open-source CRM alternative to Salesforce",
+  "githubName": "twenty",
+  "githubDescription": "The open alternative to Salesforce, designed for AI.",
+  "weight": 55553,
+  "image": "https://avatars.githubusercontent.com/u/119600397?v=4",
+  "tags": [
+    "crm",
+    "crm-system",
+    "customer",
+    "good-first-issue",
+    "graphql",
+    "hacktoberfest",
+    "javascript",
+    "marketing",
+    "monorepo",
+    "nestjs",
+    "open-source",
+    "postgresql",
+    "react",
+    "reactjs",
+    "sales",
+    "typescript",
+    "web"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 55226
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 55298
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 55357
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 55422
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 55490
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 55549
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 55691
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 55790
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 55824
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 55890,
+      "forks": 8822,
+      "openIssues": 156
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 55937,
+      "forks": 8845,
+      "openIssues": 167
+    }
+  ]
+}

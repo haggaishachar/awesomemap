@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "duckdb/duckdb",
+  "link": "https://duckdb.org/",
+  "name": "DuckDB",
+  "desc": "In-process analytical SQL database engine",
+  "githubName": "duckdb",
+  "githubDescription": "DuckDB is an analytical in-process SQL database management system",
+  "weight": 40633,
+  "image": "https://avatars.githubusercontent.com/u/82039556?v=4",
+  "tags": [
+    "analytics",
+    "database",
+    "embedded-database",
+    "olap",
+    "sql"
+  ],
+  "history": [
+    {
+      "date": "2026-08-13",
+      "stars": 40210
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 40222
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 40243
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 40256
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 40276
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 40351
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 40412
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 40450
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 40488
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 40523
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 40538
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 40555
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 40593
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 40627
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 40723
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 40768
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 40786
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 40825,
+      "forks": 3663,
+      "openIssues": 856
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 40848,
+      "forks": 3683,
+      "openIssues": 855
+    }
+  ]
+}

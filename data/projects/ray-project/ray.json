@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "ray-project/ray",
+  "link": "https://ray.io/",
+  "name": "Ray",
+  "desc": "A fast and simple framework for building and running distributed applications",
+  "githubName": "ray",
+  "githubDescription": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads.",
+  "weight": 43609,
+  "image": "https://avatars.githubusercontent.com/u/22125274?v=4",
+  "tags": [
+    "data-science",
+    "deep-learning",
+    "deployment",
+    "distributed",
+    "hyperparameter-optimization",
+    "hyperparameter-search",
+    "large-language-models",
+    "llm",
+    "llm-inference",
+    "llm-serving",
+    "machine-learning",
+    "optimization",
+    "parallel",
+    "python",
+    "pytorch",
+    "ray",
+    "reinforcement-learning",
+    "rllib",
+    "serving",
+    "tensorflow"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 43468
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 43477
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 43483
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 43494
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 43499
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 43509
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 43515
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 43515
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 43524
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 43533
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 43540
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 43553
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 43566
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 43574
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 43577
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 43583
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 43589
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 43606
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 43611
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 43622
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 43638
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 43641
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 43655,
+      "forks": 7980,
+      "openIssues": 3546
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 43665,
+      "forks": 7982,
+      "openIssues": 3549
+    }
+  ]
+}

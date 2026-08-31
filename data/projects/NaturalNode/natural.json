@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "NaturalNode/natural",
+  "link": "https://github.com/NaturalNode/natural",
+  "name": "natural",
+  "desc": "general natural language facilities for node",
+  "githubName": "natural",
+  "githubDescription": "general natural language facilities for node",
+  "weight": 10881,
+  "image": "https://avatars.githubusercontent.com/u/1005344?v=4",
+  "tags": [],
+  "history": [
+    {
+      "date": "2026-08-30",
+      "stars": 10881,
+      "forks": 855,
+      "openIssues": 87
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 10881,
+      "forks": 855,
+      "openIssues": 87
+    }
+  ]
+}

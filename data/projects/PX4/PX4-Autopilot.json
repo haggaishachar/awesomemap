@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "PX4/PX4-Autopilot",
+  "link": "https://px4.io",
+  "name": "PX4",
+  "desc": "Open-source flight control software for drones and other autonomous vehicles",
+  "githubName": "PX4-Autopilot",
+  "githubDescription": "PX4 Autopilot Software",
+  "weight": 12498,
+  "image": "https://avatars.githubusercontent.com/u/2096014?v=4",
+  "tags": [
+    "autonomous",
+    "autopilot",
+    "avoidance",
+    "dds",
+    "drone",
+    "dronecode",
+    "drones",
+    "fixed-wing",
+    "mavlink",
+    "mavros",
+    "multicopter",
+    "pixhawk",
+    "px4",
+    "qgroundcontrol",
+    "ros",
+    "ros2",
+    "uas",
+    "uav",
+    "ugv"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 12459
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 12460
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 12471
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 12482
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 12486
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 12493
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 12504
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 12508
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 12510
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 12517,
+      "forks": 15929,
+      "openIssues": 327
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 12520,
+      "forks": 15933,
+      "openIssues": 325
+    }
+  ]
+}

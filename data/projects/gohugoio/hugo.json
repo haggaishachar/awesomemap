@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "gohugoio/hugo",
+  "link": "https://gohugo.io",
+  "name": "Hugo",
+  "desc": "The world's fastest framework for building websites",
+  "githubName": "hugo",
+  "githubDescription": "The world’s fastest framework for building websites.",
+  "weight": 89549,
+  "image": "https://avatars.githubusercontent.com/u/29385237?v=4",
+  "tags": [
+    "blog-engine",
+    "cms",
+    "content-management-system",
+    "documentation-tool",
+    "go",
+    "hugo",
+    "static-site-generator"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 89370
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 89383
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 89387
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 89397
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 89412
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 89437
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 89441
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 89426
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 89435
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 89436
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 89442
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 89443
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 89456
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 89474
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 89485
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 89492
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 89511
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 89535
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 89546
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 89557
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 89566
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 89597
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 89633,
+      "forks": 8356,
+      "openIssues": 246
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 89648,
+      "forks": 8358,
+      "openIssues": 239
+    }
+  ]
+}

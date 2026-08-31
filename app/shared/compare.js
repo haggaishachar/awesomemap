@@ -3,6 +3,7 @@ import { renderTagChips } from "./detail-panel.js";
 import { normalizeProjectId, MAX_COMPARE_IDS } from "./compare-url.js";
 import { formatCount, formatGrowthCell } from "./compare-format.js";
 import { formatStarCount, githubRepoUrl } from "./star-history.js";
+import { removeFromCart, refreshCompareButtons } from "./compare-cart.js";
 
 // scripts/ is build-time-only and never copied into dist/, so this is its
 // own copy of the rising-window list generate.mjs's RISING_WINDOWS_DAYS
@@ -75,6 +76,15 @@ export function mountCompare(container, { compareIndexUrl, basePath = "", initia
     button.addEventListener("click", () => {
       currentIds = currentIds.filter((existing) => existing !== id);
       onIdsChange(currentIds);
+      // Removing here and toggling a + Compare button elsewhere are two
+      // controls for the same underlying set — without this, removing a
+      // column here would leave it stranded in the cart, so clicking the
+      // header's "Compare (n)" link again later would silently resurrect
+      // it. refreshCompareButtons updates any compare-toggle buttons
+      // already on this page (there are none on /compare/ itself today,
+      // but the header's Compare link is one) to match.
+      removeFromCart(id);
+      refreshCompareButtons();
       render();
     });
     return button;

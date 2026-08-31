@@ -458,8 +458,20 @@ test("renderLandingPage's mover and watch signal cards link at the project's int
     basePath: "/techmap",
     signals,
   });
-  assert.match(html, /<a class="signal-card" href="\/techmap\/projects\/a\/a\/">[\s\S]*?Project A[\s\S]*?<\/a>/);
-  assert.match(html, /<a class="signal-card" href="\/techmap\/projects\/b\/b\/">[\s\S]*?Project B[\s\S]*?<\/a>/);
+  assert.match(html, /<a class="signal-card-link" href="\/techmap\/projects\/a\/a\/">[\s\S]*?Project A[\s\S]*?<\/a>/);
+  assert.match(html, /<a class="signal-card-link" href="\/techmap\/projects\/b\/b\/">[\s\S]*?Project B[\s\S]*?<\/a>/);
+});
+
+test("renderLandingPage's signal cards each carry a compare-toggle button for their project id", () => {
+  const signals = {
+    mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 },
+    heatingUp: { id: "c/c", name: "Project C", domainShort: "Data Science", percentDelta: 12 },
+    watch: { id: "b/b", name: "Project B", domainShort: "Security", percentDelta: 80, currentStars: 900 },
+  };
+  const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], { defaultOgImage: "/og-default.png", signals });
+  assert.match(html, /<button type="button" class="signal-card-compare compare-toggle" data-compare-id="a\/a" aria-pressed="false">\+ Compare<\/button>/);
+  assert.match(html, /<button type="button" class="signal-card-compare compare-toggle" data-compare-id="c\/c" aria-pressed="false">\+ Compare<\/button>/);
+  assert.match(html, /<button type="button" class="signal-card-compare compare-toggle" data-compare-id="b\/b" aria-pressed="false">\+ Compare<\/button>/);
 });
 
 test("renderLandingPage's heatingUp signal card links at that project's own internal page, prefixed by BASE_PATH", () => {
@@ -469,7 +481,7 @@ test("renderLandingPage's heatingUp signal card links at that project's own inte
     basePath: "/techmap",
     signals,
   });
-  assert.match(html, /<a class="signal-card" href="\/techmap\/projects\/c\/c\/">[\s\S]*?Project C[\s\S]*?<\/a>/);
+  assert.match(html, /<a class="signal-card-link" href="\/techmap\/projects\/c\/c\/">[\s\S]*?Project C[\s\S]*?<\/a>/);
 });
 
 test("renderLandingPage omits the today's-signals section entirely when no signal qualifies", () => {

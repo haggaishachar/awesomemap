@@ -1464,6 +1464,60 @@
       "tags": [],
       "weight": 10881,
       "image": "https://avatars.githubusercontent.com/u/1005344?v=4"
+    },
+    {
+      "id": "mil-tokyo/webdnn",
+      "path": [
+        "Deep Learning"
+      ],
+      "name": "webdnn",
+      "link": "https://github.com/mil-tokyo/webdnn",
+      "desc": "The Fastest DNN Running Framework on Web Browser",
+      "tags": [
+        "accelerate",
+        "deep-neural-networks",
+        "javascript",
+        "optimization",
+        "webgpu"
+      ],
+      "weight": 1999,
+      "image": "https://avatars.githubusercontent.com/u/9211471?v=4"
+    },
+    {
+      "id": "alibaba/pipcook",
+      "path": [
+        "Platforms"
+      ],
+      "name": "pipcook",
+      "link": "https://github.com/alibaba/pipcook",
+      "desc": "Machine learning platform for Web developers",
+      "tags": [
+        "js",
+        "machine-learning",
+        "pipeline",
+        "tensorflow"
+      ],
+      "weight": 2595,
+      "image": "https://avatars.githubusercontent.com/u/1961952?v=4"
+    },
+    {
+      "id": "JuliaStats/GLM.jl",
+      "path": [
+        "Classic Machine Learning"
+      ],
+      "name": "GLM.jl",
+      "link": "https://github.com/JuliaStats/GLM.jl",
+      "desc": "Generalized linear models in Julia",
+      "tags": [
+        "data-science",
+        "glm",
+        "julia",
+        "regression",
+        "statistical-models",
+        "statistics"
+      ],
+      "weight": 636,
+      "image": "https://avatars.githubusercontent.com/u/2761531?v=4"
     }
   ]
 }

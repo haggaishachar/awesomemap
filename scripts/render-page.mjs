@@ -56,6 +56,7 @@ function renderSiteHeader(basePath) {
         <a class="site-header-rising" href="${basePath}/rising/">Rising</a>
         <a class="site-header-tags" href="${basePath}/tags/">Tags</a>
         <a class="site-header-compare" id="site-header-compare" href="${basePath}/compare/">Compare</a>
+        <a class="site-header-submit" href="${basePath}/submit/">Suggest a project</a>
         <a class="site-header-github" href="${REPO_URL}" aria-label="View awesomemap on GitHub">
           <svg viewBox="0 0 16 16" width="20" height="20" aria-hidden="true">
             <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
@@ -1057,6 +1058,74 @@ export function renderComparePage({ defaultOgImage, siteUrl = "", basePath = "" 
     title: "Compare projects — awesomemap",
     ogTitle: "Compare projects — awesomemap",
     ogDescription: "Compare stars, growth, and momentum across up to four open-source projects side by side.",
+    ogImage: defaultOgImage,
+    ogUrl,
+    base: basePath,
+    body,
+  });
+}
+
+/**
+ * Renders the /submit/ page: a "suggest a project" form for a visitor who
+ * isn't comfortable opening a PR. There's no write-capable backend on this
+ * static site, so the form itself does no network call — on submit it
+ * builds a prefilled GitHub "new issue" URL (submit-project.js) and opens
+ * it in a new tab, handing the actual write off to GitHub. From there
+ * `scripts/process-submission.mjs` auto-processes the opened issue within
+ * minutes, no maintainer step (see CONTRIBUTING.md).
+ */
+export function renderSubmitPage({ domains = [], defaultOgImage, siteUrl = "", basePath = "" } = {}) {
+  const ogUrl = `${siteUrl}${basePath}/submit/`;
+  const domainOptions = domains.map((d) => `<option value="${escapeHtml(d.shortName ?? d.name ?? d.slug)}">${escapeHtml(d.shortName ?? d.name ?? d.slug)}</option>`).join("");
+  const body = `
+    ${renderSiteHeader(basePath)}
+    <header class="rising-hero">
+      <h1>Suggest a project</h1>
+      <p class="rising-hero-tagline">Know a project that belongs on one of the maps? Point us at it — no PR, no hunting for the right GitHub issue template.</p>
+    </header>
+    <form id="submit-form" class="submit-form">
+      <label for="submit-project-url">GitHub repo URL</label>
+      <input id="submit-project-url" type="text" placeholder="https://github.com/owner/repo" autocomplete="off" required />
+
+      <label for="submit-target-map">Which map should it go in?</label>
+      <select id="submit-target-map">
+        <option value="Not sure">Not sure</option>
+        ${domainOptions}
+      </select>
+
+      <label for="submit-why">Why it fits (optional)</label>
+      <textarea id="submit-why" rows="3" placeholder="What does it do, and why does it belong here?"></textarea>
+
+      <button type="submit">Submit on GitHub</button>
+      <p id="submit-error" class="submit-form-error" role="alert" hidden></p>
+      <p class="submit-form-note">Opens a prefilled GitHub issue in a new tab, reviewed automatically within a few minutes — no maintainer step. Already comfortable editing JSON? <a href="${REPO_URL}/blob/master/CONTRIBUTING.md">A PR is faster.</a></p>
+    </form>
+    <script type="module">
+      import { normalizeProjectId, isValidProjectInput, buildSubmissionIssueUrl } from "${basePath}/shared/submit-project.js";
+      const form = document.getElementById("submit-form");
+      const errorEl = document.getElementById("submit-error");
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        errorEl.hidden = true;
+        const raw = document.getElementById("submit-project-url").value;
+        if (!isValidProjectInput(raw)) {
+          errorEl.textContent = "Enter a GitHub repo URL, e.g. https://github.com/owner/repo.";
+          errorEl.hidden = false;
+          return;
+        }
+        const projectId = normalizeProjectId(raw);
+        const targetMap = document.getElementById("submit-target-map").value;
+        const why = document.getElementById("submit-why").value;
+        const url = buildSubmissionIssueUrl({ repoUrl: "${REPO_URL}", projectId, targetMap, why });
+        window.open(url, "_blank", "noopener");
+      });
+    </script>
+    ${renderSiteFooter()}
+  `;
+  return renderShell({
+    title: "Suggest a project — awesomemap",
+    ogTitle: "Suggest a project — awesomemap",
+    ogDescription: "Nominate an open-source project for one of awesomemap's maps.",
     ogImage: defaultOgImage,
     ogUrl,
     base: basePath,

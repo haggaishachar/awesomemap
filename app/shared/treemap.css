@@ -1262,3 +1262,64 @@ a.momentum-row-name:hover {
     grid-template-columns: 1fr;
   }
 }
+
+/* /submit/ page — "suggest a project" form, styled with the same
+   surface/border/accent variables as the compare-add form. */
+.submit-form {
+  max-width: 480px;
+  margin: 24px auto 48px;
+  padding: 24px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.submit-form label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-top: 12px;
+}
+
+.submit-form input,
+.submit-form select,
+.submit-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  font: inherit;
+  color: inherit;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 8px;
+  margin-top: 4px;
+}
+
+.submit-form button {
+  margin-top: 16px;
+  padding: 10px;
+  font: inherit;
+  font-weight: 600;
+  color: var(--color-bg);
+  background: var(--color-accent);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-form-error {
+  color: var(--color-rising-down);
+  font-size: 13px;
+  margin: 8px 0 0;
+}
+
+.submit-form-note {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  margin: 12px 0 0;
+}

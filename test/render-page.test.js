@@ -8,6 +8,7 @@ import {
   renderTagPage,
   renderProjectPage,
   renderComparePage,
+  renderSubmitPage,
   tagSlug,
 } from "../scripts/render-page.mjs";
 
@@ -973,5 +974,35 @@ test("renderComparePage renders a static heading and description before the moun
   assert.match(html, /<h1>Compare[^<]*<\/h1>/);
   assert.match(html, /<div id="app" class="compare-app">/);
   assert(html.indexOf("<h1>Compare") < html.indexOf('<div id="app" class="compare-app">'));
+});
+
+test("renderSubmitPage lists every domain's short name as a target-map option", () => {
+  const html = renderSubmitPage({
+    domains: [
+      { slug: "web-dev", shortName: "Web Dev" },
+      { slug: "data-science", shortName: "Data Science" },
+    ],
+    defaultOgImage: "/og-default.png",
+  });
+  assert.match(html, /<option value="Web Dev">Web Dev<\/option>/);
+  assert.match(html, /<option value="Data Science">Data Science<\/option>/);
+});
+
+test("renderSubmitPage imports submit-project.js prefixed by BASE_PATH and has a site header/footer", () => {
+  const html = renderSubmitPage({ domains: [], defaultOgImage: "/og-default.png", basePath: "/techmap" });
+  assert.match(html, /import \{ normalizeProjectId, isValidProjectInput, buildSubmissionIssueUrl \} from "\/techmap\/shared\/submit-project\.js"/);
+  assert.match(html, /class="site-header"/);
+  assert.match(html, /class="site-footer"/);
+});
+
+test("renderSubmitPage's canonical URL and OG copy don't depend on any query string, matching renderComparePage's convention for a client-rendered page", () => {
+  const html = renderSubmitPage({ domains: [], defaultOgImage: "/og-default.png", siteUrl: "https://awesomemap.dev", basePath: "" });
+  assert.match(html, /href="https:\/\/awesomemap\.dev\/submit\/"/);
+  assert.match(html, /<title>Suggest a project — awesomemap<\/title>/);
+});
+
+test("renderSiteHeader (via renderComparePage) links to /submit/", () => {
+  const html = renderComparePage({ defaultOgImage: "/og-default.png", basePath: "/techmap" });
+  assert.match(html, /href="\/techmap\/submit\/">Suggest a project</);
 });
 

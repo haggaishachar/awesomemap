@@ -201,6 +201,21 @@ net if the daily jobs that feed it go quiet.
 
 ## Shipped
 
+- [x] "+ Compare" toggle on every remaining surface that lists individual
+      projects — it already covered the detail panel, project pages,
+      Rising rows, and tag-page rows; this closed the last gap, the
+      landing page's "Today's signals" cards (`renderSignalCard`, fed by
+      `pickTodaysSignals`). `renderSignalCard`'s outer element changed
+      from a single `<a>` to a `<div>` wrapping an inner
+      `<a class="signal-card-link">` (the navigable content) plus a
+      sibling `compare-toggle` button — avoids nesting a `<button>`
+      inside an `<a>`, invalid HTML that would also make the button's
+      click bubble into the card's navigation via `compare-cart.js`'s
+      document-wide click delegation. The top-tags widgets and any
+      future top-rising-domains leaderboard list tags/domains, not
+      individual projects, so a compare toggle (which needs a project
+      id) doesn't apply to them.
+      _Done 2026-08-31: MVP item 1 ("+ Compare" everywhere)._
 - [x] On-site project submission, with the human review queue removed
       entirely — data contribution is now hands-off end to end, so
       contributor effort (`CONTRIBUTING.md`) can point entirely at
@@ -232,7 +247,7 @@ net if the daily jobs that feed it go quiet.
       New `scripts/data-store.mjs` is the shared load/save/join layer
       every script now goes through instead of reading
       `data/<slug>.json`/`data/history/<slug>.json` directly.
-      _Done 2026-08-31: MVP item 1._
+      _Done 2026-08-31: MVP item 1 (data structure refactor)._
 - [x] Project comparison view (`/compare/?id=…`), picking 2-4 projects and
       seeing stars, 7/30/90d growth, momentum signal, forks, and open
       issues side by side, plus a cross-page "+ Compare" cart

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "browser-use/browser-use",
+  "link": "https://browser-use.com",
+  "name": "Browser Use",
+  "desc": "Make websites accessible for AI agents",
+  "githubName": "browser-use",
+  "githubDescription": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+  "weight": 110572,
+  "image": "https://avatars.githubusercontent.com/u/192012301?v=4",
+  "tags": [
+    "ai-agents",
+    "ai-tools",
+    "browser-automation",
+    "browser-use",
+    "llm",
+    "playwright",
+    "python"
+  ],
+  "history": [
+    {
+      "date": "2026-08-14",
+      "stars": 109153
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 109267
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 109365
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 109468
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 109561
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 109677
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 109804
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 109923
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 110043
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 110174
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 110295
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 110413
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 110548
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 111418
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 111561
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 111616
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 111736,
+      "forks": 12262,
+      "openIssues": 386
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 111817,
+      "forks": 12272,
+      "openIssues": 384
+    }
+  ]
+}

@@ -6,9 +6,11 @@ import { computeVelocity } from "./velocity.mjs";
  * ("how much did this slice of the ecosystem move?"), so they share this one
  * function; only the grouping differs.
  *
- * `projects` is the raw `data/<slug>.json` project shape (needs `id` and
- * `weight`); `historyById` maps project id to that project's
- * `data/history/<slug>.json` entries.
+ * `projects` is a joined project-entity shape (see data-store.mjs's
+ * `joinDomainProjects`) — needs `id`, `weight`, and its own `history` array;
+ * unlike before the refactor, there's no separate history-by-id map to pass
+ * alongside it, since a project's history now travels with the project
+ * itself and can't drift out of sync with it.
  *
  * Two deliberate choices:
  *
@@ -31,14 +33,14 @@ import { computeVelocity } from "./velocity.mjs";
  * sum over dozens of projects, so a plain ratio is both stable and directly
  * explainable to a reader ("this domain grew 1.4% this week").
  */
-export function computeGroupGrowth(projects, historyById = {}, windowDays, { now } = {}) {
+export function computeGroupGrowth(projects, windowDays, { now } = {}) {
   let trackedCount = 0;
   let totalStars = 0;
   let starDelta = 0;
   let oldestDate = null;
 
   for (const project of projects) {
-    const entries = historyById[project.id] ?? [];
+    const entries = project.history ?? [];
     const velocity = computeVelocity(entries, windowDays, { now });
 
     // Tracked or not, the earliest snapshot we've seen tells the UI when

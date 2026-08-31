@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "gazebosim/gz-sim",
+  "link": "https://gazebosim.org",
+  "name": "Gazebo",
+  "desc": "Open-source robotics simulator",
+  "githubName": "gz-sim",
+  "githubDescription": "Open source robotics simulator. The latest version of Gazebo.",
+  "weight": 1465,
+  "image": "https://avatars.githubusercontent.com/u/1743799?v=4",
+  "tags": [
+    "cpp",
+    "gazebo",
+    "gazebosim",
+    "graphical-interface",
+    "hacktoberfest",
+    "ignition-gazebo",
+    "ignition-libraries",
+    "ignition-robotics",
+    "physics",
+    "rendering",
+    "robot-simulation",
+    "robot-simulator",
+    "robotics",
+    "robotics-simulation",
+    "ros",
+    "ros2",
+    "simulated-robots",
+    "simulation"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 1452
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 1454
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 1456
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 1460
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 1463
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 1465
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 1469
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 1471
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 1472
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 1474,
+      "forks": 460,
+      "openIssues": 613
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 1474,
+      "forks": 461,
+      "openIssues": 611
+    }
+  ]
+}

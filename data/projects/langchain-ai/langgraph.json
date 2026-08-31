@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "langchain-ai/langgraph",
+  "link": "https://www.langchain.com/langgraph",
+  "name": "LangGraph",
+  "desc": "Build resilient, stateful language agents as graphs",
+  "githubName": "langgraph",
+  "githubDescription": "Build resilient agents.",
+  "weight": 40478,
+  "image": "https://avatars.githubusercontent.com/u/126733545?v=4",
+  "tags": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "chatgpt",
+    "deepagents",
+    "enterprise",
+    "framework",
+    "gemini",
+    "generative-ai",
+    "langchain",
+    "langgraph",
+    "llm",
+    "multiagent",
+    "open-source",
+    "openai",
+    "pydantic",
+    "python",
+    "rag"
+  ],
+  "history": [
+    {
+      "date": "2026-08-14",
+      "stars": 39653
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 39701
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 39766
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 39833
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 39898
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 39987
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 40065
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 40142
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 40209
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 40264
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 40319
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 40400
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 40466
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 40560
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 40629
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 40652
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 40719,
+      "forks": 6870,
+      "openIssues": 728
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 40776,
+      "forks": 6875,
+      "openIssues": 730
+    }
+  ]
+}

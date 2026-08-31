@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "chakra-ui/chakra-ui",
+  "link": "https://chakra-ui.com",
+  "name": "Chakra UI",
+  "desc": "Simple, modular and accessible component library for React",
+  "githubName": "chakra-ui",
+  "githubDescription": "Chakra UI is a component system for building SaaS products with speed ⚡️",
+  "weight": 40596,
+  "image": "https://avatars.githubusercontent.com/u/54212428?v=4",
+  "tags": [
+    "a11y",
+    "accessible",
+    "ark-ui",
+    "chakra-ui",
+    "component",
+    "css-in-js",
+    "dark-mode",
+    "design-system",
+    "react",
+    "react-components",
+    "reactjs",
+    "styled",
+    "ui-components",
+    "ui-library",
+    "uikit",
+    "wai-aria"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 40568
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 40568
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 40567
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 40567
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 40570
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 40574
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 40576
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 40577
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 40577
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 40580
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 40578
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 40583
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 40584
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 40581
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 40584
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 40585
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 40586
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 40592
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 40596
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 40599
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 40598
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 40602
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 40609,
+      "forks": 3640,
+      "openIssues": 12
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 40611,
+      "forks": 3640,
+      "openIssues": 12
+    }
+  ]
+}

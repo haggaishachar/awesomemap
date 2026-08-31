@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "fastapi/fastapi",
+  "link": "https://fastapi.tiangolo.com/",
+  "name": "FastAPI",
+  "desc": "Modern, high-performance Python web framework for building APIs",
+  "githubName": "fastapi",
+  "githubDescription": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+  "weight": 101862,
+  "image": "https://avatars.githubusercontent.com/u/156354296?v=4",
+  "tags": [
+    "api",
+    "async",
+    "asyncio",
+    "fastapi",
+    "framework",
+    "json",
+    "json-schema",
+    "openapi",
+    "openapi3",
+    "pydantic",
+    "python",
+    "python-types",
+    "python3",
+    "redoc",
+    "rest",
+    "starlette",
+    "swagger",
+    "swagger-ui",
+    "uvicorn",
+    "web"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 101738
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 101748
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 101765
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 101801
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 101827
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 101863
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 101883
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 101904
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 101922
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 101938,
+      "forks": 9830,
+      "openIssues": 86
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 101959,
+      "forks": 9836,
+      "openIssues": 80
+    }
+  ]
+}

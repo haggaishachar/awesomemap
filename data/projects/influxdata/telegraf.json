@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "influxdata/telegraf",
+  "link": "https://influxdata.com/telegraf",
+  "name": "Telegraf",
+  "desc": "Agent for collecting, processing, and writing metrics and telemetry",
+  "githubName": "telegraf",
+  "githubDescription": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+  "weight": 17765,
+  "image": "https://avatars.githubusercontent.com/u/5713248?v=4",
+  "tags": [
+    "golang",
+    "hacktoberfest",
+    "influxdb",
+    "json",
+    "kafka",
+    "logs",
+    "metrics",
+    "modbus",
+    "monitoring",
+    "mqtt",
+    "opcua",
+    "t",
+    "telegraf",
+    "telemetry-collection",
+    "time-series",
+    "windows-eventlog",
+    "xpath"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 17762
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 17764
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 17763
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 17763
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 17765
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 17765
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 17773
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 17776
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 17779
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 17780,
+      "forks": 5837,
+      "openIssues": 428
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 17780,
+      "forks": 5837,
+      "openIssues": 421
+    }
+  ]
+}

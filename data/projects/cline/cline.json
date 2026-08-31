@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "cline/cline",
+  "link": "https://cline.bot/",
+  "name": "Cline",
+  "desc": "Autonomous coding agent that lives in your IDE",
+  "githubName": "cline",
+  "githubDescription": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+  "weight": 66869,
+  "image": "https://avatars.githubusercontent.com/u/184127137?v=4",
+  "tags": [],
+  "history": [
+    {
+      "date": "2026-08-14",
+      "stars": 66162
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 66207
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 66248
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 66312
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 66379
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 66447
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 66509
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 66569
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 66632
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 66687
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 66736
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 66803
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 66858
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 66993
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 67074
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 67109
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 67174,
+      "forks": 7252,
+      "openIssues": 1151
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 67217,
+      "forks": 7258,
+      "openIssues": 1158
+    }
+  ]
+}

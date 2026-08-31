@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "ClickHouse/ClickHouse",
+  "link": "https://clickhouse.com/",
+  "name": "ClickHouse",
+  "desc": "Fast open-source column-oriented database management system",
+  "githubName": "ClickHouse",
+  "githubDescription": "ClickHouse® is a real-time analytics database management system",
+  "weight": 49456,
+  "image": "https://avatars.githubusercontent.com/u/54801242?v=4",
+  "tags": [
+    "ai",
+    "analytics",
+    "big-data",
+    "clickhouse",
+    "cloud-native",
+    "cpp",
+    "database",
+    "dbms",
+    "distributed",
+    "embedded",
+    "hacktoberfest",
+    "lakehouse",
+    "mpp",
+    "olap",
+    "rust",
+    "self-hosted",
+    "sql"
+  ],
+  "history": [
+    {
+      "date": "2026-08-13",
+      "stars": 49229
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 49241
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 49258
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 49267
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 49288
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 49306
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 49321
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 49353
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 49374
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 49387
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 49395
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 49409
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 49434
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 49451
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 49485
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 49514
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 49520
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 49542,
+      "forks": 8875,
+      "openIssues": 7191
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 49558,
+      "forks": 8878,
+      "openIssues": 7271
+    }
+  ]
+}

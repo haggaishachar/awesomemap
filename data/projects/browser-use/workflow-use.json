@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "browser-use/workflow-use",
+  "link": "https://github.com/browser-use/workflow-use",
+  "name": "workflow-use",
+  "desc": "⚙️ Create and run workflows (RPA 2.0)",
+  "githubName": "workflow-use",
+  "githubDescription": "⚙️ Create and run workflows (RPA 2.0)",
+  "weight": 4149,
+  "image": "https://avatars.githubusercontent.com/u/192012301?v=4",
+  "tags": [
+    "browser-automation",
+    "browser-use-box",
+    "rpa",
+    "telegram-automation"
+  ],
+  "history": [
+    {
+      "date": "2026-08-27",
+      "stars": 4152
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 4154
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 4154
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 4155,
+      "forks": 346,
+      "openIssues": 64
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 4158,
+      "forks": 347,
+      "openIssues": 64
+    }
+  ]
+}

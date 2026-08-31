@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "id": "argoproj/argo-workflows",
+  "link": "https://argoproj.github.io/workflows/",
+  "name": "Argo Workflows",
+  "desc": "Container-native workflow engine for orchestrating parallel jobs on Kubernetes",
+  "githubName": "argo-workflows",
+  "githubDescription": "Workflow Engine for Kubernetes",
+  "weight": 16938,
+  "image": "https://raw.githubusercontent.com/argoproj/argo-workflows/main/docs/assets/logo.png",
+  "tags": [
+    "airflow",
+    "argo",
+    "argo-workflows",
+    "batch-processing",
+    "cloud-native",
+    "cncf",
+    "dag",
+    "data-engineering",
+    "gitops",
+    "hacktoberfest",
+    "k8s",
+    "knative",
+    "kubernetes",
+    "machine-learning",
+    "mlops",
+    "pipelines",
+    "workflow",
+    "workflow-engine"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 16886
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 16886
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 16887
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 16887
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 16891
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 16897
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 16899
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 16899
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 16902
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 16904
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 16908
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 16913
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 16917
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 16921
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 16927
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 16927
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 16931
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 16934
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 16937
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 16940
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 16944
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 16945
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 16943,
+      "forks": 3634,
+      "openIssues": 1255
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 16945,
+      "forks": 3635,
+      "openIssues": 1256
+    }
+  ]
+}

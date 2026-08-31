@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "ggerganov/llama.cpp",
+  "link": "https://github.com/ggerganov/llama.cpp",
+  "name": "llama.cpp",
+  "desc": "Inference of LLaMA and other large language models in pure C/C++",
+  "githubName": "llama.cpp",
+  "githubDescription": "LLM inference in C/C++",
+  "weight": 125701,
+  "image": "https://avatars.githubusercontent.com/u/134263123?v=4",
+  "tags": [
+    "ggml"
+  ],
+  "history": [
+    {
+      "date": "2026-08-14",
+      "stars": 123861
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 123931
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 124059
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 124266
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 124438
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 124599
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 124776
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 124932
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 125074
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 125213
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 125343
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 125501
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 125676
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 125933
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 126089
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 126183
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 126381,
+      "forks": 22487,
+      "openIssues": 2306
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 126481,
+      "forks": 22531,
+      "openIssues": 2317
+    }
+  ]
+}

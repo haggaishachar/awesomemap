@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "nuxt/nuxt",
+  "link": "https://nuxt.com",
+  "name": "Nuxt",
+  "desc": "The Intuitive Vue Framework",
+  "githubName": "nuxt",
+  "githubDescription": "the full-stack Vue framework",
+  "weight": 60802,
+  "image": "https://raw.githubusercontent.com/nuxt/nuxt/main/.github/logo.svg",
+  "tags": [
+    "csr",
+    "framework",
+    "full-stack",
+    "hacktoberfest",
+    "hybrid",
+    "node",
+    "nuxt",
+    "server-rendering",
+    "ssg",
+    "ssr",
+    "static-site-generator",
+    "universal",
+    "vue"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 60737
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 60744
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 60738
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 60744
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 60754
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 60754
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 60757
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 60757
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 60759
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 60759
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 60763
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 60761
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 60766
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 60772
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 60776
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 60780
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 60787
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 60792
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 60803
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 60802
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 60801
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 60803
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 60803,
+      "forks": 5810,
+      "openIssues": 535
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 60807,
+      "forks": 5810,
+      "openIssues": 541
+    }
+  ]
+}

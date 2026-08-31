@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "Pennyw0rth/NetExec",
+  "link": "https://www.netexec.wiki/",
+  "name": "NetExec",
+  "desc": "Network service exploitation tool for credential auditing across Active Directory environments",
+  "githubName": "NetExec",
+  "githubDescription": "The Network Execution Tool",
+  "weight": 5813,
+  "image": "https://avatars.githubusercontent.com/u/144470396?v=4",
+  "tags": [
+    "active-directory",
+    "hacking",
+    "infosec",
+    "infosectools",
+    "networks",
+    "pentest",
+    "pentest-tool",
+    "pentest-tools",
+    "pentesting",
+    "python",
+    "python3",
+    "red-team",
+    "security",
+    "security-tools",
+    "windows"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 5753
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 5755
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 5764
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 5771
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 5774
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 5779
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 5782
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 5783
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 5784
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 5788
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 5791
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 5795
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 5798
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 5801
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 5807
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 5807
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 5808
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 5811
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 5812
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 5817
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 5818
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 5820
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 5821,
+      "forks": 757,
+      "openIssues": 165
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 5821,
+      "forks": 757,
+      "openIssues": 165
+    }
+  ]
+}

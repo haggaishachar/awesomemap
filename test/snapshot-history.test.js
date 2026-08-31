@@ -54,7 +54,7 @@ test("pruneOldEntries keeps an entry exactly at the maxAgeDays boundary", () => 
   assert.deepEqual(result, entries);
 });
 
-test("buildSnapshotEntry pulls stars, forks, open issues, name, and description off repo data", () => {
+test("buildSnapshotEntry pulls stars, forks, and open issues off repo data", () => {
   const repoData = {
     stargazers_count: 247895,
     forks_count: 34210,
@@ -68,7 +68,5 @@ test("buildSnapshotEntry pulls stars, forks, open issues, name, and description 
     stars: 247895,
     forks: 34210,
     openIssues: 891,
-    name: "react",
-    description: "The library for web and native user interfaces.",
   });
 });

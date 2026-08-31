@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "vanhauser-thc/thc-hydra",
+  "link": "https://github.com/vanhauser-thc/thc-hydra",
+  "name": "THC-Hydra",
+  "desc": "Parallelized login cracker supporting numerous protocols to attack",
+  "githubName": "thc-hydra",
+  "githubDescription": "hydra",
+  "weight": 12197,
+  "image": null,
+  "tags": [
+    "brute-force",
+    "brute-force-attacks",
+    "brute-force-passwords",
+    "bruteforce",
+    "bruteforce-attacks",
+    "bruteforcer",
+    "bruteforcing",
+    "hydra",
+    "network-security",
+    "password-cracker",
+    "password-cracking",
+    "penetration-testing",
+    "pentest",
+    "pentest-tool",
+    "pentesting",
+    "thc"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 12130
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 12135
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 12139
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 12144
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 12149
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 12153
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 12155
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 12161
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 12167
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 12158
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 12160
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 12164
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 12170
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 12174
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 12178
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 12183
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 12188
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 12190
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 12195
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 12203
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 12210
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 12214
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 12215,
+      "forks": 2651,
+      "openIssues": 49
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 12215,
+      "forks": 2651,
+      "openIssues": 49
+    }
+  ]
+}

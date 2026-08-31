@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "NativeScript/NativeScript",
+  "link": "https://nativescript.org/",
+  "name": "NativeScript",
+  "desc": "Build truly native mobile apps with JavaScript, TypeScript, Angular, Vue, or Svelte",
+  "githubName": "NativeScript",
+  "githubDescription": "⚡ Write Native with TypeScript ✨ Best of all worlds (TypeScript, Swift, Objective C, Kotlin, Java, Dart). Use what you love ❤️ Angular, React, Solid, Svelte, Vue with: iOS (UIKit, SwiftUI), Android (View, Jetpack Compose), Flutter and you name it compatible.",
+  "weight": 25626,
+  "image": "https://avatars.githubusercontent.com/u/7392261?v=4",
+  "tags": [
+    "android",
+    "angular",
+    "capacitor",
+    "cross-platform",
+    "flutter",
+    "ios",
+    "java",
+    "javascript",
+    "kotlin",
+    "nativescript",
+    "objective-c",
+    "react",
+    "solidjs",
+    "svelte",
+    "swift",
+    "swiftui",
+    "typescript",
+    "visionos",
+    "visionpro",
+    "vue"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 25595
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 25596
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 25597
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 25599
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 25602
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 25603
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 25604
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 25603
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 25605
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 25604
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 25605
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 25606
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 25613
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 25616
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 25618
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 25620
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 25623
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 25625
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 25626
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 25627
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 25630
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 25631
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 25632,
+      "forks": 1738,
+      "openIssues": 834
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 25633,
+      "forks": 1738,
+      "openIssues": 835
+    }
+  ]
+}

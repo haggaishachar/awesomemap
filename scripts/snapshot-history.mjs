@@ -1,10 +1,8 @@
-import { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 import { parseGhRepo, createGetJson } from "./enrich-domain.mjs";
 import { MS_PER_DAY } from "./velocity.mjs";
+import { loadAllProjectEntities, saveProjectEntity } from "./data-store.mjs";
 
-const DATA_DIR = "data";
-const HISTORY_DIR = "data/history";
 const MAX_AGE_DAYS = 120;
 
 /**
@@ -22,7 +20,7 @@ export function appendSnapshotEntry(entries, snapshot) {
 /**
  * Drops entries older than `maxAgeDays` relative to `now`. 120 days
  * comfortably covers the longest supported rising window (90 days) with
- * headroom, keeping history files small and bounded.
+ * headroom, keeping history arrays small and bounded.
  */
 export function pruneOldEntries(entries, { now = new Date(), maxAgeDays = MAX_AGE_DAYS } = {}) {
   const cutoff = new Date(now).getTime() - maxAgeDays * MS_PER_DAY;
@@ -37,10 +35,11 @@ function todayIso(now) {
  * Maps a GitHub repo API response onto today's history entry: stars,
  * forks, and open issues ride along for free since they're already in the
  * same response the daily job fetches for `stargazers_count`, no extra API
- * call needed. `name`/`description` are GitHub's own values (not the
- * curated display name/desc in `data/*.json`) — snapshotted daily so the
- * compare view can show current copy, and so drift from the curated
- * values is detectable later.
+ * call needed. GitHub's own `name`/`description` are handled separately
+ * (see `main()`) — they're upserted directly onto the project entity, not
+ * carried on every history entry, since only the latest value is ever
+ * needed (drift detection against the curated `name`/`desc`, not an audit
+ * trail of every past rename).
  */
 export function buildSnapshotEntry(repoData, date) {
   return {
@@ -48,58 +47,47 @@ export function buildSnapshotEntry(repoData, date) {
     stars: repoData.stargazers_count,
     forks: repoData.forks_count,
     openIssues: repoData.open_issues_count,
-    name: repoData.name,
-    description: repoData.description,
   };
 }
 
 // CLI entry point: node scripts/snapshot-history.mjs
-// Snapshots every project in every data/<slug>.json into
-// data/history/<slug>.json. Thin I/O orchestration, not unit tested (same
-// convention as generate.mjs / enrich-domain.mjs's main()) — verified
-// manually in Task 4.
+// Snapshots every project entity in data/projects/**/*.json, appending
+// today's entry to its `history` and upserting `githubName`/
+// `githubDescription` from the same API response. Thin I/O orchestration,
+// not unit tested (same convention as generate.mjs / enrich-domain.mjs's
+// main()) — verified manually.
 async function main() {
   const token = execFileSync("gh", ["auth", "token"], { encoding: "utf8" }).trim();
   const getJson = createGetJson(token);
-  mkdirSync(HISTORY_DIR, { recursive: true });
 
   const today = todayIso(new Date());
-  const domainFiles = readdirSync(DATA_DIR).filter((name) => name.endsWith(".json"));
+  const entitiesById = loadAllProjectEntities();
 
   let totalAttempted = 0;
   let totalFetched = 0;
+  let failed = 0;
 
-  for (const file of domainFiles) {
-    const domain = JSON.parse(readFileSync(`${DATA_DIR}/${file}`, "utf8"));
-    const historyPath = `${HISTORY_DIR}/${domain.slug}.json`;
-    const history = existsSync(historyPath) ? JSON.parse(readFileSync(historyPath, "utf8")) : {};
-
-    let fetched = 0;
-    let failed = 0;
-    for (const project of domain.projects) {
-      const repo = parseGhRepo(project.id);
-      if (!repo) continue;
-      totalAttempted += 1;
-      try {
-        const repoData = await getJson(`https://api.github.com/repos/${repo.owner}/${repo.repo}`);
-        const existing = history[project.id] ?? [];
-        const withToday = appendSnapshotEntry(existing, buildSnapshotEntry(repoData, today));
-        history[project.id] = pruneOldEntries(withToday, { now: new Date() });
-        fetched += 1;
-        totalFetched += 1;
-      } catch (err) {
-        failed += 1;
-        console.error(`Warning: failed to snapshot "${project.id}": ${err.message}`);
-      }
+  for (const entity of entitiesById.values()) {
+    const repo = parseGhRepo(entity.id);
+    if (!repo) continue;
+    totalAttempted += 1;
+    try {
+      const repoData = await getJson(`https://api.github.com/repos/${repo.owner}/${repo.repo}`);
+      const withToday = appendSnapshotEntry(entity.history ?? [], buildSnapshotEntry(repoData, today));
+      const history = pruneOldEntries(withToday, { now: new Date() });
+      saveProjectEntity({ ...entity, githubName: repoData.name, githubDescription: repoData.description, history });
+      totalFetched += 1;
+    } catch (err) {
+      failed += 1;
+      console.error(`Warning: failed to snapshot "${entity.id}": ${err.message}`);
     }
-
-    writeFileSync(historyPath, JSON.stringify(history, null, 2) + "\n");
-    console.log(`${historyPath}: ${fetched} snapshot(s) recorded, ${failed} failed`);
   }
+
+  console.log(`${totalFetched}/${totalAttempted} project(s) snapshotted, ${failed} failed`);
 
   if (totalAttempted > 0 && totalFetched === 0) {
     console.error(
-      `Error: 0/${totalAttempted} project(s) were successfully snapshotted across all domains — ` +
+      `Error: 0/${totalAttempted} project(s) were successfully snapshotted — ` +
         "this looks like a systemic failure (e.g. an invalid/expired token or a GitHub outage), not isolated per-project flakiness."
     );
     process.exit(1);

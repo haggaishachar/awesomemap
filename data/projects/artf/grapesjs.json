@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "artf/grapesjs",
+  "link": "https://github.com/artf/grapesjs",
+  "name": "grapesjs",
+  "desc": "Free and Open source Web Builder Framework. Next generation tool for building templates without coding",
+  "githubName": "grapesjs",
+  "githubDescription": "Free and Open source Web Builder Framework. Next generation tool for building templates without coding",
+  "weight": 26171,
+  "image": "https://avatars.githubusercontent.com/u/123950155?v=4",
+  "tags": [
+    "drag-and-drop",
+    "framework",
+    "no-code",
+    "nocode",
+    "page-builder",
+    "site-builder",
+    "site-generator",
+    "template-builder",
+    "ui-builder",
+    "web-builder",
+    "web-builder-framework",
+    "website-builder"
+  ],
+  "history": [
+    {
+      "date": "2026-08-30",
+      "stars": 26174,
+      "forks": 4642,
+      "openIssues": 37
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 26179,
+      "forks": 4642,
+      "openIssues": 37
+    }
+  ]
+}

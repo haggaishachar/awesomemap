@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "aisingapore/TagUI",
+  "link": "https://github.com/aisingapore/TagUI",
+  "name": "TagUI",
+  "desc": "Free command-line RPA tool for automating web, desktop, and CLI tasks",
+  "githubName": "TagUI",
+  "githubDescription": "Free RPA tool by AI Singapore",
+  "weight": 6325,
+  "image": "https://avatars.githubusercontent.com/u/110224767?v=4",
+  "tags": [
+    "ai",
+    "nlp",
+    "opencv",
+    "rpa",
+    "tesseract"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 6324
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 6324
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 6324
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 6325
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 6325
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 6325
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 6325
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 6325
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 6325
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 6325,
+      "forks": 647,
+      "openIssues": 0
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 6326,
+      "forks": 648,
+      "openIssues": 0
+    }
+  ]
+}

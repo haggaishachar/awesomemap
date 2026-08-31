@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "presidentbeef/brakeman",
+  "link": "https://brakemanscanner.org/",
+  "name": "Brakeman",
+  "desc": "Static analysis security vulnerability scanner for Ruby on Rails applications",
+  "githubName": "brakeman",
+  "githubDescription": "A static analysis security vulnerability scanner for Ruby on Rails applications",
+  "weight": 7262,
+  "image": null,
+  "tags": [
+    "brakeman",
+    "rails",
+    "ruby",
+    "security",
+    "security-audit",
+    "security-tools",
+    "security-vulnerability",
+    "static-analysis",
+    "vulnerabilities"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 7261
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 7261
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 7261
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 7261
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 7261
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 7261
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 7261
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 7261
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 7262
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 7262
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 7262
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 7262
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 7262
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 7260
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 7261
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 7261
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 7261
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 7262
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 7262
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 7262
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 7265
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 7265
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 7265,
+      "forks": 776,
+      "openIssues": 115
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 7265,
+      "forks": 776,
+      "openIssues": 115
+    }
+  ]
+}

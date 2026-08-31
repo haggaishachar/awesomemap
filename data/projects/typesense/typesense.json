@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "typesense/typesense",
+  "link": "https://typesense.org/",
+  "name": "Typesense",
+  "desc": "Open source, typo-tolerant search engine for building delightful search",
+  "githubName": "typesense",
+  "githubDescription": "Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences",
+  "weight": 26481,
+  "image": "https://avatars.githubusercontent.com/u/19822348?v=4",
+  "tags": [
+    "algolia",
+    "datastore",
+    "elasticsearch",
+    "enterprise-search",
+    "faceting",
+    "full-text-search",
+    "fuzzy-search",
+    "geosearch",
+    "in-memory",
+    "instantsearch",
+    "merchandising",
+    "pinecone",
+    "search",
+    "search-engine",
+    "semantic-search",
+    "similarity-search",
+    "site-search",
+    "synonyms",
+    "typo-tolerance",
+    "vector-search"
+  ],
+  "history": [
+    {
+      "date": "2026-08-13",
+      "stars": 26432
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 26436
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 26439
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 26442
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 26443
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 26443
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 26447
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 26454
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 26463
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 26473
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 26477
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 26476
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 26478
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 26478
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 26481
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 26484
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 26488
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 26490,
+      "forks": 967,
+      "openIssues": 875
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 26494,
+      "forks": 967,
+      "openIssues": 875
+    }
+  ]
+}

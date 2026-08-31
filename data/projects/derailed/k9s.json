@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "derailed/k9s",
+  "link": "https://github.com/derailed/k9s",
+  "name": "k9s",
+  "desc": "🐶 Kubernetes CLI To Manage Your Clusters In Style!",
+  "githubName": "k9s",
+  "githubDescription": "🐶 Kubernetes CLI To Manage Your Clusters In Style!",
+  "weight": 34440,
+  "image": "https://raw.githubusercontent.com/derailed/k9s/master/assets/logo.png",
+  "tags": [
+    "go",
+    "golang",
+    "k8s",
+    "k8s-cluster",
+    "k9s",
+    "kubernetes",
+    "kubernetes-cli",
+    "kubernetes-clusters"
+  ],
+  "history": [
+    {
+      "date": "2026-08-26",
+      "stars": 34436
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 34450
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 34457
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 34461
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 34469,
+      "forks": 2266,
+      "openIssues": 96
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 34475,
+      "forks": 2266,
+      "openIssues": 94
+    }
+  ]
+}

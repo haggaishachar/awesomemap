@@ -1,0 +1,465 @@
+{
+  "schemaVersion": 1,
+  "slug": "web-dev",
+  "name": "Best Web Development Open Source Projects",
+  "shortName": "Web Dev",
+  "description": "Frontend frameworks, build tools, styling, backend frameworks, and more.",
+  "projects": [
+    {
+      "id": "facebook/react",
+      "path": [
+        "Frontend Frameworks"
+      ]
+    },
+    {
+      "id": "vuejs/core",
+      "path": [
+        "Frontend Frameworks"
+      ]
+    },
+    {
+      "id": "sveltejs/svelte",
+      "path": [
+        "Frontend Frameworks"
+      ]
+    },
+    {
+      "id": "angular/angular",
+      "path": [
+        "Frontend Frameworks"
+      ]
+    },
+    {
+      "id": "solidjs/solid",
+      "path": [
+        "Frontend Frameworks"
+      ]
+    },
+    {
+      "id": "vercel/next.js",
+      "path": [
+        "Meta-Frameworks"
+      ]
+    },
+    {
+      "id": "nuxt/nuxt",
+      "path": [
+        "Meta-Frameworks"
+      ]
+    },
+    {
+      "id": "sveltejs/kit",
+      "path": [
+        "Meta-Frameworks"
+      ]
+    },
+    {
+      "id": "remix-run/remix",
+      "path": [
+        "Meta-Frameworks"
+      ]
+    },
+    {
+      "id": "withastro/astro",
+      "path": [
+        "Meta-Frameworks"
+      ]
+    },
+    {
+      "id": "vitejs/vite",
+      "path": [
+        "Build Tools & Bundlers"
+      ]
+    },
+    {
+      "id": "webpack/webpack",
+      "path": [
+        "Build Tools & Bundlers"
+      ]
+    },
+    {
+      "id": "evanw/esbuild",
+      "path": [
+        "Build Tools & Bundlers"
+      ]
+    },
+    {
+      "id": "rollup/rollup",
+      "path": [
+        "Build Tools & Bundlers"
+      ]
+    },
+    {
+      "id": "parcel-bundler/parcel",
+      "path": [
+        "Build Tools & Bundlers"
+      ]
+    },
+    {
+      "id": "tailwindlabs/tailwindcss",
+      "path": [
+        "CSS Frameworks & Styling"
+      ]
+    },
+    {
+      "id": "twbs/bootstrap",
+      "path": [
+        "CSS Frameworks & Styling"
+      ]
+    },
+    {
+      "id": "jgthms/bulma",
+      "path": [
+        "CSS Frameworks & Styling"
+      ]
+    },
+    {
+      "id": "styled-components/styled-components",
+      "path": [
+        "CSS Frameworks & Styling"
+      ]
+    },
+    {
+      "id": "sass/dart-sass",
+      "path": [
+        "CSS Frameworks & Styling"
+      ]
+    },
+    {
+      "id": "expressjs/express",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "nestjs/nest",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "fastify/fastify",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "django/django",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "rails/rails",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "reduxjs/redux",
+      "path": [
+        "State Management"
+      ]
+    },
+    {
+      "id": "mobxjs/mobx",
+      "path": [
+        "State Management"
+      ]
+    },
+    {
+      "id": "pmndrs/zustand",
+      "path": [
+        "State Management"
+      ]
+    },
+    {
+      "id": "vuejs/pinia",
+      "path": [
+        "State Management"
+      ]
+    },
+    {
+      "id": "statelyai/xstate",
+      "path": [
+        "State Management"
+      ]
+    },
+    {
+      "id": "jestjs/jest",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "cypress-io/cypress",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "microsoft/playwright",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "vitest-dev/vitest",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "mochajs/mocha",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "gatsbyjs/gatsby",
+      "path": [
+        "Static Site Generators"
+      ]
+    },
+    {
+      "id": "gohugoio/hugo",
+      "path": [
+        "Static Site Generators"
+      ]
+    },
+    {
+      "id": "jekyll/jekyll",
+      "path": [
+        "Static Site Generators"
+      ]
+    },
+    {
+      "id": "11ty/eleventy",
+      "path": [
+        "Static Site Generators"
+      ]
+    },
+    {
+      "id": "facebook/docusaurus",
+      "path": [
+        "Static Site Generators"
+      ]
+    },
+    {
+      "id": "graphql/graphql-js",
+      "path": [
+        "API & Data Layer"
+      ]
+    },
+    {
+      "id": "apollographql/apollo-client",
+      "path": [
+        "API & Data Layer"
+      ]
+    },
+    {
+      "id": "trpc/trpc",
+      "path": [
+        "API & Data Layer"
+      ]
+    },
+    {
+      "id": "prisma/prisma",
+      "path": [
+        "API & Data Layer"
+      ]
+    },
+    {
+      "id": "axios/axios",
+      "path": [
+        "API & Data Layer"
+      ]
+    },
+    {
+      "id": "mui/material-ui",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "ant-design/ant-design",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "chakra-ui/chakra-ui",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "shadcn-ui/ui",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "radix-ui/primitives",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "fastapi/fastapi",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "laravel/laravel",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "pallets/flask",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "eslint/eslint",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "storybookjs/storybook",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "react/react",
+      "path": [
+        "Frontend Frameworks"
+      ]
+    },
+    {
+      "id": "vueComponent/ant-design-vue",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "labstack/echo",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "prettier/prettier",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "Dogfalo/materialize",
+      "path": [
+        "CSS Frameworks & Styling"
+      ]
+    },
+    {
+      "id": "vercel/turborepo",
+      "path": [
+        "Build Tools & Bundlers"
+      ]
+    },
+    {
+      "id": "web-infra-dev/rsbuild",
+      "path": [
+        "Build Tools & Bundlers"
+      ]
+    },
+    {
+      "id": "brunch/brunch",
+      "path": [
+        "Build Tools & Bundlers"
+      ]
+    },
+    {
+      "id": "developit/microbundle",
+      "path": [
+        "Build Tools & Bundlers"
+      ]
+    },
+    {
+      "id": "karma-runner/karma",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "nightwatchjs/nightwatch",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "GoogleChrome/puppeteer",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "aidenybai/million",
+      "path": [
+        "Build Tools & Bundlers"
+      ]
+    },
+    {
+      "id": "remult/remult",
+      "path": [
+        "API & Data Layer"
+      ]
+    },
+    {
+      "id": "artf/grapesjs",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "handsontable/handsontable",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "frappe/datatable",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "jspreadsheet/ce",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "summernote/summernote",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "concentjs/concent",
+      "path": [
+        "State Management"
+      ]
+    },
+    {
+      "id": "flyfish-dev/file-viewer",
+      "path": [
+        "UI Component Libraries"
+      ]
+    }
+  ]
+}

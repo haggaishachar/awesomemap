@@ -144,26 +144,16 @@ test("computeRisingTags ranks eligible tag groups by percent growth descending",
   // Each group needs at least MIN_TRACKED_PROJECTS_FOR_RISING (4) tracked
   // projects to be eligible at all — see the dedicated floor test below.
   const groups = buildTagGroups([
-    { id: "a/a", name: "A", weight: 1100, tags: ["fast"] },
-    { id: "b/b", name: "B", weight: 1050, tags: ["fast"] },
-    { id: "e/e", name: "E", weight: 1100, tags: ["fast"] },
-    { id: "f/f", name: "F", weight: 1050, tags: ["fast"] },
-    { id: "c/c", name: "C", weight: 2020, tags: ["slow"] },
-    { id: "d/d", name: "D", weight: 2000, tags: ["slow"] },
-    { id: "g/g", name: "G", weight: 2020, tags: ["slow"] },
-    { id: "h/h", name: "H", weight: 2000, tags: ["slow"] },
+    { id: "a/a", name: "A", weight: 1100, tags: ["fast"], history: history(1000, 1100) },
+    { id: "b/b", name: "B", weight: 1050, tags: ["fast"], history: history(1000, 1050) },
+    { id: "e/e", name: "E", weight: 1100, tags: ["fast"], history: history(1000, 1100) },
+    { id: "f/f", name: "F", weight: 1050, tags: ["fast"], history: history(1000, 1050) },
+    { id: "c/c", name: "C", weight: 2020, tags: ["slow"], history: history(2000, 2020) },
+    { id: "d/d", name: "D", weight: 2000, tags: ["slow"], history: history(2000, 2000) },
+    { id: "g/g", name: "G", weight: 2020, tags: ["slow"], history: history(2000, 2020) },
+    { id: "h/h", name: "H", weight: 2000, tags: ["slow"], history: history(2000, 2000) },
   ]);
-  const historyById = {
-    "a/a": history(1000, 1100),
-    "b/b": history(1000, 1050),
-    "e/e": history(1000, 1100),
-    "f/f": history(1000, 1050),
-    "c/c": history(2000, 2020),
-    "d/d": history(2000, 2000),
-    "g/g": history(2000, 2020),
-    "h/h": history(2000, 2000),
-  };
-  const ranked = computeRisingTags(groups, historyById, 7, { now: NOW });
+  const ranked = computeRisingTags(groups, 7, { now: NOW });
   assert.deepEqual(ranked.map((r) => r.tag), ["fast", "slow"]);
   assert.ok(ranked[0].growth.percentDelta > ranked[1].growth.percentDelta);
   assert.deepEqual(ranked.map((r) => r.rank), [1, 2]);
@@ -173,11 +163,10 @@ test("computeRisingTags excludes a tag group with no net growth, even if tracked
   // "Rising" must never show a flat or shrinking entry — same rule
   // leaderboard.mjs applies to individual projects.
   const groups = buildTagGroups([
-    { id: "a/a", name: "A", weight: 900, tags: ["flat"] },
-    { id: "b/b", name: "B", weight: 900, tags: ["flat"] },
+    { id: "a/a", name: "A", weight: 900, tags: ["flat"], history: history(1000, 900) },
+    { id: "b/b", name: "B", weight: 900, tags: ["flat"], history: history(1000, 900) },
   ]);
-  const historyById = { "a/a": history(1000, 900), "b/b": history(1000, 900) };
-  assert.deepEqual(computeRisingTags(groups, historyById, 7, { now: NOW }), []);
+  assert.deepEqual(computeRisingTags(groups, 7, { now: NOW }), []);
 });
 
 test("computeRisingTags excludes a tag group without enough history", () => {
@@ -185,25 +174,19 @@ test("computeRisingTags excludes a tag group without enough history", () => {
     { id: "a/a", name: "A", weight: 1100, tags: ["new"] },
     { id: "b/b", name: "B", weight: 1050, tags: ["new"] },
   ]);
-  assert.deepEqual(computeRisingTags(groups, {}, 7, { now: NOW }), []);
+  assert.deepEqual(computeRisingTags(groups, 7, { now: NOW }), []);
 });
 
 test("computeRisingTags carries projectCount/totalStars alongside the growth stat", () => {
   // Needs at least MIN_TRACKED_PROJECTS_FOR_RISING (4) tracked projects to
   // be eligible — see the dedicated floor test below.
   const groups = buildTagGroups([
-    { id: "a/a", name: "A", weight: 1100, tags: ["fast"] },
-    { id: "b/b", name: "B", weight: 1050, tags: ["fast"] },
-    { id: "e/e", name: "E", weight: 1100, tags: ["fast"] },
-    { id: "f/f", name: "F", weight: 1050, tags: ["fast"] },
+    { id: "a/a", name: "A", weight: 1100, tags: ["fast"], history: history(1000, 1100) },
+    { id: "b/b", name: "B", weight: 1050, tags: ["fast"], history: history(1000, 1050) },
+    { id: "e/e", name: "E", weight: 1100, tags: ["fast"], history: history(1000, 1100) },
+    { id: "f/f", name: "F", weight: 1050, tags: ["fast"], history: history(1000, 1050) },
   ]);
-  const historyById = {
-    "a/a": history(1000, 1100),
-    "b/b": history(1000, 1050),
-    "e/e": history(1000, 1100),
-    "f/f": history(1000, 1050),
-  };
-  const ranked = computeRisingTags(groups, historyById, 7, { now: NOW });
+  const ranked = computeRisingTags(groups, 7, { now: NOW });
   assert.equal(ranked[0].projectCount, 4);
   assert.equal(ranked[0].totalStars, 4300);
 });
@@ -212,26 +195,16 @@ test("computeRisingTags respects limit", () => {
   // Each group needs at least MIN_TRACKED_PROJECTS_FOR_RISING (4) tracked
   // projects to be eligible — see the dedicated floor test below.
   const groups = buildTagGroups([
-    { id: "a/a", name: "A", weight: 1100, tags: ["fast"] },
-    { id: "b/b", name: "B", weight: 1050, tags: ["fast"] },
-    { id: "e/e", name: "E", weight: 1100, tags: ["fast"] },
-    { id: "f/f", name: "F", weight: 1050, tags: ["fast"] },
-    { id: "c/c", name: "C", weight: 2200, tags: ["also-fast"] },
-    { id: "d/d", name: "D", weight: 2100, tags: ["also-fast"] },
-    { id: "g/g", name: "G", weight: 2200, tags: ["also-fast"] },
-    { id: "h/h", name: "H", weight: 2100, tags: ["also-fast"] },
+    { id: "a/a", name: "A", weight: 1100, tags: ["fast"], history: history(1000, 1100) },
+    { id: "b/b", name: "B", weight: 1050, tags: ["fast"], history: history(1000, 1050) },
+    { id: "e/e", name: "E", weight: 1100, tags: ["fast"], history: history(1000, 1100) },
+    { id: "f/f", name: "F", weight: 1050, tags: ["fast"], history: history(1000, 1050) },
+    { id: "c/c", name: "C", weight: 2200, tags: ["also-fast"], history: history(2000, 2200) },
+    { id: "d/d", name: "D", weight: 2100, tags: ["also-fast"], history: history(2000, 2100) },
+    { id: "g/g", name: "G", weight: 2200, tags: ["also-fast"], history: history(2000, 2200) },
+    { id: "h/h", name: "H", weight: 2100, tags: ["also-fast"], history: history(2000, 2100) },
   ]);
-  const historyById = {
-    "a/a": history(1000, 1100),
-    "b/b": history(1000, 1050),
-    "e/e": history(1000, 1100),
-    "f/f": history(1000, 1050),
-    "c/c": history(2000, 2200),
-    "d/d": history(2000, 2100),
-    "g/g": history(2000, 2200),
-    "h/h": history(2000, 2100),
-  };
-  assert.equal(computeRisingTags(groups, historyById, 7, { now: NOW, limit: 1 }).length, 1);
+  assert.equal(computeRisingTags(groups, 7, { now: NOW, limit: 1 }).length, 1);
 });
 
 test("computeRisingTags requires at least MIN_TRACKED_PROJECTS_FOR_RISING tracked projects, even if otherwise eligible", () => {
@@ -240,26 +213,19 @@ test("computeRisingTags requires at least MIN_TRACKED_PROJECTS_FOR_RISING tracke
   // Only 2 tracked projects — passes MIN_PROJECTS_PER_TAG and would
   // otherwise be "rising," but shouldn't clear the stricter floor.
   const smallGroup = buildTagGroups([
-    { id: "a/a", name: "A", weight: 1100, tags: ["small"] },
-    { id: "b/b", name: "B", weight: 1050, tags: ["small"] },
+    { id: "a/a", name: "A", weight: 1100, tags: ["small"], history: history(1000, 1100) },
+    { id: "b/b", name: "B", weight: 1050, tags: ["small"], history: history(1000, 1050) },
   ]);
-  const smallHistory = { "a/a": history(1000, 1100), "b/b": history(1000, 1050) };
-  assert.deepEqual(computeRisingTags(smallGroup, smallHistory, 7, { now: NOW }), []);
+  assert.deepEqual(computeRisingTags(smallGroup, 7, { now: NOW }), []);
 
   // 4 tracked projects, same shape otherwise — should qualify.
   const bigGroup = buildTagGroups([
-    { id: "a/a", name: "A", weight: 1100, tags: ["big"] },
-    { id: "b/b", name: "B", weight: 1050, tags: ["big"] },
-    { id: "c/c", name: "C", weight: 2200, tags: ["big"] },
-    { id: "d/d", name: "D", weight: 2100, tags: ["big"] },
+    { id: "a/a", name: "A", weight: 1100, tags: ["big"], history: history(1000, 1100) },
+    { id: "b/b", name: "B", weight: 1050, tags: ["big"], history: history(1000, 1050) },
+    { id: "c/c", name: "C", weight: 2200, tags: ["big"], history: history(2000, 2200) },
+    { id: "d/d", name: "D", weight: 2100, tags: ["big"], history: history(2000, 2100) },
   ]);
-  const bigHistory = {
-    "a/a": history(1000, 1100),
-    "b/b": history(1000, 1050),
-    "c/c": history(2000, 2200),
-    "d/d": history(2000, 2100),
-  };
-  const ranked = computeRisingTags(bigGroup, bigHistory, 7, { now: NOW });
+  const ranked = computeRisingTags(bigGroup, 7, { now: NOW });
   assert.equal(ranked.length, 1);
   assert.equal(ranked[0].tag, "big");
 });

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "id": "cilium/cilium",
+  "link": "https://cilium.io/",
+  "name": "Cilium",
+  "desc": "eBPF-based networking, observability, and security for Kubernetes",
+  "githubName": "cilium",
+  "githubDescription": "eBPF-based Networking, Security, and Observability",
+  "weight": 25011,
+  "image": "https://avatars.githubusercontent.com/u/21054566?v=4",
+  "tags": [
+    "bpf",
+    "cncf",
+    "cni",
+    "containers",
+    "ebpf",
+    "k8s",
+    "kernel",
+    "kubernetes",
+    "kubernetes-networking",
+    "loadbalancing",
+    "monitoring",
+    "networking",
+    "observability",
+    "security",
+    "troubleshooting",
+    "xdp"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 24883
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 24891
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 24902
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 24910
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 24915
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 24924
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 24927
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 24929
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 24943
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 24950
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 24953
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 24969
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 24977
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 24985
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 24993
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 24995
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 25002
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 25004
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 25010
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 25017
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 25020
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 25027
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 25028,
+      "forks": 4003,
+      "openIssues": 1095
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 25031,
+      "forks": 4003,
+      "openIssues": 1096
+    }
+  ]
+}

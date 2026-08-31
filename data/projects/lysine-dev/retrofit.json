@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "lysine-dev/retrofit",
+  "link": "https://github.com/lysine-dev/retrofit",
+  "name": "Retrofit",
+  "desc": "A type-safe HTTP client for Android and Java",
+  "githubName": "retrofit",
+  "githubDescription": "A type-safe HTTP client for Android and the JVM",
+  "weight": 43935,
+  "image": "https://avatars.githubusercontent.com/u/265085928?v=4",
+  "tags": [
+    "android",
+    "java"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 43924
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 43924
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 43925
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 43927
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 43927
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 43925
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 43928
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 43928
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 43931
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 43930
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 43931
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 43932
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 43935
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 43934
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 43934
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 43933
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 43934
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 43933
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 43936
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 43937
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 43937
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 43937
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 43937,
+      "forks": 7339,
+      "openIssues": 168
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 43938,
+      "forks": 7339,
+      "openIssues": 168
+    }
+  ]
+}

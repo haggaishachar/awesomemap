@@ -1,0 +1,351 @@
+{
+  "schemaVersion": 1,
+  "slug": "databases",
+  "name": "Best Database & Data Infrastructure Open Source Projects",
+  "shortName": "Databases",
+  "description": "Relational, NoSQL, caching, search, streaming, analytics, and more.",
+  "projects": [
+    {
+      "id": "postgres/postgres",
+      "path": [
+        "Relational Databases"
+      ]
+    },
+    {
+      "id": "mysql/mysql-server",
+      "path": [
+        "Relational Databases"
+      ]
+    },
+    {
+      "id": "sqlite/sqlite",
+      "path": [
+        "Relational Databases"
+      ]
+    },
+    {
+      "id": "cockroachdb/cockroach",
+      "path": [
+        "Relational Databases"
+      ]
+    },
+    {
+      "id": "MariaDB/server",
+      "path": [
+        "Relational Databases"
+      ]
+    },
+    {
+      "id": "mongodb/mongo",
+      "path": [
+        "Document & Wide-Column Databases"
+      ]
+    },
+    {
+      "id": "apache/cassandra",
+      "path": [
+        "Document & Wide-Column Databases"
+      ]
+    },
+    {
+      "id": "apache/couchdb",
+      "path": [
+        "Document & Wide-Column Databases"
+      ]
+    },
+    {
+      "id": "scylladb/scylladb",
+      "path": [
+        "Document & Wide-Column Databases"
+      ]
+    },
+    {
+      "id": "redis/redis",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "valkey-io/valkey",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "memcached/memcached",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "etcd-io/etcd",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "elastic/elasticsearch",
+      "path": [
+        "Search Engines"
+      ]
+    },
+    {
+      "id": "opensearch-project/OpenSearch",
+      "path": [
+        "Search Engines"
+      ]
+    },
+    {
+      "id": "meilisearch/meilisearch",
+      "path": [
+        "Search Engines"
+      ]
+    },
+    {
+      "id": "typesense/typesense",
+      "path": [
+        "Search Engines"
+      ]
+    },
+    {
+      "id": "apache/solr",
+      "path": [
+        "Search Engines"
+      ]
+    },
+    {
+      "id": "apache/kafka",
+      "path": [
+        "Streaming & Message Queues"
+      ]
+    },
+    {
+      "id": "rabbitmq/rabbitmq-server",
+      "path": [
+        "Streaming & Message Queues"
+      ]
+    },
+    {
+      "id": "nats-io/nats-server",
+      "path": [
+        "Streaming & Message Queues"
+      ]
+    },
+    {
+      "id": "redpanda-data/redpanda",
+      "path": [
+        "Streaming & Message Queues"
+      ]
+    },
+    {
+      "id": "apache/pulsar",
+      "path": [
+        "Streaming & Message Queues"
+      ]
+    },
+    {
+      "id": "ClickHouse/ClickHouse",
+      "path": [
+        "OLAP & Analytical Databases"
+      ]
+    },
+    {
+      "id": "duckdb/duckdb",
+      "path": [
+        "OLAP & Analytical Databases"
+      ]
+    },
+    {
+      "id": "apache/druid",
+      "path": [
+        "OLAP & Analytical Databases"
+      ]
+    },
+    {
+      "id": "apache/pinot",
+      "path": [
+        "OLAP & Analytical Databases"
+      ]
+    },
+    {
+      "id": "influxdata/influxdb",
+      "path": [
+        "Time-Series Databases"
+      ]
+    },
+    {
+      "id": "timescale/timescaledb",
+      "path": [
+        "Time-Series Databases"
+      ]
+    },
+    {
+      "id": "questdb/questdb",
+      "path": [
+        "Time-Series Databases"
+      ]
+    },
+    {
+      "id": "neo4j/neo4j",
+      "path": [
+        "Graph Databases"
+      ]
+    },
+    {
+      "id": "dgraph-io/dgraph",
+      "path": [
+        "Graph Databases"
+      ]
+    },
+    {
+      "id": "arangodb/arangodb",
+      "path": [
+        "Graph Databases"
+      ]
+    },
+    {
+      "id": "hibernate/hibernate-orm",
+      "path": [
+        "ORMs & Query Builders"
+      ]
+    },
+    {
+      "id": "drizzle-team/drizzle-orm",
+      "path": [
+        "ORMs & Query Builders"
+      ]
+    },
+    {
+      "id": "go-gorm/gorm",
+      "path": [
+        "ORMs & Query Builders"
+      ]
+    },
+    {
+      "id": "sequelize/sequelize",
+      "path": [
+        "ORMs & Query Builders"
+      ]
+    },
+    {
+      "id": "sqlalchemy/sqlalchemy",
+      "path": [
+        "ORMs & Query Builders"
+      ]
+    },
+    {
+      "id": "dbeaver/dbeaver",
+      "path": [
+        "Database Tools & Admin"
+      ]
+    },
+    {
+      "id": "vrana/adminer",
+      "path": [
+        "Database Tools & Admin"
+      ]
+    },
+    {
+      "id": "flyway/flyway",
+      "path": [
+        "Database Tools & Admin"
+      ]
+    },
+    {
+      "id": "liquibase/liquibase",
+      "path": [
+        "Database Tools & Admin"
+      ]
+    },
+    {
+      "id": "apache/airflow",
+      "path": [
+        "Data Pipelines & ETL"
+      ]
+    },
+    {
+      "id": "dbt-labs/dbt-core",
+      "path": [
+        "Data Pipelines & ETL"
+      ]
+    },
+    {
+      "id": "meltano/meltano",
+      "path": [
+        "Data Pipelines & ETL"
+      ]
+    },
+    {
+      "id": "apache/nifi",
+      "path": [
+        "Data Pipelines & ETL"
+      ]
+    },
+    {
+      "id": "metabase/metabase",
+      "path": [
+        "BI & Analytics"
+      ]
+    },
+    {
+      "id": "apache/superset",
+      "path": [
+        "BI & Analytics"
+      ]
+    },
+    {
+      "id": "getredash/redash",
+      "path": [
+        "BI & Analytics"
+      ]
+    },
+    {
+      "id": "neondatabase/neon",
+      "path": [
+        "Relational Databases"
+      ]
+    },
+    {
+      "id": "pingcap/tidb",
+      "path": [
+        "Relational Databases"
+      ]
+    },
+    {
+      "id": "typeorm/typeorm",
+      "path": [
+        "ORMs & Query Builders"
+      ]
+    },
+    {
+      "id": "facebook/rocksdb",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "ravendb/ravendb",
+      "path": [
+        "Document & Wide-Column Databases"
+      ]
+    },
+    {
+      "id": "influxdb/influxdb",
+      "path": [
+        "Time-Series Databases"
+      ]
+    },
+    {
+      "id": "elasticsearch/elasticsearch",
+      "path": [
+        "Search Engines"
+      ]
+    },
+    {
+      "id": "prisma/orm",
+      "path": [
+        "ORMs & Query Builders"
+      ]
+    }
+  ]
+}

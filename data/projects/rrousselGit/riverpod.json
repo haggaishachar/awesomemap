@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "rrousselGit/riverpod",
+  "link": "https://riverpod.dev/",
+  "name": "Riverpod",
+  "desc": "A reactive caching and data-binding framework for Flutter and Dart",
+  "githubName": "riverpod",
+  "githubDescription": "A reactive caching and data-binding framework.   Riverpod makes working with asynchronous code a breeze.",
+  "weight": 7374,
+  "image": null,
+  "tags": [
+    "dart",
+    "flutter",
+    "hacktoberfest",
+    "inheritedwidget",
+    "provider",
+    "riverpod",
+    "service-locator",
+    "state-management"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 7361
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 7363
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 7364
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 7364
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 7365
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 7366
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 7368
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 7368
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 7370
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 7369
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 7369
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 7370
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 7370
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 7372
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 7372
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 7373
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 7373
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 7373
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 7374
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 7372
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 7372
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 7373
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 7374,
+      "forks": 1112,
+      "openIssues": 157
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 7375,
+      "forks": 1113,
+      "openIssues": 158
+    }
+  ]
+}

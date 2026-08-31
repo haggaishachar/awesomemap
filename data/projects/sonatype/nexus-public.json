@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "sonatype/nexus-public",
+  "link": "https://www.sonatype.com/products/sonatype-nexus-repository",
+  "name": "Nexus Repository",
+  "desc": "OSS repository manager supporting all major packaging formats",
+  "githubName": "nexus-public",
+  "githubDescription": "Sonatype Nexus Repository Open-source codebase mirror",
+  "weight": 2627,
+  "image": "https://avatars.githubusercontent.com/u/44938?v=4",
+  "tags": [
+    "repository",
+    "repository-management"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 2611
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 2611
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 2614
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 2615
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 2616
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 2616
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 2616
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 2616
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 2616
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 2616
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 2618
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 2619
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 2622
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 2621
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 2622
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 2623
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 2623
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 2626
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 2627
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 2629
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 2631
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 2632
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 2632,
+      "forks": 745,
+      "openIssues": 366
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 2635,
+      "forks": 746,
+      "openIssues": 366
+    }
+  ]
+}

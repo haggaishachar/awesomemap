@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "labstack/echo",
+  "link": "https://github.com/labstack/echo",
+  "name": "echo",
+  "desc": "High performance, minimalist Go web framework",
+  "githubName": "echo",
+  "githubDescription": "High performance, minimalist Go web framework",
+  "weight": 32658,
+  "image": "https://avatars.githubusercontent.com/u/2624634?v=4",
+  "tags": [
+    "echo",
+    "go",
+    "http2",
+    "https",
+    "labstack-echo",
+    "letsencrypt",
+    "micro-framework",
+    "microservice",
+    "middleware",
+    "ssl",
+    "web",
+    "web-framework",
+    "websocket"
+  ],
+  "history": [
+    {
+      "date": "2026-08-26",
+      "stars": 32658
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 32667
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 32668
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 32671
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 32671,
+      "forks": 2360,
+      "openIssues": 30
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 32671,
+      "forks": 2361,
+      "openIssues": 30
+    }
+  ]
+}

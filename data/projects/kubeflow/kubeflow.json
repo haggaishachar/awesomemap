@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "kubeflow/kubeflow",
+  "link": "https://www.kubeflow.org/",
+  "name": "Kubeflow",
+  "desc": "The Machine Learning Toolkit for Kubernetes",
+  "githubName": "kubeflow",
+  "githubDescription": "Machine Learning Toolkit for Kubernetes",
+  "weight": 15832,
+  "image": "https://avatars.githubusercontent.com/u/33164907?v=4",
+  "tags": [
+    "google-kubernetes-engine",
+    "jupyter",
+    "kubeflow",
+    "kubernetes",
+    "machine-learning",
+    "minikube",
+    "ml",
+    "notebook",
+    "tensorflow"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 15805
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 15808
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 15808
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 15810
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 15812
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 15812
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 15813
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 15813
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 15812
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 15816
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 15818
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 15822
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 15824
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 15824
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 15825
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 15826
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 15826
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 15829
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 15833
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 15834
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 15839
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 15841
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 15841,
+      "forks": 2693,
+      "openIssues": 0
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 15842,
+      "forks": 2692,
+      "openIssues": 0
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "mobile-dev-inc/Maestro",
+  "link": "https://maestro.mobile.dev/",
+  "name": "Maestro",
+  "desc": "Painless end-to-end mobile UI testing for iOS and Android",
+  "githubName": "Maestro",
+  "githubDescription": "Painless E2E Automation for Mobile and Web",
+  "weight": 15427,
+  "image": "https://raw.githubusercontent.com/mobile-dev-inc/Maestro/main/logo.png",
+  "tags": [
+    "android",
+    "blackbox-testing",
+    "ios",
+    "ui-automation"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 15263
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 15267
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 15278
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 15288
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 15301
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 15321
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 15325
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 15332
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 15337
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 15348
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 15357
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 15371
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 15384
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 15396
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 15404
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 15408
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 15413
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 15422
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 15428
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 15440
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 15447
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 15452
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 15456,
+      "forks": 936,
+      "openIssues": 496
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 15461,
+      "forks": 937,
+      "openIssues": 497
+    }
+  ]
+}

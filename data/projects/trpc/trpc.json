@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "trpc/trpc",
+  "link": "https://trpc.io",
+  "name": "tRPC",
+  "desc": "End-to-end typesafe APIs made easy",
+  "githubName": "trpc",
+  "githubDescription": "🧙‍♀️  Move Fast and Break Nothing. End-to-end typesafe APIs made easy. ",
+  "weight": 40546,
+  "image": "https://avatars.githubusercontent.com/u/78011399?v=4",
+  "tags": [
+    "api",
+    "next",
+    "nextjs",
+    "prisma",
+    "react",
+    "typescript"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 40501
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 40503
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 40503
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 40508
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 40509
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 40519
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 40522
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 40522
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 40526
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 40525
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 40524
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 40525
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 40526
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 40527
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 40533
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 40534
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 40537
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 40544
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 40545
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 40552
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 40554
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 40557
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 40560,
+      "forks": 1655,
+      "openIssues": 273
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 40562,
+      "forks": 1656,
+      "openIssues": 272
+    }
+  ]
+}

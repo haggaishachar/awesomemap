@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "lissy93/web-check",
+  "link": "https://github.com/lissy93/web-check",
+  "name": "web-check",
+  "desc": "🕵️‍♂️ All-in-one OSINT tool for analysing any website",
+  "githubName": "web-check",
+  "githubDescription": "🕵️‍♂️ All-in-one OSINT tool for analysing any website",
+  "weight": 34602,
+  "image": null,
+  "tags": [
+    "osint",
+    "privacy",
+    "security",
+    "security-tools",
+    "sysadmin"
+  ],
+  "history": [
+    {
+      "date": "2026-08-26",
+      "stars": 34602
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 34610
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 34616
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 34616
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 34625,
+      "forks": 2833,
+      "openIssues": 32
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 34628,
+      "forks": 2834,
+      "openIssues": 32
+    }
+  ]
+}

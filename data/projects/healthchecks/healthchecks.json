@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "healthchecks/healthchecks",
+  "link": "https://healthchecks.io",
+  "name": "Healthchecks",
+  "desc": "Cron job and background task monitoring service",
+  "githubName": "healthchecks",
+  "githubDescription": "Open-source cron job and background task monitoring service, written in Python & Django",
+  "weight": 10287,
+  "image": "https://avatars.githubusercontent.com/u/13053880?v=4",
+  "tags": [
+    "cron",
+    "cron-jobs",
+    "devops",
+    "django",
+    "monitoring",
+    "ops"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 10268
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 10274
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 10278
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 10279
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 10282
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 10287
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 10289
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 10292
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 10293
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 10293,
+      "forks": 1002,
+      "openIssues": 53
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 10294,
+      "forks": 1002,
+      "openIssues": 53
+    }
+  ]
+}

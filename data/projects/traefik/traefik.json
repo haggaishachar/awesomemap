@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "traefik/traefik",
+  "link": "https://traefik.io",
+  "name": "Traefik",
+  "desc": "Cloud-native reverse proxy and load balancer with automatic service discovery",
+  "githubName": "traefik",
+  "githubDescription": "The Cloud Native Application Proxy",
+  "weight": 64595,
+  "image": "https://avatars.githubusercontent.com/u/14280338?v=4",
+  "tags": [
+    "consul",
+    "docker",
+    "etcd",
+    "go",
+    "golang",
+    "kubernetes",
+    "letsencrypt",
+    "load-balancer",
+    "marathon",
+    "mesos",
+    "microservice",
+    "reverse-proxy",
+    "traefik",
+    "zookeeper"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 64527
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 64535
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 64539
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 64555
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 64573
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 64592
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 64618
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 64635
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 64643
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 64666,
+      "forks": 6175,
+      "openIssues": 915
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 64676,
+      "forks": 6176,
+      "openIssues": 914
+    }
+  ]
+}

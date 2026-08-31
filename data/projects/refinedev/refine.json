@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "refinedev/refine",
+  "link": "https://github.com/refinedev/refine",
+  "name": "refine",
+  "desc": "A React Framework for building  internal tools, admin panels, dashboards & B2B apps with unmatched flexibility.",
+  "githubName": "refine",
+  "githubDescription": "A React Framework for building  internal tools, admin panels, dashboards & B2B apps with unmatched flexibility.",
+  "weight": 35577,
+  "image": "https://raw.githubusercontent.com/refinedev/refine/main/logo.png",
+  "tags": [
+    "admin",
+    "admin-ui",
+    "ant-design",
+    "crud",
+    "developer-tools",
+    "frontend-framework",
+    "good-first-issue",
+    "graphql",
+    "hacktoberfest",
+    "headless",
+    "internal-tools",
+    "javascript",
+    "low-code",
+    "nestjs",
+    "nextjs",
+    "open-source-project",
+    "react",
+    "react-framework",
+    "react-hooks",
+    "typescript"
+  ],
+  "history": [
+    {
+      "date": "2026-08-27",
+      "stars": 35586
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 35591
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 35594
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 35598,
+      "forks": 3198,
+      "openIssues": 109
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 35602,
+      "forks": 3199,
+      "openIssues": 111
+    }
+  ]
+}

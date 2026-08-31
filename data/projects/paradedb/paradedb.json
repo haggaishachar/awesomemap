@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "paradedb/paradedb",
+  "link": "https://github.com/paradedb/paradedb",
+  "name": "paradedb",
+  "desc": "One Postgres for your application data, full-text search, vector retrieval, and aggregations. Home of the pg_search extension.",
+  "githubName": "paradedb",
+  "githubDescription": "One Postgres for your application data, full-text search, vector retrieval, and aggregations. Home of the pg_search extension.",
+  "weight": 9197,
+  "image": "https://avatars.githubusercontent.com/u/124464601?v=4",
+  "tags": [
+    "aggregations",
+    "analytics",
+    "bm25",
+    "columnar-storage",
+    "distributed-search",
+    "full-text-search",
+    "htap",
+    "hybrid-search",
+    "mpp",
+    "olap",
+    "postgresql",
+    "postgresql-extension",
+    "real-time-analytics",
+    "rust",
+    "search-engine",
+    "semantic-search",
+    "similarity-search",
+    "sparse-vector",
+    "vector-database",
+    "vector-search"
+  ],
+  "history": [
+    {
+      "date": "2026-08-27",
+      "stars": 9202
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 9205
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 9208
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 9213,
+      "forks": 444,
+      "openIssues": 194
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 9215,
+      "forks": 445,
+      "openIssues": 197
+    }
+  ]
+}

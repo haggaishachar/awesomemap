@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "twbs/bootstrap",
+  "link": "https://getbootstrap.com",
+  "name": "Bootstrap",
+  "desc": "The most popular HTML, CSS, and JS library in the world",
+  "githubName": "bootstrap",
+  "githubDescription": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
+  "weight": 174656,
+  "image": "https://avatars.githubusercontent.com/u/2918581?v=4",
+  "tags": [
+    "bootstrap",
+    "css",
+    "css-framework",
+    "html",
+    "javascript",
+    "sass",
+    "scss"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 174568
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 174568
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 174564
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 174566
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 174569
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 174578
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 174582
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 174589
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 174596
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 174611
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 174610
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 174612
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 174620
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 174619
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 174629
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 174639
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 174642
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 174648
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 174656
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 174663
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 174668
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 174669
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 174678,
+      "forks": 78630,
+      "openIssues": 227
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 174681,
+      "forks": 78627,
+      "openIssues": 228
+    }
+  ]
+}

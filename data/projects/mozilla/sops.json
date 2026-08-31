@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "mozilla/sops",
+  "link": "https://github.com/mozilla/sops",
+  "name": "sops",
+  "desc": "Simple and flexible tool for managing secrets",
+  "githubName": "sops",
+  "githubDescription": "Simple and flexible tool for managing secrets",
+  "weight": 22958,
+  "image": "https://avatars.githubusercontent.com/u/129185620?v=4",
+  "tags": [
+    "aws",
+    "azure",
+    "devops",
+    "gcp",
+    "pgp",
+    "secret-distribution",
+    "secret-management",
+    "security",
+    "sops"
+  ],
+  "history": [
+    {
+      "date": "2026-08-30",
+      "stars": 22966,
+      "forks": 1075,
+      "openIssues": 444
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 22974,
+      "forks": 1075,
+      "openIssues": 444
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "nocobase/nocobase",
+  "link": "https://www.nocobase.com",
+  "name": "NocoBase",
+  "desc": "Open-source no-code platform for building business systems",
+  "githubName": "nocobase",
+  "githubDescription": "NocoBase is an open-source AI + no-code platform for building business systems fast. Instead of generating everything from scratch, AI works on top of production-proven infrastructure and a WYSIWYG no-code interface, so you get both speed and reliability.",
+  "weight": 23863,
+  "image": "https://avatars.githubusercontent.com/u/66196787?v=4",
+  "tags": [
+    "admin-dashboard",
+    "ai-agent",
+    "ai-agents",
+    "ai-assistant",
+    "ai-tools",
+    "crm",
+    "crud",
+    "dsh-plugin",
+    "erp",
+    "internal-tool",
+    "internal-tools",
+    "low-code",
+    "lowcode",
+    "no-code",
+    "nocode",
+    "project-management",
+    "salesforce",
+    "self-hosted",
+    "workflows"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 23718
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 23749
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 23771
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 23801
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 23827
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 23855
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 23891
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 23910
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 23923
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 23940,
+      "forks": 2848,
+      "openIssues": 300
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 23954,
+      "forks": 2849,
+      "openIssues": 304
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "id": "osquery/osquery",
+  "link": "https://osquery.io",
+  "name": "osquery",
+  "desc": "SQL-powered operating system instrumentation and monitoring",
+  "githubName": "osquery",
+  "githubDescription": "SQL powered operating system instrumentation, monitoring, and analytics.",
+  "weight": 23522,
+  "image": "https://avatars.githubusercontent.com/u/8315868?v=4",
+  "tags": [
+    "hacktoberfest",
+    "intrusion-detection",
+    "monitoring",
+    "security",
+    "sql"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 23479
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 23479
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 23482
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 23484
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 23518
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 23522
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 23525
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 23526
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 23527
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 23532,
+      "forks": 2595,
+      "openIssues": 632
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 23533,
+      "forks": 2595,
+      "openIssues": 633
+    }
+  ]
+}

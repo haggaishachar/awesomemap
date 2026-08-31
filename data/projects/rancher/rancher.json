@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "rancher/rancher",
+  "link": "https://www.rancher.com/",
+  "name": "Rancher",
+  "desc": "Complete container management platform for Kubernetes",
+  "githubName": "rancher",
+  "githubDescription": "Complete container management platform",
+  "weight": 25872,
+  "image": "https://avatars.githubusercontent.com/u/9343010?v=4",
+  "tags": [
+    "cattle",
+    "containers",
+    "docker",
+    "kubernetes",
+    "orchestration",
+    "rancher"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 25831
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 25833
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 25834
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 25840
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 25848
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 25850
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 25852
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 25853
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 25855
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 25853
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 25856
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 25859
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 25860
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 25864
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 25867
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 25867
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 25868
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 25872
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 25872
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 25876
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 25877
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 25877
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 25883,
+      "forks": 3218,
+      "openIssues": 3340
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 25882,
+      "forks": 3218,
+      "openIssues": 3341
+    }
+  ]
+}

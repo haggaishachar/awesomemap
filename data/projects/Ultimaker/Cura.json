@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "Ultimaker/Cura",
+  "link": "https://github.com/Ultimaker/Cura",
+  "name": "Cura",
+  "desc": "Slicing application for preparing 3D models for printing",
+  "githubName": "Cura",
+  "githubDescription": "3D printer / slicing GUI built on top of the Uranium framework",
+  "weight": 7021,
+  "image": "https://avatars.githubusercontent.com/u/499557?v=4",
+  "tags": [
+    "3d-printing",
+    "cura",
+    "gcode",
+    "gui",
+    "pyqt6",
+    "python",
+    "qml",
+    "slicer",
+    "uranium"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 7014
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 7016
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 7018
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 7019
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 7019
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 7020
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 7024
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 7025
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 7025
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 7026,
+      "forks": 2176,
+      "openIssues": 3529
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 7026,
+      "forks": 2175,
+      "openIssues": 3528
+    }
+  ]
+}

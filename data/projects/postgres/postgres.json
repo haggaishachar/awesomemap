@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "postgres/postgres",
+  "link": "https://www.postgresql.org/",
+  "name": "PostgreSQL",
+  "desc": "Mirror of the PostgreSQL git repositories",
+  "githubName": "postgres",
+  "githubDescription": "Mirror of the official PostgreSQL GIT repository. Note that this is just a *mirror* - we don't work with pull requests on github. To contribute, please see https://wiki.postgresql.org/wiki/Submitting_a_Patch",
+  "weight": 21894,
+  "image": "https://avatars.githubusercontent.com/u/177543?v=4",
+  "tags": [],
+  "history": [
+    {
+      "date": "2026-08-13",
+      "stars": 21783
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 21785
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 21793
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 21802
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 21809
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 21817
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 21829
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 21845
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 21858
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 21864
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 21870
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 21880
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 21890
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 21893
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 21915
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 21925
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 21929
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 21945,
+      "forks": 5878,
+      "openIssues": 0
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 21960,
+      "forks": 5880,
+      "openIssues": 0
+    }
+  ]
+}

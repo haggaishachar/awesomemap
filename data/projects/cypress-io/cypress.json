@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "cypress-io/cypress",
+  "link": "https://www.cypress.io",
+  "name": "Cypress",
+  "desc": "Fast, easy and reliable testing for anything that runs in a browser",
+  "githubName": "cypress",
+  "githubDescription": "Fast, easy and reliable testing for anything that runs in a browser.",
+  "weight": 51001,
+  "image": "https://avatars.githubusercontent.com/u/8908513?v=4",
+  "tags": [
+    "angular-testing-library",
+    "component-testing",
+    "cypress",
+    "cypress-cloud",
+    "cypress-schematic",
+    "end-to-end-testing",
+    "react-testing-library",
+    "svelte-testing-library",
+    "test-replay",
+    "testing-framework",
+    "testing-library",
+    "testing-tool",
+    "vue-testing-library"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 50935
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 50937
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 50940
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 50941
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 50942
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 50954
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 50965
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 50972
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 50973
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 50978
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 50979
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 50980
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 50978
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 50977
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 50981
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 50983
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 50993
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 50999
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 51001
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 51003
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 51009
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 51012
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 51018,
+      "forks": 3654,
+      "openIssues": 1071
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 51021,
+      "forks": 3661,
+      "openIssues": 1071
+    }
+  ]
+}

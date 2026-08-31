@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "airbnb/aerosolve",
+  "link": "https://github.com/airbnb/aerosolve",
+  "name": "aerosolve",
+  "desc": "A machine learning package built for humans.",
+  "githubName": "aerosolve",
+  "githubDescription": "A machine learning package built for humans.",
+  "weight": 4808,
+  "image": "https://avatars.githubusercontent.com/u/698437?v=4",
+  "tags": [],
+  "history": [
+    {
+      "date": "2026-08-30",
+      "stars": 4809,
+      "forks": 563,
+      "openIssues": 10
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 4809,
+      "forks": 563,
+      "openIssues": 10
+    }
+  ]
+}

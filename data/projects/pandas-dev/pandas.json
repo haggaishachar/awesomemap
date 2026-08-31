@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "pandas-dev/pandas",
+  "link": "https://pandas.pydata.org/",
+  "name": "pandas",
+  "desc": "Flexible and powerful data analysis and manipulation library for Python",
+  "githubName": "pandas",
+  "githubDescription": "Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more",
+  "weight": 49567,
+  "image": "https://avatars.githubusercontent.com/u/21206976?v=4",
+  "tags": [
+    "alignment",
+    "data-analysis",
+    "data-science",
+    "flexible",
+    "pandas",
+    "python"
+  ],
+  "history": [
+    {
+      "date": "2026-08-13",
+      "stars": 49518
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 49525
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 49499
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 49501
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 49504
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 49511
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 49517
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 49524
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 49529
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 49541
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 49547
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 49556
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 49560
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 49565
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 49570
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 49582
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 49590
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 49600,
+      "forks": 20309,
+      "openIssues": 2746
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 49606,
+      "forks": 20309,
+      "openIssues": 2741
+    }
+  ]
+}

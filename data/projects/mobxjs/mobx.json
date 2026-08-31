@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "mobxjs/mobx",
+  "link": "https://mobx.js.org/",
+  "name": "MobX",
+  "desc": "Simple, scalable state management",
+  "githubName": "mobx",
+  "githubDescription": "Simple, scalable state management.",
+  "weight": 28206,
+  "image": "https://avatars.githubusercontent.com/u/17475736?v=4",
+  "tags": [
+    "javascript",
+    "mobx",
+    "react",
+    "reactive-programming",
+    "typescript"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 28205
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 28205
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 28204
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 28202
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 28201
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 28201
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 28202
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 28201
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 28201
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 28201
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 28201
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 28203
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 28203
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 28203
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 28205
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 28205
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 28205
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 28206
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 28206
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 28206
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 28206
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 28206
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 28206,
+      "forks": 1800,
+      "openIssues": 57
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 28206,
+      "forks": 1800,
+      "openIssues": 57
+    }
+  ]
+}

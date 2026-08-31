@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "id": "NousResearch/hermes-agent",
+  "link": "https://hermes-agent.nousresearch.com",
+  "name": "Hermes Agent",
+  "desc": "The agent that grows with you",
+  "githubName": "hermes-agent",
+  "githubDescription": "The agent that grows with you",
+  "weight": 236626,
+  "image": "https://avatars.githubusercontent.com/u/134168893?v=4",
+  "tags": [
+    "ai",
+    "ai-agent",
+    "ai-agents",
+    "anthropic",
+    "chatgpt",
+    "claude",
+    "claude-code",
+    "codex",
+    "hermes",
+    "hermes-agent",
+    "llm",
+    "nous-research",
+    "openai"
+  ],
+  "history": [
+    {
+      "date": "2026-08-14",
+      "stars": 230307
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 230755
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 231178
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 231658
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 232176
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 232694
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 233185
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 233658
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 234079
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 234473
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 235210
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 235992
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 236538
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 237244
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 237681
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 237923
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 238430,
+      "forks": 48534,
+      "openIssues": 37770
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 238760,
+      "forks": 48665,
+      "openIssues": 38221
+    }
+  ]
+}

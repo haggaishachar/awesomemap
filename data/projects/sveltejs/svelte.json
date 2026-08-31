@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "sveltejs/svelte",
+  "link": "https://svelte.dev",
+  "name": "Svelte",
+  "desc": "Cybernetically enhanced web apps",
+  "githubName": "svelte",
+  "githubDescription": "web development for the rest of us",
+  "weight": 87998,
+  "image": "https://avatars.githubusercontent.com/u/23617963?v=4",
+  "tags": [
+    "compiler",
+    "template",
+    "ui"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 87927
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 87942
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 87945
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 87929
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 87952
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 87975
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 87984
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 87951
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 87965
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 87984
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 87956
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 87977
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 87978
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 87982
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 87974
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 87978
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 87980
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 87984
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 87995
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 88002
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 88010
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 88015
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 88020,
+      "forks": 5226,
+      "openIssues": 1059
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 88029,
+      "forks": 5235,
+      "openIssues": 1055
+    }
+  ]
+}

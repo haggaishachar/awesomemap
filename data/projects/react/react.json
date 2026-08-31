@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "react/react",
+  "link": "https://github.com/react/react",
+  "name": "react",
+  "desc": "The library for web and native user interfaces.",
+  "githubName": "react",
+  "githubDescription": "The library for web and native user interfaces.",
+  "weight": 247896,
+  "image": "https://avatars.githubusercontent.com/u/102812?v=4",
+  "tags": [
+    "declarative",
+    "frontend",
+    "javascript",
+    "library",
+    "react",
+    "ui"
+  ],
+  "history": [
+    {
+      "date": "2026-08-26",
+      "stars": 247905
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 247984
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 248008
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 248025
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 248329,
+      "forks": 51263,
+      "openIssues": 1334
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 248338,
+      "forks": 51270,
+      "openIssues": 1336
+    }
+  ]
+}

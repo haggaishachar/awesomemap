@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "diggerhq/digger",
+  "link": "https://github.com/diggerhq/digger",
+  "name": "digger",
+  "desc": "Digger is an open source IaC orchestration tool. Digger allows you to run IaC in your existing CI pipeline ⚡️  ",
+  "githubName": "digger",
+  "githubDescription": "Digger is an open source IaC orchestration tool. Digger allows you to run IaC in your existing CI pipeline ⚡️  ",
+  "weight": 5031,
+  "image": "https://avatars.githubusercontent.com/u/71334590?v=4",
+  "tags": [
+    "github-actions",
+    "hacktoberfest",
+    "infrastructure-as-code",
+    "tacos",
+    "terraform",
+    "terraform-aws",
+    "terraform-gcp",
+    "terraform-github-actions",
+    "terraformcloud"
+  ],
+  "history": [
+    {
+      "date": "2026-08-27",
+      "stars": 5032
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 5032
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 5032
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 5033,
+      "forks": 608,
+      "openIssues": 481
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 5034,
+      "forks": 608,
+      "openIssues": 481
+    }
+  ]
+}

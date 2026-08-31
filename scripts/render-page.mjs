@@ -142,11 +142,12 @@ export function renderDomainPage(
   const itemListJsonLd = embed
     ? ""
     : renderJsonLd(buildItemListJsonLd(domain.name, domain.projects ?? [], { url: ogUrl }));
-  // The domain's own `history.json` (copied from `data/history/<slug>.json`
-  // by generate.mjs, when it exists) — fetched lazily by the detail panel
-  // to draw its star-history sparkline. Always emitted, even for domains
-  // with no history file yet; the panel's fetch fails gracefully (no
-  // chart) rather than needing generate.mjs's fs state here.
+  // The domain's own `history.json` (built by generate.mjs from each
+  // project entity's own `history` array — see data/projects/) — fetched
+  // lazily by the detail panel to draw its star-history sparkline. Always
+  // emitted, even for a domain whose projects have no snapshots yet; the
+  // panel degrades gracefully (no chart) rather than needing generate.mjs's
+  // fs state here.
   const historyUrl = `${basePath}/${domain.slug}/history.json`;
   const body = `
     ${header}

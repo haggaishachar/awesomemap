@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "keras-team/keras",
+  "link": "https://keras.io/",
+  "name": "Keras",
+  "desc": "Multi-backend deep learning framework for TensorFlow, JAX, and PyTorch",
+  "githubName": "keras",
+  "githubDescription": "Deep Learning for humans",
+  "weight": 64249,
+  "image": "https://avatars.githubusercontent.com/u/34455048?v=4",
+  "tags": [
+    "data-science",
+    "deep-learning",
+    "jax",
+    "machine-learning",
+    "neural-networks",
+    "python",
+    "pytorch",
+    "tensorflow"
+  ],
+  "history": [
+    {
+      "date": "2026-08-13",
+      "stars": 64225
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 64229
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 64230
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 64232
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 64232
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 64239
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 64240
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 64242
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 64240
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 64245
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 64249
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 64247
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 64249
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 64250
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 64257
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 64263
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 64268
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 64269,
+      "forks": 19772,
+      "openIssues": 233
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 64271,
+      "forks": 19772,
+      "openIssues": 235
+    }
+  ]
+}

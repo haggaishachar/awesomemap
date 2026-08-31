@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "11ty/eleventy",
+  "link": "https://www.11ty.dev",
+  "name": "Eleventy",
+  "desc": "A simpler static site generator",
+  "githubName": "buildawesome",
+  "githubDescription": "A simpler site generator. Transforms a directory of templates (of varying types) into HTML.",
+  "weight": 19861,
+  "image": "https://avatars.githubusercontent.com/u/35147177?v=4",
+  "tags": [
+    "blog-engine",
+    "documentation-tool",
+    "eleventy",
+    "javascript",
+    "static-site-generator",
+    "templates"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 19840
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 19840
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 19839
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 19841
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 19842
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 19845
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 19846
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 19846
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 19849
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 19850
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 19851
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 19855
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 19857
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 19855
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 19856
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 19855
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 19859
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 19862
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 19860
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 19867
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 19868
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 19869
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 19870,
+      "forks": 588,
+      "openIssues": 183
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 19872,
+      "forks": 588,
+      "openIssues": 184
+    }
+  ]
+}

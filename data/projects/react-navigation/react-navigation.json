@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "react-navigation/react-navigation",
+  "link": "https://reactnavigation.org/",
+  "name": "React Navigation",
+  "desc": "Routing and navigation for React Native and web apps",
+  "githubName": "react-navigation",
+  "githubDescription": "Routing and navigation for React Native and Web apps",
+  "weight": 24496,
+  "image": "https://avatars.githubusercontent.com/u/29647600?v=4",
+  "tags": [
+    "navigation",
+    "react",
+    "react-native",
+    "react-navigation"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 24487
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 24486
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 24486
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 24487
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 24488
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 24490
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 24490
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 24490
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 24490
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 24488
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 24488
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 24490
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 24490
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 24490
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 24493
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 24494
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 24495
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 24495
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 24496
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 24501
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 24501
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 24501
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 24501,
+      "forks": 5131,
+      "openIssues": 843
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 24502,
+      "forks": 5130,
+      "openIssues": 843
+    }
+  ]
+}

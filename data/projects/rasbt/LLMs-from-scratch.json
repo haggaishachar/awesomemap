@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "rasbt/LLMs-from-scratch",
+  "link": "https://github.com/rasbt/LLMs-from-scratch",
+  "name": "LLMs-from-scratch",
+  "desc": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+  "githubName": "LLMs-from-scratch",
+  "githubDescription": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+  "weight": 103814,
+  "image": null,
+  "tags": [
+    "ai",
+    "artificial-intelligence",
+    "attention-mechanism",
+    "deep-learning",
+    "finetuning",
+    "from-scratch",
+    "generative-ai",
+    "gpt",
+    "instruction-tuning",
+    "language-model",
+    "large-language-models",
+    "llm",
+    "machine-learning",
+    "natural-language-processing",
+    "pretraining",
+    "python",
+    "pytorch",
+    "tokenizer",
+    "transformers"
+  ],
+  "history": [
+    {
+      "date": "2026-08-26",
+      "stars": 103801
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 103902
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 103950
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 103979
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 104061,
+      "forks": 15930,
+      "openIssues": 2
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 104110,
+      "forks": 15942,
+      "openIssues": 2
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "Farama-Foundation/Gymnasium",
+  "link": "https://gymnasium.farama.org/",
+  "name": "Gymnasium",
+  "desc": "A standard API for reinforcement learning, maintained successor to OpenAI Gym",
+  "githubName": "Gymnasium",
+  "githubDescription": "A standard API for single-agent reinforcement learning environments, with popular reference environments and related utilities (formerly Gym)",
+  "weight": 12403,
+  "image": "https://avatars.githubusercontent.com/u/62961550?v=4",
+  "tags": [
+    "api",
+    "gym",
+    "reinforcement-learning"
+  ],
+  "history": [
+    {
+      "date": "2026-08-13",
+      "stars": 12315
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 12319
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 12326
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 12327
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 12329
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 12340
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 12348
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 12355
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 12361
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 12365
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 12374
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 12388
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 12398
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 12401
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 12414
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 12421
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 12429
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 12434,
+      "forks": 1447,
+      "openIssues": 77
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 12438,
+      "forks": 1449,
+      "openIssues": 78
+    }
+  ]
+}

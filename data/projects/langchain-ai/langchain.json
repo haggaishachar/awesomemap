@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "langchain-ai/langchain",
+  "link": "https://www.langchain.com/",
+  "name": "LangChain",
+  "desc": "Build context-aware, reasoning applications with LLMs",
+  "githubName": "langchain",
+  "githubDescription": "The agent engineering platform.",
+  "weight": 145029,
+  "image": "https://avatars.githubusercontent.com/u/126733545?v=4",
+  "tags": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "anthropic",
+    "chatgpt",
+    "deepagents",
+    "enterprise",
+    "framework",
+    "gemini",
+    "generative-ai",
+    "langchain",
+    "langgraph",
+    "llm",
+    "multiagent",
+    "open-source",
+    "openai",
+    "pydantic",
+    "python",
+    "rag",
+    "typescript"
+  ],
+  "history": [
+    {
+      "date": "2026-08-14",
+      "stars": 144224
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 144244
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 144312
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 144364
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 144439
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 144518
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 144601
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 144684
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 144745
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 144809
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 144862
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 144931
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 145011
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 145135
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 145198
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 145233
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 145291,
+      "forks": 24250,
+      "openIssues": 430
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 145335,
+      "forks": 24251,
+      "openIssues": 431
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "binwiederhier/ntfy",
+  "link": "https://ntfy.sh",
+  "name": "ntfy",
+  "desc": "Simple pub-sub push notification service",
+  "githubName": "ntfy",
+  "githubDescription": "Send push notifications to your phone or desktop using PUT/POST",
+  "weight": 33764,
+  "image": null,
+  "tags": [
+    "curl",
+    "notifications",
+    "ntfy",
+    "ntfysh",
+    "pubsub",
+    "push-notifications",
+    "rest-api"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 33650
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 33672
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 33694
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 33714
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 33735
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 33759
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 33790
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 33819
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 33833
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 33860,
+      "forks": 1570,
+      "openIssues": 374
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 33900,
+      "forks": 1571,
+      "openIssues": 375
+    }
+  ]
+}

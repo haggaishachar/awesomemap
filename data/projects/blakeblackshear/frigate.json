@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "blakeblackshear/frigate",
+  "link": "https://frigate.video",
+  "name": "Frigate",
+  "desc": "NVR with real-time local object detection for IP cameras",
+  "githubName": "frigate",
+  "githubDescription": "NVR with realtime local object detection for IP cameras",
+  "weight": 35392,
+  "image": null,
+  "tags": [
+    "ai",
+    "camera",
+    "google-coral",
+    "home-assistant",
+    "home-automation",
+    "homeautomation",
+    "mqtt",
+    "nvr",
+    "object-detection",
+    "realtime",
+    "rtsp",
+    "tensorflow"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 35259
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 35279
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 35305
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 35339
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 35368
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 35387
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 35433
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 35465
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 35480
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 35506,
+      "forks": 3544,
+      "openIssues": 166
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 35525,
+      "forks": 3547,
+      "openIssues": 166
+    }
+  ]
+}

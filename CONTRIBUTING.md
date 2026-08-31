@@ -4,31 +4,43 @@ Local development and contribution guide for awesomemap.
 
 ## Contribution flow
 
-- **Adding project(s) to an existing map:** just open a PR editing the
-  relevant `data/<slug>.json`. [`pr-check.yml`](.github/workflows/pr-check.yml)
-  runs the test suite and a full site build on every PR automatically —
-  it catches malformed JSON, missing `id`/`path`, duplicate slugs, and
-  broken builds before a human ever needs to look. A maintainer reviews
-  for fit/quality once CI is green.
+Project data is split across two directories (see "Data layout" below):
+`data/domains/<slug>.json` (which map(s) a project appears in, and where)
+and `data/projects/<owner>/<repo>.json` (the project's own metadata,
+one file per project, shared across every domain that references it).
+
+- **Adding a project already curated elsewhere to another map:** open a PR
+  adding `{ "id": "owner/repo", "path": [...] }` to the target
+  `data/domains/<slug>.json` — no need to touch `data/projects/`, its
+  metadata already exists.
+- **Adding a brand-new project:** open a PR that both adds the membership
+  entry above *and* creates `data/projects/<owner>/<repo>.json` (see
+  "Adding a new map" below for its shape).
 - **Proposing a brand-new domain map:** open a
   [New domain proposal](../../issues/new?template=new-domain-proposal.md)
   issue first — a two-minute form covering the domain, its rough
   categories, and why it fits. This keeps the site from ending up with a
   pile of overlapping, half-finished maps; most reasonable proposals get
   a quick go-ahead. Once it's green-lit, follow up with a PR adding
-  `data/<new-slug>.json`.
+  `data/domains/<new-slug>.json`.
+
+[`pr-check.yml`](.github/workflows/pr-check.yml) runs the test suite and a
+full site build on every PR automatically — it catches malformed JSON,
+missing `id`/`path`, duplicate slugs, a dangling membership reference (no
+matching `data/projects/` file), and broken builds before a human ever
+needs to look. A maintainer reviews for fit/quality once CI is green.
 
 Either way, the data files are the only thing a contribution PR usually
 touches — the site's rendering code, tests, and CI are unaffected by a
 data-only PR, so there's no way a project or map submission can break
-anything outside its own file.
+anything outside its own file(s).
 
 ## Develop
 
     npm install
     npm run dev
 
-Generates `dist/` from `data/*.json` and serves it at
+Generates `dist/` from `data/domains/` + `data/projects/` and serves it at
 http://localhost:5000. Re-run `npm run dev` (or just `npm run generate`)
 after editing any data file to regenerate.
 
@@ -75,42 +87,69 @@ This is an explicit, documented choice, not a hidden assumption — if you
 fork this repo or serve it from a different path, set these env vars to
 match your own deployment.
 
-## Adding a new map
+## Data layout
 
-Add `data/<slug>.json`:
+    data/
+      domains/
+        <slug>.json          # domain metadata + this domain's project membership
+      projects/
+        <owner>/<repo>.json  # one file per project, shared across every domain that references it
+
+`data/domains/<slug>.json`:
 
     {
+      "schemaVersion": 1,
       "slug": "<slug>",
       "name": "Display Name",
+      "shortName": "Short Name",
       "description": "One-line description shown on the landing page.",
       "projects": [
-        {
-          "id": "owner/repo",
-          "path": ["Category Name"],
-          "name": "Some Project",
-          "link": "https://example.com",
-          "desc": "What it does.",
-          "weight": 1000
-        }
+        { "id": "owner/repo", "path": ["Category Name"] }
       ]
     }
 
-- `id` and `path` are required on every project, and `id` doubles as the
-  project's GitHub repo — it's always `owner/repo` (github.com only, so the
-  host isn't repeated per project), no full URL. For a project with no public
-  GitHub repo, use any other unique string as `id`; it just won't be
-  enriched (see below), so give it `weight` yourself. `path` is the
-  breadcrumb of category names from root to the project (a single-level
-  category is a one-element array; deeper nesting is a longer array).
+- `id` and `path` are required on every membership entry, and `id` doubles
+  as the project's GitHub repo — it's always `owner/repo` (github.com only,
+  so the host isn't repeated per project). `path` is the breadcrumb of
+  category names from root to the project (a single-level category is a
+  one-element array; deeper nesting is a longer array).
+- `id` must have a matching `data/projects/<owner>/<repo>.json` file —
+  `generate.mjs` fails the build on a dangling reference. A project already
+  curated into another domain already has one; a brand-new project needs
+  one created (below).
+
+`data/projects/<owner>/<repo>.json` — one file per project, holding
+everything about the project itself (never duplicated across domains, even
+when the same project is referenced from more than one):
+
+    {
+      "schemaVersion": 1,
+      "id": "owner/repo",
+      "link": "https://example.com",
+      "name": "Some Project",
+      "desc": "What it does.",
+      "tags": [],
+      "weight": 1000,
+      "history": []
+    }
+
 - `name`, `desc`, `link`, `weight`, and `tags` may be omitted. `tags` is an
   array of strings (typically the repo's GitHub topics) shown alongside the
   project; the automated discovery job (see below) fills it in from the
-  candidate's GitHub topics automatically.
+  candidate's GitHub topics automatically. For a project with no public
+  GitHub repo, use any other unique string as `id`; it just won't be
+  enriched (see below), so give it `weight` yourself.
 - Logos aren't stored in this repo. Set `image` on the project to a direct
   URL into its source (e.g. a `raw.githubusercontent.com` link) and it's
-  hotlinked as-is; `node scripts/enrich-domain.mjs data/<slug>.json` fills
-  this in automatically from the repo's logo file, when `id` is an
-  owner/repo shorthand.
+  hotlinked as-is; `node scripts/enrich-domain.mjs data/domains/<slug>.json`
+  fills this in automatically from the repo's logo file, when `id` is an
+  owner/repo shorthand — it enriches every project entity that domain's
+  membership list references.
+- `githubName`/`githubDescription` (GitHub's own current name/description,
+  for drift detection against the curated `name`/`desc` above) and
+  `history` (the daily star/forks/open-issues snapshot log) are entirely
+  generated — see "Star history & Rising mode" below. Leave `history` as
+  `[]` for a new project.
 
 Run `npm run generate` to confirm it builds before opening a PR.
 
@@ -120,14 +159,16 @@ Every domain map has a second sizing mode, "Rising," that sizes tiles by
 star-growth velocity (7/30/90-day windows) instead of total star count.
 This is entirely generated data — nothing here is hand-authored:
 
-- `data/history/<slug>.json` is a per-project star-count snapshot log,
+- Each project entity's `history` array is its star-count snapshot log,
   written daily by `.github/workflows/snapshot-history.yml` (running
-  `scripts/snapshot-history.mjs`). It's keyed by project `id`, each value an
-  array of `{ date, stars }` entries, pruned to the last 120 days.
+  `scripts/snapshot-history.mjs`) — an array of `{ date, stars, forks,
+  openIssues }` entries, pruned to the last 120 days. The same run also
+  upserts `githubName`/`githubDescription` from GitHub's current API
+  response.
 - `scripts/generate.mjs` reads that history at build time and computes
   each project's `sizes` (`popular`, `rising7`, `rising30`, `rising90`),
   `hasEnoughHistory`, and `growth` fields via `scripts/velocity.mjs` —
-  these never need to be set by hand in `data/<slug>.json`.
+  these never need to be set by hand.
 - A brand-new project (or a brand-new domain) simply has no history yet;
   it renders in Rising mode with a "not enough history" marker until the
   daily snapshot job has run long enough to cover the selected window.

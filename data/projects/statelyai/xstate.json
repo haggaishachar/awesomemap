@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "statelyai/xstate",
+  "link": "https://stately.ai/docs/xstate",
+  "name": "XState",
+  "desc": "State machines and statecharts for the modern web",
+  "githubName": "xstate",
+  "githubDescription": "State machines, statecharts, and actors for complex logic",
+  "weight": 30061,
+  "image": "https://avatars.githubusercontent.com/u/61783956?v=4",
+  "tags": [
+    "actor-model",
+    "background-jobs",
+    "finite-state-machine",
+    "fsm",
+    "interpreter",
+    "javascript",
+    "orchestration",
+    "reactive",
+    "scxml",
+    "state",
+    "state-machine",
+    "state-machines",
+    "state-management",
+    "statechart",
+    "statecharts",
+    "typescript",
+    "visualizer",
+    "workflow",
+    "xstate"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 29981
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 29986
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 29991
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 29998
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 30005
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 30011
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 30014
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 30015
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 30017
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 30019
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 30025
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 30028
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 30036
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 30038
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 30043
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 30048
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 30052
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 30056
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 30060
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 30065
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 30069
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 30070
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 30074,
+      "forks": 1386,
+      "openIssues": 122
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 30076,
+      "forks": 1386,
+      "openIssues": 124
+    }
+  ]
+}

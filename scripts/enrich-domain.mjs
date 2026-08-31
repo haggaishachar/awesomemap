@@ -173,14 +173,20 @@ export function createGetJson(token, { fetchImpl = fetch, sleep } = {}) {
     }, { sleep });
 }
 
-// CLI entry point: node scripts/enrich-domain.mjs data/<slug>.json
-import { readFileSync, writeFileSync } from "node:fs";
+// CLI entry point: node scripts/enrich-domain.mjs data/domains/<slug>.json
+// Enriches each project *entity* (data/projects/<owner>/<repo>.json)
+// referenced by the given domain's membership list — weight/image/tags are
+// always API-derived, never hand-authored (see CONTRIBUTING.md), so this is
+// the one place they get filled in. The domain file itself is read-only
+// here; enrichment never touches membership (`id`/`path`).
+import { readFileSync } from "node:fs";
 import { execFileSync } from "node:child_process";
+import { loadProjectEntity, saveProjectEntity } from "./data-store.mjs";
 
 async function main() {
   const domainPath = process.argv[2];
   if (!domainPath) {
-    console.error("Usage: node scripts/enrich-domain.mjs data/<slug>.json");
+    console.error("Usage: node scripts/enrich-domain.mjs data/domains/<slug>.json");
     process.exit(1);
   }
 
@@ -192,23 +198,31 @@ async function main() {
   let logosFound = 0;
   let tagsFetched = 0;
   let failed = 0;
-  const enrichedProjects = [];
+  const enrichedEntities = [];
 
-  for (const project of domain.projects) {
+  for (const { id } of domain.projects) {
+    const entity = loadProjectEntity(id);
+    if (!entity) {
+      failed += 1;
+      console.error(
+        `Warning: "${id}" is referenced in ${domainPath} but has no data/projects/ entity file yet — create it first (see CONTRIBUTING.md)`,
+      );
+      continue;
+    }
     try {
-      const enriched = await enrichProject(project, { getJson });
+      const enriched = await enrichProject(entity, { getJson });
       if (enriched.weight !== undefined) starsFetched += 1;
-      if (enriched.image !== undefined && enriched.image !== project.image) logosFound += 1;
+      if (enriched.image !== undefined && enriched.image !== entity.image) logosFound += 1;
       if (enriched.tags !== undefined) tagsFetched += 1;
-      enrichedProjects.push(enriched);
+      enrichedEntities.push(enriched);
     } catch (err) {
       failed += 1;
-      console.error(`Warning: failed to enrich project "${project.id}": ${err.message}`);
-      enrichedProjects.push(project);
+      console.error(`Warning: failed to enrich project "${id}": ${err.message}`);
+      enrichedEntities.push(entity);
     }
   }
 
-  const invalidWeightIds = findInvalidWeights(enrichedProjects);
+  const invalidWeightIds = findInvalidWeights(enrichedEntities);
   if (invalidWeightIds.length > 0) {
     console.error(
       `Error: ${invalidWeightIds.length} project(s) did not end up with a real positive integer weight: ${invalidWeightIds.join(", ")}`,
@@ -216,7 +230,7 @@ async function main() {
     process.exit(1);
   }
 
-  writeFileSync(domainPath, JSON.stringify({ ...domain, projects: enrichedProjects }, null, 2) + "\n");
+  for (const entity of enrichedEntities) saveProjectEntity(entity);
   console.log(
     `${domainPath}: ${starsFetched}/${domain.projects.length} weights fetched, ${failed} failed, ${logosFound} logo URLs resolved, ${tagsFetched} tag lists synced`,
   );

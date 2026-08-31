@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "baserow/baserow",
+  "link": "https://baserow.io",
+  "name": "Baserow",
+  "desc": "Open-source no-code database and app builder",
+  "githubName": "baserow",
+  "githubDescription": "Build databases, automations, apps & agents with AI — no code.  Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative.",
+  "weight": 5711,
+  "image": "https://avatars.githubusercontent.com/u/68540644?v=4",
+  "tags": [
+    "airtable",
+    "airtable-alternative",
+    "airtable-replacement",
+    "application-builder",
+    "automations",
+    "dashboards",
+    "database",
+    "low-code",
+    "no-code",
+    "no-code-database",
+    "no-code-platform",
+    "online-database",
+    "postgresql",
+    "restful-api",
+    "self-hosted",
+    "spreadsheet"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 5645
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 5651
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 5657
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 5677
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 5688
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 5706
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 5735
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 5743
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 5744
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 5748,
+      "forks": 708,
+      "openIssues": 1220
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 5751,
+      "forks": 706,
+      "openIssues": 1222
+    }
+  ]
+}

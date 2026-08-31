@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "zabbix/zabbix",
+  "link": "https://www.zabbix.com/",
+  "name": "Zabbix",
+  "desc": "An enterprise-class open source monitoring solution for networks and applications",
+  "githubName": "zabbix",
+  "githubDescription": "Real-time monitoring of IT components and services, such as networks, servers, VMs, applications and the cloud.",
+  "weight": 6312,
+  "image": "https://avatars.githubusercontent.com/u/4561226?v=4",
+  "tags": [
+    "alerting",
+    "application-monitoring",
+    "metrics",
+    "monitoring",
+    "network-monitoring",
+    "zabbix"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 6229
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 6233
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 6238
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 6242
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 6243
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 6253
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 6256
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 6264
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 6269
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 6272
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 6275
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 6285
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 6289
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 6292
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 6296
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 6299
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 6302
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 6303
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 6309
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 6315
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 6317
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 6317
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 6321,
+      "forks": 1255,
+      "openIssues": 108
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 6325,
+      "forks": 1255,
+      "openIssues": 108
+    }
+  ]
+}

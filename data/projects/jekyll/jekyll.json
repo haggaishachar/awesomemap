@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "jekyll/jekyll",
+  "link": "https://jekyllrb.com",
+  "name": "Jekyll",
+  "desc": "Transform your plain text into static websites and blogs",
+  "githubName": "jekyll",
+  "githubDescription": ":globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby",
+  "weight": 51651,
+  "image": "https://avatars.githubusercontent.com/u/3083652?v=4",
+  "tags": [
+    "blog-engine",
+    "jekyll",
+    "liquid",
+    "markdown",
+    "ruby",
+    "static-site-generator"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 51621
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 51621
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 51623
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 51629
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 51636
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 51636
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 51636
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 51636
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 51637
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 51630
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 51633
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 51636
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 51639
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 51641
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 51644
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 51648
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 51650
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 51653
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 51649
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 51655
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 51657
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 51658
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 51659,
+      "forks": 10298,
+      "openIssues": 256
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 51659,
+      "forks": 10298,
+      "openIssues": 256
+    }
+  ]
+}

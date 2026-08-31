@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "rhasspy/rhasspy",
+  "link": "https://community.rhasspy.org/",
+  "name": "Rhasspy",
+  "desc": "Offline, privacy-focused voice assistant toolkit",
+  "githubName": "rhasspy",
+  "githubDescription": "Offline private voice assistant for many human languages",
+  "weight": 2750,
+  "image": "https://avatars.githubusercontent.com/u/59055969?v=4",
+  "tags": [
+    "home-assistant",
+    "node-red",
+    "privacy",
+    "speech-recognition",
+    "voice-assistants",
+    "voice-commands"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 2750
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 2750
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 2750
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 2750
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 2750
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 2750
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 2750
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 2749
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 2749
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 2749,
+      "forks": 208,
+      "openIssues": 131
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 2749,
+      "forks": 208,
+      "openIssues": 131
+    }
+  ]
+}

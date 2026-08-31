@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "frenck/awesome-home-assistant",
+  "link": "https://github.com/frenck/awesome-home-assistant",
+  "name": "awesome-home-assistant",
+  "desc": "A curated list of amazingly awesome Home Assistant resources.",
+  "githubName": "awesome-home-assistant",
+  "githubDescription": "A curated list of amazingly awesome Home Assistant resources.",
+  "weight": 8381,
+  "image": null,
+  "tags": [
+    "awesome",
+    "awesome-list",
+    "diy",
+    "hassio-repository",
+    "home-assistant",
+    "home-assistant-card",
+    "home-assistant-config",
+    "home-assistant-dashboard",
+    "home-assistant-integration",
+    "home-automation",
+    "homeassistant",
+    "homeassistant-config",
+    "homeautomation",
+    "internet-of-things",
+    "smarthome"
+  ],
+  "history": [
+    {
+      "date": "2026-08-26",
+      "stars": 8380
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 8383
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 8389
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 8391
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 8392,
+      "forks": 422,
+      "openIssues": 22
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 8396,
+      "forks": 422,
+      "openIssues": 22
+    }
+  ]
+}

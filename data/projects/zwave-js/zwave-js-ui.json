@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "zwave-js/zwave-js-ui",
+  "link": "https://zwave-js.github.io/zwave-js-ui",
+  "name": "Z-Wave JS UI",
+  "desc": "Full-featured web UI for Z-Wave JS",
+  "githubName": "zwave-js-ui",
+  "githubDescription": "Full featured Z-Wave Control Panel UI and MQTT gateway. Built using Nodejs, and Vue/Vuetify",
+  "weight": 1235,
+  "image": "https://avatars.githubusercontent.com/u/54627315?v=4",
+  "tags": [
+    "control-panel",
+    "hacktoberfest",
+    "mqtt",
+    "ui",
+    "vue",
+    "zwave",
+    "zwave-js-ui",
+    "zwavejs"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 1235
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 1235
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 1235
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 1235
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 1235
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 1235
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 1236
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 1236
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 1236
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 1237,
+      "forks": 246,
+      "openIssues": 123
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 1237,
+      "forks": 246,
+      "openIssues": 123
+    }
+  ]
+}

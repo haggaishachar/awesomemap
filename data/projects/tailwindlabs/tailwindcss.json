@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "tailwindlabs/tailwindcss",
+  "link": "https://tailwindcss.com",
+  "name": "Tailwind CSS",
+  "desc": "A utility-first CSS framework for rapid UI development",
+  "githubName": "tailwindcss",
+  "githubDescription": "A utility-first CSS framework for rapid UI development.",
+  "weight": 97341,
+  "image": "https://avatars.githubusercontent.com/u/67109815?v=4",
+  "tags": [
+    "css",
+    "css-framework",
+    "functional-css",
+    "postcss",
+    "responsive",
+    "tailwindcss",
+    "utility-classes"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 97116
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 97144
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 97151
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 97173
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 97205
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 97233
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 97246
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 97217
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 97245
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 97260
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 97256
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 97279
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 97288
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 97293
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 97293
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 97288
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 97307
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 97324
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 97339
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 97357
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 97369
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 97381
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 97398,
+      "forks": 5599,
+      "openIssues": 64
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 97406,
+      "forks": 5607,
+      "openIssues": 61
+    }
+  ]
+}

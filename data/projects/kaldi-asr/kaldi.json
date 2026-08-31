@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "kaldi-asr/kaldi",
+  "link": "https://kaldi-asr.org",
+  "name": "Kaldi",
+  "desc": "Kaldi is a toolkit for speech recognition",
+  "githubName": "kaldi",
+  "githubDescription": "kaldi-asr/kaldi is the official location of the Kaldi project.",
+  "weight": 15469,
+  "image": "https://avatars.githubusercontent.com/u/11650082?v=4",
+  "tags": [
+    "c-plus-plus",
+    "cuda",
+    "kaldi",
+    "shell",
+    "speaker-id",
+    "speaker-verification",
+    "speech",
+    "speech-recognition",
+    "speech-to-text"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 15450
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 15450
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 15449
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 15449
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 15451
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 15454
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 15455
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 15457
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 15458
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 15459
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 15459
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 15460
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 15461
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 15462
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 15464
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 15465
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 15465
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 15464
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 15469
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 15468
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 15469
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 15471
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 15472,
+      "forks": 5354,
+      "openIssues": 261
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 15473,
+      "forks": 5355,
+      "openIssues": 261
+    }
+  ]
+}

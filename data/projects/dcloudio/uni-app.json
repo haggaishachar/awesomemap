@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "dcloudio/uni-app",
+  "link": "https://github.com/dcloudio/uni-app",
+  "name": "uni-app",
+  "desc": "A cross-platform framework using Vue.js",
+  "githubName": "uni-app",
+  "githubDescription": "A cross-platform framework using Vue.js",
+  "weight": 41603,
+  "image": "https://avatars.githubusercontent.com/u/5485517?v=4",
+  "tags": [
+    "android",
+    "cross-platform",
+    "crossplatform",
+    "hbuilderx",
+    "ios",
+    "javascript",
+    "miniprogram",
+    "uni",
+    "uni-app",
+    "uniapp",
+    "vue",
+    "vue3"
+  ],
+  "history": [
+    {
+      "date": "2026-08-26",
+      "stars": 41602
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 41605
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 41609
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 41606
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 41607,
+      "forks": 3712,
+      "openIssues": 702
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 41605,
+      "forks": 3712,
+      "openIssues": 702
+    }
+  ]
+}

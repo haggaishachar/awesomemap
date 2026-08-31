@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "JuliaStats/GLM.jl",
+  "link": "https://github.com/JuliaStats/GLM.jl",
+  "name": "GLM.jl",
+  "desc": "Generalized linear models in Julia",
+  "githubName": null,
+  "githubDescription": null,
+  "weight": 636,
+  "image": "https://avatars.githubusercontent.com/u/2761531?v=4",
+  "tags": [
+    "data-science",
+    "glm",
+    "julia",
+    "regression",
+    "statistical-models",
+    "statistics"
+  ],
+  "history": []
+}

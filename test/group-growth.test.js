@@ -13,7 +13,7 @@ function history(from, to) {
 }
 
 test("computeGroupGrowth reports no history for an empty group", () => {
-  const result = computeGroupGrowth([], {}, 7, { now: NOW });
+  const result = computeGroupGrowth([], 7, { now: NOW });
   assert.equal(result.hasEnoughHistory, false);
   assert.equal(result.projectCount, 0);
   assert.equal(result.trackedCount, 0);
@@ -27,7 +27,7 @@ test("computeGroupGrowth reports no history when every project is untracked", ()
     { id: "a/a", weight: 100 },
     { id: "b/b", weight: 200 },
   ];
-  const result = computeGroupGrowth(projects, {}, 7, { now: NOW });
+  const result = computeGroupGrowth(projects, 7, { now: NOW });
   assert.equal(result.hasEnoughHistory, false);
   assert.equal(result.projectCount, 2);
   assert.equal(result.trackedCount, 0);
@@ -36,14 +36,10 @@ test("computeGroupGrowth reports no history when every project is untracked", ()
 
 test("computeGroupGrowth sums star deltas and derives the ratio at group level", () => {
   const projects = [
-    { id: "a/a", weight: 1100 },
-    { id: "b/b", weight: 2200 },
+    { id: "a/a", weight: 1100, history: history(1000, 1100) },
+    { id: "b/b", weight: 2200, history: history(2000, 2200) },
   ];
-  const historyById = {
-    "a/a": history(1000, 1100),
-    "b/b": history(2000, 2200),
-  };
-  const result = computeGroupGrowth(projects, historyById, 7, { now: NOW });
+  const result = computeGroupGrowth(projects, 7, { now: NOW });
 
   assert.equal(result.trackedCount, 2);
   assert.equal(result.totalStars, 3300);
@@ -57,11 +53,10 @@ test("computeGroupGrowth excludes untracked projects from BOTH totals, so covera
   // b/b has no history. If its 5,000 stars leaked into totalStars but not
   // baselineStars, the group would report +5,100 stars of fictional growth.
   const projects = [
-    { id: "a/a", weight: 1100 },
+    { id: "a/a", weight: 1100, history: history(1000, 1100) },
     { id: "b/b", weight: 5000 },
   ];
-  const historyById = { "a/a": history(1000, 1100) };
-  const result = computeGroupGrowth(projects, historyById, 7, { now: NOW });
+  const result = computeGroupGrowth(projects, 7, { now: NOW });
 
   assert.equal(result.projectCount, 2);
   assert.equal(result.trackedCount, 1, "coverage is exposed rather than hidden");
@@ -76,14 +71,10 @@ test("computeGroupGrowth is a group-level ratio, not an average of per-project p
   // per-project percentages would report ~100% growth for the group. The
   // honest group figure is 1,020 / 100,020 -> ~1.02%.
   const projects = [
-    { id: "tiny/tiny", weight: 30 },
-    { id: "big/big", weight: 101000 },
+    { id: "tiny/tiny", weight: 30, history: history(10, 30) },
+    { id: "big/big", weight: 101000, history: history(100000, 101000) },
   ];
-  const historyById = {
-    "tiny/tiny": history(10, 30),
-    "big/big": history(100000, 101000),
-  };
-  const result = computeGroupGrowth(projects, historyById, 7, { now: NOW });
+  const result = computeGroupGrowth(projects, 7, { now: NOW });
 
   assert.equal(result.starDelta, 1020);
   assert.equal(result.baselineStars, 100010);
@@ -91,9 +82,8 @@ test("computeGroupGrowth is a group-level ratio, not an average of per-project p
 });
 
 test("computeGroupGrowth reports a negative percent for a declining group", () => {
-  const projects = [{ id: "a/a", weight: 900 }];
-  const historyById = { "a/a": history(1000, 900) };
-  const result = computeGroupGrowth(projects, historyById, 7, { now: NOW });
+  const projects = [{ id: "a/a", weight: 900, history: history(1000, 900) }];
+  const result = computeGroupGrowth(projects, 7, { now: NOW });
 
   assert.equal(result.starDelta, -100);
   assert.equal(result.percentDelta, -10);
@@ -101,9 +91,8 @@ test("computeGroupGrowth reports a negative percent for a declining group", () =
 });
 
 test("computeGroupGrowth treats a zero-star baseline as 0% rather than dividing by zero", () => {
-  const projects = [{ id: "a/a", weight: 10 }];
-  const historyById = { "a/a": history(0, 10) };
-  const result = computeGroupGrowth(projects, historyById, 7, { now: NOW });
+  const projects = [{ id: "a/a", weight: 10, history: history(0, 10) }];
+  const result = computeGroupGrowth(projects, 7, { now: NOW });
 
   assert.equal(result.starDelta, 10);
   assert.equal(result.baselineStars, 0);
@@ -112,40 +101,34 @@ test("computeGroupGrowth treats a zero-star baseline as 0% rather than dividing 
 });
 
 test("computeGroupGrowth ignores a window longer than the available history", () => {
-  const projects = [{ id: "a/a", weight: 1100 }];
-  const historyById = { "a/a": history(1000, 1100) };
+  const projects = [{ id: "a/a", weight: 1100, history: history(1000, 1100) }];
 
-  const result30 = computeGroupGrowth(projects, historyById, 30, { now: NOW });
+  const result30 = computeGroupGrowth(projects, 30, { now: NOW });
   assert.equal(result30.hasEnoughHistory, false);
   assert.equal(result30.trackedCount, 0);
 
-  const result7 = computeGroupGrowth(projects, historyById, 7, { now: NOW });
+  const result7 = computeGroupGrowth(projects, 7, { now: NOW });
   assert.equal(result7.hasEnoughHistory, true);
 });
 
 test("computeGroupGrowth reports the earliest snapshot across the group as oldestDate, even when the window is insufficient", () => {
   const projects = [
-    { id: "a/a", weight: 100 },
-    { id: "b/b", weight: 200 },
+    { id: "a/a", weight: 100, history: [{ date: "2026-08-05", stars: 100 }] },
+    { id: "b/b", weight: 200, history: [{ date: "2026-08-03", stars: 200 }] },
   ];
-  const historyById = {
-    "a/a": [{ date: "2026-08-05", stars: 100 }],
-    "b/b": [{ date: "2026-08-03", stars: 200 }],
-  };
-  const result = computeGroupGrowth(projects, historyById, 30, { now: NOW });
+  const result = computeGroupGrowth(projects, 30, { now: NOW });
 
   assert.equal(result.hasEnoughHistory, false);
   assert.equal(result.oldestDate, "2026-08-03", "so the UI can say when tracking started");
 });
 
 test("computeGroupGrowth falls back to project.weight when a tracked project's history lacks a latest entry", () => {
-  const projects = [{ id: "a/a", weight: 1100 }];
-  const historyById = { "a/a": history(1000, 1100) };
-  const withHistory = computeGroupGrowth(projects, historyById, 7, { now: NOW });
+  const projects = [{ id: "a/a", weight: 1100, history: history(1000, 1100) }];
+  const withHistory = computeGroupGrowth(projects, 7, { now: NOW });
   assert.equal(withHistory.totalStars, 1100);
 
   // A project with no weight and no history contributes nothing rather than NaN.
-  const result = computeGroupGrowth([{ id: "b/b" }], {}, 7, { now: NOW });
+  const result = computeGroupGrowth([{ id: "b/b" }], 7, { now: NOW });
   assert.equal(result.totalStars, 0);
   assert.ok(Number.isFinite(result.starDelta));
 });

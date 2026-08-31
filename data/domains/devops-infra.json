@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 1,
+  "slug": "devops-infra",
+  "name": "Best DevOps & Infrastructure Open Source Projects",
+  "shortName": "DevOps & Infra",
+  "description": "Containers, orchestration, CI/CD, infrastructure as code, observability, and more.",
+  "projects": [
+    {
+      "id": "moby/moby",
+      "path": [
+        "Containers"
+      ]
+    },
+    {
+      "id": "docker/compose",
+      "path": [
+        "Containers"
+      ]
+    },
+    {
+      "id": "containerd/containerd",
+      "path": [
+        "Containers"
+      ]
+    },
+    {
+      "id": "containers/podman",
+      "path": [
+        "Containers"
+      ]
+    },
+    {
+      "id": "containers/buildah",
+      "path": [
+        "Containers"
+      ]
+    },
+    {
+      "id": "kubernetes/kubernetes",
+      "path": [
+        "Container Orchestration"
+      ]
+    },
+    {
+      "id": "moby/swarmkit",
+      "path": [
+        "Container Orchestration"
+      ]
+    },
+    {
+      "id": "hashicorp/nomad",
+      "path": [
+        "Container Orchestration"
+      ]
+    },
+    {
+      "id": "rancher/rancher",
+      "path": [
+        "Container Orchestration"
+      ]
+    },
+    {
+      "id": "rancher/k3s",
+      "path": [
+        "Container Orchestration"
+      ]
+    },
+    {
+      "id": "jenkinsci/jenkins",
+      "path": [
+        "CI/CD"
+      ]
+    },
+    {
+      "id": "woodpecker-ci/woodpecker",
+      "path": [
+        "CI/CD"
+      ]
+    },
+    {
+      "id": "concourse/concourse",
+      "path": [
+        "CI/CD"
+      ]
+    },
+    {
+      "id": "tektoncd/pipeline",
+      "path": [
+        "CI/CD"
+      ]
+    },
+    {
+      "id": "spinnaker/spinnaker",
+      "path": [
+        "CI/CD"
+      ]
+    },
+    {
+      "id": "hashicorp/terraform",
+      "path": [
+        "Infrastructure as Code"
+      ]
+    },
+    {
+      "id": "opentofu/opentofu",
+      "path": [
+        "Infrastructure as Code"
+      ]
+    },
+    {
+      "id": "pulumi/pulumi",
+      "path": [
+        "Infrastructure as Code"
+      ]
+    },
+    {
+      "id": "hashicorp/packer",
+      "path": [
+        "Infrastructure as Code"
+      ]
+    },
+    {
+      "id": "aws/aws-cdk",
+      "path": [
+        "Infrastructure as Code"
+      ]
+    },
+    {
+      "id": "ansible/ansible",
+      "path": [
+        "Configuration Management"
+      ]
+    },
+    {
+      "id": "puppetlabs/puppet",
+      "path": [
+        "Configuration Management"
+      ]
+    },
+    {
+      "id": "chef/chef",
+      "path": [
+        "Configuration Management"
+      ]
+    },
+    {
+      "id": "saltstack/salt",
+      "path": [
+        "Configuration Management"
+      ]
+    },
+    {
+      "id": "cfengine/core",
+      "path": [
+        "Configuration Management"
+      ]
+    },
+    {
+      "id": "prometheus/prometheus",
+      "path": [
+        "Monitoring & Observability"
+      ]
+    },
+    {
+      "id": "grafana/grafana",
+      "path": [
+        "Monitoring & Observability"
+      ]
+    },
+    {
+      "id": "netdata/netdata",
+      "path": [
+        "Monitoring & Observability"
+      ]
+    },
+    {
+      "id": "zabbix/zabbix",
+      "path": [
+        "Monitoring & Observability"
+      ]
+    },
+    {
+      "id": "victoriametrics/victoriametrics",
+      "path": [
+        "Monitoring & Observability"
+      ]
+    },
+    {
+      "id": "elastic/logstash",
+      "path": [
+        "Logging"
+      ]
+    },
+    {
+      "id": "fluent/fluentd",
+      "path": [
+        "Logging"
+      ]
+    },
+    {
+      "id": "fluent/fluent-bit",
+      "path": [
+        "Logging"
+      ]
+    },
+    {
+      "id": "grafana/loki",
+      "path": [
+        "Logging"
+      ]
+    },
+    {
+      "id": "Graylog2/graylog2-server",
+      "path": [
+        "Logging"
+      ]
+    },
+    {
+      "id": "istio/istio",
+      "path": [
+        "Service Mesh"
+      ]
+    },
+    {
+      "id": "linkerd/linkerd2",
+      "path": [
+        "Service Mesh"
+      ]
+    },
+    {
+      "id": "envoyproxy/envoy",
+      "path": [
+        "Service Mesh"
+      ]
+    },
+    {
+      "id": "hashicorp/consul",
+      "path": [
+        "Service Mesh"
+      ]
+    },
+    {
+      "id": "cilium/cilium",
+      "path": [
+        "Service Mesh"
+      ]
+    },
+    {
+      "id": "argoproj/argo-cd",
+      "path": [
+        "GitOps"
+      ]
+    },
+    {
+      "id": "fluxcd/flux2",
+      "path": [
+        "GitOps"
+      ]
+    },
+    {
+      "id": "argoproj/argo-workflows",
+      "path": [
+        "GitOps"
+      ]
+    },
+    {
+      "id": "jenkins-x/jx",
+      "path": [
+        "GitOps"
+      ]
+    },
+    {
+      "id": "fluxcd/flagger",
+      "path": [
+        "GitOps"
+      ]
+    },
+    {
+      "id": "helm/helm",
+      "path": [
+        "Package & Artifact Management"
+      ]
+    },
+    {
+      "id": "goharbor/harbor",
+      "path": [
+        "Package & Artifact Management"
+      ]
+    },
+    {
+      "id": "sonatype/nexus-public",
+      "path": [
+        "Package & Artifact Management"
+      ]
+    },
+    {
+      "id": "verdaccio/verdaccio",
+      "path": [
+        "Package & Artifact Management"
+      ]
+    },
+    {
+      "id": "goreleaser/goreleaser",
+      "path": [
+        "Package & Artifact Management"
+      ]
+    },
+    {
+      "id": "nginx/nginx",
+      "path": [
+        "Reverse Proxy & Load Balancing"
+      ]
+    },
+    {
+      "id": "traefik/traefik",
+      "path": [
+        "Reverse Proxy & Load Balancing"
+      ]
+    },
+    {
+      "id": "backstage/backstage",
+      "path": [
+        "Developer Portals & Platform Engineering"
+      ]
+    },
+    {
+      "id": "open-telemetry/opentelemetry-collector",
+      "path": [
+        "Monitoring & Observability"
+      ]
+    },
+    {
+      "id": "Kong/kong",
+      "path": [
+        "Reverse Proxy & Load Balancing"
+      ]
+    },
+    {
+      "id": "portainer/portainer",
+      "path": [
+        "Containers"
+      ]
+    },
+    {
+      "id": "derailed/k9s",
+      "path": [
+        "Container Orchestration"
+      ]
+    },
+    {
+      "id": "aquasecurity/tfsec",
+      "path": [
+        "Infrastructure as Code"
+      ]
+    },
+    {
+      "id": "shuaibiyy/awesome-tf",
+      "path": [
+        "Infrastructure as Code"
+      ]
+    },
+    {
+      "id": "diggerhq/digger",
+      "path": [
+        "Infrastructure as Code"
+      ]
+    }
+  ]
+}

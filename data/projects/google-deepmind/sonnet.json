@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "google-deepmind/sonnet",
+  "link": "https://sonnet.dev/",
+  "name": "Sonnet",
+  "desc": "TensorFlow-based neural network library",
+  "githubName": "sonnet",
+  "githubDescription": "TensorFlow-based neural network library",
+  "weight": 9961,
+  "image": "https://avatars.githubusercontent.com/u/8596759?v=4",
+  "tags": [
+    "artificial-intelligence",
+    "deep-learning",
+    "machine-learning",
+    "neural-networks",
+    "tensorflow"
+  ],
+  "history": [
+    {
+      "date": "2026-08-13",
+      "stars": 9943
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 9944
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 9943
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 9943
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 9944
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 9950
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 9958
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 9960
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 9960
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 9959
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 9960
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 9961
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 9961
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 9961
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 9962
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 9961
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 9960
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 9960,
+      "forks": 1304,
+      "openIssues": 43
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 9962,
+      "forks": 1304,
+      "openIssues": 43
+    }
+  ]
+}

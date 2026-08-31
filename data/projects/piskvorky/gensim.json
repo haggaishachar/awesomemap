@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "piskvorky/gensim",
+  "link": "https://github.com/piskvorky/gensim",
+  "name": "gensim",
+  "desc": "Topic Modelling for Humans",
+  "githubName": "gensim",
+  "githubDescription": "Topic Modelling for Humans",
+  "weight": 16480,
+  "image": null,
+  "tags": [
+    "data-mining",
+    "data-science",
+    "document-similarity",
+    "fasttext",
+    "gensim",
+    "information-retrieval",
+    "machine-learning",
+    "natural-language-processing",
+    "neural-network",
+    "nlp",
+    "python",
+    "topic-modeling",
+    "word-embeddings",
+    "word-similarity",
+    "word2vec"
+  ],
+  "history": [
+    {
+      "date": "2026-08-27",
+      "stars": 16481
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 16481
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 16481
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 16480,
+      "forks": 4406,
+      "openIssues": 439
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 16480,
+      "forks": 4406,
+      "openIssues": 439
+    }
+  ]
+}

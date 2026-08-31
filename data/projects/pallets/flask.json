@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "pallets/flask",
+  "link": "https://flask.palletsprojects.com",
+  "name": "Flask",
+  "desc": "Lightweight WSGI web application framework for Python",
+  "githubName": "flask",
+  "githubDescription": "The Python micro framework for building web applications.",
+  "weight": 72148,
+  "image": "https://avatars.githubusercontent.com/u/16748505?v=4",
+  "tags": [
+    "flask",
+    "jinja",
+    "pallets",
+    "python",
+    "web-framework",
+    "werkzeug",
+    "wsgi"
+  ],
+  "history": [
+    {
+      "date": "2026-08-21",
+      "stars": 72142
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 72134
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 72141
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 72146
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 72147
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 72147
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 72144
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 72144
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 72143
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 72151,
+      "forks": 16953,
+      "openIssues": 3
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 72159,
+      "forks": 16951,
+      "openIssues": 3
+    }
+  ]
+}

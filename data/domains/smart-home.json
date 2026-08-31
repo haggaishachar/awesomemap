@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 1,
+  "slug": "smart-home",
+  "name": "Best IoT & Smart Home Open Source Projects",
+  "shortName": "IoT & Smart Home",
+  "description": "Home automation platforms, embedded firmware, robotics, and device protocols.",
+  "projects": [
+    {
+      "id": "home-assistant/core",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "openhab/openhab-addons",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "domoticz/domoticz",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "ioBroker/ioBroker",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "homebridge/homebridge",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "Koenkk/zigbee2mqtt",
+      "path": [
+        "Device Protocols & Telemetry"
+      ]
+    },
+    {
+      "id": "project-chip/connectedhomeip",
+      "path": [
+        "Device Protocols & Telemetry"
+      ]
+    },
+    {
+      "id": "eclipse-mosquitto/mosquitto",
+      "path": [
+        "Device Protocols & Telemetry"
+      ]
+    },
+    {
+      "id": "zwave-js/zwave-js-ui",
+      "path": [
+        "Device Protocols & Telemetry"
+      ]
+    },
+    {
+      "id": "influxdata/telegraf",
+      "path": [
+        "Device Protocols & Telemetry"
+      ]
+    },
+    {
+      "id": "node-red/node-red",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "thingsboard/thingsboard",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "openremote/openremote",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "n8n-io/n8n",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "arendst/Tasmota",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "esphome/esphome",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "espressif/esp-idf",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "zephyrproject-rtos/zephyr",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "platformio/platformio-core",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "RIOT-OS/RIOT",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "apache/nuttx",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "micropython/micropython",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "arduino/Arduino",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "espruino/Espruino",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "letscontrolit/ESPEasy",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "rhasspy/rhasspy",
+      "path": [
+        "Voice Assistants"
+      ]
+    },
+    {
+      "id": "MycroftAI/mycroft-core",
+      "path": [
+        "Voice Assistants"
+      ]
+    },
+    {
+      "id": "ros2/ros2",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ]
+    },
+    {
+      "id": "ros/ros",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ]
+    },
+    {
+      "id": "PX4/PX4-Autopilot",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ]
+    },
+    {
+      "id": "ArduPilot/ardupilot",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ]
+    },
+    {
+      "id": "gazebosim/gz-sim",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ]
+    },
+    {
+      "id": "microsoft/AirSim",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ]
+    },
+    {
+      "id": "blakeblackshear/frigate",
+      "path": [
+        "Camera & Security Automation"
+      ]
+    },
+    {
+      "id": "ZoneMinder/zoneminder",
+      "path": [
+        "Camera & Security Automation"
+      ]
+    },
+    {
+      "id": "AlexxIT/go2rtc",
+      "path": [
+        "Camera & Security Automation"
+      ]
+    },
+    {
+      "id": "Klipper3d/klipper",
+      "path": [
+        "3D Printing & Fabrication"
+      ]
+    },
+    {
+      "id": "prusa3d/PrusaSlicer",
+      "path": [
+        "3D Printing & Fabrication"
+      ]
+    },
+    {
+      "id": "Ultimaker/Cura",
+      "path": [
+        "3D Printing & Fabrication"
+      ]
+    },
+    {
+      "id": "MarlinFirmware/Marlin",
+      "path": [
+        "3D Printing & Fabrication"
+      ]
+    },
+    {
+      "id": "OrcaSlicer/OrcaSlicer",
+      "path": [
+        "3D Printing & Fabrication"
+      ]
+    },
+    {
+      "id": "frenck/awesome-home-assistant",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "home-assistant/frontend",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "rytilahti/python-miio",
+      "path": [
+        "Device Protocols & Telemetry"
+      ]
+    },
+    {
+      "id": "embassy-rs/embassy",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "FastLED/FastLED",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "bblanchon/ArduinoJson",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "jmcollin78/versatile_thermostat",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "bramstroker/homeassistant-powercalc",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "thomluther/ha-anker-solix",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "custom-components/ble_monitor",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "agittins/bermuda",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "andrew-codechimp/HA-Battery-Notes",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "Clooos/Bubble-Card",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "ExperienceLovelace/ha-floorplan",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "UI-Lovelace-Minimalist/UI",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "alexpfau/calendar-card-pro",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "PRProd/HA-Firemote",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "Nerwyn/universal-remote-card",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "traccar/traccar",
+      "path": [
+        "Device Protocols & Telemetry"
+      ]
+    }
+  ]
+}

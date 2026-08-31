@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "weaviate/weaviate",
+  "link": "https://weaviate.io/",
+  "name": "Weaviate",
+  "desc": "Open source vector database for building AI applications",
+  "githubName": "weaviate",
+  "githubDescription": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
+  "weight": 16754,
+  "image": "https://avatars.githubusercontent.com/u/37794290?v=4",
+  "tags": [
+    "approximate-nearest-neighbor-search",
+    "generative-search",
+    "grpc",
+    "hnsw",
+    "hybrid-search",
+    "image-search",
+    "information-retrieval",
+    "mlops",
+    "nearest-neighbor-search",
+    "neural-search",
+    "recommender-system",
+    "search-engine",
+    "semantic-search",
+    "semantic-search-engine",
+    "similarity-search",
+    "vector-database",
+    "vector-search",
+    "vector-search-engine",
+    "vectors",
+    "weaviate"
+  ],
+  "history": [
+    {
+      "date": "2026-08-14",
+      "stars": 16728
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 16729
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 16731
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 16731
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 16735
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 16739
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 16740
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 16745
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 16745
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 16748
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 16749
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 16750
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 16754
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 16756
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 16758
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 16759
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 16758,
+      "forks": 1383,
+      "openIssues": 692
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 16768,
+      "forks": 1383,
+      "openIssues": 694
+    }
+  ]
+}

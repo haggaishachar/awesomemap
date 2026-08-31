@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "elastic/elasticsearch",
+  "link": "https://www.elastic.co/elasticsearch",
+  "name": "Elasticsearch",
+  "desc": "Distributed, RESTful search and analytics engine",
+  "githubName": "elasticsearch",
+  "githubDescription": "Free and Open Source, Distributed, RESTful Search Engine",
+  "weight": 77863,
+  "image": "https://avatars.githubusercontent.com/u/6764390?v=4",
+  "tags": [
+    "elasticsearch",
+    "java",
+    "search-engine"
+  ],
+  "history": [
+    {
+      "date": "2026-08-13",
+      "stars": 77850
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 77850
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 77821
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 77833
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 77832
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 77807
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 77834
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 77846
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 77853
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 77851
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 77851
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 77856
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 77860
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 77864
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 77871
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 77876
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 77875
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 77882,
+      "forks": 26068,
+      "openIssues": 6016
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 77882,
+      "forks": 26076,
+      "openIssues": 6025
+    }
+  ]
+}

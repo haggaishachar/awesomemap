@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "reduxjs/redux-toolkit",
+  "link": "https://github.com/reduxjs/redux-toolkit",
+  "name": "redux-toolkit",
+  "desc": "The official, opinionated, batteries-included toolset for efficient Redux development",
+  "githubName": "redux-toolkit",
+  "githubDescription": "The official, opinionated, batteries-included toolset for efficient Redux development",
+  "weight": 11225,
+  "image": "https://avatars.githubusercontent.com/u/13142323?v=4",
+  "tags": [],
+  "history": [
+    {
+      "date": "2026-08-30",
+      "stars": 11225,
+      "forks": 1292,
+      "openIssues": 313
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 11225,
+      "forks": 1292,
+      "openIssues": 313
+    }
+  ]
+}

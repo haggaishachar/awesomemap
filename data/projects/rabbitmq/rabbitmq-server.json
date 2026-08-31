@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "rabbitmq/rabbitmq-server",
+  "link": "https://www.rabbitmq.com/",
+  "name": "RabbitMQ",
+  "desc": "Open source multi-protocol messaging broker",
+  "githubName": "rabbitmq-server",
+  "githubDescription": "Open source RabbitMQ: core server and tier 1 (built-in) plugins",
+  "weight": 13806,
+  "image": "https://avatars.githubusercontent.com/u/96669?v=4",
+  "tags": [
+    "amqp",
+    "amqp-0-9-1",
+    "amqp1-0",
+    "message-broker",
+    "messaging",
+    "mqtt",
+    "rabbitmq",
+    "stomp",
+    "streaming",
+    "streams"
+  ],
+  "history": [
+    {
+      "date": "2026-08-13",
+      "stars": 13779
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 13781
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 13780
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 13780
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 13781
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 13784
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 13786
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 13791
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 13797
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 13800
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 13799
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 13799
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 13800
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 13804
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 13809
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 13820
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 13820
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 13828,
+      "forks": 4018,
+      "openIssues": 259
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 13829,
+      "forks": 4018,
+      "openIssues": 261
+    }
+  ]
+}

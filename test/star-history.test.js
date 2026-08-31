@@ -4,6 +4,7 @@ import {
   githubRepoUrl,
   formatStarCount,
   starHistoryFor,
+  sortedHistory,
   buildSparklinePath,
   starHistoryCaption,
 } from "../app/shared/star-history.js";
@@ -41,6 +42,24 @@ test("starHistoryFor returns an empty array for an id with no history", () => {
 
 test("starHistoryFor returns an empty array when historyData is empty", () => {
   assert.deepEqual(starHistoryFor({}, "a/a"), []);
+});
+
+test("sortedHistory sorts a project's own history array oldest-first", () => {
+  const series = [
+    { date: "2026-08-10", stars: 120 },
+    { date: "2026-08-08", stars: 100 },
+    { date: "2026-08-09", stars: 110 },
+  ];
+  assert.deepEqual(sortedHistory(series), [
+    { date: "2026-08-08", stars: 100 },
+    { date: "2026-08-09", stars: 110 },
+    { date: "2026-08-10", stars: 120 },
+  ]);
+});
+
+test("sortedHistory returns an empty array for a brand-new project with no history yet", () => {
+  assert.deepEqual(sortedHistory(undefined), []);
+  assert.deepEqual(sortedHistory([]), []);
 });
 
 test("buildSparklinePath returns null for fewer than 2 points", () => {

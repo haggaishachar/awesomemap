@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "promptfoo/promptfoo",
+  "link": "https://www.promptfoo.dev/",
+  "name": "Promptfoo",
+  "desc": "Test and evaluate LLM apps, agents, and prompts",
+  "githubName": "promptfoo",
+  "githubDescription": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.",
+  "weight": 24583,
+  "image": "https://avatars.githubusercontent.com/u/137907881?v=4",
+  "tags": [
+    "ci",
+    "ci-cd",
+    "cicd",
+    "evaluation",
+    "evaluation-framework",
+    "llm",
+    "llm-eval",
+    "llm-evaluation",
+    "llm-evaluation-framework",
+    "llmops",
+    "pentesting",
+    "prompt-engineering",
+    "prompt-testing",
+    "prompts",
+    "rag",
+    "red-teaming",
+    "testing",
+    "vulnerability-scanners"
+  ],
+  "history": [
+    {
+      "date": "2026-08-14",
+      "stars": 24223
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 24244
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 24262
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 24290
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 24322
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 24357
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 24393
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 24422
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 24450
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 24472
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 24509
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 24549
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 24577
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 24619
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 24643
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 24656
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 24676,
+      "forks": 2251,
+      "openIssues": 551
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 24693,
+      "forks": 2251,
+      "openIssues": 562
+    }
+  ]
+}

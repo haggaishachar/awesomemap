@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "containers/podman",
+  "link": "https://podman.io/",
+  "name": "Podman",
+  "desc": "A daemonless container engine for developing, managing, and running OCI containers",
+  "githubName": "podman",
+  "githubDescription": "Podman: A tool for managing OCI containers and pods.",
+  "weight": 32696,
+  "image": "https://avatars.githubusercontent.com/u/277799342?v=4",
+  "tags": [
+    "containers",
+    "docker",
+    "kubernetes",
+    "linux",
+    "oci"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 32486
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 32500
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 32515
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 32525
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 32544
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 32549
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 32561
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 32570
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 32589
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 32596
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 32608
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 32622
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 32635
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 32652
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 32664
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 32667
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 32674
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 32682
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 32696
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 32706
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 32724
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 32725
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 32731,
+      "forks": 3353,
+      "openIssues": 1143
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 32738,
+      "forks": 3354,
+      "openIssues": 1151
+    }
+  ]
+}

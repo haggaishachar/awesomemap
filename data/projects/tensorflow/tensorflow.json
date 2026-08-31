@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "tensorflow/tensorflow",
+  "link": "https://www.tensorflow.org/",
+  "name": "TensorFlow",
+  "desc": "An end-to-end open source machine learning platform",
+  "githubName": "tensorflow",
+  "githubDescription": "An Open Source Machine Learning Framework for Everyone",
+  "weight": 197629,
+  "image": "https://avatars.githubusercontent.com/u/15658638?v=4",
+  "tags": [
+    "deep-learning",
+    "deep-neural-networks",
+    "distributed",
+    "machine-learning",
+    "ml",
+    "neural-network",
+    "python",
+    "tensorflow"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 196924
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 196931
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 196942
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 196931
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 196959
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 196999
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 197012
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 197021
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 197047
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 197088
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 197024
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 197053
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 197073
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 197211
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 197213
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 197360
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 197379
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 197613
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 197638
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 197731
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 197764
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 197767
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 198067,
+      "forks": 76200,
+      "openIssues": 2984
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 198089,
+      "forks": 76222,
+      "openIssues": 3001
+    }
+  ]
+}

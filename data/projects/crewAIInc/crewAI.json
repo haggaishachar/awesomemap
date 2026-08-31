@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "crewAIInc/crewAI",
+  "link": "https://crewai.com",
+  "name": "crewAI",
+  "desc": "Framework for orchestrating role-playing, autonomous AI agents",
+  "githubName": "crewAI",
+  "githubDescription": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+  "weight": 57623,
+  "image": "https://avatars.githubusercontent.com/u/170677839?v=4",
+  "tags": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "aiagentframework",
+    "llms"
+  ],
+  "history": [
+    {
+      "date": "2026-08-14",
+      "stars": 57063
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 57088
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 57138
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 57186
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 57228
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 57294
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 57353
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 57403
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 57447
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 57488
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 57532
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 57574
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 57616
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 57677
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 57748
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 57783
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 57832,
+      "forks": 8284,
+      "openIssues": 767
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 57868,
+      "forks": 8288,
+      "openIssues": 773
+    }
+  ]
+}

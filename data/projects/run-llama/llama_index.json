@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "run-llama/llama_index",
+  "link": "https://www.llamaindex.ai/",
+  "name": "LlamaIndex",
+  "desc": "Data framework for connecting LLMs with external data",
+  "githubName": "llama_index",
+  "githubDescription": "LlamaIndex is the leading document agent and OCR platform",
+  "weight": 51878,
+  "image": "https://avatars.githubusercontent.com/u/130722866?v=4",
+  "tags": [
+    "agents",
+    "application",
+    "data",
+    "fine-tuning",
+    "framework",
+    "llamaindex",
+    "llm",
+    "multi-agents",
+    "rag",
+    "vector-database"
+  ],
+  "history": [
+    {
+      "date": "2026-08-14",
+      "stars": 51636
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 51646
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 51667
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 51692
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 51716
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 51740
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 51752
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 51782
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 51792
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 51807
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 51828
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 51856
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 51875
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 51894
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 51907
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 51909
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 51922,
+      "forks": 8053,
+      "openIssues": 676
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 51936,
+      "forks": 8056,
+      "openIssues": 675
+    }
+  ]
+}

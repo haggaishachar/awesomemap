@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "harry0703/MoneyPrinterTurbo",
+  "link": "https://github.com/harry0703/MoneyPrinterTurbo",
+  "name": "MoneyPrinterTurbo",
+  "desc": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+  "githubName": "MoneyPrinterTurbo",
+  "githubDescription": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+  "weight": 116711,
+  "image": null,
+  "tags": [
+    "ai-video-generator",
+    "content-creation",
+    "ffmpeg",
+    "instagram-reels",
+    "llm",
+    "python",
+    "short-video",
+    "subtitles",
+    "text-to-speech",
+    "tiktok",
+    "video-automation",
+    "video-workflow",
+    "workflow-automation",
+    "youtube-shorts"
+  ],
+  "history": [
+    {
+      "date": "2026-08-26",
+      "stars": 116602
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 117215
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 118034
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 118326
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 118785,
+      "forks": 18154,
+      "openIssues": 15
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 118976,
+      "forks": 18198,
+      "openIssues": 14
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "Alamofire/Alamofire",
+  "link": "https://github.com/Alamofire/Alamofire",
+  "name": "Alamofire",
+  "desc": "Elegant HTTP networking in Swift",
+  "githubName": "Alamofire",
+  "githubDescription": "Elegant HTTP Networking in Swift",
+  "weight": 42420,
+  "image": "https://avatars.githubusercontent.com/u/7774181?v=4",
+  "tags": [
+    "alamofire",
+    "carthage",
+    "certificate-pinning",
+    "cocoapods",
+    "httpurlresponse",
+    "networking",
+    "parameter-encoding",
+    "public-key-pinning",
+    "request",
+    "response",
+    "swift",
+    "swift-package-manager",
+    "urlrequest",
+    "urlsession",
+    "xcode"
+  ],
+  "history": [
+    {
+      "date": "2026-08-08",
+      "stars": 42412
+    },
+    {
+      "date": "2026-08-09",
+      "stars": 42414
+    },
+    {
+      "date": "2026-08-10",
+      "stars": 42414
+    },
+    {
+      "date": "2026-08-11",
+      "stars": 42415
+    },
+    {
+      "date": "2026-08-12",
+      "stars": 42415
+    },
+    {
+      "date": "2026-08-13",
+      "stars": 42417
+    },
+    {
+      "date": "2026-08-14",
+      "stars": 42418
+    },
+    {
+      "date": "2026-08-15",
+      "stars": 42417
+    },
+    {
+      "date": "2026-08-16",
+      "stars": 42419
+    },
+    {
+      "date": "2026-08-17",
+      "stars": 42420
+    },
+    {
+      "date": "2026-08-18",
+      "stars": 42417
+    },
+    {
+      "date": "2026-08-19",
+      "stars": 42416
+    },
+    {
+      "date": "2026-08-20",
+      "stars": 42417
+    },
+    {
+      "date": "2026-08-21",
+      "stars": 42417
+    },
+    {
+      "date": "2026-08-22",
+      "stars": 42416
+    },
+    {
+      "date": "2026-08-23",
+      "stars": 42418
+    },
+    {
+      "date": "2026-08-24",
+      "stars": 42419
+    },
+    {
+      "date": "2026-08-25",
+      "stars": 42419
+    },
+    {
+      "date": "2026-08-26",
+      "stars": 42419
+    },
+    {
+      "date": "2026-08-27",
+      "stars": 42423
+    },
+    {
+      "date": "2026-08-28",
+      "stars": 42426
+    },
+    {
+      "date": "2026-08-29",
+      "stars": 42427
+    },
+    {
+      "date": "2026-08-30",
+      "stars": 42427,
+      "forks": 7659,
+      "openIssues": 44
+    },
+    {
+      "date": "2026-08-31",
+      "stars": 42428,
+      "forks": 7660,
+      "openIssues": 44
+    }
+  ]
+}

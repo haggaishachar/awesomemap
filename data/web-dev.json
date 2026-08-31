@@ -1577,6 +1577,86 @@
       ],
       "weight": 7220,
       "image": "https://avatars.githubusercontent.com/u/75171656?v=4"
+    },
+    {
+      "id": "summernote/summernote",
+      "path": [
+        "UI Component Libraries"
+      ],
+      "name": "summernote",
+      "link": "https://github.com/summernote/summernote",
+      "desc": "Super Simple WYSIWYG Editor",
+      "tags": [
+        "javascript",
+        "summernote",
+        "wysiwyg",
+        "wysiwyg-editor"
+      ],
+      "weight": 11836,
+      "image": "https://avatars.githubusercontent.com/u/7778517?v=4"
+    },
+    {
+      "id": "concentjs/concent",
+      "path": [
+        "State Management"
+      ],
+      "name": "concent",
+      "link": "https://github.com/concentjs/concent",
+      "desc": "A reactive atomic state engine for React(including React 18) and all React like, carrying dependency collection feature, supporting fine-grained updates.",
+      "tags": [
+        "atom",
+        "better-redux",
+        "better-than-recoil",
+        "concent",
+        "dependency-collection",
+        "fine-grained-responsive-updates",
+        "helux",
+        "high-performance",
+        "immutable",
+        "mutable",
+        "proxy",
+        "react",
+        "reactive",
+        "replace-recoil",
+        "signal",
+        "state",
+        "state-management"
+      ],
+      "weight": 1388,
+      "image": "https://avatars.githubusercontent.com/u/139111050?v=4"
+    },
+    {
+      "id": "flyfish-dev/file-viewer",
+      "path": [
+        "UI Component Libraries"
+      ],
+      "name": "file-viewer",
+      "link": "https://github.com/flyfish-dev/file-viewer",
+      "desc": "Browser-native Office / PDF / CAD / archive viewer for internal web apps, with Vue, React, Svelte, jQuery, Web Components, and no server-side conversion.",
+      "tags": [
+        "cad-viewer",
+        "document-preview",
+        "document-viewer",
+        "docx",
+        "dwg",
+        "dxf",
+        "file-preview",
+        "file-viewer",
+        "office-viewer",
+        "offline-first",
+        "pdf-viewer",
+        "pptx",
+        "private-deployment",
+        "react",
+        "self-hosted",
+        "typescript",
+        "vue",
+        "wasm",
+        "web-components",
+        "xlsx"
+      ],
+      "weight": 2179,
+      "image": "https://avatars.githubusercontent.com/u/284263230?v=4"
     }
   ]
 }

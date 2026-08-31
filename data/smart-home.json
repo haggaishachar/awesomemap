@@ -1319,6 +1319,32 @@
         "webos-tv"
       ],
       "weight": 593
+    },
+    {
+      "id": "traccar/traccar",
+      "path": [
+        "Device Protocols & Telemetry"
+      ],
+      "name": "traccar",
+      "link": "https://github.com/traccar/traccar",
+      "desc": "Open source GPS tracking platform - self-hosted or managed, 200+ device protocols",
+      "tags": [
+        "docker",
+        "fleet-management",
+        "gps",
+        "gps-tracking",
+        "hacktoberfest",
+        "iot",
+        "java",
+        "open-source",
+        "rest-api",
+        "self-hosted",
+        "telematics",
+        "traccar",
+        "vehicle-tracking"
+      ],
+      "weight": 7680,
+      "image": "https://avatars.githubusercontent.com/u/37892282?v=4"
     }
   ]
 }

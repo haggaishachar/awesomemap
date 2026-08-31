@@ -187,6 +187,38 @@ net if the daily jobs that feed it go quiet.
       re-accumulates, or hand-editing history files. A script to
       recompute/re-derive stored history would make future formula
       changes safe to ship.
+- [ ] Restructure `data/` from one JSON file per domain to one JSON file
+      per project, with domains reduced to thin pointer lists. From a
+      2026-08-31 brainstorm: today `data/<slug>.json` inlines full project
+      metadata per domain (1.3k-1.6k lines each) and
+      `data/history/<slug>.json` inlines per-project star history per
+      domain (2.2k-5.5k lines each) — and worse than just size, a project
+      curated into more than one domain (7 today, e.g. `apache/airflow`
+      in both `automation.json` and `databases.json`) gets an independent
+      copy of its own metadata and history per domain, which can
+      silently drift out of sync since `enrich-domain.mjs` only updates
+      whichever domain file it's pointed at. Proposed shape:
+      `data/domains/<slug>.json` (identity + `{id, path}` pointers only —
+      `path` stays domain-scoped since it's genuinely different per
+      domain for a shared project), `data/projects/<owner>/<repo>.json`
+      (curated metadata), and `data/history/<owner>/<repo>.json` (daily
+      snapshots) — keeps the existing curated-vs-bot-written split the
+      repo already relies on, just re-keyed by project instead of by
+      domain. Touches `generate.mjs` Pass 1, `enrich-domain.mjs`,
+      `snapshot-history.mjs`, the discover/classify/apply-discoveries
+      pipeline, `CONTRIBUTING.md`, and `pr-check.yml`'s validation —
+      architectural scope, needs a written design doc before
+      implementation. Side finding from the same brainstorm: flat
+      per-project files would also make the data cleanly queryable with
+      off-the-shelf SQL-on-JSON tooling (e.g. DuckDB's official Node
+      binding, which reads the file tree directly) for ad hoc maintainer
+      analysis, at no new cost to the production build — evaluated and
+      explicitly not worth pursuing: replacing the production
+      calculation scripts (`velocity.mjs`/`leaderboard.mjs`/
+      `group-growth.mjs`/`tag-growth.mjs`) with SQL (not broken, data
+      volume doesn't need it), or TinyDB in either its Python or npm
+      form (neither is SQL, and both own their storage rather than
+      querying these files in place).
 
 ## Measurement
 

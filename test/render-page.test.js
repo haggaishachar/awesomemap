@@ -474,6 +474,37 @@ test("renderLandingPage's signal cards each carry a compare-toggle button for th
   assert.match(html, /<button type="button" class="signal-card-compare compare-toggle" data-compare-id="b\/b" aria-pressed="false">\+ Compare<\/button>/);
 });
 
+test("renderLandingPage's signal cards show each project's own desc, escaped, and omit the desc line when a project has none", () => {
+  const signals = {
+    mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40, desc: "Does <stuff> & things." },
+    heatingUp: { id: "c/c", name: "Project C", domainShort: "Data Science", percentDelta: 12 }, // no desc
+    watch: { id: "b/b", name: "Project B", domainShort: "Security", percentDelta: 80, currentStars: 900, desc: "" }, // empty desc
+  };
+  const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], { defaultOgImage: "/og-default.png", signals });
+  assert.match(html, /<span class="signal-card-desc">Does &lt;stuff&gt; &amp; things\.<\/span>/);
+  assert.equal((html.match(/signal-card-desc/g) ?? []).length, 1);
+});
+
+test("renderLandingPage's breakout signal card names the category and multiple, and is omitted entirely when null", () => {
+  const withBreakout = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], {
+    defaultOgImage: "/og-default.png",
+    signals: {
+      mover: null,
+      heatingUp: null,
+      watch: null,
+      breakout: { id: "d/d", name: "Project D", domainShort: "Data Science", relativeMultiple: 3.8, categoryName: "Databases" },
+    },
+  });
+  assert.match(withBreakout, /🚀 Unexpected breakout/);
+  assert.match(withBreakout, /3\.8× faster than Databases this week/);
+
+  const withoutBreakout = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], {
+    defaultOgImage: "/og-default.png",
+    signals: { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, heatingUp: null, watch: null, breakout: null },
+  });
+  assert.doesNotMatch(withoutBreakout, /🚀 Unexpected breakout/);
+});
+
 test("renderLandingPage's heatingUp signal card links at that project's own internal page, prefixed by BASE_PATH", () => {
   const signals = { mover: null, heatingUp: { id: "c/c", name: "Project C", domainShort: "Data Science", percentDelta: 12 }, watch: null };
   const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], {

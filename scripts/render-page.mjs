@@ -480,15 +480,18 @@ function renderRisingTeaser(entries, { heading, href, showDomain, basePath }) {
 
 /**
  * One card in the landing page's "This week's signals" module — same shape for
- * every signal type, just a different label/title/stat/meta/href. The
+ * every signal type, just a different label/title/stat/meta/href/desc. `desc`
+ * (a project's own `data/projects/**.json` `desc` field) is omitted when the
+ * project has none, same fallback `renderHeaderCell` in compare.js uses. The
  * navigable content lives in an inner `<a>` rather than making the whole
  * card a link, so the `compare-toggle` button (`compareId`, when the
  * signal has a project id) can sit alongside it as its own click target
  * instead of nesting a `<button>` inside an `<a>` — invalid HTML that
  * would also make the button's click bubble into the card's navigation.
  */
-function renderSignalCard({ label, title, stat, meta, href, compareId }) {
+function renderSignalCard({ label, title, stat, meta, href, compareId, desc }) {
   const metaLine = meta ? `<span class="signal-card-meta">${escapeHtml(meta)}</span>` : "";
+  const descLine = desc ? `<span class="signal-card-desc">${escapeHtml(desc)}</span>` : "";
   const compareToggle = compareId
     ? `<button type="button" class="signal-card-compare compare-toggle" data-compare-id="${escapeHtml(compareId)}" aria-pressed="false">+ Compare</button>`
     : "";
@@ -499,21 +502,24 @@ function renderSignalCard({ label, title, stat, meta, href, compareId }) {
         <span class="signal-card-title">${escapeHtml(title)}</span>
         <span class="signal-card-stat">${stat}</span>
         ${metaLine}
+        ${descLine}
       </a>
       ${compareToggle}
     </div>`;
 }
 
 /**
- * Renders one scope's up to-three cards (biggest mover, heating-up project,
- * one-to-watch) built from a `pickThisWeeksSignals` result — either the
- * global pool or a single domain's. Any signal that's `null` (no qualifying
- * candidate yet) is skipped. Falls back to the same not-enough-history
- * message `renderRisingRows` uses, rather than rendering an empty grid, so
- * switching the domain filter to a domain without enough history yet
- * doesn't just leave blank space.
+ * Renders one scope's up to-four cards (biggest mover, unexpected breakout,
+ * heating-up project, one-to-watch) built from a `pickThisWeeksSignals`
+ * result — either the global pool or a single domain's. Any signal that's
+ * `null` (no qualifying candidate — including a scope where nothing cleared
+ * `MIN_MEANINGFUL_STAR_DELTA` this week) is skipped. Falls back to the same
+ * not-enough-history message `renderRisingRows` uses, rather than rendering
+ * an empty grid, so switching the domain filter to a domain without enough
+ * history (or without any meaningful growth) yet doesn't just leave blank
+ * space.
  */
-function renderSignalCards({ mover, heatingUp, watch } = {}, { basePath }) {
+function renderSignalCards({ mover, heatingUp, watch, breakout } = {}, { basePath }) {
   const cards = [
     mover &&
       renderSignalCard({
@@ -523,6 +529,17 @@ function renderSignalCards({ mover, heatingUp, watch } = {}, { basePath }) {
         meta: mover.domainShort,
         href: `${basePath}/projects/${mover.id}/`,
         compareId: mover.id,
+        desc: mover.desc,
+      }),
+    breakout &&
+      renderSignalCard({
+        label: "🚀 Unexpected breakout",
+        title: breakout.name,
+        stat: `${breakout.relativeMultiple.toFixed(1)}× faster than ${breakout.categoryName} this week`,
+        meta: breakout.domainShort,
+        href: `${basePath}/projects/${breakout.id}/`,
+        compareId: breakout.id,
+        desc: breakout.desc,
       }),
     heatingUp &&
       renderSignalCard({
@@ -532,6 +549,7 @@ function renderSignalCards({ mover, heatingUp, watch } = {}, { basePath }) {
         meta: heatingUp.domainShort,
         href: `${basePath}/projects/${heatingUp.id}/`,
         compareId: heatingUp.id,
+        desc: heatingUp.desc,
       }),
     watch &&
       renderSignalCard({
@@ -541,6 +559,7 @@ function renderSignalCards({ mover, heatingUp, watch } = {}, { basePath }) {
         meta: watch.domainShort,
         href: `${basePath}/projects/${watch.id}/`,
         compareId: watch.id,
+        desc: watch.desc,
       }),
   ].filter(Boolean);
 
@@ -560,7 +579,7 @@ function renderSignalCards({ mover, heatingUp, watch } = {}, { basePath }) {
  * a qualifying signal yet, rather than rendering an empty shell.
  */
 function renderThisWeeksSignals(signals = {}, { basePath, domains = [], signalsByDomain = {} }) {
-  const hasSignal = (s) => Boolean(s?.mover || s?.heatingUp || s?.watch);
+  const hasSignal = (s) => Boolean(s?.mover || s?.heatingUp || s?.watch || s?.breakout);
   if (!hasSignal(signals) && !domains.some((domain) => hasSignal(signalsByDomain[domain.slug]))) return "";
 
   const domainFilterBar =

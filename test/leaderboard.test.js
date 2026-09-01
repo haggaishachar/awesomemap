@@ -256,3 +256,39 @@ test("computeLeaderboard excludes a project with flat or declining stars, even w
   const result = computeLeaderboard(domains, { scope: "global", windowDays: 7, limit: 20, now: NOW });
   assert.deepEqual(result, []);
 });
+
+test("computeLeaderboard carries each project's own desc through, so callers (e.g. the homepage signal cards) don't need a separate lookup", () => {
+  const domains = [
+    {
+      slug: "data-science",
+      name: "Data Science",
+      projects: [
+        {
+          id: "a/a",
+          name: "Project A",
+          link: "https://a.example",
+          desc: "A thing that does stuff.",
+          history: [
+            { date: "2026-08-05", stars: 100 },
+            { date: "2026-08-14", stars: 110 },
+            { date: "2026-08-15", stars: 150 },
+          ],
+        },
+        {
+          id: "b/b",
+          name: "Project B",
+          link: "https://b.example",
+          // No desc — some project entities predate the field or never got one.
+          history: [
+            { date: "2026-08-05", stars: 500 },
+            { date: "2026-08-14", stars: 600 },
+            { date: "2026-08-15", stars: 610 },
+          ],
+        },
+      ],
+    },
+  ];
+  const result = computeLeaderboard(domains, { scope: "global", windowDays: 7, limit: 20, now: NOW });
+  assert.equal(result.find((r) => r.id === "a/a").desc, "A thing that does stuff.");
+  assert.equal(result.find((r) => r.id === "b/b").desc, undefined);
+});

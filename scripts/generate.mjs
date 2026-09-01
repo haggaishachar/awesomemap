@@ -9,7 +9,7 @@ import { computeProjectSizing, findInvalidSizes, RISING_WINDOWS_DAYS } from "./v
 import { computeLeaderboard } from "./leaderboard.mjs";
 import { computeGroupGrowth, rankGroups } from "./group-growth.mjs";
 import { buildTagGroups, computeTopTags, computeRisingTags } from "./tag-growth.mjs";
-import { pickTodaysSignals } from "./todays-signals.mjs";
+import { pickThisWeeksSignals } from "./this-weeks-signals.mjs";
 import { buildSitemap, buildRobots } from "./seo.mjs";
 import { loadAllDomains, loadAllProjectEntities, joinDomainProjects } from "./data-store.mjs";
 
@@ -253,7 +253,7 @@ for (const domain of parsedDomains) {
   });
 }
 
-// Today's-signals' "one to watch" and "heating up" need to compare
+// This-week's-signals' "one to watch" and "heating up" need to compare
 // percentDelta across every eligible project, not just the top
 // LEADERBOARD_LIMIT by score — a small, fast-growing project can rank well
 // outside the top 20 on score (which favors absolute gains) while still
@@ -261,14 +261,14 @@ for (const domain of parsedDomains) {
 // this repo's scale and keeps LEADERBOARD_LIMIT (the /rising/ page's own
 // per-section row count) untouched.
 const globalSignalsPool = computeLeaderboard(parsedDomains, { scope: "global", windowDays: TEASER_WINDOW_DAYS, limit: Infinity });
-const todaysSignals = pickTodaysSignals(globalSignalsPool);
+const thisWeeksSignals = pickThisWeeksSignals(globalSignalsPool);
 writeFileSync(
   `${DIST_DIR}/index.html`,
   renderLandingPage(domains, {
     defaultOgImage: DEFAULT_OG_IMAGE,
     siteUrl: SITE_URL,
     basePath: BASE_PATH,
-    signals: todaysSignals,
+    signals: thisWeeksSignals,
     momentumWindowDays: MOMENTUM_WINDOW_DAYS,
   })
 );

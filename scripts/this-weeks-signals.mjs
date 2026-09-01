@@ -6,9 +6,9 @@
 export const SMALL_PROJECT_STAR_THRESHOLD = 5000;
 
 /**
- * Picks the landing page's three "today's signals" highlights — a reason
+ * Picks the landing page's three "this week's signals" highlights — a reason
  * to come back daily, per the homepage-hero backlog item's pairing with a
- * "today's signals" teaser. All three reuse data generate.mjs already
+ * "this week's signals" teaser. All three reuse data generate.mjs already
  * computes elsewhere; this module only selects, it does not derive new
  * growth math.
  *
@@ -19,13 +19,13 @@ export const SMALL_PROJECT_STAR_THRESHOLD = 5000;
  * before its `percentDelta` is ever compared for `watch`/`heatingUp`.
  *
  * Each of `mover`/`heatingUp`/`watch` is `null` when no candidate
- * qualifies (e.g. too early in the dataset's life) — `renderTodaysSignals`
+ * qualifies (e.g. too early in the dataset's life) — `renderThisWeeksSignals`
  * omits that card rather than rendering an empty one. `mover` and `watch`
  * are picked first so `heatingUp` can exclude their ids — otherwise it'd
  * often just repeat `watch` (percentage growth is usually won by small
  * projects).
  */
-export function pickTodaysSignals(moverPool, { starThreshold = SMALL_PROJECT_STAR_THRESHOLD } = {}) {
+export function pickThisWeeksSignals(moverPool, { starThreshold = SMALL_PROJECT_STAR_THRESHOLD } = {}) {
   const mover = pickBiggestMover(moverPool);
   const watch = pickOneToWatch(moverPool, starThreshold);
   const claimedIds = new Set([mover?.id, watch?.id].filter(Boolean));

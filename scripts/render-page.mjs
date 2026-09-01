@@ -376,7 +376,7 @@ export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", baseP
         </a>`;
     })
     .join("");
-  const signalsSection = renderTodaysSignals(signals, { basePath });
+  const signalsSection = renderThisWeeksSignals(signals, { basePath });
   const websiteJsonLd = renderJsonLd(
     buildWebsiteJsonLd({
       name: "awesomemap",
@@ -488,7 +488,7 @@ function renderRisingTeaser(entries, { heading, href, showDomain, basePath }) {
 }
 
 /**
- * One card in the landing page's "Today's signals" module — same shape for
+ * One card in the landing page's "This week's signals" module — same shape for
  * every signal type, just a different label/title/stat/meta/href. The
  * navigable content lives in an inner `<a>` rather than making the whole
  * card a link, so the `compare-toggle` button (`compareId`, when the
@@ -514,13 +514,13 @@ function renderSignalCard({ label, title, stat, meta, href, compareId }) {
 }
 
 /**
- * Renders the landing page's "Today's signals" module — up to three cards
- * (biggest mover, heating-up project, one-to-watch) built from
- * `pickTodaysSignals`'s output (see todays-signals.mjs). Any signal that's
- * `null` (no qualifying candidate yet) is skipped; the whole section is
- * omitted when none qualify, rather than rendering an empty shell.
+ * Renders the landing page's "This week's signals" module — up to three
+ * cards (biggest mover, heating-up project, one-to-watch) built from
+ * `pickThisWeeksSignals`'s output (see this-weeks-signals.mjs). Any signal
+ * that's `null` (no qualifying candidate yet) is skipped; the whole section
+ * is omitted when none qualify, rather than rendering an empty shell.
  */
-function renderTodaysSignals({ mover, heatingUp, watch } = {}, { basePath }) {
+function renderThisWeeksSignals({ mover, heatingUp, watch } = {}, { basePath }) {
   const cards = [
     mover &&
       renderSignalCard({
@@ -554,8 +554,8 @@ function renderTodaysSignals({ mover, heatingUp, watch } = {}, { basePath }) {
   if (cards.length === 0) return "";
 
   return `
-    <section class="todays-signals">
-      <h2 class="todays-signals-heading">Today's signals</h2>
+    <section class="this-weeks-signals">
+      <h2 class="this-weeks-signals-heading">This week's signals</h2>
       <div class="signals-grid">${cards.join("")}</div>
     </section>`;
 }

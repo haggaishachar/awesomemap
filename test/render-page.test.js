@@ -435,16 +435,16 @@ test("renderLandingPage no longer renders the old global rising-teaser section",
   assert.doesNotMatch(html, /rising-teaser/);
 });
 
-test("renderLandingPage renders a today's-signals section between the hero and the map grid", () => {
+test("renderLandingPage renders a this-week's-signals section between the hero and the map grid", () => {
   const signals = {
     mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 },
     heatingUp: { id: "c/c", name: "Project C", domainShort: "Data Science", percentDelta: 12 },
     watch: { id: "b/b", name: "Project B", domainShort: "Security", percentDelta: 80, currentStars: 900 },
   };
   const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], { defaultOgImage: "/og-default.png", signals });
-  assert.match(html, /<section class="todays-signals">/);
-  assert.ok(html.indexOf('class="hero"') < html.indexOf('class="todays-signals"'));
-  assert.ok(html.indexOf('class="todays-signals"') < html.indexOf('class="map-grid"'));
+  assert.match(html, /<section class="this-weeks-signals">/);
+  assert.ok(html.indexOf('class="hero"') < html.indexOf('class="this-weeks-signals"'));
+  assert.ok(html.indexOf('class="this-weeks-signals"') < html.indexOf('class="map-grid"'));
 });
 
 test("renderLandingPage's mover and watch signal cards link at the project's internal page, prefixed by BASE_PATH", () => {
@@ -484,17 +484,17 @@ test("renderLandingPage's heatingUp signal card links at that project's own inte
   assert.match(html, /<a class="signal-card-link" href="\/techmap\/projects\/c\/c\/">[\s\S]*?Project C[\s\S]*?<\/a>/);
 });
 
-test("renderLandingPage omits the today's-signals section entirely when no signal qualifies", () => {
+test("renderLandingPage omits the this-week's-signals section entirely when no signal qualifies", () => {
   const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], {
     defaultOgImage: "/og-default.png",
     signals: { mover: null, heatingUp: null, watch: null },
   });
-  assert.doesNotMatch(html, /todays-signals/);
+  assert.doesNotMatch(html, /this-weeks-signals/);
 });
 
-test("renderLandingPage defaults to no today's-signals section when the option is omitted entirely", () => {
+test("renderLandingPage defaults to no this-week's-signals section when the option is omitted entirely", () => {
   const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], { defaultOgImage: "/og-default.png" });
-  assert.doesNotMatch(html, /todays-signals/);
+  assert.doesNotMatch(html, /this-weeks-signals/);
 });
 
 test("renderLandingPage's hero includes a quick-jump link per domain, using its short name", () => {

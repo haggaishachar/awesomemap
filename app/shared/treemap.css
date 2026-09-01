@@ -1231,28 +1231,6 @@ a.momentum-row-name:hover {
   color: var(--color-text-muted);
 }
 
-.compare-stat {
-  text-align: left;
-  font-size: 13px;
-  border-top: 1px solid var(--color-border);
-  padding: 6px 0;
-  margin: 0;
-}
-
-.compare-stat-label {
-  display: block;
-  font-size: 11px;
-  font-weight: 600;
-  color: var(--color-text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-}
-
-.compare-signal {
-  color: var(--color-accent);
-  font-weight: 600;
-}
-
 .compare-add-column {
   border-style: dashed;
 }
@@ -1267,6 +1245,57 @@ a.momentum-row-name:hover {
   color: var(--color-rising-down);
   font-size: 12px;
   min-height: 1em;
+}
+
+/* Row-per-stat grid below the header cards: one row per stat (Stars, 7/30/
+   90d growth, Momentum, Forks, Open issues), one column per project, so
+   "who's winning on 30d growth" is a scan across a row instead of hunting
+   through stacked per-project cards. Horizontally scrollable rather than
+   reflowing to one-column-per-row on narrow viewports (compare.js's old
+   stacked-card layout did that) — a comparison table that drops its column
+   alignment on mobile stops being a comparison. */
+.compare-table-wrap {
+  margin-top: 16px;
+  overflow-x: auto;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: var(--color-surface);
+}
+
+.compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.compare-table tr:not(:last-child) th,
+.compare-table tr:not(:last-child) td {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.compare-table th,
+.compare-table td {
+  padding: 8px 12px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.compare-row-label {
+  position: sticky;
+  left: 0;
+  background: var(--color-surface);
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+
+.compare-cell-empty {
+  color: var(--color-text-muted);
+}
+
+.compare-winner {
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+  font-weight: 600;
 }
 
 @media (max-width: 480px) {

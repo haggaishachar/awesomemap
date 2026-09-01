@@ -201,6 +201,26 @@ net if the daily jobs that feed it go quiet.
 
 ## Shipped
 
+- [x] Row-per-stat compare grid with a winner highlight.
+      `app/shared/compare.js`'s `/compare/` table used to render one full
+      vertical stat card per project as sibling columns — Stars/7d/30d/90d
+      growth/Forks/Open issues each repeated per column, with no way to
+      scan "who's winning on 30d growth" across projects at a glance.
+      `renderColumn` is now `renderHeaderCell` (identity only: logo, name,
+      domain, description, tags, links); a new `renderStatsTable`/
+      `STAT_ROWS` builds a real `<table>` below it with one row per stat and
+      one column per project, and `winnersForRow` highlights the best
+      value(s) per row (`.compare-winner`) for the rows where "biggest
+      number wins" is unambiguous — stars, each growth window (by percent,
+      gated on `hasEnoughHistory` the same as `formatGrowthCell` already
+      was), and forks. Momentum (a narrative sentence) and open issues
+      (more isn't obviously better or worse) are shown but never
+      highlighted. Narrow viewports get a horizontally-scrollable table
+      with a `position: sticky` stat-label column, replacing the old
+      one-column-per-row stacking that would otherwise have thrown away
+      row alignment on mobile, exactly where a comparison table needs it
+      most.
+      _Done 2026-09-01: MVP item 4 ("Improve compare side-by-side")._
 - [x] "+ Compare" toggle on every remaining surface that lists individual
       projects — it already covered the detail panel, project pages,
       Rising rows, and tag-page rows; this closed the last gap, the

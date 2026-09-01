@@ -12,9 +12,51 @@ import { removeFromCart, refreshCompareButtons } from "./compare-cart.js";
 const RISING_WINDOWS_DAYS = [7, 30, 90];
 
 /**
+ * The stats table's rows, in display order. Each row knows how to render
+ * its own cell text (`cell`) and, for rows where "biggest number wins" is
+ * an unambiguous claim, how to pull the comparable number out of a record
+ * (`winnerValue`) so `winnersForRow` can highlight the best column(s).
+ * `winnerValue` is `null` for rows where a bigger number isn't obviously
+ * "better" (a narrative sentence, or an open-issue count) — no winner is
+ * ever computed or highlighted for those.
+ */
+const STAT_ROWS = [
+  {
+    label: "Stars",
+    cell: (record) => `★ ${formatStarCount(record.weight) ?? "—"}`,
+    winnerValue: (record) => record.weight,
+  },
+  ...RISING_WINDOWS_DAYS.map((windowDays) => {
+    const key = `rising${windowDays}`;
+    return {
+      label: `${windowDays}d growth`,
+      cell: (record) => formatGrowthCell(record.growth[key], record.hasEnoughHistory[key]),
+      // Only a window with enough history is a trustworthy comparison point
+      // — matches formatGrowthCell's own "Not enough history yet" gate.
+      winnerValue: (record) => (record.hasEnoughHistory[key] ? record.growth[key]?.percentDelta : null),
+    };
+  }),
+  {
+    label: "Momentum",
+    cell: (record) => record.signalHeadline ?? "—",
+    winnerValue: null, // a narrative sentence, not a single comparable number
+  },
+  {
+    label: "Forks",
+    cell: (record) => formatCount(record.forks),
+    winnerValue: (record) => (typeof record.forks === "number" ? record.forks : null),
+  },
+  {
+    label: "Open issues",
+    cell: (record) => formatCount(record.openIssues),
+    winnerValue: null, // more open issues isn't unambiguously better or worse, unlike stars/growth/forks
+  },
+];
+
+/**
  * Mounts the /compare/ page's table into `container`. Fetches
  * `compareIndexUrl` once (cached for the mount's lifetime), renders one
- * column per id in `initialIds` plus an "add project" column, and calls
+ * header card per id in `initialIds` plus an "add project" card, and calls
  * `onIdsChange(ids)` whenever the visible id list changes via the add box
  * or a column's remove button — this function never touches
  * `history`/`location` itself, the same split render-page.mjs's inline
@@ -24,7 +66,6 @@ const RISING_WINDOWS_DAYS = [7, 30, 90];
  */
 export function mountCompare(container, { compareIndexUrl, basePath = "", initialIds, onIdsChange }) {
   const root = document.createElement("div");
-  root.className = "compare-grid";
   container.appendChild(root);
 
   let index = null;
@@ -52,19 +93,100 @@ export function mountCompare(container, { compareIndexUrl, basePath = "", initia
     if (index) render();
   });
 
+  // `index` is a JSON.parse result, so it inherits from Object.prototype —
+  // a truthy `index[id]` check would treat inherited keys like
+  // "constructor"/"toString" as found records. Object.hasOwn checks own
+  // enumerable-or-not properties only, so an id that merely collides with a
+  // prototype member correctly falls through to "not found".
+  function recordFor(id) {
+    return index && Object.hasOwn(index, id) ? index[id] : null;
+  }
+
   function render() {
     root.innerHTML = "";
+
+    const headerRow = document.createElement("div");
+    headerRow.className = "compare-grid";
     for (const id of currentIds) {
-      // `index` is a JSON.parse result, so it inherits from Object.prototype
-      // — a truthy `index[id]` check would treat inherited keys like
-      // "constructor"/"toString" as found records. Object.hasOwn checks own
-      // enumerable-or-not properties only, so an id that merely collides
-      // with a prototype member correctly falls through to "not found".
-      root.appendChild(Object.hasOwn(index, id) ? renderColumn(index[id]) : renderNotFoundColumn(id));
+      const record = recordFor(id);
+      headerRow.appendChild(record ? renderHeaderCell(record) : renderNotFoundColumn(id));
     }
     if (currentIds.length < MAX_COMPARE_IDS) {
-      root.appendChild(renderAddColumn());
+      headerRow.appendChild(renderAddColumn());
     }
+    root.appendChild(headerRow);
+
+    // Nothing to tabulate with zero resolved records (e.g. every id in the
+    // URL is stale) — the header row's "not found" placeholders already say
+    // so, a stats table with only a label column and no data would just be
+    // noise on top of that.
+    if (currentIds.some((id) => recordFor(id))) {
+      root.appendChild(renderStatsTable());
+    }
+  }
+
+  /** Builds the `{ [id]: winning }` map for one STAT_ROWS row: the set of ids tied for the row's best value, or `null` when the row has no `winnerValue` getter, fewer than two comparable values, or every comparable value ties. */
+  function winnersForRow(getValue) {
+    const values = [];
+    for (const id of currentIds) {
+      const record = recordFor(id);
+      if (!record) continue;
+      const value = getValue(record);
+      if (typeof value === "number" && Number.isFinite(value)) values.push([id, value]);
+    }
+    if (values.length < 2) return null;
+    const max = Math.max(...values.map(([, value]) => value));
+    if (values.every(([, value]) => value === max)) return null; // an across-the-board tie has nothing to highlight
+    return new Set(values.filter(([, value]) => value === max).map(([id]) => id));
+  }
+
+  /**
+   * The row-per-stat grid: one row per STAT_ROWS entry, one column per id in
+   * `currentIds` (a "—" cell for an id that didn't resolve, so columns stay
+   * aligned with the header row above), with the best value per row
+   * highlighted. Wrapped by the caller in a horizontally-scrollable
+   * container with a sticky label column, since up to 4 project columns
+   * plus an add column don't fit a narrow viewport.
+   */
+  function renderStatsTable() {
+    const wrap = document.createElement("div");
+    wrap.className = "compare-table-wrap";
+
+    const table = document.createElement("table");
+    table.className = "compare-table";
+    table.setAttribute("aria-label", "Stat-by-stat comparison");
+
+    const tbody = document.createElement("tbody");
+    for (const row of STAT_ROWS) {
+      const tr = document.createElement("tr");
+      const winners = row.winnerValue ? winnersForRow(row.winnerValue) : null;
+
+      const th = document.createElement("th");
+      th.scope = "row";
+      th.className = "compare-row-label";
+      th.textContent = row.label;
+      tr.appendChild(th);
+
+      for (const id of currentIds) {
+        const record = recordFor(id);
+        const td = document.createElement("td");
+        if (record) {
+          td.textContent = row.cell(record);
+          if (winners?.has(id)) td.classList.add("compare-winner");
+        } else {
+          td.textContent = "—";
+          td.className = "compare-cell-empty";
+        }
+        tr.appendChild(td);
+      }
+      if (currentIds.length < MAX_COMPARE_IDS) {
+        tr.appendChild(document.createElement("td")); // keeps this row under the add column, empty since it has nothing to add
+      }
+      tbody.appendChild(tr);
+    }
+    table.appendChild(tbody);
+    wrap.appendChild(table);
+    return wrap;
   }
 
   function removeButton(id) {
@@ -100,7 +222,8 @@ export function mountCompare(container, { compareIndexUrl, basePath = "", initia
     return column;
   }
 
-  function renderColumn(record) {
+  /** The header row's per-project card: identity (logo, name, domain, description, tags) and outbound links. Numeric stats live in the table below, not here — see STAT_ROWS. */
+  function renderHeaderCell(record) {
     const column = document.createElement("div");
     column.className = "compare-column";
     column.appendChild(removeButton(record.id));
@@ -137,20 +260,6 @@ export function mountCompare(container, { compareIndexUrl, basePath = "", initia
     const tagList = renderTagChips(record.tags, basePath);
     if (tagList) column.appendChild(tagList);
 
-    column.appendChild(statRow("Stars", `★ ${formatStarCount(record.weight) ?? "—"}`));
-    for (const windowDays of RISING_WINDOWS_DAYS) {
-      const key = `rising${windowDays}`;
-      column.appendChild(statRow(`${windowDays}d growth`, formatGrowthCell(record.growth[key], record.hasEnoughHistory[key])));
-    }
-    if (record.signalHeadline) {
-      const signal = document.createElement("p");
-      signal.className = "compare-stat compare-signal";
-      signal.textContent = record.signalHeadline;
-      column.appendChild(signal);
-    }
-    column.appendChild(statRow("Forks", formatCount(record.forks)));
-    column.appendChild(statRow("Open issues", formatCount(record.openIssues)));
-
     if (record.link) {
       const siteLink = document.createElement("a");
       siteLink.className = "detail-panel-link";
@@ -170,18 +279,6 @@ export function mountCompare(container, { compareIndexUrl, basePath = "", initia
     column.appendChild(githubLink);
 
     return column;
-  }
-
-  /** One labeled stat row, e.g. "Stars" / "★ 12,400" — the compare table's basic building block, reused for every numeric/growth row. */
-  function statRow(label, value) {
-    const row = document.createElement("p");
-    row.className = "compare-stat";
-    const labelEl = document.createElement("span");
-    labelEl.className = "compare-stat-label";
-    labelEl.textContent = label;
-    row.appendChild(labelEl);
-    row.appendChild(document.createTextNode(value));
-    return row;
   }
 
   function renderAddColumn() {
@@ -211,7 +308,7 @@ export function mountCompare(container, { compareIndexUrl, basePath = "", initia
       error.textContent = "";
       const id = normalizeProjectId(input.value);
       if (!id) return;
-      if (!index || !Object.hasOwn(index, id)) {
+      if (!recordFor(id)) {
         error.textContent = `Couldn't find "${id}".`;
         return;
       }

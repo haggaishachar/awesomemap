@@ -487,16 +487,30 @@ function renderRisingTeaser(entries, { heading, href, showDomain, basePath }) {
     </section>`;
 }
 
-/** One card in the landing page's "Today's signals" module — same shape for every signal type, just a different label/title/stat/meta/href. */
-function renderSignalCard({ label, title, stat, meta, href }) {
+/**
+ * One card in the landing page's "Today's signals" module — same shape for
+ * every signal type, just a different label/title/stat/meta/href. The
+ * navigable content lives in an inner `<a>` rather than making the whole
+ * card a link, so the `compare-toggle` button (`compareId`, when the
+ * signal has a project id) can sit alongside it as its own click target
+ * instead of nesting a `<button>` inside an `<a>` — invalid HTML that
+ * would also make the button's click bubble into the card's navigation.
+ */
+function renderSignalCard({ label, title, stat, meta, href, compareId }) {
   const metaLine = meta ? `<span class="signal-card-meta">${escapeHtml(meta)}</span>` : "";
+  const compareToggle = compareId
+    ? `<button type="button" class="signal-card-compare compare-toggle" data-compare-id="${escapeHtml(compareId)}" aria-pressed="false">+ Compare</button>`
+    : "";
   return `
-    <a class="signal-card" href="${escapeHtml(href)}">
-      <span class="signal-card-label">${label}</span>
-      <span class="signal-card-title">${escapeHtml(title)}</span>
-      <span class="signal-card-stat">${stat}</span>
-      ${metaLine}
-    </a>`;
+    <div class="signal-card">
+      <a class="signal-card-link" href="${escapeHtml(href)}">
+        <span class="signal-card-label">${label}</span>
+        <span class="signal-card-title">${escapeHtml(title)}</span>
+        <span class="signal-card-stat">${stat}</span>
+        ${metaLine}
+      </a>
+      ${compareToggle}
+    </div>`;
 }
 
 /**
@@ -515,6 +529,7 @@ function renderTodaysSignals({ mover, heatingUp, watch } = {}, { basePath }) {
         stat: `+${mover.starDelta} stars (+${mover.percentDelta.toFixed(1)}%) this week`,
         meta: mover.domainShort,
         href: `${basePath}/projects/${mover.id}/`,
+        compareId: mover.id,
       }),
     heatingUp &&
       renderSignalCard({
@@ -523,6 +538,7 @@ function renderTodaysSignals({ mover, heatingUp, watch } = {}, { basePath }) {
         stat: `+${heatingUp.percentDelta.toFixed(1)}% this week`,
         meta: heatingUp.domainShort,
         href: `${basePath}/projects/${heatingUp.id}/`,
+        compareId: heatingUp.id,
       }),
     watch &&
       renderSignalCard({
@@ -531,6 +547,7 @@ function renderTodaysSignals({ mover, heatingUp, watch } = {}, { basePath }) {
         stat: `+${watch.percentDelta.toFixed(1)}% this week · ★ ${formatStars(watch.currentStars)}`,
         meta: watch.domainShort,
         href: `${basePath}/projects/${watch.id}/`,
+        compareId: watch.id,
       }),
   ].filter(Boolean);
 

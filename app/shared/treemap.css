@@ -1035,19 +1035,31 @@ a.momentum-row-name:hover {
 .signal-card {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 8px;
   padding: 16px;
   border-radius: 10px;
   background: var(--color-surface);
   box-shadow: var(--shadow-sm);
-  text-decoration: none;
-  color: inherit;
   transition: transform 0.15s ease-out, box-shadow 0.15s ease-out;
 }
 
 .signal-card:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
+}
+
+.signal-card-link {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.signal-card-compare {
+  align-self: flex-start;
+  font-size: 12px;
+  padding: 2px 10px;
 }
 
 .signal-card-label {

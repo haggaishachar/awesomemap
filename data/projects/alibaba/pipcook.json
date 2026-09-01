@@ -4,8 +4,8 @@
   "link": "https://github.com/alibaba/pipcook",
   "name": "pipcook",
   "desc": "Machine learning platform for Web developers",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "pipcook",
+  "githubDescription": "Machine learning platform for Web developers",
   "weight": 2595,
   "image": "https://avatars.githubusercontent.com/u/1961952?v=4",
   "tags": [
@@ -14,5 +14,12 @@
     "pipeline",
     "tensorflow"
   ],
-  "history": []
+  "history": [
+    {
+      "date": "2026-09-01",
+      "stars": 2595,
+      "forks": 210,
+      "openIssues": 110
+    }
+  ]
 }

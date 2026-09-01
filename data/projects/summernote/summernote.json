@@ -4,8 +4,8 @@
   "link": "https://github.com/summernote/summernote",
   "name": "summernote",
   "desc": "Super Simple WYSIWYG Editor",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "summernote",
+  "githubDescription": "Super Simple WYSIWYG Editor",
   "weight": 11836,
   "image": "https://avatars.githubusercontent.com/u/7778517?v=4",
   "tags": [
@@ -14,5 +14,12 @@
     "wysiwyg",
     "wysiwyg-editor"
   ],
-  "history": []
+  "history": [
+    {
+      "date": "2026-09-01",
+      "stars": 11837,
+      "forks": 2249,
+      "openIssues": 120
+    }
+  ]
 }

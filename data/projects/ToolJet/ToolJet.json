@@ -5,7 +5,7 @@
   "name": "ToolJet",
   "desc": "Low-code platform for building internal tools and business applications",
   "githubName": "ToolJet",
-  "githubDescription": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+  "githubDescription": "Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards, business applications, workflows and AI agents. Build visually, from a prompt, or from Claude Code, Codex and Cursor over MCP 🚀",
   "weight": 40765,
   "image": "https://avatars.githubusercontent.com/u/82193554?v=4",
   "tags": [
@@ -77,6 +77,12 @@
       "stars": 40803,
       "forks": 5422,
       "openIssues": 1174
+    },
+    {
+      "date": "2026-09-01",
+      "stars": 40805,
+      "forks": 5424,
+      "openIssues": 1181
     }
   ]
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/traccar/traccar",
   "name": "traccar",
   "desc": "Open source GPS tracking platform - self-hosted or managed, 200+ device protocols",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "traccar",
+  "githubDescription": "Open source GPS tracking platform - self-hosted or managed, 200+ device protocols",
   "weight": 7680,
   "image": "https://avatars.githubusercontent.com/u/37892282?v=4",
   "tags": [
@@ -23,5 +23,12 @@
     "traccar",
     "vehicle-tracking"
   ],
-  "history": []
+  "history": [
+    {
+      "date": "2026-09-01",
+      "stars": 7682,
+      "forks": 3377,
+      "openIssues": 387
+    }
+  ]
 }

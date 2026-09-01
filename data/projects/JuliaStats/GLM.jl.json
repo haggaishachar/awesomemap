@@ -4,8 +4,8 @@
   "link": "https://github.com/JuliaStats/GLM.jl",
   "name": "GLM.jl",
   "desc": "Generalized linear models in Julia",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "GLM.jl",
+  "githubDescription": "Generalized linear models in Julia",
   "weight": 636,
   "image": "https://avatars.githubusercontent.com/u/2761531?v=4",
   "tags": [
@@ -16,5 +16,12 @@
     "statistical-models",
     "statistics"
   ],
-  "history": []
+  "history": [
+    {
+      "date": "2026-09-01",
+      "stars": 636,
+      "forks": 115,
+      "openIssues": 82
+    }
+  ]
 }

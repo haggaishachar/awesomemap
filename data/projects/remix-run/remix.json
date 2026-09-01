@@ -5,7 +5,7 @@
   "name": "Remix",
   "desc": "Build better websites with React",
   "githubName": "remix",
-  "githubDescription": "Build Better Websites. Create modern, resilient user experiences with web fundamentals.",
+  "githubDescription": "The fully-stacked web framework",
   "weight": 33324,
   "image": "https://avatars.githubusercontent.com/u/64235328?v=4",
   "tags": [],
@@ -109,6 +109,12 @@
       "stars": 33338,
       "forks": 2791,
       "openIssues": 56
+    },
+    {
+      "date": "2026-09-01",
+      "stars": 33345,
+      "forks": 2791,
+      "openIssues": 54
     }
   ]
 }

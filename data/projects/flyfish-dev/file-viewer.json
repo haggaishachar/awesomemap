@@ -4,8 +4,8 @@
   "link": "https://github.com/flyfish-dev/file-viewer",
   "name": "file-viewer",
   "desc": "Browser-native Office / PDF / CAD / archive viewer for internal web apps, with Vue, React, Svelte, jQuery, Web Components, and no server-side conversion.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "file-viewer",
+  "githubDescription": "Browser-native Office / PDF / CAD / archive viewer for internal web apps, with Vue, React, Svelte, jQuery, Web Components, and no server-side conversion.",
   "weight": 2179,
   "image": "https://avatars.githubusercontent.com/u/284263230?v=4",
   "tags": [
@@ -30,5 +30,12 @@
     "web-components",
     "xlsx"
   ],
-  "history": []
+  "history": [
+    {
+      "date": "2026-09-01",
+      "stars": 2194,
+      "forks": 225,
+      "openIssues": 12
+    }
+  ]
 }

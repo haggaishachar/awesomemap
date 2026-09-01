@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "basho/riak",
+  "link": "https://github.com/basho/riak",
+  "name": "riak",
+  "desc": "Riak is a decentralized datastore from Basho Technologies.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 4028,
+  "image": "https://avatars.githubusercontent.com/u/176293?v=4"
+}

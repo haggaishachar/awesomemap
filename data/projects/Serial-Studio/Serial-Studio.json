@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "Serial-Studio/Serial-Studio",
+  "link": "https://github.com/Serial-Studio/Serial-Studio",
+  "name": "Serial-Studio",
+  "desc": "Open-source telemetry dashboard. Supports UART, BLE, MQTT, Modbus, CAN Bus and more. ",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "arduino",
+    "canbus",
+    "dashboard",
+    "embedded",
+    "ground-station",
+    "industrial-automation",
+    "iot",
+    "microcontroller",
+    "modbus",
+    "mqtt",
+    "network",
+    "opc-ua",
+    "plc",
+    "qt",
+    "scada",
+    "serial",
+    "serial-studio"
+  ],
+  "history": [],
+  "weight": 7176,
+  "image": "https://avatars.githubusercontent.com/u/73061634?v=4"
+}

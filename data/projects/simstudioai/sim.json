@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "simstudioai/sim",
+  "link": "https://github.com/simstudioai/sim",
+  "name": "sim",
+  "desc": "Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows. Used by 100,000+ builders.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agent-workflow",
+    "agentic-workflow",
+    "agents",
+    "ai",
+    "aiagents",
+    "anthropic",
+    "artificial-intelligence",
+    "automation",
+    "chatbot",
+    "deepseek",
+    "gemini",
+    "low-code",
+    "nextjs",
+    "no-code",
+    "openai",
+    "rag",
+    "react",
+    "typescript"
+  ],
+  "history": [],
+  "weight": 29503,
+  "image": "https://avatars.githubusercontent.com/u/199344406?v=4"
+}

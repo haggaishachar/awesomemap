@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "tebelorg/RPA-Python",
+  "link": "https://github.com/tebelorg/RPA-Python",
+  "name": "RPA-Python",
+  "desc": "Python package for doing RPA",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cross-platform",
+    "opencv",
+    "python",
+    "rpa",
+    "sikuli",
+    "tagui",
+    "tesseract"
+  ],
+  "history": [],
+  "weight": 5496,
+  "image": "https://avatars.githubusercontent.com/u/10379612?v=4"
+}

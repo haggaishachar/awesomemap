@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "blinker-iot/blinker-library",
+  "link": "https://github.com/blinker-iot/blinker-library",
+  "name": "blinker-library",
+  "desc": "An IoT Solution,Blinker library for embedded hardware. Works with Arduino R4, ESP32.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "arduino",
+    "ble",
+    "blinker",
+    "embedded",
+    "esp32",
+    "esp8266",
+    "hardware",
+    "iot",
+    "mqtt",
+    "nbiot",
+    "websockets",
+    "wifi",
+    "wifiduino"
+  ],
+  "history": [],
+  "weight": 5196,
+  "image": "https://avatars.githubusercontent.com/u/37653793?v=4"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "tock/tock",
+  "link": "https://github.com/tock/tock",
+  "name": "tock",
+  "desc": "A secure embedded operating system for microcontrollers",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "arm",
+    "cortex-m",
+    "embedded",
+    "iot",
+    "kernel",
+    "mcu",
+    "microcontroller",
+    "operating-system",
+    "risc-v",
+    "rust",
+    "secure-operating-system",
+    "tock"
+  ],
+  "history": [],
+  "weight": 6433,
+  "image": "https://avatars.githubusercontent.com/u/34076064?v=4"
+}

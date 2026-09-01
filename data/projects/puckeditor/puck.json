@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "puckeditor/puck",
+  "link": "https://github.com/puckeditor/puck",
+  "name": "puck",
+  "desc": "The visual editor for React.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "builder",
+    "drag-and-drop",
+    "draganddrop",
+    "no-code",
+    "nocode",
+    "page-builder",
+    "pagebuilder",
+    "react",
+    "visual-editor"
+  ],
+  "history": [],
+  "weight": 13234,
+  "image": "https://avatars.githubusercontent.com/u/153829377?v=4"
+}

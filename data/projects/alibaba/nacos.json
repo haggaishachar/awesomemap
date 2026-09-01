@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "alibaba/nacos",
+  "link": "https://github.com/alibaba/nacos",
+  "name": "nacos",
+  "desc": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "a2a-registry",
+    "agent",
+    "ai-registry",
+    "configuration-management",
+    "distributed-configuration",
+    "dubbo",
+    "istio",
+    "kubernetes",
+    "mcp",
+    "mcp-management",
+    "mcp-registry",
+    "microservices",
+    "nacos",
+    "prompt",
+    "skills",
+    "spring-cloud"
+  ],
+  "history": [],
+  "weight": 33336,
+  "image": "https://avatars.githubusercontent.com/u/1961952?v=4"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "OpenHands/OpenHands",
+  "link": "https://github.com/OpenHands/OpenHands",
+  "name": "OpenHands",
+  "desc": "🙌 OpenHands: AI-Driven Development",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agent",
+    "artificial-intelligence",
+    "chatgpt",
+    "claude-ai",
+    "cli",
+    "developer-tools",
+    "gpt",
+    "llm",
+    "openai"
+  ],
+  "history": [],
+  "weight": 85836,
+  "image": "https://avatars.githubusercontent.com/u/225919603?v=4"
+}

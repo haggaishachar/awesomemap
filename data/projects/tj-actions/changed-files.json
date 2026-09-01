@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "tj-actions/changed-files",
+  "link": "https://github.com/tj-actions/changed-files",
+  "name": "changed-files",
+  "desc": ":octocat: Github action to retrieve all (added, copied, modified, deleted, renamed, type changed, unmerged, unknown) files and directories.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "actions",
+    "change-detection",
+    "change-detetion",
+    "changed-file",
+    "changed-files",
+    "ci",
+    "ci-cd",
+    "conditional-execution",
+    "continuous-delivery",
+    "continuous-integration",
+    "github",
+    "github-actions",
+    "modified",
+    "modified-files",
+    "monorepo",
+    "restore-files",
+    "submodules",
+    "workflows",
+    "yaml-files"
+  ],
+  "history": [],
+  "weight": 2718,
+  "image": "https://avatars.githubusercontent.com/u/67116787?v=4"
+}

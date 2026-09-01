@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "nasa/fprime",
+  "link": "https://github.com/nasa/fprime",
+  "name": "fprime",
+  "desc": "F´ - A flight software and embedded systems framework",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "components",
+    "cpp",
+    "embedded",
+    "embedded-systems",
+    "flight",
+    "flight-software",
+    "fprime",
+    "framework",
+    "nasa",
+    "object-oriented-programming",
+    "raspberry-pi",
+    "real-time",
+    "spaceflight"
+  ],
+  "history": [],
+  "weight": 11721,
+  "image": "https://avatars.githubusercontent.com/u/848102?v=4"
+}

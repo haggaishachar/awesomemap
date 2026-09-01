@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "elastic/kibana",
+  "link": "https://github.com/elastic/kibana",
+  "name": "kibana",
+  "desc": "Your window into all of your data",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "dashboards",
+    "elasticsearch",
+    "hacktoberfest",
+    "kibana",
+    "metrics",
+    "observability",
+    "visualizations"
+  ],
+  "history": [],
+  "weight": 21277,
+  "image": "https://avatars.githubusercontent.com/u/6764390?v=4"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "hpcaitech/ColossalAI",
+  "link": "https://github.com/hpcaitech/ColossalAI",
+  "name": "ColossalAI",
+  "desc": "Making large AI models cheaper, faster and more accessible",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "big-model",
+    "data-parallelism",
+    "deep-learning",
+    "distributed-computing",
+    "foundation-models",
+    "heterogeneous-training",
+    "hpc",
+    "inference",
+    "large-scale",
+    "model-parallelism",
+    "pipeline-parallelism"
+  ],
+  "history": [],
+  "weight": 41448,
+  "image": "https://avatars.githubusercontent.com/u/88699314?v=4"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "iflytek/astron-agent",
+  "link": "https://github.com/iflytek/astron-agent",
+  "name": "astron-agent",
+  "desc": "Enterprise-grade, commercial-friendly agentic workflow platform for building next-generation SuperAgents.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agent",
+    "agentic-ai",
+    "agentic-workflow",
+    "ai",
+    "enterprise",
+    "enterprise-automation",
+    "iflytek-astron",
+    "llm",
+    "llm-ops",
+    "low-code",
+    "mcp",
+    "multi-agent",
+    "next-gen",
+    "orchestration",
+    "python",
+    "rpa",
+    "superagent",
+    "workflow",
+    "workflow-engine"
+  ],
+  "history": [],
+  "weight": 8888,
+  "image": "https://raw.githubusercontent.com/iflytek/astron-agent/main/logo.svg"
+}

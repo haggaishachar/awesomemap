@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "objectbox/objectbox-java",
+  "link": "https://github.com/objectbox/objectbox-java",
+  "name": "objectbox-java",
+  "desc": "Database for Android and JVM - first and fast, lightweight on-device vector database",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "database",
+    "edge",
+    "embedded",
+    "java",
+    "kotlin",
+    "mobile",
+    "nosql",
+    "sqlite",
+    "sustainable",
+    "sync",
+    "vector"
+  ],
+  "history": [],
+  "weight": 4622,
+  "image": "https://raw.githubusercontent.com/objectbox/objectbox-java/main/logo.png"
+}

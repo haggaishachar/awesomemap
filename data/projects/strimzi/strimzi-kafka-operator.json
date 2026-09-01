@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "strimzi/strimzi-kafka-operator",
+  "link": "https://github.com/strimzi/strimzi-kafka-operator",
+  "name": "strimzi-kafka-operator",
+  "desc": "Apache Kafka® running on Kubernetes",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "data-stream",
+    "data-streaming",
+    "data-streams",
+    "hacktoberfest",
+    "kafka",
+    "kafka-connect",
+    "kafka-streams",
+    "kubernetes",
+    "kubernetes-controller",
+    "kubernetes-operator",
+    "messaging",
+    "openshift"
+  ],
+  "history": [],
+  "weight": 5923,
+  "image": "https://avatars.githubusercontent.com/u/34767428?v=4"
+}

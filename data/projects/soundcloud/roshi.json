@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "soundcloud/roshi",
+  "link": "https://github.com/soundcloud/roshi",
+  "name": "roshi",
+  "desc": "Roshi is a large-scale CRDT set implementation for timestamped events.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 3180,
+  "image": "https://avatars.githubusercontent.com/u/21021?v=4"
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "commaai/openpilot",
+  "link": "https://github.com/commaai/openpilot",
+  "name": "openpilot",
+  "desc": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "advanced-driver-assistance-systems",
+    "driver-assistance-systems",
+    "robotics"
+  ],
+  "history": [],
+  "weight": 63549,
+  "image": "https://avatars.githubusercontent.com/u/16128714?v=4"
+}

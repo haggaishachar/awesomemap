@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "taosdata/TDengine",
+  "link": "https://github.com/taosdata/TDengine",
+  "name": "TDengine",
+  "desc": "High-performance, scalable time-series database designed for Industrial IoT (IIoT) scenarios",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "bigdata",
+    "cloud-native",
+    "cluster",
+    "connected-vehicles",
+    "database",
+    "distributed",
+    "financial-analysis",
+    "industrial-iot",
+    "iot",
+    "metrics",
+    "monitoring",
+    "scalability",
+    "sql",
+    "tdengine",
+    "time-series",
+    "time-series-database",
+    "tsdb"
+  ],
+  "history": [],
+  "weight": 25096,
+  "image": "https://avatars.githubusercontent.com/u/48876650?v=4"
+}

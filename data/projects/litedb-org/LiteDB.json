@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "litedb-org/LiteDB",
+  "link": "https://github.com/litedb-org/LiteDB",
+  "name": "LiteDB",
+  "desc": "LiteDB - A .NET NoSQL Document Store in a single data file",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "database",
+    "dotnet",
+    "hacktoberfest",
+    "litedb",
+    "nosql"
+  ],
+  "history": [],
+  "weight": 9460,
+  "image": "https://avatars.githubusercontent.com/u/172976723?v=4"
+}

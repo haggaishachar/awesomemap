@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "go-vgo/robotgo",
+  "link": "https://github.com/go-vgo/robotgo",
+  "name": "robotgo",
+  "desc": "RobotGo, Go Native cross-platform RPA, GUI automation, Auto test and Computer use  @vcaesar",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "auto-test",
+    "automation",
+    "c",
+    "computer-use",
+    "go",
+    "golang",
+    "hook",
+    "image",
+    "mouse",
+    "opencv",
+    "robot",
+    "robotgo",
+    "rpa",
+    "window"
+  ],
+  "history": [],
+  "weight": 10783,
+  "image": "https://avatars.githubusercontent.com/u/22145830?v=4"
+}

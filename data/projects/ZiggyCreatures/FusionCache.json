@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "ZiggyCreatures/FusionCache",
+  "link": "https://github.com/ZiggyCreatures/FusionCache",
+  "name": "FusionCache",
+  "desc": "FusionCache is an easy to use, fast and robust hybrid cache with advanced resiliency features.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "async",
+    "cache",
+    "cache-stampede",
+    "caching",
+    "csharp",
+    "dotnet",
+    "hybrid",
+    "hybrid-cache",
+    "multi-level",
+    "performance",
+    "stampede"
+  ],
+  "history": [],
+  "weight": 3904,
+  "image": "https://avatars.githubusercontent.com/u/111681189?v=4"
+}

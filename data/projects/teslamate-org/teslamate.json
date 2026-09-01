@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "teslamate-org/teslamate",
+  "link": "https://github.com/teslamate-org/teslamate",
+  "name": "teslamate",
+  "desc": "A self-hosted data logger for your Tesla  🚘 [main maintainer=@JakobLichterfeld]",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "dashboard",
+    "datalogger",
+    "docker",
+    "elixir-lang",
+    "grafana",
+    "hacktoberfest",
+    "home-automation",
+    "mqtt",
+    "nix",
+    "nix-flake",
+    "openstreetmap",
+    "phoenix-liveview",
+    "raspberry-pi",
+    "self-hosted",
+    "srtm",
+    "tesla",
+    "tesla-api"
+  ],
+  "history": [],
+  "weight": 8936,
+  "image": "https://avatars.githubusercontent.com/u/150616486?v=4"
+}

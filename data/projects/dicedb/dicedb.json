@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "dicedb/dicedb",
+  "link": "https://github.com/dicedb/dicedb",
+  "name": "dicedb",
+  "desc": "Open-source, low-latency key/value engine built on Valkey with query subscriptions and hierarchical storage tiers.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cache",
+    "database",
+    "key-value",
+    "key-value-store",
+    "nosql",
+    "redis",
+    "storage-engine",
+    "valkey"
+  ],
+  "history": [],
+  "weight": 10771,
+  "image": "https://avatars.githubusercontent.com/u/112580013?v=4"
+}

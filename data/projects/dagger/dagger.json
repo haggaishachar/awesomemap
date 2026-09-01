@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "dagger/dagger",
+  "link": "https://github.com/dagger/dagger",
+  "name": "dagger",
+  "desc": "Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agents",
+    "caching",
+    "ci-cd",
+    "containers",
+    "continuous-deployment",
+    "continuous-integration",
+    "devops",
+    "docker",
+    "graphql",
+    "workflows"
+  ],
+  "history": [],
+  "weight": 16221,
+  "image": "https://avatars.githubusercontent.com/u/78824383?v=4"
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "LegendApp/legend-list",
+  "link": "https://github.com/LegendApp/legend-list",
+  "name": "legend-list",
+  "desc": "A high-performance list component for React Native and React",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 3333,
+  "image": "https://avatars.githubusercontent.com/u/60373862?v=4"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "hazelcast/hazelcast",
+  "link": "https://github.com/hazelcast/hazelcast",
+  "name": "hazelcast",
+  "desc": "Hazelcast is a unified real-time data platform combining stream processing with a fast data store, allowing customers to act instantly on data-in-motion for real-time insights.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "big-data",
+    "caching",
+    "data-in-motion",
+    "data-insights",
+    "distributed",
+    "distributed-computing",
+    "distributed-systems",
+    "hacktoberfest",
+    "hazelcast",
+    "in-memory",
+    "java",
+    "low-latency",
+    "real-time",
+    "scalability",
+    "stream-processing"
+  ],
+  "history": [],
+  "weight": 6606,
+  "image": "https://avatars.githubusercontent.com/u/1453152?v=4"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "appbaseio/dejavu",
+  "link": "https://github.com/appbaseio/dejavu",
+  "name": "dejavu",
+  "desc": "A Web UI for Elasticsearch and OpenSearch: Import, browse and edit data with rich filters and query views, create reference search UIs.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "appbaseio",
+    "chrome-extension",
+    "database",
+    "database-gui",
+    "dejavu",
+    "elasticsearch",
+    "elasticsearch-gui",
+    "elasticsearch-plugin",
+    "nosql",
+    "opensearch",
+    "opensearch-plugins",
+    "react",
+    "reactjs",
+    "realtime-updates"
+  ],
+  "history": [],
+  "weight": 8467,
+  "image": "https://avatars.githubusercontent.com/u/8524145?v=4"
+}

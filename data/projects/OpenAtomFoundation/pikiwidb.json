@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "OpenAtomFoundation/pikiwidb",
+  "link": "https://github.com/OpenAtomFoundation/pikiwidb",
+  "name": "pikiwidb",
+  "desc": "Pikiwidb is a Redis-Compatible database developed by Qihoo's infrastructure team.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "nosql",
+    "nosql-data-storage",
+    "nosql-databases",
+    "pikiwidb",
+    "redis",
+    "redis-interfaces",
+    "rocksdb"
+  ],
+  "history": [],
+  "weight": 6125,
+  "image": "https://avatars.githubusercontent.com/u/59038917?v=4"
+}

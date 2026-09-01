@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "lucidrains/vit-pytorch",
+  "link": "https://github.com/lucidrains/vit-pytorch",
+  "name": "vit-pytorch",
+  "desc": "Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "artificial-intelligence",
+    "attention-mechanism",
+    "computer-vision",
+    "image-classification",
+    "transformers"
+  ],
+  "history": [],
+  "weight": 25492
+}

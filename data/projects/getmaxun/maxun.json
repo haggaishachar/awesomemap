@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "getmaxun/maxun",
+  "link": "https://github.com/getmaxun/maxun",
+  "name": "maxun",
+  "desc": "🔥 The open-source no-code platform for web scraping, crawling, search and AI data extraction • Turn websites into structured APIs in minutes 🔥 ",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agents",
+    "api",
+    "automation",
+    "browser-automation",
+    "crawler",
+    "crawling",
+    "data-extraction",
+    "no-code",
+    "nocode",
+    "playwright",
+    "robotic-process-automation",
+    "rpa",
+    "scraper",
+    "self-hosted",
+    "web-scraper",
+    "web-scraping",
+    "web-search",
+    "webscraping"
+  ],
+  "history": [],
+  "weight": 17342,
+  "image": "https://avatars.githubusercontent.com/u/139582646?v=4"
+}

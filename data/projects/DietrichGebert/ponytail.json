@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "DietrichGebert/ponytail",
+  "link": "https://github.com/DietrichGebert/ponytail",
+  "name": "ponytail",
+  "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agent-skills",
+    "ai-agents",
+    "claude",
+    "claude-code",
+    "claude-code-plugin",
+    "cursor-rules",
+    "developer-tools",
+    "llm",
+    "prompt-engineering",
+    "yagni"
+  ],
+  "history": [],
+  "weight": 119349,
+  "image": "https://raw.githubusercontent.com/DietrichGebert/ponytail/main/assets/logo.png"
+}

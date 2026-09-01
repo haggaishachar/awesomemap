@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "infinitered/ignite",
+  "link": "https://github.com/infinitered/ignite",
+  "name": "ignite",
+  "desc": "Infinite Red's battle-tested React Native project boilerplate, along with a CLI, component/model generators, and more! 9 years of continuous development and counting.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "boilerplate",
+    "cli",
+    "expo",
+    "generator",
+    "mst",
+    "react-native",
+    "react-native-generator"
+  ],
+  "history": [],
+  "weight": 19938,
+  "image": "https://avatars.githubusercontent.com/u/3902527?v=4"
+}

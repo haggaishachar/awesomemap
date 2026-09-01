@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "bridgecrewio/checkov",
+  "link": "https://github.com/bridgecrewio/checkov",
+  "name": "checkov",
+  "desc": "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages with Checkov by Bridgecrew.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "aws",
+    "aws-security",
+    "azure",
+    "cloudformation",
+    "compliance",
+    "devops",
+    "gcp",
+    "hacktoberfest",
+    "infrastructure-as-code",
+    "kubernetes",
+    "scans",
+    "static-analysis",
+    "terraform"
+  ],
+  "history": [],
+  "weight": 8976,
+  "image": "https://avatars.githubusercontent.com/u/48174253?v=4"
+}

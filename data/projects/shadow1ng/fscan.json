@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "shadow1ng/fscan",
+  "link": "https://github.com/shadow1ng/fscan",
+  "name": "fscan",
+  "desc": "一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。(An intranet comprehensive scanning tool, enabling one-click automated, all-round vulnerability scanning)",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "fscan",
+    "scanner",
+    "scanning",
+    "sec",
+    "security",
+    "security-tools"
+  ],
+  "history": [],
+  "weight": 14482
+}

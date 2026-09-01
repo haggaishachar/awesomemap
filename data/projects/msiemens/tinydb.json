@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "msiemens/tinydb",
+  "link": "https://github.com/msiemens/tinydb",
+  "name": "tinydb",
+  "desc": "TinyDB is a lightweight document oriented database optimized for your happiness :)",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "database",
+    "documentdb",
+    "json",
+    "nosql",
+    "python"
+  ],
+  "history": [],
+  "weight": 7558
+}

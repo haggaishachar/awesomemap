@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "apache/iotdb",
+  "link": "https://github.com/apache/iotdb",
+  "name": "iotdb",
+  "desc": "Apache IoTDB",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "big-data",
+    "database",
+    "iot",
+    "java",
+    "nosql",
+    "timeseries",
+    "tsdb"
+  ],
+  "history": [],
+  "weight": 6386,
+  "image": "https://avatars.githubusercontent.com/u/47359?v=4"
+}

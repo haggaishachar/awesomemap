@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "cosmo-wander-ai/cosmo-edge",
+  "link": "https://github.com/cosmo-wander-ai/cosmo-edge",
+  "name": "cosmo-edge",
+  "desc": "Production-grade C++ edge AI engine for video analytics and on-device VLM across Sophon, Rockchip RKNN, and x86, with visual orchestration, real-time OSD, events, and reproducible benchmarks.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "bm1688",
+    "computer-vision",
+    "cpp17",
+    "cv186x",
+    "edge-ai",
+    "grounding-dino",
+    "on-device-ai",
+    "rk3576",
+    "rknn",
+    "rockchip",
+    "rv1126b",
+    "sophon",
+    "video-analytics",
+    "visual-pipeline",
+    "vlm"
+  ],
+  "history": [],
+  "weight": 636,
+  "image": "https://avatars.githubusercontent.com/u/291779426?v=4"
+}

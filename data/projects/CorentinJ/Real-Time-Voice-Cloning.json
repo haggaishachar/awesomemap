@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "CorentinJ/Real-Time-Voice-Cloning",
+  "link": "https://github.com/CorentinJ/Real-Time-Voice-Cloning",
+  "name": "Real-Time-Voice-Cloning",
+  "desc": "Clone a voice in 5 seconds to generate arbitrary speech in real-time",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "deep-learning",
+    "python",
+    "pytorch",
+    "tensorflow",
+    "tts",
+    "voice-cloning"
+  ],
+  "history": [],
+  "weight": 60120
+}

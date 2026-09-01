@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "HeyWillow/willow",
+  "link": "https://github.com/HeyWillow/willow",
+  "name": "willow",
+  "desc": "Open source, local, and self-hosted Amazon Echo/Google Home competitive Voice Assistant alternative",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "alexa",
+    "deep-learning",
+    "echo",
+    "esp-adf",
+    "esp-idf",
+    "esp32",
+    "google-home",
+    "home-assistant",
+    "home-automation",
+    "privacy",
+    "speech-recognition",
+    "speech-to-text",
+    "whisper"
+  ],
+  "history": [],
+  "weight": 3100,
+  "image": "https://avatars.githubusercontent.com/u/206060000?v=4"
+}

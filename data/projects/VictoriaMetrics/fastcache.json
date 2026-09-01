@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "VictoriaMetrics/fastcache",
+  "link": "https://github.com/VictoriaMetrics/fastcache",
+  "name": "fastcache",
+  "desc": "Fast thread-safe inmemory cache for big number of entries in Go. Minimizes GC overhead",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cache",
+    "caching",
+    "caching-library",
+    "fast",
+    "go",
+    "golang",
+    "inmemory-cache"
+  ],
+  "history": [],
+  "weight": 2371,
+  "image": "https://avatars.githubusercontent.com/u/43720803?v=4"
+}

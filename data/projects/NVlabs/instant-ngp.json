@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "NVlabs/instant-ngp",
+  "link": "https://github.com/NVlabs/instant-ngp",
+  "name": "instant-ngp",
+  "desc": "Instant neural graphics primitives: lightning fast NeRF and more",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "3d-reconstruction",
+    "computer-graphics",
+    "computer-vision",
+    "cuda",
+    "function-approximation",
+    "machine-learning",
+    "nerf",
+    "neural-network",
+    "real-time",
+    "real-time-rendering",
+    "realtime",
+    "signed-distance-functions"
+  ],
+  "history": [],
+  "weight": 17540,
+  "image": "https://avatars.githubusercontent.com/u/2695301?v=4"
+}

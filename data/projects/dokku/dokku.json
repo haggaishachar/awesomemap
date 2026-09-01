@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "dokku/dokku",
+  "link": "https://github.com/dokku/dokku",
+  "name": "dokku",
+  "desc": "A docker-powered PaaS that helps you build and manage the lifecycle of applications",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "buildpack",
+    "containers",
+    "devops",
+    "docker",
+    "dokku",
+    "heroku",
+    "kubernetes",
+    "nomad",
+    "paas",
+    "self-hosted",
+    "selfhosted"
+  ],
+  "history": [],
+  "weight": 32123,
+  "image": "https://avatars.githubusercontent.com/u/13455795?v=4"
+}

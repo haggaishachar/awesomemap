@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "pfelk/pfelk",
+  "link": "https://github.com/pfelk/pfelk",
+  "name": "pfelk",
+  "desc": "pfSense/OPNsense + Elastic Stack",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "docker",
+    "elastic",
+    "elasticsearch",
+    "firewall",
+    "logs",
+    "opnsense",
+    "pfsense",
+    "siem"
+  ],
+  "history": [],
+  "weight": 1224,
+  "image": "https://avatars.githubusercontent.com/u/62581539?v=4"
+}

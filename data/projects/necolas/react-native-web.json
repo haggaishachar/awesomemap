@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "necolas/react-native-web",
+  "link": "https://github.com/necolas/react-native-web",
+  "name": "react-native-web",
+  "desc": "Cross-platform React UI packages",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cross-platform",
+    "css-in-js",
+    "gui-framework",
+    "react",
+    "react-components",
+    "react-dom",
+    "react-native",
+    "react-native-web",
+    "react-ui"
+  ],
+  "history": [],
+  "weight": 22141
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "amplication/amplication",
+  "link": "https://github.com/amplication/amplication",
+  "name": "amplication",
+  "desc": "Amplication brings order to the chaos of large-scale software development by creating Golden Paths for developers - streamlined workflows that drive consistency, enable high-quality code practices, simplify onboarding, and accelerate standardized delivery across teams.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "api",
+    "code-generation",
+    "csharp",
+    "csharp-code",
+    "dotnet",
+    "dotnet-core",
+    "graphql",
+    "hacktoberfest",
+    "javascript",
+    "low-code",
+    "nestjs",
+    "nodejs",
+    "prisma",
+    "typescript",
+    "web"
+  ],
+  "history": [],
+  "weight": 16014,
+  "image": "https://avatars.githubusercontent.com/u/65107786?v=4"
+}

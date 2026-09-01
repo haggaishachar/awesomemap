@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "Mr-xn/Penetration_Testing_POC",
+  "link": "https://github.com/Mr-xn/Penetration_Testing_POC",
+  "name": "Penetration_Testing_POC",
+  "desc": "渗透测试有关的POC、EXP、脚本、提权、小工具等---About penetration-testing python-script poc getshell csrf xss cms php-getshell domainmod-xss csrf-webshell cobub-razor cve rce sql sql-poc poc-exp bypass oa-getshell cve-cms",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "authentication-bypass",
+    "bypass",
+    "cobalt-strike",
+    "csrf",
+    "csrf-webshell",
+    "cve",
+    "cve-cms",
+    "exploit",
+    "getshell",
+    "oa-getshell",
+    "penetration-testing",
+    "penetration-testing-poc",
+    "php-bypass",
+    "poc",
+    "poc-exp",
+    "rce",
+    "sql-getshell",
+    "sql-poc",
+    "thinkphp"
+  ],
+  "history": [],
+  "weight": 7479
+}

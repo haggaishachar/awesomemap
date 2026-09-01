@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "earthly/earthly",
+  "link": "https://github.com/earthly/earthly",
+  "name": "earthly",
+  "desc": "Super simple build framework with fast, repeatable builds and an instantly familiar syntax – like Dockerfile and Makefile had a baby.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "build",
+    "build-automation",
+    "build-system",
+    "build-tool",
+    "ci",
+    "ci-cd",
+    "cicd",
+    "container-builder",
+    "docker-images",
+    "dockerfiles",
+    "framework",
+    "hacktoberfest",
+    "hacktoberfest2020",
+    "hacktoberfest2021",
+    "reproducible-builds"
+  ],
+  "history": [],
+  "weight": 12049,
+  "image": "https://avatars.githubusercontent.com/u/63060917?v=4"
+}

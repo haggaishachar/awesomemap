@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "oneapi-src/oneDAL",
+  "link": "https://github.com/oneapi-src/oneDAL",
+  "name": "oneDAL",
+  "desc": "oneAPI Data Analytics Library (oneDAL)",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai-inference",
+    "ai-machine-learning",
+    "ai-training",
+    "analytics",
+    "big-data",
+    "cpp",
+    "data-analysis",
+    "data-science",
+    "hacktoberfest",
+    "machine-learning",
+    "machine-learning-algorithms",
+    "oneapi",
+    "onedal",
+    "swrepo"
+  ],
+  "history": [],
+  "weight": 651,
+  "image": "https://avatars.githubusercontent.com/u/144704571?v=4"
+}

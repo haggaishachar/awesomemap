@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "HKUDS/DeepTutor",
+  "link": "https://github.com/HKUDS/DeepTutor",
+  "name": "DeepTutor",
+  "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai-agents",
+    "ai-tutor",
+    "clawdbot",
+    "cli-tool",
+    "deepresearch",
+    "interactive-learning",
+    "large-language-models",
+    "multi-agent-systems",
+    "rag"
+  ],
+  "history": [],
+  "weight": 38206,
+  "image": "https://avatars.githubusercontent.com/u/118165258?v=4"
+}

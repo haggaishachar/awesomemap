@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "podman-container-tools/podman",
+  "link": "https://github.com/podman-container-tools/podman",
+  "name": "podman",
+  "desc": "Podman: A tool for managing OCI containers and pods.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "containers",
+    "docker",
+    "kubernetes",
+    "linux",
+    "oci"
+  ],
+  "history": [],
+  "weight": 32752,
+  "image": "https://avatars.githubusercontent.com/u/277799342?v=4"
+}

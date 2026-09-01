@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "jaredwray/cacheable",
+  "link": "https://github.com/jaredwray/cacheable",
+  "name": "cacheable",
+  "desc": "a robust, scalable, and maintained set of caching packages",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cache",
+    "caching",
+    "caching-library",
+    "http",
+    "key-value",
+    "keyv",
+    "nodejs",
+    "redis",
+    "rfc-72",
+    "wrapper"
+  ],
+  "history": [],
+  "weight": 2005
+}

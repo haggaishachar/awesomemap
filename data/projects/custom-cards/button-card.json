@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "custom-cards/button-card",
+  "link": "https://github.com/custom-cards/button-card",
+  "name": "button-card",
+  "desc": "❇️ Lovelace button-card for home assistant",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "home-assistant",
+    "home-assistant-custom",
+    "home-automation",
+    "lovelace",
+    "lovelace-ui"
+  ],
+  "history": [],
+  "weight": 2491,
+  "image": "https://avatars.githubusercontent.com/u/40870129?v=4"
+}

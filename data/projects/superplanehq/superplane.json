@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "superplanehq/superplane",
+  "link": "https://github.com/superplanehq/superplane",
+  "name": "superplane",
+  "desc": "The open source control plane for agentic engineering.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "automation",
+    "control-plane",
+    "devops",
+    "event-driven",
+    "go",
+    "kubernetes",
+    "platform-engineering",
+    "python",
+    "react",
+    "release-automation",
+    "self-hosted",
+    "workflow-automation"
+  ],
+  "history": [],
+  "weight": 5687,
+  "image": "https://avatars.githubusercontent.com/u/210748804?v=4"
+}

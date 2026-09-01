@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "pubkey/rxdb",
+  "link": "https://github.com/pubkey/rxdb",
+  "name": "rxdb",
+  "desc": "The local-first database that runs on every JS runtime and replicates with your existing backend - no vendor, no lock-in - https://rxdb.info/",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "angular",
+    "browser-database",
+    "couchdb",
+    "crdt",
+    "database",
+    "firebase",
+    "graphql",
+    "indexeddb",
+    "ionic",
+    "local-first",
+    "localstorage",
+    "nodejs",
+    "nosql",
+    "postgres",
+    "pouchdb",
+    "react-native",
+    "realtime",
+    "realtime-database",
+    "rxdb",
+    "sqlite"
+  ],
+  "history": [],
+  "weight": 23371
+}

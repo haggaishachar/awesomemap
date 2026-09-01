@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "homeassistant-ai/ha-mcp",
+  "link": "https://github.com/homeassistant-ai/ha-mcp",
+  "name": "ha-mcp",
+  "desc": "The Unofficial and Awesome Home Assistant MCP Server",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "claude",
+    "hacs",
+    "home-assistant",
+    "home-automation",
+    "llm",
+    "mcp",
+    "model-context-protocol"
+  ],
+  "history": [],
+  "weight": 4588,
+  "image": "https://avatars.githubusercontent.com/u/232192432?v=4"
+}

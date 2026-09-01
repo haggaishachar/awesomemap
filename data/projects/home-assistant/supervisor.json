@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "home-assistant/supervisor",
+  "link": "https://github.com/home-assistant/supervisor",
+  "name": "supervisor",
+  "desc": ":house_with_garden: Home Assistant Supervisor",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "docker",
+    "hacktoberfest",
+    "home-assistant",
+    "home-automation",
+    "orchestrator",
+    "python"
+  ],
+  "history": [],
+  "weight": 2213,
+  "image": "https://avatars.githubusercontent.com/u/13844975?v=4"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "vespa-engine/vespa",
+  "link": "https://github.com/vespa-engine/vespa",
+  "name": "vespa",
+  "desc": "The AI search platform",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "big-data",
+    "java",
+    "machine-learning",
+    "rag",
+    "search",
+    "search-engine",
+    "server",
+    "serving-recommendation",
+    "tensor",
+    "vector",
+    "vector-database",
+    "vector-search",
+    "vespa"
+  ],
+  "history": [],
+  "weight": 7073,
+  "image": "https://avatars.githubusercontent.com/u/29299694?v=4"
+}

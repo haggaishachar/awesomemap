@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "FoundationAgents/MetaGPT",
+  "link": "https://github.com/FoundationAgents/MetaGPT",
+  "name": "MetaGPT",
+  "desc": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agent",
+    "gpt",
+    "llm",
+    "metagpt",
+    "multi-agent"
+  ],
+  "history": [],
+  "weight": 70148,
+  "image": "https://avatars.githubusercontent.com/u/198047230?v=4"
+}

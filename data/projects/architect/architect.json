@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "architect/architect",
+  "link": "https://github.com/architect/architect",
+  "name": "architect",
+  "desc": "The simplest, most powerful way to build a functional web app (fwa)",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "arc",
+    "aws",
+    "aws-apigateway",
+    "aws-dynamodb",
+    "aws-lambda",
+    "fwa",
+    "infrastructure-as-code",
+    "serverless"
+  ],
+  "history": [],
+  "weight": 2622,
+  "image": "https://avatars.githubusercontent.com/u/29821507?v=4"
+}

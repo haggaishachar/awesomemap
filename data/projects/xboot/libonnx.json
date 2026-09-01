@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "xboot/libonnx",
+  "link": "https://github.com/xboot/libonnx",
+  "name": "libonnx",
+  "desc": "A lightweight, portable pure C99 onnx inference engine for embedded devices with hardware acceleration support.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "baremetal",
+    "c",
+    "dedeep-neural-networks",
+    "deep-learning",
+    "embedded",
+    "embedded-systems",
+    "hardware-acceleration",
+    "inference",
+    "library",
+    "lightweight",
+    "machine-learning",
+    "neural-network",
+    "onnx",
+    "portable"
+  ],
+  "history": [],
+  "weight": 652,
+  "image": "https://avatars.githubusercontent.com/u/423027?v=4"
+}

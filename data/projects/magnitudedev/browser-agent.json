@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "magnitudedev/browser-agent",
+  "link": "https://github.com/magnitudedev/browser-agent",
+  "name": "browser-agent",
+  "desc": "Open-source, vision-first browser agent",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "automation",
+    "browser",
+    "framework",
+    "javascipt",
+    "playwright",
+    "rpa",
+    "selenium",
+    "test",
+    "typescript"
+  ],
+  "history": [],
+  "weight": 4124,
+  "image": "https://raw.githubusercontent.com/magnitudedev/browser-agent/main/docs/logo.svg"
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "apache/inlong",
+  "link": "https://github.com/apache/inlong",
+  "name": "inlong",
+  "desc": "Apache InLong - a one-stop, full-scenario integration framework for massive data",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "data-streaming",
+    "event-streaming",
+    "framework",
+    "full-scenario-service",
+    "inlong",
+    "massive-data-integration",
+    "one-stop-service"
+  ],
+  "history": [],
+  "weight": 1497,
+  "image": "https://avatars.githubusercontent.com/u/47359?v=4"
+}

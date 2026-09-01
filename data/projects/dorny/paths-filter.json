@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "dorny/paths-filter",
+  "link": "https://github.com/dorny/paths-filter",
+  "name": "paths-filter",
+  "desc": "Conditionally run actions based on files modified by PR, feature branch or pushed commits",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "change-detection",
+    "ci-cd",
+    "conditional-execution",
+    "github-actions"
+  ],
+  "history": [],
+  "weight": 3308
+}

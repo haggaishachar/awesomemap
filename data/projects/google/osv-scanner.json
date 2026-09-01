@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "google/osv-scanner",
+  "link": "https://github.com/google/osv-scanner",
+  "name": "osv-scanner",
+  "desc": "Vulnerability scanner written in Go which uses the data provided by https://osv.dev",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "scanner",
+    "security-audit",
+    "security-tools",
+    "vulnerability-scanner"
+  ],
+  "history": [],
+  "weight": 10950,
+  "image": "https://raw.githubusercontent.com/google/osv-scanner/main/docs/assets/logo.png"
+}

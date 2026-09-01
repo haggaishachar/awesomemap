@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "urbanadventurer/WhatWeb",
+  "link": "https://github.com/urbanadventurer/WhatWeb",
+  "name": "WhatWeb",
+  "desc": "Next generation web scanner",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "application-security",
+    "appsec",
+    "hacking",
+    "hacking-tools",
+    "kali-linux",
+    "network-security",
+    "owasp",
+    "penetration-test",
+    "penetration-testing",
+    "penetration-testing-tools",
+    "pentest",
+    "pentesting",
+    "pentesting-tools",
+    "recon",
+    "ruby",
+    "scanner",
+    "security",
+    "security-tools",
+    "web",
+    "web-hacking"
+  ],
+  "history": [],
+  "weight": 6804
+}

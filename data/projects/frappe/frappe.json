@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "frappe/frappe",
+  "link": "https://github.com/frappe/frappe",
+  "name": "frappe",
+  "desc": "Low code web framework for real world applications, in Python and Javascript",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cms",
+    "email",
+    "erpnext",
+    "frappe",
+    "full-stack",
+    "javascript",
+    "low-code",
+    "mariadb",
+    "multitenant",
+    "postgres",
+    "python",
+    "rest-api",
+    "security",
+    "socket-io",
+    "web-framework",
+    "webhooks"
+  ],
+  "history": [],
+  "weight": 10677,
+  "image": "https://avatars.githubusercontent.com/u/836974?v=4"
+}

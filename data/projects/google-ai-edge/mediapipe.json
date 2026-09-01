@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "google-ai-edge/mediapipe",
+  "link": "https://github.com/google-ai-edge/mediapipe",
+  "name": "mediapipe",
+  "desc": "Cross-platform, customizable ML solutions for live and streaming media.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "audio-processing",
+    "c-plus-plus",
+    "calculator",
+    "computer-vision",
+    "deep-learning",
+    "framework",
+    "graph-based",
+    "graph-framework",
+    "inference",
+    "machine-learning",
+    "mediapipe",
+    "mobile-development",
+    "perception",
+    "pipeline-framework",
+    "stream-processing",
+    "video-processing"
+  ],
+  "history": [],
+  "weight": 36803,
+  "image": "https://avatars.githubusercontent.com/u/150697620?v=4"
+}

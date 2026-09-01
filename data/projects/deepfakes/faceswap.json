@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "deepfakes/faceswap",
+  "link": "https://github.com/deepfakes/faceswap",
+  "name": "faceswap",
+  "desc": "Deepfakes Software For All",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "deep-face-swap",
+    "deep-learning",
+    "deep-neural-networks",
+    "deepface",
+    "deepfakes",
+    "deeplearning",
+    "face-swap",
+    "faceswap",
+    "fakeapp",
+    "machine-learning",
+    "myfakeapp",
+    "neural-nets",
+    "neural-networks",
+    "openfaceswap"
+  ],
+  "history": [],
+  "weight": 57515
+}

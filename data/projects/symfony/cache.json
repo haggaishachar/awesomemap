@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "symfony/cache",
+  "link": "https://github.com/symfony/cache",
+  "name": "cache",
+  "desc": "Provides extended PSR-6, PSR-16 (and tags) implementations",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "caching",
+    "component",
+    "php",
+    "psr6",
+    "symfony",
+    "symfony-component"
+  ],
+  "history": [],
+  "weight": 4154,
+  "image": "https://avatars.githubusercontent.com/u/143937?v=4"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "idea4good/GuiLite",
+  "link": "https://github.com/idea4good/GuiLite",
+  "name": "GuiLite",
+  "desc": "✔️The smallest header-only GUI library(4 KLOC) for all platforms",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "c",
+    "cpp",
+    "cross-platform",
+    "display",
+    "docker",
+    "embedded",
+    "graphics-library",
+    "gui",
+    "header-only",
+    "iot",
+    "iot-platform",
+    "mcu",
+    "microcontroller"
+  ],
+  "history": [],
+  "weight": 7767
+}

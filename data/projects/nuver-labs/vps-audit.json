@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "nuver-labs/vps-audit",
+  "link": "https://github.com/nuver-labs/vps-audit",
+  "name": "vps-audit",
+  "desc": "lightweight, dependency-free bash script for security, performance auditing and infrastructure monitoring of Linux servers.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "auditi",
+    "bash",
+    "ci-cd",
+    "debian",
+    "devops",
+    "ec2",
+    "infrastructure",
+    "linux",
+    "monitoring",
+    "opensource",
+    "performance-monitoring",
+    "security",
+    "security-audit",
+    "security-tools",
+    "server",
+    "shell",
+    "system-administration",
+    "ubuntu",
+    "vps"
+  ],
+  "history": [],
+  "weight": 2893,
+  "image": "https://avatars.githubusercontent.com/u/309676868?v=4"
+}

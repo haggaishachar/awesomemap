@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "SigmaHQ/sigma",
+  "link": "https://github.com/SigmaHQ/sigma",
+  "name": "sigma",
+  "desc": "Main Sigma Rule Repository",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "elasticsearch",
+    "ids",
+    "logging",
+    "monitoring",
+    "security",
+    "siem",
+    "signatures",
+    "splunk",
+    "sysmon"
+  ],
+  "history": [],
+  "weight": 10966,
+  "image": "https://avatars.githubusercontent.com/u/79842123?v=4"
+}

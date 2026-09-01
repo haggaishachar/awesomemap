@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "AI4Finance-Foundation/FinGPT",
+  "link": "https://github.com/AI4Finance-Foundation/FinGPT",
+  "name": "FinGPT",
+  "desc": "FinGPT: Open-Source Financial Large Language Models!  Revolutionize 🔥    We release the trained model on HuggingFace.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "chatgpt",
+    "finance",
+    "fingpt",
+    "fintech",
+    "large-language-models",
+    "machine-learning",
+    "nlp",
+    "prompt-engineering",
+    "pytorch",
+    "reinforcement-learning",
+    "robo-advisor",
+    "sentiment-analysis",
+    "technical-analysis"
+  ],
+  "history": [],
+  "weight": 21197,
+  "image": "https://avatars.githubusercontent.com/u/68813910?v=4"
+}

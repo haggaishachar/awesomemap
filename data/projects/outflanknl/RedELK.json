@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "outflanknl/RedELK",
+  "link": "https://github.com/outflanknl/RedELK",
+  "name": "RedELK",
+  "desc": "Red Team's SIEM - tool for Red Teams used for tracking and alarming about Blue Team activities as well as better usability in long term operations.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "elastic",
+    "elasticsearch",
+    "kibana",
+    "logstash",
+    "monitoring",
+    "red-teaming",
+    "security",
+    "siem"
+  ],
+  "history": [],
+  "weight": 2668,
+  "image": "https://avatars.githubusercontent.com/u/22417563?v=4"
+}

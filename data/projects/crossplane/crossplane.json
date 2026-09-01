@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "crossplane/crossplane",
+  "link": "https://github.com/crossplane/crossplane",
+  "name": "crossplane",
+  "desc": "The Cloud Native Control Plane",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cloud-computing",
+    "cloud-management",
+    "cloud-native",
+    "cncf",
+    "containers",
+    "control-plane",
+    "infrastructure",
+    "infrastructure-as-code",
+    "kubernetes",
+    "multicloud",
+    "serverless"
+  ],
+  "history": [],
+  "weight": 12001,
+  "image": "https://avatars.githubusercontent.com/u/45158470?v=4"
+}

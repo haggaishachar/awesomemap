@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "kubesphere/kubesphere",
+  "link": "https://github.com/kubesphere/kubesphere",
+  "name": "kubesphere",
+  "desc": "The container platform tailored for Kubernetes multi-cloud, datacenter, and edge management ⎈ 🖥 ☁️",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agent-skills",
+    "ai",
+    "cloud-native",
+    "cncf",
+    "devops",
+    "ebpf",
+    "hacktoberfest",
+    "kubernetes",
+    "kubesphere",
+    "llm",
+    "multi-cluster",
+    "multi-tenancy",
+    "observability",
+    "servicemesh",
+    "skills",
+    "skills-sh",
+    "skillsmp"
+  ],
+  "history": [],
+  "weight": 17036,
+  "image": "https://avatars.githubusercontent.com/u/37326490?v=4"
+}

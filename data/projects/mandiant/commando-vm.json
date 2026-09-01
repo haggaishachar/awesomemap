@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "mandiant/commando-vm",
+  "link": "https://github.com/mandiant/commando-vm",
+  "name": "commando-vm",
+  "desc": "Complete Mandiant Offensive VM (Commando VM), a fully customizable Windows-based pentesting virtual machine distribution. commandovm@mandiant.com",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "fireeye-flare",
+    "penetration-testing",
+    "red-teaming",
+    "windows"
+  ],
+  "history": [],
+  "weight": 7793,
+  "image": "https://avatars.githubusercontent.com/u/331209?v=4"
+}

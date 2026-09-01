@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "infiniflow/ragflow",
+  "link": "https://github.com/infiniflow/ragflow",
+  "name": "ragflow",
+  "desc": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agent-harness",
+    "agentic-ai",
+    "agentic-retrieval",
+    "agentic-search",
+    "ai",
+    "ai-agents",
+    "context-engine",
+    "context-engineering",
+    "context-management",
+    "harness-engineering",
+    "knowledge-compilation",
+    "llm-apps",
+    "rag",
+    "retrieval-augmented-generation"
+  ],
+  "history": [],
+  "weight": 89816,
+  "image": "https://avatars.githubusercontent.com/u/69962740?v=4"
+}

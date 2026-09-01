@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "pathwaycom/llm-app",
+  "link": "https://github.com/pathwaycom/llm-app",
+  "name": "llm-app",
+  "desc": "Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "chatbot",
+    "hugging-face",
+    "llm",
+    "llm-local",
+    "llm-prompting",
+    "llm-security",
+    "llmops",
+    "machine-learning",
+    "open-ai",
+    "pathway",
+    "rag",
+    "real-time",
+    "retrieval-augmented-generation",
+    "vector-database",
+    "vector-index"
+  ],
+  "history": [],
+  "weight": 58956,
+  "image": "https://avatars.githubusercontent.com/u/25750857?v=4"
+}

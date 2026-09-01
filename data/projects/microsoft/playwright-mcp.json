@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "microsoft/playwright-mcp",
+  "link": "https://github.com/microsoft/playwright-mcp",
+  "name": "playwright-mcp",
+  "desc": "Playwright MCP server",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "mcp",
+    "playwright"
+  ],
+  "history": [],
+  "weight": 36695,
+  "image": "https://avatars.githubusercontent.com/u/6154722?v=4"
+}

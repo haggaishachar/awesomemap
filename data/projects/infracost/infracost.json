@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "infracost/infracost",
+  "link": "https://github.com/infracost/infracost",
+  "name": "infracost",
+  "desc": "Cloud cost intelligence for engineers, AI coding agents, and CI/CD 💰📉 Shift FinOps Left!",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "aws",
+    "azure",
+    "cdk",
+    "cloud",
+    "cloud-cost-estimates",
+    "cloud-formation",
+    "cost-estimation",
+    "cost-management",
+    "cost-optimization",
+    "devops",
+    "finops",
+    "gcp",
+    "google",
+    "infrastructure-as-code",
+    "monthly-costs",
+    "terraform",
+    "terraform-cost-estimation"
+  ],
+  "history": [],
+  "weight": 12499,
+  "image": "https://avatars.githubusercontent.com/u/68374653?v=4"
+}

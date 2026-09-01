@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "PipedreamHQ/pipedream",
+  "link": "https://github.com/PipedreamHQ/pipedream",
+  "name": "pipedream",
+  "desc": "Connect APIs, remarkably fast.  Free for developers.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "apis",
+    "automation",
+    "bash",
+    "cli",
+    "data-flow",
+    "event-sourcing",
+    "eventsourcing",
+    "golang",
+    "integration-flow",
+    "integrations",
+    "ipaas",
+    "low-code",
+    "low-code-development-platform",
+    "nodejs",
+    "python",
+    "serverless",
+    "typescript",
+    "workflow",
+    "workflows"
+  ],
+  "history": [],
+  "weight": 11664,
+  "image": "https://avatars.githubusercontent.com/u/43791938?v=4"
+}

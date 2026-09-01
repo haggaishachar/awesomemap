@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "isaacs/node-lru-cache",
+  "link": "https://github.com/isaacs/node-lru-cache",
+  "name": "node-lru-cache",
+  "desc": "A fast cache that automatically deletes the least recently used items",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cache",
+    "caching",
+    "lru",
+    "lru-cache",
+    "lrucache"
+  ],
+  "history": [],
+  "weight": 5912
+}

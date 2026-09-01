@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "linkedin/brooklin",
+  "link": "https://github.com/linkedin/brooklin",
+  "name": "brooklin",
+  "desc": "An extensible distributed system for reliable nearline data streaming at scale",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "change-data-capture",
+    "data-streaming",
+    "distributed-systems",
+    "java",
+    "kafka",
+    "kafka-mirror-maker",
+    "linkedin",
+    "scalability"
+  ],
+  "history": [],
+  "weight": 966,
+  "image": "https://avatars.githubusercontent.com/u/357098?v=4"
+}

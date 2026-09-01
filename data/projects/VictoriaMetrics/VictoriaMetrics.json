@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "VictoriaMetrics/VictoriaMetrics",
+  "link": "https://github.com/VictoriaMetrics/VictoriaMetrics",
+  "name": "VictoriaMetrics",
+  "desc": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "database",
+    "grafana",
+    "graphite",
+    "influxdb",
+    "kubernetes",
+    "monitoring",
+    "observability",
+    "opentelemetry",
+    "opentsdb",
+    "prometheus",
+    "promql",
+    "thanos",
+    "tsdb"
+  ],
+  "history": [],
+  "weight": 17630,
+  "image": "https://avatars.githubusercontent.com/u/43720803?v=4"
+}

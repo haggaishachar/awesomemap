@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "encoredev/encore",
+  "link": "https://github.com/encoredev/encore",
+  "name": "encore",
+  "desc": "The infrastructure platform for the intelligence era",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "aws",
+    "backend",
+    "cloud",
+    "cloud-native",
+    "database",
+    "devops",
+    "devops-automation",
+    "distributed-systems",
+    "encore",
+    "gcp",
+    "go",
+    "golang",
+    "infrastructure-as-code",
+    "infrastructure-automation",
+    "microservices",
+    "serverless",
+    "typescript"
+  ],
+  "history": [],
+  "weight": 12328,
+  "image": "https://avatars.githubusercontent.com/u/50438175?v=4"
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "Suor/django-cacheops",
+  "link": "https://github.com/Suor/django-cacheops",
+  "name": "django-cacheops",
+  "desc": "A slick ORM cache with automatic granular event-driven invalidation.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "caching",
+    "django",
+    "orm",
+    "python"
+  ],
+  "history": [],
+  "weight": 2273
+}

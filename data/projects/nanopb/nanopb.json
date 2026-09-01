@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "nanopb/nanopb",
+  "link": "https://github.com/nanopb/nanopb",
+  "name": "nanopb",
+  "desc": "Protocol Buffers with small code size",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "c",
+    "embedded",
+    "embedded-c",
+    "nanopb",
+    "protocol-buffers"
+  ],
+  "history": [],
+  "weight": 5544,
+  "image": "https://avatars.githubusercontent.com/u/12173937?v=4"
+}

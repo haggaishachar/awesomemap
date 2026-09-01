@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "HKUDS/LightRAG",
+  "link": "https://github.com/HKUDS/LightRAG",
+  "name": "LightRAG",
+  "desc": "[EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "docling",
+    "genai",
+    "gpt",
+    "graphrag",
+    "knowledge-graph",
+    "large-language-models",
+    "llm",
+    "mineru",
+    "rag",
+    "ragas",
+    "retrieval-augmented-generation"
+  ],
+  "history": [],
+  "weight": 39306,
+  "image": "https://raw.githubusercontent.com/HKUDS/LightRAG/main/assets/logo.png"
+}

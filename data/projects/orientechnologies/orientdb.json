@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "orientechnologies/orientdb",
+  "link": "https://github.com/orientechnologies/orientdb",
+  "name": "orientdb",
+  "desc": "OrientDB is the most versatile DBMS supporting Graph, Document, Reactive, Full-Text and Geospatial models in one Multi-Model product. OrientDB can run distributed (Multi-Master), supports SQL, ACID Transactions, Full-Text indexing and Reactive Queries.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "database",
+    "dbms",
+    "document-database",
+    "fast",
+    "graph-database",
+    "graph-store",
+    "multi-master",
+    "multi-model-dbms",
+    "nosql",
+    "orientdb",
+    "performance",
+    "sql"
+  ],
+  "history": [],
+  "weight": 4984,
+  "image": "https://avatars.githubusercontent.com/u/536828?v=4"
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "naptha/tesseract.js",
+  "link": "https://github.com/naptha/tesseract.js",
+  "name": "tesseract.js",
+  "desc": "Pure Javascript OCR for more than 100 Languages 📖🎉🖥",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "deep-learning",
+    "javascript",
+    "ocr",
+    "tesseract",
+    "webassembly"
+  ],
+  "history": [],
+  "weight": 38685,
+  "image": "https://avatars.githubusercontent.com/u/7720173?v=4"
+}

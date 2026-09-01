@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "rethinkdb/rethinkdb",
+  "link": "https://github.com/rethinkdb/rethinkdb",
+  "name": "rethinkdb",
+  "desc": "The open-source database for the realtime web.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 26995,
+  "image": "https://avatars.githubusercontent.com/u/1229647?v=4"
+}

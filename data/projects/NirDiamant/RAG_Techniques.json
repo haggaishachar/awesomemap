@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "NirDiamant/RAG_Techniques",
+  "link": "https://github.com/NirDiamant/RAG_Techniques",
+  "name": "RAG_Techniques",
+  "desc": "This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agentic-rag",
+    "ai",
+    "embeddings",
+    "generative-ai",
+    "gpt",
+    "langchain",
+    "llama-index",
+    "llm",
+    "llms",
+    "machine-learning",
+    "nlp",
+    "openai",
+    "python",
+    "rag",
+    "retrieval-augmented-generation",
+    "semantic-search",
+    "tutorials",
+    "vector-database"
+  ],
+  "history": [],
+  "weight": 29313
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "jo-duchan/tapflow",
+  "link": "https://github.com/jo-duchan/tapflow",
+  "name": "tapflow",
+  "desc": "Self-hosted iOS & Android simulator streaming for the whole team",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "android-emulator",
+    "app-testing",
+    "appetize-alternative",
+    "browserstack-alternative",
+    "developer-tools",
+    "emulator",
+    "flutter",
+    "good-first-issue",
+    "ios",
+    "ios-simulator",
+    "mcp",
+    "mobile-qa",
+    "mobile-testing",
+    "open-source",
+    "qa-tools",
+    "react-native",
+    "self-hosted",
+    "simulator",
+    "testing"
+  ],
+  "history": [],
+  "weight": 543
+}

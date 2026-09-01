@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "erda-project/erda",
+  "link": "https://github.com/erda-project/erda",
+  "name": "erda",
+  "desc": "An enterprise-grade Cloud-Native application platform for Kubernetes.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "apm",
+    "ci-cd",
+    "cmp",
+    "containers",
+    "devops",
+    "docker",
+    "go",
+    "golang",
+    "kubernetes",
+    "microservice"
+  ],
+  "history": [],
+  "weight": 2751,
+  "image": "https://avatars.githubusercontent.com/u/79822798?v=4"
+}

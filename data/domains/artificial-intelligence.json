@@ -432,6 +432,356 @@
         "LLM Infrastructure",
         "Open-Weight Models & Inference"
       ]
+    },
+    {
+      "id": "OpenHands/OpenHands",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "unslothai/unsloth",
+      "path": [
+        "LLM Infrastructure",
+        "Open-Weight Models & Inference"
+      ]
+    },
+    {
+      "id": "hiyouga/LlamaFactory",
+      "path": [
+        "LLM Infrastructure",
+        "Open-Weight Models & Inference"
+      ]
+    },
+    {
+      "id": "microsoft/graphrag",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "lancedb/lancedb",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "firecrawl/firecrawl",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "TauricResearch/TradingAgents",
+      "path": [
+        "Agents & Coding",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": "bytedance/deer-flow",
+      "path": [
+        "Agents & Coding",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": "FoundationAgents/MetaGPT",
+      "path": [
+        "Agents & Coding",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": "Mintplex-Labs/anything-llm",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Interfaces & Local Deployment"
+      ]
+    },
+    {
+      "id": "mem0ai/mem0",
+      "path": [
+        "Agents & Coding",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": "infiniflow/ragflow",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "dair-ai/Prompt-Engineering-Guide",
+      "path": [
+        "LLM Infrastructure",
+        "Prompt Engineering & Evaluation"
+      ]
+    },
+    {
+      "id": "HKUDS/LightRAG",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "getzep/graphiti",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "topoteretes/cognee",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "NirDiamant/RAG_Techniques",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "alibaba/zvec",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "langchain4j/langchain4j",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Frameworks & Runtimes"
+      ]
+    },
+    {
+      "id": "zilliztech/claude-context",
+      "path": [
+        "Agents & Coding",
+        "Model Context Protocol"
+      ]
+    },
+    {
+      "id": "plastic-labs/honcho",
+      "path": [
+        "Agents & Coding",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": "datawhalechina/hello-agents",
+      "path": [
+        "Agents & Coding",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": "pathwaycom/llm-app",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "bojieli/ai-agent-book",
+      "path": [
+        "Agents & Coding",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": "chatchat-space/Langchain-Chatchat",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "khoj-ai/khoj",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Interfaces & Local Deployment"
+      ]
+    },
+    {
+      "id": "VectifyAI/PageIndex",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "onyx-dot-app/onyx",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Interfaces & Local Deployment"
+      ]
+    },
+    {
+      "id": "memvid/memvid",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "neuml/txtai",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "StarTrail-org/LEANN",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "zilliztech/deep-searcher",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "vespa-engine/vespa",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "affaan-m/ECC",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "Graphify-Labs/graphify",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "shareAI-lab/learn-claude-code",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "headroomlabs-ai/headroom",
+      "path": [
+        "LLM Infrastructure",
+        "Prompt Engineering & Evaluation"
+      ]
+    },
+    {
+      "id": "Shubhamsaboo/awesome-llm-apps",
+      "path": [
+        "Agents & Coding",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": "thedotmack/claude-mem",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "PaddlePaddle/PaddleOCR",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "HKUDS/DeepTutor",
+      "path": [
+        "Agents & Coding",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": "patchy631/ai-engineering-hub",
+      "path": [
+        "Agents & Coding",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": "ItzCrazyKns/Vane",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "datawhalechina/happy-llm",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Frameworks & Runtimes"
+      ]
+    },
+    {
+      "id": "rtk-ai/rtk",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "DietrichGebert/ponytail",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "JuliusBrussee/caveman",
+      "path": [
+        "LLM Infrastructure",
+        "Prompt Engineering & Evaluation"
+      ]
+    },
+    {
+      "id": "jeecgboot/JeecgBoot",
+      "path": [
+        "Agents & Coding",
+        "No-Code AI Builders"
+      ]
+    },
+    {
+      "id": "oceanbase/oceanbase",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "databendlabs/databend",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
     }
   ]
 }

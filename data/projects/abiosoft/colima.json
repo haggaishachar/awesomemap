@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "abiosoft/colima",
+  "link": "https://github.com/abiosoft/colima",
+  "name": "colima",
+  "desc": "Container runtimes on macOS (and Linux) with minimal setup",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "containerd",
+    "containerd-compose",
+    "containers",
+    "docker",
+    "docker-compose",
+    "incus",
+    "k3s",
+    "k8s",
+    "kubernetes",
+    "lima",
+    "macos",
+    "nerdctl"
+  ],
+  "history": [],
+  "weight": 30587
+}

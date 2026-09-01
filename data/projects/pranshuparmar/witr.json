@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "pranshuparmar/witr",
+  "link": "https://github.com/pranshuparmar/witr",
+  "name": "witr",
+  "desc": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI. ",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cli",
+    "containers",
+    "devops",
+    "docker",
+    "freebsd",
+    "go",
+    "golang",
+    "incident-response",
+    "kubernetes",
+    "linux",
+    "macos",
+    "monitoring",
+    "observability",
+    "process-management",
+    "sysadmin",
+    "systemd",
+    "terminal",
+    "troubleshooting",
+    "tui",
+    "windows"
+  ],
+  "history": [],
+  "weight": 21989
+}

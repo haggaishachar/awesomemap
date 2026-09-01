@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "mem0ai/mem0",
+  "link": "https://github.com/mem0ai/mem0",
+  "name": "mem0",
+  "desc": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agentic-memory",
+    "agentic-memory-system",
+    "agents",
+    "ai",
+    "ai-agents",
+    "chatgpt",
+    "genai",
+    "llm",
+    "long-term-memory",
+    "memory",
+    "memory-management",
+    "python",
+    "rag",
+    "state-management"
+  ],
+  "history": [],
+  "weight": 64505,
+  "image": "https://avatars.githubusercontent.com/u/137054526?v=4"
+}

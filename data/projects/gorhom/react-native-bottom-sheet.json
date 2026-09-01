@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "gorhom/react-native-bottom-sheet",
+  "link": "https://github.com/gorhom/react-native-bottom-sheet",
+  "name": "react-native-bottom-sheet",
+  "desc": "A performant interactive bottom sheet with fully configurable options 🚀",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "bottom-sheet",
+    "bottomsheet",
+    "modal",
+    "react-native",
+    "reanimated",
+    "sheet"
+  ],
+  "history": [],
+  "weight": 9081
+}

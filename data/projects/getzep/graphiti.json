@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "getzep/graphiti",
+  "link": "https://github.com/getzep/graphiti",
+  "name": "graphiti",
+  "desc": "Build Real-Time Knowledge Graphs for AI Agents",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agents",
+    "graph",
+    "llms",
+    "rag"
+  ],
+  "history": [],
+  "weight": 30485,
+  "image": "https://avatars.githubusercontent.com/u/132832125?v=4"
+}

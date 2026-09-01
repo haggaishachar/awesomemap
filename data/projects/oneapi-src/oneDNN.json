@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "oneapi-src/oneDNN",
+  "link": "https://github.com/oneapi-src/oneDNN",
+  "name": "oneDNN",
+  "desc": "oneAPI Deep Neural Network Library (oneDNN)",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "aarch64",
+    "amx",
+    "avx512",
+    "bfloat16",
+    "cpp",
+    "deep-learning",
+    "deep-neural-networks",
+    "library",
+    "oneapi",
+    "onednn",
+    "openmp",
+    "performance",
+    "sycl",
+    "tbb",
+    "vnni",
+    "x64",
+    "x86-64",
+    "xe-architecture"
+  ],
+  "history": [],
+  "weight": 4044,
+  "image": "https://avatars.githubusercontent.com/u/144704571?v=4"
+}

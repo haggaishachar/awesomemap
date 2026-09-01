@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "1N3/Sn1per",
+  "link": "https://github.com/1N3/Sn1per",
+  "name": "Sn1per",
+  "desc": "Automated penetration testing & attack surface management platform. Recon, scan, exploit, report — 600+ exploits, 90+ integrations, 10K+ detections.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "attack-surface",
+    "attack-surface-management",
+    "attacksurface",
+    "bugbounty-platform",
+    "cybersecurity",
+    "hacking",
+    "hacking-tools",
+    "osint-framework",
+    "osint-tool",
+    "penetration-testing",
+    "pentest-scripts",
+    "pentest-tool",
+    "pentest-tools",
+    "pentesting",
+    "pentesting-tools",
+    "security",
+    "security-tools",
+    "sn1per",
+    "sn1per-professional"
+  ],
+  "history": [],
+  "weight": 11182
+}

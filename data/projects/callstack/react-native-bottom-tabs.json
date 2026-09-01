@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "callstack/react-native-bottom-tabs",
+  "link": "https://github.com/callstack/react-native-bottom-tabs",
+  "name": "react-native-bottom-tabs",
+  "desc": "Native Bottom Tabs for React Native",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "hacktoberfest",
+    "ios",
+    "react-native",
+    "react-navigation",
+    "visionos"
+  ],
+  "history": [],
+  "weight": 1449,
+  "image": "https://avatars.githubusercontent.com/u/42239399?v=4"
+}

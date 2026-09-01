@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "roboflow/supervision",
+  "link": "https://github.com/roboflow/supervision",
+  "name": "supervision",
+  "desc": "We write your reusable computer vision tools. 💜",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "classification",
+    "coco",
+    "computer-vision",
+    "deep-learning",
+    "hacktoberfest",
+    "image-processing",
+    "instance-segmentation",
+    "low-code",
+    "machine-learning",
+    "metrics",
+    "object-detection",
+    "oriented-bounding-box",
+    "pascal-voc",
+    "python",
+    "pytorch",
+    "tensorflow",
+    "tracking",
+    "video-processing",
+    "yolo"
+  ],
+  "history": [],
+  "weight": 49820,
+  "image": "https://avatars.githubusercontent.com/u/53104118?v=4"
+}

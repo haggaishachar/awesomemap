@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "ItzCrazyKns/Vane",
+  "link": "https://github.com/ItzCrazyKns/Vane",
+  "name": "Vane",
+  "desc": "Vane is an AI-powered answering engine.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai-agents",
+    "ai-search-engine",
+    "answering-engine",
+    "artificial-intelligence",
+    "llm",
+    "machine-learning",
+    "open-source-ai-search-engine",
+    "perplexica",
+    "rag",
+    "search-engine",
+    "searxng",
+    "searxng-copilot",
+    "self-hosted-ai",
+    "vane"
+  ],
+  "history": [],
+  "weight": 36568
+}

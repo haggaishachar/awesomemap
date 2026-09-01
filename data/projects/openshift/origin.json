@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "openshift/origin",
+  "link": "https://github.com/openshift/origin",
+  "name": "origin",
+  "desc": "Conformance test suite for OpenShift",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "caas",
+    "ci-cd",
+    "containers",
+    "continuous-delivery",
+    "continuous-deployment",
+    "continuous-integration",
+    "devops",
+    "go",
+    "kubernetes",
+    "openshift",
+    "openshift-origin",
+    "paas"
+  ],
+  "history": [],
+  "weight": 8682,
+  "image": "https://avatars.githubusercontent.com/u/792337?v=4"
+}

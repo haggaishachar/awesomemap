@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "TonyPhipps/SIEM",
+  "link": "https://github.com/TonyPhipps/SIEM",
+  "name": "SIEM",
+  "desc": "SIEM Tactics, Techiques, and Procedures",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "analysis",
+    "baseline",
+    "blue",
+    "forensics",
+    "hunt",
+    "incident",
+    "log",
+    "monitor",
+    "purple",
+    "recon",
+    "red",
+    "response",
+    "scan",
+    "security",
+    "siem",
+    "soc",
+    "team",
+    "threat",
+    "threat-hunting",
+    "triage"
+  ],
+  "history": [],
+  "weight": 730
+}

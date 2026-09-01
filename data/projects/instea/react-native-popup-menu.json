@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "instea/react-native-popup-menu",
+  "link": "https://github.com/instea/react-native-popup-menu",
+  "name": "react-native-popup-menu",
+  "desc": "Popup menu component for React Native",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "animation",
+    "ios",
+    "popup-menu",
+    "react-native"
+  ],
+  "history": [],
+  "weight": 1557,
+  "image": "https://avatars.githubusercontent.com/u/19341307?v=4"
+}

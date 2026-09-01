@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "streamlit/streamlit",
+  "link": "https://github.com/streamlit/streamlit",
+  "name": "streamlit",
+  "desc": "Streamlit — A faster way to build and share data apps.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "data-analysis",
+    "data-science",
+    "data-visualization",
+    "deep-learning",
+    "developer-tools",
+    "machine-learning",
+    "python",
+    "streamlit"
+  ],
+  "history": [],
+  "weight": 45655,
+  "image": "https://avatars.githubusercontent.com/u/45109972?v=4"
+}

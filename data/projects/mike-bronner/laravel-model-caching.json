@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "mike-bronner/laravel-model-caching",
+  "link": "https://github.com/mike-bronner/laravel-model-caching",
+  "name": "laravel-model-caching",
+  "desc": "Eloquent model-caching made easy.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "caching",
+    "laravel",
+    "models",
+    "package"
+  ],
+  "history": [],
+  "weight": 2373,
+  "image": "https://avatars.githubusercontent.com/u/269310836?v=4"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "Graphify-Labs/graphify",
+  "link": "https://github.com/Graphify-Labs/graphify",
+  "name": "graphify",
+  "desc": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai-agents",
+    "antigravity",
+    "ast",
+    "claude-code",
+    "code-analysis",
+    "code-search",
+    "codex",
+    "cursor",
+    "developer-tools",
+    "gemini",
+    "graphrag",
+    "knowledge-graph",
+    "leiden",
+    "llm",
+    "mcp",
+    "openclaw",
+    "rag",
+    "skills",
+    "tree-sitter"
+  ],
+  "history": [],
+  "weight": 113203,
+  "image": "https://raw.githubusercontent.com/Graphify-Labs/graphify/v8/docs/logo.png"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "libgdx/libgdx",
+  "link": "https://github.com/libgdx/libgdx",
+  "name": "libgdx",
+  "desc": "Desktop/Android/HTML5/iOS Java game development framework",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "2d",
+    "3d",
+    "android",
+    "cross-platform",
+    "framework",
+    "game",
+    "game-development",
+    "game-engine",
+    "gamedev",
+    "html5",
+    "ios",
+    "java",
+    "libgdx",
+    "linux",
+    "macosx",
+    "windows"
+  ],
+  "history": [],
+  "weight": 25356,
+  "image": "https://avatars.githubusercontent.com/u/509841?v=4"
+}

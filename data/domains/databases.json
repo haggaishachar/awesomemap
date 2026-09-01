@@ -346,6 +346,252 @@
       "path": [
         "ORMs & Query Builders"
       ]
+    },
+    {
+      "id": "dragonflydb/dragonfly",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "OtterMind/Chat2DB",
+      "path": [
+        "Database Tools & Admin"
+      ]
+    },
+    {
+      "id": "dicedb/dicedb",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "litedb-org/LiteDB",
+      "path": [
+        "Document & Wide-Column Databases"
+      ]
+    },
+    {
+      "id": "appbaseio/dejavu",
+      "path": [
+        "Database Tools & Admin"
+      ]
+    },
+    {
+      "id": "msiemens/tinydb",
+      "path": [
+        "Document & Wide-Column Databases"
+      ]
+    },
+    {
+      "id": "apache/iotdb",
+      "path": [
+        "Time-Series Databases"
+      ]
+    },
+    {
+      "id": "OpenAtomFoundation/pikiwidb",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "memgraph/memgraph",
+      "path": [
+        "Graph Databases"
+      ]
+    },
+    {
+      "id": "apache/lucene-solr",
+      "path": [
+        "Search Engines"
+      ]
+    },
+    {
+      "id": "allegro/bigcache",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "isaacs/node-lru-cache",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "readysettech/readyset",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "symfony/cache",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "ZiggyCreatures/FusionCache",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "MichaCo/CacheManager",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "VictoriaMetrics/fastcache",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "jaemk/cached",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "jaredwray/cacheable",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "whitfin/cachex",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "elixir-nebulex/nebulex",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "strimzi/strimzi-kafka-operator",
+      "path": [
+        "Streaming & Message Queues"
+      ]
+    },
+    {
+      "id": "superstreamlabs/memphis",
+      "path": [
+        "Streaming & Message Queues"
+      ]
+    },
+    {
+      "id": "aerospike/aerospike-server",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "rethinkdb/rethinkdb",
+      "path": [
+        "Document & Wide-Column Databases"
+      ]
+    },
+    {
+      "id": "basho/riak",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "jankotek/MapDB",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "surrealdb/surrealdb",
+      "path": [
+        "Document & Wide-Column Databases"
+      ]
+    },
+    {
+      "id": "PostgREST/postgrest",
+      "path": [
+        "Database Tools & Admin"
+      ]
+    },
+    {
+      "id": "pubkey/rxdb",
+      "path": [
+        "Document & Wide-Column Databases"
+      ]
+    },
+    {
+      "id": "mongodb/node-mongodb-native",
+      "path": [
+        "Database Tools & Admin"
+      ]
+    },
+    {
+      "id": "orientechnologies/orientdb",
+      "path": [
+        "Graph Databases"
+      ]
+    },
+    {
+      "id": "objectbox/objectbox-java",
+      "path": [
+        "Document & Wide-Column Databases"
+      ]
+    },
+    {
+      "id": "hazelcast/hazelcast",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "mike-bronner/laravel-model-caching",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "Suor/django-cacheops",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "trickstercache/trickster",
+      "path": [
+        "Key-Value & Caching"
+      ]
+    },
+    {
+      "id": "apache/inlong",
+      "path": [
+        "Data Pipelines & ETL"
+      ]
+    },
+    {
+      "id": "linkedin/brooklin",
+      "path": [
+        "Data Pipelines & ETL"
+      ]
+    },
+    {
+      "id": "TouK/nussknacker",
+      "path": [
+        "Streaming & Message Queues"
+      ]
+    },
+    {
+      "id": "soundcloud/roshi",
+      "path": [
+        "Time-Series Databases"
+      ]
     }
   ]
 }

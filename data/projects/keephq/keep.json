@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "keephq/keep",
+  "link": "https://github.com/keephq/keep",
+  "name": "keep",
+  "desc": "The open-source AIOps and alert management platform",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "aiops",
+    "alarm",
+    "alarms",
+    "alerting",
+    "alerts",
+    "monitoring",
+    "monitoring-tool",
+    "python",
+    "python3",
+    "workflow-automation"
+  ],
+  "history": [],
+  "weight": 12267,
+  "image": "https://avatars.githubusercontent.com/u/109032290?v=4"
+}

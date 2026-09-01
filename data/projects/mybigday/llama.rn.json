@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "mybigday/llama.rn",
+  "link": "https://github.com/mybigday/llama.rn",
+  "name": "llama.rn",
+  "desc": "React Native binding of llama.cpp",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "ios",
+    "llama",
+    "llama-cpp",
+    "llm",
+    "react-native"
+  ],
+  "history": [],
+  "weight": 1031,
+  "image": "https://avatars.githubusercontent.com/u/17320237?v=4"
+}

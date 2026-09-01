@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "alipay/SoloPi",
+  "link": "https://github.com/alipay/SoloPi",
+  "name": "SoloPi",
+  "desc": "SoloPi 自动化测试工具",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "adb",
+    "android",
+    "arkts",
+    "automated-testing",
+    "automation",
+    "harmony",
+    "mobile-testing",
+    "test-automation",
+    "ui-testing"
+  ],
+  "history": [],
+  "weight": 6243,
+  "image": "https://avatars.githubusercontent.com/u/1299356?v=4"
+}

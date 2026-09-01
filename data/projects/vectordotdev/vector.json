@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "vectordotdev/vector",
+  "link": "https://github.com/vectordotdev/vector",
+  "name": "vector",
+  "desc": "A high-performance observability data pipeline.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agent",
+    "cloud-native",
+    "data-transformation",
+    "datadog",
+    "etl",
+    "events",
+    "forwarder",
+    "hacktoberfest",
+    "high-performance",
+    "logs",
+    "metrics",
+    "monitoring",
+    "observability",
+    "pipelines",
+    "rust-lang",
+    "stream-processing",
+    "telemetry",
+    "traces"
+  ],
+  "history": [],
+  "weight": 22501,
+  "image": "https://avatars.githubusercontent.com/u/16866914?v=4"
+}

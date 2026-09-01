@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "mukul975/Anthropic-Cybersecurity-Skills",
+  "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+  "name": "Anthropic-Cybersecurity-Skills",
+  "desc": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai-agents",
+    "claude-code",
+    "cloud-security",
+    "cybersecurity",
+    "devsecops",
+    "ethical-hacking",
+    "incident-response",
+    "infosec",
+    "llm",
+    "malware-analysis",
+    "mcp",
+    "mitre-attack",
+    "nist-csf",
+    "osint",
+    "penetration-testing",
+    "red-team",
+    "security",
+    "security-automation",
+    "threat-hunting",
+    "threat-intelligence"
+  ],
+  "history": [],
+  "weight": 31886
+}

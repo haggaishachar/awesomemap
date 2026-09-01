@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "fail2ban/fail2ban",
+  "link": "https://github.com/fail2ban/fail2ban",
+  "name": "fail2ban",
+  "desc": "Daemon to ban hosts that cause multiple authentication errors",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "anti-bot",
+    "attack-prevention",
+    "ban-hosts",
+    "ban-management",
+    "bsd",
+    "fail2ban",
+    "gplv2",
+    "hids",
+    "ids",
+    "intrusion-detection",
+    "intrusion-prevention",
+    "ips",
+    "linux",
+    "loganalyzer",
+    "macos",
+    "monitoring",
+    "python",
+    "security",
+    "security-tools"
+  ],
+  "history": [],
+  "weight": 18519,
+  "image": "https://avatars.githubusercontent.com/u/1087378?v=4"
+}

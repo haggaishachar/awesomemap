@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "saffron-health/libretto",
+  "link": "https://github.com/saffron-health/libretto",
+  "name": "libretto",
+  "desc": "The AI toolkit for building reliable browser automations",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "automation",
+    "browser",
+    "claude-code",
+    "codex",
+    "rpa"
+  ],
+  "history": [],
+  "weight": 883,
+  "image": "https://avatars.githubusercontent.com/u/195583508?v=4"
+}

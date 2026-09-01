@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "hathach/tinyusb",
+  "link": "https://github.com/hathach/tinyusb",
+  "name": "tinyusb",
+  "desc": "An open source  cross-platform USB stack for embedded system",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "embedded",
+    "midi",
+    "msc",
+    "tinyusb",
+    "usb",
+    "usb-cdc",
+    "usb-devices",
+    "usb-drive",
+    "usb-hid",
+    "usb-host",
+    "webusb"
+  ],
+  "history": [],
+  "weight": 7076,
+  "image": "https://raw.githubusercontent.com/hathach/tinyusb/master/docs/assets/logo.svg"
+}

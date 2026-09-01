@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "PostgREST/postgrest",
+  "link": "https://github.com/PostgREST/postgrest",
+  "name": "postgrest",
+  "desc": "REST API for any Postgres database",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "api",
+    "automatic-api",
+    "database",
+    "haskell",
+    "http",
+    "pg",
+    "pgsql",
+    "postgres",
+    "postgresql",
+    "postgrest",
+    "rest",
+    "server",
+    "sql"
+  ],
+  "history": [],
+  "weight": 27638,
+  "image": "https://avatars.githubusercontent.com/u/15115011?v=4"
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "home-assistant/iOS",
+  "link": "https://github.com/home-assistant/iOS",
+  "name": "iOS",
+  "desc": ":iphone: Home Assistant for Apple platforms",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "hacktoberfest",
+    "home-assistant",
+    "home-automation",
+    "ios",
+    "macos",
+    "open-source-app",
+    "swift"
+  ],
+  "history": [],
+  "weight": 2320,
+  "image": "https://avatars.githubusercontent.com/u/13844975?v=4"
+}

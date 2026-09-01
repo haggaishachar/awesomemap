@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "saleel/react-native-super-grid",
+  "link": "https://github.com/saleel/react-native-super-grid",
+  "name": "react-native-super-grid",
+  "desc": "Responsive Grid View for React Native",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "flatlist",
+    "grid",
+    "gridview",
+    "listview",
+    "react-native",
+    "responsive",
+    "responsive-grid"
+  ],
+  "history": [],
+  "weight": 1481
+}

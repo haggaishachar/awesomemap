@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "cyb3rxp/awesome-soc",
+  "link": "https://github.com/cyb3rxp/awesome-soc",
+  "name": "awesome-soc",
+  "desc": "A curated knowledge base to build, run and mature a SOC (including CSIRT).",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "architecture",
+    "cert",
+    "csirt",
+    "cybersecurity",
+    "detection-engineering",
+    "dfir",
+    "incident-response",
+    "mitre-attack",
+    "purpleteam",
+    "risk-management",
+    "security-monitoring",
+    "siem",
+    "sirp",
+    "soar",
+    "soc",
+    "threat-detection",
+    "threat-hunting",
+    "tip",
+    "ttp"
+  ],
+  "history": [],
+  "weight": 1809
+}

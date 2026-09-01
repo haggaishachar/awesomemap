@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "microsoft/react-native-windows",
+  "link": "https://github.com/microsoft/react-native-windows",
+  "name": "react-native-windows",
+  "desc": "A framework for building native Windows apps with React.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "dotnet",
+    "react",
+    "react-native",
+    "uwp",
+    "xbox"
+  ],
+  "history": [],
+  "weight": 17335,
+  "image": "https://raw.githubusercontent.com/microsoft/react-native-windows/main/logo.png"
+}

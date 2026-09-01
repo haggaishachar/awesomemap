@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "aerospike/aerospike-server",
+  "link": "https://github.com/aerospike/aerospike-server",
+  "name": "aerospike-server",
+  "desc": "Aerospike Database Server – flash-optimized, in-memory, nosql database",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 1376,
+  "image": "https://avatars.githubusercontent.com/u/2214313?v=4"
+}

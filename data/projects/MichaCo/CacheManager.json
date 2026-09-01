@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "MichaCo/CacheManager",
+  "link": "https://github.com/MichaCo/CacheManager",
+  "name": "CacheManager",
+  "desc": "CacheManager is an open source caching abstraction layer for .NET written in C#. It supports various cache providers and implements many advanced features.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "c-sharp",
+    "cache",
+    "cachemanager",
+    "caching",
+    "dotnet",
+    "dotnet-core",
+    "memcached",
+    "redis"
+  ],
+  "history": [],
+  "weight": 2419,
+  "image": "https://avatars.githubusercontent.com/u/264563665?v=4"
+}

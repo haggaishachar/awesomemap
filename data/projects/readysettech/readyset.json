@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "readysettech/readyset",
+  "link": "https://github.com/readysettech/readyset",
+  "name": "readyset",
+  "desc": "Readyset is a MySQL and Postgres wire-compatible caching layer that sits in front of existing databases to speed up queries and horizontally scale read throughput. Under the hood, ReadySet caches the results of cached select statements and incrementally updates these results over time as the underlying data changes.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "backend",
+    "cache",
+    "caching",
+    "caching-proxy",
+    "databases",
+    "mysql",
+    "mysql-database",
+    "postgres",
+    "postgresql",
+    "postgresql-database",
+    "rust",
+    "rust-lang",
+    "sql",
+    "streaming-data"
+  ],
+  "history": [],
+  "weight": 5275,
+  "image": "https://avatars.githubusercontent.com/u/71727599?v=4"
+}

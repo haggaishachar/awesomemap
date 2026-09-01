@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "toniblyx/my-arsenal-of-aws-security-tools",
+  "link": "https://github.com/toniblyx/my-arsenal-of-aws-security-tools",
+  "name": "my-arsenal-of-aws-security-tools",
+  "desc": "List of open source tools for AWS security: defensive, offensive, auditing, DFIR, etc.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "auditing",
+    "aws-infrastructure",
+    "aws-inventory",
+    "aws-lambda",
+    "cloud",
+    "cloudtrail",
+    "dfir",
+    "iam",
+    "incident-response",
+    "security",
+    "security-tools"
+  ],
+  "history": [],
+  "weight": 9502
+}

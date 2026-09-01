@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "goss-org/goss",
+  "link": "https://github.com/goss-org/goss",
+  "name": "goss",
+  "desc": "Quick and Easy server testing/validation",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "devops",
+    "devops-tools",
+    "docker",
+    "go",
+    "golang",
+    "goss",
+    "health-check",
+    "health-endpoint",
+    "infrastructure-as-code",
+    "linux",
+    "nagios",
+    "sensu",
+    "tap",
+    "tdd",
+    "tdd-utilities",
+    "testing",
+    "testing-tools"
+  ],
+  "history": [],
+  "weight": 5959,
+  "image": "https://avatars.githubusercontent.com/u/116450972?v=4"
+}

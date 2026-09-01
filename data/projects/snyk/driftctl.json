@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "snyk/driftctl",
+  "link": "https://github.com/snyk/driftctl",
+  "name": "driftctl",
+  "desc": "Detect, track and alert on infrastructure drift",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "aws",
+    "drift",
+    "hacktoberfest",
+    "iac",
+    "infrastructure-as-code",
+    "infrastructure-drift",
+    "terraform"
+  ],
+  "history": [],
+  "weight": 2662,
+  "image": "https://avatars.githubusercontent.com/u/12959162?v=4"
+}

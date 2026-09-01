@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "onlook-dev/onlook",
+  "link": "https://github.com/onlook-dev/onlook",
+  "name": "onlook",
+  "desc": "The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "cursor",
+    "cursor-ai",
+    "design",
+    "design-to-code",
+    "drizzle",
+    "editor",
+    "figma",
+    "frontend",
+    "ide",
+    "low-code",
+    "nextjs",
+    "react",
+    "supabase",
+    "tailwindcss",
+    "typescript",
+    "ui",
+    "vibe-coding",
+    "vibecoding"
+  ],
+  "history": [],
+  "weight": 26619,
+  "image": "https://raw.githubusercontent.com/onlook-dev/onlook/main/assets/logo.svg"
+}

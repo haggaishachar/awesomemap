@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "joshuayoes/ios-simulator-mcp",
+  "link": "https://github.com/joshuayoes/ios-simulator-mcp",
+  "name": "ios-simulator-mcp",
+  "desc": "MCP server for interacting with the iOS simulator",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 2153
+}

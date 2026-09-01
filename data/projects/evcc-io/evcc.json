@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "evcc-io/evcc",
+  "link": "https://github.com/evcc-io/evcc",
+  "name": "evcc",
+  "desc": "solar charging ☀️🚘",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "battery",
+    "charger",
+    "eebus",
+    "emobility",
+    "golang",
+    "home-automation",
+    "modbus",
+    "mqtt",
+    "ocpp",
+    "pv",
+    "semp",
+    "solar",
+    "sunspec",
+    "wallbox"
+  ],
+  "history": [],
+  "weight": 7166,
+  "image": "https://avatars.githubusercontent.com/u/81383504?v=4"
+}

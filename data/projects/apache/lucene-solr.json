@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "apache/lucene-solr",
+  "link": "https://github.com/apache/lucene-solr",
+  "name": "lucene-solr",
+  "desc": "Apache Lucene and Solr open-source search software",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "backend",
+    "information-retrieval",
+    "java",
+    "lucene",
+    "nosql",
+    "search",
+    "search-engine",
+    "solr"
+  ],
+  "history": [],
+  "weight": 4364,
+  "image": "https://avatars.githubusercontent.com/u/47359?v=4"
+}

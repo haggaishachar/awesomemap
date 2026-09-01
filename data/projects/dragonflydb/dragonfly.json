@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "dragonflydb/dragonfly",
+  "link": "https://github.com/dragonflydb/dragonfly",
+  "name": "dragonfly",
+  "desc": "A modern replacement for Redis and Memcached",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cache",
+    "cpp",
+    "database",
+    "fibers",
+    "in-memory",
+    "in-memory-database",
+    "key-value",
+    "keydb",
+    "memcached",
+    "message-broker",
+    "multi-threading",
+    "nosql",
+    "redis",
+    "valkey",
+    "vector-search"
+  ],
+  "history": [],
+  "weight": 31125,
+  "image": "https://avatars.githubusercontent.com/u/104819355?v=4"
+}

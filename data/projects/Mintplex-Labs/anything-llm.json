@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "Mintplex-Labs/anything-llm",
+  "link": "https://github.com/Mintplex-Labs/anything-llm",
+  "name": "anything-llm",
+  "desc": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agent-computer",
+    "agent-harness",
+    "agent-orchestration",
+    "agentic-ai",
+    "ai-agents",
+    "computer-use",
+    "hermes-agent",
+    "llm",
+    "local-ai",
+    "localai",
+    "multimodal",
+    "no-code",
+    "open-claw",
+    "rag",
+    "self-hosted-ai",
+    "vector-database"
+  ],
+  "history": [],
+  "weight": 65455,
+  "image": "https://avatars.githubusercontent.com/u/134426827?v=4"
+}

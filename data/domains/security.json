@@ -442,6 +442,306 @@
       "path": [
         "SIEM & Threat Detection"
       ]
+    },
+    {
+      "id": "bee-san/RustScan",
+      "path": [
+        "Network Scanning & Recon"
+      ]
+    },
+    {
+      "id": "future-architect/vuls",
+      "path": [
+        "Vulnerability Scanning"
+      ]
+    },
+    {
+      "id": "google/osv-scanner",
+      "path": [
+        "Vulnerability Scanning"
+      ]
+    },
+    {
+      "id": "securego/gosec",
+      "path": [
+        "Static & Dynamic Analysis"
+      ]
+    },
+    {
+      "id": "OWASP/wstg",
+      "path": [
+        "Web App Security"
+      ]
+    },
+    {
+      "id": "SigmaHQ/sigma",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
+    },
+    {
+      "id": "utmstack/UTMStack",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
+    },
+    {
+      "id": "turbot/tailpipe",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
+    },
+    {
+      "id": "sherlock-project/sherlock",
+      "path": [
+        "Network Scanning & Recon"
+      ]
+    },
+    {
+      "id": "WerWolv/ImHex",
+      "path": [
+        "Forensics & Reverse Engineering"
+      ]
+    },
+    {
+      "id": "mvt-project/mvt",
+      "path": [
+        "Forensics & Reverse Engineering"
+      ]
+    },
+    {
+      "id": "qeeqbox/social-analyzer",
+      "path": [
+        "Network Scanning & Recon"
+      ]
+    },
+    {
+      "id": "smicallef/spiderfoot",
+      "path": [
+        "Network Scanning & Recon"
+      ]
+    },
+    {
+      "id": "CISOfy/lynis",
+      "path": [
+        "Vulnerability Scanning"
+      ]
+    },
+    {
+      "id": "shadow1ng/fscan",
+      "path": [
+        "Vulnerability Scanning"
+      ]
+    },
+    {
+      "id": "toniblyx/my-arsenal-of-aws-security-tools",
+      "path": [
+        "Container & Cloud Security"
+      ]
+    },
+    {
+      "id": "swisskyrepo/PayloadsAllTheThings",
+      "path": [
+        "Web App Security"
+      ]
+    },
+    {
+      "id": "GreyDGL/PentestGPT",
+      "path": [
+        "Exploitation Frameworks"
+      ]
+    },
+    {
+      "id": "six2dez/reconftw",
+      "path": [
+        "Network Scanning & Recon"
+      ]
+    },
+    {
+      "id": "mandiant/commando-vm",
+      "path": [
+        "Exploitation Frameworks"
+      ]
+    },
+    {
+      "id": "Mr-xn/Penetration_Testing_POC",
+      "path": [
+        "Exploitation Frameworks"
+      ]
+    },
+    {
+      "id": "infoslack/awesome-web-hacking",
+      "path": [
+        "Web App Security"
+      ]
+    },
+    {
+      "id": "urbanadventurer/WhatWeb",
+      "path": [
+        "Web App Security"
+      ]
+    },
+    {
+      "id": "infobyte/faraday",
+      "path": [
+        "Vulnerability Scanning"
+      ]
+    },
+    {
+      "id": "outflanknl/RedELK",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
+    },
+    {
+      "id": "sherifabdlnaby/elastdocker",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
+    },
+    {
+      "id": "mthcht/awesome-lists",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
+    },
+    {
+      "id": "cyb3rxp/awesome-soc",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
+    },
+    {
+      "id": "pfelk/pfelk",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
+    },
+    {
+      "id": "TonyPhipps/SIEM",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
+    },
+    {
+      "id": "mdecrevoisier/EVTX-to-MITRE-Attack",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
+    },
+    {
+      "id": "cyberblu3s/CyberBlue",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
+    },
+    {
+      "id": "GACWR/OpenUBA",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
+    },
+    {
+      "id": "1N3/Sn1per",
+      "path": [
+        "Exploitation Frameworks"
+      ]
+    },
+    {
+      "id": "yogeshojha/rengine",
+      "path": [
+        "Web App Security"
+      ]
+    },
+    {
+      "id": "S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet",
+      "path": [
+        "Exploitation Frameworks"
+      ]
+    },
+    {
+      "id": "google/mcp-security",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
+    },
+    {
+      "id": "vxcontrol/pentagi",
+      "path": [
+        "Exploitation Frameworks"
+      ]
+    },
+    {
+      "id": "fail2ban/fail2ban",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
+    },
+    {
+      "id": "secdev/scapy",
+      "path": [
+        "Network Scanning & Recon"
+      ]
+    },
+    {
+      "id": "jason5ng32/MyIP",
+      "path": [
+        "Network Scanning & Recon"
+      ]
+    },
+    {
+      "id": "usestrix/strix",
+      "path": [
+        "Web App Security"
+      ]
+    },
+    {
+      "id": "trickest/cve",
+      "path": [
+        "Exploitation Frameworks"
+      ]
+    },
+    {
+      "id": "NVIDIA/SkillSpector",
+      "path": [
+        "Vulnerability Scanning"
+      ]
+    },
+    {
+      "id": "edoardottt/awesome-hacker-search-engines",
+      "path": [
+        "Network Scanning & Recon"
+      ]
+    },
+    {
+      "id": "Hack-with-Github/Awesome-Hacking",
+      "path": [
+        "Exploitation Frameworks"
+      ]
+    },
+    {
+      "id": "The-Art-of-Hacking/h4cker",
+      "path": [
+        "Exploitation Frameworks"
+      ]
+    },
+    {
+      "id": "vitalysim/Awesome-Hacking-Resources",
+      "path": [
+        "Exploitation Frameworks"
+      ]
+    },
+    {
+      "id": "jaegeral/security-apis",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
+    },
+    {
+      "id": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
     }
   ]
 }

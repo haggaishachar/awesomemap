@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "peter-evans/create-pull-request",
+  "link": "https://github.com/peter-evans/create-pull-request",
+  "name": "create-pull-request",
+  "desc": "A GitHub action to create a pull request for changes to your repository in the actions workspace",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "actions-workspace",
+    "automation",
+    "ci-cd",
+    "create-pull-request",
+    "github-action",
+    "pull-request",
+    "workflow"
+  ],
+  "history": [],
+  "weight": 2840,
+  "image": "https://raw.githubusercontent.com/peter-evans/create-pull-request/main/docs/assets/logo.svg"
+}

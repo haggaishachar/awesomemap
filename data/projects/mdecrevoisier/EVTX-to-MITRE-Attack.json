@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "mdecrevoisier/EVTX-to-MITRE-Attack",
+  "link": "https://github.com/mdecrevoisier/EVTX-to-MITRE-Attack",
+  "name": "EVTX-to-MITRE-Attack",
+  "desc": "Set of EVTX samples (>270) mapped to MITRE ATT&CK tactic and techniques to measure your SIEM coverage or developed new use cases.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "evtx",
+    "mitre-attack",
+    "redteam",
+    "siem",
+    "threat-hunting"
+  ],
+  "history": [],
+  "weight": 641
+}

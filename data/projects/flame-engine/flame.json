@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "flame-engine/flame",
+  "link": "https://github.com/flame-engine/flame",
+  "name": "flame",
+  "desc": "A Flutter based game engine.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "dart",
+    "flame",
+    "flutter",
+    "game",
+    "game-development",
+    "game-engine",
+    "gamedev",
+    "hacktoberfest"
+  ],
+  "history": [],
+  "weight": 10737,
+  "image": "https://avatars.githubusercontent.com/u/47222401?v=4"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "OpenBB-finance/OpenBB",
+  "link": "https://github.com/OpenBB-finance/OpenBB",
+  "name": "OpenBB",
+  "desc": "Open Data Platform for analysts, quants and AI agents.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "crypto",
+    "derivatives",
+    "economics",
+    "equity",
+    "finance",
+    "fixed-income",
+    "machine-learning",
+    "openbb",
+    "options",
+    "python",
+    "quantitative-finance",
+    "stocks"
+  ],
+  "history": [],
+  "weight": 72560,
+  "image": "https://avatars.githubusercontent.com/u/80064875?v=4"
+}

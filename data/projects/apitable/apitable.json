@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "apitable/apitable",
+  "link": "https://github.com/apitable/apitable",
+  "name": "apitable",
+  "desc": "🚀🎉📚 APITable, an API-oriented low-code platform for building collaborative apps and better than all other Airtable open-source alternatives. ",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "admin-dashboard",
+    "airtable",
+    "airtable-alternative",
+    "api",
+    "automatic-api",
+    "embed",
+    "hacktoberfest",
+    "internal-tool",
+    "javascript",
+    "low-code",
+    "nestjs",
+    "nextjs",
+    "no-code",
+    "nocodb",
+    "notion",
+    "react",
+    "spreadsheet",
+    "spring",
+    "typescript"
+  ],
+  "history": [],
+  "weight": 15587,
+  "image": "https://avatars.githubusercontent.com/u/89725681?v=4"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "bee-san/RustScan",
+  "link": "https://github.com/bee-san/RustScan",
+  "name": "RustScan",
+  "desc": "🤖 The Modern Port Scanner 🤖",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "docker",
+    "hacking",
+    "hacktoberfest",
+    "networking",
+    "nmap",
+    "pentesting",
+    "port",
+    "rust",
+    "scanning",
+    "security",
+    "security-tools"
+  ],
+  "history": [],
+  "weight": 20345
+}

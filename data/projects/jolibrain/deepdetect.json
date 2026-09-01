@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "jolibrain/deepdetect",
+  "link": "https://github.com/jolibrain/deepdetect",
+  "name": "deepdetect",
+  "desc": "Deep Learning Server and CLI for Torch and TensorRT",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "caffe",
+    "deep-learning",
+    "gpu",
+    "image-classification",
+    "image-search",
+    "image-segmentation",
+    "machine-learning",
+    "ncnn",
+    "neural-nets",
+    "object-detection",
+    "pytorch",
+    "rest-api",
+    "tensorrt",
+    "tensorrt-conversion",
+    "tensorrt-inference",
+    "time-series",
+    "tsne",
+    "xgboost"
+  ],
+  "history": [],
+  "weight": 2551,
+  "image": "https://avatars.githubusercontent.com/u/25426903?v=4"
+}

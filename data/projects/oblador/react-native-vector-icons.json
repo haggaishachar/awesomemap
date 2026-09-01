@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "oblador/react-native-vector-icons",
+  "link": "https://github.com/oblador/react-native-vector-icons",
+  "name": "react-native-vector-icons",
+  "desc": "Customizable Icons for React Native with support for image source and full styling.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "icon",
+    "icon-pack",
+    "react-native",
+    "ui"
+  ],
+  "history": [],
+  "weight": 17914
+}

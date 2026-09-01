@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "sherlock-project/sherlock",
+  "link": "https://github.com/sherlock-project/sherlock",
+  "name": "sherlock",
+  "desc": "Hunt down social media accounts by username across social networks",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cli",
+    "cti",
+    "cybersecurity",
+    "forensics",
+    "hacktoberfest",
+    "information-gathering",
+    "infosec",
+    "linux",
+    "osint",
+    "pentesting",
+    "python",
+    "python3",
+    "reconnaissance",
+    "redteam",
+    "sherlock",
+    "tools"
+  ],
+  "history": [],
+  "weight": 90756,
+  "image": "https://avatars.githubusercontent.com/u/48293496?v=4"
+}

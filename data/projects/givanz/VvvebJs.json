@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "givanz/VvvebJs",
+  "link": "https://github.com/givanz/VvvebJs",
+  "name": "VvvebJs",
+  "desc": "Drag and drop page builder library written in vanilla javascript without dependencies or build tools.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "bootstrap",
+    "bootstrap5",
+    "builder",
+    "drag-and-drop",
+    "editor",
+    "free",
+    "javascript",
+    "low-code",
+    "no-code",
+    "nocode",
+    "nodejs",
+    "open-source",
+    "page-builder",
+    "scss",
+    "site-generator",
+    "ui",
+    "vanilla-javascript",
+    "website-builder",
+    "website-generation",
+    "wysiwyg"
+  ],
+  "history": [],
+  "weight": 8658
+}

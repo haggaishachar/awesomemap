@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "PaddlePaddle/Paddle-Lite",
+  "link": "https://github.com/PaddlePaddle/Paddle-Lite",
+  "name": "Paddle-Lite",
+  "desc": "PaddlePaddle High Performance Deep Learning Inference Engine for Mobile and Edge (飞桨高性能深度学习端侧推理引擎）",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "arm",
+    "baidu",
+    "deep-learning",
+    "embedded",
+    "fpga",
+    "mali",
+    "mdl",
+    "mobile",
+    "mobile-deep-learning",
+    "neural-network"
+  ],
+  "history": [],
+  "weight": 7272,
+  "image": "https://avatars.githubusercontent.com/u/23534030?v=4"
+}

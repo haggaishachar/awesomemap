@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "google/langextract",
+  "link": "https://github.com/google/langextract",
+  "name": "langextract",
+  "desc": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "gemini",
+    "gemini-ai",
+    "gemini-api",
+    "gemini-flash",
+    "gemini-pro",
+    "information-extration",
+    "large-language-models",
+    "llm",
+    "nlp",
+    "python",
+    "structured-data"
+  ],
+  "history": [],
+  "weight": 38518,
+  "image": "https://avatars.githubusercontent.com/u/1342004?v=4"
+}

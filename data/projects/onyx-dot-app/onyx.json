@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "onyx-dot-app/onyx",
+  "link": "https://github.com/onyx-dot-app/onyx",
+  "name": "onyx",
+  "desc": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "ai-chat",
+    "chatgpt",
+    "chatui",
+    "enterprise-search",
+    "gen-ai",
+    "information-retrieval",
+    "llm",
+    "llm-ui",
+    "nextjs",
+    "python",
+    "rag",
+    "self-hosted",
+    "vector-search"
+  ],
+  "history": [],
+  "weight": 31877,
+  "image": "https://avatars.githubusercontent.com/u/131946000?v=4"
+}

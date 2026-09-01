@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "qeeqbox/social-analyzer",
+  "link": "https://github.com/qeeqbox/social-analyzer",
+  "name": "social-analyzer",
+  "desc": "API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \\ websites",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "analysis",
+    "analyzer",
+    "cli",
+    "information-gathering",
+    "javascript",
+    "nodejs",
+    "nodejs-cli",
+    "osint",
+    "pentest",
+    "pentesting",
+    "person-profile",
+    "profile",
+    "python",
+    "reconnaissance",
+    "security-tools",
+    "social-analyzer",
+    "social-media",
+    "sosint",
+    "username"
+  ],
+  "history": [],
+  "weight": 23911,
+  "image": "https://avatars.githubusercontent.com/u/54420737?v=4"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "fyne-io/fyne",
+  "link": "https://github.com/fyne-io/fyne",
+  "name": "fyne",
+  "desc": "Cross platform GUI toolkit in Go inspired by Material Design",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "cross-platform",
+    "fyne",
+    "go",
+    "golang",
+    "gui",
+    "hacktoberfest",
+    "ios",
+    "theme",
+    "toolkit"
+  ],
+  "history": [],
+  "weight": 28665,
+  "image": "https://avatars.githubusercontent.com/u/36045855?v=4"
+}

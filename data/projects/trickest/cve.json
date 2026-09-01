@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "trickest/cve",
+  "link": "https://github.com/trickest/cve",
+  "name": "cve",
+  "desc": "Gather and update all available and newest CVEs with their PoC.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cve",
+    "cve-poc",
+    "exploit",
+    "hacking",
+    "infosec",
+    "latest-cve",
+    "penetration-testing",
+    "pentesting",
+    "poc",
+    "red-team",
+    "security",
+    "security-tools",
+    "software-security",
+    "software-vulnerabilities",
+    "software-vulnerability",
+    "vulnerabilities",
+    "vulnerability"
+  ],
+  "history": [],
+  "weight": 8035,
+  "image": "https://avatars.githubusercontent.com/u/62057399?v=4"
+}

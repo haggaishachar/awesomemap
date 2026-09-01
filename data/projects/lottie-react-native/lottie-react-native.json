@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "lottie-react-native/lottie-react-native",
+  "link": "https://github.com/lottie-react-native/lottie-react-native",
+  "name": "lottie-react-native",
+  "desc": "Lottie wrapper for React Native.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "after-effects",
+    "animations",
+    "bodymovin",
+    "react",
+    "react-native"
+  ],
+  "history": [],
+  "weight": 17210,
+  "image": "https://avatars.githubusercontent.com/u/71153457?v=4"
+}

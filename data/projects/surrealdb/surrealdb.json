@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "surrealdb/surrealdb",
+  "link": "https://github.com/surrealdb/surrealdb",
+  "name": "surrealdb",
+  "desc": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "backend-as-a-service",
+    "cloud-database",
+    "database",
+    "database-as-a-service",
+    "developer-tools",
+    "devtools",
+    "distributed",
+    "distributed-database",
+    "document-database",
+    "graph-database",
+    "iot-database",
+    "nosql",
+    "realtime-database",
+    "serverless",
+    "sql",
+    "surreal",
+    "surrealdb",
+    "web"
+  ],
+  "history": [],
+  "weight": 32966,
+  "image": "https://avatars.githubusercontent.com/u/10982346?v=4"
+}

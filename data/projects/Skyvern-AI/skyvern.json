@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "Skyvern-AI/skyvern",
+  "link": "https://github.com/Skyvern-AI/skyvern",
+  "name": "skyvern",
+  "desc": "Automate browser based workflows with AI",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "api",
+    "automation",
+    "browser",
+    "browser-automation",
+    "computer",
+    "gpt",
+    "llm",
+    "playwright",
+    "powerautomate",
+    "puppeteer",
+    "python",
+    "rpa",
+    "selenium",
+    "vision",
+    "workflow"
+  ],
+  "history": [],
+  "weight": 22901,
+  "image": "https://avatars.githubusercontent.com/u/141457985?v=4"
+}

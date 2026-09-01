@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "wasm3/wasm3",
+  "link": "https://github.com/wasm3/wasm3",
+  "name": "wasm3",
+  "desc": "🚀 A fast WebAssembly interpreter and the most universal WASM runtime",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "containers",
+    "cosmopolitan",
+    "devops",
+    "edge-computing",
+    "embedded",
+    "iot",
+    "sandbox",
+    "scripting",
+    "serverless",
+    "smart-contracts",
+    "virtual-machine",
+    "wasm",
+    "webassembly"
+  ],
+  "history": [],
+  "weight": 8012,
+  "image": "https://avatars.githubusercontent.com/u/58013131?v=4"
+}

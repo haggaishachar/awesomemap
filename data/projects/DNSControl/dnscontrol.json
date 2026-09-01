@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "DNSControl/dnscontrol",
+  "link": "https://github.com/DNSControl/dnscontrol",
+  "name": "dnscontrol",
+  "desc": "Infrastructure as code for DNS!",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "dns",
+    "dnscontrol",
+    "go",
+    "infrastructure-as-code"
+  ],
+  "history": [],
+  "weight": 3926,
+  "image": "https://avatars.githubusercontent.com/u/156550848?v=4"
+}

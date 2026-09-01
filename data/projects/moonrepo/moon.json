@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "moonrepo/moon",
+  "link": "https://github.com/moonrepo/moon",
+  "name": "moon",
+  "desc": "A build system and monorepo management tool for the web ecosystem, written in Rust.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "build-system",
+    "build-tool",
+    "bun",
+    "ci-cd",
+    "deno",
+    "golang",
+    "javascript",
+    "monorepo",
+    "monorepo-tooling",
+    "nodejs",
+    "python",
+    "ruby",
+    "rust",
+    "task-runner",
+    "typescript",
+    "workspace"
+  ],
+  "history": [],
+  "weight": 4083,
+  "image": "https://avatars.githubusercontent.com/u/102833400?v=4"
+}

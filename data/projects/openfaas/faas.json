@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "openfaas/faas",
+  "link": "https://github.com/openfaas/faas",
+  "name": "faas",
+  "desc": "OpenFaaS - Serverless Functions Made Simple",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "docker",
+    "faas",
+    "functions",
+    "functions-as-a-service",
+    "gitops",
+    "golang",
+    "k8s",
+    "kubernetes",
+    "lambda",
+    "nodejs",
+    "paas",
+    "prometheus",
+    "serverless",
+    "serverless-functions"
+  ],
+  "history": [],
+  "weight": 26234,
+  "image": "https://avatars.githubusercontent.com/u/27013154?v=4"
+}

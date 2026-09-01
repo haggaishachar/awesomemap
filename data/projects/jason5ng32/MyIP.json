@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "jason5ng32/MyIP",
+  "link": "https://github.com/jason5ng32/MyIP",
+  "name": "MyIP",
+  "desc": "The best IP Toolbox. Check your IP address & geolocation, test IP for WebRTC and DNS IP leaks, run an IP quality check, browser fingerprint check, website availability check, network speed test, global latency test, MTR test, Whois search, and more.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "awesome",
+    "censorship",
+    "dns",
+    "dnsleak",
+    "hacktoberfest",
+    "ip",
+    "ipinfo",
+    "leaks",
+    "myip",
+    "network",
+    "pingchecker",
+    "proxy",
+    "security",
+    "security-tools",
+    "speedtest",
+    "webrtc",
+    "whatismyip",
+    "whatismyipaddress",
+    "whois",
+    "whois-lookup"
+  ],
+  "history": [],
+  "weight": 11791
+}

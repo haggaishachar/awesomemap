@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "openzipkin/zipkin",
+  "link": "https://github.com/openzipkin/zipkin",
+  "name": "zipkin",
+  "desc": "Zipkin is a distributed tracing system",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "distributed-tracing",
+    "observability",
+    "openzipkin",
+    "tracing",
+    "zipkin"
+  ],
+  "history": [],
+  "weight": 17456,
+  "image": "https://avatars.githubusercontent.com/u/11860887?v=4"
+}

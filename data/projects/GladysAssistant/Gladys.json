@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "GladysAssistant/Gladys",
+  "link": "https://github.com/GladysAssistant/Gladys",
+  "name": "Gladys",
+  "desc": "A privacy-first, open-source home assistant",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "assistant",
+    "automation",
+    "gladys",
+    "home",
+    "home-automation",
+    "iot",
+    "nodejs",
+    "raspberry-pi",
+    "smarthome"
+  ],
+  "history": [],
+  "weight": 3169,
+  "image": "https://avatars.githubusercontent.com/u/7365162?v=4"
+}

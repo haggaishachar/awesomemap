@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "HomeSpan/HomeSpan",
+  "link": "https://github.com/HomeSpan/HomeSpan",
+  "name": "HomeSpan",
+  "desc": "HomeKit Library for the Arduino-ESP32",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "arduino-ide",
+    "arduino-library",
+    "esp32",
+    "home-automation",
+    "homekit",
+    "homekit-server",
+    "homespan"
+  ],
+  "history": [],
+  "weight": 2155
+}

@@ -418,6 +418,300 @@
       "path": [
         "Classic Machine Learning"
       ]
+    },
+    {
+      "id": "ultralytics/ultralytics",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "ultralytics/yolov5",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "hankcs/HanLP",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "tesseract-ocr/tesseract",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "labmlai/annotated_deep_learning_paper_implementations",
+      "path": [
+        "Deep Learning"
+      ]
+    },
+    {
+      "id": "deepfakes/faceswap",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "ageitgey/face_recognition",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "roboflow/supervision",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "streamlit/streamlit",
+      "path": [
+        "Platforms"
+      ]
+    },
+    {
+      "id": "AUTOMATIC1111/stable-diffusion-webui",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "gradio-app/gradio",
+      "path": [
+        "Platforms"
+      ]
+    },
+    {
+      "id": "deepspeedai/DeepSpeed",
+      "path": [
+        "Distributed Training"
+      ]
+    },
+    {
+      "id": "hpcaitech/ColossalAI",
+      "path": [
+        "Distributed Training"
+      ]
+    },
+    {
+      "id": "naptha/tesseract.js",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "hiyouga/LlamaFactory",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "microsoft/unilm",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "huggingface/datasets",
+      "path": [
+        "Data Manipulation & Analysis"
+      ]
+    },
+    {
+      "id": "RasaHQ/rasa",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "keon/awesome-nlp",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "google-ai-edge/mediapipe",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "HumanSignal/label-studio",
+      "path": [
+        "Platforms"
+      ]
+    },
+    {
+      "id": "lucidrains/vit-pytorch",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "graphdeco-inria/gaussian-splatting",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "NVlabs/instant-ngp",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "cvat-ai/cvat",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "wkentaro/labelme",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "liuliu/ccv",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "oneapi-src/oneDNN",
+      "path": [
+        "Deep Learning"
+      ]
+    },
+    {
+      "id": "pathwaycom/llm-app",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "microsoft/qlib",
+      "path": [
+        "Platforms"
+      ]
+    },
+    {
+      "id": "dair-ai/Prompt-Engineering-Guide",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "CorentinJ/Real-Time-Voice-Cloning",
+      "path": [
+        "Deep Learning"
+      ]
+    },
+    {
+      "id": "google/langextract",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "NirDiamant/RAG_Techniques",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "ymcui/Chinese-LLaMA-Alpaca",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "GeeeekExplorer/nano-vllm",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "cosmo-wander-ai/cosmo-edge",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "oneapi-src/oneDAL",
+      "path": [
+        "Classic Machine Learning"
+      ]
+    },
+    {
+      "id": "OpenBB-finance/OpenBB",
+      "path": [
+        "Platforms"
+      ]
+    },
+    {
+      "id": "microsoft/AI-For-Beginners",
+      "path": [
+        "Deep Learning"
+      ]
+    },
+    {
+      "id": "GokuMohandas/Made-With-ML",
+      "path": [
+        "Platforms"
+      ]
+    },
+    {
+      "id": "stanford-oval/storm",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "AI4Finance-Foundation/FinGPT",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "memvid/memvid",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "xboot/libonnx",
+      "path": [
+        "Deep Learning"
+      ]
+    },
+    {
+      "id": "jolibrain/deepdetect",
+      "path": [
+        "Deep Learning"
+      ]
+    },
+    {
+      "id": "rohitg00/ai-engineering-from-scratch",
+      "path": [
+        "Deep Learning"
+      ]
+    },
+    {
+      "id": "666ghj/BettaFish",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "screenpipe/screenpipe",
+      "path": [
+        "Platforms"
+      ]
     }
   ]
 }

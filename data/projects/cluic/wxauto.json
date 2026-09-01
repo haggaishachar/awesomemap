@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "cluic/wxauto",
+  "link": "https://github.com/cluic/wxauto",
+  "name": "wxauto",
+  "desc": "Windows版本微信客户端（非网页版）自动化，可实现简单的发送、接收微信消息，简单微信机器人",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "automatic",
+    "python",
+    "rpa",
+    "wechat",
+    "weixin"
+  ],
+  "history": [],
+  "weight": 7287
+}

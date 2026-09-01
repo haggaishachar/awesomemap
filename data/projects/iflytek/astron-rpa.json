@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "iflytek/astron-rpa",
+  "link": "https://github.com/iflytek/astron-rpa",
+  "name": "astron-rpa",
+  "desc": "Agent-ready RPA suite with out-of-the-box automation tools. Built for individuals and enterprises.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agent",
+    "ai",
+    "astron",
+    "automation",
+    "data-privacy",
+    "enterprise",
+    "iflytek-astron",
+    "llm",
+    "low-code",
+    "mcp",
+    "no-code",
+    "on-premise",
+    "python",
+    "rpa",
+    "security-compliance",
+    "self-hosted"
+  ],
+  "history": [],
+  "weight": 5516,
+  "image": "https://avatars.githubusercontent.com/u/26786495?v=4"
+}

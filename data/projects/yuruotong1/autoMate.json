@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "yuruotong1/autoMate",
+  "link": "https://github.com/yuruotong1/autoMate",
+  "name": "autoMate",
+  "desc": "Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agent",
+    "ai",
+    "computeruse",
+    "deepseek",
+    "manus",
+    "ollama",
+    "omniparser",
+    "openai",
+    "openmanus",
+    "response",
+    "rpa"
+  ],
+  "history": [],
+  "weight": 3952
+}

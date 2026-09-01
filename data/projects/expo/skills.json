@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "expo/skills",
+  "link": "https://github.com/expo/skills",
+  "name": "skills",
+  "desc": "A collection of AI agent skills for working with Expo projects and Expo Application Services",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 2491,
+  "image": "https://avatars.githubusercontent.com/u/12504344?v=4"
+}

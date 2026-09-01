@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "allegro/bigcache",
+  "link": "https://github.com/allegro/bigcache",
+  "name": "bigcache",
+  "desc": "Efficient cache for gigabytes of data written in Go.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cache",
+    "caching",
+    "golang-library",
+    "hacktoberfest",
+    "performance"
+  ],
+  "history": [],
+  "weight": 8157,
+  "image": "https://avatars.githubusercontent.com/u/562236?v=4"
+}

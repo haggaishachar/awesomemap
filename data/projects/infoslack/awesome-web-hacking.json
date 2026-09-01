@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "infoslack/awesome-web-hacking",
+  "link": "https://github.com/infoslack/awesome-web-hacking",
+  "name": "awesome-web-hacking",
+  "desc": "A list of web application security",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "appsec",
+    "hacking",
+    "hacking-tools",
+    "metasploit",
+    "owasp",
+    "penetration-testing",
+    "pentesting",
+    "scanner",
+    "security",
+    "vulnerabilities",
+    "vulnerability",
+    "web-hacking",
+    "web-security"
+  ],
+  "history": [],
+  "weight": 7254
+}

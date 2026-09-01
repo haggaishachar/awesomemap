@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "seaweedfs/seaweedfs",
+  "link": "https://github.com/seaweedfs/seaweedfs",
+  "name": "seaweedfs",
+  "desc": "SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables, designed to handle billions of files with O(1) disk access and effortless horizontal scaling.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "blob-storage",
+    "cloud-drive",
+    "distributed-file-system",
+    "distributed-storage",
+    "distributed-systems",
+    "erasure-coding",
+    "fuse",
+    "hadoop-hdfs",
+    "hdfs",
+    "kubernetes",
+    "object-storage",
+    "posix",
+    "replication",
+    "s3",
+    "s3-storage",
+    "seaweedfs",
+    "tiered-file-system"
+  ],
+  "history": [],
+  "weight": 34398,
+  "image": "https://avatars.githubusercontent.com/u/11985425?v=4"
+}

@@ -364,6 +364,240 @@
       "path": [
         "Device Protocols & Telemetry"
       ]
+    },
+    {
+      "id": "teslamate-org/teslamate",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "evcc-io/evcc",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "homeassistant-ai/ha-mcp",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "1technophile/OpenMQTTGateway",
+      "path": [
+        "Device Protocols & Telemetry"
+      ]
+    },
+    {
+      "id": "home-assistant/android",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "crankyoldgit/IRremoteESP8266",
+      "path": [
+        "Device Protocols & Telemetry"
+      ]
+    },
+    {
+      "id": "GladysAssistant/Gladys",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "HeyWillow/willow",
+      "path": [
+        "Voice Assistants"
+      ]
+    },
+    {
+      "id": "RavenSystem/esp-homekit-devices",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "custom-cards/button-card",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "home-assistant/iOS",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "home-assistant/supervisor",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "HomeSpan/HomeSpan",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "emqx/emqx",
+      "path": [
+        "Device Protocols & Telemetry"
+      ]
+    },
+    {
+      "id": "RT-Thread/rt-thread",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "hybridgroup/gobot",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ]
+    },
+    {
+      "id": "Serial-Studio/Serial-Studio",
+      "path": [
+        "Device Protocols & Telemetry"
+      ]
+    },
+    {
+      "id": "hathach/tinyusb",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "littlefs-project/littlefs",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "tock/tock",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "nanopb/nanopb",
+      "path": [
+        "Device Protocols & Telemetry"
+      ]
+    },
+    {
+      "id": "commaai/openpilot",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ]
+    },
+    {
+      "id": "AtsushiSakai/PythonRobotics",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ]
+    },
+    {
+      "id": "google-deepmind/mujoco",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ]
+    },
+    {
+      "id": "CCOSTAN/Home-AssistantConfig",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "gioblu/PJON",
+      "path": [
+        "Device Protocols & Telemetry"
+      ]
+    },
+    {
+      "id": "frenck/home-assistant-config",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "taosdata/TDengine",
+      "path": [
+        "Device Protocols & Telemetry"
+      ]
+    },
+    {
+      "id": "cesanta/mongoose",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "dusty-nv/jetson-inference",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ]
+    },
+    {
+      "id": "lmarzen/esp32-weather-epd",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "wasm-micro-runtime/wasm-micro-runtime",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "blinker-iot/blinker-library",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "bulletphysics/bullet3",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ]
+    },
+    {
+      "id": "ruvnet/RuView",
+      "path": [
+        "Camera & Security Automation"
+      ]
+    },
+    {
+      "id": "wasm3/wasm3",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "idea4good/GuiLite",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "nasa/fprime",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "PaddlePaddle/Paddle-Lite",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
     }
   ]
 }

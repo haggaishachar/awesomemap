@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "theonedev/onedev",
+  "link": "https://github.com/theonedev/onedev",
+  "name": "onedev",
+  "desc": "The Unified and Autonomous Development Platform",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "ci-cd",
+    "devops",
+    "git",
+    "kanban",
+    "packages",
+    "self-hosted",
+    "workspaces"
+  ],
+  "history": [],
+  "weight": 15205,
+  "image": "https://avatars.githubusercontent.com/u/44279871?v=4"
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "vitalysim/Awesome-Hacking-Resources",
+  "link": "https://github.com/vitalysim/Awesome-Hacking-Resources",
+  "name": "Awesome-Hacking-Resources",
+  "desc": "A collection of hacking / penetration testing resources to make you better!",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "buffer-overflow",
+    "ctf",
+    "exploit",
+    "hacking",
+    "malware",
+    "mitm",
+    "owasp",
+    "penetration-testing",
+    "privilege-escalation",
+    "privilege-escalation-linux",
+    "reverse-engineering",
+    "windows-privilege-escalation"
+  ],
+  "history": [],
+  "weight": 17365
+}

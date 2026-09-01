@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "jaegertracing/jaeger",
+  "link": "https://github.com/jaegertracing/jaeger",
+  "name": "jaeger",
+  "desc": "CNCF Jaeger, a Distributed Tracing Platform",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cncf",
+    "distributed-tracing",
+    "hacktoberfest",
+    "jaeger",
+    "observability",
+    "opentelemetry",
+    "tracing"
+  ],
+  "history": [],
+  "weight": 23171,
+  "image": "https://avatars.githubusercontent.com/u/28545596?v=4"
+}

@@ -370,6 +370,306 @@
       "path": [
         "State Management"
       ]
+    },
+    {
+      "id": "AvaloniaUI/Avalonia",
+      "path": [
+        "Cross-Platform Frameworks"
+      ]
+    },
+    {
+      "id": "fyne-io/fyne",
+      "path": [
+        "Cross-Platform Frameworks"
+      ]
+    },
+    {
+      "id": "necolas/react-native-web",
+      "path": [
+        "Cross-Platform Frameworks"
+      ]
+    },
+    {
+      "id": "GeekyAnts/NativeBase",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "oblador/react-native-vector-icons",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "microsoft/react-native-windows",
+      "path": [
+        "Cross-Platform Frameworks"
+      ]
+    },
+    {
+      "id": "lottie-react-native/lottie-react-native",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "Tencent/MMKV",
+      "path": [
+        "Storage & Persistence"
+      ]
+    },
+    {
+      "id": "cfug/dio",
+      "path": [
+        "Networking"
+      ]
+    },
+    {
+      "id": "alipay/SoloPi",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "callstack/agent-device",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "software-mansion/react-native-executorch",
+      "path": [
+        "On-Device AI & ML"
+      ]
+    },
+    {
+      "id": "mybigday/llama.rn",
+      "path": [
+        "On-Device AI & ML"
+      ]
+    },
+    {
+      "id": "mrousavy/react-native-fast-tflite",
+      "path": [
+        "On-Device AI & ML"
+      ]
+    },
+    {
+      "id": "akveo/react-native-ui-kitten",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "react-native-modal/react-native-modal",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "margelo/react-native-blur",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "mrousavy/react-native-blurhash",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "wix/react-native-calendars",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "dohooo/react-native-reanimated-carousel",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "callstack/react-native-pager-view",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "saleel/react-native-super-grid",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "retyui/react-native-confirmation-code-field",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "Expensify/react-native-qrcode-svg",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "Shopify/flash-list",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "LegendApp/legend-list",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "software-mansion/react-native-screens",
+      "path": [
+        "Navigation"
+      ]
+    },
+    {
+      "id": "callstack/react-native-bottom-tabs",
+      "path": [
+        "Navigation"
+      ]
+    },
+    {
+      "id": "gorhom/react-native-bottom-sheet",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "lodev09/react-native-true-sheet",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "ammarahm-ed/react-native-actions-sheet",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "nandorojo/zeego",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "nandorojo/burnt",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "magicismight/react-native-root-toast",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "instea/react-native-popup-menu",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "libgdx/libgdx",
+      "path": [
+        "Cross-Platform Frameworks"
+      ]
+    },
+    {
+      "id": "infinitered/ignite",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "mitesh77/Best-Flutter-UI-Templates",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "microsoft/fluentui-system-icons",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "flame-engine/flame",
+      "path": [
+        "Cross-Platform Frameworks"
+      ]
+    },
+    {
+      "id": "RunanywhereAI/runanywhere-sdks",
+      "path": [
+        "On-Device AI & ML"
+      ]
+    },
+    {
+      "id": "testsigmahq/testsigma",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "jo-duchan/tapflow",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "react-native-community/upgrade-helper",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "react-native-community/rn-diff-purge",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "mobile-next/mobile-mcp",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "joshuayoes/ios-simulator-mcp",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "kristerkari/react-native-svg-transformer",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "pubkey/rxdb",
+      "path": [
+        "Storage & Persistence"
+      ]
+    },
+    {
+      "id": "expo/skills",
+      "path": [
+        "Developer Tooling"
+      ]
     }
   ]
 }

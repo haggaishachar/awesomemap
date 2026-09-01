@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "superstreamlabs/memphis",
+  "link": "https://github.com/superstreamlabs/memphis",
+  "name": "memphis",
+  "desc": "Memphis.dev is a highly scalable and effortless data streaming platform",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "data",
+    "data-engineering",
+    "data-pipeline",
+    "data-stream-processing",
+    "data-streaming",
+    "enrichment",
+    "golang",
+    "kubernetes",
+    "message-broker",
+    "message-bus",
+    "message-queue",
+    "messaging-queue",
+    "microservices",
+    "schema-registry"
+  ],
+  "history": [],
+  "weight": 3440,
+  "image": "https://avatars.githubusercontent.com/u/74716231?v=4"
+}

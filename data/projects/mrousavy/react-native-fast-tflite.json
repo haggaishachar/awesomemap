@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "mrousavy/react-native-fast-tflite",
+  "link": "https://github.com/mrousavy/react-native-fast-tflite",
+  "name": "react-native-fast-tflite",
+  "desc": "🧬 High-performance TensorFlow Lite library for React Native with GPU acceleration",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "arraybuffer",
+    "camera",
+    "detection",
+    "facial-recognition",
+    "fast",
+    "hacktoberfest",
+    "ml",
+    "native",
+    "object-detection",
+    "react",
+    "react-native",
+    "tensorflow",
+    "tensorflow-lite",
+    "tflite"
+  ],
+  "history": [],
+  "weight": 1232,
+  "image": "https://avatars.githubusercontent.com/u/91980534?v=4"
+}

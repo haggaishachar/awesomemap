@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "xlrpa/FlowBot",
+  "link": "https://github.com/xlrpa/FlowBot",
+  "name": "FlowBot",
+  "desc": "微信，企微，企微机器人，微信机器人，workbot，worktool，wetool，RPA，协议，vbot，逆向，hook，安全稳定零封号的RPA机器人，支持通过API控制企业微信来实现聚合聊天、自动回复、群发消息、自动通过好友、定时发布朋友圈等",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "chatbot",
+    "rpa",
+    "vbot",
+    "wechat",
+    "wechat-bot",
+    "wecom",
+    "wecom-bot",
+    "weixin",
+    "weixin-bot",
+    "wetool",
+    "worktool"
+  ],
+  "history": [],
+  "weight": 1362,
+  "image": "https://avatars.githubusercontent.com/u/193298798?v=4"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "JuliusBrussee/caveman",
+  "link": "https://github.com/JuliusBrussee/caveman",
+  "name": "caveman",
+  "desc": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "anthropic",
+    "caveman",
+    "claude",
+    "claude-code",
+    "llm",
+    "meme",
+    "prompt-engineering",
+    "skill",
+    "tokens"
+  ],
+  "history": [],
+  "weight": 102162
+}

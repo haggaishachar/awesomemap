@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "AUTOMATIC1111/stable-diffusion-webui",
+  "link": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+  "name": "stable-diffusion-webui",
+  "desc": "Stable Diffusion web UI",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "ai-art",
+    "deep-learning",
+    "diffusion",
+    "gradio",
+    "image-generation",
+    "image2image",
+    "img2img",
+    "pytorch",
+    "stable-diffusion",
+    "text2image",
+    "torch",
+    "txt2img",
+    "unstable",
+    "upscaling",
+    "web"
+  ],
+  "history": [],
+  "weight": 164752
+}

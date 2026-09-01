@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "react-native-community/upgrade-helper",
+  "link": "https://github.com/react-native-community/upgrade-helper",
+  "name": "upgrade-helper",
+  "desc": "⚛️ A web tool to support React Native developers in upgrading their apps.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "react",
+    "react-native",
+    "rn-diff",
+    "rn-diff-purge",
+    "upgrade-tool"
+  ],
+  "history": [],
+  "weight": 4065,
+  "image": "https://avatars.githubusercontent.com/u/20269980?v=4"
+}

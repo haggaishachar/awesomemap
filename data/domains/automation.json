@@ -334,6 +334,210 @@
       "path": [
         "RPA & Browser Automation"
       ]
+    },
+    {
+      "id": "triggerdotdev/trigger.dev",
+      "path": [
+        "Job Orchestration & Scheduling"
+      ]
+    },
+    {
+      "id": "bytedance/flowgram.ai",
+      "path": [
+        "Workflow Automation"
+      ]
+    },
+    {
+      "id": "lowdefy/lowdefy",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ]
+    },
+    {
+      "id": "coze-dev/coze-studio",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ]
+    },
+    {
+      "id": "baidu/amis",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ]
+    },
+    {
+      "id": "getmaxun/maxun",
+      "path": [
+        "Web Scraping & Data Extraction"
+      ]
+    },
+    {
+      "id": "apitable/apitable",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ]
+    },
+    {
+      "id": "puckeditor/puck",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ]
+    },
+    {
+      "id": "givanz/VvvebJs",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ]
+    },
+    {
+      "id": "NaiboWang/EasySpider",
+      "path": [
+        "Web Scraping & Data Extraction"
+      ]
+    },
+    {
+      "id": "Skyvern-AI/skyvern",
+      "path": [
+        "RPA & Browser Automation"
+      ]
+    },
+    {
+      "id": "go-vgo/robotgo",
+      "path": [
+        "RPA & Browser Automation"
+      ]
+    },
+    {
+      "id": "iflytek/astron-rpa",
+      "path": [
+        "RPA & Browser Automation"
+      ]
+    },
+    {
+      "id": "tebelorg/RPA-Python",
+      "path": [
+        "RPA & Browser Automation"
+      ]
+    },
+    {
+      "id": "magnitudedev/browser-agent",
+      "path": [
+        "RPA & Browser Automation"
+      ]
+    },
+    {
+      "id": "saffron-health/libretto",
+      "path": [
+        "RPA & Browser Automation"
+      ]
+    },
+    {
+      "id": "jeecgboot/JeecgBoot",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ]
+    },
+    {
+      "id": "PipedreamHQ/pipedream",
+      "path": [
+        "Workflow Automation"
+      ]
+    },
+    {
+      "id": "frappe/frappe",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ]
+    },
+    {
+      "id": "langflow-ai/langflow",
+      "path": [
+        "Workflow Automation"
+      ]
+    },
+    {
+      "id": "microsoft/playwright-mcp",
+      "path": [
+        "RPA & Browser Automation"
+      ]
+    },
+    {
+      "id": "keephq/keep",
+      "path": [
+        "Workflow Automation"
+      ]
+    },
+    {
+      "id": "simstudioai/sim",
+      "path": [
+        "Workflow Automation"
+      ]
+    },
+    {
+      "id": "YaoApp/yao",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ]
+    },
+    {
+      "id": "iflytek/astron-agent",
+      "path": [
+        "Workflow Automation"
+      ]
+    },
+    {
+      "id": "cluic/wxauto",
+      "path": [
+        "RPA & Browser Automation"
+      ]
+    },
+    {
+      "id": "Integuru-AI/Integuru",
+      "path": [
+        "Data & Notification Integration"
+      ]
+    },
+    {
+      "id": "yuruotong1/autoMate",
+      "path": [
+        "RPA & Browser Automation"
+      ]
+    },
+    {
+      "id": "tinyfish-io/agentql",
+      "path": [
+        "Web Scraping & Data Extraction"
+      ]
+    },
+    {
+      "id": "xlrpa/FlowBot",
+      "path": [
+        "RPA & Browser Automation"
+      ]
+    },
+    {
+      "id": "onlook-dev/onlook",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ]
+    },
+    {
+      "id": "amplication/amplication",
+      "path": [
+        "Low-Code & No-Code Builders"
+      ]
+    },
+    {
+      "id": "superplanehq/superplane",
+      "path": [
+        "Workflow Automation"
+      ]
+    },
+    {
+      "id": "n8n-io/self-hosted-ai-starter-kit",
+      "path": [
+        "Workflow Automation"
+      ]
     }
   ]
 }

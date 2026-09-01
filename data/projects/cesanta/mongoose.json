@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "cesanta/mongoose",
+  "link": "https://github.com/cesanta/mongoose",
+  "name": "mongoose",
+  "desc": "Embedded web server, with TCP/IP network stack, MQTT and Websocket",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "embedded",
+    "http",
+    "iot",
+    "mqtt",
+    "tcp",
+    "tcpip",
+    "tls13",
+    "udp",
+    "web-server",
+    "webserver",
+    "websocket"
+  ],
+  "history": [],
+  "weight": 13018,
+  "image": "https://avatars.githubusercontent.com/u/5111322?v=4"
+}

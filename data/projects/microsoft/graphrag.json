@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "microsoft/graphrag",
+  "link": "https://github.com/microsoft/graphrag",
+  "name": "graphrag",
+  "desc": "A modular graph-based Retrieval-Augmented Generation (RAG) system",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "gpt",
+    "gpt-4",
+    "gpt4",
+    "graphrag",
+    "llm",
+    "llms",
+    "rag"
+  ],
+  "history": [],
+  "weight": 35771,
+  "image": "https://avatars.githubusercontent.com/u/6154722?v=4"
+}

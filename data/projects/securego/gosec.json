@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "securego/gosec",
+  "link": "https://github.com/securego/gosec",
+  "name": "gosec",
+  "desc": "Go security checker",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "golang",
+    "security",
+    "security-automation",
+    "security-tools",
+    "static-analysis",
+    "static-code-analysis"
+  ],
+  "history": [],
+  "weight": 8937,
+  "image": "https://avatars.githubusercontent.com/u/23195997?v=4"
+}

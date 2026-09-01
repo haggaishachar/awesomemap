@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "Hack-with-Github/Awesome-Hacking",
+  "link": "https://github.com/Hack-with-Github/Awesome-Hacking",
+  "name": "Awesome-Hacking",
+  "desc": "A collection of various awesome lists for hackers, pentesters and security researchers",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "awesome",
+    "bug-bounty",
+    "fuzzing",
+    "hacking",
+    "penetration-testing",
+    "pentesting-windows",
+    "reverse-engineering",
+    "security"
+  ],
+  "history": [],
+  "weight": 119477,
+  "image": "https://avatars.githubusercontent.com/u/18143746?v=4"
+}

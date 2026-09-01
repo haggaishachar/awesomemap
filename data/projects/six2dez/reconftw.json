@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "six2dez/reconftw",
+  "link": "https://github.com/six2dez/reconftw",
+  "name": "reconftw",
+  "desc": "reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "bug-bounty",
+    "bugbounty",
+    "bugbounty-tool",
+    "dns",
+    "hacking",
+    "nuclei",
+    "osint",
+    "penetration-testing",
+    "pentest",
+    "pentest-tool",
+    "pentesting",
+    "recon",
+    "reconnaissance",
+    "scanner",
+    "security",
+    "security-tools",
+    "subdomain",
+    "subdomain-enumeration",
+    "vulnerabilities"
+  ],
+  "history": [],
+  "weight": 8045
+}

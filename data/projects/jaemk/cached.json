@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "jaemk/cached",
+  "link": "https://github.com/jaemk/cached",
+  "name": "cached",
+  "desc": "Rust cache structures and easy function memoization",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cache",
+    "caching",
+    "lrucache",
+    "memoization",
+    "rust",
+    "rust-caching",
+    "rustlang"
+  ],
+  "history": [],
+  "weight": 2076
+}

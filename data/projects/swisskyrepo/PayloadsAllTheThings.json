@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "swisskyrepo/PayloadsAllTheThings",
+  "link": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+  "name": "PayloadsAllTheThings",
+  "desc": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "bounty",
+    "bugbounty",
+    "bypass",
+    "cheatsheet",
+    "enumeration",
+    "hacking",
+    "hacktoberfest",
+    "methodology",
+    "payload",
+    "payloads",
+    "penetration-testing",
+    "pentest",
+    "privilege-escalation",
+    "redteam",
+    "security",
+    "vulnerability",
+    "web-application"
+  ],
+  "history": [],
+  "weight": 80547
+}

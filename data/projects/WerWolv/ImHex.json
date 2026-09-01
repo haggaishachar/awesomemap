@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "WerWolv/ImHex",
+  "link": "https://github.com/WerWolv/ImHex",
+  "name": "ImHex",
+  "desc": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "analyzer",
+    "binary-analysis",
+    "c-plus-plus",
+    "cpp",
+    "cybersecurity",
+    "dark-mode",
+    "dear-imgui",
+    "disassembler",
+    "forensics",
+    "hacking",
+    "hacktoberfest",
+    "hex-editor",
+    "ips",
+    "linux",
+    "macos",
+    "multi-platform",
+    "pattern-language",
+    "reverse-engineering",
+    "static-analysis",
+    "windows"
+  ],
+  "history": [],
+  "weight": 54619
+}

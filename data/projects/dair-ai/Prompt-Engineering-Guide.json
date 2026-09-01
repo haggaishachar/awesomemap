@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "dair-ai/Prompt-Engineering-Guide",
+  "link": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+  "name": "Prompt-Engineering-Guide",
+  "desc": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agent",
+    "agents",
+    "ai-agents",
+    "chatgpt",
+    "deep-learning",
+    "generative-ai",
+    "language-model",
+    "llms",
+    "openai",
+    "prompt-engineering",
+    "rag"
+  ],
+  "history": [],
+  "weight": 77943,
+  "image": "https://avatars.githubusercontent.com/u/30384625?v=4"
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "baidu/amis",
+  "link": "https://github.com/baidu/amis",
+  "name": "amis",
+  "desc": "前端低代码框架，通过 JSON 配置就能生成各种页面。",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "admin",
+    "frontend",
+    "frontend-framework",
+    "json",
+    "low-code",
+    "low-code-development-platform",
+    "lowcode",
+    "no-code"
+  ],
+  "history": [],
+  "weight": 18888,
+  "image": "https://avatars.githubusercontent.com/u/13245940?v=4"
+}

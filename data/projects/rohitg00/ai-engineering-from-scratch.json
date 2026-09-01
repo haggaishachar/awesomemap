@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "rohitg00/ai-engineering-from-scratch",
+  "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
+  "name": "ai-engineering-from-scratch",
+  "desc": "Learn it. Build it. Ship it for others.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "ai-engineering",
+    "computer-vision",
+    "course",
+    "deep-learning",
+    "from-scratch",
+    "generative-ai",
+    "llm",
+    "machine-learning",
+    "mcp",
+    "nlp",
+    "python",
+    "reinforcement-learning",
+    "rust",
+    "swarm-intelligence",
+    "transformers",
+    "tutorial",
+    "typescript"
+  ],
+  "history": [],
+  "weight": 51735
+}

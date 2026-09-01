@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "GokuMohandas/Made-With-ML",
+  "link": "https://github.com/GokuMohandas/Made-With-ML",
+  "name": "Made-With-ML",
+  "desc": "Learn how to develop, deploy and iterate on production-grade ML applications.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "data-engineering",
+    "data-quality",
+    "data-science",
+    "deep-learning",
+    "distributed-ml",
+    "distributed-training",
+    "llms",
+    "machine-learning",
+    "mlops",
+    "natural-language-processing",
+    "python",
+    "pytorch",
+    "ray"
+  ],
+  "history": [],
+  "weight": 49303
+}

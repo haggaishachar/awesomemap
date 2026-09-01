@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "ymcui/Chinese-LLaMA-Alpaca",
+  "link": "https://github.com/ymcui/Chinese-LLaMA-Alpaca",
+  "name": "Chinese-LLaMA-Alpaca",
+  "desc": "中文LLaMA&Alpaca大语言模型+本地CPU/GPU训练部署 (Chinese LLaMA & Alpaca LLMs)",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "alpaca",
+    "alpaca-2",
+    "large-language-models",
+    "llama",
+    "llama-2",
+    "llm",
+    "lora",
+    "nlp",
+    "plm",
+    "pre-trained-language-models",
+    "quantization"
+  ],
+  "history": [],
+  "weight": 18935
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "littlefs-project/littlefs",
+  "link": "https://github.com/littlefs-project/littlefs",
+  "name": "littlefs",
+  "desc": "A little fail-safe filesystem designed for microcontrollers",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "embedded",
+    "filesystem",
+    "microcontroller"
+  ],
+  "history": [],
+  "weight": 6918,
+  "image": "https://avatars.githubusercontent.com/u/60944974?v=4"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "lowdefy/lowdefy",
+  "link": "https://github.com/lowdefy/lowdefy",
+  "name": "lowdefy",
+  "desc": "Build apps that AI can generate, humans can review, and teams can maintain. Config that works between code and natural language.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "admin-panels",
+    "crud-apps",
+    "dashboards",
+    "internal-tool",
+    "internal-tools",
+    "low-code-plattform",
+    "lowdefy",
+    "nextjs",
+    "selfhosted",
+    "web-app",
+    "web-app-generator",
+    "webdev",
+    "workflow-automation",
+    "yaml"
+  ],
+  "history": [],
+  "weight": 3005,
+  "image": "https://avatars.githubusercontent.com/u/47087496?v=4"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "ammarahm-ed/react-native-actions-sheet",
+  "link": "https://github.com/ammarahm-ed/react-native-actions-sheet",
+  "name": "react-native-actions-sheet",
+  "desc": "A Cross Platform(Android, iOS & Web) ActionSheet with a flexible api, native performance for react native. Create anything you want inside ActionSheet.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "action",
+    "action-sheet",
+    "actionsheet",
+    "bottom-app-bar",
+    "bottom-drawer",
+    "bottom-sheet",
+    "dialog",
+    "drawer",
+    "expo",
+    "javascript",
+    "modal",
+    "native",
+    "picker",
+    "raw-bottom-sheet",
+    "react",
+    "react-native",
+    "react-native-web",
+    "sheet",
+    "web"
+  ],
+  "history": [],
+  "weight": 2177,
+  "image": "https://raw.githubusercontent.com/ammarahm-ed/react-native-actions-sheet/master/assets/logo.svg"
+}

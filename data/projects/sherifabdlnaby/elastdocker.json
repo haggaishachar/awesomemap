@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "sherifabdlnaby/elastdocker",
+  "link": "https://github.com/sherifabdlnaby/elastdocker",
+  "name": "elastdocker",
+  "desc": "🐳  Elastic Stack (ELK) v9+ on Docker with Compose. Pre-configured out of the box to enable Logging, Metrics, APM, Alerting, ML, and SIEM features. Up with a Single Command.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "docker",
+    "docker-compose",
+    "elasticsearch",
+    "elasticstack",
+    "elk",
+    "elk-stack",
+    "kibana",
+    "logstash",
+    "observability",
+    "siem"
+  ],
+  "history": [],
+  "weight": 2068
+}

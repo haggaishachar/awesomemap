@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "GeeeekExplorer/nano-vllm",
+  "link": "https://github.com/GeeeekExplorer/nano-vllm",
+  "name": "nano-vllm",
+  "desc": "Nano vLLM",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "deep-learning",
+    "inference",
+    "llm",
+    "nlp",
+    "pytorch",
+    "transformer"
+  ],
+  "history": [],
+  "weight": 15258,
+  "image": "https://raw.githubusercontent.com/GeeeekExplorer/nano-vllm/main/assets/logo.png"
+}

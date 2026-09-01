@@ -791,6 +791,11 @@ function formatStars(stars) {
   return Number(stars).toLocaleString("en-US");
 }
 
+/** Formats a plain repo count (forks, open issues) with thousands separators, or `"—"` when it isn't a finite number (no history snapshot captured it yet) — server-side counterpart to compare-format.js's client-side formatCount. */
+function formatCount(n) {
+  return typeof n === "number" && Number.isFinite(n) ? n.toLocaleString("en-US") : "—";
+}
+
 /** One row in the global "Top tags" list — star-ranked, no growth window involved. */
 function renderTopTagRow(entry, { basePath }) {
   const count = `${entry.projectCount} project${entry.projectCount === 1 ? "" : "s"}`;
@@ -1072,6 +1077,32 @@ export function renderProjectPage(
       </div>`
   ).join("");
 
+  // Forks/open-issue counts ride along on the latest history snapshot (see
+  // snapshot-history.mjs's buildSnapshotEntry) — same source
+  // compare-index.mjs's buildCompareRecord reads its own copy from, so a
+  // project with no history yet (and therefore no `latestSnapshot`) simply
+  // omits these two repo-stat chips rather than showing "—" placeholders.
+  const latestSnapshot = historySeries.length > 0 ? historySeries[historySeries.length - 1] : null;
+  const githubUrl = githubRepoUrl(project.id);
+  const repoStats = [
+    { label: "Stars", value: formatStars(project.weight ?? 0), href: githubUrl },
+    typeof latestSnapshot?.forks === "number"
+      ? { label: "Forks", value: formatCount(latestSnapshot.forks), href: `${githubUrl}/network/members` }
+      : null,
+    typeof latestSnapshot?.openIssues === "number"
+      ? { label: "Open issues", value: formatCount(latestSnapshot.openIssues), href: `${githubUrl}/issues` }
+      : null,
+  ].filter(Boolean);
+  const repoStatChips = repoStats
+    .map(
+      (stat) => `
+      <a class="project-repo-stat" href="${escapeHtml(stat.href)}" target="_blank" rel="noopener">
+        <span class="project-repo-stat-value">${stat.value}</span>
+        <span class="project-repo-stat-label">${stat.label}</span>
+      </a>`
+    )
+    .join("");
+
   const body = `
     ${renderSiteHeader(basePath)}
     ${renderCompareCartBootstrap(basePath)}
@@ -1086,8 +1117,9 @@ export function renderProjectPage(
     <div class="project-body">
       <div class="project-momentum-grid">${momentumChips}</div>
       ${renderProjectStarChart(historySeries)}
+      <div class="project-repo-stats">${repoStatChips}</div>
       <div class="project-links">
-        <a class="detail-panel-stars" href="${escapeHtml(githubRepoUrl(project.id))}" target="_blank" rel="noopener">★ ${formatStars(project.weight ?? 0)} stars on GitHub</a>
+        <a class="detail-panel-link" href="${escapeHtml(githubUrl)}" target="_blank" rel="noopener">View on GitHub ↗</a>
         ${project.link ? `<a class="detail-panel-link" href="${escapeHtml(project.link)}" target="_blank" rel="noopener">Visit site ↗</a>` : ""}
         <button type="button" class="detail-panel-link compare-toggle" data-compare-id="${escapeHtml(project.id)}" aria-pressed="false">+ Compare</button>
       </div>

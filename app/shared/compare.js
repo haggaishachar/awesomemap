@@ -102,27 +102,57 @@ export function mountCompare(container, { compareIndexUrl, basePath = "", initia
     return index && Object.hasOwn(index, id) ? index[id] : null;
   }
 
+  /**
+   * Builds the whole comparison as a single CSS Grid — identity cards and
+   * stat rows share one `grid-template-columns`, so a project's header
+   * card sits directly above its own stat cells instead of the two
+   * living as visually separate components that merely happen to be the
+   * same width. Each "row" (header + one per STAT_ROWS entry) is a
+   * `display: contents` wrapper — invisible as a box, but its cells still
+   * flow into the shared grid in document order, the standard way to get
+   * real HTML-table-like rows (and their `role="row"` grouping for
+   * assistive tech) out of CSS Grid. See `.compare-grid` in treemap.css
+   * for the column template and the mobile carousel (scroll-snap) rules.
+   */
   function render() {
     root.innerHTML = "";
 
+    const showAddColumn = currentIds.length < MAX_COMPARE_IDS;
+    const columnCount = currentIds.length + (showAddColumn ? 1 : 0);
+    // Zero resolved records (e.g. every id in the URL is stale) means
+    // there's nothing to tabulate either — the header row's "not found"
+    // placeholders already say so, and a stats grid with only a label
+    // column would just be noise on top of that.
+    const hasStats = currentIds.some((id) => recordFor(id));
+
+    const wrap = document.createElement("div");
+    wrap.className = "compare-grid-wrap";
+
+    const grid = document.createElement("div");
+    grid.className = "compare-grid";
+    grid.style.setProperty("--compare-columns", columnCount);
+    grid.setAttribute("role", "table");
+    grid.setAttribute("aria-label", "Project comparison");
+
     const headerRow = document.createElement("div");
-    headerRow.className = "compare-grid";
+    headerRow.className = "compare-row compare-header-row";
+    headerRow.setAttribute("role", "row");
+    headerRow.appendChild(labelCell("", { role: "columnheader", spacer: true }));
     for (const id of currentIds) {
       const record = recordFor(id);
-      headerRow.appendChild(record ? renderHeaderCell(record) : renderNotFoundColumn(id));
+      headerRow.appendChild(record ? renderHeaderCell(record) : renderNotFoundCell(id));
     }
-    if (currentIds.length < MAX_COMPARE_IDS) {
-      headerRow.appendChild(renderAddColumn());
-    }
-    root.appendChild(headerRow);
+    if (showAddColumn) headerRow.appendChild(renderAddCell());
+    grid.appendChild(headerRow);
 
-    // Nothing to tabulate with zero resolved records (e.g. every id in the
-    // URL is stale) — the header row's "not found" placeholders already say
-    // so, a stats table with only a label column and no data would just be
-    // noise on top of that.
-    if (currentIds.some((id) => recordFor(id))) {
-      root.appendChild(renderStatsTable());
+    if (hasStats) {
+      for (const row of STAT_ROWS) {
+        grid.appendChild(renderStatRow(row, { showAddColumn }));
+      }
     }
+
+    wrap.appendChild(grid);
+    root.appendChild(wrap);
   }
 
   /** Builds the `{ [id]: winning }` map for one STAT_ROWS row: the set of ids tied for the row's best value, or `null` when the row has no `winnerValue` getter, fewer than two comparable values, or every comparable value ties. */
@@ -141,52 +171,53 @@ export function mountCompare(container, { compareIndexUrl, basePath = "", initia
   }
 
   /**
-   * The row-per-stat grid: one row per STAT_ROWS entry, one column per id in
-   * `currentIds` (a "—" cell for an id that didn't resolve, so columns stay
-   * aligned with the header row above), with the best value per row
-   * highlighted. Wrapped by the caller in a horizontally-scrollable
-   * container with a sticky label column, since up to 4 project columns
-   * plus an add column don't fit a narrow viewport.
+   * One stat row: a sticky label cell followed by one cell per id in
+   * `currentIds` (a "—" cell for an id that didn't resolve, so columns
+   * stay aligned with every other row), with the row's best value(s)
+   * highlighted. `display: contents` on the returned wrapper — see
+   * `render`'s doc comment — so these cells land in the same grid
+   * columns the header cards above already occupy.
    */
-  function renderStatsTable() {
-    const wrap = document.createElement("div");
-    wrap.className = "compare-table-wrap";
+  function renderStatRow(row, { showAddColumn }) {
+    const tr = document.createElement("div");
+    tr.className = "compare-row";
+    tr.setAttribute("role", "row");
+    const winners = row.winnerValue ? winnersForRow(row.winnerValue) : null;
 
-    const table = document.createElement("table");
-    table.className = "compare-table";
-    table.setAttribute("aria-label", "Stat-by-stat comparison");
+    tr.appendChild(labelCell(row.label, { role: "rowheader" }));
 
-    const tbody = document.createElement("tbody");
-    for (const row of STAT_ROWS) {
-      const tr = document.createElement("tr");
-      const winners = row.winnerValue ? winnersForRow(row.winnerValue) : null;
-
-      const th = document.createElement("th");
-      th.scope = "row";
-      th.className = "compare-row-label";
-      th.textContent = row.label;
-      tr.appendChild(th);
-
-      for (const id of currentIds) {
-        const record = recordFor(id);
-        const td = document.createElement("td");
-        if (record) {
-          td.textContent = row.cell(record);
-          if (winners?.has(id)) td.classList.add("compare-winner");
-        } else {
-          td.textContent = "—";
-          td.className = "compare-cell-empty";
-        }
-        tr.appendChild(td);
+    for (const id of currentIds) {
+      const record = recordFor(id);
+      const td = document.createElement("div");
+      td.className = "compare-cell";
+      td.setAttribute("role", "cell");
+      if (record) {
+        td.textContent = row.cell(record);
+        if (winners?.has(id)) td.classList.add("compare-winner");
+      } else {
+        td.textContent = "—";
+        td.classList.add("compare-cell-empty");
       }
-      if (currentIds.length < MAX_COMPARE_IDS) {
-        tr.appendChild(document.createElement("td")); // keeps this row under the add column, empty since it has nothing to add
-      }
-      tbody.appendChild(tr);
+      tr.appendChild(td);
     }
-    table.appendChild(tbody);
-    wrap.appendChild(table);
-    return wrap;
+    if (showAddColumn) {
+      // Keeps this row under the add column, empty since it has nothing to add.
+      const empty = document.createElement("div");
+      empty.className = "compare-cell";
+      empty.setAttribute("role", "cell");
+      tr.appendChild(empty);
+    }
+    return tr;
+  }
+
+  /** The grid's sticky left-hand label cell — a stat's name for a stat row, or an empty spacer reserving the same column's width in the header row (see `render`). */
+  function labelCell(text, { role, spacer = false }) {
+    const cell = document.createElement("div");
+    cell.className = "compare-cell compare-label-cell";
+    cell.setAttribute("role", role);
+    if (spacer) cell.classList.add("compare-label-spacer");
+    else cell.textContent = text;
+    return cell;
   }
 
   function removeButton(id) {
@@ -212,20 +243,22 @@ export function mountCompare(container, { compareIndexUrl, basePath = "", initia
     return button;
   }
 
-  function renderNotFoundColumn(id) {
-    const column = document.createElement("div");
-    column.className = "compare-column compare-column-missing";
-    column.appendChild(removeButton(id));
+  function renderNotFoundCell(id) {
+    const cell = document.createElement("div");
+    cell.className = "compare-cell compare-column compare-column-missing";
+    cell.setAttribute("role", "columnheader");
+    cell.appendChild(removeButton(id));
     const message = document.createElement("p");
     message.textContent = `"${id}" wasn't found.`;
-    column.appendChild(message);
-    return column;
+    cell.appendChild(message);
+    return cell;
   }
 
-  /** The header row's per-project card: identity (logo, name, domain, description, tags) and outbound links. Numeric stats live in the table below, not here — see STAT_ROWS. */
+  /** The header row's per-project cell: identity (logo, name, domain, description, tags) and outbound links. Numeric stats live in the rows below, not here — see STAT_ROWS. */
   function renderHeaderCell(record) {
     const column = document.createElement("div");
-    column.className = "compare-column";
+    column.className = "compare-cell compare-column";
+    column.setAttribute("role", "columnheader");
     column.appendChild(removeButton(record.id));
 
     if (record.image) {
@@ -281,9 +314,10 @@ export function mountCompare(container, { compareIndexUrl, basePath = "", initia
     return column;
   }
 
-  function renderAddColumn() {
+  function renderAddCell() {
     const column = document.createElement("div");
-    column.className = "compare-column compare-add-column";
+    column.className = "compare-cell compare-column compare-add-column";
+    column.setAttribute("role", "columnheader");
 
     const form = document.createElement("form");
     form.className = "compare-add-form";

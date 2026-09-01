@@ -143,6 +143,36 @@ for (const domain of parsedDomains) {
   categoryGrowthBySlug[domain.slug] = rankGroups(groups);
 }
 
+// Precomputes each project's "unexpected breakout" number — how many times
+// faster it grew (7d) than its own category did over the same window —
+// reusing signal.mjs's explainSignal, the exact math a project's own detail
+// page already surfaces (Pass 4, below). Doing it here (right after
+// categoryGrowthBySlug, its only input besides each project's own growth)
+// lets the this-week's-signals pools below join it on by id, instead of
+// duplicating the category-relative math. A project curated into more than
+// one domain is attributed to whichever domain's category classification
+// this loop visits last — the same last-write-wins rule allProjectsWithDomain
+// uses below, so a project's breakout number always matches the category its
+// own /projects/ page names.
+const breakoutInfoById = new Map();
+for (const domain of parsedDomains) {
+  for (const project of domain.projects) {
+    const categoryEntry = categoryGrowthBySlug[domain.slug]?.find((category) => category.key === project.path[0]);
+    const { relativeMultiple } = explainSignal({
+      growthByWindow: project.growth,
+      hasEnoughHistory: project.hasEnoughHistory,
+      categoryGrowth7d: categoryEntry?.growth,
+      categoryName: categoryEntry?.key,
+    });
+    if (relativeMultiple !== null) breakoutInfoById.set(project.id, { relativeMultiple, categoryName: categoryEntry.key });
+  }
+}
+
+/** Joins each candidate's precomputed breakout number (if any) onto a computeLeaderboard pool, for pickThisWeeksSignals' `breakout` pick. */
+function withBreakoutInfo(pool) {
+  return pool.map((candidate) => ({ ...candidate, ...breakoutInfoById.get(candidate.id) }));
+}
+
 // Pass 2c: group projects by shared tag (GitHub topics), then rank those
 // groups by popularity and by growth — the same "how did this slice of the
 // ecosystem move" question Pass 2b already answers for categories and
@@ -260,16 +290,16 @@ for (const domain of parsedDomains) {
 // being the best percentDelta overall. A fresh, uncapped call is cheap at
 // this repo's scale and keeps LEADERBOARD_LIMIT (the /rising/ page's own
 // per-section row count) untouched.
-const globalSignalsPool = computeLeaderboard(parsedDomains, { scope: "global", windowDays: TEASER_WINDOW_DAYS, limit: Infinity });
+const globalSignalsPool = withBreakoutInfo(computeLeaderboard(parsedDomains, { scope: "global", windowDays: TEASER_WINDOW_DAYS, limit: Infinity }));
 const thisWeeksSignals = pickThisWeeksSignals(globalSignalsPool);
 
 // One more signals pick per domain, scoped the same uncapped way, so the
 // homepage's domain filter can swap to "just this domain's mover/heating
-// up/one to watch" without leaving the page — same show/hide-by-scope
+// up/one to watch/breakout" without leaving the page — same show/hide-by-scope
 // pattern /rising/'s own domain filter already uses.
 const thisWeeksSignalsByDomain = {};
 for (const domain of parsedDomains) {
-  const domainSignalsPool = computeLeaderboard(parsedDomains, { scope: domain.slug, windowDays: TEASER_WINDOW_DAYS, limit: Infinity });
+  const domainSignalsPool = withBreakoutInfo(computeLeaderboard(parsedDomains, { scope: domain.slug, windowDays: TEASER_WINDOW_DAYS, limit: Infinity }));
   thisWeeksSignalsByDomain[domain.slug] = pickThisWeeksSignals(domainSignalsPool);
 }
 

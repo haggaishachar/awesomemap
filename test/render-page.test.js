@@ -8,6 +8,7 @@ import {
   renderTagPage,
   renderProjectPage,
   renderComparePage,
+  renderSearchPage,
   renderSubmitPage,
   tagSlug,
 } from "../scripts/render-page.mjs";
@@ -1074,6 +1075,40 @@ test("renderComparePage renders a static heading and description before the moun
   assert.match(html, /<h1>Compare[^<]*<\/h1>/);
   assert.match(html, /<div id="app" class="compare-app">/);
   assert(html.indexOf("<h1>Compare") < html.indexOf('<div id="app" class="compare-app">'));
+});
+
+test("renderSearchPage mounts search.js against the compare index, prefixed by BASE_PATH", () => {
+  const html = renderSearchPage({ defaultOgImage: "/og-default.png", basePath: "/techmap" });
+  assert.match(html, /import \{ mountSearch \} from "\/techmap\/shared\/search.js"/);
+  assert.match(html, /searchIndexUrl: "\/techmap\/compare-index.json"/);
+  assert.match(html, /<div id="app" class="search-app"><\/div>/);
+});
+
+test("renderSearchPage has a site header and footer and a canonical /search/ URL", () => {
+  const html = renderSearchPage({ defaultOgImage: "/og-default.png", siteUrl: "https://awesomemap.dev", basePath: "" });
+  assert.match(html, /class="site-header"/);
+  assert.match(html, /class="site-footer"/);
+  assert.match(html, /href="https:\/\/awesomemap.dev\/search\/"/);
+});
+
+test("renderSearchPage defaults to root-relative paths when basePath is empty", () => {
+  const html = renderSearchPage({ defaultOgImage: "/og-default.png" });
+  assert.match(html, /from "\/shared\/search.js"/);
+  assert.match(html, /searchIndexUrl: "\/compare-index.json"/);
+});
+
+test("renderSearchPage renders a static heading before the mount point", () => {
+  const html = renderSearchPage({ defaultOgImage: "/og-default.png" });
+  assert.match(html, /<h1>Search projects<\/h1>/);
+  assert.match(html, /<div id="app" class="search-app">/);
+  assert(html.indexOf("<h1>Search projects") < html.indexOf('<div id="app" class="search-app">'));
+});
+
+test("renderSiteHeader (via renderSearchPage) links to /search/", () => {
+  const rootHtml = renderSearchPage({ defaultOgImage: "/og-default.png" });
+  assert.match(rootHtml, /class="site-header-search" href="\/search\/"/);
+  const prefixedHtml = renderSearchPage({ defaultOgImage: "/og-default.png", basePath: "/techmap" });
+  assert.match(prefixedHtml, /class="site-header-search" href="\/techmap\/search\/"/);
 });
 
 test("renderSubmitPage lists every domain's short name as a target-map option", () => {

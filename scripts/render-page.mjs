@@ -348,7 +348,10 @@ function renderDomainQuicklinks(domains, basePath) {
  * on an answer ("AI is moving fastest this week") instead of an alphabetical
  * index. Untracked domains sort last — see `rankGroups`.
  */
-export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", basePath = "", signals = {}, momentumWindowDays = RISING_WINDOWS_DAYS[0] }) {
+export function renderLandingPage(
+  domains,
+  { defaultOgImage, siteUrl = "", basePath = "", signals = {}, signalsByDomain = {}, momentumWindowDays = RISING_WINDOWS_DAYS[0] }
+) {
   const rankedDomains = rankGroups(
     domains.map((domain) => ({
       key: domain.slug,
@@ -376,7 +379,7 @@ export function renderLandingPage(domains, { defaultOgImage, siteUrl = "", baseP
         </a>`;
     })
     .join("");
-  const signalsSection = renderThisWeeksSignals(signals, { basePath });
+  const signalsSection = renderThisWeeksSignals(signals, { basePath, domains, signalsByDomain });
   const websiteJsonLd = renderJsonLd(
     buildWebsiteJsonLd({
       name: "awesomemap",
@@ -514,13 +517,15 @@ function renderSignalCard({ label, title, stat, meta, href, compareId }) {
 }
 
 /**
- * Renders the landing page's "This week's signals" module — up to three
- * cards (biggest mover, heating-up project, one-to-watch) built from
- * `pickThisWeeksSignals`'s output (see this-weeks-signals.mjs). Any signal
- * that's `null` (no qualifying candidate yet) is skipped; the whole section
- * is omitted when none qualify, rather than rendering an empty shell.
+ * Renders one scope's up to-three cards (biggest mover, heating-up project,
+ * one-to-watch) built from a `pickThisWeeksSignals` result — either the
+ * global pool or a single domain's. Any signal that's `null` (no qualifying
+ * candidate yet) is skipped. Falls back to the same not-enough-history
+ * message `renderRisingRows` uses, rather than rendering an empty grid, so
+ * switching the domain filter to a domain without enough history yet
+ * doesn't just leave blank space.
  */
-function renderThisWeeksSignals({ mover, heatingUp, watch } = {}, { basePath }) {
+function renderSignalCards({ mover, heatingUp, watch } = {}, { basePath }) {
   const cards = [
     mover &&
       renderSignalCard({
@@ -551,13 +556,76 @@ function renderThisWeeksSignals({ mover, heatingUp, watch } = {}, { basePath }) 
       }),
   ].filter(Boolean);
 
-  if (cards.length === 0) return "";
+  if (cards.length === 0) {
+    return `<p class="signals-empty">Not enough star-history yet for this window.</p>`;
+  }
+  return `<div class="signals-grid">${cards.join("")}</div>`;
+}
+
+/**
+ * Renders the landing page's "This week's signals" module: a domain filter
+ * bar (mirroring the one on `/rising/` — swapping which pre-rendered scope
+ * is visible client-side rather than navigating away), the global "All
+ * domains" cards plus one hidden card-set per domain from
+ * `signalsByDomain`, and a link to the full `/rising/` leaderboard. The
+ * whole section is omitted when neither the global scope nor any domain has
+ * a qualifying signal yet, rather than rendering an empty shell.
+ */
+function renderThisWeeksSignals(signals = {}, { basePath, domains = [], signalsByDomain = {} }) {
+  const hasSignal = (s) => Boolean(s?.mover || s?.heatingUp || s?.watch);
+  if (!hasSignal(signals) && !domains.some((domain) => hasSignal(signalsByDomain[domain.slug]))) return "";
+
+  const domainFilterBar =
+    domains.length > 0
+      ? `
+    <div class="signals-domain-filter" role="group" aria-label="Filter this week's signals by domain">
+      <button type="button" class="signals-domain-button signals-domain-button-active" data-domain="all">All</button>
+      ${domains
+        .map(
+          (domain) =>
+            `<button type="button" class="signals-domain-button" data-domain="${escapeHtml(domain.slug)}">${escapeHtml(domain.shortName ?? domain.name)}</button>`
+        )
+        .join("")}
+    </div>`
+      : "";
+
+  const scopes = [
+    `<div class="signals-scope" data-signals-scope="all">${renderSignalCards(signals, { basePath })}</div>`,
+    ...domains.map(
+      (domain) =>
+        `<div class="signals-scope" data-signals-scope="${escapeHtml(domain.slug)}" hidden>${renderSignalCards(signalsByDomain[domain.slug], { basePath })}</div>`
+    ),
+  ].join("");
+
+  // Same show/hide-by-id approach as /rising/'s domain filter (see
+  // renderRisingPage) — every scope is pre-rendered at build time, so
+  // switching domains never re-fetches or recomputes anything client-side.
+  const filterScript =
+    domains.length > 0
+      ? `
+    <script>
+      document.querySelectorAll(".signals-domain-filter button").forEach((button) => {
+        button.addEventListener("click", () => {
+          const selected = button.dataset.domain;
+          document.querySelectorAll(".signals-domain-filter button").forEach((b) => {
+            b.classList.toggle("signals-domain-button-active", b === button);
+          });
+          document.querySelectorAll(".this-weeks-signals [data-signals-scope]").forEach((el) => {
+            el.hidden = el.dataset.signalsScope !== selected;
+          });
+        });
+      });
+    </script>`
+      : "";
 
   return `
     <section class="this-weeks-signals">
       <h2 class="this-weeks-signals-heading">This week's signals</h2>
-      <div class="signals-grid">${cards.join("")}</div>
-    </section>`;
+      ${domainFilterBar}
+      ${scopes}
+      <a class="this-weeks-signals-link" href="${basePath}/rising/">See full leaderboard →</a>
+    </section>
+    ${filterScript}`;
 }
 
 /**

@@ -497,6 +497,68 @@ test("renderLandingPage defaults to no this-week's-signals section when the opti
   assert.doesNotMatch(html, /this-weeks-signals/);
 });
 
+test("renderLandingPage's this-week's-signals section links to the full /rising/ leaderboard, prefixed by BASE_PATH", () => {
+  const signals = { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, heatingUp: null, watch: null };
+  const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], {
+    defaultOgImage: "/og-default.png",
+    basePath: "/techmap",
+    signals,
+  });
+  assert.match(html, /<a class="this-weeks-signals-link" href="\/techmap\/rising\/">See full leaderboard →<\/a>/);
+});
+
+test("renderLandingPage's this-week's-signals section renders a domain filter bar, defaulting to \"All\" active and every domain's cards hidden", () => {
+  const signals = { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, heatingUp: null, watch: null };
+  const domains = [
+    { slug: "data-science", name: "Data Science", shortName: "Data Science", description: "desc" },
+    { slug: "security", name: "Security", shortName: "Security", description: "desc" },
+  ];
+  const html = renderLandingPage(domains, { defaultOgImage: "/og-default.png", signals });
+  assert.match(html, /<button type="button" class="signals-domain-button signals-domain-button-active" data-domain="all">All<\/button>/);
+  assert.match(html, /<button type="button" class="signals-domain-button" data-domain="data-science">Data Science<\/button>/);
+  assert.match(html, /<button type="button" class="signals-domain-button" data-domain="security">Security<\/button>/);
+  assert.match(html, /<div class="signals-scope" data-signals-scope="all">/);
+  assert.match(html, /<div class="signals-scope" data-signals-scope="data-science" hidden>/);
+  assert.match(html, /<div class="signals-scope" data-signals-scope="security" hidden>/);
+});
+
+test("renderLandingPage renders a domain's own this-week's-signals cards from signalsByDomain, inside that domain's hidden scope", () => {
+  const signals = { mover: null, heatingUp: null, watch: null };
+  const signalsByDomain = {
+    security: { mover: { id: "s/s", name: "Project S", domainShort: "Security", starDelta: 100, percentDelta: 10 }, heatingUp: null, watch: null },
+  };
+  const domains = [{ slug: "security", name: "Security", shortName: "Security", description: "desc" }];
+  const html = renderLandingPage(domains, { defaultOgImage: "/og-default.png", signals, signalsByDomain });
+  assert.match(html, /<div class="signals-scope" data-signals-scope="security" hidden>[\s\S]*?Project S[\s\S]*?<\/div>/);
+});
+
+test("renderLandingPage's this-week's-signals section falls back to a not-enough-history message for a domain scope with no qualifying signal", () => {
+  const signals = { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, heatingUp: null, watch: null };
+  const domains = [{ slug: "security", name: "Security", shortName: "Security", description: "desc" }];
+  const html = renderLandingPage(domains, { defaultOgImage: "/og-default.png", signals });
+  assert.match(html, /<div class="signals-scope" data-signals-scope="security" hidden><p class="signals-empty">Not enough star-history yet for this window\.<\/p><\/div>/);
+});
+
+test("renderLandingPage omits the domain filter bar and per-domain scopes when no domains are passed", () => {
+  const signals = { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, heatingUp: null, watch: null };
+  const html = renderLandingPage([], { defaultOgImage: "/og-default.png", signals });
+  assert.doesNotMatch(html, /signals-domain-filter/);
+  assert.match(html, /<a class="this-weeks-signals-link" href="\/rising\/">See full leaderboard →<\/a>/);
+});
+
+test("renderLandingPage still renders the this-week's-signals section when only a domain (not the global scope) has a qualifying signal", () => {
+  const signalsByDomain = {
+    security: { mover: { id: "s/s", name: "Project S", domainShort: "Security", starDelta: 100, percentDelta: 10 }, heatingUp: null, watch: null },
+  };
+  const domains = [{ slug: "security", name: "Security", shortName: "Security", description: "desc" }];
+  const html = renderLandingPage(domains, {
+    defaultOgImage: "/og-default.png",
+    signals: { mover: null, heatingUp: null, watch: null },
+    signalsByDomain,
+  });
+  assert.match(html, /<section class="this-weeks-signals">/);
+});
+
 test("renderLandingPage's hero includes a quick-jump link per domain, using its short name", () => {
   const domains = [
     { slug: "artificial-intelligence", name: "Best Artificial Intelligence Open Source Projects", shortName: "AI", description: "desc" },

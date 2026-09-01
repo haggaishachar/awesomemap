@@ -262,6 +262,17 @@ for (const domain of parsedDomains) {
 // per-section row count) untouched.
 const globalSignalsPool = computeLeaderboard(parsedDomains, { scope: "global", windowDays: TEASER_WINDOW_DAYS, limit: Infinity });
 const thisWeeksSignals = pickThisWeeksSignals(globalSignalsPool);
+
+// One more signals pick per domain, scoped the same uncapped way, so the
+// homepage's domain filter can swap to "just this domain's mover/heating
+// up/one to watch" without leaving the page — same show/hide-by-scope
+// pattern /rising/'s own domain filter already uses.
+const thisWeeksSignalsByDomain = {};
+for (const domain of parsedDomains) {
+  const domainSignalsPool = computeLeaderboard(parsedDomains, { scope: domain.slug, windowDays: TEASER_WINDOW_DAYS, limit: Infinity });
+  thisWeeksSignalsByDomain[domain.slug] = pickThisWeeksSignals(domainSignalsPool);
+}
+
 writeFileSync(
   `${DIST_DIR}/index.html`,
   renderLandingPage(domains, {
@@ -269,6 +280,7 @@ writeFileSync(
     siteUrl: SITE_URL,
     basePath: BASE_PATH,
     signals: thisWeeksSignals,
+    signalsByDomain: thisWeeksSignalsByDomain,
     momentumWindowDays: MOMENTUM_WINDOW_DAYS,
   })
 );

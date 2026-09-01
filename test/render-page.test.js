@@ -997,6 +997,26 @@ test("renderProjectPage renders a star-history sparkline when given at least two
   assert.doesNotMatch(withoutHistory, /class="detail-panel-star-chart"/);
 });
 
+test("renderProjectPage renders forks/open-issues chips from the latest history snapshot, and omits them when it lacks that data", () => {
+  const withSnapshot = renderProjectPage(PROJECT, {
+    domain: PROJECT_DOMAIN,
+    signal: NO_SIGNAL,
+    defaultOgImage: "/og-default.png",
+    historySeries: [
+      { date: "2026-08-01", stars: 120000, forks: 17000, openIssues: 340 },
+      { date: "2026-08-08", stars: 125701, forks: 17420, openIssues: 356 },
+    ],
+  });
+  assert.match(withSnapshot, /class="project-repo-stat-value">17,420<\/span>\s*<span class="project-repo-stat-label">Forks/);
+  assert.match(withSnapshot, /class="project-repo-stat-value">356<\/span>\s*<span class="project-repo-stat-label">Open issues/);
+  assert.match(withSnapshot, /href="https:\/\/github\.com\/ggerganov\/llama\.cpp\/network\/members"/);
+  assert.match(withSnapshot, /href="https:\/\/github\.com\/ggerganov\/llama\.cpp\/issues"/);
+
+  const withoutSnapshot = renderProjectPage(PROJECT, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
+  assert.doesNotMatch(withoutSnapshot, /Forks/);
+  assert.doesNotMatch(withoutSnapshot, /Open issues/);
+});
+
 test("renderProjectPage degrades gracefully for a minimal project record with only an id", () => {
   const minimal = { id: "a/b" };
   const html = renderProjectPage(minimal, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png", basePath: "" });

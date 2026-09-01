@@ -53,6 +53,12 @@ function renderSiteHeader(basePath) {
     <header class="site-header">
       <a class="site-header-brand" href="${basePath}/">awesomemap</a>
       <div class="site-header-links">
+        <a class="site-header-search" href="${basePath}/search/" aria-label="Search projects">
+          <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+            <path fill="none" stroke="currentColor" stroke-width="1.5" d="M11.5 6.75a4.75 4.75 0 1 1-9.5 0 4.75 4.75 0 0 1 9.5 0Z"/>
+            <path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" d="M10.4 10.4 14 14"/>
+          </svg>
+        </a>
         <a class="site-header-rising" href="${basePath}/rising/">Rising</a>
         <a class="site-header-tags" href="${basePath}/tags/">Tags</a>
         <a class="site-header-compare" id="site-header-compare" href="${basePath}/compare/">Compare</a>
@@ -1150,6 +1156,52 @@ export function renderComparePage({ defaultOgImage, siteUrl = "", basePath = "" 
     title: "Compare projects — awesomemap",
     ogTitle: "Compare projects — awesomemap",
     ogDescription: "Compare stars, growth, and momentum across up to four open-source projects side by side.",
+    ogImage: defaultOgImage,
+    ogUrl,
+    base: basePath,
+    body,
+  });
+}
+
+/**
+ * Renders the /search/ page's static shell. Like /compare/, this shell
+ * carries no project data of its own — the actual filtering happens
+ * client-side (search.js) against dist/compare-index.json, the same
+ * cross-domain index /compare/ already ships, reused here rather than
+ * building a second one. Generic OG copy, since a static build can't know
+ * the query string in advance.
+ */
+export function renderSearchPage({ defaultOgImage, siteUrl = "", basePath = "" } = {}) {
+  const ogUrl = `${siteUrl}${basePath}/search/`;
+  const searchIndexUrl = `${basePath}/compare-index.json`;
+  const body = `
+    ${renderSiteHeader(basePath)}
+    ${renderCompareCartBootstrap(basePath)}
+    <header class="rising-hero">
+      <h1>Search projects</h1>
+      <p class="rising-hero-tagline">Find any project across every awesomemap domain by name, tag, or description.</p>
+    </header>
+    <div id="app" class="search-app"></div>
+    <script type="module">
+      import { mountSearch } from "${basePath}/shared/search.js";
+      const params = new URLSearchParams(location.search);
+      const initialQuery = params.get("q") ?? "";
+      mountSearch(document.getElementById("app"), {
+        searchIndexUrl: "${searchIndexUrl}",
+        basePath: "${basePath}",
+        initialQuery,
+        onQueryChange: (query) => {
+          const url = location.pathname + (query ? "?q=" + encodeURIComponent(query) : "");
+          history.replaceState(null, "", url);
+        },
+      });
+    </script>
+    ${renderSiteFooter()}
+  `;
+  return renderShell({
+    title: "Search projects — awesomemap",
+    ogTitle: "Search projects — awesomemap",
+    ogDescription: "Search every open-source project tracked across awesomemap's domains by name, tag, or description.",
     ogImage: defaultOgImage,
     ogUrl,
     base: basePath,

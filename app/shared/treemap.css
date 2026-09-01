@@ -41,6 +41,12 @@ body {
   font-family: system-ui, sans-serif;
   background: var(--color-bg);
   color: var(--color-text);
+  /* Safety net: no page section is meant to be wider than the viewport
+     (the treemap stage and every content column already cap their own
+     width). If one ever does overflow — as the unwrapped nav links did on
+     mobile — this stops it from turning into page-wide horizontal scroll
+     rather than papering over the section that overflowed. */
+  overflow-x: hidden;
 }
 
 .treemap-stage {
@@ -706,6 +712,15 @@ a.momentum-row-name:hover {
   gap: 10px;
 }
 
+.site-header-search {
+  display: flex;
+  color: var(--color-text-muted);
+}
+
+.site-header-search:hover {
+  color: var(--color-text);
+}
+
 .site-header-github {
   display: flex;
   color: var(--color-text-muted);
@@ -718,6 +733,29 @@ a.momentum-row-name:hover {
 .site-header-stars {
   display: block;
   border-radius: 3px;
+}
+
+/* Below this, the header's links (Search, Rising, Tags, Compare, Suggest a
+   project, GitHub, stars badge) no longer fit in one row — left unwrapped,
+   the row overflows its container and the whole page gains a horizontal
+   scrollbar, which reads as "the nav bar slides right" on a phone. Wrapping
+   the links onto as many rows as needed (instead of scrolling or clipping
+   them) keeps every link reachable without hiding navigation. */
+@media (max-width: 640px) {
+  .site-header {
+    flex-wrap: wrap;
+    row-gap: 8px;
+  }
+
+  .site-header-links {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  /* Decorative, not navigation — first to go when space is tight. */
+  .site-header-stars {
+    display: none;
+  }
 }
 
 .site-footer {
@@ -1391,4 +1429,139 @@ a.momentum-row-name:hover {
   font-size: 12px;
   color: var(--color-text-muted);
   margin: 12px 0 0;
+}
+
+/* /search/ page — a single search box over dist/compare-index.json (the
+   same cross-domain index /compare/ uses), rows styled after
+   .rising-row-list, with a star count in place of the rank/arrow/delta a
+   leaderboard row shows. */
+.search-app {
+  max-width: 700px;
+  margin: 0 auto 48px;
+  padding: 0 24px;
+}
+
+.search-box {
+  margin-bottom: 12px;
+}
+
+.search-input {
+  width: 100%;
+  box-sizing: border-box;
+  font: inherit;
+  color: inherit;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+
+.search-status {
+  margin: 0 0 12px;
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.search-rows-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.search-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--color-border);
+  font-size: 13px;
+}
+
+.search-row:last-child {
+  border-bottom: none;
+}
+
+.search-row-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+.search-row-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.search-row-title-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.search-row-name {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.search-row-domain {
+  font-size: 11px;
+  color: var(--color-text-muted);
+  background: var(--color-accent-soft);
+  border-radius: 999px;
+  padding: 2px 8px;
+  max-width: 90px;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.search-row-stars {
+  flex-shrink: 0;
+  margin-left: auto;
+  color: var(--color-text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.search-row-desc {
+  margin: 2px 0 0;
+  color: var(--color-text-muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.search-row-compare {
+  flex-shrink: 0;
+  font-size: 12px;
+  padding: 2px 10px;
+}
+
+@media (max-width: 480px) {
+  .search-row-compare {
+    display: none;
+  }
+}
+
+.search-empty {
+  padding: 24px;
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 13px;
+}
+
+.search-empty-link {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: 600;
 }

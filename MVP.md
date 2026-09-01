@@ -1,7 +1,7 @@
 # MVP
 
 The current, curated slice of [`product.md`](product.md)'s backlog: the
-five items judged most important to ship next, in priority order. Unlike
+four items judged most important to ship next, in priority order. Unlike
 `product.md` — an ongoing, non-committal idea list — this file is a
 commitment-shaped shortlist; when an item ships, move it to `product.md`'s
 Shipped section and drop it from here rather than checking it off in place.
@@ -34,17 +34,7 @@ Shipped section and drop it from here rather than checking it off in place.
    alongside "This week's signals," so a visitor can answer "what's hot"
    at the ecosystem level, not just the single-project level.
 
-4. **[ ] Improve compare side-by-side.** `app/shared/compare.js` currently
-   renders one full vertical stat card per project, laid out as sibling
-   columns that each repeat the same Stars/7d/30d/90d-growth/Forks/Open-issues
-   sequence — not a genuine row-aligned table, so there's no way to scan
-   "who's winning on 30d growth" across projects at a glance, and no
-   highlighting of the best value per stat. Restructure into a real
-   row-per-stat grid with a winner highlight, and tighten the layout for
-   narrow viewports, building on the compare-index.json/compare-cart
-   plumbing that already shipped.
-
-5. **[ ] Project page: add forks, issues, etc.** `buildSnapshotEntry`
+4. **[ ] Project page: add forks, issues, etc.** `buildSnapshotEntry`
    (`scripts/snapshot-history.mjs`) already captures `forks` and
    `openIssues` in every daily snapshot, and the compare view already
    displays them (`compare.js`'s "Forks"/"Open issues" stat rows) — but

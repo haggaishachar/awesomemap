@@ -328,17 +328,6 @@ function renderTagWidget(topTags, risingTags, { basePath, windowDays, limit = 8 
     </section>`;
 }
 
-/** Renders a compact nav strip of short domain names, each jumping straight to that domain's filtered Rising leaderboard — a fast path for visitors who already know where they're headed, complementing the fuller `.map-grid` cards below. `domains` is `[{ slug, name, shortName }]`. */
-function renderDomainQuicklinks(domains, basePath) {
-  const links = domains
-    .map(
-      (domain) => `
-        <a class="domain-quicklink" href="${basePath}/rising/#${escapeHtml(domain.slug)}" title="${escapeHtml(domain.name)}">${escapeHtml(domain.shortName ?? domain.name)}</a>`
-    )
-    .join("");
-  return `<nav class="domain-quicklinks" aria-label="Jump to a domain">${links}</nav>`;
-}
-
 /**
  * Renders the landing page listing every domain. `domains` is an array of
  * { slug, name, shortName, description, growth } where `growth` is that
@@ -401,7 +390,6 @@ export function renderLandingPage(
       <div class="hero-content">
         <h1>awesomemap</h1>
         <p class="hero-tagline">What's taking off in open source — spotted by growth, not just stars.</p>
-        ${renderDomainQuicklinks(domains, basePath)}
       </div>
     </header>
     ${signalsSection}

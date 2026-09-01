@@ -559,18 +559,13 @@ test("renderLandingPage still renders the this-week's-signals section when only 
   assert.match(html, /<section class="this-weeks-signals">/);
 });
 
-test("renderLandingPage's hero includes a quick-jump link per domain, using its short name", () => {
+test("renderLandingPage's hero no longer duplicates a per-domain quick-jump strip now that this-week's-signals has its own domain filter", () => {
   const domains = [
     { slug: "artificial-intelligence", name: "Best Artificial Intelligence Open Source Projects", shortName: "AI", description: "desc" },
     { slug: "security", name: "Best Security Open Source Projects", shortName: "Security", description: "desc" },
   ];
   const html = renderLandingPage(domains, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
-  assert.match(
-    html,
-    /<a class="domain-quicklink" href="\/techmap\/rising\/#artificial-intelligence" title="Best Artificial Intelligence Open Source Projects">AI<\/a>/
-  );
-  assert.match(html, /<a class="domain-quicklink" href="\/techmap\/rising\/#security" title="Best Security Open Source Projects">Security<\/a>/);
-  assert.ok(html.indexOf('class="domain-quicklinks"') < html.indexOf('class="map-grid"'));
+  assert.doesNotMatch(html, /domain-quicklink/);
 });
 
 test("every page type emits a plain meta description matching its og:description", () => {

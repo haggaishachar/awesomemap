@@ -83,9 +83,9 @@ see Shipped, at the end of this file.
 - [ ] Site-wide copy pass toward heat/momentum/discovery language, e.g.
       "🔥 What's heating up" instead of "Rising stars," "🗺 Explore the
       ecosystems" instead of "Explore the maps." Low-effort, and ties
-      together every item above into one consistent voice. `MVP.md` item
-      #4 (renaming "Today's signals" to "This week's signals") is the
-      first slice of this.
+      together every item above into one consistent voice. Renaming
+      "Today's signals" to "This week's signals" was the first slice of
+      this (see Shipped).
 - [ ] Longer-term: personalized tracking — "follow" a domain/category/tag
       and get a "N things changed since your last visit" digest. No
       accounts or persistence exist today; sequence this after search and
@@ -221,11 +221,22 @@ net if the daily jobs that feed it go quiet.
       row alignment on mobile, exactly where a comparison table needs it
       most.
       _Done 2026-09-01: MVP item 4 ("Improve compare side-by-side")._
+- [x] Renamed the homepage's "Today's signals" module to "This week's
+      signals," matching its own card copy (e.g. "+643 stars (+0.4%) this
+      week") and the README's "This week's biggest risers" language: the
+      heading and CSS classes (`.todays-signals` → `.this-weeks-signals`,
+      `.todays-signals-heading` → `.this-weeks-signals-heading`), the
+      render function (`renderTodaysSignals` → `renderThisWeeksSignals`),
+      and the module itself (`scripts/todays-signals.mjs` →
+      `scripts/this-weeks-signals.mjs`, `pickTodaysSignals` →
+      `pickThisWeeksSignals`). First slice of the "site-wide copy pass
+      toward heat/momentum language" item above.
+      _Done 2026-09-01: MVP item 1 (the "This week's signals" rename)._
 - [x] "+ Compare" toggle on every remaining surface that lists individual
       projects — it already covered the detail panel, project pages,
       Rising rows, and tag-page rows; this closed the last gap, the
-      landing page's "Today's signals" cards (`renderSignalCard`, fed by
-      `pickTodaysSignals`). `renderSignalCard`'s outer element changed
+      landing page's "This week's signals" cards (`renderSignalCard`, fed
+      by `pickThisWeeksSignals`). `renderSignalCard`'s outer element changed
       from a single `<a>` to a `<div>` wrapping an inner
       `<a class="signal-card-link">` (the navigable content) plus a
       sibling `compare-toggle` button — avoids nesting a `<button>`
@@ -295,15 +306,16 @@ net if the daily jobs that feed it go quiet.
       by fork/contributor movement) remains the separate "statistical
       anomaly detection" item below, still unbuilt._
 - [x] Rewrite the homepage hero around outcome/discovery, paired with a
-      "today's signals" teaser (biggest single-project mover, a heating-up
-      ecosystem, a small high-acceleration project to watch) ahead of the
-      domain grid.
+      "this week's signals" teaser (biggest single-project mover, a
+      heating-up ecosystem, a small high-acceleration project to watch)
+      ahead of the domain grid.
       _Done 2026-08-28: `hero-tagline` in `scripts/render-page.mjs` now reads
       "What's taking off in open source — spotted by growth, not just
       stars." The old "Rising this week" teaser on the landing page is
-      replaced by a new `todays-signals` module (`renderTodaysSignals`) fed
-      by a new `scripts/todays-signals.mjs` (`pickTodaysSignals`), reusing
-      an uncapped global leaderboard pool (`computeVelocity`/
+      replaced by a new `this-weeks-signals` module (`renderThisWeeksSignals`)
+      fed by a new `scripts/this-weeks-signals.mjs` (`pickThisWeeksSignals`,
+      renamed from `todays-signals.mjs`/`pickTodaysSignals` by MVP item 1 on
+      2026-09-01), reusing an uncapped global leaderboard pool (`computeVelocity`/
       `computeLeaderboard` now also carry each candidate's `currentStars`)
       plus the same domain-growth ranking the map cards already use. Each
       of the three cards is omitted individually when no candidate

@@ -1011,14 +1011,14 @@ a.momentum-row-name:hover {
   text-decoration: underline;
 }
 
-.todays-signals {
+.this-weeks-signals {
   box-sizing: border-box;
   max-width: 960px;
   margin: 0 auto 32px;
   padding: 0 24px;
 }
 
-.todays-signals-heading {
+.this-weeks-signals-heading {
   font-size: 15px;
   margin: 0 0 12px;
   color: var(--color-text-muted);

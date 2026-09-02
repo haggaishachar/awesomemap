@@ -22,3 +22,4 @@ Shipped section and drop it from here rather than checking it off in place.
    week") using math the codebase already has, surfaced on the homepage
    alongside "This week's signals," so a visitor can answer "what's hot"
    at the ecosystem level, not just the single-project level.
+

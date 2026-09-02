@@ -5,6 +5,7 @@ import { renderDomainPage, renderLandingPage, renderRisingPage, renderTagsIndexP
 import { buildCompareRecord, buildCompareIndex } from "./compare-index.mjs";
 import { explainSignal } from "./signal.mjs";
 import { sortedHistory } from "../app/shared/star-history.js";
+import { sortedEvents } from "./project-events.mjs";
 import { computeProjectSizing, findInvalidSizes, RISING_WINDOWS_DAYS } from "./velocity.mjs";
 import { computeLeaderboard } from "./leaderboard.mjs";
 import { computeGroupGrowth, rankGroups } from "./group-growth.mjs";
@@ -378,6 +379,7 @@ for (const project of allProjectsWithDomain) {
     categoryName: categoryEntry?.key,
   });
   const historySeries = sortedHistory(project.history);
+  const eventsSeries = sortedEvents(project.events);
   compareRecords.push(buildCompareRecord(project, { historySeries, signalHeadline: signal.headline }));
 
   // `allProjectsWithDomain` already carries `domainSlug`/`domainShort`
@@ -391,6 +393,7 @@ for (const project of allProjectsWithDomain) {
       domain: { slug: project.domainSlug, shortName: project.domainShort },
       signal,
       historySeries,
+      eventsSeries,
       defaultOgImage: DEFAULT_OG_IMAGE,
       siteUrl: SITE_URL,
       basePath: BASE_PATH,

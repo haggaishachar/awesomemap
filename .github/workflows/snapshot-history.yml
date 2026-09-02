@@ -24,6 +24,7 @@ jobs:
           node-version: 20
       - run: npm ci
       - run: node scripts/snapshot-history.mjs
+      - run: node scripts/snapshot-events.mjs
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

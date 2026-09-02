@@ -7,6 +7,7 @@ import {
   sortedHistory,
   buildSparklinePath,
   starHistoryCaption,
+  formatEventDate,
 } from "../app/shared/star-history.js";
 
 test("githubRepoUrl builds a direct link from an owner/repo id", () => {
@@ -103,4 +104,8 @@ test("starHistoryCaption summarizes the first-to-last change with a short start 
     { date: "2026-08-13", stars: 1240 },
   ];
   assert.equal(starHistoryCaption(series), "1,180 → 1,240 stars since Aug 8");
+});
+
+test("formatEventDate includes the year, unlike formatShortDate's month/day-only", () => {
+  assert.equal(formatEventDate("2025-08-08"), "Aug 8, 2025");
 });

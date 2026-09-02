@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { RISING_WINDOWS_DAYS } from "./velocity.mjs";
 import { rankGroups } from "./group-growth.mjs";
 import { buildWebsiteJsonLd, buildItemListJsonLd, buildSoftwareSourceCodeJsonLd } from "./seo.mjs";
-import { githubRepoUrl, buildSparklinePath, starHistoryCaption } from "../app/shared/star-history.js";
+import { githubRepoUrl, buildSparklinePath, starHistoryCaption, formatEventDate } from "../app/shared/star-history.js";
 
 const TEMPLATE = readFileSync(new URL("../app/index.html.template", import.meta.url), "utf8");
 
@@ -1044,6 +1044,48 @@ function renderProjectTagChips(tags, basePath) {
   return `<div class="detail-panel-tags">${chips}</div>`;
 }
 
+const EVENTS_TIMELINE_LIMIT = 20;
+const EVENT_TYPE_LABELS = { hn: "HN", release: "Release" };
+
+/**
+ * Server-rendered chronological timeline of external events (HN
+ * discussions, GitHub releases) for a project page — the "why did this
+ * grow" companion to the star-history sparkline above it. `eventsSeries`
+ * is `project-events.mjs`'s `sortedEvents` output (oldest-first, mirroring
+ * `historySeries`'s convention); rendered newest-first here, like a
+ * changelog, and capped to the most recent `EVENTS_TIMELINE_LIMIT` — only
+ * the rendered slice is capped, `events` itself is never pruned (see
+ * scripts/snapshot-events.mjs). Renders nothing for a project with no
+ * recorded events yet, same "nothing to show" convention as
+ * `renderProjectStarChart`.
+ */
+function renderProjectEventsTimeline(eventsSeries) {
+  if (!Array.isArray(eventsSeries) || eventsSeries.length === 0) return "";
+  const rows = [...eventsSeries]
+    .reverse()
+    .slice(0, EVENTS_TIMELINE_LIMIT)
+    .map((event) => {
+      const label = EVENT_TYPE_LABELS[event.type] ?? event.type;
+      const points =
+        typeof event.points === "number"
+          ? `<span class="project-event-points">${formatCount(event.points)} pts</span>`
+          : "";
+      return `
+      <li class="project-event">
+        <span class="project-event-type project-event-type-${escapeHtml(event.type)}">${escapeHtml(label)}</span>
+        <a class="project-event-title" href="${escapeHtml(event.url)}" target="_blank" rel="noopener">${escapeHtml(event.title)}</a>
+        <span class="project-event-date">${escapeHtml(formatEventDate(event.date))}</span>
+        ${points}
+      </li>`;
+    })
+    .join("");
+  return `
+    <div class="project-events">
+      <h2 class="project-events-heading">Timeline</h2>
+      <ul class="project-events-list">${rows}</ul>
+    </div>`;
+}
+
 /**
  * Renders one project's canonical page — the shareable, indexable home for
  * a project that today only exists as ephemeral detail-panel state inside
@@ -1057,7 +1099,7 @@ function renderProjectTagChips(tags, basePath) {
  */
 export function renderProjectPage(
   project,
-  { domain, signal = {}, historySeries = [], defaultOgImage, siteUrl = "", basePath = "" }
+  { domain, signal = {}, historySeries = [], eventsSeries = [], defaultOgImage, siteUrl = "", basePath = "" }
 ) {
   const ogUrl = `${siteUrl}${basePath}/projects/${project.id}/`;
   const jsonLd = renderJsonLd(
@@ -1118,6 +1160,7 @@ export function renderProjectPage(
       <div class="project-momentum-grid">${momentumChips}</div>
       ${renderProjectStarChart(historySeries)}
       <div class="project-repo-stats">${repoStatChips}</div>
+      ${renderProjectEventsTimeline(eventsSeries)}
       <div class="project-links">
         <a class="detail-panel-link" href="${escapeHtml(githubUrl)}" target="_blank" rel="noopener">View on GitHub ↗</a>
         ${project.link ? `<a class="detail-panel-link" href="${escapeHtml(project.link)}" target="_blank" rel="noopener">Visit site ↗</a>` : ""}

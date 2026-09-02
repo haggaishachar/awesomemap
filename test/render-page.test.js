@@ -1017,6 +1017,28 @@ test("renderProjectPage renders forks/open-issues chips from the latest history 
   assert.doesNotMatch(withoutSnapshot, /Open issues/);
 });
 
+test("renderProjectPage renders an events timeline newest-first, and omits the section entirely when there are no events", () => {
+  const withEvents = renderProjectPage(PROJECT, {
+    domain: PROJECT_DOMAIN,
+    signal: NO_SIGNAL,
+    defaultOgImage: "/og-default.png",
+    eventsSeries: [
+      { date: "2026-07-01", type: "hn", title: "Show HN: llama.cpp", url: "https://hn/1", points: 312 },
+      { date: "2026-08-07", type: "release", title: "v2.0", url: "https://gh/releases/v2.0", points: null },
+    ],
+  });
+  // Newest-first: the release (Aug) appears before the HN post (Jul).
+  const releaseIndex = withEvents.indexOf("v2.0");
+  const hnIndex = withEvents.indexOf("Show HN: llama.cpp");
+  assert.ok(releaseIndex >= 0 && hnIndex >= 0 && releaseIndex < hnIndex);
+  assert.match(withEvents, /href="https:\/\/hn\/1"/);
+  assert.match(withEvents, /312 pts/);
+  assert.match(withEvents, /Aug 7, 2026/);
+
+  const withoutEvents = renderProjectPage(PROJECT, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
+  assert.doesNotMatch(withoutEvents, /class="project-events"/);
+});
+
 test("renderProjectPage degrades gracefully for a minimal project record with only an id", () => {
   const minimal = { id: "a/b" };
   const html = renderProjectPage(minimal, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png", basePath: "" });

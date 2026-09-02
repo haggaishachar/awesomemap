@@ -97,6 +97,20 @@ function formatShortDate(dateStr) {
   );
 }
 
+/**
+ * Formats a date with its year (e.g. "Aug 8, 2025"), unlike `formatShortDate`'s
+ * month/day-only — for the project page's events timeline (see
+ * scripts/render-page.mjs's `renderProjectEventsTimeline`), where an entry
+ * can be years old (`events` is never pruned, unlike `history`'s 120-day
+ * window `formatShortDate`'s callers stay implicitly within), so the year
+ * can't be left implied.
+ */
+export function formatEventDate(dateStr) {
+  return new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" }).format(
+    new Date(`${dateStr}T00:00:00Z`)
+  );
+}
+
 function round(n) {
   return Math.round(n * 100) / 100;
 }

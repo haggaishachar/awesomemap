@@ -1111,6 +1111,13 @@
         "LLM Infrastructure",
         "Prompt Engineering & Evaluation"
       ]
+    },
+    {
+      "id": "nanocoai/nanoclaw",
+      "path": [
+        "Agents & Coding",
+        "AI Agents"
+      ]
     }
   ]
 }

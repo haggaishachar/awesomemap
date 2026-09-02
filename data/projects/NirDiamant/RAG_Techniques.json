@@ -35,13 +35,5 @@
     }
   ],
   "weight": 29313,
-  "events": [
-    {
-      "date": "2026-04-15",
-      "type": "release",
-      "title": "RAG Made Simple: Visual Companion Book",
-      "url": "https://github.com/NirDiamant/RAG_Techniques/releases/tag/book-v1.0",
-      "points": null
-    }
-  ]
+  "events": []
 }

@@ -1,21 +1,22 @@
 // Daily job (added as a step in .github/workflows/snapshot-history.yml,
 // same commit as the star snapshot) that fetches external "why did this
 // grow" events for every project entity and appends them to a new `events`
-// array, alongside `history` (see data-store.mjs). Two free, deterministic
-// sources for v1 — no LLM classification (see product.md's Data
-// foundation section for that as a future refinement):
+// array, alongside `history` (see data-store.mjs). One free, deterministic
+// source for v1 — no LLM classification (see product.md's Data foundation
+// section for that as a future refinement):
 //
 //   - HN discussions whose submitted url points at the repo (Algolia HN
 //     Search API, unauthenticated), kept only above a points threshold.
-//   - Non-draft, non-prerelease GitHub releases (same gh-token API
-//     snapshot-history.mjs already calls, no extra credential needed).
+//
+// GitHub releases were dropped after a first production run — release
+// noise (routine version bumps) outweighed the signal, unlike HN mentions
+// which are inherently curated by real discussion/upvotes.
 //
 // Unlike `history`, `events` is never pruned — events are sparse enough
 // (a handful a year even for an active repo) that the full timeline is
 // worth keeping; scripts/render-page.mjs caps the *rendered* slice
 // instead.
-import { execFileSync } from "node:child_process";
-import { parseGhRepo, createGetJson, withRetry } from "./enrich-domain.mjs";
+import { parseGhRepo, withRetry } from "./enrich-domain.mjs";
 import { loadAllProjectEntities, saveProjectEntity } from "./data-store.mjs";
 
 const HN_POINTS_THRESHOLD = 50;
@@ -82,37 +83,15 @@ export async function fetchHnEvents(owner, repo, { fetchImpl = fetch, pointsThre
     .map(mapHnHit);
 }
 
-/** True for a real, publicly-visible release — excludes drafts (not yet published) and prereleases (not a "launch"). */
-export function isPublishedRelease(release) {
-  return release?.draft !== true && release?.prerelease !== true;
-}
-
-/** Maps one GitHub release onto an event entry, preferring the release's own name over its bare tag. */
-export function mapRelease(release) {
-  return {
-    date: (release.published_at ?? release.created_at).slice(0, 10),
-    type: "release",
-    title: release.name || release.tag_name,
-    url: release.html_url,
-    points: null,
-  };
-}
-
-/** Fetches this repo's published (non-draft, non-prerelease) releases, mapped to event entries. `getJson` is the gh-token-authenticated fetcher from `enrich-domain.mjs`'s `createGetJson`. */
-export async function fetchReleaseEvents(owner, repo, getJson) {
-  const releases = await getJson(`https://api.github.com/repos/${owner}/${repo}/releases`);
-  return (Array.isArray(releases) ? releases : []).filter(isPublishedRelease).map(mapRelease);
-}
-
 /**
  * Merges newly-fetched events into a project's existing `events` array,
- * deduped by `url` (an event's natural identity — an HN thread or a
- * release has exactly one URL), sorted ascending by date. A url shared
- * with an existing entry is replaced rather than duplicated — the same
- * "re-running is a no-op / re-running picks up fresh data" property
- * `snapshot-history.mjs`'s `appendSnapshotEntry` has for `history`, and
- * additionally lets a re-fetched HN entry's `points` climb as a thread
- * gains votes instead of staying frozen at first-seen.
+ * deduped by `url` (an event's natural identity — an HN thread has exactly
+ * one URL), sorted ascending by date. A url shared with an existing entry
+ * is replaced rather than duplicated — the same "re-running is a no-op /
+ * re-running picks up fresh data" property `snapshot-history.mjs`'s
+ * `appendSnapshotEntry` has for `history`, and additionally lets a
+ * re-fetched HN entry's `points` climb as a thread gains votes instead of
+ * staying frozen at first-seen.
  */
 export function appendEventEntries(existing, newEvents) {
   const byUrl = new Map();
@@ -123,12 +102,10 @@ export function appendEventEntries(existing, newEvents) {
 
 // CLI entry point: node scripts/snapshot-events.mjs
 // Snapshots every project entity in data/projects/**/*.json, merging fresh
-// HN + release events into its `events` array. Thin I/O orchestration, not
-// unit tested (same convention as snapshot-history.mjs's main()) —
-// verified manually.
+// HN events into its `events` array. Thin I/O orchestration, not unit
+// tested (same convention as snapshot-history.mjs's main()) — verified
+// manually.
 async function main() {
-  const token = execFileSync("gh", ["auth", "token"], { encoding: "utf8" }).trim();
-  const getJson = createGetJson(token);
   const entitiesById = loadAllProjectEntities();
 
   let totalAttempted = 0;
@@ -141,8 +118,7 @@ async function main() {
     totalAttempted += 1;
     try {
       const hnEvents = await fetchHnEvents(repo.owner, repo.repo);
-      const releaseEvents = await fetchReleaseEvents(repo.owner, repo.repo, getJson);
-      const events = appendEventEntries(entity.events, [...hnEvents, ...releaseEvents]);
+      const events = appendEventEntries(entity.events, hnEvents);
       saveProjectEntity({ ...entity, events });
       totalFetched += 1;
     } catch (err) {

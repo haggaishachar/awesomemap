@@ -37,20 +37,5 @@
   ],
   "weight": 2893,
   "image": "https://avatars.githubusercontent.com/u/309676868?v=4",
-  "events": [
-    {
-      "date": "2026-08-10",
-      "type": "release",
-      "title": "v0.2.0",
-      "url": "https://github.com/nuver-labs/vps-audit/releases/tag/v0.2.0",
-      "points": null
-    },
-    {
-      "date": "2026-08-10",
-      "type": "release",
-      "title": "v0.1.0",
-      "url": "https://github.com/nuver-labs/vps-audit/releases/tag/v0.1.0",
-      "points": null
-    }
-  ]
+  "events": []
 }

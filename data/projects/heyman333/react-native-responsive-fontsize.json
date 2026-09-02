@@ -3,9 +3,9 @@
   "id": "heyman333/react-native-responsive-fontsize",
   "link": "https://github.com/heyman333/react-native-responsive-fontsize",
   "name": "react-native-responsive-fontsize",
-  "desc": "🔠 Responsive fontSize based on screen-size of the device in React-Native",
+  "desc": "\ud83d\udd20 Responsive fontSize based on screen-size of the device in React-Native",
   "githubName": "react-native-responsive-fontSize",
-  "githubDescription": "🔠 Responsive fontSize based on screen-size of the device in React-Native",
+  "githubDescription": "\ud83d\udd20 Responsive fontSize based on screen-size of the device in React-Native",
   "tags": [
     "font",
     "fontsize",
@@ -24,104 +24,5 @@
     }
   ],
   "weight": 740,
-  "events": [
-    {
-      "date": "2018-12-07",
-      "type": "release",
-      "title": "v0.1.6",
-      "url": "https://github.com/heyman333/react-native-responsive-fontSize/releases/tag/v0.1.6",
-      "points": null
-    },
-    {
-      "date": "2018-12-30",
-      "type": "release",
-      "title": "v0.1.7",
-      "url": "https://github.com/heyman333/react-native-responsive-fontSize/releases/tag/v0.1.7",
-      "points": null
-    },
-    {
-      "date": "2019-01-27",
-      "type": "release",
-      "title": "v0.1.8",
-      "url": "https://github.com/heyman333/react-native-responsive-fontSize/releases/tag/v0.1.8",
-      "points": null
-    },
-    {
-      "date": "2019-06-18",
-      "type": "release",
-      "title": "v0.2.0",
-      "url": "https://github.com/heyman333/react-native-responsive-fontSize/releases/tag/v0.2.0",
-      "points": null
-    },
-    {
-      "date": "2019-07-07",
-      "type": "release",
-      "title": "v0.2.1",
-      "url": "https://github.com/heyman333/react-native-responsive-fontSize/releases/tag/v0.2.1",
-      "points": null
-    },
-    {
-      "date": "2019-09-15",
-      "type": "release",
-      "title": "v0.2.2",
-      "url": "https://github.com/heyman333/react-native-responsive-fontSize/releases/tag/v0.2.2",
-      "points": null
-    },
-    {
-      "date": "2019-09-30",
-      "type": "release",
-      "title": "v0.2.3",
-      "url": "https://github.com/heyman333/react-native-responsive-fontSize/releases/tag/v0.2.3",
-      "points": null
-    },
-    {
-      "date": "2019-10-24",
-      "type": "release",
-      "title": "v0.3.0",
-      "url": "https://github.com/heyman333/react-native-responsive-fontSize/releases/tag/v0.3.0",
-      "points": null
-    },
-    {
-      "date": "2019-11-16",
-      "type": "release",
-      "title": "v0.4.0",
-      "url": "https://github.com/heyman333/react-native-responsive-fontSize/releases/tag/v0.4.0",
-      "points": null
-    },
-    {
-      "date": "2019-11-18",
-      "type": "release",
-      "title": "v0.4.1",
-      "url": "https://github.com/heyman333/react-native-responsive-fontSize/releases/tag/v0.4.1",
-      "points": null
-    },
-    {
-      "date": "2019-11-24",
-      "type": "release",
-      "title": "v0.4.2",
-      "url": "https://github.com/heyman333/react-native-responsive-fontSize/releases/tag/v0.4.2",
-      "points": null
-    },
-    {
-      "date": "2020-02-04",
-      "type": "release",
-      "title": "v0.4.3",
-      "url": "https://github.com/heyman333/react-native-responsive-fontSize/releases/tag/v0.4.3",
-      "points": null
-    },
-    {
-      "date": "2020-11-14",
-      "type": "release",
-      "title": "v0.5.0",
-      "url": "https://github.com/heyman333/react-native-responsive-fontSize/releases/tag/v0.5.0",
-      "points": null
-    },
-    {
-      "date": "2021-07-17",
-      "type": "release",
-      "title": "v0.5.1",
-      "url": "https://github.com/heyman333/react-native-responsive-fontSize/releases/tag/v0.5.1",
-      "points": null
-    }
-  ]
+  "events": []
 }

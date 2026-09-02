@@ -3,9 +3,9 @@
   "id": "bunkerity/bunkerweb",
   "link": "https://github.com/bunkerity/bunkerweb",
   "name": "bunkerweb",
-  "desc": "🛡️ Open-source and cloud-native Web Application Firewall (WAF)",
+  "desc": "\ud83d\udee1\ufe0f Open-source and cloud-native Web Application Firewall (WAF)",
   "githubName": "bunkerweb",
-  "githubDescription": "🛡️ Open-source and cloud-native Web Application Firewall (WAF)",
+  "githubDescription": "\ud83d\udee1\ufe0f Open-source and cloud-native Web Application Firewall (WAF)",
   "tags": [
     "antibot",
     "cybersecurity",
@@ -42,58 +42,9 @@
     {
       "date": "2024-12-06",
       "type": "hn",
-      "title": "Show HN: BunkerWeb – The Open-Source Web Application Firewall (WAF)",
+      "title": "Show HN: BunkerWeb \u2013 The Open-Source Web Application Firewall (WAF)",
       "url": "https://news.ycombinator.com/item?id=42339856",
       "points": 120
-    },
-    {
-      "date": "2026-02-13",
-      "type": "release",
-      "title": "v1.6.8",
-      "url": "https://github.com/bunkerity/bunkerweb/releases/tag/v1.6.8",
-      "points": null
-    },
-    {
-      "date": "2026-03-13",
-      "type": "release",
-      "title": "v1.6.9",
-      "url": "https://github.com/bunkerity/bunkerweb/releases/tag/v1.6.9",
-      "points": null
-    },
-    {
-      "date": "2026-05-19",
-      "type": "release",
-      "title": "v1.6.10",
-      "url": "https://github.com/bunkerity/bunkerweb/releases/tag/v1.6.10",
-      "points": null
-    },
-    {
-      "date": "2026-05-25",
-      "type": "release",
-      "title": "v1.6.11",
-      "url": "https://github.com/bunkerity/bunkerweb/releases/tag/v1.6.11",
-      "points": null
-    },
-    {
-      "date": "2026-07-02",
-      "type": "release",
-      "title": "v1.6.12",
-      "url": "https://github.com/bunkerity/bunkerweb/releases/tag/v1.6.12",
-      "points": null
-    },
-    {
-      "date": "2026-07-16",
-      "type": "release",
-      "title": "v1.6.13",
-      "url": "https://github.com/bunkerity/bunkerweb/releases/tag/v1.6.13",
-      "points": null
-    },
-    {
-      "date": "2026-08-21",
-      "type": "release",
-      "title": "v1.6.14",
-      "url": "https://github.com/bunkerity/bunkerweb/releases/tag/v1.6.14",
-      "points": null
     }
   ]
 }

@@ -3,9 +3,9 @@
   "id": "stdlib-js/stdlib",
   "link": "https://github.com/stdlib-js/stdlib",
   "name": "stdlib",
-  "desc": "✨ The fundamental numerical library for JavaScript and TypeScript. ✨                    ⭐️ Star to support our work!",
+  "desc": "\u2728 The fundamental numerical library for JavaScript and TypeScript. \u2728  \u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003 \u2b50\ufe0f Star to support our work!",
   "githubName": "stdlib",
-  "githubDescription": "✨ The fundamental numerical library for JavaScript and TypeScript. ✨                    ⭐️ Star to support our work!",
+  "githubDescription": "\u2728 The fundamental numerical library for JavaScript and TypeScript. \u2728  \u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003 \u2b50\ufe0f Star to support our work!",
   "tags": [
     "javascript",
     "js",
@@ -38,69 +38,5 @@
   ],
   "weight": 5944,
   "image": "https://avatars.githubusercontent.com/u/17805691?v=4",
-  "events": [
-    {
-      "date": "2022-10-18",
-      "type": "release",
-      "title": "v0.0.96",
-      "url": "https://github.com/stdlib-js/stdlib/releases/tag/v0.0.96",
-      "points": null
-    },
-    {
-      "date": "2022-10-18",
-      "type": "release",
-      "title": "v0.0.95",
-      "url": "https://github.com/stdlib-js/stdlib/releases/tag/v0.0.95",
-      "points": null
-    },
-    {
-      "date": "2023-11-10",
-      "type": "release",
-      "title": "v0.1.0",
-      "url": "https://github.com/stdlib-js/stdlib/releases/tag/v0.1.0",
-      "points": null
-    },
-    {
-      "date": "2024-02-05",
-      "type": "release",
-      "title": "v0.2.0",
-      "url": "https://github.com/stdlib-js/stdlib/releases/tag/v0.2.0",
-      "points": null
-    },
-    {
-      "date": "2024-08-19",
-      "type": "release",
-      "title": "v0.3.0",
-      "url": "https://github.com/stdlib-js/stdlib/releases/tag/v0.3.0",
-      "points": null
-    },
-    {
-      "date": "2024-12-22",
-      "type": "release",
-      "title": "v0.3.2",
-      "url": "https://github.com/stdlib-js/stdlib/releases/tag/v0.3.2",
-      "points": null
-    },
-    {
-      "date": "2024-12-22",
-      "type": "release",
-      "title": "v0.3.1",
-      "url": "https://github.com/stdlib-js/stdlib/releases/tag/v0.3.1",
-      "points": null
-    },
-    {
-      "date": "2026-06-06",
-      "type": "release",
-      "title": "v0.4.1",
-      "url": "https://github.com/stdlib-js/stdlib/releases/tag/v0.4.1",
-      "points": null
-    },
-    {
-      "date": "2026-06-06",
-      "type": "release",
-      "title": "v0.4.0",
-      "url": "https://github.com/stdlib-js/stdlib/releases/tag/v0.4.0",
-      "points": null
-    }
-  ]
+  "events": []
 }

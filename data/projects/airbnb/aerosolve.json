@@ -35,20 +35,5 @@
       "openIssues": 10
     }
   ],
-  "events": [
-    {
-      "date": "2024-09-23",
-      "type": "release",
-      "title": "Migrate project to Scala 2.12 and Spark 3",
-      "url": "https://github.com/airbnb/aerosolve/releases/tag/0.1.106",
-      "points": null
-    },
-    {
-      "date": "2025-07-14",
-      "type": "release",
-      "title": "Update Hadoop client version",
-      "url": "https://github.com/airbnb/aerosolve/releases/tag/0.1.107",
-      "points": null
-    }
-  ]
+  "events": []
 }

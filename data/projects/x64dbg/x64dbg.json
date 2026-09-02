@@ -146,53 +146,11 @@
   ],
   "events": [
     {
-      "date": "2015-04-12",
-      "type": "release",
-      "title": "Bitbucket files",
-      "url": "https://github.com/x64dbg/x64dbg/releases/tag/Bitbucket",
-      "points": null
-    },
-    {
       "date": "2018-01-06",
       "type": "hn",
       "title": "x64dbg: An open-source x64/x32 debugger for Windows",
       "url": "https://news.ycombinator.com/item?id=16084644",
       "points": 73
-    },
-    {
-      "date": "2025-03-15",
-      "type": "release",
-      "title": "snapshot_2025-03-15_15-57.zip",
-      "url": "https://github.com/x64dbg/x64dbg/releases/tag/snapshot",
-      "points": null
-    },
-    {
-      "date": "2025-06-30",
-      "type": "release",
-      "title": "2025.07.04",
-      "url": "https://github.com/x64dbg/x64dbg/releases/tag/2025.06.30",
-      "points": null
-    },
-    {
-      "date": "2025-08-19",
-      "type": "release",
-      "title": "2025.08.19",
-      "url": "https://github.com/x64dbg/x64dbg/releases/tag/2025.08.19",
-      "points": null
-    },
-    {
-      "date": "2026-04-20",
-      "type": "release",
-      "title": "2026.04.20",
-      "url": "https://github.com/x64dbg/x64dbg/releases/tag/2026.04.20",
-      "points": null
-    },
-    {
-      "date": "2026-05-27",
-      "type": "release",
-      "title": "2026.05.27",
-      "url": "https://github.com/x64dbg/x64dbg/releases/tag/2026.05.27",
-      "points": null
     }
   ]
 }

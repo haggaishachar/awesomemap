@@ -29,20 +29,5 @@
   ],
   "weight": 9775,
   "image": "https://avatars.githubusercontent.com/u/155815?v=4",
-  "events": [
-    {
-      "date": "2020-04-21",
-      "type": "release",
-      "title": "Release v4.1",
-      "url": "https://github.com/OWASP/wstg/releases/tag/v4.1",
-      "points": null
-    },
-    {
-      "date": "2020-12-03",
-      "type": "release",
-      "title": "Release v4.2",
-      "url": "https://github.com/OWASP/wstg/releases/tag/v4.2",
-      "points": null
-    }
-  ]
+  "events": []
 }

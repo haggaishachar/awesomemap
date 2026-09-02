@@ -3,9 +3,9 @@
   "id": "doublesymmetry/react-native-track-player",
   "link": "https://github.com/doublesymmetry/react-native-track-player",
   "name": "react-native-track-player",
-  "desc": "The best audio player for React Native. Built on the New Architecture — Android Auto, caching, preloading, background playback, and more.",
+  "desc": "The best audio player for React Native. Built on the New Architecture \u2014 Android Auto, caching, preloading, background playback, and more.",
   "githubName": "react-native-track-player",
-  "githubDescription": "The best audio player for React Native. Built on the New Architecture — Android Auto, caching, preloading, background playback, and more.",
+  "githubDescription": "The best audio player for React Native. Built on the New Architecture \u2014 Android Auto, caching, preloading, background playback, and more.",
   "tags": [
     "android",
     "audio",
@@ -28,76 +28,5 @@
   ],
   "weight": 3707,
   "image": "https://avatars.githubusercontent.com/u/45097382?v=4",
-  "events": [
-    {
-      "date": "2026-05-06",
-      "type": "release",
-      "title": "5.0.0",
-      "url": "https://github.com/doublesymmetry/react-native-track-player/releases/tag/v5.0.0",
-      "points": null
-    },
-    {
-      "date": "2026-05-20",
-      "type": "release",
-      "title": "5.1.2",
-      "url": "https://github.com/doublesymmetry/react-native-track-player/releases/tag/v5.1.2",
-      "points": null
-    },
-    {
-      "date": "2026-05-20",
-      "type": "release",
-      "title": "5.1.0",
-      "url": "https://github.com/doublesymmetry/react-native-track-player/releases/tag/v5.1.0",
-      "points": null
-    },
-    {
-      "date": "2026-05-23",
-      "type": "release",
-      "title": "5.1.3",
-      "url": "https://github.com/doublesymmetry/react-native-track-player/releases/tag/v5.1.3",
-      "points": null
-    },
-    {
-      "date": "2026-05-26",
-      "type": "release",
-      "title": "5.2.0",
-      "url": "https://github.com/doublesymmetry/react-native-track-player/releases/tag/v5.2.0",
-      "points": null
-    },
-    {
-      "date": "2026-05-27",
-      "type": "release",
-      "title": "5.3.0",
-      "url": "https://github.com/doublesymmetry/react-native-track-player/releases/tag/v5.3.0",
-      "points": null
-    },
-    {
-      "date": "2026-06-06",
-      "type": "release",
-      "title": "5.5.0",
-      "url": "https://github.com/doublesymmetry/react-native-track-player/releases/tag/v5.5.0",
-      "points": null
-    },
-    {
-      "date": "2026-06-06",
-      "type": "release",
-      "title": "5.4.0",
-      "url": "https://github.com/doublesymmetry/react-native-track-player/releases/tag/v5.4.0",
-      "points": null
-    },
-    {
-      "date": "2026-06-20",
-      "type": "release",
-      "title": "5.6.0",
-      "url": "https://github.com/doublesymmetry/react-native-track-player/releases/tag/v5.6.0",
-      "points": null
-    },
-    {
-      "date": "2026-07-16",
-      "type": "release",
-      "title": "5.7.0",
-      "url": "https://github.com/doublesymmetry/react-native-track-player/releases/tag/v5.7.0",
-      "points": null
-    }
-  ]
+  "events": []
 }

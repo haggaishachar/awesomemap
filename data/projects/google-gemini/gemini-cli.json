@@ -39,27 +39,6 @@
       "title": "Addressing Antigravity Bans and Reinstating Access",
       "url": "https://news.ycombinator.com/item?id=47195371",
       "points": 254
-    },
-    {
-      "date": "2026-08-19",
-      "type": "release",
-      "title": "Release v0.56.0",
-      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0",
-      "points": null
-    },
-    {
-      "date": "2026-08-25",
-      "type": "release",
-      "title": "Release v0.57.0",
-      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.57.0",
-      "points": null
-    },
-    {
-      "date": "2026-09-01",
-      "type": "release",
-      "title": "Release v0.58.0",
-      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.58.0",
-      "points": null
     }
   ]
 }

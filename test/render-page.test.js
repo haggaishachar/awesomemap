@@ -1024,13 +1024,13 @@ test("renderProjectPage renders an events timeline newest-first, and omits the s
     defaultOgImage: "/og-default.png",
     eventsSeries: [
       { date: "2026-07-01", type: "hn", title: "Show HN: llama.cpp", url: "https://hn/1", points: 312 },
-      { date: "2026-08-07", type: "release", title: "v2.0", url: "https://gh/releases/v2.0", points: null },
+      { date: "2026-08-07", type: "hn", title: "llama.cpp adds speculative decoding", url: "https://hn/2", points: 245 },
     ],
   });
-  // Newest-first: the release (Aug) appears before the HN post (Jul).
-  const releaseIndex = withEvents.indexOf("v2.0");
-  const hnIndex = withEvents.indexOf("Show HN: llama.cpp");
-  assert.ok(releaseIndex >= 0 && hnIndex >= 0 && releaseIndex < hnIndex);
+  // Newest-first: the Aug post appears before the Jul post.
+  const augIndex = withEvents.indexOf("llama.cpp adds speculative decoding");
+  const julIndex = withEvents.indexOf("Show HN: llama.cpp");
+  assert.ok(augIndex >= 0 && julIndex >= 0 && augIndex < julIndex);
   assert.match(withEvents, /href="https:\/\/hn\/1"/);
   assert.match(withEvents, /312 pts/);
   assert.match(withEvents, /Aug 7, 2026/);

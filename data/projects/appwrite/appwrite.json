@@ -5,7 +5,7 @@
   "name": "Appwrite",
   "desc": "Open source backend server for web, mobile, and Flutter apps covering auth, databases, storage, and functions",
   "githubName": "appwrite",
-  "githubDescription": "Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more",
+  "githubDescription": "Appwrite\u00ae - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more",
   "weight": 57122,
   "image": "https://avatars.githubusercontent.com/u/25003669?v=4",
   "tags": [
@@ -148,7 +148,7 @@
     {
       "date": "2022-03-22",
       "type": "hn",
-      "title": "Show HN: Appwrite – Open-Source and Self Hosted Firebase Alternative",
+      "title": "Show HN: Appwrite \u2013 Open-Source and Self Hosted Firebase Alternative",
       "url": "https://news.ycombinator.com/item?id=30769044",
       "points": 326
     },
@@ -158,90 +158,6 @@
       "title": "Show HN: Open-source Firebase Alternative? It's here",
       "url": "https://news.ycombinator.com/item?id=31421858",
       "points": 153
-    },
-    {
-      "date": "2025-05-14",
-      "type": "release",
-      "title": "1.6.2",
-      "url": "https://github.com/appwrite/appwrite/releases/tag/1.6.2",
-      "points": null
-    },
-    {
-      "date": "2025-05-18",
-      "type": "release",
-      "title": "1.7.0",
-      "url": "https://github.com/appwrite/appwrite/releases/tag/1.7.0",
-      "points": null
-    },
-    {
-      "date": "2025-05-19",
-      "type": "release",
-      "title": "1.7.1",
-      "url": "https://github.com/appwrite/appwrite/releases/tag/1.7.1",
-      "points": null
-    },
-    {
-      "date": "2025-05-21",
-      "type": "release",
-      "title": "1.7.2",
-      "url": "https://github.com/appwrite/appwrite/releases/tag/1.7.2",
-      "points": null
-    },
-    {
-      "date": "2025-05-24",
-      "type": "release",
-      "title": "1.7.3",
-      "url": "https://github.com/appwrite/appwrite/releases/tag/1.7.3",
-      "points": null
-    },
-    {
-      "date": "2025-05-25",
-      "type": "release",
-      "title": "1.7.4",
-      "url": "https://github.com/appwrite/appwrite/releases/tag/1.7.4",
-      "points": null
-    },
-    {
-      "date": "2025-10-21",
-      "type": "release",
-      "title": "1.8.0",
-      "url": "https://github.com/appwrite/appwrite/releases/tag/1.8.0",
-      "points": null
-    },
-    {
-      "date": "2025-11-06",
-      "type": "release",
-      "title": "1.7.5",
-      "url": "https://github.com/appwrite/appwrite/releases/tag/1.7.5",
-      "points": null
-    },
-    {
-      "date": "2025-12-23",
-      "type": "release",
-      "title": "1.8.1",
-      "url": "https://github.com/appwrite/appwrite/releases/tag/1.8.1",
-      "points": null
-    },
-    {
-      "date": "2026-04-01",
-      "type": "release",
-      "title": "1.9.0",
-      "url": "https://github.com/appwrite/appwrite/releases/tag/1.9.0",
-      "points": null
-    },
-    {
-      "date": "2026-07-01",
-      "type": "release",
-      "title": "1.9.5",
-      "url": "https://github.com/appwrite/appwrite/releases/tag/1.9.5",
-      "points": null
-    },
-    {
-      "date": "2026-07-22",
-      "type": "release",
-      "title": "1.9.6",
-      "url": "https://github.com/appwrite/appwrite/releases/tag/1.9.6",
-      "points": null
     }
   ]
 }

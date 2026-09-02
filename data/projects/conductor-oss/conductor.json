@@ -66,27 +66,5 @@
       "openIssues": 262
     }
   ],
-  "events": [
-    {
-      "date": "2026-08-11",
-      "type": "release",
-      "title": "v3.32.0",
-      "url": "https://github.com/conductor-oss/conductor/releases/tag/v3.32.0",
-      "points": null
-    },
-    {
-      "date": "2026-08-12",
-      "type": "release",
-      "title": "v3.32.1",
-      "url": "https://github.com/conductor-oss/conductor/releases/tag/v3.32.1",
-      "points": null
-    },
-    {
-      "date": "2026-09-02",
-      "type": "release",
-      "title": "v3.32.2.rc5",
-      "url": "https://github.com/conductor-oss/conductor/releases/tag/v3.32.2.rc5",
-      "points": null
-    }
-  ]
+  "events": []
 }

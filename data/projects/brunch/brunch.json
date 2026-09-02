@@ -3,9 +3,9 @@
   "id": "brunch/brunch",
   "link": "https://github.com/brunch/brunch",
   "name": "brunch",
-  "desc": "🍴 Web applications made easy. Since 2011.",
+  "desc": "\ud83c\udf74 Web applications made easy. Since 2011.",
   "githubName": "brunch",
-  "githubDescription": "🍴 Web applications made easy. Since 2011.",
+  "githubDescription": "\ud83c\udf74 Web applications made easy. Since 2011.",
   "weight": 6758,
   "image": "https://avatars.githubusercontent.com/u/575509?v=4",
   "tags": [
@@ -56,27 +56,6 @@
       "title": "Brunch: Replace gulp, grunt and increase your dev speed",
       "url": "https://news.ycombinator.com/item?id=9666028",
       "points": 85
-    },
-    {
-      "date": "2019-12-16",
-      "type": "release",
-      "title": "3.0.0",
-      "url": "https://github.com/brunch/brunch/releases/tag/3.0.0",
-      "points": null
-    },
-    {
-      "date": "2021-02-18",
-      "type": "release",
-      "title": "4.0.0",
-      "url": "https://github.com/brunch/brunch/releases/tag/4.0.0",
-      "points": null
-    },
-    {
-      "date": "2023-01-10",
-      "type": "release",
-      "title": "4.0.2",
-      "url": "https://github.com/brunch/brunch/releases/tag/4.0.2",
-      "points": null
     }
   ]
 }

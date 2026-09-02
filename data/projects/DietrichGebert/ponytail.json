@@ -30,116 +30,11 @@
   "image": "https://raw.githubusercontent.com/DietrichGebert/ponytail/main/assets/logo.png",
   "events": [
     {
-      "date": "2026-06-12",
-      "type": "release",
-      "title": "v4.1.0: three more agents",
-      "url": "https://github.com/DietrichGebert/ponytail/releases/tag/v4.1.0",
-      "points": null
-    },
-    {
-      "date": "2026-06-12",
-      "type": "release",
-      "title": "v4.0.0: production grade, still lazy",
-      "url": "https://github.com/DietrichGebert/ponytail/releases/tag/v4.0.0",
-      "points": null
-    },
-    {
-      "date": "2026-06-12",
-      "type": "release",
-      "title": "v1.0.0 — He ships.",
-      "url": "https://github.com/DietrichGebert/ponytail/releases/tag/v1.0.0",
-      "points": null
-    },
-    {
-      "date": "2026-06-13",
-      "type": "release",
-      "title": "v4.2.0: lazy in OpenCode now",
-      "url": "https://github.com/DietrichGebert/ponytail/releases/tag/v4.2.0",
-      "points": null
-    },
-    {
       "date": "2026-06-14",
       "type": "hn",
-      "title": "Ponytail – make your AI agent think like the laziest senior dev in the room",
+      "title": "Ponytail \u2013 make your AI agent think like the laziest senior dev in the room",
       "url": "https://news.ycombinator.com/item?id=48527946",
       "points": 98
-    },
-    {
-      "date": "2026-06-14",
-      "type": "release",
-      "title": "v4.3.0: more agents, still lazy",
-      "url": "https://github.com/DietrichGebert/ponytail/releases/tag/v4.3.0",
-      "points": null
-    },
-    {
-      "date": "2026-06-15",
-      "type": "release",
-      "title": "v4.6.0: help, reluctantly",
-      "url": "https://github.com/DietrichGebert/ponytail/releases/tag/v4.6.0",
-      "points": null
-    },
-    {
-      "date": "2026-06-15",
-      "type": "release",
-      "title": "v4.5.0: lazy in Copilot",
-      "url": "https://github.com/DietrichGebert/ponytail/releases/tag/v4.5.0",
-      "points": null
-    },
-    {
-      "date": "2026-06-15",
-      "type": "release",
-      "title": "v4.4.0: field-tested, still lazy",
-      "url": "https://github.com/DietrichGebert/ponytail/releases/tag/v4.4.0",
-      "points": null
-    },
-    {
-      "date": "2026-06-16",
-      "type": "release",
-      "title": "v4.7.0: lazy in OpenClaw now",
-      "url": "https://github.com/DietrichGebert/ponytail/releases/tag/v4.7.0",
-      "points": null
-    },
-    {
-      "date": "2026-06-23",
-      "type": "release",
-      "title": "v4.8.1: consistent versioning",
-      "url": "https://github.com/DietrichGebert/ponytail/releases/tag/v4.8.1",
-      "points": null
-    },
-    {
-      "date": "2026-06-23",
-      "type": "release",
-      "title": "v4.8.0: comprehension first, now with an MCP server",
-      "url": "https://github.com/DietrichGebert/ponytail/releases/tag/v4.8.0",
-      "points": null
-    },
-    {
-      "date": "2026-06-24",
-      "type": "release",
-      "title": "v4.8.3: lazy in subagents too",
-      "url": "https://github.com/DietrichGebert/ponytail/releases/tag/v4.8.3",
-      "points": null
-    },
-    {
-      "date": "2026-06-24",
-      "type": "release",
-      "title": "v4.8.2: now on npm",
-      "url": "https://github.com/DietrichGebert/ponytail/releases/tag/v4.8.2",
-      "points": null
-    },
-    {
-      "date": "2026-06-29",
-      "type": "release",
-      "title": "v4.8.4: lazy in Hermes now",
-      "url": "https://github.com/DietrichGebert/ponytail/releases/tag/v4.8.4",
-      "points": null
-    },
-    {
-      "date": "2026-08-07",
-      "type": "release",
-      "title": "v4.9.0: 53 commits of doing less",
-      "url": "https://github.com/DietrichGebert/ponytail/releases/tag/v4.9.0",
-      "points": null
     }
   ]
 }

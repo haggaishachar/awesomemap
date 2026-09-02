@@ -136,20 +136,6 @@
       "title": "Wav2letter: Automatic Speech Recognition Toolkit from Facebook AI Research",
       "url": "https://news.ycombinator.com/item?id=16043337",
       "points": 116
-    },
-    {
-      "date": "2018-12-21",
-      "type": "release",
-      "title": "Initial Release",
-      "url": "https://github.com/flashlight/wav2letter/releases/tag/v0.1",
-      "points": null
-    },
-    {
-      "date": "2020-12-28",
-      "type": "release",
-      "title": "v0.2 (pre Flashlight-consolidation)",
-      "url": "https://github.com/flashlight/wav2letter/releases/tag/v0.2",
-      "points": null
     }
   ]
 }

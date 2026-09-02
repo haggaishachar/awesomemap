@@ -1045,19 +1045,23 @@ function renderProjectTagChips(tags, basePath) {
 }
 
 const EVENTS_TIMELINE_LIMIT = 20;
-const EVENT_TYPE_LABELS = { hn: "HN", release: "Release" };
+const EVENT_TYPE_LABELS = { hn: "HN" };
 
 /**
  * Server-rendered chronological timeline of external events (HN
- * discussions, GitHub releases) for a project page — the "why did this
- * grow" companion to the star-history sparkline above it. `eventsSeries`
- * is `project-events.mjs`'s `sortedEvents` output (oldest-first, mirroring
+ * discussions) for a project page — the "why did this grow" companion to
+ * the star-history sparkline above it. `eventsSeries` is
+ * `project-events.mjs`'s `sortedEvents` output (oldest-first, mirroring
  * `historySeries`'s convention); rendered newest-first here, like a
  * changelog, and capped to the most recent `EVENTS_TIMELINE_LIMIT` — only
  * the rendered slice is capped, `events` itself is never pruned (see
  * scripts/snapshot-events.mjs). Renders nothing for a project with no
  * recorded events yet, same "nothing to show" convention as
- * `renderProjectStarChart`.
+ * `renderProjectStarChart`. GitHub releases were dropped after a first
+ * production run (routine version bumps outweighed the signal) — `hn` is
+ * the only type `snapshot-events.mjs` produces now, but the label lookup
+ * stays a map rather than a hardcoded string in case a second source
+ * returns.
  */
 function renderProjectEventsTimeline(eventsSeries) {
   if (!Array.isArray(eventsSeries) || eventsSeries.length === 0) return "";

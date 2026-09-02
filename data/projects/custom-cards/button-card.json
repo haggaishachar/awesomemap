@@ -3,9 +3,9 @@
   "id": "custom-cards/button-card",
   "link": "https://github.com/custom-cards/button-card",
   "name": "button-card",
-  "desc": "❇️ Lovelace button-card for home assistant",
+  "desc": "\u2747\ufe0f Lovelace button-card for home assistant",
   "githubName": "button-card",
-  "githubDescription": "❇️ Lovelace button-card for home assistant",
+  "githubDescription": "\u2747\ufe0f Lovelace button-card for home assistant",
   "tags": [
     "home-assistant",
     "home-assistant-custom",
@@ -23,48 +23,5 @@
   ],
   "weight": 2491,
   "image": "https://avatars.githubusercontent.com/u/40870129?v=4",
-  "events": [
-    {
-      "date": "2025-10-05",
-      "type": "release",
-      "title": "v5.0.1",
-      "url": "https://github.com/custom-cards/button-card/releases/tag/v5.0.1",
-      "points": null
-    },
-    {
-      "date": "2025-10-05",
-      "type": "release",
-      "title": "v5.0.0",
-      "url": "https://github.com/custom-cards/button-card/releases/tag/v5.0.0",
-      "points": null
-    },
-    {
-      "date": "2025-10-06",
-      "type": "release",
-      "title": "v5.0.2",
-      "url": "https://github.com/custom-cards/button-card/releases/tag/v5.0.2",
-      "points": null
-    },
-    {
-      "date": "2025-10-24",
-      "type": "release",
-      "title": "v6.0.0",
-      "url": "https://github.com/custom-cards/button-card/releases/tag/v6.0.0",
-      "points": null
-    },
-    {
-      "date": "2025-11-10",
-      "type": "release",
-      "title": "v7.0.0",
-      "url": "https://github.com/custom-cards/button-card/releases/tag/v7.0.0",
-      "points": null
-    },
-    {
-      "date": "2025-11-13",
-      "type": "release",
-      "title": "v7.0.1",
-      "url": "https://github.com/custom-cards/button-card/releases/tag/v7.0.1",
-      "points": null
-    }
-  ]
+  "events": []
 }

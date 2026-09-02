@@ -16,27 +16,5 @@
     }
   ],
   "weight": 2033,
-  "events": [
-    {
-      "date": "2021-07-05",
-      "type": "release",
-      "title": "Python 2",
-      "url": "https://github.com/certsocietegenerale/FIR/releases/tag/python2",
-      "points": null
-    },
-    {
-      "date": "2022-01-11",
-      "type": "release",
-      "title": "Python 3.8",
-      "url": "https://github.com/certsocietegenerale/FIR/releases/tag/python3.8",
-      "points": null
-    },
-    {
-      "date": "2022-09-13",
-      "type": "release",
-      "title": "django 4",
-      "url": "https://github.com/certsocietegenerale/FIR/releases/tag/django4",
-      "points": null
-    }
-  ]
+  "events": []
 }

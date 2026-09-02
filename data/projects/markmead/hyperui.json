@@ -3,9 +3,9 @@
   "id": "markmead/hyperui",
   "link": "https://github.com/markmead/hyperui",
   "name": "hyperui",
-  "desc": "Free Tailwind CSS v4 components for your next project, designed to enhance your web development with the latest features and styles 🚀",
+  "desc": "Free Tailwind CSS v4 components for your next project, designed to enhance your web development with the latest features and styles \ud83d\ude80",
   "githubName": "hyperui",
-  "githubDescription": "Free Tailwind CSS v4 components for your next project, designed to enhance your web development with the latest features and styles 🚀",
+  "githubDescription": "Free Tailwind CSS v4 components for your next project, designed to enhance your web development with the latest features and styles \ud83d\ude80",
   "tags": [
     "accessibility",
     "components",
@@ -28,34 +28,5 @@
     }
   ],
   "weight": 12223,
-  "events": [
-    {
-      "date": "2025-02-23",
-      "type": "release",
-      "title": "Next 14",
-      "url": "https://github.com/markmead/hyperui/releases/tag/next14",
-      "points": null
-    },
-    {
-      "date": "2025-05-28",
-      "type": "release",
-      "title": "Next 15",
-      "url": "https://github.com/markmead/hyperui/releases/tag/next15",
-      "points": null
-    },
-    {
-      "date": "2025-10-25",
-      "type": "release",
-      "title": "pre-astro",
-      "url": "https://github.com/markmead/hyperui/releases/tag/pre-astro",
-      "points": null
-    },
-    {
-      "date": "2026-01-21",
-      "type": "release",
-      "title": "astro",
-      "url": "https://github.com/markmead/hyperui/releases/tag/astro",
-      "points": null
-    }
-  ]
+  "events": []
 }

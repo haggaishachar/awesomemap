@@ -5,7 +5,7 @@
   "name": "Helicone",
   "desc": "Open source LLM observability platform for logging, monitoring, and debugging",
   "githubName": "helicone",
-  "githubDescription": "🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓",
+  "githubDescription": "\ud83e\uddca Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 \ud83c\udf53",
   "weight": 6102,
   "image": "https://raw.githubusercontent.com/Helicone/helicone/main/docs/logo.svg",
   "tags": [
@@ -119,34 +119,5 @@
       "openIssues": 155
     }
   ],
-  "events": [
-    {
-      "date": "2025-08-19",
-      "type": "release",
-      "title": "v1.0.0 Docker image release",
-      "url": "https://github.com/Helicone/helicone/releases/tag/v1.0.0",
-      "points": null
-    },
-    {
-      "date": "2025-08-20",
-      "type": "release",
-      "title": "v2025.08.20",
-      "url": "https://github.com/Helicone/helicone/releases/tag/v2025.08.20",
-      "points": null
-    },
-    {
-      "date": "2025-08-21",
-      "type": "release",
-      "title": "v2025.08.21-1",
-      "url": "https://github.com/Helicone/helicone/releases/tag/v2025.08.21-1",
-      "points": null
-    },
-    {
-      "date": "2025-08-21",
-      "type": "release",
-      "title": "v2025.08.21",
-      "url": "https://github.com/Helicone/helicone/releases/tag/v2025.08.21",
-      "points": null
-    }
-  ]
+  "events": []
 }

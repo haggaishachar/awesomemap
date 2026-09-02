@@ -5,7 +5,7 @@
   "name": "styled-components",
   "desc": "Visual primitives for the component age",
   "githubName": "styled-components",
-  "githubDescription": "Fast, expressive styling for React. Server components, client components, streaming SSR, React Native—one API.",
+  "githubDescription": "Fast, expressive styling for React. Server components, client components, streaming SSR, React Native\u2014one API.",
   "weight": 41123,
   "image": "https://avatars.githubusercontent.com/u/20658825?v=4",
   "tags": [
@@ -137,48 +137,6 @@
       "title": "Styled Components v3.0.0",
       "url": "https://news.ycombinator.com/item?id=16213583",
       "points": 72
-    },
-    {
-      "date": "2026-06-24",
-      "type": "release",
-      "title": "styled-components@6.4.3",
-      "url": "https://github.com/styled-components/styled-components/releases/tag/styled-components%406.4.3",
-      "points": null
-    },
-    {
-      "date": "2026-07-18",
-      "type": "release",
-      "title": "styled-components@6.4.4",
-      "url": "https://github.com/styled-components/styled-components/releases/tag/styled-components%406.4.4",
-      "points": null
-    },
-    {
-      "date": "2026-08-04",
-      "type": "release",
-      "title": "styled-components@6.5.0",
-      "url": "https://github.com/styled-components/styled-components/releases/tag/styled-components%406.5.0",
-      "points": null
-    },
-    {
-      "date": "2026-08-07",
-      "type": "release",
-      "title": "styled-components@6.5.1",
-      "url": "https://github.com/styled-components/styled-components/releases/tag/styled-components%406.5.1",
-      "points": null
-    },
-    {
-      "date": "2026-08-11",
-      "type": "release",
-      "title": "styled-components@6.5.2",
-      "url": "https://github.com/styled-components/styled-components/releases/tag/styled-components%406.5.2",
-      "points": null
-    },
-    {
-      "date": "2026-08-15",
-      "type": "release",
-      "title": "styled-components@6.5.3",
-      "url": "https://github.com/styled-components/styled-components/releases/tag/styled-components%406.5.3",
-      "points": null
     }
   ]
 }

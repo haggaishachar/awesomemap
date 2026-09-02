@@ -3,9 +3,9 @@
   "id": "datawhalechina/hello-agents",
   "link": "https://github.com/datawhalechina/hello-agents",
   "name": "hello-agents",
-  "desc": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+  "desc": "\ud83d\udcda \u300a\u4ece\u96f6\u5f00\u59cb\u6784\u5efa\u667a\u80fd\u4f53\u300b\u2014\u2014\u4ece\u96f6\u5f00\u59cb\u7684\u667a\u80fd\u4f53\u539f\u7406\u4e0e\u5b9e\u8df5\u6559\u7a0b",
   "githubName": "hello-agents",
-  "githubDescription": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+  "githubDescription": "\ud83d\udcda \u300a\u4ece\u96f6\u5f00\u59cb\u6784\u5efa\u667a\u80fd\u4f53\u300b\u2014\u2014\u4ece\u96f6\u5f00\u59cb\u7684\u667a\u80fd\u4f53\u539f\u7406\u4e0e\u5b9e\u8df5\u6559\u7a0b",
   "tags": [
     "agent",
     "llm",
@@ -22,27 +22,5 @@
   ],
   "weight": 75956,
   "image": "https://avatars.githubusercontent.com/u/46047812?v=4",
-  "events": [
-    {
-      "date": "2025-11-03",
-      "type": "release",
-      "title": "Hello-agents V1.0.0 20251103",
-      "url": "https://github.com/datawhalechina/hello-agents/releases/tag/V1.0.0",
-      "points": null
-    },
-    {
-      "date": "2026-02-10",
-      "type": "release",
-      "title": "Hello-agents V1.0.2 20260210",
-      "url": "https://github.com/datawhalechina/hello-agents/releases/tag/V1.0.2",
-      "points": null
-    },
-    {
-      "date": "2026-07-17",
-      "type": "release",
-      "title": "Hello-Agents V1.0.3 20260717",
-      "url": "https://github.com/datawhalechina/hello-agents/releases/tag/V1.0.3",
-      "points": null
-    }
-  ]
+  "events": []
 }

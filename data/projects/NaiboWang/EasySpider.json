@@ -3,9 +3,9 @@
   "id": "NaiboWang/EasySpider",
   "link": "https://github.com/NaiboWang/EasySpider",
   "name": "EasySpider",
-  "desc": "A visual no-code/code-free web crawler/spider易采集：一个可视化浏览器自动化测试/数据采集/网页爬虫软件，可以无代码图形化的设计和执行爬虫任务。别名：ServiceWrapper面向Web应用的智能化服务封装系统。",
+  "desc": "A visual no-code/code-free web crawler/spider\u6613\u91c7\u96c6\uff1a\u4e00\u4e2a\u53ef\u89c6\u5316\u6d4f\u89c8\u5668\u81ea\u52a8\u5316\u6d4b\u8bd5/\u6570\u636e\u91c7\u96c6/\u7f51\u9875\u722c\u866b\u8f6f\u4ef6\uff0c\u53ef\u4ee5\u65e0\u4ee3\u7801\u56fe\u5f62\u5316\u7684\u8bbe\u8ba1\u548c\u6267\u884c\u722c\u866b\u4efb\u52a1\u3002\u522b\u540d\uff1aServiceWrapper\u9762\u5411Web\u5e94\u7528\u7684\u667a\u80fd\u5316\u670d\u52a1\u5c01\u88c5\u7cfb\u7edf\u3002",
   "githubName": "EasySpider",
-  "githubDescription": "A visual no-code/code-free web crawler/spider易采集：一个可视化浏览器自动化测试/数据采集/网页爬虫软件，可以无代码图形化的设计和执行爬虫任务。别名：ServiceWrapper面向Web应用的智能化服务封装系统。",
+  "githubDescription": "A visual no-code/code-free web crawler/spider\u6613\u91c7\u96c6\uff1a\u4e00\u4e2a\u53ef\u89c6\u5316\u6d4f\u89c8\u5668\u81ea\u52a8\u5316\u6d4b\u8bd5/\u6570\u636e\u91c7\u96c6/\u7f51\u9875\u722c\u866b\u8f6f\u4ef6\uff0c\u53ef\u4ee5\u65e0\u4ee3\u7801\u56fe\u5f62\u5316\u7684\u8bbe\u8ba1\u548c\u6267\u884c\u722c\u866b\u4efb\u52a1\u3002\u522b\u540d\uff1aServiceWrapper\u9762\u5411Web\u5e94\u7528\u7684\u667a\u80fd\u5316\u670d\u52a1\u5c01\u88c5\u7cfb\u7edf\u3002",
   "tags": [
     "batch-processing",
     "batch-script",
@@ -37,83 +37,5 @@
     }
   ],
   "weight": 44482,
-  "events": [
-    {
-      "date": "2023-02-03",
-      "type": "release",
-      "title": "Beta Version 0.1.0",
-      "url": "https://github.com/NaiboWang/EasySpider/releases/tag/v0.1.0",
-      "points": null
-    },
-    {
-      "date": "2023-03-22",
-      "type": "release",
-      "title": "Version 0.2.0",
-      "url": "https://github.com/NaiboWang/EasySpider/releases/tag/v0.2.0",
-      "points": null
-    },
-    {
-      "date": "2023-05-14",
-      "type": "release",
-      "title": "Beta Version 0.3.0",
-      "url": "https://github.com/NaiboWang/EasySpider/releases/tag/v0.3.0",
-      "points": null
-    },
-    {
-      "date": "2023-05-23",
-      "type": "release",
-      "title": "Version 0.3.1",
-      "url": "https://github.com/NaiboWang/EasySpider/releases/tag/v0.3.1",
-      "points": null
-    },
-    {
-      "date": "2023-06-01",
-      "type": "release",
-      "title": "Version 0.3.2",
-      "url": "https://github.com/NaiboWang/EasySpider/releases/tag/v0.3.2",
-      "points": null
-    },
-    {
-      "date": "2023-07-05",
-      "type": "release",
-      "title": "Version 0.3.5",
-      "url": "https://github.com/NaiboWang/EasySpider/releases/tag/v0.3.5",
-      "points": null
-    },
-    {
-      "date": "2023-07-28",
-      "type": "release",
-      "title": "Version 0.5.0",
-      "url": "https://github.com/NaiboWang/EasySpider/releases/tag/v0.5.0",
-      "points": null
-    },
-    {
-      "date": "2023-12-24",
-      "type": "release",
-      "title": "Version 0.6.0",
-      "url": "https://github.com/NaiboWang/EasySpider/releases/tag/v0.6.0",
-      "points": null
-    },
-    {
-      "date": "2024-04-21",
-      "type": "release",
-      "title": "Version 0.6.2",
-      "url": "https://github.com/NaiboWang/EasySpider/releases/tag/v0.6.2",
-      "points": null
-    },
-    {
-      "date": "2025-01-01",
-      "type": "release",
-      "title": "Version 0.6.3",
-      "url": "https://github.com/NaiboWang/EasySpider/releases/tag/v0.6.3",
-      "points": null
-    },
-    {
-      "date": "2026-08-19",
-      "type": "release",
-      "title": "Version 0.6.5",
-      "url": "https://github.com/NaiboWang/EasySpider/releases/tag/v0.6.5",
-      "points": null
-    }
-  ]
+  "events": []
 }

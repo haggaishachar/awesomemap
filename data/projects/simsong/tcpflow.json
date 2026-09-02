@@ -21,20 +21,5 @@
     }
   ],
   "weight": 1775,
-  "events": [
-    {
-      "date": "2018-09-27",
-      "type": "release",
-      "title": "tcpflow v1.5.0",
-      "url": "https://github.com/simsong/tcpflow/releases/tag/tcpflow-1.5.0",
-      "points": null
-    },
-    {
-      "date": "2021-02-19",
-      "type": "release",
-      "title": "tcpflow v1.6.1",
-      "url": "https://github.com/simsong/tcpflow/releases/tag/tcpflow-1.6.1",
-      "points": null
-    }
-  ]
+  "events": []
 }

@@ -34,41 +34,5 @@
     }
   ],
   "weight": 80547,
-  "events": [
-    {
-      "date": "2019-07-05",
-      "type": "release",
-      "title": "2019.1 - Kali Linux Repository - GLOBALSHIP",
-      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/releases/tag/2.1",
-      "points": null
-    },
-    {
-      "date": "2022-06-30",
-      "type": "release",
-      "title": "2022.1 - PayloadsAllTheThings - INTELWRITER",
-      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/releases/tag/3.0",
-      "points": null
-    },
-    {
-      "date": "2024-04-26",
-      "type": "release",
-      "title": "2024.1 - PayloadsAllTheThings - CHIPMUNKFEED",
-      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/releases/tag/4.0",
-      "points": null
-    },
-    {
-      "date": "2024-12-04",
-      "type": "release",
-      "title": "2024.2 - PayloadsAllTheThings - BOOKSQUIRREL",
-      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/releases/tag/4.1",
-      "points": null
-    },
-    {
-      "date": "2025-07-26",
-      "type": "release",
-      "title": "2025.1 - PayloadsAllTheThings - FERRETEDITOR",
-      "url": "https://github.com/swisskyrepo/PayloadsAllTheThings/releases/tag/4.2",
-      "points": null
-    }
-  ]
+  "events": []
 }

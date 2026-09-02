@@ -129,20 +129,5 @@
       "openIssues": 111
     }
   ],
-  "events": [
-    {
-      "date": "2019-01-05",
-      "type": "release",
-      "title": "1st version of Dopamine (stable)",
-      "url": "https://github.com/google/dopamine/releases/tag/v1",
-      "points": null
-    },
-    {
-      "date": "2019-09-26",
-      "type": "release",
-      "title": "Pre Keras release",
-      "url": "https://github.com/google/dopamine/releases/tag/v2",
-      "points": null
-    }
-  ]
+  "events": []
 }

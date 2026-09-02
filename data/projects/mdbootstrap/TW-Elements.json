@@ -3,9 +3,9 @@
   "id": "mdbootstrap/TW-Elements",
   "link": "https://github.com/mdbootstrap/TW-Elements",
   "name": "TW-Elements",
-  "desc": "𝙃𝙪𝙜𝙚 collection of Tailwind MIT licensed (free) components, sections and templates 😎",
+  "desc": "\ud835\ude43\ud835\ude6a\ud835\ude5c\ud835\ude5a collection of Tailwind MIT licensed (free) components, sections and templates \ud83d\ude0e",
   "githubName": "TW-Elements",
-  "githubDescription": "𝙃𝙪𝙜𝙚 collection of Tailwind MIT licensed (free) components, sections and templates 😎",
+  "githubDescription": "\ud835\ude43\ud835\ude6a\ud835\ude5c\ud835\ude5a collection of Tailwind MIT licensed (free) components, sections and templates \ud83d\ude0e",
   "tags": [
     "css",
     "dashboard-templates",
@@ -38,27 +38,5 @@
   ],
   "weight": 13163,
   "image": "https://avatars.githubusercontent.com/u/20553039?v=4",
-  "events": [
-    {
-      "date": "2023-09-11",
-      "type": "release",
-      "title": "v1.0.0",
-      "url": "https://github.com/mdbootstrap/TW-Elements/releases/tag/v1.0.0",
-      "points": null
-    },
-    {
-      "date": "2023-12-04",
-      "type": "release",
-      "title": "v1.1.0",
-      "url": "https://github.com/mdbootstrap/TW-Elements/releases/tag/v1.1.0",
-      "points": null
-    },
-    {
-      "date": "2024-03-04",
-      "type": "release",
-      "title": "v2.0.0",
-      "url": "https://github.com/mdbootstrap/TW-Elements/releases/tag/v2.0.0",
-      "points": null
-    }
-  ]
+  "events": []
 }

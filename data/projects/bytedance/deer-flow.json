@@ -36,13 +36,5 @@
   ],
   "weight": 81219,
   "image": "https://avatars.githubusercontent.com/u/4158466?v=4",
-  "events": [
-    {
-      "date": "2026-06-25",
-      "type": "release",
-      "title": "DeerFlow 2.0.0 released",
-      "url": "https://github.com/bytedance/deer-flow/releases/tag/v2.0.0",
-      "points": null
-    }
-  ]
+  "events": []
 }

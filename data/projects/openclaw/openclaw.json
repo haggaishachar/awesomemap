@@ -5,7 +5,7 @@
   "name": "OpenClaw",
   "desc": "Your own personal AI assistant, for any OS and platform",
   "githubName": "openclaw",
-  "githubDescription": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+  "githubDescription": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e ",
   "weight": 387669,
   "image": "https://avatars.githubusercontent.com/u/252820863?v=4",
   "tags": [
@@ -107,83 +107,5 @@
       "openIssues": 6121
     }
   ],
-  "events": [
-    {
-      "date": "2026-06-16",
-      "type": "release",
-      "title": "openclaw 2026.6.8",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.6.8",
-      "points": null
-    },
-    {
-      "date": "2026-06-21",
-      "type": "release",
-      "title": "openclaw 2026.6.9",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.6.9",
-      "points": null
-    },
-    {
-      "date": "2026-06-24",
-      "type": "release",
-      "title": "openclaw 2026.6.10",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.6.10",
-      "points": null
-    },
-    {
-      "date": "2026-06-30",
-      "type": "release",
-      "title": "openclaw 2026.6.11",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.6.11",
-      "points": null
-    },
-    {
-      "date": "2026-07-13",
-      "type": "release",
-      "title": "openclaw 2026.7.1",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.1",
-      "points": null
-    },
-    {
-      "date": "2026-08-04",
-      "type": "release",
-      "title": "openclaw 2026.7.1-2",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.1-2",
-      "points": null
-    },
-    {
-      "date": "2026-08-04",
-      "type": "release",
-      "title": "openclaw 2026.7.1-1",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.7.1-1",
-      "points": null
-    },
-    {
-      "date": "2026-08-08",
-      "type": "release",
-      "title": "openclaw 2026.6.34",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.6.34",
-      "points": null
-    },
-    {
-      "date": "2026-08-08",
-      "type": "release",
-      "title": "openclaw 2026.6.33",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.6.33",
-      "points": null
-    },
-    {
-      "date": "2026-08-31",
-      "type": "release",
-      "title": "OpenClaw 2026.8.1",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.8.1",
-      "points": null
-    },
-    {
-      "date": "2026-09-01",
-      "type": "release",
-      "title": "openclaw 2026.8.2",
-      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.8.2",
-      "points": null
-    }
-  ]
+  "events": []
 }

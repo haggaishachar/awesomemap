@@ -125,13 +125,5 @@
       "openIssues": 835
     }
   ],
-  "events": [
-    {
-      "date": "2026-08-18",
-      "type": "release",
-      "title": "@sveltejs/kit@2.70.3",
-      "url": "https://github.com/sveltejs/kit/releases/tag/%40sveltejs/kit%402.70.3",
-      "points": null
-    }
-  ]
+  "events": []
 }

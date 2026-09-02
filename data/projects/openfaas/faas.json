@@ -32,34 +32,5 @@
   ],
   "weight": 26234,
   "image": "https://avatars.githubusercontent.com/u/27013154?v=4",
-  "events": [
-    {
-      "date": "2024-11-18",
-      "type": "release",
-      "title": "Maintenance release",
-      "url": "https://github.com/openfaas/faas/releases/tag/0.27.10",
-      "points": null
-    },
-    {
-      "date": "2024-11-29",
-      "type": "release",
-      "title": "Allow CE gateway to proxy telemetry handler from OEM/Pro backend",
-      "url": "https://github.com/openfaas/faas/releases/tag/0.27.11",
-      "points": null
-    },
-    {
-      "date": "2024-12-09",
-      "type": "release",
-      "title": "Maintenance release",
-      "url": "https://github.com/openfaas/faas/releases/tag/0.27.12",
-      "points": null
-    },
-    {
-      "date": "2025-08-29",
-      "type": "release",
-      "title": "Update Go to 1.24 and vendor for CE gateway",
-      "url": "https://github.com/openfaas/faas/releases/tag/0.27.13",
-      "points": null
-    }
-  ]
+  "events": []
 }

@@ -39,39 +39,11 @@
       "points": 179
     },
     {
-      "date": "2025-12-15",
-      "type": "release",
-      "title": "CADAM v0.0.1",
-      "url": "https://github.com/Adam-CAD/CADAM/releases/tag/v0.0.1",
-      "points": null
-    },
-    {
-      "date": "2026-03-04",
-      "type": "release",
-      "title": "CADAM v.0.1.0",
-      "url": "https://github.com/Adam-CAD/CADAM/releases/tag/v0.1.0",
-      "points": null
-    },
-    {
-      "date": "2026-05-22",
-      "type": "release",
-      "title": "V0.2.0",
-      "url": "https://github.com/Adam-CAD/CADAM/releases/tag/v0.2.0",
-      "points": null
-    },
-    {
       "date": "2026-06-17",
       "type": "hn",
-      "title": "Launch HN: Adam (YC W25) – Open-Source AI CAD",
+      "title": "Launch HN: Adam (YC W25) \u2013 Open-Source AI CAD",
       "url": "https://news.ycombinator.com/item?id=48572553",
       "points": 215
-    },
-    {
-      "date": "2026-06-17",
-      "type": "release",
-      "title": "V0.3.0",
-      "url": "https://github.com/Adam-CAD/CADAM/releases/tag/v0.3.0",
-      "points": null
     }
   ]
 }

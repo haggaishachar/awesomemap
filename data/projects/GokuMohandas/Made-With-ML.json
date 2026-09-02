@@ -30,13 +30,5 @@
     }
   ],
   "weight": 49303,
-  "events": [
-    {
-      "date": "2026-03-04",
-      "type": "release",
-      "title": "v1.1.0",
-      "url": "https://github.com/GokuMohandas/Made-With-ML/releases/tag/v1.1.0",
-      "points": null
-    }
-  ]
+  "events": []
 }

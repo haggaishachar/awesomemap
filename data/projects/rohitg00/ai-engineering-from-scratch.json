@@ -37,20 +37,5 @@
     }
   ],
   "weight": 51735,
-  "events": [
-    {
-      "date": "2026-07-25",
-      "type": "release",
-      "title": "Edition 2026.07",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch/releases/tag/v2026.07",
-      "points": null
-    },
-    {
-      "date": "2026-08-10",
-      "type": "release",
-      "title": "Edition 2026.08",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch/releases/tag/v2026.08",
-      "points": null
-    }
-  ]
+  "events": []
 }

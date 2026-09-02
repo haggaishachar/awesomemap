@@ -38,67 +38,11 @@
   "weight": 21666,
   "events": [
     {
-      "date": "2020-01-26",
-      "type": "release",
-      "title": "v3.0-final",
-      "url": "https://github.com/smicallef/spiderfoot/releases/tag/v3.0",
-      "points": null
-    },
-    {
       "date": "2020-01-31",
       "type": "hn",
       "title": "SpiderFoot: OSINT collection and reconnaissance tool",
       "url": "https://news.ycombinator.com/item?id=22199730",
       "points": 272
-    },
-    {
-      "date": "2020-08-02",
-      "type": "release",
-      "title": "v3.1",
-      "url": "https://github.com/smicallef/spiderfoot/releases/tag/v3.1",
-      "points": null
-    },
-    {
-      "date": "2020-08-30",
-      "type": "release",
-      "title": "v3.2",
-      "url": "https://github.com/smicallef/spiderfoot/releases/tag/v3.2",
-      "points": null
-    },
-    {
-      "date": "2020-09-09",
-      "type": "release",
-      "title": "v3.2.1 (bug fix release)",
-      "url": "https://github.com/smicallef/spiderfoot/releases/tag/v3.2.1",
-      "points": null
-    },
-    {
-      "date": "2021-01-24",
-      "type": "release",
-      "title": "v3.3",
-      "url": "https://github.com/smicallef/spiderfoot/releases/tag/v3.3",
-      "points": null
-    },
-    {
-      "date": "2021-08-15",
-      "type": "release",
-      "title": "v3.4",
-      "url": "https://github.com/smicallef/spiderfoot/releases/tag/v3.4",
-      "points": null
-    },
-    {
-      "date": "2021-11-10",
-      "type": "release",
-      "title": "v3.5",
-      "url": "https://github.com/smicallef/spiderfoot/releases/tag/v3.5",
-      "points": null
-    },
-    {
-      "date": "2022-04-07",
-      "type": "release",
-      "title": "v4.0",
-      "url": "https://github.com/smicallef/spiderfoot/releases/tag/v4.0",
-      "points": null
     }
   ]
 }

@@ -3,9 +3,9 @@
   "id": "naptha/tesseract.js",
   "link": "https://github.com/naptha/tesseract.js",
   "name": "tesseract.js",
-  "desc": "Pure Javascript OCR for more than 100 Languages 📖🎉🖥",
+  "desc": "Pure Javascript OCR for more than 100 Languages \ud83d\udcd6\ud83c\udf89\ud83d\udda5",
   "githubName": "tesseract.js",
-  "githubDescription": "Pure Javascript OCR for more than 100 Languages 📖🎉🖥",
+  "githubDescription": "Pure Javascript OCR for more than 100 Languages \ud83d\udcd6\ud83c\udf89\ud83d\udda5",
   "tags": [
     "deep-learning",
     "javascript",
@@ -27,51 +27,9 @@
     {
       "date": "2016-10-12",
       "type": "hn",
-      "title": "Show HN: Tesseract.js – Pure JavaScript OCR for 60 Languages",
+      "title": "Show HN: Tesseract.js \u2013 Pure JavaScript OCR for 60 Languages",
       "url": "https://news.ycombinator.com/item?id=12694004",
       "points": 727
-    },
-    {
-      "date": "2020-03-20",
-      "type": "release",
-      "title": "Tesseract.js v2.1.0",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v2.1.0",
-      "points": null
-    },
-    {
-      "date": "2020-03-25",
-      "type": "release",
-      "title": "Tesseract.js v2.1.1",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v2.1.1",
-      "points": null
-    },
-    {
-      "date": "2020-09-10",
-      "type": "release",
-      "title": "Tesseract.js v2.1.2",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v2.1.2",
-      "points": null
-    },
-    {
-      "date": "2020-09-15",
-      "type": "release",
-      "title": "Tesseract.js v2.1.3",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v2.1.3",
-      "points": null
-    },
-    {
-      "date": "2020-10-14",
-      "type": "release",
-      "title": "Tesseract.js v2.1.4",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v2.1.4",
-      "points": null
-    },
-    {
-      "date": "2021-08-02",
-      "type": "release",
-      "title": "Tesseract.js v2.1.5",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v2.1.5",
-      "points": null
     },
     {
       "date": "2022-05-09",
@@ -79,174 +37,6 @@
       "title": "Tesseract.js wraps an Emscripten port of the Tesseract OCR Engine",
       "url": "https://news.ycombinator.com/item?id=31312064",
       "points": 146
-    },
-    {
-      "date": "2022-08-20",
-      "type": "release",
-      "title": "v3.0.2",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v3.0.2",
-      "points": null
-    },
-    {
-      "date": "2022-09-20",
-      "type": "release",
-      "title": "v3.0.3",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v3.0.3",
-      "points": null
-    },
-    {
-      "date": "2022-11-25",
-      "type": "release",
-      "title": "v4.0.0",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v4.0.0",
-      "points": null
-    },
-    {
-      "date": "2022-12-10",
-      "type": "release",
-      "title": "v4.0.1",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v4.0.1",
-      "points": null
-    },
-    {
-      "date": "2022-12-18",
-      "type": "release",
-      "title": "v4.0.2",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v4.0.2",
-      "points": null
-    },
-    {
-      "date": "2023-03-30",
-      "type": "release",
-      "title": "v4.0.3",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v4.0.3",
-      "points": null
-    },
-    {
-      "date": "2023-05-01",
-      "type": "release",
-      "title": "v4.0.4",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v4.0.4",
-      "points": null
-    },
-    {
-      "date": "2023-05-03",
-      "type": "release",
-      "title": "v4.0.5",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v4.0.5",
-      "points": null
-    },
-    {
-      "date": "2023-05-16",
-      "type": "release",
-      "title": "v4.0.6",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v4.0.6",
-      "points": null
-    },
-    {
-      "date": "2023-06-03",
-      "type": "release",
-      "title": "v4.1.0",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v4.1.0",
-      "points": null
-    },
-    {
-      "date": "2023-06-21",
-      "type": "release",
-      "title": "v4.1.1",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v4.1.1",
-      "points": null
-    },
-    {
-      "date": "2023-08-28",
-      "type": "release",
-      "title": "v4.1.2",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v4.1.2",
-      "points": null
-    },
-    {
-      "date": "2023-09-28",
-      "type": "release",
-      "title": "v5.0.0",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v5.0.0",
-      "points": null
-    },
-    {
-      "date": "2023-09-28",
-      "type": "release",
-      "title": "v4.1.4",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v4.1.4",
-      "points": null
-    },
-    {
-      "date": "2023-09-28",
-      "type": "release",
-      "title": "v4.1.3",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v4.1.3",
-      "points": null
-    },
-    {
-      "date": "2023-10-03",
-      "type": "release",
-      "title": "v5.0.2",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v5.0.2",
-      "points": null
-    },
-    {
-      "date": "2023-10-30",
-      "type": "release",
-      "title": "v5.0.3",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v5.0.3",
-      "points": null
-    },
-    {
-      "date": "2023-12-24",
-      "type": "release",
-      "title": "v5.0.4",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v5.0.4",
-      "points": null
-    },
-    {
-      "date": "2024-02-26",
-      "type": "release",
-      "title": "v5.0.5",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v5.0.5",
-      "points": null
-    },
-    {
-      "date": "2024-05-07",
-      "type": "release",
-      "title": "v5.1.0",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v5.1.0",
-      "points": null
-    },
-    {
-      "date": "2024-08-24",
-      "type": "release",
-      "title": "v5.1.1",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v5.1.1",
-      "points": null
-    },
-    {
-      "date": "2025-01-07",
-      "type": "release",
-      "title": "v6.0.0",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v6.0.0",
-      "points": null
-    },
-    {
-      "date": "2025-04-07",
-      "type": "release",
-      "title": "v6.0.1",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v6.0.1",
-      "points": null
-    },
-    {
-      "date": "2025-12-15",
-      "type": "release",
-      "title": "v7.0.0",
-      "url": "https://github.com/naptha/tesseract.js/releases/tag/v7.0.0",
-      "points": null
     }
   ]
 }

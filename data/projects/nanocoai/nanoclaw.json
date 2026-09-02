@@ -23,55 +23,5 @@
   ],
   "weight": 30684,
   "image": "https://avatars.githubusercontent.com/u/255066954?v=4",
-  "events": [
-    {
-      "date": "2026-05-15",
-      "type": "release",
-      "title": "v2.0.63",
-      "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2.0.63",
-      "points": null
-    },
-    {
-      "date": "2026-05-18",
-      "type": "release",
-      "title": "v2.0.64",
-      "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2.0.64",
-      "points": null
-    },
-    {
-      "date": "2026-06-17",
-      "type": "release",
-      "title": "v2.1.17",
-      "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2.1.17",
-      "points": null
-    },
-    {
-      "date": "2026-06-17",
-      "type": "release",
-      "title": "v2.1.0",
-      "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2.1.0",
-      "points": null
-    },
-    {
-      "date": "2026-08-01",
-      "type": "release",
-      "title": "v2.1.54",
-      "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2.1.54",
-      "points": null
-    },
-    {
-      "date": "2026-08-13",
-      "type": "release",
-      "title": "v2.2.0",
-      "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2.2.0",
-      "points": null
-    },
-    {
-      "date": "2026-08-24",
-      "type": "release",
-      "title": "v2.3.0",
-      "url": "https://github.com/nanocoai/nanoclaw/releases/tag/v2.3.0",
-      "points": null
-    }
-  ]
+  "events": []
 }

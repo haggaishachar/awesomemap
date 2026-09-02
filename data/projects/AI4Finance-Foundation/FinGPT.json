@@ -3,9 +3,9 @@
   "id": "AI4Finance-Foundation/FinGPT",
   "link": "https://github.com/AI4Finance-Foundation/FinGPT",
   "name": "FinGPT",
-  "desc": "FinGPT: Open-Source Financial Large Language Models!  Revolutionize 🔥    We release the trained model on HuggingFace.",
+  "desc": "FinGPT: Open-Source Financial Large Language Models!  Revolutionize \ud83d\udd25    We release the trained model on HuggingFace.",
   "githubName": "FinGPT",
-  "githubDescription": "FinGPT: Open-Source Financial Large Language Models!  Revolutionize 🔥    We release the trained model on HuggingFace.",
+  "githubDescription": "FinGPT: Open-Source Financial Large Language Models!  Revolutionize \ud83d\udd25    We release the trained model on HuggingFace.",
   "tags": [
     "chatgpt",
     "finance",
@@ -31,13 +31,5 @@
   ],
   "weight": 21197,
   "image": "https://avatars.githubusercontent.com/u/68813910?v=4",
-  "events": [
-    {
-      "date": "2026-04-08",
-      "type": "release",
-      "title": "FinGPT v1.0.0 – Open-Source Financial AI Platform",
-      "url": "https://github.com/AI4Finance-Foundation/FinGPT/releases/tag/v1.0.0",
-      "points": null
-    }
-  ]
+  "events": []
 }

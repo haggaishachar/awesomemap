@@ -1,15 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import {
-  hnHitMatchesRepo,
-  mapHnHit,
-  buildHnSearchUrl,
-  fetchHnEvents,
-  isPublishedRelease,
-  mapRelease,
-  fetchReleaseEvents,
-  appendEventEntries,
-} from "../scripts/snapshot-events.mjs";
+import { hnHitMatchesRepo, mapHnHit, buildHnSearchUrl, fetchHnEvents, appendEventEntries } from "../scripts/snapshot-events.mjs";
 
 test("hnHitMatchesRepo accepts a hit whose url contains github.com/<owner>/<repo>", () => {
   const hit = { url: "https://github.com/facebook/react/releases/tag/v19.0.0" };
@@ -77,51 +68,12 @@ test("fetchHnEvents throws with the response status when the request fails", asy
   );
 });
 
-test("isPublishedRelease rejects drafts and prereleases, accepts everything else", () => {
-  assert.equal(isPublishedRelease({ draft: false, prerelease: false }), true);
-  assert.equal(isPublishedRelease({ draft: true, prerelease: false }), false);
-  assert.equal(isPublishedRelease({ draft: false, prerelease: true }), false);
-});
-
-test("mapRelease maps a GitHub release onto an event entry, preferring the release name over the tag", () => {
-  const release = {
-    name: "v19.0.0 — Actions",
-    tag_name: "v19.0.0",
-    html_url: "https://github.com/facebook/react/releases/tag/v19.0.0",
-    published_at: "2026-08-07T14:32:00.000Z",
-  };
-  assert.deepEqual(mapRelease(release), {
-    date: "2026-08-07",
-    type: "release",
-    title: "v19.0.0 — Actions",
-    url: "https://github.com/facebook/react/releases/tag/v19.0.0",
-    points: null,
-  });
-});
-
-test("mapRelease falls back to the tag name when the release has no name", () => {
-  const release = { name: "", tag_name: "v19.0.0", html_url: "https://x/y", published_at: "2026-08-07T00:00:00.000Z" };
-  assert.equal(mapRelease(release).title, "v19.0.0");
-});
-
-test("fetchReleaseEvents drops drafts/prereleases and maps the rest", async () => {
-  const releases = [
-    { name: "v2.0", tag_name: "v2.0", html_url: "https://x/2", published_at: "2026-08-01T00:00:00.000Z", draft: false, prerelease: false },
-    { name: "v2.1-rc1", tag_name: "v2.1-rc1", html_url: "https://x/rc1", published_at: "2026-08-05T00:00:00.000Z", draft: false, prerelease: true },
-  ];
-  const getJson = async () => releases;
-
-  const result = await fetchReleaseEvents("facebook", "react", getJson);
-
-  assert.deepEqual(result, [{ date: "2026-08-01", type: "release", title: "v2.0", url: "https://x/2", points: null }]);
-});
-
 test("appendEventEntries merges new events into existing ones, sorted by date", () => {
-  const existing = [{ date: "2026-08-01", type: "release", title: "v2.0", url: "https://x/2", points: null }];
+  const existing = [{ date: "2026-08-01", type: "hn", title: "Earlier post", url: "https://hn/2", points: 90 }];
   const incoming = [{ date: "2026-07-01", type: "hn", title: "Launch", url: "https://hn/1", points: 200 }];
   assert.deepEqual(appendEventEntries(existing, incoming), [
     { date: "2026-07-01", type: "hn", title: "Launch", url: "https://hn/1", points: 200 },
-    { date: "2026-08-01", type: "release", title: "v2.0", url: "https://x/2", points: null },
+    { date: "2026-08-01", type: "hn", title: "Earlier post", url: "https://hn/2", points: 90 },
   ]);
 });
 
@@ -134,6 +86,6 @@ test("appendEventEntries dedupes by url, letting the new value win (e.g. an HN p
 });
 
 test("appendEventEntries treats a missing existing array as empty", () => {
-  const incoming = [{ date: "2026-08-01", type: "release", title: "v2.0", url: "https://x/2", points: null }];
+  const incoming = [{ date: "2026-08-01", type: "hn", title: "Launch", url: "https://hn/1", points: 200 }];
   assert.deepEqual(appendEventEntries(undefined, incoming), incoming);
 });

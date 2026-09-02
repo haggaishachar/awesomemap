@@ -131,5 +131,217 @@
       "forks": 6283,
       "openIssues": 57
     }
+  ],
+  "events": [
+    {
+      "date": "2026-07-25",
+      "type": "release",
+      "title": "appium@3.6.0",
+      "url": "https://github.com/appium/appium/releases/tag/appium%403.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-25",
+      "type": "release",
+      "title": "@appium/universal-xml-plugin@2.1.7",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/universal-xml-plugin%402.1.7",
+      "points": null
+    },
+    {
+      "date": "2026-07-25",
+      "type": "release",
+      "title": "@appium/types@1.6.0",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/types%401.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-25",
+      "type": "release",
+      "title": "@appium/tsconfig@1.2.0",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/tsconfig%401.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-25",
+      "type": "release",
+      "title": "@appium/support@7.2.6",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/support%407.2.6",
+      "points": null
+    },
+    {
+      "date": "2026-07-25",
+      "type": "release",
+      "title": "@appium/strongbox@1.1.3",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/strongbox%401.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-25",
+      "type": "release",
+      "title": "@appium/storage-plugin@1.1.8",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/storage-plugin%401.1.8",
+      "points": null
+    },
+    {
+      "date": "2026-07-25",
+      "type": "release",
+      "title": "@appium/semantic-release-config@1.1.0",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/semantic-release-config%401.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "appium@3.7.0",
+      "url": "https://github.com/appium/appium/releases/tag/appium%403.7.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "@appium/universal-xml-plugin@3.0.0",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/universal-xml-plugin%403.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "@appium/types@1.7.0",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/types%401.7.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "@appium/tsconfig@1.2.1",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/tsconfig%401.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "@appium/support@7.2.7",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/support%407.2.7",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "@appium/strongbox@2.0.0",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/strongbox%402.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "@appium/storage-plugin@2.0.0",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/storage-plugin%402.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "@appium/semantic-release-config@1.2.0",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/semantic-release-config%401.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "@appium/relaxed-caps-plugin@3.0.0",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/relaxed-caps-plugin%403.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "@appium/plugin-test-support@3.0.0",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/plugin-test-support%403.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "@appium/oxc-config@1.1.1",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/oxc-config%401.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "@appium/opencv@5.0.0",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/opencv%405.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "@appium/logger@2.0.11",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/logger%402.0.11",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "@appium/images-plugin@5.0.0",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/images-plugin%405.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "@appium/fake-plugin@4.4.0",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/fake-plugin%404.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "@appium/fake-driver@6.2.3",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/fake-driver%406.2.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "@appium/execute-driver-plugin@7.0.0",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/execute-driver-plugin%407.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "@appium/eslint-config-appium-ts@3.2.5",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/eslint-config-appium-ts%403.2.5",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "@appium/driver-test-support@3.0.0",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/driver-test-support%403.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "@appium/docutils@3.0.0",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/docutils%403.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "@appium/base-plugin@3.3.4",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/base-plugin%403.3.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "@appium/base-driver@10.8.0",
+      "url": "https://github.com/appium/appium/releases/tag/%40appium/base-driver%4010.8.0",
+      "points": null
+    }
   ]
 }

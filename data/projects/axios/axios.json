@@ -124,9 +124,228 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 109199,
+      "stars": 109197,
       "forks": 11832,
       "openIssues": 89
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-06-14",
+      "type": "release",
+      "title": "Release v1.10.0",
+      "url": "https://github.com/axios/axios/releases/tag/v1.10.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-23",
+      "type": "release",
+      "title": "Release v1.11.0",
+      "url": "https://github.com/axios/axios/releases/tag/v1.11.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-04",
+      "type": "release",
+      "title": "Release v0.30.1",
+      "url": "https://github.com/axios/axios/releases/tag/v0.30.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-11",
+      "type": "release",
+      "title": "Release v1.12.0",
+      "url": "https://github.com/axios/axios/releases/tag/v1.12.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-12",
+      "type": "release",
+      "title": "Release v1.12.1",
+      "url": "https://github.com/axios/axios/releases/tag/v1.12.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-14",
+      "type": "release",
+      "title": "Release v1.12.2",
+      "url": "https://github.com/axios/axios/releases/tag/v1.12.2",
+      "points": null
+    },
+    {
+      "date": "2025-09-27",
+      "type": "release",
+      "title": "v0.30.2",
+      "url": "https://github.com/axios/axios/releases/tag/v0.30.2",
+      "points": null
+    },
+    {
+      "date": "2025-10-27",
+      "type": "release",
+      "title": "Release v1.13.0",
+      "url": "https://github.com/axios/axios/releases/tag/v1.13.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-28",
+      "type": "release",
+      "title": "Release v1.13.1",
+      "url": "https://github.com/axios/axios/releases/tag/v1.13.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-04",
+      "type": "release",
+      "title": "Release v1.13.2",
+      "url": "https://github.com/axios/axios/releases/tag/v1.13.2",
+      "points": null
+    },
+    {
+      "date": "2026-01-20",
+      "type": "release",
+      "title": "Release v1.13.3",
+      "url": "https://github.com/axios/axios/releases/tag/v1.13.3",
+      "points": null
+    },
+    {
+      "date": "2026-01-27",
+      "type": "release",
+      "title": "v1.13.4",
+      "url": "https://github.com/axios/axios/releases/tag/v1.13.4",
+      "points": null
+    },
+    {
+      "date": "2026-02-08",
+      "type": "release",
+      "title": "v1.13.5",
+      "url": "https://github.com/axios/axios/releases/tag/v1.13.5",
+      "points": null
+    },
+    {
+      "date": "2026-02-18",
+      "type": "release",
+      "title": "Release notes - v0.30.3",
+      "url": "https://github.com/axios/axios/releases/tag/v0.30.3",
+      "points": null
+    },
+    {
+      "date": "2026-02-27",
+      "type": "release",
+      "title": "v1.13.6",
+      "url": "https://github.com/axios/axios/releases/tag/v1.13.6",
+      "points": null
+    },
+    {
+      "date": "2026-03-27",
+      "type": "release",
+      "title": "v1.14.0",
+      "url": "https://github.com/axios/axios/releases/tag/v1.14.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-03",
+      "type": "hn",
+      "title": "Post Mortem: axios NPM supply chain compromise",
+      "url": "https://news.ycombinator.com/item?id=47621792",
+      "points": 291
+    },
+    {
+      "date": "2026-04-07",
+      "type": "release",
+      "title": "v1.15.0",
+      "url": "https://github.com/axios/axios/releases/tag/v1.15.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-12",
+      "type": "release",
+      "title": "v0.31.0",
+      "url": "https://github.com/axios/axios/releases/tag/v0.31.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-19",
+      "type": "release",
+      "title": "v1.15.1",
+      "url": "https://github.com/axios/axios/releases/tag/v1.15.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-19",
+      "type": "release",
+      "title": "v0.31.1",
+      "url": "https://github.com/axios/axios/releases/tag/v0.31.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-21",
+      "type": "release",
+      "title": "v1.15.2",
+      "url": "https://github.com/axios/axios/releases/tag/v1.15.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-02",
+      "type": "release",
+      "title": "v1.16.0",
+      "url": "https://github.com/axios/axios/releases/tag/v1.16.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-04",
+      "type": "release",
+      "title": "v0.32.0",
+      "url": "https://github.com/axios/axios/releases/tag/v0.32.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "v1.16.1",
+      "url": "https://github.com/axios/axios/releases/tag/v1.16.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "title": "v1.17.0",
+      "url": "https://github.com/axios/axios/releases/tag/v1.17.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-13",
+      "type": "release",
+      "title": "v1.18.0",
+      "url": "https://github.com/axios/axios/releases/tag/v1.18.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-13",
+      "type": "release",
+      "title": "v0.33.0",
+      "url": "https://github.com/axios/axios/releases/tag/v0.33.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-21",
+      "type": "release",
+      "title": "v1.18.1",
+      "url": "https://github.com/axios/axios/releases/tag/v1.18.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-26",
+      "type": "release",
+      "title": "v1.19.0",
+      "url": "https://github.com/axios/axios/releases/tag/v1.19.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "v1.20.0",
+      "url": "https://github.com/axios/axios/releases/tag/v1.20.0",
+      "points": null
     }
   ]
 }

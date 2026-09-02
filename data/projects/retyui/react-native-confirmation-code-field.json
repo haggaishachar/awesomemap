@@ -26,5 +26,49 @@
       "openIssues": 5
     }
   ],
-  "weight": 1229
+  "weight": 1229,
+  "events": [
+    {
+      "date": "2023-10-11",
+      "type": "release",
+      "title": "7.3.2",
+      "url": "https://github.com/retyui/react-native-confirmation-code-field/releases/tag/7.3.2",
+      "points": null
+    },
+    {
+      "date": "2024-03-21",
+      "type": "release",
+      "title": "7.4.0",
+      "url": "https://github.com/retyui/react-native-confirmation-code-field/releases/tag/7.4.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-14",
+      "type": "release",
+      "title": "Release 4.5.0",
+      "url": "https://github.com/retyui/react-native-confirmation-code-field/releases/tag/4.5.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-16",
+      "type": "release",
+      "title": "7.6.0",
+      "url": "https://github.com/retyui/react-native-confirmation-code-field/releases/tag/4.6.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-06",
+      "type": "release",
+      "title": "Release 8.0.0",
+      "url": "https://github.com/retyui/react-native-confirmation-code-field/releases/tag/8.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-31",
+      "type": "release",
+      "title": "Release 9.0.0",
+      "url": "https://github.com/retyui/react-native-confirmation-code-field/releases/tag/9.0.0",
+      "points": null
+    }
+  ]
 }

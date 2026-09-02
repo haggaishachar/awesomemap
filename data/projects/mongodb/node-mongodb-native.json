@@ -18,9 +18,221 @@
       "date": "2026-09-02",
       "stars": 10178,
       "forks": 1820,
-      "openIssues": 27
+      "openIssues": 28
     }
   ],
   "weight": 10179,
-  "image": "https://avatars.githubusercontent.com/u/45120?v=4"
+  "image": "https://avatars.githubusercontent.com/u/45120?v=4",
+  "events": [
+    {
+      "date": "2024-05-06",
+      "type": "release",
+      "title": "v6.6.1",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v6.6.1",
+      "points": null
+    },
+    {
+      "date": "2024-05-15",
+      "type": "release",
+      "title": "v6.6.2",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v6.6.2",
+      "points": null
+    },
+    {
+      "date": "2024-05-29",
+      "type": "release",
+      "title": "v6.7.0",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v6.7.0",
+      "points": null
+    },
+    {
+      "date": "2024-06-27",
+      "type": "release",
+      "title": "v6.8.0",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v6.8.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-06",
+      "type": "release",
+      "title": "v6.8.1",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v6.8.1",
+      "points": null
+    },
+    {
+      "date": "2024-09-12",
+      "type": "release",
+      "title": "v6.9.0",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v6.9.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-12",
+      "type": "release",
+      "title": "v6.8.2",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v6.8.2",
+      "points": null
+    },
+    {
+      "date": "2024-10-21",
+      "type": "release",
+      "title": "v6.10.0",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v6.10.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-22",
+      "type": "release",
+      "title": "v6.11.0",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v6.11.0",
+      "points": null
+    },
+    {
+      "date": "2024-12-10",
+      "type": "release",
+      "title": "v6.12.0",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v6.12.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-30",
+      "type": "release",
+      "title": "v6.13.0",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v6.13.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-20",
+      "type": "release",
+      "title": "v6.13.1",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v6.13.1",
+      "points": null
+    },
+    {
+      "date": "2025-02-28",
+      "type": "release",
+      "title": "v6.14.0",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v6.14.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-03",
+      "type": "release",
+      "title": "v6.14.1",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v6.14.1",
+      "points": null
+    },
+    {
+      "date": "2025-03-04",
+      "type": "release",
+      "title": "v6.14.2",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v6.14.2",
+      "points": null
+    },
+    {
+      "date": "2025-03-18",
+      "type": "release",
+      "title": "v6.15.0",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v6.15.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-21",
+      "type": "release",
+      "title": "v6.16.0",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v6.16.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-03",
+      "type": "release",
+      "title": "v6.17.0",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v6.17.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-22",
+      "type": "release",
+      "title": "v6.18.0",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v6.18.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-26",
+      "type": "release",
+      "title": "v6.19.0",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v6.19.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-18",
+      "type": "release",
+      "title": "v6.20.0",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v6.20.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-05",
+      "type": "release",
+      "title": "v6.21.0",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v6.21.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-06",
+      "type": "release",
+      "title": "v7.0.0",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v7.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-04",
+      "type": "release",
+      "title": "v7.1.0",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v7.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-24",
+      "type": "release",
+      "title": "v7.1.1",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v7.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-20",
+      "type": "release",
+      "title": "v7.2.0",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v7.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "title": "v7.3.0",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v7.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-25",
+      "type": "release",
+      "title": "v7.4.0",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v7.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-07",
+      "type": "release",
+      "title": "v7.5.0",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v7.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "v7.6.0",
+      "url": "https://github.com/mongodb/node-mongodb-native/releases/tag/v7.6.0",
+      "points": null
+    }
+  ]
 }

@@ -139,9 +139,109 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 34420,
+      "stars": 34422,
       "forks": 8040,
       "openIssues": 359
+    }
+  ],
+  "events": [
+    {
+      "date": "2017-10-31",
+      "type": "release",
+      "title": "OpenPose v1.1.0",
+      "url": "https://github.com/CMU-Perceptual-Computing-Lab/openpose/releases/tag/v1.1.0",
+      "points": null
+    },
+    {
+      "date": "2017-10-31",
+      "type": "release",
+      "title": "OpenPose v1.0.2",
+      "url": "https://github.com/CMU-Perceptual-Computing-Lab/openpose/releases/tag/v1.0.2",
+      "points": null
+    },
+    {
+      "date": "2017-10-31",
+      "type": "release",
+      "title": "OpenPose v1.0.1",
+      "url": "https://github.com/CMU-Perceptual-Computing-Lab/openpose/releases/tag/v1.0.1",
+      "points": null
+    },
+    {
+      "date": "2017-10-31",
+      "type": "release",
+      "title": "OpenPose v1.0.0",
+      "url": "https://github.com/CMU-Perceptual-Computing-Lab/openpose/releases/tag/v1.0.0",
+      "points": null
+    },
+    {
+      "date": "2017-11-03",
+      "type": "release",
+      "title": "OpenPose v1.2.0",
+      "url": "https://github.com/CMU-Perceptual-Computing-Lab/openpose/releases/tag/v1.2.0",
+      "points": null
+    },
+    {
+      "date": "2018-01-09",
+      "type": "release",
+      "title": "OpenPose v1.2.1",
+      "url": "https://github.com/CMU-Perceptual-Computing-Lab/openpose/releases/tag/v1.2.1",
+      "points": null
+    },
+    {
+      "date": "2018-02-05",
+      "type": "hn",
+      "title": "OpenPose: Real-time multi-person body, face, and hands estimation",
+      "url": "https://news.ycombinator.com/item?id=16307481",
+      "points": 150
+    },
+    {
+      "date": "2018-03-24",
+      "type": "release",
+      "title": "OpenPose v1.3.0",
+      "url": "https://github.com/CMU-Perceptual-Computing-Lab/openpose/releases/tag/v1.3.0",
+      "points": null
+    },
+    {
+      "date": "2018-09-02",
+      "type": "release",
+      "title": "OpenPose v1.4.0",
+      "url": "https://github.com/CMU-Perceptual-Computing-Lab/openpose/releases/tag/v1.4.0",
+      "points": null
+    },
+    {
+      "date": "2019-05-16",
+      "type": "release",
+      "title": "OpenPose v1.5.0",
+      "url": "https://github.com/CMU-Perceptual-Computing-Lab/openpose/releases/tag/v1.5.0",
+      "points": null
+    },
+    {
+      "date": "2019-09-04",
+      "type": "release",
+      "title": "OpenPose v1.5.1",
+      "url": "https://github.com/CMU-Perceptual-Computing-Lab/openpose/releases/tag/v1.5.1",
+      "points": null
+    },
+    {
+      "date": "2020-04-27",
+      "type": "release",
+      "title": "OpenPose v1.6.0",
+      "url": "https://github.com/CMU-Perceptual-Computing-Lab/openpose/releases/tag/v1.6.0",
+      "points": null
+    },
+    {
+      "date": "2020-05-09",
+      "type": "hn",
+      "title": "OpenPose: Real-time multi-person keypoint detection library for body estimation",
+      "url": "https://news.ycombinator.com/item?id=23123556",
+      "points": 98
+    },
+    {
+      "date": "2020-11-17",
+      "type": "release",
+      "title": "OpenPose v1.7.0",
+      "url": "https://github.com/CMU-Perceptual-Computing-Lab/openpose/releases/tag/v1.7.0",
+      "points": null
     }
   ]
 }

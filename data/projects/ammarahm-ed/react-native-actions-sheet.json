@@ -36,5 +36,210 @@
     }
   ],
   "weight": 2177,
-  "image": "https://raw.githubusercontent.com/ammarahm-ed/react-native-actions-sheet/master/assets/logo.svg"
+  "image": "https://raw.githubusercontent.com/ammarahm-ed/react-native-actions-sheet/master/assets/logo.svg",
+  "events": [
+    {
+      "date": "2021-08-10",
+      "type": "release",
+      "title": "v0.5.1",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v0.5.1",
+      "points": null
+    },
+    {
+      "date": "2021-08-29",
+      "type": "release",
+      "title": "v0.5.2",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/0.5.2",
+      "points": null
+    },
+    {
+      "date": "2021-08-31",
+      "type": "release",
+      "title": "v0.5.3",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v0.5.3",
+      "points": null
+    },
+    {
+      "date": "2021-09-01",
+      "type": "release",
+      "title": "v0.5.4",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v0.5.4",
+      "points": null
+    },
+    {
+      "date": "2021-10-25",
+      "type": "release",
+      "title": "v0.5.6",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v0.5.6",
+      "points": null
+    },
+    {
+      "date": "2021-10-25",
+      "type": "release",
+      "title": "v0.5.5",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v0.5.5",
+      "points": null
+    },
+    {
+      "date": "2021-11-11",
+      "type": "release",
+      "title": "v0.5.7",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v0.5.7",
+      "points": null
+    },
+    {
+      "date": "2021-11-18",
+      "type": "release",
+      "title": "v0.5.8",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v0.5.8",
+      "points": null
+    },
+    {
+      "date": "2022-01-29",
+      "type": "release",
+      "title": "v0.6.0",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v0.6.0",
+      "points": null
+    },
+    {
+      "date": "2022-04-01",
+      "type": "release",
+      "title": "v0.6.1",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v0.6.1",
+      "points": null
+    },
+    {
+      "date": "2022-06-24",
+      "type": "release",
+      "title": "v0.6.2",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v0.6.2",
+      "points": null
+    },
+    {
+      "date": "2022-06-26",
+      "type": "release",
+      "title": "v0.7.1",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v0.7.1",
+      "points": null
+    },
+    {
+      "date": "2022-08-21",
+      "type": "release",
+      "title": "v0.8.0",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v0.8.0",
+      "points": null
+    },
+    {
+      "date": "2022-08-22",
+      "type": "release",
+      "title": "v0.8.1",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v0.8.1",
+      "points": null
+    },
+    {
+      "date": "2022-08-23",
+      "type": "release",
+      "title": "v0.8.3",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v0.8.3",
+      "points": null
+    },
+    {
+      "date": "2022-08-23",
+      "type": "release",
+      "title": "v0.8.2",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v0.8.2",
+      "points": null
+    },
+    {
+      "date": "2022-08-28",
+      "type": "release",
+      "title": "v0.8.4",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v0.8.4",
+      "points": null
+    },
+    {
+      "date": "2022-09-13",
+      "type": "release",
+      "title": "v0.8.7",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v0.8.7",
+      "points": null
+    },
+    {
+      "date": "2022-09-13",
+      "type": "release",
+      "title": "v0.8.6",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v0.8.6",
+      "points": null
+    },
+    {
+      "date": "2022-10-09",
+      "type": "release",
+      "title": "v0.8.8",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v0.8.8",
+      "points": null
+    },
+    {
+      "date": "2022-10-25",
+      "type": "release",
+      "title": "v0.8.9",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v0.8.9",
+      "points": null
+    },
+    {
+      "date": "2022-10-26",
+      "type": "release",
+      "title": "v0.8.10",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v0.8.10",
+      "points": null
+    },
+    {
+      "date": "2023-02-13",
+      "type": "release",
+      "title": "v0.8.21",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v0.8.21",
+      "points": null
+    },
+    {
+      "date": "2024-08-01",
+      "type": "release",
+      "title": "v0.9.7",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v0.9.7",
+      "points": null
+    },
+    {
+      "date": "2025-11-28",
+      "type": "release",
+      "title": "v10.0.0",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v10.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-29",
+      "type": "release",
+      "title": "v10.0.1",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v10.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-30",
+      "type": "release",
+      "title": "v10.1.0",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v10.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-12",
+      "type": "release",
+      "title": "v10.1.1",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v10.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-21",
+      "type": "release",
+      "title": "v10.1.2",
+      "url": "https://github.com/ammarahm-ed/react-native-actions-sheet/releases/tag/v10.1.2",
+      "points": null
+    }
+  ]
 }

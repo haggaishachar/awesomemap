@@ -131,9 +131,46 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 22908,
-      "forks": 3159,
-      "openIssues": 265
+      "stars": 22907,
+      "forks": 3160,
+      "openIssues": 270
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-11-05",
+      "type": "release",
+      "title": "v11.7.5",
+      "url": "https://github.com/mochajs/mocha/releases/tag/v11.7.5",
+      "points": null
+    },
+    {
+      "date": "2026-05-18",
+      "type": "release",
+      "title": "v11.7.6",
+      "url": "https://github.com/mochajs/mocha/releases/tag/v11.7.6",
+      "points": null
+    },
+    {
+      "date": "2026-06-14",
+      "type": "release",
+      "title": "v11.7.7",
+      "url": "https://github.com/mochajs/mocha/releases/tag/v11.7.7",
+      "points": null
+    },
+    {
+      "date": "2026-08-02",
+      "type": "release",
+      "title": "v11.8.0",
+      "url": "https://github.com/mochajs/mocha/releases/tag/v11.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "v12.0.0",
+      "url": "https://github.com/mochajs/mocha/releases/tag/v12.0.0",
+      "points": null
     }
   ]
 }

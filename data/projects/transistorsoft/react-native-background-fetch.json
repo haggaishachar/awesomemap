@@ -4,10 +4,18 @@
   "link": "https://github.com/transistorsoft/react-native-background-fetch",
   "name": "react-native-background-fetch",
   "desc": "Periodic callbacks in the background for both IOS and Android",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-background-fetch",
+  "githubDescription": "Periodic callbacks in the background for both IOS and Android",
   "tags": [],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1609,
+      "forks": 197,
+      "openIssues": 2
+    }
+  ],
   "weight": 1609,
-  "image": "https://avatars.githubusercontent.com/u/2099918?v=4"
+  "image": "https://avatars.githubusercontent.com/u/2099918?v=4",
+  "events": []
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/honojs/hono",
   "name": "hono",
   "desc": "Web framework built on Web Standards",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "hono",
+  "githubDescription": "Web framework built on Web Standards",
   "tags": [
     "aws-lambda",
     "bun",
@@ -17,7 +17,240 @@
     "typescript",
     "web-framework"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 32068,
+      "forks": 1276,
+      "openIssues": 387
+    }
+  ],
   "weight": 32064,
-  "image": "https://avatars.githubusercontent.com/u/98495527?v=4"
+  "image": "https://avatars.githubusercontent.com/u/98495527?v=4",
+  "events": [
+    {
+      "date": "2024-02-09",
+      "type": "hn",
+      "title": "Hono v4.0",
+      "url": "https://news.ycombinator.com/item?id=39313891",
+      "points": 181
+    },
+    {
+      "date": "2024-04-16",
+      "type": "hn",
+      "title": "HonoJS: Small, simple, and ultrafast web framework for the Edges",
+      "url": "https://news.ycombinator.com/item?id=40047212",
+      "points": 300
+    },
+    {
+      "date": "2026-04-06",
+      "type": "release",
+      "title": "v4.12.11",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.11",
+      "points": null
+    },
+    {
+      "date": "2026-04-07",
+      "type": "release",
+      "title": "v4.12.12",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.12",
+      "points": null
+    },
+    {
+      "date": "2026-04-15",
+      "type": "release",
+      "title": "v4.12.14",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.14",
+      "points": null
+    },
+    {
+      "date": "2026-04-15",
+      "type": "release",
+      "title": "v4.12.13",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.13",
+      "points": null
+    },
+    {
+      "date": "2026-04-24",
+      "type": "release",
+      "title": "v4.12.15",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.15",
+      "points": null
+    },
+    {
+      "date": "2026-04-30",
+      "type": "release",
+      "title": "v4.12.16",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.16",
+      "points": null
+    },
+    {
+      "date": "2026-05-05",
+      "type": "release",
+      "title": "v4.12.17",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.17",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "v4.12.18",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.18",
+      "points": null
+    },
+    {
+      "date": "2026-05-16",
+      "type": "release",
+      "title": "v4.12.19",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.19",
+      "points": null
+    },
+    {
+      "date": "2026-05-19",
+      "type": "release",
+      "title": "v4.12.21",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.21",
+      "points": null
+    },
+    {
+      "date": "2026-05-19",
+      "type": "release",
+      "title": "v4.12.20",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.20",
+      "points": null
+    },
+    {
+      "date": "2026-05-22",
+      "type": "release",
+      "title": "v4.12.22",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.22",
+      "points": null
+    },
+    {
+      "date": "2026-05-25",
+      "type": "release",
+      "title": "v4.12.23",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.23",
+      "points": null
+    },
+    {
+      "date": "2026-06-08",
+      "type": "release",
+      "title": "v4.12.24",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.24",
+      "points": null
+    },
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "title": "v4.12.25",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.25",
+      "points": null
+    },
+    {
+      "date": "2026-06-18",
+      "type": "release",
+      "title": "v4.12.26",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.26",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "v4.12.27",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.27",
+      "points": null
+    },
+    {
+      "date": "2026-07-06",
+      "type": "release",
+      "title": "v4.12.28",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.28",
+      "points": null
+    },
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "title": "v4.12.29",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.29",
+      "points": null
+    },
+    {
+      "date": "2026-07-13",
+      "type": "release",
+      "title": "v4.12.30",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.30",
+      "points": null
+    },
+    {
+      "date": "2026-07-18",
+      "type": "release",
+      "title": "v4.12.31",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.31",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "v4.12.32",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.32",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "v4.12.33",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.33",
+      "points": null
+    },
+    {
+      "date": "2026-08-03",
+      "type": "release",
+      "title": "v4.13.0",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.13.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-03",
+      "type": "release",
+      "title": "v4.12.34",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.12.34",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "v4.13.1",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.13.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "v4.13.2",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.13.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "v4.13.3",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.13.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "v4.13.4",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.13.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v4.13.5",
+      "url": "https://github.com/honojs/hono/releases/tag/v4.13.5",
+      "points": null
+    }
+  ]
 }

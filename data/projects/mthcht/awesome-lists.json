@@ -31,10 +31,19 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 1895,
+      "stars": 1896,
       "forks": 236,
       "openIssues": 24
     }
   ],
-  "weight": 1894
+  "weight": 1894,
+  "events": [
+    {
+      "date": "2025-03-01",
+      "type": "release",
+      "title": "Big Files Release",
+      "url": "https://github.com/mthcht/awesome-lists/releases/tag/big-files",
+      "points": null
+    }
+  ]
 }

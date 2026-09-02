@@ -24,10 +24,19 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 49315,
-      "forks": 7739,
+      "stars": 49320,
+      "forks": 7740,
       "openIssues": 25
     }
   ],
-  "weight": 49303
+  "weight": 49303,
+  "events": [
+    {
+      "date": "2026-03-04",
+      "type": "release",
+      "title": "v1.1.0",
+      "url": "https://github.com/GokuMohandas/Made-With-ML/releases/tag/v1.1.0",
+      "points": null
+    }
+  ]
 }

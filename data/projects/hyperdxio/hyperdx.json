@@ -4,8 +4,8 @@
   "link": "https://github.com/hyperdxio/hyperdx",
   "name": "hyperdx",
   "desc": "Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "hyperdx",
+  "githubDescription": "Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry.",
   "tags": [
     "alerting",
     "analytics",
@@ -27,7 +27,247 @@
     "traces",
     "typescript"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 9872,
+      "forks": 461,
+      "openIssues": 195
+    }
+  ],
   "weight": 9872,
-  "image": "https://avatars.githubusercontent.com/u/130113031?v=4"
+  "image": "https://avatars.githubusercontent.com/u/130113031?v=4",
+  "events": [
+    {
+      "date": "2023-09-18",
+      "type": "hn",
+      "title": "Show HN: HyperDX – open-source dev-friendly Datadog alternative",
+      "url": "https://news.ycombinator.com/item?id=37558357",
+      "points": 722
+    },
+    {
+      "date": "2024-11-12",
+      "type": "hn",
+      "title": "Show HN: Open-source Kibana alternative for logs and traces in ClickHouse",
+      "url": "https://news.ycombinator.com/item?id=42117970",
+      "points": 125
+    },
+    {
+      "date": "2025-06-05",
+      "type": "hn",
+      "title": "Show HN: ClickStack – Open-source Datadog alternative by ClickHouse and HyperDX",
+      "url": "https://news.ycombinator.com/item?id=44194082",
+      "points": 241
+    },
+    {
+      "date": "2026-07-27",
+      "type": "release",
+      "title": "@hyperdx/otel-collector@2.32.0",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/otel-collector%402.32.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-27",
+      "type": "release",
+      "title": "@hyperdx/hdx-eval@0.3.0",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/hdx-eval%400.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-27",
+      "type": "release",
+      "title": "@hyperdx/common-utils@0.24.0",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/common-utils%400.24.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "@hyperdx/otel-collector@2.33.0",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/otel-collector%402.33.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "@hyperdx/common-utils@0.24.1",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/common-utils%400.24.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "@hyperdx/app@2.33.0",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/app%402.33.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "@hyperdx/api@2.33.0",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/api%402.33.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "@hyperdx/otel-collector@2.34.0",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/otel-collector%402.34.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "@hyperdx/hdx-eval@0.3.1",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/hdx-eval%400.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "@hyperdx/common-utils@0.25.0",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/common-utils%400.25.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "@hyperdx/app@2.34.0",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/app%402.34.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "@hyperdx/api@2.34.0",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/api%402.34.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "@hyperdx/cli v0.6.1",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/cli-v0.6.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "@hyperdx/otel-collector@2.35.0",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/otel-collector%402.35.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "@hyperdx/hdx-eval@0.3.2",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/hdx-eval%400.3.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "@hyperdx/common-utils@0.26.0",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/common-utils%400.26.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "@hyperdx/cli@0.6.1",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/cli%400.6.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "@hyperdx/app@2.35.0",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/app%402.35.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "@hyperdx/api@2.35.0",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/api%402.35.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "@hyperdx/cli v0.6.2",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/cli-v0.6.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "@hyperdx/otel-collector@2.36.0",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/otel-collector%402.36.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "@hyperdx/common-utils@0.27.0",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/common-utils%400.27.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "@hyperdx/cli@0.6.2",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/cli%400.6.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "@hyperdx/app@2.36.0",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/app%402.36.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "@hyperdx/api@2.36.0",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/api%402.36.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "@hyperdx/otel-collector@2.37.0",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/otel-collector%402.37.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "@hyperdx/hdx-eval@0.3.3",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/hdx-eval%400.3.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "@hyperdx/common-utils@0.28.0",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/common-utils%400.28.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "@hyperdx/app@2.37.0",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/app%402.37.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "@hyperdx/api@2.37.0",
+      "url": "https://github.com/hyperdxio/hyperdx/releases/tag/%40hyperdx/api%402.37.0",
+      "points": null
+    }
+  ]
 }

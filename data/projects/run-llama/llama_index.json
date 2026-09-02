@@ -105,9 +105,221 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 51976,
-      "forks": 8067,
-      "openIssues": 690
+      "stars": 51982,
+      "forks": 8072,
+      "openIssues": 694
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-08-14",
+      "type": "release",
+      "title": "v0.13.2.post1",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.13.2.post1",
+      "points": null
+    },
+    {
+      "date": "2025-08-22",
+      "type": "release",
+      "title": "v0.13.3",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.13.3",
+      "points": null
+    },
+    {
+      "date": "2025-08-29",
+      "type": "release",
+      "title": "v0.13.3.post1",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.13.3.post1",
+      "points": null
+    },
+    {
+      "date": "2025-09-02",
+      "type": "release",
+      "title": "v0.13.4",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.13.4",
+      "points": null
+    },
+    {
+      "date": "2025-09-04",
+      "type": "release",
+      "title": "v0.13.5",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.13.5",
+      "points": null
+    },
+    {
+      "date": "2025-09-07",
+      "type": "release",
+      "title": "v0.13.6",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.13.6",
+      "points": null
+    },
+    {
+      "date": "2025-09-08",
+      "type": "release",
+      "title": "v0.14.0",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-15",
+      "type": "release",
+      "title": "v0.14.1.post1",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.1.post1",
+      "points": null
+    },
+    {
+      "date": "2025-09-15",
+      "type": "release",
+      "title": "v0.14.1",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-16",
+      "type": "release",
+      "title": "v0.14.2",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.2",
+      "points": null
+    },
+    {
+      "date": "2025-09-24",
+      "type": "release",
+      "title": "v0.14.3",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.3",
+      "points": null
+    },
+    {
+      "date": "2025-10-03",
+      "type": "release",
+      "title": "v0.14.4",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.4",
+      "points": null
+    },
+    {
+      "date": "2025-10-15",
+      "type": "release",
+      "title": "v0.14.5",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.5",
+      "points": null
+    },
+    {
+      "date": "2025-10-26",
+      "type": "release",
+      "title": "v0.14.6",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.6",
+      "points": null
+    },
+    {
+      "date": "2025-10-30",
+      "type": "release",
+      "title": "v0.14.7",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.7",
+      "points": null
+    },
+    {
+      "date": "2025-11-10",
+      "type": "release",
+      "title": "v0.14.8",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.8",
+      "points": null
+    },
+    {
+      "date": "2025-12-02",
+      "type": "release",
+      "title": "v0.14.9",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.9",
+      "points": null
+    },
+    {
+      "date": "2025-12-04",
+      "type": "release",
+      "title": "v0.14.10",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.10",
+      "points": null
+    },
+    {
+      "date": "2025-12-30",
+      "type": "release",
+      "title": "v0.14.12",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.12",
+      "points": null
+    },
+    {
+      "date": "2026-01-21",
+      "type": "release",
+      "title": "v0.14.13",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.13",
+      "points": null
+    },
+    {
+      "date": "2026-02-10",
+      "type": "release",
+      "title": "v0.14.14",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.14",
+      "points": null
+    },
+    {
+      "date": "2026-02-18",
+      "type": "release",
+      "title": "v0.14.15",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.15",
+      "points": null
+    },
+    {
+      "date": "2026-03-10",
+      "type": "release",
+      "title": "v0.14.16",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.16",
+      "points": null
+    },
+    {
+      "date": "2026-03-16",
+      "type": "release",
+      "title": "v0.14.18",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.18",
+      "points": null
+    },
+    {
+      "date": "2026-03-25",
+      "type": "release",
+      "title": "v0.14.19",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.19",
+      "points": null
+    },
+    {
+      "date": "2026-04-03",
+      "type": "release",
+      "title": "v0.14.20",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.20",
+      "points": null
+    },
+    {
+      "date": "2026-04-21",
+      "type": "release",
+      "title": "v0.14.21",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.21",
+      "points": null
+    },
+    {
+      "date": "2026-05-14",
+      "type": "release",
+      "title": "v0.14.22",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.22",
+      "points": null
+    },
+    {
+      "date": "2026-06-24",
+      "type": "release",
+      "title": "v0.14.23",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.23",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "v0.14.24",
+      "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.24",
+      "points": null
     }
   ]
 }

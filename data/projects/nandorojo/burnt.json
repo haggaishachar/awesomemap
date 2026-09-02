@@ -15,5 +15,84 @@
       "openIssues": 21
     }
   ],
-  "weight": 1561
+  "weight": 1561,
+  "events": [
+    {
+      "date": "2022-12-04",
+      "type": "release",
+      "title": "0.8: Android Support",
+      "url": "https://github.com/nandorojo/burnt/releases/tag/v0.8",
+      "points": null
+    },
+    {
+      "date": "2023-01-15",
+      "type": "release",
+      "title": "0.9: Customize layout",
+      "url": "https://github.com/nandorojo/burnt/releases/tag/v0.9",
+      "points": null
+    },
+    {
+      "date": "2023-03-03",
+      "type": "release",
+      "title": "0.10",
+      "url": "https://github.com/nandorojo/burnt/releases/tag/v0.10",
+      "points": null
+    },
+    {
+      "date": "2023-05-08",
+      "type": "release",
+      "title": "0.11: Web Support",
+      "url": "https://github.com/nandorojo/burnt/releases/tag/v0.11",
+      "points": null
+    },
+    {
+      "date": "2023-05-09",
+      "type": "release",
+      "title": "v0.11.4",
+      "url": "https://github.com/nandorojo/burnt/releases/tag/v0.11.4",
+      "points": null
+    },
+    {
+      "date": "2023-06-08",
+      "type": "release",
+      "title": "0.11.5: Fix burnt/web",
+      "url": "https://github.com/nandorojo/burnt/releases/tag/v0.11.5",
+      "points": null
+    },
+    {
+      "date": "2023-06-14",
+      "type": "release",
+      "title": "0.11.6",
+      "url": "https://github.com/nandorojo/burnt/releases/tag/v0.11.6",
+      "points": null
+    },
+    {
+      "date": "2023-10-16",
+      "type": "release",
+      "title": "0.12.1",
+      "url": "https://github.com/nandorojo/burnt/releases/tag/v0.12.1",
+      "points": null
+    },
+    {
+      "date": "2023-10-16",
+      "type": "release",
+      "title": "0.12 ",
+      "url": "https://github.com/nandorojo/burnt/releases/tag/v0.12.0",
+      "points": null
+    },
+    {
+      "date": "2023-12-28",
+      "type": "release",
+      "title": "0.12.2",
+      "url": "https://github.com/nandorojo/burnt/releases/tag/v0.12.2",
+      "points": null
+    },
+    {
+      "date": "2025-03-10",
+      "type": "release",
+      "title": "0.13: Sonner 2",
+      "url": "https://github.com/nandorojo/burnt/releases/tag/v0.13.0",
+      "points": null
+    }
+  ]
 }

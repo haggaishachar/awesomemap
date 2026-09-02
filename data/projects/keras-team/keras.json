@@ -107,9 +107,235 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 64271,
+      "stars": 64272,
       "forks": 19772,
-      "openIssues": 224
+      "openIssues": 225
+    }
+  ],
+  "events": [
+    {
+      "date": "2019-06-22",
+      "type": "hn",
+      "title": "Keras – Hyperparameter Tuning for Humans",
+      "url": "https://news.ycombinator.com/item?id=20249693",
+      "points": 77
+    },
+    {
+      "date": "2019-09-17",
+      "type": "hn",
+      "title": "Release Keras 2.3.0 · Keras-team/Keras",
+      "url": "https://news.ycombinator.com/item?id=20998156",
+      "points": 51
+    },
+    {
+      "date": "2024-04-22",
+      "type": "release",
+      "title": "Keras 3.3.2",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.3.2",
+      "points": null
+    },
+    {
+      "date": "2024-04-22",
+      "type": "release",
+      "title": "Keras 3.3.1",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.3.1",
+      "points": null
+    },
+    {
+      "date": "2024-04-22",
+      "type": "release",
+      "title": "Keras 3.3.0",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.3.0",
+      "points": null
+    },
+    {
+      "date": "2024-04-26",
+      "type": "release",
+      "title": "Keras 3.3.3",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.3.3",
+      "points": null
+    },
+    {
+      "date": "2024-06-25",
+      "type": "release",
+      "title": "Keras 3.4.0",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.4.0",
+      "points": null
+    },
+    {
+      "date": "2024-06-26",
+      "type": "release",
+      "title": "Keras 3.4.1",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.4.1",
+      "points": null
+    },
+    {
+      "date": "2024-08-12",
+      "type": "release",
+      "title": "Keras 3.5.0",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.5.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-03",
+      "type": "release",
+      "title": "Keras 3.6.0",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.6.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-26",
+      "type": "release",
+      "title": "Keras 3.7.0",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.7.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-07",
+      "type": "release",
+      "title": "Keras 3.8.0",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.8.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-04",
+      "type": "release",
+      "title": "Keras 3.9.0",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.9.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-27",
+      "type": "release",
+      "title": "Keras 3.9.1",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.9.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-02",
+      "type": "release",
+      "title": "Keras 3.9.2",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.9.2",
+      "points": null
+    },
+    {
+      "date": "2025-05-19",
+      "type": "release",
+      "title": "Keras 3.10.0",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.10.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-29",
+      "type": "release",
+      "title": "Keras 3.11.0",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.11.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-31",
+      "type": "release",
+      "title": "Keras 3.11.1",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.11.1",
+      "points": null
+    },
+    {
+      "date": "2025-08-11",
+      "type": "release",
+      "title": "Keras 3.11.2",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.11.2",
+      "points": null
+    },
+    {
+      "date": "2025-08-22",
+      "type": "release",
+      "title": "Keras 3.11.3",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.11.3",
+      "points": null
+    },
+    {
+      "date": "2025-10-27",
+      "type": "release",
+      "title": "Keras 3.12.0",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.12.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-18",
+      "type": "release",
+      "title": "v3.13.0",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.13.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-14",
+      "type": "release",
+      "title": "v3.13.1",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.13.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-30",
+      "type": "release",
+      "title": "v3.13.2",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.13.2",
+      "points": null
+    },
+    {
+      "date": "2026-01-30",
+      "type": "release",
+      "title": "v3.12.1",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.12.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-03",
+      "type": "release",
+      "title": "v3.14.0",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.14.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-07",
+      "type": "release",
+      "title": "v3.14.1",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.14.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-07",
+      "type": "release",
+      "title": "v3.12.2",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.12.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-24",
+      "type": "release",
+      "title": "v3.15.0",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.15.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-26",
+      "type": "release",
+      "title": "v3.12.3",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.12.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "Keras 3.15.1",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.15.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "Keras 3.12.4",
+      "url": "https://github.com/keras-team/keras/releases/tag/v3.12.4",
+      "points": null
     }
   ]
 }

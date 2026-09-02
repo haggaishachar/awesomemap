@@ -4,8 +4,8 @@
   "link": "https://github.com/bottlepy/bottle",
   "name": "bottle",
   "desc": "bottle.py is a fast and simple micro-framework for python web-applications.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "bottle",
+  "githubDescription": "bottle.py is a fast and simple micro-framework for python web-applications.",
   "tags": [
     "bottle",
     "python",
@@ -13,7 +13,58 @@
     "web-framework",
     "wsgi"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 8779,
+      "forks": 1505,
+      "openIssues": 290
+    }
+  ],
   "weight": 8779,
-  "image": "https://avatars.githubusercontent.com/u/1019799?v=4"
+  "image": "https://avatars.githubusercontent.com/u/1019799?v=4",
+  "events": [
+    {
+      "date": "2020-01-10",
+      "type": "hn",
+      "title": "Why should bottlepy stick to a file?",
+      "url": "https://news.ycombinator.com/item?id=22014466",
+      "points": 98
+    },
+    {
+      "date": "2024-09-05",
+      "type": "release",
+      "title": "0.13.0",
+      "url": "https://github.com/bottlepy/bottle/releases/tag/0.13.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-07",
+      "type": "release",
+      "title": "0.13.1",
+      "url": "https://github.com/bottlepy/bottle/releases/tag/0.13.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-12",
+      "type": "release",
+      "title": "0.13.2",
+      "url": "https://github.com/bottlepy/bottle/releases/tag/0.13.2",
+      "points": null
+    },
+    {
+      "date": "2025-04-21",
+      "type": "release",
+      "title": "0.13.3",
+      "url": "https://github.com/bottlepy/bottle/releases/tag/0.13.3",
+      "points": null
+    },
+    {
+      "date": "2025-06-15",
+      "type": "release",
+      "title": "0.13.4",
+      "url": "https://github.com/bottlepy/bottle/releases/tag/0.13.4",
+      "points": null
+    }
+  ]
 }

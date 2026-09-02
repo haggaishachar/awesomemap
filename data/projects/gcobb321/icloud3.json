@@ -4,8 +4,8 @@
   "link": "https://github.com/gcobb321/icloud3",
   "name": "icloud3",
   "desc": "iCloud3 v3 - An advanced iDevice tracker that uses Apple iCloud account and HA Mobile App data for presence detection and location based automations.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "icloud3",
+  "githubDescription": "iCloud3 v3 - An advanced iDevice tracker that uses Apple iCloud account and HA Mobile App data for presence detection and location based automations.",
   "tags": [
     "device-tracker",
     "ha-ios",
@@ -15,6 +15,225 @@
     "zone",
     "zones"
   ],
-  "history": [],
-  "weight": 898
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 898,
+      "forks": 66,
+      "openIssues": 96
+    }
+  ],
+  "weight": 898,
+  "events": [
+    {
+      "date": "2024-11-04",
+      "type": "release",
+      "title": "iCloud3 v3.1 - 11/4/2024",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.1",
+      "points": null
+    },
+    {
+      "date": "2024-11-07",
+      "type": "release",
+      "title": "iCloud3 v3.1.1 - 11/07/2024",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.1.1",
+      "points": null
+    },
+    {
+      "date": "2024-11-08",
+      "type": "release",
+      "title": "iCloud3 v3.1.2 - 11/8/2024",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.1.2",
+      "points": null
+    },
+    {
+      "date": "2024-11-09",
+      "type": "release",
+      "title": "iCloud3 v3.1.3 - 11/9/2024",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.1.3",
+      "points": null
+    },
+    {
+      "date": "2024-12-24",
+      "type": "release",
+      "title": "iCloud3 v3.1.4.1 (12/24/2024)",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.1.4.1",
+      "points": null
+    },
+    {
+      "date": "2025-01-14",
+      "type": "release",
+      "title": "iCloud3 v3.1.4.2 (1/12/2025)",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.1.4.2",
+      "points": null
+    },
+    {
+      "date": "2025-01-18",
+      "type": "release",
+      "title": "iCloud3 v3.1.4.3 (1/18/2025)",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.1.4.3",
+      "points": null
+    },
+    {
+      "date": "2025-01-19",
+      "type": "release",
+      "title": "iCloud3 v3.1.4.4 (1/19/2025)",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v.3.1.4.4",
+      "points": null
+    },
+    {
+      "date": "2025-02-11",
+      "type": "release",
+      "title": "v3.1.5.1",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.1.5.1",
+      "points": null
+    },
+    {
+      "date": "2025-02-11",
+      "type": "release",
+      "title": "iCloud3 v3.1.5 (2/11/2025)",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.1.5",
+      "points": null
+    },
+    {
+      "date": "2025-02-24",
+      "type": "release",
+      "title": "iCloud3 v3.1.6 (2/24/2025)",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.1.6",
+      "points": null
+    },
+    {
+      "date": "2025-02-26",
+      "type": "release",
+      "title": "iCloud3 v3.1.6.1 (2/26/2025)",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.1.6.1",
+      "points": null
+    },
+    {
+      "date": "2025-05-18",
+      "type": "release",
+      "title": "iCloud3 ➤ v3.2 (5/18/2025)",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.2",
+      "points": null
+    },
+    {
+      "date": "2025-05-22",
+      "type": "release",
+      "title": "iCloud3 ➤ v3.2.1 (5/22/2025)",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.2.1",
+      "points": null
+    },
+    {
+      "date": "2025-05-24",
+      "type": "release",
+      "title": "iCloud3 ➤ v3.2.2.2 (5/24/2025 - Updated Release)",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.2.2.2",
+      "points": null
+    },
+    {
+      "date": "2025-05-31",
+      "type": "release",
+      "title": "iCloud3 ➤ v3.2.2.3 (5/31/2025)",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v.3.2.2.3",
+      "points": null
+    },
+    {
+      "date": "2025-07-19",
+      "type": "release",
+      "title": "iCloud3 ➤ v3.2.3 (7/19/2025)",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.2.3",
+      "points": null
+    },
+    {
+      "date": "2025-09-20",
+      "type": "release",
+      "title": "iCloud3 v3.2.4.2 (9/20/2025)",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.2.4.2",
+      "points": null
+    },
+    {
+      "date": "2025-11-15",
+      "type": "release",
+      "title": "iCloud3 v3.3 (11/15/2025)",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.3",
+      "points": null
+    },
+    {
+      "date": "2025-11-16",
+      "type": "release",
+      "title": "iCloud3 v3.3.1 (11/16/2025)",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.3.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-21",
+      "type": "release",
+      "title": "iCloud3 v3.3.2 (11/21/2025)",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.3.2",
+      "points": null
+    },
+    {
+      "date": "2025-11-22",
+      "type": "release",
+      "title": "iCloud3 v3.3.3 (11/22/2025)",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.3.3",
+      "points": null
+    },
+    {
+      "date": "2025-12-05",
+      "type": "release",
+      "title": "iCloud3 v3.3.4.1 (12/5/2025)",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.3.4.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-10",
+      "type": "release",
+      "title": "iCloud3 v3.3.4.4 (1/10/2026)",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.3.4.4",
+      "points": null
+    },
+    {
+      "date": "2026-04-04",
+      "type": "release",
+      "title": "iCloud3 v3.4 (4/4/2026)",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.4",
+      "points": null
+    },
+    {
+      "date": "2026-04-08",
+      "type": "release",
+      "title": "iCloud3 v3.4.1",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.4.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-16",
+      "type": "release",
+      "title": "iCloud3 v3.4.3",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.4.3",
+      "points": null
+    },
+    {
+      "date": "2026-04-19",
+      "type": "release",
+      "title": "iCloud3 v3.4.3.1",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.4.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-30",
+      "type": "release",
+      "title": "iCloud3 v3.5 (4/30/2026)",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.5",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "iCloud3 v3.5.1 (5/5/2026)",
+      "url": "https://github.com/gcobb321/icloud3/releases/tag/v3.5.1",
+      "points": null
+    }
+  ]
 }

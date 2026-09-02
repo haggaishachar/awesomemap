@@ -4,8 +4,8 @@
   "link": "https://github.com/highlight/highlight",
   "name": "highlight",
   "desc": "highlight.io: The open source, full-stack monitoring platform. Error monitoring, session replay, logging, distributed tracing, and more.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "highlight",
+  "githubDescription": "highlight.io: The open source, full-stack monitoring platform. Error monitoring, session replay, logging, distributed tracing, and more.",
   "tags": [
     "apm",
     "full-stack",
@@ -19,7 +19,247 @@
     "tracing",
     "typescript"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 9373,
+      "forks": 670,
+      "openIssues": 551
+    }
+  ],
   "weight": 9373,
-  "image": "https://avatars.githubusercontent.com/u/75946842?v=4"
+  "image": "https://avatars.githubusercontent.com/u/75946842?v=4",
+  "events": [
+    {
+      "date": "2023-02-22",
+      "type": "hn",
+      "title": "Show HN: We’re open-sourcing our session replay tool",
+      "url": "https://news.ycombinator.com/item?id=34897645",
+      "points": 408
+    },
+    {
+      "date": "2023-04-20",
+      "type": "hn",
+      "title": "Show HN: We built a ClickHouse-based logging service",
+      "url": "https://news.ycombinator.com/item?id=35643255",
+      "points": 192
+    },
+    {
+      "date": "2023-09-27",
+      "type": "hn",
+      "title": "Show HN: Using LLMs and Embeddings to classify application errors",
+      "url": "https://news.ycombinator.com/item?id=37675894",
+      "points": 65
+    },
+    {
+      "date": "2024-02-01",
+      "type": "hn",
+      "title": "Show HN: An open source performance monitoring tool",
+      "url": "https://news.ycombinator.com/item?id=39217000",
+      "points": 135
+    },
+    {
+      "date": "2024-02-09",
+      "type": "release",
+      "title": "docker-v0.2.8",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.2.8",
+      "points": null
+    },
+    {
+      "date": "2024-02-15",
+      "type": "release",
+      "title": "docker-v0.2.9",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.2.9",
+      "points": null
+    },
+    {
+      "date": "2024-02-16",
+      "type": "release",
+      "title": "docker-v0.2.10",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.2.10",
+      "points": null
+    },
+    {
+      "date": "2024-02-20",
+      "type": "release",
+      "title": "docker-v0.3.0",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.3.0",
+      "points": null
+    },
+    {
+      "date": "2024-02-23",
+      "type": "release",
+      "title": "docker-v0.3.1",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.3.1",
+      "points": null
+    },
+    {
+      "date": "2024-02-24",
+      "type": "release",
+      "title": "docker-v0.3.2",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.3.2",
+      "points": null
+    },
+    {
+      "date": "2024-03-07",
+      "type": "release",
+      "title": "docker-v0.3.3",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.3.3",
+      "points": null
+    },
+    {
+      "date": "2024-03-28",
+      "type": "release",
+      "title": "docker-v0.3.4",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.3.4",
+      "points": null
+    },
+    {
+      "date": "2024-04-09",
+      "type": "release",
+      "title": "docker-v0.3.5",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.3.5",
+      "points": null
+    },
+    {
+      "date": "2024-05-17",
+      "type": "release",
+      "title": "docker-v0.3.6",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.3.6",
+      "points": null
+    },
+    {
+      "date": "2024-07-02",
+      "type": "release",
+      "title": "docker-v0.4.0",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.4.0",
+      "points": null
+    },
+    {
+      "date": "2024-07-11",
+      "type": "release",
+      "title": "docker-v0.4.2",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.4.2",
+      "points": null
+    },
+    {
+      "date": "2024-07-11",
+      "type": "release",
+      "title": "docker-v0.4.1",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.4.1",
+      "points": null
+    },
+    {
+      "date": "2024-08-01",
+      "type": "release",
+      "title": "docker-v0.4.3",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.4.3",
+      "points": null
+    },
+    {
+      "date": "2024-08-09",
+      "type": "release",
+      "title": "docker-v0.4.4",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.4.4",
+      "points": null
+    },
+    {
+      "date": "2024-09-07",
+      "type": "release",
+      "title": "docker-v0.4.5",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.4.5",
+      "points": null
+    },
+    {
+      "date": "2024-09-26",
+      "type": "release",
+      "title": "docker-v0.4.6",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.4.6",
+      "points": null
+    },
+    {
+      "date": "2024-11-15",
+      "type": "release",
+      "title": "docker-v0.4.7",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.4.7",
+      "points": null
+    },
+    {
+      "date": "2024-11-27",
+      "type": "release",
+      "title": "docker-v0.4.8.a",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.4.8.a",
+      "points": null
+    },
+    {
+      "date": "2024-11-27",
+      "type": "release",
+      "title": "docker-v0.4.8",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.4.8",
+      "points": null
+    },
+    {
+      "date": "2024-12-16",
+      "type": "release",
+      "title": "docker-v0.4.9",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.4.9",
+      "points": null
+    },
+    {
+      "date": "2025-01-13",
+      "type": "release",
+      "title": "docker-v0.4.10",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.4.10",
+      "points": null
+    },
+    {
+      "date": "2025-01-24",
+      "type": "release",
+      "title": "docker-v0.5.0",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.5.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-30",
+      "type": "release",
+      "title": "docker-v0.5.1",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.5.1",
+      "points": null
+    },
+    {
+      "date": "2025-02-06",
+      "type": "release",
+      "title": "docker-v0.5.2",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.5.2",
+      "points": null
+    },
+    {
+      "date": "2025-02-12",
+      "type": "release",
+      "title": "docker-v0.5.4",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.5.4",
+      "points": null
+    },
+    {
+      "date": "2025-02-12",
+      "type": "release",
+      "title": "docker-v0.5.3",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.5.3",
+      "points": null
+    },
+    {
+      "date": "2025-06-23",
+      "type": "release",
+      "title": "docker-v0.5.5",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.5.5",
+      "points": null
+    },
+    {
+      "date": "2025-08-08",
+      "type": "release",
+      "title": "docker-v0.5.6",
+      "url": "https://github.com/highlight/highlight/releases/tag/docker-v0.5.6",
+      "points": null
+    }
+  ]
 }

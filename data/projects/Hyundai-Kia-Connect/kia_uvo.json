@@ -4,8 +4,8 @@
   "link": "https://github.com/Hyundai-Kia-Connect/kia_uvo",
   "name": "kia_uvo",
   "desc": "A Home Assistant HACS integration that supports Kia Connect(Uvo) and Hyundai Bluelink. The integration supports the EU, Canada and the USA.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "kia_uvo",
+  "githubDescription": "A Home Assistant HACS integration that supports Kia Connect(Uvo) and Hyundai Bluelink. The integration supports the EU, Canada and the USA.",
   "tags": [
     "bluelink",
     "car",
@@ -15,7 +15,226 @@
     "kia",
     "uvo"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 926,
+      "forks": 196,
+      "openIssues": 31
+    }
+  ],
   "weight": 926,
-  "image": "https://avatars.githubusercontent.com/u/97627896?v=4"
+  "image": "https://avatars.githubusercontent.com/u/97627896?v=4",
+  "events": [
+    {
+      "date": "2026-03-05",
+      "type": "release",
+      "title": "v2.52.0",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v2.52.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-05",
+      "type": "release",
+      "title": "v2.52.1",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v2.52.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-08",
+      "type": "release",
+      "title": "v2.52.2",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v2.52.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-12",
+      "type": "release",
+      "title": "v2.53.0",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v2.53.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-15",
+      "type": "release",
+      "title": "v2.54.0",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v2.54.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-19",
+      "type": "release",
+      "title": "v2.54.1",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v2.54.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-29",
+      "type": "release",
+      "title": "v2.54.2",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v2.54.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "v2.54.3",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v2.54.3",
+      "points": null
+    },
+    {
+      "date": "2026-05-08",
+      "type": "release",
+      "title": "v2.55.0",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v2.55.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-19",
+      "type": "release",
+      "title": "v3.0.0",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-20",
+      "type": "release",
+      "title": "v3.0.1",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v3.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-24",
+      "type": "release",
+      "title": "v3.1.0",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v3.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-27",
+      "type": "release",
+      "title": "v3.1.1",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v3.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-31",
+      "type": "release",
+      "title": "v3.2.0",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v3.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "title": "v3.3.0",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v3.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-07",
+      "type": "release",
+      "title": "v3.3.1",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v3.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-14",
+      "type": "release",
+      "title": "v3.3.2",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v3.3.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-21",
+      "type": "release",
+      "title": "v3.4.0",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v3.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-26",
+      "type": "release",
+      "title": "v3.5.0",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v3.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "v3.5.2",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v3.5.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "v3.5.1",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v3.5.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-05",
+      "type": "release",
+      "title": "v3.6.0",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v3.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-12",
+      "type": "release",
+      "title": "v3.7.0",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v3.7.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-13",
+      "type": "release",
+      "title": "v3.7.1",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v3.7.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-19",
+      "type": "release",
+      "title": "v3.8.0",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v3.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-26",
+      "type": "release",
+      "title": "v3.8.1",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v3.8.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-02",
+      "type": "release",
+      "title": "v3.9.0",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v3.9.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-09",
+      "type": "release",
+      "title": "v3.10.0",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v3.10.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-16",
+      "type": "release",
+      "title": "v3.10.1",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v3.10.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-30",
+      "type": "release",
+      "title": "v3.11.0",
+      "url": "https://github.com/Hyundai-Kia-Connect/kia_uvo/releases/tag/v3.11.0",
+      "points": null
+    }
+  ]
 }

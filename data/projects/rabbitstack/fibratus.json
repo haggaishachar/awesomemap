@@ -4,8 +4,8 @@
   "link": "https://github.com/rabbitstack/fibratus",
   "name": "fibratus",
   "desc": "Security sensor for realtime threat detection and protection",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "fibratus",
+  "githubDescription": "Security sensor for realtime threat detection and protection",
   "tags": [
     "blue-team",
     "detection-engineering",
@@ -27,7 +27,198 @@
     "windows-security",
     "yara"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2536,
+      "forks": 220,
+      "openIssues": 42
+    }
+  ],
   "weight": 2536,
-  "image": "https://raw.githubusercontent.com/rabbitstack/fibratus/master/logo.svg"
+  "image": "https://raw.githubusercontent.com/rabbitstack/fibratus/master/logo.svg",
+  "events": [
+    {
+      "date": "2016-08-20",
+      "type": "release",
+      "title": "v0.2.3",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v0.2.3",
+      "points": null
+    },
+    {
+      "date": "2016-10-01",
+      "type": "release",
+      "title": "v0.3.0",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v0.3.0",
+      "points": null
+    },
+    {
+      "date": "2016-11-01",
+      "type": "release",
+      "title": "v0.4.0",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v0.4.0",
+      "points": null
+    },
+    {
+      "date": "2016-11-05",
+      "type": "release",
+      "title": "v0.4.1",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v0.4.1",
+      "points": null
+    },
+    {
+      "date": "2017-01-22",
+      "type": "release",
+      "title": "v0.6.0",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v0.6.0",
+      "points": null
+    },
+    {
+      "date": "2017-03-04",
+      "type": "release",
+      "title": "v0.6.1",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v0.6.1",
+      "points": null
+    },
+    {
+      "date": "2017-03-24",
+      "type": "release",
+      "title": "v0.7.0",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v0.7.0",
+      "points": null
+    },
+    {
+      "date": "2017-04-17",
+      "type": "release",
+      "title": "v0.7.1",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v0.7.1",
+      "points": null
+    },
+    {
+      "date": "2017-07-22",
+      "type": "release",
+      "title": "v0.7.2",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v0.7.2",
+      "points": null
+    },
+    {
+      "date": "2020-12-02",
+      "type": "release",
+      "title": "1.0.0",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/1.0.0",
+      "points": null
+    },
+    {
+      "date": "2021-04-27",
+      "type": "release",
+      "title": "v1.2.0",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v1.2.0",
+      "points": null
+    },
+    {
+      "date": "2021-08-24",
+      "type": "release",
+      "title": "v1.4.0",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v1.4.0",
+      "points": null
+    },
+    {
+      "date": "2021-09-18",
+      "type": "release",
+      "title": "v1.4.1",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v1.4.1",
+      "points": null
+    },
+    {
+      "date": "2021-12-25",
+      "type": "release",
+      "title": "v1.4.2",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v1.4.2",
+      "points": null
+    },
+    {
+      "date": "2022-04-29",
+      "type": "release",
+      "title": "v1.5.0",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v1.5.0",
+      "points": null
+    },
+    {
+      "date": "2022-08-31",
+      "type": "release",
+      "title": "v1.6.0",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v1.6.0",
+      "points": null
+    },
+    {
+      "date": "2022-11-30",
+      "type": "release",
+      "title": "v1.8.0",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v1.8.0",
+      "points": null
+    },
+    {
+      "date": "2023-03-31",
+      "type": "release",
+      "title": "v1.10.0",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v1.10.0",
+      "points": null
+    },
+    {
+      "date": "2023-09-01",
+      "type": "release",
+      "title": "v2.0.0",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v2.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-04",
+      "type": "release",
+      "title": "v2.2.0",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v2.2.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-13",
+      "type": "release",
+      "title": "v2.2.1",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v2.2.1",
+      "points": null
+    },
+    {
+      "date": "2024-12-09",
+      "type": "release",
+      "title": "v2.3.0",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v2.3.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-20",
+      "type": "release",
+      "title": "v2.4.0",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v2.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-22",
+      "type": "release",
+      "title": "v3.0.0",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "v3.1.0",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v3.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "v3.1.1",
+      "url": "https://github.com/rabbitstack/fibratus/releases/tag/v3.1.1",
+      "points": null
+    }
+  ]
 }

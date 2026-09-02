@@ -57,7 +57,219 @@
       "date": "2026-09-02",
       "stars": 12301,
       "forks": 2329,
-      "openIssues": 48
+      "openIssues": 49
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v24.1.1",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v24.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v24.1.0",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v24.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v24.0.0",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v24.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v23.8.8",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v23.8.8",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v23.8.6",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v23.8.6",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v23.8.5",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v23.8.5",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v23.8.4",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v23.8.4",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v23.8.3",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v23.8.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v23.8.2",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v23.8.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v23.8.1",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v23.8.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v23.8.0",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v23.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v23.7.0",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v23.7.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v23.6.0",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v23.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v23.5.0",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v23.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v23.4.1",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v23.4.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v23.4.0",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v23.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v23.3.1",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v23.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v23.3.0",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v23.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v23.2.2",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v23.2.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v23.2.1",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v23.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v23.2.0",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v23.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v23.1.2",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v23.1.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v23.1.1",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v23.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v23.1.0",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v23.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v23.0.1",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v23.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v23.0.0",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v23.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v22.4.0",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v22.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v22.3.0",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v22.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v22.2.1",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v22.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v22.2.0",
+      "url": "https://github.com/invertase/react-native-firebase/releases/tag/v22.2.0",
+      "points": null
     }
   ]
 }

@@ -36,5 +36,238 @@
       "forks": 3378,
       "openIssues": 388
     }
+  ],
+  "events": [
+    {
+      "date": "2021-08-10",
+      "type": "hn",
+      "title": "Turn your Android phone into SMS API gateway",
+      "url": "https://news.ycombinator.com/item?id=28125074",
+      "points": 242
+    },
+    {
+      "date": "2024-09-16",
+      "type": "release",
+      "title": "v6.5",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.5",
+      "points": null
+    },
+    {
+      "date": "2025-01-11",
+      "type": "release",
+      "title": "v6.6",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.6",
+      "points": null
+    },
+    {
+      "date": "2025-05-22",
+      "type": "release",
+      "title": "v6.7.0",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.7.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-24",
+      "type": "release",
+      "title": "v6.7.1",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.7.1",
+      "points": null
+    },
+    {
+      "date": "2025-06-01",
+      "type": "release",
+      "title": "v6.7.2",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.7.2",
+      "points": null
+    },
+    {
+      "date": "2025-06-15",
+      "type": "release",
+      "title": "v6.7.3",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.7.3",
+      "points": null
+    },
+    {
+      "date": "2025-07-06",
+      "type": "release",
+      "title": "v6.8.0",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.8.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-07",
+      "type": "release",
+      "title": "v6.8.1",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.8.1",
+      "points": null
+    },
+    {
+      "date": "2025-07-27",
+      "type": "hn",
+      "title": "Traccar: an open source GPS tracking system",
+      "url": "https://news.ycombinator.com/item?id=44700263",
+      "points": 60
+    },
+    {
+      "date": "2025-08-19",
+      "type": "release",
+      "title": "v6.9.0",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.9.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-22",
+      "type": "release",
+      "title": "v6.9.1",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.9.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-20",
+      "type": "release",
+      "title": "v6.10.0",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.10.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-07",
+      "type": "release",
+      "title": "v6.11.1",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.11.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-07",
+      "type": "release",
+      "title": "v6.11.0",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.11.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-22",
+      "type": "release",
+      "title": "v6.12.1",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.12.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-22",
+      "type": "release",
+      "title": "v6.12.0",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.12.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-27",
+      "type": "release",
+      "title": "v6.12.2",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.12.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-19",
+      "type": "hn",
+      "title": "Hyper-optimized reverse geocoding API",
+      "url": "https://news.ycombinator.com/item?id=47440309",
+      "points": 66
+    },
+    {
+      "date": "2026-05-02",
+      "type": "release",
+      "title": "v6.13.0",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.13.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-04",
+      "type": "release",
+      "title": "v6.13.2",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.13.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-04",
+      "type": "release",
+      "title": "v6.13.1",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.13.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "v6.13.3",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.13.3",
+      "points": null
+    },
+    {
+      "date": "2026-05-30",
+      "type": "release",
+      "title": "v6.14.0",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.14.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-31",
+      "type": "release",
+      "title": "v6.14.1",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.14.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-02",
+      "type": "release",
+      "title": "v6.14.2",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.14.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-05",
+      "type": "release",
+      "title": "v6.14.4",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.14.4",
+      "points": null
+    },
+    {
+      "date": "2026-06-05",
+      "type": "release",
+      "title": "v6.14.3",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.14.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-18",
+      "type": "release",
+      "title": "v6.14.5",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.14.5",
+      "points": null
+    },
+    {
+      "date": "2026-08-23",
+      "type": "release",
+      "title": "v6.15.2",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.15.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-23",
+      "type": "release",
+      "title": "v6.15.1",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.15.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-23",
+      "type": "release",
+      "title": "v6.15.0",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.15.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v6.15.3",
+      "url": "https://github.com/traccar/traccar/releases/tag/v6.15.3",
+      "points": null
+    }
   ]
 }

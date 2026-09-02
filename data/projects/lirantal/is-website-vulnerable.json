@@ -4,8 +4,8 @@
   "link": "https://github.com/lirantal/is-website-vulnerable",
   "name": "is-website-vulnerable",
   "desc": "finds publicly known security vulnerabilities in a website's frontend JavaScript libraries",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "is-website-vulnerable",
+  "githubDescription": "finds publicly known security vulnerabilities in a website's frontend JavaScript libraries",
   "tags": [
     "hacktoberfest",
     "lighthouse",
@@ -15,6 +15,225 @@
     "security-vulnerabilities",
     "vulnerabilities"
   ],
-  "history": [],
-  "weight": 2040
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2040,
+      "forks": 127,
+      "openIssues": 0
+    }
+  ],
+  "weight": 2040,
+  "events": [
+    {
+      "date": "2019-11-13",
+      "type": "release",
+      "title": "v1.9.2",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.9.2",
+      "points": null
+    },
+    {
+      "date": "2019-12-05",
+      "type": "release",
+      "title": "v1.9.3",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.9.3",
+      "points": null
+    },
+    {
+      "date": "2019-12-16",
+      "type": "release",
+      "title": "v1.9.4",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.9.4",
+      "points": null
+    },
+    {
+      "date": "2019-12-19",
+      "type": "release",
+      "title": "v1.9.5",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.9.5",
+      "points": null
+    },
+    {
+      "date": "2019-12-23",
+      "type": "release",
+      "title": "v1.10.0",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.10.0",
+      "points": null
+    },
+    {
+      "date": "2019-12-25",
+      "type": "release",
+      "title": "v1.10.1",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.10.1",
+      "points": null
+    },
+    {
+      "date": "2020-01-16",
+      "type": "release",
+      "title": "v1.10.2",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.10.2",
+      "points": null
+    },
+    {
+      "date": "2020-01-18",
+      "type": "release",
+      "title": "v1.11.2",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.11.2",
+      "points": null
+    },
+    {
+      "date": "2020-01-18",
+      "type": "release",
+      "title": "v1.11.1",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.11.1",
+      "points": null
+    },
+    {
+      "date": "2020-01-18",
+      "type": "release",
+      "title": "v1.11.0",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.11.0",
+      "points": null
+    },
+    {
+      "date": "2020-01-31",
+      "type": "release",
+      "title": "v1.13.0",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.13.0",
+      "points": null
+    },
+    {
+      "date": "2020-01-31",
+      "type": "release",
+      "title": "v1.12.0",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.12.0",
+      "points": null
+    },
+    {
+      "date": "2020-02-03",
+      "type": "release",
+      "title": "v1.14.0",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.14.0",
+      "points": null
+    },
+    {
+      "date": "2020-03-07",
+      "type": "release",
+      "title": "1.15.0",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/1.15.10",
+      "points": null
+    },
+    {
+      "date": "2020-04-25",
+      "type": "release",
+      "title": "v1.14.1",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.14.1",
+      "points": null
+    },
+    {
+      "date": "2020-05-20",
+      "type": "release",
+      "title": "v1.14.2",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.14.2",
+      "points": null
+    },
+    {
+      "date": "2020-06-08",
+      "type": "release",
+      "title": "v1.14.3",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.14.3",
+      "points": null
+    },
+    {
+      "date": "2020-08-08",
+      "type": "release",
+      "title": "v1.14.4",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.14.4",
+      "points": null
+    },
+    {
+      "date": "2020-10-16",
+      "type": "release",
+      "title": "v1.14.5",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.14.5",
+      "points": null
+    },
+    {
+      "date": "2020-11-18",
+      "type": "release",
+      "title": "v1.14.6",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.14.6",
+      "points": null
+    },
+    {
+      "date": "2021-02-19",
+      "type": "release",
+      "title": "v1.14.7",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.14.7",
+      "points": null
+    },
+    {
+      "date": "2021-06-23",
+      "type": "release",
+      "title": "v1.14.8",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.14.8",
+      "points": null
+    },
+    {
+      "date": "2024-09-12",
+      "type": "release",
+      "title": "v1.14.10",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.14.10",
+      "points": null
+    },
+    {
+      "date": "2025-09-04",
+      "type": "release",
+      "title": "v1.14.11",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.14.11",
+      "points": null
+    },
+    {
+      "date": "2026-04-26",
+      "type": "release",
+      "title": "v1.14.12",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.14.12",
+      "points": null
+    },
+    {
+      "date": "2026-04-27",
+      "type": "release",
+      "title": "v1.14.13",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.14.13",
+      "points": null
+    },
+    {
+      "date": "2026-05-17",
+      "type": "release",
+      "title": "v1.14.15",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.14.15",
+      "points": null
+    },
+    {
+      "date": "2026-05-17",
+      "type": "release",
+      "title": "v1.14.14",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.14.14",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "v1.14.16",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.14.16",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "v1.14.17",
+      "url": "https://github.com/lirantal/is-website-vulnerable/releases/tag/v1.14.17",
+      "points": null
+    }
+  ]
 }

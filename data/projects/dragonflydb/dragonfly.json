@@ -26,11 +26,230 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 31166,
-      "forks": 1241,
+      "stars": 31234,
+      "forks": 1245,
       "openIssues": 286
     }
   ],
   "weight": 31125,
-  "image": "https://avatars.githubusercontent.com/u/104819355?v=4"
+  "image": "https://avatars.githubusercontent.com/u/104819355?v=4",
+  "events": [
+    {
+      "date": "2022-05-30",
+      "type": "hn",
+      "title": "Dragonflydb – A modern replacement for Redis and Memcached",
+      "url": "https://news.ycombinator.com/item?id=31560547",
+      "points": 914
+    },
+    {
+      "date": "2025-02-12",
+      "type": "release",
+      "title": "v1.27.1",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.27.1",
+      "points": null
+    },
+    {
+      "date": "2025-03-09",
+      "type": "release",
+      "title": "v1.27.2",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.27.2",
+      "points": null
+    },
+    {
+      "date": "2025-03-17",
+      "type": "release",
+      "title": "v1.28.0",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.28.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-17",
+      "type": "release",
+      "title": "v1.27.3",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.27.3",
+      "points": null
+    },
+    {
+      "date": "2025-03-27",
+      "type": "release",
+      "title": "v1.27.4",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.27.4",
+      "points": null
+    },
+    {
+      "date": "2025-03-30",
+      "type": "release",
+      "title": "v1.28.1",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.28.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-17",
+      "type": "release",
+      "title": "v1.28.2",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.28.2",
+      "points": null
+    },
+    {
+      "date": "2025-04-21",
+      "type": "release",
+      "title": "v1.29.0",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.29.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-09",
+      "type": "release",
+      "title": "v1.30.0",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.30.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-14",
+      "type": "release",
+      "title": "v1.30.1",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.30.1",
+      "points": null
+    },
+    {
+      "date": "2025-05-25",
+      "type": "release",
+      "title": "v1.30.2",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.30.2",
+      "points": null
+    },
+    {
+      "date": "2025-05-28",
+      "type": "release",
+      "title": "v1.30.3",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.30.3",
+      "points": null
+    },
+    {
+      "date": "2025-06-19",
+      "type": "release",
+      "title": "v1.31.0",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.31.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-14",
+      "type": "release",
+      "title": "v1.31.1",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.31.1",
+      "points": null
+    },
+    {
+      "date": "2025-07-16",
+      "type": "release",
+      "title": "v1.31.2",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.31.2",
+      "points": null
+    },
+    {
+      "date": "2025-08-04",
+      "type": "release",
+      "title": "v1.32.0",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.32.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-19",
+      "type": "release",
+      "title": "v1.33.0",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.33.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-21",
+      "type": "release",
+      "title": "v1.33.1",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.33.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-17",
+      "type": "release",
+      "title": "v1.34.0 (Use with caution - see known issues in description) ",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.34.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-18",
+      "type": "release",
+      "title": "v1.34.1 (Use with caution - see known issues in description) ",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.34.1",
+      "points": null
+    },
+    {
+      "date": "2025-10-14",
+      "type": "release",
+      "title": "v1.34.2",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.34.2",
+      "points": null
+    },
+    {
+      "date": "2025-11-25",
+      "type": "release",
+      "title": "v1.35.1",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.35.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-07",
+      "type": "release",
+      "title": "v1.36.0",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.36.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-23",
+      "type": "release",
+      "title": "v1.37.0",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.37.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-26",
+      "type": "release",
+      "title": "v1.37.2",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.37.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-14",
+      "type": "release",
+      "title": "v1.38.0",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.38.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-28",
+      "type": "release",
+      "title": "v1.38.1",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.38.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "title": "v1.39.0",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.39.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "v1.40.0",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.40.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "title": "v1.40.1",
+      "url": "https://github.com/dragonflydb/dragonfly/releases/tag/v1.40.1",
+      "points": null
+    }
+  ]
 }

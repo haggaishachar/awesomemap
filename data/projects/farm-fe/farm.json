@@ -4,8 +4,8 @@
   "link": "https://github.com/farm-fe/farm",
   "name": "farm",
   "desc": "Extremely fast Vite-compatible web build tool written in Rust",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "farm",
+  "githubDescription": "Extremely fast Vite-compatible web build tool written in Rust",
   "tags": [
     "build-tool",
     "bundler",
@@ -17,7 +17,15 @@
     "typescript",
     "vite"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 5590,
+      "forks": 191,
+      "openIssues": 211
+    }
+  ],
   "weight": 5590,
-  "image": "https://raw.githubusercontent.com/farm-fe/farm/main/assets/logo.png"
+  "image": "https://raw.githubusercontent.com/farm-fe/farm/main/assets/logo.png",
+  "events": []
 }

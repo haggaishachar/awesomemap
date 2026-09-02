@@ -71,9 +71,214 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 22037,
+      "stars": 22038,
       "forks": 8955,
       "openIssues": 1532
+    }
+  ],
+  "events": [
+    {
+      "date": "2014-01-01",
+      "type": "hn",
+      "title": "The Micro Python Project",
+      "url": "https://news.ycombinator.com/item?id=6996692",
+      "points": 74
+    },
+    {
+      "date": "2017-08-23",
+      "type": "release",
+      "title": "Double precision math library and support on pyboard, and improved ussl",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.9.2",
+      "points": null
+    },
+    {
+      "date": "2017-11-01",
+      "type": "release",
+      "title": "Introduction of ports subdirectory where all ports are moved to",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.9.3",
+      "points": null
+    },
+    {
+      "date": "2018-05-11",
+      "type": "release",
+      "title": "Parser size reduced, new Python stack, stm32 improvements, new esp32 port",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.9.4",
+      "points": null
+    },
+    {
+      "date": "2019-01-25",
+      "type": "release",
+      "title": "Vast improvements to native emitter, new nrf port, unified documentation",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.10",
+      "points": null
+    },
+    {
+      "date": "2019-05-29",
+      "type": "release",
+      "title": "Improved mpy format with support for native code, and new JavaScript port",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.11",
+      "points": null
+    },
+    {
+      "date": "2019-12-20",
+      "type": "release",
+      "title": "PYBD boards, BLE and littlefs, dynamic native modules, samd and powerpc",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.12",
+      "points": null
+    },
+    {
+      "date": "2020-09-02",
+      "type": "release",
+      "title": "New uasyncio module, code formatting, BTstack bindings with unix support",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.13",
+      "points": null
+    },
+    {
+      "date": "2021-02-03",
+      "type": "release",
+      "title": "New rp2 port, BLE pairing, bonding and l2cap APIs, and docs on internals",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.14",
+      "points": null
+    },
+    {
+      "date": "2021-04-18",
+      "type": "release",
+      "title": "The esp32 port moves to CMake and has S2 support, new features for rp2",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.15",
+      "points": null
+    },
+    {
+      "date": "2021-06-18",
+      "type": "release",
+      "title": "New mpremote tool, and the mimxrt port gets Pin, ADC, UART, RTC and VFS",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.16",
+      "points": null
+    },
+    {
+      "date": "2021-09-02",
+      "type": "release",
+      "title": "F-strings, new machine.I2S class, ESP32-C3 support and LEGO_HUB_NO6 board",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.17",
+      "points": null
+    },
+    {
+      "date": "2022-01-16",
+      "type": "release",
+      "title": "Boosted performance, board.json metadata, more mimxrt, rp2, samd features",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.18",
+      "points": null
+    },
+    {
+      "date": "2022-06-16",
+      "type": "release",
+      "title": "New mpy 6 file format with improved bytecode, addition of renesas-ra port",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.19",
+      "points": null
+    },
+    {
+      "date": "2023-04-26",
+      "type": "release",
+      "title": "New mip package manager, compressed type structs and Pico W support",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.20.0",
+      "points": null
+    },
+    {
+      "date": "2023-10-06",
+      "type": "release",
+      "title": "U-module renaming, deflate module, IDF 5, board variants and Pico-W BLE",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.21.0",
+      "points": null
+    },
+    {
+      "date": "2023-12-27",
+      "type": "release",
+      "title": "SSL support in asyncio, sorted qstr pools, common machine module bindings",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.22.0",
+      "points": null
+    },
+    {
+      "date": "2024-01-05",
+      "type": "release",
+      "title": "Patch release for rp2 atomic mutex",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.22.1",
+      "points": null
+    },
+    {
+      "date": "2024-02-20",
+      "type": "release",
+      "title": "Patch release for rp2 DMA, UART and BLE, esp32 BLE, renesas-ra I2C",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.22.2",
+      "points": null
+    },
+    {
+      "date": "2024-05-31",
+      "type": "release",
+      "title": "Dynamic USB devices, revamped webassembly port, openamp, tls, vfs modules",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.23.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-26",
+      "type": "release",
+      "title": "RP2350 and ESP32-C6 support, RISC-V native emitter, common TinyUSB code",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.24.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-29",
+      "type": "release",
+      "title": "Patch release for mpremote, rp2 IGMP, esp32 PWM, SDCard, and AP channel",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.24.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-15",
+      "type": "release",
+      "title": "ROMFS, alif port, RISCV inline assembler, DTLS, mpremote recursive remove",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.25.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-15",
+      "type": "hn",
+      "title": "MicroPython v1.25.0",
+      "url": "https://news.ycombinator.com/item?id=43991091",
+      "points": 103
+    },
+    {
+      "date": "2025-08-09",
+      "type": "release",
+      "title": "I2CTarget, improved floats and native emitter, STM32N6 & ESP32C2 support",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.26.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-11",
+      "type": "release",
+      "title": "Patch release for ESP32 native USB support",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.26.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-09",
+      "type": "release",
+      "title": "ESP32C5, ESP32P4 & STM32U5 support, enhanced test suite, port Tier levels",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.27.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-06",
+      "type": "release",
+      "title": "PWM on alif and stm32, new machine.CAN API, t-strings and weakref module",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.28.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "New psoc-edge port, CAN on alif and mimxrt, mem_backup, manifest c_module",
+      "url": "https://github.com/micropython/micropython/releases/tag/v1.29.0",
+      "points": null
     }
   ]
 }

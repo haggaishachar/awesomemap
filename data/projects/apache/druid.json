@@ -102,7 +102,219 @@
       "date": "2026-09-02",
       "stars": 14049,
       "forks": 3801,
-      "openIssues": 772
+      "openIssues": 775
+    }
+  ],
+  "events": [
+    {
+      "date": "2021-01-29",
+      "type": "release",
+      "title": "druid-0.20.1",
+      "url": "https://github.com/apache/druid/releases/tag/druid-0.20.1",
+      "points": null
+    },
+    {
+      "date": "2021-03-29",
+      "type": "release",
+      "title": "druid-0.20.2",
+      "url": "https://github.com/apache/druid/releases/tag/druid-0.20.2",
+      "points": null
+    },
+    {
+      "date": "2021-04-28",
+      "type": "release",
+      "title": "druid-0.21.0",
+      "url": "https://github.com/apache/druid/releases/tag/druid-0.21.0",
+      "points": null
+    },
+    {
+      "date": "2021-06-10",
+      "type": "release",
+      "title": "druid-0.21.1",
+      "url": "https://github.com/apache/druid/releases/tag/druid-0.21.1",
+      "points": null
+    },
+    {
+      "date": "2021-09-22",
+      "type": "release",
+      "title": "druid-0.22.0",
+      "url": "https://github.com/apache/druid/releases/tag/druid-0.22.0",
+      "points": null
+    },
+    {
+      "date": "2021-12-11",
+      "type": "release",
+      "title": "druid-0.22.1",
+      "url": "https://github.com/apache/druid/releases/tag/druid-0.22.1",
+      "points": null
+    },
+    {
+      "date": "2022-06-23",
+      "type": "release",
+      "title": "Druid 0.23.0",
+      "url": "https://github.com/apache/druid/releases/tag/druid-0.23.0",
+      "points": null
+    },
+    {
+      "date": "2022-09-16",
+      "type": "release",
+      "title": "Druid 24.0.0",
+      "url": "https://github.com/apache/druid/releases/tag/druid-24.0.0",
+      "points": null
+    },
+    {
+      "date": "2022-11-22",
+      "type": "release",
+      "title": "Druid 24.0.1",
+      "url": "https://github.com/apache/druid/releases/tag/druid-24.0.1",
+      "points": null
+    },
+    {
+      "date": "2022-12-22",
+      "type": "release",
+      "title": "Druid 24.0.2",
+      "url": "https://github.com/apache/druid/releases/tag/druid-24.0.2",
+      "points": null
+    },
+    {
+      "date": "2023-01-04",
+      "type": "release",
+      "title": "Druid 25.0.0",
+      "url": "https://github.com/apache/druid/releases/tag/druid-25.0.0",
+      "points": null
+    },
+    {
+      "date": "2023-05-24",
+      "type": "release",
+      "title": "Druid 26.0.0",
+      "url": "https://github.com/apache/druid/releases/tag/druid-26.0.0",
+      "points": null
+    },
+    {
+      "date": "2023-08-11",
+      "type": "release",
+      "title": "Druid 27.0.0",
+      "url": "https://github.com/apache/druid/releases/tag/druid-27.0.0",
+      "points": null
+    },
+    {
+      "date": "2023-11-15",
+      "type": "release",
+      "title": "Druid 28.0.0",
+      "url": "https://github.com/apache/druid/releases/tag/druid-28.0.0",
+      "points": null
+    },
+    {
+      "date": "2023-12-21",
+      "type": "release",
+      "title": "Druid 28.0.1",
+      "url": "https://github.com/apache/druid/releases/tag/druid-28.0.1",
+      "points": null
+    },
+    {
+      "date": "2024-02-21",
+      "type": "release",
+      "title": "Druid 29.0.0",
+      "url": "https://github.com/apache/druid/releases/tag/druid-29.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-04-03",
+      "type": "release",
+      "title": "druid-29.0.1",
+      "url": "https://github.com/apache/druid/releases/tag/druid-29.0.1",
+      "points": null
+    },
+    {
+      "date": "2024-06-17",
+      "type": "release",
+      "title": "Druid 30.0.0",
+      "url": "https://github.com/apache/druid/releases/tag/druid-30.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-17",
+      "type": "release",
+      "title": "druid-30.0.1",
+      "url": "https://github.com/apache/druid/releases/tag/druid-30.0.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-22",
+      "type": "release",
+      "title": "Druid 31.0.0",
+      "url": "https://github.com/apache/druid/releases/tag/druid-31.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-12-25",
+      "type": "release",
+      "title": "Druid 31.0.1",
+      "url": "https://github.com/apache/druid/releases/tag/druid-31.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-02-13",
+      "type": "release",
+      "title": "Druid 32.0.0",
+      "url": "https://github.com/apache/druid/releases/tag/druid-32.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-19",
+      "type": "release",
+      "title": "Druid 32.0.1",
+      "url": "https://github.com/apache/druid/releases/tag/druid-32.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-03-19",
+      "type": "release",
+      "title": "Druid 31.0.2",
+      "url": "https://github.com/apache/druid/releases/tag/druid-31.0.2",
+      "points": null
+    },
+    {
+      "date": "2025-04-29",
+      "type": "release",
+      "title": "Druid 33.0.0",
+      "url": "https://github.com/apache/druid/releases/tag/druid-33.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-11",
+      "type": "release",
+      "title": "Druid 34.0.0",
+      "url": "https://github.com/apache/druid/releases/tag/druid-34.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-18",
+      "type": "release",
+      "title": "Druid 35.0.0",
+      "url": "https://github.com/apache/druid/releases/tag/druid-35.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-15",
+      "type": "release",
+      "title": "Druid 35.0.1",
+      "url": "https://github.com/apache/druid/releases/tag/druid-35.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-09",
+      "type": "release",
+      "title": "Druid 36.0.0",
+      "url": "https://github.com/apache/druid/releases/tag/druid-36.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-08",
+      "type": "release",
+      "title": "Druid 37.0.0",
+      "url": "https://github.com/apache/druid/releases/tag/druid-37.0.0",
+      "points": null
     }
   ]
 }

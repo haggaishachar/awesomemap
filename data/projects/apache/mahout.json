@@ -129,5 +129,21 @@
       "forks": 997,
       "openIssues": 74
     }
+  ],
+  "events": [
+    {
+      "date": "2026-02-02",
+      "type": "release",
+      "title": "mahout-qumat-0.5.0",
+      "url": "https://github.com/apache/mahout/releases/tag/mahout-qumat-0.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-31",
+      "type": "release",
+      "title": "mahout-qumat-0.6.0",
+      "url": "https://github.com/apache/mahout/releases/tag/mahout-qumat-0.6.0",
+      "points": null
+    }
   ]
 }

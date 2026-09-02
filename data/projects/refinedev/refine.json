@@ -63,9 +63,228 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 35616,
+      "stars": 35618,
       "forks": 3197,
-      "openIssues": 44
+      "openIssues": 45
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-01-25",
+      "type": "hn",
+      "title": "Show HN: Refine v3.97 – Open-source React framework for building CRUD apps",
+      "url": "https://news.ycombinator.com/item?id=34515128",
+      "points": 102
+    },
+    {
+      "date": "2025-10-23",
+      "type": "release",
+      "title": "@refinedev/ui-types@2.0.1",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/ui-types%402.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-12",
+      "type": "release",
+      "title": "@refinedev/react-hook-form@5.0.3",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/react-hook-form%405.0.3",
+      "points": null
+    },
+    {
+      "date": "2025-11-12",
+      "type": "release",
+      "title": "@refinedev/mui@7.0.1",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/mui%407.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-12",
+      "type": "release",
+      "title": "@refinedev/core@5.0.6",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/core%405.0.6",
+      "points": null
+    },
+    {
+      "date": "2025-11-17",
+      "type": "release",
+      "title": "@refinedev/devtools-ui@2.0.2",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/devtools-ui%402.0.2",
+      "points": null
+    },
+    {
+      "date": "2025-12-11",
+      "type": "release",
+      "title": "@refinedev/core@5.0.7",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/core%405.0.7",
+      "points": null
+    },
+    {
+      "date": "2026-01-06",
+      "type": "release",
+      "title": "@refinedev/core@5.0.8",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/core%405.0.8",
+      "points": null
+    },
+    {
+      "date": "2026-01-09",
+      "type": "release",
+      "title": "@refinedev/rest@2.1.0",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/rest%402.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-13",
+      "type": "release",
+      "title": "@refinedev/rest@2.1.1",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/rest%402.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-13",
+      "type": "release",
+      "title": "@refinedev/react-hook-form@5.0.4",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/react-hook-form%405.0.4",
+      "points": null
+    },
+    {
+      "date": "2026-01-19",
+      "type": "release",
+      "title": "@refinedev/mui@8.0.0",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/mui%408.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-19",
+      "type": "release",
+      "title": "@refinedev/inferencer@7.0.0",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/inferencer%407.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-05",
+      "type": "release",
+      "title": "@refinedev/devtools@2.0.4",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/devtools%402.0.4",
+      "points": null
+    },
+    {
+      "date": "2026-02-05",
+      "type": "release",
+      "title": "@refinedev/devtools-ui@2.0.3",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/devtools-ui%402.0.3",
+      "points": null
+    },
+    {
+      "date": "2026-02-05",
+      "type": "release",
+      "title": "@refinedev/devtools-shared@2.0.2",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/devtools-shared%402.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-02-05",
+      "type": "release",
+      "title": "@refinedev/devtools-server@2.0.2",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/devtools-server%402.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-02-05",
+      "type": "release",
+      "title": "@refinedev/devtools-internal@2.0.2",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/devtools-internal%402.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-02-05",
+      "type": "release",
+      "title": "@refinedev/core@5.0.9",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/core%405.0.9",
+      "points": null
+    },
+    {
+      "date": "2026-02-05",
+      "type": "release",
+      "title": "@refinedev/cli@2.16.51",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/cli%402.16.51",
+      "points": null
+    },
+    {
+      "date": "2026-02-27",
+      "type": "release",
+      "title": "@refinedev/supabase@6.0.2",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/supabase%406.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-05",
+      "type": "release",
+      "title": "@refinedev/remix-router@4.0.4",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/remix-router%404.0.4",
+      "points": null
+    },
+    {
+      "date": "2026-03-05",
+      "type": "release",
+      "title": "@refinedev/react-router@2.0.4",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/react-router%402.0.4",
+      "points": null
+    },
+    {
+      "date": "2026-03-05",
+      "type": "release",
+      "title": "@refinedev/nextjs-router@7.0.5",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/nextjs-router%407.0.5",
+      "points": null
+    },
+    {
+      "date": "2026-03-05",
+      "type": "release",
+      "title": "@refinedev/mui@8.0.1",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/mui%408.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-05",
+      "type": "release",
+      "title": "@refinedev/core@5.0.10",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/core%405.0.10",
+      "points": null
+    },
+    {
+      "date": "2026-03-16",
+      "type": "release",
+      "title": "@refinedev/devtools@2.0.5",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/devtools%402.0.5",
+      "points": null
+    },
+    {
+      "date": "2026-03-16",
+      "type": "release",
+      "title": "@refinedev/core@5.0.11",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/core%405.0.11",
+      "points": null
+    },
+    {
+      "date": "2026-03-16",
+      "type": "release",
+      "title": "@refinedev/cli@2.16.52",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/cli%402.16.52",
+      "points": null
+    },
+    {
+      "date": "2026-03-23",
+      "type": "release",
+      "title": "@refinedev/mui@8.0.2",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/mui%408.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-02",
+      "type": "release",
+      "title": "@refinedev/core@5.0.12",
+      "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev/core%405.0.12",
+      "points": null
     }
   ]
 }

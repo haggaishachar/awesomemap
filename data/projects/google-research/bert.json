@@ -128,5 +128,14 @@
       "forks": 9676,
       "openIssues": 880
     }
+  ],
+  "events": [
+    {
+      "date": "2018-10-31",
+      "type": "hn",
+      "title": "TensorFlow Code for Google Research's BERT: Pre-Training Method for NLP Tasks",
+      "url": "https://news.ycombinator.com/item?id=18349516",
+      "points": 129
+    }
   ]
 }

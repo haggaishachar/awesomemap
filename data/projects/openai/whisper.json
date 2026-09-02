@@ -94,9 +94,123 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 108304,
-      "forks": 13131,
+      "stars": 108323,
+      "forks": 13132,
       "openIssues": 138
+    }
+  ],
+  "events": [
+    {
+      "date": "2022-12-06",
+      "type": "hn",
+      "title": "OpenAI quietly launched Whisper V2 in a GitHub commit",
+      "url": "https://news.ycombinator.com/item?id=33884716",
+      "points": 335
+    },
+    {
+      "date": "2023-01-18",
+      "type": "release",
+      "title": "v20230117",
+      "url": "https://github.com/openai/whisper/releases/tag/v20230117",
+      "points": null
+    },
+    {
+      "date": "2023-01-24",
+      "type": "release",
+      "title": "v20230124",
+      "url": "https://github.com/openai/whisper/releases/tag/v20230124",
+      "points": null
+    },
+    {
+      "date": "2023-03-07",
+      "type": "release",
+      "title": "v20230306",
+      "url": "https://github.com/openai/whisper/releases/tag/v20230306",
+      "points": null
+    },
+    {
+      "date": "2023-03-08",
+      "type": "release",
+      "title": "v20230308",
+      "url": "https://github.com/openai/whisper/releases/tag/v20230308",
+      "points": null
+    },
+    {
+      "date": "2023-03-08",
+      "type": "release",
+      "title": "v20230307",
+      "url": "https://github.com/openai/whisper/releases/tag/v20230307",
+      "points": null
+    },
+    {
+      "date": "2023-03-15",
+      "type": "release",
+      "title": "v20230314",
+      "url": "https://github.com/openai/whisper/releases/tag/v20230314",
+      "points": null
+    },
+    {
+      "date": "2023-09-19",
+      "type": "release",
+      "title": "v20230918",
+      "url": "https://github.com/openai/whisper/releases/tag/v20230918",
+      "points": null
+    },
+    {
+      "date": "2023-11-06",
+      "type": "hn",
+      "title": "OpenAI releases Whisper v3, new generation open source ASR model",
+      "url": "https://news.ycombinator.com/item?id=38166965",
+      "points": 117
+    },
+    {
+      "date": "2023-11-06",
+      "type": "release",
+      "title": "v20231106",
+      "url": "https://github.com/openai/whisper/releases/tag/v20231106",
+      "points": null
+    },
+    {
+      "date": "2023-11-06",
+      "type": "release",
+      "title": "v20231105",
+      "url": "https://github.com/openai/whisper/releases/tag/v20231105",
+      "points": null
+    },
+    {
+      "date": "2023-11-17",
+      "type": "release",
+      "title": "v20231117",
+      "url": "https://github.com/openai/whisper/releases/tag/v20231117",
+      "points": null
+    },
+    {
+      "date": "2024-09-27",
+      "type": "release",
+      "title": "v20240927",
+      "url": "https://github.com/openai/whisper/releases/tag/v20240927",
+      "points": null
+    },
+    {
+      "date": "2024-09-30",
+      "type": "release",
+      "title": "v20240930",
+      "url": "https://github.com/openai/whisper/releases/tag/v20240930",
+      "points": null
+    },
+    {
+      "date": "2025-06-26",
+      "type": "release",
+      "title": "v20250625",
+      "url": "https://github.com/openai/whisper/releases/tag/v20250625",
+      "points": null
+    },
+    {
+      "date": "2025-07-22",
+      "type": "hn",
+      "title": "Complete silence is always hallucinated as \"ترجمة نانسي قنقر\" in Arabic",
+      "url": "https://news.ycombinator.com/item?id=44643564",
+      "points": 568
     }
   ]
 }

@@ -52,5 +52,217 @@
       "forks": 596,
       "openIssues": 2
     }
+  ],
+  "events": [
+    {
+      "date": "2023-08-21",
+      "type": "release",
+      "title": "v2.6.0-beta.0",
+      "url": "https://github.com/aidenybai/million/releases/tag/v2.6.0-beta.0",
+      "points": null
+    },
+    {
+      "date": "2023-08-22",
+      "type": "release",
+      "title": "v2.6.0-beta.2",
+      "url": "https://github.com/aidenybai/million/releases/tag/v2.6.0-beta.2",
+      "points": null
+    },
+    {
+      "date": "2023-08-22",
+      "type": "release",
+      "title": "v2.6.0-beta.1",
+      "url": "https://github.com/aidenybai/million/releases/tag/v2.6.0-beta.1",
+      "points": null
+    },
+    {
+      "date": "2023-08-24",
+      "type": "release",
+      "title": "v2.6.0-beta.4",
+      "url": "https://github.com/aidenybai/million/releases/tag/v2.6.0-beta.4",
+      "points": null
+    },
+    {
+      "date": "2023-08-24",
+      "type": "release",
+      "title": "v2.6.0-beta.3",
+      "url": "https://github.com/aidenybai/million/releases/tag/v2.6.0-beta.3",
+      "points": null
+    },
+    {
+      "date": "2023-08-26",
+      "type": "release",
+      "title": "v2.6.0-beta.7",
+      "url": "https://github.com/aidenybai/million/releases/tag/v2.6.0-beta.7",
+      "points": null
+    },
+    {
+      "date": "2023-08-26",
+      "type": "release",
+      "title": "v2.6.0-beta.6",
+      "url": "https://github.com/aidenybai/million/releases/tag/v2.6.0-beta.6",
+      "points": null
+    },
+    {
+      "date": "2023-08-26",
+      "type": "release",
+      "title": "v2.6.0-beta.5",
+      "url": "https://github.com/aidenybai/million/releases/tag/v2.6.0-beta.5",
+      "points": null
+    },
+    {
+      "date": "2023-08-27",
+      "type": "release",
+      "title": "v2.6.0-beta.8",
+      "url": "https://github.com/aidenybai/million/releases/tag/v2.6.0-beta.8",
+      "points": null
+    },
+    {
+      "date": "2023-08-29",
+      "type": "release",
+      "title": "v2.6.0-beta.10",
+      "url": "https://github.com/aidenybai/million/releases/tag/v2.6.0-beta.10",
+      "points": null
+    },
+    {
+      "date": "2023-08-31",
+      "type": "release",
+      "title": "v2.6.0-beta.11",
+      "url": "https://github.com/aidenybai/million/releases/tag/v2.6.0-beta.11",
+      "points": null
+    },
+    {
+      "date": "2023-09-02",
+      "type": "release",
+      "title": "v2.6.0-beta.12",
+      "url": "https://github.com/aidenybai/million/releases/tag/v2.6.0-beta.12",
+      "points": null
+    },
+    {
+      "date": "2023-09-05",
+      "type": "release",
+      "title": "v2.6.0-beta.13",
+      "url": "https://github.com/aidenybai/million/releases/tag/v2.6.0-beta.13",
+      "points": null
+    },
+    {
+      "date": "2023-09-14",
+      "type": "release",
+      "title": "v2.6.0-beta.15",
+      "url": "https://github.com/aidenybai/million/releases/tag/v2.6.0-beta.15",
+      "points": null
+    },
+    {
+      "date": "2023-09-14",
+      "type": "release",
+      "title": "v2.6.0-beta.14",
+      "url": "https://github.com/aidenybai/million/releases/tag/v2.6.0-beta.14",
+      "points": null
+    },
+    {
+      "date": "2023-09-15",
+      "type": "release",
+      "title": "v2.6.0-beta.16",
+      "url": "https://github.com/aidenybai/million/releases/tag/v2.6.0-beta.16",
+      "points": null
+    },
+    {
+      "date": "2023-09-20",
+      "type": "release",
+      "title": "v2.6.0",
+      "url": "https://github.com/aidenybai/million/releases/tag/v2.6.0",
+      "points": null
+    },
+    {
+      "date": "2023-09-26",
+      "type": "release",
+      "title": "v2.6.1",
+      "url": "https://github.com/aidenybai/million/releases/tag/v2.6.1",
+      "points": null
+    },
+    {
+      "date": "2023-09-27",
+      "type": "release",
+      "title": "v2.6.2",
+      "url": "https://github.com/aidenybai/million/releases/tag/v2.6.2",
+      "points": null
+    },
+    {
+      "date": "2023-10-02",
+      "type": "release",
+      "title": "v2.6.3",
+      "url": "https://github.com/aidenybai/million/releases/tag/v2.6.3",
+      "points": null
+    },
+    {
+      "date": "2023-10-04",
+      "type": "release",
+      "title": "v2.6.4",
+      "url": "https://github.com/aidenybai/million/releases/tag/v2.6.4",
+      "points": null
+    },
+    {
+      "date": "2024-02-02",
+      "type": "release",
+      "title": "v3.0.2",
+      "url": "https://github.com/aidenybai/million/releases/tag/v3.0.2",
+      "points": null
+    },
+    {
+      "date": "2024-02-02",
+      "type": "release",
+      "title": "v3.0.1",
+      "url": "https://github.com/aidenybai/million/releases/tag/v3.0.1",
+      "points": null
+    },
+    {
+      "date": "2024-02-02",
+      "type": "release",
+      "title": "v3.0.0-beta.0",
+      "url": "https://github.com/aidenybai/million/releases/tag/v3.0.0-beta.0",
+      "points": null
+    },
+    {
+      "date": "2024-02-02",
+      "type": "release",
+      "title": "v3.0.0",
+      "url": "https://github.com/aidenybai/million/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-02-09",
+      "type": "release",
+      "title": "v3.0.3",
+      "url": "https://github.com/aidenybai/million/releases/tag/v3.0.3",
+      "points": null
+    },
+    {
+      "date": "2024-03-03",
+      "type": "release",
+      "title": "v3.0.4",
+      "url": "https://github.com/aidenybai/million/releases/tag/v3.0.4",
+      "points": null
+    },
+    {
+      "date": "2024-03-06",
+      "type": "release",
+      "title": "v3.0.5",
+      "url": "https://github.com/aidenybai/million/releases/tag/v3.0.5",
+      "points": null
+    },
+    {
+      "date": "2024-03-09",
+      "type": "release",
+      "title": "v3.0.6",
+      "url": "https://github.com/aidenybai/million/releases/tag/v3.0.6",
+      "points": null
+    },
+    {
+      "date": "2024-05-21",
+      "type": "release",
+      "title": "v3.1.0",
+      "url": "https://github.com/aidenybai/million/releases/tag/v3.1.0",
+      "points": null
+    }
   ]
 }

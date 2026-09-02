@@ -139,7 +139,226 @@
       "date": "2026-09-02",
       "stars": 25640,
       "forks": 1421,
-      "openIssues": 2455
+      "openIssues": 2457
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-04-29",
+      "type": "hn",
+      "title": "Pulumi AI is poisoning Google search results with AI answers",
+      "url": "https://news.ycombinator.com/item?id=40198258",
+      "points": 95
+    },
+    {
+      "date": "2026-04-16",
+      "type": "release",
+      "title": "v3.231.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.231.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-23",
+      "type": "release",
+      "title": "v3.232.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.232.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-30",
+      "type": "release",
+      "title": "v3.233.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.233.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-01",
+      "type": "release",
+      "title": "v3.234.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.234.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-05",
+      "type": "release",
+      "title": "v3.235.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.235.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-07",
+      "type": "release",
+      "title": "v3.236.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.236.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-08",
+      "type": "release",
+      "title": "v3.237.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.237.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "v3.238.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.238.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-14",
+      "type": "release",
+      "title": "v3.239.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.239.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-18",
+      "type": "release",
+      "title": "v3.241.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.241.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-19",
+      "type": "release",
+      "title": "v3.242.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.242.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-22",
+      "type": "release",
+      "title": "v3.243.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.243.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-28",
+      "type": "release",
+      "title": "v3.244.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.244.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "v3.245.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.245.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-11",
+      "type": "release",
+      "title": "v3.246.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.246.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-18",
+      "type": "release",
+      "title": "v3.247.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.247.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-24",
+      "type": "release",
+      "title": "v3.248.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.248.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "v3.249.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.249.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-02",
+      "type": "release",
+      "title": "v3.250.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.250.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "v3.251.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.251.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-13",
+      "type": "release",
+      "title": "v3.252.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.252.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "v3.253.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.253.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "v3.254.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.254.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "v3.255.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.255.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "v3.256.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.256.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "v3.257.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.257.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-17",
+      "type": "release",
+      "title": "v3.258.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.258.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "v3.259.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.259.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "v3.260.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.260.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "v3.261.0",
+      "url": "https://github.com/pulumi/pulumi/releases/tag/v3.261.0",
+      "points": null
     }
   ]
 }

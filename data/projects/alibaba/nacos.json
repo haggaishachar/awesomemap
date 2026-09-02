@@ -27,11 +27,153 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 33338,
-      "forks": 13287,
+      "stars": 33337,
+      "forks": 13288,
       "openIssues": 182
     }
   ],
   "weight": 33336,
-  "image": "https://avatars.githubusercontent.com/u/1961952?v=4"
+  "image": "https://avatars.githubusercontent.com/u/1961952?v=4",
+  "events": [
+    {
+      "date": "2024-09-20",
+      "type": "release",
+      "title": "2.4.2.1",
+      "url": "https://github.com/alibaba/nacos/releases/tag/2.4.2.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-12",
+      "type": "release",
+      "title": "2.4.3 (Oct 12th, 2024)",
+      "url": "https://github.com/alibaba/nacos/releases/tag/2.4.3",
+      "points": null
+    },
+    {
+      "date": "2025-01-21",
+      "type": "release",
+      "title": "2.5.0 (Jan 21th, 2025)",
+      "url": "https://github.com/alibaba/nacos/releases/tag/2.5.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-11",
+      "type": "release",
+      "title": "2.5.1 (Mar 11th, 2025)",
+      "url": "https://github.com/alibaba/nacos/releases/tag/2.5.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-27",
+      "type": "release",
+      "title": "3.0.0 (Apr 25th, 2025)",
+      "url": "https://github.com/alibaba/nacos/releases/tag/3.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-22",
+      "type": "release",
+      "title": "3.0.1 (May 22th, 2025) (Updated at May 23th, 2025)",
+      "url": "https://github.com/alibaba/nacos/releases/tag/3.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-05-23",
+      "type": "release",
+      "title": "3.0.1.1 (May 23th, 2025) (Server Only)",
+      "url": "https://github.com/alibaba/nacos/releases/tag/3.0.1.1",
+      "points": null
+    },
+    {
+      "date": "2025-06-25",
+      "type": "release",
+      "title": "3.0.2(June 25th, 2025)",
+      "url": "https://github.com/alibaba/nacos/releases/tag/3.0.2",
+      "points": null
+    },
+    {
+      "date": "2025-08-21",
+      "type": "release",
+      "title": "3.0.3(Aug 21th, 2025)",
+      "url": "https://github.com/alibaba/nacos/releases/tag/3.0.3",
+      "points": null
+    },
+    {
+      "date": "2025-09-22",
+      "type": "release",
+      "title": "3.1.0 (Sep 22th, 2025)",
+      "url": "https://github.com/alibaba/nacos/releases/tag/3.1.0-bugfix",
+      "points": null
+    },
+    {
+      "date": "2025-11-17",
+      "type": "release",
+      "title": "2.5.2 (Nov 17th, 2025)",
+      "url": "https://github.com/alibaba/nacos/releases/tag/2.5.2",
+      "points": null
+    },
+    {
+      "date": "2025-11-26",
+      "type": "release",
+      "title": "3.1.1 (Nov 26th 2025)",
+      "url": "https://github.com/alibaba/nacos/releases/tag/3.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-26",
+      "type": "release",
+      "title": "3.1.2",
+      "url": "https://github.com/alibaba/nacos/releases/tag/3.1.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-27",
+      "type": "release",
+      "title": "3.2.0 (Mar 27th, 2026)",
+      "url": "https://github.com/alibaba/nacos/releases/tag/3.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-23",
+      "type": "release",
+      "title": "3.2.1 (Apr 23th, 2026)",
+      "url": "https://github.com/alibaba/nacos/releases/tag/3.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-29",
+      "type": "release",
+      "title": "3.2.2 (May 29th, 2026)",
+      "url": "https://github.com/alibaba/nacos/releases/tag/3.2.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "2.5.3 (Jul 14th, 2026)",
+      "url": "https://github.com/alibaba/nacos/releases/tag/2.5.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "3.2.3 (Jul 14th, 2026)",
+      "url": "https://github.com/alibaba/nacos/releases/tag/3.2.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "3.2.4 (Aug 27th, 2026)",
+      "url": "https://github.com/alibaba/nacos/releases/tag/3.2.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "2.5.4 (Aug 27th, 2026)",
+      "url": "https://github.com/alibaba/nacos/releases/tag/2.5.4",
+      "points": null
+    }
+  ]
 }

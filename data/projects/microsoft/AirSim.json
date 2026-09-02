@@ -84,9 +84,200 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 18432,
+      "stars": 18434,
       "forks": 4916,
       "openIssues": 780
+    }
+  ],
+  "events": [
+    {
+      "date": "2017-09-01",
+      "type": "release",
+      "title": "v1.0.0 - Neighborhood Environment - Windows",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.0.0",
+      "points": null
+    },
+    {
+      "date": "2017-09-28",
+      "type": "release",
+      "title": "v1.1.1 - Windows",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.1.1",
+      "points": null
+    },
+    {
+      "date": "2017-10-05",
+      "type": "release",
+      "title": "v1.1.3 - Windows",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.1.3",
+      "points": null
+    },
+    {
+      "date": "2017-11-08",
+      "type": "release",
+      "title": "v1.1.4 - Windows",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.1.4",
+      "points": null
+    },
+    {
+      "date": "2017-11-13",
+      "type": "release",
+      "title": "v1.1.5 - Windows",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.1.5",
+      "points": null
+    },
+    {
+      "date": "2017-11-23",
+      "type": "release",
+      "title": "v1.1.6 - Windows",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.1.6",
+      "points": null
+    },
+    {
+      "date": "2017-12-01",
+      "type": "release",
+      "title": "v1.1.7 - Windows",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.1.7",
+      "points": null
+    },
+    {
+      "date": "2018-02-16",
+      "type": "release",
+      "title": "v1.1.8 - Windows",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.1.8",
+      "points": null
+    },
+    {
+      "date": "2018-03-21",
+      "type": "release",
+      "title": "v1.1.9 - Windows",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.1.9",
+      "points": null
+    },
+    {
+      "date": "2018-04-12",
+      "type": "release",
+      "title": "v1.1.10 - Windows",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.1.10",
+      "points": null
+    },
+    {
+      "date": "2018-06-20",
+      "type": "release",
+      "title": "v1.2.0 - Windows",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.2.0",
+      "points": null
+    },
+    {
+      "date": "2019-01-12",
+      "type": "release",
+      "title": "v1.2.0 - Linux",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.2.0Linux",
+      "points": null
+    },
+    {
+      "date": "2019-09-18",
+      "type": "hn",
+      "title": "AirSim: open-source simulator for autonomous vehicles",
+      "url": "https://news.ycombinator.com/item?id=21005190",
+      "points": 320
+    },
+    {
+      "date": "2020-03-31",
+      "type": "release",
+      "title": "v1.3.0-Linux",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.3.0-linux",
+      "points": null
+    },
+    {
+      "date": "2020-03-31",
+      "type": "release",
+      "title": "v1.3.0-Windows",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.3.0-Windows",
+      "points": null
+    },
+    {
+      "date": "2020-04-08",
+      "type": "release",
+      "title": "v1.3.1 - Windows",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.3.1-windows",
+      "points": null
+    },
+    {
+      "date": "2020-04-08",
+      "type": "release",
+      "title": "v1.3.1 - Linux",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.3.1-linux",
+      "points": null
+    },
+    {
+      "date": "2021-01-13",
+      "type": "release",
+      "title": "v1.4.0 - Windows",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.4.0-windows",
+      "points": null
+    },
+    {
+      "date": "2021-01-14",
+      "type": "release",
+      "title": "v1.4.0 - Linux",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.4.0-linux",
+      "points": null
+    },
+    {
+      "date": "2021-05-19",
+      "type": "release",
+      "title": "v1.5.0 - Windows",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.5.0-windows",
+      "points": null
+    },
+    {
+      "date": "2021-05-19",
+      "type": "release",
+      "title": "v1.5.0 - Linux",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.5.0-linux",
+      "points": null
+    },
+    {
+      "date": "2021-08-24",
+      "type": "release",
+      "title": "v1.6.0 - Windows",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.6.0-windows",
+      "points": null
+    },
+    {
+      "date": "2021-08-24",
+      "type": "release",
+      "title": "v1.6.0 - Linux",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.6.0-linux",
+      "points": null
+    },
+    {
+      "date": "2022-01-07",
+      "type": "release",
+      "title": "v1.7.0 - Windows",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.7.0-windows",
+      "points": null
+    },
+    {
+      "date": "2022-01-13",
+      "type": "release",
+      "title": "v1.7.0 - Linux",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.7.0-linux",
+      "points": null
+    },
+    {
+      "date": "2022-07-18",
+      "type": "release",
+      "title": "v1.8.1 - Windows",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.8.1-windows",
+      "points": null
+    },
+    {
+      "date": "2022-07-18",
+      "type": "release",
+      "title": "v1.8.1 - Linux",
+      "url": "https://github.com/microsoft/AirSim/releases/tag/v1.8.1",
+      "points": null
     }
   ]
 }

@@ -81,9 +81,221 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 64709,
-      "forks": 6181,
-      "openIssues": 911
+      "stars": 64712,
+      "forks": 6180,
+      "openIssues": 910
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-05-05",
+      "type": "release",
+      "title": "v3.7.0",
+      "url": "https://github.com/traefik/traefik/releases/tag/v3.7.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-11",
+      "type": "release",
+      "title": "v3.7.1",
+      "url": "https://github.com/traefik/traefik/releases/tag/v3.7.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-11",
+      "type": "release",
+      "title": "v3.6.17",
+      "url": "https://github.com/traefik/traefik/releases/tag/v3.6.17",
+      "points": null
+    },
+    {
+      "date": "2026-05-11",
+      "type": "release",
+      "title": "v2.11.46",
+      "url": "https://github.com/traefik/traefik/releases/tag/v2.11.46",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "v3.7.3",
+      "url": "https://github.com/traefik/traefik/releases/tag/v3.7.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "v3.6.19",
+      "url": "https://github.com/traefik/traefik/releases/tag/v3.6.19",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "v2.11.48",
+      "url": "https://github.com/traefik/traefik/releases/tag/v2.11.48",
+      "points": null
+    },
+    {
+      "date": "2026-06-05",
+      "type": "release",
+      "title": "v3.7.4",
+      "url": "https://github.com/traefik/traefik/releases/tag/v3.7.4",
+      "points": null
+    },
+    {
+      "date": "2026-06-05",
+      "type": "release",
+      "title": "v3.6.20",
+      "url": "https://github.com/traefik/traefik/releases/tag/v3.6.20",
+      "points": null
+    },
+    {
+      "date": "2026-06-05",
+      "type": "release",
+      "title": "v2.11.49",
+      "url": "https://github.com/traefik/traefik/releases/tag/v2.11.49",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v3.7.5",
+      "url": "https://github.com/traefik/traefik/releases/tag/v3.7.5",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v3.6.21",
+      "url": "https://github.com/traefik/traefik/releases/tag/v3.6.21",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v2.11.50",
+      "url": "https://github.com/traefik/traefik/releases/tag/v2.11.50",
+      "points": null
+    },
+    {
+      "date": "2026-06-30",
+      "type": "release",
+      "title": "v3.7.6",
+      "url": "https://github.com/traefik/traefik/releases/tag/v3.7.6",
+      "points": null
+    },
+    {
+      "date": "2026-06-30",
+      "type": "release",
+      "title": "v3.6.22",
+      "url": "https://github.com/traefik/traefik/releases/tag/v3.6.22",
+      "points": null
+    },
+    {
+      "date": "2026-06-30",
+      "type": "release",
+      "title": "v2.11.51",
+      "url": "https://github.com/traefik/traefik/releases/tag/v2.11.51",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "v3.7.7",
+      "url": "https://github.com/traefik/traefik/releases/tag/v3.7.7",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "v3.6.23",
+      "url": "https://github.com/traefik/traefik/releases/tag/v3.6.23",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "v2.11.52",
+      "url": "https://github.com/traefik/traefik/releases/tag/v2.11.52",
+      "points": null
+    },
+    {
+      "date": "2026-07-15",
+      "type": "release",
+      "title": "v3.7.8",
+      "url": "https://github.com/traefik/traefik/releases/tag/v3.7.8",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "v3.7.9",
+      "url": "https://github.com/traefik/traefik/releases/tag/v3.7.9",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "v3.6.24",
+      "url": "https://github.com/traefik/traefik/releases/tag/v3.6.24",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "v2.11.53",
+      "url": "https://github.com/traefik/traefik/releases/tag/v2.11.53",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "v3.7.10",
+      "url": "https://github.com/traefik/traefik/releases/tag/v3.7.10",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "v3.6.25",
+      "url": "https://github.com/traefik/traefik/releases/tag/v3.6.25",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "v2.11.54",
+      "url": "https://github.com/traefik/traefik/releases/tag/v2.11.54",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "v2.11.55",
+      "url": "https://github.com/traefik/traefik/releases/tag/v2.11.55",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "v3.7.11",
+      "url": "https://github.com/traefik/traefik/releases/tag/v3.7.11",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v3.7.12",
+      "url": "https://github.com/traefik/traefik/releases/tag/v3.7.12",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v2.11.56",
+      "url": "https://github.com/traefik/traefik/releases/tag/v2.11.56",
+      "points": null
     }
   ]
 }

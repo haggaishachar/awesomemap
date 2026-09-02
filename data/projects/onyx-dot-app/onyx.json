@@ -25,11 +25,209 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 31887,
-      "forks": 4396,
-      "openIssues": 427
+      "stars": 31893,
+      "forks": 4397,
+      "openIssues": 422
     }
   ],
   "weight": 31877,
-  "image": "https://avatars.githubusercontent.com/u/131946000?v=4"
+  "image": "https://avatars.githubusercontent.com/u/131946000?v=4",
+  "events": [
+    {
+      "date": "2025-03-03",
+      "type": "hn",
+      "title": "Show HN: Open-source Deep Research across workplace applications",
+      "url": "https://news.ycombinator.com/item?id=43242551",
+      "points": 125
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "onyx-cli latest",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/cli-latest",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "onyx-cli v1.3.1",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/cli/v1.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "onyx-cli v1.3.2",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/cli/v1.3.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "v4.4.8",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/v4.4.8",
+      "points": null
+    },
+    {
+      "date": "2026-08-03",
+      "type": "release",
+      "title": "onyx-cli v1.3.3",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/cli/v1.3.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "v4.5.1",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/v4.5.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "onyx-cli v1.3.4",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/cli/v1.3.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "v4.5.0",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/v4.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "v4.5.2",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/v4.5.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "v4.5.4",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/v4.5.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "v4.4.9",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/v4.4.9",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "v4.5.3",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/v4.5.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "v4.5.6",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/v4.5.6",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "v4.5.5",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/v4.5.5",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "helm/onyx-0.8.16",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/helm/onyx-0.8.16",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "Helm chart archive (pre-release-assets)",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/helm/archive",
+      "points": null
+    },
+    {
+      "date": "2026-08-17",
+      "type": "release",
+      "title": "helm/onyx-0.8.17",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/helm/onyx-0.8.17",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "helm/onyx-0.8.18",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/helm/onyx-0.8.18",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "helm/onyx-0.8.19",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/helm/onyx-0.8.19",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "v4.6.0",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/v4.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "v4.6.1",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/v4.6.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "v4.6.2",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/v4.6.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "onyx-cli v1.4.0",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/cli/v1.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v4.6.3",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/v4.6.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "v4.6.4",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/v4.6.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-29",
+      "type": "release",
+      "title": "v4.6.5",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/v4.6.5",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "helm/onyx-0.8.20",
+      "url": "https://github.com/onyx-dot-app/onyx/releases/tag/helm/onyx-0.8.20",
+      "points": null
+    }
+  ]
 }

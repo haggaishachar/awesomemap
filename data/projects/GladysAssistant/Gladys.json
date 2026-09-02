@@ -20,11 +20,223 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 3169,
+      "stars": 3172,
       "forks": 318,
-      "openIssues": 55
+      "openIssues": 56
     }
   ],
   "weight": 3169,
-  "image": "https://avatars.githubusercontent.com/u/7365162?v=4"
+  "image": "https://avatars.githubusercontent.com/u/7365162?v=4",
+  "events": [
+    {
+      "date": "2026-01-23",
+      "type": "release",
+      "title": "v4.67.0",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.67.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-27",
+      "type": "release",
+      "title": "v4.69.0",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.69.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-27",
+      "type": "release",
+      "title": "v4.68.0",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.68.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-06",
+      "type": "release",
+      "title": "v4.70.0",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.70.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-20",
+      "type": "release",
+      "title": "v4.71.0",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.71.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-03",
+      "type": "release",
+      "title": "v4.72.0",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.72.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-24",
+      "type": "release",
+      "title": "v4.72.1",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.72.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-11",
+      "type": "release",
+      "title": "v4.73.0",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.73.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-18",
+      "type": "release",
+      "title": "v4.74.0",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.74.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-25",
+      "type": "release",
+      "title": "v4.75.0",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.75.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-28",
+      "type": "release",
+      "title": "v4.76.0",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.76.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-01",
+      "type": "release",
+      "title": "v4.77.0",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.77.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-08",
+      "type": "release",
+      "title": "v4.78.0",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.78.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "v4.79.0",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.79.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-22",
+      "type": "release",
+      "title": "v4.80.0",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.80.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "v4.81.0",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.81.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "title": "v4.82.0",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.82.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "v4.83.0",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.83.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "v4.84.0",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.84.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-01",
+      "type": "release",
+      "title": "v4.84.1",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.84.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-02",
+      "type": "release",
+      "title": "v4.84.2",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.84.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-03",
+      "type": "release",
+      "title": "v4.84.3",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.84.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "v4.84.4",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.84.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "v4.85.0",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.85.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "v4.86.0",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.86.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-15",
+      "type": "release",
+      "title": "v4.86.1",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v4.86.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "v5.0.0",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v5.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "v5.0.1",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v5.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-29",
+      "type": "release",
+      "title": "v5.0.2",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v5.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-30",
+      "type": "release",
+      "title": "v5.0.3",
+      "url": "https://github.com/GladysAssistant/Gladys/releases/tag/v5.0.3",
+      "points": null
+    }
+  ]
 }

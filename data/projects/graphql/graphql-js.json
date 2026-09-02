@@ -125,5 +125,126 @@
       "forks": 2129,
       "openIssues": 99
     }
+  ],
+  "events": [
+    {
+      "date": "2015-07-02",
+      "type": "hn",
+      "title": "GraphQL.js Technical Preview",
+      "url": "https://news.ycombinator.com/item?id=9818008",
+      "points": 63
+    },
+    {
+      "date": "2024-06-21",
+      "type": "release",
+      "title": "v16.9.0",
+      "url": "https://github.com/graphql/graphql-js/releases/tag/v16.9.0",
+      "points": null
+    },
+    {
+      "date": "2024-12-15",
+      "type": "release",
+      "title": "16.10.0",
+      "url": "https://github.com/graphql/graphql-js/releases/tag/v16.10.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-13",
+      "type": "release",
+      "title": "v15.10.0",
+      "url": "https://github.com/graphql/graphql-js/releases/tag/v15.10.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-14",
+      "type": "release",
+      "title": "v15.10.1",
+      "url": "https://github.com/graphql/graphql-js/releases/tag/v15.10.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-26",
+      "type": "release",
+      "title": "16.11.0",
+      "url": "https://github.com/graphql/graphql-js/releases/tag/v16.11.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-01",
+      "type": "release",
+      "title": "16.12.0",
+      "url": "https://github.com/graphql/graphql-js/releases/tag/v16.12.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-24",
+      "type": "release",
+      "title": "16.13.0",
+      "url": "https://github.com/graphql/graphql-js/releases/tag/v16.13.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-04",
+      "type": "release",
+      "title": "v16.13.1",
+      "url": "https://github.com/graphql/graphql-js/releases/tag/v16.13.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-24",
+      "type": "release",
+      "title": "v16.13.2",
+      "url": "https://github.com/graphql/graphql-js/releases/tag/v16.13.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "v16.14.0",
+      "url": "https://github.com/graphql/graphql-js/releases/tag/v16.14.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-01",
+      "type": "release",
+      "title": "v16.14.1",
+      "url": "https://github.com/graphql/graphql-js/releases/tag/v16.14.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "title": "v16.14.2",
+      "url": "https://github.com/graphql/graphql-js/releases/tag/v16.14.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "v17.0.0",
+      "url": "https://github.com/graphql/graphql-js/releases/tag/v17.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-16",
+      "type": "release",
+      "title": "v17.0.1",
+      "url": "https://github.com/graphql/graphql-js/releases/tag/v17.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-03",
+      "type": "release",
+      "title": "v17.0.2",
+      "url": "https://github.com/graphql/graphql-js/releases/tag/v17.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "v15.10.3",
+      "url": "https://github.com/graphql/graphql-js/releases/tag/v15.10.3",
+      "points": null
+    }
   ]
 }

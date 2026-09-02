@@ -4,8 +4,8 @@
   "link": "https://github.com/h5bp/html5-boilerplate",
   "name": "html5-boilerplate",
   "desc": "A professional front-end template for building fast, robust, and adaptable web apps or sites.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "html5-boilerplate",
+  "githubDescription": "A professional front-end template for building fast, robust, and adaptable web apps or sites.",
   "tags": [
     "best-practices",
     "css",
@@ -15,7 +15,226 @@
     "javascript",
     "robust"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 57610,
+      "forks": 12261,
+      "openIssues": 24
+    }
+  ],
   "weight": 57609,
-  "image": "https://avatars.githubusercontent.com/u/1136800?v=4"
+  "image": "https://avatars.githubusercontent.com/u/1136800?v=4",
+  "events": [
+    {
+      "date": "2013-09-10",
+      "type": "release",
+      "title": "v4.3.0",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v4.3.0",
+      "points": null
+    },
+    {
+      "date": "2014-06-27",
+      "type": "release",
+      "title": "v4.2.0",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v4.2.0",
+      "points": null
+    },
+    {
+      "date": "2014-06-27",
+      "type": "release",
+      "title": "v4.1.0",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v4.1.0",
+      "points": null
+    },
+    {
+      "date": "2014-06-27",
+      "type": "release",
+      "title": "v4.0.3",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v4.0.3",
+      "points": null
+    },
+    {
+      "date": "2014-06-27",
+      "type": "release",
+      "title": "v4.0.2",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v4.0.2",
+      "points": null
+    },
+    {
+      "date": "2014-06-27",
+      "type": "release",
+      "title": "v4.0.1",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v4.0.1",
+      "points": null
+    },
+    {
+      "date": "2014-06-27",
+      "type": "release",
+      "title": "v4.0.0",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v4.0.0",
+      "points": null
+    },
+    {
+      "date": "2014-06-27",
+      "type": "release",
+      "title": "v3.0.2stripped",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v3.0.2stripped",
+      "points": null
+    },
+    {
+      "date": "2014-06-27",
+      "type": "release",
+      "title": "v3.0.2",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v3.0.2",
+      "points": null
+    },
+    {
+      "date": "2014-06-27",
+      "type": "release",
+      "title": "v3.0.1stripped",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v3.0.1stripped",
+      "points": null
+    },
+    {
+      "date": "2014-06-27",
+      "type": "release",
+      "title": "v3.0.1",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v3.0.1",
+      "points": null
+    },
+    {
+      "date": "2014-06-27",
+      "type": "release",
+      "title": "v3.0",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v3.0",
+      "points": null
+    },
+    {
+      "date": "2014-06-27",
+      "type": "release",
+      "title": "v3.0stripped",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v3.0stripped",
+      "points": null
+    },
+    {
+      "date": "2015-02-02",
+      "type": "release",
+      "title": "v5.0.0",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v5.0.0",
+      "points": null
+    },
+    {
+      "date": "2015-04-01",
+      "type": "release",
+      "title": "v5.1.0",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/5.1.0",
+      "points": null
+    },
+    {
+      "date": "2015-04-30",
+      "type": "release",
+      "title": "v5.2.0",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/5.2.0",
+      "points": null
+    },
+    {
+      "date": "2016-01-12",
+      "type": "release",
+      "title": "v5.3.0",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/5.3.0",
+      "points": null
+    },
+    {
+      "date": "2017-08-17",
+      "type": "release",
+      "title": "v6.0.0",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/6.0.0",
+      "points": null
+    },
+    {
+      "date": "2017-09-11",
+      "type": "release",
+      "title": "v6.0.1",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/6.0.1",
+      "points": null
+    },
+    {
+      "date": "2018-05-01",
+      "type": "release",
+      "title": "v6.1.0",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/6.1.0",
+      "points": null
+    },
+    {
+      "date": "2019-02-08",
+      "type": "release",
+      "title": "v7.0.0",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v7.0.0",
+      "points": null
+    },
+    {
+      "date": "2019-02-12",
+      "type": "release",
+      "title": "v7.0.1",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v7.0.1",
+      "points": null
+    },
+    {
+      "date": "2019-03-20",
+      "type": "release",
+      "title": "v7.1.0",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v7.1.0",
+      "points": null
+    },
+    {
+      "date": "2019-06-04",
+      "type": "release",
+      "title": "v7.2.0",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v7.2.0",
+      "points": null
+    },
+    {
+      "date": "2019-11-19",
+      "type": "release",
+      "title": "v7.3.0",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v7.3.0",
+      "points": null
+    },
+    {
+      "date": "2020-06-03",
+      "type": "release",
+      "title": "Release v8.0.0-RC1",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v8.0.0-RC1",
+      "points": null
+    },
+    {
+      "date": "2020-06-04",
+      "type": "release",
+      "title": "Release v8.0.0-RC2",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v8.0.0-RC2",
+      "points": null
+    },
+    {
+      "date": "2020-06-04",
+      "type": "release",
+      "title": "Release v8.0.0",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v8.0.0",
+      "points": null
+    },
+    {
+      "date": "2023-12-06",
+      "type": "release",
+      "title": "Release v9.0.0",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v9.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-04-16",
+      "type": "release",
+      "title": "Release v9.0.1",
+      "url": "https://github.com/h5bp/html5-boilerplate/releases/tag/v9.0.1",
+      "points": null
+    }
+  ]
 }

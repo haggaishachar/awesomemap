@@ -20,5 +20,217 @@
       "openIssues": 36
     }
   ],
-  "weight": 3308
+  "weight": 3308,
+  "events": [
+    {
+      "date": "2020-08-13",
+      "type": "release",
+      "title": "v2.2.1",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v2.2.1",
+      "points": null
+    },
+    {
+      "date": "2020-09-14",
+      "type": "release",
+      "title": "v2.3.0",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v2.3.0",
+      "points": null
+    },
+    {
+      "date": "2020-09-29",
+      "type": "release",
+      "title": "v2.4.0",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v2.4.0",
+      "points": null
+    },
+    {
+      "date": "2020-10-01",
+      "type": "release",
+      "title": "v2.4.1",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v2.4.1",
+      "points": null
+    },
+    {
+      "date": "2020-10-06",
+      "type": "release",
+      "title": "v2.4.2",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v2.4.2",
+      "points": null
+    },
+    {
+      "date": "2020-10-16",
+      "type": "release",
+      "title": "v2.5.0",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v2.5.0",
+      "points": null
+    },
+    {
+      "date": "2020-10-23",
+      "type": "release",
+      "title": "v2.5.1",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v2.5.1",
+      "points": null
+    },
+    {
+      "date": "2020-11-08",
+      "type": "release",
+      "title": "v2.5.2",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v2.5.2",
+      "points": null
+    },
+    {
+      "date": "2020-11-13",
+      "type": "release",
+      "title": "v2.5.3",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v2.5.3",
+      "points": null
+    },
+    {
+      "date": "2020-11-22",
+      "type": "release",
+      "title": "v2.6.0",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v2.6.0",
+      "points": null
+    },
+    {
+      "date": "2020-12-17",
+      "type": "release",
+      "title": "v2.7.0",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v2.7.0",
+      "points": null
+    },
+    {
+      "date": "2021-01-29",
+      "type": "release",
+      "title": "v2.8.0",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v2.8.0",
+      "points": null
+    },
+    {
+      "date": "2021-02-20",
+      "type": "release",
+      "title": "v2.9.0",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v2.9.0",
+      "points": null
+    },
+    {
+      "date": "2021-03-08",
+      "type": "release",
+      "title": "v2.9.1",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v2.9.1",
+      "points": null
+    },
+    {
+      "date": "2021-03-09",
+      "type": "release",
+      "title": "v2.9.2",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v2.9.2",
+      "points": null
+    },
+    {
+      "date": "2021-03-25",
+      "type": "release",
+      "title": "v2.9.3",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v2.9.3",
+      "points": null
+    },
+    {
+      "date": "2021-04-11",
+      "type": "release",
+      "title": "v2.10.0",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v2.10.0",
+      "points": null
+    },
+    {
+      "date": "2021-04-19",
+      "type": "release",
+      "title": "v2.10.1",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v2.10.1",
+      "points": null
+    },
+    {
+      "date": "2021-06-14",
+      "type": "release",
+      "title": "v2.10.2",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v2.10.2",
+      "points": null
+    },
+    {
+      "date": "2022-10-11",
+      "type": "release",
+      "title": "v2.11.0",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v2.11.0",
+      "points": null
+    },
+    {
+      "date": "2022-10-12",
+      "type": "release",
+      "title": "v2.11.1",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v2.11.1",
+      "points": null
+    },
+    {
+      "date": "2024-01-25",
+      "type": "release",
+      "title": "v3.0.0",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-02-15",
+      "type": "release",
+      "title": "v3.0.1",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v3.0.1",
+      "points": null
+    },
+    {
+      "date": "2024-03-02",
+      "type": "release",
+      "title": "v3.0.2",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v3.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-12",
+      "type": "release",
+      "title": "v4.0.0",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v4.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-12",
+      "type": "release",
+      "title": "v3.0.3",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v3.0.3",
+      "points": null
+    },
+    {
+      "date": "2026-03-17",
+      "type": "release",
+      "title": "v4.0.1",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v4.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-02",
+      "type": "release",
+      "title": "v4.0.2",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v4.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "v4.0.3",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v4.0.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "v3.0.4",
+      "url": "https://github.com/dorny/paths-filter/releases/tag/v3.0.4",
+      "points": null
+    }
+  ]
 }

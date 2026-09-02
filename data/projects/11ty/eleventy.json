@@ -125,9 +125,60 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 19871,
-      "forks": 588,
+      "stars": 19872,
+      "forks": 587,
       "openIssues": 185
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-05-13",
+      "type": "release",
+      "title": "Eleventy v3.1.0: 11% faster and 22% smaller!",
+      "url": "https://github.com/11ty/buildawesome/releases/tag/v3.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-03",
+      "type": "release",
+      "title": "Eleventy v3.1.1 (we fixed some things)",
+      "url": "https://github.com/11ty/buildawesome/releases/tag/v3.1.1",
+      "points": null
+    },
+    {
+      "date": "2025-06-24",
+      "type": "release",
+      "title": "Eleventy v3.1.2 (we fixed 15 more things)",
+      "url": "https://github.com/11ty/buildawesome/releases/tag/v3.1.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-18",
+      "type": "release",
+      "title": "Eleventy v3.1.5: Dependable Dependencies",
+      "url": "https://github.com/11ty/buildawesome/releases/tag/v3.1.5",
+      "points": null
+    },
+    {
+      "date": "2026-03-18",
+      "type": "release",
+      "title": "Eleventy v3.1.4",
+      "url": "https://github.com/11ty/buildawesome/releases/tag/v3.1.4",
+      "points": null
+    },
+    {
+      "date": "2026-03-18",
+      "type": "release",
+      "title": "Eleventy v3.1.3",
+      "url": "https://github.com/11ty/buildawesome/releases/tag/v3.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-02",
+      "type": "release",
+      "title": "Eleventy v3.1.6: Everybody wants to do Maintenance",
+      "url": "https://github.com/11ty/buildawesome/releases/tag/v3.1.6",
+      "points": null
     }
   ]
 }

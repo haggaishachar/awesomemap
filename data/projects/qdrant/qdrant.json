@@ -115,9 +115,221 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 34338,
-      "forks": 2630,
+      "stars": 34346,
+      "forks": 2631,
       "openIssues": 695
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-11-12",
+      "type": "release",
+      "title": "v1.12.3",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.12.3",
+      "points": null
+    },
+    {
+      "date": "2024-11-18",
+      "type": "release",
+      "title": "v1.12.4",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.12.4",
+      "points": null
+    },
+    {
+      "date": "2024-12-09",
+      "type": "release",
+      "title": "v1.12.5",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.12.5",
+      "points": null
+    },
+    {
+      "date": "2025-01-08",
+      "type": "release",
+      "title": "v1.12.6",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.12.6",
+      "points": null
+    },
+    {
+      "date": "2025-01-17",
+      "type": "release",
+      "title": "v1.13.0",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.13.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-23",
+      "type": "release",
+      "title": "v1.13.1",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.13.1",
+      "points": null
+    },
+    {
+      "date": "2025-01-28",
+      "type": "release",
+      "title": "v1.13.2",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.13.2",
+      "points": null
+    },
+    {
+      "date": "2025-02-11",
+      "type": "release",
+      "title": "v1.13.3",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.13.3",
+      "points": null
+    },
+    {
+      "date": "2025-02-17",
+      "type": "release",
+      "title": "v1.13.4",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.13.4",
+      "points": null
+    },
+    {
+      "date": "2025-03-21",
+      "type": "release",
+      "title": "v1.13.5",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.13.5",
+      "points": null
+    },
+    {
+      "date": "2025-03-31",
+      "type": "release",
+      "title": "v1.13.6",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.13.6",
+      "points": null
+    },
+    {
+      "date": "2025-04-22",
+      "type": "release",
+      "title": "v1.14.0",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.14.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-23",
+      "type": "release",
+      "title": "v1.14.1",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.14.1",
+      "points": null
+    },
+    {
+      "date": "2025-07-18",
+      "type": "release",
+      "title": "v1.15.0",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.15.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-24",
+      "type": "release",
+      "title": "v1.15.1",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.15.1",
+      "points": null
+    },
+    {
+      "date": "2025-08-11",
+      "type": "release",
+      "title": "v1.15.2",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.15.2",
+      "points": null
+    },
+    {
+      "date": "2025-08-14",
+      "type": "release",
+      "title": "v1.15.3",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.15.3",
+      "points": null
+    },
+    {
+      "date": "2025-08-27",
+      "type": "release",
+      "title": "v1.15.4",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.15.4",
+      "points": null
+    },
+    {
+      "date": "2025-09-30",
+      "type": "release",
+      "title": "v1.15.5",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.15.5",
+      "points": null
+    },
+    {
+      "date": "2025-11-17",
+      "type": "release",
+      "title": "v1.16.0",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.16.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-25",
+      "type": "release",
+      "title": "v1.16.1",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.16.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-04",
+      "type": "release",
+      "title": "v1.16.2",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.16.2",
+      "points": null
+    },
+    {
+      "date": "2025-12-19",
+      "type": "release",
+      "title": "v1.16.3",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.16.3",
+      "points": null
+    },
+    {
+      "date": "2026-02-20",
+      "type": "release",
+      "title": "v1.17.0",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.17.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-27",
+      "type": "release",
+      "title": "v1.17.1",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.17.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-11",
+      "type": "release",
+      "title": "v1.18.0",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.18.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-22",
+      "type": "release",
+      "title": "v1.18.1",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.18.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "v1.18.2",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.18.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "v1.18.3",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.18.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "v1.19.0",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.19.0",
+      "points": null
     }
   ]
 }

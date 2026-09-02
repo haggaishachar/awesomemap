@@ -66,9 +66,172 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 18925,
-      "forks": 8465,
+      "stars": 18931,
+      "forks": 8467,
       "openIssues": 1680
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-02-28",
+      "type": "release",
+      "title": "ESP-IDF Release v5.2.5",
+      "url": "https://github.com/espressif/esp-idf/releases/tag/v5.2.5",
+      "points": null
+    },
+    {
+      "date": "2025-03-31",
+      "type": "release",
+      "title": "ESP-IDF Release v5.4.1",
+      "url": "https://github.com/espressif/esp-idf/releases/tag/v5.4.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-10",
+      "type": "release",
+      "title": "ESP-IDF Release v5.3.3",
+      "url": "https://github.com/espressif/esp-idf/releases/tag/v5.3.3",
+      "points": null
+    },
+    {
+      "date": "2025-05-22",
+      "type": "release",
+      "title": "ESP-IDF Release v5.0.9",
+      "url": "https://github.com/espressif/esp-idf/releases/tag/v5.0.9",
+      "points": null
+    },
+    {
+      "date": "2025-06-27",
+      "type": "release",
+      "title": "ESP-IDF Release v5.4.2",
+      "url": "https://github.com/espressif/esp-idf/releases/tag/v5.4.2",
+      "points": null
+    },
+    {
+      "date": "2025-07-21",
+      "type": "release",
+      "title": "ESP-IDF Release v5.5",
+      "url": "https://github.com/espressif/esp-idf/releases/tag/v5.5",
+      "points": null
+    },
+    {
+      "date": "2025-08-19",
+      "type": "release",
+      "title": "ESP-IDF Release v5.3.4",
+      "url": "https://github.com/espressif/esp-idf/releases/tag/v5.3.4",
+      "points": null
+    },
+    {
+      "date": "2025-09-01",
+      "type": "release",
+      "title": "ESP-IDF Release v5.5.1",
+      "url": "https://github.com/espressif/esp-idf/releases/tag/v5.5.1",
+      "points": null
+    },
+    {
+      "date": "2025-10-01",
+      "type": "release",
+      "title": "ESP-IDF Release v5.2.6",
+      "url": "https://github.com/espressif/esp-idf/releases/tag/v5.2.6",
+      "points": null
+    },
+    {
+      "date": "2025-10-23",
+      "type": "release",
+      "title": "ESP-IDF Release v5.4.3",
+      "url": "https://github.com/espressif/esp-idf/releases/tag/v5.4.3",
+      "points": null
+    },
+    {
+      "date": "2025-12-25",
+      "type": "release",
+      "title": "ESP-IDF Release v5.5.2",
+      "url": "https://github.com/espressif/esp-idf/releases/tag/v5.5.2",
+      "points": null
+    },
+    {
+      "date": "2026-01-27",
+      "type": "release",
+      "title": "ESP-IDF Release v5.1.7",
+      "url": "https://github.com/espressif/esp-idf/releases/tag/v5.1.7",
+      "points": null
+    },
+    {
+      "date": "2026-02-18",
+      "type": "release",
+      "title": "ESP-IDF Release v5.5.3",
+      "url": "https://github.com/espressif/esp-idf/releases/tag/v5.5.3",
+      "points": null
+    },
+    {
+      "date": "2026-03-20",
+      "type": "release",
+      "title": "ESP-IDF Release v6.0",
+      "url": "https://github.com/espressif/esp-idf/releases/tag/v6.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-24",
+      "type": "release",
+      "title": "ESP-IDF Release v5.3.5",
+      "url": "https://github.com/espressif/esp-idf/releases/tag/v5.3.5",
+      "points": null
+    },
+    {
+      "date": "2026-03-27",
+      "type": "release",
+      "title": "ESP-IDF Release v5.5.4",
+      "url": "https://github.com/espressif/esp-idf/releases/tag/v5.5.4",
+      "points": null
+    },
+    {
+      "date": "2026-04-17",
+      "type": "release",
+      "title": "ESP-IDF Release v5.4.4",
+      "url": "https://github.com/espressif/esp-idf/releases/tag/v5.4.4",
+      "points": null
+    },
+    {
+      "date": "2026-04-27",
+      "type": "release",
+      "title": "ESP-IDF Release v6.0.1",
+      "url": "https://github.com/espressif/esp-idf/releases/tag/v6.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-19",
+      "type": "release",
+      "title": "ESP-IDF Release v5.2.7",
+      "url": "https://github.com/espressif/esp-idf/releases/tag/v5.2.7",
+      "points": null
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "ESP-IDF Release v6.0.2",
+      "url": "https://github.com/espressif/esp-idf/releases/tag/v6.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "ESP-IDF Release v5.5.5",
+      "url": "https://github.com/espressif/esp-idf/releases/tag/v5.5.5",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "ESP-IDF Release v6.1",
+      "url": "https://github.com/espressif/esp-idf/releases/tag/v6.1",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "ESP-IDF Release v6.0.3",
+      "url": "https://github.com/espressif/esp-idf/releases/tag/v6.0.3",
+      "points": null
     }
   ]
 }

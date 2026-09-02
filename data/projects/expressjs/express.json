@@ -123,9 +123,186 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 69417,
-      "forks": 24910,
-      "openIssues": 236
+      "stars": 69418,
+      "forks": 24918,
+      "openIssues": 235
+    }
+  ],
+  "events": [
+    {
+      "date": "2018-03-12",
+      "type": "release",
+      "title": "4.16.3",
+      "url": "https://github.com/expressjs/express/releases/tag/4.16.3",
+      "points": null
+    },
+    {
+      "date": "2018-10-11",
+      "type": "release",
+      "title": "4.16.4",
+      "url": "https://github.com/expressjs/express/releases/tag/4.16.4",
+      "points": null
+    },
+    {
+      "date": "2019-05-17",
+      "type": "release",
+      "title": "4.17.0",
+      "url": "https://github.com/expressjs/express/releases/tag/4.17.0",
+      "points": null
+    },
+    {
+      "date": "2019-05-26",
+      "type": "release",
+      "title": "4.17.1",
+      "url": "https://github.com/expressjs/express/releases/tag/4.17.1",
+      "points": null
+    },
+    {
+      "date": "2021-12-17",
+      "type": "release",
+      "title": "4.17.2",
+      "url": "https://github.com/expressjs/express/releases/tag/4.17.2",
+      "points": null
+    },
+    {
+      "date": "2022-02-17",
+      "type": "release",
+      "title": "4.17.3",
+      "url": "https://github.com/expressjs/express/releases/tag/4.17.3",
+      "points": null
+    },
+    {
+      "date": "2022-04-25",
+      "type": "release",
+      "title": "4.18.0",
+      "url": "https://github.com/expressjs/express/releases/tag/4.18.0",
+      "points": null
+    },
+    {
+      "date": "2022-04-29",
+      "type": "release",
+      "title": "4.18.1",
+      "url": "https://github.com/expressjs/express/releases/tag/4.18.1",
+      "points": null
+    },
+    {
+      "date": "2022-10-08",
+      "type": "release",
+      "title": "4.18.2",
+      "url": "https://github.com/expressjs/express/releases/tag/4.18.2",
+      "points": null
+    },
+    {
+      "date": "2024-02-29",
+      "type": "release",
+      "title": "4.18.3",
+      "url": "https://github.com/expressjs/express/releases/tag/4.18.3",
+      "points": null
+    },
+    {
+      "date": "2024-03-20",
+      "type": "release",
+      "title": "4.19.0",
+      "url": "https://github.com/expressjs/express/releases/tag/4.19.0",
+      "points": null
+    },
+    {
+      "date": "2024-03-25",
+      "type": "release",
+      "title": "4.19.2",
+      "url": "https://github.com/expressjs/express/releases/tag/4.19.2",
+      "points": null
+    },
+    {
+      "date": "2024-03-25",
+      "type": "release",
+      "title": "4.19.1",
+      "url": "https://github.com/expressjs/express/releases/tag/4.19.1",
+      "points": null
+    },
+    {
+      "date": "2024-09-10",
+      "type": "release",
+      "title": "5.0.0",
+      "url": "https://github.com/expressjs/express/releases/tag/v5.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-10",
+      "type": "release",
+      "title": "4.20.0",
+      "url": "https://github.com/expressjs/express/releases/tag/4.20.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-11",
+      "type": "release",
+      "title": "4.21.0",
+      "url": "https://github.com/expressjs/express/releases/tag/4.21.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-08",
+      "type": "release",
+      "title": "5.0.1",
+      "url": "https://github.com/expressjs/express/releases/tag/v5.0.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-08",
+      "type": "release",
+      "title": "4.21.1",
+      "url": "https://github.com/expressjs/express/releases/tag/4.21.1",
+      "points": null
+    },
+    {
+      "date": "2024-12-05",
+      "type": "release",
+      "title": "4.21.2",
+      "url": "https://github.com/expressjs/express/releases/tag/4.21.2",
+      "points": null
+    },
+    {
+      "date": "2025-03-31",
+      "type": "release",
+      "title": "v5.1.0",
+      "url": "https://github.com/expressjs/express/releases/tag/v5.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-01",
+      "type": "release",
+      "title": "v5.2.1",
+      "url": "https://github.com/expressjs/express/releases/tag/v5.2.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-01",
+      "type": "release",
+      "title": "v5.2.0",
+      "url": "https://github.com/expressjs/express/releases/tag/v5.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-01",
+      "type": "release",
+      "title": "v4.22.1",
+      "url": "https://github.com/expressjs/express/releases/tag/v4.22.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-01",
+      "type": "release",
+      "title": "4.22.0",
+      "url": "https://github.com/expressjs/express/releases/tag/4.22.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-11",
+      "type": "release",
+      "title": "v4.22.2",
+      "url": "https://github.com/expressjs/express/releases/tag/v4.22.2",
+      "points": null
     }
   ]
 }

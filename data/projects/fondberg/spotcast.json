@@ -4,9 +4,151 @@
   "link": "https://github.com/fondberg/spotcast",
   "name": "spotcast",
   "desc": "Home assistant custom component to start Spotify playback on an idle chromecast device as well as control spotify connect devices",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "spotcast",
+  "githubDescription": "Home assistant custom component to start Spotify playback on an idle chromecast device as well as control spotify connect devices",
   "tags": [],
-  "history": [],
-  "weight": 814
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 814,
+      "forks": 111,
+      "openIssues": 47
+    }
+  ],
+  "weight": 814,
+  "events": [
+    {
+      "date": "2021-12-17",
+      "type": "release",
+      "title": "v3.6.23",
+      "url": "https://github.com/fondberg/spotcast/releases/tag/v3.6.23",
+      "points": null
+    },
+    {
+      "date": "2022-01-17",
+      "type": "release",
+      "title": "v.3.6.24",
+      "url": "https://github.com/fondberg/spotcast/releases/tag/v3.6.24",
+      "points": null
+    },
+    {
+      "date": "2022-02-11",
+      "type": "release",
+      "title": "v3.6.25",
+      "url": "https://github.com/fondberg/spotcast/releases/tag/v3.6.25",
+      "points": null
+    },
+    {
+      "date": "2022-02-28",
+      "type": "release",
+      "title": "v3.6.26",
+      "url": "https://github.com/fondberg/spotcast/releases/tag/v3.6.26",
+      "points": null
+    },
+    {
+      "date": "2022-03-03",
+      "type": "release",
+      "title": "v3.6.27",
+      "url": "https://github.com/fondberg/spotcast/releases/tag/v3.6.27",
+      "points": null
+    },
+    {
+      "date": "2022-04-12",
+      "type": "release",
+      "title": "v3.6.28",
+      "url": "https://github.com/fondberg/spotcast/releases/tag/v3.6.28",
+      "points": null
+    },
+    {
+      "date": "2022-04-17",
+      "type": "release",
+      "title": "v3.6.29",
+      "url": "https://github.com/fondberg/spotcast/releases/tag/v3.6.29",
+      "points": null
+    },
+    {
+      "date": "2022-09-05",
+      "type": "release",
+      "title": "v3.6.30",
+      "url": "https://github.com/fondberg/spotcast/releases/tag/v3.6.30",
+      "points": null
+    },
+    {
+      "date": "2023-01-21",
+      "type": "release",
+      "title": "v3.6.31",
+      "url": "https://github.com/fondberg/spotcast/releases/tag/v3.6.31",
+      "points": null
+    },
+    {
+      "date": "2023-02-03",
+      "type": "release",
+      "title": "v3.7.0",
+      "url": "https://github.com/fondberg/spotcast/releases/tag/v3.7.0",
+      "points": null
+    },
+    {
+      "date": "2023-09-09",
+      "type": "release",
+      "title": "v3.7.1",
+      "url": "https://github.com/fondberg/spotcast/releases/tag/v3.7.1",
+      "points": null
+    },
+    {
+      "date": "2024-03-01",
+      "type": "release",
+      "title": "v3.7.2",
+      "url": "https://github.com/fondberg/spotcast/releases/tag/v3.7.2",
+      "points": null
+    },
+    {
+      "date": "2024-03-10",
+      "type": "release",
+      "title": "v3.7.3",
+      "url": "https://github.com/fondberg/spotcast/releases/tag/v3.7.3",
+      "points": null
+    },
+    {
+      "date": "2024-08-08",
+      "type": "release",
+      "title": "v3.8.0",
+      "url": "https://github.com/fondberg/spotcast/releases/tag/v3.8.0",
+      "points": null
+    },
+    {
+      "date": "2024-08-21",
+      "type": "release",
+      "title": "v3.8.1",
+      "url": "https://github.com/fondberg/spotcast/releases/tag/v3.8.1",
+      "points": null
+    },
+    {
+      "date": "2024-09-28",
+      "type": "release",
+      "title": "v3.8.2",
+      "url": "https://github.com/fondberg/spotcast/releases/tag/v3.8.2",
+      "points": null
+    },
+    {
+      "date": "2024-10-17",
+      "type": "release",
+      "title": "v3.9.0",
+      "url": "https://github.com/fondberg/spotcast/releases/tag/v3.9.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-07",
+      "type": "release",
+      "title": "v4.0.0",
+      "url": "https://github.com/fondberg/spotcast/releases/tag/v4.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-20",
+      "type": "release",
+      "title": "v4.0.1",
+      "url": "https://github.com/fondberg/spotcast/releases/tag/v4.0.1",
+      "points": null
+    }
+  ]
 }

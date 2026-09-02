@@ -126,9 +126,200 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 58636,
-      "forks": 2188,
+      "stars": 58635,
+      "forks": 2189,
       "openIssues": 5
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-10-31",
+      "type": "release",
+      "title": "v4.4.5",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v4.4.5",
+      "points": null
+    },
+    {
+      "date": "2023-11-03",
+      "type": "release",
+      "title": "v4.4.6",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v4.4.6",
+      "points": null
+    },
+    {
+      "date": "2023-11-28",
+      "type": "release",
+      "title": "v4.4.7",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v4.4.7",
+      "points": null
+    },
+    {
+      "date": "2024-01-20",
+      "type": "release",
+      "title": "v4.5.0",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v4.5.0",
+      "points": null
+    },
+    {
+      "date": "2024-02-17",
+      "type": "release",
+      "title": "v4.5.1",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v4.5.1",
+      "points": null
+    },
+    {
+      "date": "2024-03-02",
+      "type": "release",
+      "title": "v4.5.2",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v4.5.2",
+      "points": null
+    },
+    {
+      "date": "2024-06-26",
+      "type": "release",
+      "title": "v4.5.4",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v4.5.4",
+      "points": null
+    },
+    {
+      "date": "2024-06-26",
+      "type": "release",
+      "title": "v4.5.3",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v4.5.3",
+      "points": null
+    },
+    {
+      "date": "2024-08-15",
+      "type": "release",
+      "title": "v4.5.5",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v4.5.5",
+      "points": null
+    },
+    {
+      "date": "2024-10-14",
+      "type": "release",
+      "title": "v5.0.0",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v5.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-30",
+      "type": "release",
+      "title": "v5.0.1",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v5.0.1",
+      "points": null
+    },
+    {
+      "date": "2024-12-04",
+      "type": "release",
+      "title": "v5.0.2",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v5.0.2",
+      "points": null
+    },
+    {
+      "date": "2025-01-07",
+      "type": "release",
+      "title": "v5.0.3",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v5.0.3",
+      "points": null
+    },
+    {
+      "date": "2025-01-07",
+      "type": "release",
+      "title": "v4.5.6",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v4.5.6",
+      "points": null
+    },
+    {
+      "date": "2025-05-01",
+      "type": "release",
+      "title": "v5.0.4",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v5.0.4",
+      "points": null
+    },
+    {
+      "date": "2025-05-15",
+      "type": "release",
+      "title": "4.5.7",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/4.5.7",
+      "points": null
+    },
+    {
+      "date": "2025-05-21",
+      "type": "release",
+      "title": "v5.0.5",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v5.0.5",
+      "points": null
+    },
+    {
+      "date": "2025-06-26",
+      "type": "release",
+      "title": "v5.0.6",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v5.0.6",
+      "points": null
+    },
+    {
+      "date": "2025-07-31",
+      "type": "release",
+      "title": "v5.0.7",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v5.0.7",
+      "points": null
+    },
+    {
+      "date": "2025-08-19",
+      "type": "release",
+      "title": "v5.0.8",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v5.0.8",
+      "points": null
+    },
+    {
+      "date": "2025-11-30",
+      "type": "release",
+      "title": "v5.0.9",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v5.0.9",
+      "points": null
+    },
+    {
+      "date": "2026-01-12",
+      "type": "release",
+      "title": "v5.0.10",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v5.0.10",
+      "points": null
+    },
+    {
+      "date": "2026-02-01",
+      "type": "release",
+      "title": "v5.0.11",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v5.0.11",
+      "points": null
+    },
+    {
+      "date": "2026-03-16",
+      "type": "release",
+      "title": "v5.0.12",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v5.0.12",
+      "points": null
+    },
+    {
+      "date": "2026-05-05",
+      "type": "release",
+      "title": "v5.0.13",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v5.0.13",
+      "points": null
+    },
+    {
+      "date": "2026-05-28",
+      "type": "release",
+      "title": "v5.0.14",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v5.0.14",
+      "points": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "v5.0.15",
+      "url": "https://github.com/pmndrs/zustand/releases/tag/v5.0.15",
+      "points": null
     }
   ]
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/web-infra-dev/modern.js",
   "name": "modern.js",
   "desc": "A progressive web framework based on React and Rsbuild.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "modern.js",
+  "githubDescription": "A progressive web framework based on React and Rsbuild.",
   "tags": [
     "boilerplate",
     "build-tool",
@@ -17,7 +17,226 @@
     "webpack",
     "website"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 5038,
+      "forks": 418,
+      "openIssues": 54
+    }
+  ],
   "weight": 5038,
-  "image": "https://avatars.githubusercontent.com/u/87694465?v=4"
+  "image": "https://avatars.githubusercontent.com/u/87694465?v=4",
+  "events": [
+    {
+      "date": "2026-02-04",
+      "type": "release",
+      "title": "v3.0.0",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-04",
+      "type": "release",
+      "title": "v2.70.5",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v2.70.5",
+      "points": null
+    },
+    {
+      "date": "2026-02-05",
+      "type": "release",
+      "title": "v3.0.1",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-05",
+      "type": "release",
+      "title": "v2.70.6",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v2.70.6",
+      "points": null
+    },
+    {
+      "date": "2026-02-11",
+      "type": "release",
+      "title": "v2.70.7",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v2.70.7",
+      "points": null
+    },
+    {
+      "date": "2026-02-12",
+      "type": "release",
+      "title": "v3.0.2",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-02-25",
+      "type": "release",
+      "title": "v3.0.3",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.0.3",
+      "points": null
+    },
+    {
+      "date": "2026-02-26",
+      "type": "release",
+      "title": "v2.70.8",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v2.70.8",
+      "points": null
+    },
+    {
+      "date": "2026-03-04",
+      "type": "release",
+      "title": "v3.0.4",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.0.4",
+      "points": null
+    },
+    {
+      "date": "2026-03-12",
+      "type": "release",
+      "title": "v3.0.5",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.0.5",
+      "points": null
+    },
+    {
+      "date": "2026-03-19",
+      "type": "release",
+      "title": "v3.1.0",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-26",
+      "type": "release",
+      "title": "v3.1.1",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-02",
+      "type": "release",
+      "title": "v3.1.2",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.1.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-09",
+      "type": "release",
+      "title": "v3.1.3",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-04-15",
+      "type": "release",
+      "title": "v3.1.4",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.1.4",
+      "points": null
+    },
+    {
+      "date": "2026-04-23",
+      "type": "release",
+      "title": "v3.1.5",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.1.5",
+      "points": null
+    },
+    {
+      "date": "2026-05-14",
+      "type": "release",
+      "title": "v3.2.0",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-14",
+      "type": "release",
+      "title": "v2.71.0",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v2.71.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-21",
+      "type": "release",
+      "title": "v3.2.1",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "v3.2.2",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.2.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-11",
+      "type": "release",
+      "title": "v3.3.0",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-18",
+      "type": "release",
+      "title": "v3.4.0",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-26",
+      "type": "release",
+      "title": "v3.5.0",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-06",
+      "type": "release",
+      "title": "v2.71.1",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v2.71.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "v3.6.0",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "v3.7.0",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.7.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "title": "v3.8.0",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "v3.8.1",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.8.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "v3.8.2",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.8.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "v3.8.3",
+      "url": "https://github.com/web-infra-dev/modern.js/releases/tag/v3.8.3",
+      "points": null
+    }
+  ]
 }

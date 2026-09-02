@@ -31,11 +31,69 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 36930,
-      "forks": 2439,
+      "stars": 36988,
+      "forks": 2448,
       "openIssues": 147
     }
   ],
   "weight": 36861,
-  "image": "https://avatars.githubusercontent.com/u/134046886?v=4"
+  "image": "https://avatars.githubusercontent.com/u/134046886?v=4",
+  "events": [
+    {
+      "date": "2023-07-30",
+      "type": "hn",
+      "title": "Show HN: Khoj – Chat offline with your second brain using Llama 2",
+      "url": "https://news.ycombinator.com/item?id=36933452",
+      "points": 565
+    },
+    {
+      "date": "2025-07-06",
+      "type": "release",
+      "title": "1.42.9",
+      "url": "https://github.com/khoj-ai/khoj/releases/tag/1.42.9",
+      "points": null
+    },
+    {
+      "date": "2025-07-15",
+      "type": "release",
+      "title": "1.42.10",
+      "url": "https://github.com/khoj-ai/khoj/releases/tag/1.42.10",
+      "points": null
+    },
+    {
+      "date": "2026-01-02",
+      "type": "release",
+      "title": "2.0.0-beta.24",
+      "url": "https://github.com/khoj-ai/khoj/releases/tag/2.0.0-beta.24",
+      "points": null
+    },
+    {
+      "date": "2026-02-22",
+      "type": "release",
+      "title": "2.0.0-beta.25",
+      "url": "https://github.com/khoj-ai/khoj/releases/tag/2.0.0-beta.25",
+      "points": null
+    },
+    {
+      "date": "2026-03-25",
+      "type": "release",
+      "title": "2.0.0-beta.27",
+      "url": "https://github.com/khoj-ai/khoj/releases/tag/2.0.0-beta.27",
+      "points": null
+    },
+    {
+      "date": "2026-03-25",
+      "type": "release",
+      "title": "2.0.0-beta.26",
+      "url": "https://github.com/khoj-ai/khoj/releases/tag/2.0.0-beta.26",
+      "points": null
+    },
+    {
+      "date": "2026-03-26",
+      "type": "release",
+      "title": "2.0.0-beta.28",
+      "url": "https://github.com/khoj-ai/khoj/releases/tag/2.0.0-beta.28",
+      "points": null
+    }
+  ]
 }

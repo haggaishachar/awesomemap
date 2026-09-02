@@ -31,11 +31,223 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 16633,
+      "stars": 16636,
       "forks": 3826,
-      "openIssues": 597
+      "openIssues": 599
     }
   ],
   "weight": 16631,
-  "image": "https://avatars.githubusercontent.com/u/105363648?v=4"
+  "image": "https://avatars.githubusercontent.com/u/105363648?v=4",
+  "events": [
+    {
+      "date": "2025-10-29",
+      "type": "release",
+      "title": "v2.48.1",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.48.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-06",
+      "type": "release",
+      "title": "v2.49.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.49.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-26",
+      "type": "release",
+      "title": "v2.50.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.50.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-01",
+      "type": "release",
+      "title": "v2.51.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.51.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-16",
+      "type": "release",
+      "title": "v2.52.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.52.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-18",
+      "type": "release",
+      "title": "v2.53.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.53.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-24",
+      "type": "release",
+      "title": "v2.54.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.54.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-19",
+      "type": "release",
+      "title": "v2.55.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.55.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-02",
+      "type": "release",
+      "title": "v2.56.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.56.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-03",
+      "type": "release",
+      "title": "v2.56.1",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.56.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-17",
+      "type": "release",
+      "title": "v2.57.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.57.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-23",
+      "type": "release",
+      "title": "v2.58.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.58.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-06",
+      "type": "release",
+      "title": "v2.59.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.59.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-09",
+      "type": "release",
+      "title": "v2.59.1",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.59.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-17",
+      "type": "release",
+      "title": "v2.60.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.60.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-20",
+      "type": "release",
+      "title": "v2.61.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.61.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-02",
+      "type": "release",
+      "title": "v2.62.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.62.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-23",
+      "type": "release",
+      "title": "v2.63.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.63.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-29",
+      "type": "release",
+      "title": "v2.64.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.64.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-19",
+      "type": "release",
+      "title": "v2.65.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.65.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-26",
+      "type": "release",
+      "title": "v2.66.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.66.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-02",
+      "type": "release",
+      "title": "v2.67.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.67.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v2.68.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.68.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-22",
+      "type": "release",
+      "title": "v2.69.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.69.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "v2.70.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.70.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-22",
+      "type": "release",
+      "title": "v2.71.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.71.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "v2.72.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.72.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "v2.73.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.73.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v2.74.0",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.74.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "v2.74.1",
+      "url": "https://github.com/cvat-ai/cvat/releases/tag/v2.74.1",
+      "points": null
+    }
+  ]
 }

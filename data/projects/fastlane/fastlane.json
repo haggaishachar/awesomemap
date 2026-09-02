@@ -131,7 +131,219 @@
       "date": "2026-09-02",
       "stars": 42046,
       "forks": 6025,
-      "openIssues": 663
+      "openIssues": 662
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-01-04",
+      "type": "release",
+      "title": "2.219.0 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.219.0",
+      "points": null
+    },
+    {
+      "date": "2024-04-04",
+      "type": "release",
+      "title": "2.220.0 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.220.0",
+      "points": null
+    },
+    {
+      "date": "2024-06-18",
+      "type": "release",
+      "title": "2.221.0 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.221.0",
+      "points": null
+    },
+    {
+      "date": "2024-06-19",
+      "type": "release",
+      "title": "2.221.1 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.221.1",
+      "points": null
+    },
+    {
+      "date": "2024-07-26",
+      "type": "release",
+      "title": "2.222.0 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.222.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-26",
+      "type": "release",
+      "title": "2.223.0 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.223.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-27",
+      "type": "release",
+      "title": "2.223.1 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.223.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-03",
+      "type": "release",
+      "title": "2.224.0 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.224.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-21",
+      "type": "release",
+      "title": "2.225.0 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.225.0",
+      "points": null
+    },
+    {
+      "date": "2024-12-10",
+      "type": "release",
+      "title": "2.226.0 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.226.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-13",
+      "type": "release",
+      "title": "2.227.0 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.227.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-09",
+      "type": "release",
+      "title": "2.227.1 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.227.1",
+      "points": null
+    },
+    {
+      "date": "2025-05-05",
+      "type": "release",
+      "title": "2.227.2 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.227.2",
+      "points": null
+    },
+    {
+      "date": "2025-06-10",
+      "type": "release",
+      "title": "2.228.0 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.228.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-21",
+      "type": "release",
+      "title": "2.229.0 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.229.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-24",
+      "type": "release",
+      "title": "2.229.1 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.229.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-18",
+      "type": "release",
+      "title": "2.230.0 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.230.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-16",
+      "type": "release",
+      "title": "2.231.0 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.231.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-20",
+      "type": "release",
+      "title": "2.231.1 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.231.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-06",
+      "type": "release",
+      "title": "2.232.0 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.232.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-10",
+      "type": "release",
+      "title": "2.232.1 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.232.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-27",
+      "type": "release",
+      "title": "2.232.2 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.232.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-19",
+      "type": "release",
+      "title": "2.233.0 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.233.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-29",
+      "type": "release",
+      "title": "2.233.1 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.233.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-10",
+      "type": "release",
+      "title": "2.234.0 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.234.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-26",
+      "type": "release",
+      "title": "2.235.0 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.235.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-08",
+      "type": "release",
+      "title": "2.236.0 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.236.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-11",
+      "type": "release",
+      "title": "2.236.1 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.236.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-05",
+      "type": "release",
+      "title": "2.237.0 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.237.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "2.238.0 Improvements",
+      "url": "https://github.com/fastlane/fastlane/releases/tag/2.238.0",
+      "points": null
     }
   ]
 }

@@ -87,9 +87,95 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 90981,
-      "forks": 10428,
-      "openIssues": 1780
+      "stars": 90982,
+      "forks": 10431,
+      "openIssues": 1790
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "title": "v10.5.0",
+      "url": "https://github.com/storybookjs/storybook/releases/tag/v10.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "v10.5.2",
+      "url": "https://github.com/storybookjs/storybook/releases/tag/v10.5.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "v10.5.1",
+      "url": "https://github.com/storybookjs/storybook/releases/tag/v10.5.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-20",
+      "type": "release",
+      "title": "v10.5.3",
+      "url": "https://github.com/storybookjs/storybook/releases/tag/v10.5.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "v10.5.4",
+      "url": "https://github.com/storybookjs/storybook/releases/tag/v10.5.4",
+      "points": null
+    },
+    {
+      "date": "2026-07-27",
+      "type": "release",
+      "title": "v10.5.5",
+      "url": "https://github.com/storybookjs/storybook/releases/tag/v10.5.5",
+      "points": null
+    },
+    {
+      "date": "2026-08-03",
+      "type": "release",
+      "title": "v10.5.6",
+      "url": "https://github.com/storybookjs/storybook/releases/tag/v10.5.6",
+      "points": null
+    },
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "title": "v10.5.7",
+      "url": "https://github.com/storybookjs/storybook/releases/tag/v10.5.7",
+      "points": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "v10.5.8",
+      "url": "https://github.com/storybookjs/storybook/releases/tag/v10.5.8",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "v10.5.9",
+      "url": "https://github.com/storybookjs/storybook/releases/tag/v10.5.9",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "v10.5.10",
+      "url": "https://github.com/storybookjs/storybook/releases/tag/v10.5.10",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "v10.6.0",
+      "url": "https://github.com/storybookjs/storybook/releases/tag/v10.6.0",
+      "points": null
     }
   ]
 }

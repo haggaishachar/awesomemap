@@ -52,9 +52,18 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 82213,
+      "stars": 82228,
       "forks": 9568,
       "openIssues": 91
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-12-01",
+      "type": "hn",
+      "title": "Large Language Model Course",
+      "url": "https://news.ycombinator.com/item?id=38485048",
+      "points": 178
     }
   ]
 }

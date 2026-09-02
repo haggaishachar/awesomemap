@@ -59,9 +59,221 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 26181,
+      "stars": 26183,
       "forks": 4642,
       "openIssues": 37
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-09-17",
+      "type": "release",
+      "title": "v0.21.6",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.21.6",
+      "points": null
+    },
+    {
+      "date": "2023-09-22",
+      "type": "release",
+      "title": "v0.21.7",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.21.7",
+      "points": null
+    },
+    {
+      "date": "2023-12-20",
+      "type": "release",
+      "title": "v0.21.8",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.21.8",
+      "points": null
+    },
+    {
+      "date": "2024-03-09",
+      "type": "release",
+      "title": "v0.21.9",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.21.9",
+      "points": null
+    },
+    {
+      "date": "2024-04-03",
+      "type": "release",
+      "title": "v0.21.10",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.21.10",
+      "points": null
+    },
+    {
+      "date": "2024-06-24",
+      "type": "release",
+      "title": "v0.21.11",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/0.21.11",
+      "points": null
+    },
+    {
+      "date": "2024-07-02",
+      "type": "release",
+      "title": "v0.21.12",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.21.12",
+      "points": null
+    },
+    {
+      "date": "2024-08-29",
+      "type": "release",
+      "title": "v0.21.13",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.21.13",
+      "points": null
+    },
+    {
+      "date": "2024-10-21",
+      "type": "release",
+      "title": "v0.22.1",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.22.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-31",
+      "type": "release",
+      "title": "v0.22.2",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.22.2",
+      "points": null
+    },
+    {
+      "date": "2024-11-05",
+      "type": "release",
+      "title": "v0.22.3",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.22.3",
+      "points": null
+    },
+    {
+      "date": "2024-12-05",
+      "type": "release",
+      "title": "v0.22.4",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.22.4",
+      "points": null
+    },
+    {
+      "date": "2025-01-15",
+      "type": "release",
+      "title": "v0.22.5",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.22.5",
+      "points": null
+    },
+    {
+      "date": "2025-03-17",
+      "type": "release",
+      "title": "v0.22.6",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.22.6",
+      "points": null
+    },
+    {
+      "date": "2025-04-29",
+      "type": "release",
+      "title": "v0.22.7",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.22.7",
+      "points": null
+    },
+    {
+      "date": "2025-06-12",
+      "type": "release",
+      "title": "v0.22.8",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.22.8",
+      "points": null
+    },
+    {
+      "date": "2025-07-02",
+      "type": "release",
+      "title": "v0.22.9",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.22.9",
+      "points": null
+    },
+    {
+      "date": "2025-07-15",
+      "type": "release",
+      "title": "v0.22.10",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.22.10",
+      "points": null
+    },
+    {
+      "date": "2025-07-16",
+      "type": "release",
+      "title": "v0.22.11",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.22.11",
+      "points": null
+    },
+    {
+      "date": "2025-07-24",
+      "type": "release",
+      "title": "v0.22.12",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.22.12",
+      "points": null
+    },
+    {
+      "date": "2025-09-16",
+      "type": "release",
+      "title": "v0.22.13",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.22.13",
+      "points": null
+    },
+    {
+      "date": "2025-11-20",
+      "type": "release",
+      "title": "v0.22.14",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.22.14",
+      "points": null
+    },
+    {
+      "date": "2026-04-10",
+      "type": "release",
+      "title": "v0.22.15",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.22.15",
+      "points": null
+    },
+    {
+      "date": "2026-04-28",
+      "type": "release",
+      "title": "v0.22.16",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.22.16",
+      "points": null
+    },
+    {
+      "date": "2026-05-26",
+      "type": "release",
+      "title": "v0.23.1",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.23.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-02",
+      "type": "release",
+      "title": "v0.23.2",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.23.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "v0.23.3",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.23.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "v0.23.4",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.23.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "v0.23.5",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.23.5",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v0.23.6",
+      "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.23.6",
+      "points": null
     }
   ]
 }

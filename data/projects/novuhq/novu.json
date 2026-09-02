@@ -82,9 +82,228 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 39710,
-      "forks": 4452,
+      "stars": 39713,
+      "forks": 4455,
       "openIssues": 105
+    }
+  ],
+  "events": [
+    {
+      "date": "2022-12-26",
+      "type": "hn",
+      "title": "Novu – Service for managing multi-channel notifications with a single API",
+      "url": "https://news.ycombinator.com/item?id=34136381",
+      "points": 160
+    },
+    {
+      "date": "2026-06-01",
+      "type": "release",
+      "title": "v3.17.0",
+      "url": "https://github.com/novuhq/novu/releases/tag/v3.17.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-01",
+      "type": "release",
+      "title": "@novu/react@v3.17.0",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/react%40v3.17.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-01",
+      "type": "release",
+      "title": "@novu/react-native@v3.17.0",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/react-native%40v3.17.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-01",
+      "type": "release",
+      "title": "@novu/nextjs@v3.17.0",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/nextjs%40v3.17.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "@novu/framework@v2.11.1",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/framework%40v2.11.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "v3.18.0",
+      "url": "https://github.com/novuhq/novu/releases/tag/v3.18.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "@novu/react@v3.18.0",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/react%40v3.18.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "@novu/react-native@v3.18.0",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/react-native%40v3.18.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "@novu/nextjs@v3.18.0",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/nextjs%40v3.18.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "@novu/js@v3.18.0",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/js%40v3.18.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-13",
+      "type": "release",
+      "title": "@novu/framework@v2.12.0",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/framework%40v2.12.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-15",
+      "type": "release",
+      "title": "@novu/framework@v2.12.1",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/framework%40v2.12.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "@novu/framework@v2.13.0",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/framework%40v2.13.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "@novu/react@v3.18.1",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/react%40v3.18.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "@novu/react-native@v3.18.1",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/react-native%40v3.18.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "@novu/nextjs@v3.18.1",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/nextjs%40v3.18.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "@novu/js@v3.18.1",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/js%40v3.18.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "@novu/react@v3.18.2",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/react%40v3.18.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "@novu/react-native@v3.18.2",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/react-native%40v3.18.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "@novu/nextjs@v3.18.2",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/nextjs%40v3.18.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "@novu/js@v3.18.2",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/js%40v3.18.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "v3.19.0",
+      "url": "https://github.com/novuhq/novu/releases/tag/v3.19.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "@novu/react@v3.19.0",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/react%40v3.19.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "@novu/react-native@v3.19.0",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/react-native%40v3.19.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "@novu/nextjs@v3.19.0",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/nextjs%40v3.19.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "@novu/js@v3.19.0",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/js%40v3.19.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "@novu/react@v3.19.1",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/react%40v3.19.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "@novu/nextjs@v3.19.1",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/nextjs%40v3.19.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "@novu/js@v3.19.1",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/js%40v3.19.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "@novu/framework@v2.13.1",
+      "url": "https://github.com/novuhq/novu/releases/tag/%40novu/framework%40v2.13.1",
+      "points": null
     }
   ]
 }

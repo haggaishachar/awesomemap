@@ -116,9 +116,221 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 5602,
-      "forks": 1971,
-      "openIssues": 250
+      "stars": 5603,
+      "forks": 1970,
+      "openIssues": 251
+    }
+  ],
+  "events": [
+    {
+      "date": "2022-12-06",
+      "type": "release",
+      "title": "Liquibase v4.18.0",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.18.0",
+      "points": null
+    },
+    {
+      "date": "2023-01-17",
+      "type": "release",
+      "title": "v4.19.0",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.19.0",
+      "points": null
+    },
+    {
+      "date": "2023-03-01",
+      "type": "release",
+      "title": "v4.19.1",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.19.1",
+      "points": null
+    },
+    {
+      "date": "2023-03-08",
+      "type": "release",
+      "title": "v4.20.0",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.20.0",
+      "points": null
+    },
+    {
+      "date": "2023-04-13",
+      "type": "release",
+      "title": "V4.21.0",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.21.0",
+      "points": null
+    },
+    {
+      "date": "2023-04-14",
+      "type": "release",
+      "title": "v4.21.1",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.21.1",
+      "points": null
+    },
+    {
+      "date": "2023-05-19",
+      "type": "release",
+      "title": "v4.22.0",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.22.0",
+      "points": null
+    },
+    {
+      "date": "2023-06-26",
+      "type": "release",
+      "title": "v4.23.0",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.23.0",
+      "points": null
+    },
+    {
+      "date": "2023-08-10",
+      "type": "release",
+      "title": "Liquibase v4.23.1",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.23.1",
+      "points": null
+    },
+    {
+      "date": "2023-09-11",
+      "type": "release",
+      "title": "Liquibase v4.23.2",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.23.2",
+      "points": null
+    },
+    {
+      "date": "2023-10-03",
+      "type": "release",
+      "title": "Liquibase v4.24.0",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.24.0",
+      "points": null
+    },
+    {
+      "date": "2023-11-13",
+      "type": "release",
+      "title": "Liquibase v4.25.0",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.25.0",
+      "points": null
+    },
+    {
+      "date": "2023-12-18",
+      "type": "release",
+      "title": "Liquibase v4.25.1",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.25.1",
+      "points": null
+    },
+    {
+      "date": "2024-02-07",
+      "type": "release",
+      "title": "Liquibase v4.26.0",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.26.0",
+      "points": null
+    },
+    {
+      "date": "2024-03-27",
+      "type": "release",
+      "title": "Liquibase v4.27.0",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.27.0",
+      "points": null
+    },
+    {
+      "date": "2024-05-21",
+      "type": "release",
+      "title": "v4.28.0",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.28.0",
+      "points": null
+    },
+    {
+      "date": "2024-07-25",
+      "type": "release",
+      "title": "v4.29.0",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.29.0",
+      "points": null
+    },
+    {
+      "date": "2024-07-31",
+      "type": "release",
+      "title": "Liquibase v4.29.1",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.29.1",
+      "points": null
+    },
+    {
+      "date": "2024-09-04",
+      "type": "release",
+      "title": "Liquibase v4.29.2",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.29.2",
+      "points": null
+    },
+    {
+      "date": "2025-01-06",
+      "type": "release",
+      "title": "Liquibase v4.30.0",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.30.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-16",
+      "type": "release",
+      "title": "Liquibase v4.31.0",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.31.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-17",
+      "type": "release",
+      "title": "v4.31.1",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.31.1",
+      "points": null
+    },
+    {
+      "date": "2025-05-21",
+      "type": "release",
+      "title": "Liquibase v4.32.0",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.32.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-09",
+      "type": "release",
+      "title": "Liquibase v4.33.0",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v4.33.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-30",
+      "type": "release",
+      "title": "Liquibase v5.0.0",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v5.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-03",
+      "type": "release",
+      "title": "Liquibase v5.0.1",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v5.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-10-16",
+      "type": "hn",
+      "title": "Liquibase continues to advertise itself as \"open source\" despite license switch",
+      "url": "https://news.ycombinator.com/item?id=45602676",
+      "points": 343
+    },
+    {
+      "date": "2026-03-05",
+      "type": "release",
+      "title": "Liquibase v5.0.2",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v5.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-15",
+      "type": "release",
+      "title": "Liquibase v5.0.3",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v5.0.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "Liquibase v5.0.4",
+      "url": "https://github.com/liquibase/liquibase/releases/tag/v5.0.4",
+      "points": null
     }
   ]
 }

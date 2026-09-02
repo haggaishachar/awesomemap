@@ -102,9 +102,193 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 12126,
-      "forks": 1769,
-      "openIssues": 207
+      "stars": 12128,
+      "forks": 1770,
+      "openIssues": 206
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-03-23",
+      "type": "release",
+      "title": "2.0.29",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_29",
+      "points": null
+    },
+    {
+      "date": "2024-05-05",
+      "type": "release",
+      "title": "2.0.30",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_30",
+      "points": null
+    },
+    {
+      "date": "2024-06-18",
+      "type": "release",
+      "title": "2.0.31",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_31",
+      "points": null
+    },
+    {
+      "date": "2024-07-29",
+      "type": "release",
+      "title": "1.4.53",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_1_4_53",
+      "points": null
+    },
+    {
+      "date": "2024-08-05",
+      "type": "release",
+      "title": "2.0.32",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_32",
+      "points": null
+    },
+    {
+      "date": "2024-09-03",
+      "type": "release",
+      "title": "2.0.33",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_33",
+      "points": null
+    },
+    {
+      "date": "2024-09-04",
+      "type": "release",
+      "title": "2.0.34",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_34",
+      "points": null
+    },
+    {
+      "date": "2024-09-05",
+      "type": "release",
+      "title": "1.4.54",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_1_4_54",
+      "points": null
+    },
+    {
+      "date": "2024-09-16",
+      "type": "release",
+      "title": "2.0.35",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_35",
+      "points": null
+    },
+    {
+      "date": "2024-10-15",
+      "type": "release",
+      "title": "2.0.36",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_36",
+      "points": null
+    },
+    {
+      "date": "2025-01-09",
+      "type": "release",
+      "title": "2.0.37",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_37",
+      "points": null
+    },
+    {
+      "date": "2025-02-06",
+      "type": "release",
+      "title": "2.0.38",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_38",
+      "points": null
+    },
+    {
+      "date": "2025-03-11",
+      "type": "release",
+      "title": "2.0.39",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_39",
+      "points": null
+    },
+    {
+      "date": "2025-03-27",
+      "type": "release",
+      "title": "2.0.40",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_40",
+      "points": null
+    },
+    {
+      "date": "2025-05-14",
+      "type": "release",
+      "title": "2.0.41",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_41",
+      "points": null
+    },
+    {
+      "date": "2025-07-29",
+      "type": "release",
+      "title": "2.0.42",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_42",
+      "points": null
+    },
+    {
+      "date": "2025-08-11",
+      "type": "release",
+      "title": "2.0.43",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_43",
+      "points": null
+    },
+    {
+      "date": "2025-10-10",
+      "type": "release",
+      "title": "2.0.44",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_44",
+      "points": null
+    },
+    {
+      "date": "2025-12-09",
+      "type": "release",
+      "title": "2.0.45",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_45",
+      "points": null
+    },
+    {
+      "date": "2026-01-21",
+      "type": "release",
+      "title": "2.0.46",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_46",
+      "points": null
+    },
+    {
+      "date": "2026-02-24",
+      "type": "release",
+      "title": "2.0.47",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_47",
+      "points": null
+    },
+    {
+      "date": "2026-03-02",
+      "type": "release",
+      "title": "2.0.48",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_48",
+      "points": null
+    },
+    {
+      "date": "2026-04-03",
+      "type": "release",
+      "title": "2.0.49",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_49",
+      "points": null
+    },
+    {
+      "date": "2026-05-24",
+      "type": "release",
+      "title": "2.0.50",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_50",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "2.0.51",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_51",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "2.0.52",
+      "url": "https://github.com/sqlalchemy/sqlalchemy/releases/tag/rel_2_0_52",
+      "points": null
     }
   ]
 }

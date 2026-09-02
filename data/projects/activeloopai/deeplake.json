@@ -66,5 +66,217 @@
       "forks": 724,
       "openIssues": 66
     }
+  ],
+  "events": [
+    {
+      "date": "2025-02-24",
+      "type": "release",
+      "title": "v3.9.42 🌈",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v3.9.42",
+      "points": null
+    },
+    {
+      "date": "2025-02-26",
+      "type": "release",
+      "title": "v3.9.43 🌈",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v3.9.43",
+      "points": null
+    },
+    {
+      "date": "2025-02-27",
+      "type": "release",
+      "title": "v4.1.11 🌈",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v4.1.11",
+      "points": null
+    },
+    {
+      "date": "2025-03-07",
+      "type": "release",
+      "title": "v4.1.12 🌈",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v4.1.12",
+      "points": null
+    },
+    {
+      "date": "2025-03-11",
+      "type": "release",
+      "title": "v3.9.44 🌈",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v3.9.44",
+      "points": null
+    },
+    {
+      "date": "2025-03-29",
+      "type": "release",
+      "title": "v4.1.16 🌈",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v4.1.16",
+      "points": null
+    },
+    {
+      "date": "2025-03-31",
+      "type": "release",
+      "title": "v4.1.17 🌈",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v4.1.17",
+      "points": null
+    },
+    {
+      "date": "2025-04-23",
+      "type": "release",
+      "title": "v4.2.1 🌈",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v4.2.1",
+      "points": null
+    },
+    {
+      "date": "2025-05-10",
+      "type": "release",
+      "title": "v4.2.3 🌈",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v4.2.3",
+      "points": null
+    },
+    {
+      "date": "2025-06-03",
+      "type": "release",
+      "title": "v4.2.7 🌈",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v4.2.7",
+      "points": null
+    },
+    {
+      "date": "2025-06-10",
+      "type": "release",
+      "title": "v4.2.8 🌈",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v4.2.8",
+      "points": null
+    },
+    {
+      "date": "2025-06-10",
+      "type": "release",
+      "title": "v3.9.45 🌈",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v3.9.45",
+      "points": null
+    },
+    {
+      "date": "2025-07-02",
+      "type": "release",
+      "title": "v4.2.12 🌈",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v4.2.12",
+      "points": null
+    },
+    {
+      "date": "2025-07-08",
+      "type": "release",
+      "title": "v4.2.14 🌈",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v4.2.14",
+      "points": null
+    },
+    {
+      "date": "2025-07-09",
+      "type": "release",
+      "title": "v3.9.46 🌈",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v3.9.46",
+      "points": null
+    },
+    {
+      "date": "2025-08-01",
+      "type": "release",
+      "title": "v3.9.50 🌈",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v3.9.50",
+      "points": null
+    },
+    {
+      "date": "2025-08-07",
+      "type": "release",
+      "title": "v3.9.51 🌈",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v3.9.51",
+      "points": null
+    },
+    {
+      "date": "2025-08-29",
+      "type": "release",
+      "title": "v4.3.0 🌈",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v4.3.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-05",
+      "type": "release",
+      "title": "v3.9.52 🌈",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v3.9.52",
+      "points": null
+    },
+    {
+      "date": "2025-09-29",
+      "type": "release",
+      "title": "v4.3.4 🌈",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v4.3.3",
+      "points": null
+    },
+    {
+      "date": "2025-10-10",
+      "type": "release",
+      "title": "v4.3.5 🌈",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v4.3.5",
+      "points": null
+    },
+    {
+      "date": "2025-10-10",
+      "type": "release",
+      "title": "v4.3.4",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v4.3.4",
+      "points": null
+    },
+    {
+      "date": "2025-10-24",
+      "type": "release",
+      "title": "v4.4.0",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v4.4.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-21",
+      "type": "release",
+      "title": "v4.4.1 🌈",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v4.4.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-03",
+      "type": "release",
+      "title": "v4.4.3",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v4.4.3",
+      "points": null
+    },
+    {
+      "date": "2025-12-14",
+      "type": "release",
+      "title": "v4.4.4",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v4.4.4",
+      "points": null
+    },
+    {
+      "date": "2026-01-13",
+      "type": "release",
+      "title": "v4.4.5",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v4.4.5",
+      "points": null
+    },
+    {
+      "date": "2026-01-22",
+      "type": "release",
+      "title": "v4.5.0",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v4.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-07",
+      "type": "release",
+      "title": "v4.5.1",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v4.5.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-11",
+      "type": "release",
+      "title": "v4.5.2",
+      "url": "https://github.com/activeloopai/deeplake/releases/tag/v4.5.2",
+      "points": null
+    }
   ]
 }

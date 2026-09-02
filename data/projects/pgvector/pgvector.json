@@ -97,9 +97,18 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 22860,
+      "stars": 22869,
       "forks": 1304,
       "openIssues": 14
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-02-28",
+      "type": "hn",
+      "title": "Pgvector: Open-source vector similarity search for Postgres",
+      "url": "https://news.ycombinator.com/item?id=34966045",
+      "points": 201
     }
   ]
 }

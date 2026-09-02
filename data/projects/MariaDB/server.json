@@ -114,9 +114,200 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 8169,
-      "forks": 2091,
-      "openIssues": 474
+      "stars": 8173,
+      "forks": 2093,
+      "openIssues": 473
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-08-07",
+      "type": "release",
+      "title": "MariaDB Community Server 12.0.2",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-12.0.2",
+      "points": null
+    },
+    {
+      "date": "2025-11-06",
+      "type": "release",
+      "title": "MariaDB Community Server 11.8.4",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-11.8.4",
+      "points": null
+    },
+    {
+      "date": "2025-11-06",
+      "type": "release",
+      "title": "MariaDB Community Server 11.4.9",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-11.4.9",
+      "points": null
+    },
+    {
+      "date": "2025-11-06",
+      "type": "release",
+      "title": "MariaDB Community Server 10.6.24",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-10.6.24",
+      "points": null
+    },
+    {
+      "date": "2025-11-06",
+      "type": "release",
+      "title": "MariaDB Community Server 10.11.15",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-10.11.15",
+      "points": null
+    },
+    {
+      "date": "2025-11-14",
+      "type": "release",
+      "title": "MariaDB Community Server 11.8.5",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-11.8.5",
+      "points": null
+    },
+    {
+      "date": "2025-11-18",
+      "type": "release",
+      "title": "MariaDB Community Server 12.1.2",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-12.1.2",
+      "points": null
+    },
+    {
+      "date": "2026-02-04",
+      "type": "release",
+      "title": "MariaDB Community Server 11.8.6",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-11.8.6",
+      "points": null
+    },
+    {
+      "date": "2026-02-04",
+      "type": "release",
+      "title": "MariaDB Community Server 11.4.10",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-11.4.10",
+      "points": null
+    },
+    {
+      "date": "2026-02-04",
+      "type": "release",
+      "title": "MariaDB Community Server 10.6.25",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-10.6.25",
+      "points": null
+    },
+    {
+      "date": "2026-02-04",
+      "type": "release",
+      "title": "MariaDB Community Server 10.11.16",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-10.11.16",
+      "points": null
+    },
+    {
+      "date": "2026-02-12",
+      "type": "release",
+      "title": "MariaDB Community Server 12.2.2",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-12.2.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-18",
+      "type": "release",
+      "title": "MariaDB Community Server 11.8.7",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-11.8.7b",
+      "points": null
+    },
+    {
+      "date": "2026-05-18",
+      "type": "release",
+      "title": "MariaDB Community Server 11.4.11",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-11.4.11b",
+      "points": null
+    },
+    {
+      "date": "2026-05-18",
+      "type": "release",
+      "title": "MariaDB Community Server 10.6.26",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-10.6.26",
+      "points": null
+    },
+    {
+      "date": "2026-05-18",
+      "type": "release",
+      "title": "MariaDB Community Server 10.11.17",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-10.11.17",
+      "points": null
+    },
+    {
+      "date": "2026-05-27",
+      "type": "release",
+      "title": "MariaDB Community Server 11.8.8",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-11.8.8",
+      "points": null
+    },
+    {
+      "date": "2026-05-27",
+      "type": "release",
+      "title": "MariaDB Community Server 11.4.12",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-11.4.12",
+      "points": null
+    },
+    {
+      "date": "2026-05-27",
+      "type": "release",
+      "title": "MariaDB Community Server 10.6.27",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-10.6.27",
+      "points": null
+    },
+    {
+      "date": "2026-05-27",
+      "type": "release",
+      "title": "MariaDB Community Server 10.11.18",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-10.11.18",
+      "points": null
+    },
+    {
+      "date": "2026-05-28",
+      "type": "release",
+      "title": "MariaDB Community Server 12.3.2",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-12.3.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "hn",
+      "title": "MariaDB: Promote getting to 10k GitHub stars in server log and client prompt",
+      "url": "https://news.ycombinator.com/item?id=49171068",
+      "points": 64
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "MariaDB Community Server 10.6.28",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-10.6.28",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "MariaDB Community Server 12.3.3",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-12.3.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "MariaDB Community Server 11.8.9",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-11.8.9",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "MariaDB Community Server 11.4.13",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-11.4.13",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "MariaDB Community Server 10.11.19",
+      "url": "https://github.com/MariaDB/server/releases/tag/mariadb-10.11.19",
+      "points": null
     }
   ]
 }

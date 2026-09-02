@@ -84,9 +84,221 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 17790,
-      "forks": 5837,
-      "openIssues": 419
+      "stars": 17791,
+      "forks": 5838,
+      "openIssues": 418
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-02-10",
+      "type": "release",
+      "title": "v1.33.2",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.33.2",
+      "points": null
+    },
+    {
+      "date": "2025-02-25",
+      "type": "release",
+      "title": "v1.33.3",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.33.3",
+      "points": null
+    },
+    {
+      "date": "2025-03-10",
+      "type": "release",
+      "title": "v1.34.0",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.34.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-24",
+      "type": "release",
+      "title": "v1.34.1",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.34.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-14",
+      "type": "release",
+      "title": "v1.34.2",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.34.2",
+      "points": null
+    },
+    {
+      "date": "2025-05-05",
+      "type": "release",
+      "title": "v1.34.3",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.34.3",
+      "points": null
+    },
+    {
+      "date": "2025-05-19",
+      "type": "release",
+      "title": "v1.34.4",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.34.4",
+      "points": null
+    },
+    {
+      "date": "2025-06-17",
+      "type": "release",
+      "title": "v1.35.0",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.35.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-23",
+      "type": "release",
+      "title": "v1.35.1",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.35.1",
+      "points": null
+    },
+    {
+      "date": "2025-07-07",
+      "type": "release",
+      "title": "v1.35.2",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.35.2",
+      "points": null
+    },
+    {
+      "date": "2025-07-28",
+      "type": "release",
+      "title": "v1.35.3",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.35.3",
+      "points": null
+    },
+    {
+      "date": "2025-08-19",
+      "type": "release",
+      "title": "v1.35.4",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.35.4",
+      "points": null
+    },
+    {
+      "date": "2025-09-08",
+      "type": "release",
+      "title": "v1.36.0",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.36.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-09",
+      "type": "release",
+      "title": "v1.36.1",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.36.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-29",
+      "type": "release",
+      "title": "v1.36.2",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.36.2",
+      "points": null
+    },
+    {
+      "date": "2025-10-21",
+      "type": "release",
+      "title": "v1.36.3",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.36.3",
+      "points": null
+    },
+    {
+      "date": "2025-11-17",
+      "type": "release",
+      "title": "v1.36.4",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.36.4",
+      "points": null
+    },
+    {
+      "date": "2025-12-08",
+      "type": "release",
+      "title": "v1.37.0",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.37.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-12",
+      "type": "release",
+      "title": "v1.37.1",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.37.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-12",
+      "type": "release",
+      "title": "v1.37.2",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.37.2",
+      "points": null
+    },
+    {
+      "date": "2026-02-24",
+      "type": "release",
+      "title": "v1.37.3",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.37.3",
+      "points": null
+    },
+    {
+      "date": "2026-03-09",
+      "type": "release",
+      "title": "v1.38.0",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.38.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-16",
+      "type": "release",
+      "title": "v1.38.1",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.38.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-30",
+      "type": "release",
+      "title": "v1.38.2",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.38.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-20",
+      "type": "release",
+      "title": "v1.38.3",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.38.3",
+      "points": null
+    },
+    {
+      "date": "2026-05-11",
+      "type": "release",
+      "title": "v1.38.4",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.38.4",
+      "points": null
+    },
+    {
+      "date": "2026-06-08",
+      "type": "release",
+      "title": "v1.39.0",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.39.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "v1.39.1",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.39.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-20",
+      "type": "release",
+      "title": "v1.39.2",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.39.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "title": "v1.39.3",
+      "url": "https://github.com/influxdata/telegraf/releases/tag/v1.39.3",
+      "points": null
     }
   ]
 }

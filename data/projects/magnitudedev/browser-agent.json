@@ -27,5 +27,196 @@
     }
   ],
   "weight": 4124,
-  "image": "https://raw.githubusercontent.com/magnitudedev/browser-agent/main/docs/logo.svg"
+  "image": "https://raw.githubusercontent.com/magnitudedev/browser-agent/main/docs/logo.svg",
+  "events": [
+    {
+      "date": "2025-07-20",
+      "type": "release",
+      "title": "magnitude-test@0.3.2",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-test%400.3.2",
+      "points": null
+    },
+    {
+      "date": "2025-07-20",
+      "type": "release",
+      "title": "magnitude-core@0.2.23",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-core%400.2.23",
+      "points": null
+    },
+    {
+      "date": "2025-07-21",
+      "type": "release",
+      "title": "magnitude-test@0.3.3",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-test%400.3.3",
+      "points": null
+    },
+    {
+      "date": "2025-07-21",
+      "type": "release",
+      "title": "magnitude-core@0.2.24",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-core%400.2.24",
+      "points": null
+    },
+    {
+      "date": "2025-07-22",
+      "type": "release",
+      "title": "magnitude-test@0.3.4",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-test%400.3.4",
+      "points": null
+    },
+    {
+      "date": "2025-07-22",
+      "type": "release",
+      "title": "magnitude-core@0.2.25",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-core%400.2.25",
+      "points": null
+    },
+    {
+      "date": "2025-07-25",
+      "type": "release",
+      "title": "magnitude-test@0.3.5",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-test%400.3.5",
+      "points": null
+    },
+    {
+      "date": "2025-07-25",
+      "type": "release",
+      "title": "magnitude-core@0.2.26",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-core%400.2.26",
+      "points": null
+    },
+    {
+      "date": "2025-07-28",
+      "type": "release",
+      "title": "magnitude-test@0.3.6",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-test%400.3.6",
+      "points": null
+    },
+    {
+      "date": "2025-07-28",
+      "type": "release",
+      "title": "magnitude-core@0.2.27",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-core%400.2.27",
+      "points": null
+    },
+    {
+      "date": "2025-07-30",
+      "type": "release",
+      "title": "magnitude-test@0.3.7",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-test%400.3.7",
+      "points": null
+    },
+    {
+      "date": "2025-07-30",
+      "type": "release",
+      "title": "magnitude-core@0.2.28",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-core%400.2.28",
+      "points": null
+    },
+    {
+      "date": "2025-08-06",
+      "type": "release",
+      "title": "magnitude-test@0.3.8",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-test%400.3.8",
+      "points": null
+    },
+    {
+      "date": "2025-08-06",
+      "type": "release",
+      "title": "magnitude-test@0.3.10",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-test%400.3.10",
+      "points": null
+    },
+    {
+      "date": "2025-08-06",
+      "type": "release",
+      "title": "magnitude-core@0.2.31",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-core%400.2.31",
+      "points": null
+    },
+    {
+      "date": "2025-08-06",
+      "type": "release",
+      "title": "magnitude-core@0.2.29",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-core%400.2.29",
+      "points": null
+    },
+    {
+      "date": "2025-09-25",
+      "type": "release",
+      "title": "magnitude-test@0.3.12",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-test%400.3.12",
+      "points": null
+    },
+    {
+      "date": "2025-09-25",
+      "type": "release",
+      "title": "magnitude-test@0.3.11",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-test%400.3.11",
+      "points": null
+    },
+    {
+      "date": "2025-09-25",
+      "type": "release",
+      "title": "magnitude-mcp@0.1.2",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-mcp%400.1.2",
+      "points": null
+    },
+    {
+      "date": "2025-09-25",
+      "type": "release",
+      "title": "magnitude-mcp@0.1.1",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-mcp%400.1.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-25",
+      "type": "release",
+      "title": "magnitude-mcp@0.1.0",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-mcp%400.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-25",
+      "type": "release",
+      "title": "magnitude-core@0.3.0",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-core%400.3.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-25",
+      "type": "release",
+      "title": "magnitude-core@0.2.32",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-core%400.2.32",
+      "points": null
+    },
+    {
+      "date": "2026-02-08",
+      "type": "release",
+      "title": "magnitude-test@0.3.13",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-test%400.3.13",
+      "points": null
+    },
+    {
+      "date": "2026-02-08",
+      "type": "release",
+      "title": "magnitude-mcp@0.1.3",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-mcp%400.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-02-08",
+      "type": "release",
+      "title": "magnitude-core@0.3.1",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/magnitude-core%400.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-08",
+      "type": "release",
+      "title": "create-magnitude-app@0.0.8",
+      "url": "https://github.com/magnitudedev/browser-agent/releases/tag/create-magnitude-app%400.0.8",
+      "points": null
+    }
+  ]
 }

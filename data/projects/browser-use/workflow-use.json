@@ -48,8 +48,108 @@
     {
       "date": "2026-09-02",
       "stars": 4163,
-      "forks": 346,
+      "forks": 345,
       "openIssues": 60
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-05-16",
+      "type": "hn",
+      "title": "Show HN: Workflow Use – Deterministic, self-healing browser automation (RPA 2.0)",
+      "url": "https://news.ycombinator.com/item?id=44007065",
+      "points": 69
+    },
+    {
+      "date": "2025-05-16",
+      "type": "release",
+      "title": "Initial release",
+      "url": "https://github.com/browser-use/workflow-use/releases/tag/v0.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-20",
+      "type": "release",
+      "title": "v0.2.0",
+      "url": "https://github.com/browser-use/workflow-use/releases/tag/v0.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-04",
+      "type": "release",
+      "title": "v0.2.1",
+      "url": "https://github.com/browser-use/workflow-use/releases/tag/v0.2.1",
+      "points": null
+    },
+    {
+      "date": "2025-10-29",
+      "type": "release",
+      "title": "v0.2.2",
+      "url": "https://github.com/browser-use/workflow-use/releases/tag/v0.2.2",
+      "points": null
+    },
+    {
+      "date": "2025-10-30",
+      "type": "release",
+      "title": "v0.2.3",
+      "url": "https://github.com/browser-use/workflow-use/releases/tag/v0.2.3",
+      "points": null
+    },
+    {
+      "date": "2025-10-31",
+      "type": "release",
+      "title": "v0.2.5",
+      "url": "https://github.com/browser-use/workflow-use/releases/tag/v0.2.5",
+      "points": null
+    },
+    {
+      "date": "2025-10-31",
+      "type": "release",
+      "title": "v0.2.4",
+      "url": "https://github.com/browser-use/workflow-use/releases/tag/v0.2.4",
+      "points": null
+    },
+    {
+      "date": "2025-11-02",
+      "type": "release",
+      "title": "v0.2.7",
+      "url": "https://github.com/browser-use/workflow-use/releases/tag/v0.2.7",
+      "points": null
+    },
+    {
+      "date": "2025-11-02",
+      "type": "release",
+      "title": "v0.2.6",
+      "url": "https://github.com/browser-use/workflow-use/releases/tag/v0.2.6",
+      "points": null
+    },
+    {
+      "date": "2025-11-04",
+      "type": "release",
+      "title": "v0.2.8",
+      "url": "https://github.com/browser-use/workflow-use/releases/tag/v0.2.8",
+      "points": null
+    },
+    {
+      "date": "2025-11-07",
+      "type": "release",
+      "title": "v0.2.9",
+      "url": "https://github.com/browser-use/workflow-use/releases/tag/v0.2.9",
+      "points": null
+    },
+    {
+      "date": "2025-11-18",
+      "type": "release",
+      "title": "v0.2.10",
+      "url": "https://github.com/browser-use/workflow-use/releases/tag/v0.2.10",
+      "points": null
+    },
+    {
+      "date": "2025-11-19",
+      "type": "release",
+      "title": "v0.2.11",
+      "url": "https://github.com/browser-use/workflow-use/releases/tag/v0.2.11",
+      "points": null
     }
   ]
 }

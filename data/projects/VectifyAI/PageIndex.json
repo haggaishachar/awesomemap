@@ -23,11 +23,69 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 35489,
-      "forks": 3122,
+      "stars": 35493,
+      "forks": 3126,
       "openIssues": 91
     }
   ],
   "weight": 35470,
-  "image": "https://avatars.githubusercontent.com/u/133959746?v=4"
+  "image": "https://avatars.githubusercontent.com/u/133959746?v=4",
+  "events": [
+    {
+      "date": "2025-08-27",
+      "type": "hn",
+      "title": "Show HN: PageIndex – Vectorless RAG",
+      "url": "https://news.ycombinator.com/item?id=45036944",
+      "points": 192
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "v0.3.0.dev2",
+      "url": "https://github.com/VectifyAI/PageIndex/releases/tag/v0.3.0.dev2",
+      "points": null
+    },
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "title": "v0.3.0.dev3",
+      "url": "https://github.com/VectifyAI/PageIndex/releases/tag/v0.3.0.dev3",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "v0.2.10",
+      "url": "https://github.com/VectifyAI/PageIndex/releases/tag/v0.2.10",
+      "points": null
+    },
+    {
+      "date": "2026-08-25",
+      "type": "release",
+      "title": "v0.2.11",
+      "url": "https://github.com/VectifyAI/PageIndex/releases/tag/v0.2.11",
+      "points": null
+    },
+    {
+      "date": "2026-08-30",
+      "type": "release",
+      "title": "v0.2.12",
+      "url": "https://github.com/VectifyAI/PageIndex/releases/tag/v0.2.12",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "v0.2.14",
+      "url": "https://github.com/VectifyAI/PageIndex/releases/tag/v0.2.14",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "v0.2.13",
+      "url": "https://github.com/VectifyAI/PageIndex/releases/tag/v0.2.13",
+      "points": null
+    }
+  ]
 }

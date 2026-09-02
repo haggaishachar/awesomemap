@@ -132,5 +132,175 @@
       "forks": 1216,
       "openIssues": 61
     }
+  ],
+  "events": [
+    {
+      "date": "2021-08-17",
+      "type": "release",
+      "title": "v4.2.2 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.2.2",
+      "points": null
+    },
+    {
+      "date": "2021-09-28",
+      "type": "release",
+      "title": "v4.2.3 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.2.3",
+      "points": null
+    },
+    {
+      "date": "2021-09-28",
+      "type": "release",
+      "title": "v4.1.6 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.1.6",
+      "points": null
+    },
+    {
+      "date": "2021-10-01",
+      "type": "release",
+      "title": "v4.3.0 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.3.0",
+      "points": null
+    },
+    {
+      "date": "2021-10-29",
+      "type": "release",
+      "title": "v4.3.2 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.3.2",
+      "points": null
+    },
+    {
+      "date": "2021-11-05",
+      "type": "release",
+      "title": "v4.3.4 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.3.4",
+      "points": null
+    },
+    {
+      "date": "2021-11-19",
+      "type": "release",
+      "title": "v4.3.5 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.3.5",
+      "points": null
+    },
+    {
+      "date": "2022-01-14",
+      "type": "release",
+      "title": "v4.3.6 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.3.6",
+      "points": null
+    },
+    {
+      "date": "2022-03-16",
+      "type": "release",
+      "title": "v4.4.0 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.4.0",
+      "points": null
+    },
+    {
+      "date": "2022-04-04",
+      "type": "release",
+      "title": "v4.4.1 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.4.1",
+      "points": null
+    },
+    {
+      "date": "2022-05-26",
+      "type": "release",
+      "title": "v4.4.2 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.4.2",
+      "points": null
+    },
+    {
+      "date": "2022-06-06",
+      "type": "release",
+      "title": "v4.4.3 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.4.3",
+      "points": null
+    },
+    {
+      "date": "2022-06-09",
+      "type": "release",
+      "title": "v4.4.4 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.4.4",
+      "points": null
+    },
+    {
+      "date": "2022-11-04",
+      "type": "release",
+      "title": "v4.5.0 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.5.0",
+      "points": null
+    },
+    {
+      "date": "2022-11-22",
+      "type": "release",
+      "title": "v4.5.1 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.5.1",
+      "points": null
+    },
+    {
+      "date": "2023-01-20",
+      "type": "release",
+      "title": "v4.6.0 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.6.0",
+      "points": null
+    },
+    {
+      "date": "2023-04-13",
+      "type": "release",
+      "title": "v4.6.1 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.6.1",
+      "points": null
+    },
+    {
+      "date": "2023-07-27",
+      "type": "release",
+      "title": "v4.7.0 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.7.0",
+      "points": null
+    },
+    {
+      "date": "2023-08-10",
+      "type": "release",
+      "title": "v4.7.1 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.7.1",
+      "points": null
+    },
+    {
+      "date": "2023-10-09",
+      "type": "release",
+      "title": "v4.7.2 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.7.2",
+      "points": null
+    },
+    {
+      "date": "2024-02-26",
+      "type": "release",
+      "title": "v4.7.3 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.7.3",
+      "points": null
+    },
+    {
+      "date": "2024-05-01",
+      "type": "release",
+      "title": "v4.7.4 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.7.4",
+      "points": null
+    },
+    {
+      "date": "2024-10-09",
+      "type": "release",
+      "title": "v4.8.0 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.8.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-10",
+      "type": "release",
+      "title": "v4.9.0 Release",
+      "url": "https://github.com/quay/clair/releases/tag/v4.9.0",
+      "points": null
+    }
   ]
 }

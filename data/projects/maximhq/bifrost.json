@@ -4,8 +4,8 @@
   "link": "https://github.com/maximhq/bifrost",
   "name": "bifrost",
   "desc": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "bifrost",
+  "githubDescription": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
   "tags": [
     "ai-gateway",
     "gateway",
@@ -24,7 +24,226 @@
     "model-router",
     "token-management"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 7761,
+      "forks": 1150,
+      "openIssues": 1010
+    }
+  ],
   "weight": 7753,
-  "image": "https://avatars.githubusercontent.com/u/139708451?v=4"
+  "image": "https://avatars.githubusercontent.com/u/139708451?v=4",
+  "events": [
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "Bifrost HTTP v1.6.11",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/transports/v1.6.11",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "Helm Chart v2.1.36",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/helm-chart-v2.1.36",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "Core v1.7.12",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/core/v1.7.12",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "Enterprise 1.5.12 base",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/ent-v1.5.12-base",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "Core v1.7.13",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/core/v1.7.13",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Bifrost HTTP v2.0.0",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/transports/v2.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Plugin telemetry v1.6.0",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/plugins/telemetry/v1.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Plugin semanticcache v1.6.0",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/plugins/semanticcache/v1.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Plugin routing v1.0.0",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/plugins/routing/v1.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Plugin prompts v1.1.0",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/plugins/prompts/v1.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Plugin otel v1.5.0",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/plugins/otel/v1.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Plugin modelcatalogresolver v1.1.0",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/plugins/modelcatalogresolver/v1.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Plugin mocker v1.6.0",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/plugins/mocker/v1.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Plugin maxim v1.7.0",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/plugins/maxim/v1.7.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Plugin logging v1.7.0",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/plugins/logging/v1.7.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Plugin jsonparser v1.6.0",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/plugins/jsonparser/v1.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Plugin governance v1.7.0",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/plugins/governance/v1.7.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Plugin compat v0.2.0",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/plugins/compat/v0.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Helm Chart v2.1.37",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/helm-chart-v2.1.37",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Framework v1.6.0",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/framework/v1.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Enterprise v2.0.0 base",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/ent-v2.0.0-base",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Core v1.8.3",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/core/v1.8.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Core v1.8.2",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/core/v1.8.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Core v1.8.1",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/core/v1.8.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Core v1.8.0",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/core/v1.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "Enterprise v1.5.13 base",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/ent-v1.5.13-base",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "Core v1.8.4",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/core/v1.8.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "Core Release v1.7.15",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/core/v1.7.15",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "Core v1.7.14",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/core/v1.7.14",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Enterprise v2.0.1 base",
+      "url": "https://github.com/maximhq/bifrost/releases/tag/ent-v2.0.1-base",
+      "points": null
+    }
+  ]
 }

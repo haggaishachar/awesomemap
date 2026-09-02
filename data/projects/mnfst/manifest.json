@@ -4,8 +4,8 @@
   "link": "https://github.com/mnfst/manifest",
   "name": "manifest",
   "desc": "Connect Your Agents And Harnesses With Any Provider 🦚",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "manifest",
+  "githubDescription": "Connect Your Agents And Harnesses With Any Provider 🦚",
   "tags": [
     "ai",
     "ai-",
@@ -23,7 +23,233 @@
     "subscription",
     "token-tracking"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 7499,
+      "forks": 507,
+      "openIssues": 107
+    }
+  ],
   "weight": 7499,
-  "image": "https://avatars.githubusercontent.com/u/8403534?v=4"
+  "image": "https://avatars.githubusercontent.com/u/8403534?v=4",
+  "events": [
+    {
+      "date": "2025-03-18",
+      "type": "hn",
+      "title": "Manifest: A 1-file micro-back end",
+      "url": "https://news.ycombinator.com/item?id=43397625",
+      "points": 96
+    },
+    {
+      "date": "2026-05-21",
+      "type": "release",
+      "title": "manifest v6.6.0",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-21",
+      "type": "release",
+      "title": "manifest v6.5.1",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.5.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-22",
+      "type": "release",
+      "title": "manifest v6.6.1",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.6.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-26",
+      "type": "release",
+      "title": "manifest v6.8.1",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.8.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-26",
+      "type": "release",
+      "title": "manifest v6.8.0",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-26",
+      "type": "release",
+      "title": "manifest v6.6.2",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.6.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-29",
+      "type": "release",
+      "title": "manifest v6.8.2",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.8.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-01",
+      "type": "release",
+      "title": "manifest v6.8.3",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.8.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-02",
+      "type": "release",
+      "title": "manifest v6.9.1",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.9.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-02",
+      "type": "release",
+      "title": "manifest v6.9.0",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.9.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "manifest v6.9.2",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.9.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-14",
+      "type": "release",
+      "title": "manifest v6.10.0",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.10.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-17",
+      "type": "release",
+      "title": "manifest v6.11.0",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.11.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-24",
+      "type": "release",
+      "title": "manifest v6.12.0",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.12.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-03",
+      "type": "release",
+      "title": "manifest v6.13.3",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.13.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-03",
+      "type": "release",
+      "title": "manifest v6.13.2",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.13.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-03",
+      "type": "release",
+      "title": "manifest v6.13.1",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.13.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-05",
+      "type": "release",
+      "title": "manifest v6.13.4",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.13.4",
+      "points": null
+    },
+    {
+      "date": "2026-07-06",
+      "type": "release",
+      "title": "manifest v6.13.5",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.13.5",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "manifest v6.14.0",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.14.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "title": "manifest v6.15.0",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.15.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-12",
+      "type": "release",
+      "title": "manifest v6.15.1",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.15.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-20",
+      "type": "release",
+      "title": "manifest v6.15.2",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.15.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "manifest v6.16.0",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.16.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "manifest v6.17.1",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.17.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "manifest v6.17.0",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.17.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "manifest v6.18.0",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.18.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "manifest v6.19.0",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.19.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "manifest v6.20.0",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.20.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "manifest v6.21.0",
+      "url": "https://github.com/mnfst/manifest/releases/tag/manifest%406.21.0",
+      "points": null
+    }
+  ]
 }

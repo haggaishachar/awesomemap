@@ -21,11 +21,237 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 28667,
+      "stars": 28668,
       "forks": 1545,
-      "openIssues": 731
+      "openIssues": 732
     }
   ],
   "weight": 28665,
-  "image": "https://avatars.githubusercontent.com/u/36045855?v=4"
+  "image": "https://avatars.githubusercontent.com/u/36045855?v=4",
+  "events": [
+    {
+      "date": "2019-03-24",
+      "type": "hn",
+      "title": "Fyne: Cross-Platform GUI in Go Based on Material Design",
+      "url": "https://news.ycombinator.com/item?id=19478079",
+      "points": 360
+    },
+    {
+      "date": "2020-02-10",
+      "type": "hn",
+      "title": "Fyne: Native Mobile UX in Go",
+      "url": "https://news.ycombinator.com/item?id=22291150",
+      "points": 113
+    },
+    {
+      "date": "2022-06-30",
+      "type": "release",
+      "title": "Improve default lifecycle for system tray apps and various fixes",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.2.2",
+      "points": null
+    },
+    {
+      "date": "2022-11-09",
+      "type": "release",
+      "title": "v2.2.4 Maintenance and bug fixes",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.2.4",
+      "points": null
+    },
+    {
+      "date": "2022-12-24",
+      "type": "release",
+      "title": "A fresh new look, richer text and cloud integration delivers Christmas cheer!",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.3.0",
+      "points": null
+    },
+    {
+      "date": "2023-02-13",
+      "type": "release",
+      "title": "Share Fyne v2.3.1 with someone special this Valentine's day!",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.3.1",
+      "points": null
+    },
+    {
+      "date": "2023-03-20",
+      "type": "release",
+      "title": "Fyne 💙 Apple M2 and better performance",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.3.2",
+      "points": null
+    },
+    {
+      "date": "2023-03-24",
+      "type": "release",
+      "title": "Resolving a possible compilation regression in v2.3.2",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.3.3",
+      "points": null
+    },
+    {
+      "date": "2023-05-03",
+      "type": "release",
+      "title": "Memory usage improvements and reducing CPU for item moves",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.3.4",
+      "points": null
+    },
+    {
+      "date": "2023-06-06",
+      "type": "release",
+      "title": "v2.3.5 - Lots of great fixes from the team and community - thanks!",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.3.5",
+      "points": null
+    },
+    {
+      "date": "2023-09-01",
+      "type": "release",
+      "title": "So many new features like rounded corners, emojis, table headers and a load more make v2.4.0!",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.4.0",
+      "points": null
+    },
+    {
+      "date": "2023-10-09",
+      "type": "release",
+      "title": "Lots of fixes and display improvements for v2.4.1",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.4.1",
+      "points": null
+    },
+    {
+      "date": "2023-12-24",
+      "type": "release",
+      "title": "Happy holidays and enjoy a better Fyne for your coding projects :)",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.4.3",
+      "points": null
+    },
+    {
+      "date": "2024-02-13",
+      "type": "release",
+      "title": "Lots of bug fixes and speed improvements for 2.4",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.4.4",
+      "points": null
+    },
+    {
+      "date": "2024-04-15",
+      "type": "release",
+      "title": "Optimisations, storage enhancements and fixes arrive in v2.4.5",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.4.5",
+      "points": null
+    },
+    {
+      "date": "2024-07-14",
+      "type": "release",
+      "title": "v2.5 introduces international support, system font lookup and completes Wayland and Web support (except file handling)",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.5.0",
+      "points": null
+    },
+    {
+      "date": "2024-08-25",
+      "type": "release",
+      "title": "Polishes and text/translation improvements form v2.5.1",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.5.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-15",
+      "type": "release",
+      "title": "v2.5.2 adds Swedish translation, documentation improvements and many fixes",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.5.2",
+      "points": null
+    },
+    {
+      "date": "2024-12-15",
+      "type": "release",
+      "title": "Festive cheer delivered early with latest bugfix release",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.5.3",
+      "points": null
+    },
+    {
+      "date": "2025-02-06",
+      "type": "release",
+      "title": "v2.5.4 with bug fixes and new translations",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.5.4",
+      "points": null
+    },
+    {
+      "date": "2025-03-13",
+      "type": "release",
+      "title": "v2.5.5 fixes an incompatibility with Go 1.24 WASM build",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.5.5",
+      "points": null
+    },
+    {
+      "date": "2025-04-10",
+      "type": "release",
+      "title": "With v2.6.0 Fyne is faster than ever and passing Go's race checks too :)",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.6.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-08",
+      "type": "release",
+      "title": "Bug fixes, remove races and some thread warning refinements",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.6.1",
+      "points": null
+    },
+    {
+      "date": "2025-07-28",
+      "type": "release",
+      "title": "Long list of fixes improve your summer projects",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.6.2",
+      "points": null
+    },
+    {
+      "date": "2025-08-21",
+      "type": "release",
+      "title": "Fix compile issues with Go 1.25",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.6.3",
+      "points": null
+    },
+    {
+      "date": "2025-10-16",
+      "type": "release",
+      "title": "New canvas objects and rounded corners along with massive speed improvements in v2.7.0",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.7.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-14",
+      "type": "release",
+      "title": "Speedups and bug fixes since v2.7.0",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.7.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-06",
+      "type": "release",
+      "title": "New Year new Fyne release :) - lots of bug fixes",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.7.2",
+      "points": null
+    },
+    {
+      "date": "2026-02-21",
+      "type": "release",
+      "title": "v2.7.3 - Loads of fixes from around the community",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.7.3",
+      "points": null
+    },
+    {
+      "date": "2026-05-12",
+      "type": "release",
+      "title": "v2.7.4 is bug fixes and performance improvements aplenty",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.7.4",
+      "points": null
+    },
+    {
+      "date": "2026-07-11",
+      "type": "release",
+      "title": "v2.8.0 is our biggest release since v2.0.0!",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v2.8.1: Big performance boosts and lots of fixes",
+      "url": "https://github.com/fyne-io/fyne/releases/tag/v2.8.1",
+      "points": null
+    }
+  ]
 }

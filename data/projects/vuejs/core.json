@@ -120,7 +120,100 @@
       "date": "2026-09-02",
       "stars": 54290,
       "forks": 9189,
-      "openIssues": 902
+      "openIssues": 903
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-02-24",
+      "type": "release",
+      "title": "v3.5.29",
+      "url": "https://github.com/vuejs/core/releases/tag/v3.5.29",
+      "points": null
+    },
+    {
+      "date": "2026-03-09",
+      "type": "release",
+      "title": "v3.5.30",
+      "url": "https://github.com/vuejs/core/releases/tag/v3.5.30",
+      "points": null
+    },
+    {
+      "date": "2026-03-25",
+      "type": "release",
+      "title": "v3.5.31",
+      "url": "https://github.com/vuejs/core/releases/tag/v3.5.31",
+      "points": null
+    },
+    {
+      "date": "2026-04-03",
+      "type": "release",
+      "title": "v3.5.32",
+      "url": "https://github.com/vuejs/core/releases/tag/v3.5.32",
+      "points": null
+    },
+    {
+      "date": "2026-04-22",
+      "type": "release",
+      "title": "v3.5.33",
+      "url": "https://github.com/vuejs/core/releases/tag/v3.5.33",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "v3.5.34",
+      "url": "https://github.com/vuejs/core/releases/tag/v3.5.34",
+      "points": null
+    },
+    {
+      "date": "2026-05-27",
+      "type": "release",
+      "title": "v3.5.35",
+      "url": "https://github.com/vuejs/core/releases/tag/v3.5.35",
+      "points": null
+    },
+    {
+      "date": "2026-06-11",
+      "type": "release",
+      "title": "v3.5.38",
+      "url": "https://github.com/vuejs/core/releases/tag/v3.5.38",
+      "points": null
+    },
+    {
+      "date": "2026-06-11",
+      "type": "release",
+      "title": "v3.5.37",
+      "url": "https://github.com/vuejs/core/releases/tag/v3.5.37",
+      "points": null
+    },
+    {
+      "date": "2026-06-25",
+      "type": "release",
+      "title": "v3.5.39",
+      "url": "https://github.com/vuejs/core/releases/tag/v3.5.39",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "v3.5.40",
+      "url": "https://github.com/vuejs/core/releases/tag/v3.5.40",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "v3.5.41",
+      "url": "https://github.com/vuejs/core/releases/tag/v3.5.41",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "v3.5.42",
+      "url": "https://github.com/vuejs/core/releases/tag/v3.5.42",
+      "points": null
     }
   ]
 }

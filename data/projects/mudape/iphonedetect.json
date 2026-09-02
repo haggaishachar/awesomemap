@@ -4,14 +4,58 @@
   "link": "https://github.com/mudape/iphonedetect",
   "name": "iphonedetect",
   "desc": "A custom component for Home Assistant to detect iPhones connected to local LAN, even if the phone is in deep sleep.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "iphonedetect",
+  "githubDescription": "A custom component for Home Assistant to detect iPhones connected to local LAN, even if the phone is in deep sleep.",
   "tags": [
     "custom-component",
     "hacs",
     "home-assistant",
     "iphonedetect"
   ],
-  "history": [],
-  "weight": 645
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 645,
+      "forks": 56,
+      "openIssues": 6
+    }
+  ],
+  "weight": 645,
+  "events": [
+    {
+      "date": "2019-06-29",
+      "type": "release",
+      "title": "Initial HACS Default Release",
+      "url": "https://github.com/mudape/iphonedetect/releases/tag/1.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-12",
+      "type": "release",
+      "title": "1.4.2",
+      "url": "https://github.com/mudape/iphonedetect/releases/tag/1.4.2",
+      "points": null
+    },
+    {
+      "date": "2025-01-16",
+      "type": "release",
+      "title": "Now available to set up from the UI",
+      "url": "https://github.com/mudape/iphonedetect/releases/tag/2.4.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-01",
+      "type": "release",
+      "title": "Remove range limit for consider home",
+      "url": "https://github.com/mudape/iphonedetect/releases/tag/2.4.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-03",
+      "type": "release",
+      "title": "2.5.0",
+      "url": "https://github.com/mudape/iphonedetect/releases/tag/2.5.0",
+      "points": null
+    }
+  ]
 }

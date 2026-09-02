@@ -128,9 +128,214 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 22993,
+      "stars": 23004,
       "forks": 1074,
       "openIssues": 442
+    }
+  ],
+  "events": [
+    {
+      "date": "2018-09-27",
+      "type": "release",
+      "title": "3.1.1",
+      "url": "https://github.com/getsops/sops/releases/tag/3.1.1",
+      "points": null
+    },
+    {
+      "date": "2018-11-08",
+      "type": "release",
+      "title": "3.2.0",
+      "url": "https://github.com/getsops/sops/releases/tag/3.2.0",
+      "points": null
+    },
+    {
+      "date": "2019-04-18",
+      "type": "release",
+      "title": "3.3.0",
+      "url": "https://github.com/getsops/sops/releases/tag/3.3.0",
+      "points": null
+    },
+    {
+      "date": "2019-06-11",
+      "type": "release",
+      "title": "3.3.1",
+      "url": "https://github.com/getsops/sops/releases/tag/3.3.1",
+      "points": null
+    },
+    {
+      "date": "2019-09-12",
+      "type": "release",
+      "title": "3.4.0",
+      "url": "https://github.com/getsops/sops/releases/tag/3.4.0",
+      "points": null
+    },
+    {
+      "date": "2019-11-21",
+      "type": "release",
+      "title": "v3.5.0",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.5.0",
+      "points": null
+    },
+    {
+      "date": "2020-07-15",
+      "type": "release",
+      "title": "v3.6.0",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.6.0",
+      "points": null
+    },
+    {
+      "date": "2020-09-14",
+      "type": "release",
+      "title": "v3.6.1",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.6.1",
+      "points": null
+    },
+    {
+      "date": "2021-03-24",
+      "type": "release",
+      "title": "v3.7.0",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.7.0",
+      "points": null
+    },
+    {
+      "date": "2021-04-08",
+      "type": "release",
+      "title": "v3.7.1",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.7.1",
+      "points": null
+    },
+    {
+      "date": "2022-03-09",
+      "type": "release",
+      "title": "v3.7.2",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.7.2",
+      "points": null
+    },
+    {
+      "date": "2022-05-09",
+      "type": "release",
+      "title": "v3.7.3",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.7.3",
+      "points": null
+    },
+    {
+      "date": "2023-09-15",
+      "type": "release",
+      "title": "v3.8.0",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.8.0",
+      "points": null
+    },
+    {
+      "date": "2023-10-11",
+      "type": "release",
+      "title": "v3.8.1",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.8.1",
+      "points": null
+    },
+    {
+      "date": "2024-06-28",
+      "type": "release",
+      "title": "v3.9.0",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.9.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-04",
+      "type": "release",
+      "title": "v3.9.1",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.9.1",
+      "points": null
+    },
+    {
+      "date": "2024-12-02",
+      "type": "release",
+      "title": "v3.9.2",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.9.2",
+      "points": null
+    },
+    {
+      "date": "2024-12-31",
+      "type": "release",
+      "title": "v3.9.3",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.9.3",
+      "points": null
+    },
+    {
+      "date": "2025-01-25",
+      "type": "release",
+      "title": "v3.9.4",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.9.4",
+      "points": null
+    },
+    {
+      "date": "2025-03-30",
+      "type": "release",
+      "title": "v3.10.0",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.10.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-31",
+      "type": "release",
+      "title": "v3.10.1",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.10.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-14",
+      "type": "release",
+      "title": "v3.10.2",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.10.2",
+      "points": null
+    },
+    {
+      "date": "2025-09-28",
+      "type": "release",
+      "title": "v3.11.0",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.11.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-22",
+      "type": "release",
+      "title": "v3.12.1",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.12.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-18",
+      "type": "release",
+      "title": "v3.12.2",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.12.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-08",
+      "type": "release",
+      "title": "v3.13.0",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.13.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-16",
+      "type": "release",
+      "title": "v3.13.1",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.13.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-30",
+      "type": "release",
+      "title": "v3.13.2",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.13.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "v3.13.3",
+      "url": "https://github.com/getsops/sops/releases/tag/v3.13.3",
+      "points": null
     }
   ]
 }

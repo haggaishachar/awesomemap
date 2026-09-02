@@ -20,11 +20,34 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 3852,
-      "forks": 1050,
-      "openIssues": 462
+      "stars": 3854,
+      "forks": 1052,
+      "openIssues": 463
     }
   ],
   "weight": 3848,
-  "image": "https://avatars.githubusercontent.com/u/13844975?v=4"
+  "image": "https://avatars.githubusercontent.com/u/13844975?v=4",
+  "events": [
+    {
+      "date": "2026-04-19",
+      "type": "release",
+      "title": "2026.4.4",
+      "url": "https://github.com/home-assistant/android/releases/tag/2026.4.4",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "2026.6.1",
+      "url": "https://github.com/home-assistant/android/releases/tag/2026.6.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-21",
+      "type": "release",
+      "title": "2026.6.5",
+      "url": "https://github.com/home-assistant/android/releases/tag/2026.6.5",
+      "points": null
+    }
+  ]
 }

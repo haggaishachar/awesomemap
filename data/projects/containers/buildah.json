@@ -126,9 +126,221 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 9000,
+      "stars": 9001,
       "forks": 926,
       "openIssues": 286
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-10-22",
+      "type": "release",
+      "title": "v1.42.0",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.42.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-11",
+      "type": "release",
+      "title": "v1.42.1",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.42.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-11",
+      "type": "release",
+      "title": "v1.41.6",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.41.6",
+      "points": null
+    },
+    {
+      "date": "2025-11-12",
+      "type": "release",
+      "title": "v1.39.5",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.39.5",
+      "points": null
+    },
+    {
+      "date": "2025-11-19",
+      "type": "release",
+      "title": "v1.39.6",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.39.6",
+      "points": null
+    },
+    {
+      "date": "2025-12-02",
+      "type": "release",
+      "title": "v1.42.2",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.42.2",
+      "points": null
+    },
+    {
+      "date": "2025-12-09",
+      "type": "release",
+      "title": "v1.37.7",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.37.7",
+      "points": null
+    },
+    {
+      "date": "2025-12-11",
+      "type": "release",
+      "title": "v1.33.13",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.33.13",
+      "points": null
+    },
+    {
+      "date": "2025-12-11",
+      "type": "release",
+      "title": "v1.29.6",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.29.6",
+      "points": null
+    },
+    {
+      "date": "2025-12-11",
+      "type": "release",
+      "title": "v1.27.7",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.27.7",
+      "points": null
+    },
+    {
+      "date": "2025-12-11",
+      "type": "release",
+      "title": "v1.26.10",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.26.10",
+      "points": null
+    },
+    {
+      "date": "2025-12-13",
+      "type": "release",
+      "title": "v1.41.7",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.41.7",
+      "points": null
+    },
+    {
+      "date": "2025-12-13",
+      "type": "release",
+      "title": "v1.39.7",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.39.7",
+      "points": null
+    },
+    {
+      "date": "2026-01-06",
+      "type": "release",
+      "title": "v1.41.8",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.41.8",
+      "points": null
+    },
+    {
+      "date": "2026-01-08",
+      "type": "release",
+      "title": "v1.39.8",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.39.8",
+      "points": null
+    },
+    {
+      "date": "2026-01-08",
+      "type": "release",
+      "title": "v1.37.8",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.37.8",
+      "points": null
+    },
+    {
+      "date": "2026-01-08",
+      "type": "release",
+      "title": "v1.33.14",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.33.14",
+      "points": null
+    },
+    {
+      "date": "2026-01-15",
+      "type": "release",
+      "title": "v1.29.7",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.29.7",
+      "points": null
+    },
+    {
+      "date": "2026-01-22",
+      "type": "release",
+      "title": "v1.21.6",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.21.6",
+      "points": null
+    },
+    {
+      "date": "2026-02-06",
+      "type": "release",
+      "title": "v1.43.0",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.43.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-08",
+      "type": "release",
+      "title": "v1.43.1",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.43.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-17",
+      "type": "release",
+      "title": "v1.41.9",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.41.9",
+      "points": null
+    },
+    {
+      "date": "2026-05-04",
+      "type": "release",
+      "title": "v1.33.15",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.33.15",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "v1.26.11",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.26.11",
+      "points": null
+    },
+    {
+      "date": "2026-05-07",
+      "type": "release",
+      "title": "v1.29.8",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.29.8",
+      "points": null
+    },
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "v1.39.9",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.39.9",
+      "points": null
+    },
+    {
+      "date": "2026-05-27",
+      "type": "release",
+      "title": "v1.44.0",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.44.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-08",
+      "type": "release",
+      "title": "v1.43.2",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.43.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "v1.44.1",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.44.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "v1.45.0",
+      "url": "https://github.com/podman-container-tools/buildah/releases/tag/v1.45.0",
+      "points": null
     }
   ]
 }

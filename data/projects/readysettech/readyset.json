@@ -25,11 +25,230 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 5277,
+      "stars": 5278,
       "forks": 164,
-      "openIssues": 100
+      "openIssues": 101
     }
   ],
   "weight": 5275,
-  "image": "https://avatars.githubusercontent.com/u/71727599?v=4"
+  "image": "https://avatars.githubusercontent.com/u/71727599?v=4",
+  "events": [
+    {
+      "date": "2024-02-21",
+      "type": "hn",
+      "title": "Readyset: A MySQL and Postgres wire-compatible caching layer",
+      "url": "https://news.ycombinator.com/item?id=39452024",
+      "points": 164
+    },
+    {
+      "date": "2024-02-29",
+      "type": "release",
+      "title": "stable-240229",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-240229",
+      "points": null
+    },
+    {
+      "date": "2024-03-28",
+      "type": "release",
+      "title": "stable-240328",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-240328",
+      "points": null
+    },
+    {
+      "date": "2024-04-25",
+      "type": "release",
+      "title": "stable-240425",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-240425",
+      "points": null
+    },
+    {
+      "date": "2024-05-23",
+      "type": "release",
+      "title": "stable-240523",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-240523",
+      "points": null
+    },
+    {
+      "date": "2024-06-27",
+      "type": "release",
+      "title": "stable-240627",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-240627",
+      "points": null
+    },
+    {
+      "date": "2024-07-25",
+      "type": "release",
+      "title": "stable-240725",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-240725",
+      "points": null
+    },
+    {
+      "date": "2024-08-29",
+      "type": "release",
+      "title": "stable-240829",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-240829",
+      "points": null
+    },
+    {
+      "date": "2024-09-20",
+      "type": "release",
+      "title": "stable-240919",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-240919",
+      "points": null
+    },
+    {
+      "date": "2024-10-24",
+      "type": "release",
+      "title": "stable-241024",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-241024",
+      "points": null
+    },
+    {
+      "date": "2024-12-12",
+      "type": "release",
+      "title": "stable-241212",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-241212",
+      "points": null
+    },
+    {
+      "date": "2025-01-23",
+      "type": "release",
+      "title": "stable-250123",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-250123",
+      "points": null
+    },
+    {
+      "date": "2025-02-27",
+      "type": "release",
+      "title": "stable-250227",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-250227",
+      "points": null
+    },
+    {
+      "date": "2025-03-27",
+      "type": "release",
+      "title": "stable-250327",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-250327",
+      "points": null
+    },
+    {
+      "date": "2025-04-24",
+      "type": "release",
+      "title": "stable-250424",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-250424",
+      "points": null
+    },
+    {
+      "date": "2025-05-22",
+      "type": "release",
+      "title": "stable-250522",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-250522",
+      "points": null
+    },
+    {
+      "date": "2025-06-27",
+      "type": "release",
+      "title": "stable-250627",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-250627",
+      "points": null
+    },
+    {
+      "date": "2025-07-24",
+      "type": "release",
+      "title": "stable-250724",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-250724",
+      "points": null
+    },
+    {
+      "date": "2025-08-28",
+      "type": "release",
+      "title": "stable-250828",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-250828",
+      "points": null
+    },
+    {
+      "date": "2025-09-25",
+      "type": "release",
+      "title": "stable-250925",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-250925",
+      "points": null
+    },
+    {
+      "date": "2025-10-23",
+      "type": "release",
+      "title": "stable-251023",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-251023",
+      "points": null
+    },
+    {
+      "date": "2025-12-04",
+      "type": "release",
+      "title": "stable-251204",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-251204",
+      "points": null
+    },
+    {
+      "date": "2026-01-22",
+      "type": "release",
+      "title": "stable-260122",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-260122",
+      "points": null
+    },
+    {
+      "date": "2026-02-26",
+      "type": "release",
+      "title": "stable-260226",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-260226",
+      "points": null
+    },
+    {
+      "date": "2026-03-31",
+      "type": "release",
+      "title": "stable-260331",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-260331",
+      "points": null
+    },
+    {
+      "date": "2026-04-23",
+      "type": "release",
+      "title": "stable-260423",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-260423",
+      "points": null
+    },
+    {
+      "date": "2026-05-28",
+      "type": "release",
+      "title": "stable-260528",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-260528",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "stable-260630",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-260630",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "stable-260720",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-260720",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "stable-260730",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-260730",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "stable-260827",
+      "url": "https://github.com/readysettech/readyset/releases/tag/stable-260827",
+      "points": null
+    }
+  ]
 }

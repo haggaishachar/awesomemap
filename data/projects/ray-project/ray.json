@@ -139,9 +139,221 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 43684,
-      "forks": 7990,
-      "openIssues": 3542
+      "stars": 43687,
+      "forks": 7996,
+      "openIssues": 3540
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-01-23",
+      "type": "release",
+      "title": "Ray-2.41.0",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.41.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-05",
+      "type": "release",
+      "title": "Ray-2.42.0",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.42.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-11",
+      "type": "release",
+      "title": "Ray-2.42.1",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.42.1",
+      "points": null
+    },
+    {
+      "date": "2025-02-27",
+      "type": "release",
+      "title": "Ray-2.43.0",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.43.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-21",
+      "type": "release",
+      "title": "Ray-2.44.0",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.44.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-27",
+      "type": "release",
+      "title": "Ray-2.44.1",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.44.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-29",
+      "type": "release",
+      "title": "Ray-2.45.0",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.45.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-07",
+      "type": "release",
+      "title": "Ray-2.46.0",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.46.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-12",
+      "type": "release",
+      "title": "Ray-2.47.0",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.47.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-18",
+      "type": "release",
+      "title": "Ray-2.47.1",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.47.1",
+      "points": null
+    },
+    {
+      "date": "2025-07-18",
+      "type": "release",
+      "title": "Ray-2.48.0",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.48.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-26",
+      "type": "release",
+      "title": "Ray-2.49.0",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.49.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-03",
+      "type": "release",
+      "title": "Ray-2.49.1",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.49.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-19",
+      "type": "release",
+      "title": "Ray-2.49.2",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.49.2",
+      "points": null
+    },
+    {
+      "date": "2025-10-10",
+      "type": "release",
+      "title": "Ray-2.50.0",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.50.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-18",
+      "type": "release",
+      "title": "Ray-2.50.1",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.50.1",
+      "points": null
+    },
+    {
+      "date": "2025-10-29",
+      "type": "release",
+      "title": "Ray-2.51.0",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.51.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-01",
+      "type": "release",
+      "title": "Ray-2.51.1",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.51.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-21",
+      "type": "release",
+      "title": "Ray-2.52.0",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.52.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-28",
+      "type": "release",
+      "title": "Ray-2.52.1",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.52.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-29",
+      "type": "release",
+      "title": "Ray-2.51.2",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.51.2",
+      "points": null
+    },
+    {
+      "date": "2025-12-20",
+      "type": "release",
+      "title": "Ray-2.53.0",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.53.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-18",
+      "type": "release",
+      "title": "Ray-2.54.0",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.54.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-25",
+      "type": "release",
+      "title": "Ray-2.54.1",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.54.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-15",
+      "type": "release",
+      "title": "Ray-2.55.0",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.55.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-22",
+      "type": "release",
+      "title": "Ray-2.55.1",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.55.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "Ray-2.56.0",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.56.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "Ray-2.56.1",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.56.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "Ray-2.57.0",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.57.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-23",
+      "type": "release",
+      "title": "Ray-2.58.0",
+      "url": "https://github.com/ray-project/ray/releases/tag/ray-2.58.0",
+      "points": null
     }
   ]
 }

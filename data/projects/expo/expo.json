@@ -63,9 +63,18 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 51975,
-      "forks": 13735,
-      "openIssues": 756
+      "stars": 51986,
+      "forks": 13746,
+      "openIssues": 761
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-07-26",
+      "type": "hn",
+      "title": "Expo – Open-source platform for making universal apps for Android, iOS, and web",
+      "url": "https://news.ycombinator.com/item?id=36871651",
+      "points": 235
     }
   ]
 }

@@ -13,11 +13,230 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 36732,
-      "forks": 3085,
+      "stars": 36740,
+      "forks": 3087,
       "openIssues": 2
     }
   ],
   "weight": 36695,
-  "image": "https://avatars.githubusercontent.com/u/6154722?v=4"
+  "image": "https://avatars.githubusercontent.com/u/6154722?v=4",
+  "events": [
+    {
+      "date": "2025-03-26",
+      "type": "hn",
+      "title": "Playwright Tools for MCP",
+      "url": "https://news.ycombinator.com/item?id=43485740",
+      "points": 181
+    },
+    {
+      "date": "2025-11-30",
+      "type": "release",
+      "title": "v0.0.49",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.49",
+      "points": null
+    },
+    {
+      "date": "2025-12-05",
+      "type": "release",
+      "title": "v0.0.50",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.50",
+      "points": null
+    },
+    {
+      "date": "2025-12-08",
+      "type": "release",
+      "title": "v0.0.51",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.51",
+      "points": null
+    },
+    {
+      "date": "2025-12-11",
+      "type": "release",
+      "title": "v0.0.52",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.52",
+      "points": null
+    },
+    {
+      "date": "2025-12-20",
+      "type": "release",
+      "title": "v0.0.53",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.53",
+      "points": null
+    },
+    {
+      "date": "2025-12-29",
+      "type": "release",
+      "title": "v0.0.54",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.54",
+      "points": null
+    },
+    {
+      "date": "2026-01-09",
+      "type": "release",
+      "title": "v0.0.55",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.55",
+      "points": null
+    },
+    {
+      "date": "2026-01-16",
+      "type": "release",
+      "title": "v0.0.56",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.56",
+      "points": null
+    },
+    {
+      "date": "2026-01-24",
+      "type": "release",
+      "title": "v0.0.58",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.58",
+      "points": null
+    },
+    {
+      "date": "2026-01-24",
+      "type": "release",
+      "title": "v0.0.57",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.57",
+      "points": null
+    },
+    {
+      "date": "2026-01-25",
+      "type": "release",
+      "title": "v0.0.59",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.59",
+      "points": null
+    },
+    {
+      "date": "2026-01-26",
+      "type": "release",
+      "title": "v0.0.61",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.61",
+      "points": null
+    },
+    {
+      "date": "2026-01-26",
+      "type": "release",
+      "title": "v0.0.60",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.60",
+      "points": null
+    },
+    {
+      "date": "2026-01-31",
+      "type": "release",
+      "title": "v0.0.62",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.62",
+      "points": null
+    },
+    {
+      "date": "2026-02-04",
+      "type": "release",
+      "title": "v0.0.63",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.63",
+      "points": null
+    },
+    {
+      "date": "2026-02-06",
+      "type": "release",
+      "title": "v0.0.64",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.64",
+      "points": null
+    },
+    {
+      "date": "2026-02-14",
+      "type": "release",
+      "title": "v0.0.68",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.68",
+      "points": null
+    },
+    {
+      "date": "2026-02-14",
+      "type": "release",
+      "title": "v0.0.67",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.67",
+      "points": null
+    },
+    {
+      "date": "2026-03-30",
+      "type": "release",
+      "title": "v0.0.69",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.69",
+      "points": null
+    },
+    {
+      "date": "2026-04-01",
+      "type": "release",
+      "title": "v0.0.70",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.70",
+      "points": null
+    },
+    {
+      "date": "2026-04-27",
+      "type": "release",
+      "title": "v0.0.71",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.71",
+      "points": null
+    },
+    {
+      "date": "2026-04-30",
+      "type": "release",
+      "title": "v0.0.72",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.72",
+      "points": null
+    },
+    {
+      "date": "2026-05-01",
+      "type": "release",
+      "title": "v0.0.73",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.73",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "v0.0.74",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.74",
+      "points": null
+    },
+    {
+      "date": "2026-05-07",
+      "type": "release",
+      "title": "v0.0.75",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.75",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v0.0.76",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.76",
+      "points": null
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "v0.0.77",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.77",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "v0.0.78",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.78",
+      "points": null
+    },
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "title": "v0.0.79",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.79",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "v0.0.80",
+      "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.80",
+      "points": null
+    }
+  ]
 }

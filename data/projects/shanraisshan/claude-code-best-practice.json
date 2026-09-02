@@ -4,8 +4,8 @@
   "link": "https://github.com/shanraisshan/claude-code-best-practice",
   "name": "claude-code-best-practice",
   "desc": "from vibe coding to agentic engineering - practice makes claude perfect",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "claude-code-best-practice",
+  "githubDescription": "from vibe coding to agentic engineering - practice makes claude perfect",
   "tags": [
     "agentic-ai",
     "agentic-coding",
@@ -28,6 +28,14 @@
     "pakistani-developer",
     "vibe-coding"
   ],
-  "history": [],
-  "weight": 65535
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 65555,
+      "forks": 6524,
+      "openIssues": 18
+    }
+  ],
+  "weight": 65535,
+  "events": []
 }

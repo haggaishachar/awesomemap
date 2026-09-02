@@ -25,11 +25,216 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 89885,
+      "stars": 89918,
       "forks": 10602,
-      "openIssues": 1618
+      "openIssues": 1622
     }
   ],
   "weight": 89816,
-  "image": "https://avatars.githubusercontent.com/u/69962740?v=4"
+  "image": "https://avatars.githubusercontent.com/u/69962740?v=4",
+  "events": [
+    {
+      "date": "2024-04-01",
+      "type": "hn",
+      "title": "RAGFlow is an open-source RAG engine based on OCR and document parsing",
+      "url": "https://news.ycombinator.com/item?id=39896923",
+      "points": 230
+    },
+    {
+      "date": "2025-05-23",
+      "type": "release",
+      "title": "v0.19.0",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.19.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-20",
+      "type": "release",
+      "title": "v0.19.1",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.19.1",
+      "points": null
+    },
+    {
+      "date": "2025-08-01",
+      "type": "release",
+      "title": "v0.20.0",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.20.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-08",
+      "type": "release",
+      "title": "v0.20.1",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.20.1",
+      "points": null
+    },
+    {
+      "date": "2025-08-20",
+      "type": "release",
+      "title": "v0.20.3",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.20.3",
+      "points": null
+    },
+    {
+      "date": "2025-08-27",
+      "type": "release",
+      "title": "v0.20.4",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.20.4",
+      "points": null
+    },
+    {
+      "date": "2025-09-10",
+      "type": "release",
+      "title": "v0.20.5",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.20.5",
+      "points": null
+    },
+    {
+      "date": "2025-10-15",
+      "type": "release",
+      "title": "v0.21.0",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.21.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-23",
+      "type": "release",
+      "title": "v0.21.1",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.21.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-12",
+      "type": "release",
+      "title": "v0.22.0",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.22.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-19",
+      "type": "release",
+      "title": "v0.22.1",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.22.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-27",
+      "type": "release",
+      "title": "v0.23.0",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.23.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-31",
+      "type": "release",
+      "title": "v0.23.1",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.23.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-10",
+      "type": "release",
+      "title": "v0.24.0",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.24.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-21",
+      "type": "release",
+      "title": "v0.25.0",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.25.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-30",
+      "type": "release",
+      "title": "v0.25.1",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.25.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-09",
+      "type": "release",
+      "title": "v0.25.2",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.25.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "v0.25.3",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.25.3",
+      "points": null
+    },
+    {
+      "date": "2026-05-14",
+      "type": "release",
+      "title": "v0.25.4",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.25.4",
+      "points": null
+    },
+    {
+      "date": "2026-05-20",
+      "type": "release",
+      "title": "v0.25.5",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.25.5",
+      "points": null
+    },
+    {
+      "date": "2026-05-27",
+      "type": "release",
+      "title": "v0.25.6",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.25.6",
+      "points": null
+    },
+    {
+      "date": "2026-06-11",
+      "type": "release",
+      "title": "v0.26.0",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.26.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-17",
+      "type": "release",
+      "title": "v0.26.1",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.26.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "v0.26.2",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.26.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-02",
+      "type": "release",
+      "title": "v0.26.3",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.26.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-07",
+      "type": "release",
+      "title": "v0.26.4",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.26.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "v0.27.0",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.27.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "v0.27.1",
+      "url": "https://github.com/infiniflow/ragflow/releases/tag/v0.27.1",
+      "points": null
+    }
+  ]
 }

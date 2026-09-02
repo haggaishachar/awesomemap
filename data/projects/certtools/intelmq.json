@@ -4,8 +4,8 @@
   "link": "https://github.com/certtools/intelmq",
   "name": "intelmq",
   "desc": "IntelMQ is a solution for IT security teams for collecting and processing security feeds using a message queuing protocol.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "intelmq",
+  "githubDescription": "IntelMQ is a solution for IT security teams for collecting and processing security feeds using a message queuing protocol.",
   "tags": [
     "alerts",
     "automation",
@@ -24,7 +24,191 @@
     "python",
     "threat"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1134,
+      "forks": 318,
+      "openIssues": 253
+    }
+  ],
   "weight": 1134,
-  "image": "https://avatars.githubusercontent.com/u/5830035?v=4"
+  "image": "https://avatars.githubusercontent.com/u/5830035?v=4",
+  "events": [
+    {
+      "date": "2019-05-22",
+      "type": "release",
+      "title": "2.0.0",
+      "url": "https://github.com/certtools/intelmq/releases/tag/2.0.0",
+      "points": null
+    },
+    {
+      "date": "2019-10-14",
+      "type": "release",
+      "title": "2.0.2",
+      "url": "https://github.com/certtools/intelmq/releases/tag/2.0.2",
+      "points": null
+    },
+    {
+      "date": "2019-10-14",
+      "type": "release",
+      "title": "2.0.1",
+      "url": "https://github.com/certtools/intelmq/releases/tag/2.0.1",
+      "points": null
+    },
+    {
+      "date": "2019-10-15",
+      "type": "release",
+      "title": "2.1.0",
+      "url": "https://github.com/certtools/intelmq/releases/tag/2.1.0",
+      "points": null
+    },
+    {
+      "date": "2019-11-11",
+      "type": "release",
+      "title": "2.1.1",
+      "url": "https://github.com/certtools/intelmq/releases/tag/2.1.1",
+      "points": null
+    },
+    {
+      "date": "2020-01-28",
+      "type": "release",
+      "title": "Bugfix release",
+      "url": "https://github.com/certtools/intelmq/releases/tag/2.1.2",
+      "points": null
+    },
+    {
+      "date": "2020-05-26",
+      "type": "release",
+      "title": "Bugfix release",
+      "url": "https://github.com/certtools/intelmq/releases/tag/2.1.3",
+      "points": null
+    },
+    {
+      "date": "2020-06-18",
+      "type": "release",
+      "title": "Feature Release",
+      "url": "https://github.com/certtools/intelmq/releases/tag/2.2.0",
+      "points": null
+    },
+    {
+      "date": "2020-07-30",
+      "type": "release",
+      "title": "Bugfix release",
+      "url": "https://github.com/certtools/intelmq/releases/tag/2.2.1",
+      "points": null
+    },
+    {
+      "date": "2020-10-28",
+      "type": "release",
+      "title": "2.2.2",
+      "url": "https://github.com/certtools/intelmq/releases/tag/2.2.2",
+      "points": null
+    },
+    {
+      "date": "2020-12-23",
+      "type": "release",
+      "title": "2.2.3 Bugfix release",
+      "url": "https://github.com/certtools/intelmq/releases/tag/2.2.3",
+      "points": null
+    },
+    {
+      "date": "2021-03-04",
+      "type": "release",
+      "title": "2.3.0 Feature release",
+      "url": "https://github.com/certtools/intelmq/releases/tag/2.3.0",
+      "points": null
+    },
+    {
+      "date": "2021-03-25",
+      "type": "release",
+      "title": "2.3.1 Bugfix release",
+      "url": "https://github.com/certtools/intelmq/releases/tag/2.3.1",
+      "points": null
+    },
+    {
+      "date": "2021-04-27",
+      "type": "release",
+      "title": "2.3.2 Bugfix release",
+      "url": "https://github.com/certtools/intelmq/releases/tag/2.3.2",
+      "points": null
+    },
+    {
+      "date": "2021-05-31",
+      "type": "release",
+      "title": "2.3.3 Bugfix release",
+      "url": "https://github.com/certtools/intelmq/releases/tag/2.3.3",
+      "points": null
+    },
+    {
+      "date": "2021-07-02",
+      "type": "release",
+      "title": "3.0.0 Major release",
+      "url": "https://github.com/certtools/intelmq/releases/tag/3.0.0",
+      "points": null
+    },
+    {
+      "date": "2021-09-02",
+      "type": "release",
+      "title": "3.0.1 Bugfix Release",
+      "url": "https://github.com/certtools/intelmq/releases/tag/3.0.1",
+      "points": null
+    },
+    {
+      "date": "2021-09-10",
+      "type": "release",
+      "title": "3.0.2 Bugfix release",
+      "url": "https://github.com/certtools/intelmq/releases/tag/3.0.2",
+      "points": null
+    },
+    {
+      "date": "2023-02-10",
+      "type": "release",
+      "title": "3.1.0 Feature Release",
+      "url": "https://github.com/certtools/intelmq/releases/tag/3.1.0",
+      "points": null
+    },
+    {
+      "date": "2023-07-18",
+      "type": "release",
+      "title": "3.2.0 Feature release: Running IntelMQ bots as Python Library",
+      "url": "https://github.com/certtools/intelmq/releases/tag/3.2.0",
+      "points": null
+    },
+    {
+      "date": "2023-08-28",
+      "type": "release",
+      "title": "3.2.1 Important Bugfixes",
+      "url": "https://github.com/certtools/intelmq/releases/tag/3.2.1",
+      "points": null
+    },
+    {
+      "date": "2024-03-01",
+      "type": "release",
+      "title": "3.3.0",
+      "url": "https://github.com/certtools/intelmq/releases/tag/3.3.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-03",
+      "type": "release",
+      "title": "3.3.1 Bugfix release",
+      "url": "https://github.com/certtools/intelmq/releases/tag/3.3.1",
+      "points": null
+    },
+    {
+      "date": "2025-03-14",
+      "type": "release",
+      "title": "3.4.0 Feature release",
+      "url": "https://github.com/certtools/intelmq/releases/tag/3.4.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-01",
+      "type": "release",
+      "title": "3.5.0 Feature release",
+      "url": "https://github.com/certtools/intelmq/releases/tag/3.5.0",
+      "points": null
+    }
+  ]
 }

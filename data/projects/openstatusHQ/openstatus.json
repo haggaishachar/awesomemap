@@ -4,8 +4,8 @@
   "link": "https://github.com/openstatusHQ/openstatus",
   "name": "openstatus",
   "desc": "🫖 Status page with uptime monitoring & API monitoring as code   🫖",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "openstatus",
+  "githubDescription": "🫖 Status page with uptime monitoring & API monitoring as code   🫖",
   "tags": [
     "alerting",
     "incident-management",
@@ -27,7 +27,15 @@
     "uptime-checker",
     "uptime-monitor"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 9054,
+      "forks": 760,
+      "openIssues": 72
+    }
+  ],
   "weight": 9053,
-  "image": "https://avatars.githubusercontent.com/u/136892265?v=4"
+  "image": "https://avatars.githubusercontent.com/u/136892265?v=4",
+  "events": []
 }

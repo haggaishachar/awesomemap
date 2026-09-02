@@ -4,8 +4,8 @@
   "link": "https://github.com/ITSpecialist111/ai_automation_suggester",
   "name": "ai_automation_suggester",
   "desc": "This custom Home Assistant integration automatically scans your entities, detects new devices, and uses AI (via cloud and local APIs) to suggest tailored automations. It supports multiple AI providers, including OpenAI, Anthropic, Google, Groq, Ollama and more! The integration provides automation suggestions via HASS notifications",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "ai_automation_suggester",
+  "githubDescription": "This custom Home Assistant integration automatically scans your entities, detects new devices, and uses AI (via cloud and local APIs) to suggest tailored automations. It supports multiple AI providers, including OpenAI, Anthropic, Google, Groq, Ollama and more! The integration provides automation suggestions via HASS notifications",
   "tags": [
     "ai",
     "automatic-suggestions",
@@ -14,6 +14,225 @@
     "home-assistant",
     "suggester"
   ],
-  "history": [],
-  "weight": 775
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 775,
+      "forks": 43,
+      "openIssues": 11
+    }
+  ],
+  "weight": 775,
+  "events": [
+    {
+      "date": "2024-12-07",
+      "type": "release",
+      "title": "V1.1.4 Release",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/1.1.4",
+      "points": null
+    },
+    {
+      "date": "2024-12-15",
+      "type": "release",
+      "title": "1.2.0 - AI Automation Enhancement Release - Please Read!",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/1.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-05",
+      "type": "release",
+      "title": "AI Automation Suggester 1.2.1",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/1.2.1",
+      "points": null
+    },
+    {
+      "date": "2025-03-08",
+      "type": "release",
+      "title": "1.2.4",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/1.2.4",
+      "points": null
+    },
+    {
+      "date": "2025-03-08",
+      "type": "release",
+      "title": "Version 1.2.3",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/1.2.3",
+      "points": null
+    },
+    {
+      "date": "2025-03-08",
+      "type": "release",
+      "title": "1.2.2",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/1.2.2",
+      "points": null
+    },
+    {
+      "date": "2025-03-09",
+      "type": "release",
+      "title": "1.2.6",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/1.2.6",
+      "points": null
+    },
+    {
+      "date": "2025-03-09",
+      "type": "release",
+      "title": "1.2.5",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/1.2.5",
+      "points": null
+    },
+    {
+      "date": "2025-04-17",
+      "type": "release",
+      "title": "Version 1.2.7 - Release Notes",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/1.2.7",
+      "points": null
+    },
+    {
+      "date": "2025-04-21",
+      "type": "release",
+      "title": "Version 1.3.0",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/1.3.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-21",
+      "type": "release",
+      "title": "1.2.9",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/1.2.9",
+      "points": null
+    },
+    {
+      "date": "2025-04-21",
+      "type": "release",
+      "title": "1.2.8",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/1.2.8",
+      "points": null
+    },
+    {
+      "date": "2025-04-26",
+      "type": "release",
+      "title": "v1.3.1",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/1.3.1",
+      "points": null
+    },
+    {
+      "date": "2025-05-03",
+      "type": "release",
+      "title": "AI Automation Suggester — v1.3.3",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/1.3.3",
+      "points": null
+    },
+    {
+      "date": "2025-05-03",
+      "type": "release",
+      "title": "Version 1.3.2 Release Notes",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/1.3.2",
+      "points": null
+    },
+    {
+      "date": "2025-05-24",
+      "type": "release",
+      "title": "🚀 Release Notes – Version 1.3.4",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/1.3.4",
+      "points": null
+    },
+    {
+      "date": "2025-06-07",
+      "type": "release",
+      "title": "Version 1.3.5 - Release Notes",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/1.3.5",
+      "points": null
+    },
+    {
+      "date": "2025-06-20",
+      "type": "release",
+      "title": "AI Automation Suggester — v1.4.0 Release Notes",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/1.4.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-13",
+      "type": "release",
+      "title": "🚀 Release 1.4.1 ",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/1.4.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-12",
+      "type": "release",
+      "title": "Release Notes for Version 1.4.2",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/1.4.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-03",
+      "type": "release",
+      "title": "AI Automation Suggester 1.5.6",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/v1.5.6",
+      "points": null
+    },
+    {
+      "date": "2026-05-03",
+      "type": "release",
+      "title": "AI Automation Suggester 1.5.5",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/v1.5.5",
+      "points": null
+    },
+    {
+      "date": "2026-05-03",
+      "type": "release",
+      "title": "AI Automation Suggester 1.5.4",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/v1.5.4",
+      "points": null
+    },
+    {
+      "date": "2026-05-03",
+      "type": "release",
+      "title": "v1.5.3",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/v1.5.3",
+      "points": null
+    },
+    {
+      "date": "2026-05-03",
+      "type": "release",
+      "title": "AI Automation Suggester 1.5.2",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/v1.5.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-03",
+      "type": "release",
+      "title": "AI Automation Suggester 1.5.1",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/v1.5.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-03",
+      "type": "release",
+      "title": "AI Automation Suggester 1.5.0",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/v1.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "v1.5.7",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/v1.5.7",
+      "points": null
+    },
+    {
+      "date": "2026-07-04",
+      "type": "release",
+      "title": "v1.5.9 — Requesty provider, script reading, Polish translations",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/v1.5.9",
+      "points": null
+    },
+    {
+      "date": "2026-07-11",
+      "type": "release",
+      "title": "AI Automation Suggester 1.5.10",
+      "url": "https://github.com/ITSpecialist111/ai_automation_suggester/releases/tag/v1.5.10",
+      "points": null
+    }
+  ]
 }

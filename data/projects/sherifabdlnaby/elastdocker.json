@@ -26,5 +26,175 @@
       "openIssues": 4
     }
   ],
-  "weight": 2068
+  "weight": 2068,
+  "events": [
+    {
+      "date": "2019-09-29",
+      "type": "release",
+      "title": "Initial Release",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v1.0.0",
+      "points": null
+    },
+    {
+      "date": "2019-09-30",
+      "type": "release",
+      "title": "Default Stack Version 7.3.0 => 7.4.0 ⬆️",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v1.1.0",
+      "points": null
+    },
+    {
+      "date": "2019-11-17",
+      "type": "release",
+      "title": "Default Stack Version `7.4.0` => `7.4.2` ⬆️",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v1.2.0",
+      "points": null
+    },
+    {
+      "date": "2019-12-11",
+      "type": "release",
+      "title": "Default Stack Version `7.4.2` => `7.5.0` ⬆️",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v1.3.0",
+      "points": null
+    },
+    {
+      "date": "2019-12-16",
+      "type": "release",
+      "title": "HTTPS enabled for Kibana + use PEM instead of PKCS12 certs.",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v1.4.0",
+      "points": null
+    },
+    {
+      "date": "2020-01-07",
+      "type": "release",
+      "title": "Default Stack Version `7.5.0` => `7.5.1` ⬆️",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v1.5.0",
+      "points": null
+    },
+    {
+      "date": "2020-02-14",
+      "type": "release",
+      "title": " Default Stack Version `7.5.1` => `7.6.0` ⬆️ ",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v1.6.0",
+      "points": null
+    },
+    {
+      "date": "2020-04-07",
+      "type": "release",
+      "title": "Add Rubban to Elastic Stack Tools + Upgrade ELK to `7.6.2` ",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v1.10.0",
+      "points": null
+    },
+    {
+      "date": "2020-06-30",
+      "type": "release",
+      "title": "Elastic Stack Version 7.8.0",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v1.12.1",
+      "points": null
+    },
+    {
+      "date": "2020-09-21",
+      "type": "release",
+      "title": "Updated to Latest ELK 7.9.1 + Docker Swarm Support",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v1.15.0",
+      "points": null
+    },
+    {
+      "date": "2020-12-22",
+      "type": "release",
+      "title": "Updated to Latest ELK 7.10.1",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v1.17.1",
+      "points": null
+    },
+    {
+      "date": "2021-02-23",
+      "type": "release",
+      "title": "Updated to Latest ELK 7.11.1",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v1.18.0",
+      "points": null
+    },
+    {
+      "date": "2021-04-17",
+      "type": "release",
+      "title": "Updated to Latest ELK 7.12.0",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v1.19.0",
+      "points": null
+    },
+    {
+      "date": "2021-12-25",
+      "type": "release",
+      "title": "Release `v2.0.0` 🚀",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v2.0.0",
+      "points": null
+    },
+    {
+      "date": "2022-01-01",
+      "type": "release",
+      "title": "Release `v2.0.1` 🚀 - Log4Shell Mitigation",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v2.0.1",
+      "points": null
+    },
+    {
+      "date": "2022-02-25",
+      "type": "release",
+      "title": "v2.1.0 🚀",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v2.1.0",
+      "points": null
+    },
+    {
+      "date": "2022-03-03",
+      "type": "release",
+      "title": "ELK Major Version 8.0 Upgrade - v3.0.0 🚀",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2022-05-24",
+      "type": "release",
+      "title": "v3.1.0 🚀",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v3.1.0",
+      "points": null
+    },
+    {
+      "date": "2022-07-09",
+      "type": "release",
+      "title": "v3.1.1 🚀",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v3.1.1",
+      "points": null
+    },
+    {
+      "date": "2022-11-23",
+      "type": "release",
+      "title": "v3.2.0 🚀",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v3.2.0",
+      "points": null
+    },
+    {
+      "date": "2023-03-20",
+      "type": "release",
+      "title": "v3.2.1 🚀",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v3.2.1",
+      "points": null
+    },
+    {
+      "date": "2023-09-28",
+      "type": "release",
+      "title": "v3.2.2 🚀",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v3.2.2",
+      "points": null
+    },
+    {
+      "date": "2026-01-03",
+      "type": "release",
+      "title": "v4.0.0 🚀",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v4.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-21",
+      "type": "release",
+      "title": "v4.1.0 🚀",
+      "url": "https://github.com/sherifabdlnaby/elastdocker/releases/tag/v4.1.0",
+      "points": null
+    }
+  ]
 }

@@ -128,9 +128,53 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 89565,
-      "forks": 34213,
-      "openIssues": 484
+      "stars": 89567,
+      "forks": 34217,
+      "openIssues": 480
+    }
+  ],
+  "events": [
+    {
+      "date": "2012-04-28",
+      "type": "hn",
+      "title": "Django is now (officially) on GitHub",
+      "url": "https://news.ycombinator.com/item?id=3902170",
+      "points": 276
+    },
+    {
+      "date": "2013-08-23",
+      "type": "hn",
+      "title": "Schema migrations merged into Django master",
+      "url": "https://news.ycombinator.com/item?id=6262922",
+      "points": 394
+    },
+    {
+      "date": "2014-05-26",
+      "type": "hn",
+      "title": "Replaced occurrences of master/slave terminology with leader/follower",
+      "url": "https://news.ycombinator.com/item?id=7801646",
+      "points": 102
+    },
+    {
+      "date": "2017-01-19",
+      "type": "hn",
+      "title": "Removing Python 2.x support from Django for version 2.0",
+      "url": "https://news.ycombinator.com/item?id=13433927",
+      "points": 720
+    },
+    {
+      "date": "2021-09-17",
+      "type": "hn",
+      "title": "Django 4.0 will include a built-in Redis cache back end",
+      "url": "https://news.ycombinator.com/item?id=28566044",
+      "points": 130
+    },
+    {
+      "date": "2022-02-08",
+      "type": "hn",
+      "title": "Django: Reformatted code with Black",
+      "url": "https://news.ycombinator.com/item?id=30258530",
+      "points": 284
     }
   ]
 }

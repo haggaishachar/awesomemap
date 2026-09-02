@@ -40,7 +40,219 @@
       "date": "2026-09-02",
       "stars": 1196,
       "forks": 97,
-      "openIssues": 63
+      "openIssues": 50
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-03-23",
+      "type": "release",
+      "title": "v2.0.0",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v2.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-24",
+      "type": "release",
+      "title": "v2.0.1",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v2.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-03-25",
+      "type": "release",
+      "title": "v2.1.0",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v2.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-26",
+      "type": "release",
+      "title": "v2.1.2",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v2.1.2",
+      "points": null
+    },
+    {
+      "date": "2025-03-26",
+      "type": "release",
+      "title": "v2.1.1",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v2.1.1",
+      "points": null
+    },
+    {
+      "date": "2025-03-28",
+      "type": "release",
+      "title": "v2.2.0",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v2.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-29",
+      "type": "release",
+      "title": "v2.2.1",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v2.2.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-02",
+      "type": "release",
+      "title": "v2.3.0",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v2.3.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-03",
+      "type": "release",
+      "title": "v2.3.1",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v2.3.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-07",
+      "type": "release",
+      "title": "v2.4.0",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v2.4.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-08",
+      "type": "release",
+      "title": "v2.4.1",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v2.4.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-13",
+      "type": "release",
+      "title": "v2.4.2",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v2.4.2",
+      "points": null
+    },
+    {
+      "date": "2025-04-15",
+      "type": "release",
+      "title": "v2.4.3",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v2.4.3",
+      "points": null
+    },
+    {
+      "date": "2025-04-17",
+      "type": "release",
+      "title": "v2.4.4",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v2.4.4",
+      "points": null
+    },
+    {
+      "date": "2025-04-20",
+      "type": "release",
+      "title": "v2.4.5",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v2.4.5",
+      "points": null
+    },
+    {
+      "date": "2025-05-04",
+      "type": "release",
+      "title": "v3.0.0",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-05",
+      "type": "release",
+      "title": "v3.0.2",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v3.0.2",
+      "points": null
+    },
+    {
+      "date": "2025-05-05",
+      "type": "release",
+      "title": "v3.0.1",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v3.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-05-09",
+      "type": "release",
+      "title": "v3.0.3",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v3.0.3",
+      "points": null
+    },
+    {
+      "date": "2025-05-13",
+      "type": "release",
+      "title": "v3.0.4",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v3.0.4",
+      "points": null
+    },
+    {
+      "date": "2025-05-18",
+      "type": "release",
+      "title": "v3.0.5",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v3.0.5",
+      "points": null
+    },
+    {
+      "date": "2025-05-23",
+      "type": "release",
+      "title": "v3.0.6",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v3.0.6",
+      "points": null
+    },
+    {
+      "date": "2025-06-22",
+      "type": "release",
+      "title": "v3.1.0",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v3.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-27",
+      "type": "release",
+      "title": "v3.2.0",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v3.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "v3.3.0",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v3.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-08",
+      "type": "release",
+      "title": "v3.4.0",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v3.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "title": "v3.5.0",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v3.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "v3.6.0",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v3.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "v4.0.0",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v4.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "v4.1.0",
+      "url": "https://github.com/alexpfau/calendar-card-pro/releases/tag/v4.1.0",
+      "points": null
     }
   ]
 }

@@ -20,11 +20,118 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 26057,
-      "forks": 2141,
-      "openIssues": 443
+      "stars": 26056,
+      "forks": 2142,
+      "openIssues": 437
     }
   ],
   "weight": 26055,
-  "image": "https://avatars.githubusercontent.com/u/51932459?v=4"
+  "image": "https://avatars.githubusercontent.com/u/51932459?v=4",
+  "events": [
+    {
+      "date": "2021-08-22",
+      "type": "hn",
+      "title": "Project includes a dependancy that has a license that forbids its use",
+      "url": "https://news.ycombinator.com/item?id=28263721",
+      "points": 213
+    },
+    {
+      "date": "2026-05-28",
+      "type": "release",
+      "title": "Dapr Runtime v1.17.8",
+      "url": "https://github.com/dapr/dapr/releases/tag/v1.17.8",
+      "points": null
+    },
+    {
+      "date": "2026-06-01",
+      "type": "release",
+      "title": "Dapr Runtime v1.17.9",
+      "url": "https://github.com/dapr/dapr/releases/tag/v1.17.9",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "Dapr Runtime v1.18.0",
+      "url": "https://github.com/dapr/dapr/releases/tag/v1.18.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-11",
+      "type": "release",
+      "title": "Dapr Runtime v1.16.15",
+      "url": "https://github.com/dapr/dapr/releases/tag/v1.16.15",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "Dapr Runtime v1.16.16",
+      "url": "https://github.com/dapr/dapr/releases/tag/v1.16.16",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "Dapr Runtime v1.17.10",
+      "url": "https://github.com/dapr/dapr/releases/tag/v1.17.10",
+      "points": null
+    },
+    {
+      "date": "2026-06-16",
+      "type": "release",
+      "title": "Dapr Runtime v1.18.1",
+      "url": "https://github.com/dapr/dapr/releases/tag/v1.18.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "title": "Dapr Runtime v1.16.17",
+      "url": "https://github.com/dapr/dapr/releases/tag/v1.16.17",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "Dapr Runtime v1.17.11",
+      "url": "https://github.com/dapr/dapr/releases/tag/v1.17.11",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "Dapr Runtime v1.18.2",
+      "url": "https://github.com/dapr/dapr/releases/tag/v1.18.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "title": "Dapr Runtime v1.17.12",
+      "url": "https://github.com/dapr/dapr/releases/tag/v1.17.12",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "Dapr Runtime v1.18.3",
+      "url": "https://github.com/dapr/dapr/releases/tag/v1.18.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "Dapr Runtime v1.17.13",
+      "url": "https://github.com/dapr/dapr/releases/tag/v1.17.13",
+      "points": null
+    },
+    {
+      "date": "2026-08-15",
+      "type": "release",
+      "title": "Dapr Runtime v1.16.19",
+      "url": "https://github.com/dapr/dapr/releases/tag/v1.16.19",
+      "points": null
+    }
+  ]
 }

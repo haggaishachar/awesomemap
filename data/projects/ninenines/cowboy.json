@@ -4,8 +4,8 @@
   "link": "https://github.com/ninenines/cowboy",
   "name": "cowboy",
   "desc": "Small, fast, modern HTTP server for Erlang/OTP.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "cowboy",
+  "githubDescription": "Small, fast, modern HTTP server for Erlang/OTP.",
   "tags": [
     "cowboy",
     "erlang",
@@ -27,7 +27,15 @@
     "websockets",
     "webtransport"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 7524,
+      "forks": 1171,
+      "openIssues": 65
+    }
+  ],
   "weight": 7524,
-  "image": "https://avatars.githubusercontent.com/u/1166740?v=4"
+  "image": "https://avatars.githubusercontent.com/u/1166740?v=4",
+  "events": []
 }

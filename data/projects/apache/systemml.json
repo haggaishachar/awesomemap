@@ -4,15 +4,101 @@
   "link": "https://github.com/apache/systemml",
   "name": "systemml",
   "desc": "An open source ML system for the end-to-end data science lifecycle",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "systemds",
+  "githubDescription": "An open source ML system for the end-to-end data science lifecycle",
   "tags": [
     "dml",
     "java",
     "python",
     "systemds"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1097,
+      "forks": 546,
+      "openIssues": 92
+    }
+  ],
   "weight": 1097,
-  "image": "https://avatars.githubusercontent.com/u/47359?v=4"
+  "image": "https://avatars.githubusercontent.com/u/47359?v=4",
+  "events": [
+    {
+      "date": "2020-09-30",
+      "type": "release",
+      "title": "v2.0.0-rc2",
+      "url": "https://github.com/apache/systemds/releases/tag/v2.0.0-rc2",
+      "points": null
+    },
+    {
+      "date": "2020-10-07",
+      "type": "release",
+      "title": "v2.0.0-rc3",
+      "url": "https://github.com/apache/systemds/releases/tag/v2.0.0-rc3",
+      "points": null
+    },
+    {
+      "date": "2021-07-06",
+      "type": "release",
+      "title": "2.1.0-rc3",
+      "url": "https://github.com/apache/systemds/releases/tag/2.1.0-rc3",
+      "points": null
+    },
+    {
+      "date": "2021-11-02",
+      "type": "release",
+      "title": "Release 2.2.0",
+      "url": "https://github.com/apache/systemds/releases/tag/2.2.0-rc1",
+      "points": null
+    },
+    {
+      "date": "2021-12-07",
+      "type": "release",
+      "title": "Release 2.2.1",
+      "url": "https://github.com/apache/systemds/releases/tag/2.2.1-rc3",
+      "points": null
+    },
+    {
+      "date": "2022-06-26",
+      "type": "release",
+      "title": "3.0.0",
+      "url": "https://github.com/apache/systemds/releases/tag/3.0.0-rc2",
+      "points": null
+    },
+    {
+      "date": "2022-06-26",
+      "type": "release",
+      "title": "2.2.2",
+      "url": "https://github.com/apache/systemds/releases/tag/2.2.2-rc1",
+      "points": null
+    },
+    {
+      "date": "2023-03-16",
+      "type": "release",
+      "title": "3.1.0",
+      "url": "https://github.com/apache/systemds/releases/tag/3.1.0-rc1",
+      "points": null
+    },
+    {
+      "date": "2024-03-23",
+      "type": "release",
+      "title": "3.2.0",
+      "url": "https://github.com/apache/systemds/releases/tag/3.2.0-rc2",
+      "points": null
+    },
+    {
+      "date": "2025-04-27",
+      "type": "release",
+      "title": "3.3.0",
+      "url": "https://github.com/apache/systemds/releases/tag/3.3.0-rc1",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "3.4.0",
+      "url": "https://github.com/apache/systemds/releases/tag/3.4.0-rc2",
+      "points": null
+    }
+  ]
 }

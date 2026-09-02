@@ -15,11 +15,209 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 30519,
-      "forks": 3098,
-      "openIssues": 477
+      "stars": 30529,
+      "forks": 3099,
+      "openIssues": 481
     }
   ],
   "weight": 30485,
-  "image": "https://avatars.githubusercontent.com/u/132832125?v=4"
+  "image": "https://avatars.githubusercontent.com/u/132832125?v=4",
+  "events": [
+    {
+      "date": "2024-09-04",
+      "type": "hn",
+      "title": "Show HN: Graphiti – LLM-Powered Temporal Knowledge Graphs",
+      "url": "https://news.ycombinator.com/item?id=41445445",
+      "points": 142
+    },
+    {
+      "date": "2025-11-09",
+      "type": "release",
+      "title": "v0.23.1 - FalkorDB: Fix entity edge save",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.23.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-14",
+      "type": "release",
+      "title": "v0.24.0 - Improved GenericOpenAI, Azure OpenAI, and Anthropic Support",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.24.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-18",
+      "type": "release",
+      "title": "v0.24.1 - minor changes",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.24.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-04",
+      "type": "release",
+      "title": "v0.24.2 - language prompt update",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.24.2",
+      "points": null
+    },
+    {
+      "date": "2025-12-08",
+      "type": "release",
+      "title": "v0.24.3 - property filters",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.24.3",
+      "points": null
+    },
+    {
+      "date": "2025-12-24",
+      "type": "release",
+      "title": "v0.25.0 - graph improvements and custom prompts",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.25.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-07",
+      "type": "release",
+      "title": "v0.25.3 - Fix entity extraction for large episode inputs with adaptive chunking",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.25.3",
+      "points": null
+    },
+    {
+      "date": "2026-01-07",
+      "type": "release",
+      "title": "v0.25.2 - date filter updates",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.25.2",
+      "points": null
+    },
+    {
+      "date": "2026-01-07",
+      "type": "release",
+      "title": "v0.25.1 - add_triplet bug fixes",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.25.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-12",
+      "type": "release",
+      "title": "v0.25.4 - update custom instructions",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.25.4",
+      "points": null
+    },
+    {
+      "date": "2026-01-13",
+      "type": "release",
+      "title": "v0.25.5 - edge chunking with large numbers of nodes",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.25.5",
+      "points": null
+    },
+    {
+      "date": "2026-01-16",
+      "type": "release",
+      "title": "v0.26.0 - New support of Sagas and Custom Instructions",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.26.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-21",
+      "type": "release",
+      "title": "v0.26.2",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.26.2",
+      "points": null
+    },
+    {
+      "date": "2026-01-21",
+      "type": "release",
+      "title": "v0.26.1 - GraphOperationsInterface update",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.26.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-22",
+      "type": "release",
+      "title": "v0.26.3 - update GraphOperationsInterface",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.26.3",
+      "points": null
+    },
+    {
+      "date": "2026-02-11",
+      "type": "release",
+      "title": "v0.27.0 - efficiency gains",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.27.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-12",
+      "type": "release",
+      "title": "v0.27.1 - fix duplicate info appearing in summaries",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.27.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-17",
+      "type": "release",
+      "title": "v0.28.0 - Update GraphDriver Integrations",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.28.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-19",
+      "type": "release",
+      "title": "v0.28.1 - remove diskcache",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.28.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-11",
+      "type": "release",
+      "title": "v0.28.2 - SECURITY: Harden Search Filters Against Cypher Injection",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.28.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-11",
+      "type": "release",
+      "title": "mcp-v1.0.2 - Security: Require graphiti-core>=0.28.2",
+      "url": "https://github.com/getzep/graphiti/releases/tag/mcp-v1.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-27",
+      "type": "release",
+      "title": "v0.29.0 - Major efficiency and Internal Architecture changes",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.29.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-21",
+      "type": "release",
+      "title": "v0.29.1 - Optimizations and Efficiencies",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.29.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-08",
+      "type": "release",
+      "title": "v0.29.2 - FalkorDB Bug Fixes",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.29.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-27",
+      "type": "release",
+      "title": "v0.29.3 - FalkorDB and other Optimizations",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.29.3",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "v0.30.1 - Neo4j Custom Database Fix, Search Fixes and Other Miscellaneous Fixes",
+      "url": "https://github.com/getzep/graphiti/releases/tag/v0.30.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "mcp-v1.1.0 - Neo4j Custom Database Fix",
+      "url": "https://github.com/getzep/graphiti/releases/tag/mcp-v1.1.0",
+      "points": null
+    }
+  ]
 }

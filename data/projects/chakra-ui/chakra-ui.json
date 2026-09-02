@@ -135,9 +135,221 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 40613,
+      "stars": 40615,
       "forks": 3640,
       "openIssues": 14
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-02-11",
+      "type": "release",
+      "title": "@chakra-ui/react@3.33.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/react%403.33.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-11",
+      "type": "release",
+      "title": "@chakra-ui/panda-preset@3.33.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/panda-preset%403.33.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-11",
+      "type": "release",
+      "title": "@chakra-ui/codemod@3.33.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/codemod%403.33.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-11",
+      "type": "release",
+      "title": "@chakra-ui/cli@3.33.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/cli%403.33.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-11",
+      "type": "release",
+      "title": "@chakra-ui/charts@3.33.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/charts%403.33.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-03",
+      "type": "release",
+      "title": "@chakra-ui/react@3.34.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/react%403.34.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-03",
+      "type": "release",
+      "title": "@chakra-ui/panda-preset@3.34.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/panda-preset%403.34.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-03",
+      "type": "release",
+      "title": "@chakra-ui/codemod@3.34.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/codemod%403.34.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-03",
+      "type": "release",
+      "title": "@chakra-ui/cli@3.34.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/cli%403.34.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-03",
+      "type": "release",
+      "title": "@chakra-ui/charts@3.34.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/charts%403.34.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-22",
+      "type": "release",
+      "title": "@chakra-ui/react@3.35.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/react%403.35.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-22",
+      "type": "release",
+      "title": "@chakra-ui/panda-preset@3.35.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/panda-preset%403.35.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-22",
+      "type": "release",
+      "title": "@chakra-ui/codemod@3.35.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/codemod%403.35.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-22",
+      "type": "release",
+      "title": "@chakra-ui/cli@3.35.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/cli%403.35.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-22",
+      "type": "release",
+      "title": "@chakra-ui/charts@3.35.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/charts%403.35.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "@chakra-ui/react@3.36.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/react%403.36.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "@chakra-ui/panda-preset@3.36.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/panda-preset%403.36.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "@chakra-ui/codemod@3.36.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/codemod%403.36.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "@chakra-ui/cli@3.36.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/cli%403.36.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "@chakra-ui/charts@3.36.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/charts%403.36.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-19",
+      "type": "release",
+      "title": "@chakra-ui/react@3.36.1",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/react%403.36.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-19",
+      "type": "release",
+      "title": "@chakra-ui/panda-preset@3.36.1",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/panda-preset%403.36.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-19",
+      "type": "release",
+      "title": "@chakra-ui/codemod@3.36.1",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/codemod%403.36.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-19",
+      "type": "release",
+      "title": "@chakra-ui/cli@3.36.1",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/cli%403.36.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-19",
+      "type": "release",
+      "title": "@chakra-ui/charts@3.36.1",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/charts%403.36.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "@chakra-ui/react@3.37.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/react%403.37.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "@chakra-ui/panda-preset@3.37.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/panda-preset%403.37.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "@chakra-ui/codemod@3.37.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/codemod%403.37.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "@chakra-ui/cli@3.37.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/cli%403.37.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "@chakra-ui/charts@3.37.0",
+      "url": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui/charts%403.37.0",
+      "points": null
     }
   ]
 }

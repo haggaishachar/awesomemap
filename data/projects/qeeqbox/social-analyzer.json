@@ -30,11 +30,20 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 23918,
-      "forks": 2300,
+      "stars": 23926,
+      "forks": 2301,
       "openIssues": 27
     }
   ],
   "weight": 23911,
-  "image": "https://avatars.githubusercontent.com/u/54420737?v=4"
+  "image": "https://avatars.githubusercontent.com/u/54420737?v=4",
+  "events": [
+    {
+      "date": "2021-02-21",
+      "type": "hn",
+      "title": "Find a person's profile across 350 social media sites",
+      "url": "https://news.ycombinator.com/item?id=26213554",
+      "points": 413
+    }
+  ]
 }

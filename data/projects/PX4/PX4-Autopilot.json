@@ -86,9 +86,95 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 12529,
+      "stars": 12534,
       "forks": 15952,
-      "openIssues": 333
+      "openIssues": 336
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-05-24",
+      "type": "release",
+      "title": "v1.14.3 Stable Release",
+      "url": "https://github.com/PX4/PX4-Autopilot/releases/tag/v1.14.3",
+      "points": null
+    },
+    {
+      "date": "2024-08-28",
+      "type": "release",
+      "title": "v1.14.2 Stable Release",
+      "url": "https://github.com/PX4/PX4-Autopilot/releases/tag/v1.14.2",
+      "points": null
+    },
+    {
+      "date": "2024-09-18",
+      "type": "release",
+      "title": "v1.15.0 - Stable Release",
+      "url": "https://github.com/PX4/PX4-Autopilot/releases/tag/v1.15.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-25",
+      "type": "release",
+      "title": "v1.14.4 Stable Release",
+      "url": "https://github.com/PX4/PX4-Autopilot/releases/tag/v1.14.4",
+      "points": null
+    },
+    {
+      "date": "2024-11-06",
+      "type": "release",
+      "title": "v1.15.1 - Stable Release",
+      "url": "https://github.com/PX4/PX4-Autopilot/releases/tag/v1.15.1",
+      "points": null
+    },
+    {
+      "date": "2024-11-20",
+      "type": "release",
+      "title": "v1.15.2 - Stable Release",
+      "url": "https://github.com/PX4/PX4-Autopilot/releases/tag/v1.15.2",
+      "points": null
+    },
+    {
+      "date": "2025-02-12",
+      "type": "release",
+      "title": "v1.15.4 - Stable Release",
+      "url": "https://github.com/PX4/PX4-Autopilot/releases/tag/v1.15.4",
+      "points": null
+    },
+    {
+      "date": "2025-04-18",
+      "type": "release",
+      "title": "v1.15.3 - Stable Release ",
+      "url": "https://github.com/PX4/PX4-Autopilot/releases/tag/v1.15.3",
+      "points": null
+    },
+    {
+      "date": "2025-08-06",
+      "type": "release",
+      "title": "v1.16.0 - Stable Release",
+      "url": "https://github.com/PX4/PX4-Autopilot/releases/tag/v1.16.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-21",
+      "type": "release",
+      "title": "v1.16.1 - Stable Release",
+      "url": "https://github.com/PX4/PX4-Autopilot/releases/tag/v1.16.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-22",
+      "type": "release",
+      "title": "v1.16.2 - Stable Release",
+      "url": "https://github.com/PX4/PX4-Autopilot/releases/tag/v1.16.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "v1.17.0 - Stable Release",
+      "url": "https://github.com/PX4/PX4-Autopilot/releases/tag/v1.17.0",
+      "points": null
     }
   ]
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/wxt-dev/wxt",
   "name": "wxt",
   "desc": "⚡ Next-gen Web Extension Framework",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "wxt",
+  "githubDescription": "⚡ Next-gen Web Extension Framework",
   "tags": [
     "build-tool",
     "chrome-extensions",
@@ -13,7 +13,226 @@
     "hmr",
     "wxt"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 10442,
+      "forks": 560,
+      "openIssues": 201
+    }
+  ],
   "weight": 10442,
-  "image": "https://avatars.githubusercontent.com/u/144182268?v=4"
+  "image": "https://avatars.githubusercontent.com/u/144182268?v=4",
+  "events": [
+    {
+      "date": "2026-02-22",
+      "type": "release",
+      "title": "wxt v0.20.18",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/wxt-v0.20.18",
+      "points": null
+    },
+    {
+      "date": "2026-02-22",
+      "type": "release",
+      "title": "@wxt-dev/storage v1.2.8",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/storage-v1.2.8",
+      "points": null
+    },
+    {
+      "date": "2026-02-22",
+      "type": "release",
+      "title": "@wxt-dev/is-background v1.0.0",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/is-background-v1.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-22",
+      "type": "release",
+      "title": "@wxt-dev/i18n v0.2.5",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/i18n-v0.2.5",
+      "points": null
+    },
+    {
+      "date": "2026-03-06",
+      "type": "release",
+      "title": "@wxt-dev/module-react v1.2.1",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/module-react-v1.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-06",
+      "type": "release",
+      "title": "@wxt-dev/module-react v1.2.0",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/module-react-v1.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-14",
+      "type": "release",
+      "title": "wxt v0.20.19",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/wxt-v0.20.19",
+      "points": null
+    },
+    {
+      "date": "2026-03-14",
+      "type": "release",
+      "title": "@wxt-dev/module-react v1.2.2",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/module-react-v1.2.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-17",
+      "type": "release",
+      "title": "wxt v0.20.20",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/wxt-v0.20.20",
+      "points": null
+    },
+    {
+      "date": "2026-03-19",
+      "type": "release",
+      "title": "@wxt-dev/module-svelte v2.0.5",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/module-svelte-v2.0.5",
+      "points": null
+    },
+    {
+      "date": "2026-04-13",
+      "type": "release",
+      "title": "wxt v0.20.21",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/wxt-v0.20.21",
+      "points": null
+    },
+    {
+      "date": "2026-04-14",
+      "type": "release",
+      "title": "wxt v0.20.22",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/wxt-v0.20.22",
+      "points": null
+    },
+    {
+      "date": "2026-04-16",
+      "type": "release",
+      "title": "wxt v0.20.23",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/wxt-v0.20.23",
+      "points": null
+    },
+    {
+      "date": "2026-04-17",
+      "type": "release",
+      "title": "wxt v0.20.24",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/wxt-v0.20.24",
+      "points": null
+    },
+    {
+      "date": "2026-04-18",
+      "type": "release",
+      "title": "wxt v0.20.25",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/wxt-v0.20.25",
+      "points": null
+    },
+    {
+      "date": "2026-05-11",
+      "type": "release",
+      "title": "wxt v0.20.26",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/wxt-v0.20.26",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "wxt v0.20.27",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/wxt-v0.20.27",
+      "points": null
+    },
+    {
+      "date": "2026-06-30",
+      "type": "release",
+      "title": "@wxt-dev/i18n v0.2.6",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/i18n-v0.2.6",
+      "points": null
+    },
+    {
+      "date": "2026-06-30",
+      "type": "release",
+      "title": "@wxt-dev/analytics v0.5.5",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/analytics-v0.5.5",
+      "points": null
+    },
+    {
+      "date": "2026-07-26",
+      "type": "release",
+      "title": "wxt v0.21.0",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/wxt-v0.21.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "wxt v0.21.2",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/wxt-v0.21.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "wxt v0.21.1",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/wxt-v0.21.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "wxt v0.21.3",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/wxt-v0.21.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "@wxt-dev/storage v1.2.9",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/storage-v1.2.9",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "@wxt-dev/is-background v1.0.1",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/is-background-v1.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "@wxt-dev/i18n v0.2.7",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/i18n-v0.2.7",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "@wxt-dev/analytics v0.5.6",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/analytics-v0.5.6",
+      "points": null
+    },
+    {
+      "date": "2026-08-02",
+      "type": "release",
+      "title": "@wxt-dev/auto-icons v1.1.2",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/auto-icons-v1.1.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "wxt v0.21.4",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/wxt-v0.21.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "@wxt-dev/runner v0.1.3",
+      "url": "https://github.com/wxt-dev/wxt/releases/tag/runner-v0.1.3",
+      "points": null
+    }
+  ]
 }

@@ -35,5 +35,217 @@
     }
   ],
   "weight": 2407,
-  "image": "https://avatars.githubusercontent.com/u/118160501?v=4"
+  "image": "https://avatars.githubusercontent.com/u/118160501?v=4",
+  "events": [
+    {
+      "date": "2024-03-15",
+      "type": "release",
+      "title": "v0.8.1 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.8.1",
+      "points": null
+    },
+    {
+      "date": "2024-03-18",
+      "type": "release",
+      "title": "v0.8.2 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.8.2",
+      "points": null
+    },
+    {
+      "date": "2024-03-29",
+      "type": "release",
+      "title": "v0.8.3 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.8.3",
+      "points": null
+    },
+    {
+      "date": "2024-04-11",
+      "type": "release",
+      "title": "v0.8.4 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.8.4",
+      "points": null
+    },
+    {
+      "date": "2024-04-19",
+      "type": "release",
+      "title": "v0.8.5 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.8.5",
+      "points": null
+    },
+    {
+      "date": "2024-04-30",
+      "type": "release",
+      "title": "v0.8.6 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.8.6",
+      "points": null
+    },
+    {
+      "date": "2024-05-08",
+      "type": "release",
+      "title": "v0.8.7 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.8.7",
+      "points": null
+    },
+    {
+      "date": "2024-05-13",
+      "type": "release",
+      "title": "v0.9.0-alpha.1 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.9.0-alpha.1",
+      "points": null
+    },
+    {
+      "date": "2024-05-28",
+      "type": "release",
+      "title": "v0.9.0-beta.1 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.9.0-beta.1",
+      "points": null
+    },
+    {
+      "date": "2024-07-05",
+      "type": "release",
+      "title": "v0.9.0 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.9.0",
+      "points": null
+    },
+    {
+      "date": "2024-07-17",
+      "type": "release",
+      "title": "v0.9.1 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.9.1",
+      "points": null
+    },
+    {
+      "date": "2024-07-20",
+      "type": "release",
+      "title": "v0.9.2 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.9.2",
+      "points": null
+    },
+    {
+      "date": "2024-07-21",
+      "type": "release",
+      "title": "v0.9.3 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.9.3",
+      "points": null
+    },
+    {
+      "date": "2024-07-26",
+      "type": "release",
+      "title": "v0.10.0-alpha.1 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.10.0-alpha.1",
+      "points": null
+    },
+    {
+      "date": "2024-08-06",
+      "type": "release",
+      "title": "v0.10.0-alpha.2 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.10.0-alpha.2",
+      "points": null
+    },
+    {
+      "date": "2024-08-14",
+      "type": "release",
+      "title": "v0.10.0-beta.1 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.10.0-beta.1",
+      "points": null
+    },
+    {
+      "date": "2024-08-22",
+      "type": "release",
+      "title": "v0.10.0-beta.2 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.10.0-beta.2",
+      "points": null
+    },
+    {
+      "date": "2024-09-05",
+      "type": "release",
+      "title": "v0.10.0-rc.1 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.10.0-rc.1",
+      "points": null
+    },
+    {
+      "date": "2024-09-16",
+      "type": "release",
+      "title": "v0.10.0 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.10.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-11",
+      "type": "release",
+      "title": "v0.10.1 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.10.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-14",
+      "type": "release",
+      "title": "v0.10.3 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.10.3",
+      "points": null
+    },
+    {
+      "date": "2024-10-14",
+      "type": "release",
+      "title": "v0.10.2 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.10.2",
+      "points": null
+    },
+    {
+      "date": "2024-10-21",
+      "type": "release",
+      "title": "v0.10.4 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.10.4",
+      "points": null
+    },
+    {
+      "date": "2024-10-24",
+      "type": "release",
+      "title": "v0.10.6 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.10.6",
+      "points": null
+    },
+    {
+      "date": "2024-10-28",
+      "type": "release",
+      "title": "v0.10.7 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.10.7",
+      "points": null
+    },
+    {
+      "date": "2024-11-05",
+      "type": "release",
+      "title": "v0.10.8 Release",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.10.8",
+      "points": null
+    },
+    {
+      "date": "2024-12-06",
+      "type": "release",
+      "title": "v0.11.0-alpha.1",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.11.0-alpha.1",
+      "points": null
+    },
+    {
+      "date": "2024-12-17",
+      "type": "release",
+      "title": "v0.11.0",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.11.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-07",
+      "type": "release",
+      "title": "v0.11.1",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.11.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-18",
+      "type": "release",
+      "title": "v0.11.2",
+      "url": "https://github.com/kcl-lang/kcl/releases/tag/v0.11.2",
+      "points": null
+    }
+  ]
 }

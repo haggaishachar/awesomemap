@@ -15,11 +15,34 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 76384,
-      "forks": 9489,
+      "stars": 76491,
+      "forks": 9505,
       "openIssues": 189
     }
   ],
   "weight": 75956,
-  "image": "https://avatars.githubusercontent.com/u/46047812?v=4"
+  "image": "https://avatars.githubusercontent.com/u/46047812?v=4",
+  "events": [
+    {
+      "date": "2025-11-03",
+      "type": "release",
+      "title": "Hello-agents V1.0.0 20251103",
+      "url": "https://github.com/datawhalechina/hello-agents/releases/tag/V1.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-10",
+      "type": "release",
+      "title": "Hello-agents V1.0.2 20260210",
+      "url": "https://github.com/datawhalechina/hello-agents/releases/tag/V1.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "Hello-Agents V1.0.3 20260717",
+      "url": "https://github.com/datawhalechina/hello-agents/releases/tag/V1.0.3",
+      "points": null
+    }
+  ]
 }

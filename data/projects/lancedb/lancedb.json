@@ -19,11 +19,76 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 11339,
+      "stars": 11342,
       "forks": 1039,
-      "openIssues": 608
+      "openIssues": 607
     }
   ],
   "weight": 11326,
-  "image": "https://avatars.githubusercontent.com/u/108903835?v=4"
+  "image": "https://avatars.githubusercontent.com/u/108903835?v=4",
+  "events": [
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "Node/Rust LanceDB v0.32.0-beta.2",
+      "url": "https://github.com/lancedb/lancedb/releases/tag/v0.32.0-beta.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "Node/Rust LanceDB v0.33.0-beta.0",
+      "url": "https://github.com/lancedb/lancedb/releases/tag/v0.33.0-beta.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "Node/Rust LanceDB v0.32.0-beta.3",
+      "url": "https://github.com/lancedb/lancedb/releases/tag/v0.32.0-beta.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "Python LanceDB v0.36.0-beta.0",
+      "url": "https://github.com/lancedb/lancedb/releases/tag/python-v0.36.0-beta.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "Python LanceDB v0.35.0-beta.3",
+      "url": "https://github.com/lancedb/lancedb/releases/tag/python-v0.35.0-beta.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "Node/Rust LanceDB v0.33.0",
+      "url": "https://github.com/lancedb/lancedb/releases/tag/v0.33.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "Python LanceDB v0.36.0",
+      "url": "https://github.com/lancedb/lancedb/releases/tag/python-v0.36.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "title": "LanceDB v0.37.1",
+      "url": "https://github.com/lancedb/lancedb/releases/tag/v0.37.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "LanceDB v0.38.0",
+      "url": "https://github.com/lancedb/lancedb/releases/tag/v0.38.0",
+      "points": null
+    }
+  ]
 }

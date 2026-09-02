@@ -18,11 +18,20 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 10809,
+      "stars": 10808,
       "forks": 806,
-      "openIssues": 212
+      "openIssues": 213
     }
   ],
   "weight": 10805,
-  "image": "https://avatars.githubusercontent.com/u/6154722?v=4"
+  "image": "https://avatars.githubusercontent.com/u/6154722?v=4",
+  "events": [
+    {
+      "date": "2020-11-04",
+      "type": "hn",
+      "title": "Microsoft Fluent UI System Icons",
+      "url": "https://news.ycombinator.com/item?id=24991908",
+      "points": 182
+    }
+  ]
 }

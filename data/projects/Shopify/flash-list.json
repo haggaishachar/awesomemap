@@ -12,9 +12,102 @@
       "date": "2026-09-02",
       "stars": 7194,
       "forks": 388,
-      "openIssues": 188
+      "openIssues": 189
     }
   ],
   "weight": 7192,
-  "image": "https://avatars.githubusercontent.com/u/8085?v=4"
+  "image": "https://avatars.githubusercontent.com/u/8085?v=4",
+  "events": [
+    {
+      "date": "2025-06-17",
+      "type": "release",
+      "title": "v1.8.3",
+      "url": "https://github.com/Shopify/flash-list/releases/tag/v1.8.3",
+      "points": null
+    },
+    {
+      "date": "2025-07-31",
+      "type": "release",
+      "title": "v2.0.0",
+      "url": "https://github.com/Shopify/flash-list/releases/tag/v2.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-01",
+      "type": "release",
+      "title": "v2.0.1",
+      "url": "https://github.com/Shopify/flash-list/releases/tag/v2.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-08-05",
+      "type": "release",
+      "title": "v2.0.2",
+      "url": "https://github.com/Shopify/flash-list/releases/tag/v2.0.2",
+      "points": null
+    },
+    {
+      "date": "2025-08-21",
+      "type": "release",
+      "title": "v2.0.3",
+      "url": "https://github.com/Shopify/flash-list/releases/tag/v2.0.3",
+      "points": null
+    },
+    {
+      "date": "2025-09-25",
+      "type": "release",
+      "title": "v2.1.0",
+      "url": "https://github.com/Shopify/flash-list/releases/tag/v2.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-27",
+      "type": "release",
+      "title": "v2.2.0",
+      "url": "https://github.com/Shopify/flash-list/releases/tag/v2.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-30",
+      "type": "release",
+      "title": "v2.2.1",
+      "url": "https://github.com/Shopify/flash-list/releases/tag/v2.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-04",
+      "type": "release",
+      "title": "v2.2.2",
+      "url": "https://github.com/Shopify/flash-list/releases/tag/v2.2.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-03",
+      "type": "release",
+      "title": "v2.2.3",
+      "url": "https://github.com/Shopify/flash-list/releases/tag/v2.2.3",
+      "points": null
+    },
+    {
+      "date": "2026-03-05",
+      "type": "release",
+      "title": "v2.3.0",
+      "url": "https://github.com/Shopify/flash-list/releases/tag/v2.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-23",
+      "type": "release",
+      "title": "v2.3.1",
+      "url": "https://github.com/Shopify/flash-list/releases/tag/v2.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v2.3.2",
+      "url": "https://github.com/Shopify/flash-list/releases/tag/v2.3.2",
+      "points": null
+    }
+  ]
 }

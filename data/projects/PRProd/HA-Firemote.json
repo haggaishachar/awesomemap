@@ -55,5 +55,154 @@
       "forks": 100,
       "openIssues": 198
     }
+  ],
+  "events": [
+    {
+      "date": "2024-06-10",
+      "type": "release",
+      "title": "June 2024 Launcher Updates 2",
+      "url": "https://github.com/PRProd/HA-Firemote/releases/tag/v3.4.8",
+      "points": null
+    },
+    {
+      "date": "2024-06-25",
+      "type": "release",
+      "title": "June 2024 Launcher Updates 3",
+      "url": "https://github.com/PRProd/HA-Firemote/releases/tag/v3.4.9",
+      "points": null
+    },
+    {
+      "date": "2024-07-03",
+      "type": "release",
+      "title": "July 2024 Launcher Updates",
+      "url": "https://github.com/PRProd/HA-Firemote/releases/tag/v3.4.10",
+      "points": null
+    },
+    {
+      "date": "2024-07-23",
+      "type": "release",
+      "title": "July 2024 Launcher Updates 2",
+      "url": "https://github.com/PRProd/HA-Firemote/releases/tag/v3.4.11",
+      "points": null
+    },
+    {
+      "date": "2024-08-01",
+      "type": "release",
+      "title": "August 2024 Update 1",
+      "url": "https://github.com/PRProd/HA-Firemote/releases/tag/v3.4.12",
+      "points": null
+    },
+    {
+      "date": "2024-08-29",
+      "type": "release",
+      "title": "Introducing Long Press",
+      "url": "https://github.com/PRProd/HA-Firemote/releases/tag/v4.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-08-31",
+      "type": "release",
+      "title": "3 New Apps",
+      "url": "https://github.com/PRProd/HA-Firemote/releases/tag/v4.0.1",
+      "points": null
+    },
+    {
+      "date": "2024-09-03",
+      "type": "release",
+      "title": "Emergency Bug Fix",
+      "url": "https://github.com/PRProd/HA-Firemote/releases/tag/v4.0.2",
+      "points": null
+    },
+    {
+      "date": "2024-09-05",
+      "type": "release",
+      "title": "September 2024 launcher updates",
+      "url": "https://github.com/PRProd/HA-Firemote/releases/tag/v4.0.3",
+      "points": null
+    },
+    {
+      "date": "2024-09-07",
+      "type": "release",
+      "title": "New Remotes and Better Features",
+      "url": "https://github.com/PRProd/HA-Firemote/releases/tag/v4.0.4",
+      "points": null
+    },
+    {
+      "date": "2024-09-13",
+      "type": "release",
+      "title": "Updated and new launchers plus UI fixes",
+      "url": "https://github.com/PRProd/HA-Firemote/releases/tag/v4.0.5",
+      "points": null
+    },
+    {
+      "date": "2024-10-18",
+      "type": "release",
+      "title": "Homatics Support",
+      "url": "https://github.com/PRProd/HA-Firemote/releases/tag/v4.1.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-27",
+      "type": "release",
+      "title": "October 2024 App Launchers",
+      "url": "https://github.com/PRProd/HA-Firemote/releases/tag/v4.1.1",
+      "points": null
+    },
+    {
+      "date": "2024-11-05",
+      "type": "release",
+      "title": "November 2024 App Launchers",
+      "url": "https://github.com/PRProd/HA-Firemote/releases/tag/v4.1.2",
+      "points": null
+    },
+    {
+      "date": "2024-11-12",
+      "type": "release",
+      "title": "New Chromecast Buttons and App Launchers",
+      "url": "https://github.com/PRProd/HA-Firemote/releases/tag/v4.1.3",
+      "points": null
+    },
+    {
+      "date": "2024-11-25",
+      "type": "release",
+      "title": "New Remote Style and App Launchers",
+      "url": "https://github.com/PRProd/HA-Firemote/releases/tag/v4.1.4",
+      "points": null
+    },
+    {
+      "date": "2024-12-16",
+      "type": "release",
+      "title": "December 2024 app launchers",
+      "url": "https://github.com/PRProd/HA-Firemote/releases/tag/v4.1.5",
+      "points": null
+    },
+    {
+      "date": "2025-01-03",
+      "type": "release",
+      "title": "New Year, New App Launchers",
+      "url": "https://github.com/PRProd/HA-Firemote/releases/tag/v4.1.6",
+      "points": null
+    },
+    {
+      "date": "2025-01-06",
+      "type": "release",
+      "title": "New Year, New App Launchers - Part 2",
+      "url": "https://github.com/PRProd/HA-Firemote/releases/tag/v4.1.7",
+      "points": null
+    },
+    {
+      "date": "2025-01-10",
+      "type": "release",
+      "title": "New Year, New App Launchers - Part 3",
+      "url": "https://github.com/PRProd/HA-Firemote/releases/tag/v4.1.8",
+      "points": null
+    },
+    {
+      "date": "2025-10-22",
+      "type": "release",
+      "title": "Getting back to it...",
+      "url": "https://github.com/PRProd/HA-Firemote/releases/tag/v4.1.9",
+      "points": null
+    }
   ]
 }

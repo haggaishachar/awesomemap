@@ -36,9 +36,179 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 1602,
+      "stars": 1601,
       "forks": 199,
       "openIssues": 12
+    }
+  ],
+  "events": [
+    {
+      "date": "2022-01-13",
+      "type": "release",
+      "title": "Bug-fix for url and same_tab option added",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/1.0.30",
+      "points": null
+    },
+    {
+      "date": "2022-06-01",
+      "type": "release",
+      "title": "hover_info_filter option added",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/1.0.31",
+      "points": null
+    },
+    {
+      "date": "2022-07-26",
+      "type": "release",
+      "title": "Bug-fix for ha-floorplan entity",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/1.0.32",
+      "points": null
+    },
+    {
+      "date": "2022-09-14",
+      "type": "release",
+      "title": "Expose states as datasets, fix for multipages and allow template-strings",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/1.0.33",
+      "points": null
+    },
+    {
+      "date": "2022-10-29",
+      "type": "release",
+      "title": "New `execute` service to run JavaScripts functions",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/1.0.34",
+      "points": null
+    },
+    {
+      "date": "2022-11-27",
+      "type": "release",
+      "title": "Improved `image_set` logics will now retain classes",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/1.0.35",
+      "points": null
+    },
+    {
+      "date": "2023-08-14",
+      "type": "release",
+      "title": "Multi-line text, class_set and fix for duplicated SVG elements on config update",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/1.0.37",
+      "points": null
+    },
+    {
+      "date": "2023-09-22",
+      "type": "release",
+      "title": "Bug-fixes for `text_set`",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/1.0.38",
+      "points": null
+    },
+    {
+      "date": "2023-09-23",
+      "type": "release",
+      "title": "Improve text_set multi-line and single-line logics",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/1.0.39",
+      "points": null
+    },
+    {
+      "date": "2023-12-03",
+      "type": "release",
+      "title": "Bug-fixes for clipPath SVG Element",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/1.0.40",
+      "points": null
+    },
+    {
+      "date": "2024-01-02",
+      "type": "release",
+      "title": "Evaluate `navigation_path` and `url_path` in the `navigate` and `url` action",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/1.0.43",
+      "points": null
+    },
+    {
+      "date": "2024-01-02",
+      "type": "release",
+      "title": "Hotfix: Bring back description in HACS",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/1.0.42",
+      "points": null
+    },
+    {
+      "date": "2024-01-02",
+      "type": "release",
+      "title": "Evaluate navigation_path in `navigation` action",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/1.0.41",
+      "points": null
+    },
+    {
+      "date": "2024-08-11",
+      "type": "release",
+      "title": "Support for browsers like \"WallPanel\" on light Android-devices",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/1.0.44",
+      "points": null
+    },
+    {
+      "date": "2024-10-06",
+      "type": "release",
+      "title": "New \"action\" service to make more dynamic rules",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/1.0.45",
+      "points": null
+    },
+    {
+      "date": "2024-10-29",
+      "type": "release",
+      "title": "Find best image based on window.innerWidth",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/1.0.46",
+      "points": null
+    },
+    {
+      "date": "2024-10-31",
+      "type": "release",
+      "title": "Maintenance - We're moving to another version tagging (vX.X.X)",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/v1.0.47",
+      "points": null
+    },
+    {
+      "date": "2024-12-18",
+      "type": "release",
+      "title": "Allow default rule for double_tap_action",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/v1.0.48",
+      "points": null
+    },
+    {
+      "date": "2025-04-11",
+      "type": "release",
+      "title": "Default-rule for `state_action`, `element` in `image_set` service_data and testing",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/v1.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-16",
+      "type": "release",
+      "title": "Hotfix: Prevent text_set from parsing empty strings as 0",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/v1.1.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-18",
+      "type": "release",
+      "title": "Hotfix: Version-bump and CI/CD pipeline for Docs",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/v1.1.2",
+      "points": null
+    },
+    {
+      "date": "2025-06-02",
+      "type": "release",
+      "title": "Expose root SVG-element as global resource",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/v1.1.3",
+      "points": null
+    },
+    {
+      "date": "2025-09-26",
+      "type": "release",
+      "title": "Use cards inside SVG-objects",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/v1.1.4",
+      "points": null
+    },
+    {
+      "date": "2026-04-28",
+      "type": "release",
+      "title": "Prevent \"long press\" when scrolling and multi-line text handling",
+      "url": "https://github.com/ExperienceLovelace/ha-floorplan/releases/tag/v1.1.5",
+      "points": null
     }
   ]
 }

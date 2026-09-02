@@ -27,11 +27,132 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 25357,
+      "stars": 25361,
       "forks": 6532,
       "openIssues": 342
     }
   ],
   "weight": 25356,
-  "image": "https://avatars.githubusercontent.com/u/509841?v=4"
+  "image": "https://avatars.githubusercontent.com/u/509841?v=4",
+  "events": [
+    {
+      "date": "2013-09-14",
+      "type": "release",
+      "title": "Libgdx 0.9.8 Release",
+      "url": "https://github.com/libgdx/libgdx/releases/tag/0.9.8",
+      "points": null
+    },
+    {
+      "date": "2013-11-03",
+      "type": "release",
+      "title": "Libgdx 0.9.9 Xamarin Release",
+      "url": "https://github.com/libgdx/libgdx/releases/tag/0.9.9-xamarin",
+      "points": null
+    },
+    {
+      "date": "2014-04-20",
+      "type": "release",
+      "title": "libGDX 1.0.0",
+      "url": "https://github.com/libgdx/libgdx/releases/tag/1.0.0",
+      "points": null
+    },
+    {
+      "date": "2020-07-22",
+      "type": "release",
+      "title": "1.9.11",
+      "url": "https://github.com/libgdx/libgdx/releases/tag/gdx-parent-1.9.11",
+      "points": null
+    },
+    {
+      "date": "2020-10-31",
+      "type": "release",
+      "title": "1.9.12",
+      "url": "https://github.com/libgdx/libgdx/releases/tag/gdx-parent-1.9.12",
+      "points": null
+    },
+    {
+      "date": "2021-01-01",
+      "type": "release",
+      "title": "1.9.13",
+      "url": "https://github.com/libgdx/libgdx/releases/tag/gdx-parent-1.9.13",
+      "points": null
+    },
+    {
+      "date": "2021-02-01",
+      "type": "release",
+      "title": "1.9.14",
+      "url": "https://github.com/libgdx/libgdx/releases/tag/gdx-parent-1.9.14",
+      "points": null
+    },
+    {
+      "date": "2021-04-18",
+      "type": "release",
+      "title": "1.10.0",
+      "url": "https://github.com/libgdx/libgdx/releases/tag/gdx-parent-1.10.0",
+      "points": null
+    },
+    {
+      "date": "2022-05-11",
+      "type": "release",
+      "title": "1.11.0",
+      "url": "https://github.com/libgdx/libgdx/releases/tag/1.11.0",
+      "points": null
+    },
+    {
+      "date": "2023-07-02",
+      "type": "release",
+      "title": "1.12.0",
+      "url": "https://github.com/libgdx/libgdx/releases/tag/1.12.0",
+      "points": null
+    },
+    {
+      "date": "2023-11-02",
+      "type": "release",
+      "title": "1.12.1",
+      "url": "https://github.com/libgdx/libgdx/releases/tag/1.12.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-17",
+      "type": "release",
+      "title": "1.13.0",
+      "url": "https://github.com/libgdx/libgdx/releases/tag/1.13.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-08",
+      "type": "release",
+      "title": "1.13.1",
+      "url": "https://github.com/libgdx/libgdx/releases/tag/1.13.1",
+      "points": null
+    },
+    {
+      "date": "2025-05-13",
+      "type": "release",
+      "title": "1.13.5",
+      "url": "https://github.com/libgdx/libgdx/releases/tag/1.13.5",
+      "points": null
+    },
+    {
+      "date": "2025-10-19",
+      "type": "release",
+      "title": "1.14.0",
+      "url": "https://github.com/libgdx/libgdx/releases/tag/1.14.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-18",
+      "type": "release",
+      "title": "1.14.1",
+      "url": "https://github.com/libgdx/libgdx/releases/tag/1.14.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-05",
+      "type": "release",
+      "title": "1.14.2",
+      "url": "https://github.com/libgdx/libgdx/releases/tag/1.14.2",
+      "points": null
+    }
+  ]
 }

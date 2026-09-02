@@ -31,11 +31,20 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 29235,
+      "stars": 29239,
       "forks": 5343,
       "openIssues": 1
     }
   ],
   "weight": 29221,
-  "image": "https://avatars.githubusercontent.com/u/29549806?v=4"
+  "image": "https://avatars.githubusercontent.com/u/29549806?v=4",
+  "events": [
+    {
+      "date": "2020-02-22",
+      "type": "hn",
+      "title": "The Art of Hacking",
+      "url": "https://news.ycombinator.com/item?id=22390770",
+      "points": 77
+    }
+  ]
 }

@@ -70,5 +70,14 @@
       "forks": 766,
       "openIssues": 128
     }
+  ],
+  "events": [
+    {
+      "date": "2020-10-13",
+      "type": "hn",
+      "title": "Espruino: JavaScript for Microcontrollers",
+      "url": "https://news.ycombinator.com/item?id=24764483",
+      "points": 108
+    }
   ]
 }

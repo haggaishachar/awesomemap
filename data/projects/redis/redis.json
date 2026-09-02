@@ -119,9 +119,207 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 76177,
-      "forks": 24774,
+      "stars": 76179,
+      "forks": 24775,
       "openIssues": 2933
+    }
+  ],
+  "events": [
+    {
+      "date": "2016-06-05",
+      "type": "hn",
+      "title": "RCP 11 – Stream data type proposal for Redis",
+      "url": "https://news.ycombinator.com/item?id=11840314",
+      "points": 125
+    },
+    {
+      "date": "2024-03-21",
+      "type": "hn",
+      "title": "Redis License Changed",
+      "url": "https://news.ycombinator.com/item?id=39775332",
+      "points": 289
+    },
+    {
+      "date": "2026-05-05",
+      "type": "release",
+      "title": "8.6.3",
+      "url": "https://github.com/redis/redis/releases/tag/8.6.3",
+      "points": null
+    },
+    {
+      "date": "2026-05-05",
+      "type": "release",
+      "title": "8.4.3",
+      "url": "https://github.com/redis/redis/releases/tag/8.4.3",
+      "points": null
+    },
+    {
+      "date": "2026-05-05",
+      "type": "release",
+      "title": "8.2.6",
+      "url": "https://github.com/redis/redis/releases/tag/8.2.6",
+      "points": null
+    },
+    {
+      "date": "2026-05-05",
+      "type": "release",
+      "title": "7.4.9",
+      "url": "https://github.com/redis/redis/releases/tag/7.4.9",
+      "points": null
+    },
+    {
+      "date": "2026-05-05",
+      "type": "release",
+      "title": "7.2.14",
+      "url": "https://github.com/redis/redis/releases/tag/7.2.14",
+      "points": null
+    },
+    {
+      "date": "2026-05-05",
+      "type": "release",
+      "title": "6.2.22",
+      "url": "https://github.com/redis/redis/releases/tag/6.2.22",
+      "points": null
+    },
+    {
+      "date": "2026-05-25",
+      "type": "release",
+      "title": "8.8.0",
+      "url": "https://github.com/redis/redis/releases/tag/8.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "8.6.4",
+      "url": "https://github.com/redis/redis/releases/tag/8.6.4",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "8.4.4",
+      "url": "https://github.com/redis/redis/releases/tag/8.4.4",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "8.2.7",
+      "url": "https://github.com/redis/redis/releases/tag/8.2.7",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "8.8.1",
+      "url": "https://github.com/redis/redis/releases/tag/8.8.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "8.6.5",
+      "url": "https://github.com/redis/redis/releases/tag/8.6.5",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "8.4.5",
+      "url": "https://github.com/redis/redis/releases/tag/8.4.5",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "8.2.8",
+      "url": "https://github.com/redis/redis/releases/tag/8.2.8",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "7.4.10",
+      "url": "https://github.com/redis/redis/releases/tag/7.4.10",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "7.2.15",
+      "url": "https://github.com/redis/redis/releases/tag/7.2.15",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "6.2.23",
+      "url": "https://github.com/redis/redis/releases/tag/6.2.23",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "8.10.0",
+      "url": "https://github.com/redis/redis/releases/tag/8.10.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-17",
+      "type": "release",
+      "title": "8.10.1",
+      "url": "https://github.com/redis/redis/releases/tag/8.10.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-17",
+      "type": "release",
+      "title": "8.8.2",
+      "url": "https://github.com/redis/redis/releases/tag/8.8.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-17",
+      "type": "release",
+      "title": "8.6.6",
+      "url": "https://github.com/redis/redis/releases/tag/8.6.6",
+      "points": null
+    },
+    {
+      "date": "2026-08-17",
+      "type": "release",
+      "title": "8.4.6",
+      "url": "https://github.com/redis/redis/releases/tag/8.4.6",
+      "points": null
+    },
+    {
+      "date": "2026-08-17",
+      "type": "release",
+      "title": "8.2.9",
+      "url": "https://github.com/redis/redis/releases/tag/8.2.9",
+      "points": null
+    },
+    {
+      "date": "2026-08-17",
+      "type": "release",
+      "title": "7.4.11",
+      "url": "https://github.com/redis/redis/releases/tag/7.4.11",
+      "points": null
+    },
+    {
+      "date": "2026-08-17",
+      "type": "release",
+      "title": "7.2.16",
+      "url": "https://github.com/redis/redis/releases/tag/7.2.16",
+      "points": null
+    },
+    {
+      "date": "2026-08-17",
+      "type": "release",
+      "title": "6.2.24",
+      "url": "https://github.com/redis/redis/releases/tag/6.2.24",
+      "points": null
     }
   ]
 }

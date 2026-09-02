@@ -4,8 +4,8 @@
   "link": "https://github.com/gobuffalo/buffalo",
   "name": "buffalo",
   "desc": "Rapid Web Development w/ Go",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "buffalo",
+  "githubDescription": "Rapid Web Development w/ Go",
   "tags": [
     "buffalo",
     "framework",
@@ -17,7 +17,226 @@
     "web-framework",
     "webframework"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 8413,
+      "forks": 581,
+      "openIssues": 21
+    }
+  ],
   "weight": 8413,
-  "image": "https://raw.githubusercontent.com/gobuffalo/buffalo/main/logo.svg"
+  "image": "https://raw.githubusercontent.com/gobuffalo/buffalo/main/logo.svg",
+  "events": [
+    {
+      "date": "2021-04-26",
+      "type": "release",
+      "title": "v0.16.23",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v0.16.23",
+      "points": null
+    },
+    {
+      "date": "2021-07-06",
+      "type": "release",
+      "title": "v0.16.26-beta",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v0.16.26-beta",
+      "points": null
+    },
+    {
+      "date": "2021-07-06",
+      "type": "release",
+      "title": "v0.16.26",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v0.16.26",
+      "points": null
+    },
+    {
+      "date": "2021-07-06",
+      "type": "release",
+      "title": "v0.16.25-pre",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v0.16.25-pre",
+      "points": null
+    },
+    {
+      "date": "2021-07-06",
+      "type": "release",
+      "title": "v0.16.25",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v0.16.25",
+      "points": null
+    },
+    {
+      "date": "2021-07-06",
+      "type": "release",
+      "title": "v0.16.24",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v0.16.24",
+      "points": null
+    },
+    {
+      "date": "2021-08-06",
+      "type": "release",
+      "title": "v0.16.27",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v0.16.27",
+      "points": null
+    },
+    {
+      "date": "2021-08-07",
+      "type": "release",
+      "title": "v0.17.2",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v0.17.2",
+      "points": null
+    },
+    {
+      "date": "2021-08-07",
+      "type": "release",
+      "title": "v0.17.1-beta",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v0.17.1-beta",
+      "points": null
+    },
+    {
+      "date": "2021-08-07",
+      "type": "release",
+      "title": "v0.17.0",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v0.17.0",
+      "points": null
+    },
+    {
+      "date": "2021-09-01",
+      "type": "release",
+      "title": "v0.17.3",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v0.17.3",
+      "points": null
+    },
+    {
+      "date": "2021-11-06",
+      "type": "release",
+      "title": "v0.17.4",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v0.17.4",
+      "points": null
+    },
+    {
+      "date": "2021-11-20",
+      "type": "release",
+      "title": "v0.17.5",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v0.17.5",
+      "points": null
+    },
+    {
+      "date": "2021-11-24",
+      "type": "release",
+      "title": "v0.18.0",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v0.18.0",
+      "points": null
+    },
+    {
+      "date": "2021-11-28",
+      "type": "release",
+      "title": "v0.18.1",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v0.18.1",
+      "points": null
+    },
+    {
+      "date": "2021-12-09",
+      "type": "release",
+      "title": "v0.18.2",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v0.18.2",
+      "points": null
+    },
+    {
+      "date": "2022-02-09",
+      "type": "release",
+      "title": "v0.18.3",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v0.18.3",
+      "points": null
+    },
+    {
+      "date": "2022-03-08",
+      "type": "release",
+      "title": "v0.18.4",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v0.18.4",
+      "points": null
+    },
+    {
+      "date": "2022-03-22",
+      "type": "release",
+      "title": "v0.18.5",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v0.18.5",
+      "points": null
+    },
+    {
+      "date": "2022-04-19",
+      "type": "release",
+      "title": "v0.18.6",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v0.18.6",
+      "points": null
+    },
+    {
+      "date": "2022-05-05",
+      "type": "release",
+      "title": "v0.18.7",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v0.18.7",
+      "points": null
+    },
+    {
+      "date": "2022-07-12",
+      "type": "release",
+      "title": "v0.18.9",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v0.18.9",
+      "points": null
+    },
+    {
+      "date": "2022-07-12",
+      "type": "release",
+      "title": "v0.18.8",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v0.18.8",
+      "points": null
+    },
+    {
+      "date": "2022-08-25",
+      "type": "release",
+      "title": "v1.0.0",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v1.0.0",
+      "points": null
+    },
+    {
+      "date": "2022-10-06",
+      "type": "release",
+      "title": "v1.0.1",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v1.0.1",
+      "points": null
+    },
+    {
+      "date": "2023-01-26",
+      "type": "release",
+      "title": "v1.1.0",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v1.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-07",
+      "type": "release",
+      "title": "v1.1.1",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v1.1.1",
+      "points": null
+    },
+    {
+      "date": "2025-05-17",
+      "type": "release",
+      "title": "v1.1.2",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v1.1.2",
+      "points": null
+    },
+    {
+      "date": "2025-10-07",
+      "type": "release",
+      "title": "v1.1.3",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v1.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-03-20",
+      "type": "release",
+      "title": "v1.1.4",
+      "url": "https://github.com/gobuffalo/buffalo/releases/tag/v1.1.4",
+      "points": null
+    }
+  ]
 }

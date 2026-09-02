@@ -25,11 +25,12 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 9434,
+      "stars": 9433,
       "forks": 895,
-      "openIssues": 569
+      "openIssues": 571
     }
   ],
   "weight": 9430,
-  "image": "https://avatars.githubusercontent.com/u/80994548?v=4"
+  "image": "https://avatars.githubusercontent.com/u/80994548?v=4",
+  "events": []
 }

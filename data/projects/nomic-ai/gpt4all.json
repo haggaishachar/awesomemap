@@ -97,9 +97,221 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 77386,
-      "forks": 8294,
+      "stars": 77387,
+      "forks": 8292,
       "openIssues": 772
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-03-28",
+      "type": "hn",
+      "title": "Gpt4all: A chatbot trained on ~800k GPT-3.5-Turbo Generations based on LLaMa",
+      "url": "https://news.ycombinator.com/item?id=35349608",
+      "points": 593
+    },
+    {
+      "date": "2024-02-08",
+      "type": "release",
+      "title": "v2.7.0",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v2.7.0",
+      "points": null
+    },
+    {
+      "date": "2024-02-26",
+      "type": "release",
+      "title": "v2.7.1",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v2.7.1",
+      "points": null
+    },
+    {
+      "date": "2024-03-13",
+      "type": "release",
+      "title": "v2.7.3",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v2.7.3",
+      "points": null
+    },
+    {
+      "date": "2024-03-13",
+      "type": "release",
+      "title": "v2.7.2",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v2.7.2",
+      "points": null
+    },
+    {
+      "date": "2024-04-26",
+      "type": "release",
+      "title": "v2.7.4",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v2.7.4",
+      "points": null
+    },
+    {
+      "date": "2024-05-03",
+      "type": "release",
+      "title": "v2.7.5",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v2.7.5",
+      "points": null
+    },
+    {
+      "date": "2024-05-24",
+      "type": "release",
+      "title": "v2.8.0",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v2.8.0",
+      "points": null
+    },
+    {
+      "date": "2024-07-02",
+      "type": "release",
+      "title": "v3.0.0",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-07-24",
+      "type": "release",
+      "title": "v3.1.0",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v3.1.0",
+      "points": null
+    },
+    {
+      "date": "2024-07-25",
+      "type": "release",
+      "title": "v3.1.0-web_search_beta",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v3.1.0-web_search_beta",
+      "points": null
+    },
+    {
+      "date": "2024-07-27",
+      "type": "release",
+      "title": "v3.1.1-web_search_beta_2",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v3.1.1-web_search_beta_2",
+      "points": null
+    },
+    {
+      "date": "2024-07-27",
+      "type": "release",
+      "title": "v3.1.1",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v3.1.1",
+      "points": null
+    },
+    {
+      "date": "2024-08-12",
+      "type": "release",
+      "title": "v3.2.0",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v3.2.0",
+      "points": null
+    },
+    {
+      "date": "2024-08-13",
+      "type": "release",
+      "title": "v3.2.1",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v3.2.1",
+      "points": null
+    },
+    {
+      "date": "2024-09-23",
+      "type": "release",
+      "title": "v3.3.0",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v3.3.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-27",
+      "type": "release",
+      "title": "v3.3.1",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v3.3.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-08",
+      "type": "release",
+      "title": "v3.4.0",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v3.4.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-11",
+      "type": "release",
+      "title": "v3.4.1",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v3.4.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-16",
+      "type": "release",
+      "title": "v3.4.2",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v3.4.2",
+      "points": null
+    },
+    {
+      "date": "2024-12-09",
+      "type": "release",
+      "title": "v3.5.0",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v3.5.0",
+      "points": null
+    },
+    {
+      "date": "2024-12-10",
+      "type": "release",
+      "title": "v3.5.1",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v3.5.1",
+      "points": null
+    },
+    {
+      "date": "2024-12-14",
+      "type": "release",
+      "title": "v3.5.2",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v3.5.2",
+      "points": null
+    },
+    {
+      "date": "2024-12-16",
+      "type": "release",
+      "title": "v3.5.3",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v3.5.3",
+      "points": null
+    },
+    {
+      "date": "2024-12-19",
+      "type": "release",
+      "title": "v3.6.0",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v3.6.0",
+      "points": null
+    },
+    {
+      "date": "2024-12-20",
+      "type": "release",
+      "title": "v3.6.1",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v3.6.1",
+      "points": null
+    },
+    {
+      "date": "2025-01-23",
+      "type": "release",
+      "title": "v3.7.0",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v3.7.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-31",
+      "type": "release",
+      "title": "v3.8.0",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v3.8.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-05",
+      "type": "release",
+      "title": "v3.9.0",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v3.9.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-25",
+      "type": "release",
+      "title": "v3.10.0",
+      "url": "https://github.com/nomic-ai/gpt4all/releases/tag/v3.10.0",
+      "points": null
     }
   ]
 }

@@ -130,9 +130,207 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 6592,
-      "forks": 1761,
-      "openIssues": 103
+      "stars": 6595,
+      "forks": 1762,
+      "openIssues": 100
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-10-19",
+      "type": "release",
+      "title": "7.0.2",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-7.0.2",
+      "points": null
+    },
+    {
+      "date": "2024-02-08",
+      "type": "release",
+      "title": "7.0.3",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-7.0.3",
+      "points": null
+    },
+    {
+      "date": "2024-02-08",
+      "type": "release",
+      "title": "6.0.16",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-6.0.16",
+      "points": null
+    },
+    {
+      "date": "2024-03-19",
+      "type": "release",
+      "title": "7.0.4",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-7.0.4",
+      "points": null
+    },
+    {
+      "date": "2024-03-19",
+      "type": "release",
+      "title": "6.0.17",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-6.0.17",
+      "points": null
+    },
+    {
+      "date": "2024-03-21",
+      "type": "release",
+      "title": "6.0.18",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-6.0.18",
+      "points": null
+    },
+    {
+      "date": "2024-04-23",
+      "type": "release",
+      "title": "7.0.5",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-7.0.5",
+      "points": null
+    },
+    {
+      "date": "2024-04-23",
+      "type": "release",
+      "title": "6.0.19",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-6.0.19",
+      "points": null
+    },
+    {
+      "date": "2024-06-27",
+      "type": "release",
+      "title": "7.0.6",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-7.0.6",
+      "points": null
+    },
+    {
+      "date": "2024-06-27",
+      "type": "release",
+      "title": "6.0.20",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-6.0.20",
+      "points": null
+    },
+    {
+      "date": "2024-10-01",
+      "type": "release",
+      "title": "7.0.7",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-7.0.7",
+      "points": null
+    },
+    {
+      "date": "2024-12-12",
+      "type": "release",
+      "title": "7.0.8",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-7.0.8",
+      "points": null
+    },
+    {
+      "date": "2025-03-18",
+      "type": "release",
+      "title": "7.0.9",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-7.0.9",
+      "points": null
+    },
+    {
+      "date": "2025-03-25",
+      "type": "release",
+      "title": "7.0.10",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-7.0.10",
+      "points": null
+    },
+    {
+      "date": "2025-07-08",
+      "type": "release",
+      "title": "8.0.0",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-8.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-08",
+      "type": "release",
+      "title": "7.0.11",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-7.0.11",
+      "points": null
+    },
+    {
+      "date": "2025-09-16",
+      "type": "release",
+      "title": "8.0.1",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-8.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-16",
+      "type": "release",
+      "title": "7.0.12",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-7.0.12",
+      "points": null
+    },
+    {
+      "date": "2025-11-06",
+      "type": "release",
+      "title": "8.0.2",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-8.0.2",
+      "points": null
+    },
+    {
+      "date": "2025-11-06",
+      "type": "release",
+      "title": "7.0.13",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-7.0.13",
+      "points": null
+    },
+    {
+      "date": "2026-01-13",
+      "type": "release",
+      "title": "8.0.3",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-8.0.3",
+      "points": null
+    },
+    {
+      "date": "2026-01-13",
+      "type": "release",
+      "title": "7.0.14",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-7.0.14",
+      "points": null
+    },
+    {
+      "date": "2026-03-17",
+      "type": "release",
+      "title": "8.0.4",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-8.0.4",
+      "points": null
+    },
+    {
+      "date": "2026-03-17",
+      "type": "release",
+      "title": "7.0.15",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-7.0.15",
+      "points": null
+    },
+    {
+      "date": "2026-05-19",
+      "type": "release",
+      "title": "8.0.5",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-8.0.5",
+      "points": null
+    },
+    {
+      "date": "2026-05-19",
+      "type": "release",
+      "title": "7.0.16",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-7.0.16",
+      "points": null
+    },
+    {
+      "date": "2026-07-07",
+      "type": "release",
+      "title": "8.0.6",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-8.0.6",
+      "points": null
+    },
+    {
+      "date": "2026-07-07",
+      "type": "release",
+      "title": "7.0.17",
+      "url": "https://github.com/OISF/suricata/releases/tag/suricata-7.0.17",
+      "points": null
     }
   ]
 }

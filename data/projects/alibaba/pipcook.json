@@ -27,5 +27,217 @@
       "forks": 210,
       "openIssues": 110
     }
+  ],
+  "events": [
+    {
+      "date": "2020-04-24",
+      "type": "release",
+      "title": "Release refs/heads/v32-patch",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/refs/heads/v32-patch",
+      "points": null
+    },
+    {
+      "date": "2020-04-24",
+      "type": "release",
+      "title": "Release refs/heads/test_release",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/refs/heads/test_release",
+      "points": null
+    },
+    {
+      "date": "2020-04-24",
+      "type": "release",
+      "title": "@pipcook/plugins-tfjs-simplecnn-model-define@0.5.4",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/%40pipcook/plugins-tfjs-simplecnn-model-define%400.5.4",
+      "points": null
+    },
+    {
+      "date": "2020-04-24",
+      "type": "release",
+      "title": "@pipcook/plugins-tfjs-mobilenet-model-define@0.5.4",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/%40pipcook/plugins-tfjs-mobilenet-model-define%400.5.4",
+      "points": null
+    },
+    {
+      "date": "2020-04-24",
+      "type": "release",
+      "title": "@pipcook/plugins-pascalvoc-data-access@0.5.4",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/%40pipcook/plugins-pascalvoc-data-access%400.5.4",
+      "points": null
+    },
+    {
+      "date": "2020-04-24",
+      "type": "release",
+      "title": "@pipcook/plugins-object-detection-pascalvoc-data-collect@0.5.4",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/%40pipcook/plugins-object-detection-pascalvoc-data-collect%400.5.4",
+      "points": null
+    },
+    {
+      "date": "2020-04-24",
+      "type": "release",
+      "title": "@pipcook/plugins-object-detection-detectron-model-train@0.5.4",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/%40pipcook/plugins-object-detection-detectron-model-train%400.5.4",
+      "points": null
+    },
+    {
+      "date": "2020-04-24",
+      "type": "release",
+      "title": "@pipcook/plugins-object-detection-detectron-model-evaluate@0.5.4",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/%40pipcook/plugins-object-detection-detectron-model-evaluate%400.5.4",
+      "points": null
+    },
+    {
+      "date": "2020-04-24",
+      "type": "release",
+      "title": "@pipcook/plugins-object-detection-coco-data-collect@0.5.4",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/%40pipcook/plugins-object-detection-coco-data-collect%400.5.4",
+      "points": null
+    },
+    {
+      "date": "2020-04-24",
+      "type": "release",
+      "title": "@pipcook/plugins-mnist-data-collect@0.5.4",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/%40pipcook/plugins-mnist-data-collect%400.5.4",
+      "points": null
+    },
+    {
+      "date": "2020-04-24",
+      "type": "release",
+      "title": "@pipcook/plugins-image-data-process@0.5.4",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/%40pipcook/plugins-image-data-process%400.5.4",
+      "points": null
+    },
+    {
+      "date": "2020-04-24",
+      "type": "release",
+      "title": "@pipcook/plugins-image-classification-tfjs-model-train@0.5.4",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/%40pipcook/plugins-image-classification-tfjs-model-train%400.5.4",
+      "points": null
+    },
+    {
+      "date": "2020-04-24",
+      "type": "release",
+      "title": "@pipcook/plugins-image-classification-tfjs-model-evaluate@0.5.4",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/%40pipcook/plugins-image-classification-tfjs-model-evaluate%400.5.4",
+      "points": null
+    },
+    {
+      "date": "2020-04-24",
+      "type": "release",
+      "title": "@pipcook/plugins-image-classification-data-collect@0.5.4",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/%40pipcook/plugins-image-classification-data-collect%400.5.4",
+      "points": null
+    },
+    {
+      "date": "2020-04-24",
+      "type": "release",
+      "title": "@pipcook/plugins-detectron-fasterrcnn-model-define@0.5.4",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/%40pipcook/plugins-detectron-fasterrcnn-model-define%400.5.4",
+      "points": null
+    },
+    {
+      "date": "2020-04-24",
+      "type": "release",
+      "title": "@pipcook/plugins-csv-data-collect@0.5.4",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/%40pipcook/plugins-csv-data-collect%400.5.4",
+      "points": null
+    },
+    {
+      "date": "2020-04-24",
+      "type": "release",
+      "title": "@pipcook/plugins-csv-data-access@0.5.4",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/%40pipcook/plugins-csv-data-access%400.5.4",
+      "points": null
+    },
+    {
+      "date": "2020-04-24",
+      "type": "release",
+      "title": "@pipcook/plugins-coco-data-access@0.5.4",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/%40pipcook/plugins-coco-data-access%400.5.4",
+      "points": null
+    },
+    {
+      "date": "2020-04-24",
+      "type": "release",
+      "title": "@pipcook/plugins-bayesian-model-train@0.5.4",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/%40pipcook/plugins-bayesian-model-train%400.5.4",
+      "points": null
+    },
+    {
+      "date": "2020-06-24",
+      "type": "release",
+      "title": "publish the pipcook v0.7.0",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/0.7.0",
+      "points": null
+    },
+    {
+      "date": "2020-06-29",
+      "type": "release",
+      "title": "publish the pipcook v1.0.0",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/v1.0.0",
+      "points": null
+    },
+    {
+      "date": "2020-07-07",
+      "type": "release",
+      "title": "Update costa version to 1.0.1",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/v1.0.1",
+      "points": null
+    },
+    {
+      "date": "2020-07-09",
+      "type": "release",
+      "title": "Release pipcook 1.0.3",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/v1.0.3",
+      "points": null
+    },
+    {
+      "date": "2020-07-28",
+      "type": "release",
+      "title": "publish the pipcook v1.0.4",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/v1.0.4",
+      "points": null
+    },
+    {
+      "date": "2020-07-30",
+      "type": "release",
+      "title": "Release pipcook 1.0.5",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/v1.0.5",
+      "points": null
+    },
+    {
+      "date": "2020-08-18",
+      "type": "release",
+      "title": "Bump version to 1.1.1",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/v1.1.1_",
+      "points": null
+    },
+    {
+      "date": "2020-08-18",
+      "type": "release",
+      "title": "Bump version to 1.1.1",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/v1.1.1",
+      "points": null
+    },
+    {
+      "date": "2020-08-19",
+      "type": "release",
+      "title": "Bump version to 1.1.2",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/v1.1.2",
+      "points": null
+    },
+    {
+      "date": "2020-09-04",
+      "type": "release",
+      "title": "Bump version to 1.2.0",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/v1.2.0",
+      "points": null
+    },
+    {
+      "date": "2020-12-19",
+      "type": "release",
+      "title": "v1.3.0 Release",
+      "url": "https://github.com/alibaba/pipcook/releases/tag/v1.3.0",
+      "points": null
+    }
   ]
 }

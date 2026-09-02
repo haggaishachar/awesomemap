@@ -139,9 +139,179 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 16747,
-      "forks": 2467,
-      "openIssues": 3026
+      "stars": 16750,
+      "forks": 2468,
+      "openIssues": 3025
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-07-22",
+      "type": "release",
+      "title": "Wazuh v4.8.1",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.8.1",
+      "points": null
+    },
+    {
+      "date": "2024-08-22",
+      "type": "release",
+      "title": "Wazuh v4.8.2",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.8.2",
+      "points": null
+    },
+    {
+      "date": "2024-09-05",
+      "type": "release",
+      "title": "Wazuh v4.9.0",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.9.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-17",
+      "type": "release",
+      "title": "Wazuh v4.9.1",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.9.1",
+      "points": null
+    },
+    {
+      "date": "2024-11-04",
+      "type": "release",
+      "title": "Wazuh v4.9.2",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.9.2",
+      "points": null
+    },
+    {
+      "date": "2025-01-10",
+      "type": "release",
+      "title": "Wazuh v4.10.0",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.10.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-17",
+      "type": "release",
+      "title": "Wazuh v4.10.1",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.10.1",
+      "points": null
+    },
+    {
+      "date": "2025-02-24",
+      "type": "release",
+      "title": "Wazuh v4.11.0",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.11.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-13",
+      "type": "release",
+      "title": "Wazuh v4.11.1",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.11.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-02",
+      "type": "release",
+      "title": "Wazuh v4.11.2",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.11.2",
+      "points": null
+    },
+    {
+      "date": "2025-05-08",
+      "type": "release",
+      "title": "Wazuh v4.12.0",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.12.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-23",
+      "type": "release",
+      "title": "Wazuh v4.10.2",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.10.2",
+      "points": null
+    },
+    {
+      "date": "2025-08-19",
+      "type": "release",
+      "title": "Wazuh v4.10.3",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.10.3",
+      "points": null
+    },
+    {
+      "date": "2025-09-19",
+      "type": "release",
+      "title": "Wazuh v4.13.0",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.13.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-25",
+      "type": "release",
+      "title": "Wazuh v4.13.1",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.13.1",
+      "points": null
+    },
+    {
+      "date": "2025-10-23",
+      "type": "release",
+      "title": "Wazuh v4.14.0",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.14.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-12",
+      "type": "release",
+      "title": "Wazuh v4.14.1",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.14.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-15",
+      "type": "release",
+      "title": "Wazuh v4.14.2",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.14.2",
+      "points": null
+    },
+    {
+      "date": "2026-02-11",
+      "type": "release",
+      "title": "Wazuh v4.14.3",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.14.3",
+      "points": null
+    },
+    {
+      "date": "2026-03-17",
+      "type": "release",
+      "title": "Wazuh v4.14.4",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.14.4",
+      "points": null
+    },
+    {
+      "date": "2026-04-23",
+      "type": "release",
+      "title": "Wazuh v4.14.5",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.14.5",
+      "points": null
+    },
+    {
+      "date": "2026-07-03",
+      "type": "release",
+      "title": "Wazuh v4.14.6",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.14.6",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "Wazuh v4.14.7",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.14.7",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "Wazuh v4.10.4",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.10.4",
+      "points": null
     }
   ]
 }

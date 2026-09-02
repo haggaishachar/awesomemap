@@ -4,8 +4,8 @@
   "link": "https://github.com/ruvnet/ruflo",
   "name": "ruflo",
   "desc": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "ruflo",
+  "githubDescription": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
   "tags": [
     "agentic-ai",
     "agentic-framework",
@@ -28,6 +28,218 @@
     "swarm-intelligence",
     "typescript"
   ],
-  "history": [],
-  "weight": 70200
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 70241,
+      "forks": 8381,
+      "openIssues": 895
+    }
+  ],
+  "weight": 70200,
+  "events": [
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "Ruflo v3.32.38 — Daemons Start Only for Ruflo Projects",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.32.38",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "Ruflo v3.32.37 — Complete Reports, Consistent Initialization",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.32.37",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "Ruflo v3.32.36 — Trustworthy Signals, Portable Codex Workflows",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.32.36",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "v3.33.0 — ADR-377: AgentDB Retrieval Security Layer",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.33.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "v3.32.41 — honest routing scores, honest MoE metrics, real pattern transfer",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.32.41",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "v3.32.40 — security scan fail-closed on invalid --depth/--type/--target",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.32.40",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "v3.32.39 — Codex hooks.json + PreToolUse verdict compat",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.32.39",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "v3.34.0 — AGNTCY/Outshift runtime integration",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.34.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "title": "v3.36.0 — @metaharness/turn-credit integration + stale pin fixes",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.36.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "title": "v3.35.0 — MetaHarness dependency-contract repair + ADR-381 sequential-evidence governance",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.35.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "v3.38.0 — Init scaffold content drift remediation (ADR-382)",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.38.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "v3.37.0 — proxy install hardening, cloud routing disclosure, tier pinning",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.37.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "v3.38.8 — provider/model config propagation fix (#2962)",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.38.8",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "v3.38.7 — HNSW status honesty fix, cache-fingerprint follow-up",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.38.7",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "v3.38.6 — Codex stdin fix, intelligence cache staleness fix, daemon config restore fix",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.38.6",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "v3.38.5 — .brain skip, --repo passthrough, secret regex",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.38.5",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "v3.38.4 — init flag fix + graph edge race fix",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.38.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "v3.38.3 — hooks intelligence --train actually trains",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.38.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "v3.38.2 — removed-agent restore + mcp http foreground fix",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.38.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "v3.38.1 — memory search truncation + persistence honesty fixes",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.38.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "v3.38.9 — path-validator symlinked-prefix fix",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.38.9",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "v3.38.16 — 3 dream cycles: MessageBus retry bound, hybridSearch opt-in, discounted Thompson bandit",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.38.16",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "v3.38.15 — session-end state, Windows Claude launch, MCP tool filter, settings-risk scanner",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.38.15",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "v3.38.14 — memory_store tags cache-loss fix (#3051)",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.38.14",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "v3.38.13 — statusline cache, colon-agent routing, YAML fix + new deepseek harness plugin",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.38.13",
+      "points": null
+    },
+    {
+      "date": "2026-08-22",
+      "type": "release",
+      "title": "v3.38.19 — supersedes broken v3.38.17/v3.38.18 (Windows CI, dead agentdb exports, memory driver doctor check, MCP HTTP transport)",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.38.19",
+      "points": null
+    },
+    {
+      "date": "2026-08-22",
+      "type": "release",
+      "title": "v3.38.18 — Windows CI, dead agentdb exports, memory driver doctor check, MCP HTTP transport",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.38.18",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "v3.38.20 — statusline: stop pinning intelligence to a hardcoded 0%",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.38.20",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "v3.38.21 — MCP HTTP bridge memory-persistence fix",
+      "url": "https://github.com/ruvnet/ruflo/releases/tag/v3.38.21",
+      "points": null
+    }
+  ]
 }

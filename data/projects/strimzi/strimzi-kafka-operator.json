@@ -23,11 +23,111 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 5923,
-      "forks": 1534,
-      "openIssues": 163
+      "stars": 5924,
+      "forks": 1533,
+      "openIssues": 161
     }
   ],
   "weight": 5923,
-  "image": "https://avatars.githubusercontent.com/u/34767428?v=4"
+  "image": "https://avatars.githubusercontent.com/u/34767428?v=4",
+  "events": [
+    {
+      "date": "2025-06-26",
+      "type": "release",
+      "title": "0.46.1",
+      "url": "https://github.com/strimzi/strimzi-kafka-operator/releases/tag/0.46.1",
+      "points": null
+    },
+    {
+      "date": "2025-06-27",
+      "type": "release",
+      "title": "0.45.1",
+      "url": "https://github.com/strimzi/strimzi-kafka-operator/releases/tag/0.45.1",
+      "points": null
+    },
+    {
+      "date": "2025-07-15",
+      "type": "release",
+      "title": "0.47.0",
+      "url": "https://github.com/strimzi/strimzi-kafka-operator/releases/tag/0.47.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-29",
+      "type": "release",
+      "title": "0.48.0",
+      "url": "https://github.com/strimzi/strimzi-kafka-operator/releases/tag/0.48.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-21",
+      "type": "release",
+      "title": "0.49.0",
+      "url": "https://github.com/strimzi/strimzi-kafka-operator/releases/tag/0.49.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-05",
+      "type": "release",
+      "title": "0.49.1",
+      "url": "https://github.com/strimzi/strimzi-kafka-operator/releases/tag/0.49.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-18",
+      "type": "release",
+      "title": "0.50.0",
+      "url": "https://github.com/strimzi/strimzi-kafka-operator/releases/tag/0.50.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-19",
+      "type": "release",
+      "title": "0.50.1",
+      "url": "https://github.com/strimzi/strimzi-kafka-operator/releases/tag/0.50.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-06",
+      "type": "release",
+      "title": "0.51.0",
+      "url": "https://github.com/strimzi/strimzi-kafka-operator/releases/tag/0.51.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-12",
+      "type": "release",
+      "title": "0.45.2",
+      "url": "https://github.com/strimzi/strimzi-kafka-operator/releases/tag/0.45.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-28",
+      "type": "release",
+      "title": "1.0.0",
+      "url": "https://github.com/strimzi/strimzi-kafka-operator/releases/tag/1.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-17",
+      "type": "release",
+      "title": "1.0.1",
+      "url": "https://github.com/strimzi/strimzi-kafka-operator/releases/tag/1.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-27",
+      "type": "release",
+      "title": "1.1.0",
+      "url": "https://github.com/strimzi/strimzi-kafka-operator/releases/tag/1.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "1.2.0",
+      "url": "https://github.com/strimzi/strimzi-kafka-operator/releases/tag/1.2.0",
+      "points": null
+    }
+  ]
 }

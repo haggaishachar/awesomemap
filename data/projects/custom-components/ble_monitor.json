@@ -58,5 +58,196 @@
       "forks": 281,
       "openIssues": 115
     }
+  ],
+  "events": [
+    {
+      "date": "2024-12-15",
+      "type": "release",
+      "title": "12.20.0 - Add support for Govee H5055 meat thermometer",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/12.20.0",
+      "points": null
+    },
+    {
+      "date": "2024-12-24",
+      "type": "release",
+      "title": "13.0.0 - Bump requirements",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-09",
+      "type": "release",
+      "title": "13.0.3 - Add battery low sensor for Thermopro",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.0.3",
+      "points": null
+    },
+    {
+      "date": "2025-03-09",
+      "type": "release",
+      "title": "13.0.2 - Fix Mikrotik parser",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.0.2",
+      "points": null
+    },
+    {
+      "date": "2025-03-09",
+      "type": "release",
+      "title": "13.0.1 - Fix deprecation warning",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-03-29",
+      "type": "release",
+      "title": "13.1.0 - Add support for MJWSD06MMC",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-13",
+      "type": "release",
+      "title": "13.2.0-beta - Xiaomi Body Composition Scale S400 (MJTZC01YM)",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.2.0-beta",
+      "points": null
+    },
+    {
+      "date": "2025-05-05",
+      "type": "release",
+      "title": "13.2.0 - Linptech Human Presence Sensor ES3 and Xiaomi MSB17 temperature sensor",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-24",
+      "type": "release",
+      "title": "13.4.0 - Qingping CGP22C CO2 sensor",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.4.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-24",
+      "type": "release",
+      "title": "13.3.0 - Delete button and Xiaomi S400 Scale",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.3.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-09",
+      "type": "release",
+      "title": "13.5.0 - Beckett Geisys heater oil burner support",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.5.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-16",
+      "type": "release",
+      "title": "13.6.0 - MOCREO sensor support",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.6.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-19",
+      "type": "release",
+      "title": "13.7.0 - Unrecorded attributes",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.7.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-03",
+      "type": "release",
+      "title": "13.7.1 - Fix battery HolyIot",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.7.1",
+      "points": null
+    },
+    {
+      "date": "2025-08-10",
+      "type": "release",
+      "title": "13.9.0 - Govee H5191 support",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.9.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-10",
+      "type": "release",
+      "title": "13.8.0 - [BREAKING CHANGES] occupancy sensors for linptech ES3 and Xiaomi XMOSB01XS",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.8.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-12",
+      "type": "release",
+      "title": "13.9.1 - Fix for govee H5179",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.9.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-17",
+      "type": "release",
+      "title": "13.10.0 - Add Sonoff S-MATE and R5 switches",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.10.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-18",
+      "type": "release",
+      "title": "13.10.1 - Add additional device_id to Qingping CGP22C sensor",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.10.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-19",
+      "type": "release",
+      "title": "13.11.0 - Add support for Qingping CGDK3 and CGG3 and Mocreo ST7",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.11.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-20",
+      "type": "release",
+      "title": "13.11.1 - Fix for Mocreo sensors",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.11.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-21",
+      "type": "release",
+      "title": "13.12.0 - Add michelin tms",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.12.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "title": "13.13.0 - Mocreo and Chef iQ CQ60",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.13.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "13.14.0 - PTX-F1 support",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.14.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-18",
+      "type": "release",
+      "title": "13.15.0 - Fix deprecated alias SensorScanner",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.15.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-16",
+      "type": "release",
+      "title": "13.16.0 - Add MOCREO SD1 support- #1560",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/13.16.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "14.0.0 [BREAKING CHANGES] Keep passive scans continuous and support instant batched updates",
+      "url": "https://github.com/custom-components/ble_monitor/releases/tag/14.0.0",
+      "points": null
+    }
   ]
 }

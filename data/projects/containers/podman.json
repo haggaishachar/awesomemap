@@ -124,9 +124,207 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 32757,
-      "forks": 3354,
-      "openIssues": 1133
+      "stars": 32758,
+      "forks": 3352,
+      "openIssues": 1136
+    }
+  ],
+  "events": [
+    {
+      "date": "2021-09-01",
+      "type": "hn",
+      "title": "Podman: A tool for managing OCI containers and pods",
+      "url": "https://news.ycombinator.com/item?id=28376686",
+      "points": 421
+    },
+    {
+      "date": "2022-08-11",
+      "type": "hn",
+      "title": "Podman 4.2.0",
+      "url": "https://news.ycombinator.com/item?id=32421793",
+      "points": 270
+    },
+    {
+      "date": "2022-10-18",
+      "type": "hn",
+      "title": "Podman: Pasta User-Mode Networking",
+      "url": "https://news.ycombinator.com/item?id=33243063",
+      "points": 104
+    },
+    {
+      "date": "2023-02-20",
+      "type": "hn",
+      "title": "Podman 4.4",
+      "url": "https://news.ycombinator.com/item?id=34874014",
+      "points": 89
+    },
+    {
+      "date": "2023-04-17",
+      "type": "hn",
+      "title": "Podman 4.5.0",
+      "url": "https://news.ycombinator.com/item?id=35598372",
+      "points": 66
+    },
+    {
+      "date": "2024-05-07",
+      "type": "hn",
+      "title": "Show HN: Convert your Containerfile to a bootable OS",
+      "url": "https://news.ycombinator.com/item?id=40289120",
+      "points": 219
+    },
+    {
+      "date": "2024-05-14",
+      "type": "hn",
+      "title": "Large Language Models in Containers Locally with Podman AI Lab",
+      "url": "https://news.ycombinator.com/item?id=40351971",
+      "points": 50
+    },
+    {
+      "date": "2025-04-02",
+      "type": "release",
+      "title": "v5.4.2",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.4.2",
+      "points": null
+    },
+    {
+      "date": "2025-05-14",
+      "type": "release",
+      "title": "v5.5.0",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.5.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-05",
+      "type": "release",
+      "title": "v5.5.1",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.5.1",
+      "points": null
+    },
+    {
+      "date": "2025-06-24",
+      "type": "release",
+      "title": "v5.5.2",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.5.2",
+      "points": null
+    },
+    {
+      "date": "2025-08-15",
+      "type": "release",
+      "title": "v5.6.0",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.6.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-04",
+      "type": "release",
+      "title": "v5.6.1",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.6.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-30",
+      "type": "release",
+      "title": "v5.6.2",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.6.2",
+      "points": null
+    },
+    {
+      "date": "2025-11-11",
+      "type": "release",
+      "title": "v5.7.0",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.7.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-10",
+      "type": "release",
+      "title": "v5.7.1",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.7.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-12",
+      "type": "release",
+      "title": "v5.8.0",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-11",
+      "type": "release",
+      "title": "v5.8.1",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-14",
+      "type": "release",
+      "title": "v5.8.2",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-12",
+      "type": "release",
+      "title": "v5.8.3",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-24",
+      "type": "release",
+      "title": "v6.0.0",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-26",
+      "type": "release",
+      "title": "v5.8.4",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.4",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "v6.0.1",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "v5.8.5",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.5",
+      "points": null
+    },
+    {
+      "date": "2026-07-22",
+      "type": "release",
+      "title": "v6.0.2",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "v6.1.0",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "v5.8.6",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v5.8.6",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "v6.1.1",
+      "url": "https://github.com/podman-container-tools/podman/releases/tag/v6.1.1",
+      "points": null
     }
   ]
 }

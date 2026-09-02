@@ -128,5 +128,210 @@
       "forks": 2629,
       "openIssues": 59
     }
+  ],
+  "events": [
+    {
+      "date": "2025-08-25",
+      "type": "release",
+      "title": "7.51.2",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/7.51.2",
+      "points": null
+    },
+    {
+      "date": "2025-09-01",
+      "type": "release",
+      "title": "8.3.1",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.3.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-16",
+      "type": "release",
+      "title": "8.3.2",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.3.2",
+      "points": null
+    },
+    {
+      "date": "2025-10-19",
+      "type": "release",
+      "title": "8.4.0",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.4.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-28",
+      "type": "release",
+      "title": "8.4.1",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.4.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-03",
+      "type": "release",
+      "title": "8.4.2",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.4.2",
+      "points": null
+    },
+    {
+      "date": "2025-11-11",
+      "type": "release",
+      "title": "8.4.3",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.4.3",
+      "points": null
+    },
+    {
+      "date": "2025-11-18",
+      "type": "release",
+      "title": "8.5.0",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.5.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-07",
+      "type": "release",
+      "title": "8.6.0",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.6.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-21",
+      "type": "release",
+      "title": "8.6.2",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.6.2",
+      "points": null
+    },
+    {
+      "date": "2025-12-21",
+      "type": "release",
+      "title": "8.6.1",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.6.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-01",
+      "type": "release",
+      "title": "8.6.3",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.6.3",
+      "points": null
+    },
+    {
+      "date": "2026-01-05",
+      "type": "release",
+      "title": "8.7.0",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.7.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-18",
+      "type": "release",
+      "title": "8.7.2",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.7.2",
+      "points": null
+    },
+    {
+      "date": "2026-01-20",
+      "type": "release",
+      "title": "8.7.3",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.7.3",
+      "points": null
+    },
+    {
+      "date": "2026-02-08",
+      "type": "release",
+      "title": "8.7.5",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.7.5",
+      "points": null
+    },
+    {
+      "date": "2026-03-15",
+      "type": "release",
+      "title": "8.7.6",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.7.6",
+      "points": null
+    },
+    {
+      "date": "2026-03-23",
+      "type": "release",
+      "title": "8.8.0",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-24",
+      "type": "release",
+      "title": "8.8.1",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.8.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-15",
+      "type": "release",
+      "title": "8.8.2",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.8.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "8.8.3",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.8.3",
+      "points": null
+    },
+    {
+      "date": "2026-05-25",
+      "type": "release",
+      "title": "8.8.5",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.8.5",
+      "points": null
+    },
+    {
+      "date": "2026-05-25",
+      "type": "release",
+      "title": "8.8.4",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.8.4",
+      "points": null
+    },
+    {
+      "date": "2026-05-26",
+      "type": "release",
+      "title": "8.8.6",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.8.6",
+      "points": null
+    },
+    {
+      "date": "2026-06-02",
+      "type": "release",
+      "title": "8.8.7",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.8.7",
+      "points": null
+    },
+    {
+      "date": "2026-06-08",
+      "type": "release",
+      "title": "8.8.8",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.8.8",
+      "points": null
+    },
+    {
+      "date": "2026-06-21",
+      "type": "release",
+      "title": "8.8.9",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.8.9",
+      "points": null
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "8.8.10",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.8.10",
+      "points": null
+    },
+    {
+      "date": "2026-08-02",
+      "type": "release",
+      "title": "8.8.11",
+      "url": "https://github.com/wix/react-native-navigation/releases/tag/8.8.11",
+      "points": null
+    }
   ]
 }

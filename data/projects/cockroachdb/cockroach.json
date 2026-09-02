@@ -107,7 +107,30 @@
       "date": "2026-09-02",
       "stars": 32434,
       "forks": 4101,
-      "openIssues": 8449
+      "openIssues": 8464
+    }
+  ],
+  "events": [
+    {
+      "date": "2014-05-30",
+      "type": "hn",
+      "title": "CockroachDB: A Scalable, Geo-Replicated, Transactional Datastore",
+      "url": "https://news.ycombinator.com/item?id=7823076",
+      "points": 77
+    },
+    {
+      "date": "2014-11-06",
+      "type": "hn",
+      "title": "Ex-Googlers CockroachDB: A Scalable, Geo-Replicated, Transactional Datastore",
+      "url": "https://news.ycombinator.com/item?id=8566790",
+      "points": 98
+    },
+    {
+      "date": "2017-04-21",
+      "type": "hn",
+      "title": "The SQL layer in CockroachDB",
+      "url": "https://news.ycombinator.com/item?id=14168187",
+      "points": 85
     }
   ]
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/postcss/postcss",
   "name": "postcss",
   "desc": "Transforming styles with JS plugins",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "postcss",
+  "githubDescription": "Transforming styles with JS plugins",
   "tags": [
     "ast",
     "css",
@@ -13,7 +13,226 @@
     "parser",
     "postcss"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 28981,
+      "forks": 1639,
+      "openIssues": 26
+    }
+  ],
   "weight": 28980,
-  "image": "https://avatars.githubusercontent.com/u/8296347?v=4"
+  "image": "https://avatars.githubusercontent.com/u/8296347?v=4",
+  "events": [
+    {
+      "date": "2024-09-14",
+      "type": "release",
+      "title": "8.4.47",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.4.47",
+      "points": null
+    },
+    {
+      "date": "2024-11-10",
+      "type": "release",
+      "title": "8.4.48",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.4.48",
+      "points": null
+    },
+    {
+      "date": "2024-11-11",
+      "type": "release",
+      "title": "8.4.49",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.4.49",
+      "points": null
+    },
+    {
+      "date": "2025-01-13",
+      "type": "release",
+      "title": "8.5 “Duke Alloces”",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-14",
+      "type": "release",
+      "title": "8.5.1",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.1",
+      "points": null
+    },
+    {
+      "date": "2025-02-10",
+      "type": "release",
+      "title": "8.5.2",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.2",
+      "points": null
+    },
+    {
+      "date": "2025-02-19",
+      "type": "release",
+      "title": "8.5.3",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.3",
+      "points": null
+    },
+    {
+      "date": "2025-05-29",
+      "type": "release",
+      "title": "8.5.4",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.4",
+      "points": null
+    },
+    {
+      "date": "2025-06-11",
+      "type": "release",
+      "title": "8.5.5",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.5",
+      "points": null
+    },
+    {
+      "date": "2025-06-16",
+      "type": "release",
+      "title": "8.5.6",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.6",
+      "points": null
+    },
+    {
+      "date": "2026-03-02",
+      "type": "release",
+      "title": "8.5.8",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.8",
+      "points": null
+    },
+    {
+      "date": "2026-03-02",
+      "type": "release",
+      "title": "8.5.7",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.7",
+      "points": null
+    },
+    {
+      "date": "2026-04-07",
+      "type": "release",
+      "title": "8.5.9",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.9",
+      "points": null
+    },
+    {
+      "date": "2026-04-15",
+      "type": "release",
+      "title": "8.5.10",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.10",
+      "points": null
+    },
+    {
+      "date": "2026-04-26",
+      "type": "release",
+      "title": "8.5.12",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.12",
+      "points": null
+    },
+    {
+      "date": "2026-04-26",
+      "type": "release",
+      "title": "8.5.11",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.11",
+      "points": null
+    },
+    {
+      "date": "2026-04-30",
+      "type": "release",
+      "title": "8.5.13",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.13",
+      "points": null
+    },
+    {
+      "date": "2026-05-04",
+      "type": "release",
+      "title": "8.5.14",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.14",
+      "points": null
+    },
+    {
+      "date": "2026-05-19",
+      "type": "release",
+      "title": "8.5.15",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.15",
+      "points": null
+    },
+    {
+      "date": "2026-06-28",
+      "type": "release",
+      "title": "8.5.16",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.16",
+      "points": null
+    },
+    {
+      "date": "2026-07-11",
+      "type": "release",
+      "title": "8.5.17",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.17",
+      "points": null
+    },
+    {
+      "date": "2026-07-12",
+      "type": "release",
+      "title": "8.5.18",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.18",
+      "points": null
+    },
+    {
+      "date": "2026-07-13",
+      "type": "release",
+      "title": "8.5.19",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.19",
+      "points": null
+    },
+    {
+      "date": "2026-07-19",
+      "type": "release",
+      "title": "8.5.20",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.20",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "8.5.21",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.21",
+      "points": null
+    },
+    {
+      "date": "2026-07-22",
+      "type": "release",
+      "title": "8.5.22",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.22",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "8.5.23",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.23",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "8.5.24",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.24",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "8.5.25",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.25",
+      "points": null
+    },
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "title": "8.5.26",
+      "url": "https://github.com/postcss/postcss/releases/tag/8.5.26",
+      "points": null
+    }
+  ]
 }

@@ -22,5 +22,217 @@
     }
   ],
   "weight": 1938,
-  "image": "https://avatars.githubusercontent.com/u/41095225?v=4"
+  "image": "https://avatars.githubusercontent.com/u/41095225?v=4",
+  "events": [
+    {
+      "date": "2023-03-15",
+      "type": "release",
+      "title": "v2.10.32",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.10.32",
+      "points": null
+    },
+    {
+      "date": "2023-03-15",
+      "type": "release",
+      "title": "v2.10.31",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.10.31",
+      "points": null
+    },
+    {
+      "date": "2023-03-17",
+      "type": "release",
+      "title": "v2.10.33",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.10.33",
+      "points": null
+    },
+    {
+      "date": "2023-03-20",
+      "type": "release",
+      "title": "v2.10.36",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.10.36",
+      "points": null
+    },
+    {
+      "date": "2023-03-20",
+      "type": "release",
+      "title": "v2.10.35",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.10.35",
+      "points": null
+    },
+    {
+      "date": "2023-03-20",
+      "type": "release",
+      "title": "v2.10.34",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.10.34",
+      "points": null
+    },
+    {
+      "date": "2023-03-22",
+      "type": "release",
+      "title": "v2.10.37",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.10.37",
+      "points": null
+    },
+    {
+      "date": "2023-04-04",
+      "type": "release",
+      "title": "v2.10.39",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.10.39",
+      "points": null
+    },
+    {
+      "date": "2023-04-04",
+      "type": "release",
+      "title": "v2.10.38",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.10.38",
+      "points": null
+    },
+    {
+      "date": "2023-06-12",
+      "type": "release",
+      "title": "v2.10.40",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.10.40",
+      "points": null
+    },
+    {
+      "date": "2023-07-04",
+      "type": "release",
+      "title": "v2.10.41",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.10.41",
+      "points": null
+    },
+    {
+      "date": "2023-08-28",
+      "type": "release",
+      "title": "v2.10.43",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.10.43",
+      "points": null
+    },
+    {
+      "date": "2023-08-28",
+      "type": "release",
+      "title": "v2.10.42",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.10.42",
+      "points": null
+    },
+    {
+      "date": "2023-09-06",
+      "type": "release",
+      "title": "v2.10.44",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.10.44",
+      "points": null
+    },
+    {
+      "date": "2023-10-17",
+      "type": "release",
+      "title": "v2.10.45",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.10.45",
+      "points": null
+    },
+    {
+      "date": "2023-12-18",
+      "type": "release",
+      "title": "v2.10.46",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.10.46",
+      "points": null
+    },
+    {
+      "date": "2023-12-25",
+      "type": "release",
+      "title": "v2.10.47",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.10.47",
+      "points": null
+    },
+    {
+      "date": "2024-01-12",
+      "type": "release",
+      "title": "v2.11.0",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.11.0",
+      "points": null
+    },
+    {
+      "date": "2024-01-18",
+      "type": "release",
+      "title": "v2.11.1",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.11.1",
+      "points": null
+    },
+    {
+      "date": "2024-03-01",
+      "type": "release",
+      "title": "v2.11.3",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.11.3",
+      "points": null
+    },
+    {
+      "date": "2024-03-01",
+      "type": "release",
+      "title": "v2.11.2",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.11.2",
+      "points": null
+    },
+    {
+      "date": "2024-04-07",
+      "type": "release",
+      "title": "v2.11.4",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.11.4",
+      "points": null
+    },
+    {
+      "date": "2024-04-23",
+      "type": "release",
+      "title": "v2.11.5",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.11.5",
+      "points": null
+    },
+    {
+      "date": "2024-05-30",
+      "type": "release",
+      "title": "v2.11.6",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.11.6",
+      "points": null
+    },
+    {
+      "date": "2024-06-20",
+      "type": "release",
+      "title": "v2.11.8",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.11.8",
+      "points": null
+    },
+    {
+      "date": "2024-06-20",
+      "type": "release",
+      "title": "v2.11.7",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.11.7",
+      "points": null
+    },
+    {
+      "date": "2024-08-02",
+      "type": "release",
+      "title": "v2.11.9",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.11.9",
+      "points": null
+    },
+    {
+      "date": "2024-09-20",
+      "type": "release",
+      "title": "v2.11.10",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.11.10",
+      "points": null
+    },
+    {
+      "date": "2024-12-02",
+      "type": "release",
+      "title": "v2.11.11",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.11.11",
+      "points": null
+    },
+    {
+      "date": "2025-05-06",
+      "type": "release",
+      "title": "v2.11.12",
+      "url": "https://github.com/dromara/Jpom/releases/tag/v2.11.12",
+      "points": null
+    }
+  ]
 }

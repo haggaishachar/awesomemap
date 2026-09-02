@@ -29,11 +29,181 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 4044,
-      "forks": 1194,
-      "openIssues": 201
+      "stars": 4042,
+      "forks": 1195,
+      "openIssues": 200
     }
   ],
   "weight": 4044,
-  "image": "https://avatars.githubusercontent.com/u/144704571?v=4"
+  "image": "https://avatars.githubusercontent.com/u/144704571?v=4",
+  "events": [
+    {
+      "date": "2025-04-21",
+      "type": "release",
+      "title": "v3.7.3",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.7.3",
+      "points": null
+    },
+    {
+      "date": "2025-05-10",
+      "type": "release",
+      "title": "v3.8",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.8",
+      "points": null
+    },
+    {
+      "date": "2025-05-27",
+      "type": "release",
+      "title": "v3.8.1",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.8.1",
+      "points": null
+    },
+    {
+      "date": "2025-08-08",
+      "type": "release",
+      "title": "v3.9",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.9",
+      "points": null
+    },
+    {
+      "date": "2025-08-29",
+      "type": "release",
+      "title": "v3.9.1",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.9.1",
+      "points": null
+    },
+    {
+      "date": "2025-10-15",
+      "type": "release",
+      "title": "v3.9.2",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.9.2",
+      "points": null
+    },
+    {
+      "date": "2025-10-20",
+      "type": "release",
+      "title": "v3.8.2",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.8.2",
+      "points": null
+    },
+    {
+      "date": "2025-11-07",
+      "type": "release",
+      "title": "v3.10",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.10",
+      "points": null
+    },
+    {
+      "date": "2025-11-19",
+      "type": "release",
+      "title": "v3.10.1",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.10.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-02",
+      "type": "release",
+      "title": "v3.10.2",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.10.2",
+      "points": null
+    },
+    {
+      "date": "2026-02-06",
+      "type": "release",
+      "title": "v3.11",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.11",
+      "points": null
+    },
+    {
+      "date": "2026-03-16",
+      "type": "release",
+      "title": "v3.11.1",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.11.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-30",
+      "type": "release",
+      "title": "v3.11.2",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.11.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-17",
+      "type": "release",
+      "title": "v3.11.3",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.11.3",
+      "points": null
+    },
+    {
+      "date": "2026-05-08",
+      "type": "release",
+      "title": "v3.12",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.12",
+      "points": null
+    },
+    {
+      "date": "2026-06-05",
+      "type": "release",
+      "title": "v3.12.1",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.12.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "v3.12.2",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.12.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "v3.11.4",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.11.4",
+      "points": null
+    },
+    {
+      "date": "2026-07-15",
+      "type": "release",
+      "title": "v3.12.3",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.12.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "v3.13",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.13",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "v3.13.1",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.13.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "v3.12.4",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.12.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v3.13.2",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.13.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v3.12.5",
+      "url": "https://github.com/uxlfoundation/oneDNN/releases/tag/v3.12.5",
+      "points": null
+    }
+  ]
 }

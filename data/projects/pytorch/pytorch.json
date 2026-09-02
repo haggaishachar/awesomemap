@@ -127,9 +127,242 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 102709,
-      "forks": 29080,
-      "openIssues": 17563
+      "stars": 102725,
+      "forks": 29090,
+      "openIssues": 17529
+    }
+  ],
+  "events": [
+    {
+      "date": "2017-08-07",
+      "type": "hn",
+      "title": "PyTorch v0.2.0 released",
+      "url": "https://news.ycombinator.com/item?id=14946585",
+      "points": 150
+    },
+    {
+      "date": "2018-12-07",
+      "type": "hn",
+      "title": "PyTorch 1.0 is out",
+      "url": "https://news.ycombinator.com/item?id=18630721",
+      "points": 470
+    },
+    {
+      "date": "2021-03-05",
+      "type": "hn",
+      "title": "PyTorch 1.8, with AMD ROCm support",
+      "url": "https://news.ycombinator.com/item?id=26353184",
+      "points": 313
+    },
+    {
+      "date": "2022-06-28",
+      "type": "release",
+      "title": "PyTorch 1.12: TorchArrow, Functional API for Modules and nvFuser, are now available",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v1.12.0",
+      "points": null
+    },
+    {
+      "date": "2022-08-05",
+      "type": "release",
+      "title": "PyTorch 1.12.1 Release, small bug fix release",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v1.12.1",
+      "points": null
+    },
+    {
+      "date": "2022-10-28",
+      "type": "release",
+      "title": "PyTorch 1.13: beta versions of functorch and improved support for Apple’s new M1 chips are now available",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v1.13.0",
+      "points": null
+    },
+    {
+      "date": "2022-12-16",
+      "type": "release",
+      "title": "PyTorch 1.13.1 Release, small bug fix release",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v1.13.1",
+      "points": null
+    },
+    {
+      "date": "2023-03-15",
+      "type": "release",
+      "title": "PyTorch 2.0: Our next generation release that is faster, more Pythonic and Dynamic as ever",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.0.0",
+      "points": null
+    },
+    {
+      "date": "2023-05-08",
+      "type": "release",
+      "title": "PyTorch 2.0.1 Release, bug fix release",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.0.1",
+      "points": null
+    },
+    {
+      "date": "2023-10-04",
+      "type": "release",
+      "title": "PyTorch 2.1: automatic dynamic shape compilation, distributed checkpointing",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.1.0",
+      "points": null
+    },
+    {
+      "date": "2023-11-15",
+      "type": "release",
+      "title": "PyTorch 2.1.1 Release, bug fix release",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.1.1",
+      "points": null
+    },
+    {
+      "date": "2023-12-15",
+      "type": "release",
+      "title": "PyTorch 2.1.2 Release, bug fix release",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.1.2",
+      "points": null
+    },
+    {
+      "date": "2024-01-30",
+      "type": "release",
+      "title": "PyTorch 2.2: FlashAttention-v2, AOTInductor",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.2.0",
+      "points": null
+    },
+    {
+      "date": "2024-02-22",
+      "type": "release",
+      "title": "PyTorch 2.2.1 Release, bug fix release",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.2.1",
+      "points": null
+    },
+    {
+      "date": "2024-03-27",
+      "type": "release",
+      "title": "PyTorch 2.2.2 Release, bug fix release",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.2.2",
+      "points": null
+    },
+    {
+      "date": "2024-04-24",
+      "type": "release",
+      "title": "PyTorch 2.3: User-Defined Triton Kernels in torch.compile, Tensor Parallelism in Distributed",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.3.0",
+      "points": null
+    },
+    {
+      "date": "2024-06-05",
+      "type": "release",
+      "title": "PyTorch 2.3.1 Release, bug fix release",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.3.1",
+      "points": null
+    },
+    {
+      "date": "2024-07-24",
+      "type": "release",
+      "title": "PyTorch 2.4: Python 3.12, AOTInductor freezing, libuv backend for TCPStore",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.4.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-04",
+      "type": "release",
+      "title": "PyTorch 2.4.1 Release, bug fix release",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.4.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-17",
+      "type": "release",
+      "title": "PyTorch 2.5.0 Release, SDPA CuDNN backend, Flex Attention",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.5.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-29",
+      "type": "release",
+      "title": "PyTorch 2.5.1: bug fix release",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.5.1",
+      "points": null
+    },
+    {
+      "date": "2025-01-29",
+      "type": "release",
+      "title": "PyTorch 2.6.0 Release",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.6.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-23",
+      "type": "release",
+      "title": "PyTorch 2.7.0 Release",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.7.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-04",
+      "type": "release",
+      "title": "PyTorch 2.7.1 Release, bug fix release",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.7.1",
+      "points": null
+    },
+    {
+      "date": "2025-08-06",
+      "type": "release",
+      "title": "PyTorch 2.8.0 Release",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.8.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-15",
+      "type": "release",
+      "title": "2.9 Release Notes",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.9.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-12",
+      "type": "release",
+      "title": "PyTorch 2.9.1 Release, bug fix release",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.9.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-21",
+      "type": "release",
+      "title": "PyTorch 2.10.0 Release",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.10.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-23",
+      "type": "release",
+      "title": "PyTorch 2.11.0 Release",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.11.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "PyTorch 2.12.0 Release",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.12.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-18",
+      "type": "release",
+      "title": "PyTorch 2.12.1 Release, bug fix release",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.12.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "PyTorch 2.13.0 Release",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.13.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "PyTorch 2.14.0 Release",
+      "url": "https://github.com/pytorch/pytorch/releases/tag/v2.14.0",
+      "points": null
     }
   ]
 }

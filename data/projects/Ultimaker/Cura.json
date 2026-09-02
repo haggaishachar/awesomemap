@@ -77,8 +77,122 @@
     {
       "date": "2026-09-02",
       "stars": 7028,
-      "forks": 2174,
+      "forks": 2175,
       "openIssues": 3530
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-10-25",
+      "type": "release",
+      "title": "UltiMaker Cura 5.5.0",
+      "url": "https://github.com/Ultimaker/Cura/releases/tag/5.5.0",
+      "points": null
+    },
+    {
+      "date": "2023-11-28",
+      "type": "release",
+      "title": "UltiMaker Cura 5.6.0",
+      "url": "https://github.com/Ultimaker/Cura/releases/tag/5.6.0",
+      "points": null
+    },
+    {
+      "date": "2024-04-03",
+      "type": "release",
+      "title": "UltiMaker Cura 5.7.0",
+      "url": "https://github.com/Ultimaker/Cura/releases/tag/5.7.0",
+      "points": null
+    },
+    {
+      "date": "2024-04-24",
+      "type": "release",
+      "title": "UltiMaker Cura 5.7.1",
+      "url": "https://github.com/Ultimaker/Cura/releases/tag/5.7.1",
+      "points": null
+    },
+    {
+      "date": "2024-06-03",
+      "type": "release",
+      "title": "UltiMaker Cura 5.7.2",
+      "url": "https://github.com/Ultimaker/Cura/releases/tag/5.7.2-RC2",
+      "points": null
+    },
+    {
+      "date": "2024-08-01",
+      "type": "release",
+      "title": "UltiMaker Cura 5.8.0",
+      "url": "https://github.com/Ultimaker/Cura/releases/tag/5.8.0",
+      "points": null
+    },
+    {
+      "date": "2024-08-29",
+      "type": "release",
+      "title": "UltiMaker Cura 5.8.1",
+      "url": "https://github.com/Ultimaker/Cura/releases/tag/5.8.1",
+      "points": null
+    },
+    {
+      "date": "2024-11-19",
+      "type": "release",
+      "title": "UltiMaker Cura 5.9.0",
+      "url": "https://github.com/Ultimaker/Cura/releases/tag/5.9.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-19",
+      "type": "release",
+      "title": "UltiMaker Cura 5.9.1",
+      "url": "https://github.com/Ultimaker/Cura/releases/tag/5.9.1",
+      "points": null
+    },
+    {
+      "date": "2025-03-25",
+      "type": "release",
+      "title": "UltiMaker Cura 5.10.0",
+      "url": "https://github.com/Ultimaker/Cura/releases/tag/5.10.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-03",
+      "type": "release",
+      "title": "UltiMaker Cura 5.10.1",
+      "url": "https://github.com/Ultimaker/Cura/releases/tag/5.10.1",
+      "points": null
+    },
+    {
+      "date": "2025-07-31",
+      "type": "release",
+      "title": "UltiMaker Cura 5.10.2",
+      "url": "https://github.com/Ultimaker/Cura/releases/tag/5.10.2",
+      "points": null
+    },
+    {
+      "date": "2025-10-23",
+      "type": "release",
+      "title": "UltiMaker Cura 5.11.0",
+      "url": "https://github.com/Ultimaker/Cura/releases/tag/5.11.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-05",
+      "type": "release",
+      "title": "UltiMaker Cura 5.12.0",
+      "url": "https://github.com/Ultimaker/Cura/releases/tag/5.12.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-13",
+      "type": "release",
+      "title": "UltiMaker Cura 5.12.1",
+      "url": "https://github.com/Ultimaker/Cura/releases/tag/5.12.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-28",
+      "type": "release",
+      "title": "UltiMaker Cura 5.13.0",
+      "url": "https://github.com/Ultimaker/Cura/releases/tag/5.13.0",
+      "points": null
     }
   ]
 }

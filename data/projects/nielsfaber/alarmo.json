@@ -4,8 +4,8 @@
   "link": "https://github.com/nielsfaber/alarmo",
   "name": "alarmo",
   "desc": "Easy to use alarm system integration for Home Assistant",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "alarmo",
+  "githubDescription": "Easy to use alarm system integration for Home Assistant",
   "tags": [
     "alarm",
     "assistant",
@@ -15,6 +15,225 @@
     "lovelace",
     "security"
   ],
-  "history": [],
-  "weight": 2247
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2248,
+      "forks": 162,
+      "openIssues": 17
+    }
+  ],
+  "weight": 2247,
+  "events": [
+    {
+      "date": "2022-10-16",
+      "type": "release",
+      "title": "v1.9.6",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.9.6",
+      "points": null
+    },
+    {
+      "date": "2022-12-09",
+      "type": "release",
+      "title": "v1.9.7",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.9.7",
+      "points": null
+    },
+    {
+      "date": "2023-04-02",
+      "type": "release",
+      "title": "v1.9.8",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.9.8",
+      "points": null
+    },
+    {
+      "date": "2023-04-20",
+      "type": "release",
+      "title": "v1.9.9",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.9.9",
+      "points": null
+    },
+    {
+      "date": "2023-06-28",
+      "type": "release",
+      "title": "v1.9.10",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.9.10",
+      "points": null
+    },
+    {
+      "date": "2023-10-29",
+      "type": "release",
+      "title": "v1.9.11",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.9.11",
+      "points": null
+    },
+    {
+      "date": "2023-10-30",
+      "type": "release",
+      "title": "v1.9.12",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.9.12",
+      "points": null
+    },
+    {
+      "date": "2023-11-04",
+      "type": "release",
+      "title": "v1.9.13",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.9.13",
+      "points": null
+    },
+    {
+      "date": "2024-01-22",
+      "type": "release",
+      "title": "v1.9.14",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.9.14",
+      "points": null
+    },
+    {
+      "date": "2024-03-06",
+      "type": "release",
+      "title": "v1.9.15",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.9.15",
+      "points": null
+    },
+    {
+      "date": "2024-04-11",
+      "type": "release",
+      "title": "v1.10.0",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.10.0",
+      "points": null
+    },
+    {
+      "date": "2024-05-08",
+      "type": "release",
+      "title": "v1.10.1",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.10.1",
+      "points": null
+    },
+    {
+      "date": "2024-06-05",
+      "type": "release",
+      "title": "v1.10.2",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.10.2",
+      "points": null
+    },
+    {
+      "date": "2024-06-07",
+      "type": "release",
+      "title": "v.1.10.3",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.10.3",
+      "points": null
+    },
+    {
+      "date": "2024-07-03",
+      "type": "release",
+      "title": "v1.10.4",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.10.4",
+      "points": null
+    },
+    {
+      "date": "2024-10-06",
+      "type": "release",
+      "title": "v1.10.5",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.10.5",
+      "points": null
+    },
+    {
+      "date": "2024-10-23",
+      "type": "release",
+      "title": "v1.10.6",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.10.6",
+      "points": null
+    },
+    {
+      "date": "2024-11-17",
+      "type": "release",
+      "title": "v1.10.7",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.10.7",
+      "points": null
+    },
+    {
+      "date": "2025-05-09",
+      "type": "release",
+      "title": "v1.10.8",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.10.8",
+      "points": null
+    },
+    {
+      "date": "2025-06-03",
+      "type": "release",
+      "title": "v1.10.9",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.10.9",
+      "points": null
+    },
+    {
+      "date": "2025-08-11",
+      "type": "release",
+      "title": "v1.10.10",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.10.10",
+      "points": null
+    },
+    {
+      "date": "2025-09-24",
+      "type": "release",
+      "title": "v1.10.11",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.10.11",
+      "points": null
+    },
+    {
+      "date": "2025-10-04",
+      "type": "release",
+      "title": "v1.10.12",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.10.12",
+      "points": null
+    },
+    {
+      "date": "2025-11-29",
+      "type": "release",
+      "title": "v1.10.13",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.10.13",
+      "points": null
+    },
+    {
+      "date": "2026-01-11",
+      "type": "release",
+      "title": "v1.10.14",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.10.14",
+      "points": null
+    },
+    {
+      "date": "2026-01-12",
+      "type": "release",
+      "title": "v1.10.15",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.10.15",
+      "points": null
+    },
+    {
+      "date": "2026-03-07",
+      "type": "release",
+      "title": "v1.10.16",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.10.16",
+      "points": null
+    },
+    {
+      "date": "2026-05-08",
+      "type": "release",
+      "title": "v1.10.17",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.10.17",
+      "points": null
+    },
+    {
+      "date": "2026-05-17",
+      "type": "release",
+      "title": "v1.10.18",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.10.18",
+      "points": null
+    },
+    {
+      "date": "2026-08-09",
+      "type": "release",
+      "title": "v1.10.19",
+      "url": "https://github.com/nielsfaber/alarmo/releases/tag/v1.10.19",
+      "points": null
+    }
+  ]
 }

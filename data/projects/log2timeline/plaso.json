@@ -4,14 +4,233 @@
   "link": "https://github.com/log2timeline/plaso",
   "name": "plaso",
   "desc": "Super timeline all the things",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "plaso",
+  "githubDescription": "Super timeline all the things",
   "tags": [
     "forensics",
     "parsing",
     "timeline"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2145,
+      "forks": 423,
+      "openIssues": 275
+    }
+  ],
   "weight": 2144,
-  "image": "https://avatars.githubusercontent.com/u/8701971?v=4"
+  "image": "https://avatars.githubusercontent.com/u/8701971?v=4",
+  "events": [
+    {
+      "date": "2019-05-31",
+      "type": "release",
+      "title": "plaso-20190531",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20190531",
+      "points": null
+    },
+    {
+      "date": "2019-07-09",
+      "type": "release",
+      "title": "plaso-20190708",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20190708",
+      "points": null
+    },
+    {
+      "date": "2019-09-22",
+      "type": "release",
+      "title": "plaso-20190916",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20190916",
+      "points": null
+    },
+    {
+      "date": "2019-12-05",
+      "type": "release",
+      "title": "plaso-20191203",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20191203",
+      "points": null
+    },
+    {
+      "date": "2020-01-21",
+      "type": "release",
+      "title": "plaso-20200121",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20200121",
+      "points": null
+    },
+    {
+      "date": "2020-02-27",
+      "type": "release",
+      "title": "plaso-20200227",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20200227",
+      "points": null
+    },
+    {
+      "date": "2020-05-08",
+      "type": "release",
+      "title": "plaso-20200430",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20200430",
+      "points": null
+    },
+    {
+      "date": "2020-07-02",
+      "type": "release",
+      "title": "plaso-20200630",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20200630",
+      "points": null
+    },
+    {
+      "date": "2020-07-17",
+      "type": "release",
+      "title": "plaso-20200717",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20200717",
+      "points": null
+    },
+    {
+      "date": "2020-10-07",
+      "type": "release",
+      "title": "plaso-20201007",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20201007",
+      "points": null
+    },
+    {
+      "date": "2020-12-28",
+      "type": "release",
+      "title": "plaso-20201228",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20201228",
+      "points": null
+    },
+    {
+      "date": "2021-02-13",
+      "type": "release",
+      "title": "plaso-20210213",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20210213",
+      "points": null
+    },
+    {
+      "date": "2021-04-12",
+      "type": "release",
+      "title": "plaso-20210412",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20210412",
+      "points": null
+    },
+    {
+      "date": "2021-06-06",
+      "type": "release",
+      "title": "plaso-20210606",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20210606",
+      "points": null
+    },
+    {
+      "date": "2021-10-24",
+      "type": "release",
+      "title": "plaso-20211024",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20211024",
+      "points": null
+    },
+    {
+      "date": "2021-12-29",
+      "type": "release",
+      "title": "plaso-20211229",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20211229",
+      "points": null
+    },
+    {
+      "date": "2022-04-28",
+      "type": "release",
+      "title": "plaso-20220428",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20220428",
+      "points": null
+    },
+    {
+      "date": "2022-07-24",
+      "type": "release",
+      "title": "plaso-20220724",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20220724",
+      "points": null
+    },
+    {
+      "date": "2022-09-30",
+      "type": "release",
+      "title": "plaso-20220930",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20220930",
+      "points": null
+    },
+    {
+      "date": "2022-12-29",
+      "type": "release",
+      "title": "plaso-20221229",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20221229",
+      "points": null
+    },
+    {
+      "date": "2023-02-26",
+      "type": "release",
+      "title": "plaso-20230226",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20230226",
+      "points": null
+    },
+    {
+      "date": "2023-03-12",
+      "type": "release",
+      "title": "plaso-20230311",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20230311",
+      "points": null
+    },
+    {
+      "date": "2023-07-18",
+      "type": "release",
+      "title": "plaso-20230717",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20230717",
+      "points": null
+    },
+    {
+      "date": "2023-12-24",
+      "type": "release",
+      "title": "plaso-20231224",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20231224",
+      "points": null
+    },
+    {
+      "date": "2024-03-09",
+      "type": "release",
+      "title": "plaso-20240308",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20240308",
+      "points": null
+    },
+    {
+      "date": "2024-08-27",
+      "type": "release",
+      "title": "plaso-20240826",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20240826",
+      "points": null
+    },
+    {
+      "date": "2025-09-18",
+      "type": "release",
+      "title": "plaso-20250918",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20250918",
+      "points": null
+    },
+    {
+      "date": "2026-01-24",
+      "type": "release",
+      "title": "plaso-20260119",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20260119",
+      "points": null
+    },
+    {
+      "date": "2026-05-12",
+      "type": "release",
+      "title": "plaso-20260512",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20260512",
+      "points": null
+    },
+    {
+      "date": "2026-07-20",
+      "type": "release",
+      "title": "plaso-20260720",
+      "url": "https://github.com/log2timeline/plaso/releases/tag/20260720",
+      "points": null
+    }
+  ]
 }

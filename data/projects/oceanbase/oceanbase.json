@@ -31,11 +31,230 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 10258,
+      "stars": 10260,
       "forks": 1913,
       "openIssues": 596
     }
   ],
   "weight": 10258,
-  "image": "https://avatars.githubusercontent.com/u/82347605?v=4"
+  "image": "https://avatars.githubusercontent.com/u/82347605?v=4",
+  "events": [
+    {
+      "date": "2021-06-01",
+      "type": "hn",
+      "title": "Oceanbase, yet another open source HTAP database",
+      "url": "https://news.ycombinator.com/item?id=27350108",
+      "points": 62
+    },
+    {
+      "date": "2025-05-29",
+      "type": "release",
+      "title": "v4.3.5_CE_BP2_HF1",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.3.5_CE_BP2_HF1",
+      "points": null
+    },
+    {
+      "date": "2025-06-06",
+      "type": "release",
+      "title": "v4.2.5_CE_BP4",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.2.5_CE_BP4",
+      "points": null
+    },
+    {
+      "date": "2025-06-18",
+      "type": "release",
+      "title": "v4.3.5_CE_BP1_HF2",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.3.5_CE_BP1_HF2",
+      "points": null
+    },
+    {
+      "date": "2025-07-07",
+      "type": "release",
+      "title": "v4.3.5_CE_BP2_HF2",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.3.5_CE_BP2_HF2",
+      "points": null
+    },
+    {
+      "date": "2025-07-22",
+      "type": "release",
+      "title": "v4.2.5_CE_BP5",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.2.5_CE_BP5",
+      "points": null
+    },
+    {
+      "date": "2025-07-22",
+      "type": "release",
+      "title": "v4.2.5_CE_BP4_HF1",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.2.5_CE_BP4_HF1",
+      "points": null
+    },
+    {
+      "date": "2025-08-04",
+      "type": "release",
+      "title": "v4.3.5_CE_BP2_HF3",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.3.5_CE_BP2_HF3",
+      "points": null
+    },
+    {
+      "date": "2025-08-13",
+      "type": "release",
+      "title": "v4.3.5_CE_BP3",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.3.5_CE_BP3",
+      "points": null
+    },
+    {
+      "date": "2025-08-20",
+      "type": "release",
+      "title": "v4.3.5_CE_BP2_HF4",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.3.5_CE_BP2_HF4",
+      "points": null
+    },
+    {
+      "date": "2025-09-02",
+      "type": "release",
+      "title": "v4.2.5_CE_BP6",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.2.5_CE_BP6",
+      "points": null
+    },
+    {
+      "date": "2025-09-04",
+      "type": "release",
+      "title": "v4.3.5_CE_BP3_HF1",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.3.5_CE_BP3_HF1",
+      "points": null
+    },
+    {
+      "date": "2025-09-16",
+      "type": "release",
+      "title": "v4.3.5_CE_BP4",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.3.5_CE_BP4",
+      "points": null
+    },
+    {
+      "date": "2025-10-24",
+      "type": "release",
+      "title": "v4.4.1_CE",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.4.1_CE",
+      "points": null
+    },
+    {
+      "date": "2025-11-19",
+      "type": "release",
+      "title": "v4.3.5_CE_BP5",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.3.5_CE_BP5",
+      "points": null
+    },
+    {
+      "date": "2025-12-03",
+      "type": "release",
+      "title": "v4.5.0_CE",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.5.0_CE",
+      "points": null
+    },
+    {
+      "date": "2025-12-05",
+      "type": "release",
+      "title": "v4.2.5_CE_BP7",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.2.5_CE_BP7",
+      "points": null
+    },
+    {
+      "date": "2025-12-08",
+      "type": "release",
+      "title": "v4.3.5_CE_BP3_HF2",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.3.5_CE_BP3_HF2",
+      "points": null
+    },
+    {
+      "date": "2025-12-10",
+      "type": "release",
+      "title": "v4.4.1_CE_HF1",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.4.1_CE_HF1",
+      "points": null
+    },
+    {
+      "date": "2025-12-24",
+      "type": "release",
+      "title": "v4.4.1_CE_HF2",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.4.1_CE_HF2",
+      "points": null
+    },
+    {
+      "date": "2026-01-22",
+      "type": "release",
+      "title": "v4.2.1_CE_BP11_HF1",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.2.1_CE_BP11_HF1",
+      "points": null
+    },
+    {
+      "date": "2026-01-28",
+      "type": "release",
+      "title": "v4.3.5_CE_BP5_HF2",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.3.5_CE_BP5_HF2",
+      "points": null
+    },
+    {
+      "date": "2026-03-05",
+      "type": "release",
+      "title": "v4.4.2_CE",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.4.2_CE",
+      "points": null
+    },
+    {
+      "date": "2026-03-06",
+      "type": "release",
+      "title": "v4.2.5_CE_BP7_HF1",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.2.5_CE_BP7_HF1",
+      "points": null
+    },
+    {
+      "date": "2026-03-18",
+      "type": "release",
+      "title": "v4.4.1_CE_HF3",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.4.1_CE_HF3",
+      "points": null
+    },
+    {
+      "date": "2026-04-10",
+      "type": "release",
+      "title": "v4.4.1_CE_HF4",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.4.1_CE_HF4",
+      "points": null
+    },
+    {
+      "date": "2026-04-14",
+      "type": "release",
+      "title": "v4.3.5_CE_BP6",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.3.5_CE_BP6",
+      "points": null
+    },
+    {
+      "date": "2026-05-08",
+      "type": "release",
+      "title": "v4.4.2_CE_BP1",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.4.2_CE_BP1",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "v4.6.0_CE",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.6.0_CE",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "v4.4.2_CE_BP2",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v4.4.2_CE_BP2",
+      "points": null
+    },
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "title": "v5.0.1_CE",
+      "url": "https://github.com/oceanbase/oceanbase/releases/tag/v5.0.1_CE",
+      "points": null
+    }
+  ]
 }

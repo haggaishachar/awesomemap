@@ -4,8 +4,8 @@
   "link": "https://github.com/Adam-CAD/CADAM",
   "name": "CADAM",
   "desc": "CADAM is the open source text-to-CAD web application",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "CADAM",
+  "githubDescription": "CADAM is the open source text-to-CAD web application",
   "tags": [
     "agents",
     "ai",
@@ -20,7 +20,58 @@
     "text-to-cad",
     "wasm"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 5078,
+      "forks": 634,
+      "openIssues": 23
+    }
+  ],
   "weight": 5075,
-  "image": "https://avatars.githubusercontent.com/u/193529322?v=4"
+  "image": "https://avatars.githubusercontent.com/u/193529322?v=4",
+  "events": [
+    {
+      "date": "2025-09-05",
+      "type": "hn",
+      "title": "Show HN: Open-sourcing our text-to-CAD app",
+      "url": "https://news.ycombinator.com/item?id=45140921",
+      "points": 179
+    },
+    {
+      "date": "2025-12-15",
+      "type": "release",
+      "title": "CADAM v0.0.1",
+      "url": "https://github.com/Adam-CAD/CADAM/releases/tag/v0.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-04",
+      "type": "release",
+      "title": "CADAM v.0.1.0",
+      "url": "https://github.com/Adam-CAD/CADAM/releases/tag/v0.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-22",
+      "type": "release",
+      "title": "V0.2.0",
+      "url": "https://github.com/Adam-CAD/CADAM/releases/tag/v0.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-17",
+      "type": "hn",
+      "title": "Launch HN: Adam (YC W25) – Open-Source AI CAD",
+      "url": "https://news.ycombinator.com/item?id=48572553",
+      "points": 215
+    },
+    {
+      "date": "2026-06-17",
+      "type": "release",
+      "title": "V0.3.0",
+      "url": "https://github.com/Adam-CAD/CADAM/releases/tag/v0.3.0",
+      "points": null
+    }
+  ]
 }

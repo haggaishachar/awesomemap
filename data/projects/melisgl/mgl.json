@@ -4,9 +4,25 @@
   "link": "https://github.com/melisgl/mgl",
   "name": "mgl",
   "desc": "Common Lisp machine learning library.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "mgl",
+  "githubDescription": "Common Lisp machine learning library.",
   "tags": [],
-  "history": [],
-  "weight": 649
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 650,
+      "forks": 39,
+      "openIssues": 6
+    }
+  ],
+  "weight": 649,
+  "events": [
+    {
+      "date": "2023-05-13",
+      "type": "hn",
+      "title": "MGL: Common Lisp machine learning library",
+      "url": "https://news.ycombinator.com/item?id=35927790",
+      "points": 216
+    }
+  ]
 }

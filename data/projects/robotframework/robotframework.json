@@ -75,9 +75,102 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 11858,
+      "stars": 11861,
       "forks": 2560,
-      "openIssues": 300
+      "openIssues": 303
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-01-11",
+      "type": "release",
+      "title": "Robot Framework 7.0",
+      "url": "https://github.com/robotframework/robotframework/releases/tag/v7.0",
+      "points": null
+    },
+    {
+      "date": "2024-06-10",
+      "type": "release",
+      "title": "Robot Framework 7.0.1",
+      "url": "https://github.com/robotframework/robotframework/releases/tag/v7.0.1",
+      "points": null
+    },
+    {
+      "date": "2024-09-10",
+      "type": "release",
+      "title": "Robot Framework 7.1",
+      "url": "https://github.com/robotframework/robotframework/releases/tag/v7.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-19",
+      "type": "release",
+      "title": "Robot Framework 7.1.1",
+      "url": "https://github.com/robotframework/robotframework/releases/tag/v7.1.1",
+      "points": null
+    },
+    {
+      "date": "2025-01-14",
+      "type": "release",
+      "title": "Robot Framework 7.2",
+      "url": "https://github.com/robotframework/robotframework/releases/tag/v7.2",
+      "points": null
+    },
+    {
+      "date": "2025-02-07",
+      "type": "release",
+      "title": "Robot Framework 7.2.2",
+      "url": "https://github.com/robotframework/robotframework/releases/tag/v7.2.2",
+      "points": null
+    },
+    {
+      "date": "2025-02-07",
+      "type": "release",
+      "title": "Robot Framework 7.2.1",
+      "url": "https://github.com/robotframework/robotframework/releases/tag/v7.2.1",
+      "points": null
+    },
+    {
+      "date": "2025-05-30",
+      "type": "release",
+      "title": "Robot Framework 7.3",
+      "url": "https://github.com/robotframework/robotframework/releases/tag/v7.3",
+      "points": null
+    },
+    {
+      "date": "2025-06-16",
+      "type": "release",
+      "title": "Robot Framework 7.3.1",
+      "url": "https://github.com/robotframework/robotframework/releases/tag/v7.3.1",
+      "points": null
+    },
+    {
+      "date": "2025-07-04",
+      "type": "release",
+      "title": "Robot Framework 7.3.2",
+      "url": "https://github.com/robotframework/robotframework/releases/tag/v7.3.2",
+      "points": null
+    },
+    {
+      "date": "2025-12-12",
+      "type": "release",
+      "title": "Robot Framework 7.4",
+      "url": "https://github.com/robotframework/robotframework/releases/tag/v7.4",
+      "points": null
+    },
+    {
+      "date": "2025-12-23",
+      "type": "release",
+      "title": "Robot Framework 7.4.1",
+      "url": "https://github.com/robotframework/robotframework/releases/tag/v7.4.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-03",
+      "type": "release",
+      "title": "Robot Framework 7.4.2",
+      "url": "https://github.com/robotframework/robotframework/releases/tag/v7.4.2",
+      "points": null
     }
   ]
 }

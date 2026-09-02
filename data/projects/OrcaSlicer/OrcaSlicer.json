@@ -73,9 +73,88 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 15555,
+      "stars": 15564,
       "forks": 3006,
-      "openIssues": 2652
+      "openIssues": 2661
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-02-17",
+      "type": "release",
+      "title": "OrcaSlicer V1.9.1 Official Release",
+      "url": "https://github.com/OrcaSlicer/OrcaSlicer/releases/tag/v1.9.1",
+      "points": null
+    },
+    {
+      "date": "2024-03-30",
+      "type": "release",
+      "title": "OrcaSlicer V2.0.0 Official Release",
+      "url": "https://github.com/OrcaSlicer/OrcaSlicer/releases/tag/v2.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-06-21",
+      "type": "release",
+      "title": "OrcaSlicer V2.1.0 Official Release",
+      "url": "https://github.com/OrcaSlicer/OrcaSlicer/releases/tag/v2.1.0",
+      "points": null
+    },
+    {
+      "date": "2024-06-26",
+      "type": "release",
+      "title": "OrcaSlicer V2.1.1 Official Release",
+      "url": "https://github.com/OrcaSlicer/OrcaSlicer/releases/tag/v2.1.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-28",
+      "type": "release",
+      "title": "OrcaSlicer V2.2.0 Official Release",
+      "url": "https://github.com/OrcaSlicer/OrcaSlicer/releases/tag/v2.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-20",
+      "type": "release",
+      "title": "OrcaSlicer V2.3.0 Official Release",
+      "url": "https://github.com/OrcaSlicer/OrcaSlicer/releases/tag/v2.3.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-05",
+      "type": "release",
+      "title": "OrcaSlicer v2.3.1 Official Release",
+      "url": "https://github.com/OrcaSlicer/OrcaSlicer/releases/tag/v2.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-23",
+      "type": "release",
+      "title": "OrcaSlicer V2.3.2 Official Release ",
+      "url": "https://github.com/OrcaSlicer/OrcaSlicer/releases/tag/v2.3.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-20",
+      "type": "release",
+      "title": "OrcaSlicer v2.4.0 Official Release",
+      "url": "https://github.com/OrcaSlicer/OrcaSlicer/releases/tag/v2.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-28",
+      "type": "release",
+      "title": "OrcaSlicer v2.4.1 Official Release",
+      "url": "https://github.com/OrcaSlicer/OrcaSlicer/releases/tag/v2.4.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-07",
+      "type": "release",
+      "title": "OrcaSlicer v2.4.2 Official Release",
+      "url": "https://github.com/OrcaSlicer/OrcaSlicer/releases/tag/v2.4.2",
+      "points": null
     }
   ]
 }

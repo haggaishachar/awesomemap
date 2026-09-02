@@ -107,9 +107,207 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 27105,
+      "stars": 27111,
       "forks": 1306,
-      "openIssues": 886
+      "openIssues": 885
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-09-18",
+      "type": "hn",
+      "title": "Valkey 8.0.0 Is Out",
+      "url": "https://news.ycombinator.com/item?id=41581504",
+      "points": 125
+    },
+    {
+      "date": "2025-10-03",
+      "type": "release",
+      "title": "8.1.4",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/8.1.4",
+      "points": null
+    },
+    {
+      "date": "2025-10-03",
+      "type": "release",
+      "title": "8.0.6",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/8.0.6",
+      "points": null
+    },
+    {
+      "date": "2025-10-03",
+      "type": "release",
+      "title": "7.2.11",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/7.2.11",
+      "points": null
+    },
+    {
+      "date": "2025-10-21",
+      "type": "release",
+      "title": "9.0.0",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/9.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-04",
+      "type": "release",
+      "title": "8.1.5",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/8.1.5",
+      "points": null
+    },
+    {
+      "date": "2025-12-09",
+      "type": "release",
+      "title": "9.0.1",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/9.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-03",
+      "type": "release",
+      "title": "9.0.2",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/9.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-02-24",
+      "type": "release",
+      "title": "9.0.3",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/9.0.3",
+      "points": null
+    },
+    {
+      "date": "2026-02-24",
+      "type": "release",
+      "title": "8.1.6",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/8.1.6",
+      "points": null
+    },
+    {
+      "date": "2026-02-24",
+      "type": "release",
+      "title": "8.0.7",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/8.0.7",
+      "points": null
+    },
+    {
+      "date": "2026-02-24",
+      "type": "release",
+      "title": "7.2.12",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/7.2.12",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "9.0.4",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/9.0.4",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "8.1.7",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/8.1.7",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "8.0.9",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/8.0.9",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "7.2.13",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/7.2.13",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "8.0.8 (revoked)",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/8.0.8",
+      "points": null
+    },
+    {
+      "date": "2026-05-19",
+      "type": "release",
+      "title": "9.1.0",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/9.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-02",
+      "type": "release",
+      "title": "8.1.8",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/8.1.8",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "9.1.1",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/9.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "9.0.5",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/9.0.5",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "8.1.9",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/8.1.9",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "8.0.10",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/8.0.10",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "7.2.14",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/7.2.14",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "8.1.10",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/8.1.10",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "8.0.11",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/8.0.11",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "9.0.6",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/9.0.6",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "9.1.2",
+      "url": "https://github.com/valkey-io/valkey/releases/tag/9.1.2",
+      "points": null
     }
   ]
 }

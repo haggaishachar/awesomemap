@@ -138,9 +138,74 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 30081,
+      "stars": 30083,
       "forks": 1386,
-      "openIssues": 123
+      "openIssues": 124
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-03-27",
+      "type": "hn",
+      "title": "Xstate: State machines and statecharts for the modern web",
+      "url": "https://news.ycombinator.com/item?id=35328995",
+      "points": 178
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "@xstate/store@4.2.1",
+      "url": "https://github.com/statelyai/xstate/releases/tag/%40xstate/store%404.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "xstate@5.32.3",
+      "url": "https://github.com/statelyai/xstate/releases/tag/xstate%405.32.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-02",
+      "type": "release",
+      "title": "xstate@5.32.4",
+      "url": "https://github.com/statelyai/xstate/releases/tag/xstate%405.32.4",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "xstate@5.32.5",
+      "url": "https://github.com/statelyai/xstate/releases/tag/xstate%405.32.5",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "@xstate/vue@5.0.1",
+      "url": "https://github.com/statelyai/xstate/releases/tag/%40xstate/vue%405.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-22",
+      "type": "release",
+      "title": "@xstate/store@4.2.2",
+      "url": "https://github.com/statelyai/xstate/releases/tag/%40xstate/store%404.2.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "title": "@xstate/store@4.2.3",
+      "url": "https://github.com/statelyai/xstate/releases/tag/%40xstate/store%404.2.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-25",
+      "type": "release",
+      "title": "xstate@5.32.6",
+      "url": "https://github.com/statelyai/xstate/releases/tag/xstate%405.32.6",
+      "points": null
     }
   ]
 }

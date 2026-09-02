@@ -31,11 +31,209 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 31998,
-      "forks": 2467,
-      "openIssues": 1552
+      "stars": 32002,
+      "forks": 2469,
+      "openIssues": 1553
     }
   ],
   "weight": 31988,
-  "image": "https://avatars.githubusercontent.com/u/76905799?v=4"
+  "image": "https://avatars.githubusercontent.com/u/76905799?v=4",
+  "events": [
+    {
+      "date": "2022-10-01",
+      "type": "hn",
+      "title": "Show HN: SigNoz – open-source alternative to DataDog, NewRelic",
+      "url": "https://news.ycombinator.com/item?id=33049046",
+      "points": 510
+    },
+    {
+      "date": "2026-05-15",
+      "type": "release",
+      "title": "v0.124.0",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.124.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-20",
+      "type": "release",
+      "title": "v0.125.1",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.125.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-20",
+      "type": "release",
+      "title": "v0.125.0",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.125.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-27",
+      "type": "release",
+      "title": "v0.126.0",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.126.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-28",
+      "type": "release",
+      "title": "v0.126.1",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.126.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "title": "v0.127.0",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.127.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-07",
+      "type": "release",
+      "title": "v0.127.1",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.127.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v0.128.0",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.128.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-18",
+      "type": "release",
+      "title": "v0.129.0",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.129.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "v0.130.0",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.130.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-24",
+      "type": "release",
+      "title": "v0.130.1",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.130.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "v0.131.0",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.131.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-02",
+      "type": "release",
+      "title": "v0.131.1",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.131.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "v0.132.0",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.132.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "v0.132.1",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.132.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "title": "v0.132.2",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.132.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-15",
+      "type": "release",
+      "title": "v0.133.0",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.133.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-22",
+      "type": "release",
+      "title": "v0.134.0",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.134.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "v0.135.0",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.135.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "v0.135.1",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.135.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "v0.136.1",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.136.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "v0.136.0",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.136.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "v0.137.0",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.137.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "v0.137.1",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.137.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "v0.138.0",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.138.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v0.139.0",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.139.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "v0.140.0",
+      "url": "https://github.com/SigNoz/signoz/releases/tag/v0.140.0",
+      "points": null
+    }
+  ]
 }

@@ -129,9 +129,172 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 26521,
-      "forks": 9821,
-      "openIssues": 3621
+      "stars": 26525,
+      "forks": 9823,
+      "openIssues": 3625
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-05-05",
+      "type": "release",
+      "title": "2.563",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.563",
+      "points": null
+    },
+    {
+      "date": "2026-05-12",
+      "type": "release",
+      "title": "2.564",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.564",
+      "points": null
+    },
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "2.555.2",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.555.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-20",
+      "type": "release",
+      "title": "2.565",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.565",
+      "points": null
+    },
+    {
+      "date": "2026-05-26",
+      "type": "release",
+      "title": "2.566",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.566",
+      "points": null
+    },
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "title": "2.567",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.567",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "2.568",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.568",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "2.555.3",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.555.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-16",
+      "type": "release",
+      "title": "2.569",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.569",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "2.570",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.570",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "2.571",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.571",
+      "points": null
+    },
+    {
+      "date": "2026-07-07",
+      "type": "release",
+      "title": "2.572",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.572",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "2.568.1",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.568.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "2.573",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.573",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "2.574",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.574",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "2.575",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.575",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "2.576",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.576",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "2.568.2",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.568.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "2.577",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.577",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "2.578",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.578",
+      "points": null
+    },
+    {
+      "date": "2026-08-25",
+      "type": "release",
+      "title": "2.579",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.579",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "2.580",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.580",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "2.568.3",
+      "url": "https://github.com/jenkinsci/jenkins/releases/tag/jenkins-2.568.3",
+      "points": null
     }
   ]
 }

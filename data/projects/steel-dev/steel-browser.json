@@ -4,8 +4,8 @@
   "link": "https://github.com/steel-dev/steel-browser",
   "name": "steel-browser",
   "desc": "🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "steel-browser",
+  "githubDescription": "🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.",
   "tags": [
     "ai",
     "ai-agents",
@@ -13,7 +13,184 @@
     "browser-automation",
     "llm"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 7582,
+      "forks": 971,
+      "openIssues": 66
+    }
+  ],
   "weight": 7580,
-  "image": "https://avatars.githubusercontent.com/u/183960033?v=4"
+  "image": "https://avatars.githubusercontent.com/u/183960033?v=4",
+  "events": [
+    {
+      "date": "2024-11-26",
+      "type": "hn",
+      "title": "Show HN: Steel.dev – An open-source browser API for AI agents and apps",
+      "url": "https://news.ycombinator.com/item?id=42245573",
+      "points": 114
+    },
+    {
+      "date": "2024-11-26",
+      "type": "release",
+      "title": "Release v0.1.1-beta",
+      "url": "https://github.com/steel-dev/steel-browser/releases/tag/beta-release",
+      "points": null
+    },
+    {
+      "date": "2024-12-02",
+      "type": "release",
+      "title": "Release v0.1.1-beta.1",
+      "url": "https://github.com/steel-dev/steel-browser/releases/tag/v0.1.1-beta.1",
+      "points": null
+    },
+    {
+      "date": "2025-02-10",
+      "type": "release",
+      "title": "Release v0.1.2-beta",
+      "url": "https://github.com/steel-dev/steel-browser/releases/tag/v0.1.2-beta",
+      "points": null
+    },
+    {
+      "date": "2025-02-26",
+      "type": "release",
+      "title": "Release v0.1.3-beta",
+      "url": "https://github.com/steel-dev/steel-browser/releases/tag/v0.1.3-beta",
+      "points": null
+    },
+    {
+      "date": "2025-07-24",
+      "type": "release",
+      "title": "Release v0.2.0-beta",
+      "url": "https://github.com/steel-dev/steel-browser/releases/tag/v0.2.0-beta",
+      "points": null
+    },
+    {
+      "date": "2025-07-28",
+      "type": "release",
+      "title": "Release v0.2.1-beta",
+      "url": "https://github.com/steel-dev/steel-browser/releases/tag/v0.2.1-beta",
+      "points": null
+    },
+    {
+      "date": "2025-07-29",
+      "type": "release",
+      "title": "Release v0.2.2-beta",
+      "url": "https://github.com/steel-dev/steel-browser/releases/tag/v0.2.2-beta",
+      "points": null
+    },
+    {
+      "date": "2025-08-04",
+      "type": "release",
+      "title": "Release v0.2.3-beta",
+      "url": "https://github.com/steel-dev/steel-browser/releases/tag/v0.2.3-beta",
+      "points": null
+    },
+    {
+      "date": "2025-08-19",
+      "type": "release",
+      "title": "Release v0.2.5-beta",
+      "url": "https://github.com/steel-dev/steel-browser/releases/tag/v0.2.5-beta",
+      "points": null
+    },
+    {
+      "date": "2025-08-19",
+      "type": "release",
+      "title": "Release v0.2.4-beta",
+      "url": "https://github.com/steel-dev/steel-browser/releases/tag/v0.2.4-beta",
+      "points": null
+    },
+    {
+      "date": "2025-08-20",
+      "type": "release",
+      "title": "Release v0.2.6-beta",
+      "url": "https://github.com/steel-dev/steel-browser/releases/tag/v0.2.6-beta",
+      "points": null
+    },
+    {
+      "date": "2025-09-04",
+      "type": "release",
+      "title": "Release v0.3.0-beta",
+      "url": "https://github.com/steel-dev/steel-browser/releases/tag/v0.3.0-beta",
+      "points": null
+    },
+    {
+      "date": "2025-09-18",
+      "type": "release",
+      "title": "Release v0.4.0-beta",
+      "url": "https://github.com/steel-dev/steel-browser/releases/tag/v0.4.0-beta",
+      "points": null
+    },
+    {
+      "date": "2025-09-24",
+      "type": "release",
+      "title": "Release v0.4.1-beta",
+      "url": "https://github.com/steel-dev/steel-browser/releases/tag/v0.4.1-beta",
+      "points": null
+    },
+    {
+      "date": "2025-09-29",
+      "type": "release",
+      "title": "Release v0.4.2-beta",
+      "url": "https://github.com/steel-dev/steel-browser/releases/tag/v0.4.2-beta",
+      "points": null
+    },
+    {
+      "date": "2025-10-14",
+      "type": "release",
+      "title": "Release v0.4.3-beta",
+      "url": "https://github.com/steel-dev/steel-browser/releases/tag/v0.4.3-beta",
+      "points": null
+    },
+    {
+      "date": "2025-10-19",
+      "type": "release",
+      "title": "Release v0.4.4-beta",
+      "url": "https://github.com/steel-dev/steel-browser/releases/tag/v0.4.4-beta",
+      "points": null
+    },
+    {
+      "date": "2025-11-04",
+      "type": "release",
+      "title": "Release v0.4.5-beta",
+      "url": "https://github.com/steel-dev/steel-browser/releases/tag/v0.4.5-beta",
+      "points": null
+    },
+    {
+      "date": "2025-11-10",
+      "type": "release",
+      "title": "Release v0.5.0-beta",
+      "url": "https://github.com/steel-dev/steel-browser/releases/tag/v0.5.0-beta",
+      "points": null
+    },
+    {
+      "date": "2025-11-19",
+      "type": "release",
+      "title": "Release v0.5.1-beta",
+      "url": "https://github.com/steel-dev/steel-browser/releases/tag/v0.5.1-beta",
+      "points": null
+    },
+    {
+      "date": "2026-03-15",
+      "type": "release",
+      "title": "Release v0.5.2-beta",
+      "url": "https://github.com/steel-dev/steel-browser/releases/tag/v0.5.2-beta",
+      "points": null
+    },
+    {
+      "date": "2026-04-24",
+      "type": "release",
+      "title": "Release v0.5.3-beta",
+      "url": "https://github.com/steel-dev/steel-browser/releases/tag/v0.5.3-beta",
+      "points": null
+    },
+    {
+      "date": "2026-08-25",
+      "type": "release",
+      "title": "Release v0.5.4-beta",
+      "url": "https://github.com/steel-dev/steel-browser/releases/tag/v0.5.4-beta",
+      "points": null
+    }
+  ]
 }

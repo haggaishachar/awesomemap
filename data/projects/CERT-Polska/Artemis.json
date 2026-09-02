@@ -4,8 +4,8 @@
   "link": "https://github.com/CERT-Polska/Artemis",
   "name": "Artemis",
   "desc": "A modular vulnerability scanner with automatic report generation capabilities.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "Artemis",
+  "githubDescription": "A modular vulnerability scanner with automatic report generation capabilities.",
   "tags": [
     "artemis",
     "pentesting",
@@ -16,7 +16,198 @@
     "vulnerability-scanner",
     "web-scanner"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1204,
+      "forks": 139,
+      "openIssues": 49
+    }
+  ],
   "weight": 1203,
-  "image": "https://avatars.githubusercontent.com/u/1210616?v=4"
+  "image": "https://avatars.githubusercontent.com/u/1210616?v=4",
+  "events": [
+    {
+      "date": "2023-02-20",
+      "type": "release",
+      "title": "v1.0.0",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v1.0.0",
+      "points": null
+    },
+    {
+      "date": "2023-02-22",
+      "type": "release",
+      "title": "v1.0.1",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v1.0.1",
+      "points": null
+    },
+    {
+      "date": "2023-03-28",
+      "type": "release",
+      "title": "v1.1.0",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v1.1.0",
+      "points": null
+    },
+    {
+      "date": "2023-04-03",
+      "type": "release",
+      "title": "v1.1.1",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v1.1.1",
+      "points": null
+    },
+    {
+      "date": "2023-04-21",
+      "type": "release",
+      "title": "v1.2.1",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v1.2.1",
+      "points": null
+    },
+    {
+      "date": "2023-04-21",
+      "type": "release",
+      "title": "v1.2.0",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v1.2.0",
+      "points": null
+    },
+    {
+      "date": "2023-05-22",
+      "type": "release",
+      "title": "v1.3.1",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v1.3.1",
+      "points": null
+    },
+    {
+      "date": "2023-06-20",
+      "type": "release",
+      "title": "v1.4.0",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v1.4.0",
+      "points": null
+    },
+    {
+      "date": "2023-07-20",
+      "type": "release",
+      "title": "v2.0.0",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v2.0.0",
+      "points": null
+    },
+    {
+      "date": "2023-08-22",
+      "type": "release",
+      "title": "v2.1.0",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v2.1.0",
+      "points": null
+    },
+    {
+      "date": "2023-10-16",
+      "type": "release",
+      "title": "v2.2.0",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v2.2.0",
+      "points": null
+    },
+    {
+      "date": "2023-11-23",
+      "type": "release",
+      "title": "v2.3.0",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v2.3.0",
+      "points": null
+    },
+    {
+      "date": "2024-01-04",
+      "type": "release",
+      "title": "v2.4.0",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v2.4.0",
+      "points": null
+    },
+    {
+      "date": "2024-01-19",
+      "type": "release",
+      "title": "v2.5.0",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v2.5.0",
+      "points": null
+    },
+    {
+      "date": "2024-02-21",
+      "type": "release",
+      "title": "v2.6.0",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v2.6.0",
+      "points": null
+    },
+    {
+      "date": "2024-03-26",
+      "type": "release",
+      "title": "v2.7.0",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v2.7.0",
+      "points": null
+    },
+    {
+      "date": "2024-04-26",
+      "type": "release",
+      "title": "v.2.8.0",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v2.8.0",
+      "points": null
+    },
+    {
+      "date": "2024-05-09",
+      "type": "release",
+      "title": "2.9.0",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v2.9.0",
+      "points": null
+    },
+    {
+      "date": "2024-05-12",
+      "type": "release",
+      "title": "v2.9.1",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/2.9.1",
+      "points": null
+    },
+    {
+      "date": "2024-06-13",
+      "type": "release",
+      "title": "v3.0.1",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v3.0.1",
+      "points": null
+    },
+    {
+      "date": "2024-07-11",
+      "type": "release",
+      "title": "v3.1.1",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v3.1.1",
+      "points": null
+    },
+    {
+      "date": "2024-08-03",
+      "type": "release",
+      "title": "v3.2.0",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v3.2.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-04",
+      "type": "release",
+      "title": "v3.3.0",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v3.3.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-06",
+      "type": "release",
+      "title": "v.3.4.0",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v3.4.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-05",
+      "type": "release",
+      "title": "v3.5.0",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v3.5.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-24",
+      "type": "release",
+      "title": "v3.6.0",
+      "url": "https://github.com/CERT-Polska/Artemis/releases/tag/v3.6.0",
+      "points": null
+    }
+  ]
 }

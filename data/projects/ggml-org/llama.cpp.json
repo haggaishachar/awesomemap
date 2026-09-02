@@ -40,9 +40,32 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 126747,
-      "forks": 22649,
-      "openIssues": 2362
+      "stars": 126807,
+      "forks": 22661,
+      "openIssues": 2365
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-05-10",
+      "type": "hn",
+      "title": "Vision Now Available in Llama.cpp",
+      "url": "https://news.ycombinator.com/item?id=43943047",
+      "points": 550
+    },
+    {
+      "date": "2025-08-11",
+      "type": "hn",
+      "title": "Mistral Integration Improved in Llama.cpp",
+      "url": "https://news.ycombinator.com/item?id=44862583",
+      "points": 95
+    },
+    {
+      "date": "2026-02-20",
+      "type": "hn",
+      "title": "Ggml.ai joins Hugging Face to ensure the long-term progress of Local AI",
+      "url": "https://news.ycombinator.com/item?id=47088037",
+      "points": 839
     }
   ]
 }

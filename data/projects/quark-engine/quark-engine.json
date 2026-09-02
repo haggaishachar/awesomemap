@@ -4,7 +4,7 @@
   "link": "https://github.com/quark-engine/quark-engine",
   "name": "quark-engine",
   "desc": "",
-  "githubName": null,
+  "githubName": "quark-engine",
   "githubDescription": null,
   "tags": [
     "android",
@@ -14,7 +14,226 @@
     "malware-analysis",
     "malware-detection"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1713,
+      "forks": 216,
+      "openIssues": 79
+    }
+  ],
   "weight": 1714,
-  "image": "https://avatars.githubusercontent.com/u/57204411?v=4"
+  "image": "https://avatars.githubusercontent.com/u/57204411?v=4",
+  "events": [
+    {
+      "date": "2024-02-07",
+      "type": "release",
+      "title": "v24.2.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v24.2.1",
+      "points": null
+    },
+    {
+      "date": "2024-04-03",
+      "type": "release",
+      "title": "v24.4.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v24.4.1",
+      "points": null
+    },
+    {
+      "date": "2024-05-02",
+      "type": "release",
+      "title": "v24.5.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v24.5.1",
+      "points": null
+    },
+    {
+      "date": "2024-06-05",
+      "type": "release",
+      "title": "v24.6.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v24.6.1",
+      "points": null
+    },
+    {
+      "date": "2024-07-03",
+      "type": "release",
+      "title": "v24.7.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v24.7.1",
+      "points": null
+    },
+    {
+      "date": "2024-08-07",
+      "type": "release",
+      "title": "v24.8.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v24.8.1",
+      "points": null
+    },
+    {
+      "date": "2024-09-04",
+      "type": "release",
+      "title": "v24.9.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v24.9.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-02",
+      "type": "release",
+      "title": "v24.10.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v24.10.1",
+      "points": null
+    },
+    {
+      "date": "2024-11-06",
+      "type": "release",
+      "title": "v24.11.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v24.11.1",
+      "points": null
+    },
+    {
+      "date": "2024-11-15",
+      "type": "release",
+      "title": "v24.11.2",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v24.11.2",
+      "points": null
+    },
+    {
+      "date": "2024-12-03",
+      "type": "release",
+      "title": "v24.12.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v24.12.1",
+      "points": null
+    },
+    {
+      "date": "2025-01-01",
+      "type": "release",
+      "title": "v25.1.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v25.1.1",
+      "points": null
+    },
+    {
+      "date": "2025-02-06",
+      "type": "release",
+      "title": "v25.2.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v25.2.1",
+      "points": null
+    },
+    {
+      "date": "2025-03-05",
+      "type": "release",
+      "title": "v25.3.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v25.3.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-03",
+      "type": "release",
+      "title": "v25.4.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v25.4.1",
+      "points": null
+    },
+    {
+      "date": "2025-05-08",
+      "type": "release",
+      "title": "v25.5.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v25.5.1",
+      "points": null
+    },
+    {
+      "date": "2025-06-04",
+      "type": "release",
+      "title": "v25.6.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v25.6.1",
+      "points": null
+    },
+    {
+      "date": "2025-07-03",
+      "type": "release",
+      "title": "v25.7.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v25.7.1",
+      "points": null
+    },
+    {
+      "date": "2025-08-06",
+      "type": "release",
+      "title": "v25.8.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v25.8.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-03",
+      "type": "release",
+      "title": "v25.9.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v25.9.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-06",
+      "type": "release",
+      "title": "v25.11.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v25.11.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-05",
+      "type": "release",
+      "title": "v25.12.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v25.12.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-07",
+      "type": "release",
+      "title": "v26.1.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v26.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-06",
+      "type": "release",
+      "title": "v26.2.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v26.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-07",
+      "type": "release",
+      "title": "v26.3.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v26.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-29",
+      "type": "release",
+      "title": "v26.4.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v26.4.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "v26.5.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v26.5.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "title": "v26.6.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v26.6.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-02",
+      "type": "release",
+      "title": "v26.7.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v26.7.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-08",
+      "type": "release",
+      "title": "v26.8.1",
+      "url": "https://github.com/ev-flow/quark-engine/releases/tag/v26.8.1",
+      "points": null
+    }
+  ]
 }

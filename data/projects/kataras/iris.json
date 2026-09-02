@@ -4,8 +4,8 @@
   "link": "https://github.com/kataras/iris",
   "name": "iris",
   "desc": "The fastest HTTP/2 Go Web Framework. New, modern and easy to learn. Fast development with Code you control. Unbeatable cost-performance ratio :rocket:",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "iris",
+  "githubDescription": "The fastest HTTP/2 Go Web Framework. New, modern and easy to learn. Fast development with Code you control. Unbeatable cost-performance ratio :rocket:",
   "tags": [
     "dependency-injection",
     "go",
@@ -17,6 +17,148 @@
     "web-framework",
     "websocket"
   ],
-  "history": [],
-  "weight": 25563
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 25563,
+      "forks": 2424,
+      "openIssues": 149
+    }
+  ],
+  "weight": 25563,
+  "events": [
+    {
+      "date": "2019-10-26",
+      "type": "release",
+      "title": "v12.0.1",
+      "url": "https://github.com/kataras/iris/releases/tag/v12.0.1",
+      "points": null
+    },
+    {
+      "date": "2019-12-13",
+      "type": "release",
+      "title": "v12.1.0",
+      "url": "https://github.com/kataras/iris/releases/tag/v12.1.0",
+      "points": null
+    },
+    {
+      "date": "2019-12-16",
+      "type": "release",
+      "title": "v12.1.1",
+      "url": "https://github.com/kataras/iris/releases/tag/v12.1.1",
+      "points": null
+    },
+    {
+      "date": "2019-12-19",
+      "type": "release",
+      "title": "v12.1.2",
+      "url": "https://github.com/kataras/iris/releases/tag/v12.1.2",
+      "points": null
+    },
+    {
+      "date": "2019-12-25",
+      "type": "release",
+      "title": "v12.1.3",
+      "url": "https://github.com/kataras/iris/releases/tag/v12.1.3",
+      "points": null
+    },
+    {
+      "date": "2019-12-29",
+      "type": "release",
+      "title": "v12.1.4",
+      "url": "https://github.com/kataras/iris/releases/tag/v12.1.4",
+      "points": null
+    },
+    {
+      "date": "2020-02-02",
+      "type": "release",
+      "title": "v12.1.5",
+      "url": "https://github.com/kataras/iris/releases/tag/v12.1.5",
+      "points": null
+    },
+    {
+      "date": "2020-02-05",
+      "type": "release",
+      "title": "v12.1.6",
+      "url": "https://github.com/kataras/iris/releases/tag/v12.1.6",
+      "points": null
+    },
+    {
+      "date": "2020-02-10",
+      "type": "release",
+      "title": "v12.1.7",
+      "url": "https://github.com/kataras/iris/releases/tag/v12.1.7",
+      "points": null
+    },
+    {
+      "date": "2020-02-16",
+      "type": "release",
+      "title": "v12.1.8",
+      "url": "https://github.com/kataras/iris/releases/tag/v12.1.8",
+      "points": null
+    },
+    {
+      "date": "2023-03-11",
+      "type": "release",
+      "title": "v12.2.0",
+      "url": "https://github.com/kataras/iris/releases/tag/v12.2.0",
+      "points": null
+    },
+    {
+      "date": "2023-07-17",
+      "type": "release",
+      "title": "v12.2.1",
+      "url": "https://github.com/kataras/iris/releases/tag/v12.2.1",
+      "points": null
+    },
+    {
+      "date": "2023-08-12",
+      "type": "release",
+      "title": "v12.2.4",
+      "url": "https://github.com/kataras/iris/releases/tag/v12.2.4",
+      "points": null
+    },
+    {
+      "date": "2023-08-21",
+      "type": "release",
+      "title": "v12.2.5",
+      "url": "https://github.com/kataras/iris/releases/tag/v12.2.5",
+      "points": null
+    },
+    {
+      "date": "2023-09-25",
+      "type": "release",
+      "title": "v12.2.7",
+      "url": "https://github.com/kataras/iris/releases/tag/v12.2.7",
+      "points": null
+    },
+    {
+      "date": "2023-11-05",
+      "type": "release",
+      "title": "v12.2.8",
+      "url": "https://github.com/kataras/iris/releases/tag/v12.2.8",
+      "points": null
+    },
+    {
+      "date": "2024-01-10",
+      "type": "release",
+      "title": "v12.2.9",
+      "url": "https://github.com/kataras/iris/releases/tag/v12.2.9",
+      "points": null
+    },
+    {
+      "date": "2024-01-18",
+      "type": "release",
+      "title": "v12.2.10",
+      "url": "https://github.com/kataras/iris/releases/tag/v12.2.10",
+      "points": null
+    },
+    {
+      "date": "2024-04-24",
+      "type": "release",
+      "title": "v12.2.11",
+      "url": "https://github.com/kataras/iris/releases/tag/v12.2.11",
+      "points": null
+    }
+  ]
 }

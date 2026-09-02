@@ -22,5 +22,217 @@
     }
   ],
   "weight": 1557,
-  "image": "https://avatars.githubusercontent.com/u/19341307?v=4"
+  "image": "https://avatars.githubusercontent.com/u/19341307?v=4",
+  "events": [
+    {
+      "date": "2017-10-31",
+      "type": "release",
+      "title": "Fix compatibility + various improvements",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.8.4",
+      "points": null
+    },
+    {
+      "date": "2017-11-04",
+      "type": "release",
+      "title": "More fluid animations",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.9.0",
+      "points": null
+    },
+    {
+      "date": "2017-12-01",
+      "type": "release",
+      "title": "bug fix release",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.9.1",
+      "points": null
+    },
+    {
+      "date": "2017-12-06",
+      "type": "release",
+      "title": "More flexible `MenuOptions`",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.10.0",
+      "points": null
+    },
+    {
+      "date": "2017-12-11",
+      "type": "release",
+      "title": "New popover renderer",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.11.0",
+      "points": null
+    },
+    {
+      "date": "2017-12-19",
+      "type": "release",
+      "title": "Rename of MenuContext",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.12.0",
+      "points": null
+    },
+    {
+      "date": "2017-12-21",
+      "type": "release",
+      "title": "Added RTL support",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.12.1",
+      "points": null
+    },
+    {
+      "date": "2018-03-12",
+      "type": "release",
+      "title": "Now it is possible to wait for closing menu also directly on menu instance.",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.12.3",
+      "points": null
+    },
+    {
+      "date": "2018-04-06",
+      "type": "release",
+      "title": "Added support for react-native-web",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.12.4",
+      "points": null
+    },
+    {
+      "date": "2018-04-15",
+      "type": "release",
+      "title": "Typescript definitions",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.12.5",
+      "points": null
+    },
+    {
+      "date": "2018-04-17",
+      "type": "release",
+      "title": "Fix for typescript definitions",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.12.6",
+      "points": null
+    },
+    {
+      "date": "2018-04-27",
+      "type": "release",
+      "title": "React 16.3 updates",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.13.0",
+      "points": null
+    },
+    {
+      "date": "2018-05-04",
+      "type": "release",
+      "title": "More explicit error for unsupported RN versions",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.13.1",
+      "points": null
+    },
+    {
+      "date": "2018-07-27",
+      "type": "release",
+      "title": "Community Support for react-native-desktop",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.13.3",
+      "points": null
+    },
+    {
+      "date": "2018-07-31",
+      "type": "release",
+      "title": "Partial support for RN SafeAreaView",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.14.0",
+      "points": null
+    },
+    {
+      "date": "2018-11-06",
+      "type": "release",
+      "title": "add support for longpress trigger",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.14.1",
+      "points": null
+    },
+    {
+      "date": "2018-12-04",
+      "type": "release",
+      "title": "fixed warning in RN0.57",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.14.2",
+      "points": null
+    },
+    {
+      "date": "2019-01-26",
+      "type": "release",
+      "title": "Transpile to ES5 for usage on web",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.15.0",
+      "points": null
+    },
+    {
+      "date": "2019-03-02",
+      "type": "release",
+      "title": "Small visual fix for RN-web (deprecated)",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.15.1",
+      "points": null
+    },
+    {
+      "date": "2019-03-03",
+      "type": "release",
+      "title": "fix of 0.15.1",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.15.2",
+      "points": null
+    },
+    {
+      "date": "2019-03-04",
+      "type": "release",
+      "title": "omit native driver for web",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.15.4",
+      "points": null
+    },
+    {
+      "date": "2019-03-16",
+      "type": "release",
+      "title": "API for MenuTrigger longpress",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.15.5",
+      "points": null
+    },
+    {
+      "date": "2020-02-08",
+      "type": "release",
+      "title": "isOpen is now \"public\"",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.15.7",
+      "points": null
+    },
+    {
+      "date": "2020-07-04",
+      "type": "release",
+      "title": "TS definition update",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.15.9",
+      "points": null
+    },
+    {
+      "date": "2020-12-11",
+      "type": "release",
+      "title": "Support for e2e testing",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.15.10",
+      "points": null
+    },
+    {
+      "date": "2022-08-11",
+      "type": "release",
+      "title": "Fixes TS definition problem with React 18",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/0.15.13",
+      "points": null
+    },
+    {
+      "date": "2022-08-29",
+      "type": "release",
+      "title": "Back handler registration change",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/v0.16.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-17",
+      "type": "release",
+      "title": "Compatiblity with RN 0.77",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/v0.17.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-07",
+      "type": "release",
+      "title": "Compatibility with React 19",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/v0.18.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-23",
+      "type": "release",
+      "title": "Remove deprecated SafeAreaView",
+      "url": "https://github.com/instea/react-native-popup-menu/releases/tag/v0.19.0",
+      "points": null
+    }
+  ]
 }

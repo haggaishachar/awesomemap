@@ -5,7 +5,7 @@
   "name": "OpenAdapt",
   "desc": "Compile a demonstrated GUI workflow into a deterministic, locally executable program. Zero model calls on healthy runs; governed repair; halts instead of guessing. Launcher for openadapt-flow: pip install openadapt",
   "githubName": "OpenAdapt",
-  "githubDescription": "Compiles a demonstrated GUI task into a program that reports VERIFIED only if an independent check agrees. pip install openadapt; openadapt quickstart. Compiler lives in openadapt-flow.",
+  "githubDescription": "Compiles a demonstrated GUI task into a program that reports VERIFIED only if an independent check agrees. pip install openadapt; openadapt flow tutorial. Compiler lives in openadapt-flow.",
   "weight": 1702,
   "image": "https://avatars.githubusercontent.com/u/132681217?v=4",
   "tags": [
@@ -64,7 +64,219 @@
       "date": "2026-09-02",
       "stars": 1710,
       "forks": 263,
-      "openIssues": 4
+      "openIssues": 6
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-07-12",
+      "type": "release",
+      "title": "v1.3.0",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-13",
+      "type": "release",
+      "title": "v1.5.0",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-13",
+      "type": "release",
+      "title": "v1.4.0",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "v1.5.2",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.5.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "v1.5.1",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.5.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-15",
+      "type": "release",
+      "title": "v1.6.0",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "v1.6.3",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.6.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "v1.6.2",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.6.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "v1.6.1",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.6.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "v1.6.4",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.6.4",
+      "points": null
+    },
+    {
+      "date": "2026-07-19",
+      "type": "release",
+      "title": "v1.7.1",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.7.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-19",
+      "type": "release",
+      "title": "v1.7.0",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.7.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "v1.7.2",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.7.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-25",
+      "type": "release",
+      "title": "v1.7.3",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.7.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-26",
+      "type": "release",
+      "title": "v1.9.0",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.9.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-26",
+      "type": "release",
+      "title": "v1.8.0",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-27",
+      "type": "release",
+      "title": "v1.10.0",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.10.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "v1.10.2",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.10.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "v1.10.1",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.10.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "v1.10.3",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.10.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-02",
+      "type": "release",
+      "title": "v1.11.0",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.11.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-02",
+      "type": "release",
+      "title": "v1.10.4",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.10.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "v1.12.0",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.12.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "v1.12.1",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.12.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "v1.13.0",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.13.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "v1.13.1",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.13.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-22",
+      "type": "release",
+      "title": "v1.14.0",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.14.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v1.16.0",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.16.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v1.15.1",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.15.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v1.15.0",
+      "url": "https://github.com/OpenAdaptAI/OpenAdapt/releases/tag/v1.15.0",
+      "points": null
     }
   ]
 }

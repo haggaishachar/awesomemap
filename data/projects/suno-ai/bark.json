@@ -94,9 +94,25 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 39259,
-      "forks": 4667,
+      "stars": 39258,
+      "forks": 4666,
       "openIssues": 268
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-04-20",
+      "type": "hn",
+      "title": "Bark – Text-prompted generative audio model",
+      "url": "https://news.ycombinator.com/item?id=35643219",
+      "points": 416
+    },
+    {
+      "date": "2023-05-15",
+      "type": "hn",
+      "title": "Bark: A transformer based text to audio system",
+      "url": "https://news.ycombinator.com/item?id=35943108",
+      "points": 172
     }
   ]
 }

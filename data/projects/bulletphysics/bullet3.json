@@ -26,5 +26,84 @@
     }
   ],
   "weight": 14708,
-  "image": "https://avatars.githubusercontent.com/u/6955508?v=4"
+  "image": "https://avatars.githubusercontent.com/u/6955508?v=4",
+  "events": [
+    {
+      "date": "2016-01-12",
+      "type": "release",
+      "title": "Bullet 2.83",
+      "url": "https://github.com/bulletphysics/bullet3/releases/tag/2.83.7",
+      "points": null
+    },
+    {
+      "date": "2016-10-15",
+      "type": "release",
+      "title": "Bullet 2.85",
+      "url": "https://github.com/bulletphysics/bullet3/releases/tag/2.85.1",
+      "points": null
+    },
+    {
+      "date": "2017-02-19",
+      "type": "release",
+      "title": "Bullet 2.86 with pybullet for robotics, deep learning and VR",
+      "url": "https://github.com/bulletphysics/bullet3/releases/tag/2.86.1",
+      "points": null
+    },
+    {
+      "date": "2017-09-29",
+      "type": "release",
+      "title": "Bullet 2.87 with pybullet robotics Reinforcement Learning environments",
+      "url": "https://github.com/bulletphysics/bullet3/releases/tag/2.87",
+      "points": null
+    },
+    {
+      "date": "2018-12-31",
+      "type": "release",
+      "title": "Bullet Physics SDK 2.88 and PyBullet",
+      "url": "https://github.com/bulletphysics/bullet3/releases/tag/2.88",
+      "points": null
+    },
+    {
+      "date": "2019-12-21",
+      "type": "release",
+      "title": "Bullet 2.89 with FEM deformables, PyBullet deep_mimic and Laikago",
+      "url": "https://github.com/bulletphysics/bullet3/releases/tag/2.89",
+      "points": null
+    },
+    {
+      "date": "2020-09-24",
+      "type": "release",
+      "title": "Quadruped Motion Imitation and MPC locomotion",
+      "url": "https://github.com/bulletphysics/bullet3/releases/tag/3.06",
+      "points": null
+    },
+    {
+      "date": "2020-11-26",
+      "type": "release",
+      "title": "PyBullet 3.1.7 / Bullet Physics 3.17",
+      "url": "https://github.com/bulletphysics/bullet3/releases/tag/3.17",
+      "points": null
+    },
+    {
+      "date": "2021-12-01",
+      "type": "release",
+      "title": "PyBullet 3.21",
+      "url": "https://github.com/bulletphysics/bullet3/releases/tag/3.21",
+      "points": null
+    },
+    {
+      "date": "2022-03-26",
+      "type": "release",
+      "title": "PyBullet 3.22",
+      "url": "https://github.com/bulletphysics/bullet3/releases/tag/3.22b",
+      "points": null
+    },
+    {
+      "date": "2022-04-24",
+      "type": "release",
+      "title": "PyBullet 3.2.5",
+      "url": "https://github.com/bulletphysics/bullet3/releases/tag/3.25",
+      "points": null
+    }
+  ]
 }

@@ -126,9 +126,32 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 8232,
-      "forks": 2523,
-      "openIssues": 409
+      "stars": 8233,
+      "forks": 2522,
+      "openIssues": 410
+    }
+  ],
+  "events": [
+    {
+      "date": "2015-04-27",
+      "type": "release",
+      "title": "Release 12.3.0",
+      "url": "https://github.com/chef/chef/releases/tag/12.3.0",
+      "points": null
+    },
+    {
+      "date": "2015-07-09",
+      "type": "release",
+      "title": "11.18.14 security release",
+      "url": "https://github.com/chef/chef/releases/tag/11.18.14",
+      "points": null
+    },
+    {
+      "date": "2020-02-20",
+      "type": "release",
+      "title": "Chef Infra Client 15.8.23",
+      "url": "https://github.com/chef/chef/releases/tag/v15.8.23",
+      "points": null
     }
   ]
 }

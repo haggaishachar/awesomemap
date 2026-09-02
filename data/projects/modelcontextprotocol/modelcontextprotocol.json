@@ -43,9 +43,60 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 9111,
-      "forks": 1762,
-      "openIssues": 141
+      "stars": 9114,
+      "forks": 1763,
+      "openIssues": 138
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-11-06",
+      "type": "release",
+      "title": "2024-10-07",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2024-10-07",
+      "points": null
+    },
+    {
+      "date": "2025-01-17",
+      "type": "release",
+      "title": "2024-11-05",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2024-11-05",
+      "points": null
+    },
+    {
+      "date": "2025-03-26",
+      "type": "release",
+      "title": "2025-03-26",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-03-26",
+      "points": null
+    },
+    {
+      "date": "2025-03-26",
+      "type": "release",
+      "title": "2024-11-05-final",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2024-11-05-final",
+      "points": null
+    },
+    {
+      "date": "2025-06-18",
+      "type": "release",
+      "title": "2025-06-18",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-06-18",
+      "points": null
+    },
+    {
+      "date": "2025-11-25",
+      "type": "release",
+      "title": "2025-11-25",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "2026-07-28",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2026-07-28",
+      "points": null
     }
   ]
 }

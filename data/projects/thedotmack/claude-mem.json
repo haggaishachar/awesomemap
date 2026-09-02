@@ -31,10 +31,215 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 92982,
+      "stars": 93023,
       "forks": 8178,
-      "openIssues": 296
+      "openIssues": 297
     }
   ],
-  "weight": 92817
+  "weight": 92817,
+  "events": [
+    {
+      "date": "2026-07-04",
+      "type": "release",
+      "title": "v13.10.1",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.10.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-04",
+      "type": "release",
+      "title": "v13.10.0",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.10.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-05",
+      "type": "release",
+      "title": "v13.10.2",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.10.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-13",
+      "type": "release",
+      "title": "v13.11.0",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.11.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-22",
+      "type": "release",
+      "title": "v13.12.0",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.12.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "v13.12.4",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.12.4",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "v13.12.3",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.12.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "v13.12.2 — The Merge Sweep",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.12.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "v13.12.1",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.12.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-02",
+      "type": "release",
+      "title": "v13.13.0",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.13.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-03",
+      "type": "release",
+      "title": "v13.13.1",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.13.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-08",
+      "type": "release",
+      "title": "v13.14.0",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.14.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "title": "v13.15.0",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.15.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-16",
+      "type": "release",
+      "title": "v13.15.2",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.15.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "v13.15.3",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.15.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-25",
+      "type": "release",
+      "title": "v13.16.0",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.16.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v13.16.1",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.16.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "v13.17.0",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.17.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-29",
+      "type": "release",
+      "title": "v13.18.0",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.18.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-29",
+      "type": "release",
+      "title": "v13.17.2",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.17.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "v13.21.2",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.21.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "v13.21.1",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.21.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "v13.21.0",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.21.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "v13.20.0",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.20.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "v13.19.0",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.19.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "v13.18.1",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.18.1",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "v13.23.1",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.23.1",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "v13.23.0",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.23.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "v13.22.0",
+      "url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.22.0",
+      "points": null
+    }
+  ]
 }

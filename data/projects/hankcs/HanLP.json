@@ -5,7 +5,7 @@
   "name": "HanLP",
   "desc": "中文分词 词性标注 命名实体识别 依存句法分析 成分句法分析 语义依存分析 语义角色标注 指代消解 风格转换 语义相似度 新词发现 关键词短语提取 自动摘要 文本分类聚类 拼音简繁转换 自然语言处理",
   "githubName": "HanLP",
-  "githubDescription": "中文分词 词性标注 命名实体识别 依存句法分析 成分句法分析 语义依存分析 语义角色标注 指代消解 风格转换 语义相似度 新词发现 关键词短语提取 自动摘要 文本分类聚类 拼音简繁转换 自然语言处理",
+  "githubDescription": "Natural Language Processing for the next decade. Tokenization, Part-of-Speech Tagging, Named Entity Recognition, Syntactic & Semantic Dependency Parsing, Document Classification",
   "tags": [
     "dependency-parser",
     "hanlp",
@@ -24,5 +24,182 @@
       "openIssues": 12
     }
   ],
-  "weight": 36482
+  "weight": 36482,
+  "events": [
+    {
+      "date": "2018-03-23",
+      "type": "release",
+      "title": "v1.6.1常规维护",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v1.6.1",
+      "points": null
+    },
+    {
+      "date": "2018-04-01",
+      "type": "release",
+      "title": "v1.6.2词法分析器支持词典、简繁和索引模式",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v1.6.2",
+      "points": null
+    },
+    {
+      "date": "2018-04-14",
+      "type": "release",
+      "title": "v1.6.3支持动态用户词典、自定义词性与优先级",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v1.6.3",
+      "points": null
+    },
+    {
+      "date": "2018-05-21",
+      "type": "release",
+      "title": "v1.6.4常规维护",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v1.6.4",
+      "points": null
+    },
+    {
+      "date": "2018-07-02",
+      "type": "release",
+      "title": "v1.6.6解码快10倍的CRF词法分析器",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v1.6.6",
+      "points": null
+    },
+    {
+      "date": "2018-08-13",
+      "type": "release",
+      "title": "v1.6.7模型默认训练自微软研究院语料库修订版",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v1.6.7",
+      "points": null
+    },
+    {
+      "date": "2018-08-25",
+      "type": "release",
+      "title": "v1.6.8全世界最大的中文语料库",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v1.6.8",
+      "points": null
+    },
+    {
+      "date": "2018-11-11",
+      "type": "release",
+      "title": "v1.7.0新增文本聚类、流水线分词",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v1.7.0",
+      "points": null
+    },
+    {
+      "date": "2018-12-23",
+      "type": "release",
+      "title": "v1.7.1高速缓存、动态词典",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v1.7.1",
+      "points": null
+    },
+    {
+      "date": "2019-02-22",
+      "type": "release",
+      "title": "v1.7.2新的句法分析模块、多项改进",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v1.7.2",
+      "points": null
+    },
+    {
+      "date": "2019-04-20",
+      "type": "release",
+      "title": "v1.7.3常规维护",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v1.7.3",
+      "points": null
+    },
+    {
+      "date": "2019-06-28",
+      "type": "release",
+      "title": "v1.7.4 与OpenCC完全一致的简繁转换",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v1.7.4",
+      "points": null
+    },
+    {
+      "date": "2019-10-17",
+      "type": "release",
+      "title": "v1.7.5《自然语言处理入门》随书代码",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v1.7.5",
+      "points": null
+    },
+    {
+      "date": "2020-01-01",
+      "type": "release",
+      "title": "v1.7.6 最后的武士 The Last Samurai",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v1.7.6",
+      "points": null
+    },
+    {
+      "date": "2020-03-05",
+      "type": "release",
+      "title": "v1.7.7 常规维护、多项改进",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v1.7.7",
+      "points": null
+    },
+    {
+      "date": "2020-06-15",
+      "type": "release",
+      "title": "v1.7.8 常规维护",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v1.7.8",
+      "points": null
+    },
+    {
+      "date": "2021-02-11",
+      "type": "release",
+      "title": "v1.8.0 支持多实例、补充字符集",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v1.8.0",
+      "points": null
+    },
+    {
+      "date": "2021-03-19",
+      "type": "release",
+      "title": "v1.8.1 常规维护与修复",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v1.8.1",
+      "points": null
+    },
+    {
+      "date": "2021-06-18",
+      "type": "release",
+      "title": "v1.8.2 常规维护与准确率提升",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v1.8.2",
+      "points": null
+    },
+    {
+      "date": "2022-02-21",
+      "type": "release",
+      "title": "v1.8.3 常规维护",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v1.8.3",
+      "points": null
+    },
+    {
+      "date": "2023-02-25",
+      "type": "release",
+      "title": "v1.8.4 常规维护",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v1.8.4",
+      "points": null
+    },
+    {
+      "date": "2024-11-16",
+      "type": "release",
+      "title": "v1.8.5 常规维护",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v1.8.5",
+      "points": null
+    },
+    {
+      "date": "2024-12-29",
+      "type": "release",
+      "title": "v2.1.0 English Support",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v2.1.0",
+      "points": null
+    },
+    {
+      "date": "2024-12-29",
+      "type": "release",
+      "title": "v1.8.6 常规维护",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v1.8.6",
+      "points": null
+    },
+    {
+      "date": "2025-01-13",
+      "type": "release",
+      "title": "v2.1.1 Ancient Chinese Support",
+      "url": "https://github.com/hankcs/HanLP/releases/tag/v2.1.1",
+      "points": null
+    }
+  ]
 }

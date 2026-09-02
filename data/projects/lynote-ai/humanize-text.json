@@ -4,8 +4,8 @@
   "link": "https://github.com/lynote-ai/humanize-text",
   "name": "humanize-text",
   "desc": "Open-source pipeline and reference implementations for improving the readability and natural cadence of AI-assisted drafts.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "humanize-text",
+  "githubDescription": "Open-source pipeline and reference implementations for improving the readability and natural cadence of AI-assisted drafts.",
   "tags": [
     "ai-humanizer",
     "ai-tools",
@@ -21,7 +21,23 @@
     "text-rewriting",
     "writing-assistant"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1593,
+      "forks": 101,
+      "openIssues": 19
+    }
+  ],
   "weight": 1589,
-  "image": "https://avatars.githubusercontent.com/u/285635790?v=4"
+  "image": "https://avatars.githubusercontent.com/u/285635790?v=4",
+  "events": [
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "Humanize Text v1.5.2",
+      "url": "https://github.com/lynote-ai/humanize-text/releases/tag/v1.5.2",
+      "points": null
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/asgeirtj/system_prompts_leaks",
   "name": "system_prompts_leaks",
   "desc": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-5.6-Sol, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "system_prompts_leaks",
+  "githubDescription": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-5.6-Sol, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
   "tags": [
     "ai",
     "ai-agents",
@@ -28,6 +28,22 @@
     "system-prompt",
     "system-prompts"
   ],
-  "history": [],
-  "weight": 64011
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 64034,
+      "forks": 10505,
+      "openIssues": 49
+    }
+  ],
+  "weight": 64011,
+  "events": [
+    {
+      "date": "2025-05-06",
+      "type": "hn",
+      "title": "Claude's system prompt is over 24k tokens with tools",
+      "url": "https://news.ycombinator.com/item?id=43909409",
+      "points": 627
+    }
+  ]
 }

@@ -118,9 +118,186 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 28777,
+      "stars": 28778,
       "forks": 4628,
-      "openIssues": 803
+      "openIssues": 802
+    }
+  ],
+  "events": [
+    {
+      "date": "2016-07-03",
+      "type": "release",
+      "title": "v0.12.0.b2449",
+      "url": "https://github.com/getredash/redash/releases/tag/v0.12.0.b2449",
+      "points": null
+    },
+    {
+      "date": "2017-02-08",
+      "type": "hn",
+      "title": "Redash – Connect to any data source, easily visualize and share your data",
+      "url": "https://news.ycombinator.com/item?id=13597068",
+      "points": 463
+    },
+    {
+      "date": "2017-02-26",
+      "type": "release",
+      "title": "v1.0.0-rc.2",
+      "url": "https://github.com/getredash/redash/releases/tag/v1.0.0-rc.2",
+      "points": null
+    },
+    {
+      "date": "2017-04-02",
+      "type": "release",
+      "title": "v1.0.1",
+      "url": "https://github.com/getredash/redash/releases/tag/v1.0.1",
+      "points": null
+    },
+    {
+      "date": "2017-04-18",
+      "type": "release",
+      "title": "v1.0.3",
+      "url": "https://github.com/getredash/redash/releases/tag/v1.0.3",
+      "points": null
+    },
+    {
+      "date": "2017-04-18",
+      "type": "release",
+      "title": "v1.0.2",
+      "url": "https://github.com/getredash/redash/releases/tag/v1.0.2",
+      "points": null
+    },
+    {
+      "date": "2017-08-08",
+      "type": "release",
+      "title": "v2.0.0",
+      "url": "https://github.com/getredash/redash/releases/tag/v2.0.0",
+      "points": null
+    },
+    {
+      "date": "2017-10-22",
+      "type": "release",
+      "title": "v2.0.1",
+      "url": "https://github.com/getredash/redash/releases/tag/v2.0.1",
+      "points": null
+    },
+    {
+      "date": "2017-12-31",
+      "type": "release",
+      "title": "v3.0.0",
+      "url": "https://github.com/getredash/redash/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2018-04-16",
+      "type": "release",
+      "title": "v4.0.0",
+      "url": "https://github.com/getredash/redash/releases/tag/v4.0.0",
+      "points": null
+    },
+    {
+      "date": "2018-05-02",
+      "type": "release",
+      "title": "v4.0.1",
+      "url": "https://github.com/getredash/redash/releases/tag/v4.0.1",
+      "points": null
+    },
+    {
+      "date": "2018-08-06",
+      "type": "release",
+      "title": "v5.0.0-beta",
+      "url": "https://github.com/getredash/redash/releases/tag/v5.0.0-beta",
+      "points": null
+    },
+    {
+      "date": "2018-09-20",
+      "type": "release",
+      "title": "v4.0.2",
+      "url": "https://github.com/getredash/redash/releases/tag/v4.0.2",
+      "points": null
+    },
+    {
+      "date": "2018-09-21",
+      "type": "release",
+      "title": "v5.0.0",
+      "url": "https://github.com/getredash/redash/releases/tag/v5.0.0",
+      "points": null
+    },
+    {
+      "date": "2018-09-28",
+      "type": "release",
+      "title": "v5.0.1",
+      "url": "https://github.com/getredash/redash/releases/tag/v5.0.1",
+      "points": null
+    },
+    {
+      "date": "2018-10-18",
+      "type": "release",
+      "title": "v5.0.2",
+      "url": "https://github.com/getredash/redash/releases/tag/v5.0.2",
+      "points": null
+    },
+    {
+      "date": "2018-12-04",
+      "type": "release",
+      "title": "v6.0.0-beta",
+      "url": "https://github.com/getredash/redash/releases/tag/v6.0.0-beta",
+      "points": null
+    },
+    {
+      "date": "2018-12-17",
+      "type": "release",
+      "title": "v6.0.0",
+      "url": "https://github.com/getredash/redash/releases/tag/v6.0.0",
+      "points": null
+    },
+    {
+      "date": "2019-03-25",
+      "type": "release",
+      "title": "v7.0.0",
+      "url": "https://github.com/getredash/redash/releases/tag/v7.0.0",
+      "points": null
+    },
+    {
+      "date": "2019-10-28",
+      "type": "release",
+      "title": "v8.0.0",
+      "url": "https://github.com/getredash/redash/releases/tag/v8.0.0",
+      "points": null
+    },
+    {
+      "date": "2021-10-02",
+      "type": "release",
+      "title": "v10.0.0",
+      "url": "https://github.com/getredash/redash/releases/tag/v10.0.0",
+      "points": null
+    },
+    {
+      "date": "2021-11-24",
+      "type": "release",
+      "title": "v10.1.0",
+      "url": "https://github.com/getredash/redash/releases/tag/v10.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-08",
+      "type": "release",
+      "title": "v25.1.0",
+      "url": "https://github.com/getredash/redash/releases/tag/v25.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-01",
+      "type": "release",
+      "title": "v25.8.0",
+      "url": "https://github.com/getredash/redash/releases/tag/v25.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-02",
+      "type": "release",
+      "title": "v26.3.0",
+      "url": "https://github.com/getredash/redash/releases/tag/v26.3.0",
+      "points": null
     }
   ]
 }

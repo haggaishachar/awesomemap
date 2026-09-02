@@ -4,8 +4,8 @@
   "link": "https://github.com/vapor/vapor",
   "name": "vapor",
   "desc": "💧 A server-side Swift HTTP web framework.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "vapor",
+  "githubDescription": "💧 A server-side Swift HTTP web framework.",
   "tags": [
     "framework",
     "http",
@@ -16,7 +16,212 @@
     "vapor",
     "web-framework"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 26192,
+      "forks": 1524,
+      "openIssues": 107
+    }
+  ],
   "weight": 26194,
-  "image": "https://avatars.githubusercontent.com/u/17364220?v=4"
+  "image": "https://avatars.githubusercontent.com/u/17364220?v=4",
+  "events": [
+    {
+      "date": "2024-12-30",
+      "type": "release",
+      "title": "4.111.0 - Validation API | `Custom` Validator",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.111.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-14",
+      "type": "release",
+      "title": "4.111.1 - do not truncate response when streaming on error",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.111.1",
+      "points": null
+    },
+    {
+      "date": "2025-01-22",
+      "type": "release",
+      "title": "4.112.0 - Adds Support for Tracing Header Extraction",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.112.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-07",
+      "type": "release",
+      "title": "4.112.1 - Use singleton NIOThreadPool by default",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.112.1",
+      "points": null
+    },
+    {
+      "date": "2025-02-10",
+      "type": "release",
+      "title": "4.113.0 - Fix warnings from NIO 2.79.0",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.113.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-10",
+      "type": "release",
+      "title": "4.112.2 - Android support",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.112.2",
+      "points": null
+    },
+    {
+      "date": "2025-02-11",
+      "type": "release",
+      "title": "4.113.1 - Prevent stack overflow by using `NIOLock` instead of `NIOLockedValueBox` during service initialization",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.113.1",
+      "points": null
+    },
+    {
+      "date": "2025-02-12",
+      "type": "release",
+      "title": "4.113.2 - Fix warning in service fix",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.113.2",
+      "points": null
+    },
+    {
+      "date": "2025-03-18",
+      "type": "release",
+      "title": "4.114.0 - Added a cache policy for file middleware",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.114.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-28",
+      "type": "release",
+      "title": "4.114.1 - Correct SessionData's Codable conformance",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.114.1",
+      "points": null
+    },
+    {
+      "date": "2025-05-15",
+      "type": "release",
+      "title": "4.115.0 - Improve `VaporTesting`'s `withApp` method",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.115.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-14",
+      "type": "release",
+      "title": "4.115.1 - Add Sendable annotations to the OTP types",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.115.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-09",
+      "type": "release",
+      "title": "4.116.0 - Allow initializing Vapor.Application with a Logger",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.116.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-12",
+      "type": "release",
+      "title": "4.117.0 - Fix warnings in 6.2",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.117.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-03",
+      "type": "release",
+      "title": "4.117.2 - Fixing error in documentation of HTTPHeaders accept variable",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.117.2",
+      "points": null
+    },
+    {
+      "date": "2025-11-03",
+      "type": "release",
+      "title": "4.117.1 - Add HEIC (HEVC in HEIF) HTTPMediaType Support",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.117.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-04",
+      "type": "release",
+      "title": "4.118.0 - Update minimum Swift version to 6.0",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.118.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-05",
+      "type": "release",
+      "title": "4.119.0 - Expose peer certificates in request handlers",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.119.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-10",
+      "type": "release",
+      "title": "4.119.1 - Fix a couple of import issues",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.119.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-11",
+      "type": "release",
+      "title": "4.119.2 - Fix parallel build failures on platforms with Glibc",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.119.2",
+      "points": null
+    },
+    {
+      "date": "2025-12-12",
+      "type": "release",
+      "title": "4.120.0 - Fix compatibility with swift-log 1.8.0 and later",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.120.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-05",
+      "type": "release",
+      "title": "4.121.0 - The RouteNotFound that is used when the router finds nothing is now public",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.121.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-14",
+      "type": "release",
+      "title": "4.121.1 - Do not create a session if no cookie was provided",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.121.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-10",
+      "type": "release",
+      "title": "4.121.2 - Add Sendable conformance to application testing Method type",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.121.2",
+      "points": null
+    },
+    {
+      "date": "2026-02-24",
+      "type": "release",
+      "title": "4.121.3 - Parse directives from all Cookie headers, not just the first",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.121.3",
+      "points": null
+    },
+    {
+      "date": "2026-04-10",
+      "type": "release",
+      "title": "4.121.4 - Fix Response Compression Bug when Content Type header is empty",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.121.4",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "4.122.0",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.122.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-25",
+      "type": "release",
+      "title": "4.122.1",
+      "url": "https://github.com/vapor/vapor/releases/tag/4.122.1",
+      "points": null
+    }
+  ]
 }

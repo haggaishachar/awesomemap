@@ -4,8 +4,8 @@
   "link": "https://github.com/polyaxon/polyaxon",
   "name": "polyaxon",
   "desc": "AI Infra / AI Orchestration / AI Control Plane",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "polyaxon",
+  "githubDescription": "AI Infra / AI Orchestration / AI Control Plane",
   "tags": [
     "agents",
     "artificial-intelligence",
@@ -28,7 +28,23 @@
     "tensorflow",
     "workflow"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 3727,
+      "forks": 331,
+      "openIssues": 126
+    }
+  ],
   "weight": 3727,
-  "image": "https://avatars.githubusercontent.com/u/24544827?v=4"
+  "image": "https://avatars.githubusercontent.com/u/24544827?v=4",
+  "events": [
+    {
+      "date": "2017-07-21",
+      "type": "hn",
+      "title": "Show HN: End-to-end deep learning experimentation platform for Tensorflow",
+      "url": "https://news.ycombinator.com/item?id=14819115",
+      "points": 151
+    }
+  ]
 }

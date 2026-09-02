@@ -139,9 +139,221 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 29063,
+      "stars": 29072,
       "forks": 2227,
-      "openIssues": 474
+      "openIssues": 475
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-09-14",
+      "type": "release",
+      "title": "v8.19.1",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.19.1",
+      "points": null
+    },
+    {
+      "date": "2024-09-16",
+      "type": "release",
+      "title": "v8.19.2",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.19.2",
+      "points": null
+    },
+    {
+      "date": "2024-09-26",
+      "type": "release",
+      "title": "v8.19.3",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.19.3",
+      "points": null
+    },
+    {
+      "date": "2024-10-03",
+      "type": "release",
+      "title": "v8.20.0",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.20.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-07",
+      "type": "release",
+      "title": "v8.20.1",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.20.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-15",
+      "type": "release",
+      "title": "v8.21.0",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.21.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-18",
+      "type": "release",
+      "title": "v8.21.1",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.21.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-28",
+      "type": "release",
+      "title": "v8.21.2",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.21.2",
+      "points": null
+    },
+    {
+      "date": "2024-12-19",
+      "type": "release",
+      "title": "v8.21.3",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.21.3",
+      "points": null
+    },
+    {
+      "date": "2024-12-20",
+      "type": "release",
+      "title": "v8.22.0",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.22.0",
+      "points": null
+    },
+    {
+      "date": "2024-12-20",
+      "type": "release",
+      "title": "v8.21.4",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.21.4",
+      "points": null
+    },
+    {
+      "date": "2024-12-30",
+      "type": "release",
+      "title": "v8.22.1",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.22.1",
+      "points": null
+    },
+    {
+      "date": "2025-01-13",
+      "type": "release",
+      "title": "v8.23.0",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.23.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-15",
+      "type": "release",
+      "title": "v8.23.1",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.23.1",
+      "points": null
+    },
+    {
+      "date": "2025-01-24",
+      "type": "release",
+      "title": "v8.23.2",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.23.2",
+      "points": null
+    },
+    {
+      "date": "2025-01-29",
+      "type": "release",
+      "title": "v8.23.3",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.23.3",
+      "points": null
+    },
+    {
+      "date": "2025-02-20",
+      "type": "release",
+      "title": "v8.24.0",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.24.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-22",
+      "type": "release",
+      "title": "v8.24.2",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.24.2",
+      "points": null
+    },
+    {
+      "date": "2025-04-11",
+      "type": "release",
+      "title": "v8.24.3",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.24.3",
+      "points": null
+    },
+    {
+      "date": "2025-04-29",
+      "type": "release",
+      "title": "v8.25.0",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.25.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-30",
+      "type": "release",
+      "title": "v8.25.1",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.25.1",
+      "points": null
+    },
+    {
+      "date": "2025-05-12",
+      "type": "release",
+      "title": "v8.26.0",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.26.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-01",
+      "type": "release",
+      "title": "v8.27.0",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.27.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-08",
+      "type": "release",
+      "title": "v8.27.1",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.27.1",
+      "points": null
+    },
+    {
+      "date": "2025-06-09",
+      "type": "release",
+      "title": "v8.27.2",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.27.2",
+      "points": null
+    },
+    {
+      "date": "2025-07-20",
+      "type": "release",
+      "title": "v8.28.0",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.28.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-04",
+      "type": "release",
+      "title": "v8.29.0",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.29.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-19",
+      "type": "release",
+      "title": "v8.29.1",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.29.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-26",
+      "type": "release",
+      "title": "v8.30.0",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.30.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-21",
+      "type": "release",
+      "title": "v8.30.1",
+      "url": "https://github.com/gitleaks/gitleaks/releases/tag/v8.30.1",
+      "points": null
     }
   ]
 }

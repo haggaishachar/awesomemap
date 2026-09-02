@@ -66,9 +66,186 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 5987,
+      "stars": 5988,
       "forks": 951,
       "openIssues": 150
+    }
+  ],
+  "events": [
+    {
+      "date": "2017-12-10",
+      "type": "hn",
+      "title": "Robot Operating System 2.0: Ardent Apalone Release",
+      "url": "https://news.ycombinator.com/item?id=15890213",
+      "points": 72
+    },
+    {
+      "date": "2024-02-22",
+      "type": "release",
+      "title": "ROS 2 Humble Hawksbill - Patch Release 8",
+      "url": "https://github.com/ros2/ros2/releases/tag/release-humble-20240222",
+      "points": null
+    },
+    {
+      "date": "2024-04-23",
+      "type": "release",
+      "title": "ROS 2 Iron Irwini - Patch Release 5",
+      "url": "https://github.com/ros2/ros2/releases/tag/release-iron-20240423",
+      "points": null
+    },
+    {
+      "date": "2024-05-23",
+      "type": "release",
+      "title": "ROS 2 Jazzy Jalisco Release",
+      "url": "https://github.com/ros2/ros2/releases/tag/release-jazzy-20240523",
+      "points": null
+    },
+    {
+      "date": "2024-05-23",
+      "type": "release",
+      "title": "ROS 2 Humble Hawksbill - Patch Release 9",
+      "url": "https://github.com/ros2/ros2/releases/tag/release-humble-20240523",
+      "points": null
+    },
+    {
+      "date": "2024-07-05",
+      "type": "release",
+      "title": " ROS 2 Jazzy Jalisco - Patch Release 1",
+      "url": "https://github.com/ros2/ros2/releases/tag/release-jazzy-20240705",
+      "points": null
+    },
+    {
+      "date": "2024-07-13",
+      "type": "release",
+      "title": "ROS 2 Iron Irwini - Patch Release 6",
+      "url": "https://github.com/ros2/ros2/releases/tag/release-iron-20240712",
+      "points": null
+    },
+    {
+      "date": "2024-08-07",
+      "type": "release",
+      "title": "ROS 2 Humble Hawksbill - Patch Release 10",
+      "url": "https://github.com/ros2/ros2/releases/tag/release-humble-20240807",
+      "points": null
+    },
+    {
+      "date": "2024-09-23",
+      "type": "release",
+      "title": "ROS 2 Jazzy Jalisco - Patch Release 2",
+      "url": "https://github.com/ros2/ros2/releases/tag/release-jazzy-20240919",
+      "points": null
+    },
+    {
+      "date": "2024-12-05",
+      "type": "release",
+      "title": "ROS 2 Humble Hawksbill - Patch Release 11",
+      "url": "https://github.com/ros2/ros2/releases/tag/release-humble-20241205",
+      "points": null
+    },
+    {
+      "date": "2024-12-09",
+      "type": "release",
+      "title": "ROS 2 Iron Irwini - Patch Release 7",
+      "url": "https://github.com/ros2/ros2/releases/tag/release-iron-20241204",
+      "points": null
+    },
+    {
+      "date": "2024-12-30",
+      "type": "release",
+      "title": "ROS 2 Jazzy Jalisco - Patch Release 3",
+      "url": "https://github.com/ros2/ros2/releases/tag/release-jazzy-20241223",
+      "points": null
+    },
+    {
+      "date": "2025-03-31",
+      "type": "release",
+      "title": "ROS 2 Humble Hawksbill - Patch Release 12",
+      "url": "https://github.com/ros2/ros2/releases/tag/humble-20250331",
+      "points": null
+    },
+    {
+      "date": "2025-04-08",
+      "type": "release",
+      "title": "ROS 2 Jazzy Jalisco - Patch Release 4",
+      "url": "https://github.com/ros2/ros2/releases/tag/release-jazzy-20250407",
+      "points": null
+    },
+    {
+      "date": "2025-04-30",
+      "type": "release",
+      "title": "ROS 2 Jazzy Jalisco - Patch Release 5",
+      "url": "https://github.com/ros2/ros2/releases/tag/release-jazzy-20250430",
+      "points": null
+    },
+    {
+      "date": "2025-05-23",
+      "type": "release",
+      "title": "ROS 2 Kilted Kaiju Release",
+      "url": "https://github.com/ros2/ros2/releases/tag/release-kilted-20250523",
+      "points": null
+    },
+    {
+      "date": "2025-07-21",
+      "type": "release",
+      "title": "ROS 2 Humble Hawksbill - Patch Release 13",
+      "url": "https://github.com/ros2/ros2/releases/tag/release-humble-20250721",
+      "points": null
+    },
+    {
+      "date": "2025-07-28",
+      "type": "release",
+      "title": "ROS 2 Kilted Kaiju - Patch Release 1",
+      "url": "https://github.com/ros2/ros2/releases/tag/release-kilted-20250728",
+      "points": null
+    },
+    {
+      "date": "2025-08-20",
+      "type": "release",
+      "title": " ROS 2 Jazzy Jalisco - Patch Release 6",
+      "url": "https://github.com/ros2/ros2/releases/tag/release-jazzy-20250820",
+      "points": null
+    },
+    {
+      "date": "2026-01-28",
+      "type": "release",
+      "title": "ROS 2 Jazzy Jalisco - Patch Release 7",
+      "url": "https://github.com/ros2/ros2/releases/tag/release-jazzy-20260128",
+      "points": null
+    },
+    {
+      "date": "2026-02-20",
+      "type": "release",
+      "title": "ROS 2 Humble Hawksbill - Patch Release 14",
+      "url": "https://github.com/ros2/ros2/releases/tag/release-humble-20260220",
+      "points": null
+    },
+    {
+      "date": "2026-05-22",
+      "type": "release",
+      "title": "ROS Lyrical Release 2026/05/22",
+      "url": "https://github.com/ros2/ros2/releases/tag/release-lyrical-20260522",
+      "points": null
+    },
+    {
+      "date": "2026-06-18",
+      "type": "release",
+      "title": "ROS 2 Jazzy Jalisco - Patch Release 8",
+      "url": "https://github.com/ros2/ros2/releases/tag/release-jazzy-20260618",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "ROS Lyrical Luth - Patch Release 1 (2026/06/23)",
+      "url": "https://github.com/ros2/ros2/releases/tag/release-lyrical-20260623",
+      "points": null
+    },
+    {
+      "date": "2026-08-08",
+      "type": "release",
+      "title": "ROS Lyrical Luth - Patch Release 2 (2026/08/07)",
+      "url": "https://github.com/ros2/ros2/releases/tag/release-lyrical-20260807",
+      "points": null
     }
   ]
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/nasa-jpl/open-source-rover",
   "name": "open-source-rover",
   "desc": "A build-it-yourself, 6-wheel rover based on the rovers on Mars!",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "open-source-rover",
+  "githubDescription": "A build-it-yourself, 6-wheel rover based on the rovers on Mars!",
   "tags": [
     "diy",
     "hardware",
@@ -15,7 +15,58 @@
     "robot",
     "robotics"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 9623,
+      "forks": 1503,
+      "openIssues": 17
+    }
+  ],
   "weight": 9623,
-  "image": "https://avatars.githubusercontent.com/u/10360932?v=4"
+  "image": "https://avatars.githubusercontent.com/u/10360932?v=4",
+  "events": [
+    {
+      "date": "2018-08-03",
+      "type": "hn",
+      "title": "JPL Open-Source Rover Project Based on the Rovers on Mars",
+      "url": "https://news.ycombinator.com/item?id=17676730",
+      "points": 324
+    },
+    {
+      "date": "2019-07-26",
+      "type": "release",
+      "title": "Open Source Rover V1 - Legacy",
+      "url": "https://github.com/nasa-jpl/open-source-rover/releases/tag/v1.0",
+      "points": null
+    },
+    {
+      "date": "2021-07-02",
+      "type": "release",
+      "title": "First stable hardware release",
+      "url": "https://github.com/nasa-jpl/open-source-rover/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2023-09-01",
+      "type": "release",
+      "title": "legacy 'v1' OSR hardware last update before switch to v2",
+      "url": "https://github.com/nasa-jpl/open-source-rover/releases/tag/v3.1.0",
+      "points": null
+    },
+    {
+      "date": "2023-09-14",
+      "type": "release",
+      "title": "v2 design (v4.0.0)",
+      "url": "https://github.com/nasa-jpl/open-source-rover/releases/tag/v4.0.0",
+      "points": null
+    },
+    {
+      "date": "2023-09-22",
+      "type": "hn",
+      "title": "JPL Open Source Rover Project",
+      "url": "https://news.ycombinator.com/item?id=37616513",
+      "points": 211
+    }
+  ]
 }

@@ -51,9 +51,221 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 7207,
+      "stars": 7208,
       "forks": 1169,
       "openIssues": 17
+    }
+  ],
+  "events": [
+    {
+      "date": "2022-01-14",
+      "type": "release",
+      "title": "ArduinoJson 6.19.1",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v6.19.1",
+      "points": null
+    },
+    {
+      "date": "2022-02-14",
+      "type": "release",
+      "title": "ArduinoJson 6.19.2",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v6.19.2",
+      "points": null
+    },
+    {
+      "date": "2022-03-08",
+      "type": "release",
+      "title": "ArduinoJson 6.19.3",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v6.19.3",
+      "points": null
+    },
+    {
+      "date": "2022-04-05",
+      "type": "release",
+      "title": "ArduinoJson 6.19.4",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v6.19.4",
+      "points": null
+    },
+    {
+      "date": "2022-12-26",
+      "type": "release",
+      "title": "ArduinoJson 6.20.0",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v6.20.0",
+      "points": null
+    },
+    {
+      "date": "2023-02-08",
+      "type": "release",
+      "title": "ArduinoJson 6.20.1",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v6.20.1",
+      "points": null
+    },
+    {
+      "date": "2023-03-14",
+      "type": "release",
+      "title": "ArduinoJson 6.21.0",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v6.21.0",
+      "points": null
+    },
+    {
+      "date": "2023-03-27",
+      "type": "release",
+      "title": "ArduinoJson 6.21.1",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v6.21.1",
+      "points": null
+    },
+    {
+      "date": "2023-04-12",
+      "type": "release",
+      "title": "ArduinoJson 6.21.2",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v6.21.2",
+      "points": null
+    },
+    {
+      "date": "2023-07-23",
+      "type": "release",
+      "title": "ArduinoJson 6.21.3",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v6.21.3",
+      "points": null
+    },
+    {
+      "date": "2023-12-07",
+      "type": "release",
+      "title": "ArduinoJson 6.21.4",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v6.21.4",
+      "points": null
+    },
+    {
+      "date": "2024-01-03",
+      "type": "release",
+      "title": "ArduinoJson 7.0.0",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v7.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-01-10",
+      "type": "release",
+      "title": "ArduinoJson 7.0.1",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v7.0.1",
+      "points": null
+    },
+    {
+      "date": "2024-01-10",
+      "type": "release",
+      "title": "ArduinoJson 6.21.5",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v6.21.5",
+      "points": null
+    },
+    {
+      "date": "2024-01-19",
+      "type": "release",
+      "title": "ArduinoJson 7.0.2",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v7.0.2",
+      "points": null
+    },
+    {
+      "date": "2024-02-05",
+      "type": "release",
+      "title": "ArduinoJson 7.0.3",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v7.0.3",
+      "points": null
+    },
+    {
+      "date": "2024-03-12",
+      "type": "release",
+      "title": "ArduinoJson 7.0.4",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v7.0.4",
+      "points": null
+    },
+    {
+      "date": "2024-06-27",
+      "type": "release",
+      "title": "ArduinoJson 7.1.0",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v7.1.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-18",
+      "type": "release",
+      "title": "ArduinoJson 7.2.0",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v7.2.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-15",
+      "type": "release",
+      "title": "ArduinoJson 7.2.1",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v7.2.1",
+      "points": null
+    },
+    {
+      "date": "2024-12-29",
+      "type": "release",
+      "title": "ArduinoJson 7.3.0",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v7.3.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-27",
+      "type": "release",
+      "title": "ArduinoJson 7.3.1",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v7.3.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-09",
+      "type": "release",
+      "title": "ArduinoJson 7.4.0",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v7.4.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-11",
+      "type": "release",
+      "title": "ArduinoJson 7.4.1",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v7.4.1",
+      "points": null
+    },
+    {
+      "date": "2025-06-20",
+      "type": "release",
+      "title": "ArduinoJson 7.4.2",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v7.4.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-02",
+      "type": "release",
+      "title": "ArduinoJson 7.4.3",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v7.4.3",
+      "points": null
+    },
+    {
+      "date": "2026-03-02",
+      "type": "release",
+      "title": "ArduinoJson 7.3.2",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v7.3.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-02",
+      "type": "release",
+      "title": "ArduinoJson 7.2.2",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v7.2.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-02",
+      "type": "release",
+      "title": "ArduinoJson 6.21.6",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v6.21.6",
+      "points": null
+    },
+    {
+      "date": "2026-03-02",
+      "type": "release",
+      "title": "ArduinoJson 5.13.6",
+      "url": "https://github.com/bblanchon/ArduinoJson/releases/tag/v5.13.6",
+      "points": null
     }
   ]
 }

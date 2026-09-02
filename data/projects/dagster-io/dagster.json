@@ -82,9 +82,221 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 16083,
-      "forks": 2267,
+      "stars": 16091,
+      "forks": 2269,
       "openIssues": 2582
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-01-30",
+      "type": "release",
+      "title": "1.12.13 (core) / 0.28.13 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.12.13",
+      "points": null
+    },
+    {
+      "date": "2026-02-05",
+      "type": "release",
+      "title": "1.12.14 (core) / 0.28.14 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.12.14",
+      "points": null
+    },
+    {
+      "date": "2026-02-20",
+      "type": "release",
+      "title": "1.12.15 (core) / 0.28.15 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.12.15",
+      "points": null
+    },
+    {
+      "date": "2026-02-27",
+      "type": "release",
+      "title": "1.12.17 (core) / 0.28.17 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.12.17",
+      "points": null
+    },
+    {
+      "date": "2026-03-05",
+      "type": "release",
+      "title": "1.12.18 (core) / 0.28.18 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.12.18",
+      "points": null
+    },
+    {
+      "date": "2026-03-12",
+      "type": "release",
+      "title": "1.12.19 (core) / 0.28.19 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.12.19",
+      "points": null
+    },
+    {
+      "date": "2026-03-19",
+      "type": "release",
+      "title": "1.12.20 (core) / 0.28.20 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.12.20",
+      "points": null
+    },
+    {
+      "date": "2026-03-26",
+      "type": "release",
+      "title": "1.12.21 (core) / 0.28.21 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.12.21",
+      "points": null
+    },
+    {
+      "date": "2026-04-02",
+      "type": "release",
+      "title": "1.12.22 (core) / 0.28.22 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.12.22",
+      "points": null
+    },
+    {
+      "date": "2026-04-09",
+      "type": "release",
+      "title": "1.13.0 (core) / 0.29.0 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.13.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-17",
+      "type": "release",
+      "title": "1.13.1 (core) / 0.29.1 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.13.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-23",
+      "type": "release",
+      "title": "1.13.2 (core) / 0.29.2 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.13.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-30",
+      "type": "release",
+      "title": "1.13.3 (core) / 0.29.3 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.13.3",
+      "points": null
+    },
+    {
+      "date": "2026-05-14",
+      "type": "release",
+      "title": "1.13.4 (core) / 0.29.4 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.13.4",
+      "points": null
+    },
+    {
+      "date": "2026-05-15",
+      "type": "release",
+      "title": "1.13.5 (core) / 0.29.5 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.13.5",
+      "points": null
+    },
+    {
+      "date": "2026-05-22",
+      "type": "release",
+      "title": "1.13.6 (core) / 0.29.6 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.13.6",
+      "points": null
+    },
+    {
+      "date": "2026-05-28",
+      "type": "release",
+      "title": "1.13.7 (core) / 0.29.7 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.13.7",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "1.13.8 (core) / 0.29.8 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.13.8",
+      "points": null
+    },
+    {
+      "date": "2026-06-11",
+      "type": "release",
+      "title": "1.13.9 (core) / 0.29.9 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.13.9",
+      "points": null
+    },
+    {
+      "date": "2026-06-18",
+      "type": "release",
+      "title": "1.13.10 (core) / 0.29.10 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.13.10",
+      "points": null
+    },
+    {
+      "date": "2026-06-25",
+      "type": "release",
+      "title": "1.13.11 (core) / 0.29.11 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.13.11",
+      "points": null
+    },
+    {
+      "date": "2026-07-02",
+      "type": "release",
+      "title": "1.13.12 (core) / 0.29.12 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.13.12",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "1.13.13 (core) / 0.29.13 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.13.13",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "1.13.14 (core) / 0.29.14 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.13.14",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "1.13.15 (core) / 0.29.15 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.13.15",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "1.13.16 (core) / 0.29.16 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.13.16",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "1.13.17 (core) / 0.29.17 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.13.17",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "1.13.18 (core) / 0.29.18 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.13.18",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "1.13.19 (core) / 0.29.19 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.13.19",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "1.13.20 (core) / 0.29.20 (libraries)",
+      "url": "https://github.com/dagster-io/dagster/releases/tag/1.13.20",
+      "points": null
     }
   ]
 }

@@ -14,11 +14,34 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 33452,
-      "forks": 3173,
+      "stars": 33456,
+      "forks": 3177,
       "openIssues": 70
     }
   ],
   "weight": 33415,
-  "image": "https://avatars.githubusercontent.com/u/46047812?v=4"
+  "image": "https://avatars.githubusercontent.com/u/46047812?v=4",
+  "events": [
+    {
+      "date": "2025-06-10",
+      "type": "release",
+      "title": "Happy-LLM v1.0.0 0610",
+      "url": "https://github.com/datawhalechina/happy-llm/releases/tag/PDF",
+      "points": null
+    },
+    {
+      "date": "2025-07-27",
+      "type": "release",
+      "title": "Happy-LLM v1.0.1 0727",
+      "url": "https://github.com/datawhalechina/happy-llm/releases/tag/v1.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-29",
+      "type": "release",
+      "title": "Happy-LLM v1.0.2 0129 PPT 发布！",
+      "url": "https://github.com/datawhalechina/happy-llm/releases/tag/v1.0.2",
+      "points": null
+    }
+  ]
 }

@@ -124,9 +124,172 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 98990,
-      "forks": 32563,
-      "openIssues": 1483
+      "stars": 98991,
+      "forks": 32562,
+      "openIssues": 1485
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-07-08",
+      "type": "release",
+      "title": "v6.5.0",
+      "url": "https://github.com/mui/material-ui/releases/tag/v6.5.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-08",
+      "type": "release",
+      "title": "v5.18.0",
+      "url": "https://github.com/mui/material-ui/releases/tag/v5.18.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-05",
+      "type": "release",
+      "title": "v7.3.0",
+      "url": "https://github.com/mui/material-ui/releases/tag/v7.3.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-06",
+      "type": "release",
+      "title": "v7.3.1",
+      "url": "https://github.com/mui/material-ui/releases/tag/v7.3.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-02",
+      "type": "release",
+      "title": "v7.3.2",
+      "url": "https://github.com/mui/material-ui/releases/tag/v7.3.2",
+      "points": null
+    },
+    {
+      "date": "2025-10-02",
+      "type": "release",
+      "title": "v7.3.4",
+      "url": "https://github.com/mui/material-ui/releases/tag/v7.3.4",
+      "points": null
+    },
+    {
+      "date": "2025-10-02",
+      "type": "release",
+      "title": "v7.3.3",
+      "url": "https://github.com/mui/material-ui/releases/tag/v7.3.3",
+      "points": null
+    },
+    {
+      "date": "2025-11-04",
+      "type": "release",
+      "title": "v7.3.5",
+      "url": "https://github.com/mui/material-ui/releases/tag/v7.3.5",
+      "points": null
+    },
+    {
+      "date": "2025-12-03",
+      "type": "release",
+      "title": "v7.3.6",
+      "url": "https://github.com/mui/material-ui/releases/tag/v7.3.6",
+      "points": null
+    },
+    {
+      "date": "2026-01-08",
+      "type": "release",
+      "title": "v7.3.7",
+      "url": "https://github.com/mui/material-ui/releases/tag/v7.3.7",
+      "points": null
+    },
+    {
+      "date": "2026-02-12",
+      "type": "release",
+      "title": "v7.3.8",
+      "url": "https://github.com/mui/material-ui/releases/tag/v7.3.8",
+      "points": null
+    },
+    {
+      "date": "2026-03-05",
+      "type": "release",
+      "title": "v7.3.9",
+      "url": "https://github.com/mui/material-ui/releases/tag/v7.3.9",
+      "points": null
+    },
+    {
+      "date": "2026-04-08",
+      "type": "release",
+      "title": "v7.3.10",
+      "url": "https://github.com/mui/material-ui/releases/tag/v7.3.10",
+      "points": null
+    },
+    {
+      "date": "2026-04-08",
+      "type": "release",
+      "title": "v9.0.0",
+      "url": "https://github.com/mui/material-ui/releases/tag/v9.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-07",
+      "type": "release",
+      "title": "v9.0.1",
+      "url": "https://github.com/mui/material-ui/releases/tag/v9.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-07",
+      "type": "release",
+      "title": "v7.3.11",
+      "url": "https://github.com/mui/material-ui/releases/tag/v7.3.11",
+      "points": null
+    },
+    {
+      "date": "2026-06-08",
+      "type": "release",
+      "title": "v9.1.0",
+      "url": "https://github.com/mui/material-ui/releases/tag/v9.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "v9.1.2",
+      "url": "https://github.com/mui/material-ui/releases/tag/v9.1.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "v9.1.1",
+      "url": "https://github.com/mui/material-ui/releases/tag/v9.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-03",
+      "type": "release",
+      "title": "v9.2.0",
+      "url": "https://github.com/mui/material-ui/releases/tag/v9.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "v9.3.0",
+      "url": "https://github.com/mui/material-ui/releases/tag/v9.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "title": "v9.3.1",
+      "url": "https://github.com/mui/material-ui/releases/tag/v9.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "v9.4.0",
+      "url": "https://github.com/mui/material-ui/releases/tag/v9.4.0",
+      "points": null
     }
   ]
 }

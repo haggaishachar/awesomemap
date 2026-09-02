@@ -4,8 +4,8 @@
   "link": "https://github.com/byteburgers/react-native-autocomplete-input",
   "name": "react-native-autocomplete-input",
   "desc": "Pure javascript autocomplete input for react-native",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-autocomplete-input",
+  "githubDescription": "Pure javascript autocomplete input for react-native",
   "tags": [
     "android",
     "autocomplete",
@@ -15,7 +15,212 @@
     "react-native",
     "typescript"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 871,
+      "forks": 249,
+      "openIssues": 7
+    }
+  ],
   "weight": 871,
-  "image": "https://avatars.githubusercontent.com/u/140801012?v=4"
+  "image": "https://avatars.githubusercontent.com/u/140801012?v=4",
+  "events": [
+    {
+      "date": "2016-03-03",
+      "type": "release",
+      "title": "Add inputConainerStyle prop",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v.0.0.3",
+      "points": null
+    },
+    {
+      "date": "2016-03-15",
+      "type": "release",
+      "title": "v.0.0.5",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v.0.0.5",
+      "points": null
+    },
+    {
+      "date": "2016-06-23",
+      "type": "release",
+      "title": "Add onShowResults",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v1.1.0",
+      "points": null
+    },
+    {
+      "date": "2016-08-27",
+      "type": "release",
+      "title": "Autocomplete-Input will behave more like a normal input",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/2.0.0-rc.0",
+      "points": null
+    },
+    {
+      "date": "2017-01-30",
+      "type": "release",
+      "title": "Unify Android and iOS into one version",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2017-02-26",
+      "type": "release",
+      "title": "Add prop to style list container",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v3.1.0",
+      "points": null
+    },
+    {
+      "date": "2017-06-07",
+      "type": "release",
+      "title": "v3.3.0",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v3.3.0",
+      "points": null
+    },
+    {
+      "date": "2017-10-04",
+      "type": "release",
+      "title": "PropTypes",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v3.4.0",
+      "points": null
+    },
+    {
+      "date": "2019-04-09",
+      "type": "release",
+      "title": "V4.0.0",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v4.0.0",
+      "points": null
+    },
+    {
+      "date": "2020-05-23",
+      "type": "release",
+      "title": "v4.2.0",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v4.2.0",
+      "points": null
+    },
+    {
+      "date": "2021-04-06",
+      "type": "release",
+      "title": "v5.0.0",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v5.0.0",
+      "points": null
+    },
+    {
+      "date": "2021-07-08",
+      "type": "release",
+      "title": "v5.0.1",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v5.0.1",
+      "points": null
+    },
+    {
+      "date": "2021-07-11",
+      "type": "release",
+      "title": "v5.0.2",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v5.0.2",
+      "points": null
+    },
+    {
+      "date": "2022-04-05",
+      "type": "release",
+      "title": "v5.1.0",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v5.1.0",
+      "points": null
+    },
+    {
+      "date": "2022-08-22",
+      "type": "release",
+      "title": "v5.1.1",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v5.1.1",
+      "points": null
+    },
+    {
+      "date": "2022-09-13",
+      "type": "release",
+      "title": "v5.2.0",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v5.2.0",
+      "points": null
+    },
+    {
+      "date": "2023-02-19",
+      "type": "release",
+      "title": "v5.3.0",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v5.3.0",
+      "points": null
+    },
+    {
+      "date": "2023-02-19",
+      "type": "release",
+      "title": "v5.2.1",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v5.2.1",
+      "points": null
+    },
+    {
+      "date": "2023-02-20",
+      "type": "release",
+      "title": "v5.3.2",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v5.3.2",
+      "points": null
+    },
+    {
+      "date": "2023-02-20",
+      "type": "release",
+      "title": "v5.3.1",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v5.3.1",
+      "points": null
+    },
+    {
+      "date": "2023-10-15",
+      "type": "release",
+      "title": "v5.4.0",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v5.4.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-16",
+      "type": "release",
+      "title": "v5.5.2",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v5.5.2",
+      "points": null
+    },
+    {
+      "date": "2024-11-16",
+      "type": "release",
+      "title": "v5.5.1",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v5.5.1",
+      "points": null
+    },
+    {
+      "date": "2024-11-16",
+      "type": "release",
+      "title": "v5.5.0",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v5.5.0",
+      "points": null
+    },
+    {
+      "date": "2024-12-30",
+      "type": "release",
+      "title": "v5.5.3",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v5.5.3",
+      "points": null
+    },
+    {
+      "date": "2025-01-01",
+      "type": "release",
+      "title": "v5.5.4",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v5.5.4",
+      "points": null
+    },
+    {
+      "date": "2025-01-02",
+      "type": "release",
+      "title": "v5.5.5",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v5.5.5",
+      "points": null
+    },
+    {
+      "date": "2025-01-24",
+      "type": "release",
+      "title": "v5.5.6",
+      "url": "https://github.com/byteburgers/react-native-autocomplete-input/releases/tag/v5.5.6",
+      "points": null
+    }
+  ]
 }

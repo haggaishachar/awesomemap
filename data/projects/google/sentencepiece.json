@@ -42,9 +42,193 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 12057,
+      "stars": 12055,
       "forks": 1380,
       "openIssues": 9
+    }
+  ],
+  "events": [
+    {
+      "date": "2018-08-26",
+      "type": "release",
+      "title": "v0.1.4",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.1.4",
+      "points": null
+    },
+    {
+      "date": "2018-10-28",
+      "type": "release",
+      "title": "v0.1.5",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.1.5",
+      "points": null
+    },
+    {
+      "date": "2018-11-11",
+      "type": "release",
+      "title": "v0.1.6pre1",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.1.6pre1",
+      "points": null
+    },
+    {
+      "date": "2018-11-11",
+      "type": "release",
+      "title": "v0.1.6",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.1.6",
+      "points": null
+    },
+    {
+      "date": "2018-12-25",
+      "type": "release",
+      "title": "v0.1.7",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.1.7",
+      "points": null
+    },
+    {
+      "date": "2019-01-10",
+      "type": "release",
+      "title": "v0.1.8",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.1.8",
+      "points": null
+    },
+    {
+      "date": "2019-03-22",
+      "type": "release",
+      "title": "v0.1.81",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.1.81",
+      "points": null
+    },
+    {
+      "date": "2019-04-13",
+      "type": "release",
+      "title": "v0.1.82",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.1.82",
+      "points": null
+    },
+    {
+      "date": "2019-08-16",
+      "type": "release",
+      "title": "v0.1.83",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.1.83",
+      "points": null
+    },
+    {
+      "date": "2019-10-12",
+      "type": "release",
+      "title": "v0.1.84",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.1.84",
+      "points": null
+    },
+    {
+      "date": "2019-12-15",
+      "type": "release",
+      "title": "v0.1.85",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.1.85",
+      "points": null
+    },
+    {
+      "date": "2020-04-24",
+      "type": "release",
+      "title": "v0.1.86",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.1.86",
+      "points": null
+    },
+    {
+      "date": "2020-05-13",
+      "type": "release",
+      "title": "v0.1.90",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.1.90",
+      "points": null
+    },
+    {
+      "date": "2020-05-13",
+      "type": "release",
+      "title": "v0.1.9",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.1.9",
+      "points": null
+    },
+    {
+      "date": "2020-05-21",
+      "type": "release",
+      "title": "v0.1.91",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.1.91",
+      "points": null
+    },
+    {
+      "date": "2020-06-08",
+      "type": "release",
+      "title": "v0.1.92",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.1.92",
+      "points": null
+    },
+    {
+      "date": "2020-10-14",
+      "type": "release",
+      "title": "v0.1.93",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.1.93",
+      "points": null
+    },
+    {
+      "date": "2020-10-24",
+      "type": "release",
+      "title": "v0.1.94",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.1.94",
+      "points": null
+    },
+    {
+      "date": "2021-01-10",
+      "type": "release",
+      "title": "v0.1.95",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.1.95",
+      "points": null
+    },
+    {
+      "date": "2021-06-17",
+      "type": "release",
+      "title": "v0.1.96",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.1.96",
+      "points": null
+    },
+    {
+      "date": "2022-08-06",
+      "type": "release",
+      "title": "v0.1.97",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.1.97",
+      "points": null
+    },
+    {
+      "date": "2023-04-12",
+      "type": "release",
+      "title": "v0.1.98",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.1.98",
+      "points": null
+    },
+    {
+      "date": "2023-05-02",
+      "type": "release",
+      "title": "v0.1.99",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.1.99",
+      "points": null
+    },
+    {
+      "date": "2024-02-19",
+      "type": "release",
+      "title": "v0.2.0",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-12",
+      "type": "release",
+      "title": "v0.2.1",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-12",
+      "type": "release",
+      "title": "v0.2.2",
+      "url": "https://github.com/google/sentencepiece/releases/tag/v0.2.2",
+      "points": null
     }
   ]
 }

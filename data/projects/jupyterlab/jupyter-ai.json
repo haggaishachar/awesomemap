@@ -4,8 +4,8 @@
   "link": "https://github.com/jupyterlab/jupyter-ai",
   "name": "jupyter-ai",
   "desc": "An open source extension that connects AI agents to computational notebooks in JupyterLab.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "jupyter-ai",
+  "githubDescription": "An open source extension that connects AI agents to computational notebooks in JupyterLab.",
   "tags": [
     "acp",
     "agents",
@@ -13,7 +13,93 @@
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 4391,
+      "forks": 532,
+      "openIssues": 304
+    }
+  ],
   "weight": 4389,
-  "image": "https://avatars.githubusercontent.com/u/22800682?v=4"
+  "image": "https://avatars.githubusercontent.com/u/22800682?v=4",
+  "events": [
+    {
+      "date": "2025-04-15",
+      "type": "release",
+      "title": "v2.31.3",
+      "url": "https://github.com/jupyterlab/jupyter-ai/releases/tag/v2.31.3",
+      "points": null
+    },
+    {
+      "date": "2025-04-24",
+      "type": "release",
+      "title": "v2.31.4",
+      "url": "https://github.com/jupyterlab/jupyter-ai/releases/tag/v2.31.4",
+      "points": null
+    },
+    {
+      "date": "2025-06-04",
+      "type": "release",
+      "title": "v2.31.5",
+      "url": "https://github.com/jupyterlab/jupyter-ai/releases/tag/v2.31.5",
+      "points": null
+    },
+    {
+      "date": "2025-07-25",
+      "type": "release",
+      "title": "v2.31.6",
+      "url": "https://github.com/jupyterlab/jupyter-ai/releases/tag/v2.31.6",
+      "points": null
+    },
+    {
+      "date": "2025-11-25",
+      "type": "release",
+      "title": "v2.31.7",
+      "url": "https://github.com/jupyterlab/jupyter-ai/releases/tag/v2.31.7",
+      "points": null
+    },
+    {
+      "date": "2026-04-01",
+      "type": "release",
+      "title": "v3.0.0",
+      "url": "https://github.com/jupyterlab/jupyter-ai/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-30",
+      "type": "release",
+      "title": "v3.0.1",
+      "url": "https://github.com/jupyterlab/jupyter-ai/releases/tag/v3.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "v3.1.0",
+      "url": "https://github.com/jupyterlab/jupyter-ai/releases/tag/v3.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-27",
+      "type": "release",
+      "title": "v3.1.1",
+      "url": "https://github.com/jupyterlab/jupyter-ai/releases/tag/v3.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "v3.1.2",
+      "url": "https://github.com/jupyterlab/jupyter-ai/releases/tag/v3.1.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "v3.1.3",
+      "url": "https://github.com/jupyterlab/jupyter-ai/releases/tag/v3.1.3",
+      "points": null
+    }
+  ]
 }

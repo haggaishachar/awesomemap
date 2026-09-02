@@ -77,5 +77,91 @@
       "forks": 660,
       "openIssues": 2
     }
+  ],
+  "events": [
+    {
+      "date": "2023-03-01",
+      "type": "release",
+      "title": "Minor improvements as prep for 1.5",
+      "url": "https://github.com/open-rpa/openrpa/releases/tag/1.4.51",
+      "points": null
+    },
+    {
+      "date": "2023-03-15",
+      "type": "release",
+      "title": "add better translations, add minor improvements to rd service",
+      "url": "https://github.com/open-rpa/openrpa/releases/tag/1.4.52",
+      "points": null
+    },
+    {
+      "date": "2023-03-16",
+      "type": "release",
+      "title": "fix file names for Traditional Chinese",
+      "url": "https://github.com/open-rpa/openrpa/releases/tag/1.4.53",
+      "points": null
+    },
+    {
+      "date": "2023-04-10",
+      "type": "release",
+      "title": "minor update",
+      "url": "https://github.com/open-rpa/openrpa/releases/tag/1.4.54",
+      "points": null
+    },
+    {
+      "date": "2024-03-14",
+      "type": "release",
+      "title": "1.4.56",
+      "url": "https://github.com/open-rpa/openrpa/releases/tag/1.4.56",
+      "points": null
+    },
+    {
+      "date": "2024-04-28",
+      "type": "release",
+      "title": "add url detector to nm ",
+      "url": "https://github.com/open-rpa/openrpa/releases/tag/1.4.57.5",
+      "points": null
+    },
+    {
+      "date": "2024-05-13",
+      "type": "release",
+      "title": "1.4.57.6",
+      "url": "https://github.com/open-rpa/openrpa/releases/tag/1.4.57.6",
+      "points": null
+    },
+    {
+      "date": "2024-07-07",
+      "type": "release",
+      "title": "make scripts optional / Disable update button on package manager ",
+      "url": "https://github.com/open-rpa/openrpa/releases/tag/1.4.57.7",
+      "points": null
+    },
+    {
+      "date": "2025-01-29",
+      "type": "release",
+      "title": "Add support for optional central logging",
+      "url": "https://github.com/open-rpa/openrpa/releases/tag/1.4.57.10",
+      "points": null
+    },
+    {
+      "date": "2025-02-06",
+      "type": "release",
+      "title": "Fix logging attributes",
+      "url": "https://github.com/open-rpa/openrpa/releases/tag/1.4.57.11",
+      "points": null
+    },
+    {
+      "date": "2025-02-24",
+      "type": "release",
+      "title": "1.4.57.12",
+      "url": "https://github.com/open-rpa/openrpa/releases/tag/1.4.57.12",
+      "points": null
+    },
+    {
+      "date": "2025-06-03",
+      "type": "release",
+      "title": "Fix arrays for powershell Invoke-OpenRPA",
+      "url": "https://github.com/open-rpa/openrpa/releases/tag/1.4.57.13",
+      "points": null
+    }
   ]
 }

@@ -130,8 +130,220 @@
     {
       "date": "2026-09-02",
       "stars": 29987,
-      "forks": 3992,
+      "forks": 3993,
       "openIssues": 132
+    }
+  ],
+  "events": [
+    {
+      "date": "2019-07-30",
+      "type": "release",
+      "title": "v2.0-beta-1",
+      "url": "https://github.com/square/leakcanary/releases/tag/v2.0-beta-1",
+      "points": null
+    },
+    {
+      "date": "2019-08-02",
+      "type": "release",
+      "title": "v2.0-beta-2",
+      "url": "https://github.com/square/leakcanary/releases/tag/v2.0-beta-2",
+      "points": null
+    },
+    {
+      "date": "2019-08-22",
+      "type": "release",
+      "title": "v2.0-beta-3",
+      "url": "https://github.com/square/leakcanary/releases/tag/v2.0-beta-3",
+      "points": null
+    },
+    {
+      "date": "2019-11-19",
+      "type": "release",
+      "title": "v2.0-beta-4",
+      "url": "https://github.com/square/leakcanary/releases/tag/v2.0-beta-4",
+      "points": null
+    },
+    {
+      "date": "2019-11-25",
+      "type": "release",
+      "title": "v2.0-beta-5",
+      "url": "https://github.com/square/leakcanary/releases/tag/v2.0-beta-5",
+      "points": null
+    },
+    {
+      "date": "2019-11-27",
+      "type": "release",
+      "title": "v2.0",
+      "url": "https://github.com/square/leakcanary/releases/tag/v2.0",
+      "points": null
+    },
+    {
+      "date": "2019-12-31",
+      "type": "release",
+      "title": "v2.1",
+      "url": "https://github.com/square/leakcanary/releases/tag/v2.1",
+      "points": null
+    },
+    {
+      "date": "2020-02-06",
+      "type": "release",
+      "title": "v2.2",
+      "url": "https://github.com/square/leakcanary/releases/tag/v2.2",
+      "points": null
+    },
+    {
+      "date": "2020-05-08",
+      "type": "release",
+      "title": "v2.3",
+      "url": "https://github.com/square/leakcanary/releases/tag/v2.3",
+      "points": null
+    },
+    {
+      "date": "2020-06-11",
+      "type": "release",
+      "title": "v2.4",
+      "url": "https://github.com/square/leakcanary/releases/tag/v2.4",
+      "points": null
+    },
+    {
+      "date": "2020-10-01",
+      "type": "release",
+      "title": "v2.5",
+      "url": "https://github.com/square/leakcanary/releases/tag/v2.5",
+      "points": null
+    },
+    {
+      "date": "2020-12-25",
+      "type": "release",
+      "title": "v2.6",
+      "url": "https://github.com/square/leakcanary/releases/tag/v2.6",
+      "points": null
+    },
+    {
+      "date": "2021-03-26",
+      "type": "release",
+      "title": "v2.7",
+      "url": "https://github.com/square/leakcanary/releases/tag/v2.7",
+      "points": null
+    },
+    {
+      "date": "2022-01-04",
+      "type": "release",
+      "title": "v2.8",
+      "url": "https://github.com/square/leakcanary/releases/tag/v2.8",
+      "points": null
+    },
+    {
+      "date": "2022-01-06",
+      "type": "release",
+      "title": "v2.8.1",
+      "url": "https://github.com/square/leakcanary/releases/tag/v2.8.1",
+      "points": null
+    },
+    {
+      "date": "2022-04-20",
+      "type": "release",
+      "title": "v2.9.1",
+      "url": "https://github.com/square/leakcanary/releases/tag/v2.9.1",
+      "points": null
+    },
+    {
+      "date": "2022-11-11",
+      "type": "release",
+      "title": "v2.10",
+      "url": "https://github.com/square/leakcanary/releases/tag/v2.10",
+      "points": null
+    },
+    {
+      "date": "2023-05-18",
+      "type": "release",
+      "title": "v2.11",
+      "url": "https://github.com/square/leakcanary/releases/tag/v2.11",
+      "points": null
+    },
+    {
+      "date": "2023-06-29",
+      "type": "release",
+      "title": "v2.12",
+      "url": "https://github.com/square/leakcanary/releases/tag/v2.12",
+      "points": null
+    },
+    {
+      "date": "2024-01-03",
+      "type": "release",
+      "title": "v2.13",
+      "url": "https://github.com/square/leakcanary/releases/tag/v2.13",
+      "points": null
+    },
+    {
+      "date": "2024-01-09",
+      "type": "release",
+      "title": "3.0-alpha-1",
+      "url": "https://github.com/square/leakcanary/releases/tag/v3.0-alpha-1",
+      "points": null
+    },
+    {
+      "date": "2024-04-18",
+      "type": "release",
+      "title": "v2.14",
+      "url": "https://github.com/square/leakcanary/releases/tag/v2.14",
+      "points": null
+    },
+    {
+      "date": "2024-05-04",
+      "type": "release",
+      "title": "v3.0-alpha-2",
+      "url": "https://github.com/square/leakcanary/releases/tag/v3.0-alpha-2",
+      "points": null
+    },
+    {
+      "date": "2024-05-10",
+      "type": "release",
+      "title": "v3.0-alpha-4",
+      "url": "https://github.com/square/leakcanary/releases/tag/v3.0-alpha-4",
+      "points": null
+    },
+    {
+      "date": "2024-05-10",
+      "type": "release",
+      "title": "v3.0-alpha-3",
+      "url": "https://github.com/square/leakcanary/releases/tag/v3.0-alpha-3",
+      "points": null
+    },
+    {
+      "date": "2024-05-21",
+      "type": "release",
+      "title": "v3.0-alpha-6",
+      "url": "https://github.com/square/leakcanary/releases/tag/v3.0-alpha-6",
+      "points": null
+    },
+    {
+      "date": "2024-05-21",
+      "type": "release",
+      "title": "v3.0-alpha-5",
+      "url": "https://github.com/square/leakcanary/releases/tag/v3.0-alpha-5",
+      "points": null
+    },
+    {
+      "date": "2024-05-30",
+      "type": "release",
+      "title": "v3.0-alpha-7",
+      "url": "https://github.com/square/leakcanary/releases/tag/v3.0-alpha-7",
+      "points": null
+    },
+    {
+      "date": "2024-06-04",
+      "type": "release",
+      "title": "v3.0-alpha-8",
+      "url": "https://github.com/square/leakcanary/releases/tag/v3.0-alpha-8",
+      "points": null
+    },
+    {
+      "date": "2026-06-25",
+      "type": "release",
+      "title": "v3.0-alpha-9",
+      "url": "https://github.com/square/leakcanary/releases/tag/v3.0-alpha-9",
+      "points": null
     }
   ]
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/alichherawalla/off-grid-mobile-ai",
   "name": "off-grid-mobile-ai",
   "desc": "The Swiss Army Knife of Offline AI. Chat, see, speak, and generate images on your phone or Mac — GGUF LLMs, vision, Whisper speech-to-text, Stable Diffusion, tool calling, and local-network servers. Runs on your CPU, GPU, or NPU. No account, no API key, zero data leaves your device.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "OGAM",
+  "githubDescription": "The Swiss Army Knife of Offline AI. Chat, see, speak, and generate images on your phone or Mac — GGUF LLMs, vision, Whisper speech-to-text, Stable Diffusion, tool calling, and local-network servers. Runs on your CPU, GPU, or NPU. No account, no API key, zero data leaves your device.",
   "tags": [
     "android",
     "edge-ai",
@@ -28,7 +28,177 @@
     "whisper-android",
     "whisper-cpp"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 3038,
+      "forks": 290,
+      "openIssues": 144
+    }
+  ],
   "weight": 3037,
-  "image": "https://avatars.githubusercontent.com/u/295106271?v=4"
+  "image": "https://avatars.githubusercontent.com/u/295106271?v=4",
+  "events": [
+    {
+      "date": "2026-03-14",
+      "type": "release",
+      "title": "Off Grid v0.0.80",
+      "url": "https://github.com/off-grid-ai/OGAM/releases/tag/v0.0.80",
+      "points": null
+    },
+    {
+      "date": "2026-03-14",
+      "type": "release",
+      "title": "Off Grid v0.0.79",
+      "url": "https://github.com/off-grid-ai/OGAM/releases/tag/v0.0.79",
+      "points": null
+    },
+    {
+      "date": "2026-03-15",
+      "type": "release",
+      "title": "Off Grid v0.0.81",
+      "url": "https://github.com/off-grid-ai/OGAM/releases/tag/v0.0.81",
+      "points": null
+    },
+    {
+      "date": "2026-04-02",
+      "type": "release",
+      "title": "Off Grid v0.0.82",
+      "url": "https://github.com/off-grid-ai/OGAM/releases/tag/v0.0.82",
+      "points": null
+    },
+    {
+      "date": "2026-04-06",
+      "type": "release",
+      "title": "Off Grid v0.0.83",
+      "url": "https://github.com/off-grid-ai/OGAM/releases/tag/v0.0.83",
+      "points": null
+    },
+    {
+      "date": "2026-04-07",
+      "type": "release",
+      "title": "Off Grid v0.0.85",
+      "url": "https://github.com/off-grid-ai/OGAM/releases/tag/v0.0.85",
+      "points": null
+    },
+    {
+      "date": "2026-04-07",
+      "type": "release",
+      "title": "Off Grid v0.0.84",
+      "url": "https://github.com/off-grid-ai/OGAM/releases/tag/v0.0.84",
+      "points": null
+    },
+    {
+      "date": "2026-04-08",
+      "type": "release",
+      "title": "Off Grid v0.0.86",
+      "url": "https://github.com/off-grid-ai/OGAM/releases/tag/v0.0.86",
+      "points": null
+    },
+    {
+      "date": "2026-04-10",
+      "type": "release",
+      "title": "Off Grid v0.0.87",
+      "url": "https://github.com/off-grid-ai/OGAM/releases/tag/v0.0.87",
+      "points": null
+    },
+    {
+      "date": "2026-04-17",
+      "type": "release",
+      "title": "Off Grid v0.0.89",
+      "url": "https://github.com/off-grid-ai/OGAM/releases/tag/v0.0.89",
+      "points": null
+    },
+    {
+      "date": "2026-04-17",
+      "type": "release",
+      "title": "Off Grid v0.0.88",
+      "url": "https://github.com/off-grid-ai/OGAM/releases/tag/v0.0.88",
+      "points": null
+    },
+    {
+      "date": "2026-05-25",
+      "type": "release",
+      "title": "Off Grid v0.0.94",
+      "url": "https://github.com/off-grid-ai/OGAM/releases/tag/v0.0.94",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "Off Grid v0.0.95",
+      "url": "https://github.com/off-grid-ai/OGAM/releases/tag/v0.0.95",
+      "points": null
+    },
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "title": "Off Grid v0.0.96",
+      "url": "https://github.com/off-grid-ai/OGAM/releases/tag/v0.0.96",
+      "points": null
+    },
+    {
+      "date": "2026-06-26",
+      "type": "release",
+      "title": "Off Grid v0.0.100",
+      "url": "https://github.com/off-grid-ai/OGAM/releases/tag/v0.0.100",
+      "points": null
+    },
+    {
+      "date": "2026-06-26",
+      "type": "release",
+      "title": "Off Grid v0.0.99",
+      "url": "https://github.com/off-grid-ai/OGAM/releases/tag/v0.0.99",
+      "points": null
+    },
+    {
+      "date": "2026-06-26",
+      "type": "release",
+      "title": "Off Grid v0.0.98",
+      "url": "https://github.com/off-grid-ai/OGAM/releases/tag/v0.0.98",
+      "points": null
+    },
+    {
+      "date": "2026-06-26",
+      "type": "release",
+      "title": "Off Grid v0.0.97",
+      "url": "https://github.com/off-grid-ai/OGAM/releases/tag/v0.0.97",
+      "points": null
+    },
+    {
+      "date": "2026-07-03",
+      "type": "release",
+      "title": "Off Grid v0.0.101",
+      "url": "https://github.com/off-grid-ai/OGAM/releases/tag/v0.0.101",
+      "points": null
+    },
+    {
+      "date": "2026-07-07",
+      "type": "release",
+      "title": "Off Grid v0.0.102",
+      "url": "https://github.com/off-grid-ai/OGAM/releases/tag/v0.0.102",
+      "points": null
+    },
+    {
+      "date": "2026-07-15",
+      "type": "release",
+      "title": "Off Grid 0.0.103",
+      "url": "https://github.com/off-grid-ai/OGAM/releases/tag/v0.0.103",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "Off Grid 0.0.107",
+      "url": "https://github.com/off-grid-ai/OGAM/releases/tag/v0.0.107",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "Off Grid 0.0.105",
+      "url": "https://github.com/off-grid-ai/OGAM/releases/tag/v0.0.105",
+      "points": null
+    }
+  ]
 }

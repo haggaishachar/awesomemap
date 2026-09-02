@@ -96,9 +96,95 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 126747,
-      "forks": 22649,
-      "openIssues": 2362
+      "stars": 126807,
+      "forks": 22661,
+      "openIssues": 2365
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-03-10",
+      "type": "hn",
+      "title": "Llama.cpp: Port of Facebook's LLaMA model in C/C++, with Apple Silicon support",
+      "url": "https://news.ycombinator.com/item?id=35100086",
+      "points": 989
+    },
+    {
+      "date": "2023-03-31",
+      "type": "hn",
+      "title": "Llama.cpp 30B runs with only 6GB of RAM now",
+      "url": "https://news.ycombinator.com/item?id=35393284",
+      "points": 1311
+    },
+    {
+      "date": "2023-04-02",
+      "type": "hn",
+      "title": "Revert for jart’s llama.cpp MMAP miracles",
+      "url": "https://news.ycombinator.com/item?id=35411909",
+      "points": 86
+    },
+    {
+      "date": "2023-04-30",
+      "type": "hn",
+      "title": "llama.cpp: Roadmap May 2023",
+      "url": "https://news.ycombinator.com/item?id=35760489",
+      "points": 97
+    },
+    {
+      "date": "2023-06-13",
+      "type": "hn",
+      "title": "Llama.cpp: Full CUDA GPU Acceleration",
+      "url": "https://news.ycombinator.com/item?id=36304143",
+      "points": 728
+    },
+    {
+      "date": "2023-07-05",
+      "type": "hn",
+      "title": "LLama.cpp now has a web interface",
+      "url": "https://news.ycombinator.com/item?id=36603816",
+      "points": 328
+    },
+    {
+      "date": "2023-07-21",
+      "type": "hn",
+      "title": "Llama: Add grammar-based sampling",
+      "url": "https://news.ycombinator.com/item?id=36819906",
+      "points": 417
+    },
+    {
+      "date": "2023-10-11",
+      "type": "hn",
+      "title": "M2 Ultra can run 128 streams of Llama 2 7B in parallel",
+      "url": "https://news.ycombinator.com/item?id=37846387",
+      "points": 268
+    },
+    {
+      "date": "2023-11-27",
+      "type": "hn",
+      "title": "Running Llama.cpp on AWS Instances",
+      "url": "https://news.ycombinator.com/item?id=38437607",
+      "points": 96
+    },
+    {
+      "date": "2023-12-19",
+      "type": "hn",
+      "title": "Performance of llama.cpp on Apple Silicon A-series",
+      "url": "https://news.ycombinator.com/item?id=38703161",
+      "points": 100
+    },
+    {
+      "date": "2024-05-15",
+      "type": "hn",
+      "title": "New exponent functions that make SiLU and SoftMax 2x faster, at full accuracy",
+      "url": "https://news.ycombinator.com/item?id=40371612",
+      "points": 382
+    },
+    {
+      "date": "2024-12-14",
+      "type": "hn",
+      "title": "Llama.cpp Now Supports Qwen2-VL (Vision Language Model)",
+      "url": "https://news.ycombinator.com/item?id=42419505",
+      "points": 155
     }
   ]
 }

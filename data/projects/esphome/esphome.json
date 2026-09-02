@@ -78,8 +78,122 @@
     {
       "date": "2026-09-02",
       "stars": 11628,
-      "forks": 5597,
-      "openIssues": 747
+      "forks": 5598,
+      "openIssues": 752
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-06-02",
+      "type": "release",
+      "title": "2026.5.2",
+      "url": "https://github.com/esphome/esphome/releases/tag/2026.5.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-05",
+      "type": "release",
+      "title": "2026.5.3",
+      "url": "https://github.com/esphome/esphome/releases/tag/2026.5.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-18",
+      "type": "release",
+      "title": "2026.6.1",
+      "url": "https://github.com/esphome/esphome/releases/tag/2026.6.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-18",
+      "type": "release",
+      "title": "2026.6.0",
+      "url": "https://github.com/esphome/esphome/releases/tag/2026.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-20",
+      "type": "release",
+      "title": "2026.6.2",
+      "url": "https://github.com/esphome/esphome/releases/tag/2026.6.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "2026.6.3",
+      "url": "https://github.com/esphome/esphome/releases/tag/2026.6.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "2026.6.4",
+      "url": "https://github.com/esphome/esphome/releases/tag/2026.6.4",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "2026.6.5",
+      "url": "https://github.com/esphome/esphome/releases/tag/2026.6.5",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "2026.7.0",
+      "url": "https://github.com/esphome/esphome/releases/tag/2026.7.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-20",
+      "type": "release",
+      "title": "2026.7.1",
+      "url": "https://github.com/esphome/esphome/releases/tag/2026.7.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "2026.7.2",
+      "url": "https://github.com/esphome/esphome/releases/tag/2026.7.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "2026.7.3",
+      "url": "https://github.com/esphome/esphome/releases/tag/2026.7.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "2026.7.4",
+      "url": "https://github.com/esphome/esphome/releases/tag/2026.7.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "2026.8.0",
+      "url": "https://github.com/esphome/esphome/releases/tag/2026.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-23",
+      "type": "release",
+      "title": "2026.8.1",
+      "url": "https://github.com/esphome/esphome/releases/tag/2026.8.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "2026.8.2",
+      "url": "https://github.com/esphome/esphome/releases/tag/2026.8.2",
+      "points": null
     }
   ]
 }

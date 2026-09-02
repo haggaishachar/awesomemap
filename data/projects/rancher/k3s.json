@@ -121,9 +121,88 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 33866,
+      "stars": 33868,
       "forks": 2715,
-      "openIssues": 86
+      "openIssues": 79
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-06-24",
+      "type": "release",
+      "title": "v1.36.2+k3s1",
+      "url": "https://github.com/k3s-io/k3s/releases/tag/v1.36.2%2Bk3s1",
+      "points": null
+    },
+    {
+      "date": "2026-06-24",
+      "type": "release",
+      "title": "v1.35.6+k3s1",
+      "url": "https://github.com/k3s-io/k3s/releases/tag/v1.35.6%2Bk3s1",
+      "points": null
+    },
+    {
+      "date": "2026-06-24",
+      "type": "release",
+      "title": "v1.34.9+k3s1",
+      "url": "https://github.com/k3s-io/k3s/releases/tag/v1.34.9%2Bk3s1",
+      "points": null
+    },
+    {
+      "date": "2026-06-24",
+      "type": "release",
+      "title": "v1.33.13+k3s1",
+      "url": "https://github.com/k3s-io/k3s/releases/tag/v1.33.13%2Bk3s1",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "v1.36.3+k3s1",
+      "url": "https://github.com/k3s-io/k3s/releases/tag/v1.36.3%2Bk3s1",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "v1.35.7+k3s1",
+      "url": "https://github.com/k3s-io/k3s/releases/tag/v1.35.7%2Bk3s1",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "v1.34.10+k3s1",
+      "url": "https://github.com/k3s-io/k3s/releases/tag/v1.34.10%2Bk3s1",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "v1.33.13+k3s2",
+      "url": "https://github.com/k3s-io/k3s/releases/tag/v1.33.13%2Bk3s2",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "v1.36.4+k3s1",
+      "url": "https://github.com/k3s-io/k3s/releases/tag/v1.36.4%2Bk3s1",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "v1.35.8+k3s1",
+      "url": "https://github.com/k3s-io/k3s/releases/tag/v1.35.8%2Bk3s1",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "v1.34.11+k3s1",
+      "url": "https://github.com/k3s-io/k3s/releases/tag/v1.34.11%2Bk3s1",
+      "points": null
     }
   ]
 }

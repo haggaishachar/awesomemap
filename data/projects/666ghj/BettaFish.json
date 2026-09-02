@@ -21,10 +21,54 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 42138,
-      "forks": 7627,
+      "stars": 42139,
+      "forks": 7626,
       "openIssues": 5
     }
   ],
-  "weight": 42128
+  "weight": 42128,
+  "events": [
+    {
+      "date": "2025-09-01",
+      "type": "release",
+      "title": "微舆 v1.0.0",
+      "url": "https://github.com/666ghj/BettaFish/releases/tag/v1.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-04",
+      "type": "release",
+      "title": "微舆 v1.1.0",
+      "url": "https://github.com/666ghj/BettaFish/releases/tag/v1.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-08",
+      "type": "release",
+      "title": "微舆 v1.2.0",
+      "url": "https://github.com/666ghj/BettaFish/releases/tag/v1.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-28",
+      "type": "release",
+      "title": "微舆 v2.0.0",
+      "url": "https://github.com/666ghj/BettaFish/releases/tag/v2.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-09",
+      "type": "release",
+      "title": "微舆v2.1.0",
+      "url": "https://github.com/666ghj/BettaFish/releases/tag/v2.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-23",
+      "type": "release",
+      "title": "微舆v3.0.0",
+      "url": "https://github.com/666ghj/BettaFish/releases/tag/v3.0.0",
+      "points": null
+    }
+  ]
 }

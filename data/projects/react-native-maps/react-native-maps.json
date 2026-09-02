@@ -50,5 +50,217 @@
       "forks": 4959,
       "openIssues": 98
     }
+  ],
+  "events": [
+    {
+      "date": "2025-08-31",
+      "type": "release",
+      "title": "v1.25.6",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.25.6",
+      "points": null
+    },
+    {
+      "date": "2025-08-31",
+      "type": "release",
+      "title": "v1.25.5",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.25.5",
+      "points": null
+    },
+    {
+      "date": "2025-09-01",
+      "type": "release",
+      "title": "v1.26.0",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.26.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-02",
+      "type": "release",
+      "title": "v1.26.1",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.26.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-14",
+      "type": "release",
+      "title": "v1.26.6",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.26.6",
+      "points": null
+    },
+    {
+      "date": "2025-09-14",
+      "type": "release",
+      "title": "v1.26.5",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.26.5",
+      "points": null
+    },
+    {
+      "date": "2025-09-14",
+      "type": "release",
+      "title": "v1.26.4",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.26.4",
+      "points": null
+    },
+    {
+      "date": "2025-09-14",
+      "type": "release",
+      "title": "v1.26.3",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.26.3",
+      "points": null
+    },
+    {
+      "date": "2025-09-14",
+      "type": "release",
+      "title": "v1.26.2",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.26.2",
+      "points": null
+    },
+    {
+      "date": "2025-09-21",
+      "type": "release",
+      "title": "v1.26.9",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.26.9",
+      "points": null
+    },
+    {
+      "date": "2025-09-21",
+      "type": "release",
+      "title": "v1.26.8",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.26.8",
+      "points": null
+    },
+    {
+      "date": "2025-09-21",
+      "type": "release",
+      "title": "v1.26.7",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.26.7",
+      "points": null
+    },
+    {
+      "date": "2025-09-29",
+      "type": "release",
+      "title": "v1.26.10",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.26.10",
+      "points": null
+    },
+    {
+      "date": "2025-09-30",
+      "type": "release",
+      "title": "v1.26.11",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.26.11",
+      "points": null
+    },
+    {
+      "date": "2025-10-01",
+      "type": "release",
+      "title": "v1.26.13",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.26.13",
+      "points": null
+    },
+    {
+      "date": "2025-10-01",
+      "type": "release",
+      "title": "v1.26.12",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.26.12",
+      "points": null
+    },
+    {
+      "date": "2025-10-02",
+      "type": "release",
+      "title": "v1.26.14",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.26.14",
+      "points": null
+    },
+    {
+      "date": "2025-10-14",
+      "type": "release",
+      "title": "v1.26.17",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.26.17",
+      "points": null
+    },
+    {
+      "date": "2025-10-14",
+      "type": "release",
+      "title": "v1.26.16",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.26.16",
+      "points": null
+    },
+    {
+      "date": "2025-10-14",
+      "type": "release",
+      "title": "v1.26.15",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.26.15",
+      "points": null
+    },
+    {
+      "date": "2025-10-22",
+      "type": "release",
+      "title": "v1.26.18",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.26.18",
+      "points": null
+    },
+    {
+      "date": "2025-11-30",
+      "type": "release",
+      "title": "v1.26.19",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.26.19",
+      "points": null
+    },
+    {
+      "date": "2025-12-07",
+      "type": "release",
+      "title": "v1.26.20",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.26.20",
+      "points": null
+    },
+    {
+      "date": "2026-02-01",
+      "type": "release",
+      "title": "v1.27.1",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.27.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-01",
+      "type": "release",
+      "title": "v1.27.0",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.27.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-11",
+      "type": "release",
+      "title": "v1.27.2",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.27.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-28",
+      "type": "release",
+      "title": "v1.29.0",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.29.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-28",
+      "type": "release",
+      "title": "v1.28.2",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.28.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-28",
+      "type": "release",
+      "title": "v1.28.1",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.28.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-28",
+      "type": "release",
+      "title": "v1.28.0",
+      "url": "https://github.com/react-native-maps/react-native-maps/releases/tag/v1.28.0",
+      "points": null
+    }
   ]
 }

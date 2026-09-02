@@ -4,10 +4,40 @@
   "link": "https://github.com/moonshotai/Kimi-K2",
   "name": "Kimi-K2",
   "desc": "Kimi K2 is the large language model series developed by Moonshot AI team",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "Kimi-K2",
+  "githubDescription": "Kimi K2 is the large language model series developed by Moonshot AI team",
   "tags": [],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 11109,
+      "forks": 910,
+      "openIssues": 71
+    }
+  ],
   "weight": 11108,
-  "image": "https://avatars.githubusercontent.com/u/129152888?v=4"
+  "image": "https://avatars.githubusercontent.com/u/129152888?v=4",
+  "events": [
+    {
+      "date": "2025-07-12",
+      "type": "hn",
+      "title": "Kimi K2 is a state-of-the-art mixture-of-experts (MoE) language model",
+      "url": "https://news.ycombinator.com/item?id=44543508",
+      "points": 352
+    },
+    {
+      "date": "2025-07-21",
+      "type": "hn",
+      "title": "Kimi-K2 Tech Report [pdf]",
+      "url": "https://news.ycombinator.com/item?id=44639828",
+      "points": 84
+    },
+    {
+      "date": "2026-01-30",
+      "type": "hn",
+      "title": "Kimi K2.5 Technical Report [pdf]",
+      "url": "https://news.ycombinator.com/item?id=46826597",
+      "points": 388
+    }
+  ]
 }

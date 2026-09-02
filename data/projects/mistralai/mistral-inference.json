@@ -102,5 +102,49 @@
       "forks": 1059,
       "openIssues": 1
     }
+  ],
+  "events": [
+    {
+      "date": "2024-05-22",
+      "type": "release",
+      "title": "v1.0.4 - Mistral-inference",
+      "url": "https://github.com/mistralai/mistral-inference/releases/tag/v1.0.4",
+      "points": null
+    },
+    {
+      "date": "2024-05-24",
+      "type": "release",
+      "title": "v1.1.0 Add LoRA",
+      "url": "https://github.com/mistralai/mistral-inference/releases/tag/v1.1.0",
+      "points": null
+    },
+    {
+      "date": "2024-07-16",
+      "type": "release",
+      "title": "v1.2.0 Add Mamba",
+      "url": "https://github.com/mistralai/mistral-inference/releases/tag/v1.2.0",
+      "points": null
+    },
+    {
+      "date": "2024-07-18",
+      "type": "release",
+      "title": "v1.3.0 Mistral-Nemo",
+      "url": "https://github.com/mistralai/mistral-inference/releases/tag/v1.3.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-13",
+      "type": "release",
+      "title": "v1.4.0: Pixtral 👀",
+      "url": "https://github.com/mistralai/mistral-inference/releases/tag/v1.4.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-20",
+      "type": "release",
+      "title": "v1.6.0: Mistrall goes Small 3.1 with vision",
+      "url": "https://github.com/mistralai/mistral-inference/releases/tag/v1.6.0",
+      "points": null
+    }
   ]
 }

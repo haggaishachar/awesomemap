@@ -82,5 +82,196 @@
       "forks": 913,
       "openIssues": 198
     }
+  ],
+  "events": [
+    {
+      "date": "2023-04-26",
+      "type": "release",
+      "title": "v1.0.0",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.0.0",
+      "points": null
+    },
+    {
+      "date": "2023-09-19",
+      "type": "release",
+      "title": "v1.2.2",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.2.2",
+      "points": null
+    },
+    {
+      "date": "2023-09-19",
+      "type": "release",
+      "title": "v1.2.1",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.2.1",
+      "points": null
+    },
+    {
+      "date": "2023-09-27",
+      "type": "release",
+      "title": "v1.2.4",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.2.4",
+      "points": null
+    },
+    {
+      "date": "2023-11-02",
+      "type": "release",
+      "title": "v1.2.5",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.2.5",
+      "points": null
+    },
+    {
+      "date": "2023-12-14",
+      "type": "release",
+      "title": "v1.2.6",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.2.6",
+      "points": null
+    },
+    {
+      "date": "2024-02-09",
+      "type": "release",
+      "title": "v1.2.7",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.2.7",
+      "points": null
+    },
+    {
+      "date": "2024-03-26",
+      "type": "release",
+      "title": "v1.2.8",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.2.8",
+      "points": null
+    },
+    {
+      "date": "2024-05-01",
+      "type": "release",
+      "title": "v1.2.9",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.2.9",
+      "points": null
+    },
+    {
+      "date": "2024-06-04",
+      "type": "release",
+      "title": "v1.2.10",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.2.10",
+      "points": null
+    },
+    {
+      "date": "2024-07-10",
+      "type": "release",
+      "title": "v1.2.11",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.2.11",
+      "points": null
+    },
+    {
+      "date": "2024-08-19",
+      "type": "release",
+      "title": "v1.2.12",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.2.12",
+      "points": null
+    },
+    {
+      "date": "2024-09-25",
+      "type": "release",
+      "title": "v1.2.13",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.2.13",
+      "points": null
+    },
+    {
+      "date": "2024-11-13",
+      "type": "release",
+      "title": "v1.2.14",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.2.14",
+      "points": null
+    },
+    {
+      "date": "2025-01-22",
+      "type": "release",
+      "title": "v1.2.15",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.2.15",
+      "points": null
+    },
+    {
+      "date": "2025-02-19",
+      "type": "release",
+      "title": "v1.2.16",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.2.16",
+      "points": null
+    },
+    {
+      "date": "2025-03-05",
+      "type": "release",
+      "title": "v1.2.17",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.2.17",
+      "points": null
+    },
+    {
+      "date": "2025-04-03",
+      "type": "release",
+      "title": "v1.2.18",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.2.18",
+      "points": null
+    },
+    {
+      "date": "2025-05-14",
+      "type": "release",
+      "title": "v1.3.0",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.3.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-11",
+      "type": "release",
+      "title": "v1.3.1",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.3.1",
+      "points": null
+    },
+    {
+      "date": "2025-07-03",
+      "type": "release",
+      "title": "v1.3.2",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.3.2",
+      "points": null
+    },
+    {
+      "date": "2025-08-06",
+      "type": "release",
+      "title": "v1.3.3",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.3.3",
+      "points": null
+    },
+    {
+      "date": "2025-08-20",
+      "type": "release",
+      "title": "v1.3.4",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.3.4",
+      "points": null
+    },
+    {
+      "date": "2025-09-18",
+      "type": "release",
+      "title": "v1.3.5",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.3.5",
+      "points": null
+    },
+    {
+      "date": "2025-10-15",
+      "type": "release",
+      "title": "v1.3.6",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.3.6",
+      "points": null
+    },
+    {
+      "date": "2026-02-27",
+      "type": "release",
+      "title": "v1.4.0",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-30",
+      "type": "release",
+      "title": "v1.4.1",
+      "url": "https://github.com/cadence-workflow/cadence/releases/tag/v1.4.1",
+      "points": null
+    }
   ]
 }

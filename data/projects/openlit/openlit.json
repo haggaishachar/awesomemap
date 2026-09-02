@@ -4,8 +4,8 @@
   "link": "https://github.com/openlit/openlit",
   "name": "openlit",
   "desc": "Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "openlit",
+  "githubDescription": "Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs.",
   "tags": [
     "ai-observability",
     "amd-gpu",
@@ -28,7 +28,233 @@
     "python",
     "tracing"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2736,
+      "forks": 367,
+      "openIssues": 64
+    }
+  ],
   "weight": 2736,
-  "image": "https://avatars.githubusercontent.com/u/149867240?v=4"
+  "image": "https://avatars.githubusercontent.com/u/149867240?v=4",
+  "events": [
+    {
+      "date": "2024-04-26",
+      "type": "hn",
+      "title": "Show HN: OpenLIT – Open-Source LLM Observability with OpenTelemetry",
+      "url": "https://news.ycombinator.com/item?id=40167461",
+      "points": 62
+    },
+    {
+      "date": "2026-04-27",
+      "type": "release",
+      "title": "py-1.41.2",
+      "url": "https://github.com/openlit/openlit/releases/tag/py-1.41.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-30",
+      "type": "release",
+      "title": "ts-1.12.0",
+      "url": "https://github.com/openlit/openlit/releases/tag/ts-1.12.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-30",
+      "type": "release",
+      "title": "openlit-1.19.0",
+      "url": "https://github.com/openlit/openlit/releases/tag/openlit-1.19.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-30",
+      "type": "release",
+      "title": "openlit-1.18.2",
+      "url": "https://github.com/openlit/openlit/releases/tag/openlit-1.18.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-30",
+      "type": "release",
+      "title": "controller-0.1.0",
+      "url": "https://github.com/openlit/openlit/releases/tag/controller-0.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-01",
+      "type": "release",
+      "title": "openlit-1.19.1",
+      "url": "https://github.com/openlit/openlit/releases/tag/openlit-1.19.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "openlit-1.20.0",
+      "url": "https://github.com/openlit/openlit/releases/tag/openlit-1.20.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-08",
+      "type": "release",
+      "title": "ts-1.13.0",
+      "url": "https://github.com/openlit/openlit/releases/tag/ts-1.13.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-08",
+      "type": "release",
+      "title": "py-1.42.0",
+      "url": "https://github.com/openlit/openlit/releases/tag/py-1.42.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-08",
+      "type": "release",
+      "title": "controller-0.2.0",
+      "url": "https://github.com/openlit/openlit/releases/tag/controller-0.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-27",
+      "type": "release",
+      "title": "openlit-1.21.0",
+      "url": "https://github.com/openlit/openlit/releases/tag/openlit-1.21.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-28",
+      "type": "release",
+      "title": "openlit-1.21.1",
+      "url": "https://github.com/openlit/openlit/releases/tag/openlit-1.21.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-02",
+      "type": "release",
+      "title": "otel-gpu-collector-0.0.5",
+      "url": "https://github.com/openlit/openlit/releases/tag/otel-gpu-collector-0.0.5",
+      "points": null
+    },
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "title": "otel-gpu-collector-0.0.6",
+      "url": "https://github.com/openlit/openlit/releases/tag/otel-gpu-collector-0.0.6",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "openlit-1.22.0",
+      "url": "https://github.com/openlit/openlit/releases/tag/openlit-1.22.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "controller-0.9.0",
+      "url": "https://github.com/openlit/openlit/releases/tag/controller-0.9.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "cli-0.0.1",
+      "url": "https://github.com/openlit/openlit/releases/tag/cli-0.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "py-1.43.0",
+      "url": "https://github.com/openlit/openlit/releases/tag/py-1.43.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "openlit-1.23.0",
+      "url": "https://github.com/openlit/openlit/releases/tag/openlit-1.23.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "controller-0.10.0",
+      "url": "https://github.com/openlit/openlit/releases/tag/controller-0.10.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-12",
+      "type": "release",
+      "title": "ts-1.14.0",
+      "url": "https://github.com/openlit/openlit/releases/tag/ts-1.14.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-12",
+      "type": "release",
+      "title": "py-1.44.0",
+      "url": "https://github.com/openlit/openlit/releases/tag/py-1.44.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-13",
+      "type": "release",
+      "title": "openlit-1.24.0",
+      "url": "https://github.com/openlit/openlit/releases/tag/openlit-1.24.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-15",
+      "type": "release",
+      "title": "openlit-1.24.1",
+      "url": "https://github.com/openlit/openlit/releases/tag/openlit-1.24.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "otel-gpu-collector-0.0.7",
+      "url": "https://github.com/openlit/openlit/releases/tag/otel-gpu-collector-0.0.7",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "openlit-1.24.2",
+      "url": "https://github.com/openlit/openlit/releases/tag/openlit-1.24.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-03",
+      "type": "release",
+      "title": "ts-1.15.0",
+      "url": "https://github.com/openlit/openlit/releases/tag/ts-1.15.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-03",
+      "type": "release",
+      "title": "py-1.45.0",
+      "url": "https://github.com/openlit/openlit/releases/tag/py-1.45.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "otel-gpu-collector: 0.0.8",
+      "url": "https://github.com/openlit/openlit/releases/tag/otel-gpu-collector-0.0.8",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "openlit: 2.0.0",
+      "url": "https://github.com/openlit/openlit/releases/tag/openlit-2.0.0",
+      "points": null
+    }
+  ]
 }

@@ -20,11 +20,223 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 85937,
-      "forks": 11272,
-      "openIssues": 634
+      "stars": 85975,
+      "forks": 11277,
+      "openIssues": 638
     }
   ],
   "weight": 85836,
-  "image": "https://avatars.githubusercontent.com/u/225919603?v=4"
+  "image": "https://avatars.githubusercontent.com/u/225919603?v=4",
+  "events": [
+    {
+      "date": "2026-07-06",
+      "type": "release",
+      "title": "1.9.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/1.9.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-06",
+      "type": "release",
+      "title": "cloud: 1.41.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.41.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-07",
+      "type": "release",
+      "title": "1.9.2",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/1.9.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-07",
+      "type": "release",
+      "title": "1.9.1",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/1.9.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-07",
+      "type": "release",
+      "title": "cloud: 1.42.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.42.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "1.10.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/1.10.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "1.9.3",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/1.9.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "cloud: 1.43.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.43.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "1.11.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/1.11.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "cloud: 1.45.1",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.45.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "cloud: 1.45.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.45.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "cloud: 1.44.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.44.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "title": "cloud: 1.46.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.46.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "cloud: 1.46.1",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.46.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-15",
+      "type": "release",
+      "title": "cloud: 1.46.2",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.46.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "cloud: 1.47.1",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.47.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "cloud: 1.47.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/cloud-1.47.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "v1.6.1",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.6.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "v1.7.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.7.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "v1.8.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "v1.7.2",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.7.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "v1.7.1",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.7.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-03",
+      "type": "release",
+      "title": "v1.9.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.9.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "v1.10.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.10.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "v1.12.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.12.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "v1.11.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.11.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "v1.13.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.13.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-17",
+      "type": "release",
+      "title": "v1.14.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.14.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "v1.15.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.15.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "v1.16.0",
+      "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.16.0",
+      "points": null
+    }
+  ]
 }

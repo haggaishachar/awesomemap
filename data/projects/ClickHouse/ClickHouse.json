@@ -116,9 +116,235 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 49605,
-      "forks": 8891,
-      "openIssues": 7376
+      "stars": 49611,
+      "forks": 8894,
+      "openIssues": 7417
+    }
+  ],
+  "events": [
+    {
+      "date": "2021-05-28",
+      "type": "hn",
+      "title": "ClickHouse: An open-source column-oriented database management system",
+      "url": "https://news.ycombinator.com/item?id=27310247",
+      "points": 198
+    },
+    {
+      "date": "2021-09-20",
+      "type": "hn",
+      "title": "ClickHouse, Inc.",
+      "url": "https://news.ycombinator.com/item?id=28595419",
+      "points": 519
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "Release v26.6.2.158-stable",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.6.2.158-stable",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "Release v26.5.6.113-stable",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.5.6.113-stable",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "Release v26.6.2.160-stable",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.6.2.160-stable",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "Release v26.3.17.110-lts",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.3.17.110-lts",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "Release v25.8.29.51-lts",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v25.8.29.51-lts",
+      "points": null
+    },
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "title": "Release v26.7.3.19-stable",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.7.3.19-stable",
+      "points": null
+    },
+    {
+      "date": "2026-08-17",
+      "type": "release",
+      "title": "Release v26.3.18.32-lts",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.3.18.32-lts",
+      "points": null
+    },
+    {
+      "date": "2026-08-17",
+      "type": "release",
+      "title": "Release v25.8.30.16-lts",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v25.8.30.16-lts",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "Release v26.3.19.3-lts",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.3.19.3-lts",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "Release v26.7.4.58-stable",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.7.4.58-stable",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "Release v26.6.3.62-stable",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.6.3.62-stable",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "Release v26.5.7.64-stable",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.5.7.64-stable",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "Release v26.3.20.7-lts",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.3.20.7-lts",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "Release v25.8.31.9-lts",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v25.8.31.9-lts",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "Release v26.7.5.10-stable",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.7.5.10-stable",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "Release v25.8.32.4-lts",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v25.8.32.4-lts",
+      "points": null
+    },
+    {
+      "date": "2026-08-22",
+      "type": "release",
+      "title": "Release v26.3.21.7-lts",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.3.21.7-lts",
+      "points": null
+    },
+    {
+      "date": "2026-08-25",
+      "type": "release",
+      "title": "Release v26.3.22.7-lts",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.3.22.7-lts",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Release v26.3.23.7-lts",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.3.23.7-lts",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Release v25.8.33.6-lts",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v25.8.33.6-lts",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "Release v26.3.24.4-lts",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.3.24.4-lts",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "Release v26.3.25.2-lts",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.3.25.2-lts",
+      "points": null
+    },
+    {
+      "date": "2026-08-30",
+      "type": "release",
+      "title": "Release v26.8.1.2041-lts",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.8.1.2041-lts",
+      "points": null
+    },
+    {
+      "date": "2026-08-30",
+      "type": "release",
+      "title": "Release v26.3.26.3-lts",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.3.26.3-lts",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "Release v26.3.27.3-lts",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.3.27.3-lts",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "Release v26.8.2.7-lts",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.8.2.7-lts",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "Release v26.7.6.57-stable",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.7.6.57-stable",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "Release v26.6.4.55-stable",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.6.4.55-stable",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "Release v26.3.28.5-lts",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.3.28.5-lts",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Release v26.3.29.7-lts",
+      "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.3.29.7-lts",
+      "points": null
     }
   ]
 }

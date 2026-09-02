@@ -24,5 +24,35 @@
     }
   ],
   "weight": 2371,
-  "image": "https://avatars.githubusercontent.com/u/43720803?v=4"
+  "image": "https://avatars.githubusercontent.com/u/43720803?v=4",
+  "events": [
+    {
+      "date": "2025-05-21",
+      "type": "release",
+      "title": "Release v1.12.4",
+      "url": "https://github.com/VictoriaMetrics/fastcache/releases/tag/v1.12.4",
+      "points": null
+    },
+    {
+      "date": "2025-05-21",
+      "type": "release",
+      "title": "v1.12.3",
+      "url": "https://github.com/VictoriaMetrics/fastcache/releases/tag/v1.12.3",
+      "points": null
+    },
+    {
+      "date": "2025-06-03",
+      "type": "release",
+      "title": "v1.12.5",
+      "url": "https://github.com/VictoriaMetrics/fastcache/releases/tag/v1.12.5",
+      "points": null
+    },
+    {
+      "date": "2025-08-06",
+      "type": "release",
+      "title": "v1.13.0",
+      "url": "https://github.com/VictoriaMetrics/fastcache/releases/tag/v1.13.0",
+      "points": null
+    }
+  ]
 }

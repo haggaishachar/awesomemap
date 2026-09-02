@@ -50,5 +50,224 @@
       "forks": 157,
       "openIssues": 119
     }
+  ],
+  "events": [
+    {
+      "date": "2022-05-22",
+      "type": "hn",
+      "title": "Show HN: Remult – a CRUD framework for full-stack TypeScript",
+      "url": "https://news.ycombinator.com/item?id=31469481",
+      "points": 130
+    },
+    {
+      "date": "2024-07-30",
+      "type": "release",
+      "title": "v0.26.23",
+      "url": "https://github.com/remult/remult/releases/tag/v0.26.23",
+      "points": null
+    },
+    {
+      "date": "2024-08-01",
+      "type": "release",
+      "title": "v0.27.0",
+      "url": "https://github.com/remult/remult/releases/tag/v0.27.0",
+      "points": null
+    },
+    {
+      "date": "2024-08-22",
+      "type": "release",
+      "title": "v0.27.4",
+      "url": "https://github.com/remult/remult/releases/tag/v0.27.4",
+      "points": null
+    },
+    {
+      "date": "2024-08-28",
+      "type": "release",
+      "title": "v0.27.7",
+      "url": "https://github.com/remult/remult/releases/tag/v0.27.7",
+      "points": null
+    },
+    {
+      "date": "2024-09-02",
+      "type": "release",
+      "title": "v0.27.8",
+      "url": "https://github.com/remult/remult/releases/tag/v0.27.8",
+      "points": null
+    },
+    {
+      "date": "2024-09-05",
+      "type": "release",
+      "title": "v0.27.12",
+      "url": "https://github.com/remult/remult/releases/tag/v0.27.12",
+      "points": null
+    },
+    {
+      "date": "2024-09-16",
+      "type": "release",
+      "title": "v0.27.13",
+      "url": "https://github.com/remult/remult/releases/tag/v0.27.13",
+      "points": null
+    },
+    {
+      "date": "2024-09-20",
+      "type": "release",
+      "title": "v0.27.14",
+      "url": "https://github.com/remult/remult/releases/tag/v0.27.14",
+      "points": null
+    },
+    {
+      "date": "2024-09-24",
+      "type": "release",
+      "title": "v0.27.18",
+      "url": "https://github.com/remult/remult/releases/tag/v0.27.18",
+      "points": null
+    },
+    {
+      "date": "2024-10-16",
+      "type": "release",
+      "title": "v0.27.20",
+      "url": "https://github.com/remult/remult/releases/tag/v0.27.20",
+      "points": null
+    },
+    {
+      "date": "2024-10-28",
+      "type": "release",
+      "title": "v0.27.21",
+      "url": "https://github.com/remult/remult/releases/tag/v0.27.21",
+      "points": null
+    },
+    {
+      "date": "2024-11-08",
+      "type": "release",
+      "title": "v0.27.22",
+      "url": "https://github.com/remult/remult/releases/tag/v0.27.22",
+      "points": null
+    },
+    {
+      "date": "2024-11-23",
+      "type": "release",
+      "title": "v0.27.23",
+      "url": "https://github.com/remult/remult/releases/tag/v0.27.23",
+      "points": null
+    },
+    {
+      "date": "2025-01-01",
+      "type": "release",
+      "title": "v2.7.25",
+      "url": "https://github.com/remult/remult/releases/tag/v2.7.25",
+      "points": null
+    },
+    {
+      "date": "2025-01-13",
+      "type": "release",
+      "title": "v2.7.28",
+      "url": "https://github.com/remult/remult/releases/tag/v2.7.28",
+      "points": null
+    },
+    {
+      "date": "2025-04-05",
+      "type": "release",
+      "title": "v2.7.33",
+      "url": "https://github.com/remult/remult/releases/tag/v2.7.33",
+      "points": null
+    },
+    {
+      "date": "2025-05-07",
+      "type": "release",
+      "title": "v3.0.0",
+      "url": "https://github.com/remult/remult/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-09",
+      "type": "release",
+      "title": "v3.0.1",
+      "url": "https://github.com/remult/remult/releases/tag/v3.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-05-13",
+      "type": "release",
+      "title": "v3.0.2",
+      "url": "https://github.com/remult/remult/releases/tag/v3.0.2",
+      "points": null
+    },
+    {
+      "date": "2025-05-23",
+      "type": "release",
+      "title": "v3.0.3",
+      "url": "https://github.com/remult/remult/releases/tag/v3.0.3",
+      "points": null
+    },
+    {
+      "date": "2025-05-26",
+      "type": "release",
+      "title": "v3.0.4",
+      "url": "https://github.com/remult/remult/releases/tag/v3.0.4",
+      "points": null
+    },
+    {
+      "date": "2025-06-06",
+      "type": "release",
+      "title": "v3.0.5",
+      "url": "https://github.com/remult/remult/releases/tag/v3.0.5",
+      "points": null
+    },
+    {
+      "date": "2025-07-06",
+      "type": "release",
+      "title": "v3.0.6",
+      "url": "https://github.com/remult/remult/releases/tag/v3.0.6",
+      "points": null
+    },
+    {
+      "date": "2025-07-29",
+      "type": "release",
+      "title": "v3.1.0",
+      "url": "https://github.com/remult/remult/releases/tag/v3.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-30",
+      "type": "release",
+      "title": "v3.1.1",
+      "url": "https://github.com/remult/remult/releases/tag/v3.1.1",
+      "points": null
+    },
+    {
+      "date": "2025-08-03",
+      "type": "release",
+      "title": "v3.1.2",
+      "url": "https://github.com/remult/remult/releases/tag/v3.1.2",
+      "points": null
+    },
+    {
+      "date": "2025-08-18",
+      "type": "release",
+      "title": "v3.2.0",
+      "url": "https://github.com/remult/remult/releases/tag/v3.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-09",
+      "type": "release",
+      "title": "v3.3.0",
+      "url": "https://github.com/remult/remult/releases/tag/v3.3.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-18",
+      "type": "release",
+      "title": "v3.3.1",
+      "url": "https://github.com/remult/remult/releases/tag/v3.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "title": "v3.3.15",
+      "url": "https://github.com/remult/remult/releases/tag/v3.3.15",
+      "points": null
+    }
   ]
 }

@@ -30,11 +30,209 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 18526,
+      "stars": 18527,
       "forks": 1496,
       "openIssues": 271
     }
   ],
   "weight": 18519,
-  "image": "https://avatars.githubusercontent.com/u/1087378?v=4"
+  "image": "https://avatars.githubusercontent.com/u/1087378?v=4",
+  "events": [
+    {
+      "date": "2013-07-03",
+      "type": "release",
+      "title": "wanna-be-secure: resolves possible DoS for apache jails",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/0.8.10",
+      "points": null
+    },
+    {
+      "date": "2013-07-03",
+      "type": "release",
+      "title": "wanna-be-stable: major improvements in tests battery",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/0.8.9",
+      "points": null
+    },
+    {
+      "date": "2013-11-12",
+      "type": "release",
+      "title": "0.8.11 Release",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/0.8.11",
+      "points": null
+    },
+    {
+      "date": "2014-01-21",
+      "type": "release",
+      "title": "0.8.12 Release",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/0.8.12",
+      "points": null
+    },
+    {
+      "date": "2014-03-15",
+      "type": "release",
+      "title": "0.9.0 Release",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/0.9.0",
+      "points": null
+    },
+    {
+      "date": "2014-03-15",
+      "type": "release",
+      "title": "0.8.13 Maintenance Release",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/0.8.13",
+      "points": null
+    },
+    {
+      "date": "2014-08-19",
+      "type": "release",
+      "title": "0.8.14 AKA take-care-of-the-elderly",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/0.8.14",
+      "points": null
+    },
+    {
+      "date": "2014-10-28",
+      "type": "release",
+      "title": "better, faster, stronger",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/0.9.1",
+      "points": null
+    },
+    {
+      "date": "2015-05-02",
+      "type": "release",
+      "title": "better-quick-now-than-later",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/0.9.2",
+      "points": null
+    },
+    {
+      "date": "2015-09-04",
+      "type": "release",
+      "title": "0.9.3",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/0.9.3",
+      "points": null
+    },
+    {
+      "date": "2016-03-08",
+      "type": "release",
+      "title": "0.9.4 (2016/03/08) - for-you-ladies",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/0.9.4",
+      "points": null
+    },
+    {
+      "date": "2016-07-15",
+      "type": "release",
+      "title": "ver. 0.9.5 (2016/07/15) - old-not-obsolete",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/0.9.5",
+      "points": null
+    },
+    {
+      "date": "2016-12-11",
+      "type": "release",
+      "title": "0.9.6",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/0.9.6",
+      "points": null
+    },
+    {
+      "date": "2017-05-11",
+      "type": "release",
+      "title": "0.9.7",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/0.9.7",
+      "points": null
+    },
+    {
+      "date": "2017-08-09",
+      "type": "release",
+      "title": "0.10.0 (2017/08/09) - long-awaited 0.10th version",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/0.10.0",
+      "points": null
+    },
+    {
+      "date": "2017-10-12",
+      "type": "release",
+      "title": "0.10.1 (2017/10/12) - succeeded-before-friday-the-13th",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/0.10.1",
+      "points": null
+    },
+    {
+      "date": "2018-01-18",
+      "type": "release",
+      "title": "0.10.2 (2018/01/18) - nothing-burns-like-the-cold",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/0.10.2",
+      "points": null
+    },
+    {
+      "date": "2018-04-04",
+      "type": "release",
+      "title": "0.10.3.1 (2018/04/04) - the-time-is-always-right-to-do-what-is-right",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/0.10.3.1",
+      "points": null
+    },
+    {
+      "date": "2018-10-04",
+      "type": "release",
+      "title": "0.10.4 (2018/10/04) - ten-four-on-due-date-ten-four",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/0.10.4",
+      "points": null
+    },
+    {
+      "date": "2020-01-10",
+      "type": "release",
+      "title": "0.10.5 (2020/01/10) - deserve-more-respect-a-jedis-weapon-must",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/0.10.5",
+      "points": null
+    },
+    {
+      "date": "2020-01-11",
+      "type": "release",
+      "title": "0.11.1 (2020/01/11) - this-is-the-way",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/0.11.1",
+      "points": null
+    },
+    {
+      "date": "2020-11-23",
+      "type": "release",
+      "title": "0.11.2 (2020/11/23) - heal-the-world-with-security-tools",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/0.11.2",
+      "points": null
+    },
+    {
+      "date": "2020-11-23",
+      "type": "release",
+      "title": "0.10.6 (2020/11/23) - just-what-the-doctor-ordered",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/0.10.6",
+      "points": null
+    },
+    {
+      "date": "2022-09-27",
+      "type": "release",
+      "title": "1.0.1 (2022/09/27) - energy-equals-mass-times-the-speed-of-light-squared",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/1.0.1",
+      "points": null
+    },
+    {
+      "date": "2022-11-09",
+      "type": "release",
+      "title": "1.0.2 (2022/11/09) - finally-war-game-test-tape-not-a-nuclear-alarm",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/1.0.2",
+      "points": null
+    },
+    {
+      "date": "2023-10-06",
+      "type": "hn",
+      "title": "Fail2Ban",
+      "url": "https://news.ycombinator.com/item?id=37795100",
+      "points": 160
+    },
+    {
+      "date": "2024-04-25",
+      "type": "release",
+      "title": "1.1.0 (2024/04/25) - object-found--norad-59479-cospar-2024-069a--altitude-36267km",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/1.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-15",
+      "type": "release",
+      "title": "1.1.1 (2026/08/15) - triple-one-win",
+      "url": "https://github.com/fail2ban/fail2ban/releases/tag/1.1.1",
+      "points": null
+    }
+  ]
 }

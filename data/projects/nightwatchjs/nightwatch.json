@@ -53,5 +53,217 @@
       "forks": 1395,
       "openIssues": 334
     }
+  ],
+  "events": [
+    {
+      "date": "2023-12-07",
+      "type": "release",
+      "title": "v3.3.3",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.3.3",
+      "points": null
+    },
+    {
+      "date": "2023-12-11",
+      "type": "release",
+      "title": "v3.3.4",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.3.4",
+      "points": null
+    },
+    {
+      "date": "2023-12-14",
+      "type": "release",
+      "title": "v3.3.5",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.3.5",
+      "points": null
+    },
+    {
+      "date": "2023-12-29",
+      "type": "release",
+      "title": "v3.3.7",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.3.7",
+      "points": null
+    },
+    {
+      "date": "2024-01-10",
+      "type": "release",
+      "title": "v3.3.8",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.3.8",
+      "points": null
+    },
+    {
+      "date": "2024-01-29",
+      "type": "release",
+      "title": "v3.4.0",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.4.0",
+      "points": null
+    },
+    {
+      "date": "2024-02-16",
+      "type": "release",
+      "title": "v3.4.1",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.4.1",
+      "points": null
+    },
+    {
+      "date": "2024-03-15",
+      "type": "release",
+      "title": "v3.5.0",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.5.0",
+      "points": null
+    },
+    {
+      "date": "2024-04-04",
+      "type": "release",
+      "title": "v3.6.0",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.6.0",
+      "points": null
+    },
+    {
+      "date": "2024-04-22",
+      "type": "release",
+      "title": "v3.6.1",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.6.1",
+      "points": null
+    },
+    {
+      "date": "2024-05-10",
+      "type": "release",
+      "title": "v3.6.2",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.6.2",
+      "points": null
+    },
+    {
+      "date": "2024-05-22",
+      "type": "release",
+      "title": "v3.6.3",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.6.3",
+      "points": null
+    },
+    {
+      "date": "2024-07-09",
+      "type": "release",
+      "title": "v3.6.4",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.6.4",
+      "points": null
+    },
+    {
+      "date": "2024-07-24",
+      "type": "release",
+      "title": "v3.7.0",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.7.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-22",
+      "type": "release",
+      "title": "v3.8.0",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.8.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-25",
+      "type": "release",
+      "title": "v3.8.1",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.8.1",
+      "points": null
+    },
+    {
+      "date": "2024-11-11",
+      "type": "release",
+      "title": "v3.9.0",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.9.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-01",
+      "type": "release",
+      "title": "v3.10.0",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.10.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-06",
+      "type": "release",
+      "title": "v3.10.1",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.10.1",
+      "points": null
+    },
+    {
+      "date": "2025-01-07",
+      "type": "release",
+      "title": "v3.10.2",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.10.2",
+      "points": null
+    },
+    {
+      "date": "2025-01-16",
+      "type": "release",
+      "title": "v3.11.0",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.11.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-15",
+      "type": "release",
+      "title": "v3.11.1",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.11.1",
+      "points": null
+    },
+    {
+      "date": "2025-03-06",
+      "type": "release",
+      "title": "v3.12.0",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.12.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-18",
+      "type": "release",
+      "title": "v3.12.1",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.12.1",
+      "points": null
+    },
+    {
+      "date": "2025-06-06",
+      "type": "release",
+      "title": "v3.12.2",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.12.2",
+      "points": null
+    },
+    {
+      "date": "2025-10-28",
+      "type": "release",
+      "title": "v3.12.3",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.12.3",
+      "points": null
+    },
+    {
+      "date": "2025-12-09",
+      "type": "release",
+      "title": "v3.13.0",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.13.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-23",
+      "type": "release",
+      "title": "v3.14.0",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.14.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-21",
+      "type": "release",
+      "title": "v3.15.0",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.15.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-25",
+      "type": "release",
+      "title": "v3.16.0",
+      "url": "https://github.com/nightwatchjs/nightwatch/releases/tag/v3.16.0",
+      "points": null
+    }
   ]
 }

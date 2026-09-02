@@ -24,11 +24,12 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 44237,
-      "forks": 4875,
-      "openIssues": 14
+      "stars": 44338,
+      "forks": 4888,
+      "openIssues": 15
     }
   ],
   "weight": 44055,
-  "image": "https://raw.githubusercontent.com/bojieli/ai-agent-book/main/assets/logo.svg"
+  "image": "https://raw.githubusercontent.com/bojieli/ai-agent-book/main/assets/logo.svg",
+  "events": []
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/marko-js/marko",
   "name": "marko",
   "desc": "A declarative, HTML-based language that makes building web apps fun",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "marko",
+  "githubDescription": "A declarative, HTML-based language that makes building web apps fun",
   "tags": [
     "client-side-rendering",
     "dom",
@@ -17,7 +17,226 @@
     "ui-components",
     "vdom"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 14411,
+      "forks": 662,
+      "openIssues": 34
+    }
+  ],
   "weight": 14412,
-  "image": "https://avatars.githubusercontent.com/u/11873696?v=4"
+  "image": "https://avatars.githubusercontent.com/u/11873696?v=4",
+  "events": [
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "@marko/runtime-tags@6.3.29",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/runtime-tags%406.3.29",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "@marko/runtime-tags@6.3.28",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/runtime-tags%406.3.28",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "@marko/compiler@5.41.15",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/compiler%405.41.15",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "@marko/compiler@5.41.14",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/compiler%405.41.14",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "@marko/compiler@5.41.13",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/compiler%405.41.13",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "@marko/runtime-tags@6.3.31",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/runtime-tags%406.3.31",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "@marko/runtime-tags@6.3.30",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/runtime-tags%406.3.30",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "@marko/runtime-tags@6.3.32",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/runtime-tags%406.3.32",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "@marko/compiler@5.41.16",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/compiler%405.41.16",
+      "points": null
+    },
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "title": "@marko/runtime-tags@6.3.33",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/runtime-tags%406.3.33",
+      "points": null
+    },
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "title": "@marko/compiler@5.41.17",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/compiler%405.41.17",
+      "points": null
+    },
+    {
+      "date": "2026-08-08",
+      "type": "release",
+      "title": "@marko/runtime-tags@6.3.34",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/runtime-tags%406.3.34",
+      "points": null
+    },
+    {
+      "date": "2026-08-08",
+      "type": "release",
+      "title": "@marko/compiler@5.41.18",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/compiler%405.41.18",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "@marko/runtime-tags@6.3.35",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/runtime-tags%406.3.35",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "@marko/compiler@5.42.0",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/compiler%405.42.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "@marko/runtime-tags@6.3.36",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/runtime-tags%406.3.36",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "@marko/compiler@5.42.1",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/compiler%405.42.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-17",
+      "type": "release",
+      "title": "@marko/runtime-tags@6.3.39",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/runtime-tags%406.3.39",
+      "points": null
+    },
+    {
+      "date": "2026-08-17",
+      "type": "release",
+      "title": "@marko/runtime-tags@6.3.37",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/runtime-tags%406.3.37",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "@marko/runtime-tags@6.3.41",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/runtime-tags%406.3.41",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "@marko/runtime-tags@6.3.40",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/runtime-tags%406.3.40",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "@marko/runtime-tags@6.3.43",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/runtime-tags%406.3.43",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "@marko/runtime-tags@6.3.42",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/runtime-tags%406.3.42",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@marko/runtime-tags@6.3.44",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/runtime-tags%406.3.44",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@marko/compiler@5.42.2",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/compiler%405.42.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "@marko/runtime-tags@6.3.45",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/runtime-tags%406.3.45",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "@marko/compiler@5.42.3",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/compiler%405.42.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "@marko/runtime-tags@6.3.46",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/runtime-tags%406.3.46",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "@marko/runtime-tags@6.3.47",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/runtime-tags%406.3.47",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "@marko/runtime-tags@6.3.48",
+      "url": "https://github.com/marko-js/marko/releases/tag/%40marko/runtime-tags%406.3.48",
+      "points": null
+    }
+  ]
 }

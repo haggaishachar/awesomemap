@@ -104,9 +104,200 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 14736,
+      "stars": 14738,
       "forks": 1383,
       "openIssues": 17
+    }
+  ],
+  "events": [
+    {
+      "date": "2022-09-15",
+      "type": "release",
+      "title": "v3.0.2",
+      "url": "https://github.com/optuna/optuna/releases/tag/v3.0.2",
+      "points": null
+    },
+    {
+      "date": "2022-10-11",
+      "type": "release",
+      "title": "v3.0.3",
+      "url": "https://github.com/optuna/optuna/releases/tag/v3.0.3",
+      "points": null
+    },
+    {
+      "date": "2022-12-01",
+      "type": "release",
+      "title": "v3.0.4",
+      "url": "https://github.com/optuna/optuna/releases/tag/v3.0.4",
+      "points": null
+    },
+    {
+      "date": "2022-12-19",
+      "type": "release",
+      "title": "v3.0.5",
+      "url": "https://github.com/optuna/optuna/releases/tag/v3.0.5",
+      "points": null
+    },
+    {
+      "date": "2023-01-18",
+      "type": "release",
+      "title": "v3.1.0",
+      "url": "https://github.com/optuna/optuna/releases/tag/v3.1.0",
+      "points": null
+    },
+    {
+      "date": "2023-03-09",
+      "type": "release",
+      "title": "v3.0.6",
+      "url": "https://github.com/optuna/optuna/releases/tag/v3.0.6",
+      "points": null
+    },
+    {
+      "date": "2023-04-06",
+      "type": "release",
+      "title": "v3.1.1",
+      "url": "https://github.com/optuna/optuna/releases/tag/v3.1.1",
+      "points": null
+    },
+    {
+      "date": "2023-05-30",
+      "type": "release",
+      "title": "v3.2.0",
+      "url": "https://github.com/optuna/optuna/releases/tag/v3.2.0",
+      "points": null
+    },
+    {
+      "date": "2023-08-07",
+      "type": "release",
+      "title": "v3.3.0",
+      "url": "https://github.com/optuna/optuna/releases/tag/v3.3.0",
+      "points": null
+    },
+    {
+      "date": "2023-10-17",
+      "type": "release",
+      "title": "v3.4.0",
+      "url": "https://github.com/optuna/optuna/releases/tag/v3.4.0",
+      "points": null
+    },
+    {
+      "date": "2023-12-11",
+      "type": "release",
+      "title": "v3.5.0",
+      "url": "https://github.com/optuna/optuna/releases/tag/v3.5.0",
+      "points": null
+    },
+    {
+      "date": "2024-03-18",
+      "type": "release",
+      "title": "v3.6.0",
+      "url": "https://github.com/optuna/optuna/releases/tag/v3.6.0",
+      "points": null
+    },
+    {
+      "date": "2024-04-01",
+      "type": "release",
+      "title": "v3.6.1",
+      "url": "https://github.com/optuna/optuna/releases/tag/v3.6.1",
+      "points": null
+    },
+    {
+      "date": "2024-09-02",
+      "type": "release",
+      "title": "v4.0.0",
+      "url": "https://github.com/optuna/optuna/releases/tag/v4.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-11",
+      "type": "release",
+      "title": "v4.1.0",
+      "url": "https://github.com/optuna/optuna/releases/tag/v4.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-20",
+      "type": "release",
+      "title": "v4.2.0",
+      "url": "https://github.com/optuna/optuna/releases/tag/v4.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-27",
+      "type": "release",
+      "title": "v3.6.2",
+      "url": "https://github.com/optuna/optuna/releases/tag/v3.6.2",
+      "points": null
+    },
+    {
+      "date": "2025-01-27",
+      "type": "release",
+      "title": "v3.5.1",
+      "url": "https://github.com/optuna/optuna/releases/tag/v3.5.1",
+      "points": null
+    },
+    {
+      "date": "2025-01-27",
+      "type": "release",
+      "title": "v3.4.1",
+      "url": "https://github.com/optuna/optuna/releases/tag/v3.4.1",
+      "points": null
+    },
+    {
+      "date": "2025-02-12",
+      "type": "release",
+      "title": "v4.2.1",
+      "url": "https://github.com/optuna/optuna/releases/tag/v4.2.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-14",
+      "type": "release",
+      "title": "v4.3.0",
+      "url": "https://github.com/optuna/optuna/releases/tag/v4.3.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-16",
+      "type": "release",
+      "title": "v4.4.0",
+      "url": "https://github.com/optuna/optuna/releases/tag/v4.4.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-18",
+      "type": "release",
+      "title": "v4.5.0",
+      "url": "https://github.com/optuna/optuna/releases/tag/v4.5.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-10",
+      "type": "release",
+      "title": "v4.6.0",
+      "url": "https://github.com/optuna/optuna/releases/tag/v4.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-19",
+      "type": "release",
+      "title": "v4.7.0",
+      "url": "https://github.com/optuna/optuna/releases/tag/v4.7.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-16",
+      "type": "release",
+      "title": "v4.8.0",
+      "url": "https://github.com/optuna/optuna/releases/tag/v4.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-01",
+      "type": "release",
+      "title": "v4.9.0",
+      "url": "https://github.com/optuna/optuna/releases/tag/v4.9.0",
+      "points": null
     }
   ]
 }

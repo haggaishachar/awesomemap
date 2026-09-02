@@ -130,9 +130,221 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 30976,
-      "forks": 3849,
-      "openIssues": 109
+      "stars": 30984,
+      "forks": 3850,
+      "openIssues": 106
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-09-28",
+      "type": "release",
+      "title": "v3.3.4",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.3.4",
+      "points": null
+    },
+    {
+      "date": "2024-10-19",
+      "type": "release",
+      "title": "v3.3.5",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.3.5",
+      "points": null
+    },
+    {
+      "date": "2024-11-21",
+      "type": "release",
+      "title": "v3.3.6",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.3.6",
+      "points": null
+    },
+    {
+      "date": "2024-12-02",
+      "type": "release",
+      "title": "v3.3.7",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.3.7",
+      "points": null
+    },
+    {
+      "date": "2025-01-07",
+      "type": "release",
+      "title": "v3.3.8",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.3.8",
+      "points": null
+    },
+    {
+      "date": "2025-02-13",
+      "type": "release",
+      "title": "v3.3.9",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.3.9",
+      "points": null
+    },
+    {
+      "date": "2025-03-07",
+      "type": "release",
+      "title": "v3.3.10",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.3.10",
+      "points": null
+    },
+    {
+      "date": "2025-03-26",
+      "type": "release",
+      "title": "v3.4.0",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.4.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-28",
+      "type": "release",
+      "title": "v3.4.1",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.4.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-08",
+      "type": "release",
+      "title": "v3.4.2",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.4.2",
+      "points": null
+    },
+    {
+      "date": "2025-05-08",
+      "type": "release",
+      "title": "v3.4.3",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.4.3",
+      "points": null
+    },
+    {
+      "date": "2025-05-16",
+      "type": "release",
+      "title": "v3.4.4",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.4.4",
+      "points": null
+    },
+    {
+      "date": "2025-06-17",
+      "type": "release",
+      "title": "v3.4.5",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.4.5",
+      "points": null
+    },
+    {
+      "date": "2025-06-30",
+      "type": "release",
+      "title": "v3.4.6",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.4.6",
+      "points": null
+    },
+    {
+      "date": "2025-07-01",
+      "type": "release",
+      "title": "v3.4.7",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.4.7",
+      "points": null
+    },
+    {
+      "date": "2025-08-21",
+      "type": "release",
+      "title": "v3.4.8",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.4.8",
+      "points": null
+    },
+    {
+      "date": "2025-08-22",
+      "type": "release",
+      "title": "v3.4.9",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.4.9",
+      "points": null
+    },
+    {
+      "date": "2025-08-23",
+      "type": "release",
+      "title": "v3.4.10",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.4.10",
+      "points": null
+    },
+    {
+      "date": "2025-11-14",
+      "type": "release",
+      "title": "v3.5.1",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.5.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-14",
+      "type": "release",
+      "title": "v3.5.0",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.5.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-04",
+      "type": "release",
+      "title": "v3.6.0",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.6.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-16",
+      "type": "release",
+      "title": "v3.6.1",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.6.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-31",
+      "type": "release",
+      "title": "v3.6.2",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.6.2",
+      "points": null
+    },
+    {
+      "date": "2026-01-28",
+      "type": "release",
+      "title": "v3.7.0",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.7.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-05",
+      "type": "release",
+      "title": "v3.7.1",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.7.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-18",
+      "type": "release",
+      "title": "v3.8.0",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v3.9.0",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.9.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-30",
+      "type": "release",
+      "title": "v3.10.0",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.10.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-06",
+      "type": "release",
+      "title": "v3.11.0",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.11.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-08",
+      "type": "release",
+      "title": "v3.11.1",
+      "url": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.11.1",
+      "points": null
     }
   ]
 }

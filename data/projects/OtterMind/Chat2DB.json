@@ -31,11 +31,55 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 28056,
+      "stars": 28058,
       "forks": 3025,
-      "openIssues": 309
+      "openIssues": 310
     }
   ],
   "weight": 28057,
-  "image": "https://avatars.githubusercontent.com/u/131834193?v=4"
+  "image": "https://avatars.githubusercontent.com/u/131834193?v=4",
+  "events": [
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "Chat2DB v5.3.0",
+      "url": "https://github.com/OtterMind/Chat2DB/releases/tag/v5.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-27",
+      "type": "release",
+      "title": "Chat2DB v5.3.1",
+      "url": "https://github.com/OtterMind/Chat2DB/releases/tag/v5.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "Chat2DB v5.3.2",
+      "url": "https://github.com/OtterMind/Chat2DB/releases/tag/v5.3.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "title": "Chat2DB v5.3.3",
+      "url": "https://github.com/OtterMind/Chat2DB/releases/tag/v5.3.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "Chat2DB v5.3.4",
+      "url": "https://github.com/OtterMind/Chat2DB/releases/tag/v5.3.4",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Chat2DB v5.3.5",
+      "url": "https://github.com/OtterMind/Chat2DB/releases/tag/v5.3.5",
+      "points": null
+    }
+  ]
 }

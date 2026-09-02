@@ -124,9 +124,123 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 49601,
-      "forks": 10616,
-      "openIssues": 1921
+      "stars": 49608,
+      "forks": 10617,
+      "openIssues": 1914
+    }
+  ],
+  "events": [
+    {
+      "date": "2021-06-08",
+      "type": "hn",
+      "title": "Terraform 1.0",
+      "url": "https://news.ycombinator.com/item?id=27433863",
+      "points": 691
+    },
+    {
+      "date": "2021-09-05",
+      "type": "hn",
+      "title": "Terraform is currently not reviewing community pull requests",
+      "url": "https://news.ycombinator.com/item?id=28425849",
+      "points": 249
+    },
+    {
+      "date": "2025-05-19",
+      "type": "hn",
+      "title": "Terraform MCP Server",
+      "url": "https://news.ycombinator.com/item?id=44035770",
+      "points": 105
+    },
+    {
+      "date": "2025-12-10",
+      "type": "hn",
+      "title": "The future of Terraform CDK",
+      "url": "https://news.ycombinator.com/item?id=46222165",
+      "points": 136
+    },
+    {
+      "date": "2026-04-29",
+      "type": "release",
+      "title": "v1.15.0",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.15.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-01",
+      "type": "release",
+      "title": "v1.15.1",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.15.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "v1.15.2",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.15.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "v1.15.3",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.15.3",
+      "points": null
+    },
+    {
+      "date": "2026-05-20",
+      "type": "release",
+      "title": "v1.15.4",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.15.4",
+      "points": null
+    },
+    {
+      "date": "2026-05-27",
+      "type": "release",
+      "title": "v1.15.5",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.15.5",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v1.15.6",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.15.6",
+      "points": null
+    },
+    {
+      "date": "2026-06-24",
+      "type": "release",
+      "title": "v1.15.7",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.15.7",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "v1.15.8",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.15.8",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "v1.15.9",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.15.9",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v1.16.0",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "v1.16.1",
+      "url": "https://github.com/hashicorp/terraform/releases/tag/v1.16.1",
+      "points": null
     }
   ]
 }

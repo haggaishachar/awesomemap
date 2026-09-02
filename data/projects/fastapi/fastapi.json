@@ -87,9 +87,221 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 102017,
-      "forks": 9836,
+      "stars": 102032,
+      "forks": 9837,
       "openIssues": 81
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-04-16",
+      "type": "release",
+      "title": "0.136.0",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.136.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-16",
+      "type": "release",
+      "title": "0.135.4",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.135.4",
+      "points": null
+    },
+    {
+      "date": "2026-04-23",
+      "type": "release",
+      "title": "0.136.1",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.136.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-23",
+      "type": "release",
+      "title": "0.136.3",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.136.3",
+      "points": null
+    },
+    {
+      "date": "2026-05-23",
+      "type": "release",
+      "title": "0.136.2",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.136.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-14",
+      "type": "release",
+      "title": "0.137.0",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.137.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "0.137.1",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.137.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-18",
+      "type": "release",
+      "title": "0.137.2",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.137.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-20",
+      "type": "release",
+      "title": "0.138.0",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.138.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-25",
+      "type": "release",
+      "title": "0.138.1",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.138.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "0.138.2",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.138.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "0.139.0",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.139.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "0.139.2",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.139.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "0.139.1",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.139.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "0.140.0",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.140.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-27",
+      "type": "release",
+      "title": "0.140.7",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.140.7",
+      "points": null
+    },
+    {
+      "date": "2026-07-27",
+      "type": "release",
+      "title": "0.140.6",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.140.6",
+      "points": null
+    },
+    {
+      "date": "2026-07-27",
+      "type": "release",
+      "title": "0.140.5",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.140.5",
+      "points": null
+    },
+    {
+      "date": "2026-07-27",
+      "type": "release",
+      "title": "0.140.4",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.140.4",
+      "points": null
+    },
+    {
+      "date": "2026-07-27",
+      "type": "release",
+      "title": "0.140.3",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.140.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-27",
+      "type": "release",
+      "title": "0.140.2",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.140.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-27",
+      "type": "release",
+      "title": "0.140.1",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.140.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "0.140.13",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.140.13",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "0.140.12",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.140.12",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "0.140.11",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.140.11",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "0.140.10",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.140.10",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "0.140.9",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.140.9",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "0.140.8",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.140.8",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "0.141.1",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.141.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "0.141.0",
+      "url": "https://github.com/fastapi/fastapi/releases/tag/0.141.0",
+      "points": null
     }
   ]
 }

@@ -132,5 +132,14 @@
       "forks": 5355,
       "openIssues": 261
     }
+  ],
+  "events": [
+    {
+      "date": "2016-10-23",
+      "type": "hn",
+      "title": "Kaldi Speech Recognition Toolkit",
+      "url": "https://news.ycombinator.com/item?id=12773218",
+      "points": 71
+    }
   ]
 }

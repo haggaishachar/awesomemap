@@ -51,9 +51,144 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 16634,
-      "forks": 685,
-      "openIssues": 346
+      "stars": 16637,
+      "forks": 686,
+      "openIssues": 345
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-01-22",
+      "type": "release",
+      "title": "v0.80.3",
+      "url": "https://github.com/flet-dev/flet/releases/tag/v0.80.3",
+      "points": null
+    },
+    {
+      "date": "2026-01-24",
+      "type": "release",
+      "title": "v0.80.4",
+      "url": "https://github.com/flet-dev/flet/releases/tag/v0.80.4",
+      "points": null
+    },
+    {
+      "date": "2026-01-30",
+      "type": "release",
+      "title": "v0.80.5",
+      "url": "https://github.com/flet-dev/flet/releases/tag/v0.80.5",
+      "points": null
+    },
+    {
+      "date": "2026-02-24",
+      "type": "release",
+      "title": "v0.81.0",
+      "url": "https://github.com/flet-dev/flet/releases/tag/v0.81.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-04",
+      "type": "release",
+      "title": "v0.82.0",
+      "url": "https://github.com/flet-dev/flet/releases/tag/v0.82.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-10",
+      "type": "release",
+      "title": "v0.82.2",
+      "url": "https://github.com/flet-dev/flet/releases/tag/v0.82.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-26",
+      "type": "release",
+      "title": "v0.83.0",
+      "url": "https://github.com/flet-dev/flet/releases/tag/v0.83.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-29",
+      "type": "release",
+      "title": "v0.83.1",
+      "url": "https://github.com/flet-dev/flet/releases/tag/v0.83.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-01",
+      "type": "release",
+      "title": "v0.84.0",
+      "url": "https://github.com/flet-dev/flet/releases/tag/v0.84.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-08",
+      "type": "release",
+      "title": "v0.85.0",
+      "url": "https://github.com/flet-dev/flet/releases/tag/v0.85.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "v0.85.1",
+      "url": "https://github.com/flet-dev/flet/releases/tag/v0.85.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-25",
+      "type": "release",
+      "title": "v0.85.2",
+      "url": "https://github.com/flet-dev/flet/releases/tag/v0.85.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-08",
+      "type": "release",
+      "title": "v0.85.3",
+      "url": "https://github.com/flet-dev/flet/releases/tag/v0.85.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "v0.86.0",
+      "url": "https://github.com/flet-dev/flet/releases/tag/v0.86.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "v0.86.1",
+      "url": "https://github.com/flet-dev/flet/releases/tag/v0.86.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-22",
+      "type": "release",
+      "title": "v0.86.2",
+      "url": "https://github.com/flet-dev/flet/releases/tag/v0.86.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-26",
+      "type": "release",
+      "title": "v0.86.3",
+      "url": "https://github.com/flet-dev/flet/releases/tag/v0.86.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-27",
+      "type": "release",
+      "title": "v0.86.4",
+      "url": "https://github.com/flet-dev/flet/releases/tag/v0.86.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-01",
+      "type": "release",
+      "title": "v0.86.5",
+      "url": "https://github.com/flet-dev/flet/releases/tag/v0.86.5",
+      "points": null
     }
   ]
 }

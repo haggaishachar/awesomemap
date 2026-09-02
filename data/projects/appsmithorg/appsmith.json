@@ -87,9 +87,228 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 40799,
-      "forks": 4742,
+      "stars": 40800,
+      "forks": 4743,
       "openIssues": 4474
+    }
+  ],
+  "events": [
+    {
+      "date": "2020-10-20",
+      "type": "hn",
+      "title": "Open source alternative to Retool: Appsmith",
+      "url": "https://news.ycombinator.com/item?id=24840355",
+      "points": 76
+    },
+    {
+      "date": "2025-05-28",
+      "type": "release",
+      "title": "Release v1.74 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.74",
+      "points": null
+    },
+    {
+      "date": "2025-06-04",
+      "type": "release",
+      "title": "Release v1.75 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.75",
+      "points": null
+    },
+    {
+      "date": "2025-06-11",
+      "type": "release",
+      "title": "Release v1.76 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.76",
+      "points": null
+    },
+    {
+      "date": "2025-06-18",
+      "type": "release",
+      "title": "Release v1.77 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.77",
+      "points": null
+    },
+    {
+      "date": "2025-06-25",
+      "type": "release",
+      "title": "Release v1.78 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.78",
+      "points": null
+    },
+    {
+      "date": "2025-07-02",
+      "type": "release",
+      "title": "Release v1.79 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.79",
+      "points": null
+    },
+    {
+      "date": "2025-07-09",
+      "type": "release",
+      "title": "Release v1.80 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.80",
+      "points": null
+    },
+    {
+      "date": "2025-07-16",
+      "type": "release",
+      "title": "Release v1.81 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.81",
+      "points": null
+    },
+    {
+      "date": "2025-07-22",
+      "type": "release",
+      "title": "Release v1.82 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.82",
+      "points": null
+    },
+    {
+      "date": "2025-07-30",
+      "type": "release",
+      "title": "Release v1.83 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.83",
+      "points": null
+    },
+    {
+      "date": "2025-08-06",
+      "type": "release",
+      "title": "Release v1.84 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.84",
+      "points": null
+    },
+    {
+      "date": "2025-08-13",
+      "type": "release",
+      "title": "Release v1.85 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.85",
+      "points": null
+    },
+    {
+      "date": "2025-09-24",
+      "type": "release",
+      "title": "Release v1.86 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.86",
+      "points": null
+    },
+    {
+      "date": "2025-09-25",
+      "type": "release",
+      "title": "v1.87",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.87",
+      "points": null
+    },
+    {
+      "date": "2025-10-08",
+      "type": "release",
+      "title": "Release v1.88 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.88",
+      "points": null
+    },
+    {
+      "date": "2025-10-15",
+      "type": "release",
+      "title": "Release v1.89 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.89",
+      "points": null
+    },
+    {
+      "date": "2025-10-29",
+      "type": "release",
+      "title": "Release v1.90 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.90",
+      "points": null
+    },
+    {
+      "date": "2025-11-06",
+      "type": "release",
+      "title": "Release v1.91 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.91",
+      "points": null
+    },
+    {
+      "date": "2025-11-20",
+      "type": "release",
+      "title": "Release v1.92 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.92",
+      "points": null
+    },
+    {
+      "date": "2025-12-04",
+      "type": "release",
+      "title": "Release v1.93 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.93",
+      "points": null
+    },
+    {
+      "date": "2025-12-18",
+      "type": "release",
+      "title": "Release v1.94 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.94",
+      "points": null
+    },
+    {
+      "date": "2026-01-22",
+      "type": "release",
+      "title": "Release v1.95 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.95",
+      "points": null
+    },
+    {
+      "date": "2026-02-19",
+      "type": "release",
+      "title": "Release v1.96 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.96",
+      "points": null
+    },
+    {
+      "date": "2026-03-05",
+      "type": "release",
+      "title": "Release v1.97 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.97",
+      "points": null
+    },
+    {
+      "date": "2026-03-23",
+      "type": "release",
+      "title": "Release v1.98 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.98",
+      "points": null
+    },
+    {
+      "date": "2026-04-16",
+      "type": "release",
+      "title": "Release v1.99 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v1.99",
+      "points": null
+    },
+    {
+      "date": "2026-05-21",
+      "type": "release",
+      "title": "Release v2.0 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v2.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-29",
+      "type": "release",
+      "title": "Release v2.1 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v2.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "Release v2.2 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v2.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "Release v2.3 🌈",
+      "url": "https://github.com/appsmithorg/appsmith/releases/tag/v2.3",
+      "points": null
     }
   ]
 }

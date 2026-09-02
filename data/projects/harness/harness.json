@@ -23,11 +23,125 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 38217,
+      "stars": 38219,
       "forks": 3380,
       "openIssues": 103
     }
   ],
   "weight": 38203,
-  "image": "https://avatars.githubusercontent.com/u/34780278?v=4"
+  "image": "https://avatars.githubusercontent.com/u/34780278?v=4",
+  "events": [
+    {
+      "date": "2023-12-07",
+      "type": "release",
+      "title": "v2.21.0",
+      "url": "https://github.com/harness/harness/releases/tag/v2.21.0",
+      "points": null
+    },
+    {
+      "date": "2024-01-02",
+      "type": "release",
+      "title": "v2.22.0",
+      "url": "https://github.com/harness/harness/releases/tag/v2.22.0",
+      "points": null
+    },
+    {
+      "date": "2024-04-29",
+      "type": "release",
+      "title": "v2.23.0",
+      "url": "https://github.com/harness/harness/releases/tag/v2.23.0",
+      "points": null
+    },
+    {
+      "date": "2024-05-10",
+      "type": "release",
+      "title": "v2.24.0",
+      "url": "https://github.com/harness/harness/releases/tag/v2.24.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-25",
+      "type": "release",
+      "title": "v3.0.0 | Harness Open Source",
+      "url": "https://github.com/harness/harness/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-21",
+      "type": "release",
+      "title": "v2.25.0",
+      "url": "https://github.com/harness/harness/releases/tag/v2.25.0",
+      "points": null
+    },
+    {
+      "date": "2024-12-05",
+      "type": "release",
+      "title": "v3.0.1",
+      "url": "https://github.com/harness/harness/releases/tag/v3.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-01-06",
+      "type": "release",
+      "title": "v3.1.0 | Harness Open Source",
+      "url": "https://github.com/harness/harness/releases/tag/v3.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-15",
+      "type": "release",
+      "title": "v3.1.1",
+      "url": "https://github.com/harness/harness/releases/tag/v3.1.1",
+      "points": null
+    },
+    {
+      "date": "2025-02-28",
+      "type": "release",
+      "title": "v2.26.0",
+      "url": "https://github.com/harness/harness/releases/tag/v2.26.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-23",
+      "type": "release",
+      "title": "v3.2.0 | Harness Open Source",
+      "url": "https://github.com/harness/harness/releases/tag/v3.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-19",
+      "type": "release",
+      "title": "v3.3.0 | Harness Open Source",
+      "url": "https://github.com/harness/harness/releases/tag/v3.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-11",
+      "type": "release",
+      "title": "v2.27.2",
+      "url": "https://github.com/harness/harness/releases/tag/v2.27.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-27",
+      "type": "release",
+      "title": "v2.28.0",
+      "url": "https://github.com/harness/harness/releases/tag/v2.28.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-30",
+      "type": "release",
+      "title": "v2.28.1",
+      "url": "https://github.com/harness/harness/releases/tag/v2.28.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-20",
+      "type": "release",
+      "title": "v2.28.2",
+      "url": "https://github.com/harness/harness/releases/tag/v2.28.2",
+      "points": null
+    }
+  ]
 }

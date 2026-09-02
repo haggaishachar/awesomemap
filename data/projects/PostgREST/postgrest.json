@@ -26,9 +26,235 @@
       "date": "2026-09-02",
       "stars": 27638,
       "forks": 1227,
-      "openIssues": 398
+      "openIssues": 400
     }
   ],
   "weight": 27638,
-  "image": "https://avatars.githubusercontent.com/u/15115011?v=4"
+  "image": "https://avatars.githubusercontent.com/u/15115011?v=4",
+  "events": [
+    {
+      "date": "2020-11-20",
+      "type": "hn",
+      "title": "PostgREST: REST API for any Postgres database",
+      "url": "https://news.ycombinator.com/item?id=25159097",
+      "points": 504
+    },
+    {
+      "date": "2024-07-25",
+      "type": "hn",
+      "title": "PostgREST – Serve a RESTful API from Any Postgres Database",
+      "url": "https://news.ycombinator.com/item?id=41068451",
+      "points": 58
+    },
+    {
+      "date": "2025-05-08",
+      "type": "release",
+      "title": "v13.0.0",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v13.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-01",
+      "type": "release",
+      "title": "v13.0.1",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v13.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-06-02",
+      "type": "release",
+      "title": "v13.0.2",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v13.0.2",
+      "points": null
+    },
+    {
+      "date": "2025-06-17",
+      "type": "release",
+      "title": "v13.0.3",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v13.0.3",
+      "points": null
+    },
+    {
+      "date": "2025-06-18",
+      "type": "release",
+      "title": "v13.0.4",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v13.0.4",
+      "points": null
+    },
+    {
+      "date": "2025-08-24",
+      "type": "release",
+      "title": "v13.0.5",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v13.0.5",
+      "points": null
+    },
+    {
+      "date": "2025-08-30",
+      "type": "release",
+      "title": "v13.0.6",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v13.0.6",
+      "points": null
+    },
+    {
+      "date": "2025-09-14",
+      "type": "release",
+      "title": "v13.0.7",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v13.0.7",
+      "points": null
+    },
+    {
+      "date": "2025-10-24",
+      "type": "release",
+      "title": "v13.0.8",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v13.0.8",
+      "points": null
+    },
+    {
+      "date": "2025-10-25",
+      "type": "release",
+      "title": "v14.0",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v14.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-05",
+      "type": "release",
+      "title": "v14.1",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v14.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-19",
+      "type": "release",
+      "title": "v14.2",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v14.2",
+      "points": null
+    },
+    {
+      "date": "2026-01-03",
+      "type": "release",
+      "title": "v14.3",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v14.3",
+      "points": null
+    },
+    {
+      "date": "2026-01-29",
+      "type": "release",
+      "title": "v14.4",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v14.4",
+      "points": null
+    },
+    {
+      "date": "2026-02-13",
+      "type": "release",
+      "title": "v14.5",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v14.5",
+      "points": null
+    },
+    {
+      "date": "2026-03-06",
+      "type": "release",
+      "title": "v14.6",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v14.6",
+      "points": null
+    },
+    {
+      "date": "2026-03-20",
+      "type": "release",
+      "title": "v14.7",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v14.7",
+      "points": null
+    },
+    {
+      "date": "2026-04-03",
+      "type": "release",
+      "title": "v14.8",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v14.8",
+      "points": null
+    },
+    {
+      "date": "2026-04-11",
+      "type": "release",
+      "title": "v14.9",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v14.9",
+      "points": null
+    },
+    {
+      "date": "2026-04-16",
+      "type": "release",
+      "title": "v14.10",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v14.10",
+      "points": null
+    },
+    {
+      "date": "2026-05-04",
+      "type": "release",
+      "title": "v14.11",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v14.11",
+      "points": null
+    },
+    {
+      "date": "2026-05-20",
+      "type": "release",
+      "title": "v14.12",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v14.12",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "v14.13",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v14.13",
+      "points": null
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "v14.14",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v14.14",
+      "points": null
+    },
+    {
+      "date": "2026-07-13",
+      "type": "release",
+      "title": "v14.15",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v14.15",
+      "points": null
+    },
+    {
+      "date": "2026-07-27",
+      "type": "release",
+      "title": "v14.16",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v14.16",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "v16.0",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v16.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "v16.1",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v16.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "v14.17",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v14.17",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "v16.2",
+      "url": "https://github.com/PostgREST/postgrest/releases/tag/v16.2",
+      "points": null
+    }
+  ]
 }

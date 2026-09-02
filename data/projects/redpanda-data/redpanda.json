@@ -112,9 +112,221 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 12505,
+      "stars": 12507,
       "forks": 787,
-      "openIssues": 543
+      "openIssues": 542
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-02-07",
+      "type": "release",
+      "title": "v25.3.7",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v25.3.7",
+      "points": null
+    },
+    {
+      "date": "2026-02-25",
+      "type": "release",
+      "title": "v25.3.8",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v25.3.8",
+      "points": null
+    },
+    {
+      "date": "2026-02-26",
+      "type": "release",
+      "title": "v25.3.9",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v25.3.9",
+      "points": null
+    },
+    {
+      "date": "2026-03-05",
+      "type": "release",
+      "title": "v25.3.10",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v25.3.10",
+      "points": null
+    },
+    {
+      "date": "2026-03-26",
+      "type": "release",
+      "title": "v25.3.11",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v25.3.11",
+      "points": null
+    },
+    {
+      "date": "2026-03-31",
+      "type": "release",
+      "title": "v26.1.1",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v26.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-01",
+      "type": "release",
+      "title": "v25.3.12",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v25.3.12",
+      "points": null
+    },
+    {
+      "date": "2026-04-03",
+      "type": "release",
+      "title": "v26.1.2",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v26.1.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-03",
+      "type": "release",
+      "title": "v25.3.13",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v25.3.13",
+      "points": null
+    },
+    {
+      "date": "2026-04-10",
+      "type": "release",
+      "title": "v26.1.3",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v26.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-04-11",
+      "type": "release",
+      "title": "v26.1.4",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v26.1.4",
+      "points": null
+    },
+    {
+      "date": "2026-04-15",
+      "type": "release",
+      "title": "v26.1.5",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v26.1.5",
+      "points": null
+    },
+    {
+      "date": "2026-04-16",
+      "type": "release",
+      "title": "v25.3.14",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v25.3.14",
+      "points": null
+    },
+    {
+      "date": "2026-04-22",
+      "type": "release",
+      "title": "v26.1.6",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v26.1.6",
+      "points": null
+    },
+    {
+      "date": "2026-05-08",
+      "type": "release",
+      "title": "v26.1.7",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v26.1.7",
+      "points": null
+    },
+    {
+      "date": "2026-05-14",
+      "type": "release",
+      "title": "v26.1.8",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v26.1.8",
+      "points": null
+    },
+    {
+      "date": "2026-05-22",
+      "type": "release",
+      "title": "v26.1.9",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v26.1.9",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "v25.3.15",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v25.3.15",
+      "points": null
+    },
+    {
+      "date": "2026-06-12",
+      "type": "release",
+      "title": "v26.1.10",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v26.1.10",
+      "points": null
+    },
+    {
+      "date": "2026-06-25",
+      "type": "release",
+      "title": "v26.1.11",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v26.1.11",
+      "points": null
+    },
+    {
+      "date": "2026-06-28",
+      "type": "release",
+      "title": "v26.1.12",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v26.1.12",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "v26.1.13",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v26.1.13",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "v26.1.14",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v26.1.14",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "v26.2.1",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v26.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "v26.1.15",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v26.1.15",
+      "points": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "v26.1.16",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v26.1.16",
+      "points": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "v25.3.16",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v25.3.16",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "v26.1.17",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v26.1.17",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "v25.3.17",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v25.3.17",
+      "points": null
+    },
+    {
+      "date": "2026-08-22",
+      "type": "release",
+      "title": "v26.2.2",
+      "url": "https://github.com/redpanda-data/redpanda/releases/tag/v26.2.2",
+      "points": null
     }
   ]
 }

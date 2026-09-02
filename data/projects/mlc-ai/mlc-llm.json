@@ -99,9 +99,18 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 23123,
+      "stars": 23125,
       "forks": 2131,
-      "openIssues": 338
+      "openIssues": 339
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-04-30",
+      "type": "hn",
+      "title": "MLC-LLM: GPT/Llama on consumer-class GPUs and phones",
+      "url": "https://news.ycombinator.com/item?id=35763483",
+      "points": 303
     }
   ]
 }

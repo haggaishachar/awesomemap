@@ -30,10 +30,187 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 4082,
-      "forks": 898,
+      "stars": 4083,
+      "forks": 899,
       "openIssues": 47
     }
   ],
-  "weight": 4083
+  "weight": 4083,
+  "events": [
+    {
+      "date": "2020-06-22",
+      "type": "release",
+      "title": "OpenMQTTGateway v0.9.4",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v0.9.4",
+      "points": null
+    },
+    {
+      "date": "2020-09-18",
+      "type": "release",
+      "title": "OpenMQTTGateway v0.9.5",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v0.9.5",
+      "points": null
+    },
+    {
+      "date": "2021-04-05",
+      "type": "release",
+      "title": "OpenMQTTGateway v0.9.6",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v0.9.6",
+      "points": null
+    },
+    {
+      "date": "2021-07-18",
+      "type": "release",
+      "title": "OpenMQTTGateway v0.9.7",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v0.9.7",
+      "points": null
+    },
+    {
+      "date": "2021-07-31",
+      "type": "release",
+      "title": "OpenMQTTGateway v0.9.8",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v0.9.8",
+      "points": null
+    },
+    {
+      "date": "2022-01-28",
+      "type": "release",
+      "title": "OpenMQTTGateway v0.9.9",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v0.9.9",
+      "points": null
+    },
+    {
+      "date": "2022-02-09",
+      "type": "release",
+      "title": "OpenMQTTGateway v0.9.10",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v0.9.10",
+      "points": null
+    },
+    {
+      "date": "2022-03-06",
+      "type": "release",
+      "title": "OpenMQTTGateway v0.9.11",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v0.9.11",
+      "points": null
+    },
+    {
+      "date": "2022-05-04",
+      "type": "release",
+      "title": "OpenMQTTGateway v0.9.12",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v0.9.12",
+      "points": null
+    },
+    {
+      "date": "2022-06-21",
+      "type": "release",
+      "title": "OpenMQTTGateway v0.9.13",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v0.9.13",
+      "points": null
+    },
+    {
+      "date": "2022-07-15",
+      "type": "release",
+      "title": "OpenMQTTGateway v0.9.14",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v0.9.14",
+      "points": null
+    },
+    {
+      "date": "2022-07-29",
+      "type": "release",
+      "title": "OpenMQTTGateway v0.9.15",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v0.9.15",
+      "points": null
+    },
+    {
+      "date": "2022-08-13",
+      "type": "release",
+      "title": "OpenMQTTGateway v0.9.16",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v0.9.16",
+      "points": null
+    },
+    {
+      "date": "2022-10-25",
+      "type": "release",
+      "title": "OpenMQTTGateway v1.0.0",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v1.0.0",
+      "points": null
+    },
+    {
+      "date": "2022-12-01",
+      "type": "release",
+      "title": "OpenMQTTGateway v1.1.0",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v1.1.0",
+      "points": null
+    },
+    {
+      "date": "2022-12-05",
+      "type": "release",
+      "title": "OpenMQTTGateway v1.1.1",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v1.1.1",
+      "points": null
+    },
+    {
+      "date": "2023-01-13",
+      "type": "release",
+      "title": "OpenMQTTGateway v1.2.0",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v1.2.0",
+      "points": null
+    },
+    {
+      "date": "2023-01-27",
+      "type": "release",
+      "title": "OpenMQTTGateway v1.3.0",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v1.3.0",
+      "points": null
+    },
+    {
+      "date": "2023-02-13",
+      "type": "release",
+      "title": "OpenMQTTGateway v1.4.0",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v1.4.0",
+      "points": null
+    },
+    {
+      "date": "2023-03-24",
+      "type": "release",
+      "title": "OpenMQTTGateway v1.5.0",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v1.5.0",
+      "points": null
+    },
+    {
+      "date": "2023-04-08",
+      "type": "release",
+      "title": "OpenMQTTGateway v1.5.1",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v1.5.1",
+      "points": null
+    },
+    {
+      "date": "2023-06-10",
+      "type": "release",
+      "title": "OpenMQTTGateway v1.6.0",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v1.6.0",
+      "points": null
+    },
+    {
+      "date": "2023-12-14",
+      "type": "release",
+      "title": "OpenMQTTGateway v1.7.0",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v1.7.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-15",
+      "type": "release",
+      "title": "OpenMQTTGateway v1.8.0",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v1.8.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-13",
+      "type": "release",
+      "title": "OpenMQTTGateway v1.8.1",
+      "url": "https://github.com/1technophile/OpenMQTTGateway/releases/tag/v1.8.1",
+      "points": null
+    }
+  ]
 }

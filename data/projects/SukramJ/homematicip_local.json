@@ -4,8 +4,8 @@
   "link": "https://github.com/SukramJ/homematicip_local",
   "name": "homematicip_local",
   "desc": "A custom Home Assistant component for HomeMatic(IP) that connects to OpenCCU",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "homematicip_local",
+  "githubDescription": "A custom Home Assistant component for HomeMatic(IP) that connects to OpenCCU",
   "tags": [
     "ccu",
     "custom-integration",
@@ -16,6 +16,218 @@
     "homematicip",
     "openccu"
   ],
-  "history": [],
-  "weight": 584
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 584,
+      "forks": 51,
+      "openIssues": 0
+    }
+  ],
+  "weight": 584,
+  "events": [
+    {
+      "date": "2026-01-02",
+      "type": "release",
+      "title": "2.0.2",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-01-02",
+      "type": "release",
+      "title": "2.0.1",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-03",
+      "type": "release",
+      "title": "2.0.3",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.0.3",
+      "points": null
+    },
+    {
+      "date": "2026-01-06",
+      "type": "release",
+      "title": "2.0.5",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.0.5",
+      "points": null
+    },
+    {
+      "date": "2026-01-08",
+      "type": "release",
+      "title": "2.0.6",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.0.6",
+      "points": null
+    },
+    {
+      "date": "2026-01-10",
+      "type": "release",
+      "title": "2.1.1",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-15",
+      "type": "release",
+      "title": "2.1.2",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.1.2",
+      "points": null
+    },
+    {
+      "date": "2026-01-25",
+      "type": "release",
+      "title": "2.2.2",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.2.2",
+      "points": null
+    },
+    {
+      "date": "2026-01-25",
+      "type": "release",
+      "title": "2.2.1",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-30",
+      "type": "release",
+      "title": "2.2.3",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.2.3",
+      "points": null
+    },
+    {
+      "date": "2026-02-02",
+      "type": "release",
+      "title": "2.2.4",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.2.4",
+      "points": null
+    },
+    {
+      "date": "2026-02-24",
+      "type": "release",
+      "title": "2.3.0",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-26",
+      "type": "release",
+      "title": "2.3.1",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-03",
+      "type": "release",
+      "title": "2.3.2",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.3.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-08",
+      "type": "release",
+      "title": "2.4.0",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-14",
+      "type": "release",
+      "title": "2.4.1",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.4.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-03",
+      "type": "release",
+      "title": "2.5.2",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.5.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-10",
+      "type": "release",
+      "title": "2.6.0",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "2.7.0",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.7.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-23",
+      "type": "release",
+      "title": "2.7.1",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.7.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "title": "2.7.2",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.7.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "2.7.3",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.7.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-07",
+      "type": "release",
+      "title": "2.8.1",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.8.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-07",
+      "type": "release",
+      "title": "2.8.0",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "2.8.2",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.8.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-12",
+      "type": "release",
+      "title": "2.8.3",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.8.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "2.9.0",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.9.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "title": "2.9.1",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.9.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "2.10.0",
+      "url": "https://github.com/SukramJ/homematicip_local/releases/tag/2.10.0",
+      "points": null
+    }
+  ]
 }

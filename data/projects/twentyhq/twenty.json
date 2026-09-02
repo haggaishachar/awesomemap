@@ -84,9 +84,228 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 56029,
-      "forks": 8875,
-      "openIssues": 158
+      "stars": 56051,
+      "forks": 8887,
+      "openIssues": 160
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-10-07",
+      "type": "hn",
+      "title": "Twenty: A Modern open-source CRM",
+      "url": "https://news.ycombinator.com/item?id=37805520",
+      "points": 164
+    },
+    {
+      "date": "2026-06-24",
+      "type": "release",
+      "title": "twenty/v2.15.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.15.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-25",
+      "type": "release",
+      "title": "twenty/v2.16.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.16.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "twenty/v2.17.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.17.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-02",
+      "type": "release",
+      "title": "twenty/v2.18.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.18.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "twenty/v2.19.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.19.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "title": "twenty/v2.20.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.20.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "twenty/v2.21.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.21.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "twenty/v2.22.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.22.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-22",
+      "type": "release",
+      "title": "twenty/v2.23.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.23.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "twenty/v2.24.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.24.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-25",
+      "type": "release",
+      "title": "sdk/2.23.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/sdk/v2.23.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "twenty/v2.25.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.25.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "sdk/v2.25.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/sdk/v2.25.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "twenty/v2.26.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.26.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "sdk/v2.26.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/sdk/v2.26.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "twenty/v2.27.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.27.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "sdk/v2.27.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/sdk/v2.27.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "twenty/v2.30.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.30.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "sdk/v2.30.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/sdk/v2.30.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "sdk/v2.29.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/sdk/v2.29.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "twenty/v2.29.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.29.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "twenty/v2.28.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.28.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "twenty/v2.34.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.34.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "twenty/v2.35.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.35.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "sdk/v2.35.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/sdk/v2.35.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "sdk/v2.33.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/sdk/v2.33.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "twenty/v2.32.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.32.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "sdk/v2.31.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/sdk/v2.31.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "twenty/v2.37.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.37.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "sdk/v2.37.0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/sdk/v2.37.0",
+      "points": null
     }
   ]
 }

@@ -59,9 +59,25 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 90058,
-      "forks": 22149,
-      "openIssues": 13
+      "stars": 90073,
+      "forks": 22155,
+      "openIssues": 15
+    }
+  ],
+  "events": [
+    {
+      "date": "2021-07-02",
+      "type": "hn",
+      "title": "Machine Learning for Beginners – A Curriculum",
+      "url": "https://news.ycombinator.com/item?id=27716313",
+      "points": 105
+    },
+    {
+      "date": "2023-11-15",
+      "type": "hn",
+      "title": "ML for Beginners GitHub",
+      "url": "https://news.ycombinator.com/item?id=38271959",
+      "points": 188
     }
   ]
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/AlexxIT/YandexStation",
   "name": "YandexStation",
   "desc": "Управление Яндекс.Станцией и другими устройствами умного дома с Алисой из Home Assistant",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "YandexStation",
+  "githubDescription": "Управление Яндекс.Станцией и другими устройствами умного дома с Алисой из Home Assistant",
   "tags": [
     "hacs",
     "home-assistant",
@@ -13,6 +13,218 @@
     "tts",
     "yandex-station"
   ],
-  "history": [],
-  "weight": 1917
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1917,
+      "forks": 177,
+      "openIssues": 95
+    }
+  ],
+  "weight": 1917,
+  "events": [
+    {
+      "date": "2023-06-13",
+      "type": "release",
+      "title": "v3.12.3 - 2023-06-13",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.12.3",
+      "points": null
+    },
+    {
+      "date": "2023-09-23",
+      "type": "release",
+      "title": "v3.12.4 - 2023-09-23",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.12.4",
+      "points": null
+    },
+    {
+      "date": "2023-11-06",
+      "type": "release",
+      "title": "v3.12.5 - 2023-11-06",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.12.5",
+      "points": null
+    },
+    {
+      "date": "2024-01-14",
+      "type": "release",
+      "title": "v3.13.0 - 2024-01-14",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.13.0",
+      "points": null
+    },
+    {
+      "date": "2024-01-16",
+      "type": "release",
+      "title": "v3.13.1 - 2024-01-16",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.13.1",
+      "points": null
+    },
+    {
+      "date": "2024-01-25",
+      "type": "release",
+      "title": "v3.13.2 - 2024-01-25",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.13.2",
+      "points": null
+    },
+    {
+      "date": "2024-03-29",
+      "type": "release",
+      "title": "v3.13.3 - 2024-03-29",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.13.3",
+      "points": null
+    },
+    {
+      "date": "2024-04-05",
+      "type": "release",
+      "title": "v3.14.0 - 2024-04-05",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.14.0",
+      "points": null
+    },
+    {
+      "date": "2024-04-07",
+      "type": "release",
+      "title": "v3.14.1 - 2024-04-07",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.14.1",
+      "points": null
+    },
+    {
+      "date": "2024-04-14",
+      "type": "release",
+      "title": "v3.15.0 - 2024-04-14",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.15.0",
+      "points": null
+    },
+    {
+      "date": "2024-04-16",
+      "type": "release",
+      "title": "v3.15.1 - 2024-04-16",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.15.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-15",
+      "type": "release",
+      "title": "v3.16.0 - 2024-10-15",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.16.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-21",
+      "type": "release",
+      "title": "v3.17.0 - 2024-11-21",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.17.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-24",
+      "type": "release",
+      "title": "v3.17.1 - 2024-11-24",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.17.1",
+      "points": null
+    },
+    {
+      "date": "2024-12-24",
+      "type": "release",
+      "title": "v3.18.0 - 2024-12-24",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.18.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-25",
+      "type": "release",
+      "title": "v3.18.1 - 2025-01-25",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.18.1",
+      "points": null
+    },
+    {
+      "date": "2025-01-29",
+      "type": "release",
+      "title": "v3.18.2 - 2025-01-29",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.18.2",
+      "points": null
+    },
+    {
+      "date": "2025-02-21",
+      "type": "release",
+      "title": "v3.18.3 - 2025-02-21",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.18.3",
+      "points": null
+    },
+    {
+      "date": "2025-06-18",
+      "type": "release",
+      "title": "v3.19.0 - 2025-06-18",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.19.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-20",
+      "type": "release",
+      "title": "v3.19.1 - 2025-06-20",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.19.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-14",
+      "type": "release",
+      "title": "v3.20.0 - 2025-09-14",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.20.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-19",
+      "type": "release",
+      "title": "v3.20.1 - 2025-09-19",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.20.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-11",
+      "type": "release",
+      "title": "v3.20.2 - 2026-02-11",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.20.2",
+      "points": null
+    },
+    {
+      "date": "2026-02-14",
+      "type": "release",
+      "title": "v3.20.3 - 2026-02-14",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.20.3",
+      "points": null
+    },
+    {
+      "date": "2026-05-15",
+      "type": "release",
+      "title": "v3.21.0 - 2026-05-15",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.21.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-21",
+      "type": "release",
+      "title": "v3.21.1 - 2026-05-21",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.21.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-11",
+      "type": "release",
+      "title": "v3.21.2 - 2026-06-11",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.21.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-02",
+      "type": "release",
+      "title": "v3.21.3 - 2016-07-02",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.21.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-11",
+      "type": "release",
+      "title": "v3.21.4 - 2026-07-11",
+      "url": "https://github.com/AlexxIT/YandexStation/releases/tag/v3.21.4",
+      "points": null
+    }
+  ]
 }

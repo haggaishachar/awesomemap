@@ -98,9 +98,32 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 10399,
-      "forks": 1637,
+      "stars": 10404,
+      "forks": 1638,
       "openIssues": 23
+    }
+  ],
+  "events": [
+    {
+      "date": "2022-01-19",
+      "type": "hn",
+      "title": "In place of a legal notice, here is a blessing",
+      "url": "https://news.ycombinator.com/item?id=29988800",
+      "points": 247
+    },
+    {
+      "date": "2024-05-23",
+      "type": "hn",
+      "title": "Change the default temp file prefix to be \"SQLite\" spelled backwards",
+      "url": "https://news.ycombinator.com/item?id=40453384",
+      "points": 58
+    },
+    {
+      "date": "2024-12-08",
+      "type": "hn",
+      "title": "SQLite changed temp file prefix after McAfee users called devs to complain (2006)",
+      "url": "https://news.ycombinator.com/item?id=42358470",
+      "points": 221
     }
   ]
 }

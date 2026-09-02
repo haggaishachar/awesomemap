@@ -34,5 +34,210 @@
       "openIssues": 103
     }
   ],
-  "weight": 3580
+  "weight": 3580,
+  "events": [
+    {
+      "date": "2019-10-30",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.7.0",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.7.0",
+      "points": null
+    },
+    {
+      "date": "2019-11-25",
+      "type": "release",
+      "title": " IRremoteESP8266 v2.7.1",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.7.1",
+      "points": null
+    },
+    {
+      "date": "2020-01-06",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.7.2",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.7.2",
+      "points": null
+    },
+    {
+      "date": "2020-01-30",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.7.3",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.7.3",
+      "points": null
+    },
+    {
+      "date": "2020-02-26",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.7.4",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.7.4",
+      "points": null
+    },
+    {
+      "date": "2020-04-09",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.7.5",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.7.5",
+      "points": null
+    },
+    {
+      "date": "2020-04-25",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.7.6",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.7.6",
+      "points": null
+    },
+    {
+      "date": "2020-05-20",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.7.7",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.7.7",
+      "points": null
+    },
+    {
+      "date": "2020-06-23",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.7.8",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.7.8",
+      "points": null
+    },
+    {
+      "date": "2020-07-30",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.7.9",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.7.9",
+      "points": null
+    },
+    {
+      "date": "2020-08-31",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.7.10",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.7.10",
+      "points": null
+    },
+    {
+      "date": "2020-10-04",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.7.11",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.7.11",
+      "points": null
+    },
+    {
+      "date": "2020-11-13",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.7.12",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.7.12",
+      "points": null
+    },
+    {
+      "date": "2020-11-25",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.7.13",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.7.13",
+      "points": null
+    },
+    {
+      "date": "2021-01-04",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.7.14",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.7.14",
+      "points": null
+    },
+    {
+      "date": "2021-02-13",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.7.15",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.7.15",
+      "points": null
+    },
+    {
+      "date": "2021-03-24",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.7.16",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.7.16",
+      "points": null
+    },
+    {
+      "date": "2021-04-19",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.7.17",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.7.17",
+      "points": null
+    },
+    {
+      "date": "2021-04-20",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.7.18",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.7.18",
+      "points": null
+    },
+    {
+      "date": "2021-07-06",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.7.19",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.7.19",
+      "points": null
+    },
+    {
+      "date": "2021-08-28",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.7.20",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.7.20",
+      "points": null
+    },
+    {
+      "date": "2021-11-19",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.8.0",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.8.0",
+      "points": null
+    },
+    {
+      "date": "2022-01-01",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.8.1",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.8.1",
+      "points": null
+    },
+    {
+      "date": "2022-03-15",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.8.2",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.8.2",
+      "points": null
+    },
+    {
+      "date": "2022-09-16",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.8.3",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.8.3",
+      "points": null
+    },
+    {
+      "date": "2022-09-18",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.8.4",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.8.4",
+      "points": null
+    },
+    {
+      "date": "2023-05-08",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.8.5",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.8.5",
+      "points": null
+    },
+    {
+      "date": "2023-07-28",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.8.6",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.8.6",
+      "points": null
+    },
+    {
+      "date": "2026-01-02",
+      "type": "release",
+      "title": "IRremoteESP8266 v2.9.0",
+      "url": "https://github.com/crankyoldgit/IRremoteESP8266/releases/tag/v2.9.0",
+      "points": null
+    }
+  ]
 }

@@ -125,9 +125,207 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 51656,
-      "forks": 10299,
+      "stars": 51659,
+      "forks": 10298,
       "openIssues": 256
+    }
+  ],
+  "events": [
+    {
+      "date": "2018-04-19",
+      "type": "release",
+      "title": "v3.8.0",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v3.8.0",
+      "points": null
+    },
+    {
+      "date": "2018-05-01",
+      "type": "release",
+      "title": "v3.8.1",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v3.8.1",
+      "points": null
+    },
+    {
+      "date": "2018-05-19",
+      "type": "release",
+      "title": "v3.8.2",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v3.8.2",
+      "points": null
+    },
+    {
+      "date": "2018-06-05",
+      "type": "release",
+      "title": "v3.8.3",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v3.8.3",
+      "points": null
+    },
+    {
+      "date": "2018-09-07",
+      "type": "release",
+      "title": "v3.7.4",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v3.7.4",
+      "points": null
+    },
+    {
+      "date": "2018-09-18",
+      "type": "release",
+      "title": "v3.8.4",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v3.8.4",
+      "points": null
+    },
+    {
+      "date": "2018-11-04",
+      "type": "release",
+      "title": "v3.8.5",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v3.8.5",
+      "points": null
+    },
+    {
+      "date": "2019-07-02",
+      "type": "release",
+      "title": "v3.8.6",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v3.8.6",
+      "points": null
+    },
+    {
+      "date": "2019-08-20",
+      "type": "release",
+      "title": "v4.0.0",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v4.0.0",
+      "points": null
+    },
+    {
+      "date": "2020-05-08",
+      "type": "release",
+      "title": "v4.0.1",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v4.0.1",
+      "points": null
+    },
+    {
+      "date": "2020-05-08",
+      "type": "release",
+      "title": "v3.8.7",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v3.8.7",
+      "points": null
+    },
+    {
+      "date": "2020-05-27",
+      "type": "release",
+      "title": "v4.1.0",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v4.1.0",
+      "points": null
+    },
+    {
+      "date": "2020-06-24",
+      "type": "release",
+      "title": "v4.1.1",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v4.1.1",
+      "points": null
+    },
+    {
+      "date": "2020-08-05",
+      "type": "release",
+      "title": "v3.9.0",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v3.9.0",
+      "points": null
+    },
+    {
+      "date": "2020-12-14",
+      "type": "release",
+      "title": "v4.2.0",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v4.2.0",
+      "points": null
+    },
+    {
+      "date": "2021-04-08",
+      "type": "release",
+      "title": "v3.9.1",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v3.9.1",
+      "points": null
+    },
+    {
+      "date": "2021-09-27",
+      "type": "release",
+      "title": "v4.2.1",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v4.2.1",
+      "points": null
+    },
+    {
+      "date": "2022-03-03",
+      "type": "release",
+      "title": "v4.2.2",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v4.2.2",
+      "points": null
+    },
+    {
+      "date": "2022-03-28",
+      "type": "release",
+      "title": "v3.9.2",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v3.9.2",
+      "points": null
+    },
+    {
+      "date": "2022-10-20",
+      "type": "release",
+      "title": "v4.3.0",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v4.3.0",
+      "points": null
+    },
+    {
+      "date": "2022-10-26",
+      "type": "release",
+      "title": "v4.3.1",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v4.3.1",
+      "points": null
+    },
+    {
+      "date": "2023-01-20",
+      "type": "release",
+      "title": "v4.3.2",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v4.3.2",
+      "points": null
+    },
+    {
+      "date": "2023-01-30",
+      "type": "release",
+      "title": "v3.9.3",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v3.9.3",
+      "points": null
+    },
+    {
+      "date": "2023-12-27",
+      "type": "release",
+      "title": "v4.3.3",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v4.3.3",
+      "points": null
+    },
+    {
+      "date": "2023-12-28",
+      "type": "release",
+      "title": "v3.9.4",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v3.9.4",
+      "points": null
+    },
+    {
+      "date": "2024-09-16",
+      "type": "release",
+      "title": "v4.3.4",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v4.3.4",
+      "points": null
+    },
+    {
+      "date": "2025-01-27",
+      "type": "release",
+      "title": "v4.4.0",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v4.4.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-29",
+      "type": "release",
+      "title": "v4.4.1",
+      "url": "https://github.com/jekyll/jekyll/releases/tag/v4.4.1",
+      "points": null
     }
   ]
 }

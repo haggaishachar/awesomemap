@@ -102,9 +102,151 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 12449,
+      "stars": 12450,
       "forks": 1451,
-      "openIssues": 78
+      "openIssues": 79
+    }
+  ],
+  "events": [
+    {
+      "date": "2022-09-13",
+      "type": "release",
+      "title": "Initial Release",
+      "url": "https://github.com/Farama-Foundation/Gymnasium/releases/tag/v0.26.0",
+      "points": null
+    },
+    {
+      "date": "2022-09-16",
+      "type": "release",
+      "title": "v0.26.1",
+      "url": "https://github.com/Farama-Foundation/Gymnasium/releases/tag/v0.26.1",
+      "points": null
+    },
+    {
+      "date": "2022-10-05",
+      "type": "release",
+      "title": "v0.26.2 ",
+      "url": "https://github.com/Farama-Foundation/Gymnasium/releases/tag/v0.26.2",
+      "points": null
+    },
+    {
+      "date": "2022-10-24",
+      "type": "release",
+      "title": "v0.26.3",
+      "url": "https://github.com/Farama-Foundation/Gymnasium/releases/tag/v0.26.3",
+      "points": null
+    },
+    {
+      "date": "2022-12-12",
+      "type": "release",
+      "title": "v0.27.0",
+      "url": "https://github.com/Farama-Foundation/Gymnasium/releases/tag/v0.27.0",
+      "points": null
+    },
+    {
+      "date": "2023-01-20",
+      "type": "release",
+      "title": "v0.27.1",
+      "url": "https://github.com/Farama-Foundation/Gymnasium/releases/tag/v0.27.1",
+      "points": null
+    },
+    {
+      "date": "2023-03-24",
+      "type": "release",
+      "title": "v0.28.0",
+      "url": "https://github.com/Farama-Foundation/Gymnasium/releases/tag/v0.28.0",
+      "points": null
+    },
+    {
+      "date": "2023-03-25",
+      "type": "release",
+      "title": "v0.28.1",
+      "url": "https://github.com/Farama-Foundation/Gymnasium/releases/tag/v0.28.1",
+      "points": null
+    },
+    {
+      "date": "2023-07-14",
+      "type": "release",
+      "title": "v0.29.0",
+      "url": "https://github.com/Farama-Foundation/Gymnasium/releases/tag/v0.29.0",
+      "points": null
+    },
+    {
+      "date": "2023-08-21",
+      "type": "release",
+      "title": "v0.29.1 ",
+      "url": "https://github.com/Farama-Foundation/Gymnasium/releases/tag/v0.29.1",
+      "points": null
+    },
+    {
+      "date": "2024-02-13",
+      "type": "release",
+      "title": "v1.0.0 alpha1 ",
+      "url": "https://github.com/Farama-Foundation/Gymnasium/releases/tag/v1.0.0a1",
+      "points": null
+    },
+    {
+      "date": "2024-05-21",
+      "type": "release",
+      "title": "v1.0.0 alpha 2",
+      "url": "https://github.com/Farama-Foundation/Gymnasium/releases/tag/v1.0.0a2",
+      "points": null
+    },
+    {
+      "date": "2024-10-08",
+      "type": "release",
+      "title": "v1.0.0",
+      "url": "https://github.com/Farama-Foundation/Gymnasium/releases/tag/v1.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-26",
+      "type": "release",
+      "title": "v1.1.0",
+      "url": "https://github.com/Farama-Foundation/Gymnasium/releases/tag/v1.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-06",
+      "type": "release",
+      "title": "Gymnasium v1.1.1",
+      "url": "https://github.com/Farama-Foundation/Gymnasium/releases/tag/v1.1.1",
+      "points": null
+    },
+    {
+      "date": "2025-06-27",
+      "type": "release",
+      "title": "v1.2.0",
+      "url": "https://github.com/Farama-Foundation/Gymnasium/releases/tag/v1.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-23",
+      "type": "release",
+      "title": "v1.2.1",
+      "url": "https://github.com/Farama-Foundation/Gymnasium/releases/tag/v1.2.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-04",
+      "type": "release",
+      "title": "V1.2.2",
+      "url": "https://github.com/Farama-Foundation/Gymnasium/releases/tag/v1.2.2",
+      "points": null
+    },
+    {
+      "date": "2025-12-18",
+      "type": "release",
+      "title": "v1.2.3",
+      "url": "https://github.com/Farama-Foundation/Gymnasium/releases/tag/v1.2.3",
+      "points": null
+    },
+    {
+      "date": "2026-04-22",
+      "type": "release",
+      "title": "v1.3.0",
+      "url": "https://github.com/Farama-Foundation/Gymnasium/releases/tag/v1.3.0",
+      "points": null
     }
   ]
 }

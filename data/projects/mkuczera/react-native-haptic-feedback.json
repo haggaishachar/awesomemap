@@ -4,8 +4,8 @@
   "link": "https://github.com/mkuczera/react-native-haptic-feedback",
   "name": "react-native-haptic-feedback",
   "desc": "Haptics that feel right: Core Haptics, AHAP files, pattern notation, and cross-platform utilities for iOS and Android.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-haptic-feedback",
+  "githubDescription": "Haptics that feel right: Core Haptics, AHAP files, pattern notation, and cross-platform utilities for iOS and Android.",
   "tags": [
     "ahap",
     "android",
@@ -15,6 +15,225 @@
     "ios",
     "react-native"
   ],
-  "history": [],
-  "weight": 978
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 978,
+      "forks": 116,
+      "openIssues": 9
+    }
+  ],
+  "weight": 978,
+  "events": [
+    {
+      "date": "2018-01-08",
+      "type": "release",
+      "title": "Stable Version",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/1.0.0",
+      "points": null
+    },
+    {
+      "date": "2018-01-16",
+      "type": "release",
+      "title": "Correct Podspec files",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/1.0.1",
+      "points": null
+    },
+    {
+      "date": "2018-03-12",
+      "type": "release",
+      "title": "1.1.0",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/1.1.0",
+      "points": null
+    },
+    {
+      "date": "2018-05-26",
+      "type": "release",
+      "title": "iOS crash fix",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/1.1.3",
+      "points": null
+    },
+    {
+      "date": "2018-05-26",
+      "type": "release",
+      "title": "iOS Fallback",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/1.1.2",
+      "points": null
+    },
+    {
+      "date": "2018-10-25",
+      "type": "release",
+      "title": "Breaking Android Package naming",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v1.4.0",
+      "points": null
+    },
+    {
+      "date": "2018-11-05",
+      "type": "release",
+      "title": "Podspec cleanup",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v1.4.1",
+      "points": null
+    },
+    {
+      "date": "2018-11-19",
+      "type": "release",
+      "title": "Podspec cleanup 2",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v1.4.2",
+      "points": null
+    },
+    {
+      "date": "2019-02-01",
+      "type": "release",
+      "title": "Small Optimizations",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v1.5.0",
+      "points": null
+    },
+    {
+      "date": "2019-03-01",
+      "type": "release",
+      "title": "iPhone 6s support",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v1.6.0",
+      "points": null
+    },
+    {
+      "date": "2019-04-08",
+      "type": "release",
+      "title": "API Improvements",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v1.7.0",
+      "points": null
+    },
+    {
+      "date": "2019-04-09",
+      "type": "release",
+      "title": "Bugfix",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v1.7.1",
+      "points": null
+    },
+    {
+      "date": "2019-05-08",
+      "type": "release",
+      "title": "Typing enhancement, Android empty key bug",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v1.8.0",
+      "points": null
+    },
+    {
+      "date": "2019-07-05",
+      "type": "release",
+      "title": "Podspec fix",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v1.8.1",
+      "points": null
+    },
+    {
+      "date": "2019-07-12",
+      "type": "release",
+      "title": "Podspec fixes",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v1.8.2",
+      "points": null
+    },
+    {
+      "date": "2020-01-22",
+      "type": "release",
+      "title": "Android Haptic Constant Usage",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v1.9.0",
+      "points": null
+    },
+    {
+      "date": "2020-05-08",
+      "type": "release",
+      "title": "Performance Optimizations",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v1.10.0",
+      "points": null
+    },
+    {
+      "date": "2021-10-20",
+      "type": "release",
+      "title": "v1.13.0",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v1.13.0",
+      "points": null
+    },
+    {
+      "date": "2022-03-03",
+      "type": "release",
+      "title": "v1.13.1",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v1.13.1",
+      "points": null
+    },
+    {
+      "date": "2022-06-21",
+      "type": "release",
+      "title": "v1.14.0",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v1.14.0",
+      "points": null
+    },
+    {
+      "date": "2023-03-19",
+      "type": "release",
+      "title": "New Arch support",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v2.0.0",
+      "points": null
+    },
+    {
+      "date": "2023-09-08",
+      "type": "release",
+      "title": "Fixing failure releases",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v2.2.0",
+      "points": null
+    },
+    {
+      "date": "2024-08-01",
+      "type": "release",
+      "title": "React-Native Compatibility > 0.71",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v2.3.0",
+      "points": null
+    },
+    {
+      "date": "2024-08-05",
+      "type": "release",
+      "title": "Fix pod install & implement testing environment",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v2.3.1",
+      "points": null
+    },
+    {
+      "date": "2024-09-17",
+      "type": "release",
+      "title": "v2.3.2",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v2.3.2",
+      "points": null
+    },
+    {
+      "date": "2024-09-18",
+      "type": "release",
+      "title": "v2.3.3",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v2.3.3",
+      "points": null
+    },
+    {
+      "date": "2026-03-14",
+      "type": "release",
+      "title": "v3.0.0-next.0",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v3.0.0-next.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-14",
+      "type": "release",
+      "title": "v2.3.4",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v2.3.4",
+      "points": null
+    },
+    {
+      "date": "2026-03-15",
+      "type": "release",
+      "title": "v3.0.0-next.1",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v3.0.0-next.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-29",
+      "type": "release",
+      "title": "v3.0.0",
+      "url": "https://github.com/mkuczera/react-native-haptic-feedback/releases/tag/v3.0.0",
+      "points": null
+    }
+  ]
 }

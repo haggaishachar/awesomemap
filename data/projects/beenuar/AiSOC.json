@@ -67,5 +67,70 @@
       "forks": 251,
       "openIssues": 24
     }
+  ],
+  "events": [
+    {
+      "date": "2026-05-09",
+      "type": "release",
+      "title": "AiSOC v5.1.0",
+      "url": "https://github.com/beenuar/AiSOC/releases/tag/v5.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-09",
+      "type": "release",
+      "title": "AiSOC v3.0.0",
+      "url": "https://github.com/beenuar/AiSOC/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-11",
+      "type": "release",
+      "title": "AiSOC v7.2.0",
+      "url": "https://github.com/beenuar/AiSOC/releases/tag/v7.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-14",
+      "type": "release",
+      "title": "v7.3.1 — Smoke-test hotfix: aisoc submit → console",
+      "url": "https://github.com/beenuar/AiSOC/releases/tag/v7.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-14",
+      "type": "release",
+      "title": "v7.3.0 — Founder-flow series (PR1–PR7)",
+      "url": "https://github.com/beenuar/AiSOC/releases/tag/v7.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-30",
+      "type": "release",
+      "title": "AiSOC v7.4.0",
+      "url": "https://github.com/beenuar/AiSOC/releases/tag/v7.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "AiSOC v7.5.0",
+      "url": "https://github.com/beenuar/AiSOC/releases/tag/v7.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-13",
+      "type": "release",
+      "title": "AiSOC v7.6.0",
+      "url": "https://github.com/beenuar/AiSOC/releases/tag/v7.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "AiSOC v7.7.0",
+      "url": "https://github.com/beenuar/AiSOC/releases/tag/v7.7.0",
+      "points": null
+    }
   ]
 }

@@ -126,7 +126,226 @@
       "date": "2026-09-02",
       "stars": 9057,
       "forks": 1958,
-      "openIssues": 559
+      "openIssues": 560
+    }
+  ],
+  "events": [
+    {
+      "date": "2019-07-13",
+      "type": "hn",
+      "title": "Tekton Pipelines – K8s-style resources for declaring CI pipelines",
+      "url": "https://news.ycombinator.com/item?id=20428485",
+      "points": 83
+    },
+    {
+      "date": "2026-04-21",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.11.1 \"Javanese Jocasta\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.11.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-21",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.9.3 \"Devon Rex Dreadnought\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.9.3",
+      "points": null
+    },
+    {
+      "date": "2026-04-21",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.6.2 \"Sphynx Sentinels\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.6.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-21",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.3.4 \"Maine Coon Melfina\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.3.4",
+      "points": null
+    },
+    {
+      "date": "2026-04-21",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.0.2 \"Oriental Omnidroid\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-04",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.12.0 \"Exotic Shorthair Elektrobots LTS\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.12.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-29",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.13.0 \"Pixie-bob Project 2501\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.13.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-11",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.0.3 \"Oriental Omnidroid\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.0.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.9.4 \"Devon Rex Dreadnought\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.9.4",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.6.3 \"Sphynx Sentinels\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.6.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.3.5 \"Maine Coon Melfina\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.3.5",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.13.1 \"Pixie-bob Project 2501\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.13.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.12.1 \"Exotic Shorthair Elektrobots LTS\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.12.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.10.3 \"LaPerm Little Helper\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.10.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.2.1 \"Dragon Li Dreadnought\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.9.5 \"Devon Rex Dreadnought\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.9.5",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.6.4 \"Sphynx Sentinels\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.6.4",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.3.6 \"Maine Coon Melfina\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.3.6",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.12.2 \"Exotic Shorthair Elektrobots LTS\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.12.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.0.4 \"Oriental Omnidroid\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.0.4",
+      "points": null
+    },
+    {
+      "date": "2026-06-30",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.14.0 \"Chartreux Cait Sith\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.14.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.6.5 \"Sphynx Sentinels\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.6.5",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.9.6 \"Devon Rex Dreadnought\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.9.6",
+      "points": null
+    },
+    {
+      "date": "2026-07-22",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.14.1 \"Chartreux Cait Sith\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.14.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.6.6 \"Sphynx Sentinels\" ",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.6.6",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.15.0 \"Toyger Orisa\" LTS",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.15.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.9.7 \"Devon Rex Dreadnought\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.9.7",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.15.1 \"Toyger Orisa\" LTS",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.15.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.6.7 \"Sphynx Sentinels\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.6.7",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "Tekton Pipeline release v1.16.0 \"Manx WALL-E\"",
+      "url": "https://github.com/tektoncd/pipeline/releases/tag/v1.16.0",
+      "points": null
     }
   ]
 }

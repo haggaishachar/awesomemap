@@ -138,9 +138,67 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 178740,
-      "forks": 31044,
-      "openIssues": 13157
+      "stars": 178748,
+      "forks": 31046,
+      "openIssues": 13166
+    }
+  ],
+  "events": [
+    {
+      "date": "2019-04-25",
+      "type": "hn",
+      "title": "Flutter desktop shells",
+      "url": "https://news.ycombinator.com/item?id=19747750",
+      "points": 370
+    },
+    {
+      "date": "2023-07-12",
+      "type": "release",
+      "title": "3.13 Beta (July 12, 2023)",
+      "url": "https://github.com/flutter/flutter/releases/tag/3.13.0-0.1.pre",
+      "points": null
+    },
+    {
+      "date": "2023-08-21",
+      "type": "release",
+      "title": "3.14 Beta (August 21, 2023)",
+      "url": "https://github.com/flutter/flutter/releases/tag/3.14.0-0.1.pre",
+      "points": null
+    },
+    {
+      "date": "2023-09-15",
+      "type": "release",
+      "title": "Flutter 3.15 beta (September 15, 2023)",
+      "url": "https://github.com/flutter/flutter/releases/tag/3.15.0-15.1.pre",
+      "points": null
+    },
+    {
+      "date": "2023-10-20",
+      "type": "release",
+      "title": "Flutter 3.16 beta (October 11, 2023)",
+      "url": "https://github.com/flutter/flutter/releases/tag/3.16.0-0.1.pre",
+      "points": null
+    },
+    {
+      "date": "2023-12-11",
+      "type": "release",
+      "title": "Flutter 3.17 beta (November 15, 2023)",
+      "url": "https://github.com/flutter/flutter/releases/tag/3.17.0-0.1.pre",
+      "points": null
+    },
+    {
+      "date": "2023-12-12",
+      "type": "release",
+      "title": "Flutter 3.18 beta (December 5, 2023)",
+      "url": "https://github.com/flutter/flutter/releases/tag/3.18.0-0.1.pre",
+      "points": null
+    },
+    {
+      "date": "2024-01-11",
+      "type": "release",
+      "title": "Flutter 3.19 beta (January 10, 2024)",
+      "url": "https://github.com/flutter/flutter/releases/tag/3.19.0-0.1.pre",
+      "points": null
     }
   ]
 }

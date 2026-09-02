@@ -22,11 +22,202 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 12006,
-      "forks": 1247,
-      "openIssues": 196
+      "stars": 12008,
+      "forks": 1246,
+      "openIssues": 193
     }
   ],
   "weight": 12001,
-  "image": "https://avatars.githubusercontent.com/u/45158470?v=4"
+  "image": "https://avatars.githubusercontent.com/u/45158470?v=4",
+  "events": [
+    {
+      "date": "2026-02-03",
+      "type": "release",
+      "title": "v2.1.4",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v2.1.4",
+      "points": null
+    },
+    {
+      "date": "2026-02-03",
+      "type": "release",
+      "title": "v2.0.7",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v2.0.7",
+      "points": null
+    },
+    {
+      "date": "2026-02-17",
+      "type": "release",
+      "title": "v2.2.0",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v2.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-20",
+      "type": "release",
+      "title": "v2.2.1",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v2.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-20",
+      "type": "release",
+      "title": "v2.1.5",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v2.1.5",
+      "points": null
+    },
+    {
+      "date": "2026-04-20",
+      "type": "release",
+      "title": "v2.0.8",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v2.0.8",
+      "points": null
+    },
+    {
+      "date": "2026-04-20",
+      "type": "release",
+      "title": "v1.20.6",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v1.20.6",
+      "points": null
+    },
+    {
+      "date": "2026-04-24",
+      "type": "release",
+      "title": "v1.20.7",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v1.20.7",
+      "points": null
+    },
+    {
+      "date": "2026-05-21",
+      "type": "release",
+      "title": "v2.3.0",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v2.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-22",
+      "type": "release",
+      "title": "v2.3.1",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v2.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-22",
+      "type": "release",
+      "title": "v2.2.2",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v2.2.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-22",
+      "type": "release",
+      "title": "v2.1.6",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v2.1.6",
+      "points": null
+    },
+    {
+      "date": "2026-05-22",
+      "type": "release",
+      "title": "v1.20.8",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v1.20.8",
+      "points": null
+    },
+    {
+      "date": "2026-06-05",
+      "type": "release",
+      "title": "v1.20.9",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v1.20.9",
+      "points": null
+    },
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "title": "v2.3.2",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v2.3.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-22",
+      "type": "release",
+      "title": "v2.3.3",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v2.3.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-22",
+      "type": "release",
+      "title": "v2.2.3",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v2.2.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-22",
+      "type": "release",
+      "title": "v2.1.7",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v2.1.7",
+      "points": null
+    },
+    {
+      "date": "2026-06-22",
+      "type": "release",
+      "title": "v1.20.10",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v1.20.10",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "v2.3.4",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v2.3.4",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "v2.2.4",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v2.2.4",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "v2.1.8",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v2.1.8",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "v1.20.11",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v1.20.11",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "v2.4.0",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v2.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "v2.3.5",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v2.3.5",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "v2.2.5",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v2.2.5",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "v1.20.12",
+      "url": "https://github.com/crossplane/crossplane/releases/tag/v1.20.12",
+      "points": null
+    }
+  ]
 }

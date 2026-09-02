@@ -4,13 +4,134 @@
   "link": "https://github.com/dummylabs/thewatchman",
   "name": "thewatchman",
   "desc": "Home Assistant custom integration to keep track of missing entities and actions in your config files",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "thewatchman",
+  "githubDescription": "Home Assistant custom integration to keep track of missing entities and actions in your config files",
   "tags": [
     "automation",
     "home-assistant",
     "homeassistant"
   ],
-  "history": [],
-  "weight": 681
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 682,
+      "forks": 31,
+      "openIssues": 46
+    }
+  ],
+  "weight": 681,
+  "events": [
+    {
+      "date": "2022-02-11",
+      "type": "release",
+      "title": "v0.3.1 2022-02-12",
+      "url": "https://github.com/dummylabs/thewatchman/releases/tag/v0.3.1",
+      "points": null
+    },
+    {
+      "date": "2022-02-12",
+      "type": "release",
+      "title": "v0.3.2 2022-02-12",
+      "url": "https://github.com/dummylabs/thewatchman/releases/tag/v.0.3.2",
+      "points": null
+    },
+    {
+      "date": "2022-02-19",
+      "type": "release",
+      "title": "v0.4.0 2022-02-19",
+      "url": "https://github.com/dummylabs/thewatchman/releases/tag/v0.4.0",
+      "points": null
+    },
+    {
+      "date": "2022-02-23",
+      "type": "release",
+      "title": "v0.5.0 2022-02-23",
+      "url": "https://github.com/dummylabs/thewatchman/releases/tag/v0.5.0",
+      "points": null
+    },
+    {
+      "date": "2022-03-17",
+      "type": "release",
+      "title": "v0.5.1 2022-03-17",
+      "url": "https://github.com/dummylabs/thewatchman/releases/tag/v0.5.1",
+      "points": null
+    },
+    {
+      "date": "2022-04-24",
+      "type": "release",
+      "title": "v0.5.2 2022-04-25",
+      "url": "https://github.com/dummylabs/thewatchman/releases/tag/v.0.5.2",
+      "points": null
+    },
+    {
+      "date": "2022-05-13",
+      "type": "release",
+      "title": "v0.5.3 2022-05-13",
+      "url": "https://github.com/dummylabs/thewatchman/releases/tag/v0.5.3",
+      "points": null
+    },
+    {
+      "date": "2022-06-12",
+      "type": "release",
+      "title": "v0.6 2022-06-12",
+      "url": "https://github.com/dummylabs/thewatchman/releases/tag/v0.6.0",
+      "points": null
+    },
+    {
+      "date": "2023-02-02",
+      "type": "release",
+      "title": "v0.6.1 2023-02-02",
+      "url": "https://github.com/dummylabs/thewatchman/releases/tag/v0.6.1",
+      "points": null
+    },
+    {
+      "date": "2024-06-21",
+      "type": "release",
+      "title": "v0.6.2 2024-06-21",
+      "url": "https://github.com/dummylabs/thewatchman/releases/tag/v0.6.2",
+      "points": null
+    },
+    {
+      "date": "2024-07-01",
+      "type": "release",
+      "title": "v0.6.3 2024-07-01",
+      "url": "https://github.com/dummylabs/thewatchman/releases/tag/v0.6.3",
+      "points": null
+    },
+    {
+      "date": "2024-11-24",
+      "type": "release",
+      "title": "v0.6.4 2024-11-23",
+      "url": "https://github.com/dummylabs/thewatchman/releases/tag/v0.6.4",
+      "points": null
+    },
+    {
+      "date": "2024-11-25",
+      "type": "release",
+      "title": "v0.6.5 2024-11-25",
+      "url": "https://github.com/dummylabs/thewatchman/releases/tag/v0.6.5",
+      "points": null
+    },
+    {
+      "date": "2025-12-02",
+      "type": "release",
+      "title": "v0.7.0-beta.1 2025-12-2",
+      "url": "https://github.com/dummylabs/thewatchman/releases/tag/v0.7.0-beta.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-06",
+      "type": "release",
+      "title": "v0.8.3",
+      "url": "https://github.com/dummylabs/thewatchman/releases/tag/v0.8.3",
+      "points": null
+    },
+    {
+      "date": "2026-02-14",
+      "type": "release",
+      "title": "v0.8.4",
+      "url": "https://github.com/dummylabs/thewatchman/releases/tag/v0.8.4",
+      "points": null
+    }
+  ]
 }

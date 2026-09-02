@@ -4,10 +4,18 @@
   "link": "https://github.com/LegendApp/legend-state",
   "name": "legend-state",
   "desc": "Legend-State is a super fast and powerful state library that enables fine-grained reactivity and easy automatic persistence",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "legend-state",
+  "githubDescription": "Legend-State is a super fast and powerful state library that enables fine-grained reactivity and easy automatic persistence",
   "tags": [],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 4194,
+      "forks": 145,
+      "openIssues": 216
+    }
+  ],
   "weight": 4194,
-  "image": "https://avatars.githubusercontent.com/u/60373862?v=4"
+  "image": "https://avatars.githubusercontent.com/u/60373862?v=4",
+  "events": []
 }

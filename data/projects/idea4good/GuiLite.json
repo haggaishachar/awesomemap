@@ -24,10 +24,54 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 7769,
+      "stars": 7768,
       "forks": 834,
       "openIssues": 18
     }
   ],
-  "weight": 7767
+  "weight": 7767,
+  "events": [
+    {
+      "date": "2018-09-13",
+      "type": "release",
+      "title": "v1.0",
+      "url": "https://github.com/idea4good/GuiLite/releases/tag/v1.0",
+      "points": null
+    },
+    {
+      "date": "2018-11-21",
+      "type": "release",
+      "title": "Work with toolkit",
+      "url": "https://github.com/idea4good/GuiLite/releases/tag/v1.1",
+      "points": null
+    },
+    {
+      "date": "2019-02-01",
+      "type": "hn",
+      "title": "Show HN: GuiLite – Tiny UI framework, runs on MCU without OS",
+      "url": "https://news.ycombinator.com/item?id=19051914",
+      "points": 355
+    },
+    {
+      "date": "2020-03-07",
+      "type": "hn",
+      "title": "GuiLite: Small, cute GUI effects you can reuse",
+      "url": "https://news.ycombinator.com/item?id=22512446",
+      "points": 243
+    },
+    {
+      "date": "2021-03-24",
+      "type": "release",
+      "title": "v2.0",
+      "url": "https://github.com/idea4good/GuiLite/releases/tag/v2.0",
+      "points": null
+    },
+    {
+      "date": "2021-03-29",
+      "type": "release",
+      "title": "v2.1",
+      "url": "https://github.com/idea4good/GuiLite/releases/tag/v2.1",
+      "points": null
+    }
+  ]
 }

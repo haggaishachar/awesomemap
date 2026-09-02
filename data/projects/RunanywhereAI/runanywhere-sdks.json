@@ -31,11 +31,202 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 10281,
-      "forks": 370,
-      "openIssues": 67
+      "stars": 10280,
+      "forks": 371,
+      "openIssues": 66
     }
   ],
   "weight": 10282,
-  "image": "https://raw.githubusercontent.com/RunanywhereAI/runanywhere-sdks/main/docs/logo.svg"
+  "image": "https://raw.githubusercontent.com/RunanywhereAI/runanywhere-sdks/main/docs/logo.svg",
+  "events": [
+    {
+      "date": "2026-02-13",
+      "type": "release",
+      "title": "RunAnywhere SDKs v0.18.0",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.18.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-19",
+      "type": "release",
+      "title": "RunAnywhere SDKs v0.19.7",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.19.7",
+      "points": null
+    },
+    {
+      "date": "2026-04-20",
+      "type": "release",
+      "title": "v0.19.13",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.19.13",
+      "points": null
+    },
+    {
+      "date": "2026-04-20",
+      "type": "release",
+      "title": "v0.19.12",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.19.12",
+      "points": null
+    },
+    {
+      "date": "2026-07-13",
+      "type": "release",
+      "title": "v0.20.9",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.20.9",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "v0.20.10",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.20.10",
+      "points": null
+    },
+    {
+      "date": "2026-07-27",
+      "type": "release",
+      "title": "v0.20.11",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.20.11",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "v0.20.12",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.20.12",
+      "points": null
+    },
+    {
+      "date": "2026-08-08",
+      "type": "release",
+      "title": "v0.20.13",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.20.13",
+      "points": null
+    },
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "title": "v0.20.14",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.20.14",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "v0.20.17",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.20.17",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "v0.20.16",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.20.16",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "v0.20.15",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.20.15",
+      "points": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "v0.20.18",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.20.18",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "v0.20.19",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.20.19",
+      "points": null
+    },
+    {
+      "date": "2026-08-17",
+      "type": "release",
+      "title": "v0.20.24",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.20.24",
+      "points": null
+    },
+    {
+      "date": "2026-08-22",
+      "type": "release",
+      "title": "v0.20.25",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.20.25",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "v0.20.27",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.20.27",
+      "points": null
+    },
+    {
+      "date": "2026-08-25",
+      "type": "release",
+      "title": "v0.20.28",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.20.28",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v0.20.29",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.20.29",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "v0.20.30",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.20.30",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "v0.20.31",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.20.31",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "v0.20.33",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.20.33",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "v0.20.32",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.20.32",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "v0.20.36",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.20.36",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "v0.20.35",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.20.35",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "v0.20.34",
+      "url": "https://github.com/RunanywhereAI/runanywhere-sdks/releases/tag/v0.20.34",
+      "points": null
+    }
+  ]
 }

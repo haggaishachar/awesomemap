@@ -25,5 +25,210 @@
     }
   ],
   "weight": 5654,
-  "image": "https://avatars.githubusercontent.com/u/71155361?v=4"
+  "image": "https://avatars.githubusercontent.com/u/71155361?v=4",
+  "events": [
+    {
+      "date": "2019-04-26",
+      "type": "release",
+      "title": "v10.0.0",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v10.0.0",
+      "points": null
+    },
+    {
+      "date": "2019-05-11",
+      "type": "release",
+      "title": "v11.0.0",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v11.0.0",
+      "points": null
+    },
+    {
+      "date": "2019-05-14",
+      "type": "release",
+      "title": "v11.0.1",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v11.0.1",
+      "points": null
+    },
+    {
+      "date": "2019-06-15",
+      "type": "release",
+      "title": "v11.0.2",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v11.0.2",
+      "points": null
+    },
+    {
+      "date": "2019-06-27",
+      "type": "release",
+      "title": "v11.1.0",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v11.1.0",
+      "points": null
+    },
+    {
+      "date": "2019-07-25",
+      "type": "release",
+      "title": "v11.2.0",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v11.2.0",
+      "points": null
+    },
+    {
+      "date": "2019-07-30",
+      "type": "release",
+      "title": "v11.3.0",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v11.3.0",
+      "points": null
+    },
+    {
+      "date": "2019-07-31",
+      "type": "release",
+      "title": "v11.3.1",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v11.3.1",
+      "points": null
+    },
+    {
+      "date": "2019-09-22",
+      "type": "release",
+      "title": "v11.4.0",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v11.4.0",
+      "points": null
+    },
+    {
+      "date": "2019-11-01",
+      "type": "release",
+      "title": "v11.5.1",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v11.5.1",
+      "points": null
+    },
+    {
+      "date": "2019-11-01",
+      "type": "release",
+      "title": "v11.5.0",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v11.5.0",
+      "points": null
+    },
+    {
+      "date": "2019-11-07",
+      "type": "release",
+      "title": "v11.5.2",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v11.5.2",
+      "points": null
+    },
+    {
+      "date": "2019-11-08",
+      "type": "release",
+      "title": "v11.5.3",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v11.5.3",
+      "points": null
+    },
+    {
+      "date": "2020-02-17",
+      "type": "release",
+      "title": "v11.5.4",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v11.5.4",
+      "points": null
+    },
+    {
+      "date": "2020-03-20",
+      "type": "release",
+      "title": "v11.5.5",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v11.5.5",
+      "points": null
+    },
+    {
+      "date": "2020-03-21",
+      "type": "release",
+      "title": "v11.5.6",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v11.5.6",
+      "points": null
+    },
+    {
+      "date": "2020-12-19",
+      "type": "release",
+      "title": "v11.6.0",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v11.6.0",
+      "points": null
+    },
+    {
+      "date": "2020-12-20",
+      "type": "release",
+      "title": "v11.6.1",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v11.6.1",
+      "points": null
+    },
+    {
+      "date": "2021-02-20",
+      "type": "release",
+      "title": "v11.7.0",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v11.7.0",
+      "points": null
+    },
+    {
+      "date": "2021-04-10",
+      "type": "release",
+      "title": "v11.9.0",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v11.9.0",
+      "points": null
+    },
+    {
+      "date": "2021-04-10",
+      "type": "release",
+      "title": "v11.8.0",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v11.8.0",
+      "points": null
+    },
+    {
+      "date": "2021-04-12",
+      "type": "release",
+      "title": "v11.10.0",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v11.10.0",
+      "points": null
+    },
+    {
+      "date": "2021-06-19",
+      "type": "release",
+      "title": "v12.0.1",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v12.0.1",
+      "points": null
+    },
+    {
+      "date": "2021-06-19",
+      "type": "release",
+      "title": "v12.0.0",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v12.0.0",
+      "points": null
+    },
+    {
+      "date": "2021-06-21",
+      "type": "release",
+      "title": "v12.0.2",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v12.0.2",
+      "points": null
+    },
+    {
+      "date": "2021-07-26",
+      "type": "release",
+      "title": "v12.0.3",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v12.0.3",
+      "points": null
+    },
+    {
+      "date": "2021-08-16",
+      "type": "release",
+      "title": "v12.1.0",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v12.1.0",
+      "points": null
+    },
+    {
+      "date": "2021-08-24",
+      "type": "release",
+      "title": "v13.0.0",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v13.0.0",
+      "points": null
+    },
+    {
+      "date": "2022-03-01",
+      "type": "release",
+      "title": "v13.0.1",
+      "url": "https://github.com/react-native-modal/react-native-modal/releases/tag/v13.0.1",
+      "points": null
+    }
+  ]
 }

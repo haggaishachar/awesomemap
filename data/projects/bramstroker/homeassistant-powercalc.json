@@ -54,9 +54,200 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 1573,
+      "stars": 1575,
       "forks": 409,
-      "openIssues": 22
+      "openIssues": 21
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-12-27",
+      "type": "release",
+      "title": "v1.20.0 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.20.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-31",
+      "type": "release",
+      "title": "v1.20.1 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.20.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-09",
+      "type": "release",
+      "title": "v1.20.2 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.20.2",
+      "points": null
+    },
+    {
+      "date": "2026-01-23",
+      "type": "release",
+      "title": "v1.20.3 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.20.3",
+      "points": null
+    },
+    {
+      "date": "2026-01-31",
+      "type": "release",
+      "title": "v1.20.4 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.20.4",
+      "points": null
+    },
+    {
+      "date": "2026-02-13",
+      "type": "release",
+      "title": "v1.20.5 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.20.5",
+      "points": null
+    },
+    {
+      "date": "2026-02-20",
+      "type": "release",
+      "title": "v1.20.6 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.20.6",
+      "points": null
+    },
+    {
+      "date": "2026-03-01",
+      "type": "release",
+      "title": "v1.20.8 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.20.8",
+      "points": null
+    },
+    {
+      "date": "2026-03-01",
+      "type": "release",
+      "title": "v1.20.7 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.20.7",
+      "points": null
+    },
+    {
+      "date": "2026-03-14",
+      "type": "release",
+      "title": "v1.20.9 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.20.9",
+      "points": null
+    },
+    {
+      "date": "2026-03-27",
+      "type": "release",
+      "title": "v1.20.11 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.20.11",
+      "points": null
+    },
+    {
+      "date": "2026-03-27",
+      "type": "release",
+      "title": "v1.20.10 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.20.10",
+      "points": null
+    },
+    {
+      "date": "2026-04-11",
+      "type": "release",
+      "title": "v1.20.12 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.20.12",
+      "points": null
+    },
+    {
+      "date": "2026-04-18",
+      "type": "release",
+      "title": "v1.20.13 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.20.13",
+      "points": null
+    },
+    {
+      "date": "2026-04-25",
+      "type": "release",
+      "title": "v1.20.14 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.20.14",
+      "points": null
+    },
+    {
+      "date": "2026-06-14",
+      "type": "release",
+      "title": "v1.21.0 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.21.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-20",
+      "type": "release",
+      "title": "v1.21.1 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.21.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-27",
+      "type": "release",
+      "title": "v1.21.2 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.21.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-12",
+      "type": "release",
+      "title": "v1.22.0 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.22.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-20",
+      "type": "release",
+      "title": "v1.23.0 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.23.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-26",
+      "type": "release",
+      "title": "v1.23.1 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.23.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "v1.23.2 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.23.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-02",
+      "type": "release",
+      "title": "v1.24.0 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.24.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "v1.24.1 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.24.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "v1.25.1 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.25.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-29",
+      "type": "release",
+      "title": "v1.25.2 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.25.2",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "v1.25.3 🌈",
+      "url": "https://github.com/bramstroker/homeassistant-powercalc/releases/tag/v1.25.3",
+      "points": null
     }
   ]
 }

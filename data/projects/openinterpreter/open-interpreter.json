@@ -4,8 +4,8 @@
   "link": "https://github.com/openinterpreter/open-interpreter",
   "name": "open-interpreter",
   "desc": "A coding agent for open models like Kimi K3",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "openinterpreter",
+  "githubDescription": "A coding agent for open models like Kimi K3",
   "tags": [
     "acp",
     "coding-agent",
@@ -14,7 +14,142 @@
     "qwen",
     "rust"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 68219,
+      "forks": 5871,
+      "openIssues": 10
+    }
+  ],
   "weight": 68217,
-  "image": "https://avatars.githubusercontent.com/u/163192481?v=4"
+  "image": "https://avatars.githubusercontent.com/u/163192481?v=4",
+  "events": [
+    {
+      "date": "2024-11-18",
+      "type": "hn",
+      "title": "Open-interpreter: A natural language interface for computers",
+      "url": "https://news.ycombinator.com/item?id=42171379",
+      "points": 72
+    },
+    {
+      "date": "2026-06-20",
+      "type": "release",
+      "title": "Open Interpreter 0.0.17",
+      "url": "https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.17",
+      "points": null
+    },
+    {
+      "date": "2026-06-20",
+      "type": "release",
+      "title": "Open Interpreter 0.0.16",
+      "url": "https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.16",
+      "points": null
+    },
+    {
+      "date": "2026-07-06",
+      "type": "release",
+      "title": "Open Interpreter 0.0.21",
+      "url": "https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.21",
+      "points": null
+    },
+    {
+      "date": "2026-07-06",
+      "type": "release",
+      "title": "Open Interpreter 0.0.20",
+      "url": "https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.20",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "Open Interpreter 0.0.24",
+      "url": "https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.24",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "Open Interpreter 0.0.23",
+      "url": "https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.23",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "Open Interpreter 0.0.22",
+      "url": "https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.22",
+      "points": null
+    },
+    {
+      "date": "2026-07-15",
+      "type": "release",
+      "title": "Open Interpreter 0.0.25",
+      "url": "https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.25",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "Open Interpreter 0.0.26",
+      "url": "https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.26",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "Open Interpreter 0.0.30",
+      "url": "https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.30",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "Open Interpreter 0.0.29",
+      "url": "https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.29",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "Open Interpreter 0.0.28",
+      "url": "https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.28",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "Open Interpreter 0.0.27",
+      "url": "https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.27",
+      "points": null
+    },
+    {
+      "date": "2026-07-18",
+      "type": "release",
+      "title": "Open Interpreter 0.0.34",
+      "url": "https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.34",
+      "points": null
+    },
+    {
+      "date": "2026-08-15",
+      "type": "release",
+      "title": "Open Interpreter 0.0.38",
+      "url": "https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.38",
+      "points": null
+    },
+    {
+      "date": "2026-08-17",
+      "type": "release",
+      "title": "Open Interpreter 0.0.39",
+      "url": "https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.39",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "Open Interpreter 0.0.40",
+      "url": "https://github.com/openinterpreter/openinterpreter/releases/tag/rust-v0.0.40",
+      "points": null
+    }
+  ]
 }

@@ -131,8 +131,220 @@
     {
       "date": "2026-09-02",
       "stars": 12022,
-      "forks": 1912,
+      "forks": 1913,
       "openIssues": 204
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-03-23",
+      "type": "release",
+      "title": "20.35.1",
+      "url": "https://github.com/wix/Detox/releases/tag/20.35.1",
+      "points": null
+    },
+    {
+      "date": "2025-03-25",
+      "type": "release",
+      "title": "20.36.0",
+      "url": "https://github.com/wix/Detox/releases/tag/20.36.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-26",
+      "type": "release",
+      "title": "20.36.2",
+      "url": "https://github.com/wix/Detox/releases/tag/20.36.2",
+      "points": null
+    },
+    {
+      "date": "2025-03-26",
+      "type": "release",
+      "title": "20.36.1",
+      "url": "https://github.com/wix/Detox/releases/tag/20.36.1",
+      "points": null
+    },
+    {
+      "date": "2025-03-28",
+      "type": "release",
+      "title": "20.36.3",
+      "url": "https://github.com/wix/Detox/releases/tag/20.36.3",
+      "points": null
+    },
+    {
+      "date": "2025-04-17",
+      "type": "release",
+      "title": "20.36.5",
+      "url": "https://github.com/wix/Detox/releases/tag/20.36.5",
+      "points": null
+    },
+    {
+      "date": "2025-04-22",
+      "type": "release",
+      "title": "20.37.0",
+      "url": "https://github.com/wix/Detox/releases/tag/20.37.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-14",
+      "type": "release",
+      "title": "20.38.0",
+      "url": "https://github.com/wix/Detox/releases/tag/20.38.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-26",
+      "type": "release",
+      "title": "20.39.0",
+      "url": "https://github.com/wix/Detox/releases/tag/20.39.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-06",
+      "type": "release",
+      "title": "20.40.0",
+      "url": "https://github.com/wix/Detox/releases/tag/20.40.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-09",
+      "type": "release",
+      "title": "20.40.1",
+      "url": "https://github.com/wix/Detox/releases/tag/20.40.1",
+      "points": null
+    },
+    {
+      "date": "2025-07-14",
+      "type": "release",
+      "title": "20.40.2",
+      "url": "https://github.com/wix/Detox/releases/tag/20.40.2",
+      "points": null
+    },
+    {
+      "date": "2025-09-02",
+      "type": "release",
+      "title": "20.41.0",
+      "url": "https://github.com/wix/Detox/releases/tag/20.41.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-16",
+      "type": "release",
+      "title": "20.41.2",
+      "url": "https://github.com/wix/Detox/releases/tag/20.41.2",
+      "points": null
+    },
+    {
+      "date": "2025-09-18",
+      "type": "release",
+      "title": "20.41.3",
+      "url": "https://github.com/wix/Detox/releases/tag/20.41.3",
+      "points": null
+    },
+    {
+      "date": "2025-09-25",
+      "type": "release",
+      "title": "20.42.0",
+      "url": "https://github.com/wix/Detox/releases/tag/20.42.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-05",
+      "type": "release",
+      "title": "20.43.0",
+      "url": "https://github.com/wix/Detox/releases/tag/20.43.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-19",
+      "type": "release",
+      "title": "20.44.0",
+      "url": "https://github.com/wix/Detox/releases/tag/20.44.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-28",
+      "type": "release",
+      "title": "v20.45.0",
+      "url": "https://github.com/wix/Detox/releases/tag/20.45.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-01",
+      "type": "release",
+      "title": "20.45.1",
+      "url": "https://github.com/wix/Detox/releases/tag/20.45.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-16",
+      "type": "release",
+      "title": "20.46.0",
+      "url": "https://github.com/wix/Detox/releases/tag/20.46.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-27",
+      "type": "release",
+      "title": "20.46.3",
+      "url": "https://github.com/wix/Detox/releases/tag/20.46.3",
+      "points": null
+    },
+    {
+      "date": "2026-01-26",
+      "type": "release",
+      "title": "20.47.0",
+      "url": "https://github.com/wix/Detox/releases/tag/20.47.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-21",
+      "type": "release",
+      "title": "20.48.1",
+      "url": "https://github.com/wix/Detox/releases/tag/20.48.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-21",
+      "type": "release",
+      "title": "20.48.0",
+      "url": "https://github.com/wix/Detox/releases/tag/20.48.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-23",
+      "type": "release",
+      "title": "20.50.1",
+      "url": "https://github.com/wix/Detox/releases/tag/20.50.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-23",
+      "type": "release",
+      "title": "20.50.0",
+      "url": "https://github.com/wix/Detox/releases/tag/20.50.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-21",
+      "type": "release",
+      "title": "20.50.2",
+      "url": "https://github.com/wix/Detox/releases/tag/20.50.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-03",
+      "type": "release",
+      "title": "20.51.1",
+      "url": "https://github.com/wix/Detox/releases/tag/20.51.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-30",
+      "type": "release",
+      "title": "20.51.3",
+      "url": "https://github.com/wix/Detox/releases/tag/20.51.3",
+      "points": null
     }
   ]
 }

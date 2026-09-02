@@ -134,9 +134,242 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 39551,
-      "forks": 3328,
-      "openIssues": 5439
+      "stars": 39562,
+      "forks": 3332,
+      "openIssues": 5521
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-06-03",
+      "type": "hn",
+      "title": "Posthog – open-source analytics and UX research tool",
+      "url": "https://news.ycombinator.com/item?id=40564345",
+      "points": 127
+    },
+    {
+      "date": "2025-03-09",
+      "type": "hn",
+      "title": "Posthog/.cursorrules",
+      "url": "https://news.ycombinator.com/item?id=43305919",
+      "points": 193
+    },
+    {
+      "date": "2026-07-09",
+      "type": "hn",
+      "title": "PostHog FOSS",
+      "url": "https://news.ycombinator.com/item?id=48846293",
+      "points": 94
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "posthog-cli/v0.18.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/posthog-cli/v0.18.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "posthog-cli/v0.17.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/posthog-cli/v0.17.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "posthog-cli latest",
+      "url": "https://github.com/PostHog/posthog/releases/tag/posthog-cli-latest",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Hobby Installer (Latest)",
+      "url": "https://github.com/PostHog/posthog/releases/tag/hobby-latest",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Hobby Installer hobby-20260902-171525",
+      "url": "https://github.com/PostHog/posthog/releases/tag/hobby-20260902-171525",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "desktop-v0.61.180",
+      "url": "https://github.com/PostHog/posthog/releases/tag/desktop-v0.61.180",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "desktop-v0.61.172",
+      "url": "https://github.com/PostHog/posthog/releases/tag/desktop-v0.61.172",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "desktop-v0.61.170",
+      "url": "https://github.com/PostHog/posthog/releases/tag/desktop-v0.61.170",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Agent skills agent-skills-v0.791.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.791.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Agent skills agent-skills-v0.790.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.790.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Agent skills agent-skills-v0.789.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.789.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Agent skills agent-skills-v0.788.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.788.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Agent skills agent-skills-v0.787.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.787.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Agent skills agent-skills-v0.786.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.786.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Agent skills agent-skills-v0.785.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.785.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Agent skills agent-skills-v0.784.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.784.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Agent skills agent-skills-v0.783.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.783.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Agent skills agent-skills-v0.782.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.782.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Agent skills agent-skills-v0.781.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.781.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Agent skills agent-skills-v0.780.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.780.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Agent skills agent-skills-v0.779.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.779.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Agent skills agent-skills-v0.778.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.778.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Agent skills agent-skills-v0.777.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.777.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Agent skills agent-skills-v0.776.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.776.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Agent skills agent-skills-v0.775.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.775.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Agent skills agent-skills-v0.774.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.774.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Agent skills agent-skills-v0.773.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.773.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Agent skills agent-skills-v0.772.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.772.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Agent skills agent-skills-v0.771.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.771.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Agent skills agent-skills-v0.770.0",
+      "url": "https://github.com/PostHog/posthog/releases/tag/agent-skills-v0.770.0",
+      "points": null
     }
   ]
 }

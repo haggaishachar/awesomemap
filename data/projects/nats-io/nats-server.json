@@ -114,9 +114,144 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 20653,
-      "forks": 1931,
-      "openIssues": 537
+      "stars": 20654,
+      "forks": 1933,
+      "openIssues": 535
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-07-21",
+      "type": "hn",
+      "title": "High-Performance server for NATS.io, the cloud and edge native messaging system",
+      "url": "https://news.ycombinator.com/item?id=36820544",
+      "points": 146
+    },
+    {
+      "date": "2026-03-24",
+      "type": "release",
+      "title": "Release v2.12.6",
+      "url": "https://github.com/nats-io/nats-server/releases/tag/v2.12.6",
+      "points": null
+    },
+    {
+      "date": "2026-04-14",
+      "type": "release",
+      "title": "Release v2.12.7",
+      "url": "https://github.com/nats-io/nats-server/releases/tag/v2.12.7",
+      "points": null
+    },
+    {
+      "date": "2026-04-14",
+      "type": "release",
+      "title": "Release v2.11.16",
+      "url": "https://github.com/nats-io/nats-server/releases/tag/v2.11.16",
+      "points": null
+    },
+    {
+      "date": "2026-04-27",
+      "type": "release",
+      "title": "Release v2.12.8",
+      "url": "https://github.com/nats-io/nats-server/releases/tag/v2.12.8",
+      "points": null
+    },
+    {
+      "date": "2026-04-27",
+      "type": "release",
+      "title": "Release v2.11.17",
+      "url": "https://github.com/nats-io/nats-server/releases/tag/v2.11.17",
+      "points": null
+    },
+    {
+      "date": "2026-04-30",
+      "type": "release",
+      "title": "Release v2.14.0",
+      "url": "https://github.com/nats-io/nats-server/releases/tag/v2.14.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-20",
+      "type": "release",
+      "title": "Release v2.14.1",
+      "url": "https://github.com/nats-io/nats-server/releases/tag/v2.14.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-20",
+      "type": "release",
+      "title": "Release v2.12.9",
+      "url": "https://github.com/nats-io/nats-server/releases/tag/v2.12.9",
+      "points": null
+    },
+    {
+      "date": "2026-06-02",
+      "type": "release",
+      "title": "Release v2.14.2",
+      "url": "https://github.com/nats-io/nats-server/releases/tag/v2.14.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-02",
+      "type": "release",
+      "title": "Release v2.12.10",
+      "url": "https://github.com/nats-io/nats-server/releases/tag/v2.12.10",
+      "points": null
+    },
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "title": "Release v2.12.11",
+      "url": "https://github.com/nats-io/nats-server/releases/tag/v2.12.11",
+      "points": null
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "Release v2.14.3",
+      "url": "https://github.com/nats-io/nats-server/releases/tag/v2.14.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "Release v2.12.12",
+      "url": "https://github.com/nats-io/nats-server/releases/tag/v2.12.12",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "Release v2.14.4",
+      "url": "https://github.com/nats-io/nats-server/releases/tag/v2.14.4",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "Release v2.12.14",
+      "url": "https://github.com/nats-io/nats-server/releases/tag/v2.12.14",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "Release v2.14.5",
+      "url": "https://github.com/nats-io/nats-server/releases/tag/v2.14.5",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "Release v2.12.15",
+      "url": "https://github.com/nats-io/nats-server/releases/tag/v2.12.15",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "Release v2.14.6",
+      "url": "https://github.com/nats-io/nats-server/releases/tag/v2.14.6",
+      "points": null
     }
   ]
 }

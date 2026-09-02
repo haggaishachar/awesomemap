@@ -4,8 +4,8 @@
   "link": "https://github.com/gofr-dev/gofr",
   "name": "gofr",
   "desc": "An opinionated GoLang framework for accelerated microservice development. Built in support for databases and observability.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "gofr",
+  "githubDescription": "An opinionated GoLang framework for accelerated microservice development. Built in support for databases and observability.",
   "tags": [
     "framework",
     "go",
@@ -28,7 +28,226 @@
     "tracing",
     "web-framework"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 20957,
+      "forks": 1758,
+      "openIssues": 152
+    }
+  ],
   "weight": 20957,
-  "image": "https://avatars.githubusercontent.com/u/146108433?v=4"
+  "image": "https://avatars.githubusercontent.com/u/146108433?v=4",
+  "events": [
+    {
+      "date": "2025-11-18",
+      "type": "release",
+      "title": "v1.47.1",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.47.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-21",
+      "type": "release",
+      "title": "v1.48.0",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.48.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-28",
+      "type": "release",
+      "title": "v1.49.0",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.49.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-06",
+      "type": "release",
+      "title": "v1.50.0",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.50.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-14",
+      "type": "release",
+      "title": "v1.50.1",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.50.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-21",
+      "type": "release",
+      "title": "v1.50.2",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.50.2",
+      "points": null
+    },
+    {
+      "date": "2025-12-27",
+      "type": "release",
+      "title": "v1.51.0",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.51.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-02",
+      "type": "release",
+      "title": "v1.52.0",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.52.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-10",
+      "type": "release",
+      "title": "v1.53.0",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.53.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-18",
+      "type": "release",
+      "title": "v1.54.0",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.54.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-27",
+      "type": "release",
+      "title": "v1.54.1",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.54.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-31",
+      "type": "release",
+      "title": "v1.54.2",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.54.2",
+      "points": null
+    },
+    {
+      "date": "2026-02-06",
+      "type": "release",
+      "title": "v1.54.3",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.54.3",
+      "points": null
+    },
+    {
+      "date": "2026-02-21",
+      "type": "release",
+      "title": "v1.54.4",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.54.4",
+      "points": null
+    },
+    {
+      "date": "2026-02-27",
+      "type": "release",
+      "title": "v1.54.5",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.54.5",
+      "points": null
+    },
+    {
+      "date": "2026-03-11",
+      "type": "release",
+      "title": "v1.54.6",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.54.6",
+      "points": null
+    },
+    {
+      "date": "2026-03-14",
+      "type": "release",
+      "title": "v1.55.0",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.55.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-07",
+      "type": "release",
+      "title": "v1.56.0",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.56.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-09",
+      "type": "release",
+      "title": "v1.56.1",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.56.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-21",
+      "type": "release",
+      "title": "v1.56.3",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.56.3",
+      "points": null
+    },
+    {
+      "date": "2026-04-21",
+      "type": "release",
+      "title": "v1.56.2",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.56.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-29",
+      "type": "release",
+      "title": "v1.56.4",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.56.4",
+      "points": null
+    },
+    {
+      "date": "2026-05-08",
+      "type": "release",
+      "title": "v1.56.5",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.56.5",
+      "points": null
+    },
+    {
+      "date": "2026-05-18",
+      "type": "release",
+      "title": "v1.56.6",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.56.6",
+      "points": null
+    },
+    {
+      "date": "2026-06-05",
+      "type": "release",
+      "title": "v1.56.7",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.56.7",
+      "points": null
+    },
+    {
+      "date": "2026-06-24",
+      "type": "release",
+      "title": "v1.57.0",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.57.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "v1.58.0",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.58.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "v1.59.0",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.59.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "v1.60.0",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.60.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "v1.60.1",
+      "url": "https://github.com/gofr-dev/gofr/releases/tag/v1.60.1",
+      "points": null
+    }
+  ]
 }

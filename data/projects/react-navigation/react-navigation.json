@@ -125,7 +125,72 @@
       "date": "2026-09-02",
       "stars": 24502,
       "forks": 5129,
-      "openIssues": 843
+      "openIssues": 842
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "@react-navigation/stack@7.10.22",
+      "url": "https://github.com/react-navigation/react-navigation/releases/tag/%40react-navigation/stack%407.10.22",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "@react-navigation/core@7.21.12",
+      "url": "https://github.com/react-navigation/react-navigation/releases/tag/%40react-navigation/core%407.21.12",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "@react-navigation/stack@7.10.23",
+      "url": "https://github.com/react-navigation/react-navigation/releases/tag/%40react-navigation/stack%407.10.23",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "@react-navigation/native@7.3.17",
+      "url": "https://github.com/react-navigation/react-navigation/releases/tag/%40react-navigation/native%407.3.17",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "@react-navigation/native-stack@7.18.9",
+      "url": "https://github.com/react-navigation/react-navigation/releases/tag/%40react-navigation/native-stack%407.18.9",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "@react-navigation/drawer@7.13.9",
+      "url": "https://github.com/react-navigation/react-navigation/releases/tag/%40react-navigation/drawer%407.13.9",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "@react-navigation/core@7.21.13",
+      "url": "https://github.com/react-navigation/react-navigation/releases/tag/%40react-navigation/core%407.21.13",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "@react-navigation/bottom-tabs@7.18.17",
+      "url": "https://github.com/react-navigation/react-navigation/releases/tag/%40react-navigation/bottom-tabs%407.18.17",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "@react-navigation/native@7.3.18",
+      "url": "https://github.com/react-navigation/react-navigation/releases/tag/%40react-navigation/native%407.3.18",
+      "points": null
     }
   ]
 }

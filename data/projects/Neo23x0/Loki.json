@@ -4,8 +4,8 @@
   "link": "https://github.com/Neo23x0/Loki",
   "name": "Loki",
   "desc": "Loki - Simple IOC and YARA Scanner",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "Loki",
+  "githubDescription": "Loki - Simple IOC and YARA Scanner",
   "tags": [
     "antivirus",
     "dfir",
@@ -18,6 +18,218 @@
     "yara",
     "yara-rules"
   ],
-  "history": [],
-  "weight": 3786
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 3787,
+      "forks": 613,
+      "openIssues": 18
+    }
+  ],
+  "weight": 3786,
+  "events": [
+    {
+      "date": "2019-10-16",
+      "type": "release",
+      "title": "LOKI version 0.30.4",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/v0.30.4",
+      "points": null
+    },
+    {
+      "date": "2020-01-28",
+      "type": "release",
+      "title": "LOKI version 0.30.5",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/v0.30.5",
+      "points": null
+    },
+    {
+      "date": "2020-03-12",
+      "type": "release",
+      "title": "LOKI version 0.30.6",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/v0.30.6",
+      "points": null
+    },
+    {
+      "date": "2020-05-18",
+      "type": "release",
+      "title": "LOKI version 0.30.7",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/v0.30.7",
+      "points": null
+    },
+    {
+      "date": "2020-06-15",
+      "type": "release",
+      "title": "LOKI version 0.30.8",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/v0.30.8",
+      "points": null
+    },
+    {
+      "date": "2020-06-30",
+      "type": "release",
+      "title": "LOKI version 0.31.0",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/v0.31.0",
+      "points": null
+    },
+    {
+      "date": "2020-07-07",
+      "type": "release",
+      "title": "LOKI version 0.31.1",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/v0.31.1",
+      "points": null
+    },
+    {
+      "date": "2020-09-11",
+      "type": "release",
+      "title": "LOKI version 0.32.0",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/v0.32.0",
+      "points": null
+    },
+    {
+      "date": "2020-10-19",
+      "type": "release",
+      "title": "LOKI version 0.32.1",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/0.32.1",
+      "points": null
+    },
+    {
+      "date": "2021-01-08",
+      "type": "release",
+      "title": "LOKI version 0.33.0",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/0.33.0",
+      "points": null
+    },
+    {
+      "date": "2021-02-27",
+      "type": "release",
+      "title": "LOKI version 0.40.0 BETA",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/0.40b",
+      "points": null
+    },
+    {
+      "date": "2021-02-28",
+      "type": "release",
+      "title": "LOKI version 0.40.0 BETA Build 2",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/0.40b_02",
+      "points": null
+    },
+    {
+      "date": "2021-03-04",
+      "type": "release",
+      "title": "LOKI version 0.40.1 BETA",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/0.40.1",
+      "points": null
+    },
+    {
+      "date": "2021-04-28",
+      "type": "release",
+      "title": "LOKI version 0.41.0",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/0.41.0",
+      "points": null
+    },
+    {
+      "date": "2021-07-15",
+      "type": "release",
+      "title": "LOKI version 0.41.2",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/0.41.2",
+      "points": null
+    },
+    {
+      "date": "2021-07-20",
+      "type": "release",
+      "title": "LOKI version 0.42.1",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/0.42.1",
+      "points": null
+    },
+    {
+      "date": "2021-07-20",
+      "type": "release",
+      "title": "LOKI version 0.42.0",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/0.42.0",
+      "points": null
+    },
+    {
+      "date": "2021-07-24",
+      "type": "release",
+      "title": "LOKI version 0.42.3",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/0.42.3",
+      "points": null
+    },
+    {
+      "date": "2021-08-23",
+      "type": "release",
+      "title": "LOKI version 0.43.0",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/0.43.0",
+      "points": null
+    },
+    {
+      "date": "2021-08-25",
+      "type": "release",
+      "title": "LOKI version 0.44.0",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/0.44.0",
+      "points": null
+    },
+    {
+      "date": "2021-09-06",
+      "type": "release",
+      "title": "LOKI version 0.44.1",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/v0.44.1",
+      "points": null
+    },
+    {
+      "date": "2021-09-29",
+      "type": "release",
+      "title": "LOKI version 0.44.2",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/v0.44.2",
+      "points": null
+    },
+    {
+      "date": "2022-07-25",
+      "type": "release",
+      "title": "LOKI version 0.45.0",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/v0.45.0",
+      "points": null
+    },
+    {
+      "date": "2023-04-24",
+      "type": "release",
+      "title": "LOKI version 0.46.0",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/v0.46.0",
+      "points": null
+    },
+    {
+      "date": "2023-04-25",
+      "type": "release",
+      "title": "LOKI version 0.46.2",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/v0.46.2",
+      "points": null
+    },
+    {
+      "date": "2023-04-25",
+      "type": "release",
+      "title": "LOKI version 0.46.1",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/v0.46.1",
+      "points": null
+    },
+    {
+      "date": "2023-05-10",
+      "type": "release",
+      "title": "LOKI version 0.50.0",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/v0.50.0",
+      "points": null
+    },
+    {
+      "date": "2023-05-11",
+      "type": "release",
+      "title": "LOKI version 0.50.1",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/v0.50.1",
+      "points": null
+    },
+    {
+      "date": "2023-05-18",
+      "type": "release",
+      "title": "LOKI version 0.51.0",
+      "url": "https://github.com/Neo23x0/Loki/releases/tag/v0.51.0",
+      "points": null
+    }
+  ]
 }

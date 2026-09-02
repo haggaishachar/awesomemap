@@ -79,9 +79,39 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 49878,
-      "forks": 4305,
+      "stars": 49880,
+      "forks": 4304,
       "openIssues": 695
+    }
+  ],
+  "events": [
+    {
+      "date": "2019-12-12",
+      "type": "hn",
+      "title": "Huginn: Create agents that monitor and act on your behalf",
+      "url": "https://news.ycombinator.com/item?id=21772610",
+      "points": 1303
+    },
+    {
+      "date": "2022-01-23",
+      "type": "hn",
+      "title": "Huginn: System for building agents that perform automated tasks online",
+      "url": "https://news.ycombinator.com/item?id=30051701",
+      "points": 270
+    },
+    {
+      "date": "2022-08-18",
+      "type": "release",
+      "title": "v2022.08.18",
+      "url": "https://github.com/huginn/huginn/releases/tag/v2022.08.18",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "v2026.08.27",
+      "url": "https://github.com/huginn/huginn/releases/tag/v2026.08.27",
+      "points": null
     }
   ]
 }

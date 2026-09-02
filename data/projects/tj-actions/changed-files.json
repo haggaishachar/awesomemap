@@ -36,5 +36,154 @@
     }
   ],
   "weight": 2718,
-  "image": "https://avatars.githubusercontent.com/u/67116787?v=4"
+  "image": "https://avatars.githubusercontent.com/u/67116787?v=4",
+  "events": [
+    {
+      "date": "2025-03-15",
+      "type": "release",
+      "title": "v45.0.9",
+      "url": "https://github.com/tj-actions/changed-files/releases/tag/v45.0.9",
+      "points": null
+    },
+    {
+      "date": "2025-03-15",
+      "type": "release",
+      "title": "v45.0.8",
+      "url": "https://github.com/tj-actions/changed-files/releases/tag/v45.0.8",
+      "points": null
+    },
+    {
+      "date": "2025-03-16",
+      "type": "release",
+      "title": "v46",
+      "url": "https://github.com/tj-actions/changed-files/releases/tag/v46",
+      "points": null
+    },
+    {
+      "date": "2025-03-16",
+      "type": "release",
+      "title": "v46.0.1",
+      "url": "https://github.com/tj-actions/changed-files/releases/tag/v46.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-03-16",
+      "type": "release",
+      "title": "v46.0.0",
+      "url": "https://github.com/tj-actions/changed-files/releases/tag/v46.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-22",
+      "type": "release",
+      "title": "v46.0.2",
+      "url": "https://github.com/tj-actions/changed-files/releases/tag/v46.0.2",
+      "points": null
+    },
+    {
+      "date": "2025-03-22",
+      "type": "release",
+      "title": "v45.0.7",
+      "url": "https://github.com/tj-actions/changed-files/releases/tag/v45.0.7",
+      "points": null
+    },
+    {
+      "date": "2025-03-22",
+      "type": "release",
+      "title": "v45.0.6",
+      "url": "https://github.com/tj-actions/changed-files/releases/tag/v45.0.6",
+      "points": null
+    },
+    {
+      "date": "2025-03-22",
+      "type": "release",
+      "title": "v45",
+      "url": "https://github.com/tj-actions/changed-files/releases/tag/v45",
+      "points": null
+    },
+    {
+      "date": "2025-03-22",
+      "type": "release",
+      "title": "v39",
+      "url": "https://github.com/tj-actions/changed-files/releases/tag/v39",
+      "points": null
+    },
+    {
+      "date": "2025-03-23",
+      "type": "release",
+      "title": "v46.0.3",
+      "url": "https://github.com/tj-actions/changed-files/releases/tag/v46.0.3",
+      "points": null
+    },
+    {
+      "date": "2025-04-04",
+      "type": "release",
+      "title": "v46.0.4",
+      "url": "https://github.com/tj-actions/changed-files/releases/tag/v46.0.4",
+      "points": null
+    },
+    {
+      "date": "2025-04-09",
+      "type": "release",
+      "title": "v46.0.5",
+      "url": "https://github.com/tj-actions/changed-files/releases/tag/v46.0.5",
+      "points": null
+    },
+    {
+      "date": "2025-09-13",
+      "type": "release",
+      "title": "v47.0.0",
+      "url": "https://github.com/tj-actions/changed-files/releases/tag/v47.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-13",
+      "type": "release",
+      "title": "v47",
+      "url": "https://github.com/tj-actions/changed-files/releases/tag/v47",
+      "points": null
+    },
+    {
+      "date": "2025-12-11",
+      "type": "release",
+      "title": "v47.0.1",
+      "url": "https://github.com/tj-actions/changed-files/releases/tag/v47.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-09",
+      "type": "release",
+      "title": "v47.0.2",
+      "url": "https://github.com/tj-actions/changed-files/releases/tag/v47.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-02-17",
+      "type": "release",
+      "title": "v47.0.4",
+      "url": "https://github.com/tj-actions/changed-files/releases/tag/v47.0.4",
+      "points": null
+    },
+    {
+      "date": "2026-02-17",
+      "type": "release",
+      "title": "v47.0.3",
+      "url": "https://github.com/tj-actions/changed-files/releases/tag/v47.0.3",
+      "points": null
+    },
+    {
+      "date": "2026-03-03",
+      "type": "release",
+      "title": "v47.0.5",
+      "url": "https://github.com/tj-actions/changed-files/releases/tag/v47.0.5",
+      "points": null
+    },
+    {
+      "date": "2026-04-18",
+      "type": "release",
+      "title": "v47.0.6",
+      "url": "https://github.com/tj-actions/changed-files/releases/tag/v47.0.6",
+      "points": null
+    }
+  ]
 }

@@ -48,9 +48,67 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 31042,
+      "stars": 31044,
       "forks": 2433,
-      "openIssues": 14
+      "openIssues": 15
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-07-13",
+      "type": "release",
+      "title": "Turborepo v2.10.5",
+      "url": "https://github.com/vercel/turborepo/releases/tag/v2.10.5",
+      "points": null
+    },
+    {
+      "date": "2026-07-22",
+      "type": "release",
+      "title": "Turborepo v2.10.6",
+      "url": "https://github.com/vercel/turborepo/releases/tag/v2.10.6",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "Turborepo v2.10.8",
+      "url": "https://github.com/vercel/turborepo/releases/tag/v2.10.8",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "Turborepo v2.10.7",
+      "url": "https://github.com/vercel/turborepo/releases/tag/v2.10.7",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "Turborepo v2.10.9",
+      "url": "https://github.com/vercel/turborepo/releases/tag/v2.10.9",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "Turborepo v2.10.10",
+      "url": "https://github.com/vercel/turborepo/releases/tag/v2.10.10",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "Turborepo v2.10.11",
+      "url": "https://github.com/vercel/turborepo/releases/tag/v2.10.11",
+      "points": null
+    },
+    {
+      "date": "2026-08-25",
+      "type": "release",
+      "title": "Turborepo v2.10.12",
+      "url": "https://github.com/vercel/turborepo/releases/tag/v2.10.12",
+      "points": null
     }
   ]
 }

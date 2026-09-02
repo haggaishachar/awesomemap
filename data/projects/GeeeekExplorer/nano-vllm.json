@@ -17,11 +17,20 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 15276,
-      "forks": 2537,
+      "stars": 15283,
+      "forks": 2541,
       "openIssues": 86
     }
   ],
   "weight": 15258,
-  "image": "https://raw.githubusercontent.com/GeeeekExplorer/nano-vllm/main/assets/logo.png"
+  "image": "https://raw.githubusercontent.com/GeeeekExplorer/nano-vllm/main/assets/logo.png",
+  "events": [
+    {
+      "date": "2025-06-23",
+      "type": "hn",
+      "title": "Nano-Vllm: Lightweight vLLM implementation built from scratch",
+      "url": "https://news.ycombinator.com/item?id=44352615",
+      "points": 125
+    }
+  ]
 }

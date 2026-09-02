@@ -98,9 +98,95 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 57491,
+      "stars": 57490,
       "forks": 7613,
-      "openIssues": 6
+      "openIssues": 5
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-10-20",
+      "type": "release",
+      "title": "v0.0.2",
+      "url": "https://github.com/zylon-ai/private-gpt/releases/tag/v0.0.2",
+      "points": null
+    },
+    {
+      "date": "2023-10-20",
+      "type": "release",
+      "title": "v0.0.1",
+      "url": "https://github.com/zylon-ai/private-gpt/releases/tag/v0.0.1",
+      "points": null
+    },
+    {
+      "date": "2023-12-01",
+      "type": "release",
+      "title": "v0.1.0",
+      "url": "https://github.com/zylon-ai/private-gpt/releases/tag/v0.1.0",
+      "points": null
+    },
+    {
+      "date": "2023-12-10",
+      "type": "release",
+      "title": "v0.2.0",
+      "url": "https://github.com/zylon-ai/private-gpt/releases/tag/v0.2.0",
+      "points": null
+    },
+    {
+      "date": "2024-02-16",
+      "type": "release",
+      "title": "v0.3.0",
+      "url": "https://github.com/zylon-ai/private-gpt/releases/tag/v0.3.0",
+      "points": null
+    },
+    {
+      "date": "2024-03-06",
+      "type": "release",
+      "title": "v0.4.0",
+      "url": "https://github.com/zylon-ai/private-gpt/releases/tag/v0.4.0",
+      "points": null
+    },
+    {
+      "date": "2024-04-02",
+      "type": "release",
+      "title": "v0.5.0",
+      "url": "https://github.com/zylon-ai/private-gpt/releases/tag/v0.5.0",
+      "points": null
+    },
+    {
+      "date": "2024-08-02",
+      "type": "release",
+      "title": "v0.6.0",
+      "url": "https://github.com/zylon-ai/private-gpt/releases/tag/v0.6.0",
+      "points": null
+    },
+    {
+      "date": "2024-08-05",
+      "type": "release",
+      "title": "v0.6.1",
+      "url": "https://github.com/zylon-ai/private-gpt/releases/tag/v0.6.1",
+      "points": null
+    },
+    {
+      "date": "2024-08-08",
+      "type": "release",
+      "title": "v0.6.2",
+      "url": "https://github.com/zylon-ai/private-gpt/releases/tag/v0.6.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "title": "v1.0.0",
+      "url": "https://github.com/zylon-ai/private-gpt/releases/tag/v1.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-18",
+      "type": "release",
+      "title": "v1.0.1",
+      "url": "https://github.com/zylon-ai/private-gpt/releases/tag/v1.0.1",
+      "points": null
     }
   ]
 }

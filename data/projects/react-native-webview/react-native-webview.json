@@ -34,5 +34,210 @@
       "forks": 3176,
       "openIssues": 74
     }
+  ],
+  "events": [
+    {
+      "date": "2024-06-21",
+      "type": "release",
+      "title": "v13.10.4",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.10.4",
+      "points": null
+    },
+    {
+      "date": "2024-07-08",
+      "type": "release",
+      "title": "v13.10.5",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.10.5",
+      "points": null
+    },
+    {
+      "date": "2024-08-20",
+      "type": "release",
+      "title": "v13.11.1",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.11.1",
+      "points": null
+    },
+    {
+      "date": "2024-08-20",
+      "type": "release",
+      "title": "v13.11.0",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.11.0",
+      "points": null
+    },
+    {
+      "date": "2024-08-20",
+      "type": "release",
+      "title": "v13.10.7",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.10.7",
+      "points": null
+    },
+    {
+      "date": "2024-08-20",
+      "type": "release",
+      "title": "v13.10.6",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.10.6",
+      "points": null
+    },
+    {
+      "date": "2024-08-26",
+      "type": "release",
+      "title": "v13.12.0",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.12.0",
+      "points": null
+    },
+    {
+      "date": "2024-08-30",
+      "type": "release",
+      "title": "v13.12.1",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.12.1",
+      "points": null
+    },
+    {
+      "date": "2024-09-09",
+      "type": "release",
+      "title": "v13.12.2",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.12.2",
+      "points": null
+    },
+    {
+      "date": "2024-10-02",
+      "type": "release",
+      "title": "v13.12.3",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.12.3",
+      "points": null
+    },
+    {
+      "date": "2024-11-18",
+      "type": "release",
+      "title": "v13.12.4",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.12.4",
+      "points": null
+    },
+    {
+      "date": "2024-12-03",
+      "type": "release",
+      "title": "v13.12.5",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.12.5",
+      "points": null
+    },
+    {
+      "date": "2025-01-13",
+      "type": "release",
+      "title": "v13.13.1",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.13.1",
+      "points": null
+    },
+    {
+      "date": "2025-01-13",
+      "type": "release",
+      "title": "v13.13.0",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.13.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-29",
+      "type": "release",
+      "title": "v13.13.2",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.13.2",
+      "points": null
+    },
+    {
+      "date": "2025-03-09",
+      "type": "release",
+      "title": "v13.13.3",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.13.3",
+      "points": null
+    },
+    {
+      "date": "2025-03-11",
+      "type": "release",
+      "title": "v13.13.4",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.13.4",
+      "points": null
+    },
+    {
+      "date": "2025-03-26",
+      "type": "release",
+      "title": "v13.13.5",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.13.5",
+      "points": null
+    },
+    {
+      "date": "2025-06-01",
+      "type": "release",
+      "title": "v13.14.0",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.14.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-02",
+      "type": "release",
+      "title": "v13.14.1",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.14.1",
+      "points": null
+    },
+    {
+      "date": "2025-06-07",
+      "type": "release",
+      "title": "v13.14.2",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.14.2",
+      "points": null
+    },
+    {
+      "date": "2025-06-08",
+      "type": "release",
+      "title": "v13.15.0",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.15.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-25",
+      "type": "release",
+      "title": "v13.16.0",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.16.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-27",
+      "type": "release",
+      "title": "v13.16.1",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.16.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-20",
+      "type": "release",
+      "title": "v14.0.1",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v14.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-20",
+      "type": "release",
+      "title": "v14.0.0",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v14.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-20",
+      "type": "release",
+      "title": "v13.17.0",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.17.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-20",
+      "type": "release",
+      "title": "v13.16.2",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v13.16.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-11",
+      "type": "release",
+      "title": "v16.0.0",
+      "url": "https://github.com/react-native-webview/react-native-webview/releases/tag/v16.0.0",
+      "points": null
+    }
   ]
 }

@@ -20,10 +20,208 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 16141,
-      "forks": 3706,
-      "openIssues": 180
+      "stars": 16142,
+      "forks": 3707,
+      "openIssues": 182
     }
   ],
-  "weight": 16137
+  "weight": 16137,
+  "events": [
+    {
+      "date": "2025-07-13",
+      "type": "release",
+      "title": "v5.8.3",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v5.8.3",
+      "points": null
+    },
+    {
+      "date": "2025-10-16",
+      "type": "release",
+      "title": "v5.9.0",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v5.9.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-17",
+      "type": "release",
+      "title": "v5.9.1",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v5.9.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-25",
+      "type": "release",
+      "title": "v5.10.0",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v5.10.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-29",
+      "type": "release",
+      "title": "v5.10.1",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v5.10.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-28",
+      "type": "release",
+      "title": "v5.11.1",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v5.11.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-28",
+      "type": "release",
+      "title": "v5.11.0",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v5.11.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-31",
+      "type": "release",
+      "title": "v5.11.2",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v5.11.2",
+      "points": null
+    },
+    {
+      "date": "2026-02-20",
+      "type": "release",
+      "title": "v5.11.3",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v5.11.3",
+      "points": null
+    },
+    {
+      "date": "2026-03-10",
+      "type": "release",
+      "title": "v5.11.4",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v5.11.4",
+      "points": null
+    },
+    {
+      "date": "2026-03-28",
+      "type": "release",
+      "title": "v6.0.0",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v6.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-16",
+      "type": "release",
+      "title": "v6.1.0",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v6.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-16",
+      "type": "release",
+      "title": "v6.0.2",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v6.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-16",
+      "type": "release",
+      "title": "v6.0.1",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v6.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-19",
+      "type": "release",
+      "title": "v6.1.1",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v6.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-21",
+      "type": "release",
+      "title": "v6.1.2",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v6.1.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-24",
+      "type": "release",
+      "title": "v6.1.3",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v6.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-05-10",
+      "type": "release",
+      "title": "v6.2.0",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v6.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-19",
+      "type": "release",
+      "title": "v6.3.0",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v6.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-27",
+      "type": "release",
+      "title": "v6.3.1",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v6.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-02",
+      "type": "release",
+      "title": "v7.0.0",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v7.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-03",
+      "type": "release",
+      "title": "v7.0.2",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v7.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-03",
+      "type": "release",
+      "title": "v7.0.1",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v7.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-11",
+      "type": "release",
+      "title": "v7.0.3",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v7.0.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-12",
+      "type": "release",
+      "title": "v7.0.4",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v7.0.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "v7.1.0",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v7.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "v7.2.0",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v7.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "v7.3.0",
+      "url": "https://github.com/wkentaro/labelme/releases/tag/v7.3.0",
+      "points": null
+    }
+  ]
 }

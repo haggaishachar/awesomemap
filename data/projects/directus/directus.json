@@ -87,9 +87,214 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 37676,
+      "stars": 37682,
       "forks": 4923,
-      "openIssues": 393
+      "openIssues": 397
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-02-23",
+      "type": "hn",
+      "title": "Directus – real-time REST and GraphQL API of any SQL database",
+      "url": "https://news.ycombinator.com/item?id=43150116",
+      "points": 72
+    },
+    {
+      "date": "2025-09-16",
+      "type": "release",
+      "title": "v11.12.0",
+      "url": "https://github.com/directus/directus/releases/tag/v11.12.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-04",
+      "type": "release",
+      "title": "v11.13.0",
+      "url": "https://github.com/directus/directus/releases/tag/v11.13.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-07",
+      "type": "release",
+      "title": "v11.13.1",
+      "url": "https://github.com/directus/directus/releases/tag/v11.13.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-10",
+      "type": "release",
+      "title": "v11.13.2",
+      "url": "https://github.com/directus/directus/releases/tag/v11.13.2",
+      "points": null
+    },
+    {
+      "date": "2025-11-19",
+      "type": "release",
+      "title": "v11.13.3",
+      "url": "https://github.com/directus/directus/releases/tag/v11.13.3",
+      "points": null
+    },
+    {
+      "date": "2025-11-21",
+      "type": "release",
+      "title": "v11.13.4",
+      "url": "https://github.com/directus/directus/releases/tag/v11.13.4",
+      "points": null
+    },
+    {
+      "date": "2025-12-09",
+      "type": "release",
+      "title": "v11.14.0",
+      "url": "https://github.com/directus/directus/releases/tag/v11.14.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-15",
+      "type": "release",
+      "title": "v11.14.1",
+      "url": "https://github.com/directus/directus/releases/tag/v11.14.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-05",
+      "type": "release",
+      "title": "v11.15.0",
+      "url": "https://github.com/directus/directus/releases/tag/v11.15.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-06",
+      "type": "release",
+      "title": "v11.15.1",
+      "url": "https://github.com/directus/directus/releases/tag/v11.15.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-12",
+      "type": "release",
+      "title": "v11.15.2",
+      "url": "https://github.com/directus/directus/releases/tag/v11.15.2",
+      "points": null
+    },
+    {
+      "date": "2026-02-16",
+      "type": "release",
+      "title": "v11.15.3",
+      "url": "https://github.com/directus/directus/releases/tag/v11.15.3",
+      "points": null
+    },
+    {
+      "date": "2026-02-17",
+      "type": "release",
+      "title": "v11.15.4",
+      "url": "https://github.com/directus/directus/releases/tag/v11.15.4",
+      "points": null
+    },
+    {
+      "date": "2026-03-04",
+      "type": "release",
+      "title": "v11.16.0",
+      "url": "https://github.com/directus/directus/releases/tag/v11.16.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-10",
+      "type": "release",
+      "title": "v11.16.1",
+      "url": "https://github.com/directus/directus/releases/tag/v11.16.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-24",
+      "type": "release",
+      "title": "v11.17.0",
+      "url": "https://github.com/directus/directus/releases/tag/v11.17.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-30",
+      "type": "release",
+      "title": "v11.17.1",
+      "url": "https://github.com/directus/directus/releases/tag/v11.17.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-06",
+      "type": "release",
+      "title": "v11.17.2",
+      "url": "https://github.com/directus/directus/releases/tag/v11.17.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-15",
+      "type": "release",
+      "title": "v11.17.3",
+      "url": "https://github.com/directus/directus/releases/tag/v11.17.3",
+      "points": null
+    },
+    {
+      "date": "2026-04-30",
+      "type": "release",
+      "title": "v11.17.4",
+      "url": "https://github.com/directus/directus/releases/tag/v11.17.4",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v12.0.0",
+      "url": "https://github.com/directus/directus/releases/tag/v12.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-11",
+      "type": "release",
+      "title": "v12.0.1",
+      "url": "https://github.com/directus/directus/releases/tag/v12.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-12",
+      "type": "release",
+      "title": "v12.0.2",
+      "url": "https://github.com/directus/directus/releases/tag/v12.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "v12.1.1",
+      "url": "https://github.com/directus/directus/releases/tag/v12.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "v12.1.0",
+      "url": "https://github.com/directus/directus/releases/tag/v12.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "v12.2.0",
+      "url": "https://github.com/directus/directus/releases/tag/v12.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "v12.3.0",
+      "url": "https://github.com/directus/directus/releases/tag/v12.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-25",
+      "type": "release",
+      "title": "v12.3.1",
+      "url": "https://github.com/directus/directus/releases/tag/v12.3.1",
+      "points": null
     }
   ]
 }

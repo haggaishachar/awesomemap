@@ -27,11 +27,34 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 90821,
-      "forks": 10666,
+      "stars": 90851,
+      "forks": 10668,
       "openIssues": 340
     }
   ],
   "weight": 90756,
-  "image": "https://avatars.githubusercontent.com/u/48293496?v=4"
+  "image": "https://avatars.githubusercontent.com/u/48293496?v=4",
+  "events": [
+    {
+      "date": "2019-11-30",
+      "type": "hn",
+      "title": "Sherlock: Find usernames across social networks",
+      "url": "https://news.ycombinator.com/item?id=21671843",
+      "points": 172
+    },
+    {
+      "date": "2024-07-08",
+      "type": "release",
+      "title": "Sherlock v0.15.0",
+      "url": "https://github.com/sherlock-project/sherlock/releases/tag/v0.15.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-16",
+      "type": "release",
+      "title": "Sherlock v0.16.0",
+      "url": "https://github.com/sherlock-project/sherlock/releases/tag/v0.16.0",
+      "points": null
+    }
+  ]
 }

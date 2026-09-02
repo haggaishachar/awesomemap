@@ -4,8 +4,8 @@
   "link": "https://github.com/ClemensElflein/OpenMower",
   "name": "OpenMower",
   "desc": "Let's upgrade cheap off-the-shelf robotic mowers to modern, smart RTK GPS based lawn mowing robots!",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "OpenMower",
+  "githubDescription": "Let's upgrade cheap off-the-shelf robotic mowers to modern, smart RTK GPS based lawn mowing robots!",
   "tags": [
     "arduino",
     "gps",
@@ -19,6 +19,92 @@
     "ros",
     "rtk"
   ],
-  "history": [],
-  "weight": 6692
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 6693,
+      "forks": 406,
+      "openIssues": 12
+    }
+  ],
+  "weight": 6692,
+  "events": [
+    {
+      "date": "2022-06-24",
+      "type": "release",
+      "title": "v0.9.3",
+      "url": "https://github.com/ClemensElflein/OpenMower/releases/tag/v0.9.3",
+      "points": null
+    },
+    {
+      "date": "2022-08-08",
+      "type": "release",
+      "title": "v0.9.6",
+      "url": "https://github.com/ClemensElflein/OpenMower/releases/tag/v0.9.6",
+      "points": null
+    },
+    {
+      "date": "2022-08-08",
+      "type": "release",
+      "title": "v0.9.4",
+      "url": "https://github.com/ClemensElflein/OpenMower/releases/tag/v0.9.4",
+      "points": null
+    },
+    {
+      "date": "2022-09-26",
+      "type": "release",
+      "title": "v0.10.0",
+      "url": "https://github.com/ClemensElflein/OpenMower/releases/tag/v0.10.0",
+      "points": null
+    },
+    {
+      "date": "2023-01-27",
+      "type": "release",
+      "title": "v0.11.0",
+      "url": "https://github.com/ClemensElflein/OpenMower/releases/tag/v0.11.0",
+      "points": null
+    },
+    {
+      "date": "2023-02-16",
+      "type": "release",
+      "title": "v0.12.0",
+      "url": "https://github.com/ClemensElflein/OpenMower/releases/tag/v0.12.0",
+      "points": null
+    },
+    {
+      "date": "2023-02-28",
+      "type": "release",
+      "title": "v0.12.1",
+      "url": "https://github.com/ClemensElflein/OpenMower/releases/tag/v0.12.1",
+      "points": null
+    },
+    {
+      "date": "2023-03-23",
+      "type": "release",
+      "title": "v0.13.1",
+      "url": "https://github.com/ClemensElflein/OpenMower/releases/tag/v0.13.1",
+      "points": null
+    },
+    {
+      "date": "2023-03-23",
+      "type": "release",
+      "title": "v0.13.0",
+      "url": "https://github.com/ClemensElflein/OpenMower/releases/tag/v0.13.0",
+      "points": null
+    },
+    {
+      "date": "2023-04-27",
+      "type": "release",
+      "title": "v0.13.2",
+      "url": "https://github.com/ClemensElflein/OpenMower/releases/tag/v0.13.2",
+      "points": null
+    },
+    {
+      "date": "2025-08-19",
+      "type": "hn",
+      "title": "OpenMower – An open source lawn mower",
+      "url": "https://news.ycombinator.com/item?id=44946996",
+      "points": 609
+    }
+  ]
 }

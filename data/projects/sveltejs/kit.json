@@ -120,9 +120,18 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 20775,
-      "forks": 2313,
-      "openIssues": 831
+      "stars": 20777,
+      "forks": 2314,
+      "openIssues": 835
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "@sveltejs/kit@2.70.3",
+      "url": "https://github.com/sveltejs/kit/releases/tag/%40sveltejs/kit%402.70.3",
+      "points": null
     }
   ]
 }

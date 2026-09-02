@@ -4,8 +4,8 @@
   "link": "https://github.com/openappsec/openappsec",
   "name": "openappsec",
   "desc": "open-appsec is a machine learning security engine that preemptively and automatically prevents threats against Web Application & APIs. This repo include the main code and logic.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "openappsec",
+  "githubDescription": "open-appsec is a machine learning security engine that preemptively and automatically prevents threats against Web Application & APIs. This repo include the main code and logic.",
   "tags": [
     "api-security",
     "application-security",
@@ -23,7 +23,226 @@
     "waf",
     "web-application-firewall"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1695,
+      "forks": 134,
+      "openIssues": 35
+    }
+  ],
   "weight": 1695,
-  "image": "https://avatars.githubusercontent.com/u/107371524?v=4"
+  "image": "https://avatars.githubusercontent.com/u/107371524?v=4",
+  "events": [
+    {
+      "date": "2024-02-15",
+      "type": "release",
+      "title": "open-appsec 1.1.5",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.5",
+      "points": null
+    },
+    {
+      "date": "2024-02-20",
+      "type": "release",
+      "title": "open-appsec 1.1.6",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.6",
+      "points": null
+    },
+    {
+      "date": "2024-03-12",
+      "type": "release",
+      "title": "open-appsec 1.1.7",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.7",
+      "points": null
+    },
+    {
+      "date": "2024-04-10",
+      "type": "release",
+      "title": "open-appsec 1.1.8",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.8",
+      "points": null
+    },
+    {
+      "date": "2024-04-18",
+      "type": "release",
+      "title": "open-appsec 1.1.9",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.9",
+      "points": null
+    },
+    {
+      "date": "2024-05-27",
+      "type": "release",
+      "title": "open-appsec 1.1.10",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.10",
+      "points": null
+    },
+    {
+      "date": "2024-06-03",
+      "type": "release",
+      "title": "open-appsec 1.1.11",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.11",
+      "points": null
+    },
+    {
+      "date": "2024-06-27",
+      "type": "release",
+      "title": "1.1.12",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.12",
+      "points": null
+    },
+    {
+      "date": "2024-07-02",
+      "type": "release",
+      "title": "1.1.13",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/v1.1.3",
+      "points": null
+    },
+    {
+      "date": "2024-07-08",
+      "type": "release",
+      "title": "1.1.14",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.14",
+      "points": null
+    },
+    {
+      "date": "2024-08-01",
+      "type": "release",
+      "title": "1.1.15",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.15",
+      "points": null
+    },
+    {
+      "date": "2024-08-28",
+      "type": "release",
+      "title": "1.1.16",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.16",
+      "points": null
+    },
+    {
+      "date": "2024-09-24",
+      "type": "release",
+      "title": "1.1.17",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.17",
+      "points": null
+    },
+    {
+      "date": "2024-10-13",
+      "type": "release",
+      "title": "1.1.18",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.18",
+      "points": null
+    },
+    {
+      "date": "2024-11-10",
+      "type": "release",
+      "title": "1.1.19",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.19",
+      "points": null
+    },
+    {
+      "date": "2024-12-02",
+      "type": "release",
+      "title": "1.1.20",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.20",
+      "points": null
+    },
+    {
+      "date": "2025-01-21",
+      "type": "release",
+      "title": "1.1.21",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.21",
+      "points": null
+    },
+    {
+      "date": "2025-02-19",
+      "type": "release",
+      "title": "1.1.22",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.22",
+      "points": null
+    },
+    {
+      "date": "2025-03-03",
+      "type": "release",
+      "title": "1.1.23",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.23",
+      "points": null
+    },
+    {
+      "date": "2025-03-24",
+      "type": "release",
+      "title": "1.1.24",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.24",
+      "points": null
+    },
+    {
+      "date": "2025-04-24",
+      "type": "release",
+      "title": "1.1.25",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.25",
+      "points": null
+    },
+    {
+      "date": "2025-06-17",
+      "type": "release",
+      "title": "1.1.26",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.26",
+      "points": null
+    },
+    {
+      "date": "2025-06-30",
+      "type": "release",
+      "title": "1.1.27",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.27",
+      "points": null
+    },
+    {
+      "date": "2025-08-12",
+      "type": "release",
+      "title": "1.1.29",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.29",
+      "points": null
+    },
+    {
+      "date": "2025-10-08",
+      "type": "release",
+      "title": "1.1.30",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.30",
+      "points": null
+    },
+    {
+      "date": "2025-11-26",
+      "type": "release",
+      "title": "1.1.32",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.32",
+      "points": null
+    },
+    {
+      "date": "2026-01-20",
+      "type": "release",
+      "title": "1.1.33",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.33",
+      "points": null
+    },
+    {
+      "date": "2026-04-20",
+      "type": "release",
+      "title": "1.1.34",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.34",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "1.1.36",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.36",
+      "points": null
+    },
+    {
+      "date": "2026-08-25",
+      "type": "release",
+      "title": "1.1.35",
+      "url": "https://github.com/openappsec/openappsec/releases/tag/1.1.35",
+      "points": null
+    }
+  ]
 }

@@ -29,5 +29,56 @@
       "openIssues": 3
     }
   ],
-  "weight": 3430
+  "weight": 3430,
+  "events": [
+    {
+      "date": "2025-02-09",
+      "type": "release",
+      "title": "v4.0.0",
+      "url": "https://github.com/dohooo/react-native-reanimated-carousel/releases/tag/v4.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-10",
+      "type": "release",
+      "title": "v4.0.1",
+      "url": "https://github.com/dohooo/react-native-reanimated-carousel/releases/tag/v4.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-02-11",
+      "type": "release",
+      "title": "v4.0.2",
+      "url": "https://github.com/dohooo/react-native-reanimated-carousel/releases/tag/v4.0.2",
+      "points": null
+    },
+    {
+      "date": "2025-08-08",
+      "type": "release",
+      "title": "v4.0.3",
+      "url": "https://github.com/dohooo/react-native-reanimated-carousel/releases/tag/v4.0.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-25",
+      "type": "release",
+      "title": "v5.0.0",
+      "url": "https://github.com/dohooo/react-native-reanimated-carousel/releases/tag/v5.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "v5.1.0",
+      "url": "https://github.com/dohooo/react-native-reanimated-carousel/releases/tag/v5.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-08",
+      "type": "release",
+      "title": "v5.1.1",
+      "url": "https://github.com/dohooo/react-native-reanimated-carousel/releases/tag/v5.1.1",
+      "points": null
+    }
+  ]
 }

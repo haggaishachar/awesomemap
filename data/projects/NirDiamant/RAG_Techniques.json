@@ -29,10 +29,19 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 29336,
-      "forks": 3588,
+      "stars": 29342,
+      "forks": 3589,
       "openIssues": 6
     }
   ],
-  "weight": 29313
+  "weight": 29313,
+  "events": [
+    {
+      "date": "2026-04-15",
+      "type": "release",
+      "title": "RAG Made Simple: Visual Companion Book",
+      "url": "https://github.com/NirDiamant/RAG_Techniques/releases/tag/book-v1.0",
+      "points": null
+    }
+  ]
 }

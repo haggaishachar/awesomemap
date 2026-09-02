@@ -4,14 +4,37 @@
   "link": "https://github.com/simsong/tcpflow",
   "name": "tcpflow",
   "desc": "TCP/IP packet demultiplexer. Download from:",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "tcpflow",
+  "githubDescription": "TCP/IP packet demultiplexer. Download from:",
   "tags": [
     "digital-forensics",
     "forensics",
     "tcp-protocol",
     "tcpip"
   ],
-  "history": [],
-  "weight": 1775
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1775,
+      "forks": 245,
+      "openIssues": 74
+    }
+  ],
+  "weight": 1775,
+  "events": [
+    {
+      "date": "2018-09-27",
+      "type": "release",
+      "title": "tcpflow v1.5.0",
+      "url": "https://github.com/simsong/tcpflow/releases/tag/tcpflow-1.5.0",
+      "points": null
+    },
+    {
+      "date": "2021-02-19",
+      "type": "release",
+      "title": "tcpflow v1.6.1",
+      "url": "https://github.com/simsong/tcpflow/releases/tag/tcpflow-1.6.1",
+      "points": null
+    }
+  ]
 }

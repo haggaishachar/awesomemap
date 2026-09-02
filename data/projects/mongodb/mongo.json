@@ -103,9 +103,18 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 28522,
+      "stars": 28523,
       "forks": 5798,
       "openIssues": 32
+    }
+  ],
+  "events": [
+    {
+      "date": "2013-05-30",
+      "type": "hn",
+      "title": "Wait, What?",
+      "url": "https://news.ycombinator.com/item?id=5791854",
+      "points": 66
     }
   ]
 }

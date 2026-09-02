@@ -83,9 +83,221 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 38797,
-      "forks": 12680,
-      "openIssues": 1804
+      "stars": 38806,
+      "forks": 12682,
+      "openIssues": 1813
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "Patch-test v14 baseline",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v14-baseline",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "v16.26.1",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v16.26.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "v16.26.0",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v16.26.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "v15.115.0",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v15.115.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-03",
+      "type": "release",
+      "title": "v16.26.2",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v16.26.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-13",
+      "type": "release",
+      "title": "v16.27.0",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v16.27.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-13",
+      "type": "release",
+      "title": "v15.116.0",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v15.116.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-15",
+      "type": "release",
+      "title": "v16.28.0",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v16.28.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-15",
+      "type": "release",
+      "title": "v15.117.0",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v15.117.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-22",
+      "type": "release",
+      "title": "v16.29.0",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v16.29.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-22",
+      "type": "release",
+      "title": "v15.118.0",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v15.118.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "v15.118.1",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v15.118.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "v16.30.0",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v16.30.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "v15.118.2",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v15.118.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "v15.118.3",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v15.118.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "v16.31.0",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v16.31.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "v15.119.0",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v15.119.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "title": "v16.31.1",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v16.31.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "v16.32.0",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v16.32.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "v15.119.1",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v15.119.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "v16.32.1",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v16.32.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "v15.119.2",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v15.119.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "v16.32.3",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v16.32.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "v16.32.2",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v16.32.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "v15.119.3",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v15.119.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-25",
+      "type": "release",
+      "title": "v16.33.0",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v16.33.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-25",
+      "type": "release",
+      "title": "v15.120.0",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v15.120.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "v16.34.1",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v16.34.1",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "v16.34.0",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v16.34.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "v15.121.0",
+      "url": "https://github.com/frappe/erpnext/releases/tag/v15.121.0",
+      "points": null
     }
   ]
 }

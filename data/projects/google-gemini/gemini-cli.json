@@ -4,8 +4,8 @@
   "link": "https://github.com/google-gemini/gemini-cli",
   "name": "gemini-cli",
   "desc": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "gemini-cli",
+  "githubDescription": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
   "tags": [
     "ai",
     "ai-agents",
@@ -15,7 +15,51 @@
     "mcp-client",
     "mcp-server"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 106773,
+      "forks": 14517,
+      "openIssues": 860
+    }
+  ],
   "weight": 106762,
-  "image": "https://avatars.githubusercontent.com/u/161781182?v=4"
+  "image": "https://avatars.githubusercontent.com/u/161781182?v=4",
+  "events": [
+    {
+      "date": "2026-01-22",
+      "type": "hn",
+      "title": "It looks like the status/need-triage label was removed",
+      "url": "https://news.ycombinator.com/item?id=46721179",
+      "points": 303
+    },
+    {
+      "date": "2026-02-28",
+      "type": "hn",
+      "title": "Addressing Antigravity Bans and Reinstating Access",
+      "url": "https://news.ycombinator.com/item?id=47195371",
+      "points": 254
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "Release v0.56.0",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-25",
+      "type": "release",
+      "title": "Release v0.57.0",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.57.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "Release v0.58.0",
+      "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.58.0",
+      "points": null
+    }
+  ]
 }

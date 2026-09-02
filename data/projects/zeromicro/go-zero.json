@@ -4,8 +4,8 @@
   "link": "https://github.com/zeromicro/go-zero",
   "name": "go-zero",
   "desc": "A cloud-native Go microservices framework with cli tool for productivity.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "go-zero",
+  "githubDescription": "A cloud-native Go microservices framework with cli tool for productivity.",
   "tags": [
     "ai-native",
     "ai-native-development",
@@ -28,7 +28,233 @@
     "spec-driven-development",
     "web-framework"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 33300,
+      "forks": 4316,
+      "openIssues": 258
+    }
+  ],
   "weight": 33302,
-  "image": "https://avatars.githubusercontent.com/u/74225106?v=4"
+  "image": "https://avatars.githubusercontent.com/u/74225106?v=4",
+  "events": [
+    {
+      "date": "2021-09-20",
+      "type": "hn",
+      "title": "Show HN: A microservice framework, listed in CNCF Landscape, 1 year 10k+ stars",
+      "url": "https://news.ycombinator.com/item?id=28595129",
+      "points": 65
+    },
+    {
+      "date": "2025-02-12",
+      "type": "release",
+      "title": "goctl/v1.7.7",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/tools/goctl/v1.7.7",
+      "points": null
+    },
+    {
+      "date": "2025-03-01",
+      "type": "release",
+      "title": "goctl/v1.8.1",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/tools/goctl/v1.8.1",
+      "points": null
+    },
+    {
+      "date": "2025-03-01",
+      "type": "release",
+      "title": "v1.8.1",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/v1.8.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-06",
+      "type": "release",
+      "title": "goctl/v1.8.2",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/tools/goctl/v1.8.2",
+      "points": null
+    },
+    {
+      "date": "2025-04-06",
+      "type": "release",
+      "title": "v1.8.2",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/v1.8.2",
+      "points": null
+    },
+    {
+      "date": "2025-04-27",
+      "type": "release",
+      "title": "goctl/v1.8.3-beta",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/tools/goctl/v1.8.3-beta",
+      "points": null
+    },
+    {
+      "date": "2025-05-04",
+      "type": "release",
+      "title": "v1.8.3",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/v1.8.3",
+      "points": null
+    },
+    {
+      "date": "2025-05-04",
+      "type": "release",
+      "title": "goctl/v1.8.3",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/tools/goctl/v1.8.3",
+      "points": null
+    },
+    {
+      "date": "2025-05-15",
+      "type": "release",
+      "title": "goctl/v1.8.4-alpha",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/tools/goctl/v1.8.4-alpha",
+      "points": null
+    },
+    {
+      "date": "2025-05-25",
+      "type": "release",
+      "title": "tools/goctl/v1.8.4-beta",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/tools/goctl/v1.8.4-beta",
+      "points": null
+    },
+    {
+      "date": "2025-06-08",
+      "type": "release",
+      "title": "v1.8.4",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/v1.8.4",
+      "points": null
+    },
+    {
+      "date": "2025-06-09",
+      "type": "release",
+      "title": "goctl/v1.8.4",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/tools/goctl/v1.8.4",
+      "points": null
+    },
+    {
+      "date": "2025-07-12",
+      "type": "release",
+      "title": "v1.8.5",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/v1.8.5",
+      "points": null
+    },
+    {
+      "date": "2025-07-13",
+      "type": "release",
+      "title": "goctl/v1.8.5",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/tools/goctl/v1.8.5",
+      "points": null
+    },
+    {
+      "date": "2025-08-17",
+      "type": "release",
+      "title": "goctl/v1.9.0-alpha",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/tools/goctl/v1.9.0-alpha",
+      "points": null
+    },
+    {
+      "date": "2025-08-17",
+      "type": "release",
+      "title": "v1.9.0",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/v1.9.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-31",
+      "type": "release",
+      "title": "goctl/v1.9.0",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/tools/goctl/v1.9.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-02",
+      "type": "release",
+      "title": "v1.9.1",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/v1.9.1",
+      "points": null
+    },
+    {
+      "date": "2025-10-02",
+      "type": "release",
+      "title": "goctl/v1.9.1",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/tools/goctl/v1.9.1",
+      "points": null
+    },
+    {
+      "date": "2025-10-11",
+      "type": "release",
+      "title": "v1.9.2",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/v1.9.2",
+      "points": null
+    },
+    {
+      "date": "2025-10-12",
+      "type": "release",
+      "title": "goctl/v1.9.2",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/tools/goctl/v1.9.2",
+      "points": null
+    },
+    {
+      "date": "2025-11-16",
+      "type": "release",
+      "title": "v1.9.3",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/v1.9.3",
+      "points": null
+    },
+    {
+      "date": "2025-12-24",
+      "type": "release",
+      "title": "v1.9.4",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/v1.9.4",
+      "points": null
+    },
+    {
+      "date": "2026-02-15",
+      "type": "release",
+      "title": "goctl/v1.10.0",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/tools/goctl/v1.10.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-15",
+      "type": "release",
+      "title": "v1.10.0",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/v1.10.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-28",
+      "type": "release",
+      "title": "v1.10.1",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/v1.10.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-28",
+      "type": "release",
+      "title": "goctl/v1.10.1",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/tools/goctl/v1.10.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-31",
+      "type": "release",
+      "title": "v1.10.2",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/v1.10.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-01",
+      "type": "release",
+      "title": "goctl/v1.10.2",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/tools/goctl/v1.10.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-01",
+      "type": "release",
+      "title": "v1.10.3",
+      "url": "https://github.com/zeromicro/go-zero/releases/tag/v1.10.3",
+      "points": null
+    }
+  ]
 }

@@ -44,9 +44,109 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 1985,
+      "stars": 1989,
       "forks": 67,
       "openIssues": 118
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-11-07",
+      "type": "release",
+      "title": "v0.7.0 Calibrated Expectations",
+      "url": "https://github.com/agittins/bermuda/releases/tag/v0.7.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-13",
+      "type": "release",
+      "title": "v0.7.1 Bugfix release",
+      "url": "https://github.com/agittins/bermuda/releases/tag/v0.7.1",
+      "points": null
+    },
+    {
+      "date": "2024-11-14",
+      "type": "release",
+      "title": "v0.7.2 - Fix local bluetooth dongles",
+      "url": "https://github.com/agittins/bermuda/releases/tag/v0.7.2",
+      "points": null
+    },
+    {
+      "date": "2025-02-04",
+      "type": "release",
+      "title": "v0.7.3 HA 2025.2.0 Compatability, Performance improvements",
+      "url": "https://github.com/agittins/bermuda/releases/tag/v0.7.3",
+      "points": null
+    },
+    {
+      "date": "2025-02-09",
+      "type": "release",
+      "title": "v0.7.4 Last Seen Sensor, Repairs and Regressions!",
+      "url": "https://github.com/agittins/bermuda/releases/tag/v0.7.4",
+      "points": null
+    },
+    {
+      "date": "2025-04-15",
+      "type": "release",
+      "title": "v0.8.0-rc1 Area Stability, System Stability",
+      "url": "https://github.com/agittins/bermuda/releases/tag/v0.8.0-rc1",
+      "points": null
+    },
+    {
+      "date": "2025-04-23",
+      "type": "release",
+      "title": "v0.8.1 Bugfix release - unknown due to pruning",
+      "url": "https://github.com/agittins/bermuda/releases/tag/v0.8.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-23",
+      "type": "release",
+      "title": "v0.8.0 iOS and Stability improvements",
+      "url": "https://github.com/agittins/bermuda/releases/tag/v0.8.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-20",
+      "type": "release",
+      "title": "Known Unknowns",
+      "url": "https://github.com/agittins/bermuda/releases/tag/v0.8.2",
+      "points": null
+    },
+    {
+      "date": "2025-05-22",
+      "type": "release",
+      "title": "v0.8.3 Security Release: fix for Download Diagnostics",
+      "url": "https://github.com/agittins/bermuda/releases/tag/v0.8.3",
+      "points": null
+    },
+    {
+      "date": "2025-05-23",
+      "type": "release",
+      "title": "v0.8.4 Bugfixes, Unavailable devices, Bluecharm",
+      "url": "https://github.com/agittins/bermuda/releases/tag/v0.8.4",
+      "points": null
+    },
+    {
+      "date": "2025-08-05",
+      "type": "release",
+      "title": "v0.8.5 Perception of Prodigal Proxies",
+      "url": "https://github.com/agittins/bermuda/releases/tag/v0.8.5",
+      "points": null
+    },
+    {
+      "date": "2026-07-04",
+      "type": "release",
+      "title": "v0.8.6 It lives...",
+      "url": "https://github.com/agittins/bermuda/releases/tag/v0.8.6",
+      "points": null
+    },
+    {
+      "date": "2026-07-11",
+      "type": "release",
+      "title": "v0.8.7",
+      "url": "https://github.com/agittins/bermuda/releases/tag/v0.8.7",
+      "points": null
     }
   ]
 }

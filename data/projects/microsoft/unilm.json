@@ -37,5 +37,42 @@
     }
   ],
   "weight": 22200,
-  "image": "https://avatars.githubusercontent.com/u/6154722?v=4"
+  "image": "https://avatars.githubusercontent.com/u/6154722?v=4",
+  "events": [
+    {
+      "date": "2020-03-10",
+      "type": "release",
+      "title": "s2s-ft version 0.0",
+      "url": "https://github.com/microsoft/unilm/releases/tag/s2s-ft.v0.0",
+      "points": null
+    },
+    {
+      "date": "2020-03-13",
+      "type": "release",
+      "title": "s2s-ft version 0.2",
+      "url": "https://github.com/microsoft/unilm/releases/tag/s2s-ft.v0.2",
+      "points": null
+    },
+    {
+      "date": "2020-04-02",
+      "type": "release",
+      "title": "s2s-ft version 0.3",
+      "url": "https://github.com/microsoft/unilm/releases/tag/s2s-ft.v0.3",
+      "points": null
+    },
+    {
+      "date": "2023-03-01",
+      "type": "hn",
+      "title": "Microsoft Kosmos-1: A Multimodal Large Language Model",
+      "url": "https://news.ycombinator.com/item?id=34980449",
+      "points": 228
+    },
+    {
+      "date": "2024-05-09",
+      "type": "release",
+      "title": "YOCO",
+      "url": "https://github.com/microsoft/unilm/releases/tag/yoco.v0",
+      "points": null
+    }
+  ]
 }

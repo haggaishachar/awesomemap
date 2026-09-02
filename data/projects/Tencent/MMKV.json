@@ -27,10 +27,222 @@
     {
       "date": "2026-09-02",
       "stars": 18720,
-      "forks": 1983,
+      "forks": 1984,
       "openIssues": 0
     }
   ],
   "weight": 18720,
-  "image": "https://avatars.githubusercontent.com/u/18461506?v=4"
+  "image": "https://avatars.githubusercontent.com/u/18461506?v=4",
+  "events": [
+    {
+      "date": "2023-01-12",
+      "type": "release",
+      "title": "v1.2.15",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v1.2.15",
+      "points": null
+    },
+    {
+      "date": "2023-04-20",
+      "type": "release",
+      "title": "v1.2.16",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v1.2.16",
+      "points": null
+    },
+    {
+      "date": "2023-06-14",
+      "type": "release",
+      "title": "v1.3.0",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v1.3.0",
+      "points": null
+    },
+    {
+      "date": "2023-08-11",
+      "type": "release",
+      "title": "v1.3.1",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v1.3.1",
+      "points": null
+    },
+    {
+      "date": "2023-11-20",
+      "type": "release",
+      "title": "v1.3.2",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v1.3.2",
+      "points": null
+    },
+    {
+      "date": "2024-01-25",
+      "type": "release",
+      "title": "v1.3.3",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v1.3.3",
+      "points": null
+    },
+    {
+      "date": "2024-03-15",
+      "type": "release",
+      "title": "v1.3.4",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v1.3.4",
+      "points": null
+    },
+    {
+      "date": "2024-04-24",
+      "type": "release",
+      "title": "v1.3.5",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v1.3.5",
+      "points": null
+    },
+    {
+      "date": "2024-07-05",
+      "type": "release",
+      "title": "v1.3.6",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v1.3.6",
+      "points": null
+    },
+    {
+      "date": "2024-07-08",
+      "type": "release",
+      "title": "v1.3.7 LTS",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v1.3.7",
+      "points": null
+    },
+    {
+      "date": "2024-07-26",
+      "type": "release",
+      "title": "v1.3.9 LTS",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v1.3.9",
+      "points": null
+    },
+    {
+      "date": "2024-10-22",
+      "type": "release",
+      "title": "v2.0.0",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v2.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-12",
+      "type": "release",
+      "title": "v2.0.1",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v2.0.1",
+      "points": null
+    },
+    {
+      "date": "2024-11-12",
+      "type": "release",
+      "title": "v1.3.11 LTS",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v1.3.11",
+      "points": null
+    },
+    {
+      "date": "2024-12-27",
+      "type": "release",
+      "title": "v2.0.2",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v2.0.2",
+      "points": null
+    },
+    {
+      "date": "2025-01-02",
+      "type": "release",
+      "title": "v1.3.12 LTS",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v1.3.12",
+      "points": null
+    },
+    {
+      "date": "2025-01-13",
+      "type": "release",
+      "title": "v1.3.13 LTS",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v1.3.13",
+      "points": null
+    },
+    {
+      "date": "2025-02-18",
+      "type": "release",
+      "title": "v2.1.0",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v2.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-24",
+      "type": "release",
+      "title": "v2.2.0",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v2.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-25",
+      "type": "release",
+      "title": "v2.2.1",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v2.2.1",
+      "points": null
+    },
+    {
+      "date": "2025-05-08",
+      "type": "release",
+      "title": "v2.2.2",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v2.2.2",
+      "points": null
+    },
+    {
+      "date": "2025-05-14",
+      "type": "release",
+      "title": "v1.3.14 LTS",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v1.3.14",
+      "points": null
+    },
+    {
+      "date": "2025-08-20",
+      "type": "release",
+      "title": "v2.2.3",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v2.2.3",
+      "points": null
+    },
+    {
+      "date": "2025-09-25",
+      "type": "release",
+      "title": "v2.2.4",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v2.2.4",
+      "points": null
+    },
+    {
+      "date": "2025-12-02",
+      "type": "release",
+      "title": "v2.3.0",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v2.3.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-03",
+      "type": "release",
+      "title": "v1.3.16",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v1.3.16",
+      "points": null
+    },
+    {
+      "date": "2026-03-25",
+      "type": "release",
+      "title": "v2.4.0",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v2.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "v2.4.1",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v2.4.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-03",
+      "type": "release",
+      "title": "v1.3.17",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v1.3.17",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "v2.4.2",
+      "url": "https://github.com/Tencent/MMKV/releases/tag/v2.4.2",
+      "points": null
+    }
+  ]
 }

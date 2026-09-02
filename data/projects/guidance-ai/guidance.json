@@ -98,5 +98,77 @@
       "forks": 1204,
       "openIssues": 323
     }
+  ],
+  "events": [
+    {
+      "date": "2023-09-16",
+      "type": "hn",
+      "title": "Guidance: A guidance language for controlling large language models",
+      "url": "https://news.ycombinator.com/item?id=37538350",
+      "points": 103
+    },
+    {
+      "date": "2024-08-19",
+      "type": "release",
+      "title": "0.1.16",
+      "url": "https://github.com/guidance-ai/guidance/releases/tag/0.1.16",
+      "points": null
+    },
+    {
+      "date": "2025-01-07",
+      "type": "release",
+      "title": "0.2.0",
+      "url": "https://github.com/guidance-ai/guidance/releases/tag/0.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-19",
+      "type": "release",
+      "title": "0.2.2",
+      "url": "https://github.com/guidance-ai/guidance/releases/tag/0.2.2",
+      "points": null
+    },
+    {
+      "date": "2025-06-23",
+      "type": "release",
+      "title": "0.2.3",
+      "url": "https://github.com/guidance-ai/guidance/releases/tag/0.2.3",
+      "points": null
+    },
+    {
+      "date": "2025-07-08",
+      "type": "release",
+      "title": "0.2.4",
+      "url": "https://github.com/guidance-ai/guidance/releases/tag/0.2.4",
+      "points": null
+    },
+    {
+      "date": "2025-07-30",
+      "type": "release",
+      "title": "0.2.5",
+      "url": "https://github.com/guidance-ai/guidance/releases/tag/0.2.5",
+      "points": null
+    },
+    {
+      "date": "2025-09-09",
+      "type": "release",
+      "title": "0.3.0",
+      "url": "https://github.com/guidance-ai/guidance/releases/tag/0.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-03",
+      "type": "release",
+      "title": "Guidance 0.3.1",
+      "url": "https://github.com/guidance-ai/guidance/releases/tag/0.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-18",
+      "type": "release",
+      "title": "Guidance 0.3.2",
+      "url": "https://github.com/guidance-ai/guidance/releases/tag/0.3.2",
+      "points": null
+    }
   ]
 }

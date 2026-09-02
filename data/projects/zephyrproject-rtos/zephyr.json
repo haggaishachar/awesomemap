@@ -79,9 +79,95 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 16376,
-      "forks": 9889,
-      "openIssues": 3880
+      "stars": 16379,
+      "forks": 9892,
+      "openIssues": 3892
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-11-16",
+      "type": "release",
+      "title": "Zephyr 4.0.0",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/releases/tag/v4.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-22",
+      "type": "release",
+      "title": "Zephyr 3.7.1 (LTS)",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/releases/tag/v3.7.1",
+      "points": null
+    },
+    {
+      "date": "2025-03-07",
+      "type": "release",
+      "title": "Zephyr 4.1.0",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/releases/tag/v4.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-19",
+      "type": "release",
+      "title": "Zephyr 4.2.0",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/releases/tag/v4.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-07",
+      "type": "release",
+      "title": " Zephyr 4.2.1",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/releases/tag/v4.2.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-13",
+      "type": "release",
+      "title": "Zephyr 4.3.0",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/releases/tag/v4.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-23",
+      "type": "release",
+      "title": "Zephyr 4.2.2",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/releases/tag/v4.2.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-31",
+      "type": "release",
+      "title": "Zephyr LTS 3.7.2",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/releases/tag/v3.7.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-14",
+      "type": "release",
+      "title": "Zephyr 4.4.0",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/releases/tag/v4.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "Zephyr v4.4.1",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/releases/tag/v4.4.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "Zephyr v4.3.1",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/releases/tag/v4.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "Zephyr 4.4.2",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/releases/tag/v4.4.2",
+      "points": null
     }
   ]
 }

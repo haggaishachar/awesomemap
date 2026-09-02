@@ -77,5 +77,77 @@
       "forks": 208,
       "openIssues": 131
     }
+  ],
+  "events": [
+    {
+      "date": "2020-06-05",
+      "type": "release",
+      "title": "v2.5.0",
+      "url": "https://github.com/rhasspy/rhasspy/releases/tag/v2.5.0",
+      "points": null
+    },
+    {
+      "date": "2020-07-08",
+      "type": "release",
+      "title": "v2.5.1",
+      "url": "https://github.com/rhasspy/rhasspy/releases/tag/v2.5.1",
+      "points": null
+    },
+    {
+      "date": "2020-07-31",
+      "type": "release",
+      "title": "v2.5.5",
+      "url": "https://github.com/rhasspy/rhasspy/releases/tag/v2.5.5",
+      "points": null
+    },
+    {
+      "date": "2020-10-03",
+      "type": "release",
+      "title": "v.2.5.6",
+      "url": "https://github.com/rhasspy/rhasspy/releases/tag/v2.5.6",
+      "points": null
+    },
+    {
+      "date": "2020-10-16",
+      "type": "release",
+      "title": "v2.5.7",
+      "url": "https://github.com/rhasspy/rhasspy/releases/tag/v2.5.7",
+      "points": null
+    },
+    {
+      "date": "2020-11-19",
+      "type": "release",
+      "title": "v2.5.8",
+      "url": "https://github.com/rhasspy/rhasspy/releases/tag/v2.5.8",
+      "points": null
+    },
+    {
+      "date": "2021-01-16",
+      "type": "release",
+      "title": "v2.5.9",
+      "url": "https://github.com/rhasspy/rhasspy/releases/tag/v2.5.9",
+      "points": null
+    },
+    {
+      "date": "2021-04-01",
+      "type": "release",
+      "title": "v2.5.10",
+      "url": "https://github.com/rhasspy/rhasspy/releases/tag/v2.5.10",
+      "points": null
+    },
+    {
+      "date": "2021-08-08",
+      "type": "release",
+      "title": "v2.5.11",
+      "url": "https://github.com/rhasspy/rhasspy/releases/tag/v2.5.11",
+      "points": null
+    },
+    {
+      "date": "2022-11-22",
+      "type": "hn",
+      "title": "Rhasspy – Offline private voice assistant for many human languages",
+      "url": "https://news.ycombinator.com/item?id=33705938",
+      "points": 195
+    }
   ]
 }

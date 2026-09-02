@@ -112,9 +112,186 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 18733,
-      "forks": 4061,
-      "openIssues": 512
+      "stars": 18736,
+      "forks": 4063,
+      "openIssues": 513
+    }
+  ],
+  "events": [
+    {
+      "date": "2018-09-18",
+      "type": "release",
+      "title": "v2.2.0",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v2.2.0",
+      "points": null
+    },
+    {
+      "date": "2018-10-03",
+      "type": "release",
+      "title": "v2.2.1",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v2.2.1",
+      "points": null
+    },
+    {
+      "date": "2018-11-06",
+      "type": "release",
+      "title": "v2.2.2",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v2.2.2",
+      "points": null
+    },
+    {
+      "date": "2019-02-05",
+      "type": "release",
+      "title": "v2.2.3",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v2.2.3",
+      "points": null
+    },
+    {
+      "date": "2019-09-29",
+      "type": "release",
+      "title": "v2.3.0",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v2.3.0",
+      "points": null
+    },
+    {
+      "date": "2019-11-28",
+      "type": "release",
+      "title": "v2.3.1",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v2.3.1",
+      "points": null
+    },
+    {
+      "date": "2020-09-01",
+      "type": "release",
+      "title": "v3.0.0",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2020-11-16",
+      "type": "release",
+      "title": "v3.1.0",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v3.1.0",
+      "points": null
+    },
+    {
+      "date": "2020-12-08",
+      "type": "release",
+      "title": "v3.1.1",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v3.1.1",
+      "points": null
+    },
+    {
+      "date": "2021-03-22",
+      "type": "release",
+      "title": "v3.2.0",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v3.2.0",
+      "points": null
+    },
+    {
+      "date": "2021-04-12",
+      "type": "release",
+      "title": "v3.2.1",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v3.2.1",
+      "points": null
+    },
+    {
+      "date": "2021-10-09",
+      "type": "release",
+      "title": "v3.3.0",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v3.3.0",
+      "points": null
+    },
+    {
+      "date": "2021-10-27",
+      "type": "release",
+      "title": "v3.3.1",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v3.3.1",
+      "points": null
+    },
+    {
+      "date": "2022-01-07",
+      "type": "release",
+      "title": "v3.3.2",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v3.3.2",
+      "points": null
+    },
+    {
+      "date": "2022-10-10",
+      "type": "release",
+      "title": "v3.3.3",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v3.3.3",
+      "points": null
+    },
+    {
+      "date": "2023-01-04",
+      "type": "release",
+      "title": "v3.3.4",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v3.3.4",
+      "points": null
+    },
+    {
+      "date": "2023-01-24",
+      "type": "release",
+      "title": "v3.3.5",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v3.3.5",
+      "points": null
+    },
+    {
+      "date": "2023-07-13",
+      "type": "release",
+      "title": "v4.0.0",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v4.0.0",
+      "points": null
+    },
+    {
+      "date": "2023-09-12",
+      "type": "release",
+      "title": "v4.1.0",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v4.1.0",
+      "points": null
+    },
+    {
+      "date": "2023-12-21",
+      "type": "release",
+      "title": "v4.2.0",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v4.2.0",
+      "points": null
+    },
+    {
+      "date": "2024-01-26",
+      "type": "release",
+      "title": "v4.3.0",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v4.3.0",
+      "points": null
+    },
+    {
+      "date": "2024-06-15",
+      "type": "release",
+      "title": "v4.4.0",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v4.4.0",
+      "points": null
+    },
+    {
+      "date": "2024-07-25",
+      "type": "release",
+      "title": "v4.5.0",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v4.5.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-15",
+      "type": "release",
+      "title": "v4.6.0",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v4.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-18",
+      "type": "release",
+      "title": "v4.7.0",
+      "url": "https://github.com/lightgbm-org/LightGBM/releases/tag/v4.7.0",
+      "points": null
     }
   ]
 }

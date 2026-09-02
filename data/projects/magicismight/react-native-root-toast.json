@@ -15,5 +15,14 @@
       "openIssues": 95
     }
   ],
-  "weight": 2136
+  "weight": 2136,
+  "events": [
+    {
+      "date": "2025-03-25",
+      "type": "release",
+      "title": "v4.0.0",
+      "url": "https://github.com/magicismight/react-native-root-toast/releases/tag/v4.0.0",
+      "points": null
+    }
+  ]
 }

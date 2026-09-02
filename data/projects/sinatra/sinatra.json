@@ -4,15 +4,31 @@
   "link": "https://github.com/sinatra/sinatra",
   "name": "sinatra",
   "desc": "Classy web-development dressed in a DSL (official / canonical repo)",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "sinatra",
+  "githubDescription": "Classy web-development dressed in a DSL (official / canonical repo)",
   "tags": [
     "rack",
     "ruby",
     "sinatra",
     "web-framework"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 12449,
+      "forks": 2070,
+      "openIssues": 44
+    }
+  ],
   "weight": 12449,
-  "image": "https://avatars.githubusercontent.com/u/8312?v=4"
+  "image": "https://avatars.githubusercontent.com/u/8312?v=4",
+  "events": [
+    {
+      "date": "2017-05-08",
+      "type": "hn",
+      "title": "Sinatra 2.0 released",
+      "url": "https://news.ycombinator.com/item?id=14288885",
+      "points": 259
+    }
+  ]
 }

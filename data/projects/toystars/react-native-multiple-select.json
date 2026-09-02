@@ -4,9 +4,46 @@
   "link": "https://github.com/toystars/react-native-multiple-select",
   "name": "react-native-multiple-select",
   "desc": "Simple multi-select component for react-native",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-multiple-select",
+  "githubDescription": "Simple multi-select component for react-native",
   "tags": [],
-  "history": [],
-  "weight": 589
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 589,
+      "forks": 316,
+      "openIssues": 108
+    }
+  ],
+  "weight": 589,
+  "events": [
+    {
+      "date": "2017-06-05",
+      "type": "release",
+      "title": "First stable release",
+      "url": "https://github.com/toystars/react-native-multiple-select/releases/tag/v0.2.1",
+      "points": null
+    },
+    {
+      "date": "2018-01-27",
+      "type": "release",
+      "title": "Version 0.4.0",
+      "url": "https://github.com/toystars/react-native-multiple-select/releases/tag/v0.4.0",
+      "points": null
+    },
+    {
+      "date": "2019-06-02",
+      "type": "release",
+      "title": "Version 0.5.2",
+      "url": "https://github.com/toystars/react-native-multiple-select/releases/tag/v0.5.2",
+      "points": null
+    },
+    {
+      "date": "2022-08-22",
+      "type": "release",
+      "title": "Version v0.5.11",
+      "url": "https://github.com/toystars/react-native-multiple-select/releases/tag/v0.5.11",
+      "points": null
+    }
+  ]
 }

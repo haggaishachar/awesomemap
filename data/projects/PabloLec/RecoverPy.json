@@ -4,8 +4,8 @@
   "link": "https://github.com/PabloLec/RecoverPy",
   "name": "RecoverPy",
   "desc": "Interactively find and recover deleted or :point_right: overwritten :point_left: files from your terminal",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "RecoverPy",
+  "githubDescription": "Interactively find and recover deleted or :point_right: overwritten :point_left: files from your terminal",
   "tags": [
     "cli",
     "console",
@@ -28,7 +28,226 @@
     "tool",
     "tui"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1784,
+      "forks": 88,
+      "openIssues": 4
+    }
+  ],
   "weight": 1784,
-  "image": "https://raw.githubusercontent.com/PabloLec/RecoverPy/main/docs/assets/logo.png"
+  "image": "https://raw.githubusercontent.com/PabloLec/RecoverPy/main/docs/assets/logo.png",
+  "events": [
+    {
+      "date": "2021-07-12",
+      "type": "release",
+      "title": "1.3.0",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/v1.3.0",
+      "points": null
+    },
+    {
+      "date": "2021-09-25",
+      "type": "release",
+      "title": "1.3.1",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/1.3.1",
+      "points": null
+    },
+    {
+      "date": "2021-09-29",
+      "type": "release",
+      "title": "1.3.2",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/1.3.2",
+      "points": null
+    },
+    {
+      "date": "2021-10-23",
+      "type": "release",
+      "title": "1.4.0",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/1.4.0",
+      "points": null
+    },
+    {
+      "date": "2021-11-01",
+      "type": "release",
+      "title": "1.4.1",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/1.4.1",
+      "points": null
+    },
+    {
+      "date": "2022-04-02",
+      "type": "release",
+      "title": "1.5.0",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/1.5.0",
+      "points": null
+    },
+    {
+      "date": "2022-05-14",
+      "type": "release",
+      "title": "1.5.1",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/1.5.1",
+      "points": null
+    },
+    {
+      "date": "2022-08-06",
+      "type": "release",
+      "title": "1.5.2",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/1.5.2",
+      "points": null
+    },
+    {
+      "date": "2023-01-14",
+      "type": "release",
+      "title": "2.0.0",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/2.0.0",
+      "points": null
+    },
+    {
+      "date": "2023-02-18",
+      "type": "release",
+      "title": "2.0.1",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/2.0.1",
+      "points": null
+    },
+    {
+      "date": "2023-03-03",
+      "type": "release",
+      "title": "2.0.3",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/2.0.3",
+      "points": null
+    },
+    {
+      "date": "2023-03-03",
+      "type": "release",
+      "title": "2.0.2",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/2.0.2",
+      "points": null
+    },
+    {
+      "date": "2023-03-10",
+      "type": "release",
+      "title": "2.0.4",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/2.0.4",
+      "points": null
+    },
+    {
+      "date": "2023-03-31",
+      "type": "release",
+      "title": "2.0.5",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/2.0.5",
+      "points": null
+    },
+    {
+      "date": "2023-04-29",
+      "type": "release",
+      "title": "2.0.6",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/2.0.6",
+      "points": null
+    },
+    {
+      "date": "2023-09-02",
+      "type": "release",
+      "title": "2.0.7",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/2.0.7",
+      "points": null
+    },
+    {
+      "date": "2023-09-09",
+      "type": "release",
+      "title": "2.1.0",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/2.1.0",
+      "points": null
+    },
+    {
+      "date": "2023-09-30",
+      "type": "release",
+      "title": "2.1.1",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/2.1.1",
+      "points": null
+    },
+    {
+      "date": "2023-10-11",
+      "type": "release",
+      "title": "2.1.2",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/2.1.2",
+      "points": null
+    },
+    {
+      "date": "2023-10-21",
+      "type": "release",
+      "title": "2.1.3",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/2.1.3",
+      "points": null
+    },
+    {
+      "date": "2023-11-26",
+      "type": "release",
+      "title": "2.1.4",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/2.1.4",
+      "points": null
+    },
+    {
+      "date": "2023-12-15",
+      "type": "release",
+      "title": "2.1.5",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/2.1.5",
+      "points": null
+    },
+    {
+      "date": "2024-02-17",
+      "type": "release",
+      "title": "2.1.6",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/2.1.6",
+      "points": null
+    },
+    {
+      "date": "2024-05-04",
+      "type": "release",
+      "title": "2.1.7",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/2.1.7",
+      "points": null
+    },
+    {
+      "date": "2024-06-08",
+      "type": "release",
+      "title": "2.1.8",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/2.1.8",
+      "points": null
+    },
+    {
+      "date": "2024-07-13",
+      "type": "release",
+      "title": "2.1.9",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/2.1.9",
+      "points": null
+    },
+    {
+      "date": "2024-11-16",
+      "type": "release",
+      "title": "2.1.10",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/2.1.10",
+      "points": null
+    },
+    {
+      "date": "2025-01-25",
+      "type": "release",
+      "title": "2.2.0",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/2.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-05",
+      "type": "release",
+      "title": "2.2.1",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/2.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-14",
+      "type": "release",
+      "title": "2.3.0",
+      "url": "https://github.com/PabloLec/RecoverPy/releases/tag/2.3.0",
+      "points": null
+    }
+  ]
 }

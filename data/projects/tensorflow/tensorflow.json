@@ -127,9 +127,200 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 198352,
-      "forks": 76225,
-      "openIssues": 3022
+      "stars": 198361,
+      "forks": 76228,
+      "openIssues": 3018
+    }
+  ],
+  "events": [
+    {
+      "date": "2015-12-09",
+      "type": "hn",
+      "title": "Tensorflow 0.6.0 Release",
+      "url": "https://news.ycombinator.com/item?id=10706999",
+      "points": 111
+    },
+    {
+      "date": "2016-02-26",
+      "type": "hn",
+      "title": "Show HN: Initial release of the distributed TensorFlow runtime",
+      "url": "https://news.ycombinator.com/item?id=11181304",
+      "points": 85
+    },
+    {
+      "date": "2017-01-27",
+      "type": "hn",
+      "title": "TensorFlow 1.0.0-rc0",
+      "url": "https://news.ycombinator.com/item?id=13500338",
+      "points": 103
+    },
+    {
+      "date": "2017-06-17",
+      "type": "hn",
+      "title": "Tensorflow v1.2 released",
+      "url": "https://news.ycombinator.com/item?id=14576912",
+      "points": 174
+    },
+    {
+      "date": "2018-01-26",
+      "type": "hn",
+      "title": "Tensorflow 1.5.0",
+      "url": "https://news.ycombinator.com/item?id=16239843",
+      "points": 137
+    },
+    {
+      "date": "2018-03-01",
+      "type": "hn",
+      "title": "Tensorflow 1.6.0 Released",
+      "url": "https://news.ycombinator.com/item?id=16496816",
+      "points": 125
+    },
+    {
+      "date": "2018-03-29",
+      "type": "hn",
+      "title": "TensorFlow 1.7.0 released",
+      "url": "https://news.ycombinator.com/item?id=16703754",
+      "points": 165
+    },
+    {
+      "date": "2018-09-28",
+      "type": "hn",
+      "title": "TensorFlow 1.11 released",
+      "url": "https://news.ycombinator.com/item?id=18095730",
+      "points": 55
+    },
+    {
+      "date": "2019-03-06",
+      "type": "hn",
+      "title": "Tensorflow 2.0.0-Alpha0",
+      "url": "https://news.ycombinator.com/item?id=19321074",
+      "points": 81
+    },
+    {
+      "date": "2019-06-07",
+      "type": "hn",
+      "title": "Tensorflow 2.0 Beta 0",
+      "url": "https://news.ycombinator.com/item?id=20125354",
+      "points": 109
+    },
+    {
+      "date": "2019-09-30",
+      "type": "hn",
+      "title": "Tensorflow 2.0",
+      "url": "https://news.ycombinator.com/item?id=21118018",
+      "points": 465
+    },
+    {
+      "date": "2023-07-05",
+      "type": "release",
+      "title": "TensorFlow 2.13.0",
+      "url": "https://github.com/tensorflow/tensorflow/releases/tag/v2.13.0",
+      "points": null
+    },
+    {
+      "date": "2023-09-26",
+      "type": "release",
+      "title": "TensorFlow 2.14.0",
+      "url": "https://github.com/tensorflow/tensorflow/releases/tag/v2.14.0",
+      "points": null
+    },
+    {
+      "date": "2023-09-26",
+      "type": "release",
+      "title": "TensorFlow 2.13.1",
+      "url": "https://github.com/tensorflow/tensorflow/releases/tag/v2.13.1",
+      "points": null
+    },
+    {
+      "date": "2023-11-14",
+      "type": "release",
+      "title": "TensorFlow 2.15.0",
+      "url": "https://github.com/tensorflow/tensorflow/releases/tag/v2.15.0",
+      "points": null
+    },
+    {
+      "date": "2023-11-14",
+      "type": "release",
+      "title": "TensorFlow 2.14.1",
+      "url": "https://github.com/tensorflow/tensorflow/releases/tag/v2.14.1",
+      "points": null
+    },
+    {
+      "date": "2024-03-07",
+      "type": "release",
+      "title": "TensorFlow 2.16.1",
+      "url": "https://github.com/tensorflow/tensorflow/releases/tag/v2.16.1",
+      "points": null
+    },
+    {
+      "date": "2024-03-08",
+      "type": "release",
+      "title": "TensorFlow 2.15.1",
+      "url": "https://github.com/tensorflow/tensorflow/releases/tag/v2.15.1",
+      "points": null
+    },
+    {
+      "date": "2024-06-28",
+      "type": "release",
+      "title": "TensorFlow 2.16.2",
+      "url": "https://github.com/tensorflow/tensorflow/releases/tag/v2.16.2",
+      "points": null
+    },
+    {
+      "date": "2024-07-11",
+      "type": "release",
+      "title": "TensorFlow 2.17.0",
+      "url": "https://github.com/tensorflow/tensorflow/releases/tag/v2.17.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-24",
+      "type": "release",
+      "title": "TensorFlow 2.18.0",
+      "url": "https://github.com/tensorflow/tensorflow/releases/tag/v2.18.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-24",
+      "type": "release",
+      "title": "TensorFlow 2.17.1",
+      "url": "https://github.com/tensorflow/tensorflow/releases/tag/v2.17.1",
+      "points": null
+    },
+    {
+      "date": "2025-03-11",
+      "type": "release",
+      "title": "TensorFlow 2.18.1",
+      "url": "https://github.com/tensorflow/tensorflow/releases/tag/v2.18.1",
+      "points": null
+    },
+    {
+      "date": "2025-03-12",
+      "type": "release",
+      "title": "TensorFlow 2.19.0",
+      "url": "https://github.com/tensorflow/tensorflow/releases/tag/v2.19.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-13",
+      "type": "release",
+      "title": "TensorFlow 2.19.1",
+      "url": "https://github.com/tensorflow/tensorflow/releases/tag/v2.19.1",
+      "points": null
+    },
+    {
+      "date": "2025-08-13",
+      "type": "release",
+      "title": "TensorFlow 2.20.0",
+      "url": "https://github.com/tensorflow/tensorflow/releases/tag/v2.20.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-06",
+      "type": "release",
+      "title": "TensorFlow 2.21.0",
+      "url": "https://github.com/tensorflow/tensorflow/releases/tag/v2.21.0",
+      "points": null
     }
   ]
 }

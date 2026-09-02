@@ -4,13 +4,232 @@
   "link": "https://github.com/react-native-device-info/react-native-device-info",
   "name": "react-native-device-info",
   "desc": "Device Information for React Native iOS and Android",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-device-info",
+  "githubDescription": "Device Information for React Native iOS and Android",
   "tags": [
     "hacktoberfest",
     "react-native"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 6680,
+      "forks": 1460,
+      "openIssues": 18
+    }
+  ],
   "weight": 6680,
-  "image": "https://avatars.githubusercontent.com/u/71155328?v=4"
+  "image": "https://avatars.githubusercontent.com/u/71155328?v=4",
+  "events": [
+    {
+      "date": "2023-06-29",
+      "type": "release",
+      "title": "v10.6.1",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v10.6.1",
+      "points": null
+    },
+    {
+      "date": "2023-06-30",
+      "type": "release",
+      "title": "v10.7.0",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v10.7.0",
+      "points": null
+    },
+    {
+      "date": "2023-07-12",
+      "type": "release",
+      "title": "v10.8.0",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v10.8.0",
+      "points": null
+    },
+    {
+      "date": "2023-08-28",
+      "type": "release",
+      "title": "v10.9.0",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v10.9.0",
+      "points": null
+    },
+    {
+      "date": "2023-09-19",
+      "type": "release",
+      "title": "v10.11.0",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v10.11.0",
+      "points": null
+    },
+    {
+      "date": "2023-09-19",
+      "type": "release",
+      "title": "v10.10.0",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v10.10.0",
+      "points": null
+    },
+    {
+      "date": "2023-11-28",
+      "type": "release",
+      "title": "v10.12.0",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v10.12.0",
+      "points": null
+    },
+    {
+      "date": "2024-02-23",
+      "type": "release",
+      "title": "v10.13.0",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v10.13.0",
+      "points": null
+    },
+    {
+      "date": "2024-02-23",
+      "type": "release",
+      "title": "v10.12.1",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v10.12.1",
+      "points": null
+    },
+    {
+      "date": "2024-02-26",
+      "type": "release",
+      "title": "v10.13.1",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v10.13.1",
+      "points": null
+    },
+    {
+      "date": "2024-04-21",
+      "type": "release",
+      "title": "v10.13.2",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v10.13.2",
+      "points": null
+    },
+    {
+      "date": "2024-05-15",
+      "type": "release",
+      "title": "v11.1.0",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v11.1.0",
+      "points": null
+    },
+    {
+      "date": "2024-05-15",
+      "type": "release",
+      "title": "v11.0.0",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v11.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-05-15",
+      "type": "release",
+      "title": "v10.14.0",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v10.14.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-12",
+      "type": "release",
+      "title": "v13.0.0",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v13.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-12",
+      "type": "release",
+      "title": "v12.1.0",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v12.1.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-12",
+      "type": "release",
+      "title": "v12.0.1",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v12.0.1",
+      "points": null
+    },
+    {
+      "date": "2024-09-12",
+      "type": "release",
+      "title": "v12.0.0",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v12.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-11",
+      "type": "release",
+      "title": "v13.1.0",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v13.1.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-25",
+      "type": "release",
+      "title": "v13.2.0",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v13.2.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-26",
+      "type": "release",
+      "title": "v14.0.0",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v14.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-23",
+      "type": "release",
+      "title": "v14.0.1",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v14.0.1",
+      "points": null
+    },
+    {
+      "date": "2024-12-17",
+      "type": "release",
+      "title": "v14.0.2",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v14.0.2",
+      "points": null
+    },
+    {
+      "date": "2025-02-03",
+      "type": "release",
+      "title": "v14.0.4",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v14.0.4",
+      "points": null
+    },
+    {
+      "date": "2025-02-03",
+      "type": "release",
+      "title": "v14.0.3",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v14.0.3",
+      "points": null
+    },
+    {
+      "date": "2025-09-17",
+      "type": "release",
+      "title": "v14.1.1",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v14.1.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-17",
+      "type": "release",
+      "title": "v14.1.0",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v14.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-13",
+      "type": "release",
+      "title": "Release 15.0.1",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v15.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-13",
+      "type": "release",
+      "title": "Release 15.0.0",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v15.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-21",
+      "type": "release",
+      "title": "Release 15.0.2",
+      "url": "https://github.com/react-native-device-info/react-native-device-info/releases/tag/v15.0.2",
+      "points": null
+    }
+  ]
 }

@@ -129,5 +129,189 @@
       "forks": 1228,
       "openIssues": 296
     }
+  ],
+  "events": [
+    {
+      "date": "2019-02-19",
+      "type": "release",
+      "title": "4.2.0",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/4.2.0",
+      "points": null
+    },
+    {
+      "date": "2019-02-20",
+      "type": "release",
+      "title": "4.2.post5",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/4.2.post5",
+      "points": null
+    },
+    {
+      "date": "2019-03-10",
+      "type": "release",
+      "title": "4.3.0",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/4.3.0",
+      "points": null
+    },
+    {
+      "date": "2019-05-04",
+      "type": "release",
+      "title": "5.0.post3",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/5.0.post3",
+      "points": null
+    },
+    {
+      "date": "2019-05-22",
+      "type": "release",
+      "title": "5.1.0",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/5.1.0",
+      "points": null
+    },
+    {
+      "date": "2019-06-26",
+      "type": "release",
+      "title": "5.2.0",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/5.2.0",
+      "points": null
+    },
+    {
+      "date": "2019-08-20",
+      "type": "release",
+      "title": "5.3.2",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/5.3.2",
+      "points": null
+    },
+    {
+      "date": "2019-08-20",
+      "type": "release",
+      "title": "5.3.1",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/5.3.1",
+      "points": null
+    },
+    {
+      "date": "2019-08-20",
+      "type": "release",
+      "title": "5.3.0",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/5.3.0",
+      "points": null
+    },
+    {
+      "date": "2019-08-21",
+      "type": "release",
+      "title": "5.3.3",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/5.3.3",
+      "points": null
+    },
+    {
+      "date": "2019-09-23",
+      "type": "release",
+      "title": "5.4.0",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/5.4.0",
+      "points": null
+    },
+    {
+      "date": "2019-11-21",
+      "type": "release",
+      "title": "5.5.0",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/5.5.0",
+      "points": null
+    },
+    {
+      "date": "2020-01-10",
+      "type": "release",
+      "title": "5.6.0",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/5.6.0",
+      "points": null
+    },
+    {
+      "date": "2020-02-02",
+      "type": "release",
+      "title": "5.7.0",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/5.7.0",
+      "points": null
+    },
+    {
+      "date": "2020-03-23",
+      "type": "release",
+      "title": "5.8.0",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/5.8.0",
+      "points": null
+    },
+    {
+      "date": "2020-04-02",
+      "type": "release",
+      "title": "5.8.1",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/5.8.1",
+      "points": null
+    },
+    {
+      "date": "2020-05-21",
+      "type": "hn",
+      "title": "ScoutSuite: Multi-cloud security auditing tool",
+      "url": "https://news.ycombinator.com/item?id=23262873",
+      "points": 89
+    },
+    {
+      "date": "2020-07-02",
+      "type": "release",
+      "title": "5.9.0",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/5.9.0",
+      "points": null
+    },
+    {
+      "date": "2020-07-28",
+      "type": "release",
+      "title": "5.9.1",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/5.9.1",
+      "points": null
+    },
+    {
+      "date": "2020-10-01",
+      "type": "release",
+      "title": "5.10.0",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/5.10.0",
+      "points": null
+    },
+    {
+      "date": "2020-10-24",
+      "type": "release",
+      "title": "5.10.1",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/5.10.1",
+      "points": null
+    },
+    {
+      "date": "2020-12-08",
+      "type": "release",
+      "title": "5.10.2",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/5.10.2",
+      "points": null
+    },
+    {
+      "date": "2022-03-10",
+      "type": "release",
+      "title": "5.11.0",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/5.11.0",
+      "points": null
+    },
+    {
+      "date": "2022-09-05",
+      "type": "release",
+      "title": "Release 5.12.0",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/5.12.0",
+      "points": null
+    },
+    {
+      "date": "2023-07-05",
+      "type": "release",
+      "title": "v5.13.0",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/5.13.0",
+      "points": null
+    },
+    {
+      "date": "2024-05-10",
+      "type": "release",
+      "title": "v5.14.0",
+      "url": "https://github.com/nccgroup/ScoutSuite/releases/tag/5.14.0",
+      "points": null
+    }
   ]
 }

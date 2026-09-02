@@ -20,11 +20,20 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 119534,
-      "forks": 10706,
+      "stars": 119554,
+      "forks": 10708,
       "openIssues": 40
     }
   ],
   "weight": 119477,
-  "image": "https://avatars.githubusercontent.com/u/18143746?v=4"
+  "image": "https://avatars.githubusercontent.com/u/18143746?v=4",
+  "events": [
+    {
+      "date": "2019-12-24",
+      "type": "hn",
+      "title": "A collection of various lists for hackers, pentesters and security researchers",
+      "url": "https://news.ycombinator.com/item?id=21873078",
+      "points": 112
+    }
+  ]
 }

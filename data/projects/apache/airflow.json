@@ -119,9 +119,214 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 46691,
-      "forks": 17721,
-      "openIssues": 2086
+      "stars": 46698,
+      "forks": 17737,
+      "openIssues": 2090
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-05-20",
+      "type": "release",
+      "title": "Airflow 2.11.0",
+      "url": "https://github.com/apache/airflow/releases/tag/2.11.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-10",
+      "type": "release",
+      "title": "Airflow 3.0.2",
+      "url": "https://github.com/apache/airflow/releases/tag/3.0.2",
+      "points": null
+    },
+    {
+      "date": "2025-06-23",
+      "type": "release",
+      "title": "Apache Airflow Helm Chart 1.17.0",
+      "url": "https://github.com/apache/airflow/releases/tag/helm-chart/1.17.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-13",
+      "type": "release",
+      "title": "Apache Airflow Helm Chart 1.18.0",
+      "url": "https://github.com/apache/airflow/releases/tag/helm-chart/1.18.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-14",
+      "type": "release",
+      "title": "Airflow 3.0.3",
+      "url": "https://github.com/apache/airflow/releases/tag/3.0.3",
+      "points": null
+    },
+    {
+      "date": "2025-08-08",
+      "type": "release",
+      "title": "Airflow 3.0.4",
+      "url": "https://github.com/apache/airflow/releases/tag/3.0.4",
+      "points": null
+    },
+    {
+      "date": "2025-08-20",
+      "type": "release",
+      "title": "Airflow 3.0.5",
+      "url": "https://github.com/apache/airflow/releases/tag/3.0.5",
+      "points": null
+    },
+    {
+      "date": "2025-08-29",
+      "type": "release",
+      "title": "Airflow 3.0.6",
+      "url": "https://github.com/apache/airflow/releases/tag/3.0.6",
+      "points": null
+    },
+    {
+      "date": "2025-09-25",
+      "type": "release",
+      "title": "Airflow 3.1.0",
+      "url": "https://github.com/apache/airflow/releases/tag/3.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-27",
+      "type": "release",
+      "title": "Airflow 3.1.1",
+      "url": "https://github.com/apache/airflow/releases/tag/3.1.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-05",
+      "type": "release",
+      "title": "Apache Airflow 3.1.2",
+      "url": "https://github.com/apache/airflow/releases/tag/3.1.2",
+      "points": null
+    },
+    {
+      "date": "2025-11-14",
+      "type": "release",
+      "title": "Apache Airflow 3.1.3",
+      "url": "https://github.com/apache/airflow/releases/tag/3.1.3",
+      "points": null
+    },
+    {
+      "date": "2025-12-10",
+      "type": "release",
+      "title": "Apache Airflow 3.1.5",
+      "url": "https://github.com/apache/airflow/releases/tag/3.1.5",
+      "points": null
+    },
+    {
+      "date": "2026-01-13",
+      "type": "release",
+      "title": "Apache Airflow 3.1.6",
+      "url": "https://github.com/apache/airflow/releases/tag/3.1.6",
+      "points": null
+    },
+    {
+      "date": "2026-01-13",
+      "type": "release",
+      "title": "Apache Airflow Ctl (airflowctl) 0.1.1",
+      "url": "https://github.com/apache/airflow/releases/tag/airflow-ctl/0.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-04",
+      "type": "release",
+      "title": "Apache Airflow 3.1.7",
+      "url": "https://github.com/apache/airflow/releases/tag/3.1.7",
+      "points": null
+    },
+    {
+      "date": "2026-02-17",
+      "type": "release",
+      "title": "Apache Airflow Helm Chart 1.19.0",
+      "url": "https://github.com/apache/airflow/releases/tag/helm-chart/1.19.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-25",
+      "type": "release",
+      "title": "Apache Airflow Ctl (airflowctl) 0.1.2",
+      "url": "https://github.com/apache/airflow/releases/tag/airflow-ctl/0.1.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-11",
+      "type": "release",
+      "title": "Apache Airflow 3.1.8",
+      "url": "https://github.com/apache/airflow/releases/tag/3.1.8",
+      "points": null
+    },
+    {
+      "date": "2026-03-19",
+      "type": "release",
+      "title": "Apache Airflow Ctl (airflowctl) 0.1.3",
+      "url": "https://github.com/apache/airflow/releases/tag/airflow-ctl/0.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-03-22",
+      "type": "release",
+      "title": "Apache Airflow Helm Chart 1.20.0",
+      "url": "https://github.com/apache/airflow/releases/tag/helm-chart/1.20.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-07",
+      "type": "release",
+      "title": "Apache Airflow 3.2.0",
+      "url": "https://github.com/apache/airflow/releases/tag/3.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-22",
+      "type": "release",
+      "title": "Apache Airflow 3.2.1",
+      "url": "https://github.com/apache/airflow/releases/tag/3.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-24",
+      "type": "release",
+      "title": "Apache Airflow Helm Chart 1.21.0",
+      "url": "https://github.com/apache/airflow/releases/tag/helm-chart/1.21.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-29",
+      "type": "release",
+      "title": "Apache Airflow 3.2.2",
+      "url": "https://github.com/apache/airflow/releases/tag/3.2.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "title": "Apache Airflow Ctl (airflowctl) 0.1.5",
+      "url": "https://github.com/apache/airflow/releases/tag/airflow-ctl/0.1.5",
+      "points": null
+    },
+    {
+      "date": "2026-06-13",
+      "type": "release",
+      "title": "Apache Airflow Helm Chart 1.22.0",
+      "url": "https://github.com/apache/airflow/releases/tag/helm-chart/1.22.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-06",
+      "type": "release",
+      "title": "Apache Airflow 3.3.0",
+      "url": "https://github.com/apache/airflow/releases/tag/3.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "Apache Airflow 3.3.1",
+      "url": "https://github.com/apache/airflow/releases/tag/3.3.1",
+      "points": null
     }
   ]
 }

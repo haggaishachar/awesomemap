@@ -29,5 +29,217 @@
       "forks": 115,
       "openIssues": 82
     }
+  ],
+  "events": [
+    {
+      "date": "2019-01-27",
+      "type": "release",
+      "title": "Version 1.1.0",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.1.0",
+      "points": null
+    },
+    {
+      "date": "2019-02-24",
+      "type": "release",
+      "title": "Bugfix: import StatsBase API functions",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.1.1",
+      "points": null
+    },
+    {
+      "date": "2019-06-22",
+      "type": "release",
+      "title": "v1.2.0",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.2.0",
+      "points": null
+    },
+    {
+      "date": "2019-07-03",
+      "type": "release",
+      "title": "v1.3.0",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.3.0",
+      "points": null
+    },
+    {
+      "date": "2019-08-23",
+      "type": "release",
+      "title": "v1.3.1",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.3.1",
+      "points": null
+    },
+    {
+      "date": "2019-09-16",
+      "type": "release",
+      "title": "v1.3.2",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.3.2",
+      "points": null
+    },
+    {
+      "date": "2019-10-14",
+      "type": "release",
+      "title": "v1.3.3",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.3.3",
+      "points": null
+    },
+    {
+      "date": "2019-11-08",
+      "type": "release",
+      "title": "v1.3.4",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.3.4",
+      "points": null
+    },
+    {
+      "date": "2019-12-03",
+      "type": "release",
+      "title": "v1.3.5",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.3.5",
+      "points": null
+    },
+    {
+      "date": "2020-01-14",
+      "type": "release",
+      "title": "v1.3.6",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.3.6",
+      "points": null
+    },
+    {
+      "date": "2020-02-17",
+      "type": "release",
+      "title": "v1.3.7",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.3.7",
+      "points": null
+    },
+    {
+      "date": "2020-03-24",
+      "type": "release",
+      "title": "v1.3.8",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.3.8",
+      "points": null
+    },
+    {
+      "date": "2020-04-03",
+      "type": "release",
+      "title": "v1.3.9",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.3.9",
+      "points": null
+    },
+    {
+      "date": "2020-08-06",
+      "type": "release",
+      "title": "v1.3.10",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.3.10",
+      "points": null
+    },
+    {
+      "date": "2020-10-15",
+      "type": "release",
+      "title": "v1.3.11",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.3.11",
+      "points": null
+    },
+    {
+      "date": "2021-02-23",
+      "type": "release",
+      "title": "v1.4.0",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.4.0",
+      "points": null
+    },
+    {
+      "date": "2021-03-15",
+      "type": "release",
+      "title": "v1.4.1",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.4.1",
+      "points": null
+    },
+    {
+      "date": "2021-04-26",
+      "type": "release",
+      "title": "v1.4.2",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.4.2",
+      "points": null
+    },
+    {
+      "date": "2021-06-23",
+      "type": "release",
+      "title": "v1.5.0",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.5.0",
+      "points": null
+    },
+    {
+      "date": "2021-06-30",
+      "type": "release",
+      "title": "v1.5.1",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.5.1",
+      "points": null
+    },
+    {
+      "date": "2022-01-05",
+      "type": "release",
+      "title": "v1.6.0",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.6.0",
+      "points": null
+    },
+    {
+      "date": "2022-01-24",
+      "type": "release",
+      "title": "v1.6.1",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.6.1",
+      "points": null
+    },
+    {
+      "date": "2022-03-31",
+      "type": "release",
+      "title": "v1.6.2",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.6.2",
+      "points": null
+    },
+    {
+      "date": "2022-04-11",
+      "type": "release",
+      "title": "v1.7.0",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.7.0",
+      "points": null
+    },
+    {
+      "date": "2022-05-25",
+      "type": "release",
+      "title": "v1.8.0",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.8.0",
+      "points": null
+    },
+    {
+      "date": "2022-10-22",
+      "type": "release",
+      "title": "v1.8.1",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.8.1",
+      "points": null
+    },
+    {
+      "date": "2023-03-14",
+      "type": "release",
+      "title": "v1.8.2",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.8.2",
+      "points": null
+    },
+    {
+      "date": "2023-09-14",
+      "type": "release",
+      "title": "v1.9.0",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.9.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-04",
+      "type": "release",
+      "title": "v1.9.1",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.9.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-05",
+      "type": "release",
+      "title": "v1.9.2",
+      "url": "https://github.com/JuliaStats/GLM.jl/releases/tag/v1.9.2",
+      "points": null
+    }
   ]
 }

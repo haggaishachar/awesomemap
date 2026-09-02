@@ -75,9 +75,88 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 14718,
-      "forks": 711,
-      "openIssues": 292
+      "stars": 14726,
+      "forks": 712,
+      "openIssues": 294
+    }
+  ],
+  "events": [
+    {
+      "date": "2020-10-19",
+      "type": "hn",
+      "title": "Crowdsec: A Fail2Ban alternative written in Go",
+      "url": "https://news.ycombinator.com/item?id=24826792",
+      "points": 170
+    },
+    {
+      "date": "2025-09-01",
+      "type": "release",
+      "title": "v1.7.0",
+      "url": "https://github.com/crowdsecurity/crowdsec/releases/tag/v1.7.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-15",
+      "type": "release",
+      "title": "v1.7.1",
+      "url": "https://github.com/crowdsecurity/crowdsec/releases/tag/v1.7.1",
+      "points": null
+    },
+    {
+      "date": "2025-10-21",
+      "type": "release",
+      "title": "v1.7.2",
+      "url": "https://github.com/crowdsecurity/crowdsec/releases/tag/v1.7.2",
+      "points": null
+    },
+    {
+      "date": "2025-10-24",
+      "type": "release",
+      "title": "v1.7.3",
+      "url": "https://github.com/crowdsecurity/crowdsec/releases/tag/v1.7.3",
+      "points": null
+    },
+    {
+      "date": "2025-12-04",
+      "type": "release",
+      "title": "v1.7.4",
+      "url": "https://github.com/crowdsecurity/crowdsec/releases/tag/v1.7.4",
+      "points": null
+    },
+    {
+      "date": "2026-01-22",
+      "type": "release",
+      "title": "v1.7.5",
+      "url": "https://github.com/crowdsecurity/crowdsec/releases/tag/v1.7.5",
+      "points": null
+    },
+    {
+      "date": "2026-01-23",
+      "type": "release",
+      "title": "v1.7.6",
+      "url": "https://github.com/crowdsecurity/crowdsec/releases/tag/v1.7.6",
+      "points": null
+    },
+    {
+      "date": "2026-03-30",
+      "type": "release",
+      "title": "v1.7.7",
+      "url": "https://github.com/crowdsecurity/crowdsec/releases/tag/v1.7.7",
+      "points": null
+    },
+    {
+      "date": "2026-05-11",
+      "type": "release",
+      "title": "v1.7.8",
+      "url": "https://github.com/crowdsecurity/crowdsec/releases/tag/v1.7.8",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "v1.8.0",
+      "url": "https://github.com/crowdsecurity/crowdsec/releases/tag/v1.8.0",
+      "points": null
     }
   ]
 }

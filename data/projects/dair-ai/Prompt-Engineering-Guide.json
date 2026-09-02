@@ -22,11 +22,20 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 77964,
-      "forks": 8560,
+      "stars": 77967,
+      "forks": 8564,
       "openIssues": 278
     }
   ],
   "weight": 77943,
-  "image": "https://avatars.githubusercontent.com/u/30384625?v=4"
+  "image": "https://avatars.githubusercontent.com/u/30384625?v=4",
+  "events": [
+    {
+      "date": "2023-02-21",
+      "type": "hn",
+      "title": "Prompt Engineering Guide: Guides, papers, and resources for prompt engineering",
+      "url": "https://news.ycombinator.com/item?id=34883486",
+      "points": 544
+    }
+  ]
 }

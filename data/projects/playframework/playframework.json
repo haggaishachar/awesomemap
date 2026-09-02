@@ -4,8 +4,8 @@
   "link": "https://github.com/playframework/playframework",
   "name": "playframework",
   "desc": "The Community Maintained High Velocity Web Framework For Java and Scala.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "playframework",
+  "githubDescription": "The Community Maintained High Velocity Web Framework For Java and Scala.",
   "tags": [
     "framework",
     "hacktoberfest",
@@ -19,7 +19,219 @@
     "web-framework",
     "webapps"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 12619,
+      "forks": 4024,
+      "openIssues": 491
+    }
+  ],
   "weight": 12620,
-  "image": "https://avatars.githubusercontent.com/u/319107?v=4"
+  "image": "https://avatars.githubusercontent.com/u/319107?v=4",
+  "events": [
+    {
+      "date": "2022-10-17",
+      "type": "release",
+      "title": "Play 2.8.18",
+      "url": "https://github.com/playframework/playframework/releases/tag/2.8.18",
+      "points": null
+    },
+    {
+      "date": "2023-01-13",
+      "type": "release",
+      "title": "Play 2.8.19",
+      "url": "https://github.com/playframework/playframework/releases/tag/2.8.19",
+      "points": null
+    },
+    {
+      "date": "2023-07-21",
+      "type": "release",
+      "title": "Play 2.8.20",
+      "url": "https://github.com/playframework/playframework/releases/tag/2.8.20",
+      "points": null
+    },
+    {
+      "date": "2023-11-06",
+      "type": "release",
+      "title": "📣 Play 3.0.0",
+      "url": "https://github.com/playframework/playframework/releases/tag/3.0.0",
+      "points": null
+    },
+    {
+      "date": "2023-11-06",
+      "type": "release",
+      "title": "📣 Play 2.9.0",
+      "url": "https://github.com/playframework/playframework/releases/tag/2.9.0",
+      "points": null
+    },
+    {
+      "date": "2023-11-09",
+      "type": "release",
+      "title": "Play 2.8.21",
+      "url": "https://github.com/playframework/playframework/releases/tag/2.8.21",
+      "points": null
+    },
+    {
+      "date": "2024-01-10",
+      "type": "release",
+      "title": "Play 3.0.1",
+      "url": "https://github.com/playframework/playframework/releases/tag/3.0.1",
+      "points": null
+    },
+    {
+      "date": "2024-01-10",
+      "type": "release",
+      "title": "Play 2.9.1",
+      "url": "https://github.com/playframework/playframework/releases/tag/2.9.1",
+      "points": null
+    },
+    {
+      "date": "2024-03-01",
+      "type": "release",
+      "title": "Play 3.0.2",
+      "url": "https://github.com/playframework/playframework/releases/tag/3.0.2",
+      "points": null
+    },
+    {
+      "date": "2024-03-01",
+      "type": "release",
+      "title": "Play 2.9.2",
+      "url": "https://github.com/playframework/playframework/releases/tag/2.9.2",
+      "points": null
+    },
+    {
+      "date": "2024-05-07",
+      "type": "release",
+      "title": "Play 3.0.3",
+      "url": "https://github.com/playframework/playframework/releases/tag/3.0.3",
+      "points": null
+    },
+    {
+      "date": "2024-05-07",
+      "type": "release",
+      "title": "Play 2.9.3",
+      "url": "https://github.com/playframework/playframework/releases/tag/2.9.3",
+      "points": null
+    },
+    {
+      "date": "2024-06-05",
+      "type": "release",
+      "title": "Play 2.8.22 (End of life)",
+      "url": "https://github.com/playframework/playframework/releases/tag/2.8.22",
+      "points": null
+    },
+    {
+      "date": "2024-06-17",
+      "type": "release",
+      "title": "Play 3.0.4",
+      "url": "https://github.com/playframework/playframework/releases/tag/3.0.4",
+      "points": null
+    },
+    {
+      "date": "2024-06-17",
+      "type": "release",
+      "title": "Play 2.9.4",
+      "url": "https://github.com/playframework/playframework/releases/tag/2.9.4",
+      "points": null
+    },
+    {
+      "date": "2024-07-24",
+      "type": "release",
+      "title": "Play 3.0.5",
+      "url": "https://github.com/playframework/playframework/releases/tag/3.0.5",
+      "points": null
+    },
+    {
+      "date": "2024-07-24",
+      "type": "release",
+      "title": "Play 2.9.5",
+      "url": "https://github.com/playframework/playframework/releases/tag/2.9.5",
+      "points": null
+    },
+    {
+      "date": "2024-11-29",
+      "type": "release",
+      "title": "Play 3.0.6",
+      "url": "https://github.com/playframework/playframework/releases/tag/3.0.6",
+      "points": null
+    },
+    {
+      "date": "2024-11-29",
+      "type": "release",
+      "title": "Play 2.9.6",
+      "url": "https://github.com/playframework/playframework/releases/tag/2.9.6",
+      "points": null
+    },
+    {
+      "date": "2025-03-13",
+      "type": "release",
+      "title": "Play 3.0.7",
+      "url": "https://github.com/playframework/playframework/releases/tag/3.0.7",
+      "points": null
+    },
+    {
+      "date": "2025-03-13",
+      "type": "release",
+      "title": "Play 2.9.7",
+      "url": "https://github.com/playframework/playframework/releases/tag/2.9.7",
+      "points": null
+    },
+    {
+      "date": "2025-07-01",
+      "type": "release",
+      "title": "Play 3.0.8",
+      "url": "https://github.com/playframework/playframework/releases/tag/3.0.8",
+      "points": null
+    },
+    {
+      "date": "2025-07-01",
+      "type": "release",
+      "title": "Play 2.9.8",
+      "url": "https://github.com/playframework/playframework/releases/tag/2.9.8",
+      "points": null
+    },
+    {
+      "date": "2025-09-11",
+      "type": "release",
+      "title": "Play 3.0.9",
+      "url": "https://github.com/playframework/playframework/releases/tag/3.0.9",
+      "points": null
+    },
+    {
+      "date": "2025-09-11",
+      "type": "release",
+      "title": "Play 2.9.9",
+      "url": "https://github.com/playframework/playframework/releases/tag/2.9.9",
+      "points": null
+    },
+    {
+      "date": "2025-12-23",
+      "type": "release",
+      "title": "Play 3.0.10",
+      "url": "https://github.com/playframework/playframework/releases/tag/3.0.10",
+      "points": null
+    },
+    {
+      "date": "2025-12-23",
+      "type": "release",
+      "title": "Play 2.9.10",
+      "url": "https://github.com/playframework/playframework/releases/tag/2.9.10",
+      "points": null
+    },
+    {
+      "date": "2026-05-21",
+      "type": "release",
+      "title": "Play 3.0.11",
+      "url": "https://github.com/playframework/playframework/releases/tag/3.0.11",
+      "points": null
+    },
+    {
+      "date": "2026-05-21",
+      "type": "release",
+      "title": "Play 2.9.11",
+      "url": "https://github.com/playframework/playframework/releases/tag/2.9.11",
+      "points": null
+    }
+  ]
 }

@@ -33,5 +33,14 @@
     }
   ],
   "weight": 4761,
-  "image": "https://avatars.githubusercontent.com/u/183036973?v=4"
+  "image": "https://avatars.githubusercontent.com/u/183036973?v=4",
+  "events": [
+    {
+      "date": "2024-10-29",
+      "type": "hn",
+      "title": "Launch HN: Integuru (YC W24) – Reverse-engineer internal APIs using LLMs",
+      "url": "https://news.ycombinator.com/item?id=41983409",
+      "points": 218
+    }
+  ]
 }

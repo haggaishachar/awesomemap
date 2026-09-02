@@ -10,11 +10,237 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 26995,
+      "stars": 26994,
       "forks": 1849,
       "openIssues": 1352
     }
   ],
   "weight": 26995,
-  "image": "https://avatars.githubusercontent.com/u/1229647?v=4"
+  "image": "https://avatars.githubusercontent.com/u/1229647?v=4",
+  "events": [
+    {
+      "date": "2015-05-27",
+      "type": "hn",
+      "title": "“The benchmark numbers are completely wrong for both databases”",
+      "url": "https://news.ycombinator.com/item?id=9609545",
+      "points": 165
+    },
+    {
+      "date": "2015-06-11",
+      "type": "release",
+      "title": "2.0.3 — Yojimbo",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.0.3",
+      "points": null
+    },
+    {
+      "date": "2015-07-08",
+      "type": "release",
+      "title": "2.0.4 — Yojimbo",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.0.4",
+      "points": null
+    },
+    {
+      "date": "2015-08-11",
+      "type": "release",
+      "title": "2.1.0 — Forbidden Planet",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.1.0-1",
+      "points": null
+    },
+    {
+      "date": "2015-08-12",
+      "type": "release",
+      "title": "2.1.1 — Forbidden Planet",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.1.1",
+      "points": null
+    },
+    {
+      "date": "2015-08-26",
+      "type": "release",
+      "title": "2.1.2 — Forbidden Planet",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.1.2",
+      "points": null
+    },
+    {
+      "date": "2015-09-01",
+      "type": "release",
+      "title": "2.0.5 — Yojimbo",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.0.5",
+      "points": null
+    },
+    {
+      "date": "2015-09-05",
+      "type": "release",
+      "title": "2.1.3 — Forbidden Planet",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.1.3",
+      "points": null
+    },
+    {
+      "date": "2015-09-16",
+      "type": "release",
+      "title": "2.1.4 — Forbidden Planet",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.1.4",
+      "points": null
+    },
+    {
+      "date": "2015-09-29",
+      "type": "hn",
+      "title": "Thoughts on RethinkDB and GraphQL",
+      "url": "https://news.ycombinator.com/item?id=10298723",
+      "points": 112
+    },
+    {
+      "date": "2015-10-07",
+      "type": "release",
+      "title": "2.1.5 — Forbidden Planet",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.1.5-2",
+      "points": null
+    },
+    {
+      "date": "2015-11-12",
+      "type": "release",
+      "title": "2.2.0 — Modern Times",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.2.0",
+      "points": null
+    },
+    {
+      "date": "2015-11-17",
+      "type": "release",
+      "title": "2.2.1 — Modern Times",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.2.1",
+      "points": null
+    },
+    {
+      "date": "2015-12-21",
+      "type": "release",
+      "title": "2.2.2 — Modern Times",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.2.2",
+      "points": null
+    },
+    {
+      "date": "2016-01-11",
+      "type": "release",
+      "title": "2.2.3 — Modern Times",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.2.3-1",
+      "points": null
+    },
+    {
+      "date": "2016-02-01",
+      "type": "release",
+      "title": "2.2.4 — Modern Times",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.2.4",
+      "points": null
+    },
+    {
+      "date": "2016-02-01",
+      "type": "release",
+      "title": "2.1.6 — Forbidden Planet",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.1.6",
+      "points": null
+    },
+    {
+      "date": "2016-02-24",
+      "type": "release",
+      "title": "2.2.5 — Modern Times",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.2.5",
+      "points": null
+    },
+    {
+      "date": "2016-03-28",
+      "type": "release",
+      "title": "2.2.6 — Modern Times",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.2.6",
+      "points": null
+    },
+    {
+      "date": "2016-04-06",
+      "type": "release",
+      "title": "2.3.0 — Fantasia",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.3.0",
+      "points": null
+    },
+    {
+      "date": "2016-04-23",
+      "type": "release",
+      "title": "2.3.1 — Fantasia",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.3.1",
+      "points": null
+    },
+    {
+      "date": "2016-05-06",
+      "type": "release",
+      "title": "2.3.2 — Fantasia",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.3.2",
+      "points": null
+    },
+    {
+      "date": "2016-06-01",
+      "type": "release",
+      "title": "2.3.3 — Fantasia",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.3.3",
+      "points": null
+    },
+    {
+      "date": "2016-06-04",
+      "type": "release",
+      "title": "2.3.4 — Fantasia",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.3.4",
+      "points": null
+    },
+    {
+      "date": "2016-08-29",
+      "type": "release",
+      "title": "2.3.5 — Fantasia",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.3.5",
+      "points": null
+    },
+    {
+      "date": "2017-01-30",
+      "type": "hn",
+      "title": "“Worrying about licensing is what PG would call a sitcom idea”",
+      "url": "https://news.ycombinator.com/item?id=13523347",
+      "points": 133
+    },
+    {
+      "date": "2017-07-23",
+      "type": "release",
+      "title": "2.3.6  — Fantasia",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.3.6",
+      "points": null
+    },
+    {
+      "date": "2019-12-19",
+      "type": "release",
+      "title": "2.4.0 - Night Of The Living Dead",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.4.0",
+      "points": null
+    },
+    {
+      "date": "2020-08-14",
+      "type": "release",
+      "title": "2.4.1 - Night Of The Living Dead",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.4.1",
+      "points": null
+    },
+    {
+      "date": "2022-05-07",
+      "type": "release",
+      "title": "2.4.2 - Night Of The Living Dead",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.4.2",
+      "points": null
+    },
+    {
+      "date": "2023-02-05",
+      "type": "release",
+      "title": "v2.4.3",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.4.3",
+      "points": null
+    },
+    {
+      "date": "2023-12-11",
+      "type": "release",
+      "title": "v2.4.4",
+      "url": "https://github.com/rethinkdb/rethinkdb/releases/tag/v2.4.4",
+      "points": null
+    }
+  ]
 }

@@ -76,9 +76,123 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 34297,
-      "forks": 7602,
-      "openIssues": 416
+      "stars": 34304,
+      "forks": 7604,
+      "openIssues": 419
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-05-19",
+      "type": "release",
+      "title": "v1.51.0",
+      "url": "https://github.com/backstage/backstage/releases/tag/v1.51.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-29",
+      "type": "release",
+      "title": "v1.51.1",
+      "url": "https://github.com/backstage/backstage/releases/tag/v1.51.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v1.51.2",
+      "url": "https://github.com/backstage/backstage/releases/tag/v1.51.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-16",
+      "type": "release",
+      "title": "v1.52.0",
+      "url": "https://github.com/backstage/backstage/releases/tag/v1.52.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-26",
+      "type": "release",
+      "title": "v1.52.1",
+      "url": "https://github.com/backstage/backstage/releases/tag/v1.52.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "v1.53.0",
+      "url": "https://github.com/backstage/backstage/releases/tag/v1.53.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "v1.53.1",
+      "url": "https://github.com/backstage/backstage/releases/tag/v1.53.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "v1.54.0",
+      "url": "https://github.com/backstage/backstage/releases/tag/v1.54.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-22",
+      "type": "release",
+      "title": "v1.54.3",
+      "url": "https://github.com/backstage/backstage/releases/tag/v1.54.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "v1.54.4",
+      "url": "https://github.com/backstage/backstage/releases/tag/v1.54.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-25",
+      "type": "release",
+      "title": "v1.54.5",
+      "url": "https://github.com/backstage/backstage/releases/tag/v1.54.5",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "v1.54.6",
+      "url": "https://github.com/backstage/backstage/releases/tag/v1.54.6",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "v1.53.2",
+      "url": "https://github.com/backstage/backstage/releases/tag/v1.53.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-29",
+      "type": "release",
+      "title": "v1.51.3",
+      "url": "https://github.com/backstage/backstage/releases/tag/v1.51.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-29",
+      "type": "release",
+      "title": "v1.50.5",
+      "url": "https://github.com/backstage/backstage/releases/tag/v1.50.5",
+      "points": null
+    },
+    {
+      "date": "2026-08-29",
+      "type": "release",
+      "title": "v1.49.6",
+      "url": "https://github.com/backstage/backstage/releases/tag/v1.49.6",
+      "points": null
     }
   ]
 }

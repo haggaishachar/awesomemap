@@ -4,8 +4,8 @@
   "link": "https://github.com/trunk-rs/trunk",
   "name": "trunk",
   "desc": "Build, bundle & ship your Rust WASM application to the web.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "trunk",
+  "githubDescription": "Build, bundle & ship your Rust WASM application to the web.",
   "tags": [
     "assets",
     "build-tool",
@@ -18,7 +18,128 @@
     "wasm",
     "wasm-bindgen"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 4384,
+      "forks": 323,
+      "openIssues": 136
+    }
+  ],
   "weight": 4384,
-  "image": "https://avatars.githubusercontent.com/u/84425504?v=4"
+  "image": "https://avatars.githubusercontent.com/u/84425504?v=4",
+  "events": [
+    {
+      "date": "2024-06-05",
+      "type": "release",
+      "title": "0.20.2",
+      "url": "https://github.com/trunk-rs/trunk/releases/tag/v0.20.2",
+      "points": null
+    },
+    {
+      "date": "2024-08-07",
+      "type": "release",
+      "title": "0.20.3",
+      "url": "https://github.com/trunk-rs/trunk/releases/tag/v0.20.3",
+      "points": null
+    },
+    {
+      "date": "2024-10-14",
+      "type": "release",
+      "title": "0.21.0",
+      "url": "https://github.com/trunk-rs/trunk/releases/tag/v0.21.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-15",
+      "type": "release",
+      "title": "0.21.1",
+      "url": "https://github.com/trunk-rs/trunk/releases/tag/v0.21.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-30",
+      "type": "release",
+      "title": "0.21.2",
+      "url": "https://github.com/trunk-rs/trunk/releases/tag/v0.21.2",
+      "points": null
+    },
+    {
+      "date": "2024-11-06",
+      "type": "release",
+      "title": "0.21.3",
+      "url": "https://github.com/trunk-rs/trunk/releases/tag/v0.21.3",
+      "points": null
+    },
+    {
+      "date": "2024-11-07",
+      "type": "release",
+      "title": "0.21.4",
+      "url": "https://github.com/trunk-rs/trunk/releases/tag/v0.21.4",
+      "points": null
+    },
+    {
+      "date": "2024-12-16",
+      "type": "release",
+      "title": "0.21.5",
+      "url": "https://github.com/trunk-rs/trunk/releases/tag/v0.21.5",
+      "points": null
+    },
+    {
+      "date": "2025-01-20",
+      "type": "release",
+      "title": "0.21.6",
+      "url": "https://github.com/trunk-rs/trunk/releases/tag/v0.21.6",
+      "points": null
+    },
+    {
+      "date": "2025-01-21",
+      "type": "release",
+      "title": "0.21.7",
+      "url": "https://github.com/trunk-rs/trunk/releases/tag/v0.21.7",
+      "points": null
+    },
+    {
+      "date": "2025-03-04",
+      "type": "release",
+      "title": "0.21.8",
+      "url": "https://github.com/trunk-rs/trunk/releases/tag/v0.21.8",
+      "points": null
+    },
+    {
+      "date": "2025-03-14",
+      "type": "release",
+      "title": "0.21.9",
+      "url": "https://github.com/trunk-rs/trunk/releases/tag/v0.21.9",
+      "points": null
+    },
+    {
+      "date": "2025-03-27",
+      "type": "release",
+      "title": "0.21.12",
+      "url": "https://github.com/trunk-rs/trunk/releases/tag/v0.21.12",
+      "points": null
+    },
+    {
+      "date": "2025-03-27",
+      "type": "release",
+      "title": "0.21.11",
+      "url": "https://github.com/trunk-rs/trunk/releases/tag/v0.21.11",
+      "points": null
+    },
+    {
+      "date": "2025-04-07",
+      "type": "release",
+      "title": "0.21.13",
+      "url": "https://github.com/trunk-rs/trunk/releases/tag/v0.21.13",
+      "points": null
+    },
+    {
+      "date": "2025-05-08",
+      "type": "release",
+      "title": "0.21.14",
+      "url": "https://github.com/trunk-rs/trunk/releases/tag/v0.21.14",
+      "points": null
+    }
+  ]
 }

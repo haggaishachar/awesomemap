@@ -115,9 +115,109 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 26395,
-      "forks": 3064,
-      "openIssues": 104
+      "stars": 26396,
+      "forks": 3065,
+      "openIssues": 103
+    }
+  ],
+  "events": [
+    {
+      "date": "2021-12-09",
+      "type": "hn",
+      "title": "Haystack 1.0 – open-source NLP framework to build NLProc back end applications",
+      "url": "https://news.ycombinator.com/item?id=29501045",
+      "points": 109
+    },
+    {
+      "date": "2026-02-27",
+      "type": "release",
+      "title": "v2.25.1",
+      "url": "https://github.com/deepset-ai/haystack/releases/tag/v2.25.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-05",
+      "type": "release",
+      "title": "v2.25.2",
+      "url": "https://github.com/deepset-ai/haystack/releases/tag/v2.25.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-18",
+      "type": "release",
+      "title": "v2.26.0",
+      "url": "https://github.com/deepset-ai/haystack/releases/tag/v2.26.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-20",
+      "type": "release",
+      "title": "v2.26.1",
+      "url": "https://github.com/deepset-ai/haystack/releases/tag/v2.26.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-01",
+      "type": "release",
+      "title": "v2.27.0",
+      "url": "https://github.com/deepset-ai/haystack/releases/tag/v2.27.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-20",
+      "type": "release",
+      "title": "v2.28.0",
+      "url": "https://github.com/deepset-ai/haystack/releases/tag/v2.28.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-12",
+      "type": "release",
+      "title": "v2.29.0",
+      "url": "https://github.com/deepset-ai/haystack/releases/tag/v2.29.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "title": "v2.30.0",
+      "url": "https://github.com/deepset-ai/haystack/releases/tag/v2.30.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "title": "v2.30.1",
+      "url": "https://github.com/deepset-ai/haystack/releases/tag/v2.30.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-18",
+      "type": "release",
+      "title": "v2.30.2",
+      "url": "https://github.com/deepset-ai/haystack/releases/tag/v2.30.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "v2.31.0",
+      "url": "https://github.com/deepset-ai/haystack/releases/tag/v2.31.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-20",
+      "type": "release",
+      "title": "v3.0.0",
+      "url": "https://github.com/deepset-ai/haystack/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "v3.1.0",
+      "url": "https://github.com/deepset-ai/haystack/releases/tag/v3.1.0",
+      "points": null
     }
   ]
 }

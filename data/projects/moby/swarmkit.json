@@ -122,5 +122,14 @@
       "forks": 672,
       "openIssues": 276
     }
+  ],
+  "events": [
+    {
+      "date": "2026-04-23",
+      "type": "release",
+      "title": "v2.1.2",
+      "url": "https://github.com/moby/swarmkit/releases/tag/v2.1.2",
+      "points": null
+    }
   ]
 }

@@ -139,9 +139,221 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 14739,
-      "forks": 2362,
-      "openIssues": 360
+      "stars": 14742,
+      "forks": 2365,
+      "openIssues": 371
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-05-12",
+      "type": "release",
+      "title": "Prowler 5.26.1",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.26.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-19",
+      "type": "release",
+      "title": "Prowler 5.27.0",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.27.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-21",
+      "type": "release",
+      "title": "Prowler 5.27.1",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.27.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-22",
+      "type": "release",
+      "title": "Prowler 5.28.0",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.28.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-26",
+      "type": "release",
+      "title": "Prowler 5.28.1",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.28.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-01",
+      "type": "release",
+      "title": "Prowler 5.29.0",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.29.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "title": "Prowler 5.29.2",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.29.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "title": "Prowler 5.29.1",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.29.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "title": "Prowler 5.29.3",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.29.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-11",
+      "type": "release",
+      "title": "Prowler 5.30.0",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.30.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-12",
+      "type": "release",
+      "title": "Prowler 5.30.1",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.30.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-17",
+      "type": "release",
+      "title": "Prowler 5.30.2",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.30.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-19",
+      "type": "release",
+      "title": "Prowler 5.30.3",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.30.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "Prowler 5.31.0",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.31.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-25",
+      "type": "release",
+      "title": "Prowler 5.31.1",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.31.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-02",
+      "type": "release",
+      "title": "Prowler 5.32.0",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.32.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-06",
+      "type": "release",
+      "title": "Prowler 5.32.1",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.32.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-07",
+      "type": "release",
+      "title": "Prowler 5.33.0",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.33.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "title": "Prowler 5.33.1",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.33.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "Prowler 5.33.2",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.33.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-15",
+      "type": "release",
+      "title": "Prowler 5.34.0",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.34.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "Prowler 5.35.0",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.35.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "Prowler 5.36.0",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.36.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-03",
+      "type": "release",
+      "title": "Prowler 5.37.0",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.37.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "Prowler 5.37.1",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.37.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "title": "Prowler 5.38.0",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.38.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "Prowler 5.39.0",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.39.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "Prowler 5.39.1",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.39.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "Prowler 5.40.0",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.40.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Prowler 5.41.0",
+      "url": "https://github.com/prowler-cloud/prowler/releases/tag/5.41.0",
+      "points": null
     }
   ]
 }

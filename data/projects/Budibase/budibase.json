@@ -86,9 +86,200 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 28251,
+      "stars": 28252,
       "forks": 2199,
-      "openIssues": 278
+      "openIssues": 275
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "3.39.16",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.39.16",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "3.39.15",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.39.15",
+      "points": null
+    },
+    {
+      "date": "2026-06-16",
+      "type": "release",
+      "title": "3.39.18",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.39.18",
+      "points": null
+    },
+    {
+      "date": "2026-06-16",
+      "type": "release",
+      "title": "3.39.17",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.39.17",
+      "points": null
+    },
+    {
+      "date": "2026-06-17",
+      "type": "release",
+      "title": "3.39.19",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.39.19",
+      "points": null
+    },
+    {
+      "date": "2026-06-22",
+      "type": "release",
+      "title": "3.39.20",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.39.20",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "3.39.21",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.39.21",
+      "points": null
+    },
+    {
+      "date": "2026-06-24",
+      "type": "release",
+      "title": "3.39.22",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.39.22",
+      "points": null
+    },
+    {
+      "date": "2026-06-30",
+      "type": "release",
+      "title": "3.39.23",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.39.23",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "3.39.25",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.39.25",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "3.39.24",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.39.24",
+      "points": null
+    },
+    {
+      "date": "2026-07-02",
+      "type": "release",
+      "title": "3.39.26",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.39.26",
+      "points": null
+    },
+    {
+      "date": "2026-07-06",
+      "type": "release",
+      "title": "3.39.27",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.39.27",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "3.39.28",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.39.28",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "3.39.29",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.39.29",
+      "points": null
+    },
+    {
+      "date": "2026-07-15",
+      "type": "release",
+      "title": "3.39.31",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.39.31",
+      "points": null
+    },
+    {
+      "date": "2026-07-15",
+      "type": "release",
+      "title": "3.39.30",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.39.30",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "3.40.0",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.40.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "3.39.32",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.39.32",
+      "points": null
+    },
+    {
+      "date": "2026-07-22",
+      "type": "release",
+      "title": "3.40.1",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.40.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "3.41.0",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.41.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "3.41.1",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.41.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "3.41.3",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.41.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "3.41.2",
+      "url": "https://github.com/Budibase/budibase/releases/tag/3.41.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-17",
+      "type": "release",
+      "title": "v3.42.0",
+      "url": "https://github.com/Budibase/budibase/releases/tag/v3.42.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "v3.43.0",
+      "url": "https://github.com/Budibase/budibase/releases/tag/v3.43.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "v3.44.0",
+      "url": "https://github.com/Budibase/budibase/releases/tag/v3.44.0",
+      "points": null
     }
   ]
 }

@@ -14,11 +14,244 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 63552,
-      "forks": 11317,
-      "openIssues": 134
+      "stars": 63553,
+      "forks": 11321,
+      "openIssues": 138
     }
   ],
   "weight": 63549,
-  "image": "https://avatars.githubusercontent.com/u/16128714?v=4"
+  "image": "https://avatars.githubusercontent.com/u/16128714?v=4",
+  "events": [
+    {
+      "date": "2016-11-30",
+      "type": "hn",
+      "title": "Autopilot: an open source driving agent",
+      "url": "https://news.ycombinator.com/item?id=13073331",
+      "points": 344
+    },
+    {
+      "date": "2019-05-12",
+      "type": "hn",
+      "title": "Openpilot – open-source self-driving agent",
+      "url": "https://news.ycombinator.com/item?id=19893283",
+      "points": 262
+    },
+    {
+      "date": "2021-04-02",
+      "type": "release",
+      "title": "0.8.3 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.8.3",
+      "points": null
+    },
+    {
+      "date": "2021-05-20",
+      "type": "release",
+      "title": "0.8.4 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.8.4",
+      "points": null
+    },
+    {
+      "date": "2021-06-12",
+      "type": "release",
+      "title": "0.8.5 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.8.5",
+      "points": null
+    },
+    {
+      "date": "2021-07-23",
+      "type": "release",
+      "title": "0.8.6 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.8.6",
+      "points": null
+    },
+    {
+      "date": "2021-08-04",
+      "type": "release",
+      "title": "0.8.7 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.8.7",
+      "points": null
+    },
+    {
+      "date": "2021-08-30",
+      "type": "release",
+      "title": "0.8.8 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.8.8",
+      "points": null
+    },
+    {
+      "date": "2021-09-16",
+      "type": "release",
+      "title": "0.8.9 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.8.9",
+      "points": null
+    },
+    {
+      "date": "2021-11-01",
+      "type": "release",
+      "title": "0.8.10 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.8.10",
+      "points": null
+    },
+    {
+      "date": "2021-11-30",
+      "type": "release",
+      "title": "0.8.11 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.8.11",
+      "points": null
+    },
+    {
+      "date": "2021-12-15",
+      "type": "release",
+      "title": "0.8.12 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.8.12",
+      "points": null
+    },
+    {
+      "date": "2022-02-24",
+      "type": "release",
+      "title": "0.8.13 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.8.13",
+      "points": null
+    },
+    {
+      "date": "2022-06-02",
+      "type": "release",
+      "title": "0.8.14 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.8.14",
+      "points": null
+    },
+    {
+      "date": "2022-07-20",
+      "type": "release",
+      "title": "0.8.15 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.8.15",
+      "points": null
+    },
+    {
+      "date": "2022-08-31",
+      "type": "release",
+      "title": "0.8.16 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.8.16",
+      "points": null
+    },
+    {
+      "date": "2022-11-19",
+      "type": "release",
+      "title": "0.9.0 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.9.0",
+      "points": null
+    },
+    {
+      "date": "2023-03-01",
+      "type": "release",
+      "title": "0.9.1 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.9.1",
+      "points": null
+    },
+    {
+      "date": "2023-05-24",
+      "type": "release",
+      "title": "0.9.2 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.9.2",
+      "points": null
+    },
+    {
+      "date": "2023-06-30",
+      "type": "release",
+      "title": "0.9.3 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.9.3",
+      "points": null
+    },
+    {
+      "date": "2023-07-27",
+      "type": "release",
+      "title": "0.9.4 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.9.4",
+      "points": null
+    },
+    {
+      "date": "2023-11-17",
+      "type": "release",
+      "title": "0.9.5 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.9.5",
+      "points": null
+    },
+    {
+      "date": "2024-02-27",
+      "type": "release",
+      "title": "0.9.6 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.9.6",
+      "points": null
+    },
+    {
+      "date": "2024-06-14",
+      "type": "release",
+      "title": "0.9.7 Release ",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.9.7",
+      "points": null
+    },
+    {
+      "date": "2024-09-20",
+      "type": "hn",
+      "title": "Openpilot – Operating system for robotics",
+      "url": "https://news.ycombinator.com/item?id=41600177",
+      "points": 241
+    },
+    {
+      "date": "2025-03-18",
+      "type": "release",
+      "title": "0.9.8 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.9.8",
+      "points": null
+    },
+    {
+      "date": "2025-06-19",
+      "type": "release",
+      "title": "0.9.9 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.9.9",
+      "points": null
+    },
+    {
+      "date": "2025-08-21",
+      "type": "release",
+      "title": "0.10.0 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.10.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-30",
+      "type": "release",
+      "title": "0.10.1 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.10.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-30",
+      "type": "release",
+      "title": "0.10.2 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.10.2",
+      "points": null
+    },
+    {
+      "date": "2025-12-21",
+      "type": "release",
+      "title": "0.10.3 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.10.3",
+      "points": null
+    },
+    {
+      "date": "2026-03-17",
+      "type": "release",
+      "title": "0.11 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.11.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-05",
+      "type": "release",
+      "title": "0.11.1 Release",
+      "url": "https://github.com/commaai/openpilot/releases/tag/v0.11.1",
+      "points": null
+    }
+  ]
 }

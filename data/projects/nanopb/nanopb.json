@@ -22,5 +22,21 @@
     }
   ],
   "weight": 5544,
-  "image": "https://avatars.githubusercontent.com/u/12173937?v=4"
+  "image": "https://avatars.githubusercontent.com/u/12173937?v=4",
+  "events": [
+    {
+      "date": "2025-08-14",
+      "type": "release",
+      "title": "Nanopb 0.4.9.1",
+      "url": "https://github.com/nanopb/nanopb/releases/tag/nanopb-0.4.9.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-25",
+      "type": "release",
+      "title": "Nanopb 0.4.9.2",
+      "url": "https://github.com/nanopb/nanopb/releases/tag/nanopb-0.4.9.2",
+      "points": null
+    }
+  ]
 }

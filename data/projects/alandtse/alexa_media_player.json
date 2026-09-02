@@ -4,14 +4,233 @@
   "link": "https://github.com/alandtse/alexa_media_player",
   "name": "alexa_media_player",
   "desc": "This is a custom component to allow control of Amazon Alexa devices in Home Assistant using the unofficial Alexa API.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "alexa_media_player",
+  "githubDescription": "This is a custom component to allow control of Amazon Alexa devices in Home Assistant using the unofficial Alexa API.",
   "tags": [
     "alexa",
     "hacktoberfest",
     "home-assistant",
     "homeassistant"
   ],
-  "history": [],
-  "weight": 1974
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1974,
+      "forks": 342,
+      "openIssues": 23
+    }
+  ],
+  "weight": 1974,
+  "events": [
+    {
+      "date": "2025-08-23",
+      "type": "release",
+      "title": "v5.7.7",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.7.7",
+      "points": null
+    },
+    {
+      "date": "2025-09-30",
+      "type": "release",
+      "title": "v5.7.8",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.7.8",
+      "points": null
+    },
+    {
+      "date": "2025-10-19",
+      "type": "release",
+      "title": "v5.7.9",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.7.9",
+      "points": null
+    },
+    {
+      "date": "2025-11-03",
+      "type": "release",
+      "title": "v5.7.10",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.7.10",
+      "points": null
+    },
+    {
+      "date": "2025-11-08",
+      "type": "release",
+      "title": "v5.7.11",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.7.11",
+      "points": null
+    },
+    {
+      "date": "2025-11-12",
+      "type": "release",
+      "title": "v5.7.12",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.7.12",
+      "points": null
+    },
+    {
+      "date": "2025-11-16",
+      "type": "release",
+      "title": "v5.7.13",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.7.13",
+      "points": null
+    },
+    {
+      "date": "2025-11-23",
+      "type": "release",
+      "title": "v5.8.0",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.8.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-30",
+      "type": "release",
+      "title": "v5.8.1",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.8.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-07",
+      "type": "release",
+      "title": "v5.8.2",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.8.2",
+      "points": null
+    },
+    {
+      "date": "2025-12-28",
+      "type": "release",
+      "title": "v5.8.3",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.8.3",
+      "points": null
+    },
+    {
+      "date": "2025-12-30",
+      "type": "release",
+      "title": "v5.8.4",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.8.4",
+      "points": null
+    },
+    {
+      "date": "2026-01-09",
+      "type": "release",
+      "title": "v5.9.0",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.9.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-18",
+      "type": "release",
+      "title": "v5.10.0",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.10.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-24",
+      "type": "release",
+      "title": "v5.11.0",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.11.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-07",
+      "type": "release",
+      "title": "v5.12.0",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.12.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-09",
+      "type": "release",
+      "title": "v5.12.1",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.12.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-10",
+      "type": "release",
+      "title": "v5.12.2",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.12.2",
+      "points": null
+    },
+    {
+      "date": "2026-02-14",
+      "type": "release",
+      "title": "v5.12.3",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.12.3",
+      "points": null
+    },
+    {
+      "date": "2026-02-18",
+      "type": "release",
+      "title": "v5.13.0",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.13.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-21",
+      "type": "release",
+      "title": "v5.14.0",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.14.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-21",
+      "type": "release",
+      "title": "v5.14.1",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.14.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-27",
+      "type": "release",
+      "title": "v5.15.0",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.15.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-25",
+      "type": "release",
+      "title": "v5.15.1",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.15.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-16",
+      "type": "release",
+      "title": "v5.15.2",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.15.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-19",
+      "type": "release",
+      "title": "v5.15.3",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.15.3",
+      "points": null
+    },
+    {
+      "date": "2026-05-22",
+      "type": "release",
+      "title": "v5.15.4",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.15.4",
+      "points": null
+    },
+    {
+      "date": "2026-06-26",
+      "type": "release",
+      "title": "v5.15.5",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.15.5",
+      "points": null
+    },
+    {
+      "date": "2026-07-02",
+      "type": "release",
+      "title": "v5.15.6",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.15.6",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "v5.15.7",
+      "url": "https://github.com/alandtse/alexa_media_player/releases/tag/v5.15.7",
+      "points": null
+    }
+  ]
 }

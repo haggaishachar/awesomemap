@@ -26,11 +26,223 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 4379,
+      "stars": 4381,
       "forks": 261,
       "openIssues": 811
     }
   ],
   "weight": 4379,
-  "image": "https://avatars.githubusercontent.com/u/17707542?v=4"
+  "image": "https://avatars.githubusercontent.com/u/17707542?v=4",
+  "events": [
+    {
+      "date": "2024-07-23",
+      "type": "release",
+      "title": "v2.18.1",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v2.18.1",
+      "points": null
+    },
+    {
+      "date": "2024-08-14",
+      "type": "release",
+      "title": "v2.19.0",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v2.19.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-26",
+      "type": "release",
+      "title": "v2.20.0",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v2.20.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-15",
+      "type": "release",
+      "title": "v2.20.1",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v2.20.1",
+      "points": null
+    },
+    {
+      "date": "2024-11-06",
+      "type": "release",
+      "title": "v2.21.0",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v2.21.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-27",
+      "type": "release",
+      "title": "v2.22.0",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v2.22.0",
+      "points": null
+    },
+    {
+      "date": "2024-12-22",
+      "type": "release",
+      "title": "v2.22.1",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v2.22.1",
+      "points": null
+    },
+    {
+      "date": "2025-01-29",
+      "type": "release",
+      "title": "v3.0.0",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-12",
+      "type": "release",
+      "title": "v3.1.0",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v3.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-28",
+      "type": "release",
+      "title": "v3.1.1",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v3.1.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-23",
+      "type": "release",
+      "title": "v3.2.0",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v3.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-09",
+      "type": "release",
+      "title": "v3.2.1",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v3.2.1",
+      "points": null
+    },
+    {
+      "date": "2025-06-04",
+      "type": "release",
+      "title": "v3.3.0",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v3.3.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-10",
+      "type": "release",
+      "title": "v3.4.0",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v3.4.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-27",
+      "type": "release",
+      "title": "v3.5.0",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v3.5.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-11",
+      "type": "release",
+      "title": "v3.5.1",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v3.5.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-25",
+      "type": "release",
+      "title": "v3.5.2",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v3.5.2",
+      "points": null
+    },
+    {
+      "date": "2025-10-08",
+      "type": "release",
+      "title": "v3.6.0",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v3.6.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-16",
+      "type": "release",
+      "title": "v3.6.1",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v3.6.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-04",
+      "type": "release",
+      "title": "v3.6.2",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v3.6.2",
+      "points": null
+    },
+    {
+      "date": "2025-11-19",
+      "type": "release",
+      "title": "v3.7.0",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v3.7.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-25",
+      "type": "release",
+      "title": "v3.7.1",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v3.7.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-23",
+      "type": "release",
+      "title": "v3.7.2",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v3.7.2",
+      "points": null
+    },
+    {
+      "date": "2026-02-11",
+      "type": "release",
+      "title": "v3.8.0",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v3.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-17",
+      "type": "release",
+      "title": "v3.8.1",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v3.8.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-25",
+      "type": "release",
+      "title": "v3.9.0",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v3.9.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "v3.10.0",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v3.10.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-15",
+      "type": "release",
+      "title": "v3.10.1",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v3.10.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-17",
+      "type": "release",
+      "title": "v3.11.0",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v3.11.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-15",
+      "type": "release",
+      "title": "v3.12.0",
+      "url": "https://github.com/memgraph/memgraph/releases/tag/v3.12.0",
+      "points": null
+    }
+  ]
 }

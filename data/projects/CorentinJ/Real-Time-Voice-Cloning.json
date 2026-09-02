@@ -22,5 +22,21 @@
       "openIssues": 177
     }
   ],
-  "weight": 60120
+  "weight": 60120,
+  "events": [
+    {
+      "date": "2019-08-20",
+      "type": "hn",
+      "title": "Clone a voice in 5 seconds to generate arbitrary speech in real time",
+      "url": "https://news.ycombinator.com/item?id=20752548",
+      "points": 50
+    },
+    {
+      "date": "2025-09-14",
+      "type": "hn",
+      "title": "CorentinJ: Real-Time Voice Cloning (2021)",
+      "url": "https://news.ycombinator.com/item?id=45239016",
+      "points": 94
+    }
+  ]
 }

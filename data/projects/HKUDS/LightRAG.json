@@ -22,11 +22,202 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 39329,
-      "forks": 5535,
-      "openIssues": 218
+      "stars": 39336,
+      "forks": 5536,
+      "openIssues": 221
     }
   ],
   "weight": 39306,
-  "image": "https://raw.githubusercontent.com/HKUDS/LightRAG/main/assets/logo.png"
+  "image": "https://raw.githubusercontent.com/HKUDS/LightRAG/main/assets/logo.png",
+  "events": [
+    {
+      "date": "2025-10-11",
+      "type": "release",
+      "title": "v1.4.9.2",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.4.9.2",
+      "points": null
+    },
+    {
+      "date": "2025-10-14",
+      "type": "release",
+      "title": "v1.4.9.3",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.4.9.3",
+      "points": null
+    },
+    {
+      "date": "2025-10-22",
+      "type": "release",
+      "title": "v1.4.9.4",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.4.9.4",
+      "points": null
+    },
+    {
+      "date": "2025-10-29",
+      "type": "release",
+      "title": "v1.4.9.5",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.4.9.5",
+      "points": null
+    },
+    {
+      "date": "2025-10-30",
+      "type": "release",
+      "title": "v1.4.9.7",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.4.9.7",
+      "points": null
+    },
+    {
+      "date": "2025-10-30",
+      "type": "release",
+      "title": "v1.4.9.6 Hotfix",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.4.9.6",
+      "points": null
+    },
+    {
+      "date": "2025-11-06",
+      "type": "release",
+      "title": "v1.4.9.8",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.4.9.8",
+      "points": null
+    },
+    {
+      "date": "2025-12-22",
+      "type": "release",
+      "title": "v1.4.9.9",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.4.9.9",
+      "points": null
+    },
+    {
+      "date": "2025-12-23",
+      "type": "release",
+      "title": "v1.4.9.10",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.4.9.10",
+      "points": null
+    },
+    {
+      "date": "2026-01-15",
+      "type": "release",
+      "title": "v1.4.9.11",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.4.9.11",
+      "points": null
+    },
+    {
+      "date": "2026-02-27",
+      "type": "release",
+      "title": "v1.4.10",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.4.10",
+      "points": null
+    },
+    {
+      "date": "2026-03-13",
+      "type": "release",
+      "title": "v1.4.11rc2",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.4.11rc2",
+      "points": null
+    },
+    {
+      "date": "2026-03-20",
+      "type": "release",
+      "title": "v1.4.11",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.4.11",
+      "points": null
+    },
+    {
+      "date": "2026-03-27",
+      "type": "release",
+      "title": "v1.4.12",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.4.12",
+      "points": null
+    },
+    {
+      "date": "2026-04-02",
+      "type": "release",
+      "title": "v1.4.13",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.4.13",
+      "points": null
+    },
+    {
+      "date": "2026-04-12",
+      "type": "release",
+      "title": "v1.4.14",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.4.14",
+      "points": null
+    },
+    {
+      "date": "2026-04-19",
+      "type": "release",
+      "title": "v1.4.15",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.4.15",
+      "points": null
+    },
+    {
+      "date": "2026-05-07",
+      "type": "release",
+      "title": "v1.4.16",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.4.16",
+      "points": null
+    },
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "title": "v1.5.0",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "title": "v1.5.1",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.5.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-11",
+      "type": "release",
+      "title": "v1.5.2",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.5.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-14",
+      "type": "release",
+      "title": "v1.5.3",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.5.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-24",
+      "type": "release",
+      "title": "v1.5.4",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.5.4",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "v1.5.5",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.5.5",
+      "points": null
+    },
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "title": "v1.5.6",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.5.6",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "v1.5.7rc2",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.5.7rc2",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "v1.5.7",
+      "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.5.7",
+      "points": null
+    }
+  ]
 }

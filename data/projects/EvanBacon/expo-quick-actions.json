@@ -4,14 +4,22 @@
   "link": "https://github.com/EvanBacon/expo-quick-actions",
   "name": "expo-quick-actions",
   "desc": "Add home screen quick actions / shortcuts and custom icons to your Expo app",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "expo-quick-actions",
+  "githubDescription": "Add home screen quick actions / shortcuts and custom icons to your Expo app",
   "tags": [
     "expo",
     "kotlin",
     "react-native",
     "swift"
   ],
-  "history": [],
-  "weight": 656
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 656,
+      "forks": 25,
+      "openIssues": 22
+    }
+  ],
+  "weight": 656,
+  "events": []
 }

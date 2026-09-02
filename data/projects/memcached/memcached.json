@@ -99,8 +99,24 @@
     {
       "date": "2026-09-02",
       "stars": 14268,
-      "forks": 3342,
+      "forks": 3343,
       "openIssues": 103
+    }
+  ],
+  "events": [
+    {
+      "date": "2019-09-18",
+      "type": "hn",
+      "title": "Memcached 1.5.18 can now recover its cache between restarts",
+      "url": "https://news.ycombinator.com/item?id=21011755",
+      "points": 245
+    },
+    {
+      "date": "2020-03-09",
+      "type": "hn",
+      "title": "Memcached 1.6",
+      "url": "https://news.ycombinator.com/item?id=22522005",
+      "points": 110
     }
   ]
 }

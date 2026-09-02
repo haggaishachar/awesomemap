@@ -4,8 +4,8 @@
   "link": "https://github.com/tabler/tabler",
   "name": "tabler",
   "desc": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "tabler",
+  "githubDescription": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap",
   "tags": [
     "admin-dashboard",
     "adminpanel",
@@ -28,7 +28,86 @@
     "ui-kit",
     "uikit"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 41607,
+      "forks": 4424,
+      "openIssues": 51
+    }
+  ],
   "weight": 41607,
-  "image": "https://avatars.githubusercontent.com/u/35471246?v=4"
+  "image": "https://avatars.githubusercontent.com/u/35471246?v=4",
+  "events": [
+    {
+      "date": "2020-03-19",
+      "type": "hn",
+      "title": "MIT-licensed high-quality SVG icons",
+      "url": "https://news.ycombinator.com/item?id=22623970",
+      "points": 398
+    },
+    {
+      "date": "2021-12-07",
+      "type": "release",
+      "title": "Release 1.0.0-beta5",
+      "url": "https://github.com/tabler/tabler/releases/tag/v1.0.0-beta5",
+      "points": null
+    },
+    {
+      "date": "2022-01-18",
+      "type": "release",
+      "title": "Release 1.0.0-beta6",
+      "url": "https://github.com/tabler/tabler/releases/tag/v1.0.0-beta6",
+      "points": null
+    },
+    {
+      "date": "2022-07-29",
+      "type": "hn",
+      "title": "Tabler: Free and open source dashboard HTML/CSS framework",
+      "url": "https://news.ycombinator.com/item?id=32278397",
+      "points": 541
+    },
+    {
+      "date": "2022-11-01",
+      "type": "release",
+      "title": "Release 1.0.0-beta15",
+      "url": "https://github.com/tabler/tabler/releases/tag/v1.0.0-beta15",
+      "points": null
+    },
+    {
+      "date": "2025-01-28",
+      "type": "release",
+      "title": "Tabler v1.0.0 ❤️🚀",
+      "url": "https://github.com/tabler/tabler/releases/tag/v1.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-01",
+      "type": "release",
+      "title": "Tabler v1.1",
+      "url": "https://github.com/tabler/tabler/releases/tag/v1.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-16",
+      "type": "release",
+      "title": "Tabler v1.2.0",
+      "url": "https://github.com/tabler/tabler/releases/tag/v1.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-19",
+      "type": "release",
+      "title": "Tabler v1.3.0",
+      "url": "https://github.com/tabler/tabler/releases/tag/%40tabler/core%401.3.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-13",
+      "type": "release",
+      "title": "Tabler v1.4.0",
+      "url": "https://github.com/tabler/tabler/releases/tag/%40tabler/core%401.4.0",
+      "points": null
+    }
+  ]
 }

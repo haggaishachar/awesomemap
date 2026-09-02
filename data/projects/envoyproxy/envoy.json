@@ -128,8 +128,220 @@
     {
       "date": "2026-09-02",
       "stars": 28845,
-      "forks": 5587,
-      "openIssues": 1873
+      "forks": 5590,
+      "openIssues": 1861
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-12-10",
+      "type": "release",
+      "title": "v1.36.4",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.36.4",
+      "points": null
+    },
+    {
+      "date": "2025-12-10",
+      "type": "release",
+      "title": "v1.35.8",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.35.8",
+      "points": null
+    },
+    {
+      "date": "2025-12-10",
+      "type": "release",
+      "title": "v1.34.12",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.34.12",
+      "points": null
+    },
+    {
+      "date": "2026-01-13",
+      "type": "release",
+      "title": "v1.37.0",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.37.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-10",
+      "type": "release",
+      "title": "v1.35.9",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.35.9",
+      "points": null
+    },
+    {
+      "date": "2026-03-10",
+      "type": "release",
+      "title": "v1.34.13",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.34.13",
+      "points": null
+    },
+    {
+      "date": "2026-03-11",
+      "type": "release",
+      "title": "v1.37.1",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.37.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-11",
+      "type": "release",
+      "title": "v1.36.5",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.36.5",
+      "points": null
+    },
+    {
+      "date": "2026-04-10",
+      "type": "release",
+      "title": "v1.37.2",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.37.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-10",
+      "type": "release",
+      "title": "v1.36.6",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.36.6",
+      "points": null
+    },
+    {
+      "date": "2026-04-10",
+      "type": "release",
+      "title": "v1.35.10",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.35.10",
+      "points": null
+    },
+    {
+      "date": "2026-04-10",
+      "type": "release",
+      "title": "v1.34.14",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.34.14",
+      "points": null
+    },
+    {
+      "date": "2026-04-23",
+      "type": "release",
+      "title": "v1.38.0",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.38.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "title": "v1.35.11",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.35.11",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "v1.38.1",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.38.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "v1.37.3",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.37.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "v1.36.7",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.36.7",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v1.38.2",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.38.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v1.37.4",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.37.4",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v1.36.8",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.36.8",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v1.35.12",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.35.12",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "v1.38.3",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.38.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "v1.37.5",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.37.5",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "v1.36.9",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.36.9",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "v1.35.13",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.35.13",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "v1.39.0",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.39.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v1.38.4",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.38.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v1.37.6",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.37.6",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v1.36.10",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.36.10",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "v1.39.1",
+      "url": "https://github.com/envoyproxy/envoy/releases/tag/v1.39.1",
+      "points": null
     }
   ]
 }

@@ -31,10 +31,40 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 31970,
-      "forks": 3858,
+      "stars": 32027,
+      "forks": 3865,
       "openIssues": 51
     }
   ],
-  "weight": 31886
+  "weight": 31886,
+  "events": [
+    {
+      "date": "2026-03-11",
+      "type": "release",
+      "title": "Cybersecurity Agent Skills v1.0.0",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/releases/tag/v1.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-21",
+      "type": "release",
+      "title": "v1.1.0 — 753 Cybersecurity Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/releases/tag/v1.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-06",
+      "type": "release",
+      "title": "Cybersecurity Agent Skills v1.2.0 — Five Framework Coverage",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/releases/tag/v1.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-22",
+      "type": "release",
+      "title": "v1.3.0",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/releases/tag/v1.3.0",
+      "points": null
+    }
+  ]
 }

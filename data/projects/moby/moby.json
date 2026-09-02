@@ -123,9 +123,193 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 72029,
+      "stars": 72031,
       "forks": 19223,
-      "openIssues": 3890
+      "openIssues": 3885
+    }
+  ],
+  "events": [
+    {
+      "date": "2017-04-20",
+      "type": "hn",
+      "title": "A new upstream project to break up Docker into independent components",
+      "url": "https://news.ycombinator.com/item?id=14156954",
+      "points": 571
+    },
+    {
+      "date": "2019-07-27",
+      "type": "hn",
+      "title": "Docker 19.03: Rootless Mode (Experimental)",
+      "url": "https://news.ycombinator.com/item?id=20542915",
+      "points": 97
+    },
+    {
+      "date": "2026-04-03",
+      "type": "release",
+      "title": "client/v0.4.0",
+      "url": "https://github.com/moby/moby/releases/tag/client/v0.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-03",
+      "type": "release",
+      "title": "api/v1.54.1",
+      "url": "https://github.com/moby/moby/releases/tag/api/v1.54.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-07",
+      "type": "release",
+      "title": "v29.4.0",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-20",
+      "type": "release",
+      "title": "v29.4.1",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.4.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-20",
+      "type": "release",
+      "title": "client/v0.4.1",
+      "url": "https://github.com/moby/moby/releases/tag/client/v0.4.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-20",
+      "type": "release",
+      "title": "api/v1.54.2",
+      "url": "https://github.com/moby/moby/releases/tag/api/v1.54.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-01",
+      "type": "release",
+      "title": "v29.4.2",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.4.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "v29.4.3",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.4.3",
+      "points": null
+    },
+    {
+      "date": "2026-05-14",
+      "type": "release",
+      "title": "v29.5.0",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-18",
+      "type": "release",
+      "title": "v29.5.1",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.5.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-20",
+      "type": "release",
+      "title": "v29.5.2",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.5.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "title": "v29.5.3",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.5.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-18",
+      "type": "release",
+      "title": "v29.6.0",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-18",
+      "type": "release",
+      "title": "client/0.5.0",
+      "url": "https://github.com/moby/moby/releases/tag/client/v0.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-18",
+      "type": "release",
+      "title": "api/v1.55.0",
+      "url": "https://github.com/moby/moby/releases/tag/api/v1.55.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-26",
+      "type": "release",
+      "title": "v29.6.1",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.6.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "v29.6.2",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.6.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-27",
+      "type": "release",
+      "title": "client/v0.5.1",
+      "url": "https://github.com/moby/moby/releases/tag/client/v0.5.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "v29.7.0",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.7.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "v29.7.1",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.7.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "title": "v29.7.2",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.7.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "v25.0.17",
+      "url": "https://github.com/moby/moby/releases/tag/v25.0.17",
+      "points": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "v25.0.16",
+      "url": "https://github.com/moby/moby/releases/tag/v25.0.16",
+      "points": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "v25.0.15",
+      "url": "https://github.com/moby/moby/releases/tag/v25.0.15",
+      "points": null
     }
   ]
 }

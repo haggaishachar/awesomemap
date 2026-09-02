@@ -109,9 +109,207 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 52220,
-      "forks": 10487,
-      "openIssues": 338
+      "stars": 52222,
+      "forks": 10488,
+      "openIssues": 337
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-10-21",
+      "type": "release",
+      "title": "v3.5.24",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.5.24",
+      "points": null
+    },
+    {
+      "date": "2025-11-12",
+      "type": "release",
+      "title": "v3.6.6",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.6.6",
+      "points": null
+    },
+    {
+      "date": "2025-11-12",
+      "type": "release",
+      "title": "v3.5.25",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.5.25",
+      "points": null
+    },
+    {
+      "date": "2025-11-12",
+      "type": "release",
+      "title": "v3.4.39",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.4.39",
+      "points": null
+    },
+    {
+      "date": "2025-12-17",
+      "type": "release",
+      "title": "v3.6.7",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.6.7",
+      "points": null
+    },
+    {
+      "date": "2025-12-17",
+      "type": "release",
+      "title": "v3.5.26",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.5.26",
+      "points": null
+    },
+    {
+      "date": "2025-12-17",
+      "type": "release",
+      "title": "v3.4.40",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.4.40",
+      "points": null
+    },
+    {
+      "date": "2026-02-13",
+      "type": "release",
+      "title": "v3.6.8",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.6.8",
+      "points": null
+    },
+    {
+      "date": "2026-02-13",
+      "type": "release",
+      "title": "v3.5.27",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.5.27",
+      "points": null
+    },
+    {
+      "date": "2026-02-13",
+      "type": "release",
+      "title": "v3.4.41",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.4.41",
+      "points": null
+    },
+    {
+      "date": "2026-03-20",
+      "type": "release",
+      "title": "v3.6.9",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.6.9",
+      "points": null
+    },
+    {
+      "date": "2026-03-20",
+      "type": "release",
+      "title": "v3.5.28",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.5.28",
+      "points": null
+    },
+    {
+      "date": "2026-03-20",
+      "type": "release",
+      "title": "v3.4.42",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.4.42",
+      "points": null
+    },
+    {
+      "date": "2026-04-01",
+      "type": "release",
+      "title": "v3.6.10",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.6.10",
+      "points": null
+    },
+    {
+      "date": "2026-04-01",
+      "type": "release",
+      "title": "v3.5.29",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.5.29",
+      "points": null
+    },
+    {
+      "date": "2026-04-01",
+      "type": "release",
+      "title": "v3.4.43",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.4.43",
+      "points": null
+    },
+    {
+      "date": "2026-05-01",
+      "type": "release",
+      "title": "v3.6.11",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.6.11",
+      "points": null
+    },
+    {
+      "date": "2026-05-01",
+      "type": "release",
+      "title": "v3.5.30",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.5.30",
+      "points": null
+    },
+    {
+      "date": "2026-05-01",
+      "type": "release",
+      "title": "v3.4.44",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.4.44",
+      "points": null
+    },
+    {
+      "date": "2026-06-01",
+      "type": "release",
+      "title": "v3.6.12",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.6.12",
+      "points": null
+    },
+    {
+      "date": "2026-06-01",
+      "type": "release",
+      "title": "v3.5.31",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.5.31",
+      "points": null
+    },
+    {
+      "date": "2026-06-01",
+      "type": "release",
+      "title": "v3.4.45",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.4.45",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "v3.6.13",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.6.13",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "v3.5.32",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.5.32",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "v3.7.0",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.7.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "v3.7.1",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.7.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "v3.6.14",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.6.14",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "v3.5.33",
+      "url": "https://github.com/etcd-io/etcd/releases/tag/v3.5.33",
+      "points": null
     }
   ]
 }

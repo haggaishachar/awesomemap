@@ -33,5 +33,203 @@
     }
   ],
   "weight": 12879,
-  "image": "https://raw.githubusercontent.com/StarTrail-org/LEANN/main/assets/logo.png"
+  "image": "https://raw.githubusercontent.com/StarTrail-org/LEANN/main/assets/logo.png",
+  "events": [
+    {
+      "date": "2025-07-24",
+      "type": "release",
+      "title": "Release v0.1.1",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.1.1",
+      "points": null
+    },
+    {
+      "date": "2025-07-25",
+      "type": "release",
+      "title": "Release v0.1.10",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.1.10",
+      "points": null
+    },
+    {
+      "date": "2025-07-25",
+      "type": "release",
+      "title": "Release v0.1.9",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.1.9",
+      "points": null
+    },
+    {
+      "date": "2025-07-25",
+      "type": "release",
+      "title": "Release v0.1.7",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.1.7",
+      "points": null
+    },
+    {
+      "date": "2025-07-25",
+      "type": "release",
+      "title": "Release v0.1.5",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.1.5",
+      "points": null
+    },
+    {
+      "date": "2025-07-25",
+      "type": "release",
+      "title": "Release v0.1.2",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.1.2",
+      "points": null
+    },
+    {
+      "date": "2025-07-26",
+      "type": "release",
+      "title": "Release v0.1.11",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.1.11",
+      "points": null
+    },
+    {
+      "date": "2025-07-27",
+      "type": "release",
+      "title": "Release v0.1.14",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.1.14",
+      "points": null
+    },
+    {
+      "date": "2025-07-27",
+      "type": "release",
+      "title": "Release v0.1.13",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.1.13",
+      "points": null
+    },
+    {
+      "date": "2025-07-28",
+      "type": "release",
+      "title": "Release v0.1.15",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.1.15",
+      "points": null
+    },
+    {
+      "date": "2025-07-29",
+      "type": "release",
+      "title": "Release v0.1.16",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.1.16",
+      "points": null
+    },
+    {
+      "date": "2025-08-04",
+      "type": "release",
+      "title": "Release v0.2.0",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-05",
+      "type": "release",
+      "title": "Release v0.2.1",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.2.1",
+      "points": null
+    },
+    {
+      "date": "2025-08-08",
+      "type": "release",
+      "title": "Release v0.2.5",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.2.5",
+      "points": null
+    },
+    {
+      "date": "2025-08-08",
+      "type": "release",
+      "title": "Release v0.2.4",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.2.4",
+      "points": null
+    },
+    {
+      "date": "2025-08-08",
+      "type": "release",
+      "title": "Release v0.2.2",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.2.2",
+      "points": null
+    },
+    {
+      "date": "2025-08-10",
+      "type": "release",
+      "title": "Release v0.2.6",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.2.6",
+      "points": null
+    },
+    {
+      "date": "2025-08-11",
+      "type": "release",
+      "title": "Release v0.2.7",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.2.7",
+      "points": null
+    },
+    {
+      "date": "2025-08-12",
+      "type": "release",
+      "title": "Release v0.2.9",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.2.9",
+      "points": null
+    },
+    {
+      "date": "2025-08-12",
+      "type": "release",
+      "title": "Release v0.2.8",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.2.8",
+      "points": null
+    },
+    {
+      "date": "2025-08-16",
+      "type": "release",
+      "title": "Release v0.3.0",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.3.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-19",
+      "type": "release",
+      "title": "Release v0.3.2",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.3.2",
+      "points": null
+    },
+    {
+      "date": "2025-08-19",
+      "type": "release",
+      "title": "Release v0.3.1",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.3.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-02",
+      "type": "release",
+      "title": "Release v0.3.3",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.3.3",
+      "points": null
+    },
+    {
+      "date": "2025-09-18",
+      "type": "release",
+      "title": "Release v0.3.4",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.3.4",
+      "points": null
+    },
+    {
+      "date": "2025-11-12",
+      "type": "release",
+      "title": "Release v0.3.5",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.3.5",
+      "points": null
+    },
+    {
+      "date": "2026-01-11",
+      "type": "release",
+      "title": "Release v0.3.6",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.3.6",
+      "points": null
+    },
+    {
+      "date": "2026-03-08",
+      "type": "release",
+      "title": "Release v0.3.7",
+      "url": "https://github.com/StarTrail-org/LEANN/releases/tag/v0.3.7",
+      "points": null
+    }
+  ]
 }

@@ -4,13 +4,155 @@
   "link": "https://github.com/simonw/llm",
   "name": "llm",
   "desc": "Access large language models from the command-line",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "llm",
+  "githubDescription": "Access large language models from the command-line",
   "tags": [
     "ai",
     "llms",
     "openai"
   ],
-  "history": [],
-  "weight": 12451
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 12450,
+      "forks": 971,
+      "openIssues": 678
+    }
+  ],
+  "weight": 12451,
+  "events": [
+    {
+      "date": "2025-02-17",
+      "type": "release",
+      "title": "0.22",
+      "url": "https://github.com/simonw/llm/releases/tag/0.22",
+      "points": null
+    },
+    {
+      "date": "2025-02-28",
+      "type": "release",
+      "title": "0.23",
+      "url": "https://github.com/simonw/llm/releases/tag/0.23",
+      "points": null
+    },
+    {
+      "date": "2025-04-07",
+      "type": "release",
+      "title": "0.24",
+      "url": "https://github.com/simonw/llm/releases/tag/0.24",
+      "points": null
+    },
+    {
+      "date": "2025-04-08",
+      "type": "hn",
+      "title": "LLM-hacker-news: LLM plugin for pulling content from Hacker News",
+      "url": "https://news.ycombinator.com/item?id=43620125",
+      "points": 92
+    },
+    {
+      "date": "2025-04-08",
+      "type": "release",
+      "title": "0.24.1",
+      "url": "https://github.com/simonw/llm/releases/tag/0.24.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-09",
+      "type": "release",
+      "title": "0.24.2",
+      "url": "https://github.com/simonw/llm/releases/tag/0.24.2",
+      "points": null
+    },
+    {
+      "date": "2025-05-05",
+      "type": "release",
+      "title": "0.25",
+      "url": "https://github.com/simonw/llm/releases/tag/0.25",
+      "points": null
+    },
+    {
+      "date": "2025-05-27",
+      "type": "release",
+      "title": "0.26",
+      "url": "https://github.com/simonw/llm/releases/tag/0.26",
+      "points": null
+    },
+    {
+      "date": "2025-08-11",
+      "type": "release",
+      "title": "0.27",
+      "url": "https://github.com/simonw/llm/releases/tag/0.27",
+      "points": null
+    },
+    {
+      "date": "2025-08-12",
+      "type": "release",
+      "title": "0.27.1",
+      "url": "https://github.com/simonw/llm/releases/tag/0.27.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-12",
+      "type": "release",
+      "title": "0.28",
+      "url": "https://github.com/simonw/llm/releases/tag/0.28",
+      "points": null
+    },
+    {
+      "date": "2026-03-17",
+      "type": "release",
+      "title": "0.29",
+      "url": "https://github.com/simonw/llm/releases/tag/0.29",
+      "points": null
+    },
+    {
+      "date": "2026-03-31",
+      "type": "release",
+      "title": "0.30",
+      "url": "https://github.com/simonw/llm/releases/tag/0.30",
+      "points": null
+    },
+    {
+      "date": "2026-04-24",
+      "type": "release",
+      "title": "0.31",
+      "url": "https://github.com/simonw/llm/releases/tag/0.31",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "0.31.1",
+      "url": "https://github.com/simonw/llm/releases/tag/0.31.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "0.32",
+      "url": "https://github.com/simonw/llm/releases/tag/0.32",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "0.32.1",
+      "url": "https://github.com/simonw/llm/releases/tag/0.32.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-22",
+      "type": "release",
+      "title": "0.33",
+      "url": "https://github.com/simonw/llm/releases/tag/0.33",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "0.34",
+      "url": "https://github.com/simonw/llm/releases/tag/0.34",
+      "points": null
+    }
+  ]
 }

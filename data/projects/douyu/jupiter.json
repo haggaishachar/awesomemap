@@ -4,8 +4,8 @@
   "link": "https://github.com/douyu/jupiter",
   "name": "jupiter",
   "desc": "Jupiter: Governance-oriented Microservice Framework.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "jupiter",
+  "githubDescription": "Jupiter: Governance-oriented Microservice Framework.",
   "tags": [
     "douyu",
     "douyutv",
@@ -20,7 +20,226 @@
     "trace",
     "web-framework"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 4566,
+      "forks": 708,
+      "openIssues": 17
+    }
+  ],
   "weight": 4566,
-  "image": "https://avatars.githubusercontent.com/u/61232347?v=4"
+  "image": "https://avatars.githubusercontent.com/u/61232347?v=4",
+  "events": [
+    {
+      "date": "2022-11-21",
+      "type": "release",
+      "title": "v0.9.8",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.9.8",
+      "points": null
+    },
+    {
+      "date": "2022-11-23",
+      "type": "release",
+      "title": "v0.9.9",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.9.9",
+      "points": null
+    },
+    {
+      "date": "2022-11-29",
+      "type": "release",
+      "title": "v0.9.10",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.9.10",
+      "points": null
+    },
+    {
+      "date": "2022-12-02",
+      "type": "release",
+      "title": "v0.9.11",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.9.11",
+      "points": null
+    },
+    {
+      "date": "2022-12-06",
+      "type": "release",
+      "title": "v0.9.12",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.9.12",
+      "points": null
+    },
+    {
+      "date": "2022-12-09",
+      "type": "release",
+      "title": "v0.9.13",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.9.13",
+      "points": null
+    },
+    {
+      "date": "2023-01-05",
+      "type": "release",
+      "title": "v0.10.0",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.10.0",
+      "points": null
+    },
+    {
+      "date": "2023-01-11",
+      "type": "release",
+      "title": "v0.10.1",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.10.1",
+      "points": null
+    },
+    {
+      "date": "2023-01-17",
+      "type": "release",
+      "title": "v0.10.2",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.10.2",
+      "points": null
+    },
+    {
+      "date": "2023-02-03",
+      "type": "release",
+      "title": "v0.11.0",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.11.0",
+      "points": null
+    },
+    {
+      "date": "2023-02-10",
+      "type": "release",
+      "title": "v0.11.1",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.11.1",
+      "points": null
+    },
+    {
+      "date": "2023-02-20",
+      "type": "release",
+      "title": "v0.11.2",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.11.2",
+      "points": null
+    },
+    {
+      "date": "2023-03-07",
+      "type": "release",
+      "title": "v0.11.3",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.11.3",
+      "points": null
+    },
+    {
+      "date": "2023-03-29",
+      "type": "release",
+      "title": "v0.11.4",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.11.4",
+      "points": null
+    },
+    {
+      "date": "2023-04-20",
+      "type": "release",
+      "title": "v0.11.5",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.11.5",
+      "points": null
+    },
+    {
+      "date": "2023-05-05",
+      "type": "release",
+      "title": "v0.11.6",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.11.6",
+      "points": null
+    },
+    {
+      "date": "2023-05-09",
+      "type": "release",
+      "title": "v0.11.7",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.11.7",
+      "points": null
+    },
+    {
+      "date": "2023-05-16",
+      "type": "release",
+      "title": "v0.11.8",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.11.8",
+      "points": null
+    },
+    {
+      "date": "2023-05-25",
+      "type": "release",
+      "title": "v0.11.9",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.11.9",
+      "points": null
+    },
+    {
+      "date": "2023-07-24",
+      "type": "release",
+      "title": "v0.11.10",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.11.10",
+      "points": null
+    },
+    {
+      "date": "2023-08-02",
+      "type": "release",
+      "title": "v0.11.11",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.11.11",
+      "points": null
+    },
+    {
+      "date": "2023-08-16",
+      "type": "release",
+      "title": "v0.11.12",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.11.12",
+      "points": null
+    },
+    {
+      "date": "2023-10-13",
+      "type": "release",
+      "title": "v0.11.13",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.11.13",
+      "points": null
+    },
+    {
+      "date": "2023-12-25",
+      "type": "release",
+      "title": "v0.11.14",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.11.14",
+      "points": null
+    },
+    {
+      "date": "2024-03-05",
+      "type": "release",
+      "title": "v0.11.15",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.11.15",
+      "points": null
+    },
+    {
+      "date": "2024-05-21",
+      "type": "release",
+      "title": "v0.11.16",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.11.16",
+      "points": null
+    },
+    {
+      "date": "2024-12-11",
+      "type": "release",
+      "title": "v0.11.17",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.11.17",
+      "points": null
+    },
+    {
+      "date": "2025-01-17",
+      "type": "release",
+      "title": "v0.11.19",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.11.19",
+      "points": null
+    },
+    {
+      "date": "2025-07-03",
+      "type": "release",
+      "title": "v0.11.20",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.11.20",
+      "points": null
+    },
+    {
+      "date": "2025-10-20",
+      "type": "release",
+      "title": "v0.11.21",
+      "url": "https://github.com/douyu/jupiter/releases/tag/v0.11.21",
+      "points": null
+    }
+  ]
 }

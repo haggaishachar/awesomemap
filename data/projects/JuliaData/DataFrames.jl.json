@@ -4,8 +4,8 @@
   "link": "https://github.com/JuliaData/DataFrames.jl",
   "name": "DataFrames.jl",
   "desc": "In-memory tabular data in Julia",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "DataFrames.jl",
+  "githubDescription": "In-memory tabular data in Julia",
   "tags": [
     "data",
     "data-frame",
@@ -15,7 +15,226 @@
     "julia",
     "tabular-data"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1831,
+      "forks": 371,
+      "openIssues": 161
+    }
+  ],
   "weight": 1831,
-  "image": "https://avatars.githubusercontent.com/u/20142970?v=4"
+  "image": "https://avatars.githubusercontent.com/u/20142970?v=4",
+  "events": [
+    {
+      "date": "2021-03-25",
+      "type": "release",
+      "title": "v0.22.6",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v0.22.6",
+      "points": null
+    },
+    {
+      "date": "2021-03-31",
+      "type": "release",
+      "title": "v0.22.7",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v0.22.7",
+      "points": null
+    },
+    {
+      "date": "2021-04-21",
+      "type": "release",
+      "title": "v1.0.0",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.0.0",
+      "points": null
+    },
+    {
+      "date": "2021-04-23",
+      "type": "release",
+      "title": "v1.0.1",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.0.1",
+      "points": null
+    },
+    {
+      "date": "2021-05-01",
+      "type": "release",
+      "title": "v1.0.2",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.0.2",
+      "points": null
+    },
+    {
+      "date": "2021-05-04",
+      "type": "release",
+      "title": "v1.1.0",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.1.0",
+      "points": null
+    },
+    {
+      "date": "2021-05-07",
+      "type": "release",
+      "title": "v1.1.1",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.1.1",
+      "points": null
+    },
+    {
+      "date": "2021-07-01",
+      "type": "release",
+      "title": "v1.2.0",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.2.0",
+      "points": null
+    },
+    {
+      "date": "2021-07-20",
+      "type": "release",
+      "title": "v1.2.1",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.2.1",
+      "points": null
+    },
+    {
+      "date": "2021-07-31",
+      "type": "release",
+      "title": "v1.2.2",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.2.2",
+      "points": null
+    },
+    {
+      "date": "2021-12-03",
+      "type": "release",
+      "title": "v1.3.0",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.3.0",
+      "points": null
+    },
+    {
+      "date": "2021-12-18",
+      "type": "release",
+      "title": "v1.3.1",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.3.1",
+      "points": null
+    },
+    {
+      "date": "2022-01-23",
+      "type": "release",
+      "title": "v1.3.2",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.3.2",
+      "points": null
+    },
+    {
+      "date": "2022-04-15",
+      "type": "release",
+      "title": "v1.3.3",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.3.3",
+      "points": null
+    },
+    {
+      "date": "2022-05-02",
+      "type": "release",
+      "title": "v1.3.4",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.3.4",
+      "points": null
+    },
+    {
+      "date": "2022-09-09",
+      "type": "release",
+      "title": "v1.3.5",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.3.5",
+      "points": null
+    },
+    {
+      "date": "2022-09-19",
+      "type": "release",
+      "title": "v1.3.6",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.3.6",
+      "points": null
+    },
+    {
+      "date": "2022-10-04",
+      "type": "release",
+      "title": "v1.4.0",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.4.0",
+      "points": null
+    },
+    {
+      "date": "2022-10-06",
+      "type": "release",
+      "title": "v1.4.1",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.4.1",
+      "points": null
+    },
+    {
+      "date": "2022-10-27",
+      "type": "release",
+      "title": "v1.4.2",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.4.2",
+      "points": null
+    },
+    {
+      "date": "2022-11-13",
+      "type": "release",
+      "title": "v1.4.3",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.4.3",
+      "points": null
+    },
+    {
+      "date": "2022-12-01",
+      "type": "release",
+      "title": "v1.4.4",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.4.4",
+      "points": null
+    },
+    {
+      "date": "2023-02-11",
+      "type": "release",
+      "title": "v1.5.0",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.5.0",
+      "points": null
+    },
+    {
+      "date": "2023-07-10",
+      "type": "release",
+      "title": "v1.6.0",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.6.0",
+      "points": null
+    },
+    {
+      "date": "2023-07-22",
+      "type": "release",
+      "title": "v1.6.1",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.6.1",
+      "points": null
+    },
+    {
+      "date": "2024-09-23",
+      "type": "release",
+      "title": "v1.7.0",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.7.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-25",
+      "type": "release",
+      "title": "v1.7.1",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.7.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-11",
+      "type": "release",
+      "title": "v1.8.0",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.8.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-17",
+      "type": "release",
+      "title": "v1.8.1",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.8.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-12",
+      "type": "release",
+      "title": "v1.8.2",
+      "url": "https://github.com/JuliaData/DataFrames.jl/releases/tag/v1.8.2",
+      "points": null
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/aol/moloch",
   "name": "moloch",
   "desc": "Arkime is an open source, large scale, full packet capturing, indexing, and database system.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "arkime",
+  "githubDescription": "Arkime is an open source, large scale, full packet capturing, indexing, and database system.",
   "tags": [
     "big-data",
     "c",
@@ -16,7 +16,198 @@
     "pcap",
     "security"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 7461,
+      "forks": 1162,
+      "openIssues": 41
+    }
+  ],
   "weight": 7460,
-  "image": "https://avatars.githubusercontent.com/u/71138764?v=4"
+  "image": "https://avatars.githubusercontent.com/u/71138764?v=4",
+  "events": [
+    {
+      "date": "2024-05-28",
+      "type": "release",
+      "title": "v5.2.0",
+      "url": "https://github.com/arkime/arkime/releases/tag/v5.2.0",
+      "points": null
+    },
+    {
+      "date": "2024-06-27",
+      "type": "release",
+      "title": "v5.3.0",
+      "url": "https://github.com/arkime/arkime/releases/tag/v5.3.0",
+      "points": null
+    },
+    {
+      "date": "2024-08-05",
+      "type": "release",
+      "title": "v5.4.0",
+      "url": "https://github.com/arkime/arkime/releases/tag/v5.4.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-11",
+      "type": "release",
+      "title": "v5.5.0",
+      "url": "https://github.com/arkime/arkime/releases/tag/v5.5.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-20",
+      "type": "release",
+      "title": "v5.5.1",
+      "url": "https://github.com/arkime/arkime/releases/tag/v5.5.1",
+      "points": null
+    },
+    {
+      "date": "2025-01-15",
+      "type": "release",
+      "title": "v5.6.0",
+      "url": "https://github.com/arkime/arkime/releases/tag/v5.6.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-13",
+      "type": "release",
+      "title": "v5.6.1",
+      "url": "https://github.com/arkime/arkime/releases/tag/v5.6.1",
+      "points": null
+    },
+    {
+      "date": "2025-03-27",
+      "type": "release",
+      "title": "v5.6.2",
+      "url": "https://github.com/arkime/arkime/releases/tag/v5.6.2",
+      "points": null
+    },
+    {
+      "date": "2025-04-22",
+      "type": "release",
+      "title": "v5.6.3",
+      "url": "https://github.com/arkime/arkime/releases/tag/v5.6.3",
+      "points": null
+    },
+    {
+      "date": "2025-04-29",
+      "type": "release",
+      "title": "v5.6.4",
+      "url": "https://github.com/arkime/arkime/releases/tag/v5.6.4",
+      "points": null
+    },
+    {
+      "date": "2025-06-11",
+      "type": "release",
+      "title": "v5.7.0",
+      "url": "https://github.com/arkime/arkime/releases/tag/v5.7.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-23",
+      "type": "release",
+      "title": "v5.7.1",
+      "url": "https://github.com/arkime/arkime/releases/tag/v5.7.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-22",
+      "type": "release",
+      "title": "v5.8.0",
+      "url": "https://github.com/arkime/arkime/releases/tag/v5.8.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-20",
+      "type": "release",
+      "title": "v5.8.1",
+      "url": "https://github.com/arkime/arkime/releases/tag/v5.8.1",
+      "points": null
+    },
+    {
+      "date": "2025-10-27",
+      "type": "release",
+      "title": "v5.8.2",
+      "url": "https://github.com/arkime/arkime/releases/tag/v5.8.2",
+      "points": null
+    },
+    {
+      "date": "2025-12-02",
+      "type": "release",
+      "title": "v5.8.3",
+      "url": "https://github.com/arkime/arkime/releases/tag/v5.8.3",
+      "points": null
+    },
+    {
+      "date": "2026-03-02",
+      "type": "release",
+      "title": "v6.0.0",
+      "url": "https://github.com/arkime/arkime/releases/tag/v6.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-09",
+      "type": "release",
+      "title": "v6.0.1",
+      "url": "https://github.com/arkime/arkime/releases/tag/v6.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-18",
+      "type": "release",
+      "title": "v6.1.0",
+      "url": "https://github.com/arkime/arkime/releases/tag/v6.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-06",
+      "type": "release",
+      "title": "v6.1.1",
+      "url": "https://github.com/arkime/arkime/releases/tag/v6.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-20",
+      "type": "release",
+      "title": "v6.2.0",
+      "url": "https://github.com/arkime/arkime/releases/tag/v6.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-04",
+      "type": "release",
+      "title": "v6.3.1",
+      "url": "https://github.com/arkime/arkime/releases/tag/v6.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-20",
+      "type": "release",
+      "title": "v6.4.0",
+      "url": "https://github.com/arkime/arkime/releases/tag/v6.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "v6.5.0",
+      "url": "https://github.com/arkime/arkime/releases/tag/v6.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "v6.6.0",
+      "url": "https://github.com/arkime/arkime/releases/tag/v6.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "v6.7.0",
+      "url": "https://github.com/arkime/arkime/releases/tag/v6.7.0",
+      "points": null
+    }
+  ]
 }

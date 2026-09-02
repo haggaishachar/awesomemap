@@ -61,9 +61,144 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 119686,
-      "forks": 18323,
-      "openIssues": 16
+      "stars": 119877,
+      "forks": 18357,
+      "openIssues": 21
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-04-11",
+      "type": "release",
+      "title": "v1.1.0",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.1.0",
+      "points": null
+    },
+    {
+      "date": "2024-04-16",
+      "type": "release",
+      "title": "v1.1.2",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.1.2",
+      "points": null
+    },
+    {
+      "date": "2024-05-16",
+      "type": "release",
+      "title": "v1.1.9",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.1.9",
+      "points": null
+    },
+    {
+      "date": "2024-07-25",
+      "type": "release",
+      "title": "v1.2.0",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.2.0",
+      "points": null
+    },
+    {
+      "date": "2024-07-26",
+      "type": "release",
+      "title": "v1.2.1",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.2.1",
+      "points": null
+    },
+    {
+      "date": "2024-12-06",
+      "type": "release",
+      "title": "v1.2.2",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.2.2",
+      "points": null
+    },
+    {
+      "date": "2025-05-09",
+      "type": "release",
+      "title": "v1.2.5",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.2.5",
+      "points": null
+    },
+    {
+      "date": "2025-05-09",
+      "type": "release",
+      "title": "v1.2.4",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.2.4",
+      "points": null
+    },
+    {
+      "date": "2025-05-10",
+      "type": "release",
+      "title": "v1.2.6",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.2.6",
+      "points": null
+    },
+    {
+      "date": "2026-04-03",
+      "type": "release",
+      "title": "v1.2.7",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.2.7",
+      "points": null
+    },
+    {
+      "date": "2026-05-28",
+      "type": "release",
+      "title": "v1.2.8",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.2.8",
+      "points": null
+    },
+    {
+      "date": "2026-05-30",
+      "type": "release",
+      "title": "v1.2.9",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.2.9",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "v1.3.0",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-06",
+      "type": "release",
+      "title": "v1.3.1",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-12",
+      "type": "release",
+      "title": "v1.3.2",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "v1.3.3",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "v1.3.4",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-22",
+      "type": "release",
+      "title": "v1.3.5",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.5",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "v1.3.6",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo/releases/tag/v1.3.6",
+      "points": null
     }
   ]
 }

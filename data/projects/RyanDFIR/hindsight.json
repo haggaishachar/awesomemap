@@ -4,8 +4,8 @@
   "link": "https://github.com/RyanDFIR/hindsight",
   "name": "hindsight",
   "desc": "Browser forensics tool for Google Chrome, other Chromium-based browsers, and Mozilla Firefox",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "hindsight",
+  "githubDescription": "Browser forensics tool for Google Chrome, other Chromium-based browsers, and Mozilla Firefox",
   "tags": [
     "browser-forensics",
     "chrome",
@@ -16,6 +16,127 @@
     "hindsight",
     "mozilla-firefox"
   ],
-  "history": [],
-  "weight": 1499
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1500,
+      "forks": 183,
+      "openIssues": 6
+    }
+  ],
+  "weight": 1499,
+  "events": [
+    {
+      "date": "2015-11-15",
+      "type": "release",
+      "title": "Hindsight v1.5.0",
+      "url": "https://github.com/RyanDFIR/hindsight/releases/tag/v1.5.0",
+      "points": null
+    },
+    {
+      "date": "2017-03-05",
+      "type": "release",
+      "title": "Hindsight v2.0.0",
+      "url": "https://github.com/RyanDFIR/hindsight/releases/tag/v2.0.0",
+      "points": null
+    },
+    {
+      "date": "2017-08-25",
+      "type": "release",
+      "title": "Hindsight v2.1.1",
+      "url": "https://github.com/RyanDFIR/hindsight/releases/tag/v2.1.1",
+      "points": null
+    },
+    {
+      "date": "2018-05-04",
+      "type": "release",
+      "title": "Hindsight v2.2.0",
+      "url": "https://github.com/RyanDFIR/hindsight/releases/tag/v2.2.0",
+      "points": null
+    },
+    {
+      "date": "2019-03-15",
+      "type": "release",
+      "title": "Hindsight v2.3.0",
+      "url": "https://github.com/RyanDFIR/hindsight/releases/tag/v2.3.0",
+      "points": null
+    },
+    {
+      "date": "2019-08-01",
+      "type": "release",
+      "title": "Hindsight v2.4.0",
+      "url": "https://github.com/RyanDFIR/hindsight/releases/tag/v2.4.0",
+      "points": null
+    },
+    {
+      "date": "2020-06-10",
+      "type": "release",
+      "title": "Hindsight v20200607",
+      "url": "https://github.com/RyanDFIR/hindsight/releases/tag/20200607",
+      "points": null
+    },
+    {
+      "date": "2021-01-18",
+      "type": "release",
+      "title": "Hindsight 2021.01.16",
+      "url": "https://github.com/RyanDFIR/hindsight/releases/tag/2021.01.16",
+      "points": null
+    },
+    {
+      "date": "2021-04-27",
+      "type": "release",
+      "title": "Hindsight 2021.04.26",
+      "url": "https://github.com/RyanDFIR/hindsight/releases/tag/v2021.04.26",
+      "points": null
+    },
+    {
+      "date": "2021-12-16",
+      "type": "release",
+      "title": "v2021.12",
+      "url": "https://github.com/RyanDFIR/hindsight/releases/tag/v2021.12",
+      "points": null
+    },
+    {
+      "date": "2023-03-29",
+      "type": "release",
+      "title": "v2023.03",
+      "url": "https://github.com/RyanDFIR/hindsight/releases/tag/v2023.03",
+      "points": null
+    },
+    {
+      "date": "2024-11-04",
+      "type": "release",
+      "title": "v2024.10",
+      "url": "https://github.com/RyanDFIR/hindsight/releases/tag/v2024.10",
+      "points": null
+    },
+    {
+      "date": "2025-03-10",
+      "type": "release",
+      "title": "v2025.03",
+      "url": "https://github.com/RyanDFIR/hindsight/releases/tag/v2025.03",
+      "points": null
+    },
+    {
+      "date": "2026-01-30",
+      "type": "release",
+      "title": "v2026.01",
+      "url": "https://github.com/RyanDFIR/hindsight/releases/tag/v2026.01",
+      "points": null
+    },
+    {
+      "date": "2026-05-02",
+      "type": "release",
+      "title": "v2026.04",
+      "url": "https://github.com/RyanDFIR/hindsight/releases/tag/v2026.04",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "v2026.06",
+      "url": "https://github.com/RyanDFIR/hindsight/releases/tag/v2026.06",
+      "points": null
+    }
+  ]
 }

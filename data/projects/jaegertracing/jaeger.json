@@ -18,11 +18,230 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 23174,
-      "forks": 3109,
-      "openIssues": 572
+      "stars": 23175,
+      "forks": 3108,
+      "openIssues": 571
     }
   ],
   "weight": 23171,
-  "image": "https://avatars.githubusercontent.com/u/28545596?v=4"
+  "image": "https://avatars.githubusercontent.com/u/28545596?v=4",
+  "events": [
+    {
+      "date": "2017-09-24",
+      "type": "hn",
+      "title": "Jaeger – A Distributed Tracing System",
+      "url": "https://news.ycombinator.com/item?id=15325691",
+      "points": 311
+    },
+    {
+      "date": "2024-05-02",
+      "type": "release",
+      "title": "Release v1.57.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v1.57.0",
+      "points": null
+    },
+    {
+      "date": "2024-06-11",
+      "type": "release",
+      "title": "Release v1.58.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v1.58.0",
+      "points": null
+    },
+    {
+      "date": "2024-06-22",
+      "type": "release",
+      "title": "Release v1.58.1",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v1.58.1",
+      "points": null
+    },
+    {
+      "date": "2024-07-10",
+      "type": "release",
+      "title": "Release v1.59.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v1.59.0",
+      "points": null
+    },
+    {
+      "date": "2024-08-06",
+      "type": "release",
+      "title": "Release v1.60.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v1.60.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-15",
+      "type": "release",
+      "title": "Release v1.61.0 / v2.0.0-rc1",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v1.61.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-07",
+      "type": "release",
+      "title": "Release v1.62.0 / v2.0.0-rc2",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v1.62.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-10",
+      "type": "release",
+      "title": "Release v1.63.0 / v2.0.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v1.63.0",
+      "points": null
+    },
+    {
+      "date": "2024-12-06",
+      "type": "release",
+      "title": "Release v1.64.0 / v2.1.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v1.64.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-08",
+      "type": "release",
+      "title": "Release v1.65.0 / v2.2.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v1.65.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-06",
+      "type": "release",
+      "title": "Release v1.66.0 / v2.3.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v1.66.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-08",
+      "type": "release",
+      "title": "Release v1.67.0 / v2.4.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v1.67.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-05",
+      "type": "release",
+      "title": "Release v1.68.0 / v2.5.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v1.68.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-09",
+      "type": "release",
+      "title": "Release v1.69.0 / v2.6.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v1.69.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-10",
+      "type": "release",
+      "title": "Release v1.70.0 / v2.7.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v1.70.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-05",
+      "type": "release",
+      "title": "Release v1.71.0 / v2.8.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v1.71.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-06",
+      "type": "release",
+      "title": "Release v1.72.0 / v2.9.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v1.72.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-03",
+      "type": "release",
+      "title": "Release v1.73.0 / v2.10.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v1.73.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-02",
+      "type": "release",
+      "title": "Release v1.74.0 / v2.11.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v1.74.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-18",
+      "type": "release",
+      "title": "Release v1.75.0 / v2.12.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v1.75.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-03",
+      "type": "release",
+      "title": "Release v1.76.0 / v2.13.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v1.76.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-02",
+      "type": "release",
+      "title": "Release v2.14.1",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v2.14.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-02",
+      "type": "release",
+      "title": "Release v2.14.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v2.14.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-06",
+      "type": "release",
+      "title": "Release v2.15.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v2.15.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-09",
+      "type": "release",
+      "title": "Release v2.15.1",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v2.15.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-07",
+      "type": "release",
+      "title": "Release v2.16.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v2.16.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-30",
+      "type": "release",
+      "title": "Release v2.17.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v2.17.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "Release v2.18.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v2.18.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "title": "Release v2.19.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v2.19.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-20",
+      "type": "release",
+      "title": "Release v2.20.0",
+      "url": "https://github.com/jaegertracing/jaeger/releases/tag/v2.20.0",
+      "points": null
+    }
+  ]
 }

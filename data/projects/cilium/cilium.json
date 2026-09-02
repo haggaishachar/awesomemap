@@ -135,9 +135,165 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 25046,
+      "stars": 25045,
       "forks": 4010,
-      "openIssues": 1088
+      "openIssues": 1085
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-02-13",
+      "type": "release",
+      "title": "1.18.7",
+      "url": "https://github.com/cilium/cilium/releases/tag/v1.18.7",
+      "points": null
+    },
+    {
+      "date": "2026-02-13",
+      "type": "release",
+      "title": "1.17.13",
+      "url": "https://github.com/cilium/cilium/releases/tag/v1.17.13",
+      "points": null
+    },
+    {
+      "date": "2026-02-17",
+      "type": "release",
+      "title": "1.19.1",
+      "url": "https://github.com/cilium/cilium/releases/tag/v1.19.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-23",
+      "type": "release",
+      "title": "1.19.2",
+      "url": "https://github.com/cilium/cilium/releases/tag/v1.19.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-23",
+      "type": "release",
+      "title": "1.18.8",
+      "url": "https://github.com/cilium/cilium/releases/tag/v1.18.8",
+      "points": null
+    },
+    {
+      "date": "2026-03-23",
+      "type": "release",
+      "title": "1.17.14",
+      "url": "https://github.com/cilium/cilium/releases/tag/v1.17.14",
+      "points": null
+    },
+    {
+      "date": "2026-04-15",
+      "type": "release",
+      "title": "1.19.3",
+      "url": "https://github.com/cilium/cilium/releases/tag/v1.19.3",
+      "points": null
+    },
+    {
+      "date": "2026-04-15",
+      "type": "release",
+      "title": "1.18.9",
+      "url": "https://github.com/cilium/cilium/releases/tag/v1.18.9",
+      "points": null
+    },
+    {
+      "date": "2026-04-15",
+      "type": "release",
+      "title": "1.17.15",
+      "url": "https://github.com/cilium/cilium/releases/tag/v1.17.15",
+      "points": null
+    },
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "1.19.4",
+      "url": "https://github.com/cilium/cilium/releases/tag/v1.19.4",
+      "points": null
+    },
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "1.18.10",
+      "url": "https://github.com/cilium/cilium/releases/tag/v1.18.10",
+      "points": null
+    },
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "1.17.16",
+      "url": "https://github.com/cilium/cilium/releases/tag/v1.17.16",
+      "points": null
+    },
+    {
+      "date": "2026-06-16",
+      "type": "release",
+      "title": "1.19.5",
+      "url": "https://github.com/cilium/cilium/releases/tag/v1.19.5",
+      "points": null
+    },
+    {
+      "date": "2026-06-16",
+      "type": "release",
+      "title": "1.18.11",
+      "url": "https://github.com/cilium/cilium/releases/tag/v1.18.11",
+      "points": null
+    },
+    {
+      "date": "2026-06-16",
+      "type": "release",
+      "title": "1.17.17",
+      "url": "https://github.com/cilium/cilium/releases/tag/v1.17.17",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "1.19.6",
+      "url": "https://github.com/cilium/cilium/releases/tag/v1.19.6",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "1.18.12",
+      "url": "https://github.com/cilium/cilium/releases/tag/v1.18.12",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "1.17.18",
+      "url": "https://github.com/cilium/cilium/releases/tag/v1.17.18",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "1.20.0",
+      "url": "https://github.com/cilium/cilium/releases/tag/v1.20.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "1.20.1",
+      "url": "https://github.com/cilium/cilium/releases/tag/v1.20.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "1.19.7",
+      "url": "https://github.com/cilium/cilium/releases/tag/v1.19.7",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "1.18.13",
+      "url": "https://github.com/cilium/cilium/releases/tag/v1.18.13",
+      "points": null
     }
   ]
 }

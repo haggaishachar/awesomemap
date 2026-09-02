@@ -4,8 +4,8 @@
   "link": "https://github.com/nrwl/nx",
   "name": "nx",
   "desc": "The Monorepo Platform that amplifies both developers and AI agents. Nx optimizes your builds, scales your CI, and fixes failed PRs automatically. Ship in half the time.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "nx",
+  "githubDescription": "The Monorepo Platform that amplifies both developers and AI agents. Nx optimizes your builds, scales your CI, and fixes failed PRs automatically. Ship in half the time.",
   "tags": [
     "angular",
     "build",
@@ -25,7 +25,86 @@
     "storybook",
     "typescript"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 29294,
+      "forks": 3008,
+      "openIssues": 437
+    }
+  ],
   "weight": 29295,
-  "image": "https://avatars.githubusercontent.com/u/23692104?v=4"
+  "image": "https://avatars.githubusercontent.com/u/23692104?v=4",
+  "events": [
+    {
+      "date": "2025-08-27",
+      "type": "hn",
+      "title": "Malicious versions of Nx and some supporting plugins were published",
+      "url": "https://news.ycombinator.com/item?id=45034496",
+      "points": 443
+    },
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "title": "23.0.2",
+      "url": "https://github.com/nrwl/nx/releases/tag/23.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "title": "22.7.7",
+      "url": "https://github.com/nrwl/nx/releases/tag/22.7.7",
+      "points": null
+    },
+    {
+      "date": "2026-07-13",
+      "type": "release",
+      "title": "23.1.0",
+      "url": "https://github.com/nrwl/nx/releases/tag/23.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "23.1.1",
+      "url": "https://github.com/nrwl/nx/releases/tag/23.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "22.7.8",
+      "url": "https://github.com/nrwl/nx/releases/tag/22.7.8",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "23.1.2",
+      "url": "https://github.com/nrwl/nx/releases/tag/23.1.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "23.1.3",
+      "url": "https://github.com/nrwl/nx/releases/tag/23.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "22.7.9",
+      "url": "https://github.com/nrwl/nx/releases/tag/22.7.9",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "23.2.0",
+      "url": "https://github.com/nrwl/nx/releases/tag/23.2.0",
+      "points": null
+    }
+  ]
 }

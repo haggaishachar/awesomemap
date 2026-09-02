@@ -4,8 +4,8 @@
   "link": "https://github.com/WithSecureLabs/chainsaw",
   "name": "chainsaw",
   "desc": "Rapidly Search and Hunt through Windows Forensic Artefacts",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "chainsaw",
+  "githubDescription": "Rapidly Search and Hunt through Windows Forensic Artefacts",
   "tags": [
     "attack",
     "blueteam",
@@ -21,7 +21,184 @@
     "threat-hunting",
     "windows"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 3654,
+      "forks": 305,
+      "openIssues": 4
+    }
+  ],
   "weight": 3653,
-  "image": "https://avatars.githubusercontent.com/u/99874690?v=4"
+  "image": "https://avatars.githubusercontent.com/u/99874690?v=4",
+  "events": [
+    {
+      "date": "2024-06-21",
+      "type": "release",
+      "title": "v2.9.1",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.9.1",
+      "points": null
+    },
+    {
+      "date": "2024-07-01",
+      "type": "release",
+      "title": "v2.9.1-2",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.9.1-2",
+      "points": null
+    },
+    {
+      "date": "2024-07-01",
+      "type": "release",
+      "title": "v2.9.1-1",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.9.1-1",
+      "points": null
+    },
+    {
+      "date": "2024-07-11",
+      "type": "release",
+      "title": "v2.9.2",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.9.2",
+      "points": null
+    },
+    {
+      "date": "2024-08-19",
+      "type": "release",
+      "title": "v2.9.3",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.9.3",
+      "points": null
+    },
+    {
+      "date": "2024-08-24",
+      "type": "release",
+      "title": "v2.10.0",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.10.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-27",
+      "type": "release",
+      "title": "v2.10.1",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.10.1",
+      "points": null
+    },
+    {
+      "date": "2024-12-22",
+      "type": "release",
+      "title": "v2.10.3",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.10.3",
+      "points": null
+    },
+    {
+      "date": "2024-12-22",
+      "type": "release",
+      "title": "v2.10.2",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.10.2",
+      "points": null
+    },
+    {
+      "date": "2024-12-24",
+      "type": "release",
+      "title": "v2.10.4",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.10.4",
+      "points": null
+    },
+    {
+      "date": "2024-12-28",
+      "type": "release",
+      "title": "v2.11.0",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.11.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-22",
+      "type": "release",
+      "title": "v2.12.0-1",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.12.2",
+      "points": null
+    },
+    {
+      "date": "2025-03-22",
+      "type": "release",
+      "title": "v2.12.0",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.12.1",
+      "points": null
+    },
+    {
+      "date": "2025-10-04",
+      "type": "release",
+      "title": "v2.13.0",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.13.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-07",
+      "type": "release",
+      "title": "v2.13.1",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.13.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-14",
+      "type": "release",
+      "title": "v2.14.1",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.14.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-14",
+      "type": "release",
+      "title": "v2.14.0",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.14.0-1",
+      "points": null
+    },
+    {
+      "date": "2026-04-27",
+      "type": "release",
+      "title": "v2.15.0",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.15.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-09",
+      "type": "release",
+      "title": "v2.16.0",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.16.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "v2.16.2",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.16.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "v2.16.1",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.16.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "v2.16.3",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.16.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "v2.16.4",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.16.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-25",
+      "type": "release",
+      "title": "v2.16.5",
+      "url": "https://github.com/WithSecureLabs/chainsaw/releases/tag/v2.16.5",
+      "points": null
+    }
+  ]
 }

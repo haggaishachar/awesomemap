@@ -15,10 +15,11 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 135706,
-      "forks": 19960,
+      "stars": 135767,
+      "forks": 19973,
       "openIssues": 5
     }
   ],
-  "weight": 135524
+  "weight": 135524,
+  "events": []
 }

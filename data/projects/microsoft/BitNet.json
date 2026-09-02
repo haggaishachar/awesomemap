@@ -4,10 +4,33 @@
   "link": "https://github.com/microsoft/BitNet",
   "name": "BitNet",
   "desc": "Official inference framework for 1-bit LLMs",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "BitNet",
+  "githubDescription": "Official inference framework for 1-bit LLMs",
   "tags": [],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 40222,
+      "forks": 3723,
+      "openIssues": 319
+    }
+  ],
   "weight": 40220,
-  "image": "https://avatars.githubusercontent.com/u/6154722?v=4"
+  "image": "https://avatars.githubusercontent.com/u/6154722?v=4",
+  "events": [
+    {
+      "date": "2024-10-18",
+      "type": "hn",
+      "title": "Microsoft BitNet: inference framework for 1-bit LLMs",
+      "url": "https://news.ycombinator.com/item?id=41877609",
+      "points": 173
+    },
+    {
+      "date": "2026-03-11",
+      "type": "hn",
+      "title": "BitNet: Inference framework for 1-bit LLMs",
+      "url": "https://news.ycombinator.com/item?id=47334694",
+      "points": 370
+    }
+  ]
 }

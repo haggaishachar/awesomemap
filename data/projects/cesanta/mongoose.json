@@ -22,11 +22,223 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 13024,
+      "stars": 13023,
       "forks": 2935,
       "openIssues": 0
     }
   ],
   "weight": 13018,
-  "image": "https://avatars.githubusercontent.com/u/5111322?v=4"
+  "image": "https://avatars.githubusercontent.com/u/5111322?v=4",
+  "events": [
+    {
+      "date": "2018-10-08",
+      "type": "release",
+      "title": "Mongoose 6.13",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/6.13",
+      "points": null
+    },
+    {
+      "date": "2019-03-04",
+      "type": "release",
+      "title": "Mongoose 6.14",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/6.14",
+      "points": null
+    },
+    {
+      "date": "2019-06-13",
+      "type": "release",
+      "title": "Mongoose 6.15",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/6.15",
+      "points": null
+    },
+    {
+      "date": "2019-09-30",
+      "type": "release",
+      "title": "Mongoose 6.16",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/6.16",
+      "points": null
+    },
+    {
+      "date": "2020-02-11",
+      "type": "release",
+      "title": "Mongoose 6.17",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/6.17",
+      "points": null
+    },
+    {
+      "date": "2020-05-21",
+      "type": "release",
+      "title": "Mongoose 6.18",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/6.18",
+      "points": null
+    },
+    {
+      "date": "2020-12-12",
+      "type": "release",
+      "title": "Mongoose 7.0",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.0",
+      "points": null
+    },
+    {
+      "date": "2021-01-26",
+      "type": "release",
+      "title": "Mongoose 7.1",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.1",
+      "points": null
+    },
+    {
+      "date": "2021-03-09",
+      "type": "release",
+      "title": "Mongoose 7.2",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.2",
+      "points": null
+    },
+    {
+      "date": "2021-07-23",
+      "type": "release",
+      "title": "Mongoose 7.3",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.3",
+      "points": null
+    },
+    {
+      "date": "2021-09-30",
+      "type": "release",
+      "title": "Mongoose 7.4",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.4",
+      "points": null
+    },
+    {
+      "date": "2021-12-17",
+      "type": "release",
+      "title": "Mongoose 7.5",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.5",
+      "points": null
+    },
+    {
+      "date": "2022-01-21",
+      "type": "release",
+      "title": "Mongoose 7.6",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.6",
+      "points": null
+    },
+    {
+      "date": "2022-05-19",
+      "type": "release",
+      "title": "Mongoose 7.7",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.7",
+      "points": null
+    },
+    {
+      "date": "2022-08-28",
+      "type": "release",
+      "title": "Mongoose 7.8",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.8",
+      "points": null
+    },
+    {
+      "date": "2023-01-20",
+      "type": "release",
+      "title": "Mongoose 7.9",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.9",
+      "points": null
+    },
+    {
+      "date": "2023-05-18",
+      "type": "release",
+      "title": "Mongoose 7.10",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.10",
+      "points": null
+    },
+    {
+      "date": "2023-07-03",
+      "type": "release",
+      "title": "Mongoose 7.11",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.11",
+      "points": null
+    },
+    {
+      "date": "2023-10-12",
+      "type": "release",
+      "title": "Mongoose 7.12",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.12",
+      "points": null
+    },
+    {
+      "date": "2024-02-21",
+      "type": "release",
+      "title": "Mongoose 7.13",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.13",
+      "points": null
+    },
+    {
+      "date": "2024-05-20",
+      "type": "release",
+      "title": "Mongoose 7.14",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.14",
+      "points": null
+    },
+    {
+      "date": "2024-08-21",
+      "type": "release",
+      "title": "Mongoose 7.15",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.15",
+      "points": null
+    },
+    {
+      "date": "2024-11-20",
+      "type": "release",
+      "title": "Mongoose 7.16",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.16",
+      "points": null
+    },
+    {
+      "date": "2025-02-19",
+      "type": "release",
+      "title": "Mongoose 7.17",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.17",
+      "points": null
+    },
+    {
+      "date": "2025-05-21",
+      "type": "release",
+      "title": "Mongoose 7.18",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.18",
+      "points": null
+    },
+    {
+      "date": "2025-08-21",
+      "type": "release",
+      "title": "Mongoose 7.19",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.19",
+      "points": null
+    },
+    {
+      "date": "2025-11-19",
+      "type": "release",
+      "title": "Mongoose 7.20",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.20",
+      "points": null
+    },
+    {
+      "date": "2026-04-01",
+      "type": "release",
+      "title": "Mongoose 7.21",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.21",
+      "points": null
+    },
+    {
+      "date": "2026-06-24",
+      "type": "release",
+      "title": "Mongoose 7.22",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.22",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "Mongoose 7.23",
+      "url": "https://github.com/cesanta/mongoose/releases/tag/7.23",
+      "points": null
+    }
+  ]
 }

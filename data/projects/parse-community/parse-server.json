@@ -137,9 +137,74 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 21411,
+      "stars": 21412,
       "forks": 4812,
-      "openIssues": 553
+      "openIssues": 554
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-06-16",
+      "type": "release",
+      "title": "8.6.81",
+      "url": "https://github.com/parse-community/parse-server/releases/tag/8.6.81",
+      "points": null
+    },
+    {
+      "date": "2026-06-17",
+      "type": "release",
+      "title": "8.6.82",
+      "url": "https://github.com/parse-community/parse-server/releases/tag/8.6.82",
+      "points": null
+    },
+    {
+      "date": "2026-06-19",
+      "type": "release",
+      "title": "8.6.83",
+      "url": "https://github.com/parse-community/parse-server/releases/tag/8.6.83",
+      "points": null
+    },
+    {
+      "date": "2026-06-25",
+      "type": "release",
+      "title": "8.6.84",
+      "url": "https://github.com/parse-community/parse-server/releases/tag/8.6.84",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "8.6.85",
+      "url": "https://github.com/parse-community/parse-server/releases/tag/8.6.85",
+      "points": null
+    },
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "title": "8.6.87",
+      "url": "https://github.com/parse-community/parse-server/releases/tag/8.6.87",
+      "points": null
+    },
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "title": "8.6.86",
+      "url": "https://github.com/parse-community/parse-server/releases/tag/8.6.86",
+      "points": null
+    },
+    {
+      "date": "2026-07-13",
+      "type": "release",
+      "title": "9.10.0",
+      "url": "https://github.com/parse-community/parse-server/releases/tag/9.10.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-25",
+      "type": "release",
+      "title": "8.6.88",
+      "url": "https://github.com/parse-community/parse-server/releases/tag/8.6.88",
+      "points": null
     }
   ]
 }

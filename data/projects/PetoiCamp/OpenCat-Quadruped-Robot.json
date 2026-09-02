@@ -4,8 +4,8 @@
   "link": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot",
   "name": "OpenCat-Quadruped-Robot",
   "desc": "An open source quadruped robot pet framework for developing Boston Dynamics-style four-legged robots that are perfect for STEM, coding & robotics education, IoT robotics applications, AI-enhanced robotics application services, research, and DIY robotics kit development. ",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "OpenCat-Quadruped-Robot",
+  "githubDescription": "An open source quadruped robot pet framework for developing Boston Dynamics-style four-legged robots that are perfect for STEM, coding & robotics education, IoT robotics applications, AI-enhanced robotics application services, research, and DIY robotics kit development. ",
   "tags": [
     "ai",
     "arduino",
@@ -28,7 +28,149 @@
     "visual-programming",
     "walking"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 5246,
+      "forks": 616,
+      "openIssues": 6
+    }
+  ],
   "weight": 5246,
-  "image": "https://avatars.githubusercontent.com/u/37222488?v=4"
+  "image": "https://avatars.githubusercontent.com/u/37222488?v=4",
+  "events": [
+    {
+      "date": "2022-08-03",
+      "type": "release",
+      "title": "PetoiDesktopApp",
+      "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot/releases/tag/1.0.0",
+      "points": null
+    },
+    {
+      "date": "2022-12-29",
+      "type": "release",
+      "title": "PetoiDesktopApp 1.0.1",
+      "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot/releases/tag/1.0.1",
+      "points": null
+    },
+    {
+      "date": "2023-01-24",
+      "type": "release",
+      "title": "PetoiDesktopApp",
+      "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot/releases/tag/1.0.2",
+      "points": null
+    },
+    {
+      "date": "2023-06-06",
+      "type": "release",
+      "title": "PetoiDesktopApp",
+      "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot/releases/tag/1.0.3",
+      "points": null
+    },
+    {
+      "date": "2023-07-13",
+      "type": "release",
+      "title": "PetoiDesktopApp",
+      "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot/releases/tag/1.1.0",
+      "points": null
+    },
+    {
+      "date": "2023-08-23",
+      "type": "release",
+      "title": "PetoiDesktopApp",
+      "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot/releases/tag/1.1.2",
+      "points": null
+    },
+    {
+      "date": "2023-10-26",
+      "type": "release",
+      "title": "PetoiDesktopApp",
+      "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot/releases/tag/1.1.3",
+      "points": null
+    },
+    {
+      "date": "2023-11-14",
+      "type": "release",
+      "title": "PetoiDesktopApp",
+      "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot/releases/tag/1.1.4",
+      "points": null
+    },
+    {
+      "date": "2023-12-08",
+      "type": "release",
+      "title": "PetoiDesktopApp",
+      "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot/releases/tag/1.1.5",
+      "points": null
+    },
+    {
+      "date": "2024-01-10",
+      "type": "release",
+      "title": "PetoiDesktopApp",
+      "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot/releases/tag/1.1.6",
+      "points": null
+    },
+    {
+      "date": "2024-01-25",
+      "type": "release",
+      "title": "PetoiDesktopApp",
+      "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot/releases/tag/1.1.7",
+      "points": null
+    },
+    {
+      "date": "2024-02-19",
+      "type": "release",
+      "title": "PetoiDesktopApp",
+      "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot/releases/tag/1.1.8",
+      "points": null
+    },
+    {
+      "date": "2024-03-01",
+      "type": "release",
+      "title": "PetoiDesktopApp",
+      "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot/releases/tag/1.1.9",
+      "points": null
+    },
+    {
+      "date": "2024-05-31",
+      "type": "release",
+      "title": "PetoiDesktopApp",
+      "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot/releases/tag/1.2.0",
+      "points": null
+    },
+    {
+      "date": "2024-07-05",
+      "type": "release",
+      "title": "PetoiDesktopApp",
+      "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot/releases/tag/1.2.1",
+      "points": null
+    },
+    {
+      "date": "2024-11-07",
+      "type": "release",
+      "title": "PetoiDesktopApp",
+      "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot/releases/tag/1.2.2",
+      "points": null
+    },
+    {
+      "date": "2025-01-21",
+      "type": "release",
+      "title": "PetoiDesktopApp",
+      "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot/releases/tag/1.2.3",
+      "points": null
+    },
+    {
+      "date": "2025-04-08",
+      "type": "release",
+      "title": "PetoiDesktopApp",
+      "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot/releases/tag/1.2.4",
+      "points": null
+    },
+    {
+      "date": "2025-06-23",
+      "type": "release",
+      "title": "PetoiDesktopApp",
+      "url": "https://github.com/PetoiCamp/OpenCat-Quadruped-Robot/releases/tag/1.2.5",
+      "points": null
+    }
+  ]
 }

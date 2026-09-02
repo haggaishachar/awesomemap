@@ -56,7 +56,121 @@
       "date": "2026-09-02",
       "stars": 5645,
       "forks": 3800,
-      "openIssues": 357
+      "openIssues": 358
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "20260429.3",
+      "url": "https://github.com/home-assistant/frontend/releases/tag/20260429.3",
+      "points": null
+    },
+    {
+      "date": "2026-05-14",
+      "type": "release",
+      "title": "20260429.4",
+      "url": "https://github.com/home-assistant/frontend/releases/tag/20260429.4",
+      "points": null
+    },
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "title": "20260527.4",
+      "url": "https://github.com/home-assistant/frontend/releases/tag/20260527.4",
+      "points": null
+    },
+    {
+      "date": "2026-06-07",
+      "type": "release",
+      "title": "20260527.5",
+      "url": "https://github.com/home-assistant/frontend/releases/tag/20260527.5",
+      "points": null
+    },
+    {
+      "date": "2026-06-11",
+      "type": "release",
+      "title": "20260527.6",
+      "url": "https://github.com/home-assistant/frontend/releases/tag/20260527.6",
+      "points": null
+    },
+    {
+      "date": "2026-06-19",
+      "type": "release",
+      "title": "20260527.7",
+      "url": "https://github.com/home-assistant/frontend/releases/tag/20260527.7",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "20260624.3",
+      "url": "https://github.com/home-assistant/frontend/releases/tag/20260624.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-03",
+      "type": "release",
+      "title": "20260624.4",
+      "url": "https://github.com/home-assistant/frontend/releases/tag/20260624.4",
+      "points": null
+    },
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "title": "20260624.5",
+      "url": "https://github.com/home-assistant/frontend/releases/tag/20260624.5",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "20260624.6",
+      "url": "https://github.com/home-assistant/frontend/releases/tag/20260624.6",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "20260729.0",
+      "url": "https://github.com/home-assistant/frontend/releases/tag/20260729.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "20260729.5",
+      "url": "https://github.com/home-assistant/frontend/releases/tag/20260729.5",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "20260729.6",
+      "url": "https://github.com/home-assistant/frontend/releases/tag/20260729.6",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "20260729.7",
+      "url": "https://github.com/home-assistant/frontend/releases/tag/20260729.7",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "20260826.4",
+      "url": "https://github.com/home-assistant/frontend/releases/tag/20260826.4",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "20260826.3",
+      "url": "https://github.com/home-assistant/frontend/releases/tag/20260826.3",
+      "points": null
     }
   ]
 }

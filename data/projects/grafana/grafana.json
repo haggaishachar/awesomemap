@@ -134,9 +134,235 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 76562,
-      "forks": 14683,
-      "openIssues": 3335
+      "stars": 76564,
+      "forks": 14686,
+      "openIssues": 3340
+    }
+  ],
+  "events": [
+    {
+      "date": "2017-10-15",
+      "type": "hn",
+      "title": "Grafana: Postgres Data Source",
+      "url": "https://news.ycombinator.com/item?id=15476542",
+      "points": 128
+    },
+    {
+      "date": "2021-06-08",
+      "type": "hn",
+      "title": "Grafana 8.0",
+      "url": "https://news.ycombinator.com/item?id=27433552",
+      "points": 415
+    },
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "title": "12.4.4",
+      "url": "https://github.com/grafana/grafana/releases/tag/v12.4.4",
+      "points": null
+    },
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "title": "12.3.7",
+      "url": "https://github.com/grafana/grafana/releases/tag/v12.3.7",
+      "points": null
+    },
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "title": "12.2.9",
+      "url": "https://github.com/grafana/grafana/releases/tag/v12.2.9",
+      "points": null
+    },
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "title": "11.6.15",
+      "url": "https://github.com/grafana/grafana/releases/tag/v11.6.15",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "13.0.3",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.0.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "12.4.5",
+      "url": "https://github.com/grafana/grafana/releases/tag/v12.4.5",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "12.3.8",
+      "url": "https://github.com/grafana/grafana/releases/tag/v12.3.8",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "12.2.10",
+      "url": "https://github.com/grafana/grafana/releases/tag/v12.2.10",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "11.6.16",
+      "url": "https://github.com/grafana/grafana/releases/tag/v11.6.16",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "13.1.0",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "13.1.1",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "13.0.4",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.0.4",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "12.4.6",
+      "url": "https://github.com/grafana/grafana/releases/tag/v12.4.6",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "12.3.9",
+      "url": "https://github.com/grafana/grafana/releases/tag/v12.3.9",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "13.1.2",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.1.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "13.0.5",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.0.5",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "12.4.7",
+      "url": "https://github.com/grafana/grafana/releases/tag/v12.4.7",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "12.3.10",
+      "url": "https://github.com/grafana/grafana/releases/tag/v12.3.10",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "13.1.3",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "13.0.6",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.0.6",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "12.4.8",
+      "url": "https://github.com/grafana/grafana/releases/tag/v12.4.8",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "13.2.0",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "13.1.4",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.1.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "13.0.7",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.0.7",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "12.4.9",
+      "url": "https://github.com/grafana/grafana/releases/tag/v12.4.9",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "12.3.11",
+      "url": "https://github.com/grafana/grafana/releases/tag/v12.3.11",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "13.2.1",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "13.1.5",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.1.5",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "13.0.8",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.0.8",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "12.4.10",
+      "url": "https://github.com/grafana/grafana/releases/tag/v12.4.10",
+      "points": null
     }
   ]
 }

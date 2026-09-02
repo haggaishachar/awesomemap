@@ -75,9 +75,214 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 34457,
-      "forks": 8720,
-      "openIssues": 192
+      "stars": 34455,
+      "forks": 8719,
+      "openIssues": 188
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-04-24",
+      "type": "release",
+      "title": "Selenium 4.20.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.20.0",
+      "points": null
+    },
+    {
+      "date": "2024-05-16",
+      "type": "release",
+      "title": "Selenium 4.21.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.21.0",
+      "points": null
+    },
+    {
+      "date": "2024-06-20",
+      "type": "release",
+      "title": "Selenium 4.22.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.22.0",
+      "points": null
+    },
+    {
+      "date": "2024-07-19",
+      "type": "release",
+      "title": "Selenium 4.23.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.23.0",
+      "points": null
+    },
+    {
+      "date": "2024-08-28",
+      "type": "release",
+      "title": "Selenium 4.24.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.24.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-20",
+      "type": "release",
+      "title": "Selenium 4.25.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.25.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-30",
+      "type": "release",
+      "title": "Selenium 4.26.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.26.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-25",
+      "type": "release",
+      "title": "Selenium 4.27.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.27.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-20",
+      "type": "release",
+      "title": "Selenium 4.28.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.28.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-20",
+      "type": "release",
+      "title": "Selenium 4.29.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.29.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-21",
+      "type": "release",
+      "title": "Selenium 4.30.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.30.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-05",
+      "type": "release",
+      "title": "Selenium 4.31.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.31.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-02",
+      "type": "release",
+      "title": "Selenium 4.32.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.32.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-23",
+      "type": "release",
+      "title": "Selenium 4.33.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.33.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-29",
+      "type": "release",
+      "title": "Selenium 4.34.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.34.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-12",
+      "type": "release",
+      "title": "Selenium 4.35.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.35.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-02",
+      "type": "release",
+      "title": "Selenium 4.36.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.36.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-18",
+      "type": "release",
+      "title": "Selenium 4.37.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.37.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-25",
+      "type": "release",
+      "title": "Selenium 4.38.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.38.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-06",
+      "type": "release",
+      "title": "Selenium 4.39.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.39.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-18",
+      "type": "release",
+      "title": "Selenium 4.40.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.40.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-20",
+      "type": "release",
+      "title": "Selenium 4.41.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.41.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-09",
+      "type": "release",
+      "title": "Selenium 4.42.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.42.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-10",
+      "type": "release",
+      "title": "Selenium 4.43.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.43.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-12",
+      "type": "release",
+      "title": "Selenium 4.44.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.44.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-16",
+      "type": "release",
+      "title": "Selenium 4.45.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.45.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-11",
+      "type": "release",
+      "title": "Selenium 4.46.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.46.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "title": "Selenium 4.47.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.47.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "Selenium 4.48.0",
+      "url": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.48.0",
+      "points": null
     }
   ]
 }

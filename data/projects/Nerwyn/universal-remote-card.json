@@ -54,5 +54,217 @@
       "forks": 35,
       "openIssues": 5
     }
+  ],
+  "events": [
+    {
+      "date": "2025-09-20",
+      "type": "release",
+      "title": "4.8.0 - Denon AVR and Samsung TV Keyboard",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.8.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-27",
+      "type": "release",
+      "title": "4.8.1 - Denon AVR and Samsung TV Keyboard",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.8.1",
+      "points": null
+    },
+    {
+      "date": "2025-10-02",
+      "type": "release",
+      "title": "4.8.2 - Denon AVR and Samsung TV Keyboard",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.8.2",
+      "points": null
+    },
+    {
+      "date": "2025-10-07",
+      "type": "release",
+      "title": "4.8.3 - Denon AVR and Samsung TV Keyboard",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.8.3",
+      "points": null
+    },
+    {
+      "date": "2025-10-10",
+      "type": "release",
+      "title": "4.8.4 - Denon AVR and Samsung TV Keyboard",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.8.4",
+      "points": null
+    },
+    {
+      "date": "2025-11-22",
+      "type": "release",
+      "title": "4.9.0 - Yamaha YNCA",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.9.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-04",
+      "type": "release",
+      "title": "4.9.2 - Yamaha YNCA",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.9.2",
+      "points": null
+    },
+    {
+      "date": "2025-12-04",
+      "type": "release",
+      "title": "4.9.1 - Yamaha YNCA",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.9.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-22",
+      "type": "release",
+      "title": "4.9.3 - Yamaha YNCA",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.9.3",
+      "points": null
+    },
+    {
+      "date": "2025-12-26",
+      "type": "release",
+      "title": "4.9.4 - Yamaha YNCA",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.9.4",
+      "points": null
+    },
+    {
+      "date": "2026-01-20",
+      "type": "release",
+      "title": "4.9.5 - Yamaha YNCA",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.9.5",
+      "points": null
+    },
+    {
+      "date": "2026-01-25",
+      "type": "release",
+      "title": "4.9.6 - Yamaha YNCA",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.9.6",
+      "points": null
+    },
+    {
+      "date": "2026-01-26",
+      "type": "release",
+      "title": "4.9.7 - Yamaha YNCA",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.9.7",
+      "points": null
+    },
+    {
+      "date": "2026-02-04",
+      "type": "release",
+      "title": "4.9.8 - Yamaha YNCA",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.9.8",
+      "points": null
+    },
+    {
+      "date": "2026-02-10",
+      "type": "release",
+      "title": "4.10.0 - Momentary Repeat Actions",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.10.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-04",
+      "type": "release",
+      "title": "4.10.2 - Momentary Repeat Actions",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.10.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-07",
+      "type": "release",
+      "title": "4.10.3 - Momentary Repeat Actions",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.10.3",
+      "points": null
+    },
+    {
+      "date": "2026-03-08",
+      "type": "release",
+      "title": "4.10.5 - Momentary Repeat Actions",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.10.5",
+      "points": null
+    },
+    {
+      "date": "2026-03-08",
+      "type": "release",
+      "title": "4.10.4 - Momentary Repeat Actions",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.10.4",
+      "points": null
+    },
+    {
+      "date": "2026-03-09",
+      "type": "release",
+      "title": "4.10.6 - Momentary Repeat Actions",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.10.6",
+      "points": null
+    },
+    {
+      "date": "2026-03-16",
+      "type": "release",
+      "title": "4.10.7 - Momentary Repeat Actions",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.10.7",
+      "points": null
+    },
+    {
+      "date": "2026-03-22",
+      "type": "release",
+      "title": "4.10.8 - Momentary Repeat Actions",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.10.8",
+      "points": null
+    },
+    {
+      "date": "2026-05-01",
+      "type": "release",
+      "title": "4.10.10 - Momentary Repeat Actions",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.10.10",
+      "points": null
+    },
+    {
+      "date": "2026-05-01",
+      "type": "release",
+      "title": "4.10.9 - Momentary Repeat Actions",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.10.9",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "4.11.0 - Apple TV Keyboard",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.11.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-27",
+      "type": "release",
+      "title": "4.11.1- Apple TV Keyboard",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.11.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-07",
+      "type": "release",
+      "title": "4.11.2 - Apple TV Keyboard",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.11.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-22",
+      "type": "release",
+      "title": "4.11.3 - Apple TV Keyboard",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.11.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-11",
+      "type": "release",
+      "title": "4.11.4 - Apple TV Keyboard",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.11.4",
+      "points": null
+    },
+    {
+      "date": "2026-07-12",
+      "type": "release",
+      "title": "4.11.5 - Apple TV Keyboard",
+      "url": "https://github.com/Nerwyn/universal-remote-card/releases/tag/4.11.5",
+      "points": null
+    }
   ]
 }

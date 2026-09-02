@@ -94,9 +94,18 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 59584,
+      "stars": 59585,
       "forks": 9783,
       "openIssues": 531
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-10-27",
+      "type": "hn",
+      "title": "NotebookLlama: An open source version of NotebookLM",
+      "url": "https://news.ycombinator.com/item?id=41964980",
+      "points": 322
     }
   ]
 }

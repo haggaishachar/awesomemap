@@ -62,5 +62,161 @@
       "forks": 110,
       "openIssues": 0
     }
+  ],
+  "events": [
+    {
+      "date": "2026-04-24",
+      "type": "release",
+      "title": "IP address support in subnet",
+      "url": "https://github.com/tenzir/tenzir/releases/tag/v5.33.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-27",
+      "type": "release",
+      "title": "OData pagination",
+      "url": "https://github.com/tenzir/tenzir/releases/tag/v5.34.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-29",
+      "type": "release",
+      "title": "NATS JetStream operators",
+      "url": "https://github.com/tenzir/tenzir/releases/tag/v5.35.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-30",
+      "type": "release",
+      "title": "Mixed-age retention and ClickHouse TLS diagnostics",
+      "url": "https://github.com/tenzir/tenzir/releases/tag/v5.35.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-05",
+      "type": "release",
+      "title": "Configured pipelines with package operators",
+      "url": "https://github.com/tenzir/tenzir/releases/tag/v5.35.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-07",
+      "type": "release",
+      "title": "OCSF enum list derivation",
+      "url": "https://github.com/tenzir/tenzir/releases/tag/v5.36.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-01",
+      "type": "release",
+      "title": "Tenzir Node v6.0.0",
+      "url": "https://github.com/tenzir/tenzir/releases/tag/v6.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "title": "Tenzir v6.1.0",
+      "url": "https://github.com/tenzir/tenzir/releases/tag/v6.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-12",
+      "type": "release",
+      "title": "Cloud and streaming operator updates",
+      "url": "https://github.com/tenzir/tenzir/releases/tag/v6.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-24",
+      "type": "release",
+      "title": "Tenzir v6.3.0",
+      "url": "https://github.com/tenzir/tenzir/releases/tag/v6.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "Tenzir v6.4.0",
+      "url": "https://github.com/tenzir/tenzir/releases/tag/v6.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-03",
+      "type": "release",
+      "title": "Tenzir v6.5.0",
+      "url": "https://github.com/tenzir/tenzir/releases/tag/v6.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "title": "Tenzir Node v6.6.0: Expanded ClickHouse type support",
+      "url": "https://github.com/tenzir/tenzir/releases/tag/v6.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-15",
+      "type": "release",
+      "title": "Tenzir Node v6.7.0: Fan out and rejoin pipelines with fork_merge",
+      "url": "https://github.com/tenzir/tenzir/releases/tag/v6.7.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "Tenzir Node v6.8.0: Splunk search input",
+      "url": "https://github.com/tenzir/tenzir/releases/tag/v6.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "Tenzir Node v6.8.1: Store Integrity and Timestamp Fixes",
+      "url": "https://github.com/tenzir/tenzir/releases/tag/v6.8.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "title": "Tenzir Node v6.9.0: Native Apache Iceberg output",
+      "url": "https://github.com/tenzir/tenzir/releases/tag/v6.9.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "title": "Tenzir Node v6.10.0: Native time-series analytics for beacon detection",
+      "url": "https://github.com/tenzir/tenzir/releases/tag/v6.10.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "Tenzir Node v6.12.0: Reliable Syslog ingestion over RELP",
+      "url": "https://github.com/tenzir/tenzir/releases/tag/v6.12.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-22",
+      "type": "release",
+      "title": "Tenzir Node v6.13.0: Parallel pipelines across the node",
+      "url": "https://github.com/tenzir/tenzir/releases/tag/v6.13.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Tenzir Node v6.14.0: Statistical models for distribution drift",
+      "url": "https://github.com/tenzir/tenzir/releases/tag/v6.14.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "Tenzir Node v6.15.0: Splunk HEC Acknowledgements",
+      "url": "https://github.com/tenzir/tenzir/releases/tag/v6.15.0",
+      "points": null
+    }
   ]
 }

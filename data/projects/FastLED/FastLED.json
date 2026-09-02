@@ -55,5 +55,217 @@
       "forks": 1757,
       "openIssues": 153
     }
+  ],
+  "events": [
+    {
+      "date": "2024-09-03",
+      "type": "release",
+      "title": "3.7.5",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.7.5",
+      "points": null
+    },
+    {
+      "date": "2024-09-09",
+      "type": "release",
+      "title": "3.7.6",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.7.6",
+      "points": null
+    },
+    {
+      "date": "2024-09-16",
+      "type": "release",
+      "title": "3.7.7",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.7.7",
+      "points": null
+    },
+    {
+      "date": "2024-09-24",
+      "type": "release",
+      "title": "3.7.8",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.7.8",
+      "points": null
+    },
+    {
+      "date": "2024-10-27",
+      "type": "release",
+      "title": "FastLED 3.9.0 / Beta 4.0",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.9.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-30",
+      "type": "release",
+      "title": "Bug fix for namespace conflicts with ArduinoJson",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.9.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-31",
+      "type": "release",
+      "title": "FastLED 3.9.2 - Beta Release 2 for 4.0.0",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.9.2",
+      "points": null
+    },
+    {
+      "date": "2024-11-14",
+      "type": "release",
+      "title": "FastLED 3.9.3",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.9.3",
+      "points": null
+    },
+    {
+      "date": "2024-11-20",
+      "type": "release",
+      "title": "FastLED 3.9.4",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.9.4",
+      "points": null
+    },
+    {
+      "date": "2024-12-17",
+      "type": "release",
+      "title": "FastLED 3.9.5 - Beta Release 6 of FastLED 4.0",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.9.5",
+      "points": null
+    },
+    {
+      "date": "2024-12-18",
+      "type": "release",
+      "title": "FastLED 3.9.6 - Bug fix for 3.9.5",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.9.6",
+      "points": null
+    },
+    {
+      "date": "2024-12-20",
+      "type": "release",
+      "title": "FastLED 3.9.7 - Bug Fix",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.9.7",
+      "points": null
+    },
+    {
+      "date": "2024-12-28",
+      "type": "release",
+      "title": "FastLED 3.9.8 - Introducing the massive parallel DMA led controller for Teensy - ObjectFLED driver pushes 27k+ pixels (?)",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.9.8",
+      "points": null
+    },
+    {
+      "date": "2025-01-04",
+      "type": "release",
+      "title": "FastLED 3.9.9 - 16 way parallel for ESP32-S3",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.9.9",
+      "points": null
+    },
+    {
+      "date": "2025-01-09",
+      "type": "release",
+      "title": "New super stable clockless SPI driver for WS2812, Fixes for RMT ESPS3",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.9.10",
+      "points": null
+    },
+    {
+      "date": "2025-01-13",
+      "type": "release",
+      "title": "FastLED 3.9.11: Bug fix for the Teensy and ESP32S3 massive parallel drivers.",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.9.11",
+      "points": null
+    },
+    {
+      "date": "2025-01-22",
+      "type": "release",
+      "title": "FastLED 3.9.12: WS2816 HD pixel support",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.9.12",
+      "points": null
+    },
+    {
+      "date": "2025-01-27",
+      "type": "release",
+      "title": "FastLED 3.9.13 - HD 107 \"Turbo\" 40Mhz LED Support",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.9.13",
+      "points": null
+    },
+    {
+      "date": "2025-03-05",
+      "type": "release",
+      "title": "FastLED 3.9.14",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.9.14",
+      "points": null
+    },
+    {
+      "date": "2025-04-07",
+      "type": "release",
+      "title": "3.9.15",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.9.15",
+      "points": null
+    },
+    {
+      "date": "2025-04-18",
+      "type": "release",
+      "title": "FastLED 3.9.16",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.9.16",
+      "points": null
+    },
+    {
+      "date": "2025-05-24",
+      "type": "release",
+      "title": "FastLED 3.9.17 - stdlib compatibility, audio preview, xypath",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.9.17",
+      "points": null
+    },
+    {
+      "date": "2025-05-28",
+      "type": "release",
+      "title": "Bug fix - hot fix!",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.9.18",
+      "points": null
+    },
+    {
+      "date": "2025-05-29",
+      "type": "release",
+      "title": "Hot Fix #2 for 3.9.17",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.9.19",
+      "points": null
+    },
+    {
+      "date": "2025-06-05",
+      "type": "release",
+      "title": "3.9.20: Misc Fixes",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.9.20",
+      "points": null
+    },
+    {
+      "date": "2025-06-16",
+      "type": "release",
+      "title": "FastLED 3.10.0 Released - Animartrix, ESP32-P4, ESP32-S3 I2S improvements",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.10.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-24",
+      "type": "release",
+      "title": "3.10.1 - Bug Fix for 3.10.0",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.10.1",
+      "points": null
+    },
+    {
+      "date": "2025-08-22",
+      "type": "release",
+      "title": "FastLED 3.10.2",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.10.2",
+      "points": null
+    },
+    {
+      "date": "2025-09-20",
+      "type": "release",
+      "title": "FastLED 3.10.3: W2812 timing update - stm32F4 board support",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.10.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-16",
+      "type": "release",
+      "title": "FastLED 3.10.4",
+      "url": "https://github.com/FastLED/FastLED/releases/tag/3.10.4",
+      "points": null
+    }
   ]
 }

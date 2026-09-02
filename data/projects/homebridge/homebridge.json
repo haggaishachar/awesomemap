@@ -74,9 +74,221 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 25471,
+      "stars": 25472,
       "forks": 2017,
       "openIssues": 17
+    }
+  ],
+  "events": [
+    {
+      "date": "2021-12-29",
+      "type": "release",
+      "title": "v1.3.9",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v1.3.9",
+      "points": null
+    },
+    {
+      "date": "2022-01-21",
+      "type": "release",
+      "title": "v1.4.0",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v1.4.0",
+      "points": null
+    },
+    {
+      "date": "2022-04-29",
+      "type": "release",
+      "title": "v1.4.1",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v1.4.1",
+      "points": null
+    },
+    {
+      "date": "2022-06-22",
+      "type": "release",
+      "title": "v1.5.0",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v1.5.0",
+      "points": null
+    },
+    {
+      "date": "2022-10-25",
+      "type": "release",
+      "title": "v1.5.1",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v1.5.1",
+      "points": null
+    },
+    {
+      "date": "2022-11-26",
+      "type": "release",
+      "title": "v1.6.0",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v1.6.0",
+      "points": null
+    },
+    {
+      "date": "2023-04-30",
+      "type": "release",
+      "title": "v.1.6.1",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v1.6.1",
+      "points": null
+    },
+    {
+      "date": "2023-11-04",
+      "type": "release",
+      "title": "v1.7.0",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v1.7.0",
+      "points": null
+    },
+    {
+      "date": "2024-04-19",
+      "type": "release",
+      "title": "v1.8.0",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v1.8.0",
+      "points": null
+    },
+    {
+      "date": "2024-04-27",
+      "type": "release",
+      "title": "v1.8.1",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v1.8.1",
+      "points": null
+    },
+    {
+      "date": "2024-05-16",
+      "type": "release",
+      "title": "v1.8.2",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v1.8.2",
+      "points": null
+    },
+    {
+      "date": "2024-06-19",
+      "type": "release",
+      "title": "v1.8.3",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v1.8.3",
+      "points": null
+    },
+    {
+      "date": "2024-07-19",
+      "type": "release",
+      "title": "v1.8.4",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v1.8.4",
+      "points": null
+    },
+    {
+      "date": "2024-10-26",
+      "type": "release",
+      "title": "v1.8.5",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v1.8.5",
+      "points": null
+    },
+    {
+      "date": "2025-02-11",
+      "type": "release",
+      "title": "v1.9.0",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v1.9.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-07",
+      "type": "release",
+      "title": "v1.10.0",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v1.10.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-13",
+      "type": "release",
+      "title": "v1.11.0",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v1.11.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-29",
+      "type": "release",
+      "title": "v1.11.1",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v1.11.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-08",
+      "type": "release",
+      "title": "v1.11.2",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v1.11.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-21",
+      "type": "release",
+      "title": "v1.11.3",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v1.11.3",
+      "points": null
+    },
+    {
+      "date": "2026-03-29",
+      "type": "release",
+      "title": "v1.11.4",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v1.11.4",
+      "points": null
+    },
+    {
+      "date": "2026-05-04",
+      "type": "release",
+      "title": "v2.0.0",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v2.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-05",
+      "type": "release",
+      "title": "v2.0.1",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v2.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-09",
+      "type": "release",
+      "title": "v2.0.2",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v2.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "v2.1.0",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v2.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-12",
+      "type": "release",
+      "title": "v2.1.1",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v2.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-18",
+      "type": "release",
+      "title": "v2.2.0",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v2.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-19",
+      "type": "release",
+      "title": "v2.2.1",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v2.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-08",
+      "type": "release",
+      "title": "v2.3.0",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v2.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "title": "v2.3.1",
+      "url": "https://github.com/homebridge/homebridge/releases/tag/v2.3.1",
+      "points": null
     }
   ]
 }

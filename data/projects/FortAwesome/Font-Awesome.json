@@ -4,8 +4,8 @@
   "link": "https://github.com/FortAwesome/Font-Awesome",
   "name": "Font-Awesome",
   "desc": "The iconic SVG, font, and CSS toolkit",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "Font-Awesome",
+  "githubDescription": "The iconic SVG, font, and CSS toolkit",
   "tags": [
     "css",
     "font",
@@ -15,7 +15,226 @@
     "svg-sprites",
     "webfont"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 76898,
+      "forks": 12181,
+      "openIssues": 315
+    }
+  ],
   "weight": 76897,
-  "image": "https://avatars.githubusercontent.com/u/1505683?v=4"
+  "image": "https://avatars.githubusercontent.com/u/1505683?v=4",
+  "events": [
+    {
+      "date": "2020-03-23",
+      "type": "release",
+      "title": "Release 5.13.0",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/5.13.0",
+      "points": null
+    },
+    {
+      "date": "2020-06-18",
+      "type": "release",
+      "title": "Release 5.13.1",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/5.13.1",
+      "points": null
+    },
+    {
+      "date": "2020-07-15",
+      "type": "release",
+      "title": "Release 5.14.0",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/5.14.0",
+      "points": null
+    },
+    {
+      "date": "2020-09-29",
+      "type": "release",
+      "title": "Release 5.15.0",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/5.15.0",
+      "points": null
+    },
+    {
+      "date": "2020-10-05",
+      "type": "release",
+      "title": "Release 5.15.1",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/5.15.1",
+      "points": null
+    },
+    {
+      "date": "2021-01-13",
+      "type": "release",
+      "title": "Release 5.15.2",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/5.15.2",
+      "points": null
+    },
+    {
+      "date": "2021-03-16",
+      "type": "release",
+      "title": "Release 5.15.3",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/5.15.3",
+      "points": null
+    },
+    {
+      "date": "2021-08-04",
+      "type": "release",
+      "title": "Release 5.15.4",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/5.15.4",
+      "points": null
+    },
+    {
+      "date": "2022-02-07",
+      "type": "release",
+      "title": "Release 6.0.0",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/6.0.0",
+      "points": null
+    },
+    {
+      "date": "2022-03-15",
+      "type": "release",
+      "title": "Release 6.1.0",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/6.1.0",
+      "points": null
+    },
+    {
+      "date": "2022-03-22",
+      "type": "release",
+      "title": "Release 6.1.1",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/6.1.1",
+      "points": null
+    },
+    {
+      "date": "2022-07-25",
+      "type": "release",
+      "title": "Release 6.1.2",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/6.1.2",
+      "points": null
+    },
+    {
+      "date": "2022-08-31",
+      "type": "release",
+      "title": "Release 6.2.0",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/6.2.0",
+      "points": null
+    },
+    {
+      "date": "2022-11-15",
+      "type": "release",
+      "title": "Release 6.2.1",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/6.2.1",
+      "points": null
+    },
+    {
+      "date": "2023-02-07",
+      "type": "release",
+      "title": "Release 6.3.0",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/6.3.0",
+      "points": null
+    },
+    {
+      "date": "2023-03-27",
+      "type": "release",
+      "title": "Release 6.4.0",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/6.4.0",
+      "points": null
+    },
+    {
+      "date": "2023-08-02",
+      "type": "release",
+      "title": "Release 6.4.2",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/6.4.2",
+      "points": null
+    },
+    {
+      "date": "2023-11-28",
+      "type": "release",
+      "title": "Release 6.5.0",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/6.5.0",
+      "points": null
+    },
+    {
+      "date": "2023-11-30",
+      "type": "release",
+      "title": "Release 6.5.1",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/6.5.1",
+      "points": null
+    },
+    {
+      "date": "2024-04-02",
+      "type": "release",
+      "title": "Release 6.5.2",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/6.5.2",
+      "points": null
+    },
+    {
+      "date": "2024-07-16",
+      "type": "release",
+      "title": "Release 6.6.0",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/6.6.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-18",
+      "type": "release",
+      "title": "Release 6.7.0",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/6.7.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-20",
+      "type": "release",
+      "title": "Release 6.7.1",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/6.7.1",
+      "points": null
+    },
+    {
+      "date": "2024-12-16",
+      "type": "release",
+      "title": "Release 6.7.2",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/6.7.2",
+      "points": null
+    },
+    {
+      "date": "2025-07-22",
+      "type": "release",
+      "title": "Release 7.0.0",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/7.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-02",
+      "type": "release",
+      "title": "Release 7.0.1",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/7.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-10-01",
+      "type": "release",
+      "title": "Release 7.1.0",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/7.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-10",
+      "type": "release",
+      "title": "Release 7.2.0",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/7.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-25",
+      "type": "release",
+      "title": "Release 7.3.0",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/7.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-15",
+      "type": "release",
+      "title": "Release 7.3.1",
+      "url": "https://github.com/FortAwesome/Font-Awesome/releases/tag/7.3.1",
+      "points": null
+    }
+  ]
 }

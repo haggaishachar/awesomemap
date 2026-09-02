@@ -85,9 +85,228 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 22348,
-      "forks": 6430,
-      "openIssues": 292
+      "stars": 22351,
+      "forks": 6432,
+      "openIssues": 293
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-09-21",
+      "type": "release",
+      "title": "ThingsBoard 3.6 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v3.6",
+      "points": null
+    },
+    {
+      "date": "2023-11-13",
+      "type": "release",
+      "title": "ThingsBoard 3.6.1 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v3.6.1",
+      "points": null
+    },
+    {
+      "date": "2023-12-28",
+      "type": "release",
+      "title": "ThingsBoard 3.6.2 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v3.6.2",
+      "points": null
+    },
+    {
+      "date": "2024-03-18",
+      "type": "release",
+      "title": "ThingsBoard 3.6.3 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v3.6.3",
+      "points": null
+    },
+    {
+      "date": "2024-04-11",
+      "type": "release",
+      "title": "ThingsBoard 3.6.4 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v3.6.4",
+      "points": null
+    },
+    {
+      "date": "2024-06-17",
+      "type": "release",
+      "title": "ThingsBoard 3.7 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v3.7",
+      "points": null
+    },
+    {
+      "date": "2024-10-03",
+      "type": "release",
+      "title": "ThingsBoard 3.8 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v3.8",
+      "points": null
+    },
+    {
+      "date": "2024-10-15",
+      "type": "release",
+      "title": "ThingsBoard 3.8.1 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v3.8.1",
+      "points": null
+    },
+    {
+      "date": "2024-12-31",
+      "type": "release",
+      "title": "ThingsBoard 3.9.0 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v3.9",
+      "points": null
+    },
+    {
+      "date": "2025-02-19",
+      "type": "release",
+      "title": "ThingsBoard 3.9.1 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v3.9.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-15",
+      "type": "release",
+      "title": "ThingsBoard 4.0 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v4.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-22",
+      "type": "release",
+      "title": "ThingsBoard 4.0.1 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v4.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-07-03",
+      "type": "release",
+      "title": "ThingsBoard 4.1 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v4.1",
+      "points": null
+    },
+    {
+      "date": "2025-07-03",
+      "type": "release",
+      "title": "ThingsBoard 4.0.2 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v4.0.2",
+      "points": null
+    },
+    {
+      "date": "2025-08-15",
+      "type": "release",
+      "title": "ThingsBoard 4.2 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v4.2",
+      "points": null
+    },
+    {
+      "date": "2025-10-15",
+      "type": "release",
+      "title": "ThingsBoard 4.2.1 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v4.2.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-24",
+      "type": "release",
+      "title": " ThingsBoard 4.2.1.1 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v4.2.1.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-28",
+      "type": "hn",
+      "title": "ThingsBoard: Open-Source IoT Platform",
+      "url": "https://news.ycombinator.com/item?id=46410258",
+      "points": 75
+    },
+    {
+      "date": "2026-01-20",
+      "type": "release",
+      "title": "ThingsBoard 4.3 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v4.3",
+      "points": null
+    },
+    {
+      "date": "2026-02-03",
+      "type": "release",
+      "title": "ThingsBoard 4.3.0.1 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v4.3.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-03",
+      "type": "release",
+      "title": " ThingsBoard 4.2.1.2 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v4.2.1.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-10",
+      "type": "release",
+      "title": "ThingsBoard 4.3.1 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v4.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-10",
+      "type": "release",
+      "title": "ThingsBoard 4.2.2 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v4.2.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-31",
+      "type": "release",
+      "title": "ThingsBoard 4.3.1.1 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v4.3.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-31",
+      "type": "release",
+      "title": "ThingsBoard 4.2.2.1 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v4.2.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-28",
+      "type": "release",
+      "title": "ThingsBoard 4.3.1.2 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v4.3.1.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-28",
+      "type": "release",
+      "title": "ThingsBoard 4.2.2.2 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v4.2.2.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-30",
+      "type": "release",
+      "title": "ThingsBoard 4.3.1.3 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v4.3.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-30",
+      "type": "release",
+      "title": "ThingsBoard 4.2.2.3 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v4.2.2.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "ThingsBoard 4.3.1.4 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v4.3.1.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "ThingsBoard 4.2.2.4 Release",
+      "url": "https://github.com/thingsboard/thingsboard/releases/tag/v4.2.2.4",
+      "points": null
     }
   ]
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/sbycrosz/react-native-credit-card-input",
   "name": "react-native-credit-card-input",
   "desc": "Easy, cross-platform credit-card input for your React Native Project! Start accepting payment 💰 in your app today!",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-credit-card-input",
+  "githubDescription": "Easy, cross-platform credit-card input for your React Native Project! Start accepting payment 💰 in your app today!",
   "tags": [
     "android",
     "component",
@@ -14,6 +14,50 @@
     "payment",
     "react-native"
   ],
-  "history": [],
-  "weight": 1508
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1508,
+      "forks": 708,
+      "openIssues": 6
+    }
+  ],
+  "weight": 1508,
+  "events": [
+    {
+      "date": "2016-09-17",
+      "type": "release",
+      "title": "Add toggle-able fields, Removed focused from onChange ",
+      "url": "https://github.com/sbycrosz/react-native-credit-card-input/releases/tag/v0.2.4",
+      "points": null
+    },
+    {
+      "date": "2016-12-06",
+      "type": "release",
+      "title": "Refactored CreditCardView & Latest RN support",
+      "url": "https://github.com/sbycrosz/react-native-credit-card-input/releases/tag/v0.3.0",
+      "points": null
+    },
+    {
+      "date": "2016-12-26",
+      "type": "release",
+      "title": "Add more props to CreditCardInput",
+      "url": "https://github.com/sbycrosz/react-native-credit-card-input/releases/tag/v0.3.2",
+      "points": null
+    },
+    {
+      "date": "2016-12-30",
+      "type": "release",
+      "title": "Bug Fixes",
+      "url": "https://github.com/sbycrosz/react-native-credit-card-input/releases/tag/v0.3.3",
+      "points": null
+    },
+    {
+      "date": "2024-07-19",
+      "type": "release",
+      "title": "Release 1.0.0",
+      "url": "https://github.com/sbycrosz/react-native-credit-card-input/releases/tag/v1.0.0",
+      "points": null
+    }
+  ]
 }

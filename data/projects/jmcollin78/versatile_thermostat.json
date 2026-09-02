@@ -48,5 +48,77 @@
       "forks": 141,
       "openIssues": 18
     }
+  ],
+  "events": [
+    {
+      "date": "2026-03-16",
+      "type": "release",
+      "title": "9.2.2 - V9 stable version, Cycle Scheduler and Log collector",
+      "url": "https://github.com/jmcollin78/versatile_thermostat/releases/tag/9.2.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-22",
+      "type": "release",
+      "title": "9.3.0 - Community requests",
+      "url": "https://github.com/jmcollin78/versatile_thermostat/releases/tag/9.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-28",
+      "type": "release",
+      "title": "9.3.1",
+      "url": "https://github.com/jmcollin78/versatile_thermostat/releases/tag/9.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-01",
+      "type": "release",
+      "title": "9.3.2 - small fixes and improvements",
+      "url": "https://github.com/jmcollin78/versatile_thermostat/releases/tag/9.3.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-12",
+      "type": "release",
+      "title": "9.3.3 - Bug fixes",
+      "url": "https://github.com/jmcollin78/versatile_thermostat/releases/tag/9.3.3",
+      "points": null
+    },
+    {
+      "date": "2026-04-29",
+      "type": "release",
+      "title": "10.0.0 - Add plugin mecanism",
+      "url": "https://github.com/jmcollin78/versatile_thermostat/releases/tag/10.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-11",
+      "type": "release",
+      "title": "10.0.1",
+      "url": "https://github.com/jmcollin78/versatile_thermostat/releases/tag/10.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-06",
+      "type": "release",
+      "title": "10.0.2 - Community fixes",
+      "url": "https://github.com/jmcollin78/versatile_thermostat/releases/tag/10.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "10.1.0 - Community improvements and fixes",
+      "url": "https://github.com/jmcollin78/versatile_thermostat/releases/tag/10.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "10.2.0 - auto-fan as plugin",
+      "url": "https://github.com/jmcollin78/versatile_thermostat/releases/tag/10.2.0",
+      "points": null
+    }
   ]
 }

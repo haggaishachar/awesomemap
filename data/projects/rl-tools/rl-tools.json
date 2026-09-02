@@ -4,8 +4,8 @@
   "link": "https://github.com/rl-tools/rl-tools",
   "name": "rl-tools",
   "desc": "The Fastest Deep Reinforcement Learning Library",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "rl-tools",
+  "githubDescription": "The Fastest Deep Reinforcement Learning Library",
   "tags": [
     "continuous-control",
     "cpp",
@@ -16,7 +16,51 @@
     "tinyml",
     "tinyrl"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1032,
+      "forks": 62,
+      "openIssues": 20
+    }
+  ],
   "weight": 1032,
-  "image": "https://avatars.githubusercontent.com/u/145876122?v=4"
+  "image": "https://avatars.githubusercontent.com/u/145876122?v=4",
+  "events": [
+    {
+      "date": "2024-02-17",
+      "type": "release",
+      "title": "v1.0.0",
+      "url": "https://github.com/rl-tools/rl-tools/releases/tag/v1.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-06-14",
+      "type": "release",
+      "title": "v1.1.0",
+      "url": "https://github.com/rl-tools/rl-tools/releases/tag/v1.1.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-19",
+      "type": "release",
+      "title": "v2.0.0",
+      "url": "https://github.com/rl-tools/rl-tools/releases/tag/v2.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-14",
+      "type": "release",
+      "title": "v2.1.0",
+      "url": "https://github.com/rl-tools/rl-tools/releases/tag/v2.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-23",
+      "type": "release",
+      "title": "v2.2.0",
+      "url": "https://github.com/rl-tools/rl-tools/releases/tag/v2.2.0",
+      "points": null
+    }
+  ]
 }

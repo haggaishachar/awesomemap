@@ -4,8 +4,8 @@
   "link": "https://github.com/react-native-share/react-native-share",
   "name": "react-native-share",
   "desc": "Social share, sending simple data to other apps.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-share",
+  "githubDescription": "Social share, sending simple data to other apps.",
   "tags": [
     "android",
     "bridge",
@@ -16,7 +16,226 @@
     "share",
     "uwp"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 3893,
+      "forks": 976,
+      "openIssues": 18
+    }
+  ],
   "weight": 3893,
-  "image": "https://avatars.githubusercontent.com/u/71153247?v=4"
+  "image": "https://avatars.githubusercontent.com/u/71153247?v=4",
+  "events": [
+    {
+      "date": "2024-09-02",
+      "type": "release",
+      "title": "v11.0.1",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v11.0.1",
+      "points": null
+    },
+    {
+      "date": "2024-09-02",
+      "type": "release",
+      "title": "v11.0.0",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v11.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-05",
+      "type": "release",
+      "title": "v11.0.2",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v11.0.2",
+      "points": null
+    },
+    {
+      "date": "2024-09-17",
+      "type": "release",
+      "title": "v11.0.3",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v11.0.3",
+      "points": null
+    },
+    {
+      "date": "2024-10-15",
+      "type": "release",
+      "title": "v11.0.4",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v11.0.4",
+      "points": null
+    },
+    {
+      "date": "2024-11-19",
+      "type": "release",
+      "title": "v11.1.0",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v11.1.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-25",
+      "type": "release",
+      "title": "v12.0.0",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-26",
+      "type": "release",
+      "title": "v12.0.3",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.0.3",
+      "points": null
+    },
+    {
+      "date": "2024-11-26",
+      "type": "release",
+      "title": "v12.0.2",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.0.2",
+      "points": null
+    },
+    {
+      "date": "2024-11-26",
+      "type": "release",
+      "title": "v12.0.1",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-02-12",
+      "type": "release",
+      "title": "v12.0.7",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.0.7",
+      "points": null
+    },
+    {
+      "date": "2025-02-12",
+      "type": "release",
+      "title": "v12.0.6",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.0.6",
+      "points": null
+    },
+    {
+      "date": "2025-02-12",
+      "type": "release",
+      "title": "v12.0.5",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.0.5",
+      "points": null
+    },
+    {
+      "date": "2025-02-12",
+      "type": "release",
+      "title": "v12.0.4",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.0.4",
+      "points": null
+    },
+    {
+      "date": "2025-02-16",
+      "type": "release",
+      "title": "v12.0.9",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.0.9",
+      "points": null
+    },
+    {
+      "date": "2025-02-16",
+      "type": "release",
+      "title": "v12.0.8",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.0.8",
+      "points": null
+    },
+    {
+      "date": "2025-05-06",
+      "type": "release",
+      "title": "v12.0.10",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.0.10",
+      "points": null
+    },
+    {
+      "date": "2025-05-07",
+      "type": "release",
+      "title": "v12.0.11",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.0.11",
+      "points": null
+    },
+    {
+      "date": "2025-06-17",
+      "type": "release",
+      "title": "v12.1.0",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-25",
+      "type": "release",
+      "title": "v12.1.1",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.1.1",
+      "points": null
+    },
+    {
+      "date": "2025-08-01",
+      "type": "release",
+      "title": "v12.1.2",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.1.2",
+      "points": null
+    },
+    {
+      "date": "2025-08-06",
+      "type": "release",
+      "title": "v12.2.0",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-09",
+      "type": "release",
+      "title": "v12.2.1",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-06",
+      "type": "release",
+      "title": "v12.2.2",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.2.2",
+      "points": null
+    },
+    {
+      "date": "2026-01-21",
+      "type": "release",
+      "title": "v12.2.4",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.2.4",
+      "points": null
+    },
+    {
+      "date": "2026-01-21",
+      "type": "release",
+      "title": "v12.2.3",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.2.3",
+      "points": null
+    },
+    {
+      "date": "2026-02-02",
+      "type": "release",
+      "title": "v12.2.5",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.2.5",
+      "points": null
+    },
+    {
+      "date": "2026-03-11",
+      "type": "release",
+      "title": "v12.2.6",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.2.6",
+      "points": null
+    },
+    {
+      "date": "2026-05-04",
+      "type": "release",
+      "title": "v12.3.1",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-04",
+      "type": "release",
+      "title": "v12.3.0",
+      "url": "https://github.com/react-native-share/react-native-share/releases/tag/v12.3.0",
+      "points": null
+    }
+  ]
 }

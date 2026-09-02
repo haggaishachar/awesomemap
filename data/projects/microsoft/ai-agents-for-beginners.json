@@ -4,8 +4,8 @@
   "link": "https://github.com/microsoft/ai-agents-for-beginners",
   "name": "ai-agents-for-beginners",
   "desc": "18 Lessons to Get Started Building AI Agents",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "ai-agents-for-beginners",
+  "githubDescription": "18 Lessons to Get Started Building AI Agents",
   "tags": [
     "agentic-ai",
     "agentic-framework",
@@ -19,7 +19,15 @@
     "microsoft-foundry",
     "semantic-kernel"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 73759,
+      "forks": 24380,
+      "openIssues": 12
+    }
+  ],
   "weight": 73746,
-  "image": "https://avatars.githubusercontent.com/u/6154722?v=4"
+  "image": "https://avatars.githubusercontent.com/u/6154722?v=4",
+  "events": []
 }

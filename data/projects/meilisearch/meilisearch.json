@@ -119,9 +119,235 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 59167,
+      "stars": 59170,
       "forks": 2694,
-      "openIssues": 320
+      "openIssues": 317
+    }
+  ],
+  "events": [
+    {
+      "date": "2020-03-25",
+      "type": "hn",
+      "title": "MeiliSearch: Zero-config alternative to Elasticsearch, made in Rust",
+      "url": "https://news.ycombinator.com/item?id=22685831",
+      "points": 437
+    },
+    {
+      "date": "2025-04-14",
+      "type": "hn",
+      "title": "Meilisearch – search engine API bringing AI-powered hybrid search",
+      "url": "https://news.ycombinator.com/item?id=43680699",
+      "points": 151
+    },
+    {
+      "date": "2026-03-11",
+      "type": "release",
+      "title": "v1.38.2 🐍",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.38.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-11",
+      "type": "release",
+      "title": "v1.38.1 🐍",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.38.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-16",
+      "type": "release",
+      "title": "v1.39.0 🐳​",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.39.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-23",
+      "type": "release",
+      "title": "v1.40.0 🦈",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.40.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-30",
+      "type": "release",
+      "title": "v1.41.0 🏈",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.41.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-13",
+      "type": "release",
+      "title": "v1.42.0 🦑​",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.42.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-14",
+      "type": "release",
+      "title": "v1.42.1 🦑​",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.42.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-04",
+      "type": "release",
+      "title": "v1.43.0",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.43.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-12",
+      "type": "release",
+      "title": "v1.43.1",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.43.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-18",
+      "type": "release",
+      "title": "v1.44.0",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.44.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-26",
+      "type": "release",
+      "title": "v1.45.0 🦒",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.45.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-28",
+      "type": "release",
+      "title": "v1.45.1 🦒",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.45.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-02",
+      "type": "release",
+      "title": "v1.45.2 🦒",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.45.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-08",
+      "type": "release",
+      "title": "v1.46.0 🦆",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.46.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "title": "v1.46.1 🦆",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.46.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "v1.47.0 🦇",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.47.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-22",
+      "type": "release",
+      "title": "v1.48.1 🫎",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.48.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-22",
+      "type": "release",
+      "title": "v1.48.0 🫎​",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.48.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-24",
+      "type": "release",
+      "title": "v1.48.2 🫎",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.48.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-24",
+      "type": "release",
+      "title": "v1.47.1 🦇",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.47.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": " v1.48.3 🫎​",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.48.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-06",
+      "type": "release",
+      "title": "v1.49.0 🪺",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.49.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-20",
+      "type": "release",
+      "title": "v1.50.0 🐐",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.50.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-27",
+      "type": "release",
+      "title": "v1.51.0 👽",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.51.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-03",
+      "type": "release",
+      "title": "v1.52.0 🐠",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.52.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "title": "🖇️​ v1.53.0",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.53.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "title": "v1.52.3 🐠",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.52.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "title": "v1.52.2 🐠",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.52.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "title": "v1.52.1 🐠",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.52.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "🖇️​ v1.53.1",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.53.1",
+      "points": null
     }
   ]
 }

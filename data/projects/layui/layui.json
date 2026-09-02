@@ -4,8 +4,8 @@
   "link": "https://github.com/layui/layui",
   "name": "layui",
   "desc": "一套遵循浏览器原生态开发模式的 Web UI 组件库。",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "layui",
+  "githubDescription": "一套遵循浏览器原生态开发模式的 Web UI 组件库。",
   "tags": [
     "component-library",
     "css",
@@ -15,7 +15,156 @@
     "ui-kit",
     "ui-library"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 30575,
+      "forks": 7361,
+      "openIssues": 38
+    }
+  ],
   "weight": 30575,
-  "image": "https://avatars.githubusercontent.com/u/7955643?v=4"
+  "image": "https://avatars.githubusercontent.com/u/7955643?v=4",
+  "events": [
+    {
+      "date": "2025-04-21",
+      "type": "release",
+      "title": "v2.11.0",
+      "url": "https://github.com/layui/layui/releases/tag/v2.11.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-06",
+      "type": "release",
+      "title": "v2.11.1",
+      "url": "https://github.com/layui/layui/releases/tag/v2.11.1",
+      "points": null
+    },
+    {
+      "date": "2025-05-15",
+      "type": "release",
+      "title": "v2.11.2",
+      "url": "https://github.com/layui/layui/releases/tag/v2.11.2",
+      "points": null
+    },
+    {
+      "date": "2025-06-18",
+      "type": "release",
+      "title": "v2.11.3",
+      "url": "https://github.com/layui/layui/releases/tag/v2.11.3",
+      "points": null
+    },
+    {
+      "date": "2025-06-22",
+      "type": "release",
+      "title": "v2.11.4",
+      "url": "https://github.com/layui/layui/releases/tag/v2.11.4",
+      "points": null
+    },
+    {
+      "date": "2025-07-21",
+      "type": "release",
+      "title": "v2.11.5",
+      "url": "https://github.com/layui/layui/releases/tag/v2.11.5",
+      "points": null
+    },
+    {
+      "date": "2025-07-21",
+      "type": "release",
+      "title": "v2.9.27",
+      "url": "https://github.com/layui/layui/releases/tag/v2.9.27",
+      "points": null
+    },
+    {
+      "date": "2025-08-29",
+      "type": "release",
+      "title": "v2.11.6",
+      "url": "https://github.com/layui/layui/releases/tag/v2.11.6",
+      "points": null
+    },
+    {
+      "date": "2025-09-29",
+      "type": "release",
+      "title": "v2.12.0",
+      "url": "https://github.com/layui/layui/releases/tag/v2.12.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-11",
+      "type": "release",
+      "title": "v2.12.1",
+      "url": "https://github.com/layui/layui/releases/tag/v2.12.1",
+      "points": null
+    },
+    {
+      "date": "2025-10-24",
+      "type": "release",
+      "title": "v2.13.0",
+      "url": "https://github.com/layui/layui/releases/tag/v2.13.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-16",
+      "type": "release",
+      "title": "v2.13.1",
+      "url": "https://github.com/layui/layui/releases/tag/v2.13.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-21",
+      "type": "release",
+      "title": "v2.13.2",
+      "url": "https://github.com/layui/layui/releases/tag/v2.13.2",
+      "points": null
+    },
+    {
+      "date": "2025-12-29",
+      "type": "release",
+      "title": "v2.13.3",
+      "url": "https://github.com/layui/layui/releases/tag/v2.13.3",
+      "points": null
+    },
+    {
+      "date": "2026-03-02",
+      "type": "release",
+      "title": "v2.13.4",
+      "url": "https://github.com/layui/layui/releases/tag/v2.13.4",
+      "points": null
+    },
+    {
+      "date": "2026-03-16",
+      "type": "release",
+      "title": "v2.13.5",
+      "url": "https://github.com/layui/layui/releases/tag/v2.13.5",
+      "points": null
+    },
+    {
+      "date": "2026-04-30",
+      "type": "release",
+      "title": "v2.13.6",
+      "url": "https://github.com/layui/layui/releases/tag/v2.13.6",
+      "points": null
+    },
+    {
+      "date": "2026-05-29",
+      "type": "release",
+      "title": "v2.13.7",
+      "url": "https://github.com/layui/layui/releases/tag/v2.13.7",
+      "points": null
+    },
+    {
+      "date": "2026-06-30",
+      "type": "release",
+      "title": "v2.13.8",
+      "url": "https://github.com/layui/layui/releases/tag/v2.13.8",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "v2.13.9",
+      "url": "https://github.com/layui/layui/releases/tag/v2.13.9",
+      "points": null
+    }
+  ]
 }

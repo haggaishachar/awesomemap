@@ -4,8 +4,8 @@
   "link": "https://github.com/OneSignal/react-native-onesignal",
   "name": "react-native-onesignal",
   "desc": "OneSignal makes engaging customers simple and is the fastest, most reliable service to send push notifications, in-app messages, SMS, and emails. This plugin makes it easy to integrate your React Native app with OneSignal. https://onesignal.com",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-onesignal",
+  "githubDescription": "OneSignal makes engaging customers simple and is the fastest, most reliable service to send push notifications, in-app messages, SMS, and emails. This plugin makes it easy to integrate your React Native app with OneSignal. https://onesignal.com",
   "tags": [
     "android",
     "ios",
@@ -19,7 +19,219 @@
     "react-native",
     "react-native-onesignal"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1592,
+      "forks": 381,
+      "openIssues": 20
+    }
+  ],
   "weight": 1592,
-  "image": "https://avatars.githubusercontent.com/u/11823027?v=4"
+  "image": "https://avatars.githubusercontent.com/u/11823027?v=4",
+  "events": [
+    {
+      "date": "2025-11-05",
+      "type": "release",
+      "title": "Release 5.2.14",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.2.14",
+      "points": null
+    },
+    {
+      "date": "2025-12-11",
+      "type": "release",
+      "title": "5.2.15",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.2.15",
+      "points": null
+    },
+    {
+      "date": "2025-12-16",
+      "type": "release",
+      "title": "5.2.16",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.2.16",
+      "points": null
+    },
+    {
+      "date": "2026-01-28",
+      "type": "release",
+      "title": "5.2.17",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.2.17",
+      "points": null
+    },
+    {
+      "date": "2026-01-30",
+      "type": "release",
+      "title": "5.3.0",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-06",
+      "type": "release",
+      "title": "5.3.1",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-10",
+      "type": "release",
+      "title": "5.3.3",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.3.3",
+      "points": null
+    },
+    {
+      "date": "2026-03-10",
+      "type": "release",
+      "title": "5.3.2",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.3.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-12",
+      "type": "release",
+      "title": "5.3.4",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.3.4",
+      "points": null
+    },
+    {
+      "date": "2026-03-17",
+      "type": "release",
+      "title": "5.3.6",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.3.6",
+      "points": null
+    },
+    {
+      "date": "2026-03-17",
+      "type": "release",
+      "title": "5.3.5",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.3.5",
+      "points": null
+    },
+    {
+      "date": "2026-03-18",
+      "type": "release",
+      "title": "5.4.0",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-25",
+      "type": "release",
+      "title": "5.4.1",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.4.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-07",
+      "type": "release",
+      "title": "5.4.2",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.4.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-09",
+      "type": "release",
+      "title": "5.4.3",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.4.3",
+      "points": null
+    },
+    {
+      "date": "2026-04-29",
+      "type": "release",
+      "title": "5.4.4",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.4.4",
+      "points": null
+    },
+    {
+      "date": "2026-05-04",
+      "type": "release",
+      "title": "5.4.5",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.4.5",
+      "points": null
+    },
+    {
+      "date": "2026-05-24",
+      "type": "release",
+      "title": "5.4.6",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.4.6",
+      "points": null
+    },
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "title": "5.4.7",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.4.7",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "5.5.1",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.5.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "5.5.0",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "5.5.2",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.5.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-24",
+      "type": "release",
+      "title": "5.5.3",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.5.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "5.5.4",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.5.4",
+      "points": null
+    },
+    {
+      "date": "2026-07-22",
+      "type": "release",
+      "title": "5.5.5",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.5.5",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "5.5.6",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.5.6",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "5.5.7",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.5.7",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "5.5.8",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.5.8",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "5.5.9",
+      "url": "https://github.com/OneSignal/react-native-onesignal/releases/tag/5.5.9",
+      "points": null
+    }
+  ]
 }

@@ -66,9 +66,25 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 104193,
-      "forks": 15952,
+      "stars": 104222,
+      "forks": 15957,
       "openIssues": 1
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-01-27",
+      "type": "hn",
+      "title": "Implementing a ChatGPT-like LLM from scratch, step by step",
+      "url": "https://news.ycombinator.com/item?id=39156778",
+      "points": 739
+    },
+    {
+      "date": "2025-08-20",
+      "type": "hn",
+      "title": "Gemma 3 270M re-implemented in pure PyTorch for local tinkering",
+      "url": "https://news.ycombinator.com/item?id=44962059",
+      "points": 417
     }
   ]
 }

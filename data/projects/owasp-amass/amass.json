@@ -132,9 +132,151 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 15085,
+      "stars": 15087,
       "forks": 2176,
       "openIssues": 242
+    }
+  ],
+  "events": [
+    {
+      "date": "2022-04-16",
+      "type": "release",
+      "title": "v3.19.2",
+      "url": "https://github.com/owasp-amass/amass/releases/tag/v3.19.2",
+      "points": null
+    },
+    {
+      "date": "2022-06-23",
+      "type": "release",
+      "title": "v3.19.3",
+      "url": "https://github.com/owasp-amass/amass/releases/tag/v3.19.3",
+      "points": null
+    },
+    {
+      "date": "2022-09-23",
+      "type": "release",
+      "title": "v3.20.0",
+      "url": "https://github.com/owasp-amass/amass/releases/tag/v3.20.0",
+      "points": null
+    },
+    {
+      "date": "2022-12-09",
+      "type": "release",
+      "title": "v3.21.1",
+      "url": "https://github.com/owasp-amass/amass/releases/tag/v3.21.1",
+      "points": null
+    },
+    {
+      "date": "2022-12-09",
+      "type": "release",
+      "title": "v3.21.0",
+      "url": "https://github.com/owasp-amass/amass/releases/tag/v3.21.0",
+      "points": null
+    },
+    {
+      "date": "2022-12-11",
+      "type": "release",
+      "title": "v3.21.2",
+      "url": "https://github.com/owasp-amass/amass/releases/tag/v3.21.2",
+      "points": null
+    },
+    {
+      "date": "2023-03-08",
+      "type": "release",
+      "title": "v3.22.0",
+      "url": "https://github.com/owasp-amass/amass/releases/tag/v3.22.0",
+      "points": null
+    },
+    {
+      "date": "2023-03-14",
+      "type": "release",
+      "title": "v3.22.1",
+      "url": "https://github.com/owasp-amass/amass/releases/tag/v3.22.1",
+      "points": null
+    },
+    {
+      "date": "2023-03-21",
+      "type": "release",
+      "title": "v3.22.2",
+      "url": "https://github.com/owasp-amass/amass/releases/tag/v3.22.2",
+      "points": null
+    },
+    {
+      "date": "2023-05-09",
+      "type": "release",
+      "title": "v3.23.2",
+      "url": "https://github.com/owasp-amass/amass/releases/tag/v3.23.2",
+      "points": null
+    },
+    {
+      "date": "2023-06-20",
+      "type": "release",
+      "title": "v3.23.3",
+      "url": "https://github.com/owasp-amass/amass/releases/tag/v3.23.3",
+      "points": null
+    },
+    {
+      "date": "2023-07-20",
+      "type": "release",
+      "title": "v4.0.2",
+      "url": "https://github.com/owasp-amass/amass/releases/tag/v4.0.2",
+      "points": null
+    },
+    {
+      "date": "2023-07-20",
+      "type": "release",
+      "title": "v4.0.1",
+      "url": "https://github.com/owasp-amass/amass/releases/tag/v4.0.1",
+      "points": null
+    },
+    {
+      "date": "2023-07-24",
+      "type": "release",
+      "title": "v4.0.3",
+      "url": "https://github.com/owasp-amass/amass/releases/tag/v4.0.3",
+      "points": null
+    },
+    {
+      "date": "2023-07-25",
+      "type": "release",
+      "title": "v4.0.4",
+      "url": "https://github.com/owasp-amass/amass/releases/tag/v4.0.4",
+      "points": null
+    },
+    {
+      "date": "2023-07-29",
+      "type": "release",
+      "title": "v4.1.0",
+      "url": "https://github.com/owasp-amass/amass/releases/tag/v4.1.0",
+      "points": null
+    },
+    {
+      "date": "2023-09-10",
+      "type": "release",
+      "title": "v4.2.0",
+      "url": "https://github.com/owasp-amass/amass/releases/tag/v4.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-03",
+      "type": "release",
+      "title": "v5.0.0",
+      "url": "https://github.com/owasp-amass/amass/releases/tag/v5.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-04",
+      "type": "release",
+      "title": "v5.0.1",
+      "url": "https://github.com/owasp-amass/amass/releases/tag/v5.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-07",
+      "type": "release",
+      "title": "v5.1.1",
+      "url": "https://github.com/owasp-amass/amass/releases/tag/v5.1.1",
+      "points": null
     }
   ]
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/krahabb/meross_lan",
   "name": "meross_lan",
   "desc": "Home Assistant integration for Meross devices",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "meross_lan",
+  "githubDescription": "Home Assistant integration for Meross devices",
   "tags": [
     "hacs",
     "homeassistant",
@@ -14,6 +14,71 @@
     "meross-homeassistant",
     "meross-lan"
   ],
-  "history": [],
-  "weight": 741
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 741,
+      "forks": 66,
+      "openIssues": 50
+    }
+  ],
+  "weight": 741,
+  "events": [
+    {
+      "date": "2024-08-15",
+      "type": "release",
+      "title": "Moonlight.3.1",
+      "url": "https://github.com/krahabb/meross_lan/releases/tag/v5.3.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-10",
+      "type": "release",
+      "title": "Moonlight.4",
+      "url": "https://github.com/krahabb/meross_lan/releases/tag/v5.4.0",
+      "points": null
+    },
+    {
+      "date": "2024-12-06",
+      "type": "release",
+      "title": "Moonlight.4.1",
+      "url": "https://github.com/krahabb/meross_lan/releases/tag/v5.4.1",
+      "points": null
+    },
+    {
+      "date": "2025-03-01",
+      "type": "release",
+      "title": "Moonlight.4.2",
+      "url": "https://github.com/krahabb/meross_lan/releases/tag/v5.4.2",
+      "points": null
+    },
+    {
+      "date": "2025-06-04",
+      "type": "release",
+      "title": "Moonlight.5",
+      "url": "https://github.com/krahabb/meross_lan/releases/tag/v5.5.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-11",
+      "type": "release",
+      "title": "Moonlight.6",
+      "url": "https://github.com/krahabb/meross_lan/releases/tag/v5.6.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-02",
+      "type": "release",
+      "title": "Moonlight.7.1",
+      "url": "https://github.com/krahabb/meross_lan/releases/tag/v5.7.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-03",
+      "type": "release",
+      "title": "Moonlight.8",
+      "url": "https://github.com/krahabb/meross_lan/releases/tag/v5.8.0",
+      "points": null
+    }
+  ]
 }

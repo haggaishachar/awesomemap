@@ -18,11 +18,223 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 2324,
-      "forks": 508,
-      "openIssues": 261
+      "stars": 2325,
+      "forks": 507,
+      "openIssues": 263
     }
   ],
   "weight": 2320,
-  "image": "https://avatars.githubusercontent.com/u/13844975?v=4"
+  "image": "https://avatars.githubusercontent.com/u/13844975?v=4",
+  "events": [
+    {
+      "date": "2021-07-09",
+      "type": "hn",
+      "title": "Home Assistant iOS app adds local push notification support",
+      "url": "https://news.ycombinator.com/item?id=27779453",
+      "points": 180
+    },
+    {
+      "date": "2023-04-05",
+      "type": "release",
+      "title": "2023.4 (460)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2023.4/2023.460",
+      "points": null
+    },
+    {
+      "date": "2023-10-19",
+      "type": "release",
+      "title": "2023.7 (471)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2023.7/2023.471",
+      "points": null
+    },
+    {
+      "date": "2023-12-20",
+      "type": "release",
+      "title": "2023.12 (499)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2023.12/2023.499",
+      "points": null
+    },
+    {
+      "date": "2024-01-22",
+      "type": "release",
+      "title": "2024.1 (535)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2024.1/2024.535",
+      "points": null
+    },
+    {
+      "date": "2024-02-22",
+      "type": "release",
+      "title": "2024.2 (561)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2024.2/2024.561",
+      "points": null
+    },
+    {
+      "date": "2024-03-25",
+      "type": "release",
+      "title": "2024.3 (608)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2024.3/2024.608",
+      "points": null
+    },
+    {
+      "date": "2024-04-17",
+      "type": "release",
+      "title": "2024.4 (624)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2024.4/2024.624",
+      "points": null
+    },
+    {
+      "date": "2024-05-15",
+      "type": "release",
+      "title": "2024.5 (678)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2024.5/2024.678",
+      "points": null
+    },
+    {
+      "date": "2024-05-28",
+      "type": "release",
+      "title": "2024.5.1 (688)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2024.5.1/2024.688",
+      "points": null
+    },
+    {
+      "date": "2024-06-25",
+      "type": "release",
+      "title": "2024.6 (696)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2024.6/2024.696",
+      "points": null
+    },
+    {
+      "date": "2024-07-24",
+      "type": "release",
+      "title": "2024.7 (730)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2024.7/2024.730",
+      "points": null
+    },
+    {
+      "date": "2024-08-22",
+      "type": "release",
+      "title": "2024.8 (783)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2024.8/2024.783",
+      "points": null
+    },
+    {
+      "date": "2024-09-24",
+      "type": "release",
+      "title": "2024.9.2 (881)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2024.9.2/2024.881",
+      "points": null
+    },
+    {
+      "date": "2024-11-27",
+      "type": "release",
+      "title": "2024.9.5 (986)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2024.9.5/2024.986",
+      "points": null
+    },
+    {
+      "date": "2024-12-10",
+      "type": "release",
+      "title": "2024.12 (1032)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2024.12/2024.1032",
+      "points": null
+    },
+    {
+      "date": "2024-12-17",
+      "type": "release",
+      "title": "2024.12.2 (1048)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2024.12.2/2024.1048",
+      "points": null
+    },
+    {
+      "date": "2025-02-27",
+      "type": "release",
+      "title": "2025.2 (1178)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2025.2/2025.1178",
+      "points": null
+    },
+    {
+      "date": "2025-03-27",
+      "type": "release",
+      "title": "2025.3 (1205)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2025.3/2025.1205",
+      "points": null
+    },
+    {
+      "date": "2025-05-12",
+      "type": "release",
+      "title": "2025.5 (1264)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2025.5/2025.1264",
+      "points": null
+    },
+    {
+      "date": "2025-07-08",
+      "type": "release",
+      "title": "2025.6 (1305)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2025.6/2025.1305",
+      "points": null
+    },
+    {
+      "date": "2025-11-26",
+      "type": "release",
+      "title": "2025.11.2 (1537)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2025.11.2/1537",
+      "points": null
+    },
+    {
+      "date": "2026-02-11",
+      "type": "release",
+      "title": "2026.2.1 (1766)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2026.2.1/2026.1766",
+      "points": null
+    },
+    {
+      "date": "2026-04-02",
+      "type": "release",
+      "title": "2026.4.0 (1862)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2026.4/2026.1862",
+      "points": null
+    },
+    {
+      "date": "2026-04-23",
+      "type": "release",
+      "title": "2026.4.1 (1904)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2026.4.1/2026.1904",
+      "points": null
+    },
+    {
+      "date": "2026-07-03",
+      "type": "release",
+      "title": "2026.7.0 (2208)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2026.7.0/2026.2208",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "2026.7.1 (2342)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2026.7.1/2026.2346",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "2026.7.3 (2546)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2026.7.3/2026.2546",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "2026.8.0 (2805)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2026.8.0/2026.2805",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "2026.9.0 (2874)",
+      "url": "https://github.com/home-assistant/iOS/releases/tag/release/2026.9.0/2026.2874",
+      "points": null
+    }
+  ]
 }

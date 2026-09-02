@@ -31,11 +31,216 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 28187,
+      "stars": 28190,
       "forks": 3682,
-      "openIssues": 934
+      "openIssues": 933
     }
   ],
   "weight": 28183,
-  "image": "https://avatars.githubusercontent.com/u/48309720?v=4"
+  "image": "https://avatars.githubusercontent.com/u/48309720?v=4",
+  "events": [
+    {
+      "date": "2023-08-02",
+      "type": "release",
+      "title": "1.8.1",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.8.1",
+      "points": null
+    },
+    {
+      "date": "2023-08-29",
+      "type": "release",
+      "title": "1.8.2",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.8.2",
+      "points": null
+    },
+    {
+      "date": "2023-09-15",
+      "type": "release",
+      "title": "1.8.2.post0",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.8.2.post0",
+      "points": null
+    },
+    {
+      "date": "2023-09-21",
+      "type": "release",
+      "title": "1.8.2.post1",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.8.2.post1",
+      "points": null
+    },
+    {
+      "date": "2023-09-27",
+      "type": "release",
+      "title": "1.9.0",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.9.0",
+      "points": null
+    },
+    {
+      "date": "2023-10-10",
+      "type": "release",
+      "title": "1.9.1",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.9.1",
+      "points": null
+    },
+    {
+      "date": "2023-10-13",
+      "type": "release",
+      "title": "1.9.1.post0",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.9.1.post0",
+      "points": null
+    },
+    {
+      "date": "2023-11-07",
+      "type": "release",
+      "title": "1.9.2",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.9.2",
+      "points": null
+    },
+    {
+      "date": "2023-11-08",
+      "type": "release",
+      "title": "1.9.2.post0",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.9.2.post0",
+      "points": null
+    },
+    {
+      "date": "2023-11-30",
+      "type": "release",
+      "title": "1.10.0",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.10.0",
+      "points": null
+    },
+    {
+      "date": "2023-12-08",
+      "type": "release",
+      "title": "1.10.0.post0",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.10.0.post0",
+      "points": null
+    },
+    {
+      "date": "2024-01-04",
+      "type": "release",
+      "title": "1.10.1",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.10.1",
+      "points": null
+    },
+    {
+      "date": "2024-01-30",
+      "type": "release",
+      "title": "1.11.0",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.11.0",
+      "points": null
+    },
+    {
+      "date": "2024-04-18",
+      "type": "release",
+      "title": "1.12.0",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.12.0",
+      "points": null
+    },
+    {
+      "date": "2024-05-06",
+      "type": "release",
+      "title": "1.12.0.post0",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.12.0.post0",
+      "points": null
+    },
+    {
+      "date": "2024-05-21",
+      "type": "release",
+      "title": "1.12.1",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.12.1",
+      "points": null
+    },
+    {
+      "date": "2024-07-31",
+      "type": "release",
+      "title": "1.13.0",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.13.0",
+      "points": null
+    },
+    {
+      "date": "2024-08-20",
+      "type": "release",
+      "title": "1.13.1",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.13.1",
+      "points": null
+    },
+    {
+      "date": "2024-11-04",
+      "type": "release",
+      "title": "1.14.0",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.14.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-13",
+      "type": "release",
+      "title": "1.14.0.post0",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.14.0.post0",
+      "points": null
+    },
+    {
+      "date": "2024-12-11",
+      "type": "release",
+      "title": "1.15.0",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.15.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-13",
+      "type": "release",
+      "title": "1.16.0",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.16.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-07",
+      "type": "release",
+      "title": "1.17.0",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.17.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-14",
+      "type": "release",
+      "title": "1.18.0",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.18.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-10",
+      "type": "release",
+      "title": "1.19.0",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.19.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-01",
+      "type": "release",
+      "title": "1.20.0",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.20.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-30",
+      "type": "release",
+      "title": "1.21.0",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.21.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-19",
+      "type": "release",
+      "title": "1.22.0",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.22.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-13",
+      "type": "release",
+      "title": "1.23.0",
+      "url": "https://github.com/HumanSignal/label-studio/releases/tag/1.23.0",
+      "points": null
+    }
+  ]
 }

@@ -103,9 +103,95 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 280647,
-      "forks": 25142,
-      "openIssues": 350
+      "stars": 280806,
+      "forks": 25169,
+      "openIssues": 353
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-03-17",
+      "type": "release",
+      "title": "v5.0.5",
+      "url": "https://github.com/obra/superpowers/releases/tag/v5.0.5",
+      "points": null
+    },
+    {
+      "date": "2026-03-17",
+      "type": "release",
+      "title": "v5.0.4",
+      "url": "https://github.com/obra/superpowers/releases/tag/v5.0.4",
+      "points": null
+    },
+    {
+      "date": "2026-03-25",
+      "type": "release",
+      "title": "v5.0.6",
+      "url": "https://github.com/obra/superpowers/releases/tag/v5.0.6",
+      "points": null
+    },
+    {
+      "date": "2026-03-31",
+      "type": "release",
+      "title": "v5.0.7",
+      "url": "https://github.com/obra/superpowers/releases/tag/v5.0.7",
+      "points": null
+    },
+    {
+      "date": "2026-05-04",
+      "type": "release",
+      "title": "v5.1.0",
+      "url": "https://github.com/obra/superpowers/releases/tag/v5.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-16",
+      "type": "release",
+      "title": "v6.0.0",
+      "url": "https://github.com/obra/superpowers/releases/tag/v6.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-17",
+      "type": "release",
+      "title": "v6.0.2",
+      "url": "https://github.com/obra/superpowers/releases/tag/v6.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-18",
+      "type": "release",
+      "title": "v6.0.3",
+      "url": "https://github.com/obra/superpowers/releases/tag/v6.0.3",
+      "points": null
+    },
+    {
+      "date": "2026-06-30",
+      "type": "release",
+      "title": "v6.1.0",
+      "url": "https://github.com/obra/superpowers/releases/tag/v6.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-02",
+      "type": "release",
+      "title": "v6.1.1",
+      "url": "https://github.com/obra/superpowers/releases/tag/v6.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "v6.2.0",
+      "url": "https://github.com/obra/superpowers/releases/tag/v6.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "v6.3.0",
+      "url": "https://github.com/obra/superpowers/releases/tag/v6.3.0",
+      "points": null
     }
   ]
 }

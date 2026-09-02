@@ -87,9 +87,130 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 203106,
-      "forks": 60500,
-      "openIssues": 1138
+      "stars": 203162,
+      "forks": 60519,
+      "openIssues": 1140
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "n8n@2.35.3",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "n8n@2.34.6",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.34.6",
+      "points": null
+    },
+    {
+      "date": "2026-08-17",
+      "type": "release",
+      "title": "n8n@1.123.72",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.72",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "n8n@2.35.4",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "n8n@1.123.73",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.73",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "n8n@2.35.5",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.5",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "n8n@1.123.74",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.74",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "n8n@2.35.7",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.7",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "n8n@2.35.6",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.35.6",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "n8n@1.123.75",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.75",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "n8n@2.36.6",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.6",
+      "points": null
+    },
+    {
+      "date": "2026-08-25",
+      "type": "release",
+      "title": "n8n@2.36.7",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.7",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "n8n@2.36.8",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.8",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "n8n@2.36.9",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.36.9",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "stable",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/stable",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "n8n@2.37.7",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.37.7",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "n8n@1.123.76",
+      "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%401.123.76",
+      "points": null
     }
   ]
 }

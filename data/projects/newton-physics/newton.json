@@ -4,15 +4,87 @@
   "link": "https://github.com/newton-physics/newton",
   "name": "newton",
   "desc": "An open-source, GPU-accelerated physics simulation engine built upon NVIDIA Warp, specifically targeting roboticists and simulation researchers.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "newton",
+  "githubDescription": "An open-source, GPU-accelerated physics simulation engine built upon NVIDIA Warp, specifically targeting roboticists and simulation researchers.",
   "tags": [
     "newton-physics",
     "nvidia-warp",
     "physics-simulation",
     "robotics"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 5578,
+      "forks": 671,
+      "openIssues": 395
+    }
+  ],
   "weight": 5576,
-  "image": "https://avatars.githubusercontent.com/u/206978897?v=4"
+  "image": "https://avatars.githubusercontent.com/u/206978897?v=4",
+  "events": [
+    {
+      "date": "2025-10-01",
+      "type": "hn",
+      "title": "Newton: physics simulation engine built upon NVIDIA Warp",
+      "url": "https://news.ycombinator.com/item?id=45440071",
+      "points": 130
+    },
+    {
+      "date": "2026-04-13",
+      "type": "release",
+      "title": "Release v1.0.0",
+      "url": "https://github.com/newton-physics/newton/releases/tag/v1.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-15",
+      "type": "release",
+      "title": "Release v1.1.0",
+      "url": "https://github.com/newton-physics/newton/releases/tag/v1.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-12",
+      "type": "release",
+      "title": "Release v1.2.0",
+      "url": "https://github.com/newton-physics/newton/releases/tag/v1.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-05",
+      "type": "release",
+      "title": "Release v1.2.1",
+      "url": "https://github.com/newton-physics/newton/releases/tag/v1.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-11",
+      "type": "release",
+      "title": "Release v1.3.0",
+      "url": "https://github.com/newton-physics/newton/releases/tag/v1.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "Release v1.4.0",
+      "url": "https://github.com/newton-physics/newton/releases/tag/v1.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-11",
+      "type": "release",
+      "title": "Release v1.5.0",
+      "url": "https://github.com/newton-physics/newton/releases/tag/v1.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "Release v1.5.1",
+      "url": "https://github.com/newton-physics/newton/releases/tag/v1.5.1",
+      "points": null
+    }
+  ]
 }

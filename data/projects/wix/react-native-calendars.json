@@ -23,5 +23,217 @@
     }
   ],
   "weight": 10310,
-  "image": "https://avatars.githubusercontent.com/u/686511?v=4"
+  "image": "https://avatars.githubusercontent.com/u/686511?v=4",
+  "events": [
+    {
+      "date": "2022-09-07",
+      "type": "release",
+      "title": "1.1288.3",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1288.3",
+      "points": null
+    },
+    {
+      "date": "2022-09-08",
+      "type": "release",
+      "title": "1.1289.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1289.0",
+      "points": null
+    },
+    {
+      "date": "2022-10-20",
+      "type": "release",
+      "title": "1.1290.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1290.0",
+      "points": null
+    },
+    {
+      "date": "2022-10-31",
+      "type": "release",
+      "title": "1.1291.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1291.0",
+      "points": null
+    },
+    {
+      "date": "2022-11-08",
+      "type": "release",
+      "title": "1.1291.1",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1291.1",
+      "points": null
+    },
+    {
+      "date": "2022-11-30",
+      "type": "release",
+      "title": "1.1292.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1292.0",
+      "points": null
+    },
+    {
+      "date": "2022-12-27",
+      "type": "release",
+      "title": "1.1293.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1293.0",
+      "points": null
+    },
+    {
+      "date": "2023-03-09",
+      "type": "release",
+      "title": "1.1294.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1294.0",
+      "points": null
+    },
+    {
+      "date": "2023-04-13",
+      "type": "release",
+      "title": "1.1295.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1295.0",
+      "points": null
+    },
+    {
+      "date": "2023-05-11",
+      "type": "release",
+      "title": "1.1297.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1297.0",
+      "points": null
+    },
+    {
+      "date": "2023-05-23",
+      "type": "release",
+      "title": "1.1298.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1298.0",
+      "points": null
+    },
+    {
+      "date": "2023-06-21",
+      "type": "release",
+      "title": "1.1299.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1299.0",
+      "points": null
+    },
+    {
+      "date": "2023-07-20",
+      "type": "release",
+      "title": "1.1300.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1300.0",
+      "points": null
+    },
+    {
+      "date": "2023-09-03",
+      "type": "release",
+      "title": "1.1301.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1301.0",
+      "points": null
+    },
+    {
+      "date": "2023-10-31",
+      "type": "release",
+      "title": "1.1302.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1302.0",
+      "points": null
+    },
+    {
+      "date": "2023-12-20",
+      "type": "release",
+      "title": "1.1303.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1303.0",
+      "points": null
+    },
+    {
+      "date": "2024-02-27",
+      "type": "release",
+      "title": "1.1304.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1304.0",
+      "points": null
+    },
+    {
+      "date": "2024-03-05",
+      "type": "release",
+      "title": "1.1304.1",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1304.1",
+      "points": null
+    },
+    {
+      "date": "2024-05-15",
+      "type": "release",
+      "title": "1.1305.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1305.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-18",
+      "type": "release",
+      "title": "1.1307.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1307.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-18",
+      "type": "release",
+      "title": "1.1306.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1306.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-15",
+      "type": "release",
+      "title": "1.1308.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1308.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-12",
+      "type": "release",
+      "title": "1.1309.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1309.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-26",
+      "type": "release",
+      "title": "1.1310.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1310.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-15",
+      "type": "release",
+      "title": "1.1311.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1311.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-30",
+      "type": "release",
+      "title": "1.1312.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1312.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-30",
+      "type": "release",
+      "title": "1.1311.1",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1311.1",
+      "points": null
+    },
+    {
+      "date": "2025-05-26",
+      "type": "release",
+      "title": "1.1312.1",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1312.1",
+      "points": null
+    },
+    {
+      "date": "2025-06-24",
+      "type": "release",
+      "title": "1.1313.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1313.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-29",
+      "type": "release",
+      "title": "1.1314.0",
+      "url": "https://github.com/wix/react-native-calendars/releases/tag/1.1314.0",
+      "points": null
+    }
+  ]
 }

@@ -98,9 +98,18 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 21984,
-      "forks": 5886,
+      "stars": 21987,
+      "forks": 5888,
       "openIssues": 0
+    }
+  ],
+  "events": [
+    {
+      "date": "2021-11-03",
+      "type": "hn",
+      "title": "Knapsack algorithm in PostgreSQL source code",
+      "url": "https://news.ycombinator.com/item?id=29101205",
+      "points": 89
     }
   ]
 }

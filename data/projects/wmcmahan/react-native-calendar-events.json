@@ -4,8 +4,8 @@
   "link": "https://github.com/wmcmahan/react-native-calendar-events",
   "name": "react-native-calendar-events",
   "desc": "📆 React Native Module for iOS and Android Calendar Events",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-calendar-events",
+  "githubDescription": "📆 React Native Module for iOS and Android Calendar Events",
   "tags": [
     "alarms",
     "andriod",
@@ -24,6 +24,57 @@
     "react-native-module",
     "recurring-events"
   ],
-  "history": [],
-  "weight": 930
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 930,
+      "forks": 295,
+      "openIssues": 78
+    }
+  ],
+  "weight": 930,
+  "events": [
+    {
+      "date": "2020-08-01",
+      "type": "release",
+      "title": "2.0.0",
+      "url": "https://github.com/wmcmahan/react-native-calendar-events/releases/tag/2.0.0",
+      "points": null
+    },
+    {
+      "date": "2020-08-02",
+      "type": "release",
+      "title": "2.0.1",
+      "url": "https://github.com/wmcmahan/react-native-calendar-events/releases/tag/2.0.1",
+      "points": null
+    },
+    {
+      "date": "2020-08-11",
+      "type": "release",
+      "title": "2.1.0",
+      "url": "https://github.com/wmcmahan/react-native-calendar-events/releases/tag/2.1.0",
+      "points": null
+    },
+    {
+      "date": "2020-10-20",
+      "type": "release",
+      "title": "2.1.1",
+      "url": "https://github.com/wmcmahan/react-native-calendar-events/releases/tag/2.1.1",
+      "points": null
+    },
+    {
+      "date": "2020-11-08",
+      "type": "release",
+      "title": "2.1.2",
+      "url": "https://github.com/wmcmahan/react-native-calendar-events/releases/tag/2.1.2",
+      "points": null
+    },
+    {
+      "date": "2021-01-08",
+      "type": "release",
+      "title": "2.2.0",
+      "url": "https://github.com/wmcmahan/react-native-calendar-events/releases/tag/2.2.0",
+      "points": null
+    }
+  ]
 }

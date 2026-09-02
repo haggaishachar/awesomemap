@@ -4,8 +4,8 @@
   "link": "https://github.com/kirillzyusko/react-native-keyboard-controller",
   "name": "react-native-keyboard-controller",
   "desc": "⌨️ Keyboard manager which works in identical way on both iOS and Android",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-keyboard-controller",
+  "githubDescription": "⌨️ Keyboard manager which works in identical way on both iOS and Android",
   "tags": [
     "android",
     "animation",
@@ -22,6 +22,225 @@
     "over-keyboard-view",
     "react-native"
   ],
-  "history": [],
-  "weight": 3707
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 3708,
+      "forks": 192,
+      "openIssues": 125
+    }
+  ],
+  "weight": 3707,
+  "events": [
+    {
+      "date": "2025-11-04",
+      "type": "release",
+      "title": "Release 1.19.5",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.19.5",
+      "points": null
+    },
+    {
+      "date": "2025-11-20",
+      "type": "release",
+      "title": "Release 1.19.6",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.19.6",
+      "points": null
+    },
+    {
+      "date": "2025-12-01",
+      "type": "release",
+      "title": "Release 1.20.0",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.20.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-03",
+      "type": "release",
+      "title": "Release 1.20.1",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.20.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-15",
+      "type": "release",
+      "title": "Release 1.20.2",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.20.2",
+      "points": null
+    },
+    {
+      "date": "2025-12-30",
+      "type": "release",
+      "title": "Release 1.20.3",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.20.3",
+      "points": null
+    },
+    {
+      "date": "2026-01-07",
+      "type": "release",
+      "title": "Release 1.20.4",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.20.4",
+      "points": null
+    },
+    {
+      "date": "2026-01-12",
+      "type": "release",
+      "title": "Release 1.20.5",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.20.5",
+      "points": null
+    },
+    {
+      "date": "2026-01-15",
+      "type": "release",
+      "title": "Release 1.20.6",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.20.6",
+      "points": null
+    },
+    {
+      "date": "2026-01-28",
+      "type": "release",
+      "title": "Release 1.20.7",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.20.7",
+      "points": null
+    },
+    {
+      "date": "2026-03-16",
+      "type": "release",
+      "title": "Release 1.21.0",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.21.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-20",
+      "type": "release",
+      "title": "Release 1.21.1",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.21.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-23",
+      "type": "release",
+      "title": "Release 1.21.2",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.21.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-30",
+      "type": "release",
+      "title": "Release 1.21.3",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.21.3",
+      "points": null
+    },
+    {
+      "date": "2026-04-06",
+      "type": "release",
+      "title": "Release 1.21.4",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.21.4",
+      "points": null
+    },
+    {
+      "date": "2026-04-10",
+      "type": "release",
+      "title": "Release 1.21.5",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.21.5",
+      "points": null
+    },
+    {
+      "date": "2026-04-20",
+      "type": "release",
+      "title": "Release 1.21.6",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.21.6",
+      "points": null
+    },
+    {
+      "date": "2026-05-04",
+      "type": "release",
+      "title": "Release 1.21.7",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.21.7",
+      "points": null
+    },
+    {
+      "date": "2026-05-21",
+      "type": "release",
+      "title": "Release 1.21.8",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.21.8",
+      "points": null
+    },
+    {
+      "date": "2026-06-01",
+      "type": "release",
+      "title": "Release 1.21.9",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.21.9",
+      "points": null
+    },
+    {
+      "date": "2026-06-08",
+      "type": "release",
+      "title": "Release 1.21.10",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.21.10",
+      "points": null
+    },
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "title": "Release 1.21.11",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.21.11",
+      "points": null
+    },
+    {
+      "date": "2026-06-22",
+      "type": "release",
+      "title": "Release 1.21.12",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.21.12",
+      "points": null
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "Release 1.21.13",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.21.13",
+      "points": null
+    },
+    {
+      "date": "2026-07-06",
+      "type": "release",
+      "title": "Release 1.21.14",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.21.14",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "Release 1.22.0",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.22.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "Release 1.22.1",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.22.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-20",
+      "type": "release",
+      "title": "Release 1.22.2",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.22.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "Release 1.22.3",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.22.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-17",
+      "type": "release",
+      "title": "Release 1.22.4",
+      "url": "https://github.com/kirillzyusko/react-native-keyboard-controller/releases/tag/1.22.4",
+      "points": null
+    }
+  ]
 }

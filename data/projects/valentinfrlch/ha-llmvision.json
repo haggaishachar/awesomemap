@@ -4,8 +4,8 @@
   "link": "https://github.com/valentinfrlch/ha-llmvision",
   "name": "ha-llmvision",
   "desc": "Visual intelligence for your home.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "ha-llmvision",
+  "githubDescription": "Visual intelligence for your home.",
   "tags": [
     "ai",
     "cctv-detection",
@@ -17,6 +17,148 @@
     "smart-home",
     "vision"
   ],
-  "history": [],
-  "weight": 1451
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1455,
+      "forks": 141,
+      "openIssues": 48
+    }
+  ],
+  "weight": 1451,
+  "events": [
+    {
+      "date": "2024-10-22",
+      "type": "release",
+      "title": "v1.2.1 Better Video Preprocessing",
+      "url": "https://github.com/valentinfrlch/ha-llmvision/releases/tag/v1.2.1a",
+      "points": null
+    },
+    {
+      "date": "2024-10-22",
+      "type": "release",
+      "title": "v1.2.1 Better Video Preprocessing",
+      "url": "https://github.com/valentinfrlch/ha-llmvision/releases/tag/v1.2.1",
+      "points": null
+    },
+    {
+      "date": "2024-11-02",
+      "type": "release",
+      "title": "Event Memory",
+      "url": "https://github.com/valentinfrlch/ha-llmvision/releases/tag/v1.3",
+      "points": null
+    },
+    {
+      "date": "2024-11-10",
+      "type": "release",
+      "title": "New Action: Data Analyzer",
+      "url": "https://github.com/valentinfrlch/ha-llmvision/releases/tag/v1.3.1",
+      "points": null
+    },
+    {
+      "date": "2025-01-02",
+      "type": "release",
+      "title": "genAI Titles & Bug fixes",
+      "url": "https://github.com/valentinfrlch/ha-llmvision/releases/tag/v1.3.5",
+      "points": null
+    },
+    {
+      "date": "2025-01-03",
+      "type": "release",
+      "title": "genAI Titles & Bug fixes",
+      "url": "https://github.com/valentinfrlch/ha-llmvision/releases/tag/v1.3.6",
+      "points": null
+    },
+    {
+      "date": "2025-01-26",
+      "type": "release",
+      "title": "AWS Bedrock, reconfigure providers and bug fixes",
+      "url": "https://github.com/valentinfrlch/ha-llmvision/releases/tag/v1.3.7",
+      "points": null
+    },
+    {
+      "date": "2025-02-04",
+      "type": "release",
+      "title": "Bug fixes",
+      "url": "https://github.com/valentinfrlch/ha-llmvision/releases/tag/v1.3.8",
+      "points": null
+    },
+    {
+      "date": "2025-02-13",
+      "type": "release",
+      "title": "Open WebUI",
+      "url": "https://github.com/valentinfrlch/ha-llmvision/releases/tag/v1.3.9",
+      "points": null
+    },
+    {
+      "date": "2025-03-02",
+      "type": "release",
+      "title": "Memory & Timeline",
+      "url": "https://github.com/valentinfrlch/ha-llmvision/releases/tag/v1.4.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-17",
+      "type": "release",
+      "title": "Bug fixes & Improvements",
+      "url": "https://github.com/valentinfrlch/ha-llmvision/releases/tag/v1.4.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-06",
+      "type": "release",
+      "title": "Performance Improvements",
+      "url": "https://github.com/valentinfrlch/ha-llmvision/releases/tag/v1.4.2",
+      "points": null
+    },
+    {
+      "date": "2025-05-11",
+      "type": "release",
+      "title": "Improved Blueprint & Bug fixes",
+      "url": "https://github.com/valentinfrlch/ha-llmvision/releases/tag/v1.4.3",
+      "points": null
+    },
+    {
+      "date": "2025-07-05",
+      "type": "release",
+      "title": "Improved Setup and Provider Settings",
+      "url": "https://github.com/valentinfrlch/ha-llmvision/releases/tag/v1.5.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-02",
+      "type": "release",
+      "title": "New Providers, Bug Fixes & Improvements",
+      "url": "https://github.com/valentinfrlch/ha-llmvision/releases/tag/v1.5.1",
+      "points": null
+    },
+    {
+      "date": "2025-10-08",
+      "type": "release",
+      "title": "Bug Fixes & Improvements",
+      "url": "https://github.com/valentinfrlch/ha-llmvision/releases/tag/v1.5.2",
+      "points": null
+    },
+    {
+      "date": "2026-02-18",
+      "type": "release",
+      "title": "Structured Output & New Timeline API",
+      "url": "https://github.com/valentinfrlch/ha-llmvision/releases/tag/v1.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-26",
+      "type": "release",
+      "title": "Support for Glimpse-v1, New Action & API Improvements",
+      "url": "https://github.com/valentinfrlch/ha-llmvision/releases/tag/v1.7.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "Bug Fixes and Performance Improvements",
+      "url": "https://github.com/valentinfrlch/ha-llmvision/releases/tag/v1.7.1",
+      "points": null
+    }
+  ]
 }

@@ -31,10 +31,222 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 11799,
+      "stars": 11802,
       "forks": 1242,
       "openIssues": 23
     }
   ],
-  "weight": 11791
+  "weight": 11791,
+  "events": [
+    {
+      "date": "2024-12-25",
+      "type": "release",
+      "title": "v4.5.0",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v4.5.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-06",
+      "type": "release",
+      "title": "v4.5.1",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v4.5.1",
+      "points": null
+    },
+    {
+      "date": "2025-01-12",
+      "type": "release",
+      "title": "v4.5.2",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v4.5.2",
+      "points": null
+    },
+    {
+      "date": "2025-02-03",
+      "type": "release",
+      "title": "v5.0.0",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v5.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-30",
+      "type": "release",
+      "title": "v5.0.1",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v5.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-06-05",
+      "type": "release",
+      "title": "v5.0.2",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v5.0.2",
+      "points": null
+    },
+    {
+      "date": "2025-06-26",
+      "type": "release",
+      "title": "v5.0.3",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v5.0.3",
+      "points": null
+    },
+    {
+      "date": "2025-07-25",
+      "type": "release",
+      "title": "v5.0.4",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v5.0.4",
+      "points": null
+    },
+    {
+      "date": "2025-08-07",
+      "type": "release",
+      "title": "v5.0.5",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v5.0.5",
+      "points": null
+    },
+    {
+      "date": "2025-09-19",
+      "type": "release",
+      "title": "v5.0.6",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v5.0.6",
+      "points": null
+    },
+    {
+      "date": "2025-11-12",
+      "type": "release",
+      "title": "v5.1.0",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v5.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-21",
+      "type": "release",
+      "title": "v5.1.1",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v5.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-05",
+      "type": "release",
+      "title": "v5.2.0",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v5.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-10",
+      "type": "release",
+      "title": "v5.2.1",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v5.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-20",
+      "type": "release",
+      "title": "v5.2.2",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v5.2.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-14",
+      "type": "release",
+      "title": "v5.3.0",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v5.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-19",
+      "type": "release",
+      "title": "v6.0.0",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v6.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-24",
+      "type": "release",
+      "title": "v6.1.0",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v6.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "v6.2.0",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v6.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-25",
+      "type": "release",
+      "title": "v6.3.1",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v6.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-31",
+      "type": "release",
+      "title": "v6.4.0",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v6.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-01",
+      "type": "release",
+      "title": "v6.4.1",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v6.4.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "v6.5.0",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v6.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-30",
+      "type": "release",
+      "title": "v6.6.0",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v6.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "v7.0.0",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v7.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "v7.1.0",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v7.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "v7.2.0",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v7.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "v7.2.1",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v7.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "v7.3.0",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v7.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-22",
+      "type": "release",
+      "title": "v7.4.0",
+      "url": "https://github.com/jason5ng32/MyIP/releases/tag/v7.4.0",
+      "points": null
+    }
+  ]
 }

@@ -28,5 +28,77 @@
       "forks": 149,
       "openIssues": 1
     }
+  ],
+  "events": [
+    {
+      "date": "2017-05-28",
+      "type": "release",
+      "title": "v1.0.0",
+      "url": "https://github.com/mil-tokyo/webdnn/releases/tag/v1.0.0",
+      "points": null
+    },
+    {
+      "date": "2017-07-01",
+      "type": "release",
+      "title": "v1.1.0",
+      "url": "https://github.com/mil-tokyo/webdnn/releases/tag/v1.1.0",
+      "points": null
+    },
+    {
+      "date": "2018-05-06",
+      "type": "release",
+      "title": "v1.2.4",
+      "url": "https://github.com/mil-tokyo/webdnn/releases/tag/v1.2.4",
+      "points": null
+    },
+    {
+      "date": "2018-05-24",
+      "type": "release",
+      "title": "v1.2.5",
+      "url": "https://github.com/mil-tokyo/webdnn/releases/tag/v1.2.5",
+      "points": null
+    },
+    {
+      "date": "2018-08-22",
+      "type": "release",
+      "title": "v1.2.6",
+      "url": "https://github.com/mil-tokyo/webdnn/releases/tag/v1.2.6",
+      "points": null
+    },
+    {
+      "date": "2018-11-19",
+      "type": "release",
+      "title": "v1.2.7",
+      "url": "https://github.com/mil-tokyo/webdnn/releases/tag/v1.2.7",
+      "points": null
+    },
+    {
+      "date": "2019-04-03",
+      "type": "release",
+      "title": "v1.2.8",
+      "url": "https://github.com/mil-tokyo/webdnn/releases/tag/v1.2.8",
+      "points": null
+    },
+    {
+      "date": "2019-06-28",
+      "type": "release",
+      "title": "v1.2.10",
+      "url": "https://github.com/mil-tokyo/webdnn/releases/tag/v1.2.10",
+      "points": null
+    },
+    {
+      "date": "2020-01-17",
+      "type": "release",
+      "title": "v1.2.11",
+      "url": "https://github.com/mil-tokyo/webdnn/releases/tag/v1.2.11",
+      "points": null
+    },
+    {
+      "date": "2024-12-01",
+      "type": "release",
+      "title": "v2 alpha",
+      "url": "https://github.com/mil-tokyo/webdnn/releases/tag/v2.0.0",
+      "points": null
+    }
   ]
 }

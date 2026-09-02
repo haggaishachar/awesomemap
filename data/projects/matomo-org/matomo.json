@@ -134,9 +134,25 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 21831,
+      "stars": 21832,
       "forks": 2897,
-      "openIssues": 2574
+      "openIssues": 2573
+    }
+  ],
+  "events": [
+    {
+      "date": "2021-01-05",
+      "type": "hn",
+      "title": "Matomo: Open-source analytics platform",
+      "url": "https://news.ycombinator.com/item?id=25650795",
+      "points": 183
+    },
+    {
+      "date": "2026-08-16",
+      "type": "release",
+      "title": "5.13.0",
+      "url": "https://github.com/matomo-org/matomo/releases/tag/5.13.0",
+      "points": null
     }
   ]
 }

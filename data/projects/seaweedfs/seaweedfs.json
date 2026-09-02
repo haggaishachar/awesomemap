@@ -28,11 +28,230 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 34409,
+      "stars": 34416,
       "forks": 2979,
-      "openIssues": 769
+      "openIssues": 771
     }
   ],
   "weight": 34398,
-  "image": "https://avatars.githubusercontent.com/u/11985425?v=4"
+  "image": "https://avatars.githubusercontent.com/u/11985425?v=4",
+  "events": [
+    {
+      "date": "2024-02-02",
+      "type": "hn",
+      "title": "SeaweedFS fast distributed storage system for blobs, objects, files and datalake",
+      "url": "https://news.ycombinator.com/item?id=39235593",
+      "points": 328
+    },
+    {
+      "date": "2026-03-10",
+      "type": "release",
+      "title": "4.16",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.16",
+      "points": null
+    },
+    {
+      "date": "2026-03-11",
+      "type": "release",
+      "title": "4.17",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.17",
+      "points": null
+    },
+    {
+      "date": "2026-04-02",
+      "type": "release",
+      "title": "4.18",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.18",
+      "points": null
+    },
+    {
+      "date": "2026-04-08",
+      "type": "release",
+      "title": "4.19",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.19",
+      "points": null
+    },
+    {
+      "date": "2026-04-13",
+      "type": "release",
+      "title": "4.20",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.20",
+      "points": null
+    },
+    {
+      "date": "2026-04-19",
+      "type": "release",
+      "title": "4.21",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.21",
+      "points": null
+    },
+    {
+      "date": "2026-04-27",
+      "type": "release",
+      "title": "4.22",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.22",
+      "points": null
+    },
+    {
+      "date": "2026-05-04",
+      "type": "release",
+      "title": "4.23 (Not safe for erasure coding and multi-disk volume servers)",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.23",
+      "points": null
+    },
+    {
+      "date": "2026-05-14",
+      "type": "release",
+      "title": "4.25",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.25",
+      "points": null
+    },
+    {
+      "date": "2026-05-14",
+      "type": "release",
+      "title": "4.24",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.24",
+      "points": null
+    },
+    {
+      "date": "2026-05-18",
+      "type": "release",
+      "title": "4.26",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.26",
+      "points": null
+    },
+    {
+      "date": "2026-05-20",
+      "type": "release",
+      "title": "4.27",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.27",
+      "points": null
+    },
+    {
+      "date": "2026-05-22",
+      "type": "release",
+      "title": "4.28",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.28",
+      "points": null
+    },
+    {
+      "date": "2026-05-26",
+      "type": "release",
+      "title": "4.29",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.29",
+      "points": null
+    },
+    {
+      "date": "2026-05-30",
+      "type": "release",
+      "title": "4.30",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.30",
+      "points": null
+    },
+    {
+      "date": "2026-06-02",
+      "type": "release",
+      "title": "4.31",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.31",
+      "points": null
+    },
+    {
+      "date": "2026-06-08",
+      "type": "release",
+      "title": "4.32",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.32",
+      "points": null
+    },
+    {
+      "date": "2026-06-11",
+      "type": "release",
+      "title": "4.33",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.33",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "4.34",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.34",
+      "points": null
+    },
+    {
+      "date": "2026-06-22",
+      "type": "release",
+      "title": "4.35",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.35",
+      "points": null
+    },
+    {
+      "date": "2026-06-25",
+      "type": "release",
+      "title": "4.36",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.36",
+      "points": null
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "4.37",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.37",
+      "points": null
+    },
+    {
+      "date": "2026-07-06",
+      "type": "release",
+      "title": "4.38",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.38",
+      "points": null
+    },
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "title": "4.39",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.39",
+      "points": null
+    },
+    {
+      "date": "2026-07-20",
+      "type": "release",
+      "title": "4.40",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.40",
+      "points": null
+    },
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "title": "4.41",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.41",
+      "points": null
+    },
+    {
+      "date": "2026-08-17",
+      "type": "release",
+      "title": "4.42",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.42",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "4.43",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.43",
+      "points": null
+    },
+    {
+      "date": "2026-08-22",
+      "type": "release",
+      "title": "4.44",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.44",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "4.45",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.45",
+      "points": null
+    }
+  ]
 }

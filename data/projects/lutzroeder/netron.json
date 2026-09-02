@@ -4,8 +4,8 @@
   "link": "https://github.com/lutzroeder/netron",
   "name": "netron",
   "desc": "Visualizer for neural network, deep learning and machine learning models",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "netron",
+  "githubDescription": "Visualizer for neural network, deep learning and machine learning models",
   "tags": [
     "ai",
     "coreml",
@@ -24,6 +24,92 @@
     "tensorflow-lite",
     "visualizer"
   ],
-  "history": [],
-  "weight": 33431
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 33432,
+      "forks": 3179,
+      "openIssues": 18
+    }
+  ],
+  "weight": 33431,
+  "events": [
+    {
+      "date": "2025-12-26",
+      "type": "release",
+      "title": "8.8.0",
+      "url": "https://github.com/lutzroeder/netron/releases/tag/v8.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-03",
+      "type": "release",
+      "title": "9.0.0",
+      "url": "https://github.com/lutzroeder/netron/releases/tag/v9.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-27",
+      "type": "release",
+      "title": "9.1.3",
+      "url": "https://github.com/lutzroeder/netron/releases/tag/v9.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "9.1.7",
+      "url": "https://github.com/lutzroeder/netron/releases/tag/v9.1.7",
+      "points": null
+    },
+    {
+      "date": "2026-07-18",
+      "type": "release",
+      "title": "9.1.8",
+      "url": "https://github.com/lutzroeder/netron/releases/tag/v9.1.8",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "9.1.9",
+      "url": "https://github.com/lutzroeder/netron/releases/tag/v9.1.9",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "9.2.0",
+      "url": "https://github.com/lutzroeder/netron/releases/tag/v9.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "9.2.1",
+      "url": "https://github.com/lutzroeder/netron/releases/tag/v9.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "9.2.2",
+      "url": "https://github.com/lutzroeder/netron/releases/tag/v9.2.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "9.2.3",
+      "url": "https://github.com/lutzroeder/netron/releases/tag/v9.2.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-30",
+      "type": "release",
+      "title": "9.2.4",
+      "url": "https://github.com/lutzroeder/netron/releases/tag/v9.2.4",
+      "points": null
+    }
+  ]
 }

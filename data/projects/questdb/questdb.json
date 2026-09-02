@@ -121,7 +121,219 @@
       "date": "2026-09-02",
       "stars": 17295,
       "forks": 1645,
-      "openIssues": 945
+      "openIssues": 948
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-11-22",
+      "type": "release",
+      "title": "8.2.0",
+      "url": "https://github.com/questdb/questdb/releases/tag/8.2.0",
+      "points": null
+    },
+    {
+      "date": "2024-12-02",
+      "type": "release",
+      "title": "8.2.1",
+      "url": "https://github.com/questdb/questdb/releases/tag/8.2.1",
+      "points": null
+    },
+    {
+      "date": "2025-01-29",
+      "type": "release",
+      "title": "8.2.2",
+      "url": "https://github.com/questdb/questdb/releases/tag/8.2.2",
+      "points": null
+    },
+    {
+      "date": "2025-03-20",
+      "type": "release",
+      "title": "8.2.3",
+      "url": "https://github.com/questdb/questdb/releases/tag/8.2.3",
+      "points": null
+    },
+    {
+      "date": "2025-04-16",
+      "type": "release",
+      "title": "8.3.0",
+      "url": "https://github.com/questdb/questdb/releases/tag/8.3.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-28",
+      "type": "release",
+      "title": "8.3.1",
+      "url": "https://github.com/questdb/questdb/releases/tag/8.3.1",
+      "points": null
+    },
+    {
+      "date": "2025-05-23",
+      "type": "release",
+      "title": "8.3.2",
+      "url": "https://github.com/questdb/questdb/releases/tag/8.3.2",
+      "points": null
+    },
+    {
+      "date": "2025-05-30",
+      "type": "release",
+      "title": "8.3.3",
+      "url": "https://github.com/questdb/questdb/releases/tag/8.3.3",
+      "points": null
+    },
+    {
+      "date": "2025-07-11",
+      "type": "release",
+      "title": "9.0.0",
+      "url": "https://github.com/questdb/questdb/releases/tag/9.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-23",
+      "type": "release",
+      "title": "9.0.1",
+      "url": "https://github.com/questdb/questdb/releases/tag/9.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-08-15",
+      "type": "release",
+      "title": "9.0.2",
+      "url": "https://github.com/questdb/questdb/releases/tag/9.0.2",
+      "points": null
+    },
+    {
+      "date": "2025-08-29",
+      "type": "release",
+      "title": "9.0.3",
+      "url": "https://github.com/questdb/questdb/releases/tag/9.0.3",
+      "points": null
+    },
+    {
+      "date": "2025-10-03",
+      "type": "release",
+      "title": "9.1.0",
+      "url": "https://github.com/questdb/questdb/releases/tag/9.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-03",
+      "type": "release",
+      "title": "9.1.1",
+      "url": "https://github.com/questdb/questdb/releases/tag/9.1.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-13",
+      "type": "release",
+      "title": "9.2.0",
+      "url": "https://github.com/questdb/questdb/releases/tag/9.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-25",
+      "type": "release",
+      "title": "9.2.1",
+      "url": "https://github.com/questdb/questdb/releases/tag/9.2.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-01",
+      "type": "release",
+      "title": "9.2.2",
+      "url": "https://github.com/questdb/questdb/releases/tag/9.2.2",
+      "points": null
+    },
+    {
+      "date": "2025-12-18",
+      "type": "release",
+      "title": "9.2.3",
+      "url": "https://github.com/questdb/questdb/releases/tag/9.2.3",
+      "points": null
+    },
+    {
+      "date": "2026-01-09",
+      "type": "release",
+      "title": "9.3.0",
+      "url": "https://github.com/questdb/questdb/releases/tag/9.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-14",
+      "type": "release",
+      "title": "9.3.1",
+      "url": "https://github.com/questdb/questdb/releases/tag/9.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-28",
+      "type": "release",
+      "title": "9.3.2",
+      "url": "https://github.com/questdb/questdb/releases/tag/9.3.2",
+      "points": null
+    },
+    {
+      "date": "2026-02-25",
+      "type": "release",
+      "title": "9.3.3",
+      "url": "https://github.com/questdb/questdb/releases/tag/9.3.3",
+      "points": null
+    },
+    {
+      "date": "2026-03-26",
+      "type": "release",
+      "title": "9.3.4",
+      "url": "https://github.com/questdb/questdb/releases/tag/9.3.4",
+      "points": null
+    },
+    {
+      "date": "2026-04-13",
+      "type": "release",
+      "title": "9.3.5",
+      "url": "https://github.com/questdb/questdb/releases/tag/9.3.5",
+      "points": null
+    },
+    {
+      "date": "2026-05-18",
+      "type": "release",
+      "title": "9.4.0",
+      "url": "https://github.com/questdb/questdb/releases/tag/9.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "title": "9.4.1",
+      "url": "https://github.com/questdb/questdb/releases/tag/9.4.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "title": "9.4.2",
+      "url": "https://github.com/questdb/questdb/releases/tag/9.4.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "9.4.3",
+      "url": "https://github.com/questdb/questdb/releases/tag/9.4.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "title": "10.0.0",
+      "url": "https://github.com/questdb/questdb/releases/tag/10.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "10.0.1",
+      "url": "https://github.com/questdb/questdb/releases/tag/10.0.1",
+      "points": null
     }
   ]
 }

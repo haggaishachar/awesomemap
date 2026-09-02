@@ -122,5 +122,14 @@
       "forks": 21011,
       "openIssues": 1976
     }
+  ],
+  "events": [
+    {
+      "date": "2018-10-27",
+      "type": "hn",
+      "title": "Darknet – A neural network framework written in C and CUDA",
+      "url": "https://news.ycombinator.com/item?id=18317879",
+      "points": 63
+    }
   ]
 }

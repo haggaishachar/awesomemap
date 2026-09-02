@@ -4,8 +4,8 @@
   "link": "https://github.com/kornia/kornia",
   "name": "kornia",
   "desc": "🐍 Geometric Computer Vision Library for Spatial AI",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "kornia",
+  "githubDescription": "🐍 Geometric Computer Vision Library for Spatial AI",
   "tags": [
     "artificial-intelligence",
     "computer-vision",
@@ -19,7 +19,226 @@
     "robotics",
     "spatial-ai"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 11341,
+      "forks": 1264,
+      "openIssues": 115
+    }
+  ],
   "weight": 11340,
-  "image": "https://avatars.githubusercontent.com/u/56968752?v=4"
+  "image": "https://avatars.githubusercontent.com/u/56968752?v=4",
+  "events": [
+    {
+      "date": "2021-05-30",
+      "type": "release",
+      "title": "More augmentations, inverse augmentations and optimised CLAHE",
+      "url": "https://github.com/kornia/kornia/releases/tag/0.5.3",
+      "points": null
+    },
+    {
+      "date": "2021-06-11",
+      "type": "release",
+      "title": "Camera Calibration, Canny edge detection and more adavanced augmentation containers",
+      "url": "https://github.com/kornia/kornia/releases/tag/0.5.4",
+      "points": null
+    },
+    {
+      "date": "2021-06-27",
+      "type": "release",
+      "title": "PyTorch 1.9.0, Stereo Camera and auto-images in documentation",
+      "url": "https://github.com/kornia/kornia/releases/tag/0.5.5",
+      "points": null
+    },
+    {
+      "date": "2021-07-12",
+      "type": "release",
+      "title": "Add Bounding Boxes module, remove Numpy from core and RGB to HLS optimisations",
+      "url": "https://github.com/kornia/kornia/releases/tag/0.5.6",
+      "points": null
+    },
+    {
+      "date": "2021-07-26",
+      "type": "release",
+      "title": "Grayscale to RGB image conversion. Add keepdim param to tensor_to_image function. ",
+      "url": "https://github.com/kornia/kornia/releases/tag/0.5.7",
+      "points": null
+    },
+    {
+      "date": "2021-08-06",
+      "type": "release",
+      "title": "Connected Components Labelling algorithm, Differentiable image histogram, and bug fixes",
+      "url": "https://github.com/kornia/kornia/releases/tag/0.5.8",
+      "points": null
+    },
+    {
+      "date": "2021-09-19",
+      "type": "release",
+      "title": "Vision Transformer (ViT), Image Registration, Image Matching APIs and  Hausdorff Distance loss",
+      "url": "https://github.com/kornia/kornia/releases/tag/0.5.11",
+      "points": null
+    },
+    {
+      "date": "2021-10-22",
+      "type": "release",
+      "title": "Kornia 0.6.1 - Packaging hotfix",
+      "url": "https://github.com/kornia/kornia/releases/tag/v0.6.1",
+      "points": null
+    },
+    {
+      "date": "2021-10-22",
+      "type": "release",
+      "title": "Kornia 0.6.0 - High Level and experimental training APIs, bug fixes and much more",
+      "url": "https://github.com/kornia/kornia/releases/tag/v0.6.0",
+      "points": null
+    },
+    {
+      "date": "2021-12-03",
+      "type": "release",
+      "title": "Kornia 0.6.2: Face Detection, Bounding Box API, histogram matching, drawing and more.",
+      "url": "https://github.com/kornia/kornia/releases/tag/v0.6.2",
+      "points": null
+    },
+    {
+      "date": "2022-01-31",
+      "type": "release",
+      "title": "Kornia 0.6.3: Distance Transform, Pytorch 1.10.1, support, Hanning kernel, Resize augmentations and bug fixes",
+      "url": "https://github.com/kornia/kornia/releases/tag/v0.6.3",
+      "points": null
+    },
+    {
+      "date": "2022-03-21",
+      "type": "release",
+      "title": "Kornia 0.6.4: RandomPlanckianJitter, KeyNet detector, HyNet descriptor, MS-SSIMLoss and draw_convex_polygon",
+      "url": "https://github.com/kornia/kornia/releases/tag/v0.6.4",
+      "points": null
+    },
+    {
+      "date": "2022-05-10",
+      "type": "hn",
+      "title": "Kornia: Differential Computer Vision",
+      "url": "https://news.ycombinator.com/item?id=31322136",
+      "points": 69
+    },
+    {
+      "date": "2022-05-17",
+      "type": "release",
+      "title": "Kornia 0.6.5: Image i/o module with Rust, diamond_square and plasma augmentations, new geometric metrics and gradients estimators for differentiable augmentations.",
+      "url": "https://github.com/kornia/kornia/releases/tag/v0.6.5",
+      "points": null
+    },
+    {
+      "date": "2022-07-16",
+      "type": "release",
+      "title": "v0.6.6 ParametrizedLine API and load_image macos and windows ",
+      "url": "https://github.com/kornia/kornia/releases/tag/v0.6.6",
+      "points": null
+    },
+    {
+      "date": "2022-08-30",
+      "type": "release",
+      "title": "v0.6.7 SOLD2, AdaLAM, Quaternion, Mosaic Aug and Edge-aware Blur",
+      "url": "https://github.com/kornia/kornia/releases/tag/v0.6.7",
+      "points": null
+    },
+    {
+      "date": "2022-10-13",
+      "type": "release",
+      "title": "v0.6.8 Experimental Nerf, Deep Edge Detection, community demos, Quaternion slerp, augmentations dispatcher, image matching and other bug fixes",
+      "url": "https://github.com/kornia/kornia/releases/tag/v0.6.8",
+      "points": null
+    },
+    {
+      "date": "2022-12-21",
+      "type": "release",
+      "title": "v0.6.9 Revamp kornia.geometry: Hyperplane, Ray, Quaternion, liegroup; restructure CI and typing robustness",
+      "url": "https://github.com/kornia/kornia/releases/tag/v0.6.9",
+      "points": null
+    },
+    {
+      "date": "2023-02-17",
+      "type": "release",
+      "title": "v0.6.10 Auto Augmentations module, apply_colormap, disparity utitlities, start to support torchdynamo and MUCH more",
+      "url": "https://github.com/kornia/kornia/releases/tag/v0.6.10",
+      "points": null
+    },
+    {
+      "date": "2023-03-28",
+      "type": "release",
+      "title": "v0.6.11 DISK local features, new augmentations and bugfixes ",
+      "url": "https://github.com/kornia/kornia/releases/tag/v0.6.11",
+      "points": null
+    },
+    {
+      "date": "2023-04-20",
+      "type": "release",
+      "title": "v0.6.12 ImagePrompter API (SAM), Guided Filter and bugfixes",
+      "url": "https://github.com/kornia/kornia/releases/tag/v0.6.12",
+      "points": null
+    },
+    {
+      "date": "2023-08-02",
+      "type": "release",
+      "title": "v0.7.0 Image API, RT-DETR and Object Detection API, LightGlue Matcher, MobileSam, new Sensors API and many more",
+      "url": "https://github.com/kornia/kornia/releases/tag/v0.7.0",
+      "points": null
+    },
+    {
+      "date": "2023-12-27",
+      "type": "release",
+      "title": "v0.7.1",
+      "url": "https://github.com/kornia/kornia/releases/tag/v0.7.1",
+      "points": null
+    },
+    {
+      "date": "2024-03-14",
+      "type": "release",
+      "title": "v0.7.2",
+      "url": "https://github.com/kornia/kornia/releases/tag/v0.7.2",
+      "points": null
+    },
+    {
+      "date": "2024-06-28",
+      "type": "release",
+      "title": "v0.7.3",
+      "url": "https://github.com/kornia/kornia/releases/tag/v0.7.3",
+      "points": null
+    },
+    {
+      "date": "2024-11-05",
+      "type": "release",
+      "title": "v0.7.4",
+      "url": "https://github.com/kornia/kornia/releases/tag/v0.7.4",
+      "points": null
+    },
+    {
+      "date": "2025-01-11",
+      "type": "release",
+      "title": "v0.8.0",
+      "url": "https://github.com/kornia/kornia/releases/tag/v0.8.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-08",
+      "type": "release",
+      "title": "v0.8.1",
+      "url": "https://github.com/kornia/kornia/releases/tag/v0.8.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-08",
+      "type": "release",
+      "title": "v0.8.2",
+      "url": "https://github.com/kornia/kornia/releases/tag/v0.8.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-19",
+      "type": "release",
+      "title": "v0.8.3",
+      "url": "https://github.com/kornia/kornia/releases/tag/v0.8.3",
+      "points": null
+    }
+  ]
 }

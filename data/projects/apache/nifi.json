@@ -103,9 +103,25 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 6216,
+      "stars": 6219,
       "forks": 2974,
       "openIssues": 31
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "NiFi 2.10.0",
+      "url": "https://github.com/apache/nifi/releases/tag/rel/nifi-2.10.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-03",
+      "type": "release",
+      "title": "NiFi 2.11.0",
+      "url": "https://github.com/apache/nifi/releases/tag/rel/nifi-2.11.0",
+      "points": null
     }
   ]
 }

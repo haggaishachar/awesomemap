@@ -52,8 +52,108 @@
     {
       "date": "2026-09-02",
       "stars": 4549,
-      "forks": 177,
-      "openIssues": 46
+      "forks": 178,
+      "openIssues": 40
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-01-11",
+      "type": "release",
+      "title": "Bubble Card v3.1.0",
+      "url": "https://github.com/Clooos/Bubble-Card/releases/tag/v3.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-05",
+      "type": "release",
+      "title": "Bubble Card v3.1.1",
+      "url": "https://github.com/Clooos/Bubble-Card/releases/tag/v3.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-02",
+      "type": "release",
+      "title": "Bubble Card v3.1.2",
+      "url": "https://github.com/Clooos/Bubble-Card/releases/tag/v3.1.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-06",
+      "type": "release",
+      "title": "Bubble Card v3.1.3",
+      "url": "https://github.com/Clooos/Bubble-Card/releases/tag/v3.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-03-07",
+      "type": "release",
+      "title": "Bubble Card v3.1.4",
+      "url": "https://github.com/Clooos/Bubble-Card/releases/tag/v3.1.4",
+      "points": null
+    },
+    {
+      "date": "2026-04-02",
+      "type": "release",
+      "title": "Bubble Card v3.1.5",
+      "url": "https://github.com/Clooos/Bubble-Card/releases/tag/v3.1.5",
+      "points": null
+    },
+    {
+      "date": "2026-04-04",
+      "type": "release",
+      "title": "Bubble Card v3.1.6",
+      "url": "https://github.com/Clooos/Bubble-Card/releases/tag/v3.1.6",
+      "points": null
+    },
+    {
+      "date": "2026-05-16",
+      "type": "release",
+      "title": "Bubble Card v3.2.0",
+      "url": "https://github.com/Clooos/Bubble-Card/releases/tag/v3.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-21",
+      "type": "release",
+      "title": "Bubble Card v3.2.1",
+      "url": "https://github.com/Clooos/Bubble-Card/releases/tag/v3.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-24",
+      "type": "release",
+      "title": "Bubble Card v3.2.2",
+      "url": "https://github.com/Clooos/Bubble-Card/releases/tag/v3.2.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-07",
+      "type": "release",
+      "title": "Bubble Card v3.2.3",
+      "url": "https://github.com/Clooos/Bubble-Card/releases/tag/v3.2.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "Bubble Card v3.2.4",
+      "url": "https://github.com/Clooos/Bubble-Card/releases/tag/v3.2.4",
+      "points": null
+    },
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "title": "Bubble Card v3.2.5",
+      "url": "https://github.com/Clooos/Bubble-Card/releases/tag/v3.2.5",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "Bubble Card v3.3.0",
+      "url": "https://github.com/Clooos/Bubble-Card/releases/tag/v3.3.0",
+      "points": null
     }
   ]
 }

@@ -28,11 +28,216 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 8940,
+      "stars": 8941,
       "forks": 1003,
-      "openIssues": 76
+      "openIssues": 77
     }
   ],
   "weight": 8936,
-  "image": "https://avatars.githubusercontent.com/u/150616486?v=4"
+  "image": "https://avatars.githubusercontent.com/u/150616486?v=4",
+  "events": [
+    {
+      "date": "2022-07-22",
+      "type": "release",
+      "title": "v1.27.1",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v1.27.1",
+      "points": null
+    },
+    {
+      "date": "2023-01-13",
+      "type": "release",
+      "title": "v1.27.2",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v1.27.2",
+      "points": null
+    },
+    {
+      "date": "2023-06-12",
+      "type": "release",
+      "title": "v1.27.3",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v1.27.3",
+      "points": null
+    },
+    {
+      "date": "2023-11-12",
+      "type": "release",
+      "title": "v1.27.4",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v1.27.4",
+      "points": null
+    },
+    {
+      "date": "2023-11-26",
+      "type": "release",
+      "title": "v1.28.1",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v1.28.1",
+      "points": null
+    },
+    {
+      "date": "2023-11-26",
+      "type": "release",
+      "title": "v1.28.0",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v1.28.0",
+      "points": null
+    },
+    {
+      "date": "2023-11-27",
+      "type": "release",
+      "title": "v1.28.2",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v1.28.2",
+      "points": null
+    },
+    {
+      "date": "2024-02-02",
+      "type": "release",
+      "title": "v1.28.3",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v1.28.3",
+      "points": null
+    },
+    {
+      "date": "2024-03-19",
+      "type": "release",
+      "title": "v1.28.4",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v1.28.4",
+      "points": null
+    },
+    {
+      "date": "2024-03-25",
+      "type": "release",
+      "title": "v1.28.5",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v1.28.5",
+      "points": null
+    },
+    {
+      "date": "2024-05-20",
+      "type": "release",
+      "title": "v1.29.1",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v1.29.1",
+      "points": null
+    },
+    {
+      "date": "2024-06-18",
+      "type": "release",
+      "title": "v1.29.2",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v1.29.2",
+      "points": null
+    },
+    {
+      "date": "2024-07-07",
+      "type": "release",
+      "title": "v1.30.0",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v1.30.0",
+      "points": null
+    },
+    {
+      "date": "2024-07-10",
+      "type": "release",
+      "title": "v1.30.1",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v1.30.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-27",
+      "type": "release",
+      "title": "v1.31.0",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v1.31.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-29",
+      "type": "release",
+      "title": "v1.31.1",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v1.31.1",
+      "points": null
+    },
+    {
+      "date": "2024-11-23",
+      "type": "release",
+      "title": "v1.32.0",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v1.32.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-28",
+      "type": "release",
+      "title": "v1.33.0",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v1.33.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-26",
+      "type": "release",
+      "title": "v2.0.0",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v2.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-21",
+      "type": "release",
+      "title": "v2.1.0",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v2.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-16",
+      "type": "release",
+      "title": "v2.1.1",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v2.1.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-06",
+      "type": "release",
+      "title": "v2.2.0",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v2.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-28",
+      "type": "release",
+      "title": "v.3.0.0",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-07",
+      "type": "release",
+      "title": "v3.1.0",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v3.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-13",
+      "type": "release",
+      "title": "v4.0.0",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v4.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-14",
+      "type": "release",
+      "title": "v4.0.1",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v4.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "v4.1.1",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v4.1.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "v4.1.0",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v4.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-23",
+      "type": "release",
+      "title": "v4.2.0",
+      "url": "https://github.com/teslamate-org/teslamate/releases/tag/v4.2.0",
+      "points": null
+    }
+  ]
 }

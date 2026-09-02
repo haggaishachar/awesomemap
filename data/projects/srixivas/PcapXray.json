@@ -4,8 +4,8 @@
   "link": "https://github.com/srixivas/PcapXray",
   "name": "PcapXray",
   "desc": ":snowflake: PcapXray - A Network Forensics Tool - To visualize a Packet Capture offline as a Network Diagram including device identification, highlight important communication and file extraction",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "PcapXray",
+  "githubDescription": ":snowflake: PcapXray - A Network Forensics Tool - To visualize a Packet Capture offline as a Network Diagram including device identification, highlight important communication and file extraction",
   "tags": [
     "computer-forensics",
     "cybersecurity",
@@ -21,7 +21,100 @@
     "tor-traffic",
     "traffic"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1874,
+      "forks": 291,
+      "openIssues": 15
+    }
+  ],
   "weight": 1874,
-  "image": "https://raw.githubusercontent.com/srixivas/PcapXray/master/logo.png"
+  "image": "https://raw.githubusercontent.com/srixivas/PcapXray/master/logo.png",
+  "events": [
+    {
+      "date": "2019-01-14",
+      "type": "release",
+      "title": "PcapXray v1.0",
+      "url": "https://github.com/srixivas/PcapXray/releases/tag/v1.0",
+      "points": null
+    },
+    {
+      "date": "2019-01-17",
+      "type": "release",
+      "title": "PcapXray v2.2 ",
+      "url": "https://github.com/srixivas/PcapXray/releases/tag/v2.2",
+      "points": null
+    },
+    {
+      "date": "2019-05-02",
+      "type": "release",
+      "title": "PcapXray v2.3 Candidate",
+      "url": "https://github.com/srixivas/PcapXray/releases/tag/v2.3-beta",
+      "points": null
+    },
+    {
+      "date": "2019-05-04",
+      "type": "release",
+      "title": "PcapXray v2.4 ",
+      "url": "https://github.com/srixivas/PcapXray/releases/tag/v2.4",
+      "points": null
+    },
+    {
+      "date": "2019-05-15",
+      "type": "release",
+      "title": "PcapXray v2.5",
+      "url": "https://github.com/srixivas/PcapXray/releases/tag/2.5",
+      "points": null
+    },
+    {
+      "date": "2019-07-02",
+      "type": "release",
+      "title": "PcapXray v2.6",
+      "url": "https://github.com/srixivas/PcapXray/releases/tag/v2_6",
+      "points": null
+    },
+    {
+      "date": "2019-08-03",
+      "type": "release",
+      "title": "PcapXray v2.7",
+      "url": "https://github.com/srixivas/PcapXray/releases/tag/v2_7",
+      "points": null
+    },
+    {
+      "date": "2019-08-07",
+      "type": "release",
+      "title": "PcapXray v2.8",
+      "url": "https://github.com/srixivas/PcapXray/releases/tag/2_8_1",
+      "points": null
+    },
+    {
+      "date": "2019-08-22",
+      "type": "release",
+      "title": "PcapXray v3.0",
+      "url": "https://github.com/srixivas/PcapXray/releases/tag/3_0",
+      "points": null
+    },
+    {
+      "date": "2026-04-27",
+      "type": "release",
+      "title": "v5.0",
+      "url": "https://github.com/srixivas/PcapXray/releases/tag/v5.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-29",
+      "type": "release",
+      "title": "v5.1 — Live Traffic Capture",
+      "url": "https://github.com/srixivas/PcapXray/releases/tag/v5.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-01",
+      "type": "release",
+      "title": "v5.2 — Graph Panel Filters, Sharp Static Graph & Safety",
+      "url": "https://github.com/srixivas/PcapXray/releases/tag/v5.2",
+      "points": null
+    }
+  ]
 }

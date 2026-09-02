@@ -22,10 +22,96 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 18935,
+      "stars": 18934,
       "forks": 1839,
       "openIssues": 5
     }
   ],
-  "weight": 18935
+  "weight": 18935,
+  "events": [
+    {
+      "date": "2023-03-28",
+      "type": "release",
+      "title": "民间版中文羊驼模型 v1.0",
+      "url": "https://github.com/ymcui/Chinese-LLaMA-Alpaca/releases/tag/v1.0",
+      "points": null
+    },
+    {
+      "date": "2023-03-31",
+      "type": "release",
+      "title": "民间版中文羊驼模型 v1.1",
+      "url": "https://github.com/ymcui/Chinese-LLaMA-Alpaca/releases/tag/v1.1",
+      "points": null
+    },
+    {
+      "date": "2023-04-07",
+      "type": "release",
+      "title": "民间版中文羊驼模型 v2.0",
+      "url": "https://github.com/ymcui/Chinese-LLaMA-Alpaca/releases/tag/v2.0",
+      "points": null
+    },
+    {
+      "date": "2023-04-13",
+      "type": "release",
+      "title": "民间版中文羊驼模型 v2.1",
+      "url": "https://github.com/ymcui/Chinese-LLaMA-Alpaca/releases/tag/v2.1",
+      "points": null
+    },
+    {
+      "date": "2023-04-18",
+      "type": "release",
+      "title": "民间版中文羊驼模型 v2.2",
+      "url": "https://github.com/ymcui/Chinese-LLaMA-Alpaca/releases/tag/v2.2",
+      "points": null
+    },
+    {
+      "date": "2023-04-28",
+      "type": "release",
+      "title": "民间版中文羊驼模型（Plus）v3.0",
+      "url": "https://github.com/ymcui/Chinese-LLaMA-Alpaca/releases/tag/v3.0",
+      "points": null
+    },
+    {
+      "date": "2023-05-10",
+      "type": "release",
+      "title": "民间版中文羊驼模型（Plus）v3.1",
+      "url": "https://github.com/ymcui/Chinese-LLaMA-Alpaca/releases/tag/v3.1",
+      "points": null
+    },
+    {
+      "date": "2023-05-16",
+      "type": "release",
+      "title": "民间版中文羊驼模型 v3.2",
+      "url": "https://github.com/ymcui/Chinese-LLaMA-Alpaca/releases/tag/v3.2",
+      "points": null
+    },
+    {
+      "date": "2023-06-08",
+      "type": "release",
+      "title": "民间版中文羊驼模型 v4.0",
+      "url": "https://github.com/ymcui/Chinese-LLaMA-Alpaca/releases/tag/v4.0",
+      "points": null
+    },
+    {
+      "date": "2023-06-16",
+      "type": "release",
+      "title": "民间版中文羊驼模型 v4.1",
+      "url": "https://github.com/ymcui/Chinese-LLaMA-Alpaca/releases/tag/v4.1",
+      "points": null
+    },
+    {
+      "date": "2023-07-05",
+      "type": "release",
+      "title": "民间版中文羊驼模型 v4.2",
+      "url": "https://github.com/ymcui/Chinese-LLaMA-Alpaca/releases/tag/v4.2",
+      "points": null
+    },
+    {
+      "date": "2023-07-19",
+      "type": "release",
+      "title": "民间版中文羊驼模型 v5.0",
+      "url": "https://github.com/ymcui/Chinese-LLaMA-Alpaca/releases/tag/v5.0",
+      "points": null
+    }
+  ]
 }

@@ -124,9 +124,214 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 90685,
-      "forks": 56978,
-      "openIssues": 2757
+      "stars": 90696,
+      "forks": 56977,
+      "openIssues": 2764
+    }
+  ],
+  "events": [
+    {
+      "date": "2019-10-10",
+      "type": "release",
+      "title": "OpenCV 4.1.2",
+      "url": "https://github.com/opencv/opencv/releases/tag/4.1.2",
+      "points": null
+    },
+    {
+      "date": "2019-12-20",
+      "type": "release",
+      "title": "OpenCV 4.2.0",
+      "url": "https://github.com/opencv/opencv/releases/tag/4.2.0",
+      "points": null
+    },
+    {
+      "date": "2019-12-20",
+      "type": "release",
+      "title": "OpenCV 3.4.9",
+      "url": "https://github.com/opencv/opencv/releases/tag/3.4.9",
+      "points": null
+    },
+    {
+      "date": "2020-04-03",
+      "type": "release",
+      "title": "OpenCV 4.3.0",
+      "url": "https://github.com/opencv/opencv/releases/tag/4.3.0",
+      "points": null
+    },
+    {
+      "date": "2020-04-03",
+      "type": "release",
+      "title": "OpenCV 3.4.10",
+      "url": "https://github.com/opencv/opencv/releases/tag/3.4.10",
+      "points": null
+    },
+    {
+      "date": "2020-07-17",
+      "type": "release",
+      "title": "OpenCV 3.4.11",
+      "url": "https://github.com/opencv/opencv/releases/tag/3.4.11",
+      "points": null
+    },
+    {
+      "date": "2020-07-18",
+      "type": "release",
+      "title": "OpenCV 4.4.0",
+      "url": "https://github.com/opencv/opencv/releases/tag/4.4.0",
+      "points": null
+    },
+    {
+      "date": "2020-10-12",
+      "type": "release",
+      "title": "OpenCV 4.5.0",
+      "url": "https://github.com/opencv/opencv/releases/tag/4.5.0",
+      "points": null
+    },
+    {
+      "date": "2020-10-12",
+      "type": "release",
+      "title": "OpenCV 3.4.12",
+      "url": "https://github.com/opencv/opencv/releases/tag/3.4.12",
+      "points": null
+    },
+    {
+      "date": "2020-12-22",
+      "type": "release",
+      "title": "OpenCV 4.5.1",
+      "url": "https://github.com/opencv/opencv/releases/tag/4.5.1",
+      "points": null
+    },
+    {
+      "date": "2020-12-22",
+      "type": "release",
+      "title": "OpenCV 3.4.13",
+      "url": "https://github.com/opencv/opencv/releases/tag/3.4.13",
+      "points": null
+    },
+    {
+      "date": "2021-04-02",
+      "type": "release",
+      "title": "OpenCV 4.5.2",
+      "url": "https://github.com/opencv/opencv/releases/tag/4.5.2",
+      "points": null
+    },
+    {
+      "date": "2021-04-02",
+      "type": "release",
+      "title": "OpenCV 3.4.14",
+      "url": "https://github.com/opencv/opencv/releases/tag/3.4.14",
+      "points": null
+    },
+    {
+      "date": "2021-07-05",
+      "type": "release",
+      "title": "OpenCV 4.5.3",
+      "url": "https://github.com/opencv/opencv/releases/tag/4.5.3",
+      "points": null
+    },
+    {
+      "date": "2021-07-05",
+      "type": "release",
+      "title": "OpenCV 3.4.15",
+      "url": "https://github.com/opencv/opencv/releases/tag/3.4.15",
+      "points": null
+    },
+    {
+      "date": "2021-10-10",
+      "type": "release",
+      "title": "OpenCV 4.5.4",
+      "url": "https://github.com/opencv/opencv/releases/tag/4.5.4",
+      "points": null
+    },
+    {
+      "date": "2021-10-10",
+      "type": "release",
+      "title": "OpenCV 3.4.16",
+      "url": "https://github.com/opencv/opencv/releases/tag/3.4.16",
+      "points": null
+    },
+    {
+      "date": "2021-12-25",
+      "type": "release",
+      "title": "OpenCV 4.5.5",
+      "url": "https://github.com/opencv/opencv/releases/tag/4.5.5",
+      "points": null
+    },
+    {
+      "date": "2022-06-07",
+      "type": "release",
+      "title": "OpenCV 4.6.0",
+      "url": "https://github.com/opencv/opencv/releases/tag/4.6.0",
+      "points": null
+    },
+    {
+      "date": "2022-12-28",
+      "type": "release",
+      "title": "OpenCV 4.7.0",
+      "url": "https://github.com/opencv/opencv/releases/tag/4.7.0",
+      "points": null
+    },
+    {
+      "date": "2023-06-28",
+      "type": "release",
+      "title": "OpenCV 4.8.0",
+      "url": "https://github.com/opencv/opencv/releases/tag/4.8.0",
+      "points": null
+    },
+    {
+      "date": "2023-09-27",
+      "type": "release",
+      "title": "OpenCV 4.8.1",
+      "url": "https://github.com/opencv/opencv/releases/tag/4.8.1",
+      "points": null
+    },
+    {
+      "date": "2023-12-28",
+      "type": "release",
+      "title": "OpenCV 4.9.0",
+      "url": "https://github.com/opencv/opencv/releases/tag/4.9.0",
+      "points": null
+    },
+    {
+      "date": "2024-06-03",
+      "type": "release",
+      "title": "OpenCV 4.10.0",
+      "url": "https://github.com/opencv/opencv/releases/tag/4.10.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-09",
+      "type": "release",
+      "title": "OpenCV 4.11.0",
+      "url": "https://github.com/opencv/opencv/releases/tag/4.11.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-02",
+      "type": "release",
+      "title": "OpenCV 4.12.0",
+      "url": "https://github.com/opencv/opencv/releases/tag/4.12.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-31",
+      "type": "release",
+      "title": "OpenCV 4.13.0",
+      "url": "https://github.com/opencv/opencv/releases/tag/4.13.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-06",
+      "type": "release",
+      "title": "OpenCV 5.0.0",
+      "url": "https://github.com/opencv/opencv/releases/tag/5.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-19",
+      "type": "release",
+      "title": "OpenCV 4.14.0",
+      "url": "https://github.com/opencv/opencv/releases/tag/4.14.0",
+      "points": null
     }
   ]
 }

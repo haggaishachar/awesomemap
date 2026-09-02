@@ -4,8 +4,8 @@
   "link": "https://github.com/ColorlibHQ/AdminLTE",
   "name": "AdminLTE",
   "desc": "AdminLTE - Free admin dashboard template based on Bootstrap 5",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "AdminLTE",
+  "githubDescription": "AdminLTE - Free admin dashboard template based on Bootstrap 5",
   "tags": [
     "admin",
     "admin-dashboard",
@@ -28,7 +28,212 @@
     "responsive",
     "vanilla-js"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 45568,
+      "forks": 18166,
+      "openIssues": 1
+    }
+  ],
   "weight": 45567,
-  "image": "https://avatars.githubusercontent.com/u/39128121?v=4"
+  "image": "https://avatars.githubusercontent.com/u/39128121?v=4",
+  "events": [
+    {
+      "date": "2022-02-07",
+      "type": "release",
+      "title": "AdminLTE v3.2.0",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v3.2.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-01",
+      "type": "release",
+      "title": "v4.0.0-beta2",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.0.0-beta2",
+      "points": null
+    },
+    {
+      "date": "2024-12-24",
+      "type": "release",
+      "title": "v4.0.0-beta3",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.0.0-beta3",
+      "points": null
+    },
+    {
+      "date": "2025-06-20",
+      "type": "release",
+      "title": "AdminLTE v4.0.0-rc1",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.0.0-rc1",
+      "points": null
+    },
+    {
+      "date": "2025-06-30",
+      "type": "release",
+      "title": "AdminLTE v4.0.0-rc4 ",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.0.0-rc4",
+      "points": null
+    },
+    {
+      "date": "2026-03-10",
+      "type": "release",
+      "title": "AdminLTE v4.0.0-rc7",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.0.0-rc7",
+      "points": null
+    },
+    {
+      "date": "2026-05-19",
+      "type": "release",
+      "title": "v4.0.0",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-11",
+      "type": "release",
+      "title": "AdminLTE 4.0.2",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-11",
+      "type": "release",
+      "title": "v4.0.1",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "v4.0.3",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.0.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-02",
+      "type": "release",
+      "title": "v4.1.0",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-02",
+      "type": "release",
+      "title": "v4.0.4",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.0.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "title": "AdminLTE 4.2.0",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "title": "v4.3.1 — ribbons now fill the card corner",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "title": "v4.3.0 — Sidebar search, ribbons, social widgets, gallery & search results",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "v4.7.0",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.7.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "v4.6.0",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "v4.5.0 — The AdminLTE 3 palette, as it was",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "v4.4.1 — Charts follow dark mode",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.4.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "v4.4.0 — Extended colour palette, skins & presets, header search restyle",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "v4.8.4",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.8.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "v4.8.3",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.8.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "v4.8.2",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.8.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "v4.8.1",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.8.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "v4.8.0",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "v4.8.5",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.8.5",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v4.9.1",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.9.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v4.9.0",
+      "url": "https://github.com/ColorlibHQ/AdminLTE/releases/tag/v4.9.0",
+      "points": null
+    }
+  ]
 }

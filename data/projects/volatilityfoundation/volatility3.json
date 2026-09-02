@@ -128,9 +128,116 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 4366,
+      "stars": 4367,
       "forks": 698,
       "openIssues": 135
+    }
+  ],
+  "events": [
+    {
+      "date": "2021-02-01",
+      "type": "release",
+      "title": "Volatility 3 1.0.1",
+      "url": "https://github.com/volatilityfoundation/volatility3/releases/tag/v1.0.1",
+      "points": null
+    },
+    {
+      "date": "2021-02-01",
+      "type": "release",
+      "title": "v1.0.0",
+      "url": "https://github.com/volatilityfoundation/volatility3/releases/tag/v1.0.0",
+      "points": null
+    },
+    {
+      "date": "2022-01-12",
+      "type": "release",
+      "title": "Volatility 3 2.0.0",
+      "url": "https://github.com/volatilityfoundation/volatility3/releases/tag/v2.0.0",
+      "points": null
+    },
+    {
+      "date": "2022-03-17",
+      "type": "release",
+      "title": "Volatility 3 2.0.1",
+      "url": "https://github.com/volatilityfoundation/volatility3/releases/tag/v2.0.1",
+      "points": null
+    },
+    {
+      "date": "2022-12-14",
+      "type": "release",
+      "title": "Volatility 3 2.4.0",
+      "url": "https://github.com/volatilityfoundation/volatility3/releases/tag/v2.4.0",
+      "points": null
+    },
+    {
+      "date": "2023-04-12",
+      "type": "release",
+      "title": "Volatility 3 2.4.1",
+      "url": "https://github.com/volatilityfoundation/volatility3/releases/tag/v2.4.1",
+      "points": null
+    },
+    {
+      "date": "2023-09-27",
+      "type": "release",
+      "title": "Volatility 3 2.5.0",
+      "url": "https://github.com/volatilityfoundation/volatility3/releases/tag/v2.5.0",
+      "points": null
+    },
+    {
+      "date": "2024-01-31",
+      "type": "release",
+      "title": "Volatility 3 v2.5.2",
+      "url": "https://github.com/volatilityfoundation/volatility3/releases/tag/v2.5.2",
+      "points": null
+    },
+    {
+      "date": "2024-05-29",
+      "type": "release",
+      "title": "Volatility 3 2.7.0",
+      "url": "https://github.com/volatilityfoundation/volatility3/releases/tag/v2.7.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-09",
+      "type": "release",
+      "title": "Volatility 3 2.8.0",
+      "url": "https://github.com/volatilityfoundation/volatility3/releases/tag/v2.8.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-16",
+      "type": "release",
+      "title": "Volatility 3 2.11.0",
+      "url": "https://github.com/volatilityfoundation/volatility3/releases/tag/v2.11.0",
+      "points": null
+    },
+    {
+      "date": "2025-05-16",
+      "type": "release",
+      "title": "Volatility 3 2.26.0",
+      "url": "https://github.com/volatilityfoundation/volatility3/releases/tag/v2.26.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-25",
+      "type": "release",
+      "title": "Volatility 3 2.26.2",
+      "url": "https://github.com/volatilityfoundation/volatility3/releases/tag/v2.26.2",
+      "points": null
+    },
+    {
+      "date": "2026-01-29",
+      "type": "release",
+      "title": "Volatility 3 2.27.0",
+      "url": "https://github.com/volatilityfoundation/volatility3/releases/tag/v2.27.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-30",
+      "type": "release",
+      "title": "Volatility 3 2.28.0",
+      "url": "https://github.com/volatilityfoundation/volatility3/releases/tag/v2.28.0",
+      "points": null
     }
   ]
 }

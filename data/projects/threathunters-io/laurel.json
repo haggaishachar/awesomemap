@@ -55,5 +55,189 @@
       "forks": 65,
       "openIssues": 8
     }
+  ],
+  "events": [
+    {
+      "date": "2021-12-21",
+      "type": "release",
+      "title": "Release v0.2.1",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.2.1",
+      "points": null
+    },
+    {
+      "date": "2021-12-22",
+      "type": "release",
+      "title": "Release v0.2.2",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.2.2",
+      "points": null
+    },
+    {
+      "date": "2022-02-01",
+      "type": "release",
+      "title": "Release v0.3.0",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.3.0",
+      "points": null
+    },
+    {
+      "date": "2022-02-14",
+      "type": "release",
+      "title": "Release v0.3.1",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.3.1",
+      "points": null
+    },
+    {
+      "date": "2022-06-17",
+      "type": "release",
+      "title": "Release version 0.4.0",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.4.0",
+      "points": null
+    },
+    {
+      "date": "2022-07-13",
+      "type": "release",
+      "title": "Release v0.4.1",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.4.1",
+      "points": null
+    },
+    {
+      "date": "2022-12-11",
+      "type": "release",
+      "title": "Release v0.5.0",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.5.0",
+      "points": null
+    },
+    {
+      "date": "2023-01-27",
+      "type": "release",
+      "title": "Release v0.5.1",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.5.1",
+      "points": null
+    },
+    {
+      "date": "2023-05-02",
+      "type": "release",
+      "title": "Release v0.5.2",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.5.2",
+      "points": null
+    },
+    {
+      "date": "2023-07-17",
+      "type": "release",
+      "title": "Release v0.5.3",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.5.3",
+      "points": null
+    },
+    {
+      "date": "2023-11-08",
+      "type": "release",
+      "title": "Release v0.5.4",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.5.4",
+      "points": null
+    },
+    {
+      "date": "2023-11-16",
+      "type": "release",
+      "title": "Release v0.5.5",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.5.5",
+      "points": null
+    },
+    {
+      "date": "2024-01-15",
+      "type": "release",
+      "title": "Release v0.5.6",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.5.6",
+      "points": null
+    },
+    {
+      "date": "2024-02-29",
+      "type": "release",
+      "title": "Release v0.6.0",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.6.0",
+      "points": null
+    },
+    {
+      "date": "2024-03-15",
+      "type": "release",
+      "title": "Release v0.6.1",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.6.1",
+      "points": null
+    },
+    {
+      "date": "2024-05-16",
+      "type": "release",
+      "title": "Release v0.6.2",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.6.2",
+      "points": null
+    },
+    {
+      "date": "2024-08-01",
+      "type": "release",
+      "title": "Release v0.6.3",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.6.3",
+      "points": null
+    },
+    {
+      "date": "2024-12-16",
+      "type": "release",
+      "title": "Release v0.6.4",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.6.4",
+      "points": null
+    },
+    {
+      "date": "2025-01-27",
+      "type": "release",
+      "title": "v0.6.5",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.6.5",
+      "points": null
+    },
+    {
+      "date": "2025-03-04",
+      "type": "release",
+      "title": "v0.7.0",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.7.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-14",
+      "type": "release",
+      "title": "v0.7.1",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.7.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-23",
+      "type": "release",
+      "title": "v0.7.2",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.7.2",
+      "points": null
+    },
+    {
+      "date": "2025-08-04",
+      "type": "release",
+      "title": "v0.7.3",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.7.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-15",
+      "type": "release",
+      "title": "v0.8.1",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.8.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-15",
+      "type": "release",
+      "title": "v0.8.0",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "v0.8.2",
+      "url": "https://github.com/threathunters-io/laurel/releases/tag/v0.8.2",
+      "points": null
+    }
   ]
 }

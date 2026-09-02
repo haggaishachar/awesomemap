@@ -25,10 +25,222 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 3004,
+      "stars": 3003,
       "forks": 372,
       "openIssues": 0
     }
   ],
-  "weight": 3004
+  "weight": 3004,
+  "events": [
+    {
+      "date": "2024-07-05",
+      "type": "release",
+      "title": "Home Accessory Architect v12.12.8 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.12.8",
+      "points": null
+    },
+    {
+      "date": "2024-08-10",
+      "type": "release",
+      "title": "Home Accessory Architect v12.13.0 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.13.0",
+      "points": null
+    },
+    {
+      "date": "2024-08-25",
+      "type": "release",
+      "title": "Home Accessory Architect v12.13.1 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.13.1",
+      "points": null
+    },
+    {
+      "date": "2024-09-07",
+      "type": "release",
+      "title": "Home Accessory Architect v12.13.2 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.13.2",
+      "points": null
+    },
+    {
+      "date": "2024-10-05",
+      "type": "release",
+      "title": "Home Accessory Architect v12.13.3 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.13.3",
+      "points": null
+    },
+    {
+      "date": "2024-11-06",
+      "type": "release",
+      "title": "Home Accessory Architect v12.13.4 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.13.4",
+      "points": null
+    },
+    {
+      "date": "2024-12-18",
+      "type": "release",
+      "title": "Home Accessory Architect v12.14.0 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.14.0",
+      "points": null
+    },
+    {
+      "date": "2024-12-22",
+      "type": "release",
+      "title": "Home Accessory Architect v12.14.2 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.14.2",
+      "points": null
+    },
+    {
+      "date": "2024-12-22",
+      "type": "release",
+      "title": "Home Accessory Architect v12.14.1 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.14.1",
+      "points": null
+    },
+    {
+      "date": "2024-12-23",
+      "type": "release",
+      "title": "Home Accessory Architect v12.14.3 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.14.3",
+      "points": null
+    },
+    {
+      "date": "2024-12-24",
+      "type": "release",
+      "title": "Home Accessory Architect v12.14.4 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/12.14.4",
+      "points": null
+    },
+    {
+      "date": "2024-12-28",
+      "type": "release",
+      "title": "Home Accessory Architect v12.14.5 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.14.5",
+      "points": null
+    },
+    {
+      "date": "2025-01-16",
+      "type": "release",
+      "title": "Home Accessory Architect v12.14.6 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.14.6",
+      "points": null
+    },
+    {
+      "date": "2025-01-19",
+      "type": "release",
+      "title": "Home Accessory Architect v12.14.7 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.14.7",
+      "points": null
+    },
+    {
+      "date": "2025-01-22",
+      "type": "release",
+      "title": "Home Accessory Architect v12.14.8 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/12.14.8",
+      "points": null
+    },
+    {
+      "date": "2025-01-30",
+      "type": "release",
+      "title": "Home Accessory Architect v12.14.9 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/12.14.9",
+      "points": null
+    },
+    {
+      "date": "2025-02-05",
+      "type": "release",
+      "title": "Home Accessory Architect v12.14.10 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/12.14.10",
+      "points": null
+    },
+    {
+      "date": "2025-02-10",
+      "type": "release",
+      "title": "Home Accessory Architect v12.14.11 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.14.11",
+      "points": null
+    },
+    {
+      "date": "2025-02-12",
+      "type": "release",
+      "title": "Home Accessory Architect v12.14.12 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.14.12",
+      "points": null
+    },
+    {
+      "date": "2025-04-03",
+      "type": "release",
+      "title": "Home Accessory Architect v12.14.13 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.14.13",
+      "points": null
+    },
+    {
+      "date": "2025-11-13",
+      "type": "release",
+      "title": "Home Accessory Architect v12.15.0 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.15.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-15",
+      "type": "release",
+      "title": "Home Accessory Architect v12.16.1 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.16.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-15",
+      "type": "release",
+      "title": "Home Accessory Architect v12.16.0 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.16.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-20",
+      "type": "release",
+      "title": "Home Accessory Architect v12.16.2 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.16.2",
+      "points": null
+    },
+    {
+      "date": "2026-02-06",
+      "type": "release",
+      "title": "Home Accessory Architect v12.16.3 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.16.3",
+      "points": null
+    },
+    {
+      "date": "2026-03-01",
+      "type": "release",
+      "title": "Home Accessory Architect v12.16.4 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.16.4",
+      "points": null
+    },
+    {
+      "date": "2026-04-09",
+      "type": "release",
+      "title": "Home Accessory Architect v12.17.1 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.17.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-09",
+      "type": "release",
+      "title": "Home Accessory Architect v12.17.0 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.17.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-25",
+      "type": "release",
+      "title": "Home Accessory Architect v12.18.0 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.18.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-26",
+      "type": "release",
+      "title": "Home Accessory Architect v12.18.1 Merlin",
+      "url": "https://github.com/RavenSystem/esp-homekit-devices/releases/tag/HAA_12.18.1",
+      "points": null
+    }
+  ]
 }

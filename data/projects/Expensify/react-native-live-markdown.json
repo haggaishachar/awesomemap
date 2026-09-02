@@ -4,14 +4,22 @@
   "link": "https://github.com/Expensify/react-native-live-markdown",
   "name": "react-native-live-markdown",
   "desc": "Drop-in replacement for React Native's TextInput component with Markdown formatting.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-live-markdown",
+  "githubDescription": "Drop-in replacement for React Native's TextInput component with Markdown formatting.",
   "tags": [
     "markdown",
     "react-native",
     "textinput"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1337,
+      "forks": 113,
+      "openIssues": 60
+    }
+  ],
   "weight": 1337,
-  "image": "https://avatars.githubusercontent.com/u/476779?v=4"
+  "image": "https://avatars.githubusercontent.com/u/476779?v=4",
+  "events": []
 }

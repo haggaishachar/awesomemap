@@ -31,11 +31,223 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 68402,
-      "forks": 5298,
-      "openIssues": 607
+      "stars": 68569,
+      "forks": 5312,
+      "openIssues": 614
     }
   ],
   "weight": 68267,
-  "image": "https://avatars.githubusercontent.com/u/294291659?v=4"
+  "image": "https://avatars.githubusercontent.com/u/294291659?v=4",
+  "events": [
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "Release v0.21.34",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.21.34",
+      "points": null
+    },
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "Release v0.21.33",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.21.33",
+      "points": null
+    },
+    {
+      "date": "2026-05-14",
+      "type": "release",
+      "title": "Release v0.21.36",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.21.36",
+      "points": null
+    },
+    {
+      "date": "2026-05-14",
+      "type": "release",
+      "title": "Release v0.21.35",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.21.35",
+      "points": null
+    },
+    {
+      "date": "2026-05-15",
+      "type": "release",
+      "title": "Release v0.21.38",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.21.38",
+      "points": null
+    },
+    {
+      "date": "2026-05-15",
+      "type": "release",
+      "title": "Release v0.21.37",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.21.37",
+      "points": null
+    },
+    {
+      "date": "2026-05-19",
+      "type": "release",
+      "title": "Release v0.22.0",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.22.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-20",
+      "type": "release",
+      "title": "Release v0.22.2",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.22.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-20",
+      "type": "release",
+      "title": "Release v0.22.1",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.22.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-01",
+      "type": "release",
+      "title": "Release v0.22.4",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.22.4",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "Release v0.23.0",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.23.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "title": "Release v0.24.0",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.24.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-12",
+      "type": "release",
+      "title": "Release v0.25.0",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.25.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-16",
+      "type": "release",
+      "title": "Release v0.26.0",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.26.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-22",
+      "type": "release",
+      "title": "Release v0.27.0",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.27.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "Release v0.28.0",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.28.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-03",
+      "type": "release",
+      "title": "Release v0.30.0",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.30.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-03",
+      "type": "release",
+      "title": "Release v0.29.0",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.29.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "Release v0.31.0",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.31.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "v0.32.0",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.32.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "Release v0.33.0",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.33.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "Release v0.34.0",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.34.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "Release v0.35.0",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.35.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "Release v0.36.0",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.36.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "Release v0.36.3",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.36.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "Release v0.36.2",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.36.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "Release v0.36.1",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.36.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-22",
+      "type": "release",
+      "title": "Release v0.36.5",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.36.5",
+      "points": null
+    },
+    {
+      "date": "2026-08-22",
+      "type": "release",
+      "title": "Release v0.36.4",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.36.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "Release v0.37.0",
+      "url": "https://github.com/headroomlabs-ai/headroom/releases/tag/v0.37.0",
+      "points": null
+    }
+  ]
 }

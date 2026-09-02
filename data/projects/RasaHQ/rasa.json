@@ -31,11 +31,223 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 21309,
-      "forks": 4919,
+      "stars": 21308,
+      "forks": 4918,
       "openIssues": 153
     }
   ],
   "weight": 21308,
-  "image": "https://avatars.githubusercontent.com/u/21214473?v=4"
+  "image": "https://avatars.githubusercontent.com/u/21214473?v=4",
+  "events": [
+    {
+      "date": "2023-07-06",
+      "type": "release",
+      "title": "3.7.0b1",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.7.0b1",
+      "points": null
+    },
+    {
+      "date": "2023-07-11",
+      "type": "release",
+      "title": "3.4.16",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.4.16",
+      "points": null
+    },
+    {
+      "date": "2023-07-11",
+      "type": "release",
+      "title": "3.3.12",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.3.12",
+      "points": null
+    },
+    {
+      "date": "2023-07-12",
+      "type": "release",
+      "title": "3.5.14",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.5.14",
+      "points": null
+    },
+    {
+      "date": "2023-07-20",
+      "type": "release",
+      "title": "3.7.0b2",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.7.0b2",
+      "points": null
+    },
+    {
+      "date": "2023-07-20",
+      "type": "release",
+      "title": "3.6.3",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.6.3",
+      "points": null
+    },
+    {
+      "date": "2023-07-21",
+      "type": "release",
+      "title": "3.6.4",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.6.4",
+      "points": null
+    },
+    {
+      "date": "2023-07-21",
+      "type": "release",
+      "title": "3.5.15",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.5.15",
+      "points": null
+    },
+    {
+      "date": "2023-08-08",
+      "type": "release",
+      "title": "3.7.0a1",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.7.0a1",
+      "points": null
+    },
+    {
+      "date": "2023-08-17",
+      "type": "release",
+      "title": "3.6.5",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.6.5",
+      "points": null
+    },
+    {
+      "date": "2023-08-23",
+      "type": "release",
+      "title": "3.6.6",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.6.6",
+      "points": null
+    },
+    {
+      "date": "2023-08-29",
+      "type": "release",
+      "title": "3.6.7",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.6.7",
+      "points": null
+    },
+    {
+      "date": "2023-08-30",
+      "type": "release",
+      "title": "3.6.8",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.6.8",
+      "points": null
+    },
+    {
+      "date": "2023-08-30",
+      "type": "release",
+      "title": "3.5.16",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.5.16",
+      "points": null
+    },
+    {
+      "date": "2023-09-06",
+      "type": "release",
+      "title": "3.4.17",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.4.17",
+      "points": null
+    },
+    {
+      "date": "2023-09-15",
+      "type": "release",
+      "title": "3.6.9",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.6.9",
+      "points": null
+    },
+    {
+      "date": "2023-09-22",
+      "type": "release",
+      "title": "3.4.18",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.4.18",
+      "points": null
+    },
+    {
+      "date": "2023-09-26",
+      "type": "release",
+      "title": "3.6.10",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.6.10",
+      "points": null
+    },
+    {
+      "date": "2023-10-05",
+      "type": "release",
+      "title": "3.6.11",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.6.11",
+      "points": null
+    },
+    {
+      "date": "2023-10-10",
+      "type": "release",
+      "title": "3.6.12",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.6.12",
+      "points": null
+    },
+    {
+      "date": "2023-10-23",
+      "type": "release",
+      "title": "3.6.13",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.6.13",
+      "points": null
+    },
+    {
+      "date": "2023-11-20",
+      "type": "release",
+      "title": "3.6.14",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.6.14",
+      "points": null
+    },
+    {
+      "date": "2023-12-01",
+      "type": "release",
+      "title": "3.6.15",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.6.15",
+      "points": null
+    },
+    {
+      "date": "2023-12-05",
+      "type": "release",
+      "title": "3.5.17",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.5.17",
+      "points": null
+    },
+    {
+      "date": "2024-01-19",
+      "type": "release",
+      "title": "3.6.16",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.6.16",
+      "points": null
+    },
+    {
+      "date": "2024-02-13",
+      "type": "release",
+      "title": "3.6.17",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.6.17",
+      "points": null
+    },
+    {
+      "date": "2024-02-23",
+      "type": "release",
+      "title": "3.6.18",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.6.18",
+      "points": null
+    },
+    {
+      "date": "2024-03-04",
+      "type": "release",
+      "title": "3.6.19",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.6.19",
+      "points": null
+    },
+    {
+      "date": "2024-04-18",
+      "type": "release",
+      "title": "3.6.20",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.6.20",
+      "points": null
+    },
+    {
+      "date": "2025-01-14",
+      "type": "release",
+      "title": "3.6.21",
+      "url": "https://github.com/RasaHQ/rasa/releases/tag/3.6.21",
+      "points": null
+    }
+  ]
 }

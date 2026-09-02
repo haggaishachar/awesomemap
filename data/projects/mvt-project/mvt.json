@@ -17,11 +17,188 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 13001,
-      "forks": 1284,
-      "openIssues": 44
+      "stars": 13007,
+      "forks": 1287,
+      "openIssues": 43
     }
   ],
   "weight": 12999,
-  "image": "https://avatars.githubusercontent.com/u/87478403?v=4"
+  "image": "https://avatars.githubusercontent.com/u/87478403?v=4",
+  "events": [
+    {
+      "date": "2021-07-18",
+      "type": "hn",
+      "title": "MVT – forensic tool to look for infections on smartphones",
+      "url": "https://news.ycombinator.com/item?id=27876165",
+      "points": 93
+    },
+    {
+      "date": "2023-03-29",
+      "type": "release",
+      "title": "v2.2.3",
+      "url": "https://github.com/mvt-project/mvt/releases/tag/v2.2.3",
+      "points": null
+    },
+    {
+      "date": "2023-04-12",
+      "type": "release",
+      "title": "v2.2.4",
+      "url": "https://github.com/mvt-project/mvt/releases/tag/v2.2.4",
+      "points": null
+    },
+    {
+      "date": "2023-04-13",
+      "type": "release",
+      "title": "v2.2.5",
+      "url": "https://github.com/mvt-project/mvt/releases/tag/v2.2.5",
+      "points": null
+    },
+    {
+      "date": "2023-04-25",
+      "type": "release",
+      "title": "v2.2.6",
+      "url": "https://github.com/mvt-project/mvt/releases/tag/v2.2.6",
+      "points": null
+    },
+    {
+      "date": "2023-06-29",
+      "type": "release",
+      "title": "v2.3.0",
+      "url": "https://github.com/mvt-project/mvt/releases/tag/v2.3.0",
+      "points": null
+    },
+    {
+      "date": "2023-07-21",
+      "type": "release",
+      "title": "v2.4.0",
+      "url": "https://github.com/mvt-project/mvt/releases/tag/v2.4.0",
+      "points": null
+    },
+    {
+      "date": "2023-07-26",
+      "type": "release",
+      "title": "v2.4.1",
+      "url": "https://github.com/mvt-project/mvt/releases/tag/v2.4.1",
+      "points": null
+    },
+    {
+      "date": "2023-09-05",
+      "type": "release",
+      "title": "v2.4.2",
+      "url": "https://github.com/mvt-project/mvt/releases/tag/v2.4.2",
+      "points": null
+    },
+    {
+      "date": "2023-11-18",
+      "type": "release",
+      "title": "v2.4.3",
+      "url": "https://github.com/mvt-project/mvt/releases/tag/v2.4.3",
+      "points": null
+    },
+    {
+      "date": "2023-12-04",
+      "type": "release",
+      "title": "v2.4.4",
+      "url": "https://github.com/mvt-project/mvt/releases/tag/v2.4.4",
+      "points": null
+    },
+    {
+      "date": "2023-12-11",
+      "type": "release",
+      "title": "v2.4.5",
+      "url": "https://github.com/mvt-project/mvt/releases/tag/v2.4.5",
+      "points": null
+    },
+    {
+      "date": "2024-01-04",
+      "type": "release",
+      "title": "v2.5.0",
+      "url": "https://github.com/mvt-project/mvt/releases/tag/v2.5.0",
+      "points": null
+    },
+    {
+      "date": "2024-04-11",
+      "type": "release",
+      "title": "v2.5.1",
+      "url": "https://github.com/mvt-project/mvt/releases/tag/v2.5.1",
+      "points": null
+    },
+    {
+      "date": "2024-04-18",
+      "type": "release",
+      "title": "v2.5.2",
+      "url": "https://github.com/mvt-project/mvt/releases/tag/v2.5.2",
+      "points": null
+    },
+    {
+      "date": "2024-04-19",
+      "type": "release",
+      "title": "v2.5.3",
+      "url": "https://github.com/mvt-project/mvt/releases/tag/v2.5.3",
+      "points": null
+    },
+    {
+      "date": "2024-06-21",
+      "type": "release",
+      "title": "v2.5.4",
+      "url": "https://github.com/mvt-project/mvt/releases/tag/v2.5.4",
+      "points": null
+    },
+    {
+      "date": "2025-01-27",
+      "type": "release",
+      "title": "v2.6.0",
+      "url": "https://github.com/mvt-project/mvt/releases/tag/v2.6.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-17",
+      "type": "hn",
+      "title": "Conducting forensics of mobile devices to find signs of a potential compromise",
+      "url": "https://news.ycombinator.com/item?id=43384894",
+      "points": 151
+    },
+    {
+      "date": "2025-12-19",
+      "type": "release",
+      "title": "v2.7.0",
+      "url": "https://github.com/mvt-project/mvt/releases/tag/v2.7.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-19",
+      "type": "release",
+      "title": "v2.6.1",
+      "url": "https://github.com/mvt-project/mvt/releases/tag/v2.6.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-29",
+      "type": "release",
+      "title": "v2026.4.28",
+      "url": "https://github.com/mvt-project/mvt/releases/tag/v2026.4.28",
+      "points": null
+    },
+    {
+      "date": "2026-05-12",
+      "type": "release",
+      "title": "v2026.5.12 ",
+      "url": "https://github.com/mvt-project/mvt/releases/tag/v2026.5.12",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "v2026.7.29",
+      "url": "https://github.com/mvt-project/mvt/releases/tag/v2026.7.29",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "v2026.9.1",
+      "url": "https://github.com/mvt-project/mvt/releases/tag/v2026.9.1",
+      "points": null
+    }
+  ]
 }

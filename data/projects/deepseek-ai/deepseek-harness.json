@@ -4,15 +4,23 @@
   "link": "https://github.com/deepseek-ai/deepseek-harness",
   "name": "deepseek-harness",
   "desc": "DeepSeek Harness: Everything is a Plugin.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "deepseek-harness",
+  "githubDescription": "DeepSeek Harness: Everything is a Plugin.",
   "tags": [
     "ai-agents",
     "cordis",
     "dsh",
     "dsh-plugin"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 209505,
+      "forks": 24463,
+      "openIssues": 0
+    }
+  ],
   "weight": 209020,
-  "image": "https://avatars.githubusercontent.com/u/148330874?v=4"
+  "image": "https://avatars.githubusercontent.com/u/148330874?v=4",
+  "events": []
 }

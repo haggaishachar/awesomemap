@@ -128,5 +128,224 @@
       "forks": 1801,
       "openIssues": 57
     }
+  ],
+  "events": [
+    {
+      "date": "2016-02-26",
+      "type": "hn",
+      "title": "Mobx: Simple, scalable state management",
+      "url": "https://news.ycombinator.com/item?id=11181980",
+      "points": 93
+    },
+    {
+      "date": "2024-07-25",
+      "type": "release",
+      "title": "eslint-plugin-mobx@0.0.11",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/eslint-plugin-mobx%400.0.11",
+      "points": null
+    },
+    {
+      "date": "2024-09-07",
+      "type": "release",
+      "title": "mobx@6.13.2",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx%406.13.2",
+      "points": null
+    },
+    {
+      "date": "2024-09-26",
+      "type": "release",
+      "title": "mobx@6.13.3",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx%406.13.3",
+      "points": null
+    },
+    {
+      "date": "2024-10-15",
+      "type": "release",
+      "title": "mobx@6.13.4",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx%406.13.4",
+      "points": null
+    },
+    {
+      "date": "2024-10-16",
+      "type": "release",
+      "title": "mobx@6.13.5",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx%406.13.5",
+      "points": null
+    },
+    {
+      "date": "2024-10-20",
+      "type": "release",
+      "title": "eslint-plugin-mobx@0.0.12",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/eslint-plugin-mobx%400.0.12",
+      "points": null
+    },
+    {
+      "date": "2024-10-21",
+      "type": "release",
+      "title": "eslint-plugin-mobx@0.0.13",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/eslint-plugin-mobx%400.0.13",
+      "points": null
+    },
+    {
+      "date": "2024-12-11",
+      "type": "release",
+      "title": "mobx-react@9.2.0",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx-react%409.2.0",
+      "points": null
+    },
+    {
+      "date": "2024-12-11",
+      "type": "release",
+      "title": "mobx-react-lite@4.1.0",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx-react-lite%404.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-30",
+      "type": "release",
+      "title": "mobx@6.13.6",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx%406.13.6",
+      "points": null
+    },
+    {
+      "date": "2025-03-17",
+      "type": "release",
+      "title": "mobx@6.13.7",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx%406.13.7",
+      "points": null
+    },
+    {
+      "date": "2026-05-04",
+      "type": "release",
+      "title": "mobx@6.15.1",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx%406.15.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "mobx@6.15.2",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx%406.15.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-07",
+      "type": "release",
+      "title": "mobx@6.15.3",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx%406.15.3",
+      "points": null
+    },
+    {
+      "date": "2026-05-24",
+      "type": "release",
+      "title": "mobx@6.15.4",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx%406.15.4",
+      "points": null
+    },
+    {
+      "date": "2026-05-25",
+      "type": "release",
+      "title": "mobx-react@9.2.2",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx-react%409.2.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "title": "mobx@6.16.0",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx%406.16.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "title": "mobx-undecorate@1.3.1",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx-undecorate%401.3.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-08",
+      "type": "release",
+      "title": "mobx@6.16.1",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx%406.16.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "mobx@7.0.0",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx%407.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "mobx-react@10.0.0",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx-react%4010.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "mobx-react-lite@5.0.0",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx-react-lite%405.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "mobx@7.0.3",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx%407.0.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "mobx@7.0.2",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx%407.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "mobx@7.0.1",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx%407.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "mobx-react@10.0.2",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx-react%4010.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "mobx-react@10.0.1",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx-react%4010.0.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "mobx-react-lite@5.0.3",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx-react-lite%405.0.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "mobx-react-lite@5.0.2",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx-react-lite%405.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "mobx-react-lite@5.0.1",
+      "url": "https://github.com/mobxjs/mobx/releases/tag/mobx-react-lite%405.0.1",
+      "points": null
+    }
   ]
 }

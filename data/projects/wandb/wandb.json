@@ -118,9 +118,221 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 11248,
-      "forks": 892,
-      "openIssues": 949
+      "stars": 11249,
+      "forks": 893,
+      "openIssues": 945
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-04-01",
+      "type": "release",
+      "title": "v0.19.9",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.19.9",
+      "points": null
+    },
+    {
+      "date": "2025-04-22",
+      "type": "release",
+      "title": "v0.19.10",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.19.10",
+      "points": null
+    },
+    {
+      "date": "2025-05-07",
+      "type": "release",
+      "title": "v0.19.11",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.19.11",
+      "points": null
+    },
+    {
+      "date": "2025-06-03",
+      "type": "release",
+      "title": "v0.20.0",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.20.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-05",
+      "type": "release",
+      "title": "v0.20.1",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.20.1",
+      "points": null
+    },
+    {
+      "date": "2025-07-02",
+      "type": "release",
+      "title": "v0.21.0",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.21.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-07",
+      "type": "release",
+      "title": "v0.21.1",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.21.1",
+      "points": null
+    },
+    {
+      "date": "2025-08-28",
+      "type": "release",
+      "title": "v0.21.2",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.21.2",
+      "points": null
+    },
+    {
+      "date": "2025-09-04",
+      "type": "release",
+      "title": "v0.21.3",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.21.3",
+      "points": null
+    },
+    {
+      "date": "2025-09-11",
+      "type": "release",
+      "title": "v0.21.4",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.21.4",
+      "points": null
+    },
+    {
+      "date": "2025-09-18",
+      "type": "release",
+      "title": "v0.22.0",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.22.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-29",
+      "type": "release",
+      "title": "v0.22.1",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.22.1",
+      "points": null
+    },
+    {
+      "date": "2025-10-07",
+      "type": "release",
+      "title": "v0.22.2",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.22.2",
+      "points": null
+    },
+    {
+      "date": "2025-10-29",
+      "type": "release",
+      "title": "v0.22.3",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.22.3",
+      "points": null
+    },
+    {
+      "date": "2025-11-11",
+      "type": "release",
+      "title": "v0.23.0",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.23.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-03",
+      "type": "release",
+      "title": "v0.23.1",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.23.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-13",
+      "type": "release",
+      "title": "v0.24.0",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.24.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-29",
+      "type": "release",
+      "title": "v0.24.1",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.24.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-05",
+      "type": "release",
+      "title": "v0.24.2",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.24.2",
+      "points": null
+    },
+    {
+      "date": "2026-02-13",
+      "type": "release",
+      "title": "v0.25.0",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.25.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-10",
+      "type": "release",
+      "title": "v0.25.1",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.25.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-13",
+      "type": "release",
+      "title": "v0.26.0",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.26.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-23",
+      "type": "release",
+      "title": "v0.26.1",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.26.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-14",
+      "type": "release",
+      "title": "v0.27.0",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.27.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "v0.27.1",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.27.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-06",
+      "type": "release",
+      "title": "v0.27.2",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.27.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "v0.28.0",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.28.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "v0.28.1",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.28.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "v0.28.2",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.28.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v0.29.0",
+      "url": "https://github.com/wandb/wandb/releases/tag/v0.29.0",
+      "points": null
     }
   ]
 }

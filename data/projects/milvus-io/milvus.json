@@ -113,9 +113,207 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 45929,
+      "stars": 45934,
       "forks": 4219,
       "openIssues": 1322
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-11-20",
+      "type": "release",
+      "title": "milvus-2.5.23",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v2.5.23",
+      "points": null
+    },
+    {
+      "date": "2025-11-21",
+      "type": "release",
+      "title": "milvus-2.6.6",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v2.6.6",
+      "points": null
+    },
+    {
+      "date": "2025-12-04",
+      "type": "release",
+      "title": "milvus-2.6.7",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v2.6.7",
+      "points": null
+    },
+    {
+      "date": "2025-12-11",
+      "type": "release",
+      "title": "milvus-2.5.24",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v2.5.24",
+      "points": null
+    },
+    {
+      "date": "2025-12-29",
+      "type": "release",
+      "title": " client/v2.6.2",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/client/v2.6.2",
+      "points": null
+    },
+    {
+      "date": "2026-01-04",
+      "type": "release",
+      "title": "milvus-2.6.8",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v2.6.8",
+      "points": null
+    },
+    {
+      "date": "2026-01-08",
+      "type": "release",
+      "title": "milvus-2.5.25",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v2.5.25",
+      "points": null
+    },
+    {
+      "date": "2026-01-19",
+      "type": "release",
+      "title": "milvus-2.6.9",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v2.6.9",
+      "points": null
+    },
+    {
+      "date": "2026-01-23",
+      "type": "release",
+      "title": "milvus-2.5.26",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v2.5.26",
+      "points": null
+    },
+    {
+      "date": "2026-02-05",
+      "type": "release",
+      "title": "milvus-2.6.10",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v2.6.10",
+      "points": null
+    },
+    {
+      "date": "2026-02-11",
+      "type": "release",
+      "title": "milvus-2.5.27",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v2.5.27",
+      "points": null
+    },
+    {
+      "date": "2026-02-12",
+      "type": "release",
+      "title": "milvus-2.6.11",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v2.6.11",
+      "points": null
+    },
+    {
+      "date": "2026-03-13",
+      "type": "release",
+      "title": "milvus-2.6.12",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v2.6.12",
+      "points": null
+    },
+    {
+      "date": "2026-03-23",
+      "type": "release",
+      "title": "milvus-2.6.13",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v2.6.13",
+      "points": null
+    },
+    {
+      "date": "2026-03-24",
+      "type": "release",
+      "title": " client/v2.6.3",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/client/v2.6.3",
+      "points": null
+    },
+    {
+      "date": "2026-04-07",
+      "type": "release",
+      "title": "milvus-2.6.14",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v2.6.14",
+      "points": null
+    },
+    {
+      "date": "2026-04-17",
+      "type": "release",
+      "title": "milvus-2.6.15",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v2.6.15",
+      "points": null
+    },
+    {
+      "date": "2026-05-08",
+      "type": "release",
+      "title": "client/v2.6.4",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/client/v2.6.4",
+      "points": null
+    },
+    {
+      "date": "2026-05-14",
+      "type": "release",
+      "title": "milvus-2.6.16",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v2.6.16",
+      "points": null
+    },
+    {
+      "date": "2026-05-22",
+      "type": "release",
+      "title": "milvus-2.6.17",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v2.6.17",
+      "points": null
+    },
+    {
+      "date": "2026-05-26",
+      "type": "release",
+      "title": "client/v2.6.5",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/client/v2.6.5",
+      "points": null
+    },
+    {
+      "date": "2026-06-05",
+      "type": "release",
+      "title": "milvus-2.6.18",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v2.6.18",
+      "points": null
+    },
+    {
+      "date": "2026-06-26",
+      "type": "release",
+      "title": "milvus-2.6.19",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v2.6.19",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "milvus-2.6.20",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v2.6.20",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "milvus-2.6.21",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v2.6.21",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "milvus-3.0.0",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "milvus-2.6.22",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v2.6.22",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "milvus-2.6.23",
+      "url": "https://github.com/milvus-io/milvus/releases/tag/v2.6.23",
+      "points": null
     }
   ]
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/fleetdm/fleet",
   "name": "fleet",
   "desc": "Open device management",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "fleet",
+  "githubDescription": "Open device management",
   "tags": [
     "binary-authorization",
     "configuration-management",
@@ -26,7 +26,226 @@
     "telemetry",
     "vulnerability-management"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 6803,
+      "forks": 1003,
+      "openIssues": 3569
+    }
+  ],
   "weight": 6802,
-  "image": "https://avatars.githubusercontent.com/u/70264713?v=4"
+  "image": "https://avatars.githubusercontent.com/u/70264713?v=4",
+  "events": [
+    {
+      "date": "2026-02-21",
+      "type": "release",
+      "title": "fleet-v4.80.3",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.80.3",
+      "points": null
+    },
+    {
+      "date": "2026-03-03",
+      "type": "release",
+      "title": "fleet-v4.81.1",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.81.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-07",
+      "type": "release",
+      "title": "fleet-v4.81.2",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.81.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-12",
+      "type": "release",
+      "title": "fleet-v4.82.0",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.82.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-19",
+      "type": "release",
+      "title": "fleet-v4.82.1",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.82.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-21",
+      "type": "release",
+      "title": "fleet-v4.81.3",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.81.3",
+      "points": null
+    },
+    {
+      "date": "2026-03-28",
+      "type": "release",
+      "title": "fleet-v4.82.2",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.82.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-01",
+      "type": "release",
+      "title": "fleet-v4.83.0",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.83.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-11",
+      "type": "release",
+      "title": "fleet-v4.83.1",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.83.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-14",
+      "type": "release",
+      "title": "fleet-v4.83.2",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.83.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-25",
+      "type": "release",
+      "title": "fleet-v4.84.0",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.84.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-01",
+      "type": "release",
+      "title": "fleet-v4.84.2",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.84.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-01",
+      "type": "release",
+      "title": "fleet-v4.84.1",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.84.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-07",
+      "type": "release",
+      "title": "fleet-v4.84.3",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.84.3",
+      "points": null
+    },
+    {
+      "date": "2026-05-14",
+      "type": "release",
+      "title": "fleet-v4.85.0",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.85.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-22",
+      "type": "release",
+      "title": "fleet-v4.85.1",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.85.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-29",
+      "type": "release",
+      "title": "fleet-v4.86.0",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.86.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "title": "fleet-v4.86.1",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.86.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "title": "fleet-v4.85.2",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.85.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-12",
+      "type": "release",
+      "title": "fleet-v4.86.2",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.86.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-20",
+      "type": "release",
+      "title": "fleet-v4.87.0",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.87.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-27",
+      "type": "release",
+      "title": "fleet-v4.87.1",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.87.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-02",
+      "type": "release",
+      "title": "fleet-v4.88.0",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.88.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "title": "fleet-v4.88.1",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.88.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-15",
+      "type": "release",
+      "title": "fleet-v4.89.0",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.89.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "fleet-v4.89.1",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.89.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "fleet-v4.89.2",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.89.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "title": "fleet-v4.90.0",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.90.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-15",
+      "type": "release",
+      "title": "fleet-v4.90.1",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.90.1",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "fleet-v4.90.2",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.90.2",
+      "points": null
+    }
+  ]
 }

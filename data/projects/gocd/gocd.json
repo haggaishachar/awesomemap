@@ -21,11 +21,230 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 7434,
+      "stars": 7433,
       "forks": 981,
       "openIssues": 82
     }
   ],
   "weight": 7434,
-  "image": "https://avatars.githubusercontent.com/u/6099846?v=4"
+  "image": "https://avatars.githubusercontent.com/u/6099846?v=4",
+  "events": [
+    {
+      "date": "2014-04-25",
+      "type": "hn",
+      "title": "Go Continuous Delivery is now open source",
+      "url": "https://news.ycombinator.com/item?id=7646197",
+      "points": 112
+    },
+    {
+      "date": "2020-04-22",
+      "type": "release",
+      "title": "GoCD 20.3.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/20.3.0",
+      "points": null
+    },
+    {
+      "date": "2020-05-29",
+      "type": "release",
+      "title": "GoCD 20.4.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/20.4.0",
+      "points": null
+    },
+    {
+      "date": "2020-06-23",
+      "type": "release",
+      "title": "GoCD 20.5.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/20.5.0",
+      "points": null
+    },
+    {
+      "date": "2020-07-29",
+      "type": "release",
+      "title": "GoCD 20.6.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/20.6.0",
+      "points": null
+    },
+    {
+      "date": "2020-08-25",
+      "type": "release",
+      "title": "GoCD 20.7.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/20.7.0",
+      "points": null
+    },
+    {
+      "date": "2020-09-22",
+      "type": "release",
+      "title": "GoCD 20.8.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/20.8.0",
+      "points": null
+    },
+    {
+      "date": "2020-11-10",
+      "type": "release",
+      "title": "GoCD 20.9.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/20.9.0",
+      "points": null
+    },
+    {
+      "date": "2020-11-24",
+      "type": "release",
+      "title": "GoCD 20.10.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/20.10.0",
+      "points": null
+    },
+    {
+      "date": "2021-01-12",
+      "type": "release",
+      "title": "GoCD 21.1.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/21.1.0",
+      "points": null
+    },
+    {
+      "date": "2021-03-17",
+      "type": "release",
+      "title": "GoCD 21.2.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/21.2.0",
+      "points": null
+    },
+    {
+      "date": "2021-10-26",
+      "type": "release",
+      "title": "GoCD 21.3.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/21.3.0",
+      "points": null
+    },
+    {
+      "date": "2021-12-31",
+      "type": "release",
+      "title": "GoCD 21.4.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/21.4.0",
+      "points": null
+    },
+    {
+      "date": "2022-03-22",
+      "type": "release",
+      "title": "GoCD 22.1.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/22.1.0",
+      "points": null
+    },
+    {
+      "date": "2022-08-13",
+      "type": "release",
+      "title": "GoCD 22.2.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/22.2.0",
+      "points": null
+    },
+    {
+      "date": "2022-11-05",
+      "type": "release",
+      "title": "GoCD 22.3.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/22.3.0",
+      "points": null
+    },
+    {
+      "date": "2023-03-11",
+      "type": "release",
+      "title": "GoCD 23.1.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/23.1.0",
+      "points": null
+    },
+    {
+      "date": "2023-07-22",
+      "type": "release",
+      "title": "GoCD 23.2.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/23.2.0",
+      "points": null
+    },
+    {
+      "date": "2023-07-29",
+      "type": "release",
+      "title": "GoCD 23.3.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/23.3.0",
+      "points": null
+    },
+    {
+      "date": "2023-11-02",
+      "type": "release",
+      "title": "GoCD 23.4.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/23.4.0",
+      "points": null
+    },
+    {
+      "date": "2023-12-30",
+      "type": "release",
+      "title": "GoCD 23.5.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/23.5.0",
+      "points": null
+    },
+    {
+      "date": "2024-05-12",
+      "type": "release",
+      "title": "GoCD 24.1.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/24.1.0",
+      "points": null
+    },
+    {
+      "date": "2024-06-23",
+      "type": "release",
+      "title": "GoCD 24.2.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/24.2.0",
+      "points": null
+    },
+    {
+      "date": "2024-08-04",
+      "type": "release",
+      "title": "GoCD 24.3.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/24.3.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-03",
+      "type": "release",
+      "title": "GoCD 24.4.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/24.4.0",
+      "points": null
+    },
+    {
+      "date": "2024-12-20",
+      "type": "release",
+      "title": "GoCD 24.5.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/24.5.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-26",
+      "type": "release",
+      "title": "GoCD 25.1.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/25.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-27",
+      "type": "release",
+      "title": "GoCD 25.2.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/25.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-01",
+      "type": "release",
+      "title": "GoCD 25.3.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/25.3.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-31",
+      "type": "release",
+      "title": "GoCD 25.4.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/25.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-06",
+      "type": "release",
+      "title": "GoCD 26.1.0",
+      "url": "https://github.com/gocd/gocd/releases/tag/26.1.0",
+      "points": null
+    }
+  ]
 }

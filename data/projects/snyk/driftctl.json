@@ -24,5 +24,217 @@
     }
   ],
   "weight": 2662,
-  "image": "https://avatars.githubusercontent.com/u/12959162?v=4"
+  "image": "https://avatars.githubusercontent.com/u/12959162?v=4",
+  "events": [
+    {
+      "date": "2022-02-28",
+      "type": "release",
+      "title": "v0.21.0",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.21.0",
+      "points": null
+    },
+    {
+      "date": "2022-03-01",
+      "type": "release",
+      "title": "v0.22.0",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.22.0",
+      "points": null
+    },
+    {
+      "date": "2022-03-09",
+      "type": "release",
+      "title": "v0.23.0",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.23.0",
+      "points": null
+    },
+    {
+      "date": "2022-03-11",
+      "type": "release",
+      "title": "v0.23.1",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.23.1",
+      "points": null
+    },
+    {
+      "date": "2022-03-17",
+      "type": "release",
+      "title": "v0.23.2",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.23.2",
+      "points": null
+    },
+    {
+      "date": "2022-03-21",
+      "type": "release",
+      "title": "v0.24.0",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.24.0",
+      "points": null
+    },
+    {
+      "date": "2022-03-23",
+      "type": "release",
+      "title": "v0.25.0",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.25.0",
+      "points": null
+    },
+    {
+      "date": "2022-03-31",
+      "type": "release",
+      "title": "v0.26.0",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.26.0",
+      "points": null
+    },
+    {
+      "date": "2022-04-08",
+      "type": "release",
+      "title": "v0.27.0",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.27.0",
+      "points": null
+    },
+    {
+      "date": "2022-04-13",
+      "type": "release",
+      "title": "v0.28.0",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.28.0",
+      "points": null
+    },
+    {
+      "date": "2022-04-15",
+      "type": "release",
+      "title": "v0.28.1",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.28.1",
+      "points": null
+    },
+    {
+      "date": "2022-05-04",
+      "type": "release",
+      "title": "v0.29.0",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.29.0",
+      "points": null
+    },
+    {
+      "date": "2022-05-13",
+      "type": "release",
+      "title": "v0.30.0",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.30.0",
+      "points": null
+    },
+    {
+      "date": "2022-05-25",
+      "type": "release",
+      "title": "v0.31.0",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.31.0",
+      "points": null
+    },
+    {
+      "date": "2022-05-31",
+      "type": "release",
+      "title": "v0.31.1",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.31.1",
+      "points": null
+    },
+    {
+      "date": "2022-06-07",
+      "type": "release",
+      "title": "v0.32.1",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.32.1",
+      "points": null
+    },
+    {
+      "date": "2022-06-07",
+      "type": "release",
+      "title": "v0.32.0",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.32.0",
+      "points": null
+    },
+    {
+      "date": "2022-06-08",
+      "type": "release",
+      "title": "v0.33.0",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.33.0",
+      "points": null
+    },
+    {
+      "date": "2022-06-16",
+      "type": "release",
+      "title": "v0.34.0",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.34.0",
+      "points": null
+    },
+    {
+      "date": "2022-06-23",
+      "type": "release",
+      "title": "v0.34.1",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.34.1",
+      "points": null
+    },
+    {
+      "date": "2022-07-06",
+      "type": "release",
+      "title": "v0.35.0",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.35.0",
+      "points": null
+    },
+    {
+      "date": "2022-07-13",
+      "type": "release",
+      "title": "v0.35.1",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.35.1",
+      "points": null
+    },
+    {
+      "date": "2022-07-19",
+      "type": "release",
+      "title": "v0.35.2",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.35.2",
+      "points": null
+    },
+    {
+      "date": "2022-07-26",
+      "type": "release",
+      "title": "v0.36.0",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.36.0",
+      "points": null
+    },
+    {
+      "date": "2022-08-11",
+      "type": "release",
+      "title": "v0.37.0",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.37.0",
+      "points": null
+    },
+    {
+      "date": "2022-10-12",
+      "type": "release",
+      "title": "v0.38.0",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.38.0",
+      "points": null
+    },
+    {
+      "date": "2022-10-13",
+      "type": "release",
+      "title": "v0.38.1",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.38.1",
+      "points": null
+    },
+    {
+      "date": "2023-01-09",
+      "type": "release",
+      "title": "v0.38.2",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.38.2",
+      "points": null
+    },
+    {
+      "date": "2023-06-06",
+      "type": "release",
+      "title": "v0.39.0",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.39.0",
+      "points": null
+    },
+    {
+      "date": "2023-12-01",
+      "type": "release",
+      "title": "v0.40.0",
+      "url": "https://github.com/snyk/driftctl/releases/tag/v0.40.0",
+      "points": null
+    }
+  ]
 }

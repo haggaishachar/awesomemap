@@ -31,11 +31,223 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 11644,
-      "forks": 3743,
-      "openIssues": 1888
+      "stars": 11652,
+      "forks": 3744,
+      "openIssues": 1895
     }
   ],
   "weight": 11627,
-  "image": "https://avatars.githubusercontent.com/u/52376019?v=4"
+  "image": "https://avatars.githubusercontent.com/u/52376019?v=4",
+  "events": [
+    {
+      "date": "2026-06-08",
+      "type": "release",
+      "title": "Meshery v1.0.39",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.39",
+      "points": null
+    },
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "title": "Meshery v1.0.40",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.40",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "Meshery v1.0.41",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.41",
+      "points": null
+    },
+    {
+      "date": "2026-06-11",
+      "type": "release",
+      "title": "Meshery v1.0.42",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.42",
+      "points": null
+    },
+    {
+      "date": "2026-06-13",
+      "type": "release",
+      "title": "Meshery v1.0.43",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.43",
+      "points": null
+    },
+    {
+      "date": "2026-06-21",
+      "type": "release",
+      "title": "Meshery v1.0.45",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.45",
+      "points": null
+    },
+    {
+      "date": "2026-06-21",
+      "type": "release",
+      "title": "Meshery v1.0.44",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.44",
+      "points": null
+    },
+    {
+      "date": "2026-06-25",
+      "type": "release",
+      "title": "Meshery v1.0.47",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.47",
+      "points": null
+    },
+    {
+      "date": "2026-06-25",
+      "type": "release",
+      "title": "Meshery v1.0.46",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.46",
+      "points": null
+    },
+    {
+      "date": "2026-06-26",
+      "type": "release",
+      "title": "Meshery v1.0.49",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.49",
+      "points": null
+    },
+    {
+      "date": "2026-06-26",
+      "type": "release",
+      "title": "Meshery v1.0.48",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.48",
+      "points": null
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "Meshery v1.0.50",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.50",
+      "points": null
+    },
+    {
+      "date": "2026-07-02",
+      "type": "release",
+      "title": "Meshery v1.0.52",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.52",
+      "points": null
+    },
+    {
+      "date": "2026-07-02",
+      "type": "release",
+      "title": "Meshery v1.0.51",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.51",
+      "points": null
+    },
+    {
+      "date": "2026-07-05",
+      "type": "release",
+      "title": "Meshery v1.0.53",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.53",
+      "points": null
+    },
+    {
+      "date": "2026-07-06",
+      "type": "release",
+      "title": "Meshery v1.0.54",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.54",
+      "points": null
+    },
+    {
+      "date": "2026-07-07",
+      "type": "release",
+      "title": "Meshery v1.0.55",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.55",
+      "points": null
+    },
+    {
+      "date": "2026-07-13",
+      "type": "release",
+      "title": "Meshery v1.0.56",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.56",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "Meshery v1.0.57",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.57",
+      "points": null
+    },
+    {
+      "date": "2026-07-20",
+      "type": "release",
+      "title": "Meshery v1.0.59",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.59",
+      "points": null
+    },
+    {
+      "date": "2026-07-20",
+      "type": "release",
+      "title": "Meshery v1.0.58",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.58",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "Meshery v1.0.61",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.61",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "Meshery v1.0.60",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.60",
+      "points": null
+    },
+    {
+      "date": "2026-07-22",
+      "type": "release",
+      "title": "Meshery v1.0.62",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.62",
+      "points": null
+    },
+    {
+      "date": "2026-07-26",
+      "type": "release",
+      "title": "Meshery v1.0.63",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.63",
+      "points": null
+    },
+    {
+      "date": "2026-08-03",
+      "type": "release",
+      "title": "Meshery v1.0.64",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.64",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "Meshery v1.0.65",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.65",
+      "points": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "Meshery v1.0.66",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.66",
+      "points": null
+    },
+    {
+      "date": "2026-08-23",
+      "type": "release",
+      "title": "Meshery v1.0.67",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.67",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "Meshery v1.0.68",
+      "url": "https://github.com/meshery/meshery/releases/tag/v1.0.68",
+      "points": null
+    }
+  ]
 }

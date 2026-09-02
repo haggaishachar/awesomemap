@@ -62,5 +62,210 @@
       "forks": 631,
       "openIssues": 144
     }
+  ],
+  "events": [
+    {
+      "date": "2022-03-08",
+      "type": "release",
+      "title": "v1.2.0",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/v1.2.0",
+      "points": null
+    },
+    {
+      "date": "2022-03-15",
+      "type": "release",
+      "title": "v1.3.0",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/v1.3.0",
+      "points": null
+    },
+    {
+      "date": "2022-07-29",
+      "type": "release",
+      "title": "v1.3.1",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/v1.3.1",
+      "points": null
+    },
+    {
+      "date": "2022-08-10",
+      "type": "release",
+      "title": "v1.4.0",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/v1.4.0",
+      "points": null
+    },
+    {
+      "date": "2022-10-03",
+      "type": "release",
+      "title": "v1.4.1",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/v1.4.1",
+      "points": null
+    },
+    {
+      "date": "2023-01-12",
+      "type": "release",
+      "title": "v1.4.2",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/v1.4.2",
+      "points": null
+    },
+    {
+      "date": "2023-03-28",
+      "type": "release",
+      "title": "v1.5.0",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/v1.5.0",
+      "points": null
+    },
+    {
+      "date": "2023-09-01",
+      "type": "release",
+      "title": "v2.0.0",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/v2.0.0",
+      "points": null
+    },
+    {
+      "date": "2023-10-30",
+      "type": "release",
+      "title": "v2.0.1",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/v2.0.1",
+      "points": null
+    },
+    {
+      "date": "2024-02-13",
+      "type": "release",
+      "title": "v2.1.0",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/v2.1.0",
+      "points": null
+    },
+    {
+      "date": "2024-03-14",
+      "type": "release",
+      "title": "v2.1.1",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/v2.1.1",
+      "points": null
+    },
+    {
+      "date": "2024-04-29",
+      "type": "release",
+      "title": "v2.2.0",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/v2.2.0",
+      "points": null
+    },
+    {
+      "date": "2024-05-09",
+      "type": "release",
+      "title": "v2.2.1",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/v2.2.1",
+      "points": null
+    },
+    {
+      "date": "2024-07-06",
+      "type": "release",
+      "title": "threatintel-yara-2024-07-06_18-02-28",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/threatintel-yara-2024-07-06_18-02-28",
+      "points": null
+    },
+    {
+      "date": "2024-07-07",
+      "type": "release",
+      "title": "threatintel-yara-2024-07-07_18-02-15",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/threatintel-yara-2024-07-07_18-02-15",
+      "points": null
+    },
+    {
+      "date": "2024-07-30",
+      "type": "release",
+      "title": "v2.3.0",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/v2.3.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-11",
+      "type": "release",
+      "title": "v2.3.1",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/v2.3.1",
+      "points": null
+    },
+    {
+      "date": "2024-09-23",
+      "type": "release",
+      "title": "threatintel-vuln-v3-2024-09-23_00-02-38",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/threatintel-vuln-v3-2024-09-23_00-02-38",
+      "points": null
+    },
+    {
+      "date": "2024-09-24",
+      "type": "release",
+      "title": "threatintel-vuln-v3-2024-09-24_00-02-40",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/threatintel-vuln-v3-2024-09-24_00-02-40",
+      "points": null
+    },
+    {
+      "date": "2024-10-07",
+      "type": "release",
+      "title": "v2.4.0",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/v2.4.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-15",
+      "type": "release",
+      "title": "v2.5.0",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/v2.5.0",
+      "points": null
+    },
+    {
+      "date": "2024-12-03",
+      "type": "release",
+      "title": "v2.5.1",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/v2.5.1",
+      "points": null
+    },
+    {
+      "date": "2024-12-20",
+      "type": "release",
+      "title": "v2.5.2",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/v2.5.2",
+      "points": null
+    },
+    {
+      "date": "2025-01-22",
+      "type": "release",
+      "title": "v2.5.3",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/v2.5.3",
+      "points": null
+    },
+    {
+      "date": "2025-03-10",
+      "type": "release",
+      "title": "threatintel-vuln-v5-2025-03-10_13-08-26",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/threatintel-vuln-v5-2025-03-10_13-08-26",
+      "points": null
+    },
+    {
+      "date": "2025-03-10",
+      "type": "release",
+      "title": "threatintel-vuln-v5-2025-03-10_01-29-16",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/threatintel-vuln-v5-2025-03-10_01-29-16",
+      "points": null
+    },
+    {
+      "date": "2025-04-05",
+      "type": "release",
+      "title": "v2.5.6",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/v2.5.6",
+      "points": null
+    },
+    {
+      "date": "2025-04-11",
+      "type": "release",
+      "title": "v2.5.7",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/v2.5.7",
+      "points": null
+    },
+    {
+      "date": "2026-03-07",
+      "type": "release",
+      "title": "v2.5.8",
+      "url": "https://github.com/deepfence/ThreatMapper/releases/tag/v2.5.8",
+      "points": null
+    }
   ]
 }

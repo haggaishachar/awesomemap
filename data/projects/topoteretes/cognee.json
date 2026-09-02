@@ -30,11 +30,167 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 30412,
+      "stars": 30417,
       "forks": 2988,
-      "openIssues": 485
+      "openIssues": 489
     }
   ],
   "weight": 30389,
-  "image": "https://avatars.githubusercontent.com/u/125468716?v=4"
+  "image": "https://avatars.githubusercontent.com/u/125468716?v=4",
+  "events": [
+    {
+      "date": "2026-06-21",
+      "type": "release",
+      "title": "v1.2.1 — Reliability & Search Improvements",
+      "url": "https://github.com/topoteretes/cognee/releases/tag/v1.2.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-21",
+      "type": "release",
+      "title": "v1.2.0",
+      "url": "https://github.com/topoteretes/cognee/releases/tag/v1.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-25",
+      "type": "release",
+      "title": "v1.2.2.dev0 — More reliable LLM requests",
+      "url": "https://github.com/topoteretes/cognee/releases/tag/v1.2.2.dev0",
+      "points": null
+    },
+    {
+      "date": "2026-06-26",
+      "type": "release",
+      "title": "v1.2.2 — Truth Subspace & Retrieval Improvements",
+      "url": "https://github.com/topoteretes/cognee/releases/tag/v1.2.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-06",
+      "type": "release",
+      "title": "v1.2.2.dev1 — Maintenance & Usability Improvements",
+      "url": "https://github.com/topoteretes/cognee/releases/tag/v1.2.2.dev1",
+      "points": null
+    },
+    {
+      "date": "2026-07-07",
+      "type": "release",
+      "title": "v1.2.2.dev4 — Stability & Quality Improvements",
+      "url": "https://github.com/topoteretes/cognee/releases/tag/v1.2.2.dev4",
+      "points": null
+    },
+    {
+      "date": "2026-07-07",
+      "type": "release",
+      "title": "v1.2.2.dev3 — Fix memify user propagation",
+      "url": "https://github.com/topoteretes/cognee/releases/tag/v1.2.2.dev3",
+      "points": null
+    },
+    {
+      "date": "2026-07-07",
+      "type": "release",
+      "title": "v1.2.2.dev2 — Draft: Stability & Fixes",
+      "url": "https://github.com/topoteretes/cognee/releases/tag/v1.2.2.dev2",
+      "points": null
+    },
+    {
+      "date": "2026-07-12",
+      "type": "release",
+      "title": "v1.3.0 — Smarter Search & Dataset Indexing",
+      "url": "https://github.com/topoteretes/cognee/releases/tag/v1.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "v1.4.0 — Search & Ingestion Improvements",
+      "url": "https://github.com/topoteretes/cognee/releases/tag/v1.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-20",
+      "type": "release",
+      "title": "v1.4.0.dev0 — Postgres null-handling reliability fix",
+      "url": "https://github.com/topoteretes/cognee/releases/tag/v1.4.0.dev0",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "v1.4.0.dev2 — Single-item Ingestion Pipeline (PoC)",
+      "url": "https://github.com/topoteretes/cognee/releases/tag/v1.4.0.dev2",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "v1.4.0.dev3 — AWS BYOC & Deployment Improvements",
+      "url": "https://github.com/topoteretes/cognee/releases/tag/v1.4.0.dev3",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "v1.4.1 — Reliability & Search Improvements",
+      "url": "https://github.com/topoteretes/cognee/releases/tag/v1.4.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "v1.4.1.dev0 — Usability & Stability Improvements",
+      "url": "https://github.com/topoteretes/cognee/releases/tag/v1.4.1.dev0",
+      "points": null
+    },
+    {
+      "date": "2026-08-08",
+      "type": "release",
+      "title": "v1.4.2 — Search & Reliability Improvements",
+      "url": "https://github.com/topoteretes/cognee/releases/tag/v1.4.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "v1.5.0.dev2 — Packaging & Dependency Fix",
+      "url": "https://github.com/topoteretes/cognee/releases/tag/v1.5.0.dev2",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "v1.5.0.dev1 — Development snapshot",
+      "url": "https://github.com/topoteretes/cognee/releases/tag/v1.5.0.dev1",
+      "points": null
+    },
+    {
+      "date": "2026-08-15",
+      "type": "release",
+      "title": "v1.5.0 — Large-scale migration & graph reliability",
+      "url": "https://github.com/topoteretes/cognee/releases/tag/v1.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "v1.5.1 — Stability & Search Improvements",
+      "url": "https://github.com/topoteretes/cognee/releases/tag/v1.5.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-22",
+      "type": "release",
+      "title": "v1.5.2 — Stability & Search Improvements",
+      "url": "https://github.com/topoteretes/cognee/releases/tag/v1.5.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-23",
+      "type": "release",
+      "title": "v1.5.3 — Search relevance & ingestion reliability",
+      "url": "https://github.com/topoteretes/cognee/releases/tag/v1.5.3",
+      "points": null
+    }
+  ]
 }

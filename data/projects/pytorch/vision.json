@@ -45,9 +45,221 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 17896,
+      "stars": 17897,
       "forks": 7258,
-      "openIssues": 1202
+      "openIssues": 1203
+    }
+  ],
+  "events": [
+    {
+      "date": "2022-03-10",
+      "type": "release",
+      "title": "TorchVision 0.12, including new Models, Datasets, GPU Video Decoding, and more",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.12.0",
+      "points": null
+    },
+    {
+      "date": "2022-06-28",
+      "type": "release",
+      "title": "TorchVision 0.13, including new Multi-weights API, new pre-trained weights, and more",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.13.0",
+      "points": null
+    },
+    {
+      "date": "2022-08-05",
+      "type": "release",
+      "title": "Minor release",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.13.1",
+      "points": null
+    },
+    {
+      "date": "2022-10-28",
+      "type": "release",
+      "title": "TorchVision 0.14, including new model registration API, new models, weights, augmentations, and more",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.14.0",
+      "points": null
+    },
+    {
+      "date": "2022-12-16",
+      "type": "release",
+      "title": "TorchVision 0.14.1 Release",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.14.1",
+      "points": null
+    },
+    {
+      "date": "2023-03-15",
+      "type": "release",
+      "title": "TorchVision 0.15 - New transforms API!",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.15.1",
+      "points": null
+    },
+    {
+      "date": "2023-05-08",
+      "type": "release",
+      "title": "TorchVision 0.15.2 Release",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.15.2",
+      "points": null
+    },
+    {
+      "date": "2023-10-04",
+      "type": "release",
+      "title": "TorchVision 0.16 - Transforms speedups, CutMix/MixUp, and MPS support!",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.16.0",
+      "points": null
+    },
+    {
+      "date": "2023-11-15",
+      "type": "release",
+      "title": "TorchVision 0.16.1 Release",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.16.1",
+      "points": null
+    },
+    {
+      "date": "2023-12-15",
+      "type": "release",
+      "title": "TorchVision 0.16.2 Release",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.16.2",
+      "points": null
+    },
+    {
+      "date": "2024-01-30",
+      "type": "release",
+      "title": "TorchVision 0.17 Release ",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.17.0",
+      "points": null
+    },
+    {
+      "date": "2024-02-22",
+      "type": "release",
+      "title": "TorchVision 0.17.1 Release",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.17.1",
+      "points": null
+    },
+    {
+      "date": "2024-03-28",
+      "type": "release",
+      "title": "TorchVision 0.17.2 Release",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.17.2",
+      "points": null
+    },
+    {
+      "date": "2024-04-24",
+      "type": "release",
+      "title": " TorchVision 0.18 Release",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.18.0",
+      "points": null
+    },
+    {
+      "date": "2024-06-05",
+      "type": "release",
+      "title": "TorchVision 0.18.1 Release",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.18.1",
+      "points": null
+    },
+    {
+      "date": "2024-07-24",
+      "type": "release",
+      "title": "Torchvision 0.19 release",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.19.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-04",
+      "type": "release",
+      "title": "TorchVision 0.19.1 Release",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.19.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-17",
+      "type": "release",
+      "title": "Torchvision 0.20 release",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.20.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-29",
+      "type": "release",
+      "title": "Torchvision 0.21 release",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.21.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-23",
+      "type": "release",
+      "title": "Torchvision 0.22 release",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.22.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-04",
+      "type": "release",
+      "title": "TorchVision 0.22.1 Release",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.22.1",
+      "points": null
+    },
+    {
+      "date": "2025-08-06",
+      "type": "release",
+      "title": "Torchvision 0.23 release",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.23.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-15",
+      "type": "release",
+      "title": "Torchvision 0.24 release",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.24.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-12",
+      "type": "release",
+      "title": "TorchVision 0.24.1 Release",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.24.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-21",
+      "type": "release",
+      "title": "TorchVision 0.25 Release",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.25.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-23",
+      "type": "release",
+      "title": "TorchVision 0.26 Release",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.26.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "TorchVision 0.27 Release",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.27.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-18",
+      "type": "release",
+      "title": "TorchVision 0.27.1 Release",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.27.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "TorchVision 0.28.0 Release",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.28.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "TorchVision 0.29: ABI stability!",
+      "url": "https://github.com/pytorch/vision/releases/tag/v0.29.0",
+      "points": null
     }
   ]
 }

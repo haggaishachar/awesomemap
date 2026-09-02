@@ -4,8 +4,8 @@
   "link": "https://github.com/nndeploy/nndeploy",
   "name": "nndeploy",
   "desc": "一款简单易用和高性能的AI部署框架 | An Easy-to-Use and High-Performance AI Deployment Framework",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "nndeploy",
+  "githubDescription": "一款简单易用和高性能的AI部署框架 | An Easy-to-Use and High-Performance AI Deployment Framework",
   "tags": [
     "ai",
     "ascend",
@@ -26,7 +26,107 @@
     "transformer",
     "workflow"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1871,
+      "forks": 233,
+      "openIssues": 23
+    }
+  ],
   "weight": 1871,
-  "image": "https://avatars.githubusercontent.com/u/147458884?v=4"
+  "image": "https://avatars.githubusercontent.com/u/147458884?v=4",
+  "events": [
+    {
+      "date": "2025-08-28",
+      "type": "release",
+      "title": "v2.5.0",
+      "url": "https://github.com/nndeploy/nndeploy/releases/tag/v2.5.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-02",
+      "type": "release",
+      "title": "v2.6.2",
+      "url": "https://github.com/nndeploy/nndeploy/releases/tag/v2.6.2",
+      "points": null
+    },
+    {
+      "date": "2025-10-26",
+      "type": "release",
+      "title": "v3.0.0",
+      "url": "https://github.com/nndeploy/nndeploy/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-30",
+      "type": "release",
+      "title": "v3.0.1",
+      "url": "https://github.com/nndeploy/nndeploy/releases/tag/v3.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-10-31",
+      "type": "release",
+      "title": "v3.0.2",
+      "url": "https://github.com/nndeploy/nndeploy/releases/tag/v3.0.2",
+      "points": null
+    },
+    {
+      "date": "2025-11-01",
+      "type": "release",
+      "title": "v3.0.3",
+      "url": "https://github.com/nndeploy/nndeploy/releases/tag/v3.0.3",
+      "points": null
+    },
+    {
+      "date": "2025-11-02",
+      "type": "release",
+      "title": "v3.0.4",
+      "url": "https://github.com/nndeploy/nndeploy/releases/tag/v3.0.4",
+      "points": null
+    },
+    {
+      "date": "2025-11-03",
+      "type": "release",
+      "title": "v3.0.5",
+      "url": "https://github.com/nndeploy/nndeploy/releases/tag/v3.0.5",
+      "points": null
+    },
+    {
+      "date": "2025-11-04",
+      "type": "release",
+      "title": "v3.0.6",
+      "url": "https://github.com/nndeploy/nndeploy/releases/tag/v3.0.6",
+      "points": null
+    },
+    {
+      "date": "2025-11-12",
+      "type": "release",
+      "title": "v3.0.7",
+      "url": "https://github.com/nndeploy/nndeploy/releases/tag/v3.0.7",
+      "points": null
+    },
+    {
+      "date": "2025-12-04",
+      "type": "release",
+      "title": "v3.0.8",
+      "url": "https://github.com/nndeploy/nndeploy/releases/tag/v3.0.8",
+      "points": null
+    },
+    {
+      "date": "2026-04-04",
+      "type": "release",
+      "title": "v3.0.10",
+      "url": "https://github.com/nndeploy/nndeploy/releases/tag/v3.0.10",
+      "points": null
+    },
+    {
+      "date": "2026-04-04",
+      "type": "release",
+      "title": "v3.0.9",
+      "url": "https://github.com/nndeploy/nndeploy/releases/tag/v3.0.9",
+      "points": null
+    }
+  ]
 }

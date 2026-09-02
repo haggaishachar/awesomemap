@@ -49,9 +49,18 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 9762,
-      "forks": 1643,
-      "openIssues": 600
+      "stars": 9763,
+      "forks": 1645,
+      "openIssues": 601
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-01-08",
+      "type": "hn",
+      "title": "Embassy: Modern embedded framework, using Rust and async",
+      "url": "https://news.ycombinator.com/item?id=46547740",
+      "points": 323
     }
   ]
 }

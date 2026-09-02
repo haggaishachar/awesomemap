@@ -27,11 +27,83 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 57960,
-      "forks": 17468,
+      "stars": 57961,
+      "forks": 17469,
       "openIssues": 31
     }
   ],
   "weight": 57953,
-  "image": "https://avatars.githubusercontent.com/u/26833451?v=4"
+  "image": "https://avatars.githubusercontent.com/u/26833451?v=4",
+  "events": [
+    {
+      "date": "2020-06-25",
+      "type": "release",
+      "title": "v1.0",
+      "url": "https://github.com/ultralytics/yolov5/releases/tag/v1.0",
+      "points": null
+    },
+    {
+      "date": "2020-07-23",
+      "type": "release",
+      "title": "v2.0",
+      "url": "https://github.com/ultralytics/yolov5/releases/tag/v2.0",
+      "points": null
+    },
+    {
+      "date": "2020-08-13",
+      "type": "release",
+      "title": "v3.0",
+      "url": "https://github.com/ultralytics/yolov5/releases/tag/v3.0",
+      "points": null
+    },
+    {
+      "date": "2020-10-29",
+      "type": "release",
+      "title": "v3.1 - Bug Fixes and Performance Improvements",
+      "url": "https://github.com/ultralytics/yolov5/releases/tag/v3.1",
+      "points": null
+    },
+    {
+      "date": "2021-01-05",
+      "type": "release",
+      "title": "v4.0 - nn.SiLU() activations, Weights & Biases logging, PyTorch Hub integration",
+      "url": "https://github.com/ultralytics/yolov5/releases/tag/v4.0",
+      "points": null
+    },
+    {
+      "date": "2021-04-11",
+      "type": "release",
+      "title": "v5.0 - YOLOv5-P6 1280 models, AWS, Supervise.ly and YouTube integrations",
+      "url": "https://github.com/ultralytics/yolov5/releases/tag/v5.0",
+      "points": null
+    },
+    {
+      "date": "2021-10-12",
+      "type": "release",
+      "title": "v6.0 - YOLOv5n 'Nano' models, Roboflow integration, TensorFlow export, OpenCV DNN support",
+      "url": "https://github.com/ultralytics/yolov5/releases/tag/v6.0",
+      "points": null
+    },
+    {
+      "date": "2022-02-22",
+      "type": "release",
+      "title": "v6.1 - TensorRT, TensorFlow Edge TPU and OpenVINO Export and Inference",
+      "url": "https://github.com/ultralytics/yolov5/releases/tag/v6.1",
+      "points": null
+    },
+    {
+      "date": "2022-08-17",
+      "type": "release",
+      "title": "v6.2 - YOLOv5 Classification Models, Apple M1, Reproducibility, ClearML and Deci.ai integrations",
+      "url": "https://github.com/ultralytics/yolov5/releases/tag/v6.2",
+      "points": null
+    },
+    {
+      "date": "2022-11-22",
+      "type": "release",
+      "title": "v7.0 - YOLOv5 SOTA Realtime Instance Segmentation",
+      "url": "https://github.com/ultralytics/yolov5/releases/tag/v7.0",
+      "points": null
+    }
+  ]
 }

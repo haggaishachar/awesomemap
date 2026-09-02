@@ -4,9 +4,102 @@
   "link": "https://github.com/504ensicsLabs/LiME",
   "name": "LiME",
   "desc": "LiME (formerly DMD) is a Loadable Kernel Module (LKM), which allows the acquisition of volatile memory from Linux and Linux-based devices, such as those powered by Android. The tool supports acquiring memory either to the file system of the device or over the network. LiME is unique in that it is the first tool that allows full memory captures from Android devices. It also minimizes its interaction between user and kernel space processes during acquisition, which allows it to produce memory captures that are more forensically sound than those of other tools designed for Linux memory acquisition.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "LiME",
+  "githubDescription": "LiME (formerly DMD) is a Loadable Kernel Module (LKM), which allows the acquisition of volatile memory from Linux and Linux-based devices, such as those powered by Android. The tool supports acquiring memory either to the file system of the device or over the network. LiME is unique in that it is the first tool that allows full memory captures from Android devices. It also minimizes its interaction between user and kernel space processes during acquisition, which allows it to produce memory captures that are more forensically sound than those of other tools designed for Linux memory acquisition.",
   "tags": [],
-  "history": [],
-  "weight": 2028
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2028,
+      "forks": 370,
+      "openIssues": 35
+    }
+  ],
+  "weight": 2028,
+  "events": [
+    {
+      "date": "2016-08-17",
+      "type": "release",
+      "title": "v1.7.4",
+      "url": "https://github.com/jtsylve/LiME/releases/tag/v1.7.4",
+      "points": null
+    },
+    {
+      "date": "2016-08-20",
+      "type": "release",
+      "title": "v1.7.5",
+      "url": "https://github.com/jtsylve/LiME/releases/tag/v1.7.5",
+      "points": null
+    },
+    {
+      "date": "2016-12-23",
+      "type": "release",
+      "title": "v1.7.6",
+      "url": "https://github.com/jtsylve/LiME/releases/tag/v1.7.6",
+      "points": null
+    },
+    {
+      "date": "2017-06-15",
+      "type": "release",
+      "title": "Fixes for kernels >= 4.11",
+      "url": "https://github.com/jtsylve/LiME/releases/tag/v1.7.8",
+      "points": null
+    },
+    {
+      "date": "2018-05-06",
+      "type": "release",
+      "title": "Memory Hashing",
+      "url": "https://github.com/jtsylve/LiME/releases/tag/v1.8",
+      "points": null
+    },
+    {
+      "date": "2019-01-16",
+      "type": "release",
+      "title": "Fixes for digest transfer",
+      "url": "https://github.com/jtsylve/LiME/releases/tag/v1.8.1",
+      "points": null
+    },
+    {
+      "date": "2019-10-19",
+      "type": "release",
+      "title": "Kernel Compression Option",
+      "url": "https://github.com/jtsylve/LiME/releases/tag/v1.9",
+      "points": null
+    },
+    {
+      "date": "2020-08-25",
+      "type": "release",
+      "title": "Bug Fix and new kernel options",
+      "url": "https://github.com/jtsylve/LiME/releases/tag/v1.9.1",
+      "points": null
+    },
+    {
+      "date": "2025-08-06",
+      "type": "release",
+      "title": "Fix compiling for modern kernels and compilers",
+      "url": "https://github.com/jtsylve/LiME/releases/tag/v1.10.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-18",
+      "type": "release",
+      "title": "v1.10.1",
+      "url": "https://github.com/jtsylve/LiME/releases/tag/v1.10.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-15",
+      "type": "release",
+      "title": "v1.11.0",
+      "url": "https://github.com/jtsylve/LiME/releases/tag/v1.11.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-31",
+      "type": "release",
+      "title": "v1.12.0",
+      "url": "https://github.com/jtsylve/LiME/releases/tag/v1.12.0",
+      "points": null
+    }
+  ]
 }

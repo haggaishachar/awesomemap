@@ -127,5 +127,98 @@
       "forks": 985,
       "openIssues": 11
     }
+  ],
+  "events": [
+    {
+      "date": "2021-08-03",
+      "type": "release",
+      "title": "ZMap 3.0.0 Major Release (Beta 1)",
+      "url": "https://github.com/zmap/zmap/releases/tag/v3.0.0-beta1",
+      "points": null
+    },
+    {
+      "date": "2023-03-23",
+      "type": "release",
+      "title": "ZMap 3.0.0 RC1",
+      "url": "https://github.com/zmap/zmap/releases/tag/v3.0.0-RC1",
+      "points": null
+    },
+    {
+      "date": "2023-04-22",
+      "type": "release",
+      "title": "ZMap 3.0.0 RC2",
+      "url": "https://github.com/zmap/zmap/releases/tag/v3.0.0-RC2",
+      "points": null
+    },
+    {
+      "date": "2023-06-23",
+      "type": "release",
+      "title": "ZMap 3.0.0",
+      "url": "https://github.com/zmap/zmap/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-05-21",
+      "type": "release",
+      "title": "v4.1.1",
+      "url": "https://github.com/zmap/zmap/releases/tag/v4.1.1",
+      "points": null
+    },
+    {
+      "date": "2024-05-21",
+      "type": "release",
+      "title": "v4.1.0",
+      "url": "https://github.com/zmap/zmap/releases/tag/v4.1.0",
+      "points": null
+    },
+    {
+      "date": "2024-07-10",
+      "type": "release",
+      "title": "v4.2.0",
+      "url": "https://github.com/zmap/zmap/releases/tag/v4.2.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-27",
+      "type": "release",
+      "title": "v4.3.0",
+      "url": "https://github.com/zmap/zmap/releases/tag/v4.3.0",
+      "points": null
+    },
+    {
+      "date": "2024-12-10",
+      "type": "release",
+      "title": "v4.3.1",
+      "url": "https://github.com/zmap/zmap/releases/tag/v4.3.1",
+      "points": null
+    },
+    {
+      "date": "2025-01-29",
+      "type": "release",
+      "title": "v4.3.2",
+      "url": "https://github.com/zmap/zmap/releases/tag/v4.3.2",
+      "points": null
+    },
+    {
+      "date": "2025-04-29",
+      "type": "release",
+      "title": "v4.3.3",
+      "url": "https://github.com/zmap/zmap/releases/tag/v4.3.3",
+      "points": null
+    },
+    {
+      "date": "2025-05-12",
+      "type": "release",
+      "title": "v4.3.4",
+      "url": "https://github.com/zmap/zmap/releases/tag/v4.3.4",
+      "points": null
+    },
+    {
+      "date": "2026-05-29",
+      "type": "release",
+      "title": "v4.4.0",
+      "url": "https://github.com/zmap/zmap/releases/tag/v4.4.0",
+      "points": null
+    }
   ]
 }

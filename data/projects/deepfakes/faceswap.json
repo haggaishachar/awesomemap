@@ -26,9 +26,53 @@
     {
       "date": "2026-09-02",
       "stars": 57518,
-      "forks": 13484,
+      "forks": 13483,
       "openIssues": 14
     }
   ],
-  "weight": 57515
+  "weight": 57515,
+  "events": [
+    {
+      "date": "2019-02-17",
+      "type": "hn",
+      "title": "Github restricts public Faceswap repo to logged-in users",
+      "url": "https://news.ycombinator.com/item?id=19182956",
+      "points": 299
+    },
+    {
+      "date": "2019-02-23",
+      "type": "release",
+      "title": "Pre Refactor Snapshot",
+      "url": "https://github.com/deepfakes/faceswap/releases/tag/v0.90",
+      "points": null
+    },
+    {
+      "date": "2020-08-14",
+      "type": "release",
+      "title": "Faceswap Windows and Linux Installers v1.0.0",
+      "url": "https://github.com/deepfakes/faceswap/releases/tag/v1.0.0",
+      "points": null
+    },
+    {
+      "date": "2023-06-18",
+      "type": "release",
+      "title": "Faceswap Windows and Linux Installers v2.2.0 ",
+      "url": "https://github.com/deepfakes/faceswap/releases/tag/v2.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-19",
+      "type": "release",
+      "title": "Faceswap v2.3.0 Windows, Linux and macOS Installers",
+      "url": "https://github.com/deepfakes/faceswap/releases/tag/v2.3.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-21",
+      "type": "release",
+      "title": "Faceswap Windows, Linux and macOS Installers v3.0.0",
+      "url": "https://github.com/deepfakes/faceswap/releases/tag/v3.0.0",
+      "points": null
+    }
+  ]
 }

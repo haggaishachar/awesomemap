@@ -4,8 +4,8 @@
   "link": "https://github.com/alan-turing-institute/MLJ.jl",
   "name": "MLJ.jl",
   "desc": "A Julia machine learning framework",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "MLJ.jl",
+  "githubDescription": "A Julia machine learning framework",
   "tags": [
     "classification",
     "clustering",
@@ -22,7 +22,226 @@
     "tuning",
     "tuning-parameters"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1939,
+      "forks": 160,
+      "openIssues": 84
+    }
+  ],
   "weight": 1939,
-  "image": "https://avatars.githubusercontent.com/u/80715868?v=4"
+  "image": "https://avatars.githubusercontent.com/u/80715868?v=4",
+  "events": [
+    {
+      "date": "2022-03-08",
+      "type": "release",
+      "title": "v0.17.3",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.17.3",
+      "points": null
+    },
+    {
+      "date": "2022-04-07",
+      "type": "release",
+      "title": "v0.18.1",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.18.1",
+      "points": null
+    },
+    {
+      "date": "2022-04-07",
+      "type": "release",
+      "title": "v0.18.0",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.18.0",
+      "points": null
+    },
+    {
+      "date": "2022-04-27",
+      "type": "release",
+      "title": "v0.18.2",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.18.2",
+      "points": null
+    },
+    {
+      "date": "2022-06-17",
+      "type": "release",
+      "title": "v0.18.3",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.18.3",
+      "points": null
+    },
+    {
+      "date": "2022-07-14",
+      "type": "release",
+      "title": "v0.18.4",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.18.4",
+      "points": null
+    },
+    {
+      "date": "2022-08-30",
+      "type": "release",
+      "title": "v0.18.5",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.18.5",
+      "points": null
+    },
+    {
+      "date": "2022-10-26",
+      "type": "release",
+      "title": "v0.18.6",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.18.6",
+      "points": null
+    },
+    {
+      "date": "2022-11-07",
+      "type": "release",
+      "title": "v0.19.0",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.19.0",
+      "points": null
+    },
+    {
+      "date": "2023-01-08",
+      "type": "release",
+      "title": "v0.19.1",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.19.1",
+      "points": null
+    },
+    {
+      "date": "2023-06-16",
+      "type": "release",
+      "title": "v0.19.2",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.19.2",
+      "points": null
+    },
+    {
+      "date": "2023-08-24",
+      "type": "release",
+      "title": "v0.19.4",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.19.4",
+      "points": null
+    },
+    {
+      "date": "2023-08-24",
+      "type": "release",
+      "title": "v0.19.3",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.19.3",
+      "points": null
+    },
+    {
+      "date": "2023-08-27",
+      "type": "release",
+      "title": "v0.19.5",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.19.5",
+      "points": null
+    },
+    {
+      "date": "2023-09-29",
+      "type": "release",
+      "title": "v0.20.0",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.20.0",
+      "points": null
+    },
+    {
+      "date": "2023-10-10",
+      "type": "release",
+      "title": "v0.20.1",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.20.1",
+      "points": null
+    },
+    {
+      "date": "2023-11-21",
+      "type": "release",
+      "title": "v0.20.2",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.20.2",
+      "points": null
+    },
+    {
+      "date": "2024-03-08",
+      "type": "release",
+      "title": "v0.20.3",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.20.3",
+      "points": null
+    },
+    {
+      "date": "2024-05-20",
+      "type": "release",
+      "title": "v0.20.4",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.20.4",
+      "points": null
+    },
+    {
+      "date": "2024-05-22",
+      "type": "release",
+      "title": "v0.20.5",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.20.5",
+      "points": null
+    },
+    {
+      "date": "2024-06-06",
+      "type": "release",
+      "title": "v0.20.6",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.20.6",
+      "points": null
+    },
+    {
+      "date": "2024-07-19",
+      "type": "release",
+      "title": "v0.20.7",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.20.7",
+      "points": null
+    },
+    {
+      "date": "2025-06-03",
+      "type": "release",
+      "title": "v0.20.8",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.20.8",
+      "points": null
+    },
+    {
+      "date": "2025-07-14",
+      "type": "release",
+      "title": "v0.20.9",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.20.9",
+      "points": null
+    },
+    {
+      "date": "2025-09-10",
+      "type": "release",
+      "title": "v0.21.0",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.21.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-20",
+      "type": "release",
+      "title": "v0.22.0",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.22.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-24",
+      "type": "release",
+      "title": "v0.23.0",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.23.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-07",
+      "type": "release",
+      "title": "v0.23.1",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.23.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-13",
+      "type": "release",
+      "title": "v0.23.2",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.23.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-22",
+      "type": "release",
+      "title": "v0.23.3",
+      "url": "https://github.com/JuliaAI/MLJ.jl/releases/tag/v0.23.3",
+      "points": null
+    }
+  ]
 }

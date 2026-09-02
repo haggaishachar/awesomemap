@@ -4,8 +4,8 @@
   "link": "https://github.com/gojek/feast",
   "name": "feast",
   "desc": "The Open Source Feature Store for AI/ML",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "feast",
+  "githubDescription": "The Open Source Feature Store for AI/ML",
   "tags": [
     "big-data",
     "data-engineering",
@@ -18,7 +18,226 @@
     "mlops",
     "python"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 7244,
+      "forks": 1423,
+      "openIssues": 426
+    }
+  ],
   "weight": 7242,
-  "image": "https://avatars.githubusercontent.com/u/57027613?v=4"
+  "image": "https://avatars.githubusercontent.com/u/57027613?v=4",
+  "events": [
+    {
+      "date": "2024-10-26",
+      "type": "release",
+      "title": "v0.41.3",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.41.3",
+      "points": null
+    },
+    {
+      "date": "2024-10-26",
+      "type": "release",
+      "title": "v0.41.2",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.41.2",
+      "points": null
+    },
+    {
+      "date": "2024-10-26",
+      "type": "release",
+      "title": "v0.41.1",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.41.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-26",
+      "type": "release",
+      "title": "v0.41.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.41.0",
+      "points": null
+    },
+    {
+      "date": "2024-12-05",
+      "type": "release",
+      "title": "v0.42.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.42.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-20",
+      "type": "release",
+      "title": "v0.43.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.43.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-04",
+      "type": "release",
+      "title": "v0.45.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.45.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-04",
+      "type": "release",
+      "title": "v0.44.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.44.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-17",
+      "type": "release",
+      "title": "v0.46.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.46.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-10",
+      "type": "release",
+      "title": "v0.47.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.47.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-07",
+      "type": "release",
+      "title": "v0.48.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.48.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-08",
+      "type": "release",
+      "title": "v0.48.1",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.48.1",
+      "points": null
+    },
+    {
+      "date": "2025-04-29",
+      "type": "release",
+      "title": "v0.49.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.49.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-01",
+      "type": "release",
+      "title": "v0.50.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.50.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-21",
+      "type": "release",
+      "title": "v0.51.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.51.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-14",
+      "type": "release",
+      "title": "v0.52.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.52.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-30",
+      "type": "release",
+      "title": "v0.53.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.53.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-30",
+      "type": "release",
+      "title": "v0.54.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.54.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-14",
+      "type": "release",
+      "title": "v0.55.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.55.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-27",
+      "type": "release",
+      "title": "v0.56.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.56.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-13",
+      "type": "release",
+      "title": "v0.57.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.57.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-16",
+      "type": "release",
+      "title": "v0.58.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.58.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-16",
+      "type": "release",
+      "title": "v0.59.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.59.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-17",
+      "type": "release",
+      "title": "v0.60.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.60.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-10",
+      "type": "release",
+      "title": "v0.61.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.61.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-08",
+      "type": "release",
+      "title": "v0.62.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.62.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-04",
+      "type": "release",
+      "title": "v0.63.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.63.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-13",
+      "type": "release",
+      "title": "v0.64.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.64.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-20",
+      "type": "release",
+      "title": "v0.65.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.65.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "v0.66.0",
+      "url": "https://github.com/feast-dev/feast/releases/tag/v0.66.0",
+      "points": null
+    }
+  ]
 }

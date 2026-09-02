@@ -40,5 +40,203 @@
       "forks": 726,
       "openIssues": 4
     }
+  ],
+  "events": [
+    {
+      "date": "2025-01-20",
+      "type": "release",
+      "title": "v2.11.1",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.11.1",
+      "points": null
+    },
+    {
+      "date": "2025-01-31",
+      "type": "release",
+      "title": "v2.11.2",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.11.2",
+      "points": null
+    },
+    {
+      "date": "2025-02-01",
+      "type": "release",
+      "title": "v2.11.3",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.11.3",
+      "points": null
+    },
+    {
+      "date": "2025-02-11",
+      "type": "release",
+      "title": "v2.12.0",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.12.0",
+      "points": null
+    },
+    {
+      "date": "2025-02-17",
+      "type": "release",
+      "title": "v2.12.1",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.12.1",
+      "points": null
+    },
+    {
+      "date": "2025-03-10",
+      "type": "release",
+      "title": "v2.12.2",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.12.2",
+      "points": null
+    },
+    {
+      "date": "2025-04-14",
+      "type": "release",
+      "title": "v2.12.3",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.12.3",
+      "points": null
+    },
+    {
+      "date": "2025-05-06",
+      "type": "release",
+      "title": "v2.12.4",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.12.4",
+      "points": null
+    },
+    {
+      "date": "2025-05-27",
+      "type": "release",
+      "title": "v2.12.5",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.12.5",
+      "points": null
+    },
+    {
+      "date": "2025-08-04",
+      "type": "release",
+      "title": "v2.13.0",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.13.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-11",
+      "type": "release",
+      "title": "v2.13.1",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.13.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-08",
+      "type": "release",
+      "title": "v2.14.0",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.14.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-25",
+      "type": "release",
+      "title": "v2.15.0",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.15.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-01",
+      "type": "release",
+      "title": "v2.15.1",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.15.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-01",
+      "type": "release",
+      "title": "v2.15.2",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.15.2",
+      "points": null
+    },
+    {
+      "date": "2025-12-09",
+      "type": "release",
+      "title": "v2.16.0",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.16.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-26",
+      "type": "release",
+      "title": "v2.16.1",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.16.1",
+      "points": null
+    },
+    {
+      "date": "2026-01-13",
+      "type": "release",
+      "title": "v2.16.2",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.16.2",
+      "points": null
+    },
+    {
+      "date": "2026-01-28",
+      "type": "release",
+      "title": "v2.17.0",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.17.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-04",
+      "type": "release",
+      "title": "v2.17.1",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.17.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-19",
+      "type": "release",
+      "title": "v2.18.0",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.18.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-09",
+      "type": "release",
+      "title": "v2.18.1",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.18.1",
+      "points": null
+    },
+    {
+      "date": "2026-03-24",
+      "type": "release",
+      "title": "v2.19.0",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.19.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-07",
+      "type": "release",
+      "title": "v2.19.1",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.19.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "v2.20.0",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.20.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-11",
+      "type": "release",
+      "title": "v2.20.1",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.20.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "v2.20.2",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.20.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "v2.20.3",
+      "url": "https://github.com/pmndrs/jotai/releases/tag/v2.20.3",
+      "points": null
+    }
   ]
 }

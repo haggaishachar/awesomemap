@@ -30,11 +30,230 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 49841,
-      "forks": 4750,
-      "openIssues": 82
+      "stars": 49850,
+      "forks": 4751,
+      "openIssues": 81
     }
   ],
   "weight": 49820,
-  "image": "https://avatars.githubusercontent.com/u/53104118?v=4"
+  "image": "https://avatars.githubusercontent.com/u/53104118?v=4",
+  "events": [
+    {
+      "date": "2023-05-17",
+      "type": "release",
+      "title": "supervision-0.8.0",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.8.0",
+      "points": null
+    },
+    {
+      "date": "2023-06-07",
+      "type": "release",
+      "title": "supervision-0.9.0",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.9.0",
+      "points": null
+    },
+    {
+      "date": "2023-06-14",
+      "type": "release",
+      "title": "supervision-0.10.0",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.10.0",
+      "points": null
+    },
+    {
+      "date": "2023-06-28",
+      "type": "release",
+      "title": "supervision-0.11.0",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.11.0",
+      "points": null
+    },
+    {
+      "date": "2023-06-29",
+      "type": "release",
+      "title": "supervision-0.11.1",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.11.1",
+      "points": null
+    },
+    {
+      "date": "2023-07-24",
+      "type": "release",
+      "title": "supervision-0.12.0",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.12.0",
+      "points": null
+    },
+    {
+      "date": "2023-08-08",
+      "type": "release",
+      "title": "supervision-0.13.0",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.13.0",
+      "points": null
+    },
+    {
+      "date": "2023-08-31",
+      "type": "release",
+      "title": "supervision-0.14.0",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.14.0",
+      "points": null
+    },
+    {
+      "date": "2023-10-05",
+      "type": "release",
+      "title": "supervision-0.15.0",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.15.0",
+      "points": null
+    },
+    {
+      "date": "2023-10-19",
+      "type": "release",
+      "title": "supervision-0.16.0",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.16.0",
+      "points": null
+    },
+    {
+      "date": "2023-12-06",
+      "type": "release",
+      "title": "supervision-0.17.0",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.17.0",
+      "points": null
+    },
+    {
+      "date": "2023-12-08",
+      "type": "release",
+      "title": "supervision-0.17.1",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.17.1",
+      "points": null
+    },
+    {
+      "date": "2024-01-25",
+      "type": "release",
+      "title": "supervision-0.18.0",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.18.0",
+      "points": null
+    },
+    {
+      "date": "2024-03-15",
+      "type": "release",
+      "title": "supervision-0.19.0",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.19.0",
+      "points": null
+    },
+    {
+      "date": "2024-03-25",
+      "type": "hn",
+      "title": "Supervision: Reusable Computer Vision",
+      "url": "https://news.ycombinator.com/item?id=39812259",
+      "points": 236
+    },
+    {
+      "date": "2024-04-24",
+      "type": "release",
+      "title": "supervision-0.20.0",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.20.0",
+      "points": null
+    },
+    {
+      "date": "2024-06-06",
+      "type": "release",
+      "title": "supervision-0.21.0",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.21.0",
+      "points": null
+    },
+    {
+      "date": "2024-07-12",
+      "type": "release",
+      "title": "supervision-0.22.0",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.22.0",
+      "points": null
+    },
+    {
+      "date": "2024-08-28",
+      "type": "release",
+      "title": "supervision-0.23.0",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.23.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-04",
+      "type": "release",
+      "title": "supervision-0.24.0",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.24.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-12",
+      "type": "release",
+      "title": "supervision-0.25.0",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.25.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-16",
+      "type": "release",
+      "title": "supervision-0.26.0",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.26.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-23",
+      "type": "release",
+      "title": "supervision-0.26.1",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.26.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-16",
+      "type": "release",
+      "title": "supervision-0.27.0",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.27.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-14",
+      "type": "release",
+      "title": "supervision-0.27.0.post",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.27.0.post2",
+      "points": null
+    },
+    {
+      "date": "2026-04-30",
+      "type": "release",
+      "title": "supervision-0.28.0",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.28.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "supervision-0.29.0",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.29.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-17",
+      "type": "release",
+      "title": "supervision-0.29.0.post",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.29.0.post0",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "supervision-0.29.1",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.29.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "supervision-0.30.0",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.30.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-24",
+      "type": "release",
+      "title": "supervision-0.30.1",
+      "url": "https://github.com/roboflow/supervision/releases/tag/0.30.1",
+      "points": null
+    }
+  ]
 }

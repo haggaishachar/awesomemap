@@ -100,9 +100,144 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 57988,
-      "forks": 8311,
-      "openIssues": 698
+      "stars": 58010,
+      "forks": 8318,
+      "openIssues": 705
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-06-25",
+      "type": "release",
+      "title": "1.15.0",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-27",
+      "type": "release",
+      "title": "1.15.1",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "title": "1.15.2",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "1.15.3",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-17",
+      "type": "release",
+      "title": "1.15.4",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.4",
+      "points": null
+    },
+    {
+      "date": "2026-07-20",
+      "type": "release",
+      "title": "1.15.5",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.5",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "1.15.6",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.6",
+      "points": null
+    },
+    {
+      "date": "2026-07-26",
+      "type": "release",
+      "title": "1.15.7",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.7",
+      "points": null
+    },
+    {
+      "date": "2026-07-28",
+      "type": "release",
+      "title": "1.15.8",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.8",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "1.15.9",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.9",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "1.15.10",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.10",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "1.15.12",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.12",
+      "points": null
+    },
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "title": "1.15.11",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.11",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "1.15.13",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.13",
+      "points": null
+    },
+    {
+      "date": "2026-08-08",
+      "type": "release",
+      "title": "1.15.14",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.14",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "1.15.15",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.15",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "1.15.16",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.16",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "1.15.17",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.17",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "1.15.18",
+      "url": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.18",
+      "points": null
     }
   ]
 }

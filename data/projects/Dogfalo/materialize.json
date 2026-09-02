@@ -50,9 +50,172 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 38813,
-      "forks": 4603,
+      "stars": 38812,
+      "forks": 4602,
       "openIssues": 791
+    }
+  ],
+  "events": [
+    {
+      "date": "2015-01-17",
+      "type": "release",
+      "title": "v0.95.0",
+      "url": "https://github.com/Dogfalo/materialize/releases/tag/v0.95.0",
+      "points": null
+    },
+    {
+      "date": "2015-01-26",
+      "type": "release",
+      "title": "v0.95.1",
+      "url": "https://github.com/Dogfalo/materialize/releases/tag/v0.95.1",
+      "points": null
+    },
+    {
+      "date": "2015-02-11",
+      "type": "release",
+      "title": "v0.95.2",
+      "url": "https://github.com/Dogfalo/materialize/releases/tag/v0.95.2",
+      "points": null
+    },
+    {
+      "date": "2015-03-13",
+      "type": "release",
+      "title": "v0.95.3",
+      "url": "https://github.com/Dogfalo/materialize/releases/tag/v0.95.3",
+      "points": null
+    },
+    {
+      "date": "2015-04-01",
+      "type": "release",
+      "title": "v0.96.0",
+      "url": "https://github.com/Dogfalo/materialize/releases/tag/v0.96.0",
+      "points": null
+    },
+    {
+      "date": "2015-06-22",
+      "type": "release",
+      "title": "v0.96.1",
+      "url": "https://github.com/Dogfalo/materialize/releases/tag/v0.96.1",
+      "points": null
+    },
+    {
+      "date": "2015-09-14",
+      "type": "release",
+      "title": "v0.97.1",
+      "url": "https://github.com/Dogfalo/materialize/releases/tag/v0.97.1",
+      "points": null
+    },
+    {
+      "date": "2015-11-09",
+      "type": "release",
+      "title": "v0.97.2",
+      "url": "https://github.com/Dogfalo/materialize/releases/tag/v0.97.2",
+      "points": null
+    },
+    {
+      "date": "2015-11-09",
+      "type": "release",
+      "title": "v0.97.0",
+      "url": "https://github.com/Dogfalo/materialize/releases/tag/v0.97.0",
+      "points": null
+    },
+    {
+      "date": "2015-11-16",
+      "type": "release",
+      "title": "v0.97.3",
+      "url": "https://github.com/Dogfalo/materialize/releases/tag/v0.97.3",
+      "points": null
+    },
+    {
+      "date": "2015-12-21",
+      "type": "release",
+      "title": "v0.97.4",
+      "url": "https://github.com/Dogfalo/materialize/releases/tag/v0.97.4",
+      "points": null
+    },
+    {
+      "date": "2015-12-22",
+      "type": "release",
+      "title": "v0.97.5",
+      "url": "https://github.com/Dogfalo/materialize/releases/tag/v0.97.5",
+      "points": null
+    },
+    {
+      "date": "2016-04-02",
+      "type": "release",
+      "title": "v0.97.6",
+      "url": "https://github.com/Dogfalo/materialize/releases/tag/v0.97.6",
+      "points": null
+    },
+    {
+      "date": "2016-07-23",
+      "type": "release",
+      "title": "v0.97.7",
+      "url": "https://github.com/Dogfalo/materialize/releases/tag/v0.97.7",
+      "points": null
+    },
+    {
+      "date": "2016-10-30",
+      "type": "release",
+      "title": "v0.97.8",
+      "url": "https://github.com/Dogfalo/materialize/releases/tag/v0.97.8",
+      "points": null
+    },
+    {
+      "date": "2017-01-25",
+      "type": "release",
+      "title": "v0.98.0",
+      "url": "https://github.com/Dogfalo/materialize/releases/tag/v0.98.0",
+      "points": null
+    },
+    {
+      "date": "2017-03-21",
+      "type": "release",
+      "title": "v0.98.1",
+      "url": "https://github.com/Dogfalo/materialize/releases/tag/v0.98.1",
+      "points": null
+    },
+    {
+      "date": "2017-04-15",
+      "type": "release",
+      "title": "v0.98.2",
+      "url": "https://github.com/Dogfalo/materialize/releases/tag/v0.98.2",
+      "points": null
+    },
+    {
+      "date": "2017-06-22",
+      "type": "release",
+      "title": "v0.99.0",
+      "url": "https://github.com/Dogfalo/materialize/releases/tag/v0.99.0",
+      "points": null
+    },
+    {
+      "date": "2017-07-20",
+      "type": "release",
+      "title": "v0.100.0",
+      "url": "https://github.com/Dogfalo/materialize/releases/tag/v0.100.0",
+      "points": null
+    },
+    {
+      "date": "2017-07-22",
+      "type": "release",
+      "title": "v0.100.1",
+      "url": "https://github.com/Dogfalo/materialize/releases/tag/v0.100.1",
+      "points": null
+    },
+    {
+      "date": "2017-08-26",
+      "type": "release",
+      "title": "v0.100.2",
+      "url": "https://github.com/Dogfalo/materialize/releases/tag/v0.100.2",
+      "points": null
+    },
+    {
+      "date": "2018-09-09",
+      "type": "release",
+      "title": "1.0.0",
+      "url": "https://github.com/Dogfalo/materialize/releases/tag/1.0.0",
+      "points": null
     }
   ]
 }

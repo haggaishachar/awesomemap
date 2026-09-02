@@ -125,8 +125,220 @@
     {
       "date": "2026-09-02",
       "stars": 12882,
-      "forks": 4615,
-      "openIssues": 2861
+      "forks": 4617,
+      "openIssues": 2862
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-03-19",
+      "type": "release",
+      "title": "v2.244.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.244.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-27",
+      "type": "release",
+      "title": "v2.245.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.245.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-31",
+      "type": "release",
+      "title": "v2.246.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.246.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-02",
+      "type": "release",
+      "title": "v2.247.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.247.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-03",
+      "type": "release",
+      "title": "v2.248.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.248.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-13",
+      "type": "release",
+      "title": "v2.249.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.249.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-14",
+      "type": "release",
+      "title": "v2.250.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.250.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-24",
+      "type": "release",
+      "title": "v2.251.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.251.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-30",
+      "type": "release",
+      "title": "v2.252.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.252.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "v2.253.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.253.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-08",
+      "type": "release",
+      "title": "v2.253.1",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.253.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "v2.254.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.254.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-19",
+      "type": "release",
+      "title": "v2.256.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.256.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-19",
+      "type": "release",
+      "title": "v2.255.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.255.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-20",
+      "type": "release",
+      "title": "v2.256.1",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.256.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-21",
+      "type": "release",
+      "title": "v2.257.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.257.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "v2.258.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.258.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "title": "v2.258.1",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.258.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-12",
+      "type": "release",
+      "title": "v2.259.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.259.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-16",
+      "type": "release",
+      "title": "v2.260.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.260.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-02",
+      "type": "release",
+      "title": "v2.261.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.261.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-22",
+      "type": "release",
+      "title": "v2.262.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.262.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "v2.262.1",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.262.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "title": "v2.262.2",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.262.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "v2.263.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.263.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "title": "v2.264.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.264.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "v2.265.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.265.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "v2.266.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.266.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "v2.267.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.267.0",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "v2.268.0",
+      "url": "https://github.com/aws/aws-cdk/releases/tag/v2.268.0",
+      "points": null
     }
   ]
 }

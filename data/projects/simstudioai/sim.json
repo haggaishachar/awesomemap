@@ -29,11 +29,181 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 29515,
-      "forks": 3805,
+      "stars": 29528,
+      "forks": 3806,
       "openIssues": 291
     }
   ],
   "weight": 29503,
-  "image": "https://avatars.githubusercontent.com/u/199344406?v=4"
+  "image": "https://avatars.githubusercontent.com/u/199344406?v=4",
+  "events": [
+    {
+      "date": "2025-04-28",
+      "type": "hn",
+      "title": "Show HN: Sim Studio – Open-Source Agent Workflow GUI",
+      "url": "https://news.ycombinator.com/item?id=43823096",
+      "points": 196
+    },
+    {
+      "date": "2025-12-11",
+      "type": "hn",
+      "title": "Show HN: Sim – Apache-2.0 n8n alternative",
+      "url": "https://news.ycombinator.com/item?id=46234186",
+      "points": 240
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "v0.8.0",
+      "url": "https://github.com/simstudioai/sim/releases/tag/v0.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "title": "v0.8.1",
+      "url": "https://github.com/simstudioai/sim/releases/tag/v0.8.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-15",
+      "type": "release",
+      "title": "v0.8.2",
+      "url": "https://github.com/simstudioai/sim/releases/tag/v0.8.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-17",
+      "type": "release",
+      "title": "v0.8.3",
+      "url": "https://github.com/simstudioai/sim/releases/tag/v0.8.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "title": "v0.8.4",
+      "url": "https://github.com/simstudioai/sim/releases/tag/v0.8.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "v0.8.6",
+      "url": "https://github.com/simstudioai/sim/releases/tag/v0.8.6",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "v0.8.5",
+      "url": "https://github.com/simstudioai/sim/releases/tag/v0.8.5",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "v0.8.7",
+      "url": "https://github.com/simstudioai/sim/releases/tag/v0.8.7",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "v0.8.9",
+      "url": "https://github.com/simstudioai/sim/releases/tag/v0.8.9",
+      "points": null
+    },
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "title": "v0.8.8",
+      "url": "https://github.com/simstudioai/sim/releases/tag/v0.8.8",
+      "points": null
+    },
+    {
+      "date": "2026-08-23",
+      "type": "release",
+      "title": "v0.8.10",
+      "url": "https://github.com/simstudioai/sim/releases/tag/v0.8.10",
+      "points": null
+    },
+    {
+      "date": "2026-08-25",
+      "type": "release",
+      "title": "v0.8.11",
+      "url": "https://github.com/simstudioai/sim/releases/tag/v0.8.11",
+      "points": null
+    },
+    {
+      "date": "2026-08-25",
+      "type": "release",
+      "title": "TypeScript SDK v0.2.0",
+      "url": "https://github.com/simstudioai/sim/releases/tag/typescript-sdk-v0.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "v0.8.12",
+      "url": "https://github.com/simstudioai/sim/releases/tag/v0.8.12",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "v0.8.13",
+      "url": "https://github.com/simstudioai/sim/releases/tag/v0.8.13",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "v0.8.15",
+      "url": "https://github.com/simstudioai/sim/releases/tag/v0.8.15",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "v0.8.14",
+      "url": "https://github.com/simstudioai/sim/releases/tag/v0.8.14",
+      "points": null
+    },
+    {
+      "date": "2026-08-29",
+      "type": "release",
+      "title": "v0.8.17",
+      "url": "https://github.com/simstudioai/sim/releases/tag/v0.8.17",
+      "points": null
+    },
+    {
+      "date": "2026-08-29",
+      "type": "release",
+      "title": "v0.8.16",
+      "url": "https://github.com/simstudioai/sim/releases/tag/v0.8.16",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "v0.8.20",
+      "url": "https://github.com/simstudioai/sim/releases/tag/v0.8.20",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "v0.8.19",
+      "url": "https://github.com/simstudioai/sim/releases/tag/v0.8.19",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "v0.8.18",
+      "url": "https://github.com/simstudioai/sim/releases/tag/v0.8.18",
+      "points": null
+    }
+  ]
 }

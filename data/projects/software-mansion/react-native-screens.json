@@ -15,10 +15,187 @@
     {
       "date": "2026-09-02",
       "stars": 3725,
-      "forks": 699,
-      "openIssues": 270
+      "forks": 700,
+      "openIssues": 280
     }
   ],
   "weight": 3725,
-  "image": "https://avatars.githubusercontent.com/u/56880679?v=4"
+  "image": "https://avatars.githubusercontent.com/u/56880679?v=4",
+  "events": [
+    {
+      "date": "2025-07-17",
+      "type": "release",
+      "title": "4.13.1",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.13.1",
+      "points": null
+    },
+    {
+      "date": "2025-08-13",
+      "type": "release",
+      "title": "4.14",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.14",
+      "points": null
+    },
+    {
+      "date": "2025-08-14",
+      "type": "release",
+      "title": "4.14.1",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.14.1",
+      "points": null
+    },
+    {
+      "date": "2025-08-20",
+      "type": "release",
+      "title": "4.15.0",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.15",
+      "points": null
+    },
+    {
+      "date": "2025-08-21",
+      "type": "release",
+      "title": "4.15.1",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.15.1",
+      "points": null
+    },
+    {
+      "date": "2025-08-22",
+      "type": "release",
+      "title": "4.15.2",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.15.2",
+      "points": null
+    },
+    {
+      "date": "2025-08-26",
+      "type": "release",
+      "title": "4.15.3",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.15.3",
+      "points": null
+    },
+    {
+      "date": "2025-08-28",
+      "type": "release",
+      "title": "4.15.4",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.15.4",
+      "points": null
+    },
+    {
+      "date": "2025-09-04",
+      "type": "release",
+      "title": "4.16.0",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.16.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-15",
+      "type": "release",
+      "title": "4.17.1",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.17.1",
+      "points": null
+    },
+    {
+      "date": "2025-10-15",
+      "type": "release",
+      "title": "4.17.0",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.17.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-22",
+      "type": "release",
+      "title": "4.18.0",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.18.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-15",
+      "type": "release",
+      "title": "4.19.0",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.19.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-19",
+      "type": "release",
+      "title": "4.20.0",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.20.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-02",
+      "type": "release",
+      "title": "4.21.0",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.21.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-03",
+      "type": "release",
+      "title": "4.22.0",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.22.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-06",
+      "type": "release",
+      "title": "4.23.0",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.23.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-24",
+      "type": "release",
+      "title": "4.24.0",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.24.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-11",
+      "type": "release",
+      "title": "4.25.0",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.25.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-18",
+      "type": "release",
+      "title": "4.25.1",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.25.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-21",
+      "type": "release",
+      "title": "4.25.2",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.25.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "title": "4.26.0",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.26.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "4.26.1",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.26.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "4.26.2",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.26.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "4.27.0",
+      "url": "https://github.com/software-mansion/react-native-screens/releases/tag/4.27.0",
+      "points": null
+    }
+  ]
 }

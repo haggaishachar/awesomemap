@@ -72,9 +72,228 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 23025,
-      "forks": 1087,
+      "stars": 23026,
+      "forks": 1086,
       "openIssues": 558
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-08-07",
+      "type": "hn",
+      "title": "Neon: A serverless open-source alternative to AWS Aurora Postgres",
+      "url": "https://news.ycombinator.com/item?id=41184952",
+      "points": 101
+    },
+    {
+      "date": "2025-06-04",
+      "type": "release",
+      "title": "release-compute-8632",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-compute-8632",
+      "points": null
+    },
+    {
+      "date": "2025-06-06",
+      "type": "release",
+      "title": "release-compute-8683",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-compute-8683",
+      "points": null
+    },
+    {
+      "date": "2025-06-06",
+      "type": "release",
+      "title": "release-8712",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-8712",
+      "points": null
+    },
+    {
+      "date": "2025-06-10",
+      "type": "release",
+      "title": "release-proxy-8451",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-proxy-8451",
+      "points": null
+    },
+    {
+      "date": "2025-06-13",
+      "type": "release",
+      "title": "release-compute-8717",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-compute-8717",
+      "points": null
+    },
+    {
+      "date": "2025-06-13",
+      "type": "release",
+      "title": "release-8769",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-8769",
+      "points": null
+    },
+    {
+      "date": "2025-06-17",
+      "type": "release",
+      "title": "release-proxy-8481",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-proxy-8481",
+      "points": null
+    },
+    {
+      "date": "2025-06-20",
+      "type": "release",
+      "title": "release-compute-8763",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-compute-8763",
+      "points": null
+    },
+    {
+      "date": "2025-06-20",
+      "type": "release",
+      "title": "release-8819",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-8819",
+      "points": null
+    },
+    {
+      "date": "2025-06-20",
+      "type": "release",
+      "title": "release-8814",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-8814",
+      "points": null
+    },
+    {
+      "date": "2025-06-24",
+      "type": "release",
+      "title": "release-proxy-8538",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-proxy-8538",
+      "points": null
+    },
+    {
+      "date": "2025-06-25",
+      "type": "release",
+      "title": "release-proxy-8540",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-proxy-8540",
+      "points": null
+    },
+    {
+      "date": "2025-06-27",
+      "type": "release",
+      "title": "release-compute-8810",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-compute-8810",
+      "points": null
+    },
+    {
+      "date": "2025-06-27",
+      "type": "release",
+      "title": "release-8863",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-8863",
+      "points": null
+    },
+    {
+      "date": "2025-07-01",
+      "type": "release",
+      "title": "release-proxy-8588",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-proxy-8588",
+      "points": null
+    },
+    {
+      "date": "2025-07-01",
+      "type": "release",
+      "title": "release-8865",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-8865",
+      "points": null
+    },
+    {
+      "date": "2025-07-03",
+      "type": "release",
+      "title": "release-proxy-8592",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-proxy-8592",
+      "points": null
+    },
+    {
+      "date": "2025-07-03",
+      "type": "release",
+      "title": "release-proxy-8590",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-proxy-8590",
+      "points": null
+    },
+    {
+      "date": "2025-07-04",
+      "type": "release",
+      "title": "release-compute-8868",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-compute-8868",
+      "points": null
+    },
+    {
+      "date": "2025-07-07",
+      "type": "release",
+      "title": "release-8923",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-8923",
+      "points": null
+    },
+    {
+      "date": "2025-07-08",
+      "type": "release",
+      "title": "release-proxy-8640",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-proxy-8640",
+      "points": null
+    },
+    {
+      "date": "2025-07-11",
+      "type": "release",
+      "title": "release-compute-8942",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-compute-8942",
+      "points": null
+    },
+    {
+      "date": "2025-07-11",
+      "type": "release",
+      "title": "release-8998",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-8998",
+      "points": null
+    },
+    {
+      "date": "2025-07-15",
+      "type": "release",
+      "title": "release-proxy-8730",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-proxy-8730",
+      "points": null
+    },
+    {
+      "date": "2025-07-18",
+      "type": "release",
+      "title": "release-compute-9011",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-compute-9011",
+      "points": null
+    },
+    {
+      "date": "2025-07-18",
+      "type": "release",
+      "title": "release-9067",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-9067",
+      "points": null
+    },
+    {
+      "date": "2025-07-22",
+      "type": "release",
+      "title": "release-proxy-8786",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-proxy-8786",
+      "points": null
+    },
+    {
+      "date": "2025-07-25",
+      "type": "release",
+      "title": "release-9129",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-9129",
+      "points": null
+    },
+    {
+      "date": "2025-07-28",
+      "type": "release",
+      "title": "release-compute-9073",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-compute-9073",
+      "points": null
+    },
+    {
+      "date": "2025-07-29",
+      "type": "release",
+      "title": "release-proxy-8853",
+      "url": "https://github.com/neondatabase/neon/releases/tag/release-proxy-8853",
+      "points": null
     }
   ]
 }

@@ -24,11 +24,223 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 16190,
-      "forks": 1439,
-      "openIssues": 355
+      "stars": 16193,
+      "forks": 1436,
+      "openIssues": 349
     }
   ],
   "weight": 16181,
-  "image": "https://avatars.githubusercontent.com/u/95297378?v=4"
+  "image": "https://avatars.githubusercontent.com/u/95297378?v=4",
+  "events": [
+    {
+      "date": "2026-07-06",
+      "type": "release",
+      "title": "trigger.dev v4.5.1",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/v4.5.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "trigger.dev v4.5.2",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/v4.5.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "title": "trigger.dev v4.5.3",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/v4.5.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "title": "trigger.dev v4.5.4",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/v4.5.4",
+      "points": null
+    },
+    {
+      "date": "2026-07-20",
+      "type": "release",
+      "title": "trigger.dev v4.5.5",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/v4.5.5",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "trigger.dev v4.5.6",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/v4.5.6",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "trigger.dev v4.5.7",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/v4.5.7",
+      "points": null
+    },
+    {
+      "date": "2026-07-27",
+      "type": "release",
+      "title": "trigger.dev v4.5.8",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/v4.5.8",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "trigger.dev v4.5.9",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/v4.5.9",
+      "points": null
+    },
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "title": "trigger.dev v4.5.10",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/v4.5.10",
+      "points": null
+    },
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "title": "trigger.dev v4.5.11",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/v4.5.11",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "trigger.dev v4.5.12",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/v4.5.12",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "Helm Chart 4.5.12",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/helm-v4.5.12",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "Helm Chart 4.5.11",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/helm-v4.5.11",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "Helm Chart 4.5.10",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/helm-v4.5.10",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "Helm Chart 4.5.9",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/helm-v4.5.9",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "Helm Chart 4.5.8",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/helm-v4.5.8",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "Helm Chart 4.5.7",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/helm-v4.5.7",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "Helm Chart 4.5.6",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/helm-v4.5.6",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "Helm Chart 4.5.5",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/helm-v4.5.5",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "Helm Chart 4.5.4",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/helm-v4.5.4",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "Helm Chart 4.5.3",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/helm-v4.5.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "Helm Chart 4.5.2",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/helm-v4.5.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "trigger.dev v4.5.14",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/v4.5.14",
+      "points": null
+    },
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "title": "trigger.dev v4.5.13",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/v4.5.13",
+      "points": null
+    },
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "title": "trigger.dev v4.5.15",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/v4.5.15",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "Helm Chart 4.5.15",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/helm-v4.5.15",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "Helm Chart 4.5.14",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/helm-v4.5.14",
+      "points": null
+    },
+    {
+      "date": "2026-09-01",
+      "type": "release",
+      "title": "Helm Chart 4.5.13",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/helm-v4.5.13",
+      "points": null
+    },
+    {
+      "date": "2026-09-02",
+      "type": "release",
+      "title": "trigger.dev v4.5.16",
+      "url": "https://github.com/triggerdotdev/trigger.dev/releases/tag/v4.5.16",
+      "points": null
+    }
+  ]
 }

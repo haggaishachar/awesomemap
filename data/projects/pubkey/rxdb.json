@@ -31,10 +31,89 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 23371,
+      "stars": 23372,
       "forks": 1174,
-      "openIssues": 20
+      "openIssues": 22
     }
   ],
-  "weight": 23371
+  "weight": 23371,
+  "events": [
+    {
+      "date": "2016-12-04",
+      "type": "hn",
+      "title": "Reactive Offline-first Database",
+      "url": "https://news.ycombinator.com/item?id=13100972",
+      "points": 74
+    },
+    {
+      "date": "2017-01-28",
+      "type": "hn",
+      "title": "RxDB – Local JavaScript-Database",
+      "url": "https://news.ycombinator.com/item?id=13507367",
+      "points": 60
+    },
+    {
+      "date": "2017-05-16",
+      "type": "hn",
+      "title": "Show HN: Rxdb – A fast, reactive, client-side database",
+      "url": "https://news.ycombinator.com/item?id=14347957",
+      "points": 52
+    },
+    {
+      "date": "2019-10-25",
+      "type": "hn",
+      "title": "Rxdb: A reactive database where you can subscribe to the result of a query",
+      "url": "https://news.ycombinator.com/item?id=21353020",
+      "points": 288
+    },
+    {
+      "date": "2020-09-01",
+      "type": "hn",
+      "title": "RxDB – a real-time database on top of PouchDB",
+      "url": "https://news.ycombinator.com/item?id=24340802",
+      "points": 172
+    },
+    {
+      "date": "2026-03-30",
+      "type": "release",
+      "title": "17.0.0",
+      "url": "https://github.com/pubkey/rxdb/releases/tag/17.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-02",
+      "type": "release",
+      "title": "17.1.0",
+      "url": "https://github.com/pubkey/rxdb/releases/tag/17.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-04",
+      "type": "release",
+      "title": "17.2.0",
+      "url": "https://github.com/pubkey/rxdb/releases/tag/17.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-28",
+      "type": "release",
+      "title": "17.3.0",
+      "url": "https://github.com/pubkey/rxdb/releases/tag/17.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-13",
+      "type": "release",
+      "title": "17.4.0",
+      "url": "https://github.com/pubkey/rxdb/releases/tag/17.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "17.5.0",
+      "url": "https://github.com/pubkey/rxdb/releases/tag/17.5.0",
+      "points": null
+    }
+  ]
 }

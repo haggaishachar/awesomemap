@@ -30,11 +30,111 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 4399,
-      "forks": 212,
+      "stars": 4401,
+      "forks": 213,
       "openIssues": 118
     }
   ],
   "weight": 4397,
-  "image": "https://avatars.githubusercontent.com/u/106908824?v=4"
+  "image": "https://avatars.githubusercontent.com/u/106908824?v=4",
+  "events": [
+    {
+      "date": "2024-07-10",
+      "type": "release",
+      "title": "v2.3.2",
+      "url": "https://github.com/kubero-dev/kubero/releases/tag/v2.3.2",
+      "points": null
+    },
+    {
+      "date": "2024-07-12",
+      "type": "release",
+      "title": "v2.3.3",
+      "url": "https://github.com/kubero-dev/kubero/releases/tag/v2.3.3",
+      "points": null
+    },
+    {
+      "date": "2024-09-01",
+      "type": "release",
+      "title": "v2.4.0",
+      "url": "https://github.com/kubero-dev/kubero/releases/tag/v2.4.0",
+      "points": null
+    },
+    {
+      "date": "2024-09-03",
+      "type": "release",
+      "title": "v2.4.1",
+      "url": "https://github.com/kubero-dev/kubero/releases/tag/v2.4.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-05",
+      "type": "release",
+      "title": "v2.4.2",
+      "url": "https://github.com/kubero-dev/kubero/releases/tag/v2.4.2",
+      "points": null
+    },
+    {
+      "date": "2024-10-16",
+      "type": "release",
+      "title": "v2.4.3",
+      "url": "https://github.com/kubero-dev/kubero/releases/tag/v2.4.3",
+      "points": null
+    },
+    {
+      "date": "2024-11-12",
+      "type": "release",
+      "title": "v2.4.4",
+      "url": "https://github.com/kubero-dev/kubero/releases/tag/v2.4.4",
+      "points": null
+    },
+    {
+      "date": "2024-12-23",
+      "type": "release",
+      "title": "v2.4.5",
+      "url": "https://github.com/kubero-dev/kubero/releases/tag/v2.4.5",
+      "points": null
+    },
+    {
+      "date": "2025-01-18",
+      "type": "release",
+      "title": "v2.4.6",
+      "url": "https://github.com/kubero-dev/kubero/releases/tag/v2.4.6",
+      "points": null
+    },
+    {
+      "date": "2025-02-26",
+      "type": "release",
+      "title": "v2.4.7",
+      "url": "https://github.com/kubero-dev/kubero/releases/tag/v2.4.7",
+      "points": null
+    },
+    {
+      "date": "2025-08-11",
+      "type": "release",
+      "title": "v3.0.0",
+      "url": "https://github.com/kubero-dev/kubero/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-13",
+      "type": "release",
+      "title": "v3.0.1",
+      "url": "https://github.com/kubero-dev/kubero/releases/tag/v3.0.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-02",
+      "type": "release",
+      "title": "v3.1.0",
+      "url": "https://github.com/kubero-dev/kubero/releases/tag/v3.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-17",
+      "type": "release",
+      "title": "v3.1.1",
+      "url": "https://github.com/kubero-dev/kubero/releases/tag/v3.1.1",
+      "points": null
+    }
+  ]
 }

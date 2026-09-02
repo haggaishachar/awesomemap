@@ -4,8 +4,8 @@
   "link": "https://github.com/Tasshack/dreame-vacuum",
   "name": "dreame-vacuum",
   "desc": "Home Assistant integration for Dreame robot vacuums with map support",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "dreame-vacuum",
+  "githubDescription": "Home Assistant integration for Dreame robot vacuums with map support",
   "tags": [
     "app",
     "automation",
@@ -26,6 +26,99 @@
     "vacuum-map",
     "xiaomi"
   ],
-  "history": [],
-  "weight": 2162
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2164,
+      "forks": 271,
+      "openIssues": 29
+    }
+  ],
+  "weight": 2162,
+  "events": [
+    {
+      "date": "2023-08-23",
+      "type": "release",
+      "title": "First Stable Release",
+      "url": "https://github.com/Tasshack/dreame-vacuum/releases/tag/v1.0.0",
+      "points": null
+    },
+    {
+      "date": "2023-08-26",
+      "type": "release",
+      "title": "v1.0.1",
+      "url": "https://github.com/Tasshack/dreame-vacuum/releases/tag/v1.0.1",
+      "points": null
+    },
+    {
+      "date": "2023-11-20",
+      "type": "release",
+      "title": "v1.0.2",
+      "url": "https://github.com/Tasshack/dreame-vacuum/releases/tag/v1.0.2",
+      "points": null
+    },
+    {
+      "date": "2024-04-13",
+      "type": "release",
+      "title": "v1.0.3",
+      "url": "https://github.com/Tasshack/dreame-vacuum/releases/tag/v1.0.3",
+      "points": null
+    },
+    {
+      "date": "2024-05-03",
+      "type": "release",
+      "title": "v1.0.4",
+      "url": "https://github.com/Tasshack/dreame-vacuum/releases/tag/v1.0.4",
+      "points": null
+    },
+    {
+      "date": "2025-03-08",
+      "type": "release",
+      "title": "v1.0.5",
+      "url": "https://github.com/Tasshack/dreame-vacuum/releases/tag/v1.0.5",
+      "points": null
+    },
+    {
+      "date": "2025-08-15",
+      "type": "release",
+      "title": "v1.0.6",
+      "url": "https://github.com/Tasshack/dreame-vacuum/releases/tag/v1.0.6",
+      "points": null
+    },
+    {
+      "date": "2025-12-04",
+      "type": "release",
+      "title": "v1.0.7",
+      "url": "https://github.com/Tasshack/dreame-vacuum/releases/tag/v1.0.7",
+      "points": null
+    },
+    {
+      "date": "2026-02-06",
+      "type": "release",
+      "title": "v1.0.8",
+      "url": "https://github.com/Tasshack/dreame-vacuum/releases/tag/v1.0.8",
+      "points": null
+    },
+    {
+      "date": "2026-04-26",
+      "type": "release",
+      "title": "v1.0.9",
+      "url": "https://github.com/Tasshack/dreame-vacuum/releases/tag/v1.0.9",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "v1.0.10",
+      "url": "https://github.com/Tasshack/dreame-vacuum/releases/tag/v1.0.10",
+      "points": null
+    },
+    {
+      "date": "2026-06-21",
+      "type": "release",
+      "title": "v1.0.11",
+      "url": "https://github.com/Tasshack/dreame-vacuum/releases/tag/v1.0.11",
+      "points": null
+    }
+  ]
 }

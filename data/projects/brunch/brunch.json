@@ -48,5 +48,35 @@
       "forks": 424,
       "openIssues": 0
     }
+  ],
+  "events": [
+    {
+      "date": "2015-06-05",
+      "type": "hn",
+      "title": "Brunch: Replace gulp, grunt and increase your dev speed",
+      "url": "https://news.ycombinator.com/item?id=9666028",
+      "points": 85
+    },
+    {
+      "date": "2019-12-16",
+      "type": "release",
+      "title": "3.0.0",
+      "url": "https://github.com/brunch/brunch/releases/tag/3.0.0",
+      "points": null
+    },
+    {
+      "date": "2021-02-18",
+      "type": "release",
+      "title": "4.0.0",
+      "url": "https://github.com/brunch/brunch/releases/tag/4.0.0",
+      "points": null
+    },
+    {
+      "date": "2023-01-10",
+      "type": "release",
+      "title": "4.0.2",
+      "url": "https://github.com/brunch/brunch/releases/tag/4.0.2",
+      "points": null
+    }
   ]
 }

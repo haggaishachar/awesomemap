@@ -20,5 +20,217 @@
       "openIssues": 19
     }
   ],
-  "weight": 17914
+  "weight": 17914,
+  "events": [
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/zocial@13.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/zocial%4013.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/simple-line-icons@13.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/simple-line-icons%4013.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/octicons@21.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/octicons%4021.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/material-icons@13.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/material-icons%4013.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/material-design-icons@13.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/material-design-icons%4013.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/lucide@13.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/lucide%4013.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/ionicons@13.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/ionicons%4013.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/icomoon@13.2.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/icomoon%4013.2.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/foundation@13.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/foundation%4013.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/fontisto@13.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/fontisto%4013.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/fontello@13.2.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/fontello%4013.2.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/fontawesome@13.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/fontawesome%4013.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/fontawesome6@13.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/fontawesome6%4013.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/fontawesome6-pro@13.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/fontawesome6-pro%4013.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/fontawesome5@13.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/fontawesome5%4013.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/fontawesome5-pro@13.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/fontawesome5-pro%4013.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/fontawesome-pro-thin@1.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/fontawesome-pro-thin%401.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/fontawesome-pro-solid@1.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/fontawesome-pro-solid%401.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/fontawesome-pro-sharp-thin@1.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/fontawesome-pro-sharp-thin%401.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/fontawesome-pro-sharp-solid@1.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/fontawesome-pro-sharp-solid%401.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/fontawesome-pro-sharp-regular@1.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/fontawesome-pro-sharp-regular%401.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/fontawesome-pro-sharp-light@1.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/fontawesome-pro-sharp-light%401.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/fontawesome-pro-sharp-duotone-thin@1.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/fontawesome-pro-sharp-duotone-thin%401.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/fontawesome-pro-sharp-duotone-solid@1.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/fontawesome-pro-sharp-duotone-solid%401.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/fontawesome-pro-sharp-duotone-regular@1.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/fontawesome-pro-sharp-duotone-regular%401.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/fontawesome-pro-sharp-duotone-light@1.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/fontawesome-pro-sharp-duotone-light%401.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/fontawesome-pro-regular@1.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/fontawesome-pro-regular%401.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/fontawesome-pro-light@1.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/fontawesome-pro-light%401.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/fontawesome-pro-duotone-thin@1.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/fontawesome-pro-duotone-thin%401.1.3",
+      "points": null
+    },
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "title": "@react-native-vector-icons/fontawesome-pro-duotone-solid@1.1.3",
+      "url": "https://github.com/oblador/react-native-vector-icons/releases/tag/%40react-native-vector-icons/fontawesome-pro-duotone-solid%401.1.3",
+      "points": null
+    }
+  ]
 }

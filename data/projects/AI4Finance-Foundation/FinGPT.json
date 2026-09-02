@@ -30,5 +30,14 @@
     }
   ],
   "weight": 21197,
-  "image": "https://avatars.githubusercontent.com/u/68813910?v=4"
+  "image": "https://avatars.githubusercontent.com/u/68813910?v=4",
+  "events": [
+    {
+      "date": "2026-04-08",
+      "type": "release",
+      "title": "FinGPT v1.0.0 – Open-Source Financial AI Platform",
+      "url": "https://github.com/AI4Finance-Foundation/FinGPT/releases/tag/v1.0.0",
+      "points": null
+    }
+  ]
 }

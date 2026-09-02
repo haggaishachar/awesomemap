@@ -4,8 +4,8 @@
   "link": "https://github.com/featuretools/featuretools",
   "name": "featuretools",
   "desc": "An open source python library for automated feature engineering",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "featuretools",
+  "githubDescription": "An open source python library for automated feature engineering",
   "tags": [
     "automated-feature-engineering",
     "automated-machine-learning",
@@ -16,7 +16,219 @@
     "python",
     "scikit-learn"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 7672,
+      "forks": 915,
+      "openIssues": 169
+    }
+  ],
   "weight": 7672,
-  "image": "https://avatars.githubusercontent.com/u/12972388?v=4"
+  "image": "https://avatars.githubusercontent.com/u/12972388?v=4",
+  "events": [
+    {
+      "date": "2022-03-16",
+      "type": "release",
+      "title": "v1.7.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.7.0",
+      "points": null
+    },
+    {
+      "date": "2022-03-31",
+      "type": "release",
+      "title": "v1.8.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.8.0",
+      "points": null
+    },
+    {
+      "date": "2022-04-27",
+      "type": "release",
+      "title": "v1.9.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.9.0",
+      "points": null
+    },
+    {
+      "date": "2022-05-27",
+      "type": "release",
+      "title": "v1.9.1",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.9.1",
+      "points": null
+    },
+    {
+      "date": "2022-06-10",
+      "type": "release",
+      "title": "v1.9.2",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.9.2",
+      "points": null
+    },
+    {
+      "date": "2022-06-23",
+      "type": "release",
+      "title": "v1.10.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.10.0",
+      "points": null
+    },
+    {
+      "date": "2022-06-30",
+      "type": "release",
+      "title": "v1.11.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.11.0",
+      "points": null
+    },
+    {
+      "date": "2022-07-05",
+      "type": "release",
+      "title": "v1.11.1",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.11.1",
+      "points": null
+    },
+    {
+      "date": "2022-07-19",
+      "type": "release",
+      "title": "v1.12.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.12.0",
+      "points": null
+    },
+    {
+      "date": "2022-08-04",
+      "type": "release",
+      "title": "v1.12.1",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.12.1",
+      "points": null
+    },
+    {
+      "date": "2022-08-18",
+      "type": "release",
+      "title": "v1.13.0 ",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.13.0",
+      "points": null
+    },
+    {
+      "date": "2022-09-01",
+      "type": "release",
+      "title": "v1.14.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.14.0",
+      "points": null
+    },
+    {
+      "date": "2022-10-06",
+      "type": "release",
+      "title": "v1.15.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.15.0",
+      "points": null
+    },
+    {
+      "date": "2022-10-24",
+      "type": "release",
+      "title": "v1.16.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.16.0",
+      "points": null
+    },
+    {
+      "date": "2022-10-31",
+      "type": "release",
+      "title": "v1.17.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.17.0",
+      "points": null
+    },
+    {
+      "date": "2022-11-15",
+      "type": "release",
+      "title": "v1.18.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.18.0",
+      "points": null
+    },
+    {
+      "date": "2022-12-09",
+      "type": "release",
+      "title": "v1.19.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.19.0",
+      "points": null
+    },
+    {
+      "date": "2023-01-05",
+      "type": "release",
+      "title": "v1.20.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.20.0",
+      "points": null
+    },
+    {
+      "date": "2023-01-18",
+      "type": "release",
+      "title": "v1.21.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.21.0",
+      "points": null
+    },
+    {
+      "date": "2023-01-31",
+      "type": "release",
+      "title": "v1.22.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.22.0",
+      "points": null
+    },
+    {
+      "date": "2023-02-15",
+      "type": "release",
+      "title": "v1.23.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.23.0",
+      "points": null
+    },
+    {
+      "date": "2023-03-29",
+      "type": "release",
+      "title": "v1.24.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.24.0",
+      "points": null
+    },
+    {
+      "date": "2023-04-13",
+      "type": "release",
+      "title": "v1.25.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.25.0",
+      "points": null
+    },
+    {
+      "date": "2023-04-27",
+      "type": "release",
+      "title": "v1.26.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.26.0",
+      "points": null
+    },
+    {
+      "date": "2023-07-24",
+      "type": "release",
+      "title": "v1.27.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.27.0",
+      "points": null
+    },
+    {
+      "date": "2023-10-26",
+      "type": "release",
+      "title": "v1.28.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.28.0",
+      "points": null
+    },
+    {
+      "date": "2024-02-16",
+      "type": "release",
+      "title": "v1.29.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.29.0",
+      "points": null
+    },
+    {
+      "date": "2024-02-26",
+      "type": "release",
+      "title": "v1.30.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.30.0",
+      "points": null
+    },
+    {
+      "date": "2024-05-14",
+      "type": "release",
+      "title": "v1.31.0",
+      "url": "https://github.com/alteryx/featuretools/releases/tag/v1.31.0",
+      "points": null
+    }
+  ]
 }

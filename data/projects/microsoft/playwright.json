@@ -134,9 +134,256 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 95519,
+      "stars": 95536,
       "forks": 6375,
-      "openIssues": 180
+      "openIssues": 183
+    }
+  ],
+  "events": [
+    {
+      "date": "2020-09-18",
+      "type": "hn",
+      "title": "Playwright CLI – Open/inspect/emulate pages, generate screenshots, record users",
+      "url": "https://news.ycombinator.com/item?id=24514271",
+      "points": 134
+    },
+    {
+      "date": "2021-04-05",
+      "type": "hn",
+      "title": "Playwright-test – cross-browser end-to-end test suite with Playwright",
+      "url": "https://news.ycombinator.com/item?id=26696363",
+      "points": 101
+    },
+    {
+      "date": "2021-06-10",
+      "type": "hn",
+      "title": "Playwright for .NET is now stable",
+      "url": "https://news.ycombinator.com/item?id=27458735",
+      "points": 155
+    },
+    {
+      "date": "2022-01-26",
+      "type": "hn",
+      "title": "Playwright: Automate Chromium, WebKit and Firefox",
+      "url": "https://news.ycombinator.com/item?id=30083042",
+      "points": 383
+    },
+    {
+      "date": "2024-10-16",
+      "type": "release",
+      "title": "v1.48.1",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.48.1",
+      "points": null
+    },
+    {
+      "date": "2024-10-25",
+      "type": "release",
+      "title": "v1.48.2",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.48.2",
+      "points": null
+    },
+    {
+      "date": "2024-11-18",
+      "type": "release",
+      "title": "v1.49.0",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.49.0",
+      "points": null
+    },
+    {
+      "date": "2024-12-10",
+      "type": "release",
+      "title": "v1.49.1",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.49.1",
+      "points": null
+    },
+    {
+      "date": "2025-01-23",
+      "type": "release",
+      "title": "v1.50.0",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.50.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-31",
+      "type": "release",
+      "title": "v1.50.1",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.50.1",
+      "points": null
+    },
+    {
+      "date": "2025-03-06",
+      "type": "release",
+      "title": "v1.51.0",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.51.0",
+      "points": null
+    },
+    {
+      "date": "2025-03-17",
+      "type": "release",
+      "title": "v1.51.1",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.51.1",
+      "points": null
+    },
+    {
+      "date": "2025-03-26",
+      "type": "hn",
+      "title": "Playwright Tools for MCP",
+      "url": "https://news.ycombinator.com/item?id=43485740",
+      "points": 181
+    },
+    {
+      "date": "2025-04-17",
+      "type": "release",
+      "title": "v1.52.0",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.52.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-10",
+      "type": "release",
+      "title": "v1.53.0",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.53.0",
+      "points": null
+    },
+    {
+      "date": "2025-06-18",
+      "type": "release",
+      "title": "v1.53.1",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.53.1",
+      "points": null
+    },
+    {
+      "date": "2025-06-30",
+      "type": "release",
+      "title": "v1.53.2",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.53.2",
+      "points": null
+    },
+    {
+      "date": "2025-07-10",
+      "type": "release",
+      "title": "v1.54.0",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.54.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-11",
+      "type": "release",
+      "title": "v1.54.1",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.54.1",
+      "points": null
+    },
+    {
+      "date": "2025-08-01",
+      "type": "release",
+      "title": "v1.54.2",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.54.2",
+      "points": null
+    },
+    {
+      "date": "2025-08-20",
+      "type": "release",
+      "title": "v1.55.0",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.55.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-23",
+      "type": "release",
+      "title": "v1.55.1",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.55.1",
+      "points": null
+    },
+    {
+      "date": "2025-10-06",
+      "type": "release",
+      "title": "v1.56.0",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.56.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-17",
+      "type": "release",
+      "title": "v1.56.1",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.56.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-25",
+      "type": "release",
+      "title": "v1.57.0",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.57.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-23",
+      "type": "release",
+      "title": "v1.58.0",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.58.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-30",
+      "type": "release",
+      "title": "v1.58.1",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.58.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-06",
+      "type": "release",
+      "title": "v1.58.2",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.58.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-01",
+      "type": "release",
+      "title": "v1.59.1",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.59.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-01",
+      "type": "release",
+      "title": "v1.59.0",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.59.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-11",
+      "type": "release",
+      "title": "v1.60.0",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.60.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "v1.61.0",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.61.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-23",
+      "type": "release",
+      "title": "v1.61.1",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.61.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "title": "v1.62.0",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.62.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-30",
+      "type": "release",
+      "title": "v1.62.1",
+      "url": "https://github.com/microsoft/playwright/releases/tag/v1.62.1",
+      "points": null
     }
   ]
 }

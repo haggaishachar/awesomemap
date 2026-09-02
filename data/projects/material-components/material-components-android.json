@@ -122,9 +122,221 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 17381,
+      "stars": 17380,
       "forks": 3226,
       "openIssues": 805
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-05-02",
+      "type": "release",
+      "title": "1.12.0",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.12.0",
+      "points": null
+    },
+    {
+      "date": "2024-05-09",
+      "type": "release",
+      "title": "1.13.0-alpha02",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.13.0-alpha02",
+      "points": null
+    },
+    {
+      "date": "2024-06-06",
+      "type": "release",
+      "title": "1.13.0-alpha03",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.13.0-alpha03",
+      "points": null
+    },
+    {
+      "date": "2024-07-09",
+      "type": "release",
+      "title": "1.13.0-alpha04",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.13.0-alpha04",
+      "points": null
+    },
+    {
+      "date": "2024-08-08",
+      "type": "release",
+      "title": "1.13.0-alpha05",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.13.0-alpha05",
+      "points": null
+    },
+    {
+      "date": "2024-09-17",
+      "type": "release",
+      "title": "1.13.0-alpha06",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.13.0-alpha06",
+      "points": null
+    },
+    {
+      "date": "2024-10-17",
+      "type": "release",
+      "title": "1.13.0-alpha07",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.13.0-alpha07",
+      "points": null
+    },
+    {
+      "date": "2024-11-21",
+      "type": "release",
+      "title": "1.13.0-alpha08",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.13.0-alpha08",
+      "points": null
+    },
+    {
+      "date": "2024-12-19",
+      "type": "release",
+      "title": "1.13.0-alpha09",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.13.0-alpha09",
+      "points": null
+    },
+    {
+      "date": "2025-01-22",
+      "type": "release",
+      "title": "1.13.0-alpha10",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.13.0-alpha10",
+      "points": null
+    },
+    {
+      "date": "2025-02-26",
+      "type": "release",
+      "title": "1.13.0-alpha11",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.13.0-alpha11",
+      "points": null
+    },
+    {
+      "date": "2025-03-24",
+      "type": "release",
+      "title": "1.13.0-alpha12",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.13.0-alpha12",
+      "points": null
+    },
+    {
+      "date": "2025-04-21",
+      "type": "release",
+      "title": "1.13.0-alpha13",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.13.0-alpha13",
+      "points": null
+    },
+    {
+      "date": "2025-05-15",
+      "type": "release",
+      "title": "1.14.0-alpha01",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.14.0-alpha01",
+      "points": null
+    },
+    {
+      "date": "2025-06-03",
+      "type": "release",
+      "title": "1.13.0-alpha14",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.13.0-alpha14",
+      "points": null
+    },
+    {
+      "date": "2025-06-18",
+      "type": "release",
+      "title": "1.14.0-alpha02",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.14.0-alpha02",
+      "points": null
+    },
+    {
+      "date": "2025-07-09",
+      "type": "release",
+      "title": "1.13.0-beta01",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.13.0-beta01",
+      "points": null
+    },
+    {
+      "date": "2025-07-21",
+      "type": "release",
+      "title": "1.14.0-alpha03",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.14.0-alpha03",
+      "points": null
+    },
+    {
+      "date": "2025-07-30",
+      "type": "release",
+      "title": "1.13.0-rc01",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.13.0-rc01",
+      "points": null
+    },
+    {
+      "date": "2025-08-20",
+      "type": "release",
+      "title": "1.14.0-alpha04",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.14.0-alpha04",
+      "points": null
+    },
+    {
+      "date": "2025-09-03",
+      "type": "release",
+      "title": "1.13.0",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.13.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-25",
+      "type": "release",
+      "title": "1.14.0-alpha05",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.14.0-alpha05",
+      "points": null
+    },
+    {
+      "date": "2025-10-22",
+      "type": "release",
+      "title": "1.14.0-alpha06",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.14.0-alpha06",
+      "points": null
+    },
+    {
+      "date": "2025-11-19",
+      "type": "release",
+      "title": "1.14.0-alpha07",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.14.0-alpha07",
+      "points": null
+    },
+    {
+      "date": "2025-12-17",
+      "type": "release",
+      "title": "1.14.0-alpha08",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.14.0-alpha08",
+      "points": null
+    },
+    {
+      "date": "2026-01-27",
+      "type": "release",
+      "title": "1.14.0-alpha09",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.14.0-alpha09",
+      "points": null
+    },
+    {
+      "date": "2026-03-11",
+      "type": "release",
+      "title": "1.14.0-alpha10",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.14.0-alpha10",
+      "points": null
+    },
+    {
+      "date": "2026-04-09",
+      "type": "release",
+      "title": "1.14.0-beta01",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.14.0-beta01",
+      "points": null
+    },
+    {
+      "date": "2026-04-29",
+      "type": "release",
+      "title": "1.14.0-rc01",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.14.0-rc01",
+      "points": null
+    },
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "1.14.0",
+      "url": "https://github.com/material-components/material-components-android/releases/tag/1.14.0",
+      "points": null
     }
   ]
 }

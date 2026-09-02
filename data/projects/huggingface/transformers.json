@@ -138,9 +138,235 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 164715,
-      "forks": 34422,
-      "openIssues": 2399
+      "stars": 164729,
+      "forks": 34425,
+      "openIssues": 2395
+    }
+  ],
+  "events": [
+    {
+      "date": "2019-09-27",
+      "type": "hn",
+      "title": "Transformers 2.0: Deep interoperability between TensorFlow 2.0 and PyTorch",
+      "url": "https://news.ycombinator.com/item?id=21092596",
+      "points": 103
+    },
+    {
+      "date": "2024-07-03",
+      "type": "hn",
+      "title": "HuggingFace releases support for tool-use and RAG models",
+      "url": "https://news.ycombinator.com/item?id=40861822",
+      "points": 59
+    },
+    {
+      "date": "2026-02-05",
+      "type": "release",
+      "title": "v5.1.0: EXAONE-MoE, PP-DocLayoutV3, Youtu-LLM, GLM-OCR",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-16",
+      "type": "release",
+      "title": "v5.2.0: GLM-5, Qwen3.5, Voxtral Realtime, VibeVoice Acoustic Tokenizer",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.2.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-04",
+      "type": "release",
+      "title": "v5.3.0: EuroBERT, VibeVoice ASR, TimesFM2.5, PP-DocLayoutV2, OlmoHybrid, ModernVBert, Higgs Audio V2",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.3.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-27",
+      "type": "release",
+      "title": "Release v5.4.0: PaddlePaddle models 🙌, Mistral 4, PI0, VidEoMT, UVDoc, SLANeXt, Jina Embeddings v3",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.4.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-02",
+      "type": "release",
+      "title": "Release v5.5.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-09",
+      "type": "release",
+      "title": "Patch release: v5.5.3",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.5.3",
+      "points": null
+    },
+    {
+      "date": "2026-04-09",
+      "type": "release",
+      "title": "Patch release: v5.5.2",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.5.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-09",
+      "type": "release",
+      "title": "Patch release v5.5.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.5.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-13",
+      "type": "release",
+      "title": "Patch release v5.5.4",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.5.4",
+      "points": null
+    },
+    {
+      "date": "2026-04-22",
+      "type": "release",
+      "title": "Release v5.6.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.6.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-23",
+      "type": "release",
+      "title": "Patch release v5.6.2",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.6.2",
+      "points": null
+    },
+    {
+      "date": "2026-04-23",
+      "type": "release",
+      "title": "Patch release v5.6.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.6.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-28",
+      "type": "release",
+      "title": "Release v5.7.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.7.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-05",
+      "type": "release",
+      "title": "Release 5.8.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.8.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "Patch release v5.8.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.8.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-20",
+      "type": "release",
+      "title": "Release v5.9.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.9.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "title": "Release v5.10.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.10.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-04",
+      "type": "release",
+      "title": "Patch release v5.10.2",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.10.2",
+      "points": null
+    },
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "title": "Release v5.11.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.11.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-12",
+      "type": "release",
+      "title": "Release v5.12.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.12.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "Patch release v5.12.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.12.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-15",
+      "type": "release",
+      "title": "Patch release v5.10.4",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.10.3",
+      "points": null
+    },
+    {
+      "date": "2026-07-03",
+      "type": "release",
+      "title": "Release v5.13.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.13.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-11",
+      "type": "release",
+      "title": "Patch release v5.13.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.13.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-15",
+      "type": "release",
+      "title": "Release v5.14.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.14.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "title": "Patch release: v5.14.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.14.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "title": "Release: v5.15.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "title": "Patch release: v5.15.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.15.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Release v5.16.1",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-26",
+      "type": "release",
+      "title": "Release: v5.16.0",
+      "url": "https://github.com/huggingface/transformers/releases/tag/v5.16.0",
+      "points": null
     }
   ]
 }

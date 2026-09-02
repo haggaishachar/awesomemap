@@ -37,5 +37,217 @@
     }
   ],
   "weight": 1217,
-  "image": "https://avatars.githubusercontent.com/u/96719295?v=4"
+  "image": "https://avatars.githubusercontent.com/u/96719295?v=4",
+  "events": [
+    {
+      "date": "2022-01-24",
+      "type": "release",
+      "title": "v1.0.0-beta",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v1.0.0-beta",
+      "points": null
+    },
+    {
+      "date": "2022-02-03",
+      "type": "release",
+      "title": "v1.0.0",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v1.0.0",
+      "points": null
+    },
+    {
+      "date": "2022-03-13",
+      "type": "release",
+      "title": "v1.1.0 Release",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v1.1.0",
+      "points": null
+    },
+    {
+      "date": "2022-04-01",
+      "type": "release",
+      "title": "v1.2.0 Release 🎉",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v1.2.0",
+      "points": null
+    },
+    {
+      "date": "2022-04-12",
+      "type": "release",
+      "title": "v1.3.0 Release 🎉 ",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v1.3.0",
+      "points": null
+    },
+    {
+      "date": "2022-04-25",
+      "type": "release",
+      "title": "v1.4.0 Release",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v1.4.0",
+      "points": null
+    },
+    {
+      "date": "2022-05-11",
+      "type": "release",
+      "title": "v1.5.0 Release",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v1.5.0",
+      "points": null
+    },
+    {
+      "date": "2022-05-30",
+      "type": "release",
+      "title": "v1.6.0 Release",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v1.6.0",
+      "points": null
+    },
+    {
+      "date": "2022-06-14",
+      "type": "release",
+      "title": "v1.6.1 Release",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v1.6.1",
+      "points": null
+    },
+    {
+      "date": "2022-06-19",
+      "type": "release",
+      "title": "v1.6.2 Release",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v1.6.2",
+      "points": null
+    },
+    {
+      "date": "2022-07-03",
+      "type": "release",
+      "title": "v1.6.3 Release",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v1.6.3",
+      "points": null
+    },
+    {
+      "date": "2022-07-16",
+      "type": "release",
+      "title": "v1.7.0 Release",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v1.7.0",
+      "points": null
+    },
+    {
+      "date": "2022-08-03",
+      "type": "release",
+      "title": "v1.8.0 Release",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v1.8.0",
+      "points": null
+    },
+    {
+      "date": "2022-08-24",
+      "type": "release",
+      "title": "v1.9.0",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v1.9.0",
+      "points": null
+    },
+    {
+      "date": "2022-09-03",
+      "type": "release",
+      "title": "V2.0.0",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v2.0.0",
+      "points": null
+    },
+    {
+      "date": "2022-09-10",
+      "type": "release",
+      "title": "V2.0.1",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v2.0.1",
+      "points": null
+    },
+    {
+      "date": "2022-09-17",
+      "type": "release",
+      "title": "V2.1",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v2.1",
+      "points": null
+    },
+    {
+      "date": "2022-09-28",
+      "type": "release",
+      "title": "v2.1.1",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v2.1.1",
+      "points": null
+    },
+    {
+      "date": "2022-10-15",
+      "type": "release",
+      "title": "v2.2",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v2.2",
+      "points": null
+    },
+    {
+      "date": "2022-11-04",
+      "type": "release",
+      "title": "v2.3",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v2.3",
+      "points": null
+    },
+    {
+      "date": "2022-11-22",
+      "type": "release",
+      "title": "v2.4",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v2.4",
+      "points": null
+    },
+    {
+      "date": "2022-12-04",
+      "type": "release",
+      "title": "v2.4.1",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v2.4.1",
+      "points": null
+    },
+    {
+      "date": "2022-12-24",
+      "type": "release",
+      "title": "v2.5",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v2.5",
+      "points": null
+    },
+    {
+      "date": "2023-01-07",
+      "type": "release",
+      "title": "v2.6",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v2.6",
+      "points": null
+    },
+    {
+      "date": "2023-02-17",
+      "type": "release",
+      "title": "v2.7",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v2.7",
+      "points": null
+    },
+    {
+      "date": "2023-03-08",
+      "type": "release",
+      "title": "v2.8",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v2.8",
+      "points": null
+    },
+    {
+      "date": "2023-03-18",
+      "type": "release",
+      "title": "v2.9",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v2.9",
+      "points": null
+    },
+    {
+      "date": "2023-03-24",
+      "type": "release",
+      "title": "v2.9.1",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v2.9.1",
+      "points": null
+    },
+    {
+      "date": "2023-06-24",
+      "type": "release",
+      "title": "v3.0.0 🚀",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v3.0.0",
+      "points": null
+    },
+    {
+      "date": "2023-08-24",
+      "type": "release",
+      "title": "v3.0.1",
+      "url": "https://github.com/testsigmahq/testsigma/releases/tag/v3.0.1",
+      "points": null
+    }
+  ]
 }

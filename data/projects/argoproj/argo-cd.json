@@ -135,9 +135,179 @@
     },
     {
       "date": "2026-09-02",
-      "stars": 24060,
-      "forks": 7820,
-      "openIssues": 4410
+      "stars": 24063,
+      "forks": 7822,
+      "openIssues": 4408
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-04-16",
+      "type": "release",
+      "title": "v3.3.7",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.3.7",
+      "points": null
+    },
+    {
+      "date": "2026-04-21",
+      "type": "release",
+      "title": "v3.3.8",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.3.8",
+      "points": null
+    },
+    {
+      "date": "2026-04-21",
+      "type": "release",
+      "title": "v3.2.10",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.2.10",
+      "points": null
+    },
+    {
+      "date": "2026-04-21",
+      "type": "release",
+      "title": "v3.1.15",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.1.15",
+      "points": null
+    },
+    {
+      "date": "2026-04-30",
+      "type": "release",
+      "title": "v3.3.9",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.3.9",
+      "points": null
+    },
+    {
+      "date": "2026-04-30",
+      "type": "release",
+      "title": "v3.2.11",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.2.11",
+      "points": null
+    },
+    {
+      "date": "2026-05-05",
+      "type": "release",
+      "title": "v3.1.16",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.1.16",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "v3.4.1",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.4.1",
+      "points": null
+    },
+    {
+      "date": "2026-05-12",
+      "type": "release",
+      "title": "v3.4.2",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.4.2",
+      "points": null
+    },
+    {
+      "date": "2026-05-12",
+      "type": "release",
+      "title": "v3.3.10",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.3.10",
+      "points": null
+    },
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "v3.2.12",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.2.12",
+      "points": null
+    },
+    {
+      "date": "2026-05-28",
+      "type": "release",
+      "title": "v3.4.3",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.4.3",
+      "points": null
+    },
+    {
+      "date": "2026-05-28",
+      "type": "release",
+      "title": "v3.3.11",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.3.11",
+      "points": null
+    },
+    {
+      "date": "2026-06-18",
+      "type": "release",
+      "title": "v3.4.4",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.4.4",
+      "points": null
+    },
+    {
+      "date": "2026-06-18",
+      "type": "release",
+      "title": "v3.3.12",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.3.12",
+      "points": null
+    },
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "title": "v3.4.5",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.4.5",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "v3.4.6",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.4.6",
+      "points": null
+    },
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "title": "v3.3.13",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.3.13",
+      "points": null
+    },
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "title": "v3.5.0",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.5.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "v3.5.1",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.5.1",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "v3.4.7",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.4.7",
+      "points": null
+    },
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "title": "v3.3.14",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.3.14",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "v3.5.2",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.5.2",
+      "points": null
+    },
+    {
+      "date": "2026-08-27",
+      "type": "release",
+      "title": "v3.4.8",
+      "url": "https://github.com/argoproj/argo-cd/releases/tag/v3.4.8",
+      "points": null
     }
   ]
 }

@@ -138,7 +138,226 @@
       "date": "2026-09-02",
       "stars": 15645,
       "forks": 5610,
-      "openIssues": 1858
+      "openIssues": 1875
+    }
+  ],
+  "events": [
+    {
+      "date": "2013-07-05",
+      "type": "hn",
+      "title": "Saltstack: Changing RSA public exponent from 1 to 65537",
+      "url": "https://news.ycombinator.com/item?id=5993959",
+      "points": 77
+    },
+    {
+      "date": "2025-08-28",
+      "type": "release",
+      "title": "v3006.15",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3006.15",
+      "points": null
+    },
+    {
+      "date": "2025-08-29",
+      "type": "release",
+      "title": "v3007.7",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3007.7",
+      "points": null
+    },
+    {
+      "date": "2025-09-18",
+      "type": "release",
+      "title": "v3007.8",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3007.8",
+      "points": null
+    },
+    {
+      "date": "2025-09-18",
+      "type": "release",
+      "title": "v3006.16",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3006.16",
+      "points": null
+    },
+    {
+      "date": "2025-11-20",
+      "type": "release",
+      "title": "v3007.9",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3007.9",
+      "points": null
+    },
+    {
+      "date": "2025-11-20",
+      "type": "release",
+      "title": "v3006.17",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3006.17",
+      "points": null
+    },
+    {
+      "date": "2025-12-18",
+      "type": "release",
+      "title": "v3007.10",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3007.10",
+      "points": null
+    },
+    {
+      "date": "2025-12-18",
+      "type": "release",
+      "title": "v3006.18",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3006.18",
+      "points": null
+    },
+    {
+      "date": "2026-01-09",
+      "type": "release",
+      "title": "v3007.11",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3007.11",
+      "points": null
+    },
+    {
+      "date": "2026-01-09",
+      "type": "release",
+      "title": "v3006.19",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3006.19",
+      "points": null
+    },
+    {
+      "date": "2026-02-05",
+      "type": "release",
+      "title": "v3007.12",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3007.12",
+      "points": null
+    },
+    {
+      "date": "2026-02-05",
+      "type": "release",
+      "title": "v3006.20",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3006.20",
+      "points": null
+    },
+    {
+      "date": "2026-02-11",
+      "type": "release",
+      "title": "v3006.21",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3006.21",
+      "points": null
+    },
+    {
+      "date": "2026-02-12",
+      "type": "release",
+      "title": "v3007.13",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3007.13",
+      "points": null
+    },
+    {
+      "date": "2026-02-22",
+      "type": "release",
+      "title": "v3006.22",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3006.22",
+      "points": null
+    },
+    {
+      "date": "2026-02-23",
+      "type": "release",
+      "title": "v3006.23",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3006.23",
+      "points": null
+    },
+    {
+      "date": "2026-04-23",
+      "type": "release",
+      "title": "v3008.0rc1",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3008.0rc1",
+      "points": null
+    },
+    {
+      "date": "2026-04-23",
+      "type": "release",
+      "title": "v3006.24",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3006.24",
+      "points": null
+    },
+    {
+      "date": "2026-04-29",
+      "type": "release",
+      "title": "v3007.14",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3007.14",
+      "points": null
+    },
+    {
+      "date": "2026-05-06",
+      "type": "release",
+      "title": "v3008.0rc2",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3008.0rc2",
+      "points": null
+    },
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "v3008.0rc3",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3008.0rc3",
+      "points": null
+    },
+    {
+      "date": "2026-05-13",
+      "type": "release",
+      "title": "v3006.25",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3006.25",
+      "points": null
+    },
+    {
+      "date": "2026-05-15",
+      "type": "release",
+      "title": "v3008.0rc4",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3008.0rc4",
+      "points": null
+    },
+    {
+      "date": "2026-05-27",
+      "type": "release",
+      "title": "v3008.0",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3008.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-11",
+      "type": "release",
+      "title": "v3008.1",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3008.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-24",
+      "type": "release",
+      "title": "v3006.26",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3006.26",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "v3008.2",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3008.2",
+      "points": null
+    },
+    {
+      "date": "2026-07-01",
+      "type": "release",
+      "title": "v3006.27",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3006.27",
+      "points": null
+    },
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "title": "v3008.1-1",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3008.1-1",
+      "points": null
+    },
+    {
+      "date": "2026-07-26",
+      "type": "release",
+      "title": "v3008.1-2",
+      "url": "https://github.com/saltstack/salt/releases/tag/v3008.1-2",
+      "points": null
     }
   ]
 }

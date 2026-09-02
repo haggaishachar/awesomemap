@@ -28,11 +28,223 @@
   "history": [
     {
       "date": "2026-09-02",
-      "stars": 25097,
-      "forks": 5018,
+      "stars": 25096,
+      "forks": 5019,
       "openIssues": 432
     }
   ],
   "weight": 25096,
-  "image": "https://avatars.githubusercontent.com/u/48876650?v=4"
+  "image": "https://avatars.githubusercontent.com/u/48876650?v=4",
+  "events": [
+    {
+      "date": "2023-09-20",
+      "type": "release",
+      "title": "3.1.1.4",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.1.1.4",
+      "points": null
+    },
+    {
+      "date": "2023-10-30",
+      "type": "release",
+      "title": "3.2.0.0",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.2.0.0",
+      "points": null
+    },
+    {
+      "date": "2023-11-17",
+      "type": "release",
+      "title": "3.2.1.0",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.2.1.0",
+      "points": null
+    },
+    {
+      "date": "2023-12-22",
+      "type": "release",
+      "title": "3.2.2.0",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.2.2.0",
+      "points": null
+    },
+    {
+      "date": "2024-02-29",
+      "type": "release",
+      "title": "3.2.3.0",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.2.3.0",
+      "points": null
+    },
+    {
+      "date": "2024-05-10",
+      "type": "release",
+      "title": "3.3.0.0",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.3.0.0",
+      "points": null
+    },
+    {
+      "date": "2024-06-28",
+      "type": "release",
+      "title": "3.3.1.0",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.3.1.0",
+      "points": null
+    },
+    {
+      "date": "2024-07-01",
+      "type": "release",
+      "title": "3.3.2.0",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.3.2.0",
+      "points": null
+    },
+    {
+      "date": "2024-10-08",
+      "type": "release",
+      "title": "3.3.3.0",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.3.3.0",
+      "points": null
+    },
+    {
+      "date": "2024-11-22",
+      "type": "release",
+      "title": "3.3.4.3",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.3.4.3",
+      "points": null
+    },
+    {
+      "date": "2024-12-03",
+      "type": "release",
+      "title": "3.3.4.8",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.3.4.8",
+      "points": null
+    },
+    {
+      "date": "2025-01-02",
+      "type": "release",
+      "title": "3.3.5.0",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.3.5.0",
+      "points": null
+    },
+    {
+      "date": "2025-01-20",
+      "type": "release",
+      "title": "3.3.5.2",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.3.5.2",
+      "points": null
+    },
+    {
+      "date": "2025-02-28",
+      "type": "release",
+      "title": "3.3.5.8",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.3.5.8",
+      "points": null
+    },
+    {
+      "date": "2025-03-25",
+      "type": "release",
+      "title": "3.3.6.0",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.3.6.0",
+      "points": null
+    },
+    {
+      "date": "2025-04-15",
+      "type": "release",
+      "title": "3.3.6.3",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.3.6.3",
+      "points": null
+    },
+    {
+      "date": "2025-05-15",
+      "type": "release",
+      "title": "3.3.6.6",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.3.6.6",
+      "points": null
+    },
+    {
+      "date": "2025-06-03",
+      "type": "release",
+      "title": "3.3.6.9",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.3.6.9",
+      "points": null
+    },
+    {
+      "date": "2025-07-01",
+      "type": "release",
+      "title": "3.3.6.13",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.3.6.13",
+      "points": null
+    },
+    {
+      "date": "2025-07-29",
+      "type": "release",
+      "title": "3.3.7.0",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.3.7.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-28",
+      "type": "release",
+      "title": "3.3.7.5",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.3.7.5",
+      "points": null
+    },
+    {
+      "date": "2025-09-30",
+      "type": "release",
+      "title": "3.3.8.0",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.3.8.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-11",
+      "type": "release",
+      "title": "3.3.8.1",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.3.8.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-04",
+      "type": "release",
+      "title": "3.3.8.4",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.3.8.4",
+      "points": null
+    },
+    {
+      "date": "2025-12-02",
+      "type": "release",
+      "title": "3.3.8.8",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.3.8.8",
+      "points": null
+    },
+    {
+      "date": "2026-01-08",
+      "type": "release",
+      "title": "3.4.0.0",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.4.0.0",
+      "points": null
+    },
+    {
+      "date": "2026-02-02",
+      "type": "release",
+      "title": "3.4.0.2",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.4.0.2",
+      "points": null
+    },
+    {
+      "date": "2026-03-02",
+      "type": "release",
+      "title": "3.4.0.9",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.4.0.9",
+      "points": null
+    },
+    {
+      "date": "2026-04-01",
+      "type": "release",
+      "title": "3.4.1.0",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.4.1.0",
+      "points": null
+    },
+    {
+      "date": "2026-04-30",
+      "type": "release",
+      "title": "3.4.1.6",
+      "url": "https://github.com/taosdata/TDengine/releases/tag/ver-3.4.1.6",
+      "points": null
+    }
+  ]
 }

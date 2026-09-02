@@ -4,8 +4,8 @@
   "link": "https://github.com/yamadashy/repomix",
   "name": "repomix",
   "desc": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "repomix",
+  "githubDescription": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
   "tags": [
     "ai",
     "anthropic",
@@ -28,6 +28,225 @@
     "openai",
     "typescript"
   ],
-  "history": [],
-  "weight": 28161
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 28168,
+      "forks": 1508,
+      "openIssues": 139
+    }
+  ],
+  "weight": 28161,
+  "events": [
+    {
+      "date": "2025-07-06",
+      "type": "release",
+      "title": "v1.1.0",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.1.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-18",
+      "type": "release",
+      "title": "v1.2.0",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.2.0",
+      "points": null
+    },
+    {
+      "date": "2025-07-27",
+      "type": "release",
+      "title": "v1.2.1",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.2.1",
+      "points": null
+    },
+    {
+      "date": "2025-08-11",
+      "type": "release",
+      "title": "v1.3.0",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.3.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-23",
+      "type": "release",
+      "title": "v1.4.0",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.4.0",
+      "points": null
+    },
+    {
+      "date": "2025-08-30",
+      "type": "release",
+      "title": "v1.4.1",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.4.1",
+      "points": null
+    },
+    {
+      "date": "2025-09-01",
+      "type": "release",
+      "title": "v1.4.2",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.4.2",
+      "points": null
+    },
+    {
+      "date": "2025-09-14",
+      "type": "release",
+      "title": "v1.5.0",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.5.0",
+      "points": null
+    },
+    {
+      "date": "2025-09-21",
+      "type": "release",
+      "title": "v1.6.0",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.6.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-02",
+      "type": "release",
+      "title": "v1.6.1",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.6.1",
+      "points": null
+    },
+    {
+      "date": "2025-10-12",
+      "type": "release",
+      "title": "v1.7.0",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.7.0",
+      "points": null
+    },
+    {
+      "date": "2025-10-18",
+      "type": "release",
+      "title": "v1.8.0",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.8.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-08",
+      "type": "release",
+      "title": "v1.9.0",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.9.0",
+      "points": null
+    },
+    {
+      "date": "2025-11-15",
+      "type": "release",
+      "title": "v1.9.1",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.9.1",
+      "points": null
+    },
+    {
+      "date": "2025-11-28",
+      "type": "release",
+      "title": "v1.9.2",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.9.2",
+      "points": null
+    },
+    {
+      "date": "2025-12-12",
+      "type": "release",
+      "title": "v1.10.0",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.10.0",
+      "points": null
+    },
+    {
+      "date": "2025-12-14",
+      "type": "release",
+      "title": "v1.10.1",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.10.1",
+      "points": null
+    },
+    {
+      "date": "2025-12-16",
+      "type": "release",
+      "title": "v1.10.2",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.10.2",
+      "points": null
+    },
+    {
+      "date": "2025-12-23",
+      "type": "release",
+      "title": "v1.11.0",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.11.0",
+      "points": null
+    },
+    {
+      "date": "2026-01-18",
+      "type": "release",
+      "title": "v1.11.1",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.11.1",
+      "points": null
+    },
+    {
+      "date": "2026-02-28",
+      "type": "release",
+      "title": "v1.12.0",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.12.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-24",
+      "type": "release",
+      "title": "v1.13.0",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.13.0",
+      "points": null
+    },
+    {
+      "date": "2026-03-26",
+      "type": "release",
+      "title": "v1.13.1",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.13.1",
+      "points": null
+    },
+    {
+      "date": "2026-04-26",
+      "type": "release",
+      "title": "v1.14.0",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.14.0",
+      "points": null
+    },
+    {
+      "date": "2026-05-27",
+      "type": "release",
+      "title": "v1.14.1",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.14.1",
+      "points": null
+    },
+    {
+      "date": "2026-06-18",
+      "type": "release",
+      "title": "v1.15.0",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.15.0",
+      "points": null
+    },
+    {
+      "date": "2026-06-29",
+      "type": "release",
+      "title": "v1.16.0",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.16.0",
+      "points": null
+    },
+    {
+      "date": "2026-07-11",
+      "type": "release",
+      "title": "v1.16.1",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.16.1",
+      "points": null
+    },
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "title": "v1.17.0",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.17.0",
+      "points": null
+    },
+    {
+      "date": "2026-08-08",
+      "type": "release",
+      "title": "v1.18.0",
+      "url": "https://github.com/yamadashy/repomix/releases/tag/v1.18.0",
+      "points": null
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/gorhom/react-native-bottom-sheet",
   "name": "react-native-bottom-sheet",
   "desc": "A performant interactive bottom sheet with fully configurable options 🚀",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-bottom-sheet",
+  "githubDescription": "A performant interactive bottom sheet with fully configurable options 🚀",
   "tags": [
     "bottom-sheet",
     "bottomsheet",
@@ -14,6 +14,13 @@
     "reanimated",
     "sheet"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 9081,
+      "forks": 963,
+      "openIssues": 85
+    }
+  ],
   "weight": 9081
 }

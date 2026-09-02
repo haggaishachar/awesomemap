@@ -4,8 +4,8 @@
   "link": "https://github.com/Checkmarx/kics",
   "name": "kics",
   "desc": "Find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code with KICS by Checkmarx.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "kics",
+  "githubDescription": "Find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code with KICS by Checkmarx.",
   "tags": [
     "appsec",
     "cloudnative",
@@ -20,7 +20,14 @@
     "vulnerability-detection",
     "vulnerability-scanners"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2698,
+      "forks": 381,
+      "openIssues": 316
+    }
+  ],
   "weight": 2698,
   "image": "https://avatars.githubusercontent.com/u/15811295?v=4"
 }

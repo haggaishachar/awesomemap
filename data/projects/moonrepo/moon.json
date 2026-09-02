@@ -4,8 +4,8 @@
   "link": "https://github.com/moonrepo/moon",
   "name": "moon",
   "desc": "A build system and monorepo management tool for the web ecosystem, written in Rust.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "moon",
+  "githubDescription": "A build system and monorepo management tool for the web ecosystem, written in Rust.",
   "tags": [
     "build-system",
     "build-tool",
@@ -24,7 +24,14 @@
     "typescript",
     "workspace"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 4085,
+      "forks": 247,
+      "openIssues": 97
+    }
+  ],
   "weight": 4083,
   "image": "https://avatars.githubusercontent.com/u/102833400?v=4"
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/khoj-ai/khoj",
   "name": "khoj",
   "desc": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "khoj",
+  "githubDescription": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
   "tags": [
     "agent",
     "ai",
@@ -28,7 +28,14 @@
     "stt",
     "whatsapp-ai"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 36930,
+      "forks": 2439,
+      "openIssues": 147
+    }
+  ],
   "weight": 36861,
   "image": "https://avatars.githubusercontent.com/u/134046886?v=4"
 }

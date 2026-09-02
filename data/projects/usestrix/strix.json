@@ -4,8 +4,8 @@
   "link": "https://github.com/usestrix/strix",
   "name": "strix",
   "desc": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "strix",
+  "githubDescription": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
   "tags": [
     "agents",
     "ai-hacking",
@@ -28,7 +28,14 @@
     "security",
     "security-automation"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 60042,
+      "forks": 6567,
+      "openIssues": 337
+    }
+  ],
   "weight": 59831,
   "image": "https://raw.githubusercontent.com/usestrix/strix/main/.github/logo.png"
 }

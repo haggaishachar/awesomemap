@@ -4,8 +4,8 @@
   "link": "https://github.com/plastic-labs/honcho",
   "name": "honcho",
   "desc": " Memory library for building stateful agents",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "honcho",
+  "githubDescription": " Memory library for building stateful agents",
   "tags": [
     "agent-memory",
     "ai",
@@ -28,7 +28,14 @@
     "typescript",
     "vector-database"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 6983,
+      "forks": 865,
+      "openIssues": 154
+    }
+  ],
   "weight": 6973,
   "image": "https://avatars.githubusercontent.com/u/123981229?v=4"
 }

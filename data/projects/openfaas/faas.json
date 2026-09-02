@@ -4,8 +4,8 @@
   "link": "https://github.com/openfaas/faas",
   "name": "faas",
   "desc": "OpenFaaS - Serverless Functions Made Simple",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "faas",
+  "githubDescription": "OpenFaaS - Serverless Functions Made Simple",
   "tags": [
     "docker",
     "faas",
@@ -22,7 +22,14 @@
     "serverless",
     "serverless-functions"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 26234,
+      "forks": 1968,
+      "openIssues": 31
+    }
+  ],
   "weight": 26234,
   "image": "https://avatars.githubusercontent.com/u/27013154?v=4"
 }

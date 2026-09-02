@@ -4,8 +4,8 @@
   "link": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
   "name": "annotated_deep_learning_paper_implementations",
   "desc": "🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(cyclegan, stylegan2, ...), 🎮 reinforcement learning (ppo, dqn), capsnet, distillation, ... 🧠",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "annotated_deep_learning_paper_implementations",
+  "githubDescription": "🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(cyclegan, stylegan2, ...), 🎮 reinforcement learning (ppo, dqn), capsnet, distillation, ... 🧠",
   "tags": [
     "attention",
     "deep-learning",
@@ -21,7 +21,14 @@
     "transformer",
     "transformers"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 67389,
+      "forks": 6752,
+      "openIssues": 32
+    }
+  ],
   "weight": 67387,
   "image": "https://avatars.githubusercontent.com/u/64068543?v=4"
 }

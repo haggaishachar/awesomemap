@@ -4,8 +4,8 @@
   "link": "https://github.com/nanopb/nanopb",
   "name": "nanopb",
   "desc": "Protocol Buffers with small code size",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "nanopb",
+  "githubDescription": "Protocol Buffers with small code size",
   "tags": [
     "c",
     "embedded",
@@ -13,7 +13,14 @@
     "nanopb",
     "protocol-buffers"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 5545,
+      "forks": 1039,
+      "openIssues": 79
+    }
+  ],
   "weight": 5544,
   "image": "https://avatars.githubusercontent.com/u/12173937?v=4"
 }

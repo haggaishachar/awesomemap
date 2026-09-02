@@ -4,8 +4,8 @@
   "link": "https://github.com/langflow-ai/langflow",
   "name": "langflow",
   "desc": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "langflow",
+  "githubDescription": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
   "tags": [
     "agents",
     "chatgpt",
@@ -14,7 +14,14 @@
     "multiagent",
     "react-flow"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 154064,
+      "forks": 9998,
+      "openIssues": 1018
+    }
+  ],
   "weight": 154021,
   "image": "https://avatars.githubusercontent.com/u/85702467?v=4"
 }

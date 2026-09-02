@@ -4,8 +4,8 @@
   "link": "https://github.com/emqx/emqx",
   "name": "emqx",
   "desc": "The most scalable and reliable MQTT broker for AI, IoT, IIoT and connected vehicles",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "emqx",
+  "githubDescription": "The most scalable and reliable MQTT broker for AI, IoT, IIoT and connected vehicles",
   "tags": [
     "aiot",
     "broker",
@@ -28,7 +28,14 @@
     "mqtt-server",
     "pubsub"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 16681,
+      "forks": 2547,
+      "openIssues": 185
+    }
+  ],
   "weight": 16680,
   "image": "https://avatars.githubusercontent.com/u/25221711?v=4"
 }

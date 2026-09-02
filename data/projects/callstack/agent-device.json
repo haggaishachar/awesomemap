@@ -4,8 +4,8 @@
   "link": "https://github.com/callstack/agent-device",
   "name": "agent-device",
   "desc": "Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, Android, HarmonyOS, TV, web, macOS, and Linux.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "agent-device",
+  "githubDescription": "Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, Android, HarmonyOS, TV, web, macOS, and Linux.",
   "tags": [
     "adb",
     "agentic-ai",
@@ -25,7 +25,14 @@
     "testing",
     "xcuitest"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 4321,
+      "forks": 268,
+      "openIssues": 46
+    }
+  ],
   "weight": 4309,
   "image": "https://avatars.githubusercontent.com/u/42239399?v=4"
 }

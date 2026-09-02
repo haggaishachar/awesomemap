@@ -4,8 +4,8 @@
   "link": "https://github.com/ItzCrazyKns/Vane",
   "name": "Vane",
   "desc": "Vane is an AI-powered answering engine.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "Vane",
+  "githubDescription": "Vane is an AI-powered answering engine.",
   "tags": [
     "ai-agents",
     "ai-search-engine",
@@ -22,6 +22,13 @@
     "self-hosted-ai",
     "vane"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 36584,
+      "forks": 4063,
+      "openIssues": 347
+    }
+  ],
   "weight": 36568
 }

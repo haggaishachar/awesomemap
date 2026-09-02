@@ -4,8 +4,8 @@
   "link": "https://github.com/VictoriaMetrics/VictoriaMetrics",
   "name": "VictoriaMetrics",
   "desc": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "VictoriaMetrics",
+  "githubDescription": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
   "tags": [
     "database",
     "grafana",
@@ -21,7 +21,14 @@
     "thanos",
     "tsdb"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 17637,
+      "forks": 1730,
+      "openIssues": 780
+    }
+  ],
   "weight": 17630,
   "image": "https://avatars.githubusercontent.com/u/43720803?v=4"
 }

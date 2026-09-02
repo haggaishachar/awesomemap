@@ -4,8 +4,8 @@
   "link": "https://github.com/podman-container-tools/podman",
   "name": "podman",
   "desc": "Podman: A tool for managing OCI containers and pods.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "podman",
+  "githubDescription": "Podman: A tool for managing OCI containers and pods.",
   "tags": [
     "containers",
     "docker",
@@ -13,7 +13,14 @@
     "linux",
     "oci"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 32757,
+      "forks": 3354,
+      "openIssues": 1133
+    }
+  ],
   "weight": 32752,
   "image": "https://avatars.githubusercontent.com/u/277799342?v=4"
 }

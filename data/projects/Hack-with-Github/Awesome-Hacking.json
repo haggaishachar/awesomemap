@@ -4,8 +4,8 @@
   "link": "https://github.com/Hack-with-Github/Awesome-Hacking",
   "name": "Awesome-Hacking",
   "desc": "A collection of various awesome lists for hackers, pentesters and security researchers",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "Awesome-Hacking",
+  "githubDescription": "A collection of various awesome lists for hackers, pentesters and security researchers",
   "tags": [
     "android",
     "awesome",
@@ -17,7 +17,14 @@
     "reverse-engineering",
     "security"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 119534,
+      "forks": 10706,
+      "openIssues": 40
+    }
+  ],
   "weight": 119477,
   "image": "https://avatars.githubusercontent.com/u/18143746?v=4"
 }

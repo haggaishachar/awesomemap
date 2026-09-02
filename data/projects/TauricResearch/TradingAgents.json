@@ -4,8 +4,8 @@
   "link": "https://github.com/TauricResearch/TradingAgents",
   "name": "TradingAgents",
   "desc": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "TradingAgents",
+  "githubDescription": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
   "tags": [
     "agent",
     "finance",
@@ -13,7 +13,14 @@
     "multiagent",
     "trading"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 102263,
+      "forks": 19677,
+      "openIssues": 357
+    }
+  ],
   "weight": 102132,
   "image": "https://avatars.githubusercontent.com/u/192884433?v=4"
 }

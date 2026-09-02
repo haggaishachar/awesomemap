@@ -4,8 +4,8 @@
   "link": "https://github.com/puckeditor/puck",
   "name": "puck",
   "desc": "The visual editor for React.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "puck",
+  "githubDescription": "The visual editor for React.",
   "tags": [
     "ai",
     "builder",
@@ -18,7 +18,14 @@
     "react",
     "visual-editor"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 13243,
+      "forks": 968,
+      "openIssues": 196
+    }
+  ],
   "weight": 13234,
   "image": "https://avatars.githubusercontent.com/u/153829377?v=4"
 }

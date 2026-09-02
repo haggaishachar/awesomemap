@@ -4,8 +4,8 @@
   "link": "https://github.com/zilliztech/deep-searcher",
   "name": "deep-searcher",
   "desc": "Open Source Deep Research Alternative to Reason and Search on Private Data. Written in Python.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "deep-searcher",
+  "githubDescription": "Open Source Deep Research Alternative to Reason and Search on Private Data. Written in Python.",
   "tags": [
     "agent",
     "agentic-rag",
@@ -25,7 +25,14 @@
     "vector-database",
     "zilliz"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 8249,
+      "forks": 802,
+      "openIssues": 54
+    }
+  ],
   "weight": 8230,
   "image": "https://avatars.githubusercontent.com/u/18416694?v=4"
 }

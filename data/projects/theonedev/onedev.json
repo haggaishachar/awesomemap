@@ -4,8 +4,8 @@
   "link": "https://github.com/theonedev/onedev",
   "name": "onedev",
   "desc": "The Unified and Autonomous Development Platform",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "onedev",
+  "githubDescription": "The Unified and Autonomous Development Platform",
   "tags": [
     "ai",
     "ci-cd",
@@ -16,7 +16,14 @@
     "self-hosted",
     "workspaces"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 15205,
+      "forks": 978,
+      "openIssues": 0
+    }
+  ],
   "weight": 15205,
   "image": "https://avatars.githubusercontent.com/u/44279871?v=4"
 }

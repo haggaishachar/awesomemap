@@ -4,8 +4,8 @@
   "link": "https://github.com/cvat-ai/cvat",
   "name": "cvat",
   "desc": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "cvat",
+  "githubDescription": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs.",
   "tags": [
     "annotation",
     "annotation-tool",
@@ -28,7 +28,14 @@
     "tensorflow",
     "video-annotation"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 16633,
+      "forks": 3826,
+      "openIssues": 597
+    }
+  ],
   "weight": 16631,
   "image": "https://avatars.githubusercontent.com/u/105363648?v=4"
 }

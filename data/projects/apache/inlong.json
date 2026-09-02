@@ -4,8 +4,8 @@
   "link": "https://github.com/apache/inlong",
   "name": "inlong",
   "desc": "Apache InLong - a one-stop, full-scenario integration framework for massive data",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "inlong",
+  "githubDescription": "Apache InLong - a one-stop, full-scenario integration framework for massive data",
   "tags": [
     "data-streaming",
     "event-streaming",
@@ -15,7 +15,14 @@
     "massive-data-integration",
     "one-stop-service"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1498,
+      "forks": 570,
+      "openIssues": 23
+    }
+  ],
   "weight": 1497,
   "image": "https://avatars.githubusercontent.com/u/47359?v=4"
 }

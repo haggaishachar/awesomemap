@@ -4,8 +4,8 @@
   "link": "https://github.com/MichaCo/CacheManager",
   "name": "CacheManager",
   "desc": "CacheManager is an open source caching abstraction layer for .NET written in C#. It supports various cache providers and implements many advanced features.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "CacheManager",
+  "githubDescription": "CacheManager is an open source caching abstraction layer for .NET written in C#. It supports various cache providers and implements many advanced features.",
   "tags": [
     "c-sharp",
     "cache",
@@ -16,7 +16,14 @@
     "memcached",
     "redis"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2419,
+      "forks": 451,
+      "openIssues": 13
+    }
+  ],
   "weight": 2419,
   "image": "https://avatars.githubusercontent.com/u/264563665?v=4"
 }

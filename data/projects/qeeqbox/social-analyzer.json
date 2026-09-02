@@ -4,8 +4,8 @@
   "link": "https://github.com/qeeqbox/social-analyzer",
   "name": "social-analyzer",
   "desc": "API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \\ websites",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "social-analyzer",
+  "githubDescription": "API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \\ websites",
   "tags": [
     "analysis",
     "analyzer",
@@ -27,7 +27,14 @@
     "sosint",
     "username"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 23918,
+      "forks": 2300,
+      "openIssues": 27
+    }
+  ],
   "weight": 23911,
   "image": "https://avatars.githubusercontent.com/u/54420737?v=4"
 }

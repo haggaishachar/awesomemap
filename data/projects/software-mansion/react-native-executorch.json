@@ -4,8 +4,8 @@
   "link": "https://github.com/software-mansion/react-native-executorch",
   "name": "react-native-executorch",
   "desc": "Declarative way to run AI models in React Native on device, powered by ExecuTorch.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-executorch",
+  "githubDescription": "Declarative way to run AI models in React Native on device, powered by ExecuTorch.",
   "tags": [
     "computer-vision",
     "executorch",
@@ -21,7 +21,14 @@
     "text-to-speech",
     "vlm"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1706,
+      "forks": 96,
+      "openIssues": 53
+    }
+  ],
   "weight": 1706,
   "image": "https://avatars.githubusercontent.com/u/56880679?v=4"
 }

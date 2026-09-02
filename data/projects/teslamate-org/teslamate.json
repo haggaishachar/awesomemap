@@ -4,8 +4,8 @@
   "link": "https://github.com/teslamate-org/teslamate",
   "name": "teslamate",
   "desc": "A self-hosted data logger for your Tesla  🚘 [main maintainer=@JakobLichterfeld]",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "teslamate",
+  "githubDescription": "A self-hosted data logger for your Tesla  🚘 [main maintainer=@JakobLichterfeld]",
   "tags": [
     "dashboard",
     "datalogger",
@@ -25,7 +25,14 @@
     "tesla",
     "tesla-api"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 8940,
+      "forks": 1003,
+      "openIssues": 76
+    }
+  ],
   "weight": 8936,
   "image": "https://avatars.githubusercontent.com/u/150616486?v=4"
 }

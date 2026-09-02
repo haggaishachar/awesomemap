@@ -4,8 +4,8 @@
   "link": "https://github.com/jaredwray/cacheable",
   "name": "cacheable",
   "desc": "a robust, scalable, and maintained set of caching packages",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "cacheable",
+  "githubDescription": "a robust, scalable, and maintained set of caching packages",
   "tags": [
     "cache",
     "caching",
@@ -18,6 +18,13 @@
     "rfc-72",
     "wrapper"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2005,
+      "forks": 207,
+      "openIssues": 0
+    }
+  ],
   "weight": 2005
 }

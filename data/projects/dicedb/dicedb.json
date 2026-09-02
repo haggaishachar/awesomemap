@@ -4,8 +4,8 @@
   "link": "https://github.com/dicedb/dicedb",
   "name": "dicedb",
   "desc": "Open-source, low-latency key/value engine built on Valkey with query subscriptions and hierarchical storage tiers.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "dicedb",
+  "githubDescription": "Open-source, low-latency key/value engine built on Valkey with query subscriptions and hierarchical storage tiers.",
   "tags": [
     "cache",
     "database",
@@ -16,7 +16,14 @@
     "storage-engine",
     "valkey"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 10771,
+      "forks": 1397,
+      "openIssues": 131
+    }
+  ],
   "weight": 10771,
   "image": "https://avatars.githubusercontent.com/u/112580013?v=4"
 }

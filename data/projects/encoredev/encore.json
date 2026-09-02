@@ -4,8 +4,8 @@
   "link": "https://github.com/encoredev/encore",
   "name": "encore",
   "desc": "The infrastructure platform for the intelligence era",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "encore",
+  "githubDescription": "The infrastructure platform for the intelligence era",
   "tags": [
     "aws",
     "backend",
@@ -25,7 +25,14 @@
     "serverless",
     "typescript"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 12330,
+      "forks": 613,
+      "openIssues": 121
+    }
+  ],
   "weight": 12328,
   "image": "https://avatars.githubusercontent.com/u/50438175?v=4"
 }

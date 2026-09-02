@@ -4,8 +4,8 @@
   "link": "https://github.com/jo-duchan/tapflow",
   "name": "tapflow",
   "desc": "Self-hosted iOS & Android simulator streaming for the whole team",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "tapflow",
+  "githubDescription": "Self-hosted iOS & Android simulator streaming for the whole team",
   "tags": [
     "android",
     "android-emulator",
@@ -28,6 +28,13 @@
     "simulator",
     "testing"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 546,
+      "forks": 69,
+      "openIssues": 79
+    }
+  ],
   "weight": 543
 }

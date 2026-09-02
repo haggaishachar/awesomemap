@@ -4,8 +4,8 @@
   "link": "https://github.com/lottie-react-native/lottie-react-native",
   "name": "lottie-react-native",
   "desc": "Lottie wrapper for React Native.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "lottie-react-native",
+  "githubDescription": "Lottie wrapper for React Native.",
   "tags": [
     "after-effects",
     "animations",
@@ -13,7 +13,14 @@
     "react",
     "react-native"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 17211,
+      "forks": 1800,
+      "openIssues": 15
+    }
+  ],
   "weight": 17210,
   "image": "https://avatars.githubusercontent.com/u/71153457?v=4"
 }

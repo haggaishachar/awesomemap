@@ -4,8 +4,8 @@
   "link": "https://github.com/taosdata/TDengine",
   "name": "TDengine",
   "desc": "High-performance, scalable time-series database designed for Industrial IoT (IIoT) scenarios",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "TDengine",
+  "githubDescription": "High-performance, scalable time-series database designed for Industrial IoT (IIoT) scenarios",
   "tags": [
     "bigdata",
     "cloud-native",
@@ -25,7 +25,14 @@
     "time-series-database",
     "tsdb"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 25097,
+      "forks": 5018,
+      "openIssues": 432
+    }
+  ],
   "weight": 25096,
   "image": "https://avatars.githubusercontent.com/u/48876650?v=4"
 }

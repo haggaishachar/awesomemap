@@ -4,8 +4,8 @@
   "link": "https://github.com/sherlock-project/sherlock",
   "name": "sherlock",
   "desc": "Hunt down social media accounts by username across social networks",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "sherlock",
+  "githubDescription": "Hunt down social media accounts by username across social networks",
   "tags": [
     "cli",
     "cti",
@@ -24,7 +24,14 @@
     "sherlock",
     "tools"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 90821,
+      "forks": 10666,
+      "openIssues": 340
+    }
+  ],
   "weight": 90756,
   "image": "https://avatars.githubusercontent.com/u/48293496?v=4"
 }

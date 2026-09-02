@@ -4,8 +4,8 @@
   "link": "https://github.com/react-native-modal/react-native-modal",
   "name": "react-native-modal",
   "desc": "An enhanced, animated, customizable Modal for React Native.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-modal",
+  "githubDescription": "An enhanced, animated, customizable Modal for React Native.",
   "tags": [
     "android",
     "animated",
@@ -16,7 +16,14 @@
     "react",
     "react-native"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 5654,
+      "forks": 657,
+      "openIssues": 99
+    }
+  ],
   "weight": 5654,
   "image": "https://avatars.githubusercontent.com/u/71155361?v=4"
 }

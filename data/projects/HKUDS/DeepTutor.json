@@ -4,8 +4,8 @@
   "link": "https://github.com/HKUDS/DeepTutor",
   "name": "DeepTutor",
   "desc": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "DeepTutor",
+  "githubDescription": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
   "tags": [
     "ai-agents",
     "ai-tutor",
@@ -17,7 +17,14 @@
     "multi-agent-systems",
     "rag"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 38380,
+      "forks": 4829,
+      "openIssues": 115
+    }
+  ],
   "weight": 38206,
   "image": "https://avatars.githubusercontent.com/u/118165258?v=4"
 }

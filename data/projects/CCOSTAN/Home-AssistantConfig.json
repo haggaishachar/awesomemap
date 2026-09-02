@@ -4,8 +4,8 @@
   "link": "https://github.com/CCOSTAN/Home-AssistantConfig",
   "name": "Home-AssistantConfig",
   "desc": ":house: Home Assistant configuration & Documentation for my Smart House.  Write-ups, videos, part lists, and links throughout. Be sure to :star: it. Updated FREQUENTLY!",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "Home-AssistantConfig",
+  "githubDescription": ":house: Home Assistant configuration & Documentation for my Smart House.  Write-ups, videos, part lists, and links throughout. Be sure to :star: it. Updated FREQUENTLY!",
   "tags": [
     "ai",
     "alexa",
@@ -27,6 +27,13 @@
     "youtube",
     "youtube-videos"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 5269,
+      "forks": 501,
+      "openIssues": 91
+    }
+  ],
   "weight": 5268
 }

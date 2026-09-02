@@ -4,8 +4,8 @@
   "link": "https://github.com/jason5ng32/MyIP",
   "name": "MyIP",
   "desc": "The best IP Toolbox. Check your IP address & geolocation, test IP for WebRTC and DNS IP leaks, run an IP quality check, browser fingerprint check, website availability check, network speed test, global latency test, MTR test, Whois search, and more.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "MyIP",
+  "githubDescription": "The best IP Toolbox. Check your IP address & geolocation, test IP for WebRTC and DNS IP leaks, run an IP quality check, browser fingerprint check, website availability check, network speed test, global latency test, MTR test, Whois search, and more.",
   "tags": [
     "awesome",
     "censorship",
@@ -28,6 +28,13 @@
     "whois",
     "whois-lookup"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 11799,
+      "forks": 1242,
+      "openIssues": 23
+    }
+  ],
   "weight": 11791
 }

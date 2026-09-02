@@ -4,8 +4,8 @@
   "link": "https://github.com/microsoft/react-native-windows",
   "name": "react-native-windows",
   "desc": "A framework for building native Windows apps with React.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-windows",
+  "githubDescription": "A framework for building native Windows apps with React.",
   "tags": [
     "dotnet",
     "react",
@@ -13,7 +13,14 @@
     "uwp",
     "xbox"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 17337,
+      "forks": 1202,
+      "openIssues": 796
+    }
+  ],
   "weight": 17335,
   "image": "https://raw.githubusercontent.com/microsoft/react-native-windows/main/logo.png"
 }

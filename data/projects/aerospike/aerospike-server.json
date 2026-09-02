@@ -4,10 +4,17 @@
   "link": "https://github.com/aerospike/aerospike-server",
   "name": "aerospike-server",
   "desc": "Aerospike Database Server – flash-optimized, in-memory, nosql database",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "aerospike-server",
+  "githubDescription": "Aerospike Database Server – flash-optimized, in-memory, nosql database",
   "tags": [],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1376,
+      "forks": 212,
+      "openIssues": 10
+    }
+  ],
   "weight": 1376,
   "image": "https://avatars.githubusercontent.com/u/2214313?v=4"
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/linkedin/brooklin",
   "name": "brooklin",
   "desc": "An extensible distributed system for reliable nearline data streaming at scale",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "brooklin",
+  "githubDescription": "An extensible distributed system for reliable nearline data streaming at scale",
   "tags": [
     "change-data-capture",
     "data-streaming",
@@ -16,7 +16,14 @@
     "linkedin",
     "scalability"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 966,
+      "forks": 144,
+      "openIssues": 36
+    }
+  ],
   "weight": 966,
   "image": "https://avatars.githubusercontent.com/u/357098?v=4"
 }

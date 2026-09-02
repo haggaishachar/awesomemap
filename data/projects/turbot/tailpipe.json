@@ -4,8 +4,8 @@
   "link": "https://github.com/turbot/tailpipe",
   "name": "tailpipe",
   "desc": "select * from logs; Tailpipe is an open source SIEM for instant log insights, powered by DuckDB. Analyze millions of events in seconds, right from your terminal.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "tailpipe",
+  "githubDescription": "select * from logs; Tailpipe is an open source SIEM for instant log insights, powered by DuckDB. Analyze millions of events in seconds, right from your terminal.",
   "tags": [
     "aws",
     "azure",
@@ -23,7 +23,14 @@
     "tailpipe",
     "threat-detection"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 580,
+      "forks": 15,
+      "openIssues": 39
+    }
+  ],
   "weight": 580,
   "image": "https://avatars.githubusercontent.com/u/38865304?v=4"
 }

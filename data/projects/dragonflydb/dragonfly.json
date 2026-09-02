@@ -4,8 +4,8 @@
   "link": "https://github.com/dragonflydb/dragonfly",
   "name": "dragonfly",
   "desc": "A modern replacement for Redis and Memcached",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "dragonfly",
+  "githubDescription": "A modern replacement for Redis and Memcached",
   "tags": [
     "cache",
     "cpp",
@@ -23,7 +23,14 @@
     "valkey",
     "vector-search"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 31166,
+      "forks": 1241,
+      "openIssues": 286
+    }
+  ],
   "weight": 31125,
   "image": "https://avatars.githubusercontent.com/u/104819355?v=4"
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
   "name": "ai-engineering-from-scratch",
   "desc": "Learn it. Build it. Ship it for others.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "ai-engineering-from-scratch",
+  "githubDescription": "Learn it. Build it. Ship it for others.",
   "tags": [
     "agents",
     "ai",
@@ -28,6 +28,13 @@
     "tutorial",
     "typescript"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 51954,
+      "forks": 8999,
+      "openIssues": 101
+    }
+  ],
   "weight": 51735
 }

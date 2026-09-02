@@ -4,8 +4,8 @@
   "link": "https://github.com/alibaba/zvec",
   "name": "zvec",
   "desc": "A lightweight, lightning-fast, in-process vector database",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "zvec",
+  "githubDescription": "A lightweight, lightning-fast, in-process vector database",
   "tags": [
     "agent-skills",
     "db",
@@ -23,7 +23,14 @@
     "vector-database",
     "vector-db"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 15601,
+      "forks": 986,
+      "openIssues": 62
+    }
+  ],
   "weight": 15564,
   "image": "https://avatars.githubusercontent.com/u/1961952?v=4"
 }

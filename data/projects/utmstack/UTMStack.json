@@ -4,8 +4,8 @@
   "link": "https://github.com/utmstack/UTMStack",
   "name": "UTMStack",
   "desc": "Enterprise-ready SIEM, SOAR and Compliance powered by real-time correlation and threat intelligence.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "UTMStack",
+  "githubDescription": "Enterprise-ready SIEM, SOAR and Compliance powered by real-time correlation and threat intelligence.",
   "tags": [
     "cmmc",
     "compliance",
@@ -28,7 +28,14 @@
     "threat-hunting",
     "threat-intelligence"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 581,
+      "forks": 76,
+      "openIssues": 142
+    }
+  ],
   "weight": 581,
   "image": "https://avatars.githubusercontent.com/u/144401876?v=4"
 }

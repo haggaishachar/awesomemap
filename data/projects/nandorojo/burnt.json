@@ -4,9 +4,16 @@
   "link": "https://github.com/nandorojo/burnt",
   "name": "burnt",
   "desc": "Crunchy toasts for React Native. 🍞",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "burnt",
+  "githubDescription": "Crunchy toasts for React Native. 🍞",
   "tags": [],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1561,
+      "forks": 51,
+      "openIssues": 21
+    }
+  ],
   "weight": 1561
 }

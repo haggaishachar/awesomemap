@@ -4,8 +4,8 @@
   "link": "https://github.com/mdecrevoisier/EVTX-to-MITRE-Attack",
   "name": "EVTX-to-MITRE-Attack",
   "desc": "Set of EVTX samples (>270) mapped to MITRE ATT&CK tactic and techniques to measure your SIEM coverage or developed new use cases.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "EVTX-to-MITRE-Attack",
+  "githubDescription": "Set of EVTX samples (>270) mapped to MITRE ATT&CK tactic and techniques to measure your SIEM coverage or developed new use cases.",
   "tags": [
     "evtx",
     "mitre-attack",
@@ -13,6 +13,13 @@
     "siem",
     "threat-hunting"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 641,
+      "forks": 100,
+      "openIssues": 0
+    }
+  ],
   "weight": 641
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/saffron-health/libretto",
   "name": "libretto",
   "desc": "The AI toolkit for building reliable browser automations",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "libretto",
+  "githubDescription": "The AI toolkit for building reliable browser automations",
   "tags": [
     "automation",
     "browser",
@@ -13,7 +13,14 @@
     "codex",
     "rpa"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 883,
+      "forks": 68,
+      "openIssues": 19
+    }
+  ],
   "weight": 883,
   "image": "https://avatars.githubusercontent.com/u/195583508?v=4"
 }

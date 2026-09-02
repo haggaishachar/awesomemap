@@ -4,8 +4,8 @@
   "link": "https://github.com/huggingface/datasets",
   "name": "datasets",
   "desc": "🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "datasets",
+  "githubDescription": "🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools",
   "tags": [
     "ai",
     "artificial-intelligence",
@@ -24,7 +24,14 @@
     "speech",
     "tensorflow"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 21888,
+      "forks": 3379,
+      "openIssues": 1336
+    }
+  ],
   "weight": 21885,
   "image": "https://avatars.githubusercontent.com/u/25720743?v=4"
 }

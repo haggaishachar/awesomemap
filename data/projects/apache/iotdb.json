@@ -4,8 +4,8 @@
   "link": "https://github.com/apache/iotdb",
   "name": "iotdb",
   "desc": "Apache IoTDB",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "iotdb",
+  "githubDescription": "Apache IoTDB",
   "tags": [
     "big-data",
     "database",
@@ -15,7 +15,14 @@
     "timeseries",
     "tsdb"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 6389,
+      "forks": 1152,
+      "openIssues": 726
+    }
+  ],
   "weight": 6386,
   "image": "https://avatars.githubusercontent.com/u/47359?v=4"
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/elixir-nebulex/nebulex",
   "name": "nebulex",
   "desc": "In-memory and distributed caching toolkit for Elixir.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "nebulex",
+  "githubDescription": "In-memory and distributed caching toolkit for Elixir.",
   "tags": [
     "cache",
     "caching",
@@ -15,7 +15,14 @@
     "elixir",
     "framework"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1398,
+      "forks": 79,
+      "openIssues": 2
+    }
+  ],
   "weight": 1398,
   "image": "https://avatars.githubusercontent.com/u/123803054?v=4"
 }

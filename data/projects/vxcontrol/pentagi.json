@@ -4,8 +4,8 @@
   "link": "https://github.com/vxcontrol/pentagi",
   "name": "pentagi",
   "desc": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "pentagi",
+  "githubDescription": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
   "tags": [
     "ai-agents",
     "ai-security-tool",
@@ -26,7 +26,14 @@
     "security-tools",
     "self-hosted"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 22242,
+      "forks": 2954,
+      "openIssues": 54
+    }
+  ],
   "weight": 22218,
   "image": "https://avatars.githubusercontent.com/u/39194251?v=4"
 }

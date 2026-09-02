@@ -4,8 +4,8 @@
   "link": "https://github.com/unslothai/unsloth",
   "name": "unsloth",
   "desc": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, FLUX and more.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "unsloth",
+  "githubDescription": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.",
   "tags": [
     "agent",
     "ai",
@@ -28,7 +28,14 @@
     "ui",
     "unsloth"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 75466,
+      "forks": 6849,
+      "openIssues": 1382
+    }
+  ],
   "weight": 75414,
   "image": "https://avatars.githubusercontent.com/u/150920049?v=4"
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/future-architect/vuls",
   "name": "vuls",
   "desc": "Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Programming language libraries, Network devices",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "vuls",
+  "githubDescription": "Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Programming language libraries, Network devices",
   "tags": [
     "administrator",
     "cybersecurity",
@@ -28,7 +28,14 @@
     "vulnerability-scanners",
     "vuls"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 12248,
+      "forks": 1240,
+      "openIssues": 90
+    }
+  ],
   "weight": 12249,
   "image": "https://avatars.githubusercontent.com/u/14890632?v=4"
 }

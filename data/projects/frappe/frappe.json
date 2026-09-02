@@ -4,8 +4,8 @@
   "link": "https://github.com/frappe/frappe",
   "name": "frappe",
   "desc": "Low code web framework for real world applications, in Python and Javascript",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "frappe",
+  "githubDescription": "Low code web framework for real world applications, in Python and Javascript",
   "tags": [
     "cms",
     "email",
@@ -24,7 +24,14 @@
     "web-framework",
     "webhooks"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 10683,
+      "forks": 5258,
+      "openIssues": 1984
+    }
+  ],
   "weight": 10677,
   "image": "https://avatars.githubusercontent.com/u/836974?v=4"
 }

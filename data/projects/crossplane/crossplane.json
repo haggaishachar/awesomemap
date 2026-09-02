@@ -4,8 +4,8 @@
   "link": "https://github.com/crossplane/crossplane",
   "name": "crossplane",
   "desc": "The Cloud Native Control Plane",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "crossplane",
+  "githubDescription": "The Cloud Native Control Plane",
   "tags": [
     "cloud-computing",
     "cloud-management",
@@ -19,7 +19,14 @@
     "multicloud",
     "serverless"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 12006,
+      "forks": 1247,
+      "openIssues": 196
+    }
+  ],
   "weight": 12001,
   "image": "https://avatars.githubusercontent.com/u/45158470?v=4"
 }

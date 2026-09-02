@@ -4,8 +4,8 @@
   "link": "https://github.com/PaddlePaddle/PaddleOCR",
   "name": "PaddleOCR",
   "desc": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "PaddleOCR",
+  "githubDescription": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
   "tags": [
     "ai4science",
     "chineseocr",
@@ -21,7 +21,14 @@
     "pp-structure",
     "rag"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 88664,
+      "forks": 11281,
+      "openIssues": 237
+    }
+  ],
   "weight": 88590,
   "image": "https://avatars.githubusercontent.com/u/23534030?v=4"
 }

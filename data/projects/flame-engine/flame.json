@@ -4,8 +4,8 @@
   "link": "https://github.com/flame-engine/flame",
   "name": "flame",
   "desc": "A Flutter based game engine.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "flame",
+  "githubDescription": "A Flutter based game engine.",
   "tags": [
     "dart",
     "flame",
@@ -16,7 +16,14 @@
     "gamedev",
     "hacktoberfest"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 10737,
+      "forks": 1039,
+      "openIssues": 84
+    }
+  ],
   "weight": 10737,
   "image": "https://avatars.githubusercontent.com/u/47222401?v=4"
 }

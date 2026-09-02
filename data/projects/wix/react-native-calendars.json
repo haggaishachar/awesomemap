@@ -4,8 +4,8 @@
   "link": "https://github.com/wix/react-native-calendars",
   "name": "react-native-calendars",
   "desc": "React Native Calendar Components 🗓️ 📆 ",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-calendars",
+  "githubDescription": "React Native Calendar Components 🗓️ 📆 ",
   "tags": [
     "android",
     "calendar",
@@ -14,7 +14,14 @@
     "react-native",
     "ui-components"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 10310,
+      "forks": 3064,
+      "openIssues": 149
+    }
+  ],
   "weight": 10310,
   "image": "https://avatars.githubusercontent.com/u/686511?v=4"
 }

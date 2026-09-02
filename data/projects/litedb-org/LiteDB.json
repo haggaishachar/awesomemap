@@ -4,8 +4,8 @@
   "link": "https://github.com/litedb-org/LiteDB",
   "name": "LiteDB",
   "desc": "LiteDB - A .NET NoSQL Document Store in a single data file",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "LiteDB",
+  "githubDescription": "LiteDB - A .NET NoSQL Document Store in a single data file",
   "tags": [
     "database",
     "dotnet",
@@ -13,7 +13,14 @@
     "litedb",
     "nosql"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 9461,
+      "forks": 1324,
+      "openIssues": 759
+    }
+  ],
   "weight": 9460,
   "image": "https://avatars.githubusercontent.com/u/172976723?v=4"
 }

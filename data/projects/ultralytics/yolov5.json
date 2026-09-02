@@ -4,8 +4,8 @@
   "link": "https://github.com/ultralytics/yolov5",
   "name": "yolov5",
   "desc": "Ultralytics YOLOv5 in PyTorch for object detection, instance segmentation, classification, training, and export.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "yolov5",
+  "githubDescription": "Ultralytics YOLOv5 in PyTorch for object detection, instance segmentation, classification, training, and export.",
   "tags": [
     "computer-vision",
     "coreml",
@@ -24,7 +24,14 @@
     "yolo",
     "yolov5"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 57960,
+      "forks": 17468,
+      "openIssues": 31
+    }
+  ],
   "weight": 57953,
   "image": "https://avatars.githubusercontent.com/u/26833451?v=4"
 }

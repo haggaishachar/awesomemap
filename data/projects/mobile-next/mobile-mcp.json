@@ -4,8 +4,8 @@
   "link": "https://github.com/mobile-next/mobile-mcp",
   "name": "mobile-mcp",
   "desc": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "mobile-mcp",
+  "githubDescription": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)",
   "tags": [
     "agent",
     "android",
@@ -17,7 +17,14 @@
     "real",
     "simulator"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 6310,
+      "forks": 544,
+      "openIssues": 61
+    }
+  ],
   "weight": 6282,
   "image": "https://avatars.githubusercontent.com/u/205340688?v=4"
 }

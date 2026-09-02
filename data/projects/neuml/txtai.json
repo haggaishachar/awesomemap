@@ -4,8 +4,8 @@
   "link": "https://github.com/neuml/txtai",
   "name": "txtai",
   "desc": "💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "txtai",
+  "githubDescription": "💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows",
   "tags": [
     "agents",
     "ai",
@@ -28,7 +28,14 @@
     "vector-database",
     "vector-search"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 12918,
+      "forks": 887,
+      "openIssues": 9
+    }
+  ],
   "weight": 12919,
   "image": "https://raw.githubusercontent.com/neuml/txtai/master/logo.png"
 }

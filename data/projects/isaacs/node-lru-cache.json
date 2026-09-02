@@ -4,8 +4,8 @@
   "link": "https://github.com/isaacs/node-lru-cache",
   "name": "node-lru-cache",
   "desc": "A fast cache that automatically deletes the least recently used items",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "node-lru-cache",
+  "githubDescription": "A fast cache that automatically deletes the least recently used items",
   "tags": [
     "cache",
     "caching",
@@ -13,6 +13,13 @@
     "lru-cache",
     "lrucache"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 5912,
+      "forks": 374,
+      "openIssues": 3
+    }
+  ],
   "weight": 5912
 }

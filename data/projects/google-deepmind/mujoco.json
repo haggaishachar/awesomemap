@@ -4,14 +4,21 @@
   "link": "https://github.com/google-deepmind/mujoco",
   "name": "mujoco",
   "desc": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "mujoco",
+  "githubDescription": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
   "tags": [
     "mujoco",
     "physics",
     "robotics"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 14872,
+      "forks": 1709,
+      "openIssues": 355
+    }
+  ],
   "weight": 14851,
   "image": "https://avatars.githubusercontent.com/u/8596759?v=4"
 }

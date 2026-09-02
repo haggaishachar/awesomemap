@@ -4,8 +4,8 @@
   "link": "https://github.com/frenck/home-assistant-config",
   "name": "home-assistant-config",
   "desc": ":house: My Home Assistant configuration, a bit different that others :) Be sure to :star2: this repository for updates!",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "home-assistant-config",
+  "githubDescription": ":house: My Home Assistant configuration, a bit different that others :) Be sure to :star2: this repository for updates!",
   "tags": [
     "automation",
     "hass",
@@ -20,6 +20,13 @@
     "internetofthings",
     "iot"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2022,
+      "forks": 178,
+      "openIssues": 5
+    }
+  ],
   "weight": 2022
 }

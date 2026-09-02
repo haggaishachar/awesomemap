@@ -4,8 +4,8 @@
   "link": "https://github.com/cluic/wxauto",
   "name": "wxauto",
   "desc": "Windows版本微信客户端（非网页版）自动化，可实现简单的发送、接收微信消息，简单微信机器人",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "wxauto",
+  "githubDescription": "Windows版本微信客户端（非网页版）自动化，可实现简单的发送、接收微信消息，简单微信机器人",
   "tags": [
     "automatic",
     "python",
@@ -13,6 +13,13 @@
     "wechat",
     "weixin"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 7289,
+      "forks": 1382,
+      "openIssues": 203
+    }
+  ],
   "weight": 7287
 }

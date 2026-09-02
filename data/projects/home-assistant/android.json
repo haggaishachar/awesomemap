@@ -4,8 +4,8 @@
   "link": "https://github.com/home-assistant/android",
   "name": "android",
   "desc": "Home Assistant Companion for Android",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "android",
+  "githubDescription": "Home Assistant Companion for Android",
   "tags": [
     "android",
     "automotive",
@@ -17,7 +17,14 @@
     "open-source-app",
     "wear"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 3852,
+      "forks": 1050,
+      "openIssues": 462
+    }
+  ],
   "weight": 3848,
   "image": "https://avatars.githubusercontent.com/u/13844975?v=4"
 }

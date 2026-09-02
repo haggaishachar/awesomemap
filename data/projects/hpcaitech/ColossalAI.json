@@ -4,8 +4,8 @@
   "link": "https://github.com/hpcaitech/ColossalAI",
   "name": "ColossalAI",
   "desc": "Making large AI models cheaper, faster and more accessible",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "ColossalAI",
+  "githubDescription": "Making large AI models cheaper, faster and more accessible",
   "tags": [
     "ai",
     "big-model",
@@ -20,7 +20,14 @@
     "model-parallelism",
     "pipeline-parallelism"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 41445,
+      "forks": 4498,
+      "openIssues": 504
+    }
+  ],
   "weight": 41448,
   "image": "https://avatars.githubusercontent.com/u/88699314?v=4"
 }

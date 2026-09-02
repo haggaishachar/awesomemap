@@ -4,8 +4,8 @@
   "link": "https://github.com/oceanbase/oceanbase",
   "name": "oceanbase",
   "desc": "OceanBase is the unified distributed database for the AI era — open-source, multi-model, one engine for your most demanding workloads.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "oceanbase",
+  "githubDescription": "OceanBase is the unified distributed database for the AI era — open-source, multi-model, one engine for your most demanding workloads.",
   "tags": [
     "analytics",
     "cloud-native",
@@ -28,7 +28,14 @@
     "vector-search",
     "vectors"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 10258,
+      "forks": 1913,
+      "openIssues": 596
+    }
+  ],
   "weight": 10258,
   "image": "https://avatars.githubusercontent.com/u/82347605?v=4"
 }

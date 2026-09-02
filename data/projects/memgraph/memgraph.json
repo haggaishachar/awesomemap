@@ -4,8 +4,8 @@
   "link": "https://github.com/memgraph/memgraph",
   "name": "memgraph",
   "desc": "High-performance open-source in-memory graph database for GraphRAG, AI memory, agentic AI, and real-time graph analytics. Cypher-compatible, built in C++.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "memgraph",
+  "githubDescription": "High-performance open-source in-memory graph database for GraphRAG, AI memory, agentic AI, and real-time graph analytics. Cypher-compatible, built in C++.",
   "tags": [
     "ai",
     "ai-agents",
@@ -23,7 +23,14 @@
     "opencypher",
     "streaming"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 4379,
+      "forks": 261,
+      "openIssues": 811
+    }
+  ],
   "weight": 4379,
   "image": "https://avatars.githubusercontent.com/u/17707542?v=4"
 }

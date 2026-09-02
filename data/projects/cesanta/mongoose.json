@@ -4,8 +4,8 @@
   "link": "https://github.com/cesanta/mongoose",
   "name": "mongoose",
   "desc": "Embedded web server, with TCP/IP network stack, MQTT and Websocket",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "mongoose",
+  "githubDescription": "Embedded web server, with TCP/IP network stack, MQTT and Websocket",
   "tags": [
     "embedded",
     "http",
@@ -19,7 +19,14 @@
     "webserver",
     "websocket"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 13024,
+      "forks": 2935,
+      "openIssues": 0
+    }
+  ],
   "weight": 13018,
   "image": "https://avatars.githubusercontent.com/u/5111322?v=4"
 }

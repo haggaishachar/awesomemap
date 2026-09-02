@@ -4,8 +4,8 @@
   "link": "https://github.com/hybridgroup/gobot",
   "name": "gobot",
   "desc": "Golang framework for robotics, drones, and the Internet of Things (IoT)",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "gobot",
+  "githubDescription": "Golang framework for robotics, drones, and the Internet of Things (IoT)",
   "tags": [
     "arduino",
     "beaglebone",
@@ -28,7 +28,14 @@
     "sphero",
     "uav"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 9460,
+      "forks": 1064,
+      "openIssues": 100
+    }
+  ],
   "weight": 9459,
   "image": "https://avatars.githubusercontent.com/u/212109?v=4"
 }

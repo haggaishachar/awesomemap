@@ -4,8 +4,8 @@
   "link": "https://github.com/swisskyrepo/PayloadsAllTheThings",
   "name": "PayloadsAllTheThings",
   "desc": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "PayloadsAllTheThings",
+  "githubDescription": "A list of useful payloads and bypass for Web Application Security and Pentest/CTF",
   "tags": [
     "bounty",
     "bugbounty",
@@ -25,6 +25,13 @@
     "vulnerability",
     "web-application"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 80570,
+      "forks": 17335,
+      "openIssues": 34
+    }
+  ],
   "weight": 80547
 }

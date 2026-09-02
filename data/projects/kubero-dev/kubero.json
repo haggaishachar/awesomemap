@@ -4,8 +4,8 @@
   "link": "https://github.com/kubero-dev/kubero",
   "name": "kubero",
   "desc": "A free and self-hosted PaaS alternative to Heroku / Netlify / Coolify / Vercel / Dokku / Portainer running on Kubernetes",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "kubero",
+  "githubDescription": "A free and self-hosted PaaS alternative to Heroku / Netlify / Coolify / Vercel / Dokku / Portainer running on Kubernetes",
   "tags": [
     "ci-cd",
     "cloud",
@@ -27,7 +27,14 @@
     "self-hosted",
     "vercel"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 4399,
+      "forks": 212,
+      "openIssues": 118
+    }
+  ],
   "weight": 4397,
   "image": "https://avatars.githubusercontent.com/u/106908824?v=4"
 }

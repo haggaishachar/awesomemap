@@ -4,8 +4,8 @@
   "link": "https://github.com/OtterMind/Chat2DB",
   "name": "Chat2DB",
   "desc": "Chat2DB is a free, cross-platform, local-first database client and SQL workspace for developers, DBAs, analysts, and data teams. Connect to 40+ databases, manage data, edit and run SQL, and use your own AI model to generate, explain, and optimize queries. Available on desktop, web, Docker, and CLI, with MCP support.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "Chat2DB",
+  "githubDescription": "Chat2DB is a free, cross-platform, local-first database client and SQL workspace for developers, DBAs, analysts, and data teams. Connect to 40+ databases, manage data, edit and run SQL, and use your own AI model to generate, explain, and optimize queries. Available on desktop, web, Docker, and CLI, with MCP support.",
   "tags": [
     "ai",
     "clickhouse",
@@ -28,7 +28,14 @@
     "sqlite",
     "text-to-sql"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 28056,
+      "forks": 3025,
+      "openIssues": 309
+    }
+  ],
   "weight": 28057,
   "image": "https://avatars.githubusercontent.com/u/131834193?v=4"
 }

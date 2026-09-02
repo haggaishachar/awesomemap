@@ -4,8 +4,8 @@
   "link": "https://github.com/pubkey/rxdb",
   "name": "rxdb",
   "desc": "The local-first database that runs on every JS runtime and replicates with your existing backend - no vendor, no lock-in - https://rxdb.info/",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "rxdb",
+  "githubDescription": "The local-first database that runs on every JS runtime and replicates with your existing backend - no vendor, no lock-in - https://rxdb.info/",
   "tags": [
     "angular",
     "browser-database",
@@ -28,6 +28,13 @@
     "rxdb",
     "sqlite"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 23371,
+      "forks": 1174,
+      "openIssues": 20
+    }
+  ],
   "weight": 23371
 }

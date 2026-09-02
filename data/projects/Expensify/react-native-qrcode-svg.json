@@ -4,15 +4,22 @@
   "link": "https://github.com/Expensify/react-native-qrcode-svg",
   "name": "react-native-qrcode-svg",
   "desc": "A QR Code generator for React Native based on react-native-svg and node-qrcode.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-qrcode-svg",
+  "githubDescription": "A QR Code generator for React Native based on react-native-svg and node-qrcode.",
   "tags": [
     "node-qrcode",
     "qrcode",
     "react-native",
     "svg"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1173,
+      "forks": 224,
+      "openIssues": 57
+    }
+  ],
   "weight": 1173,
   "image": "https://avatars.githubusercontent.com/u/476779?v=4"
 }

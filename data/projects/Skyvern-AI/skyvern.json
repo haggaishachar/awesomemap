@@ -4,8 +4,8 @@
   "link": "https://github.com/Skyvern-AI/skyvern",
   "name": "skyvern",
   "desc": "Automate browser based workflows with AI",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "skyvern",
+  "githubDescription": "Automate browser based workflows with AI",
   "tags": [
     "ai",
     "api",
@@ -24,7 +24,14 @@
     "vision",
     "workflow"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 22910,
+      "forks": 2152,
+      "openIssues": 217
+    }
+  ],
   "weight": 22901,
   "image": "https://avatars.githubusercontent.com/u/141457985?v=4"
 }

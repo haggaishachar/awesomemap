@@ -4,8 +4,8 @@
   "link": "https://github.com/GokuMohandas/Made-With-ML",
   "name": "Made-With-ML",
   "desc": "Learn how to develop, deploy and iterate on production-grade ML applications.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "Made-With-ML",
+  "githubDescription": "Learn how to develop, deploy and iterate on production-grade ML applications.",
   "tags": [
     "data-engineering",
     "data-quality",
@@ -21,6 +21,13 @@
     "pytorch",
     "ray"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 49315,
+      "forks": 7739,
+      "openIssues": 25
+    }
+  ],
   "weight": 49303
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/Mr-xn/Penetration_Testing_POC",
   "name": "Penetration_Testing_POC",
   "desc": "渗透测试有关的POC、EXP、脚本、提权、小工具等---About penetration-testing python-script poc getshell csrf xss cms php-getshell domainmod-xss csrf-webshell cobub-razor cve rce sql sql-poc poc-exp bypass oa-getshell cve-cms",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "Penetration_Testing_POC",
+  "githubDescription": "渗透测试有关的POC、EXP、脚本、提权、小工具等---About penetration-testing python-script poc getshell csrf xss cms php-getshell domainmod-xss csrf-webshell cobub-razor cve rce sql sql-poc poc-exp bypass oa-getshell cve-cms",
   "tags": [
     "authentication-bypass",
     "bypass",
@@ -27,6 +27,13 @@
     "sql-poc",
     "thinkphp"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 7480,
+      "forks": 2039,
+      "openIssues": 0
+    }
+  ],
   "weight": 7479
 }

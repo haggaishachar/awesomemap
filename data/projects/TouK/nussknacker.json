@@ -4,8 +4,8 @@
   "link": "https://github.com/TouK/nussknacker",
   "name": "nussknacker",
   "desc": "Low-code tool for automating actions on real time data | Stream processing for the users.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "nussknacker",
+  "githubDescription": "Low-code tool for automating actions on real time data | Stream processing for the users.",
   "tags": [
     "apache-flink",
     "automation",
@@ -27,7 +27,14 @@
     "streaming",
     "touk"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 743,
+      "forks": 104,
+      "openIssues": 53
+    }
+  ],
   "weight": 742,
   "image": "https://avatars.githubusercontent.com/u/136506?v=4"
 }

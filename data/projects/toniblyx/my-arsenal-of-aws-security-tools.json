@@ -4,8 +4,8 @@
   "link": "https://github.com/toniblyx/my-arsenal-of-aws-security-tools",
   "name": "my-arsenal-of-aws-security-tools",
   "desc": "List of open source tools for AWS security: defensive, offensive, auditing, DFIR, etc.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "my-arsenal-of-aws-security-tools",
+  "githubDescription": "List of open source tools for AWS security: defensive, offensive, auditing, DFIR, etc.",
   "tags": [
     "auditing",
     "aws-infrastructure",
@@ -19,6 +19,13 @@
     "security",
     "security-tools"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 9502,
+      "forks": 1579,
+      "openIssues": 11
+    }
+  ],
   "weight": 9502
 }

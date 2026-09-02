@@ -4,8 +4,8 @@
   "link": "https://github.com/home-assistant/iOS",
   "name": "iOS",
   "desc": ":iphone: Home Assistant for Apple platforms",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "iOS",
+  "githubDescription": ":iphone: Home Assistant for Apple platforms",
   "tags": [
     "hacktoberfest",
     "home-assistant",
@@ -15,7 +15,14 @@
     "open-source-app",
     "swift"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2324,
+      "forks": 508,
+      "openIssues": 261
+    }
+  ],
   "weight": 2320,
   "image": "https://avatars.githubusercontent.com/u/13844975?v=4"
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/wasm-micro-runtime/wasm-micro-runtime",
   "name": "wasm-micro-runtime",
   "desc": "WebAssembly Micro Runtime (WAMR)",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "wasm-micro-runtime",
+  "githubDescription": "WebAssembly Micro Runtime (WAMR)",
   "tags": [
     "aot",
     "assembly-script",
@@ -22,7 +22,14 @@
     "wasm-socket",
     "webassembly"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 6083,
+      "forks": 848,
+      "openIssues": 608
+    }
+  ],
   "weight": 6084,
   "image": "https://avatars.githubusercontent.com/u/60162353?v=4"
 }

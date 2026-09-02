@@ -4,8 +4,8 @@
   "link": "https://github.com/naptha/tesseract.js",
   "name": "tesseract.js",
   "desc": "Pure Javascript OCR for more than 100 Languages 📖🎉🖥",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "tesseract.js",
+  "githubDescription": "Pure Javascript OCR for more than 100 Languages 📖🎉🖥",
   "tags": [
     "deep-learning",
     "javascript",
@@ -13,7 +13,14 @@
     "tesseract",
     "webassembly"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 38687,
+      "forks": 2391,
+      "openIssues": 49
+    }
+  ],
   "weight": 38685,
   "image": "https://avatars.githubusercontent.com/u/7720173?v=4"
 }

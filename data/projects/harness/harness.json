@@ -4,8 +4,8 @@
   "link": "https://github.com/harness/harness",
   "name": "harness",
   "desc": "Harness Open Source is an end-to-end developer platform with Source Control Management, CI/CD Pipelines, Hosted Developer Environments, and Artifact Registries.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "harness",
+  "githubDescription": "Harness Open Source is an end-to-end developer platform with Source Control Management, CI/CD Pipelines, Hosted Developer Environments, and Artifact Registries.",
   "tags": [
     "build-automation",
     "build-pipelines",
@@ -20,7 +20,14 @@
     "hacktoberfest",
     "scm"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 38217,
+      "forks": 3380,
+      "openIssues": 103
+    }
+  ],
   "weight": 38203,
   "image": "https://avatars.githubusercontent.com/u/34780278?v=4"
 }

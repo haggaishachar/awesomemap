@@ -4,8 +4,8 @@
   "link": "https://github.com/RunanywhereAI/runanywhere-sdks",
   "name": "runanywhere-sdks",
   "desc": "Production ready toolkit to run AI locally",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "runanywhere-sdks",
+  "githubDescription": "Production ready toolkit to run AI locally",
   "tags": [
     "android",
     "apple-intelligence",
@@ -28,7 +28,14 @@
     "web",
     "websdk"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 10281,
+      "forks": 370,
+      "openIssues": 67
+    }
+  ],
   "weight": 10282,
   "image": "https://raw.githubusercontent.com/RunanywhereAI/runanywhere-sdks/main/docs/logo.svg"
 }

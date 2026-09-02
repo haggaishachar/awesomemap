@@ -4,8 +4,8 @@
   "link": "https://github.com/superplanehq/superplane",
   "name": "superplane",
   "desc": "The open source control plane for agentic engineering.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "superplane",
+  "githubDescription": "Open source factory for one-shot engineering",
   "tags": [
     "automation",
     "control-plane",
@@ -20,7 +20,14 @@
     "self-hosted",
     "workflow-automation"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 5702,
+      "forks": 625,
+      "openIssues": 592
+    }
+  ],
   "weight": 5687,
   "image": "https://avatars.githubusercontent.com/u/210748804?v=4"
 }

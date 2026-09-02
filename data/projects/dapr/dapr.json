@@ -4,8 +4,8 @@
   "link": "https://github.com/dapr/dapr",
   "name": "dapr",
   "desc": "Dapr is a portable runtime for building distributed applications across cloud and edge, combining event-driven architecture with workflow orchestration.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "dapr",
+  "githubDescription": "Dapr is a portable runtime for building distributed applications across cloud and edge, combining event-driven architecture with workflow orchestration.",
   "tags": [
     "containers",
     "event-driven",
@@ -17,7 +17,14 @@
     "sidecar",
     "state-management"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 26057,
+      "forks": 2141,
+      "openIssues": 443
+    }
+  ],
   "weight": 26055,
   "image": "https://avatars.githubusercontent.com/u/51932459?v=4"
 }

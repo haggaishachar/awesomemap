@@ -4,8 +4,8 @@
   "link": "https://github.com/crankyoldgit/IRremoteESP8266",
   "name": "IRremoteESP8266",
   "desc": "Infrared remote library for ESP8266/ESP32: send and receive infrared signals with multiple protocols. Based on: https://github.com/shirriff/Arduino-IRremote/",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "IRremoteESP8266",
+  "githubDescription": "Infrared remote library for ESP8266/ESP32: send and receive infrared signals with multiple protocols. Based on: https://github.com/shirriff/Arduino-IRremote/",
   "tags": [
     "940nm",
     "airconditioners",
@@ -26,6 +26,13 @@
     "protocols",
     "remote-control"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 3582,
+      "forks": 933,
+      "openIssues": 103
+    }
+  ],
   "weight": 3580
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/google-ai-edge/mediapipe",
   "name": "mediapipe",
   "desc": "Cross-platform, customizable ML solutions for live and streaming media.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "mediapipe",
+  "githubDescription": "Cross-platform, customizable ML solutions for live and streaming media.",
   "tags": [
     "android",
     "audio-processing",
@@ -25,7 +25,14 @@
     "stream-processing",
     "video-processing"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 36816,
+      "forks": 6145,
+      "openIssues": 551
+    }
+  ],
   "weight": 36803,
   "image": "https://avatars.githubusercontent.com/u/150697620?v=4"
 }

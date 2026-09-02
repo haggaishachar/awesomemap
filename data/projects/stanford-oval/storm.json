@@ -4,8 +4,8 @@
   "link": "https://github.com/stanford-oval/storm",
   "name": "storm",
   "desc": "An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "storm",
+  "githubDescription": "An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.",
   "tags": [
     "agentic-rag",
     "deep-research",
@@ -17,7 +17,14 @@
     "report-generation",
     "retrieval-augmented-generation"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 31203,
+      "forks": 2938,
+      "openIssues": 108
+    }
+  ],
   "weight": 31194,
   "image": "https://raw.githubusercontent.com/stanford-oval/storm/main/assets/logo.svg"
 }

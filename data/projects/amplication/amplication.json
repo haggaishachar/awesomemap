@@ -4,8 +4,8 @@
   "link": "https://github.com/amplication/amplication",
   "name": "amplication",
   "desc": "Amplication brings order to the chaos of large-scale software development by creating Golden Paths for developers - streamlined workflows that drive consistency, enable high-quality code practices, simplify onboarding, and accelerate standardized delivery across teams.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "amplication",
+  "githubDescription": "Amplication brings order to the chaos of large-scale software development by creating Golden Paths for developers - streamlined workflows that drive consistency, enable high-quality code practices, simplify onboarding, and accelerate standardized delivery across teams.",
   "tags": [
     "api",
     "code-generation",
@@ -23,7 +23,14 @@
     "typescript",
     "web"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 16012,
+      "forks": 1546,
+      "openIssues": 661
+    }
+  ],
   "weight": 16014,
   "image": "https://avatars.githubusercontent.com/u/65107786?v=4"
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/HomeSpan/HomeSpan",
   "name": "HomeSpan",
   "desc": "HomeKit Library for the Arduino-ESP32",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "HomeSpan",
+  "githubDescription": "HomeKit Library for the Arduino-ESP32",
   "tags": [
     "arduino-ide",
     "arduino-library",
@@ -15,6 +15,13 @@
     "homekit-server",
     "homespan"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2155,
+      "forks": 200,
+      "openIssues": 9
+    }
+  ],
   "weight": 2155
 }

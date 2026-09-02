@@ -4,13 +4,20 @@
   "link": "https://github.com/k3s-io/k3s",
   "name": "k3s",
   "desc": "Lightweight Kubernetes",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "k3s",
+  "githubDescription": "Lightweight Kubernetes",
   "tags": [
     "k8s",
     "kubernetes"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 33866,
+      "forks": 2715,
+      "openIssues": 86
+    }
+  ],
   "weight": 33863,
   "image": "https://avatars.githubusercontent.com/u/49319725?v=4"
 }

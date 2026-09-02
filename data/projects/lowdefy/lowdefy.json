@@ -4,8 +4,8 @@
   "link": "https://github.com/lowdefy/lowdefy",
   "name": "lowdefy",
   "desc": "Build apps that AI can generate, humans can review, and teams can maintain. Config that works between code and natural language.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "lowdefy",
+  "githubDescription": "Build apps that AI can generate, humans can review, and teams can maintain. Config that works between code and natural language.",
   "tags": [
     "admin-panels",
     "crud-apps",
@@ -22,7 +22,14 @@
     "workflow-automation",
     "yaml"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 3005,
+      "forks": 189,
+      "openIssues": 64
+    }
+  ],
   "weight": 3005,
   "image": "https://avatars.githubusercontent.com/u/47087496?v=4"
 }

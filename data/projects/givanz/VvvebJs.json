@@ -4,8 +4,8 @@
   "link": "https://github.com/givanz/VvvebJs",
   "name": "VvvebJs",
   "desc": "Drag and drop page builder library written in vanilla javascript without dependencies or build tools.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "VvvebJs",
+  "githubDescription": "Drag and drop page builder library written in vanilla javascript without dependencies or build tools.",
   "tags": [
     "bootstrap",
     "bootstrap5",
@@ -28,6 +28,13 @@
     "website-generation",
     "wysiwyg"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 8658,
+      "forks": 1833,
+      "openIssues": 304
+    }
+  ],
   "weight": 8658
 }

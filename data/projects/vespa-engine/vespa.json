@@ -4,8 +4,8 @@
   "link": "https://github.com/vespa-engine/vespa",
   "name": "vespa",
   "desc": "The AI search platform",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "vespa",
+  "githubDescription": "The AI search platform",
   "tags": [
     "ai",
     "big-data",
@@ -22,7 +22,14 @@
     "vector-search",
     "vespa"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 7075,
+      "forks": 738,
+      "openIssues": 253
+    }
+  ],
   "weight": 7073,
   "image": "https://avatars.githubusercontent.com/u/29299694?v=4"
 }

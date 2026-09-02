@@ -4,8 +4,8 @@
   "link": "https://github.com/trickstercache/trickster",
   "name": "trickster",
   "desc": "Open Source HTTP Reverse Proxy Cache and Time Series DB Query Accelerator",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "trickster",
+  "githubDescription": "Open Source HTTP Reverse Proxy Cache and Time Series DB Query Accelerator",
   "tags": [
     "accelerator",
     "caching",
@@ -22,7 +22,14 @@
     "reverse-proxy",
     "tsdb"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2088,
+      "forks": 186,
+      "openIssues": 15
+    }
+  ],
   "weight": 2088,
   "image": "https://avatars.githubusercontent.com/u/61556988?v=4"
 }

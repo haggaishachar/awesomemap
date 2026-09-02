@@ -4,8 +4,8 @@
   "link": "https://github.com/tock/tock",
   "name": "tock",
   "desc": "A secure embedded operating system for microcontrollers",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "tock",
+  "githubDescription": "A secure embedded operating system for microcontrollers",
   "tags": [
     "arm",
     "cortex-m",
@@ -20,7 +20,14 @@
     "secure-operating-system",
     "tock"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 6434,
+      "forks": 855,
+      "openIssues": 201
+    }
+  ],
   "weight": 6433,
   "image": "https://avatars.githubusercontent.com/u/34076064?v=4"
 }

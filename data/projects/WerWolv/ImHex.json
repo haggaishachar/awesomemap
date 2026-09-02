@@ -4,8 +4,8 @@
   "link": "https://github.com/WerWolv/ImHex",
   "name": "ImHex",
   "desc": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "ImHex",
+  "githubDescription": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
   "tags": [
     "analyzer",
     "binary-analysis",
@@ -28,6 +28,13 @@
     "static-analysis",
     "windows"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 54622,
+      "forks": 2451,
+      "openIssues": 391
+    }
+  ],
   "weight": 54619
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/getmaxun/maxun",
   "name": "maxun",
   "desc": "🔥 The open-source no-code platform for web scraping, crawling, search and AI data extraction • Turn websites into structured APIs in minutes 🔥 ",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "maxun",
+  "githubDescription": "🔥 The open-source no-code platform for web scraping, crawling, search and AI data extraction • Turn websites into structured APIs in minutes 🔥 ",
   "tags": [
     "agents",
     "api",
@@ -26,7 +26,14 @@
     "web-search",
     "webscraping"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 17346,
+      "forks": 1497,
+      "openIssues": 108
+    }
+  ],
   "weight": 17342,
   "image": "https://avatars.githubusercontent.com/u/139582646?v=4"
 }

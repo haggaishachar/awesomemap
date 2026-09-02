@@ -4,10 +4,17 @@
   "link": "https://github.com/Shopify/flash-list",
   "name": "flash-list",
   "desc": "A better list for React Native",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "flash-list",
+  "githubDescription": "A better list for React Native",
   "tags": [],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 7194,
+      "forks": 388,
+      "openIssues": 188
+    }
+  ],
   "weight": 7192,
   "image": "https://avatars.githubusercontent.com/u/8085?v=4"
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/keephq/keep",
   "name": "keep",
   "desc": "The open-source AIOps and alert management platform",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "keep",
+  "githubDescription": "The open-source AIOps and alert management platform",
   "tags": [
     "aiops",
     "alarm",
@@ -18,7 +18,14 @@
     "python3",
     "workflow-automation"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 12270,
+      "forks": 1494,
+      "openIssues": 584
+    }
+  ],
   "weight": 12267,
   "image": "https://avatars.githubusercontent.com/u/109032290?v=4"
 }

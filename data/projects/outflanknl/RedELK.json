@@ -4,8 +4,8 @@
   "link": "https://github.com/outflanknl/RedELK",
   "name": "RedELK",
   "desc": "Red Team's SIEM - tool for Red Teams used for tracking and alarming about Blue Team activities as well as better usability in long term operations.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "RedELK",
+  "githubDescription": "Red Team's SIEM - tool for Red Teams used for tracking and alarming about Blue Team activities as well as better usability in long term operations.",
   "tags": [
     "elastic",
     "elasticsearch",
@@ -16,7 +16,14 @@
     "security",
     "siem"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2669,
+      "forks": 392,
+      "openIssues": 13
+    }
+  ],
   "weight": 2668,
   "image": "https://avatars.githubusercontent.com/u/22417563?v=4"
 }

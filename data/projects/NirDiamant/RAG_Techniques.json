@@ -4,8 +4,8 @@
   "link": "https://github.com/NirDiamant/RAG_Techniques",
   "name": "RAG_Techniques",
   "desc": "This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "RAG_Techniques",
+  "githubDescription": "This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial.",
   "tags": [
     "agentic-rag",
     "ai",
@@ -26,6 +26,13 @@
     "tutorials",
     "vector-database"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 29336,
+      "forks": 3588,
+      "openIssues": 6
+    }
+  ],
   "weight": 29313
 }

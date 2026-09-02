@@ -4,8 +4,8 @@
   "link": "https://github.com/trickest/cve",
   "name": "cve",
   "desc": "Gather and update all available and newest CVEs with their PoC.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "cve",
+  "githubDescription": "Gather and update all available and newest CVEs with their PoC.",
   "tags": [
     "cve",
     "cve-poc",
@@ -25,7 +25,14 @@
     "vulnerabilities",
     "vulnerability"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 8040,
+      "forks": 977,
+      "openIssues": 21
+    }
+  ],
   "weight": 8035,
   "image": "https://avatars.githubusercontent.com/u/62057399?v=4"
 }

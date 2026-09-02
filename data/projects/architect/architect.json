@@ -4,8 +4,8 @@
   "link": "https://github.com/architect/architect",
   "name": "architect",
   "desc": "The simplest, most powerful way to build a functional web app (fwa)",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "architect",
+  "githubDescription": "The simplest, most powerful way to build a functional web app (fwa)",
   "tags": [
     "arc",
     "aws",
@@ -16,7 +16,14 @@
     "infrastructure-as-code",
     "serverless"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2621,
+      "forks": 107,
+      "openIssues": 63
+    }
+  ],
   "weight": 2622,
   "image": "https://avatars.githubusercontent.com/u/29821507?v=4"
 }

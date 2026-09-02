@@ -4,8 +4,8 @@
   "link": "https://github.com/CISOfy/lynis",
   "name": "lynis",
   "desc": "Lynis - Security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPAA/ISO27001/PCI DSS) and system hardening. Agentless, and installation optional.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "lynis",
+  "githubDescription": "Lynis - Security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPAA/ISO27001/PCI DSS) and system hardening. Agentless, and installation optional.",
   "tags": [
     "auditing",
     "compliance",
@@ -28,7 +28,14 @@
     "vulnerability-detection",
     "vulnerability-scanners"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 16269,
+      "forks": 1628,
+      "openIssues": 221
+    }
+  ],
   "weight": 16262,
   "image": "https://avatars.githubusercontent.com/u/8558546?v=4"
 }

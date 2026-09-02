@@ -4,8 +4,8 @@
   "link": "https://github.com/vectordotdev/vector",
   "name": "vector",
   "desc": "A high-performance observability data pipeline.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "vector",
+  "githubDescription": "A high-performance observability data pipeline.",
   "tags": [
     "agent",
     "cloud-native",
@@ -26,7 +26,14 @@
     "telemetry",
     "traces"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 22508,
+      "forks": 2270,
+      "openIssues": 2513
+    }
+  ],
   "weight": 22501,
   "image": "https://avatars.githubusercontent.com/u/16866914?v=4"
 }

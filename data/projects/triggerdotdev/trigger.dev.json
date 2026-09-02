@@ -4,8 +4,8 @@
   "link": "https://github.com/triggerdotdev/trigger.dev",
   "name": "trigger.dev",
   "desc": "Trigger.dev – build and deploy fully‑managed AI agents and workflows",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "trigger.dev",
+  "githubDescription": "Trigger.dev – build and deploy fully‑managed AI agents and workflows",
   "tags": [
     "ai",
     "ai-agent-framework",
@@ -21,7 +21,14 @@
     "workflow-automation",
     "workflows"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 16190,
+      "forks": 1439,
+      "openIssues": 355
+    }
+  ],
   "weight": 16181,
   "image": "https://avatars.githubusercontent.com/u/95297378?v=4"
 }

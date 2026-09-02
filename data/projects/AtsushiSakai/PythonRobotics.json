@@ -4,8 +4,8 @@
   "link": "https://github.com/AtsushiSakai/PythonRobotics",
   "name": "PythonRobotics",
   "desc": "Python sample codes and textbook for robotics algorithms.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "PythonRobotics",
+  "githubDescription": "Python sample codes and textbook for robotics algorithms.",
   "tags": [
     "algorithm",
     "animation",
@@ -24,6 +24,13 @@
     "robotics",
     "slam"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 30431,
+      "forks": 7398,
+      "openIssues": 53
+    }
+  ],
   "weight": 30430
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/openzipkin/zipkin",
   "name": "zipkin",
   "desc": "Zipkin is a distributed tracing system",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "zipkin",
+  "githubDescription": "Zipkin is a distributed tracing system",
   "tags": [
     "distributed-tracing",
     "observability",
@@ -13,7 +13,14 @@
     "tracing",
     "zipkin"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 17455,
+      "forks": 3101,
+      "openIssues": 175
+    }
+  ],
   "weight": 17456,
   "image": "https://avatars.githubusercontent.com/u/11860887?v=4"
 }

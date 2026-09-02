@@ -4,8 +4,8 @@
   "link": "https://github.com/xboot/libonnx",
   "name": "libonnx",
   "desc": "A lightweight, portable pure C99 onnx inference engine for embedded devices with hardware acceleration support.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "libonnx",
+  "githubDescription": "A lightweight, portable pure C99 onnx inference engine for embedded devices with hardware acceleration support.",
   "tags": [
     "ai",
     "baremetal",
@@ -23,7 +23,14 @@
     "onnx",
     "portable"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 652,
+      "forks": 114,
+      "openIssues": 16
+    }
+  ],
   "weight": 652,
   "image": "https://avatars.githubusercontent.com/u/423027?v=4"
 }

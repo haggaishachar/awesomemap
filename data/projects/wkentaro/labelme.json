@@ -4,8 +4,8 @@
   "link": "https://github.com/wkentaro/labelme",
   "name": "labelme",
   "desc": "Image annotation with Python. Supports polygon, rectangle, circle, line, point, and AI-assisted annotation.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "labelme",
+  "githubDescription": "Image annotation with Python. Supports polygon, rectangle, circle, line, point, and AI-assisted annotation.",
   "tags": [
     "annotations",
     "classification",
@@ -17,6 +17,13 @@
     "semantic-segmentation",
     "video-annotation"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 16141,
+      "forks": 3706,
+      "openIssues": 180
+    }
+  ],
   "weight": 16137
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/deepspeedai/DeepSpeed",
   "name": "DeepSpeed",
   "desc": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "DeepSpeed",
+  "githubDescription": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.",
   "tags": [
     "billion-parameters",
     "compression",
@@ -21,7 +21,14 @@
     "trillion-parameters",
     "zero"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 43055,
+      "forks": 4957,
+      "openIssues": 1343
+    }
+  ],
   "weight": 43046,
   "image": "https://avatars.githubusercontent.com/u/74068820?v=4"
 }

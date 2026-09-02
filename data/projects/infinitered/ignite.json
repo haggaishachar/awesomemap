@@ -4,8 +4,8 @@
   "link": "https://github.com/infinitered/ignite",
   "name": "ignite",
   "desc": "Infinite Red's battle-tested React Native project boilerplate, along with a CLI, component/model generators, and more! 9 years of continuous development and counting.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "ignite",
+  "githubDescription": "Infinite Red's battle-tested React Native project boilerplate, along with a CLI, component/model generators, and more! 9 years of continuous development and counting.",
   "tags": [
     "boilerplate",
     "cli",
@@ -15,7 +15,14 @@
     "react-native",
     "react-native-generator"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 19938,
+      "forks": 1537,
+      "openIssues": 34
+    }
+  ],
   "weight": 19938,
   "image": "https://avatars.githubusercontent.com/u/3902527?v=4"
 }

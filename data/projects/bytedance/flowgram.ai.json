@@ -4,8 +4,8 @@
   "link": "https://github.com/bytedance/flowgram.ai",
   "name": "flowgram.ai",
   "desc": "FlowGram is an extensible workflow development framework with built-in canvas, form, variable, and materials that helps developers build AI workflow platforms faster and simpler.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "flowgram.ai",
+  "githubDescription": "FlowGram is an extensible workflow development framework with built-in canvas, form, variable, and materials that helps developers build AI workflow platforms faster and simpler.",
   "tags": [
     "ai",
     "automation",
@@ -26,7 +26,14 @@
     "workflow",
     "workflow-automation"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 8413,
+      "forks": 768,
+      "openIssues": 96
+    }
+  ],
   "weight": 8407,
   "image": "https://avatars.githubusercontent.com/u/4158466?v=4"
 }

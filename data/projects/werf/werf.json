@@ -4,8 +4,8 @@
   "link": "https://github.com/werf/werf",
   "name": "werf",
   "desc": "A solution for implementing efficient and consistent software delivery to Kubernetes facilitating best practices.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "werf",
+  "githubDescription": "A solution for implementing efficient and consistent software delivery to Kubernetes facilitating best practices.",
   "tags": [
     "buildah",
     "ci-cd",
@@ -23,7 +23,14 @@
     "kubernetes",
     "werf"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 4720,
+      "forks": 238,
+      "openIssues": 31
+    }
+  ],
   "weight": 4720,
   "image": "https://avatars.githubusercontent.com/u/66415983?v=4"
 }

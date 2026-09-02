@@ -4,9 +4,16 @@
   "link": "https://github.com/joshuayoes/ios-simulator-mcp",
   "name": "ios-simulator-mcp",
   "desc": "MCP server for interacting with the iOS simulator",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "ios-simulator-mcp",
+  "githubDescription": "MCP server for interacting with the iOS simulator",
   "tags": [],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2156,
+      "forks": 97,
+      "openIssues": 25
+    }
+  ],
   "weight": 2153
 }

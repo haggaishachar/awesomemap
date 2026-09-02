@@ -4,8 +4,8 @@
   "link": "https://github.com/patchy631/ai-engineering-hub",
   "name": "ai-engineering-hub",
   "desc": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "ai-engineering-hub",
+  "githubDescription": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
   "tags": [
     "agents",
     "ai",
@@ -14,6 +14,13 @@
     "mcp",
     "rag"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 37288,
+      "forks": 6153,
+      "openIssues": 123
+    }
+  ],
   "weight": 37269
 }

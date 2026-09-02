@@ -4,8 +4,8 @@
   "link": "https://github.com/PipedreamHQ/pipedream",
   "name": "pipedream",
   "desc": "Connect APIs, remarkably fast.  Free for developers.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "pipedream",
+  "githubDescription": "Connect APIs, remarkably fast.  Free for developers.",
   "tags": [
     "apis",
     "automation",
@@ -27,7 +27,14 @@
     "workflow",
     "workflows"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 11665,
+      "forks": 5771,
+      "openIssues": 4376
+    }
+  ],
   "weight": 11664,
   "image": "https://avatars.githubusercontent.com/u/43791938?v=4"
 }

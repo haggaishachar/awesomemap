@@ -4,8 +4,8 @@
   "link": "https://github.com/topoteretes/cognee",
   "name": "cognee",
   "desc": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "cognee",
+  "githubDescription": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
   "tags": [
     "agent-memory",
     "agent-skills",
@@ -27,7 +27,14 @@
     "open-source",
     "vector-database"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 30412,
+      "forks": 2988,
+      "openIssues": 485
+    }
+  ],
   "weight": 30389,
   "image": "https://avatars.githubusercontent.com/u/125468716?v=4"
 }

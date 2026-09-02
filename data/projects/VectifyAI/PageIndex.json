@@ -4,8 +4,8 @@
   "link": "https://github.com/VectifyAI/PageIndex",
   "name": "PageIndex",
   "desc": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "PageIndex",
+  "githubDescription": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
   "tags": [
     "agentic-ai",
     "agents",
@@ -20,7 +20,14 @@
     "retrieval-augmented-generation",
     "vector-database"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 35489,
+      "forks": 3122,
+      "openIssues": 91
+    }
+  ],
   "weight": 35470,
   "image": "https://avatars.githubusercontent.com/u/133959746?v=4"
 }

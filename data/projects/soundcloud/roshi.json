@@ -4,10 +4,17 @@
   "link": "https://github.com/soundcloud/roshi",
   "name": "roshi",
   "desc": "Roshi is a large-scale CRDT set implementation for timestamped events.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "roshi",
+  "githubDescription": "Roshi is a large-scale CRDT set implementation for timestamped events.",
   "tags": [],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 3180,
+      "forks": 155,
+      "openIssues": 15
+    }
+  ],
   "weight": 3180,
   "image": "https://avatars.githubusercontent.com/u/21021?v=4"
 }

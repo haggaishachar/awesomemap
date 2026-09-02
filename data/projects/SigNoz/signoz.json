@@ -4,8 +4,8 @@
   "link": "https://github.com/SigNoz/signoz",
   "name": "signoz",
   "desc": "SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents. Get logs, metrics, and traces in one tool with features like APM, distributed tracing, log management, infra monitoring, etc. Combined with SigNoz MCP and a native AI teammate (in SigNoz Cloud) it helps you build more resilient apps.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "signoz",
+  "githubDescription": "SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents. Get logs, metrics, and traces in one tool with features like APM, distributed tracing, log management, infra monitoring, etc. Combined with SigNoz MCP and a native AI teammate (in SigNoz Cloud) it helps you build more resilient apps.",
   "tags": [
     "apm",
     "application-monitoring",
@@ -28,7 +28,14 @@
     "tracing",
     "typescript"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 31998,
+      "forks": 2467,
+      "openIssues": 1552
+    }
+  ],
   "weight": 31988,
   "image": "https://avatars.githubusercontent.com/u/76905799?v=4"
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/cfug/dio",
   "name": "dio",
   "desc": "A powerful HTTP client for Dart and Flutter, which supports global settings, Interceptors, FormData, aborting and canceling a request, files uploading and downloading, requests timeout, custom adapters, etc.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "dio",
+  "githubDescription": "A powerful HTTP client for Dart and Flutter, which supports global settings, Interceptors, FormData, aborting and canceling a request, files uploading and downloading, requests timeout, custom adapters, etc.",
   "tags": [
     "adapter",
     "cancellable",
@@ -19,7 +19,14 @@
     "timeout",
     "transformer"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 12841,
+      "forks": 1560,
+      "openIssues": 30
+    }
+  ],
   "weight": 12840,
   "image": "https://avatars.githubusercontent.com/u/44133785?v=4"
 }

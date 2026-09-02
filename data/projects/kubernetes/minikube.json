@@ -4,8 +4,8 @@
   "link": "https://github.com/kubernetes/minikube",
   "name": "minikube",
   "desc": "Run Kubernetes locally",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "minikube",
+  "githubDescription": "Run Kubernetes locally",
   "tags": [
     "cluster",
     "cncf",
@@ -14,7 +14,14 @@
     "kubernetes",
     "minikube"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 32094,
+      "forks": 5310,
+      "openIssues": 559
+    }
+  ],
   "weight": 32083,
   "image": "https://avatars.githubusercontent.com/u/13629408?v=4"
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/gioblu/PJON",
   "name": "PJON",
   "desc": "PJON (Padded Jittering Operative Network) is an experimental, arduino-compatible, multi-master, multi-media network protocol.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "PJON",
+  "githubDescription": "PJON (Padded Jittering Operative Network) is an experimental, arduino-compatible, multi-master, multi-media network protocol.",
   "tags": [
     "arduino",
     "attiny",
@@ -23,6 +23,13 @@
     "stm32",
     "teensy"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2817,
+      "forks": 242,
+      "openIssues": 60
+    }
+  ],
   "weight": 2817
 }

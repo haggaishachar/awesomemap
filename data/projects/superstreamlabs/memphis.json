@@ -4,8 +4,8 @@
   "link": "https://github.com/superstreamlabs/memphis",
   "name": "memphis",
   "desc": "Memphis.dev is a highly scalable and effortless data streaming platform",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "memphis",
+  "githubDescription": "Memphis.dev is a highly scalable and effortless data streaming platform",
   "tags": [
     "data",
     "data-engineering",
@@ -22,7 +22,14 @@
     "microservices",
     "schema-registry"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 3440,
+      "forks": 223,
+      "openIssues": 108
+    }
+  ],
   "weight": 3440,
   "image": "https://avatars.githubusercontent.com/u/74716231?v=4"
 }

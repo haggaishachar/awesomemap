@@ -4,8 +4,8 @@
   "link": "https://github.com/dokku/dokku",
   "name": "dokku",
   "desc": "A docker-powered PaaS that helps you build and manage the lifecycle of applications",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "dokku",
+  "githubDescription": "A docker-powered PaaS that helps you build and manage the lifecycle of applications",
   "tags": [
     "buildpack",
     "containers",
@@ -19,7 +19,14 @@
     "self-hosted",
     "selfhosted"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 32122,
+      "forks": 2071,
+      "openIssues": 41
+    }
+  ],
   "weight": 32123,
   "image": "https://avatars.githubusercontent.com/u/13455795?v=4"
 }

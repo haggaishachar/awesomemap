@@ -4,8 +4,8 @@
   "link": "https://github.com/go-vgo/robotgo",
   "name": "robotgo",
   "desc": "RobotGo, Go Native cross-platform RPA, GUI automation, Auto test and Computer use  @vcaesar",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "robotgo",
+  "githubDescription": "RobotGo, Go Native cross-platform RPA, GUI automation, Auto test and Computer use  @vcaesar",
   "tags": [
     "ai",
     "auto-test",
@@ -23,7 +23,14 @@
     "rpa",
     "window"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 10783,
+      "forks": 960,
+      "openIssues": 3
+    }
+  ],
   "weight": 10783,
   "image": "https://avatars.githubusercontent.com/u/22145830?v=4"
 }

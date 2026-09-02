@@ -4,8 +4,8 @@
   "link": "https://github.com/jaegertracing/jaeger",
   "name": "jaeger",
   "desc": "CNCF Jaeger, a Distributed Tracing Platform",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "jaeger",
+  "githubDescription": "CNCF Jaeger, a Distributed Tracing Platform",
   "tags": [
     "cncf",
     "distributed-tracing",
@@ -15,7 +15,14 @@
     "opentelemetry",
     "tracing"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 23174,
+      "forks": 3109,
+      "openIssues": 572
+    }
+  ],
   "weight": 23171,
   "image": "https://avatars.githubusercontent.com/u/28545596?v=4"
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/baidu/amis",
   "name": "amis",
   "desc": "前端低代码框架，通过 JSON 配置就能生成各种页面。",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "amis",
+  "githubDescription": "前端低代码框架，通过 JSON 配置就能生成各种页面。",
   "tags": [
     "admin",
     "frontend",
@@ -16,7 +16,14 @@
     "lowcode",
     "no-code"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 18890,
+      "forks": 2738,
+      "openIssues": 1714
+    }
+  ],
   "weight": 18888,
   "image": "https://avatars.githubusercontent.com/u/13245940?v=4"
 }

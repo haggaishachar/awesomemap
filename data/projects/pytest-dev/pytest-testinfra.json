@@ -4,8 +4,8 @@
   "link": "https://github.com/pytest-dev/pytest-testinfra",
   "name": "pytest-testinfra",
   "desc": "Testinfra test your infrastructures",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "pytest-testinfra",
+  "githubDescription": "Testinfra test your infrastructures",
   "tags": [
     "ansible",
     "chef",
@@ -25,7 +25,14 @@
     "testing",
     "testing-tools"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2478,
+      "forks": 359,
+      "openIssues": 147
+    }
+  ],
   "weight": 2477,
   "image": "https://avatars.githubusercontent.com/u/8897583?v=4"
 }

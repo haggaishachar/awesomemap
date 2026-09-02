@@ -4,8 +4,8 @@
   "link": "https://github.com/GeeeekExplorer/nano-vllm",
   "name": "nano-vllm",
   "desc": "Nano vLLM",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "nano-vllm",
+  "githubDescription": "Nano vLLM",
   "tags": [
     "deep-learning",
     "inference",
@@ -14,7 +14,14 @@
     "pytorch",
     "transformer"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 15276,
+      "forks": 2537,
+      "openIssues": 86
+    }
+  ],
   "weight": 15258,
   "image": "https://raw.githubusercontent.com/GeeeekExplorer/nano-vllm/main/assets/logo.png"
 }

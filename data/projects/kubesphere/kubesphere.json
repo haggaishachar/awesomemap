@@ -4,8 +4,8 @@
   "link": "https://github.com/kubesphere/kubesphere",
   "name": "kubesphere",
   "desc": "The container platform tailored for Kubernetes multi-cloud, datacenter, and edge management ⎈ 🖥 ☁️",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "kubesphere",
+  "githubDescription": "The container platform tailored for Kubernetes multi-cloud, datacenter, and edge management ⎈ 🖥 ☁️",
   "tags": [
     "agent-skills",
     "ai",
@@ -25,7 +25,14 @@
     "skills-sh",
     "skillsmp"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 17037,
+      "forks": 2755,
+      "openIssues": 354
+    }
+  ],
   "weight": 17036,
   "image": "https://avatars.githubusercontent.com/u/37326490?v=4"
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/roboflow/supervision",
   "name": "supervision",
   "desc": "We write your reusable computer vision tools. 💜",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "supervision",
+  "githubDescription": "We write your reusable computer vision tools. 💜",
   "tags": [
     "classification",
     "coco",
@@ -27,7 +27,14 @@
     "video-processing",
     "yolo"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 49841,
+      "forks": 4750,
+      "openIssues": 82
+    }
+  ],
   "weight": 49820,
   "image": "https://avatars.githubusercontent.com/u/53104118?v=4"
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/mthcht/awesome-lists",
   "name": "awesome-lists",
   "desc": "Awesome Security lists for SOC/CERT/CTI",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "awesome-lists",
+  "githubDescription": "Awesome Security lists for SOC/CERT/CTI",
   "tags": [
     "awesome-list",
     "blueteam",
@@ -28,6 +28,13 @@
     "threat-hunting",
     "threat-intelligence"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1895,
+      "forks": 236,
+      "openIssues": 24
+    }
+  ],
   "weight": 1894
 }

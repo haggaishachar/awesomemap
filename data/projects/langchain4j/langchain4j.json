@@ -4,8 +4,8 @@
   "link": "https://github.com/langchain4j/langchain4j",
   "name": "langchain4j",
   "desc": "LangChain4j is an idiomatic, open-source Java library for building LLM-powered applications on the JVM. It offers a unified API over popular LLM providers and vector stores, and makes implementing tool calling (including MCP support), agents and RAG easy. It integrates seamlessly with enterprise Java frameworks like Quarkus and Spring Boot.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "langchain4j",
+  "githubDescription": "LangChain4j is an idiomatic, open-source Java library for building LLM-powered applications on the JVM. It offers a unified API over popular LLM providers and vector stores, and makes implementing tool calling (including MCP support), agents and RAG easy. It integrates seamlessly with enterprise Java frameworks like Quarkus and Spring Boot.",
   "tags": [
     "anthropic",
     "chatgpt",
@@ -28,7 +28,14 @@
     "pinecone",
     "vector-database"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 13004,
+      "forks": 2521,
+      "openIssues": 888
+    }
+  ],
   "weight": 12994,
   "image": "https://avatars.githubusercontent.com/u/132277850?v=4"
 }

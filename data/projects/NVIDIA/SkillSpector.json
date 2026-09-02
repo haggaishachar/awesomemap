@@ -4,8 +4,8 @@
   "link": "https://github.com/NVIDIA/SkillSpector",
   "name": "SkillSpector",
   "desc": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "SkillSpector",
+  "githubDescription": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
   "tags": [
     "agent-security",
     "agent-skills",
@@ -19,7 +19,14 @@
     "security-workflow",
     "supply-chain-security"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 15590,
+      "forks": 1315,
+      "openIssues": 96
+    }
+  ],
   "weight": 15502,
   "image": "https://avatars.githubusercontent.com/u/1728152?v=4"
 }

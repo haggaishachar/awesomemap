@@ -4,10 +4,17 @@
   "link": "https://github.com/LegendApp/legend-list",
   "name": "legend-list",
   "desc": "A high-performance list component for React Native and React",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "legend-list",
+  "githubDescription": "A high-performance list component for React Native and React",
   "tags": [],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 3333,
+      "forks": 144,
+      "openIssues": 81
+    }
+  ],
   "weight": 3333,
   "image": "https://avatars.githubusercontent.com/u/60373862?v=4"
 }

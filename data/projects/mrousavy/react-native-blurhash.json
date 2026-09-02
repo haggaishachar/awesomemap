@@ -4,8 +4,8 @@
   "link": "https://github.com/mrousavy/react-native-blurhash",
   "name": "react-native-blurhash",
   "desc": "🖼️ A library to show colorful blurry placeholders while your content loads.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-blurhash",
+  "githubDescription": "🖼️ A library to show colorful blurry placeholders while your content loads.",
   "tags": [
     "algorithm",
     "blurhash",
@@ -28,7 +28,14 @@
     "ui",
     "ux"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2237,
+      "forks": 87,
+      "openIssues": 32
+    }
+  ],
   "weight": 2237,
   "image": "https://avatars.githubusercontent.com/u/91980534?v=4"
 }

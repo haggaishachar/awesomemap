@@ -4,8 +4,8 @@
   "link": "https://github.com/OpenHands/OpenHands",
   "name": "OpenHands",
   "desc": "🙌 OpenHands: AI-Driven Development",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "OpenHands",
+  "githubDescription": "🙌 OpenHands: AI-Driven Development",
   "tags": [
     "agent",
     "artificial-intelligence",
@@ -17,7 +17,14 @@
     "llm",
     "openai"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 85937,
+      "forks": 11272,
+      "openIssues": 634
+    }
+  ],
   "weight": 85836,
   "image": "https://avatars.githubusercontent.com/u/225919603?v=4"
 }

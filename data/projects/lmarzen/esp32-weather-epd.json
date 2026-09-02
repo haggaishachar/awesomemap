@@ -4,8 +4,8 @@
   "link": "https://github.com/lmarzen/esp32-weather-epd",
   "name": "esp32-weather-epd",
   "desc": "A low-power E-Paper weather display powered by an ESP32 microcontroller. Utilizes the OpenWeatherMap API.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "esp32-weather-epd",
+  "githubDescription": "A low-power E-Paper weather display powered by an ESP32 microcontroller. Utilizes the OpenWeatherMap API.",
   "tags": [
     "display",
     "eink",
@@ -14,6 +14,13 @@
     "esp32",
     "weather"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 6256,
+      "forks": 472,
+      "openIssues": 40
+    }
+  ],
   "weight": 6253
 }

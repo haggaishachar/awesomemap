@@ -4,8 +4,8 @@
   "link": "https://github.com/tesseract-ocr/tesseract",
   "name": "tesseract",
   "desc": "Tesseract Open Source OCR Engine (main repository)",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "tesseract",
+  "githubDescription": "Tesseract Open Source OCR Engine (main repository)",
   "tags": [
     "hacktoberfest",
     "lstm",
@@ -15,7 +15,14 @@
     "tesseract",
     "tesseract-ocr"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 76305,
+      "forks": 10784,
+      "openIssues": 485
+    }
+  ],
   "weight": 76288,
   "image": "https://avatars.githubusercontent.com/u/8401422?v=4"
 }

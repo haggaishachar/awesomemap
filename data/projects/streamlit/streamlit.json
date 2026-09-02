@@ -4,8 +4,8 @@
   "link": "https://github.com/streamlit/streamlit",
   "name": "streamlit",
   "desc": "Streamlit — A faster way to build and share data apps.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "streamlit",
+  "githubDescription": "Streamlit — A faster way to build and share data apps.",
   "tags": [
     "data-analysis",
     "data-science",
@@ -16,7 +16,14 @@
     "python",
     "streamlit"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 45661,
+      "forks": 4371,
+      "openIssues": 1196
+    }
+  ],
   "weight": 45655,
   "image": "https://avatars.githubusercontent.com/u/45109972?v=4"
 }

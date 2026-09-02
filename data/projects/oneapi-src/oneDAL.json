@@ -4,8 +4,8 @@
   "link": "https://github.com/oneapi-src/oneDAL",
   "name": "oneDAL",
   "desc": "oneAPI Data Analytics Library (oneDAL)",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "oneDAL",
+  "githubDescription": "oneAPI Data Analytics Library (oneDAL)",
   "tags": [
     "ai-inference",
     "ai-machine-learning",
@@ -22,7 +22,14 @@
     "onedal",
     "swrepo"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 651,
+      "forks": 227,
+      "openIssues": 100
+    }
+  ],
   "weight": 651,
   "image": "https://avatars.githubusercontent.com/u/144704571?v=4"
 }

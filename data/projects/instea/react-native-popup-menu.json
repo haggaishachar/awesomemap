@@ -4,8 +4,8 @@
   "link": "https://github.com/instea/react-native-popup-menu",
   "name": "react-native-popup-menu",
   "desc": "Popup menu component for React Native",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-popup-menu",
+  "githubDescription": "Popup menu component for React Native",
   "tags": [
     "android",
     "animation",
@@ -13,7 +13,14 @@
     "popup-menu",
     "react-native"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1557,
+      "forks": 256,
+      "openIssues": 48
+    }
+  ],
   "weight": 1557,
   "image": "https://avatars.githubusercontent.com/u/19341307?v=4"
 }

@@ -4,14 +4,21 @@
   "link": "https://github.com/ageitgey/face_recognition",
   "name": "face_recognition",
   "desc": "The world's simplest facial recognition api for Python and the command line",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "face_recognition",
+  "githubDescription": "The world's simplest facial recognition api for Python and the command line",
   "tags": [
     "face-detection",
     "face-recognition",
     "machine-learning",
     "python"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 56705,
+      "forks": 13696,
+      "openIssues": 832
+    }
+  ],
   "weight": 56704
 }

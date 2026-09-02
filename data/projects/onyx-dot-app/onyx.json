@@ -4,8 +4,8 @@
   "link": "https://github.com/onyx-dot-app/onyx",
   "name": "onyx",
   "desc": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "onyx",
+  "githubDescription": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
   "tags": [
     "ai",
     "ai-chat",
@@ -22,7 +22,14 @@
     "self-hosted",
     "vector-search"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 31887,
+      "forks": 4396,
+      "openIssues": 427
+    }
+  ],
   "weight": 31877,
   "image": "https://avatars.githubusercontent.com/u/131946000?v=4"
 }

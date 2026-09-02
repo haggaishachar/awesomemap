@@ -4,8 +4,8 @@
   "link": "https://github.com/ruvnet/RuView",
   "name": "RuView",
   "desc": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "RuView",
+  "githubDescription": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
   "tags": [
     "awesome",
     "claude",
@@ -28,6 +28,13 @@
     "wifi",
     "wifi-security"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 92328,
+      "forks": 12257,
+      "openIssues": 602
+    }
+  ],
   "weight": 92246
 }

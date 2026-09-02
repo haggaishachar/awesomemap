@@ -4,10 +4,17 @@
   "link": "https://github.com/expo/skills",
   "name": "skills",
   "desc": "A collection of AI agent skills for working with Expo projects and Expo Application Services",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "skills",
+  "githubDescription": "A collection of AI agent skills for working with Expo projects and Expo Application Services",
   "tags": [],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2494,
+      "forks": 140,
+      "openIssues": 61
+    }
+  ],
   "weight": 2491,
   "image": "https://avatars.githubusercontent.com/u/12504344?v=4"
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/jaemk/cached",
   "name": "cached",
   "desc": "Rust cache structures and easy function memoization",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "cached",
+  "githubDescription": "Rust cache structures and easy function memoization",
   "tags": [
     "cache",
     "caching",
@@ -15,6 +15,13 @@
     "rust-caching",
     "rustlang"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2076,
+      "forks": 109,
+      "openIssues": 8
+    }
+  ],
   "weight": 2076
 }

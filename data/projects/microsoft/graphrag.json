@@ -4,8 +4,8 @@
   "link": "https://github.com/microsoft/graphrag",
   "name": "graphrag",
   "desc": "A modular graph-based Retrieval-Augmented Generation (RAG) system",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "graphrag",
+  "githubDescription": "A modular graph-based Retrieval-Augmented Generation (RAG) system",
   "tags": [
     "gpt",
     "gpt-4",
@@ -15,7 +15,14 @@
     "llms",
     "rag"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 35786,
+      "forks": 3754,
+      "openIssues": 43
+    }
+  ],
   "weight": 35771,
   "image": "https://avatars.githubusercontent.com/u/6154722?v=4"
 }

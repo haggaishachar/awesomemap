@@ -4,8 +4,8 @@
   "link": "https://github.com/pfelk/pfelk",
   "name": "pfelk",
   "desc": "pfSense/OPNsense + Elastic Stack",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "pfelk",
+  "githubDescription": "pfSense/OPNsense + Elastic Stack",
   "tags": [
     "docker",
     "elastic",
@@ -16,7 +16,14 @@
     "pfsense",
     "siem"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1224,
+      "forks": 199,
+      "openIssues": 12
+    }
+  ],
   "weight": 1224,
   "image": "https://avatars.githubusercontent.com/u/62581539?v=4"
 }

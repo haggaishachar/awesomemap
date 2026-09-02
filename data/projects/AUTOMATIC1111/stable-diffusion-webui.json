@@ -4,8 +4,8 @@
   "link": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
   "name": "stable-diffusion-webui",
   "desc": "Stable Diffusion web UI",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "stable-diffusion-webui",
+  "githubDescription": "Stable Diffusion web UI",
   "tags": [
     "ai",
     "ai-art",
@@ -24,6 +24,13 @@
     "upscaling",
     "web"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 164772,
+      "forks": 30560,
+      "openIssues": 2503
+    }
+  ],
   "weight": 164752
 }

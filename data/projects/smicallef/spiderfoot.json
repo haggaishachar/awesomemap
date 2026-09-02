@@ -4,8 +4,8 @@
   "link": "https://github.com/smicallef/spiderfoot",
   "name": "spiderfoot",
   "desc": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "spiderfoot",
+  "githubDescription": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
   "tags": [
     "attacksurface",
     "cti",
@@ -27,6 +27,13 @@
     "threat-intelligence",
     "threatintel"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 21683,
+      "forks": 3500,
+      "openIssues": 318
+    }
+  ],
   "weight": 21666
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/DietrichGebert/ponytail",
   "name": "ponytail",
   "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "ponytail",
+  "githubDescription": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
   "tags": [
     "agent-skills",
     "ai-agents",
@@ -18,7 +18,14 @@
     "prompt-engineering",
     "yagni"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 120556,
+      "forks": 6520,
+      "openIssues": 198
+    }
+  ],
   "weight": 119349,
   "image": "https://raw.githubusercontent.com/DietrichGebert/ponytail/main/assets/logo.png"
 }

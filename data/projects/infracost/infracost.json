@@ -4,8 +4,8 @@
   "link": "https://github.com/infracost/infracost",
   "name": "infracost",
   "desc": "Cloud cost intelligence for engineers, AI coding agents, and CI/CD 💰📉 Shift FinOps Left!",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "infracost",
+  "githubDescription": "Cloud cost intelligence for engineers, AI coding agents, and CI/CD 💰📉 Shift FinOps Left!",
   "tags": [
     "aws",
     "azure",
@@ -25,7 +25,14 @@
     "terraform",
     "terraform-cost-estimation"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 12503,
+      "forks": 684,
+      "openIssues": 17
+    }
+  ],
   "weight": 12499,
   "image": "https://avatars.githubusercontent.com/u/68374653?v=4"
 }

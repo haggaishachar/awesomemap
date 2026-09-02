@@ -4,8 +4,8 @@
   "link": "https://github.com/NVlabs/instant-ngp",
   "name": "instant-ngp",
   "desc": "Instant neural graphics primitives: lightning fast NeRF and more",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "instant-ngp",
+  "githubDescription": "Instant neural graphics primitives: lightning fast NeRF and more",
   "tags": [
     "3d-reconstruction",
     "computer-graphics",
@@ -20,7 +20,14 @@
     "realtime",
     "signed-distance-functions"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 17542,
+      "forks": 2066,
+      "openIssues": 503
+    }
+  ],
   "weight": 17540,
   "image": "https://avatars.githubusercontent.com/u/2695301?v=4"
 }

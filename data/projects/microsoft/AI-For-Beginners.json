@@ -4,8 +4,8 @@
   "link": "https://github.com/microsoft/AI-For-Beginners",
   "name": "AI-For-Beginners",
   "desc": "12 Weeks, 24 Lessons, AI for All!",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "AI-For-Beginners",
+  "githubDescription": "12 Weeks, 24 Lessons, AI for All!",
   "tags": [
     "ai",
     "artificial-intelligence",
@@ -18,7 +18,14 @@
     "nlp",
     "rnn"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 67934,
+      "forks": 13090,
+      "openIssues": 36
+    }
+  ],
   "weight": 67882,
   "image": "https://avatars.githubusercontent.com/u/6154722?v=4"
 }

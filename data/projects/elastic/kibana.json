@@ -4,8 +4,8 @@
   "link": "https://github.com/elastic/kibana",
   "name": "kibana",
   "desc": "Your window into all of your data",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "kibana",
+  "githubDescription": "Your window into all of your data",
   "tags": [
     "dashboards",
     "elasticsearch",
@@ -15,7 +15,14 @@
     "observability",
     "visualizations"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 21276,
+      "forks": 8626,
+      "openIssues": 14429
+    }
+  ],
   "weight": 21277,
   "image": "https://avatars.githubusercontent.com/u/6764390?v=4"
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/hiyouga/LlamaFactory",
   "name": "LlamaFactory",
   "desc": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "LlamaFactory",
+  "githubDescription": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
   "tags": [
     "agent",
     "ai",
@@ -28,7 +28,14 @@
     "rlhf",
     "transformers"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 74518,
+      "forks": 9129,
+      "openIssues": 1141
+    }
+  ],
   "weight": 74499,
   "image": "https://raw.githubusercontent.com/hiyouga/LlamaFactory/main/assets/logo.png"
 }

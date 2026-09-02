@@ -4,8 +4,8 @@
   "link": "https://github.com/allegro/bigcache",
   "name": "bigcache",
   "desc": "Efficient cache for gigabytes of data written in Go.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "bigcache",
+  "githubDescription": "Efficient cache for gigabytes of data written in Go.",
   "tags": [
     "cache",
     "caching",
@@ -13,7 +13,14 @@
     "hacktoberfest",
     "performance"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 8158,
+      "forks": 610,
+      "openIssues": 94
+    }
+  ],
   "weight": 8157,
   "image": "https://avatars.githubusercontent.com/u/562236?v=4"
 }

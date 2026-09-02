@@ -4,8 +4,8 @@
   "link": "https://github.com/urbanadventurer/WhatWeb",
   "name": "WhatWeb",
   "desc": "Next generation web scanner",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "WhatWeb",
+  "githubDescription": "Next generation web scanner",
   "tags": [
     "application-security",
     "appsec",
@@ -28,6 +28,13 @@
     "web",
     "web-hacking"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 6807,
+      "forks": 1007,
+      "openIssues": 51
+    }
+  ],
   "weight": 6804
 }

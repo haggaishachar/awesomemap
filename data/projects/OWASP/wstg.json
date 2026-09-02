@@ -4,8 +4,8 @@
   "link": "https://github.com/OWASP/wstg",
   "name": "wstg",
   "desc": "The Web Security Testing Guide is a comprehensive Open Source guide to testing the security of web applications and web services.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "wstg",
+  "githubDescription": "The Web Security Testing Guide is a comprehensive Open Source guide to testing the security of web applications and web services.",
   "tags": [
     "application-security",
     "appsec",
@@ -19,7 +19,14 @@
     "pentesting",
     "security"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 9778,
+      "forks": 1678,
+      "openIssues": 33
+    }
+  ],
   "weight": 9775,
   "image": "https://avatars.githubusercontent.com/u/155815?v=4"
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/1technophile/OpenMQTTGateway",
   "name": "OpenMQTTGateway",
   "desc": "MQTT gateway for ESP8266 or ESP32 with bidirectional 433mhz/315mhz/868mhz, Infrared communications, BLE, Bluetooth, beacons detection, mi flora, mi jia, LYWSD02, LYWSD03MMC, Mi Scale, TPMS, BBQ thermometer compatibility & LoRa.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "OpenMQTTGateway",
+  "githubDescription": "MQTT gateway for ESP8266 or ESP32 with bidirectional 433mhz/315mhz/868mhz, Infrared communications, BLE, Bluetooth, beacons detection, mi flora, mi jia, LYWSD02, LYWSD03MMC, Mi Scale, TPMS, BBQ thermometer compatibility & LoRa.",
   "tags": [
     "arduino",
     "arduino-uno",
@@ -27,6 +27,13 @@
     "wemos-d1",
     "xiaomi"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 4082,
+      "forks": 898,
+      "openIssues": 47
+    }
+  ],
   "weight": 4083
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/lancedb/lancedb",
   "name": "lancedb",
   "desc": "Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "lancedb",
+  "githubDescription": "Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.",
   "tags": [
     "approximate-nearest-neighbor-search",
     "image-search",
@@ -16,7 +16,14 @@
     "similarity-search",
     "vector-database"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 11339,
+      "forks": 1039,
+      "openIssues": 608
+    }
+  ],
   "weight": 11326,
   "image": "https://avatars.githubusercontent.com/u/108903835?v=4"
 }

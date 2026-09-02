@@ -4,8 +4,8 @@
   "link": "https://github.com/whitfin/cachex",
   "name": "cachex",
   "desc": "A powerful caching library for Elixir with support for transactions, fallbacks and expirations",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "cachex",
+  "githubDescription": "A powerful caching library for Elixir with support for transactions, fallbacks and expirations",
   "tags": [
     "caching",
     "caching-library",
@@ -13,6 +13,13 @@
     "memory-cache",
     "performance"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1744,
+      "forks": 124,
+      "openIssues": 12
+    }
+  ],
   "weight": 1744
 }

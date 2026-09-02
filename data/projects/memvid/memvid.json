@@ -4,8 +4,8 @@
   "link": "https://github.com/memvid/memvid",
   "name": "memvid",
   "desc": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "memvid",
+  "githubDescription": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
   "tags": [
     "ai",
     "context",
@@ -28,7 +28,14 @@
     "vector-database",
     "video-processing"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 16460,
+      "forks": 1415,
+      "openIssues": 34
+    }
+  ],
   "weight": 16457,
   "image": "https://avatars.githubusercontent.com/u/241489775?v=4"
 }

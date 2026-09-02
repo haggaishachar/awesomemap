@@ -4,8 +4,8 @@
   "link": "https://github.com/evcc-io/evcc",
   "name": "evcc",
   "desc": "solar charging ☀️🚘",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "evcc",
+  "githubDescription": "solar charging ☀️🚘",
   "tags": [
     "battery",
     "charger",
@@ -22,7 +22,14 @@
     "sunspec",
     "wallbox"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 7168,
+      "forks": 1488,
+      "openIssues": 146
+    }
+  ],
   "weight": 7166,
   "image": "https://avatars.githubusercontent.com/u/81383504?v=4"
 }

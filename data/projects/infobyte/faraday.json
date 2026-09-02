@@ -4,8 +4,8 @@
   "link": "https://github.com/infobyte/faraday",
   "name": "faraday",
   "desc": "Open Source Vulnerability Management Platform",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "faraday",
+  "githubDescription": "Open Source Vulnerability Management Platform",
   "tags": [
     "appsec",
     "burpsuite",
@@ -28,7 +28,14 @@
     "vulnerability-management",
     "vulnerability-scanners"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 6703,
+      "forks": 1069,
+      "openIssues": 20
+    }
+  ],
   "weight": 6700,
   "image": "https://avatars.githubusercontent.com/u/4226354?v=4"
 }

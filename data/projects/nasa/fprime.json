@@ -4,8 +4,8 @@
   "link": "https://github.com/nasa/fprime",
   "name": "fprime",
   "desc": "F´ - A flight software and embedded systems framework",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "fprime",
+  "githubDescription": "F´ - A flight software and embedded systems framework",
   "tags": [
     "components",
     "cpp",
@@ -21,7 +21,14 @@
     "real-time",
     "spaceflight"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 11721,
+      "forks": 1836,
+      "openIssues": 457
+    }
+  ],
   "weight": 11721,
   "image": "https://avatars.githubusercontent.com/u/848102?v=4"
 }

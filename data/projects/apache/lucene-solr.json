@@ -4,8 +4,8 @@
   "link": "https://github.com/apache/lucene-solr",
   "name": "lucene-solr",
   "desc": "Apache Lucene and Solr open-source search software",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "lucene-solr",
+  "githubDescription": "Apache Lucene and Solr open-source search software",
   "tags": [
     "backend",
     "information-retrieval",
@@ -16,7 +16,14 @@
     "search-engine",
     "solr"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 4364,
+      "forks": 2591,
+      "openIssues": 229
+    }
+  ],
   "weight": 4364,
   "image": "https://avatars.githubusercontent.com/u/47359?v=4"
 }

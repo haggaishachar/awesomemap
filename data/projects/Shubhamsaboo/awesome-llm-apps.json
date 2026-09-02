@@ -4,14 +4,21 @@
   "link": "https://github.com/Shubhamsaboo/awesome-llm-apps",
   "name": "awesome-llm-apps",
   "desc": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "awesome-llm-apps",
+  "githubDescription": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
   "tags": [
     "agents",
     "llms",
     "python",
     "rag"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 135706,
+      "forks": 19960,
+      "openIssues": 5
+    }
+  ],
   "weight": 135524
 }

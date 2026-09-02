@@ -4,8 +4,8 @@
   "link": "https://github.com/earthly/earthly",
   "name": "earthly",
   "desc": "Super simple build framework with fast, repeatable builds and an instantly familiar syntax – like Dockerfile and Makefile had a baby.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "earthly",
+  "githubDescription": "Super simple build framework with fast, repeatable builds and an instantly familiar syntax – like Dockerfile and Makefile had a baby.",
   "tags": [
     "build",
     "build-automation",
@@ -23,7 +23,14 @@
     "hacktoberfest2021",
     "reproducible-builds"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 12049,
+      "forks": 458,
+      "openIssues": 744
+    }
+  ],
   "weight": 12049,
   "image": "https://avatars.githubusercontent.com/u/63060917?v=4"
 }

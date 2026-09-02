@@ -4,8 +4,8 @@
   "link": "https://github.com/ultralytics/ultralytics",
   "name": "ultralytics",
   "desc": "Ultralytics YOLO26, YOLO11, YOLOv8 — object detection, instance segmentation, semantic segmentation, image classification, pose estimation, object tracking",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "ultralytics",
+  "githubDescription": "Ultralytics YOLO26, YOLO11, YOLOv8 — object detection, instance segmentation, semantic segmentation, image classification, pose estimation, object tracking",
   "tags": [
     "computer-vision",
     "deep-learning",
@@ -28,7 +28,14 @@
     "yolo26",
     "yolov8"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 61199,
+      "forks": 11687,
+      "openIssues": 94
+    }
+  ],
   "weight": 61151,
   "image": "https://avatars.githubusercontent.com/u/26833451?v=4"
 }

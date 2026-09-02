@@ -4,8 +4,8 @@
   "link": "https://github.com/kcl-lang/kcl",
   "name": "kcl",
   "desc": "KCL Programming Language Core and API (CNCF Sandbox Project). https://kcl-lang.io",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "kcl",
+  "githubDescription": "KCL Programming Language Core and API (CNCF Sandbox Project). https://kcl-lang.io",
   "tags": [
     "cloud-native",
     "compiler",
@@ -26,7 +26,14 @@
     "shift-left",
     "validation"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2408,
+      "forks": 169,
+      "openIssues": 19
+    }
+  ],
   "weight": 2407,
   "image": "https://avatars.githubusercontent.com/u/118160501?v=4"
 }

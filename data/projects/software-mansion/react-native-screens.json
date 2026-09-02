@@ -4,14 +4,21 @@
   "link": "https://github.com/software-mansion/react-native-screens",
   "name": "react-native-screens",
   "desc": "Native navigation primitives for your React Native app.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-screens",
+  "githubDescription": "Native navigation primitives for your React Native app.",
   "tags": [
     "react-native",
     "react-navigation",
     "typescript"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 3725,
+      "forks": 699,
+      "openIssues": 270
+    }
+  ],
   "weight": 3725,
   "image": "https://avatars.githubusercontent.com/u/56880679?v=4"
 }

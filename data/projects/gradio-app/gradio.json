@@ -4,8 +4,8 @@
   "link": "https://github.com/gradio-app/gradio",
   "name": "gradio",
   "desc": "Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work!",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "gradio",
+  "githubDescription": "Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work!",
   "tags": [
     "data-analysis",
     "data-science",
@@ -22,7 +22,14 @@
     "ui",
     "ui-components"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 43450,
+      "forks": 3582,
+      "openIssues": 158
+    }
+  ],
   "weight": 43447,
   "image": "https://avatars.githubusercontent.com/u/51063788?v=4"
 }

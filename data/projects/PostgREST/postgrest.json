@@ -4,8 +4,8 @@
   "link": "https://github.com/PostgREST/postgrest",
   "name": "postgrest",
   "desc": "REST API for any Postgres database",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "postgrest",
+  "githubDescription": "REST API for any Postgres database",
   "tags": [
     "api",
     "automatic-api",
@@ -21,7 +21,14 @@
     "server",
     "sql"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 27638,
+      "forks": 1227,
+      "openIssues": 398
+    }
+  ],
   "weight": 27638,
   "image": "https://avatars.githubusercontent.com/u/15115011?v=4"
 }

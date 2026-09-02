@@ -4,8 +4,8 @@
   "link": "https://github.com/OpenBB-finance/OpenBB",
   "name": "OpenBB",
   "desc": "Open Data Platform for analysts, quants and AI agents.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "OpenBB",
+  "githubDescription": "Open Data Platform for analysts, quants and AI agents.",
   "tags": [
     "ai",
     "crypto",
@@ -21,7 +21,14 @@
     "quantitative-finance",
     "stocks"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 72598,
+      "forks": 7492,
+      "openIssues": 111
+    }
+  ],
   "weight": 72560,
   "image": "https://avatars.githubusercontent.com/u/80064875?v=4"
 }

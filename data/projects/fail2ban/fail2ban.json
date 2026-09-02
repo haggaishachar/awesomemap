@@ -4,8 +4,8 @@
   "link": "https://github.com/fail2ban/fail2ban",
   "name": "fail2ban",
   "desc": "Daemon to ban hosts that cause multiple authentication errors",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "fail2ban",
+  "githubDescription": "Daemon to ban hosts that cause multiple authentication errors",
   "tags": [
     "anti-bot",
     "attack-prevention",
@@ -27,7 +27,14 @@
     "security",
     "security-tools"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 18526,
+      "forks": 1496,
+      "openIssues": 271
+    }
+  ],
   "weight": 18519,
   "image": "https://avatars.githubusercontent.com/u/1087378?v=4"
 }

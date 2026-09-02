@@ -4,8 +4,8 @@
   "link": "https://github.com/Mintplex-Labs/anything-llm",
   "name": "anything-llm",
   "desc": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "anything-llm",
+  "githubDescription": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
   "tags": [
     "agent-computer",
     "agent-harness",
@@ -24,7 +24,14 @@
     "self-hosted-ai",
     "vector-database"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 65505,
+      "forks": 7242,
+      "openIssues": 316
+    }
+  ],
   "weight": 65455,
   "image": "https://avatars.githubusercontent.com/u/134426827?v=4"
 }

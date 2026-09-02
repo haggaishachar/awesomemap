@@ -4,8 +4,8 @@
   "link": "https://github.com/tj-actions/changed-files",
   "name": "changed-files",
   "desc": ":octocat: Github action to retrieve all (added, copied, modified, deleted, renamed, type changed, unmerged, unknown) files and directories.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "changed-files",
+  "githubDescription": ":octocat: Github action to retrieve all (added, copied, modified, deleted, renamed, type changed, unmerged, unknown) files and directories.",
   "tags": [
     "actions",
     "change-detection",
@@ -27,7 +27,14 @@
     "workflows",
     "yaml-files"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2718,
+      "forks": 335,
+      "openIssues": 36
+    }
+  ],
   "weight": 2718,
   "image": "https://avatars.githubusercontent.com/u/67116787?v=4"
 }

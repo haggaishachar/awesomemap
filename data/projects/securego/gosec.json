@@ -4,8 +4,8 @@
   "link": "https://github.com/securego/gosec",
   "name": "gosec",
   "desc": "Go security checker",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "gosec",
+  "githubDescription": "Go security checker",
   "tags": [
     "golang",
     "security",
@@ -14,7 +14,14 @@
     "static-analysis",
     "static-code-analysis"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 8938,
+      "forks": 707,
+      "openIssues": 7
+    }
+  ],
   "weight": 8937,
   "image": "https://avatars.githubusercontent.com/u/23195997?v=4"
 }

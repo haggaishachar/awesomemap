@@ -4,8 +4,8 @@
   "link": "https://github.com/bridgecrewio/checkov",
   "name": "checkov",
   "desc": "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages with Checkov by Bridgecrew.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "checkov",
+  "githubDescription": "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages with Checkov by Bridgecrew.",
   "tags": [
     "aws",
     "aws-security",
@@ -21,7 +21,14 @@
     "static-analysis",
     "terraform"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 8977,
+      "forks": 1401,
+      "openIssues": 167
+    }
+  ],
   "weight": 8976,
   "image": "https://avatars.githubusercontent.com/u/48174253?v=4"
 }

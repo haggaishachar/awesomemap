@@ -4,14 +4,21 @@
   "link": "https://github.com/commaai/openpilot",
   "name": "openpilot",
   "desc": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "openpilot",
+  "githubDescription": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
   "tags": [
     "advanced-driver-assistance-systems",
     "driver-assistance-systems",
     "robotics"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 63552,
+      "forks": 11317,
+      "openIssues": 134
+    }
+  ],
   "weight": 63549,
   "image": "https://avatars.githubusercontent.com/u/16128714?v=4"
 }

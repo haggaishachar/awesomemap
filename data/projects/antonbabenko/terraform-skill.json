@@ -4,8 +4,8 @@
   "link": "https://github.com/antonbabenko/terraform-skill",
   "name": "terraform-skill",
   "desc": "Terraform & OpenTofu Skill for AI Agents - testing, modules, CI/CD, and production patterns",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "terraform-skill",
+  "githubDescription": "Terraform & OpenTofu Skill for AI Agents - testing, modules, CI/CD, and production patterns",
   "tags": [
     "agent-skills",
     "best-practices",
@@ -18,6 +18,13 @@
     "terraform",
     "testing"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2321,
+      "forks": 204,
+      "openIssues": 3
+    }
+  ],
   "weight": 2320
 }

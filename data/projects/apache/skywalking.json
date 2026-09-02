@@ -4,8 +4,8 @@
   "link": "https://github.com/apache/skywalking",
   "name": "skywalking",
   "desc": "APM, Application Performance Monitoring System",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "skywalking",
+  "githubDescription": "APM, Application Performance Monitoring System",
   "tags": [
     "apm",
     "dapper",
@@ -22,7 +22,14 @@
     "web-performance",
     "zabbix"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 24937,
+      "forks": 6632,
+      "openIssues": 40
+    }
+  ],
   "weight": 24937,
   "image": "https://avatars.githubusercontent.com/u/47359?v=4"
 }

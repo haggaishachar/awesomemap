@@ -4,9 +4,16 @@
   "link": "https://github.com/nandorojo/zeego",
   "name": "zeego",
   "desc": "Menus for React (Native) done right.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "zeego",
+  "githubDescription": "Menus for React (Native) done right.",
   "tags": [],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2253,
+      "forks": 64,
+      "openIssues": 48
+    }
+  ],
   "weight": 2252
 }

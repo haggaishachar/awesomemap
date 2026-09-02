@@ -4,8 +4,8 @@
   "link": "https://github.com/screenpipe/screenpipe",
   "name": "screenpipe",
   "desc": "YC (S26) | Open Computer History | Record your screen continuously locally and provide context to your agents (Claude, Codex, Openclaw, Hermes, Runner...)",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "screenpipe",
+  "githubDescription": "YC (S26) | Open Computer History | Record your screen continuously locally and provide context to your agents (Claude, Codex, Openclaw, Hermes, Runner...)",
   "tags": [
     "agents",
     "agi",
@@ -28,7 +28,14 @@
     "speech-to-text",
     "ycombinator"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 21366,
+      "forks": 2160,
+      "openIssues": 57
+    }
+  ],
   "weight": 21342,
   "image": "https://avatars.githubusercontent.com/u/259178917?v=4"
 }

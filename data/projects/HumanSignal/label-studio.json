@@ -4,8 +4,8 @@
   "link": "https://github.com/HumanSignal/label-studio",
   "name": "label-studio",
   "desc": "Label Studio is a multi-type data labeling and annotation tool with standardized output format",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "label-studio",
+  "githubDescription": "Label Studio is a multi-type data labeling and annotation tool with standardized output format",
   "tags": [
     "annotation",
     "annotation-tool",
@@ -28,7 +28,14 @@
     "text-annotation",
     "yolo"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 28187,
+      "forks": 3682,
+      "openIssues": 934
+    }
+  ],
   "weight": 28183,
   "image": "https://avatars.githubusercontent.com/u/48309720?v=4"
 }

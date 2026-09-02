@@ -4,8 +4,8 @@
   "link": "https://github.com/AvaloniaUI/Avalonia",
   "name": "Avalonia",
   "desc": "Develop Desktop, Embedded, Mobile and WebAssembly apps with C# and XAML. The future of .NET UI",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "Avalonia",
+  "githubDescription": "Develop Desktop, Embedded, Mobile and WebAssembly apps with C# and XAML. The future of .NET UI",
   "tags": [
     "android",
     "app-framework",
@@ -28,7 +28,14 @@
     "xamarin",
     "xaml"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 31432,
+      "forks": 2801,
+      "openIssues": 1875
+    }
+  ],
   "weight": 31430,
   "image": "https://avatars.githubusercontent.com/u/14075148?v=4"
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/surrealdb/surrealdb",
   "name": "surrealdb",
   "desc": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "surrealdb",
+  "githubDescription": "A scalable, distributed, collaborative, document-graph database, for the realtime web",
   "tags": [
     "backend-as-a-service",
     "cloud-database",
@@ -26,7 +26,14 @@
     "surrealdb",
     "web"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 32971,
+      "forks": 1355,
+      "openIssues": 746
+    }
+  ],
   "weight": 32966,
   "image": "https://avatars.githubusercontent.com/u/10982346?v=4"
 }

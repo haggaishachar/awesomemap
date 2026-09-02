@@ -4,10 +4,17 @@
   "link": "https://github.com/rethinkdb/rethinkdb",
   "name": "rethinkdb",
   "desc": "The open-source database for the realtime web.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "rethinkdb",
+  "githubDescription": "The open-source database for the realtime web.",
   "tags": [],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 26995,
+      "forks": 1849,
+      "openIssues": 1352
+    }
+  ],
   "weight": 26995,
   "image": "https://avatars.githubusercontent.com/u/1229647?v=4"
 }

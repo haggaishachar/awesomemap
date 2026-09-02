@@ -4,8 +4,8 @@
   "link": "https://github.com/The-Art-of-Hacking/h4cker",
   "name": "h4cker",
   "desc": "This repository is maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), AI security, vulnerability research, exploit development, reverse engineering, and more. 🔥 Also check: https://hackertraining.org",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "h4cker",
+  "githubDescription": "This repository is maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), AI security, vulnerability research, exploit development, reverse engineering, and more. 🔥 Also check: https://hackertraining.org",
   "tags": [
     "ai",
     "ai-security",
@@ -28,7 +28,14 @@
     "vulnerability-identification",
     "vulnerability-management"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 29235,
+      "forks": 5343,
+      "openIssues": 1
+    }
+  ],
   "weight": 29221,
   "image": "https://avatars.githubusercontent.com/u/29549806?v=4"
 }

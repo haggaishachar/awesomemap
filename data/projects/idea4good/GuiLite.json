@@ -4,8 +4,8 @@
   "link": "https://github.com/idea4good/GuiLite",
   "name": "GuiLite",
   "desc": "✔️The smallest header-only GUI library(4 KLOC) for all platforms",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "GuiLite",
+  "githubDescription": "✔️The smallest header-only GUI library(4 KLOC) for all platforms",
   "tags": [
     "c",
     "cpp",
@@ -21,6 +21,13 @@
     "mcu",
     "microcontroller"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 7769,
+      "forks": 834,
+      "openIssues": 18
+    }
+  ],
   "weight": 7767
 }

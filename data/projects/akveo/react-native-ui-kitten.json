@@ -4,14 +4,21 @@
   "link": "https://github.com/akveo/react-native-ui-kitten",
   "name": "react-native-ui-kitten",
   "desc": ":boom: React Native UI Library based on Eva Design System  :new_moon_with_face::sparkles:Dark Mode",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-ui-kitten",
+  "githubDescription": ":boom: React Native UI Library based on Eva Design System  :new_moon_with_face::sparkles:Dark Mode",
   "tags": [
     "react",
     "react-native",
     "ui-kit"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 10670,
+      "forks": 964,
+      "openIssues": 134
+    }
+  ],
   "weight": 10670,
   "image": "https://avatars.githubusercontent.com/u/11921694?v=4"
 }

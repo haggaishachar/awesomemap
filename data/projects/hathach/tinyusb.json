@@ -4,8 +4,8 @@
   "link": "https://github.com/hathach/tinyusb",
   "name": "tinyusb",
   "desc": "An open source  cross-platform USB stack for embedded system",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "tinyusb",
+  "githubDescription": "An open source  cross-platform USB stack for embedded system",
   "tags": [
     "embedded",
     "midi",
@@ -19,7 +19,14 @@
     "usb-host",
     "webusb"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 7076,
+      "forks": 1502,
+      "openIssues": 257
+    }
+  ],
   "weight": 7076,
   "image": "https://raw.githubusercontent.com/hathach/tinyusb/master/docs/assets/logo.svg"
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/callstack/react-native-bottom-tabs",
   "name": "react-native-bottom-tabs",
   "desc": "Native Bottom Tabs for React Native",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-bottom-tabs",
+  "githubDescription": "Native Bottom Tabs for React Native",
   "tags": [
     "android",
     "hacktoberfest",
@@ -14,7 +14,14 @@
     "react-navigation",
     "visionos"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1449,
+      "forks": 105,
+      "openIssues": 46
+    }
+  ],
   "weight": 1449,
   "image": "https://avatars.githubusercontent.com/u/42239399?v=4"
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/msiemens/tinydb",
   "name": "tinydb",
   "desc": "TinyDB is a lightweight document oriented database optimized for your happiness :)",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "tinydb",
+  "githubDescription": "TinyDB is a lightweight document oriented database optimized for your happiness :)",
   "tags": [
     "database",
     "documentdb",
@@ -13,6 +13,13 @@
     "nosql",
     "python"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 7558,
+      "forks": 626,
+      "openIssues": 11
+    }
+  ],
   "weight": 7558
 }

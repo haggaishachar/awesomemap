@@ -4,8 +4,8 @@
   "link": "https://github.com/VictoriaMetrics/fastcache",
   "name": "fastcache",
   "desc": "Fast thread-safe inmemory cache for big number of entries in Go. Minimizes GC overhead",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "fastcache",
+  "githubDescription": "Fast thread-safe inmemory cache for big number of entries in Go. Minimizes GC overhead",
   "tags": [
     "cache",
     "caching",
@@ -15,7 +15,14 @@
     "golang",
     "inmemory-cache"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 2371,
+      "forks": 194,
+      "openIssues": 48
+    }
+  ],
   "weight": 2371,
   "image": "https://avatars.githubusercontent.com/u/43720803?v=4"
 }

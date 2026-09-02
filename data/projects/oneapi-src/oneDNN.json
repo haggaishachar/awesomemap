@@ -4,8 +4,8 @@
   "link": "https://github.com/oneapi-src/oneDNN",
   "name": "oneDNN",
   "desc": "oneAPI Deep Neural Network Library (oneDNN)",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "oneDNN",
+  "githubDescription": "oneAPI Deep Neural Network Library (oneDNN)",
   "tags": [
     "aarch64",
     "amx",
@@ -26,7 +26,14 @@
     "x86-64",
     "xe-architecture"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 4044,
+      "forks": 1194,
+      "openIssues": 201
+    }
+  ],
   "weight": 4044,
   "image": "https://avatars.githubusercontent.com/u/144704571?v=4"
 }

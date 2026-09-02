@@ -4,15 +4,22 @@
   "link": "https://github.com/callstack/react-native-pager-view",
   "name": "react-native-pager-view",
   "desc": "React Native wrapper for the Android ViewPager and iOS UIPageViewController.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-pager-view",
+  "githubDescription": "React Native wrapper for the Android ViewPager and iOS UIPageViewController.",
   "tags": [
     "android",
     "hacktoberfest",
     "ios",
     "react-native"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 3356,
+      "forks": 474,
+      "openIssues": 143
+    }
+  ],
   "weight": 3356,
   "image": "https://avatars.githubusercontent.com/u/42239399?v=4"
 }

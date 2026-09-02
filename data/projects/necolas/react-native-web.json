@@ -4,8 +4,8 @@
   "link": "https://github.com/necolas/react-native-web",
   "name": "react-native-web",
   "desc": "Cross-platform React UI packages",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-web",
+  "githubDescription": "Cross-platform React UI packages",
   "tags": [
     "cross-platform",
     "css-in-js",
@@ -17,6 +17,13 @@
     "react-native-web",
     "react-ui"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 22142,
+      "forks": 1822,
+      "openIssues": 166
+    }
+  ],
   "weight": 22141
 }

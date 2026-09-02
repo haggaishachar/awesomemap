@@ -4,8 +4,8 @@
   "link": "https://github.com/dair-ai/Prompt-Engineering-Guide",
   "name": "Prompt-Engineering-Guide",
   "desc": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "Prompt-Engineering-Guide",
+  "githubDescription": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
   "tags": [
     "agent",
     "agents",
@@ -19,7 +19,14 @@
     "prompt-engineering",
     "rag"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 77964,
+      "forks": 8560,
+      "openIssues": 278
+    }
+  ],
   "weight": 77943,
   "image": "https://avatars.githubusercontent.com/u/30384625?v=4"
 }

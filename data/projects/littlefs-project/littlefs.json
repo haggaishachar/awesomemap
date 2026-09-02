@@ -4,14 +4,21 @@
   "link": "https://github.com/littlefs-project/littlefs",
   "name": "littlefs",
   "desc": "A little fail-safe filesystem designed for microcontrollers",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "littlefs",
+  "githubDescription": "A little fail-safe filesystem designed for microcontrollers",
   "tags": [
     "embedded",
     "filesystem",
     "microcontroller"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 6921,
+      "forks": 1018,
+      "openIssues": 632
+    }
+  ],
   "weight": 6918,
   "image": "https://avatars.githubusercontent.com/u/60944974?v=4"
 }

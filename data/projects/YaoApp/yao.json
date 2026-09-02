@@ -4,8 +4,8 @@
   "link": "https://github.com/YaoApp/yao",
   "name": "yao",
   "desc": "✨ All your agents and workspaces in one place, on every device you own. Track tasks on a board, accessible from desktop, mobile, browser, or API. Self-hosted.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "yao",
+  "githubDescription": "✨ All your agents and workspaces in one place, on every device you own. Track tasks on a board, accessible from desktop, mobile, browser, or API. Self-hosted.",
   "tags": [
     "agent-harness",
     "agent-orchestration",
@@ -25,7 +25,14 @@
     "own-your-data",
     "tool-use"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 7866,
+      "forks": 703,
+      "openIssues": 7
+    }
+  ],
   "weight": 7849,
   "image": "https://avatars.githubusercontent.com/u/61642237?v=4"
 }

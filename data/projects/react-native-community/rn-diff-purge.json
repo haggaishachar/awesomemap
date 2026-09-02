@@ -4,8 +4,8 @@
   "link": "https://github.com/react-native-community/rn-diff-purge",
   "name": "rn-diff-purge",
   "desc": "Easier React Native upgrades by clearly exposing changes from a version to another. :rocket: And what better way than to purge, init, then diff? Spoiler: there's no better way. 😎",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "rn-diff-purge",
+  "githubDescription": "Easier React Native upgrades by clearly exposing changes from a version to another. :rocket: And what better way than to purge, init, then diff? Spoiler: there's no better way. 😎",
   "tags": [
     "purge",
     "react-native",
@@ -14,7 +14,14 @@
     "upgrade",
     "upgrade-helper"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1316,
+      "forks": 72,
+      "openIssues": 3
+    }
+  ],
   "weight": 1317,
   "image": "https://avatars.githubusercontent.com/u/20269980?v=4"
 }

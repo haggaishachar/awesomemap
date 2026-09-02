@@ -4,8 +4,8 @@
   "link": "https://github.com/keon/awesome-nlp",
   "name": "awesome-nlp",
   "desc": ":book: A curated list of resources dedicated to Natural Language Processing (NLP)",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "awesome-nlp",
+  "githubDescription": ":book: A curated list of resources dedicated to Natural Language Processing (NLP)",
   "tags": [
     "awesome",
     "awesome-list",
@@ -16,6 +16,13 @@
     "nlp",
     "text-mining"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 18960,
+      "forks": 2860,
+      "openIssues": 16
+    }
+  ],
   "weight": 18954
 }

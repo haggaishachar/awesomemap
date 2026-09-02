@@ -4,8 +4,8 @@
   "link": "https://github.com/retyui/react-native-confirmation-code-field",
   "name": "react-native-confirmation-code-field",
   "desc": "A react-native confirmation code field compatible with iOS, Android and Web",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-confirmation-code-field",
+  "githubDescription": "A react-native confirmation code field compatible with iOS, Android and Web",
   "tags": [
     "android",
     "code-verification",
@@ -18,6 +18,13 @@
     "react-native-library",
     "react-native-web"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 1229,
+      "forks": 128,
+      "openIssues": 5
+    }
+  ],
   "weight": 1229
 }

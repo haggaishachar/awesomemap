@@ -4,8 +4,8 @@
   "link": "https://github.com/meshery/meshery",
   "name": "meshery",
   "desc": "Meshery, the cloud native manager",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "meshery",
+  "githubDescription": "Meshery, the cloud native manager",
   "tags": [
     "cloud-native",
     "cncf",
@@ -28,7 +28,14 @@
     "visualization",
     "webassembly"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 11644,
+      "forks": 3743,
+      "openIssues": 1888
+    }
+  ],
   "weight": 11627,
   "image": "https://avatars.githubusercontent.com/u/52376019?v=4"
 }

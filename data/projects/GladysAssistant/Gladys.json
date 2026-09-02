@@ -4,8 +4,8 @@
   "link": "https://github.com/GladysAssistant/Gladys",
   "name": "Gladys",
   "desc": "A privacy-first, open-source home assistant",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "Gladys",
+  "githubDescription": "A privacy-first, open-source home assistant",
   "tags": [
     "assistant",
     "automation",
@@ -17,7 +17,14 @@
     "raspberry-pi",
     "smarthome"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 3169,
+      "forks": 318,
+      "openIssues": 55
+    }
+  ],
   "weight": 3169,
   "image": "https://avatars.githubusercontent.com/u/7365162?v=4"
 }

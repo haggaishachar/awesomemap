@@ -4,8 +4,8 @@
   "link": "https://github.com/databendlabs/databend",
   "name": "databend",
   "desc": "Data Agent Ready Warehouse : One for  Analytics, Search, AI, Python Sandbox.  — rebuilt from scratch. Unified architecture on your S3.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "databend",
+  "githubDescription": "Data Agent Ready Warehouse : One for  Analytics, Search, AI, Python Sandbox.  — rebuilt from scratch. Unified architecture on your S3.",
   "tags": [
     "ai",
     "bigdata",
@@ -22,7 +22,14 @@
     "vector-database",
     "vector-search"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 9434,
+      "forks": 895,
+      "openIssues": 569
+    }
+  ],
   "weight": 9430,
   "image": "https://avatars.githubusercontent.com/u/80994548?v=4"
 }

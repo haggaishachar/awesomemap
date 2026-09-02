@@ -4,8 +4,8 @@
   "link": "https://github.com/six2dez/reconftw",
   "name": "reconftw",
   "desc": "reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "reconftw",
+  "githubDescription": "reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities",
   "tags": [
     "bug-bounty",
     "bugbounty",
@@ -27,6 +27,13 @@
     "subdomain-enumeration",
     "vulnerabilities"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 8050,
+      "forks": 1225,
+      "openIssues": 3
+    }
+  ],
   "weight": 8045
 }

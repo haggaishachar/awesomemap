@@ -4,8 +4,8 @@
   "link": "https://github.com/zilliztech/claude-context",
   "name": "claude-context",
   "desc": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "claude-context",
+  "githubDescription": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
   "tags": [
     "agent",
     "agentic-rag",
@@ -28,7 +28,14 @@
     "voyage-ai",
     "vscode-extension"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 12464,
+      "forks": 917,
+      "openIssues": 144
+    }
+  ],
   "weight": 12458,
   "image": "https://avatars.githubusercontent.com/u/18416694?v=4"
 }

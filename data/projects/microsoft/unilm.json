@@ -4,8 +4,8 @@
   "link": "https://github.com/microsoft/unilm",
   "name": "unilm",
   "desc": "Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "unilm",
+  "githubDescription": "Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities",
   "tags": [
     "beit",
     "beit-3",
@@ -28,7 +28,14 @@
     "unilm",
     "xlm-e"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 22203,
+      "forks": 2703,
+      "openIssues": 684
+    }
+  ],
   "weight": 22200,
   "image": "https://avatars.githubusercontent.com/u/6154722?v=4"
 }

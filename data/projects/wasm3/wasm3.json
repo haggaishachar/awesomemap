@@ -4,8 +4,8 @@
   "link": "https://github.com/wasm3/wasm3",
   "name": "wasm3",
   "desc": "🚀 A fast WebAssembly interpreter and the most universal WASM runtime",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "wasm3",
+  "githubDescription": "🚀 A fast WebAssembly interpreter and the most universal WASM runtime",
   "tags": [
     "containers",
     "cosmopolitan",
@@ -21,7 +21,14 @@
     "wasm",
     "webassembly"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 8013,
+      "forks": 535,
+      "openIssues": 19
+    }
+  ],
   "weight": 8012,
   "image": "https://avatars.githubusercontent.com/u/58013131?v=4"
 }

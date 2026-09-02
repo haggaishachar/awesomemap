@@ -4,8 +4,8 @@
   "link": "https://github.com/mitesh77/Best-Flutter-UI-Templates",
   "name": "Best-Flutter-UI-Templates",
   "desc": "completely free for everyone. Its build-in Flutter Dart.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "Best-Flutter-UI-Templates",
+  "githubDescription": "completely free for everyone. Its build-in Flutter Dart.",
   "tags": [
     "cross-platform",
     "flutter",
@@ -17,6 +17,13 @@
     "flutter-ui",
     "flutter-widget"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 22823,
+      "forks": 4822,
+      "openIssues": 15
+    }
+  ],
   "weight": 22820
 }

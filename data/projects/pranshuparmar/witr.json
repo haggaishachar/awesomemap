@@ -4,8 +4,8 @@
   "link": "https://github.com/pranshuparmar/witr",
   "name": "witr",
   "desc": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI. ",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "witr",
+  "githubDescription": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI. ",
   "tags": [
     "cli",
     "containers",
@@ -28,6 +28,13 @@
     "tui",
     "windows"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 22023,
+      "forks": 767,
+      "openIssues": 14
+    }
+  ],
   "weight": 21989
 }

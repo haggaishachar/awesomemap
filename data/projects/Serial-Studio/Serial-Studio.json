@@ -4,8 +4,8 @@
   "link": "https://github.com/Serial-Studio/Serial-Studio",
   "name": "Serial-Studio",
   "desc": "Open-source telemetry dashboard. Supports UART, BLE, MQTT, Modbus, CAN Bus and more. ",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "Serial-Studio",
+  "githubDescription": "Open-source telemetry dashboard. Supports UART, BLE, MQTT, Modbus, CAN Bus and more. ",
   "tags": [
     "arduino",
     "canbus",
@@ -25,7 +25,14 @@
     "serial",
     "serial-studio"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 7181,
+      "forks": 1078,
+      "openIssues": 23
+    }
+  ],
   "weight": 7176,
   "image": "https://avatars.githubusercontent.com/u/73061634?v=4"
 }

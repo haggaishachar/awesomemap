@@ -4,14 +4,21 @@
   "link": "https://github.com/graphdeco-inria/gaussian-splatting",
   "name": "gaussian-splatting",
   "desc": "Original reference implementation of \"3D Gaussian Splatting for Real-Time Radiance Field Rendering\"",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "gaussian-splatting",
+  "githubDescription": "Original reference implementation of \"3D Gaussian Splatting for Real-Time Radiance Field Rendering\"",
   "tags": [
     "computer-graphics",
     "computer-vision",
     "radiance-field"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 23704,
+      "forks": 3411,
+      "openIssues": 713
+    }
+  ],
   "weight": 23694,
   "image": "https://avatars.githubusercontent.com/u/107077851?v=4"
 }

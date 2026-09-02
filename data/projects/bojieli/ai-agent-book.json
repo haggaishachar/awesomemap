@@ -4,8 +4,8 @@
   "link": "https://github.com/bojieli/ai-agent-book",
   "name": "ai-agent-book",
   "desc": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "ai-agent-book",
+  "githubDescription": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
   "tags": [
     "agent",
     "agent-memory",
@@ -21,7 +21,14 @@
     "rag",
     "reinforcement-learning"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 44237,
+      "forks": 4875,
+      "openIssues": 14
+    }
+  ],
   "weight": 44055,
   "image": "https://raw.githubusercontent.com/bojieli/ai-agent-book/main/assets/logo.svg"
 }

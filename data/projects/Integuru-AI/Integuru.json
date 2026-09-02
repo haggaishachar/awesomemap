@@ -4,8 +4,8 @@
   "link": "https://github.com/Integuru-AI/Integuru",
   "name": "Integuru",
   "desc": "The first AI agent that builds permissionless integrations through reverse engineering platforms' internal APIs.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "Integuru",
+  "githubDescription": "The first AI agent that builds permissionless integrations through reverse engineering platforms' internal APIs.",
   "tags": [
     "agent",
     "agents",
@@ -24,7 +24,14 @@
     "unofficial-api",
     "unofficial-apis"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 4761,
+      "forks": 382,
+      "openIssues": 24
+    }
+  ],
   "weight": 4761,
   "image": "https://avatars.githubusercontent.com/u/183036973?v=4"
 }

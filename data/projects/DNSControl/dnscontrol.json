@@ -4,15 +4,22 @@
   "link": "https://github.com/DNSControl/dnscontrol",
   "name": "dnscontrol",
   "desc": "Infrastructure as code for DNS!",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "dnscontrol",
+  "githubDescription": "Infrastructure as code for DNS!",
   "tags": [
     "dns",
     "dnscontrol",
     "go",
     "infrastructure-as-code"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 3927,
+      "forks": 530,
+      "openIssues": 41
+    }
+  ],
   "weight": 3926,
   "image": "https://avatars.githubusercontent.com/u/156550848?v=4"
 }

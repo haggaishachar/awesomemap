@@ -4,8 +4,8 @@
   "link": "https://github.com/dagger/dagger",
   "name": "dagger",
   "desc": "Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "dagger",
+  "githubDescription": "Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud",
   "tags": [
     "agents",
     "caching",
@@ -18,7 +18,14 @@
     "graphql",
     "workflows"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 16221,
+      "forks": 913,
+      "openIssues": 156
+    }
+  ],
   "weight": 16221,
   "image": "https://avatars.githubusercontent.com/u/78824383?v=4"
 }

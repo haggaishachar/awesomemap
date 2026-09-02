@@ -4,8 +4,8 @@
   "link": "https://github.com/firecrawl/firecrawl",
   "name": "firecrawl",
   "desc": "The context API to search, scrape, and interact with the web at scale. 🔥",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "firecrawl",
+  "githubDescription": "The context API to search, scrape, and interact with the web at scale. 🔥",
   "tags": [
     "ai",
     "ai-agents",
@@ -27,7 +27,14 @@
     "web-search",
     "webscraping"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 175469,
+      "forks": 9624,
+      "openIssues": 583
+    }
+  ],
   "weight": 175070,
   "image": "https://avatars.githubusercontent.com/u/135057108?v=4"
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/alipay/SoloPi",
   "name": "SoloPi",
   "desc": "SoloPi 自动化测试工具",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "SoloPi",
+  "githubDescription": "SoloPi 自动化测试工具",
   "tags": [
     "adb",
     "android",
@@ -17,7 +17,14 @@
     "test-automation",
     "ui-testing"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 6243,
+      "forks": 1257,
+      "openIssues": 137
+    }
+  ],
   "weight": 6243,
   "image": "https://avatars.githubusercontent.com/u/1299356?v=4"
 }

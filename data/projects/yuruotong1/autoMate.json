@@ -4,8 +4,8 @@
   "link": "https://github.com/yuruotong1/autoMate",
   "name": "autoMate",
   "desc": "Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "autoMate",
+  "githubDescription": "Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves",
   "tags": [
     "agent",
     "ai",
@@ -19,6 +19,13 @@
     "response",
     "rpa"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 3952,
+      "forks": 492,
+      "openIssues": 2
+    }
+  ],
   "weight": 3952
 }

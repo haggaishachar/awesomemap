@@ -4,8 +4,8 @@
   "link": "https://github.com/HKUDS/LightRAG",
   "name": "LightRAG",
   "desc": "[EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "LightRAG",
+  "githubDescription": "[EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation",
   "tags": [
     "docling",
     "genai",
@@ -19,7 +19,14 @@
     "ragas",
     "retrieval-augmented-generation"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 39329,
+      "forks": 5535,
+      "openIssues": 218
+    }
+  ],
   "weight": 39306,
   "image": "https://raw.githubusercontent.com/HKUDS/LightRAG/main/assets/logo.png"
 }

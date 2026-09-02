@@ -4,8 +4,8 @@
   "link": "https://github.com/infoslack/awesome-web-hacking",
   "name": "awesome-web-hacking",
   "desc": "A list of web application security",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "awesome-web-hacking",
+  "githubDescription": "A list of web application security",
   "tags": [
     "appsec",
     "hacking",
@@ -21,6 +21,13 @@
     "web-hacking",
     "web-security"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 7256,
+      "forks": 1357,
+      "openIssues": 9
+    }
+  ],
   "weight": 7254
 }

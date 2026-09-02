@@ -4,14 +4,21 @@
   "link": "https://github.com/octodns/octodns",
   "name": "octodns",
   "desc": "Tools for managing DNS across multiple providers",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "octodns",
+  "githubDescription": "Tools for managing DNS across multiple providers",
   "tags": [
     "dns",
     "infrastructure-as-code",
     "workflow"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 3752,
+      "forks": 441,
+      "openIssues": 5
+    }
+  ],
   "weight": 3752,
   "image": "https://avatars.githubusercontent.com/u/57331641?v=4"
 }

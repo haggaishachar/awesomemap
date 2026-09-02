@@ -4,8 +4,8 @@
   "link": "https://github.com/google/langextract",
   "name": "langextract",
   "desc": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "langextract",
+  "githubDescription": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
   "tags": [
     "gemini",
     "gemini-ai",
@@ -19,7 +19,14 @@
     "python",
     "structured-data"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 38520,
+      "forks": 2705,
+      "openIssues": 135
+    }
+  ],
   "weight": 38518,
   "image": "https://avatars.githubusercontent.com/u/1342004?v=4"
 }

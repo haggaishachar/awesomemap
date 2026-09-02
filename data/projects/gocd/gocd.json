@@ -4,8 +4,8 @@
   "link": "https://github.com/gocd/gocd",
   "name": "gocd",
   "desc": "GoCD - Continuous Delivery server main repository",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "gocd",
+  "githubDescription": "GoCD - Continuous Delivery server main repository",
   "tags": [
     "cd",
     "ci",
@@ -18,7 +18,14 @@
     "gocd",
     "infrastructure-as-code"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 7434,
+      "forks": 981,
+      "openIssues": 82
+    }
+  ],
   "weight": 7434,
   "image": "https://avatars.githubusercontent.com/u/6099846?v=4"
 }

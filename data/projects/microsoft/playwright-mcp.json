@@ -4,13 +4,20 @@
   "link": "https://github.com/microsoft/playwright-mcp",
   "name": "playwright-mcp",
   "desc": "Playwright MCP server",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "playwright-mcp",
+  "githubDescription": "Playwright MCP server",
   "tags": [
     "mcp",
     "playwright"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 36732,
+      "forks": 3085,
+      "openIssues": 2
+    }
+  ],
   "weight": 36695,
   "image": "https://avatars.githubusercontent.com/u/6154722?v=4"
 }

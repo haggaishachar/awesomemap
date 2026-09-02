@@ -4,8 +4,8 @@
   "link": "https://github.com/magnitudedev/browser-agent",
   "name": "browser-agent",
   "desc": "Open-source, vision-first browser agent",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "browser-agent",
+  "githubDescription": "Open-source, vision-first browser agent",
   "tags": [
     "ai",
     "automation",
@@ -18,7 +18,14 @@
     "test",
     "typescript"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 4124,
+      "forks": 236,
+      "openIssues": 34
+    }
+  ],
   "weight": 4124,
   "image": "https://raw.githubusercontent.com/magnitudedev/browser-agent/main/docs/logo.svg"
 }

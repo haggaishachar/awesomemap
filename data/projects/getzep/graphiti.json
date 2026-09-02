@@ -4,15 +4,22 @@
   "link": "https://github.com/getzep/graphiti",
   "name": "graphiti",
   "desc": "Build Real-Time Knowledge Graphs for AI Agents",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "graphiti",
+  "githubDescription": "Build Real-Time Knowledge Graphs for AI Agents",
   "tags": [
     "agents",
     "graph",
     "llms",
     "rag"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 30519,
+      "forks": 3098,
+      "openIssues": 477
+    }
+  ],
   "weight": 30485,
   "image": "https://avatars.githubusercontent.com/u/132832125?v=4"
 }

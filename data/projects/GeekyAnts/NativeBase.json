@@ -4,8 +4,8 @@
   "link": "https://github.com/GeekyAnts/NativeBase",
   "name": "NativeBase",
   "desc": "Mobile-first, accessible components for React Native & Web to build consistent UI across Android, iOS and Web.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "NativeBase",
+  "githubDescription": "Mobile-first, accessible components for React Native & Web to build consistent UI across Android, iOS and Web.",
   "tags": [
     "android",
     "hacktoberfest",
@@ -17,7 +17,14 @@
     "react-native",
     "ui-components"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-02",
+      "stars": 20381,
+      "forks": 2390,
+      "openIssues": 376
+    }
+  ],
   "weight": 20382,
   "image": "https://avatars.githubusercontent.com/u/18482943?v=4"
 }

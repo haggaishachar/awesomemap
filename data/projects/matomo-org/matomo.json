@@ -5,7 +5,7 @@
   "name": "Matomo",
   "desc": "Open source web and app analytics platform, a privacy-friendly alternative to Google Analytics",
   "githubName": "matomo",
-  "githubDescription": "Empowering People Ethically 🚀 — Matomo is hiring! Join us → https://matomo.org/jobs Matomo is the leading open-source alternative to Google Analytics, giving you complete control and built-in privacy. Easily collect, visualise, and analyse data from websites & apps. Star us on GitHub ⭐️  – Pull Requests welcome! ",
+  "githubDescription": "Empowering People Ethically \ud83d\ude80 \u2014 Matomo is hiring! Join us \u2192 https://matomo.org/jobs Matomo is the leading open-source alternative to Google Analytics, giving you complete control and built-in privacy. Easily collect, visualise, and analyse data from websites & apps. Star us on GitHub \u2b50\ufe0f  \u2013 Pull Requests welcome! ",
   "weight": 21806,
   "image": "https://avatars.githubusercontent.com/u/698038?v=4",
   "tags": [
@@ -146,13 +146,6 @@
       "title": "Matomo: Open-source analytics platform",
       "url": "https://news.ycombinator.com/item?id=25650795",
       "points": 183
-    },
-    {
-      "date": "2026-08-16",
-      "type": "release",
-      "title": "5.13.0",
-      "url": "https://github.com/matomo-org/matomo/releases/tag/5.13.0",
-      "points": null
     }
   ]
 }

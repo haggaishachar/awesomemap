@@ -34,174 +34,6 @@
   "weight": 2817,
   "events": [
     {
-      "date": "2016-04-07",
-      "type": "release",
-      "title": "2.0 beta",
-      "url": "https://github.com/gioblu/PJON/releases/tag/2.0-beta",
-      "points": null
-    },
-    {
-      "date": "2016-04-25",
-      "type": "release",
-      "title": "2.0",
-      "url": "https://github.com/gioblu/PJON/releases/tag/2.0",
-      "points": null
-    },
-    {
-      "date": "2016-05-06",
-      "type": "release",
-      "title": "3.0 beta",
-      "url": "https://github.com/gioblu/PJON/releases/tag/3.0-beta",
-      "points": null
-    },
-    {
-      "date": "2016-05-24",
-      "type": "release",
-      "title": "3.0",
-      "url": "https://github.com/gioblu/PJON/releases/tag/3.0",
-      "points": null
-    },
-    {
-      "date": "2016-07-27",
-      "type": "release",
-      "title": "4.0",
-      "url": "https://github.com/gioblu/PJON/releases/tag/4.0",
-      "points": null
-    },
-    {
-      "date": "2016-08-02",
-      "type": "release",
-      "title": "4.1",
-      "url": "https://github.com/gioblu/PJON/releases/tag/4.1",
-      "points": null
-    },
-    {
-      "date": "2016-08-09",
-      "type": "release",
-      "title": "4.2",
-      "url": "https://github.com/gioblu/PJON/releases/tag/4.2",
-      "points": null
-    },
-    {
-      "date": "2016-09-03",
-      "type": "release",
-      "title": "4.3",
-      "url": "https://github.com/gioblu/PJON/releases/tag/4.3",
-      "points": null
-    },
-    {
-      "date": "2016-09-06",
-      "type": "release",
-      "title": "5.0",
-      "url": "https://github.com/gioblu/PJON/releases/tag/5.0",
-      "points": null
-    },
-    {
-      "date": "2016-09-24",
-      "type": "release",
-      "title": "5.1",
-      "url": "https://github.com/gioblu/PJON/releases/tag/5.1",
-      "points": null
-    },
-    {
-      "date": "2016-10-06",
-      "type": "release",
-      "title": "5.2",
-      "url": "https://github.com/gioblu/PJON/releases/tag/5.2",
-      "points": null
-    },
-    {
-      "date": "2016-12-03",
-      "type": "release",
-      "title": "6.1",
-      "url": "https://github.com/gioblu/PJON/releases/tag/6.1",
-      "points": null
-    },
-    {
-      "date": "2016-12-03",
-      "type": "release",
-      "title": "6.0",
-      "url": "https://github.com/gioblu/PJON/releases/tag/6.0",
-      "points": null
-    },
-    {
-      "date": "2016-12-22",
-      "type": "release",
-      "title": "6.2",
-      "url": "https://github.com/gioblu/PJON/releases/tag/6.2",
-      "points": null
-    },
-    {
-      "date": "2017-02-18",
-      "type": "release",
-      "title": "7.0",
-      "url": "https://github.com/gioblu/PJON/releases/tag/7.0",
-      "points": null
-    },
-    {
-      "date": "2017-03-10",
-      "type": "release",
-      "title": "7.1",
-      "url": "https://github.com/gioblu/PJON/releases/tag/7.1",
-      "points": null
-    },
-    {
-      "date": "2017-04-08",
-      "type": "release",
-      "title": "8.0",
-      "url": "https://github.com/gioblu/PJON/releases/tag/8.0",
-      "points": null
-    },
-    {
-      "date": "2017-05-29",
-      "type": "release",
-      "title": "8.1",
-      "url": "https://github.com/gioblu/PJON/releases/tag/8.1",
-      "points": null
-    },
-    {
-      "date": "2017-08-01",
-      "type": "release",
-      "title": "8.2",
-      "url": "https://github.com/gioblu/PJON/releases/tag/8.2",
-      "points": null
-    },
-    {
-      "date": "2017-10-30",
-      "type": "release",
-      "title": "9.0",
-      "url": "https://github.com/gioblu/PJON/releases/tag/9.0",
-      "points": null
-    },
-    {
-      "date": "2017-11-30",
-      "type": "release",
-      "title": "9.1",
-      "url": "https://github.com/gioblu/PJON/releases/tag/9.1",
-      "points": null
-    },
-    {
-      "date": "2017-12-30",
-      "type": "release",
-      "title": "10.0",
-      "url": "https://github.com/gioblu/PJON/releases/tag/10.0",
-      "points": null
-    },
-    {
-      "date": "2018-02-06",
-      "type": "release",
-      "title": "10.1",
-      "url": "https://github.com/gioblu/PJON/releases/tag/10.1",
-      "points": null
-    },
-    {
-      "date": "2018-03-26",
-      "type": "release",
-      "title": "11.0",
-      "url": "https://github.com/gioblu/PJON/releases/tag/11.0",
-      "points": null
-    },
-    {
       "date": "2018-08-05",
       "type": "hn",
       "title": "Show HN: PJON v11.1 an independent, decentralized, open-source protocol",
@@ -209,39 +41,11 @@
       "points": 56
     },
     {
-      "date": "2018-08-05",
-      "type": "release",
-      "title": "11.1",
-      "url": "https://github.com/gioblu/PJON/releases/tag/11.1",
-      "points": null
-    },
-    {
-      "date": "2019-01-22",
-      "type": "release",
-      "title": "11.2",
-      "url": "https://github.com/gioblu/PJON/releases/tag/11.2",
-      "points": null
-    },
-    {
-      "date": "2019-10-25",
-      "type": "release",
-      "title": "12.0 stable",
-      "url": "https://github.com/gioblu/PJON/releases/tag/12.0",
-      "points": null
-    },
-    {
       "date": "2019-11-02",
       "type": "hn",
-      "title": "PJON 12.0 – Networking freedom for hackers, makers and experimenters",
+      "title": "PJON 12.0 \u2013 Networking freedom for hackers, makers and experimenters",
       "url": "https://news.ycombinator.com/item?id=21427013",
       "points": 186
-    },
-    {
-      "date": "2020-03-19",
-      "type": "release",
-      "title": "12.1 stable",
-      "url": "https://github.com/gioblu/PJON/releases/tag/12.1",
-      "points": null
     },
     {
       "date": "2020-06-21",
@@ -249,20 +53,6 @@
       "title": "Show HN: PJDL an open alternative to 1-wire with a range of 2000m",
       "url": "https://news.ycombinator.com/item?id=23591953",
       "points": 337
-    },
-    {
-      "date": "2020-11-10",
-      "type": "release",
-      "title": "13.0 stable",
-      "url": "https://github.com/gioblu/PJON/releases/tag/13.0",
-      "points": null
-    },
-    {
-      "date": "2022-02-10",
-      "type": "release",
-      "title": "13.1 stable",
-      "url": "https://github.com/gioblu/PJON/releases/tag/13.1",
-      "points": null
     }
   ]
 }

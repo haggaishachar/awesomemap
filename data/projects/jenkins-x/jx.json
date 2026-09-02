@@ -137,27 +137,5 @@
       "openIssues": 147
     }
   ],
-  "events": [
-    {
-      "date": "2026-08-02",
-      "type": "release",
-      "title": "3.17.74",
-      "url": "https://github.com/jenkins-x/jx/releases/tag/v3.17.74",
-      "points": null
-    },
-    {
-      "date": "2026-08-31",
-      "type": "release",
-      "title": "3.17.97",
-      "url": "https://github.com/jenkins-x/jx/releases/tag/v3.17.97",
-      "points": null
-    },
-    {
-      "date": "2026-09-02",
-      "type": "release",
-      "title": "3.17.98",
-      "url": "https://github.com/jenkins-x/jx/releases/tag/v3.17.98",
-      "points": null
-    }
-  ]
+  "events": []
 }

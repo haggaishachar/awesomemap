@@ -145,41 +145,6 @@
       "title": "RCE Vulnerability in React and Next.js",
       "url": "https://news.ycombinator.com/item?id=46136026",
       "points": 628
-    },
-    {
-      "date": "2026-08-21",
-      "type": "release",
-      "title": "v16.3.2",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.2",
-      "points": null
-    },
-    {
-      "date": "2026-08-25",
-      "type": "release",
-      "title": "v16.3.3",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.3",
-      "points": null
-    },
-    {
-      "date": "2026-08-25",
-      "type": "release",
-      "title": "v15.5.24",
-      "url": "https://github.com/vercel/next.js/releases/tag/v15.5.24",
-      "points": null
-    },
-    {
-      "date": "2026-08-31",
-      "type": "release",
-      "title": "v16.3.4",
-      "url": "https://github.com/vercel/next.js/releases/tag/v16.3.4",
-      "points": null
-    },
-    {
-      "date": "2026-08-31",
-      "type": "release",
-      "title": "v15.5.25",
-      "url": "https://github.com/vercel/next.js/releases/tag/v15.5.25",
-      "points": null
     }
   ]
 }

@@ -26,20 +26,5 @@
   ],
   "weight": 2622,
   "image": "https://avatars.githubusercontent.com/u/29821507?v=4",
-  "events": [
-    {
-      "date": "2019-05-15",
-      "type": "release",
-      "title": "v5.8.6",
-      "url": "https://github.com/architect/architect/releases/tag/v5.8.6",
-      "points": null
-    },
-    {
-      "date": "2019-05-15",
-      "type": "release",
-      "title": "5.8.6",
-      "url": "https://github.com/architect/architect/releases/tag/5.8.6",
-      "points": null
-    }
-  ]
+  "events": []
 }

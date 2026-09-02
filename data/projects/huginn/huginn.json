@@ -98,20 +98,6 @@
       "title": "Huginn: System for building agents that perform automated tasks online",
       "url": "https://news.ycombinator.com/item?id=30051701",
       "points": 270
-    },
-    {
-      "date": "2022-08-18",
-      "type": "release",
-      "title": "v2022.08.18",
-      "url": "https://github.com/huginn/huginn/releases/tag/v2022.08.18",
-      "points": null
-    },
-    {
-      "date": "2026-08-27",
-      "type": "release",
-      "title": "v2026.08.27",
-      "url": "https://github.com/huginn/huginn/releases/tag/v2026.08.27",
-      "points": null
     }
   ]
 }

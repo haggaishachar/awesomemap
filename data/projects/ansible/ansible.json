@@ -137,7 +137,7 @@
     {
       "date": "2018-07-18",
       "type": "hn",
-      "title": "Show HN: Ansible Kernel – Run Ansible Tasks and Plays with Jupyter Notebook",
+      "title": "Show HN: Ansible Kernel \u2013 Run Ansible Tasks and Plays with Jupyter Notebook",
       "url": "https://news.ycombinator.com/item?id=17559213",
       "points": 123
     },
@@ -147,104 +147,6 @@
       "title": "Ansible 2.13",
       "url": "https://news.ycombinator.com/item?id=31398516",
       "points": 91
-    },
-    {
-      "date": "2026-05-18",
-      "type": "release",
-      "title": "v2.21.0",
-      "url": "https://github.com/ansible/ansible/releases/tag/v2.21.0",
-      "points": null
-    },
-    {
-      "date": "2026-05-18",
-      "type": "release",
-      "title": "v2.20.6",
-      "url": "https://github.com/ansible/ansible/releases/tag/v2.20.6",
-      "points": null
-    },
-    {
-      "date": "2026-05-18",
-      "type": "release",
-      "title": "v2.19.10",
-      "url": "https://github.com/ansible/ansible/releases/tag/v2.19.10",
-      "points": null
-    },
-    {
-      "date": "2026-05-18",
-      "type": "release",
-      "title": "v2.18.17",
-      "url": "https://github.com/ansible/ansible/releases/tag/v2.18.17",
-      "points": null
-    },
-    {
-      "date": "2026-06-18",
-      "type": "release",
-      "title": "v2.21.1",
-      "url": "https://github.com/ansible/ansible/releases/tag/v2.21.1",
-      "points": null
-    },
-    {
-      "date": "2026-06-18",
-      "type": "release",
-      "title": "v2.20.7",
-      "url": "https://github.com/ansible/ansible/releases/tag/v2.20.7",
-      "points": null
-    },
-    {
-      "date": "2026-06-18",
-      "type": "release",
-      "title": "v2.19.11",
-      "url": "https://github.com/ansible/ansible/releases/tag/v2.19.11",
-      "points": null
-    },
-    {
-      "date": "2026-06-18",
-      "type": "release",
-      "title": "v2.18.18",
-      "url": "https://github.com/ansible/ansible/releases/tag/v2.18.18",
-      "points": null
-    },
-    {
-      "date": "2026-06-18",
-      "type": "release",
-      "title": "v2.16.19",
-      "url": "https://github.com/ansible/ansible/releases/tag/v2.16.19",
-      "points": null
-    },
-    {
-      "date": "2026-07-13",
-      "type": "release",
-      "title": "v2.21.2",
-      "url": "https://github.com/ansible/ansible/releases/tag/v2.21.2",
-      "points": null
-    },
-    {
-      "date": "2026-08-10",
-      "type": "release",
-      "title": "v2.21.3",
-      "url": "https://github.com/ansible/ansible/releases/tag/v2.21.3",
-      "points": null
-    },
-    {
-      "date": "2026-08-10",
-      "type": "release",
-      "title": "v2.20.8",
-      "url": "https://github.com/ansible/ansible/releases/tag/v2.20.8",
-      "points": null
-    },
-    {
-      "date": "2026-08-10",
-      "type": "release",
-      "title": "v2.19.12",
-      "url": "https://github.com/ansible/ansible/releases/tag/v2.19.12",
-      "points": null
-    },
-    {
-      "date": "2026-08-10",
-      "type": "release",
-      "title": "v2.18.19",
-      "url": "https://github.com/ansible/ansible/releases/tag/v2.18.19",
-      "points": null
     }
   ]
 }

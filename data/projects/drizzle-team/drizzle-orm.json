@@ -114,48 +114,5 @@
       "openIssues": 2002
     }
   ],
-  "events": [
-    {
-      "date": "2025-12-04",
-      "type": "release",
-      "title": "0.45.0",
-      "url": "https://github.com/drizzle-team/drizzle-orm/releases/tag/0.45.0",
-      "points": null
-    },
-    {
-      "date": "2025-12-04",
-      "type": "release",
-      "title": "drizzle-kit@0.31.8",
-      "url": "https://github.com/drizzle-team/drizzle-orm/releases/tag/drizzle-kit%400.31.8",
-      "points": null
-    },
-    {
-      "date": "2025-12-10",
-      "type": "release",
-      "title": "0.45.1",
-      "url": "https://github.com/drizzle-team/drizzle-orm/releases/tag/0.45.1",
-      "points": null
-    },
-    {
-      "date": "2026-02-09",
-      "type": "release",
-      "title": "drizzle-kit@0.31.9",
-      "url": "https://github.com/drizzle-team/drizzle-orm/releases/tag/drizzle-kit%400.31.9",
-      "points": null
-    },
-    {
-      "date": "2026-03-17",
-      "type": "release",
-      "title": "drizzle-kit@0.31.10",
-      "url": "https://github.com/drizzle-team/drizzle-orm/releases/tag/drizzle-kit%400.31.10",
-      "points": null
-    },
-    {
-      "date": "2026-03-27",
-      "type": "release",
-      "title": "0.45.2",
-      "url": "https://github.com/drizzle-team/drizzle-orm/releases/tag/0.45.2",
-      "points": null
-    }
-  ]
+  "events": []
 }

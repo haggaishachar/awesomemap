@@ -3,9 +3,9 @@
   "id": "mukul975/Anthropic-Cybersecurity-Skills",
   "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
   "name": "Anthropic-Cybersecurity-Skills",
-  "desc": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+  "desc": "817 structured cybersecurity skills for AI agents \u00b7 Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 29 security domains \u00b7 Apache 2.0",
   "githubName": "Anthropic-Cybersecurity-Skills",
-  "githubDescription": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+  "githubDescription": "817 structured cybersecurity skills for AI agents \u00b7 Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) \u00b7 agentskills.io standard \u00b7 Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms \u00b7 29 security domains \u00b7 Apache 2.0",
   "tags": [
     "ai-agents",
     "claude-code",
@@ -37,34 +37,5 @@
     }
   ],
   "weight": 31886,
-  "events": [
-    {
-      "date": "2026-03-11",
-      "type": "release",
-      "title": "Cybersecurity Agent Skills v1.0.0",
-      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/releases/tag/v1.0.0",
-      "points": null
-    },
-    {
-      "date": "2026-03-21",
-      "type": "release",
-      "title": "v1.1.0 — 753 Cybersecurity Skills",
-      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/releases/tag/v1.1.0",
-      "points": null
-    },
-    {
-      "date": "2026-04-06",
-      "type": "release",
-      "title": "Cybersecurity Agent Skills v1.2.0 — Five Framework Coverage",
-      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/releases/tag/v1.2.0",
-      "points": null
-    },
-    {
-      "date": "2026-06-22",
-      "type": "release",
-      "title": "v1.3.0",
-      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/releases/tag/v1.3.0",
-      "points": null
-    }
-  ]
+  "events": []
 }

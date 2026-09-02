@@ -3,9 +3,9 @@
   "id": "666ghj/BettaFish",
   "link": "https://github.com/666ghj/BettaFish",
   "name": "BettaFish",
-  "desc": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
+  "desc": "\u5fae\u8206\uff1a\u4eba\u4eba\u53ef\u7528\u7684\u591aAgent\u8206\u60c5\u5206\u6790\u52a9\u624b\uff0c\u6253\u7834\u4fe1\u606f\u8327\u623f\uff0c\u8fd8\u539f\u8206\u60c5\u539f\u8c8c\uff0c\u9884\u6d4b\u672a\u6765\u8d70\u5411\uff0c\u8f85\u52a9\u51b3\u7b56\uff01\u4ece0\u5b9e\u73b0\uff0c\u4e0d\u4f9d\u8d56\u4efb\u4f55\u6846\u67b6\u3002",
   "githubName": "BettaFish",
-  "githubDescription": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
+  "githubDescription": "\u5fae\u8206\uff1a\u4eba\u4eba\u53ef\u7528\u7684\u591aAgent\u8206\u60c5\u5206\u6790\u52a9\u624b\uff0c\u6253\u7834\u4fe1\u606f\u8327\u623f\uff0c\u8fd8\u539f\u8206\u60c5\u539f\u8c8c\uff0c\u9884\u6d4b\u672a\u6765\u8d70\u5411\uff0c\u8f85\u52a9\u51b3\u7b56\uff01\u4ece0\u5b9e\u73b0\uff0c\u4e0d\u4f9d\u8d56\u4efb\u4f55\u6846\u67b6\u3002",
   "tags": [
     "agent-framework",
     "data-analysis",
@@ -27,48 +27,5 @@
     }
   ],
   "weight": 42128,
-  "events": [
-    {
-      "date": "2025-09-01",
-      "type": "release",
-      "title": "微舆 v1.0.0",
-      "url": "https://github.com/666ghj/BettaFish/releases/tag/v1.0.0",
-      "points": null
-    },
-    {
-      "date": "2025-11-04",
-      "type": "release",
-      "title": "微舆 v1.1.0",
-      "url": "https://github.com/666ghj/BettaFish/releases/tag/v1.1.0",
-      "points": null
-    },
-    {
-      "date": "2025-11-08",
-      "type": "release",
-      "title": "微舆 v1.2.0",
-      "url": "https://github.com/666ghj/BettaFish/releases/tag/v1.2.0",
-      "points": null
-    },
-    {
-      "date": "2025-11-28",
-      "type": "release",
-      "title": "微舆 v2.0.0",
-      "url": "https://github.com/666ghj/BettaFish/releases/tag/v2.0.0",
-      "points": null
-    },
-    {
-      "date": "2025-12-09",
-      "type": "release",
-      "title": "微舆v2.1.0",
-      "url": "https://github.com/666ghj/BettaFish/releases/tag/v2.1.0",
-      "points": null
-    },
-    {
-      "date": "2025-12-23",
-      "type": "release",
-      "title": "微舆v3.0.0",
-      "url": "https://github.com/666ghj/BettaFish/releases/tag/v3.0.0",
-      "points": null
-    }
-  ]
+  "events": []
 }

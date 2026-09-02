@@ -33,27 +33,5 @@
   ],
   "weight": 636,
   "image": "https://avatars.githubusercontent.com/u/291779426?v=4",
-  "events": [
-    {
-      "date": "2026-06-29",
-      "type": "release",
-      "title": "test-video",
-      "url": "https://github.com/cosmo-wander-ai/cosmo-edge/releases/tag/v1.0-videos",
-      "points": null
-    },
-    {
-      "date": "2026-07-03",
-      "type": "release",
-      "title": "v1.0.0 — First Stable Release",
-      "url": "https://github.com/cosmo-wander-ai/cosmo-edge/releases/tag/v1.0.0",
-      "points": null
-    },
-    {
-      "date": "2026-08-24",
-      "type": "release",
-      "title": "CosmoEdge 1.1.0",
-      "url": "https://github.com/cosmo-wander-ai/cosmo-edge/releases/tag/v1.1.0",
-      "points": null
-    }
-  ]
+  "events": []
 }

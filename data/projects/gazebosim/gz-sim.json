@@ -90,55 +90,5 @@
       "openIssues": 616
     }
   ],
-  "events": [
-    {
-      "date": "2020-10-01",
-      "type": "release",
-      "title": "Ignition Gazebo 4: Dome",
-      "url": "https://github.com/gazebosim/gz-sim/releases/tag/ignition-gazebo4_4.0.0",
-      "points": null
-    },
-    {
-      "date": "2021-04-01",
-      "type": "release",
-      "title": "Ignition Gazebo 5: Edifice",
-      "url": "https://github.com/gazebosim/gz-sim/releases/tag/ignition-gazebo5_5.0.0",
-      "points": null
-    },
-    {
-      "date": "2021-10-01",
-      "type": "release",
-      "title": "Ignition Gazebo 6: Fortress",
-      "url": "https://github.com/gazebosim/gz-sim/releases/tag/ignition-gazebo6_6.0.0",
-      "points": null
-    },
-    {
-      "date": "2022-10-04",
-      "type": "release",
-      "title": "Gazebo Sim 7: Garden",
-      "url": "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim7_7.0.0",
-      "points": null
-    },
-    {
-      "date": "2023-10-02",
-      "type": "release",
-      "title": "Gazebo Sim 8: Harmonic",
-      "url": "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim8_8.0.0",
-      "points": null
-    },
-    {
-      "date": "2025-01-16",
-      "type": "release",
-      "title": "Gazebo Sim 9: Ionic",
-      "url": "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim9_9.0.0",
-      "points": null
-    },
-    {
-      "date": "2025-10-14",
-      "type": "release",
-      "title": "Gazebo Sim 10: Jetty",
-      "url": "https://github.com/gazebosim/gz-sim/releases/tag/gz-sim10_10.0.0",
-      "points": null
-    }
-  ]
+  "events": []
 }

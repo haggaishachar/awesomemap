@@ -3,9 +3,9 @@
   "id": "lissy93/web-check",
   "link": "https://github.com/lissy93/web-check",
   "name": "web-check",
-  "desc": "🕵️‍♂️ All-in-one OSINT tool for analysing any website",
+  "desc": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f All-in-one OSINT tool for analysing any website",
   "githubName": "web-check",
-  "githubDescription": "🕵️‍♂️ All-in-one OSINT tool for analysing any website",
+  "githubDescription": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f All-in-one OSINT tool for analysing any website",
   "weight": 34602,
   "image": null,
   "tags": [
@@ -59,32 +59,11 @@
   ],
   "events": [
     {
-      "date": "2024-05-20",
-      "type": "release",
-      "title": "Web Check V1",
-      "url": "https://github.com/lissy93/web-check/releases/tag/1.0.0",
-      "points": null
-    },
-    {
       "date": "2024-07-27",
       "type": "hn",
       "title": "Web-check: All-in-one OSINT tool for analysing any website",
       "url": "https://news.ycombinator.com/item?id=41088429",
       "points": 80
-    },
-    {
-      "date": "2026-05-07",
-      "type": "release",
-      "title": "Web-Check v2.1.0",
-      "url": "https://github.com/lissy93/web-check/releases/tag/2.1.0",
-      "points": null
-    },
-    {
-      "date": "2026-07-28",
-      "type": "release",
-      "title": "Web-Check v2.2.0",
-      "url": "https://github.com/lissy93/web-check/releases/tag/2.2.0",
-      "points": null
     }
   ]
 }

@@ -36,55 +36,5 @@
   ],
   "weight": 22218,
   "image": "https://avatars.githubusercontent.com/u/39194251?v=4",
-  "events": [
-    {
-      "date": "2025-06-25",
-      "type": "release",
-      "title": "PentAGI v0.3.0 - First Public Beta Release",
-      "url": "https://github.com/vxcontrol/pentagi/releases/tag/v0.3.0",
-      "points": null
-    },
-    {
-      "date": "2025-12-31",
-      "type": "release",
-      "title": "PentAGI v1.0.0 - Production Release",
-      "url": "https://github.com/vxcontrol/pentagi/releases/tag/v1.0.0",
-      "points": null
-    },
-    {
-      "date": "2026-01-06",
-      "type": "release",
-      "title": "1.0.1",
-      "url": "https://github.com/vxcontrol/pentagi/releases/tag/v1.0.1",
-      "points": null
-    },
-    {
-      "date": "2026-01-17",
-      "type": "release",
-      "title": "1.1.0",
-      "url": "https://github.com/vxcontrol/pentagi/releases/tag/v1.1.0",
-      "points": null
-    },
-    {
-      "date": "2026-02-25",
-      "type": "release",
-      "title": "1.2.0",
-      "url": "https://github.com/vxcontrol/pentagi/releases/tag/v1.2.0",
-      "points": null
-    },
-    {
-      "date": "2026-04-11",
-      "type": "release",
-      "title": "2.0.0",
-      "url": "https://github.com/vxcontrol/pentagi/releases/tag/v2.0.0",
-      "points": null
-    },
-    {
-      "date": "2026-05-29",
-      "type": "release",
-      "title": "2.1.0",
-      "url": "https://github.com/vxcontrol/pentagi/releases/tag/v2.1.0",
-      "points": null
-    }
-  ]
+  "events": []
 }

@@ -123,27 +123,5 @@
       "openIssues": 1
     }
   ],
-  "events": [
-    {
-      "date": "2023-12-03",
-      "type": "release",
-      "title": "Nikto 2.5.0",
-      "url": "https://github.com/sullo/nikto/releases/tag/2.5.0",
-      "points": null
-    },
-    {
-      "date": "2026-02-11",
-      "type": "release",
-      "title": "Nikto 2.6.0",
-      "url": "https://github.com/sullo/nikto/releases/tag/2.6.0",
-      "points": null
-    },
-    {
-      "date": "2026-07-31",
-      "type": "release",
-      "title": "Nikto 2.6.1",
-      "url": "https://github.com/sullo/nikto/releases/tag/2.6.1",
-      "points": null
-    }
-  ]
+  "events": []
 }

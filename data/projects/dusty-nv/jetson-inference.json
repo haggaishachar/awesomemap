@@ -37,13 +37,5 @@
     }
   ],
   "weight": 8977,
-  "events": [
-    {
-      "date": "2019-06-18",
-      "type": "release",
-      "title": "Model Download Mirror",
-      "url": "https://github.com/dusty-nv/jetson-inference/releases/tag/model-mirror-190618",
-      "points": null
-    }
-  ]
+  "events": []
 }

@@ -139,55 +139,5 @@
       "openIssues": 165
     }
   ],
-  "events": [
-    {
-      "date": "2023-10-01",
-      "type": "release",
-      "title": "v1.0.0",
-      "url": "https://github.com/Pennyw0rth/NetExec/releases/tag/v1.0.0",
-      "points": null
-    },
-    {
-      "date": "2023-11-12",
-      "type": "release",
-      "title": "v1.1.0",
-      "url": "https://github.com/Pennyw0rth/NetExec/releases/tag/v1.1.0",
-      "points": null
-    },
-    {
-      "date": "2024-05-30",
-      "type": "release",
-      "title": "v1.2.0",
-      "url": "https://github.com/Pennyw0rth/NetExec/releases/tag/v1.2.0",
-      "points": null
-    },
-    {
-      "date": "2024-10-13",
-      "type": "release",
-      "title": "v1.3.0",
-      "url": "https://github.com/Pennyw0rth/NetExec/releases/tag/v1.3.0",
-      "points": null
-    },
-    {
-      "date": "2025-04-13",
-      "type": "release",
-      "title": "v1.4.0",
-      "url": "https://github.com/Pennyw0rth/NetExec/releases/tag/v1.4.0",
-      "points": null
-    },
-    {
-      "date": "2025-12-24",
-      "type": "release",
-      "title": "v1.5.0",
-      "url": "https://github.com/Pennyw0rth/NetExec/releases/tag/v1.5.0",
-      "points": null
-    },
-    {
-      "date": "2026-02-23",
-      "type": "release",
-      "title": "v1.5.1",
-      "url": "https://github.com/Pennyw0rth/NetExec/releases/tag/v1.5.1",
-      "points": null
-    }
-  ]
+  "events": []
 }

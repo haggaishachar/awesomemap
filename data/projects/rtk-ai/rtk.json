@@ -31,20 +31,5 @@
   ],
   "weight": 78143,
   "image": "https://avatars.githubusercontent.com/u/258253854?v=4",
-  "events": [
-    {
-      "date": "2026-08-26",
-      "type": "release",
-      "title": "v0.46.0",
-      "url": "https://github.com/rtk-ai/rtk/releases/tag/v0.46.0",
-      "points": null
-    },
-    {
-      "date": "2026-09-02",
-      "type": "release",
-      "title": "v0.47.0",
-      "url": "https://github.com/rtk-ai/rtk/releases/tag/v0.47.0",
-      "points": null
-    }
-  ]
+  "events": []
 }

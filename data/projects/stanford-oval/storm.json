@@ -34,48 +34,6 @@
       "title": "Storm: LLM system that researches a topic and generates full-length wiki article",
       "url": "https://news.ycombinator.com/item?id=40004887",
       "points": 123
-    },
-    {
-      "date": "2024-04-23",
-      "type": "release",
-      "title": "v0.1.0 Refactored codebase",
-      "url": "https://github.com/stanford-oval/storm/releases/tag/v0.1.0",
-      "points": null
-    },
-    {
-      "date": "2024-07-08",
-      "type": "release",
-      "title": "v0.2.0 New UI release; support customized documents retrieval",
-      "url": "https://github.com/stanford-oval/storm/releases/tag/v0.2.0",
-      "points": null
-    },
-    {
-      "date": "2024-07-18",
-      "type": "release",
-      "title": "v0.2.3 Python Package Release",
-      "url": "https://github.com/stanford-oval/storm/releases/tag/v0.2.3",
-      "points": null
-    },
-    {
-      "date": "2024-08-09",
-      "type": "release",
-      "title": "v0.2.4",
-      "url": "https://github.com/stanford-oval/storm/releases/tag/v0.2.4",
-      "points": null
-    },
-    {
-      "date": "2024-09-25",
-      "type": "release",
-      "title": "knowledge-storm v1.0.0 & EMNLP 2024 Paper Accepted!",
-      "url": "https://github.com/stanford-oval/storm/releases/tag/v1.0.0",
-      "points": null
-    },
-    {
-      "date": "2025-01-23",
-      "type": "release",
-      "title": "v1.1.0 Compatible with LiteLLM API",
-      "url": "https://github.com/stanford-oval/storm/releases/tag/v1.1.0",
-      "points": null
     }
   ]
 }

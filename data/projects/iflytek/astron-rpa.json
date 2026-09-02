@@ -34,27 +34,5 @@
   ],
   "weight": 5516,
   "image": "https://avatars.githubusercontent.com/u/26786495?v=4",
-  "events": [
-    {
-      "date": "2025-10-17",
-      "type": "release",
-      "title": "🎉 AstronRPA v1.0.0 - Enterprise-Grade Open Source RPA Platform",
-      "url": "https://github.com/iflytek/astron-rpa/releases/tag/v1.0.0",
-      "points": null
-    },
-    {
-      "date": "2026-01-29",
-      "type": "release",
-      "title": "Astron RPA v1.1.5 (Release)",
-      "url": "https://github.com/iflytek/astron-rpa/releases/tag/v1.1.5",
-      "points": null
-    },
-    {
-      "date": "2026-02-25",
-      "type": "release",
-      "title": "Astron RPA v1.1.6 (Release)",
-      "url": "https://github.com/iflytek/astron-rpa/releases/tag/v1.1.6",
-      "points": null
-    }
-  ]
+  "events": []
 }

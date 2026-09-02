@@ -1258,7 +1258,7 @@ a.momentum-row-name:hover {
   letter-spacing: 0.06em;
 }
 
-/* Chronological HN/release timeline — the "why did this grow" companion
+/* Chronological HN-mentions timeline — the "why did this grow" companion
    to the star-history sparkline above it (renderProjectEventsTimeline,
    scripts/render-page.mjs). */
 .project-events {

@@ -41,20 +41,6 @@
       "title": "Sherlock: Find usernames across social networks",
       "url": "https://news.ycombinator.com/item?id=21671843",
       "points": 172
-    },
-    {
-      "date": "2024-07-08",
-      "type": "release",
-      "title": "Sherlock v0.15.0",
-      "url": "https://github.com/sherlock-project/sherlock/releases/tag/v0.15.0",
-      "points": null
-    },
-    {
-      "date": "2025-09-16",
-      "type": "release",
-      "title": "Sherlock v0.16.0",
-      "url": "https://github.com/sherlock-project/sherlock/releases/tag/v0.16.0",
-      "points": null
     }
   ]
 }

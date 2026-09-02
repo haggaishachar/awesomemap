@@ -27,128 +27,9 @@
     {
       "date": "2014-11-28",
       "type": "hn",
-      "title": "Phoenix – Elixir Web Framework",
+      "title": "Phoenix \u2013 Elixir Web Framework",
       "url": "https://news.ycombinator.com/item?id=8671618",
       "points": 273
-    },
-    {
-      "date": "2015-06-29",
-      "type": "release",
-      "title": "v0.14.0",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v0.14.0",
-      "points": null
-    },
-    {
-      "date": "2015-07-27",
-      "type": "release",
-      "title": "v0.15.0",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v0.15.0",
-      "points": null
-    },
-    {
-      "date": "2015-08-05",
-      "type": "release",
-      "title": "v0.16.0",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v0.16.0",
-      "points": null
-    },
-    {
-      "date": "2015-08-06",
-      "type": "release",
-      "title": "v0.16.1",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v0.16.1",
-      "points": null
-    },
-    {
-      "date": "2015-08-19",
-      "type": "release",
-      "title": "v0.17.0",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v0.17.0",
-      "points": null
-    },
-    {
-      "date": "2015-08-26",
-      "type": "release",
-      "title": "v0.17.1",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v0.17.1",
-      "points": null
-    },
-    {
-      "date": "2015-08-28",
-      "type": "release",
-      "title": "v1.0.0",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v1.0.0",
-      "points": null
-    },
-    {
-      "date": "2015-09-03",
-      "type": "release",
-      "title": "v1.0.1",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v1.0.1",
-      "points": null
-    },
-    {
-      "date": "2015-09-06",
-      "type": "release",
-      "title": "v1.0.2",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v1.0.2",
-      "points": null
-    },
-    {
-      "date": "2015-09-28",
-      "type": "release",
-      "title": "v1.0.3",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v1.0.3",
-      "points": null
-    },
-    {
-      "date": "2015-11-30",
-      "type": "release",
-      "title": "v1.0.4",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v1.0.4",
-      "points": null
-    },
-    {
-      "date": "2015-12-16",
-      "type": "release",
-      "title": "v1.1.0",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v1.1.0",
-      "points": null
-    },
-    {
-      "date": "2015-12-26",
-      "type": "release",
-      "title": "v1.1.1",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v1.1.1",
-      "points": null
-    },
-    {
-      "date": "2016-01-08",
-      "type": "release",
-      "title": "v1.1.2",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v1.1.2",
-      "points": null
-    },
-    {
-      "date": "2016-01-20",
-      "type": "release",
-      "title": "v1.1.3",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v1.1.3",
-      "points": null
-    },
-    {
-      "date": "2016-05-01",
-      "type": "release",
-      "title": "v1.2.0-rc.0",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v1.2.0-rc.0",
-      "points": null
-    },
-    {
-      "date": "2016-06-03",
-      "type": "release",
-      "title": "v1.2.0-rc.1",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v1.2.0-rc.1",
-      "points": null
     },
     {
       "date": "2016-06-23",
@@ -156,20 +37,6 @@
       "title": "Phoenix 1.2",
       "url": "https://news.ycombinator.com/item?id=11962139",
       "points": 404
-    },
-    {
-      "date": "2016-06-23",
-      "type": "release",
-      "title": "v1.2.0",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v1.2.0",
-      "points": null
-    },
-    {
-      "date": "2016-08-11",
-      "type": "release",
-      "title": "v1.2.1",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v1.2.1",
-      "points": null
     },
     {
       "date": "2019-03-15",
@@ -184,41 +51,6 @@
       "title": "Phoenix LiveDashboard",
       "url": "https://news.ycombinator.com/item?id=22892401",
       "points": 419
-    },
-    {
-      "date": "2020-06-26",
-      "type": "release",
-      "title": "v1.5.3",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v1.5.3",
-      "points": null
-    },
-    {
-      "date": "2026-08-10",
-      "type": "release",
-      "title": "v1.8.10",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v1.8.10",
-      "points": null
-    },
-    {
-      "date": "2026-08-12",
-      "type": "release",
-      "title": "v1.8.11",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v1.8.11",
-      "points": null
-    },
-    {
-      "date": "2026-08-20",
-      "type": "release",
-      "title": "v1.8.12",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v1.8.12",
-      "points": null
-    },
-    {
-      "date": "2026-08-25",
-      "type": "release",
-      "title": "v1.8.13",
-      "url": "https://github.com/phoenixframework/phoenix/releases/tag/v1.8.13",
-      "points": null
     }
   ]
 }

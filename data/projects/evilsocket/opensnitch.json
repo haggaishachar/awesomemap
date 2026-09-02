@@ -27,7 +27,7 @@
     {
       "date": "2017-05-02",
       "type": "hn",
-      "title": "OpenSnitch – A Linux clone of the Little Snitch application firewall",
+      "title": "OpenSnitch \u2013 A Linux clone of the Little Snitch application firewall",
       "url": "https://news.ycombinator.com/item?id=14245270",
       "points": 319
     },
@@ -39,48 +39,6 @@
       "points": 589
     },
     {
-      "date": "2021-09-10",
-      "type": "release",
-      "title": "v1.4.0",
-      "url": "https://github.com/evilsocket/opensnitch/releases/tag/v1.4.0",
-      "points": null
-    },
-    {
-      "date": "2021-09-30",
-      "type": "release",
-      "title": "v1.4.1",
-      "url": "https://github.com/evilsocket/opensnitch/releases/tag/v1.4.1",
-      "points": null
-    },
-    {
-      "date": "2021-11-04",
-      "type": "release",
-      "title": "v1.4.2",
-      "url": "https://github.com/evilsocket/opensnitch/releases/tag/v1.4.2",
-      "points": null
-    },
-    {
-      "date": "2021-11-24",
-      "type": "release",
-      "title": "v1.4.3",
-      "url": "https://github.com/evilsocket/opensnitch/releases/tag/v1.4.3",
-      "points": null
-    },
-    {
-      "date": "2022-02-03",
-      "type": "release",
-      "title": "v1.5.0",
-      "url": "https://github.com/evilsocket/opensnitch/releases/tag/v1.5.0",
-      "points": null
-    },
-    {
-      "date": "2022-04-18",
-      "type": "release",
-      "title": "v1.5.1",
-      "url": "https://github.com/evilsocket/opensnitch/releases/tag/v1.5.1",
-      "points": null
-    },
-    {
       "date": "2022-06-25",
       "type": "hn",
       "title": "OpenSnitch is a GNU/Linux port of the Little Snitch application firewall",
@@ -88,116 +46,11 @@
       "points": 208
     },
     {
-      "date": "2022-07-28",
-      "type": "release",
-      "title": "v1.5.2",
-      "url": "https://github.com/evilsocket/opensnitch/releases/tag/v1.5.2",
-      "points": null
-    },
-    {
-      "date": "2023-06-21",
-      "type": "release",
-      "title": "v1.6.0",
-      "url": "https://github.com/evilsocket/opensnitch/releases/tag/v1.6.0",
-      "points": null
-    },
-    {
-      "date": "2023-07-28",
-      "type": "release",
-      "title": "v1.6.1",
-      "url": "https://github.com/evilsocket/opensnitch/releases/tag/v1.6.1",
-      "points": null
-    },
-    {
-      "date": "2023-08-10",
-      "type": "release",
-      "title": "v1.6.2",
-      "url": "https://github.com/evilsocket/opensnitch/releases/tag/v1.6.2",
-      "points": null
-    },
-    {
-      "date": "2023-08-17",
-      "type": "release",
-      "title": "v1.6.3",
-      "url": "https://github.com/evilsocket/opensnitch/releases/tag/v1.6.3",
-      "points": null
-    },
-    {
-      "date": "2023-11-08",
-      "type": "release",
-      "title": "v1.6.4",
-      "url": "https://github.com/evilsocket/opensnitch/releases/tag/v1.6.4",
-      "points": null
-    },
-    {
-      "date": "2024-02-09",
-      "type": "release",
-      "title": "v1.6.5.1",
-      "url": "https://github.com/evilsocket/opensnitch/releases/tag/v1.6.5.1",
-      "points": null
-    },
-    {
-      "date": "2024-02-09",
-      "type": "release",
-      "title": "v1.6.5",
-      "url": "https://github.com/evilsocket/opensnitch/releases/tag/v1.6.5",
-      "points": null
-    },
-    {
-      "date": "2024-07-02",
-      "type": "release",
-      "title": "v1.6.6",
-      "url": "https://github.com/evilsocket/opensnitch/releases/tag/v1.6.6",
-      "points": null
-    },
-    {
       "date": "2024-08-10",
       "type": "hn",
       "title": "OpenSnitch is a GNU/Linux interactive application firewall",
       "url": "https://news.ycombinator.com/item?id=41209688",
       "points": 408
-    },
-    {
-      "date": "2024-12-29",
-      "type": "release",
-      "title": "v1.6.7",
-      "url": "https://github.com/evilsocket/opensnitch/releases/tag/v1.6.7",
-      "points": null
-    },
-    {
-      "date": "2025-02-24",
-      "type": "release",
-      "title": "v1.6.8",
-      "url": "https://github.com/evilsocket/opensnitch/releases/tag/v1.6.8",
-      "points": null
-    },
-    {
-      "date": "2025-05-30",
-      "type": "release",
-      "title": "v1.7.0.0",
-      "url": "https://github.com/evilsocket/opensnitch/releases/tag/v1.7.0.0",
-      "points": null
-    },
-    {
-      "date": "2025-07-02",
-      "type": "release",
-      "title": "v1.7.1",
-      "url": "https://github.com/evilsocket/opensnitch/releases/tag/v1.7.1",
-      "points": null
-    },
-    {
-      "date": "2025-08-12",
-      "type": "release",
-      "title": "v1.7.2",
-      "url": "https://github.com/evilsocket/opensnitch/releases/tag/v1.7.2",
-      "points": null
-    },
-    {
-      "date": "2025-12-15",
-      "type": "release",
-      "title": "v1.8.0",
-      "url": "https://github.com/evilsocket/opensnitch/releases/tag/v1.8.0",
-      "points": null
     }
   ]
 }

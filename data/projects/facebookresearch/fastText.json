@@ -127,7 +127,7 @@
     {
       "date": "2016-08-04",
       "type": "hn",
-      "title": "FastText – Library for fast text representation and classification",
+      "title": "FastText \u2013 Library for fast text representation and classification",
       "url": "https://news.ycombinator.com/item?id=12226988",
       "points": 220
     },
@@ -137,34 +137,6 @@
       "title": "Facebook releases 300-dimensional pretrained Fasttext vectors for 90 languages",
       "url": "https://news.ycombinator.com/item?id=13771292",
       "points": 364
-    },
-    {
-      "date": "2017-12-02",
-      "type": "release",
-      "title": "v0.1.0",
-      "url": "https://github.com/facebookresearch/fastText/releases/tag/v0.1.0",
-      "points": null
-    },
-    {
-      "date": "2018-12-19",
-      "type": "release",
-      "title": "0.2.0",
-      "url": "https://github.com/facebookresearch/fastText/releases/tag/v0.2.0",
-      "points": null
-    },
-    {
-      "date": "2019-07-04",
-      "type": "release",
-      "title": "v0.9.1",
-      "url": "https://github.com/facebookresearch/fastText/releases/tag/v0.9.1",
-      "points": null
-    },
-    {
-      "date": "2020-04-28",
-      "type": "release",
-      "title": "v0.9.2",
-      "url": "https://github.com/facebookresearch/fastText/releases/tag/v0.9.2",
-      "points": null
     }
   ]
 }

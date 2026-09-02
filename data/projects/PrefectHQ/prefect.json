@@ -90,44 +90,9 @@
     {
       "date": "2019-03-28",
       "type": "hn",
-      "title": "Show HN: Prefect – A workflow engine designed for modern data engineering",
+      "title": "Show HN: Prefect \u2013 A workflow engine designed for modern data engineering",
       "url": "https://news.ycombinator.com/item?id=19508278",
       "points": 59
-    },
-    {
-      "date": "2026-07-30",
-      "type": "release",
-      "title": "3.8.1 - To relinquish, perchance to retry",
-      "url": "https://github.com/PrefectHQ/prefect/releases/tag/3.8.1",
-      "points": null
-    },
-    {
-      "date": "2026-08-07",
-      "type": "release",
-      "title": "3.8.2 - Array we there yet?",
-      "url": "https://github.com/PrefectHQ/prefect/releases/tag/3.8.2",
-      "points": null
-    },
-    {
-      "date": "2026-08-13",
-      "type": "release",
-      "title": "3.8.3 - Insert batching pun here",
-      "url": "https://github.com/PrefectHQ/prefect/releases/tag/3.8.3",
-      "points": null
-    },
-    {
-      "date": "2026-08-25",
-      "type": "release",
-      "title": "3.8.4 - Seconds of the world, unite!",
-      "url": "https://github.com/PrefectHQ/prefect/releases/tag/3.8.4",
-      "points": null
-    },
-    {
-      "date": "2026-09-02",
-      "type": "release",
-      "title": "2.20.26 - Still Prefect After All These Years",
-      "url": "https://github.com/PrefectHQ/prefect/releases/tag/2.20.26",
-      "points": null
     }
   ]
 }

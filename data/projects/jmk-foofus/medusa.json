@@ -123,20 +123,5 @@
       "openIssues": 15
     }
   ],
-  "events": [
-    {
-      "date": "2015-11-24",
-      "type": "release",
-      "title": "Medusa 2.2 Released!",
-      "url": "https://github.com/jmk-foofus/medusa/releases/tag/2.2",
-      "points": null
-    },
-    {
-      "date": "2025-05-14",
-      "type": "release",
-      "title": "Medusa 2.3 Released!",
-      "url": "https://github.com/jmk-foofus/medusa/releases/tag/2.3",
-      "points": null
-    }
-  ]
+  "events": []
 }

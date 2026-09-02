@@ -181,20 +181,6 @@ net if the daily jobs that feed it go quiet.
       re-accumulates, or hand-editing history files. A script to
       recompute/re-derive stored history would make future formula
       changes safe to ship.
-- [ ] LLM-based "is this interesting" classification for the project-page
-      event timeline (see MVP.md). v1 gates GitHub releases only on
-      non-prerelease and HN stories only on a points threshold — both
-      free and deterministic, but a release's actual notability (a patch
-      that ships a critical CVE fix vs. a routine dependency bump) is a
-      real semantic judgment a fixed rule can't make well. The codebase
-      already has the pattern for this: `scripts/classify-candidates.mjs`
-      calls an LLM (OpenRouter, `google/gemini-3.7-flash`) with a
-      structured tool-call response (`fits`/`confidence`/`reason`) and a
-      safe fallback on an unparseable response. A future
-      `classify-events.mjs` could reuse that shape for release bodies —
-      biased toward "show it" on any classification failure, so a parsing
-      hiccup never silently drops a real event.
-
 ## Measurement
 
 - [ ] Add privacy-friendly analytics (e.g. Plausible, GoatCounter, Umami —
@@ -222,17 +208,18 @@ net if the daily jobs that feed it go quiet.
       `.github/workflows/snapshot-history.yml`, same commit as the star
       snapshot) fetches HN stories whose URL matches the repo (Algolia HN
       Search API, restricted to the `url` field with a strict post-filter
-      against tokenized false positives, kept only at ≥50 points) and
-      non-draft/non-prerelease GitHub releases (same `gh`-token API the
-      star snapshot already calls), merging both into a new `events` array
-      per project entity — unlike `history`, never pruned, since events
-      are sparse enough that the full timeline is worth keeping.
-      `renderProjectPage` now renders it as a "Timeline" list, newest-first,
-      capped to the most recent 20 entries, right below the repo stats.
-      No LLM-based "is this interesting" classification for v1 (see Data
-      foundation below for that as a future refinement) — HN's own points
-      and "non-prerelease" are free, deterministic proxies instead.
-      _Done 2026-09-02: MVP item 3 ("External event timeline on the
+      against tokenized false positives, kept only at ≥50 points), merging
+      them into a new `events` array per project entity — unlike
+      `history`, never pruned, since events are sparse enough that the
+      full timeline is worth keeping. `renderProjectPage` now renders it
+      as a "Timeline" list, newest-first, capped to the most recent 20
+      entries, right below the repo stats. GitHub releases were part of
+      the first cut too, but got dropped after a production run showed
+      release noise (routine version bumps) outweighed the signal, unlike
+      HN mentions which are inherently curated by real discussion/upvotes.
+      No LLM-based "is this interesting" classification — HN's own points
+      threshold is a free, deterministic proxy instead.
+      _Done 2026-09-03: MVP item 3 ("External event timeline on the
       project page")._
 - [x] Forks/open-issues stats on the canonical project page.
       `buildSnapshotEntry` (`scripts/snapshot-history.mjs`) captures

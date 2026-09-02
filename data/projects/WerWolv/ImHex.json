@@ -3,9 +3,9 @@
   "id": "WerWolv/ImHex",
   "link": "https://github.com/WerWolv/ImHex",
   "name": "ImHex",
-  "desc": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
+  "desc": "\ud83d\udd0d A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
   "githubName": "ImHex",
-  "githubDescription": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
+  "githubDescription": "\ud83d\udd0d A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
   "tags": [
     "analyzer",
     "binary-analysis",
@@ -41,114 +41,16 @@
     {
       "date": "2020-12-09",
       "type": "hn",
-      "title": "ImHex – A Hex Editor",
+      "title": "ImHex \u2013 A Hex Editor",
       "url": "https://news.ycombinator.com/item?id=25353965",
       "points": 314
     },
     {
       "date": "2022-07-30",
       "type": "hn",
-      "title": "ImHex – A Hex Editor",
+      "title": "ImHex \u2013 A Hex Editor",
       "url": "https://news.ycombinator.com/item?id=32287902",
       "points": 467
-    },
-    {
-      "date": "2023-02-12",
-      "type": "release",
-      "title": "Pattern Visualizers, better data processor",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.27.0",
-      "points": null
-    },
-    {
-      "date": "2023-02-15",
-      "type": "release",
-      "title": "Text Editor improvements, bug fixes",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.27.1",
-      "points": null
-    },
-    {
-      "date": "2023-04-04",
-      "type": "release",
-      "title": "`match` statements, `bitfield` improvements, custom themes",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.28.0",
-      "points": null
-    },
-    {
-      "date": "2023-05-21",
-      "type": "release",
-      "title": "Custom layouts, Spanish translation, try-catch statements",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.29.0",
-      "points": null
-    },
-    {
-      "date": "2023-06-24",
-      "type": "release",
-      "title": "Font loading and favorite pattern fixes",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.30.1",
-      "points": null
-    },
-    {
-      "date": "2023-06-24",
-      "type": "release",
-      "title": "Pattern language debugger, [[export]]ing local patterns, pattern data view improvements",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.30.0",
-      "points": null
-    },
-    {
-      "date": "2023-09-24",
-      "type": "release",
-      "title": "Command Line Interface, .NET scripts, Achievements",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.31.0",
-      "points": null
-    },
-    {
-      "date": "2023-12-28",
-      "type": "release",
-      "title": "[Packaging fixes] Web and M1 version, Workspaces, Tutorials, Auto backups and more",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.32.1",
-      "points": null
-    },
-    {
-      "date": "2023-12-28",
-      "type": "release",
-      "title": "Web and M1 version, Workspaces, Tutorials, Auto backups and more",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.32.0",
-      "points": null
-    },
-    {
-      "date": "2024-01-04",
-      "type": "release",
-      "title": "Working M1 build, working custom plugins",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.32.2",
-      "points": null
-    },
-    {
-      "date": "2024-02-25",
-      "type": "release",
-      "title": "Better data analysis, Myers diffing algorithm and UI improvements",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.33.0",
-      "points": null
-    },
-    {
-      "date": "2024-03-02",
-      "type": "release",
-      "title": "Drastically lower CPU usage, better error recovery, fixed import statements",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.33.1",
-      "points": null
-    },
-    {
-      "date": "2024-03-23",
-      "type": "release",
-      "title": "Low power mode fix, better unicode font handling, fixes for Arch Linux",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.33.2",
-      "points": null
-    },
-    {
-      "date": "2024-06-03",
-      "type": "release",
-      "title": "Hex Editor Insert Mode, File update tracker and new logo",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.34.0",
-      "points": null
     },
     {
       "date": "2024-06-29",
@@ -156,111 +58,6 @@
       "title": "Imhex: A hex editor for reverse engineers",
       "url": "https://news.ycombinator.com/item?id=40828493",
       "points": 634
-    },
-    {
-      "date": "2024-06-29",
-      "type": "release",
-      "title": "Hotfix hotfix hotfix for \"Rendering speed optimizations, bitfield improvements\"",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.35.3",
-      "points": null
-    },
-    {
-      "date": "2024-06-29",
-      "type": "release",
-      "title": "Hotfix hotfix for \"Rendering speed optimizations, bitfield improvements\"",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.35.2",
-      "points": null
-    },
-    {
-      "date": "2024-06-29",
-      "type": "release",
-      "title": "Hotfix for \"Rendering speed optimizations, bitfield improvements\"",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.35.1",
-      "points": null
-    },
-    {
-      "date": "2024-06-29",
-      "type": "release",
-      "title": "Rendering speed optimizations, bitfield improvements",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.35.0",
-      "points": null
-    },
-    {
-      "date": "2024-07-09",
-      "type": "release",
-      "title": "Eradicate window flickering, improve pattern highlighting performance, crash fixes",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.35.4",
-      "points": null
-    },
-    {
-      "date": "2024-12-24",
-      "type": "release",
-      "title": "We're back!",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.36.0",
-      "points": null
-    },
-    {
-      "date": "2024-12-28",
-      "type": "release",
-      "title": "Startup fix",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.36.2",
-      "points": null
-    },
-    {
-      "date": "2024-12-28",
-      "type": "release",
-      "title": "Shortcut fixes",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.36.1",
-      "points": null
-    },
-    {
-      "date": "2025-02-16",
-      "type": "release",
-      "title": "Massive UX improvements, Custom Disassemblers, MSVC support",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.37.0",
-      "points": null
-    },
-    {
-      "date": "2025-02-18",
-      "type": "release",
-      "title": "Bug fixes for Massive UX improvements, Custom Disassemblers, MSVC support",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.37.1",
-      "points": null
-    },
-    {
-      "date": "2025-02-24",
-      "type": "release",
-      "title": " Bug fixes for Massive UX improvements, Custom Disassemblers, MSVC support Latest",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.37.2",
-      "points": null
-    },
-    {
-      "date": "2025-02-25",
-      "type": "release",
-      "title": " Bug fixes for Massive UX improvements, Custom Disassemblers, MSVC support Latest",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.37.3",
-      "points": null
-    },
-    {
-      "date": "2025-02-26",
-      "type": "release",
-      "title": " Bug fixes for Massive UX improvements, Custom Disassemblers, MSVC support",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.37.4",
-      "points": null
-    },
-    {
-      "date": "2025-12-06",
-      "type": "release",
-      "title": "Better Pattern Editor, new Data Sources, Save Editor Mode",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.38.0",
-      "points": null
-    },
-    {
-      "date": "2025-12-21",
-      "type": "release",
-      "title": "Windows installer, data inspector edit and updater fixes",
-      "url": "https://github.com/WerWolv/ImHex/releases/tag/v1.38.1",
-      "points": null
     }
   ]
 }

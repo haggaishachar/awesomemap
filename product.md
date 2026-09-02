@@ -201,6 +201,18 @@ net if the daily jobs that feed it go quiet.
 
 ## Shipped
 
+- [x] Forks/open-issues stats on the canonical project page.
+      `buildSnapshotEntry` (`scripts/snapshot-history.mjs`) captures
+      `forks`/`openIssues` in every daily snapshot, and the `/compare/`
+      table already displayed them — but `renderProjectPage` itself only
+      showed star count and momentum chips. It now renders the same two
+      stats as `.project-repo-stats` chips, sourced from the latest
+      history snapshot and formatted with `compare-format.js`'s
+      `formatCount` (the same formatter, not a new one), linking out to
+      the repo's GitHub network/issues pages. The compare page's stat
+      grid was unified into one aligned table in the same change.
+      _Done 2026-09-02: MVP item 3 ("Project page: add forks, issues,
+      etc.")._
 - [x] Row-per-stat compare grid with a winner highlight.
       `app/shared/compare.js`'s `/compare/` table used to render one full
       vertical stat card per project as sibling columns — Stars/7d/30d/90d

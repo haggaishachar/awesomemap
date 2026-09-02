@@ -23,12 +23,3 @@ Shipped section and drop it from here rather than checking it off in place.
    alongside "This week's signals," so a visitor can answer "what's hot"
    at the ecosystem level, not just the single-project level.
 
-3. **[ ] Project page: add forks, issues, etc.** `buildSnapshotEntry`
-   (`scripts/snapshot-history.mjs`) already captures `forks` and
-   `openIssues` in every daily snapshot, and the compare view already
-   displays them (`compare.js`'s "Forks"/"Open issues" stat rows) — but
-   `renderProjectPage` itself, the canonical per-project page, still only
-   shows star count and momentum chips. Add the same forks/open-issues
-   stats (and any other already-captured-but-unsurfaced fields, e.g.
-   GitHub's own name/description for drift detection) to the project page,
-   reusing `compare-format.js`'s `formatCount` rather than a new formatter.

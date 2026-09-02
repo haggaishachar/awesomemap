@@ -8,7 +8,7 @@
 //   data/projects/<owner>/<repo>.json — one file per project entity:
 //                                       {schemaVersion, id, link, name, desc,
 //                                       githubName, githubDescription,
-//                                       weight, image, tags, history}
+//                                       weight, image, tags, history, events}
 //
 // Every script that used to read/write `data/<slug>.json` +
 // `data/history/<slug>.json` directly goes through this module instead, so

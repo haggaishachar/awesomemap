@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "software-mansion/react-native-gesture-handler",
+  "link": "https://github.com/software-mansion/react-native-gesture-handler",
+  "name": "react-native-gesture-handler",
+  "desc": "Declarative API exposing platform native touch and gesture system to React Native.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "gesture",
+    "javascript",
+    "react-native"
+  ],
+  "history": [],
+  "weight": 6782,
+  "image": "https://avatars.githubusercontent.com/u/56880679?v=4"
+}

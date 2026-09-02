@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor",
+  "link": "https://github.com/PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor",
+  "name": "Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor",
+  "desc": "This custom integration provides a way to present a live view of a map for Xiaomi (Roborock/Viomi/Roidmi/Dreame) vacuums without a need for rooting.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cloud",
+    "custom-component",
+    "dreame",
+    "hacs",
+    "home-assistant",
+    "map",
+    "roborock",
+    "robot",
+    "roidmi",
+    "vacuum",
+    "vacuum-map",
+    "viomi",
+    "xiaomi",
+    "xiaomi-smart-home",
+    "xiaomi-vacuum"
+  ],
+  "history": [],
+  "weight": 1420
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "mnfst/manifest",
+  "link": "https://github.com/mnfst/manifest",
+  "name": "manifest",
+  "desc": "Connect Your Agents And Harnesses With Any Provider 🦚",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "ai-",
+    "ai-sdk",
+    "anthropic",
+    "byok",
+    "cost-tracking",
+    "gateway",
+    "hermes-agent",
+    "llm-observability",
+    "llm-router",
+    "open-source",
+    "openai-api",
+    "openclaw",
+    "subscription",
+    "token-tracking"
+  ],
+  "history": [],
+  "weight": 7499,
+  "image": "https://avatars.githubusercontent.com/u/8403534?v=4"
+}

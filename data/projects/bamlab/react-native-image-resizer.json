@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "bamlab/react-native-image-resizer",
+  "link": "https://github.com/bamlab/react-native-image-resizer",
+  "name": "react-native-image-resizer",
+  "desc": "🗻 Resize local images with React Native",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "ios",
+    "jpeg",
+    "react-native",
+    "resize"
+  ],
+  "history": [],
+  "weight": 1661,
+  "image": "https://avatars.githubusercontent.com/u/9597329?v=4"
+}

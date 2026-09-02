@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "cazala/synaptic",
+  "link": "https://github.com/cazala/synaptic",
+  "name": "synaptic",
+  "desc": "architecture-free neural network library for node.js and the browser",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 6915
+}

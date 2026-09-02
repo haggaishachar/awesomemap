@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "ExtensityAI/symbolicai",
+  "link": "https://github.com/ExtensityAI/symbolicai",
+  "name": "symbolicai",
+  "desc": "A neurosymbolic perspective on LLMs",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "large-language-models",
+    "neurosymbolic-ai",
+    "probabilistic-programming"
+  ],
+  "history": [],
+  "weight": 1754,
+  "image": "https://avatars.githubusercontent.com/u/124845778?v=4"
+}

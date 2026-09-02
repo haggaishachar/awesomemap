@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "ruvnet/ruflo",
+  "link": "https://github.com/ruvnet/ruflo",
+  "name": "ruflo",
+  "desc": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agentic-ai",
+    "agentic-framework",
+    "agentic-workflow",
+    "agents",
+    "ai-agents",
+    "ai-assistant",
+    "ai-skills",
+    "autonomous-agents",
+    "claude-code",
+    "codex",
+    "dsh-plugin",
+    "harness",
+    "mcp-server",
+    "multi-agent",
+    "multi-agent-systems",
+    "npm",
+    "skills",
+    "swarm",
+    "swarm-intelligence",
+    "typescript"
+  ],
+  "history": [],
+  "weight": 70200
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "thanos-io/thanos",
+  "link": "https://github.com/thanos-io/thanos",
+  "name": "thanos",
+  "desc": "Highly available Prometheus setup with long term storage capabilities. A CNCF Incubating project.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cncf",
+    "go",
+    "google-cloud-storage",
+    "hacktoberfest",
+    "high-availability",
+    "metrics",
+    "monitoring",
+    "observability",
+    "prometheus",
+    "prometheus-ha-pairs",
+    "prometheus-setup",
+    "s3",
+    "storage",
+    "thanos"
+  ],
+  "history": [],
+  "weight": 14195,
+  "image": "https://avatars.githubusercontent.com/u/49725059?v=4"
+}

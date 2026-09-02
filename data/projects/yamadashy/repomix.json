@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "yamadashy/repomix",
+  "link": "https://github.com/yamadashy/repomix",
+  "name": "repomix",
+  "desc": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "anthropic",
+    "artificial-intelligence",
+    "chatbot",
+    "chatgpt",
+    "claude",
+    "deepseek",
+    "developer-tools",
+    "gemini",
+    "genai",
+    "generative-ai",
+    "gpt",
+    "javascript",
+    "language-model",
+    "llama",
+    "llm",
+    "mcp",
+    "nodejs",
+    "openai",
+    "typescript"
+  ],
+  "history": [],
+  "weight": 28161
+}

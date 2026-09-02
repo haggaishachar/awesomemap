@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "cecio/USBvalve",
+  "link": "https://github.com/cecio/USBvalve",
+  "name": "USBvalve",
+  "desc": "Expose USB activity on the fly",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "badusb",
+    "forensics",
+    "malware",
+    "usb",
+    "usb-hid"
+  ],
+  "history": [],
+  "weight": 1345
+}

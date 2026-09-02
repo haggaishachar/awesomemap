@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "AlexxIT/YandexStation",
+  "link": "https://github.com/AlexxIT/YandexStation",
+  "name": "YandexStation",
+  "desc": "Управление Яндекс.Станцией и другими устройствами умного дома с Алисой из Home Assistant",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "hacs",
+    "home-assistant",
+    "homeassistant",
+    "tts",
+    "yandex-station"
+  ],
+  "history": [],
+  "weight": 1917
+}

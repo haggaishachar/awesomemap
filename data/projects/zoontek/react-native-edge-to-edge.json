@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "zoontek/react-native-edge-to-edge",
+  "link": "https://github.com/zoontek/react-native-edge-to-edge",
+  "name": "react-native-edge-to-edge",
+  "desc": "Effortlessly enable edge-to-edge display in React Native (formerly known as react-native-bars).",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "edge-to-edge",
+    "navigation-bar",
+    "react-native",
+    "status-bar"
+  ],
+  "history": [],
+  "weight": 1036,
+  "image": "https://raw.githubusercontent.com/zoontek/react-native-edge-to-edge/main/docs/logo.svg"
+}

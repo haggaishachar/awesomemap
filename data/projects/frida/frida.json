@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "frida/frida",
+  "link": "https://github.com/frida/frida",
+  "name": "frida",
+  "desc": "Main repo for hosting release binaries",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "frida",
+    "instrumentation",
+    "vala"
+  ],
+  "history": [],
+  "weight": 21821,
+  "image": "https://avatars.githubusercontent.com/u/4073090?v=4"
+}

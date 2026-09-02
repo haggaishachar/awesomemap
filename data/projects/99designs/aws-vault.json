@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "99designs/aws-vault",
+  "link": "https://github.com/99designs/aws-vault",
+  "name": "aws-vault",
+  "desc": "A vault for securely storing and accessing AWS credentials in development environments",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "aws",
+    "aws-vault",
+    "cli",
+    "credentials",
+    "iam",
+    "keychain",
+    "mfa",
+    "temporary-credentials"
+  ],
+  "history": [],
+  "weight": 8985,
+  "image": "https://avatars.githubusercontent.com/u/17182?v=4"
+}

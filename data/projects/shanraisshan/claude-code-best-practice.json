@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "shanraisshan/claude-code-best-practice",
+  "link": "https://github.com/shanraisshan/claude-code-best-practice",
+  "name": "claude-code-best-practice",
+  "desc": "from vibe coding to agentic engineering - practice makes claude perfect",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agentic-ai",
+    "agentic-coding",
+    "agentic-engineering",
+    "agentic-workflow",
+    "ai",
+    "ai-agents",
+    "anthropic",
+    "best-practices",
+    "boris",
+    "claude",
+    "claude-ai",
+    "claude-code",
+    "claude-code-agents",
+    "claude-code-best-practices",
+    "claude-code-commands",
+    "claude-code-skills",
+    "context-engineering",
+    "pakistan",
+    "pakistani-developer",
+    "vibe-coding"
+  ],
+  "history": [],
+  "weight": 65535
+}

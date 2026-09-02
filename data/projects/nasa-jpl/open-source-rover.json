@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "nasa-jpl/open-source-rover",
+  "link": "https://github.com/nasa-jpl/open-source-rover",
+  "name": "open-source-rover",
+  "desc": "A build-it-yourself, 6-wheel rover based on the rovers on Mars!",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "diy",
+    "hardware",
+    "mars",
+    "mars-rover",
+    "open-source",
+    "robot",
+    "robotics"
+  ],
+  "history": [],
+  "weight": 9623,
+  "image": "https://avatars.githubusercontent.com/u/10360932?v=4"
+}

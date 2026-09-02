@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "Neo23x0/Loki",
+  "link": "https://github.com/Neo23x0/Loki",
+  "name": "Loki",
+  "desc": "Loki - Simple IOC and YARA Scanner",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "antivirus",
+    "dfir",
+    "hash",
+    "ioc",
+    "otx",
+    "python",
+    "scanner",
+    "signature",
+    "yara",
+    "yara-rules"
+  ],
+  "history": [],
+  "weight": 3786
+}

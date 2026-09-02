@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "ClemensElflein/OpenMower",
+  "link": "https://github.com/ClemensElflein/OpenMower",
+  "name": "OpenMower",
+  "desc": "Let's upgrade cheap off-the-shelf robotic mowers to modern, smart RTK GPS based lawn mowing robots!",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "arduino",
+    "gps",
+    "landscaping",
+    "lawn-mower",
+    "path-finding",
+    "raspberry-pi",
+    "robomow",
+    "robot",
+    "robotics",
+    "ros",
+    "rtk"
+  ],
+  "history": [],
+  "weight": 6692
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "teambit/bit",
+  "link": "https://github.com/teambit/bit",
+  "name": "bit",
+  "desc": "AI-powered development workspaces with reusable components, architectural clarity and zero overhead.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "collaboration",
+    "component-driven",
+    "composable",
+    "composable-architecture",
+    "distributed",
+    "front-end",
+    "javascript",
+    "micro-frontend",
+    "micro-services",
+    "monorepo",
+    "multirepo",
+    "multirepo-maintenance",
+    "node-js",
+    "polyrepo",
+    "react",
+    "service-oriented-architecture",
+    "typescript",
+    "vue"
+  ],
+  "history": [],
+  "weight": 18470,
+  "image": "https://avatars.githubusercontent.com/u/24789812?v=4"
+}

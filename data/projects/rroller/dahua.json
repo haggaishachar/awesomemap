@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "rroller/dahua",
+  "link": "https://github.com/rroller/dahua",
+  "name": "dahua",
+  "desc": "Dahua Camera and Doorbell Home Assistant Integration",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "amcrest",
+    "camera",
+    "dahua",
+    "doorbell",
+    "hacs",
+    "home-assistant",
+    "ipcam",
+    "lorex"
+  ],
+  "history": [],
+  "weight": 554
+}

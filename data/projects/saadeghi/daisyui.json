@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "saadeghi/daisyui",
+  "link": "https://github.com/saadeghi/daisyui",
+  "name": "daisyui",
+  "desc": "🌼 🌼 🌼 🌼 🌼  The most popular, free and open-source Tailwind CSS component library",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "component",
+    "component-library",
+    "components",
+    "css",
+    "css-components",
+    "css-framework",
+    "daisyui",
+    "design-system",
+    "design-systems",
+    "front-end",
+    "postcss",
+    "svelte",
+    "tailwind",
+    "tailwind-css",
+    "tailwindcss",
+    "ui-design",
+    "ui-framework",
+    "ui-kit",
+    "ui-library",
+    "ui-pattern"
+  ],
+  "history": [],
+  "weight": 42268
+}

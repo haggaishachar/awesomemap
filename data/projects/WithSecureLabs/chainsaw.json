@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "WithSecureLabs/chainsaw",
+  "link": "https://github.com/WithSecureLabs/chainsaw",
+  "name": "chainsaw",
+  "desc": "Rapidly Search and Hunt through Windows Forensic Artefacts",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "attack",
+    "blueteam",
+    "chainsaw",
+    "countercept",
+    "detection",
+    "dfir",
+    "forensics",
+    "logs",
+    "rust",
+    "security",
+    "sigma",
+    "threat-hunting",
+    "windows"
+  ],
+  "history": [],
+  "weight": 3653,
+  "image": "https://avatars.githubusercontent.com/u/99874690?v=4"
+}

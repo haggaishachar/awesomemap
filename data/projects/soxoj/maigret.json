@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "soxoj/maigret",
+  "link": "https://github.com/soxoj/maigret",
+  "name": "maigret",
+  "desc": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cli",
+    "cybersecurity",
+    "identification",
+    "information-gathering",
+    "infosec",
+    "investigation",
+    "open-source",
+    "osint",
+    "osint-framework",
+    "osint-python",
+    "pentesting",
+    "python",
+    "python3",
+    "reconnaissance",
+    "redteam",
+    "scraping",
+    "sherlock",
+    "social-network",
+    "socmint",
+    "username"
+  ],
+  "history": [],
+  "weight": 37247
+}

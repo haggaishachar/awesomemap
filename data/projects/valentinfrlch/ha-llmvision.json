@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "valentinfrlch/ha-llmvision",
+  "link": "https://github.com/valentinfrlch/ha-llmvision",
+  "name": "ha-llmvision",
+  "desc": "Visual intelligence for your home.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "cctv-detection",
+    "hacs-integration",
+    "home-assistant",
+    "llm",
+    "multimodal",
+    "notifications",
+    "smart-home",
+    "vision"
+  ],
+  "history": [],
+  "weight": 1451
+}

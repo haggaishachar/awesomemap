@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "VowpalWabbit/vowpal_wabbit",
+  "link": "https://github.com/VowpalWabbit/vowpal_wabbit",
+  "name": "vowpal_wabbit",
+  "desc": "Vowpal Wabbit is a machine learning system which pushes the frontier of machine learning with techniques such as online, hashing, allreduce, reductions, learning2search, active, and interactive learning.  ",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "active-learning",
+    "c-plus-plus",
+    "contextual-bandits",
+    "cpp",
+    "learning-to-search",
+    "machine-learning",
+    "online-learning",
+    "reinforcement-learning"
+  ],
+  "history": [],
+  "weight": 8708,
+  "image": "https://avatars.githubusercontent.com/u/43754238?v=4"
+}

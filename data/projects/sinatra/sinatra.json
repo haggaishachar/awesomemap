@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "sinatra/sinatra",
+  "link": "https://github.com/sinatra/sinatra",
+  "name": "sinatra",
+  "desc": "Classy web-development dressed in a DSL (official / canonical repo)",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "rack",
+    "ruby",
+    "sinatra",
+    "web-framework"
+  ],
+  "history": [],
+  "weight": 12449,
+  "image": "https://avatars.githubusercontent.com/u/8312?v=4"
+}

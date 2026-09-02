@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "JuliaStats/Distributions.jl",
+  "link": "https://github.com/JuliaStats/Distributions.jl",
+  "name": "Distributions.jl",
+  "desc": "A Julia package for probability distributions and associated functions.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "data-science",
+    "julia",
+    "probability-distributions",
+    "statistics"
+  ],
+  "history": [],
+  "weight": 1198,
+  "image": "https://avatars.githubusercontent.com/u/2761531?v=4"
+}

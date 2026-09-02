@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "RyanDFIR/hindsight",
+  "link": "https://github.com/RyanDFIR/hindsight",
+  "name": "hindsight",
+  "desc": "Browser forensics tool for Google Chrome, other Chromium-based browsers, and Mozilla Firefox",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "browser-forensics",
+    "chrome",
+    "dfir",
+    "firefox",
+    "forensics",
+    "google-chrome",
+    "hindsight",
+    "mozilla-firefox"
+  ],
+  "history": [],
+  "weight": 1499
+}

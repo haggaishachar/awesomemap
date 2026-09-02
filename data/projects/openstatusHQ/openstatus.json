@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "openstatusHQ/openstatus",
+  "link": "https://github.com/openstatusHQ/openstatus",
+  "name": "openstatus",
+  "desc": "🫖 Status page with uptime monitoring & API monitoring as code   🫖",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "alerting",
+    "incident-management",
+    "mcp",
+    "mcp-server",
+    "monitoring",
+    "monitoring-as-code",
+    "observability",
+    "on-call",
+    "open-source",
+    "sre",
+    "status-page",
+    "statuspage",
+    "synthetic-monitoring",
+    "terraform",
+    "tinybird",
+    "turso",
+    "uptime",
+    "uptime-checker",
+    "uptime-monitor"
+  ],
+  "history": [],
+  "weight": 9053,
+  "image": "https://avatars.githubusercontent.com/u/136892265?v=4"
+}

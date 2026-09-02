@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "Hyundai-Kia-Connect/kia_uvo",
+  "link": "https://github.com/Hyundai-Kia-Connect/kia_uvo",
+  "name": "kia_uvo",
+  "desc": "A Home Assistant HACS integration that supports Kia Connect(Uvo) and Hyundai Bluelink. The integration supports the EU, Canada and the USA.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "bluelink",
+    "car",
+    "homeassistant",
+    "homeassistant-integration",
+    "hyundai",
+    "kia",
+    "uvo"
+  ],
+  "history": [],
+  "weight": 926,
+  "image": "https://avatars.githubusercontent.com/u/97627896?v=4"
+}

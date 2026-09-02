@@ -460,6 +460,300 @@
       "path": [
         "UI Component Libraries"
       ]
+    },
+    {
+      "id": "typicode/json-server",
+      "path": [
+        "API & Data Layer"
+      ]
+    },
+    {
+      "id": "marko-js/marko",
+      "path": [
+        "Frontend Frameworks"
+      ]
+    },
+    {
+      "id": "mdbootstrap/TW-Elements",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "markmead/hyperui",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "zeromicro/go-zero",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "yewstack/yew",
+      "path": [
+        "Frontend Frameworks"
+      ]
+    },
+    {
+      "id": "honojs/hono",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "vapor/vapor",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "rwf2/Rocket",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "kataras/iris",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "phoenixframework/phoenix",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "gofr-dev/gofr",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "adonisjs/core",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "sanic-org/sanic",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "ktorio/ktor",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "playframework/playframework",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "sinatra/sinatra",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "cakephp/cakephp",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "bottlepy/bottle",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "dropwizard/dropwizard",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "gobuffalo/buffalo",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "javalin/javalin",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "ninenines/cowboy",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "vikejs/vike",
+      "path": [
+        "Meta-Frameworks"
+      ]
+    },
+    {
+      "id": "douyu/jupiter",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "FortAwesome/Font-Awesome",
+      "path": [
+        "CSS Frameworks & Styling"
+      ]
+    },
+    {
+      "id": "ColorlibHQ/AdminLTE",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "saadeghi/daisyui",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "tabler/tabler",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "layui/layui",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "postcss/postcss",
+      "path": [
+        "CSS Frameworks & Styling"
+      ]
+    },
+    {
+      "id": "nrwl/nx",
+      "path": [
+        "Build Tools & Bundlers"
+      ]
+    },
+    {
+      "id": "web-infra-dev/rspack",
+      "path": [
+        "Build Tools & Bundlers"
+      ]
+    },
+    {
+      "id": "parcel-bundler/lightningcss",
+      "path": [
+        "CSS Frameworks & Styling"
+      ]
+    },
+    {
+      "id": "farm-fe/farm",
+      "path": [
+        "Build Tools & Bundlers"
+      ]
+    },
+    {
+      "id": "web-infra-dev/modern.js",
+      "path": [
+        "Meta-Frameworks"
+      ]
+    },
+    {
+      "id": "trunk-rs/trunk",
+      "path": [
+        "Build Tools & Bundlers"
+      ]
+    },
+    {
+      "id": "requirejs/requirejs",
+      "path": [
+        "Build Tools & Bundlers"
+      ]
+    },
+    {
+      "id": "CorentinTh/it-tools",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "Dokploy/dokploy",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "typestack/routing-controllers",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "juliangarnier/anime",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "h5bp/html5-boilerplate",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "DioxusLabs/dioxus",
+      "path": [
+        "Frontend Frameworks"
+      ]
+    },
+    {
+      "id": "wxt-dev/wxt",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "style-dictionary/style-dictionary",
+      "path": [
+        "CSS Frameworks & Styling"
+      ]
+    },
+    {
+      "id": "RetireJS/retire.js",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "jspm/jspm-cli",
+      "path": [
+        "Build Tools & Bundlers"
+      ]
+    },
+    {
+      "id": "teambit/bit",
+      "path": [
+        "Developer Tooling"
+      ]
     }
   ]
 }

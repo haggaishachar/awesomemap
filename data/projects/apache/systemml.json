@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "apache/systemml",
+  "link": "https://github.com/apache/systemml",
+  "name": "systemml",
+  "desc": "An open source ML system for the end-to-end data science lifecycle",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "dml",
+    "java",
+    "python",
+    "systemds"
+  ],
+  "history": [],
+  "weight": 1097,
+  "image": "https://avatars.githubusercontent.com/u/47359?v=4"
+}

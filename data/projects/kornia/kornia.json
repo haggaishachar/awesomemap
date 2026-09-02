@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "kornia/kornia",
+  "link": "https://github.com/kornia/kornia",
+  "name": "kornia",
+  "desc": "🐍 Geometric Computer Vision Library for Spatial AI",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "artificial-intelligence",
+    "computer-vision",
+    "deep-learning",
+    "hacktoberfest",
+    "image-processing",
+    "machine-learning",
+    "neural-network",
+    "python",
+    "pytorch",
+    "robotics",
+    "spatial-ai"
+  ],
+  "history": [],
+  "weight": 11340,
+  "image": "https://avatars.githubusercontent.com/u/56968752?v=4"
+}

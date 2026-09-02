@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "rnmapbox/maps",
+  "link": "https://github.com/rnmapbox/maps",
+  "name": "maps",
+  "desc": "A Mapbox react native module for creating custom maps",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "expo",
+    "map",
+    "mapbox",
+    "mapbox-gl-native",
+    "maplibre",
+    "react-native"
+  ],
+  "history": [],
+  "weight": 2908,
+  "image": "https://avatars.githubusercontent.com/u/49320253?v=4"
+}

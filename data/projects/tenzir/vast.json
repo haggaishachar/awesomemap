@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "tenzir/vast",
+  "link": "https://github.com/tenzir/vast",
+  "name": "vast",
+  "desc": "Tenzir is the data pipeline engine for security teams.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "dataops",
+    "hacktoberfest",
+    "incident-response",
+    "investigation",
+    "netflow",
+    "pcap",
+    "pipelines",
+    "secdataops",
+    "security",
+    "siem",
+    "sigma",
+    "soc",
+    "suricata",
+    "threathunting",
+    "zeek"
+  ],
+  "history": [],
+  "weight": 758,
+  "image": "https://avatars.githubusercontent.com/u/29048253?v=4"
+}

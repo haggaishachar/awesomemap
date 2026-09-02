@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "highlight/highlight",
+  "link": "https://github.com/highlight/highlight",
+  "name": "highlight",
+  "desc": "highlight.io: The open source, full-stack monitoring platform. Error monitoring, session replay, logging, distributed tracing, and more.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "apm",
+    "full-stack",
+    "golang",
+    "metrics",
+    "monitoring",
+    "observability",
+    "open-source",
+    "self-hosted",
+    "session-replay",
+    "tracing",
+    "typescript"
+  ],
+  "history": [],
+  "weight": 9373,
+  "image": "https://avatars.githubusercontent.com/u/75946842?v=4"
+}

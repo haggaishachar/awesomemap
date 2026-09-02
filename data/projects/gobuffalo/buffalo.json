@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "gobuffalo/buffalo",
+  "link": "https://github.com/gobuffalo/buffalo",
+  "name": "buffalo",
+  "desc": "Rapid Web Development w/ Go",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "buffalo",
+    "framework",
+    "go",
+    "gobuffalo",
+    "golang",
+    "rails",
+    "web",
+    "web-framework",
+    "webframework"
+  ],
+  "history": [],
+  "weight": 8413,
+  "image": "https://raw.githubusercontent.com/gobuffalo/buffalo/main/logo.svg"
+}

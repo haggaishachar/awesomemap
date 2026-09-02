@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "Dokploy/dokploy",
+  "link": "https://github.com/Dokploy/dokploy",
+  "name": "dokploy",
+  "desc": "Open Source Alternative to Vercel, Netlify and Heroku.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agents",
+    "ai",
+    "backend",
+    "backups",
+    "databases",
+    "deployment",
+    "deployments",
+    "devops",
+    "docker",
+    "frontend",
+    "mariadb",
+    "mongodb",
+    "mysql",
+    "nextjs",
+    "postgresql",
+    "self-hosted",
+    "vps"
+  ],
+  "history": [],
+  "weight": 37038,
+  "image": "https://avatars.githubusercontent.com/u/156882017?v=4"
+}

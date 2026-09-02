@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "cakephp/cakephp",
+  "link": "https://github.com/cakephp/cakephp",
+  "name": "cakephp",
+  "desc": "CakePHP: The Rapid Development Framework for PHP - Official Repository",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cakephp",
+    "form-builder",
+    "hacktoberfest",
+    "mvc",
+    "mvc-framework",
+    "orm",
+    "php",
+    "psr-7",
+    "rapid-development",
+    "rest-api",
+    "validation",
+    "web",
+    "web-framework"
+  ],
+  "history": [],
+  "weight": 8795,
+  "image": "https://avatars.githubusercontent.com/u/23666?v=4"
+}

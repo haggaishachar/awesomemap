@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "jupyterlab/jupyter-ai",
+  "link": "https://github.com/jupyterlab/jupyter-ai",
+  "name": "jupyter-ai",
+  "desc": "An open source extension that connects AI agents to computational notebooks in JupyterLab.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "acp",
+    "agents",
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "history": [],
+  "weight": 4389,
+  "image": "https://avatars.githubusercontent.com/u/22800682?v=4"
+}

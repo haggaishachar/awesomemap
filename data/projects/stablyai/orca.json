@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "stablyai/orca",
+  "link": "https://github.com/stablyai/orca",
+  "name": "orca",
+  "desc": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ade",
+    "agent-ide",
+    "ai-agents",
+    "claude-code",
+    "cli",
+    "codex",
+    "cursor-agent",
+    "devtools",
+    "ghostty",
+    "ide",
+    "mobile-app",
+    "opencode",
+    "orchestration",
+    "parallel-agents",
+    "pi",
+    "terminal",
+    "worktrees",
+    "yc-backed"
+  ],
+  "history": [],
+  "weight": 59662,
+  "image": "https://avatars.githubusercontent.com/u/127256420?v=4"
+}

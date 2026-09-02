@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "lirantal/is-website-vulnerable",
+  "link": "https://github.com/lirantal/is-website-vulnerable",
+  "name": "is-website-vulnerable",
+  "desc": "finds publicly known security vulnerabilities in a website's frontend JavaScript libraries",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "hacktoberfest",
+    "lighthouse",
+    "nodejs",
+    "scan",
+    "security",
+    "security-vulnerabilities",
+    "vulnerabilities"
+  ],
+  "history": [],
+  "weight": 2040
+}

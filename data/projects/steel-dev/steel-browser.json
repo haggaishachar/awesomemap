@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "steel-dev/steel-browser",
+  "link": "https://github.com/steel-dev/steel-browser",
+  "name": "steel-browser",
+  "desc": "🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "ai-agents",
+    "ai-tools",
+    "browser-automation",
+    "llm"
+  ],
+  "history": [],
+  "weight": 7580,
+  "image": "https://avatars.githubusercontent.com/u/183960033?v=4"
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "react-native-documents/document-picker",
+  "link": "https://github.com/react-native-documents/document-picker",
+  "name": "document-picker",
+  "desc": "Document Picker and Viewer for React Native",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "document-picker",
+    "hacktoberfest",
+    "ios",
+    "react-native"
+  ],
+  "history": [],
+  "weight": 1516,
+  "image": "https://avatars.githubusercontent.com/u/161636751?v=4"
+}

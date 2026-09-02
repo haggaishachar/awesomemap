@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "Kilo-Org/kilocode",
+  "link": "https://github.com/Kilo-Org/kilocode",
+  "name": "kilocode",
+  "desc": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "ai-age",
+    "ai-coding",
+    "ai-developer-tools",
+    "chatgpt",
+    "claude",
+    "cli",
+    "gemini",
+    "jetbrains",
+    "sonnet",
+    "vscode",
+    "vscode-extension"
+  ],
+  "history": [],
+  "weight": 27133,
+  "image": "https://raw.githubusercontent.com/Kilo-Org/kilocode/main/logo.png"
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "gojek/feast",
+  "link": "https://github.com/gojek/feast",
+  "name": "feast",
+  "desc": "The Open Source Feature Store for AI/ML",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "big-data",
+    "data-engineering",
+    "data-quality",
+    "data-science",
+    "feature-store",
+    "features",
+    "machine-learning",
+    "ml",
+    "mlops",
+    "python"
+  ],
+  "history": [],
+  "weight": 7242,
+  "image": "https://avatars.githubusercontent.com/u/57027613?v=4"
+}

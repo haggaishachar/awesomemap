@@ -712,6 +712,132 @@
       "path": [
         "Platforms"
       ]
+    },
+    {
+      "id": "VowpalWabbit/vowpal_wabbit",
+      "path": [
+        "Classic Machine Learning"
+      ]
+    },
+    {
+      "id": "featuretools/featuretools",
+      "path": [
+        "AutoML"
+      ]
+    },
+    {
+      "id": "gojek/feast",
+      "path": [
+        "Platforms"
+      ]
+    },
+    {
+      "id": "polyaxon/polyaxon",
+      "path": [
+        "Platforms"
+      ]
+    },
+    {
+      "id": "rl-tools/rl-tools",
+      "path": [
+        "Reinforment Learning"
+      ]
+    },
+    {
+      "id": "spencermountain/compromise",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "machinelearnjs/machinelearnjs",
+      "path": [
+        "Classic Machine Learning"
+      ]
+    },
+    {
+      "id": "cazala/synaptic",
+      "path": [
+        "Deep Learning"
+      ]
+    },
+    {
+      "id": "simple-statistics/simple-statistics",
+      "path": [
+        "Data Manipulation & Analysis"
+      ]
+    },
+    {
+      "id": "alan-turing-institute/MLJ.jl",
+      "path": [
+        "Classic Machine Learning"
+      ]
+    },
+    {
+      "id": "JuliaData/DataFrames.jl",
+      "path": [
+        "Data Manipulation & Analysis"
+      ]
+    },
+    {
+      "id": "JuliaStats/Distributions.jl",
+      "path": [
+        "Data Manipulation & Analysis"
+      ]
+    },
+    {
+      "id": "JuliaImages/Images.jl",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "comet-ml/opik",
+      "path": [
+        "Platforms"
+      ]
+    },
+    {
+      "id": "nndeploy/nndeploy",
+      "path": [
+        "Platforms"
+      ]
+    },
+    {
+      "id": "melisgl/mgl",
+      "path": [
+        "Classic Machine Learning"
+      ]
+    },
+    {
+      "id": "apache/systemml",
+      "path": [
+        "Platforms"
+      ]
+    },
+    {
+      "id": "jasondavies/science.js",
+      "path": [
+        "Data Manipulation & Analysis"
+      ]
+    },
+    {
+      "id": "lutzroeder/netron",
+      "path": [
+        "Deep Learning"
+      ]
+    },
+    {
+      "id": "stdlib-js/stdlib",
+      "path": [
+        "Data Manipulation & Analysis"
+      ]
+    },
+    {
+      "id": "GiovineItalia/Gadfly.jl",
+      "path": [
+        "Data Manipulation & Analysis"
+      ]
     }
   ]
 }

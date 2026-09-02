@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "style-dictionary/style-dictionary",
+  "link": "https://github.com/style-dictionary/style-dictionary",
+  "name": "style-dictionary",
+  "desc": "A build system for creating cross-platform styles.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "build-system",
+    "build-tool",
+    "cross-platform",
+    "design-systems",
+    "design-tokens",
+    "design-tools",
+    "style",
+    "style-tokens",
+    "styleguide"
+  ],
+  "history": [],
+  "weight": 4796,
+  "image": "https://avatars.githubusercontent.com/u/212034435?v=4"
+}

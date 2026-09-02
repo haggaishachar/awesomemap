@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "alan-turing-institute/MLJ.jl",
+  "link": "https://github.com/alan-turing-institute/MLJ.jl",
+  "name": "MLJ.jl",
+  "desc": "A Julia machine learning framework",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "classification",
+    "clustering",
+    "data-science",
+    "ensemble-learning",
+    "julia",
+    "machine-learning",
+    "pipeline",
+    "pipelines",
+    "predictive-modeling",
+    "regression",
+    "stacking",
+    "statistics",
+    "tuning",
+    "tuning-parameters"
+  ],
+  "history": [],
+  "weight": 1939,
+  "image": "https://avatars.githubusercontent.com/u/80715868?v=4"
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "albertogeniola/meross-homeassistant",
+  "link": "https://github.com/albertogeniola/meross-homeassistant",
+  "name": "meross-homeassistant",
+  "desc": "Custom component that leverages the Meross IoT library to integrate with Homeassistant",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "homeassistant",
+    "meross",
+    "meross-homeassistant"
+  ],
+  "history": [],
+  "weight": 856
+}

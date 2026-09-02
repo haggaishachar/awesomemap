@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "EvanBacon/expo-quick-actions",
+  "link": "https://github.com/EvanBacon/expo-quick-actions",
+  "name": "expo-quick-actions",
+  "desc": "Add home screen quick actions / shortcuts and custom icons to your Expo app",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "expo",
+    "kotlin",
+    "react-native",
+    "swift"
+  ],
+  "history": [],
+  "weight": 656
+}

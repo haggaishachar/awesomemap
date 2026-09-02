@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "krahabb/meross_lan",
+  "link": "https://github.com/krahabb/meross_lan",
+  "name": "meross_lan",
+  "desc": "Home Assistant integration for Meross devices",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "hacs",
+    "homeassistant",
+    "meross",
+    "meross-devices",
+    "meross-homeassistant",
+    "meross-lan"
+  ],
+  "history": [],
+  "weight": 741
+}

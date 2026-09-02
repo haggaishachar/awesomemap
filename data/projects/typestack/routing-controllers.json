@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "typestack/routing-controllers",
+  "link": "https://github.com/typestack/routing-controllers",
+  "name": "routing-controllers",
+  "desc": "Create structured, declarative and beautifully organized class-based controllers with heavy decorators usage in Express / Koa using TypeScript and Routing Controllers Framework.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "controllers",
+    "express-router",
+    "framework",
+    "koa-router",
+    "node-framework",
+    "router",
+    "typescript-framework",
+    "web-framework"
+  ],
+  "history": [],
+  "weight": 4506,
+  "image": "https://avatars.githubusercontent.com/u/24602613?v=4"
+}

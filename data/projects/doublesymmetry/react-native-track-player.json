@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "doublesymmetry/react-native-track-player",
+  "link": "https://github.com/doublesymmetry/react-native-track-player",
+  "name": "react-native-track-player",
+  "desc": "The best audio player for React Native. Built on the New Architecture — Android Auto, caching, preloading, background playback, and more.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "audio",
+    "audio-library",
+    "audio-player",
+    "ios",
+    "media-control",
+    "music-library",
+    "music-player",
+    "react-native",
+    "windows"
+  ],
+  "history": [],
+  "weight": 3707,
+  "image": "https://avatars.githubusercontent.com/u/45097382?v=4"
+}

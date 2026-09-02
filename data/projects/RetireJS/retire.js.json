@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "RetireJS/retire.js",
+  "link": "https://github.com/RetireJS/retire.js",
+  "name": "retire.js",
+  "desc": "scanner detecting the use of JavaScript libraries with known vulnerabilities. Can also generate an SBOM of the libraries it finds.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "build-tool",
+    "chrome-extension",
+    "firefox-extension",
+    "grunt-plugins",
+    "insecure-libraries",
+    "javascript",
+    "sbom",
+    "sbom-generator",
+    "sbom-tool",
+    "scanner",
+    "security",
+    "software-composition-analysis",
+    "vulnerabilities",
+    "vulnerable-libraries"
+  ],
+  "history": [],
+  "weight": 4164,
+  "image": "https://avatars.githubusercontent.com/u/10753675?v=4"
+}

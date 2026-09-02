@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "microsoft/ai-agents-for-beginners",
+  "link": "https://github.com/microsoft/ai-agents-for-beginners",
+  "name": "ai-agents-for-beginners",
+  "desc": "18 Lessons to Get Started Building AI Agents",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agentic-ai",
+    "agentic-framework",
+    "agentic-rag",
+    "ai-agents",
+    "ai-agents-framework",
+    "autogen",
+    "foundry",
+    "foundry-local",
+    "generative-ai",
+    "microsoft-foundry",
+    "semantic-kernel"
+  ],
+  "history": [],
+  "weight": 73746,
+  "image": "https://avatars.githubusercontent.com/u/6154722?v=4"
+}

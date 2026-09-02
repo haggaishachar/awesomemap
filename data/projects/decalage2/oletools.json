@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "decalage2/oletools",
+  "link": "https://github.com/decalage2/oletools",
+  "name": "oletools",
+  "desc": "oletools - python tools to analyze MS OLE2 files (Structured Storage, Compound File Binary Format) and MS Office documents, for malware analysis, forensics and debugging.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "compound",
+    "forensics",
+    "macros",
+    "malware-analysis",
+    "ms-office-documents",
+    "ole-files",
+    "olefile",
+    "parser",
+    "pyparsing",
+    "python",
+    "python-library",
+    "rtf",
+    "security",
+    "vba"
+  ],
+  "history": [],
+  "weight": 3409
+}

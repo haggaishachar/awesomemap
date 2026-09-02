@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "machinelearnjs/machinelearnjs",
+  "link": "https://github.com/machinelearnjs/machinelearnjs",
+  "name": "machinelearnjs",
+  "desc": "Machine Learning library for the web and Node.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "data-preprocessing",
+    "easy-to-use",
+    "feature-extraction",
+    "machine-learning",
+    "minimalistic",
+    "node",
+    "probabilistic-models",
+    "random-forest",
+    "statistical-learning",
+    "structured-data",
+    "svm",
+    "web"
+  ],
+  "history": [],
+  "weight": 540,
+  "image": "https://avatars.githubusercontent.com/u/44385172?v=4"
+}

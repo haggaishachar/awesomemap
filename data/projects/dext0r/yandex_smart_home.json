@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "dext0r/yandex_smart_home",
+  "link": "https://github.com/dext0r/yandex_smart_home",
+  "name": "yandex_smart_home",
+  "desc": "Управление устройствами из Home Assistant через Алису (Умный дом Яндекса) или Марусю",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "alice",
+    "home-assistant",
+    "home-assistant-component",
+    "marusia",
+    "voice-assistant",
+    "yandex"
+  ],
+  "history": [],
+  "weight": 1076
+}

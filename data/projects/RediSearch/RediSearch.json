@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "RediSearch/RediSearch",
+  "link": "https://github.com/RediSearch/RediSearch",
+  "name": "RediSearch",
+  "desc": "A query and indexing engine for Redis, providing secondary indexing, full-text search, vector similarity search and aggregations.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "fulltext",
+    "geospatial",
+    "gis",
+    "inverted-index",
+    "redis",
+    "redis-module",
+    "search",
+    "search-engine",
+    "vector-database"
+  ],
+  "history": [],
+  "weight": 6228,
+  "image": "https://avatars.githubusercontent.com/u/46899501?v=4"
+}

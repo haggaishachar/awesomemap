@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "zoontek/react-native-permissions",
+  "link": "https://github.com/zoontek/react-native-permissions",
+  "name": "react-native-permissions",
+  "desc": "An unified permissions API for React Native on iOS, Android and Windows.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "authorization",
+    "permissions",
+    "react",
+    "react-native"
+  ],
+  "history": [],
+  "weight": 4379
+}

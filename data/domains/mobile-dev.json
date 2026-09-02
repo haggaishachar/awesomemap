@@ -670,6 +670,306 @@
       "path": [
         "Developer Tooling"
       ]
+    },
+    {
+      "id": "kirillzyusko/react-native-keyboard-controller",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "lawnstarter/react-native-picker-select",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "byteburgers/react-native-autocomplete-input",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "sbycrosz/react-native-credit-card-input",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "toystars/react-native-multiple-select",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "Expensify/react-native-live-markdown",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "TheWidlarzGroup/react-native-video",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "react-native-webrtc/react-native-webrtc",
+      "path": [
+        "Networking"
+      ]
+    },
+    {
+      "id": "rnmapbox/maps",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "FaridSafi/react-native-google-places-autocomplete",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "Abhinandan-Kushwaha/react-native-gifted-charts",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "software-mansion/react-native-reanimated",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "software-mansion/react-native-gesture-handler",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "Shopify/react-native-skia",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "nativewind/nativewind",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "AppAndFlow/react-native-safe-area-context",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "oblador/react-native-keychain",
+      "path": [
+        "Storage & Persistence"
+      ]
+    },
+    {
+      "id": "nandorojo/solito",
+      "path": [
+        "Navigation"
+      ]
+    },
+    {
+      "id": "LegendApp/legend-state",
+      "path": [
+        "State Management"
+      ]
+    },
+    {
+      "id": "mrousavy/react-native-mmkv",
+      "path": [
+        "Storage & Persistence"
+      ]
+    },
+    {
+      "id": "react-native-async-storage/async-storage",
+      "path": [
+        "Storage & Persistence"
+      ]
+    },
+    {
+      "id": "OP-Engineering/op-sqlite",
+      "path": [
+        "Storage & Persistence"
+      ]
+    },
+    {
+      "id": "realm/realm-js",
+      "path": [
+        "Storage & Persistence"
+      ]
+    },
+    {
+      "id": "heyman333/react-native-responsive-fontsize",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "mrousavy/react-native-vision-camera",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "react-native-image-picker/react-native-image-picker",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "ivpusic/react-native-image-crop-picker",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "teslamotors/react-native-camera-kit",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "bamlab/react-native-image-resizer",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "doublesymmetry/react-native-track-player",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "software-mansion/react-native-audio-api",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "zmxv/react-native-sound",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "transistorsoft/react-native-background-geolocation",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "tschoffelen/react-native-map-link",
+      "path": [
+        "Navigation"
+      ]
+    },
+    {
+      "id": "zoontek/react-native-edge-to-edge",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "zoontek/react-native-localize",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "react-native-device-info/react-native-device-info",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "zoontek/react-native-permissions",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "react-native-config/react-native-config",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "morenoh149/react-native-contacts",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "wmcmahan/react-native-calendar-events",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "react-native-share/react-native-share",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "mkuczera/react-native-haptic-feedback",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "react-native-sensors/react-native-sensors",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "transistorsoft/react-native-background-fetch",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "react-native-documents/document-picker",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "EvanBacon/expo-quick-actions",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "wix/react-native-notifications",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "OneSignal/react-native-onesignal",
+      "path": [
+        "Backend-as-a-Service"
+      ]
+    },
+    {
+      "id": "proyecto26/react-native-inappbrowser",
+      "path": [
+        "UI Component Libraries"
+      ]
     }
   ]
 }

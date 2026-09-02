@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "marko-js/marko",
+  "link": "https://github.com/marko-js/marko",
+  "name": "marko",
+  "desc": "A declarative, HTML-based language that makes building web apps fun",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "client-side-rendering",
+    "dom",
+    "frontend",
+    "isomorphic",
+    "javascript",
+    "nodejs",
+    "server-side-rendering",
+    "ui-components",
+    "vdom"
+  ],
+  "history": [],
+  "weight": 14412,
+  "image": "https://avatars.githubusercontent.com/u/11873696?v=4"
+}

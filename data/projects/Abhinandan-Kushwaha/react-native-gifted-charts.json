@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "Abhinandan-Kushwaha/react-native-gifted-charts",
+  "link": "https://github.com/Abhinandan-Kushwaha/react-native-gifted-charts",
+  "name": "react-native-gifted-charts",
+  "desc": "The most loved library for Bar, Line, Area, Pie, Donut, Stacked Bar, Population Pyramid, Radar, Bubble, Scatter and Candle Stick charts in React Native. Allows 2D, 3D, gradient, animations and live data updates.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "area-chart",
+    "bar",
+    "bar-chart",
+    "barchart",
+    "bubble",
+    "candlestick-chart",
+    "charts",
+    "data-visualization",
+    "donut-chart",
+    "graph",
+    "line-charts",
+    "pie-chart",
+    "piechart",
+    "population",
+    "pyramid",
+    "pyramid-chart",
+    "radar",
+    "radar-chart",
+    "react-native",
+    "scatterplot"
+  ],
+  "history": [],
+  "weight": 1363
+}

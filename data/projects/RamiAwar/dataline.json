@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "RamiAwar/dataline",
+  "link": "https://github.com/RamiAwar/dataline",
+  "name": "dataline",
+  "desc": "Chat with your data - AI data analysis and visualization on CSV, Postgres, MySQL, Snowflake, SQLite...",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "chart",
+    "data-science",
+    "data-visualization",
+    "llm",
+    "sql"
+  ],
+  "history": [],
+  "weight": 1594
+}

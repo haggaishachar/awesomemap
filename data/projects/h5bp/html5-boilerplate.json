@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "h5bp/html5-boilerplate",
+  "link": "https://github.com/h5bp/html5-boilerplate",
+  "name": "html5-boilerplate",
+  "desc": "A professional front-end template for building fast, robust, and adaptable web apps or sites.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "best-practices",
+    "css",
+    "html",
+    "html5",
+    "html5-boilerplate",
+    "javascript",
+    "robust"
+  ],
+  "history": [],
+  "weight": 57609,
+  "image": "https://avatars.githubusercontent.com/u/1136800?v=4"
+}

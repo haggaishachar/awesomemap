@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "AlexxIT/SonoffLAN",
+  "link": "https://github.com/AlexxIT/SonoffLAN",
+  "name": "SonoffLAN",
+  "desc": "Control Sonoff Devices with eWeLink (original) firmware over LAN and/or Cloud from Home Assistant",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ewelink",
+    "hacs",
+    "home-assistant",
+    "sonoff"
+  ],
+  "history": [],
+  "weight": 3300
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "byteburgers/react-native-autocomplete-input",
+  "link": "https://github.com/byteburgers/react-native-autocomplete-input",
+  "name": "react-native-autocomplete-input",
+  "desc": "Pure javascript autocomplete input for react-native",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "autocomplete",
+    "input",
+    "ios",
+    "javascript",
+    "react-native",
+    "typescript"
+  ],
+  "history": [],
+  "weight": 871,
+  "image": "https://avatars.githubusercontent.com/u/140801012?v=4"
+}

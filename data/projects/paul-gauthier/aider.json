@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "paul-gauthier/aider",
+  "link": "https://github.com/paul-gauthier/aider",
+  "name": "aider",
+  "desc": "aider is AI pair programming in your terminal",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "anthropic",
+    "chatgpt",
+    "claude-3",
+    "cli",
+    "command-line",
+    "gemini",
+    "gpt-3",
+    "gpt-35-turbo",
+    "gpt-4",
+    "gpt-4o",
+    "llama",
+    "openai",
+    "sonnet"
+  ],
+  "history": [],
+  "weight": 48668,
+  "image": "https://avatars.githubusercontent.com/u/172139148?v=4"
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ivpusic/react-native-image-crop-picker",
+  "link": "https://github.com/ivpusic/react-native-image-crop-picker",
+  "name": "react-native-image-crop-picker",
+  "desc": "iOS/Android image picker with support for camera, video, configurable compression, multiple images and cropping",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "crop",
+    "cropping",
+    "image",
+    "ios",
+    "react",
+    "react-native",
+    "recording",
+    "video"
+  ],
+  "history": [],
+  "weight": 6350
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "hyperdxio/hyperdx",
+  "link": "https://github.com/hyperdxio/hyperdx",
+  "name": "hyperdx",
+  "desc": "Resolve production issues, fast. An open source observability platform unifying session replays, logs, metrics, traces and errors powered by ClickHouse and OpenTelemetry.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "alerting",
+    "analytics",
+    "apm",
+    "application-monitoring",
+    "clickhouse",
+    "dashboard",
+    "frontend-monitoring",
+    "kubernetes",
+    "log-management",
+    "logs",
+    "metrics",
+    "monitoring",
+    "observability",
+    "opentelemetry",
+    "react",
+    "self-hosted",
+    "session-replay",
+    "traces",
+    "typescript"
+  ],
+  "history": [],
+  "weight": 9872,
+  "image": "https://avatars.githubusercontent.com/u/130113031?v=4"
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "JuliaImages/Images.jl",
+  "link": "https://github.com/JuliaImages/Images.jl",
+  "name": "Images.jl",
+  "desc": "An image library for Julia",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "image-processing",
+    "julia"
+  ],
+  "history": [],
+  "weight": 550,
+  "image": "https://avatars.githubusercontent.com/u/13722934?v=4"
+}

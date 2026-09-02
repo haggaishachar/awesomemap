@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "maximhq/bifrost",
+  "link": "https://github.com/maximhq/bifrost",
+  "name": "bifrost",
+  "desc": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai-gateway",
+    "gateway",
+    "gateway-services",
+    "generative-ai",
+    "guardrails",
+    "llm",
+    "llm-cost",
+    "llm-gateway",
+    "llm-observability",
+    "llmops",
+    "load-balancing",
+    "mcp-client",
+    "mcp-gateway",
+    "mcp-server",
+    "model-router",
+    "token-management"
+  ],
+  "history": [],
+  "weight": 7753,
+  "image": "https://avatars.githubusercontent.com/u/139708451?v=4"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "comet-ml/opik",
+  "link": "https://github.com/comet-ml/opik",
+  "name": "opik",
+  "desc": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "evaluation",
+    "hacktoberfest",
+    "hacktoberfest2025",
+    "langchain",
+    "llama-index",
+    "llm",
+    "llm-evaluation",
+    "llm-observability",
+    "llmops",
+    "open-source",
+    "openai",
+    "playground",
+    "prompt-engineering"
+  ],
+  "history": [],
+  "weight": 21744,
+  "image": "https://avatars.githubusercontent.com/u/31487821?v=4"
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "nielsfaber/alarmo",
+  "link": "https://github.com/nielsfaber/alarmo",
+  "name": "alarmo",
+  "desc": "Easy to use alarm system integration for Home Assistant",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "alarm",
+    "assistant",
+    "hass",
+    "home",
+    "integration",
+    "lovelace",
+    "security"
+  ],
+  "history": [],
+  "weight": 2247
+}

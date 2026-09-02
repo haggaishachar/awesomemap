@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "SukramJ/homematicip_local",
+  "link": "https://github.com/SukramJ/homematicip_local",
+  "name": "homematicip_local",
+  "desc": "A custom Home Assistant component for HomeMatic(IP) that connects to OpenCCU",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ccu",
+    "custom-integration",
+    "eq-3",
+    "home-assistant",
+    "homegear",
+    "homematic",
+    "homematicip",
+    "openccu"
+  ],
+  "history": [],
+  "weight": 584
+}

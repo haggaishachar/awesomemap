@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "CERT-Polska/Artemis",
+  "link": "https://github.com/CERT-Polska/Artemis",
+  "name": "Artemis",
+  "desc": "A modular vulnerability scanner with automatic report generation capabilities.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "artemis",
+    "pentesting",
+    "security",
+    "security-scanner",
+    "security-tools",
+    "vulnerability-detection",
+    "vulnerability-scanner",
+    "web-scanner"
+  ],
+  "history": [],
+  "weight": 1203,
+  "image": "https://avatars.githubusercontent.com/u/1210616?v=4"
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "earthtojake/text-to-cad",
+  "link": "https://github.com/earthtojake/text-to-cad",
+  "name": "text-to-cad",
+  "desc": "A library of agent skills for CAD, CAE and CAM",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agents",
+    "ai-agents",
+    "cad",
+    "mechanical-engineering",
+    "robotics",
+    "step",
+    "stl",
+    "stp",
+    "text-to-cad"
+  ],
+  "history": [],
+  "weight": 14128
+}

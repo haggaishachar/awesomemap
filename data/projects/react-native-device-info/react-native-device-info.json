@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "react-native-device-info/react-native-device-info",
+  "link": "https://github.com/react-native-device-info/react-native-device-info",
+  "name": "react-native-device-info",
+  "desc": "Device Information for React Native iOS and Android",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "hacktoberfest",
+    "react-native"
+  ],
+  "history": [],
+  "weight": 6680,
+  "image": "https://avatars.githubusercontent.com/u/71155328?v=4"
+}

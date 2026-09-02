@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "aaif-goose/goose",
+  "link": "https://github.com/aaif-goose/goose",
+  "name": "goose",
+  "desc": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "acp",
+    "ai",
+    "ai-agents",
+    "mcp"
+  ],
+  "history": [],
+  "weight": 53832,
+  "image": "https://avatars.githubusercontent.com/u/271095942?v=4"
+}

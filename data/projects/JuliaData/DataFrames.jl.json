@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "JuliaData/DataFrames.jl",
+  "link": "https://github.com/JuliaData/DataFrames.jl",
+  "name": "DataFrames.jl",
+  "desc": "In-memory tabular data in Julia",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "data",
+    "data-frame",
+    "dataframes",
+    "datasets",
+    "hacktoberfest",
+    "julia",
+    "tabular-data"
+  ],
+  "history": [],
+  "weight": 1831,
+  "image": "https://avatars.githubusercontent.com/u/20142970?v=4"
+}

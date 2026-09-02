@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "fleetdm/fleet",
+  "link": "https://github.com/fleetdm/fleet",
+  "name": "fleet",
+  "desc": "Open device management",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "binary-authorization",
+    "configuration-management",
+    "device-management",
+    "gitops",
+    "ios",
+    "linux",
+    "macos",
+    "mdm",
+    "open-source",
+    "orchestration",
+    "osquery",
+    "patching",
+    "powershell",
+    "scripting",
+    "security",
+    "software-management",
+    "telemetry",
+    "vulnerability-management"
+  ],
+  "history": [],
+  "weight": 6802,
+  "image": "https://avatars.githubusercontent.com/u/70264713?v=4"
+}

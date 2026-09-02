@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "yewstack/yew",
+  "link": "https://github.com/yewstack/yew",
+  "name": "yew",
+  "desc": "Rust / Wasm framework for creating reliable and efficient web applications",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "asmjs",
+    "concurrency",
+    "elm",
+    "emscripten",
+    "gui",
+    "hacktoberfest",
+    "jsx",
+    "multithreading",
+    "rust",
+    "wasm",
+    "web",
+    "web-framework",
+    "webworkers"
+  ],
+  "history": [],
+  "weight": 32790,
+  "image": "https://avatars.githubusercontent.com/u/49116234?v=4"
+}

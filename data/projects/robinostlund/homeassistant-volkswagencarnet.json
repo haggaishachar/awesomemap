@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "robinostlund/homeassistant-volkswagencarnet",
+  "link": "https://github.com/robinostlund/homeassistant-volkswagencarnet",
+  "name": "homeassistant-volkswagencarnet",
+  "desc": "Volkswagen Carnet Component for home assistant",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "custom-component",
+    "hacs",
+    "homeassistant",
+    "volkswagen-carnet"
+  ],
+  "history": [],
+  "weight": 703
+}

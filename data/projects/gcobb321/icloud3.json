@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "gcobb321/icloud3",
+  "link": "https://github.com/gcobb321/icloud3",
+  "name": "icloud3",
+  "desc": "iCloud3 v3 - An advanced iDevice tracker that uses Apple iCloud account and HA Mobile App data for presence detection and location based automations.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "device-tracker",
+    "ha-ios",
+    "icloud",
+    "icloud-account",
+    "tracking",
+    "zone",
+    "zones"
+  ],
+  "history": [],
+  "weight": 898
+}

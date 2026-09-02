@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "layui/layui",
+  "link": "https://github.com/layui/layui",
+  "name": "layui",
+  "desc": "一套遵循浏览器原生态开发模式的 Web UI 组件库。",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "component-library",
+    "css",
+    "html",
+    "javascript",
+    "layui",
+    "ui-kit",
+    "ui-library"
+  ],
+  "history": [],
+  "weight": 30575,
+  "image": "https://avatars.githubusercontent.com/u/7955643?v=4"
+}

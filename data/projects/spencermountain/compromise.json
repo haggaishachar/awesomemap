@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "spencermountain/compromise",
+  "link": "https://github.com/spencermountain/compromise",
+  "name": "compromise",
+  "desc": "modest natural-language processing",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "named-entity-recognition",
+    "nlp",
+    "part-of-speech"
+  ],
+  "history": [],
+  "weight": 12150
+}

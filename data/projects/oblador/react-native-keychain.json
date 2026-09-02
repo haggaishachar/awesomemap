@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "oblador/react-native-keychain",
+  "link": "https://github.com/oblador/react-native-keychain",
+  "name": "react-native-keychain",
+  "desc": ":key: Keychain Access for React Native",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "ios",
+    "keychain-access",
+    "react-native"
+  ],
+  "history": [],
+  "weight": 3475
+}

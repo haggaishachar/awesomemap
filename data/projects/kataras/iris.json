@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "kataras/iris",
+  "link": "https://github.com/kataras/iris",
+  "name": "iris",
+  "desc": "The fastest HTTP/2 Go Web Framework. New, modern and easy to learn. Fast development with Code you control. Unbeatable cost-performance ratio :rocket:",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "dependency-injection",
+    "go",
+    "golang",
+    "http2",
+    "iris",
+    "mvc",
+    "sessions",
+    "web-framework",
+    "websocket"
+  ],
+  "history": [],
+  "weight": 25563
+}

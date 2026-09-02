@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "lfnovo/open-notebook",
+  "link": "https://github.com/lfnovo/open-notebook",
+  "name": "open-notebook",
+  "desc": "An Open Source implementation of Notebook LM with more flexibility and features",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "assistant",
+    "learning",
+    "note-taking",
+    "notebook",
+    "notes-app",
+    "self-learning"
+  ],
+  "history": [],
+  "weight": 38085,
+  "image": "https://raw.githubusercontent.com/lfnovo/open-notebook/main/logo.png"
+}

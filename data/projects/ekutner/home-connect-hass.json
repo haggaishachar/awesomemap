@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "ekutner/home-connect-hass",
+  "link": "https://github.com/ekutner/home-connect-hass",
+  "name": "home-connect-hass",
+  "desc": "Alternative (and improved) Home Connect integration for Home Assistant",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "home-assistant-component",
+    "home-assistant-integration",
+    "home-connect",
+    "homeconnect"
+  ],
+  "history": [],
+  "weight": 1001
+}

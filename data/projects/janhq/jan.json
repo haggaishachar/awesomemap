@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "janhq/jan",
+  "link": "https://github.com/janhq/jan",
+  "name": "jan",
+  "desc": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "chatgpt",
+    "gpt",
+    "llamacpp",
+    "llm",
+    "localai",
+    "open-source",
+    "self-hosted",
+    "tauri"
+  ],
+  "history": [],
+  "weight": 44299,
+  "image": "https://avatars.githubusercontent.com/u/102363196?v=4"
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "sbycrosz/react-native-credit-card-input",
+  "link": "https://github.com/sbycrosz/react-native-credit-card-input",
+  "name": "react-native-credit-card-input",
+  "desc": "Easy, cross-platform credit-card input for your React Native Project! Start accepting payment 💰 in your app today!",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "component",
+    "credit-card",
+    "ios",
+    "payment",
+    "react-native"
+  ],
+  "history": [],
+  "weight": 1508
+}

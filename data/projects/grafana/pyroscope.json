@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "grafana/pyroscope",
+  "link": "https://github.com/grafana/pyroscope",
+  "name": "pyroscope",
+  "desc": "Continuous Profiling Platform. Debug performance issues down to a single line of code",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "continuous-profiling",
+    "developer-tools",
+    "devops",
+    "find-bottlenecks",
+    "golang",
+    "hacktoberfest",
+    "linux",
+    "monitoring",
+    "observability",
+    "performance",
+    "profiling",
+    "pyroscope",
+    "python",
+    "ruby"
+  ],
+  "history": [],
+  "weight": 11645,
+  "image": "https://avatars.githubusercontent.com/u/7195757?v=4"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "farm-fe/farm",
+  "link": "https://github.com/farm-fe/farm",
+  "name": "farm",
+  "desc": "Extremely fast Vite-compatible web build tool written in Rust",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "build-tool",
+    "bundler",
+    "compiler",
+    "farm",
+    "frontend",
+    "hmr",
+    "rust",
+    "typescript",
+    "vite"
+  ],
+  "history": [],
+  "weight": 5590,
+  "image": "https://raw.githubusercontent.com/farm-fe/farm/main/assets/logo.png"
+}

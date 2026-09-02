@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "ccfos/nightingale",
+  "link": "https://github.com/ccfos/nightingale",
+  "name": "nightingale",
+  "desc": "Nightingale is to monitoring and alerting what Grafana is to visualization.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "alerting",
+    "ccf",
+    "metrics",
+    "monitoring",
+    "nightingale",
+    "observability",
+    "open-falcon",
+    "time-series",
+    "tsdb"
+  ],
+  "history": [],
+  "weight": 13275,
+  "image": "https://avatars.githubusercontent.com/u/96813578?v=4"
+}

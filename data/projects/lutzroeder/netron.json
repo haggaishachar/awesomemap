@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "lutzroeder/netron",
+  "link": "https://github.com/lutzroeder/netron",
+  "name": "netron",
+  "desc": "Visualizer for neural network, deep learning and machine learning models",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "coreml",
+    "deep-learning",
+    "deeplearning",
+    "keras",
+    "machine-learning",
+    "machinelearning",
+    "ml",
+    "neural-network",
+    "numpy",
+    "onnx",
+    "pytorch",
+    "safetensors",
+    "tensorflow",
+    "tensorflow-lite",
+    "visualizer"
+  ],
+  "history": [],
+  "weight": 33431
+}

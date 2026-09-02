@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "rerun-io/rerun",
+  "link": "https://github.com/rerun-io/rerun",
+  "name": "rerun",
+  "desc": "Visualize, query, and stream to train on multimodal robotics data.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "computer-vision",
+    "cpp",
+    "multimodal",
+    "python",
+    "robotics",
+    "rust",
+    "visualization"
+  ],
+  "history": [],
+  "weight": 11384,
+  "image": "https://avatars.githubusercontent.com/u/99407368?v=4"
+}

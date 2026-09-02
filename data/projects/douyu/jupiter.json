@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "douyu/jupiter",
+  "link": "https://github.com/douyu/jupiter",
+  "name": "jupiter",
+  "desc": "Jupiter: Governance-oriented Microservice Framework.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "douyu",
+    "douyutv",
+    "etcd",
+    "go",
+    "golang",
+    "governance",
+    "grpc",
+    "jupiter",
+    "metrics",
+    "microservice",
+    "trace",
+    "web-framework"
+  ],
+  "history": [],
+  "weight": 4566,
+  "image": "https://avatars.githubusercontent.com/u/61232347?v=4"
+}

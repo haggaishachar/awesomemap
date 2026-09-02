@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "dummylabs/thewatchman",
+  "link": "https://github.com/dummylabs/thewatchman",
+  "name": "thewatchman",
+  "desc": "Home Assistant custom integration to keep track of missing entities and actions in your config files",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "automation",
+    "home-assistant",
+    "homeassistant"
+  ],
+  "history": [],
+  "weight": 681
+}

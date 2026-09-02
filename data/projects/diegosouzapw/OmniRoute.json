@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "diegosouzapw/OmniRoute",
+  "link": "https://github.com/diegosouzapw/OmniRoute",
+  "name": "OmniRoute",
+  "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 550+ contributors",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "a2a",
+    "ai-agents",
+    "ai-gateway",
+    "anthropic",
+    "claude",
+    "claude-code",
+    "cline",
+    "codex",
+    "copilot",
+    "cursor",
+    "deepseek",
+    "free-ai",
+    "gemini",
+    "kimi",
+    "llm-gateway",
+    "mcp",
+    "openai",
+    "openai-proxy",
+    "qwen",
+    "token-saver"
+  ],
+  "history": [],
+  "weight": 60107
+}

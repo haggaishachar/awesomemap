@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "honojs/hono",
+  "link": "https://github.com/honojs/hono",
+  "name": "hono",
+  "desc": "Web framework built on Web Standards",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "aws-lambda",
+    "bun",
+    "cloudflare",
+    "cloudflare-workers",
+    "deno",
+    "npm",
+    "router",
+    "typescript",
+    "web-framework"
+  ],
+  "history": [],
+  "weight": 32064,
+  "image": "https://avatars.githubusercontent.com/u/98495527?v=4"
+}

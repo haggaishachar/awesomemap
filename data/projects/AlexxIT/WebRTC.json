@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "AlexxIT/WebRTC",
+  "link": "https://github.com/AlexxIT/WebRTC",
+  "name": "WebRTC",
+  "desc": "Home Assistant custom component for real-time viewing of almost any camera stream using WebRTC and other technologies.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "hacs",
+    "home-assistant",
+    "ip-camera",
+    "mediasource-extensions",
+    "rtsp",
+    "webrtc"
+  ],
+  "history": [],
+  "weight": 2171
+}

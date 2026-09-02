@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "phoenixframework/phoenix",
+  "link": "https://github.com/phoenixframework/phoenix",
+  "name": "phoenix",
+  "desc": "Peace of mind from prototype to production",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "api-server",
+    "distributed",
+    "elixir",
+    "realtime",
+    "web-framework"
+  ],
+  "history": [],
+  "weight": 23135,
+  "image": "https://raw.githubusercontent.com/phoenixframework/phoenix/main/logo.png"
+}

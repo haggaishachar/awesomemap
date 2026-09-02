@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "jspm/jspm-cli",
+  "link": "https://github.com/jspm/jspm-cli",
+  "name": "jspm-cli",
+  "desc": "Import Map Package Manager",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 3867,
+  "image": "https://avatars.githubusercontent.com/u/3802108?v=4"
+}

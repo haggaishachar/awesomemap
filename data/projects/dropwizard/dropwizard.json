@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "dropwizard/dropwizard",
+  "link": "https://github.com/dropwizard/dropwizard",
+  "name": "dropwizard",
+  "desc": "A damn simple library for building production-ready RESTful web services.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "dropwizard",
+    "hibernate",
+    "java",
+    "jax-rs",
+    "jdbi",
+    "jersey-framework",
+    "jersey2",
+    "jetty",
+    "rest",
+    "restful-webservices",
+    "web-framework"
+  ],
+  "history": [],
+  "weight": 8576,
+  "image": "https://avatars.githubusercontent.com/u/5478557?v=4"
+}

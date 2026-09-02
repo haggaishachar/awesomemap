@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "simonw/llm",
+  "link": "https://github.com/simonw/llm",
+  "name": "llm",
+  "desc": "Access large language models from the command-line",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "llms",
+    "openai"
+  ],
+  "history": [],
+  "weight": 12451
+}

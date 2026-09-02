@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "al-one/hass-xiaomi-miot",
+  "link": "https://github.com/al-one/hass-xiaomi-miot",
+  "name": "hass-xiaomi-miot",
+  "desc": "Automatic integrate all Xiaomi devices to HomeAssistant via miot-spec, support Wi-Fi, BLE, ZigBee devices. 小米米家智能家居设备接入Hass集成",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "custom-component",
+    "hass",
+    "home-assistant",
+    "home-assistant-integration",
+    "homeassistant",
+    "iot",
+    "miio",
+    "miot",
+    "miot-spec",
+    "smart-home",
+    "xiaoai",
+    "xiaomi",
+    "xiaomi-miot"
+  ],
+  "history": [],
+  "weight": 6094
+}

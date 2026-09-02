@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "openappsec/openappsec",
+  "link": "https://github.com/openappsec/openappsec",
+  "name": "openappsec",
+  "desc": "open-appsec is a machine learning security engine that preemptively and automatically prevents threats against Web Application & APIs. This repo include the main code and logic.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "api-security",
+    "application-security",
+    "appsec",
+    "devsecops",
+    "kong",
+    "kubernetes",
+    "nginx",
+    "nginx-proxy-manager",
+    "owasp",
+    "owasp-top-ten",
+    "rate-limiting",
+    "security-tools",
+    "threat-prevention",
+    "waf",
+    "web-application-firewall"
+  ],
+  "history": [],
+  "weight": 1695,
+  "image": "https://avatars.githubusercontent.com/u/107371524?v=4"
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "heyman333/react-native-responsive-fontsize",
+  "link": "https://github.com/heyman333/react-native-responsive-fontsize",
+  "name": "react-native-responsive-fontsize",
+  "desc": "🔠 Responsive fontSize based on screen-size of the device in React-Native",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "font",
+    "fontsize",
+    "git",
+    "github",
+    "react",
+    "react-native",
+    "reponsive"
+  ],
+  "history": [],
+  "weight": 740
+}

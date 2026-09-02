@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "melisgl/mgl",
+  "link": "https://github.com/melisgl/mgl",
+  "name": "mgl",
+  "desc": "Common Lisp machine learning library.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 649
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "ITSpecialist111/ai_automation_suggester",
+  "link": "https://github.com/ITSpecialist111/ai_automation_suggester",
+  "name": "ai_automation_suggester",
+  "desc": "This custom Home Assistant integration automatically scans your entities, detects new devices, and uses AI (via cloud and local APIs) to suggest tailored automations. It supports multiple AI providers, including OpenAI, Anthropic, Google, Groq, Ollama and more! The integration provides automation suggestions via HASS notifications",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "automatic-suggestions",
+    "automations",
+    "builder-design-pattern",
+    "home-assistant",
+    "suggester"
+  ],
+  "history": [],
+  "weight": 775
+}

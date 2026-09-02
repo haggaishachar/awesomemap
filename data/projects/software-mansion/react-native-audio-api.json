@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "software-mansion/react-native-audio-api",
+  "link": "https://github.com/software-mansion/react-native-audio-api",
+  "name": "react-native-audio-api",
+  "desc": "High-performance audio engine for react-native",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "api",
+    "audio",
+    "audio-processing",
+    "ios",
+    "javascript",
+    "music",
+    "react-native",
+    "sound",
+    "sound-processing",
+    "web",
+    "webaudio",
+    "webaudio-api",
+    "webaudioapi"
+  ],
+  "history": [],
+  "weight": 835,
+  "image": "https://avatars.githubusercontent.com/u/56880679?v=4"
+}

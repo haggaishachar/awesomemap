@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "mkuczera/react-native-haptic-feedback",
+  "link": "https://github.com/mkuczera/react-native-haptic-feedback",
+  "name": "react-native-haptic-feedback",
+  "desc": "Haptics that feel right: Core Haptics, AHAP files, pattern notation, and cross-platform utilities for iOS and Android.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ahap",
+    "android",
+    "haptic",
+    "haptic-feedback",
+    "haptics",
+    "ios",
+    "react-native"
+  ],
+  "history": [],
+  "weight": 978
+}

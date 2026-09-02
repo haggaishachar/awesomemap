@@ -598,6 +598,294 @@
       "path": [
         "Embedded Firmware & Dev Platforms"
       ]
+    },
+    {
+      "id": "ros-navigation/navigation2",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ]
+    },
+    {
+      "id": "nasa-jpl/open-source-rover",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ]
+    },
+    {
+      "id": "isaac-sim/IsaacLab",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ]
+    },
+    {
+      "id": "ClemensElflein/OpenMower",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ]
+    },
+    {
+      "id": "PetoiCamp/OpenCat-Quadruped-Robot",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ]
+    },
+    {
+      "id": "AlexxIT/WebRTC",
+      "path": [
+        "Camera & Security Automation"
+      ]
+    },
+    {
+      "id": "blakeblackshear/frigate-hass-integration",
+      "path": [
+        "Camera & Security Automation"
+      ]
+    },
+    {
+      "id": "fuatakgun/eufy_security",
+      "path": [
+        "Camera & Security Automation"
+      ]
+    },
+    {
+      "id": "JurajNyiri/HomeAssistant-Tapo-Control",
+      "path": [
+        "Camera & Security Automation"
+      ]
+    },
+    {
+      "id": "rroller/dahua",
+      "path": [
+        "Camera & Security Automation"
+      ]
+    },
+    {
+      "id": "nielsfaber/alarmo",
+      "path": [
+        "Camera & Security Automation"
+      ]
+    },
+    {
+      "id": "alandtse/alexa_media_player",
+      "path": [
+        "Voice Assistants"
+      ]
+    },
+    {
+      "id": "AlexxIT/YandexStation",
+      "path": [
+        "Voice Assistants"
+      ]
+    },
+    {
+      "id": "dext0r/yandex_smart_home",
+      "path": [
+        "Voice Assistants"
+      ]
+    },
+    {
+      "id": "rerun-io/rerun",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ]
+    },
+    {
+      "id": "claytonjn/hass-circadian_lighting",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "basnijholt/adaptive-lighting",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "KartoffelToby/better_thermostat",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ]
+    },
+    {
+      "id": "Tasshack/dreame-vacuum",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ]
+    },
+    {
+      "id": "AlexxIT/SonoffLAN",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "al-one/hass-xiaomi-miot",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "AlexxIT/XiaomiGateway3",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "wuwentao/midea_ac_lan",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "ollo69/ha-smartthinq-sensors",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "ekutner/home-connect-hass",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "petretiandrea/home-assistant-tapo-p100",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "albertogeniola/meross-homeassistant",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "SukramJ/homematicip_local",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "krahabb/meross_lan",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "newton-physics/newton",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ]
+    },
+    {
+      "id": "valentinfrlch/ha-llmvision",
+      "path": [
+        "Camera & Security Automation"
+      ]
+    },
+    {
+      "id": "ITSpecialist111/ai_automation_suggester",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "BottlecapDave/HomeAssistant-OctopusEnergy",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "wlcrs/huawei_solar",
+      "path": [
+        "Device Protocols & Telemetry"
+      ]
+    },
+    {
+      "id": "wills106/homeassistant-solax-modbus",
+      "path": [
+        "Device Protocols & Telemetry"
+      ]
+    },
+    {
+      "id": "davidrapan/ha-solarman",
+      "path": [
+        "Device Protocols & Telemetry"
+      ]
+    },
+    {
+      "id": "gcobb321/icloud3",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "mudape/iphonedetect",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "Hyundai-Kia-Connect/kia_uvo",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "alandtse/tesla",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "robinostlund/homeassistant-volkswagencarnet",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "dummylabs/thewatchman",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "earthtojake/text-to-cad",
+      "path": [
+        "3D Printing & Fabrication"
+      ]
+    },
+    {
+      "id": "kornia/kornia",
+      "path": [
+        "Robotics & Autonomous Systems"
+      ]
+    },
+    {
+      "id": "Adam-CAD/CADAM",
+      "path": [
+        "3D Printing & Fabrication"
+      ]
+    },
+    {
+      "id": "fondberg/spotcast",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "AlexandrErohin/home-assistant-flightradar24",
+      "path": [
+        "Home Automation Platforms"
+      ]
     }
   ]
 }

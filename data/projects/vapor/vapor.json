@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "vapor/vapor",
+  "link": "https://github.com/vapor/vapor",
+  "name": "vapor",
+  "desc": "💧 A server-side Swift HTTP web framework.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "framework",
+    "http",
+    "http2",
+    "server",
+    "server-side-swift",
+    "swift",
+    "vapor",
+    "web-framework"
+  ],
+  "history": [],
+  "weight": 26194,
+  "image": "https://avatars.githubusercontent.com/u/17364220?v=4"
+}

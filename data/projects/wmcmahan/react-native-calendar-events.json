@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "wmcmahan/react-native-calendar-events",
+  "link": "https://github.com/wmcmahan/react-native-calendar-events",
+  "name": "react-native-calendar-events",
+  "desc": "📆 React Native Module for iOS and Android Calendar Events",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "alarms",
+    "andriod",
+    "andriod-sdk",
+    "android-calendar",
+    "android-calendar-api",
+    "android-calendar-events",
+    "calendar-api",
+    "calendar-events",
+    "ios-calendar",
+    "ios-calendar-api",
+    "ios-calendar-events",
+    "ios-library",
+    "ios-sdk",
+    "react-native",
+    "react-native-module",
+    "recurring-events"
+  ],
+  "history": [],
+  "weight": 930
+}

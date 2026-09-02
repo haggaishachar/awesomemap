@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "proyecto26/react-native-inappbrowser",
+  "link": "https://github.com/proyecto26/react-native-inappbrowser",
+  "name": "react-native-inappbrowser",
+  "desc": "📱InAppBrowser for React Native (Android & iOS) 🤘",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "browser",
+    "chrome",
+    "chrome-custom-tabs",
+    "chrome-customtabs",
+    "deep-linking",
+    "deep-links",
+    "inappbrowser",
+    "ios",
+    "oauth",
+    "oauth2",
+    "react-native",
+    "react-native-library",
+    "react-native-plugin",
+    "safari",
+    "safari-services",
+    "sso-authentication",
+    "sso-login",
+    "xcode"
+  ],
+  "history": [],
+  "weight": 1416,
+  "image": "https://avatars.githubusercontent.com/u/28855608?v=4"
+}

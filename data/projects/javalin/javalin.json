@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "javalin/javalin",
+  "link": "https://github.com/javalin/javalin",
+  "name": "javalin",
+  "desc": "A simple and modern Java and Kotlin web framework",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "hacktoberfest",
+    "java",
+    "javalin",
+    "jetty",
+    "kotlin",
+    "microservice",
+    "rest-api",
+    "servlet",
+    "web-framework"
+  ],
+  "history": [],
+  "weight": 8342,
+  "image": "https://avatars.githubusercontent.com/u/28701086?v=4"
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "rwf2/Rocket",
+  "link": "https://github.com/rwf2/Rocket",
+  "name": "Rocket",
+  "desc": "A web framework for Rust.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "framework",
+    "rocket",
+    "rust",
+    "web",
+    "web-development",
+    "web-framework"
+  ],
+  "history": [],
+  "weight": 25780,
+  "image": "https://avatars.githubusercontent.com/u/106361765?v=4"
+}

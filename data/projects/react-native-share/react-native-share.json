@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "react-native-share/react-native-share",
+  "link": "https://github.com/react-native-share/react-native-share",
+  "name": "react-native-share",
+  "desc": "Social share, sending simple data to other apps.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "bridge",
+    "intent",
+    "ios",
+    "react",
+    "react-native",
+    "share",
+    "uwp"
+  ],
+  "history": [],
+  "weight": 3893,
+  "image": "https://avatars.githubusercontent.com/u/71153247?v=4"
+}

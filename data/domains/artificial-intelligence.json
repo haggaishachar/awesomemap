@@ -782,6 +782,335 @@
         "LLM Infrastructure",
         "RAG & Vector Databases"
       ]
+    },
+    {
+      "id": "QwenLM/Qwen",
+      "path": [
+        "LLM Infrastructure",
+        "Open-Weight Models & Inference"
+      ]
+    },
+    {
+      "id": "moonshotai/Kimi-K2",
+      "path": [
+        "LLM Infrastructure",
+        "Open-Weight Models & Inference"
+      ]
+    },
+    {
+      "id": "zai-org/GLM-5",
+      "path": [
+        "LLM Infrastructure",
+        "Open-Weight Models & Inference"
+      ]
+    },
+    {
+      "id": "paul-gauthier/aider",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "The-Vibe-Company/quivr",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "genkit-ai/genkit",
+      "path": [
+        "Agents & Coding",
+        "Orchestration Frameworks"
+      ]
+    },
+    {
+      "id": "RediSearch/RediSearch",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "HelixDB/helix-db",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "google-gemini/gemini-cli",
+      "path": [
+        "Agents & Coding",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": "ruvnet/ruflo",
+      "path": [
+        "Agents & Coding",
+        "Orchestration Frameworks"
+      ]
+    },
+    {
+      "id": "code-yeongyu/oh-my-openagent",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "diegosouzapw/OmniRoute",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Observability & Gateways"
+      ]
+    },
+    {
+      "id": "stablyai/orca",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "aaif-goose/goose",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "zhayujie/CowAgent",
+      "path": [
+        "Agents & Coding",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": "danny-avila/LibreChat",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Interfaces & Local Deployment"
+      ]
+    },
+    {
+      "id": "The-PR-Agent/pr-agent",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "openinterpreter/open-interpreter",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "plandex-ai/plandex",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "jupyterlab/jupyter-ai",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "Kilo-Org/kilocode",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "cyclotruc/gitingest",
+      "path": [
+        "LLM Infrastructure",
+        "Prompt Engineering & Evaluation"
+      ]
+    },
+    {
+      "id": "yamadashy/repomix",
+      "path": [
+        "LLM Infrastructure",
+        "Prompt Engineering & Evaluation"
+      ]
+    },
+    {
+      "id": "microsoft/BitNet",
+      "path": [
+        "LLM Infrastructure",
+        "Open-Weight Models & Inference"
+      ]
+    },
+    {
+      "id": "openlit/openlit",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Observability & Gateways"
+      ]
+    },
+    {
+      "id": "comet-ml/opik",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Observability & Gateways"
+      ]
+    },
+    {
+      "id": "agentset-ai/agentset",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "mnfst/manifest",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Observability & Gateways"
+      ]
+    },
+    {
+      "id": "maximhq/bifrost",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Observability & Gateways"
+      ]
+    },
+    {
+      "id": "janhq/jan",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Interfaces & Local Deployment"
+      ]
+    },
+    {
+      "id": "simonw/llm",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Interfaces & Local Deployment"
+      ]
+    },
+    {
+      "id": "alichherawalla/off-grid-mobile-ai",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Interfaces & Local Deployment"
+      ]
+    },
+    {
+      "id": "raullenchai/Rapid-MLX",
+      "path": [
+        "LLM Infrastructure",
+        "Open-Weight Models & Inference"
+      ]
+    },
+    {
+      "id": "deepseek-ai/deepseek-harness",
+      "path": [
+        "Agents & Coding",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": "microsoft/ai-agents-for-beginners",
+      "path": [
+        "Agents & Coding",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": "asgeirtj/system_prompts_leaks",
+      "path": [
+        "LLM Infrastructure",
+        "Prompt Engineering & Evaluation"
+      ]
+    },
+    {
+      "id": "lfnovo/open-notebook",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Interfaces & Local Deployment"
+      ]
+    },
+    {
+      "id": "RamiAwar/dataline",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Interfaces & Local Deployment"
+      ]
+    },
+    {
+      "id": "ExtensityAI/symbolicai",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Frameworks & Runtimes"
+      ]
+    },
+    {
+      "id": "agenta-ai/agenta",
+      "path": [
+        "Agents & Coding",
+        "No-Code AI Builders"
+      ]
+    },
+    {
+      "id": "ludwig-ai/ludwig",
+      "path": [
+        "LLM Infrastructure",
+        "MLOps & Serving"
+      ]
+    },
+    {
+      "id": "Canner/WrenAI",
+      "path": [
+        "LLM Infrastructure",
+        "RAG & Vector Databases"
+      ]
+    },
+    {
+      "id": "steel-dev/steel-browser",
+      "path": [
+        "Agents & Coding",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": "av/harbor",
+      "path": [
+        "LLM Infrastructure",
+        "LLM Interfaces & Local Deployment"
+      ]
+    },
+    {
+      "id": "mshumer/gpt-prompt-engineer",
+      "path": [
+        "LLM Infrastructure",
+        "Prompt Engineering & Evaluation"
+      ]
+    },
+    {
+      "id": "shanraisshan/claude-code-best-practice",
+      "path": [
+        "LLM Infrastructure",
+        "Prompt Engineering & Evaluation"
+      ]
+    },
+    {
+      "id": "lynote-ai/humanize-text",
+      "path": [
+        "LLM Infrastructure",
+        "Prompt Engineering & Evaluation"
+      ]
     }
   ]
 }

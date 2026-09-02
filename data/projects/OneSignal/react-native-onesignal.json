@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "OneSignal/react-native-onesignal",
+  "link": "https://github.com/OneSignal/react-native-onesignal",
+  "name": "react-native-onesignal",
+  "desc": "OneSignal makes engaging customers simple and is the fastest, most reliable service to send push notifications, in-app messages, SMS, and emails. This plugin makes it easy to integrate your React Native app with OneSignal. https://onesignal.com",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "ios",
+    "mobile",
+    "notifications",
+    "onesignal",
+    "onesignal-instructions",
+    "onesignal-notifications",
+    "push",
+    "push-notifications",
+    "react-native",
+    "react-native-onesignal"
+  ],
+  "history": [],
+  "weight": 1592,
+  "image": "https://avatars.githubusercontent.com/u/11823027?v=4"
+}

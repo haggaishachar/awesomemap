@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "DioxusLabs/dioxus",
+  "link": "https://github.com/DioxusLabs/dioxus",
+  "name": "dioxus",
+  "desc": "Fullstack app framework for web, desktop, and mobile.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "css",
+    "desktop",
+    "html",
+    "ios",
+    "native",
+    "react",
+    "rust",
+    "ssr",
+    "ui",
+    "virtualdom",
+    "wasm",
+    "web"
+  ],
+  "history": [],
+  "weight": 38945,
+  "image": "https://avatars.githubusercontent.com/u/79236386?v=4"
+}

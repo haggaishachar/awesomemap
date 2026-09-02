@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "davidrapan/ha-solarman",
+  "link": "https://github.com/davidrapan/ha-solarman",
+  "name": "ha-solarman",
+  "desc": "⚡ Solarman Stick Logger integration for 🏡 Home Assistant",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "afore",
+    "deye",
+    "energy",
+    "home-assistant",
+    "home-assistant-integration",
+    "home-automation",
+    "inverter",
+    "kstar",
+    "microtek",
+    "modbus",
+    "pylontech",
+    "pysolarmanv5",
+    "sofar",
+    "sol-ark",
+    "solar",
+    "solarman",
+    "solax",
+    "solis",
+    "sunsynk",
+    "zcs"
+  ],
+  "history": [],
+  "weight": 513
+}

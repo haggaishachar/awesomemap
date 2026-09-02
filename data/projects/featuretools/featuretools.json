@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "featuretools/featuretools",
+  "link": "https://github.com/featuretools/featuretools",
+  "name": "featuretools",
+  "desc": "An open source python library for automated feature engineering",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "automated-feature-engineering",
+    "automated-machine-learning",
+    "automl",
+    "data-science",
+    "feature-engineering",
+    "machine-learning",
+    "python",
+    "scikit-learn"
+  ],
+  "history": [],
+  "weight": 7672,
+  "image": "https://avatars.githubusercontent.com/u/12972388?v=4"
+}

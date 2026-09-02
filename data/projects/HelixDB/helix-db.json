@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "HelixDB/helix-db",
+  "link": "https://github.com/HelixDB/helix-db",
+  "name": "helix-db",
+  "desc": "HelixDB is an OLTP graph database with native vector and full-text search built in Rust on Object Storage.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "cli",
+    "database",
+    "databases",
+    "graph-database",
+    "helix",
+    "helixdb",
+    "rag",
+    "rust",
+    "rust-crate",
+    "rust-lang",
+    "vector",
+    "vector-database",
+    "vector-db",
+    "vectorsearch"
+  ],
+  "history": [],
+  "weight": 5881,
+  "image": "https://avatars.githubusercontent.com/u/189895202?v=4"
+}

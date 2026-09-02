@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "transistorsoft/react-native-background-fetch",
+  "link": "https://github.com/transistorsoft/react-native-background-fetch",
+  "name": "react-native-background-fetch",
+  "desc": "Periodic callbacks in the background for both IOS and Android",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 1609,
+  "image": "https://avatars.githubusercontent.com/u/2099918?v=4"
+}

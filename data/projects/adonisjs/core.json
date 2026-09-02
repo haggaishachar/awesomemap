@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "adonisjs/core",
+  "link": "https://github.com/adonisjs/core",
+  "name": "core",
+  "desc": "AdonisJS is a TypeScript-first web framework for building web apps and API servers. It comes with support for testing, modern tooling, an ecosystem of official packages, and more.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "core",
+    "framework",
+    "mvc-framework",
+    "nodejs",
+    "nodejs-framework",
+    "typescript",
+    "typescript-framework",
+    "web-framework"
+  ],
+  "history": [],
+  "weight": 19106,
+  "image": "https://avatars.githubusercontent.com/u/13810373?v=4"
+}

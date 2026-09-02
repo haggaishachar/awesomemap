@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "parcel-bundler/lightningcss",
+  "link": "https://github.com/parcel-bundler/lightningcss",
+  "name": "lightningcss",
+  "desc": "An extremely fast CSS parser, transformer, bundler, and minifier written in Rust.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "build-tool",
+    "compiler",
+    "css",
+    "minifier",
+    "parser",
+    "rust"
+  ],
+  "history": [],
+  "weight": 7669,
+  "image": "https://avatars.githubusercontent.com/u/32607881?v=4"
+}

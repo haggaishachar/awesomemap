@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "isaac-sim/IsaacLab",
+  "link": "https://github.com/isaac-sim/IsaacLab",
+  "name": "IsaacLab",
+  "desc": "Unified framework for robot learning built on NVIDIA Isaac Sim",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "isaac-sim",
+    "omniverse-kit-extension",
+    "robot-learning",
+    "robotics"
+  ],
+  "history": [],
+  "weight": 8026,
+  "image": "https://avatars.githubusercontent.com/u/157846462?v=4"
+}

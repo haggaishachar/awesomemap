@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "openinterpreter/open-interpreter",
+  "link": "https://github.com/openinterpreter/open-interpreter",
+  "name": "open-interpreter",
+  "desc": "A coding agent for open models like Kimi K3",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "acp",
+    "coding-agent",
+    "deepseek",
+    "kimi",
+    "qwen",
+    "rust"
+  ],
+  "history": [],
+  "weight": 68217,
+  "image": "https://avatars.githubusercontent.com/u/163192481?v=4"
+}

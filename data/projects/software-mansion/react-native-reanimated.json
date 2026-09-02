@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "software-mansion/react-native-reanimated",
+  "link": "https://github.com/software-mansion/react-native-reanimated",
+  "name": "react-native-reanimated",
+  "desc": "React Native's Animated library reimplemented",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "animation",
+    "gesture",
+    "javascript",
+    "multithreading",
+    "react-native",
+    "react-native-reanimated",
+    "react-native-worklets",
+    "worklets"
+  ],
+  "history": [],
+  "weight": 10974,
+  "image": "https://avatars.githubusercontent.com/u/56880679?v=4"
+}

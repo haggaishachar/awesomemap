@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "zoontek/react-native-localize",
+  "link": "https://github.com/zoontek/react-native-localize",
+  "name": "react-native-localize",
+  "desc": "🌍 A toolbox for your React Native app localization",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "globalization",
+    "i18n",
+    "internationalization",
+    "ios",
+    "language-detection",
+    "react-native"
+  ],
+  "history": [],
+  "weight": 2443
+}

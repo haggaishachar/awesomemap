@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "cyclotruc/gitingest",
+  "link": "https://github.com/cyclotruc/gitingest",
+  "name": "gitingest",
+  "desc": "Replace 'hub' with 'ingest' in any GitHub URL to get a prompt-friendly extract of a codebase ",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "code",
+    "developer-tool",
+    "ingestion"
+  ],
+  "history": [],
+  "weight": 15375,
+  "image": "https://avatars.githubusercontent.com/u/219437526?v=4"
+}

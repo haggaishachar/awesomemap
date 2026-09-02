@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "GiovineItalia/Gadfly.jl",
+  "link": "https://github.com/GiovineItalia/Gadfly.jl",
+  "name": "Gadfly.jl",
+  "desc": "Crafty statistical graphics for Julia.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "gadfly",
+    "ggplot2",
+    "graphics",
+    "hacktoberfest",
+    "julia",
+    "plotting"
+  ],
+  "history": [],
+  "weight": 1927,
+  "image": "https://avatars.githubusercontent.com/u/22759808?v=4"
+}

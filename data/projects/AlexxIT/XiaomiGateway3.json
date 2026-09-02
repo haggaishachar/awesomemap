@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "AlexxIT/XiaomiGateway3",
+  "link": "https://github.com/AlexxIT/XiaomiGateway3",
+  "name": "XiaomiGateway3",
+  "desc": "Home Assistant custom component for control Xiaomi Multimode Gateway (aka Gateway 3), Xiaomi Multimode Gateway 2, Aqara Hub E1 on default firmwares over LAN",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "aqara",
+    "ble",
+    "hacs",
+    "home-assistant",
+    "matter",
+    "mesh",
+    "mihome",
+    "xiaomi",
+    "zha",
+    "zigbee",
+    "zigbee2mqtt"
+  ],
+  "history": [],
+  "weight": 2778,
+  "image": "https://raw.githubusercontent.com/AlexxIT/XiaomiGateway3/master/assets/logo.png"
+}

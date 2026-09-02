@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "teslamotors/react-native-camera-kit",
+  "link": "https://github.com/teslamotors/react-native-camera-kit",
+  "name": "react-native-camera-kit",
+  "desc": "A high performance, easy to use, rock solid camera library for React Native apps.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "camera",
+    "ios",
+    "react-native"
+  ],
+  "history": [],
+  "weight": 2705,
+  "image": "https://avatars.githubusercontent.com/u/3066035?v=4"
+}

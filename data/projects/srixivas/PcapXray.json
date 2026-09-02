@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "srixivas/PcapXray",
+  "link": "https://github.com/srixivas/PcapXray",
+  "name": "PcapXray",
+  "desc": ":snowflake: PcapXray - A Network Forensics Tool - To visualize a Packet Capture offline as a Network Diagram including device identification, highlight important communication and file extraction",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "computer-forensics",
+    "cybersecurity",
+    "forensic-analysis",
+    "forensics",
+    "network",
+    "network-diagram",
+    "packets",
+    "pcap",
+    "python",
+    "security",
+    "tor",
+    "tor-traffic",
+    "traffic"
+  ],
+  "history": [],
+  "weight": 1874,
+  "image": "https://raw.githubusercontent.com/srixivas/PcapXray/master/logo.png"
+}

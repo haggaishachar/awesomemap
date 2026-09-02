@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "Tasshack/dreame-vacuum",
+  "link": "https://github.com/Tasshack/dreame-vacuum",
+  "name": "dreame-vacuum",
+  "desc": "Home Assistant integration for Dreame robot vacuums with map support",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "app",
+    "automation",
+    "cloud",
+    "dreame",
+    "dreamehome",
+    "dreametech",
+    "hacs",
+    "home-assistant",
+    "home-assistant-custom-component",
+    "homeassistant",
+    "integration",
+    "map",
+    "mi-home",
+    "miio",
+    "robot",
+    "vacuum",
+    "vacuum-map",
+    "xiaomi"
+  ],
+  "history": [],
+  "weight": 2162
+}

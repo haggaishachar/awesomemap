@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "trunk-rs/trunk",
+  "link": "https://github.com/trunk-rs/trunk",
+  "name": "trunk",
+  "desc": "Build, bundle & ship your Rust WASM application to the web.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "assets",
+    "build-tool",
+    "bundler",
+    "compiler",
+    "html",
+    "rust",
+    "sass",
+    "scss",
+    "wasm",
+    "wasm-bindgen"
+  ],
+  "history": [],
+  "weight": 4384,
+  "image": "https://avatars.githubusercontent.com/u/84425504?v=4"
+}

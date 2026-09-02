@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "microsoft/BitNet",
+  "link": "https://github.com/microsoft/BitNet",
+  "name": "BitNet",
+  "desc": "Official inference framework for 1-bit LLMs",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 40220,
+  "image": "https://avatars.githubusercontent.com/u/6154722?v=4"
+}

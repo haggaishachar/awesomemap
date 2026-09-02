@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "ros-navigation/navigation2",
+  "link": "https://github.com/ros-navigation/navigation2",
+  "name": "navigation2",
+  "desc": "ROS 2 Navigation Framework and System",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "navigation",
+    "robotics",
+    "ros2"
+  ],
+  "history": [],
+  "weight": 4653,
+  "image": "https://avatars.githubusercontent.com/u/150733807?v=4"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "sanic-org/sanic",
+  "link": "https://github.com/sanic-org/sanic",
+  "name": "sanic",
+  "desc": " Accelerate your web app development  | Build fast. Run fast.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "api-server",
+    "asgi",
+    "asyncio",
+    "framework",
+    "python",
+    "sanic",
+    "web",
+    "web-framework",
+    "web-server"
+  ],
+  "history": [],
+  "weight": 18645,
+  "image": "https://avatars.githubusercontent.com/u/25215992?v=4"
+}

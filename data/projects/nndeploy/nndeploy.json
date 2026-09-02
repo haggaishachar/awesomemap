@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "nndeploy/nndeploy",
+  "link": "https://github.com/nndeploy/nndeploy",
+  "name": "nndeploy",
+  "desc": "一款简单易用和高性能的AI部署框架 | An Easy-to-Use and High-Performance AI Deployment Framework",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "ascend",
+    "deep-learning",
+    "deployment",
+    "diffusers",
+    "genai",
+    "llm",
+    "low-code",
+    "low-code-platform",
+    "mnn",
+    "no-code",
+    "onnxruntime",
+    "openvino",
+    "python",
+    "pytorch",
+    "tensorrt",
+    "transformer",
+    "workflow"
+  ],
+  "history": [],
+  "weight": 1871,
+  "image": "https://avatars.githubusercontent.com/u/147458884?v=4"
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "nrwl/nx",
+  "link": "https://github.com/nrwl/nx",
+  "name": "nx",
+  "desc": "The Monorepo Platform that amplifies both developers and AI agents. Nx optimizes your builds, scales your CI, and fixes failed PRs automatically. Ship in half the time.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "angular",
+    "build",
+    "build-system",
+    "build-tool",
+    "building-tool",
+    "cli",
+    "cypress",
+    "hacktoberfest",
+    "javascript",
+    "monorepo",
+    "nextjs",
+    "nodejs",
+    "nx",
+    "nx-workspaces",
+    "react",
+    "storybook",
+    "typescript"
+  ],
+  "history": [],
+  "weight": 29295,
+  "image": "https://avatars.githubusercontent.com/u/23692104?v=4"
+}

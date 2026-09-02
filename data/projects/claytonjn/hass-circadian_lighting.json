@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "claytonjn/hass-circadian_lighting",
+  "link": "https://github.com/claytonjn/hass-circadian_lighting",
+  "name": "hass-circadian_lighting",
+  "desc": "Circadian Lighting custom component for Home Assistant",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "circadian",
+    "circadian-rhythms",
+    "hacs",
+    "home-assistant",
+    "lighting",
+    "sleep",
+    "wellness"
+  ],
+  "history": [],
+  "weight": 897
+}

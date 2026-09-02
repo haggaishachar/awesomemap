@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "evilsocket/opensnitch",
+  "link": "https://github.com/evilsocket/opensnitch",
+  "name": "opensnitch",
+  "desc": "OpenSnitch is a GNU/Linux interactive application firewall inspired by Little Snitch.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "application-firewall",
+    "data-breach",
+    "firewall",
+    "linux",
+    "networking",
+    "security"
+  ],
+  "history": [],
+  "weight": 14025
+}

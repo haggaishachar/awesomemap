@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "BottlecapDave/HomeAssistant-OctopusEnergy",
+  "link": "https://github.com/BottlecapDave/HomeAssistant-OctopusEnergy",
+  "name": "HomeAssistant-OctopusEnergy",
+  "desc": "Unofficial Home Assistant integration for interacting with Octopus Energy",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "energy-consumption",
+    "home-assistant",
+    "home-automation",
+    "octopus-energy",
+    "smart-home"
+  ],
+  "history": [],
+  "weight": 995
+}

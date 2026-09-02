@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "bountyyfi/lonkero",
+  "link": "https://github.com/bountyyfi/lonkero",
+  "name": "lonkero",
+  "desc": "Lonkero - Wraps around your attack surface.  Professional-grade scanner for real penetration testing. Fast. Modular. Rust.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "appsec",
+    "cve-scanning",
+    "cybersecurity",
+    "hackers",
+    "offensive-security",
+    "pentesting",
+    "pentesting-tools",
+    "rust",
+    "security",
+    "security-automation",
+    "security-tools",
+    "vulnerability-assessment",
+    "vulnerability-scanners",
+    "waf",
+    "web-application-security",
+    "web-pentest",
+    "web-security",
+    "webscanner",
+    "websecurity",
+    "xss"
+  ],
+  "history": [],
+  "weight": 1052
+}

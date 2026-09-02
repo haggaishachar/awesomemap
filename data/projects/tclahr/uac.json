@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "tclahr/uac",
+  "link": "https://github.com/tclahr/uac",
+  "name": "uac",
+  "desc": "UAC is a powerful and extensible incident response tool designed for forensic investigators, security analysts, and IT professionals. It automates the collection of artifacts from a wide range of Unix-like systems, including AIX, ESXi, FreeBSD, Linux, macOS, NetBSD, NetScaler, OpenBSD and Solaris.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "aix",
+    "collector",
+    "computer-forensics",
+    "dfir",
+    "esxi",
+    "forensics",
+    "freebsd",
+    "incident-response",
+    "linux",
+    "live-response",
+    "macos",
+    "netbsd",
+    "netscaler",
+    "openbsd",
+    "script",
+    "security",
+    "shell",
+    "solaris",
+    "terminal",
+    "triage"
+  ],
+  "history": [],
+  "weight": 1441
+}

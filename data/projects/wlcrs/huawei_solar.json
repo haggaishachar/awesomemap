@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "wlcrs/huawei_solar",
+  "link": "https://github.com/wlcrs/huawei_solar",
+  "name": "huawei_solar",
+  "desc": "Home Assistant integration for Huawei Solar inverters via Modbus",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "home-assistant",
+    "home-assistant-integration",
+    "huawei",
+    "huawei-solar",
+    "modbus",
+    "modbus-rtu",
+    "modbus-tcp",
+    "solar-energy"
+  ],
+  "history": [],
+  "weight": 926
+}

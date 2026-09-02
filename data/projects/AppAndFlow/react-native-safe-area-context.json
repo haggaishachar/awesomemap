@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "AppAndFlow/react-native-safe-area-context",
+  "link": "https://github.com/AppAndFlow/react-native-safe-area-context",
+  "name": "react-native-safe-area-context",
+  "desc": "A flexible way to handle safe area insets in JS. Also works on Android and Web! ",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "ios",
+    "react",
+    "react-native",
+    "safeareainsets",
+    "web"
+  ],
+  "history": [],
+  "weight": 2756,
+  "image": "https://avatars.githubusercontent.com/u/15523393?v=4"
+}

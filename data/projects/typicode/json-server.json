@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "typicode/json-server",
+  "link": "https://github.com/typicode/json-server",
+  "name": "json-server",
+  "desc": "Get a full fake REST API with zero coding in less than 30 seconds (seriously)",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "api",
+    "fake",
+    "frontend",
+    "json",
+    "mock",
+    "rest",
+    "test"
+  ],
+  "history": [],
+  "weight": 75696
+}

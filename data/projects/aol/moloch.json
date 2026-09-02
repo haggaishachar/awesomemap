@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "aol/moloch",
+  "link": "https://github.com/aol/moloch",
+  "name": "moloch",
+  "desc": "Arkime is an open source, large scale, full packet capturing, indexing, and database system.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "big-data",
+    "c",
+    "javascript",
+    "network-monitoring",
+    "nsm",
+    "packet-capture",
+    "pcap",
+    "security"
+  ],
+  "history": [],
+  "weight": 7460,
+  "image": "https://avatars.githubusercontent.com/u/71138764?v=4"
+}

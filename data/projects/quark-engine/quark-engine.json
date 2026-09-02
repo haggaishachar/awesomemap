@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "quark-engine/quark-engine",
+  "link": "https://github.com/quark-engine/quark-engine",
+  "name": "quark-engine",
+  "desc": "",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "blackbox",
+    "blackhat",
+    "defcon",
+    "malware-analysis",
+    "malware-detection"
+  ],
+  "history": [],
+  "weight": 1714,
+  "image": "https://avatars.githubusercontent.com/u/57204411?v=4"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "rabbitstack/fibratus",
+  "link": "https://github.com/rabbitstack/fibratus",
+  "name": "fibratus",
+  "desc": "Security sensor for realtime threat detection and protection",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "blue-team",
+    "detection-engineering",
+    "endpoint-detection-response",
+    "endpoint-security",
+    "etw",
+    "forencics",
+    "instrumentation",
+    "malware-detection",
+    "mitre-attack",
+    "purple-team",
+    "red-team",
+    "security",
+    "security-tools",
+    "threat-detection",
+    "threat-hunting",
+    "windows",
+    "windows-kernel",
+    "windows-security",
+    "yara"
+  ],
+  "history": [],
+  "weight": 2536,
+  "image": "https://raw.githubusercontent.com/rabbitstack/fibratus/master/logo.svg"
+}

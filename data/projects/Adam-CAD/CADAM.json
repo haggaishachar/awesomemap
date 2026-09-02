@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "Adam-CAD/CADAM",
+  "link": "https://github.com/Adam-CAD/CADAM",
+  "name": "CADAM",
+  "desc": "CADAM is the open source text-to-CAD web application",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agents",
+    "ai",
+    "ai-agents",
+    "cad",
+    "llms",
+    "mechnical-engineering",
+    "openscad",
+    "react",
+    "robotics",
+    "stl",
+    "text-to-cad",
+    "wasm"
+  ],
+  "history": [],
+  "weight": 5075,
+  "image": "https://avatars.githubusercontent.com/u/193529322?v=4"
+}

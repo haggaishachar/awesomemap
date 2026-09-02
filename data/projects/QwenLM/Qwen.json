@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "QwenLM/Qwen",
+  "link": "https://github.com/QwenLM/Qwen",
+  "name": "Qwen",
+  "desc": "The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "chinese",
+    "flash-attention",
+    "large-language-models",
+    "llm",
+    "natural-language-processing",
+    "pretrained-models"
+  ],
+  "history": [],
+  "weight": 21689,
+  "image": "https://avatars.githubusercontent.com/u/141221163?v=4"
+}

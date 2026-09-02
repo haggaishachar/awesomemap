@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "juliangarnier/anime",
+  "link": "https://github.com/juliangarnier/anime",
+  "name": "anime",
+  "desc": "JavaScript animation engine",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "animation",
+    "anime",
+    "canvas",
+    "css",
+    "javascript",
+    "javascript-library",
+    "svg"
+  ],
+  "history": [],
+  "weight": 72596
+}

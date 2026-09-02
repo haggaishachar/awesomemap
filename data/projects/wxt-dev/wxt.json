@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "wxt-dev/wxt",
+  "link": "https://github.com/wxt-dev/wxt",
+  "name": "wxt",
+  "desc": "⚡ Next-gen Web Extension Framework",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "build-tool",
+    "chrome-extensions",
+    "dev-server",
+    "hmr",
+    "wxt"
+  ],
+  "history": [],
+  "weight": 10442,
+  "image": "https://avatars.githubusercontent.com/u/144182268?v=4"
+}

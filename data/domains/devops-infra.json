@@ -652,6 +652,54 @@
       "path": [
         "Infrastructure as Code"
       ]
+    },
+    {
+      "id": "thanos-io/thanos",
+      "path": [
+        "Monitoring & Observability"
+      ]
+    },
+    {
+      "id": "ccfos/nightingale",
+      "path": [
+        "Monitoring & Observability"
+      ]
+    },
+    {
+      "id": "hyperdxio/hyperdx",
+      "path": [
+        "Monitoring & Observability"
+      ]
+    },
+    {
+      "id": "highlight/highlight",
+      "path": [
+        "Monitoring & Observability"
+      ]
+    },
+    {
+      "id": "kubeshark/kubeshark",
+      "path": [
+        "Monitoring & Observability"
+      ]
+    },
+    {
+      "id": "grafana/pyroscope",
+      "path": [
+        "Monitoring & Observability"
+      ]
+    },
+    {
+      "id": "openstatusHQ/openstatus",
+      "path": [
+        "Monitoring & Observability"
+      ]
+    },
+    {
+      "id": "Tracer-Cloud/opensre",
+      "path": [
+        "Monitoring & Observability"
+      ]
     }
   ]
 }

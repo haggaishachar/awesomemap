@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "react-native-config/react-native-config",
+  "link": "https://github.com/react-native-config/react-native-config",
+  "name": "react-native-config",
+  "desc": "Bring some 12 factor love to your mobile apps!",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 4956,
+  "image": "https://raw.githubusercontent.com/react-native-config/react-native-config/master/brand/logo.svg"
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "OP-Engineering/op-sqlite",
+  "link": "https://github.com/OP-Engineering/op-sqlite",
+  "name": "op-sqlite",
+  "desc": "Fastest SQLite library for react-native by @ospfranco",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "jsi",
+    "react-native",
+    "sqlite"
+  ],
+  "history": [],
+  "weight": 1032,
+  "image": "https://avatars.githubusercontent.com/u/150026057?v=4"
+}

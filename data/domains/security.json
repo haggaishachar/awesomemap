@@ -742,6 +742,210 @@
       "path": [
         "SIEM & Threat Detection"
       ]
+    },
+    {
+      "id": "WithSecureLabs/chainsaw",
+      "path": [
+        "Forensics & Reverse Engineering"
+      ]
+    },
+    {
+      "id": "decalage2/oletools",
+      "path": [
+        "Forensics & Reverse Engineering"
+      ]
+    },
+    {
+      "id": "google/timesketch",
+      "path": [
+        "Forensics & Reverse Engineering"
+      ]
+    },
+    {
+      "id": "Yamato-Security/hayabusa",
+      "path": [
+        "Forensics & Reverse Engineering"
+      ]
+    },
+    {
+      "id": "log2timeline/plaso",
+      "path": [
+        "Forensics & Reverse Engineering"
+      ]
+    },
+    {
+      "id": "srixivas/PcapXray",
+      "path": [
+        "Forensics & Reverse Engineering"
+      ]
+    },
+    {
+      "id": "simsong/tcpflow",
+      "path": [
+        "Forensics & Reverse Engineering"
+      ]
+    },
+    {
+      "id": "RyanDFIR/hindsight",
+      "path": [
+        "Forensics & Reverse Engineering"
+      ]
+    },
+    {
+      "id": "tclahr/uac",
+      "path": [
+        "Forensics & Reverse Engineering"
+      ]
+    },
+    {
+      "id": "deepfence/SecretScanner",
+      "path": [
+        "Secrets Management"
+      ]
+    },
+    {
+      "id": "rabbitstack/fibratus",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
+    },
+    {
+      "id": "tenzir/vast",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
+    },
+    {
+      "id": "aol/moloch",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
+    },
+    {
+      "id": "Neo23x0/Loki",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
+    },
+    {
+      "id": "quark-engine/quark-engine",
+      "path": [
+        "Forensics & Reverse Engineering"
+      ]
+    },
+    {
+      "id": "frida/frida",
+      "path": [
+        "Forensics & Reverse Engineering"
+      ]
+    },
+    {
+      "id": "504ensicsLabs/LiME",
+      "path": [
+        "Forensics & Reverse Engineering"
+      ]
+    },
+    {
+      "id": "soxoj/maigret",
+      "path": [
+        "Network Scanning & Recon"
+      ]
+    },
+    {
+      "id": "certtools/intelmq",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
+    },
+    {
+      "id": "bunkerity/bunkerweb",
+      "path": [
+        "Web App Security"
+      ]
+    },
+    {
+      "id": "openappsec/openappsec",
+      "path": [
+        "Web App Security"
+      ]
+    },
+    {
+      "id": "lirantal/is-website-vulnerable",
+      "path": [
+        "Web App Security"
+      ]
+    },
+    {
+      "id": "CERT-Polska/Artemis",
+      "path": [
+        "Vulnerability Scanning"
+      ]
+    },
+    {
+      "id": "baidu/openrasp",
+      "path": [
+        "Web App Security"
+      ]
+    },
+    {
+      "id": "tfsec/tfsec",
+      "path": [
+        "Container & Cloud Security"
+      ]
+    },
+    {
+      "id": "99designs/aws-vault",
+      "path": [
+        "Secrets Management"
+      ]
+    },
+    {
+      "id": "PabloLec/RecoverPy",
+      "path": [
+        "Forensics & Reverse Engineering"
+      ]
+    },
+    {
+      "id": "cecio/USBvalve",
+      "path": [
+        "Forensics & Reverse Engineering"
+      ]
+    },
+    {
+      "id": "bountyyfi/lonkero",
+      "path": [
+        "Vulnerability Scanning"
+      ]
+    },
+    {
+      "id": "RedTeamPentesting/monsoon",
+      "path": [
+        "Web App Security"
+      ]
+    },
+    {
+      "id": "evilsocket/opensnitch",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
+    },
+    {
+      "id": "certsocietegenerale/FIR",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
+    },
+    {
+      "id": "fleetdm/fleet",
+      "path": [
+        "SIEM & Threat Detection"
+      ]
+    },
+    {
+      "id": "cossacklabs/acra",
+      "path": [
+        "Web App Security"
+      ]
     }
   ]
 }

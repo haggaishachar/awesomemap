@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "wuwentao/midea_ac_lan",
+  "link": "https://github.com/wuwentao/midea_ac_lan",
+  "name": "midea_ac_lan",
+  "desc": "Auto-configure and then control your Midea M-Smart devices (Air conditioner, Fan, Water heater, Washer, etc) via local area network.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "air-conditioner",
+    "air-purifier",
+    "cooker",
+    "dehumidifier",
+    "dishwasher",
+    "hacs",
+    "hacs-integration",
+    "home-assistant",
+    "humidifier",
+    "midea",
+    "refrigerator",
+    "wash",
+    "water-heater"
+  ],
+  "history": [],
+  "weight": 1868
+}

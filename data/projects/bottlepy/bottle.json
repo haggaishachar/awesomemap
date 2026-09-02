@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "bottlepy/bottle",
+  "link": "https://github.com/bottlepy/bottle",
+  "name": "bottle",
+  "desc": "bottle.py is a fast and simple micro-framework for python web-applications.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "bottle",
+    "python",
+    "rest",
+    "web-framework",
+    "wsgi"
+  ],
+  "history": [],
+  "weight": 8779,
+  "image": "https://avatars.githubusercontent.com/u/1019799?v=4"
+}

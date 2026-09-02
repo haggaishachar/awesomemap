@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "Tracer-Cloud/opensre",
+  "link": "https://github.com/Tracer-Cloud/opensre",
+  "name": "opensre",
+  "desc": "Build your own AI SRE agents. The open source toolkit for the AI era.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai-sre",
+    "alerting",
+    "datadog",
+    "grafana",
+    "incident-management",
+    "observability",
+    "remediation",
+    "root-cause-analysis",
+    "site-reliability-engineering",
+    "slack",
+    "sre"
+  ],
+  "history": [],
+  "weight": 10990,
+  "image": "https://avatars.githubusercontent.com/u/196393879?v=4"
+}

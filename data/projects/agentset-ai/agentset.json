@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "agentset-ai/agentset",
+  "link": "https://github.com/agentset-ai/agentset",
+  "name": "agentset",
+  "desc": "The open-source RAG platform: built-in citations, deep research, 22+ file formats, partitions, MCP server, and more.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agentic-rag",
+    "ai",
+    "ai-agents",
+    "ai-sdk",
+    "chatbots",
+    "embeddings",
+    "genai",
+    "llms",
+    "memory",
+    "memory-management",
+    "rag",
+    "vercel-ai-sdk"
+  ],
+  "history": [],
+  "weight": 2079,
+  "image": "https://avatars.githubusercontent.com/u/200139246?v=4"
+}

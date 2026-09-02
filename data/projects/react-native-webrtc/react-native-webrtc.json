@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "react-native-webrtc/react-native-webrtc",
+  "link": "https://github.com/react-native-webrtc/react-native-webrtc",
+  "name": "react-native-webrtc",
+  "desc": "The WebRTC module for React Native",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "react",
+    "react-native",
+    "webrtc"
+  ],
+  "history": [],
+  "weight": 4991,
+  "image": "https://avatars.githubusercontent.com/u/42463376?v=4"
+}

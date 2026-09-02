@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "fuatakgun/eufy_security",
+  "link": "https://github.com/fuatakgun/eufy_security",
+  "name": "eufy_security",
+  "desc": "Home Assistant integration to manage Eufy Security devices as cameras, home base stations, doorbells, motion and contact sensors.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "camera",
+    "eufy",
+    "eufycam",
+    "eufysecurity",
+    "home-assistant",
+    "homeassistant",
+    "homeassistant-integration",
+    "rtsp",
+    "security"
+  ],
+  "history": [],
+  "weight": 1387
+}

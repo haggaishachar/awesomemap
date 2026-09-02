@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "agenta-ai/agenta",
+  "link": "https://github.com/agenta-ai/agenta",
+  "name": "agenta",
+  "desc": "Agenta is a workspace where you and your team build agents and automations.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agent-builder",
+    "agent-observability",
+    "agent-orchestration",
+    "agent-workspace",
+    "agentic-ai",
+    "ai-agent",
+    "ai-agents",
+    "ai-automation",
+    "ai-coworker",
+    "ai-skills-manager",
+    "ai-workflow-builder",
+    "harness",
+    "mcp",
+    "open-source",
+    "self-hosted",
+    "workflow-automation"
+  ],
+  "history": [],
+  "weight": 4675,
+  "image": "https://avatars.githubusercontent.com/u/127993667?v=4"
+}

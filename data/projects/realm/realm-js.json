@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "realm/realm-js",
+  "link": "https://github.com/realm/realm-js",
+  "name": "realm-js",
+  "desc": " Realm is a mobile database: an alternative to SQLite & key-value stores",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "mobile-database",
+    "mobile-first",
+    "nosql-database",
+    "reactive",
+    "reactnative",
+    "realm",
+    "realm-mobile-database",
+    "realtime-database"
+  ],
+  "history": [],
+  "weight": 6004,
+  "image": "https://avatars.githubusercontent.com/u/7575099?v=4"
+}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "fondberg/spotcast",
+  "link": "https://github.com/fondberg/spotcast",
+  "name": "spotcast",
+  "desc": "Home assistant custom component to start Spotify playback on an idle chromecast device as well as control spotify connect devices",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 814
+}

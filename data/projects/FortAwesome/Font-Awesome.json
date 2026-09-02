@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "FortAwesome/Font-Awesome",
+  "link": "https://github.com/FortAwesome/Font-Awesome",
+  "name": "Font-Awesome",
+  "desc": "The iconic SVG, font, and CSS toolkit",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "css",
+    "font",
+    "fontawesome",
+    "icons",
+    "svg-icons",
+    "svg-sprites",
+    "webfont"
+  ],
+  "history": [],
+  "weight": 76897,
+  "image": "https://avatars.githubusercontent.com/u/1505683?v=4"
+}

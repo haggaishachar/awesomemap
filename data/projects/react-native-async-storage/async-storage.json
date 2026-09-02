@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "react-native-async-storage/async-storage",
+  "link": "https://github.com/react-native-async-storage/async-storage",
+  "name": "async-storage",
+  "desc": "An asynchronous, persistent, key-value storage system for React Native.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 5071,
+  "image": "https://raw.githubusercontent.com/react-native-async-storage/async-storage/main/docs/assets/logo.png"
+}

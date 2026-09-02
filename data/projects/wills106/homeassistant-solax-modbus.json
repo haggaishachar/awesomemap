@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "wills106/homeassistant-solax-modbus",
+  "link": "https://github.com/wills106/homeassistant-solax-modbus",
+  "name": "homeassistant-solax-modbus",
+  "desc": "SolaX Power Modbus custom_component for Home Assistant (Supports some AlphaESS, Growatt, Sofar, Solinteg, Solis, SRNE, Swatten)",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "alphaess",
+    "growatt",
+    "hacs",
+    "home-assistant",
+    "home-automation",
+    "homeassistant",
+    "integration",
+    "modbus",
+    "modbus-rtu",
+    "modbus-serial",
+    "modbus-tcp",
+    "python",
+    "qcells",
+    "rs485",
+    "sofar",
+    "solax",
+    "solinteg",
+    "solis",
+    "srne",
+    "swatten"
+  ],
+  "history": [],
+  "weight": 512
+}

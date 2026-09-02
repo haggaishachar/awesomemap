@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "rl-tools/rl-tools",
+  "link": "https://github.com/rl-tools/rl-tools",
+  "name": "rl-tools",
+  "desc": "The Fastest Deep Reinforcement Learning Library",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "continuous-control",
+    "cpp",
+    "deep-learning",
+    "mujoco",
+    "reinforcement-learning",
+    "robotics",
+    "tinyml",
+    "tinyrl"
+  ],
+  "history": [],
+  "weight": 1032,
+  "image": "https://avatars.githubusercontent.com/u/145876122?v=4"
+}

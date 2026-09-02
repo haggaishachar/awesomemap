@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "web-infra-dev/modern.js",
+  "link": "https://github.com/web-infra-dev/modern.js",
+  "name": "modern.js",
+  "desc": "A progressive web framework based on React and Rsbuild.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "boilerplate",
+    "build-tool",
+    "framework",
+    "react",
+    "rspack",
+    "ssr",
+    "web",
+    "webpack",
+    "website"
+  ],
+  "history": [],
+  "weight": 5038,
+  "image": "https://avatars.githubusercontent.com/u/87694465?v=4"
+}

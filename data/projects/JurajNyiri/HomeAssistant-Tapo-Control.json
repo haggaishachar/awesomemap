@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "JurajNyiri/HomeAssistant-Tapo-Control",
+  "link": "https://github.com/JurajNyiri/HomeAssistant-Tapo-Control",
+  "name": "HomeAssistant-Tapo-Control",
+  "desc": "Control for Tapo cameras as a Home Assistant component",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "camera",
+    "cameras",
+    "home-assistant",
+    "home-automation",
+    "homeassistant",
+    "homeassistant-custom-component",
+    "ptz",
+    "tapo"
+  ],
+  "history": [],
+  "weight": 1987
+}

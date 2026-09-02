@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "tschoffelen/react-native-map-link",
+  "link": "https://github.com/tschoffelen/react-native-map-link",
+  "name": "react-native-map-link",
+  "desc": "🗺 Open the map app of the user's choice.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "directions",
+    "ios",
+    "maps",
+    "react-native"
+  ],
+  "history": [],
+  "weight": 821
+}

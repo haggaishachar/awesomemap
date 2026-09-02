@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "tfsec/tfsec",
+  "link": "https://github.com/tfsec/tfsec",
+  "name": "tfsec",
+  "desc": "Tfsec is now part of Trivy",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "aws",
+    "azure",
+    "ci",
+    "compliance",
+    "devops",
+    "devsecops",
+    "digitalocean",
+    "go",
+    "google-cloud-platform",
+    "hacktoberfest",
+    "infrastructure-as-code",
+    "linter",
+    "misconfiguration",
+    "scanner",
+    "security",
+    "static-analysis",
+    "terraform",
+    "terraform-security",
+    "vulnerability-scanners"
+  ],
+  "history": [],
+  "weight": 7035,
+  "image": "https://avatars.githubusercontent.com/u/12783832?v=4"
+}

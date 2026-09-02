@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "alandtse/alexa_media_player",
+  "link": "https://github.com/alandtse/alexa_media_player",
+  "name": "alexa_media_player",
+  "desc": "This is a custom component to allow control of Amazon Alexa devices in Home Assistant using the unofficial Alexa API.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "alexa",
+    "hacktoberfest",
+    "home-assistant",
+    "homeassistant"
+  ],
+  "history": [],
+  "weight": 1974
+}

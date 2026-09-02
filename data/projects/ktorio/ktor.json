@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "ktorio/ktor",
+  "link": "https://github.com/ktorio/ktor",
+  "name": "ktor",
+  "desc": "Framework for quickly creating connected applications in Kotlin with minimal effort",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "async",
+    "asynchronous",
+    "kotlin",
+    "web",
+    "web-framework"
+  ],
+  "history": [],
+  "weight": 14510,
+  "image": "https://avatars.githubusercontent.com/u/28214161?v=4"
+}

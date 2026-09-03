@@ -1125,6 +1125,13 @@
         "Agents & Coding",
         "Orchestration Frameworks"
       ]
+    },
+    {
+      "id": "openai/openai-agents-python",
+      "path": [
+        "Agents & Coding",
+        "Orchestration Frameworks"
+      ]
     }
   ]
 }

@@ -127,13 +127,19 @@
       "stars": 9057,
       "forks": 1958,
       "openIssues": 560
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 9058,
+      "forks": 1959,
+      "openIssues": 561
     }
   ],
   "events": [
     {
       "date": "2019-07-13",
       "type": "hn",
-      "title": "Tekton Pipelines \u2013 K8s-style resources for declaring CI pipelines",
+      "title": "Tekton Pipelines – K8s-style resources for declaring CI pipelines",
       "url": "https://news.ycombinator.com/item?id=20428485",
       "points": 83
     }

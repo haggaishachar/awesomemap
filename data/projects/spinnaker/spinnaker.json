@@ -125,13 +125,19 @@
       "stars": 9782,
       "forks": 1272,
       "openIssues": 106
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 9782,
+      "forks": 1272,
+      "openIssues": 108
     }
   ],
   "events": [
     {
       "date": "2015-11-17",
       "type": "hn",
-      "title": "Spinnaker \u2013 open source multi-cloud Continuous Delivery platform by Netflix",
+      "title": "Spinnaker – open source multi-cloud Continuous Delivery platform by Netflix",
       "url": "https://news.ycombinator.com/item?id=10579251",
       "points": 60
     }

@@ -20,6 +20,12 @@
       "stars": 14028,
       "forks": 659,
       "openIssues": 189
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 14029,
+      "forks": 659,
+      "openIssues": 189
     }
   ],
   "weight": 14025,
@@ -27,7 +33,7 @@
     {
       "date": "2017-05-02",
       "type": "hn",
-      "title": "OpenSnitch \u2013 A Linux clone of the Little Snitch application firewall",
+      "title": "OpenSnitch – A Linux clone of the Little Snitch application firewall",
       "url": "https://news.ycombinator.com/item?id=14245270",
       "points": 319
     },

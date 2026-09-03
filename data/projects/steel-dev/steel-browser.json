@@ -3,9 +3,9 @@
   "id": "steel-dev/steel-browser",
   "link": "https://github.com/steel-dev/steel-browser",
   "name": "steel-browser",
-  "desc": "\ud83d\udd25 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.",
+  "desc": "🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.",
   "githubName": "steel-browser",
-  "githubDescription": "\ud83d\udd25 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.",
+  "githubDescription": "🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.",
   "tags": [
     "ai",
     "ai-agents",
@@ -19,6 +19,12 @@
       "stars": 7582,
       "forks": 971,
       "openIssues": 66
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 7588,
+      "forks": 971,
+      "openIssues": 66
     }
   ],
   "weight": 7580,
@@ -27,7 +33,7 @@
     {
       "date": "2024-11-26",
       "type": "hn",
-      "title": "Show HN: Steel.dev \u2013 An open-source browser API for AI agents and apps",
+      "title": "Show HN: Steel.dev – An open-source browser API for AI agents and apps",
       "url": "https://news.ycombinator.com/item?id=42245573",
       "points": 114
     }

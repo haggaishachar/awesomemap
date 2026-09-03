@@ -122,13 +122,19 @@
       "stars": 76179,
       "forks": 24775,
       "openIssues": 2933
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 76181,
+      "forks": 24774,
+      "openIssues": 2934
     }
   ],
   "events": [
     {
       "date": "2016-06-05",
       "type": "hn",
-      "title": "RCP 11 \u2013 Stream data type proposal for Redis",
+      "title": "RCP 11 – Stream data type proposal for Redis",
       "url": "https://news.ycombinator.com/item?id=11840314",
       "points": 125
     },

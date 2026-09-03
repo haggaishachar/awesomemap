@@ -34,6 +34,12 @@
       "stars": 16271,
       "forks": 1628,
       "openIssues": 221
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 16275,
+      "forks": 1628,
+      "openIssues": 221
     }
   ],
   "weight": 16262,
@@ -42,14 +48,14 @@
     {
       "date": "2016-11-04",
       "type": "hn",
-      "title": "Lynis \u2013 Security Auditing Tool for Linux, MacOS, and Unix-Based Systems",
+      "title": "Lynis – Security Auditing Tool for Linux, MacOS, and Unix-Based Systems",
       "url": "https://news.ycombinator.com/item?id=12870753",
       "points": 207
     },
     {
       "date": "2024-11-07",
       "type": "hn",
-      "title": "Lynis \u2013 Security auditing and hardening tool, for Unix-based systems",
+      "title": "Lynis – Security auditing and hardening tool, for Unix-based systems",
       "url": "https://news.ycombinator.com/item?id=42075467",
       "points": 67
     }

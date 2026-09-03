@@ -31,6 +31,12 @@
       "stars": 12331,
       "forks": 614,
       "openIssues": 124
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 12333,
+      "forks": 614,
+      "openIssues": 122
     }
   ],
   "weight": 12328,
@@ -39,14 +45,14 @@
     {
       "date": "2021-04-14",
       "type": "hn",
-      "title": "Show HN: Encore \u2013 Go framework for building distributed systems",
+      "title": "Show HN: Encore – Go framework for building distributed systems",
       "url": "https://news.ycombinator.com/item?id=26806797",
       "points": 182
     },
     {
       "date": "2025-11-14",
       "type": "hn",
-      "title": "Show HN: Encore \u2013 Type-safe back end framework that generates infra from code",
+      "title": "Show HN: Encore – Type-safe back end framework that generates infra from code",
       "url": "https://news.ycombinator.com/item?id=45925890",
       "points": 76
     }

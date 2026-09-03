@@ -3,9 +3,9 @@
   "id": "bblanchon/ArduinoJson",
   "link": "https://github.com/bblanchon/ArduinoJson",
   "name": "ArduinoJson",
-  "desc": "\ud83d\udcdf JSON library for Arduino and embedded C++. Simple and efficient.",
+  "desc": "📟 JSON library for Arduino and embedded C++. Simple and efficient.",
   "githubName": "ArduinoJson",
-  "githubDescription": "\ud83d\udcdf JSON library for Arduino and embedded C++. Simple and efficient.",
+  "githubDescription": "📟 JSON library for Arduino and embedded C++. Simple and efficient.",
   "weight": 7206,
   "image": null,
   "tags": [
@@ -51,6 +51,12 @@
     },
     {
       "date": "2026-09-02",
+      "stars": 7208,
+      "forks": 1169,
+      "openIssues": 17
+    },
+    {
+      "date": "2026-09-03",
       "stars": 7208,
       "forks": 1169,
       "openIssues": 17

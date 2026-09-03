@@ -5,7 +5,7 @@
   "name": "Langfuse",
   "desc": "Open source LLM engineering platform for tracing and evaluation",
   "githubName": "langfuse",
-  "githubDescription": "\ud83e\udea2 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. \ud83c\udf4aYC W23 ",
+  "githubDescription": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 ",
   "weight": 33741,
   "image": "https://avatars.githubusercontent.com/u/134601687?v=4",
   "tags": [
@@ -117,20 +117,26 @@
       "stars": 34110,
       "forks": 3682,
       "openIssues": 874
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 34145,
+      "forks": 3685,
+      "openIssues": 886
     }
   ],
   "events": [
     {
       "date": "2023-08-29",
       "type": "hn",
-      "title": "Show HN: Langfuse \u2013 Open-source observability and analytics for LLM apps",
+      "title": "Show HN: Langfuse – Open-source observability and analytics for LLM apps",
       "url": "https://news.ycombinator.com/item?id=37310070",
       "points": 143
     },
     {
       "date": "2024-12-17",
       "type": "hn",
-      "title": "Launch HN: Langfuse (YC W23) \u2013 OSS Tracing and Workflows to Improve LLM Apps",
+      "title": "Launch HN: Langfuse (YC W23) – OSS Tracing and Workflows to Improve LLM Apps",
       "url": "https://news.ycombinator.com/item?id=42441258",
       "points": 215
     }

@@ -17,6 +17,12 @@
       "stars": 14881,
       "forks": 1714,
       "openIssues": 357
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 14901,
+      "forks": 1714,
+      "openIssues": 359
     }
   ],
   "weight": 14851,
@@ -25,7 +31,7 @@
     {
       "date": "2026-04-19",
       "type": "hn",
-      "title": "MuJoCo \u2013 Advanced Physics Simulation",
+      "title": "MuJoCo – Advanced Physics Simulation",
       "url": "https://news.ycombinator.com/item?id=47820791",
       "points": 116
     }

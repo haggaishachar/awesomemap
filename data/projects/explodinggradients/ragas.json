@@ -5,7 +5,7 @@
   "name": "Ragas",
   "desc": "Evaluation framework for retrieval-augmented generation pipelines",
   "githubName": "ragas",
-  "githubDescription": "Supercharge Your LLM Application Evaluations \ud83d\ude80",
+  "githubDescription": "Supercharge Your LLM Application Evaluations 🚀",
   "weight": 15478,
   "image": "https://avatars.githubusercontent.com/u/122604797?v=4",
   "tags": [
@@ -101,13 +101,19 @@
       "stars": 15592,
       "forks": 1671,
       "openIssues": 590
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 15604,
+      "forks": 1673,
+      "openIssues": 592
     }
   ],
   "events": [
     {
       "date": "2024-03-21",
       "type": "hn",
-      "title": "Show HN: Ragas \u2013 Open-source library for evaluating RAG pipelines",
+      "title": "Show HN: Ragas – Open-source library for evaluating RAG pipelines",
       "url": "https://news.ycombinator.com/item?id=39780114",
       "points": 121
     }

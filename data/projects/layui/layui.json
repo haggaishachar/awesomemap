@@ -3,9 +3,9 @@
   "id": "layui/layui",
   "link": "https://github.com/layui/layui",
   "name": "layui",
-  "desc": "\u4e00\u5957\u9075\u5faa\u6d4f\u89c8\u5668\u539f\u751f\u6001\u5f00\u53d1\u6a21\u5f0f\u7684 Web UI \u7ec4\u4ef6\u5e93\u3002",
+  "desc": "一套遵循浏览器原生态开发模式的 Web UI 组件库。",
   "githubName": "layui",
-  "githubDescription": "\u4e00\u5957\u9075\u5faa\u6d4f\u89c8\u5668\u539f\u751f\u6001\u5f00\u53d1\u6a21\u5f0f\u7684 Web UI \u7ec4\u4ef6\u5e93\u3002",
+  "githubDescription": "一套遵循浏览器原生态开发模式的 Web UI 组件库。",
   "tags": [
     "component-library",
     "css",
@@ -20,6 +20,12 @@
       "date": "2026-09-02",
       "stars": 30575,
       "forks": 7361,
+      "openIssues": 38
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 30575,
+      "forks": 7360,
       "openIssues": 38
     }
   ],

@@ -5,7 +5,7 @@
   "name": "Strapi",
   "desc": "Leading open-source headless CMS",
   "githubName": "strapi",
-  "githubDescription": "\ud83d\ude80 Strapi is the leading open-source headless CMS. It\u2019s 100% JavaScript/TypeScript, fully customizable, and developer-first.",
+  "githubDescription": "🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.",
   "weight": 73015,
   "image": "https://avatars.githubusercontent.com/u/19872173?v=4",
   "tags": [
@@ -89,6 +89,12 @@
       "stars": 73061,
       "forks": 9860,
       "openIssues": 542
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 73064,
+      "forks": 9857,
+      "openIssues": 544
     }
   ],
   "events": []

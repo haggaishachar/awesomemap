@@ -3,9 +3,9 @@
   "id": "vercel/turborepo",
   "link": "https://github.com/vercel/turborepo",
   "name": "turborepo",
-  "desc": "Build system optimized for JavaScript\u00a0and TypeScript, written in Rust",
+  "desc": "Build system optimized for JavaScript and TypeScript, written in Rust",
   "githubName": "turborepo",
-  "githubDescription": "Build system optimized for JavaScript\u00a0and TypeScript, written in Rust",
+  "githubDescription": "Build system optimized for JavaScript and TypeScript, written in Rust",
   "weight": 31019,
   "image": "https://avatars.githubusercontent.com/u/14985020?v=4",
   "tags": [
@@ -49,6 +49,12 @@
     {
       "date": "2026-09-02",
       "stars": 31044,
+      "forks": 2433,
+      "openIssues": 15
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 31047,
       "forks": 2433,
       "openIssues": 15
     }

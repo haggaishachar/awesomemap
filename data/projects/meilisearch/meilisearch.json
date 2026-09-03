@@ -122,6 +122,12 @@
       "stars": 59170,
       "forks": 2694,
       "openIssues": 317
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 59170,
+      "forks": 2695,
+      "openIssues": 316
     }
   ],
   "events": [
@@ -135,7 +141,7 @@
     {
       "date": "2025-04-14",
       "type": "hn",
-      "title": "Meilisearch \u2013 search engine API bringing AI-powered hybrid search",
+      "title": "Meilisearch – search engine API bringing AI-powered hybrid search",
       "url": "https://news.ycombinator.com/item?id=43680699",
       "points": 151
     }

@@ -5,7 +5,7 @@
   "name": "fastlane",
   "desc": "The easiest way to automate building and releasing iOS and Android apps",
   "githubName": "fastlane",
-  "githubDescription": "\ud83d\ude80 The easiest way to automate building and releasing your iOS and Android apps",
+  "githubDescription": "🚀 The easiest way to automate building and releasing your iOS and Android apps",
   "weight": 42030,
   "image": "https://avatars.githubusercontent.com/u/11098337?v=4",
   "tags": [
@@ -130,6 +130,12 @@
     {
       "date": "2026-09-02",
       "stars": 42046,
+      "forks": 6025,
+      "openIssues": 662
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 42049,
       "forks": 6025,
       "openIssues": 662
     }

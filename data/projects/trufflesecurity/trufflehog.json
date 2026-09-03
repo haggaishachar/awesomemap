@@ -134,13 +134,19 @@
       "stars": 27663,
       "forks": 2564,
       "openIssues": 535
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 27670,
+      "forks": 2563,
+      "openIssues": 537
     }
   ],
   "events": [
     {
       "date": "2022-04-04",
       "type": "hn",
-      "title": "TruffleHog v3 \u2013 Detect and automatically verify over 600 credential types",
+      "title": "TruffleHog v3 – Detect and automatically verify over 600 credential types",
       "url": "https://news.ycombinator.com/item?id=30910893",
       "points": 84
     }

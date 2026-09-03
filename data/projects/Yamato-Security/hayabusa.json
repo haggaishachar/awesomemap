@@ -3,9 +3,9 @@
   "id": "Yamato-Security/hayabusa",
   "link": "https://github.com/Yamato-Security/hayabusa",
   "name": "hayabusa",
-  "desc": "Hayabusa (\u96bc) is a sigma-based threat hunting and fast forensics timeline generator for Windows event logs.",
+  "desc": "Hayabusa (隼) is a sigma-based threat hunting and fast forensics timeline generator for Windows event logs.",
   "githubName": "hayabusa",
-  "githubDescription": "Hayabusa (\u96bc) is a sigma-based threat hunting and fast forensics timeline generator for Windows event logs.",
+  "githubDescription": "Hayabusa (隼) is a sigma-based threat hunting and fast forensics timeline generator for Windows event logs.",
   "tags": [
     "attack",
     "cybersecurity",
@@ -32,6 +32,12 @@
     {
       "date": "2026-09-02",
       "stars": 3333,
+      "forks": 294,
+      "openIssues": 19
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 3334,
       "forks": 294,
       "openIssues": 19
     }

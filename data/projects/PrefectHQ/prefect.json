@@ -84,13 +84,19 @@
       "stars": 23764,
       "forks": 2501,
       "openIssues": 870
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 23770,
+      "forks": 2502,
+      "openIssues": 871
     }
   ],
   "events": [
     {
       "date": "2019-03-28",
       "type": "hn",
-      "title": "Show HN: Prefect \u2013 A workflow engine designed for modern data engineering",
+      "title": "Show HN: Prefect – A workflow engine designed for modern data engineering",
       "url": "https://news.ycombinator.com/item?id=19508278",
       "points": 59
     }

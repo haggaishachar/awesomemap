@@ -3,9 +3,9 @@
   "id": "shadow1ng/fscan",
   "link": "https://github.com/shadow1ng/fscan",
   "name": "fscan",
-  "desc": "\u4e00\u6b3e\u5185\u7f51\u7efc\u5408\u626b\u63cf\u5de5\u5177\uff0c\u65b9\u4fbf\u4e00\u952e\u81ea\u52a8\u5316\u3001\u5168\u65b9\u4f4d\u6f0f\u626b\u626b\u63cf\u3002(An intranet comprehensive scanning tool, enabling one-click automated, all-round vulnerability scanning)",
+  "desc": "一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。(An intranet comprehensive scanning tool, enabling one-click automated, all-round vulnerability scanning)",
   "githubName": "fscan",
-  "githubDescription": "\u4e00\u6b3e\u5185\u7f51\u7efc\u5408\u626b\u63cf\u5de5\u5177\uff0c\u65b9\u4fbf\u4e00\u952e\u81ea\u52a8\u5316\u3001\u5168\u65b9\u4f4d\u6f0f\u626b\u626b\u63cf\u3002(An intranet comprehensive scanning tool, enabling one-click automated, all-round vulnerability scanning)",
+  "githubDescription": "一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。(An intranet comprehensive scanning tool, enabling one-click automated, all-round vulnerability scanning)",
   "tags": [
     "fscan",
     "scanner",
@@ -18,6 +18,12 @@
     {
       "date": "2026-09-02",
       "stars": 14492,
+      "forks": 1940,
+      "openIssues": 15
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 14495,
       "forks": 1940,
       "openIssues": 15
     }

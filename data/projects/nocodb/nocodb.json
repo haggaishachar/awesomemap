@@ -5,7 +5,7 @@
   "name": "NocoDB",
   "desc": "Open-source, self-hostable Airtable alternative",
   "githubName": "nocodb",
-  "githubDescription": "\ud83d\udd25 \ud83d\udd25 \ud83d\udd25 A Free & Self-hostable Airtable Alternative",
+  "githubDescription": "🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative",
   "weight": 64738,
   "image": "https://avatars.githubusercontent.com/u/50206778?v=4",
   "tags": [
@@ -84,13 +84,19 @@
       "stars": 64804,
       "forks": 5025,
       "openIssues": 712
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 64815,
+      "forks": 5025,
+      "openIssues": 714
     }
   ],
   "events": [
     {
       "date": "2021-05-27",
       "type": "hn",
-      "title": "Show HN: NocoDB \u2013 Open-Source Airtable Alternative",
+      "title": "Show HN: NocoDB – Open-Source Airtable Alternative",
       "url": "https://news.ycombinator.com/item?id=27303783",
       "points": 562
     },

@@ -3,9 +3,9 @@
   "id": "kornia/kornia",
   "link": "https://github.com/kornia/kornia",
   "name": "kornia",
-  "desc": "\ud83d\udc0d Geometric Computer Vision Library for Spatial AI",
+  "desc": "🐍 Geometric Computer Vision Library for Spatial AI",
   "githubName": "kornia",
-  "githubDescription": "\ud83d\udc0d Geometric Computer Vision Library for Spatial AI",
+  "githubDescription": "🐍 Geometric Computer Vision Library for Spatial AI",
   "tags": [
     "artificial-intelligence",
     "computer-vision",
@@ -25,6 +25,12 @@
       "stars": 11341,
       "forks": 1264,
       "openIssues": 115
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 11343,
+      "forks": 1267,
+      "openIssues": 119
     }
   ],
   "weight": 11340,

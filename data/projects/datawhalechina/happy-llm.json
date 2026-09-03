@@ -3,9 +3,9 @@
   "id": "datawhalechina/happy-llm",
   "link": "https://github.com/datawhalechina/happy-llm",
   "name": "happy-llm",
-  "desc": "\ud83d\udcda \u4ece\u96f6\u5f00\u59cb\u6784\u5efa\u5927\u6a21\u578b",
+  "desc": "📚 从零开始构建大模型",
   "githubName": "happy-llm",
-  "githubDescription": "\ud83d\udcda \u4ece\u96f6\u5f00\u59cb\u6784\u5efa\u5927\u6a21\u578b",
+  "githubDescription": "📚 从零开始构建大模型",
   "tags": [
     "agent",
     "llm",
@@ -15,6 +15,12 @@
     {
       "date": "2026-09-02",
       "stars": 33456,
+      "forks": 3177,
+      "openIssues": 70
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 33474,
       "forks": 3177,
       "openIssues": 70
     }

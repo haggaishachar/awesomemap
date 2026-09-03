@@ -138,13 +138,19 @@
       "stars": 38367,
       "forks": 8372,
       "openIssues": 517
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 38369,
+      "forks": 8371,
+      "openIssues": 516
     }
   ],
   "events": [
     {
       "date": "2019-02-04",
       "type": "hn",
-      "title": "Istio \u2013 An open platform to connect, manage, and secure microservices",
+      "title": "Istio – An open platform to connect, manage, and secure microservices",
       "url": "https://news.ycombinator.com/item?id=19075812",
       "points": 163
     }

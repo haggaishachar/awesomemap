@@ -3,9 +3,9 @@
   "id": "stdlib-js/stdlib",
   "link": "https://github.com/stdlib-js/stdlib",
   "name": "stdlib",
-  "desc": "\u2728 The fundamental numerical library for JavaScript and TypeScript. \u2728  \u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003 \u2b50\ufe0f Star to support our work!",
+  "desc": "✨ The fundamental numerical library for JavaScript and TypeScript. ✨                    ⭐️ Star to support our work!",
   "githubName": "stdlib",
-  "githubDescription": "\u2728 The fundamental numerical library for JavaScript and TypeScript. \u2728  \u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003\u2003 \u2b50\ufe0f Star to support our work!",
+  "githubDescription": "✨ The fundamental numerical library for JavaScript and TypeScript. ✨                    ⭐️ Star to support our work!",
   "tags": [
     "javascript",
     "js",
@@ -34,6 +34,12 @@
       "stars": 5946,
       "forks": 1256,
       "openIssues": 1427
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 5947,
+      "forks": 1258,
+      "openIssues": 1425
     }
   ],
   "weight": 5944,

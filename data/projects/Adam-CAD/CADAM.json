@@ -26,6 +26,12 @@
       "stars": 5078,
       "forks": 634,
       "openIssues": 23
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 5085,
+      "forks": 635,
+      "openIssues": 22
     }
   ],
   "weight": 5075,
@@ -41,7 +47,7 @@
     {
       "date": "2026-06-17",
       "type": "hn",
-      "title": "Launch HN: Adam (YC W25) \u2013 Open-Source AI CAD",
+      "title": "Launch HN: Adam (YC W25) – Open-Source AI CAD",
       "url": "https://news.ycombinator.com/item?id=48572553",
       "points": 215
     }

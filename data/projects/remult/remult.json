@@ -49,13 +49,19 @@
       "stars": 3208,
       "forks": 157,
       "openIssues": 119
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 3208,
+      "forks": 157,
+      "openIssues": 119
     }
   ],
   "events": [
     {
       "date": "2022-05-22",
       "type": "hn",
-      "title": "Show HN: Remult \u2013 a CRUD framework for full-stack TypeScript",
+      "title": "Show HN: Remult – a CRUD framework for full-stack TypeScript",
       "url": "https://news.ycombinator.com/item?id=31469481",
       "points": 130
     }

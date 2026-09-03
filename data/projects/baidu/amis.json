@@ -3,9 +3,9 @@
   "id": "baidu/amis",
   "link": "https://github.com/baidu/amis",
   "name": "amis",
-  "desc": "\u524d\u7aef\u4f4e\u4ee3\u7801\u6846\u67b6\uff0c\u901a\u8fc7 JSON \u914d\u7f6e\u5c31\u80fd\u751f\u6210\u5404\u79cd\u9875\u9762\u3002",
+  "desc": "前端低代码框架，通过 JSON 配置就能生成各种页面。",
   "githubName": "amis",
-  "githubDescription": "\u524d\u7aef\u4f4e\u4ee3\u7801\u6846\u67b6\uff0c\u901a\u8fc7 JSON \u914d\u7f6e\u5c31\u80fd\u751f\u6210\u5404\u79cd\u9875\u9762\u3002",
+  "githubDescription": "前端低代码框架，通过 JSON 配置就能生成各种页面。",
   "tags": [
     "admin",
     "frontend",
@@ -21,6 +21,12 @@
       "date": "2026-09-02",
       "stars": 18890,
       "forks": 2738,
+      "openIssues": 1714
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 18889,
+      "forks": 2737,
       "openIssues": 1714
     }
   ],

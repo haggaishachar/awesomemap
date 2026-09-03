@@ -3,9 +3,9 @@
   "id": "sherifabdlnaby/elastdocker",
   "link": "https://github.com/sherifabdlnaby/elastdocker",
   "name": "elastdocker",
-  "desc": "\ud83d\udc33  Elastic Stack (ELK) v9+ on Docker with Compose. Pre-configured out of the box to enable Logging, Metrics, APM, Alerting, ML, and SIEM features. Up with a Single Command.",
+  "desc": "🐳  Elastic Stack (ELK) v9+ on Docker with Compose. Pre-configured out of the box to enable Logging, Metrics, APM, Alerting, ML, and SIEM features. Up with a Single Command.",
   "githubName": "elastdocker",
-  "githubDescription": "\ud83d\udc33  Elastic Stack (ELK) v9+ on Docker with Compose. Pre-configured out of the box to enable Logging, Metrics, APM, Alerting, ML, and SIEM features. Up with a Single Command.",
+  "githubDescription": "🐳  Elastic Stack (ELK) v9+ on Docker with Compose. Pre-configured out of the box to enable Logging, Metrics, APM, Alerting, ML, and SIEM features. Up with a Single Command.",
   "tags": [
     "docker",
     "docker-compose",
@@ -21,6 +21,12 @@
   "history": [
     {
       "date": "2026-09-02",
+      "stars": 2068,
+      "forks": 339,
+      "openIssues": 4
+    },
+    {
+      "date": "2026-09-03",
       "stars": 2068,
       "forks": 339,
       "openIssues": 4

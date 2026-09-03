@@ -5,7 +5,7 @@
   "name": "Capacitor",
   "desc": "Cross-platform native runtime for building web-native mobile apps",
   "githubName": "capacitor",
-  "githubDescription": "Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web \u26a1\ufe0f",
+  "githubDescription": "Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web ⚡️",
   "weight": 16387,
   "image": "https://avatars.githubusercontent.com/u/3171503?v=4",
   "tags": [
@@ -134,6 +134,12 @@
       "stars": 16549,
       "forks": 1253,
       "openIssues": 121
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 16555,
+      "forks": 1254,
+      "openIssues": 122
     }
   ],
   "events": []

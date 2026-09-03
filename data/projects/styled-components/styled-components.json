@@ -5,7 +5,7 @@
   "name": "styled-components",
   "desc": "Visual primitives for the component age",
   "githubName": "styled-components",
-  "githubDescription": "Fast, expressive styling for React. Server components, client components, streaming SSR, React Native\u2014one API.",
+  "githubDescription": "Fast, expressive styling for React. Server components, client components, streaming SSR, React Native—one API.",
   "weight": 41123,
   "image": "https://avatars.githubusercontent.com/u/20658825?v=4",
   "tags": [
@@ -125,6 +125,12 @@
     },
     {
       "date": "2026-09-02",
+      "stars": 41123,
+      "forks": 2688,
+      "openIssues": 24
+    },
+    {
+      "date": "2026-09-03",
       "stars": 41123,
       "forks": 2688,
       "openIssues": 24

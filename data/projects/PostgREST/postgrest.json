@@ -27,6 +27,12 @@
       "stars": 27638,
       "forks": 1227,
       "openIssues": 400
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 27639,
+      "forks": 1227,
+      "openIssues": 398
     }
   ],
   "weight": 27638,
@@ -42,7 +48,7 @@
     {
       "date": "2024-07-25",
       "type": "hn",
-      "title": "PostgREST \u2013 Serve a RESTful API from Any Postgres Database",
+      "title": "PostgREST – Serve a RESTful API from Any Postgres Database",
       "url": "https://news.ycombinator.com/item?id=41068451",
       "points": 58
     }

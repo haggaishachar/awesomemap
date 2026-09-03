@@ -3,9 +3,9 @@
   "id": "onlook-dev/onlook",
   "link": "https://github.com/onlook-dev/onlook",
   "name": "onlook",
-  "desc": "The Cursor for Designers \u2022 An Open-Source AI-First Design tool \u2022 Visually build, style, and edit your React App with AI",
+  "desc": "The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI",
   "githubName": "onlook",
-  "githubDescription": "The Cursor for Designers \u2022 An Open-Source AI-First Design tool \u2022 Visually build, style, and edit your React App with AI",
+  "githubDescription": "The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI",
   "tags": [
     "ai",
     "cursor",
@@ -33,6 +33,12 @@
       "stars": 26624,
       "forks": 2088,
       "openIssues": 380
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 26629,
+      "forks": 2089,
+      "openIssues": 380
     }
   ],
   "weight": 26619,
@@ -48,7 +54,7 @@
     {
       "date": "2025-05-29",
       "type": "hn",
-      "title": "Show HN: Onlook \u2013 Open-source, visual-first Cursor for designers",
+      "title": "Show HN: Onlook – Open-source, visual-first Cursor for designers",
       "url": "https://news.ycombinator.com/item?id=44127653",
       "points": 408
     }

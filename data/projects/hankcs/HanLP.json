@@ -3,9 +3,9 @@
   "id": "hankcs/HanLP",
   "link": "https://github.com/hankcs/HanLP",
   "name": "HanLP",
-  "desc": "\u4e2d\u6587\u5206\u8bcd \u8bcd\u6027\u6807\u6ce8 \u547d\u540d\u5b9e\u4f53\u8bc6\u522b \u4f9d\u5b58\u53e5\u6cd5\u5206\u6790 \u6210\u5206\u53e5\u6cd5\u5206\u6790 \u8bed\u4e49\u4f9d\u5b58\u5206\u6790 \u8bed\u4e49\u89d2\u8272\u6807\u6ce8 \u6307\u4ee3\u6d88\u89e3 \u98ce\u683c\u8f6c\u6362 \u8bed\u4e49\u76f8\u4f3c\u5ea6 \u65b0\u8bcd\u53d1\u73b0 \u5173\u952e\u8bcd\u77ed\u8bed\u63d0\u53d6 \u81ea\u52a8\u6458\u8981 \u6587\u672c\u5206\u7c7b\u805a\u7c7b \u62fc\u97f3\u7b80\u7e41\u8f6c\u6362 \u81ea\u7136\u8bed\u8a00\u5904\u7406",
+  "desc": "中文分词 词性标注 命名实体识别 依存句法分析 成分句法分析 语义依存分析 语义角色标注 指代消解 风格转换 语义相似度 新词发现 关键词短语提取 自动摘要 文本分类聚类 拼音简繁转换 自然语言处理",
   "githubName": "HanLP",
-  "githubDescription": "Natural Language Processing for the next decade. Tokenization, Part-of-Speech Tagging, Named Entity Recognition, Syntactic & Semantic Dependency Parsing, Document Classification",
+  "githubDescription": "中文分词 词性标注 命名实体识别 依存句法分析 成分句法分析 语义依存分析 语义角色标注 指代消解 风格转换 语义相似度 新词发现 关键词短语提取 自动摘要 文本分类聚类 拼音简繁转换 自然语言处理",
   "tags": [
     "dependency-parser",
     "hanlp",
@@ -20,6 +20,12 @@
     {
       "date": "2026-09-02",
       "stars": 36484,
+      "forks": 10913,
+      "openIssues": 12
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 36485,
       "forks": 10913,
       "openIssues": 12
     }

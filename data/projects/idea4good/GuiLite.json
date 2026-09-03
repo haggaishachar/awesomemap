@@ -3,9 +3,9 @@
   "id": "idea4good/GuiLite",
   "link": "https://github.com/idea4good/GuiLite",
   "name": "GuiLite",
-  "desc": "\u2714\ufe0fThe smallest header-only GUI library(4 KLOC) for all platforms",
+  "desc": "✔️The smallest header-only GUI library(4 KLOC) for all platforms",
   "githubName": "GuiLite",
-  "githubDescription": "\u2714\ufe0fThe smallest header-only GUI library(4 KLOC) for all platforms",
+  "githubDescription": "✔️The smallest header-only GUI library(4 KLOC) for all platforms",
   "tags": [
     "c",
     "cpp",
@@ -27,6 +27,12 @@
       "stars": 7768,
       "forks": 834,
       "openIssues": 18
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 7768,
+      "forks": 834,
+      "openIssues": 18
     }
   ],
   "weight": 7767,
@@ -34,7 +40,7 @@
     {
       "date": "2019-02-01",
       "type": "hn",
-      "title": "Show HN: GuiLite \u2013 Tiny UI framework, runs on MCU without OS",
+      "title": "Show HN: GuiLite – Tiny UI framework, runs on MCU without OS",
       "url": "https://news.ycombinator.com/item?id=19051914",
       "points": 355
     },

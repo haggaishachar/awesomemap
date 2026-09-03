@@ -34,6 +34,12 @@
       "stars": 21613,
       "forks": 1064,
       "openIssues": 580
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 21622,
+      "forks": 1064,
+      "openIssues": 576
     }
   ],
   "weight": 21599,
@@ -42,7 +48,7 @@
     {
       "date": "2023-06-11",
       "type": "hn",
-      "title": "Show HN: OpenObserve \u2013 Elasticsearch/Datadog alternative",
+      "title": "Show HN: OpenObserve – Elasticsearch/Datadog alternative",
       "url": "https://news.ycombinator.com/item?id=36280028",
       "points": 198
     },

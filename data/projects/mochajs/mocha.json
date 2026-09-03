@@ -5,7 +5,7 @@
   "name": "Mocha",
   "desc": "Simple, flexible, fun JavaScript test framework",
   "githubName": "mocha",
-  "githubDescription": "\u2615\ufe0f Classic, reliable, trusted test framework for Node.js and the browser",
+  "githubDescription": "☕️ Classic, reliable, trusted test framework for Node.js and the browser",
   "weight": 22905,
   "image": "https://avatars.githubusercontent.com/u/8770005?v=4",
   "tags": [
@@ -134,6 +134,12 @@
       "stars": 22907,
       "forks": 3160,
       "openIssues": 270
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 22906,
+      "forks": 3160,
+      "openIssues": 272
     }
   ],
   "events": []

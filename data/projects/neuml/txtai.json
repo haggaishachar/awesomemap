@@ -3,9 +3,9 @@
   "id": "neuml/txtai",
   "link": "https://github.com/neuml/txtai",
   "name": "txtai",
-  "desc": "\ud83d\udca1 All-in-one AI framework for semantic search, LLM orchestration and language model workflows",
+  "desc": "💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows",
   "githubName": "txtai",
-  "githubDescription": "\ud83d\udca1 All-in-one AI framework for semantic search, LLM orchestration and language model workflows",
+  "githubDescription": "💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows",
   "tags": [
     "agents",
     "ai",
@@ -34,6 +34,12 @@
       "stars": 12918,
       "forks": 888,
       "openIssues": 10
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 12922,
+      "forks": 888,
+      "openIssues": 8
     }
   ],
   "weight": 12919,

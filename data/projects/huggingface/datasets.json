@@ -3,9 +3,9 @@
   "id": "huggingface/datasets",
   "link": "https://github.com/huggingface/datasets",
   "name": "datasets",
-  "desc": "\ud83e\udd17 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools",
+  "desc": "🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools",
   "githubName": "datasets",
-  "githubDescription": "\ud83e\udd17 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools",
+  "githubDescription": "🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools",
   "tags": [
     "ai",
     "artificial-intelligence",
@@ -30,6 +30,12 @@
       "stars": 21888,
       "forks": 3380,
       "openIssues": 1336
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 21889,
+      "forks": 3381,
+      "openIssues": 1337
     }
   ],
   "weight": 21885,

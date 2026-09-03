@@ -3,9 +3,9 @@
   "id": "lodev09/react-native-true-sheet",
   "link": "https://github.com/lodev09/react-native-true-sheet",
   "name": "react-native-true-sheet",
-  "desc": "The true native bottom sheet experience \ud83d\udca9",
+  "desc": "The true native bottom sheet experience 💩",
   "githubName": "react-native-true-sheet",
-  "githubDescription": "The true native bottom sheet experience \ud83d\udca9",
+  "githubDescription": "The true native bottom sheet experience 💩",
   "tags": [
     "android",
     "bottom-sheet",
@@ -20,6 +20,12 @@
       "stars": 2046,
       "forks": 101,
       "openIssues": 2
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 2050,
+      "forks": 101,
+      "openIssues": 1
     }
   ],
   "weight": 2046,

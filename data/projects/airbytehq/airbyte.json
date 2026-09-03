@@ -5,7 +5,7 @@
   "name": "Airbyte",
   "desc": "Open-source data movement platform for ELT pipelines",
   "githubName": "airbyte",
-  "githubDescription": "Open-source data movement for ELT pipelines and AI agents \u2014 from APIs, databases & files to warehouses, lakes, and AI applications. Both self-hosted and Cloud.",
+  "githubDescription": "Open-source data movement for ELT pipelines and AI agents — from APIs, databases & files to warehouses, lakes, and AI applications. Both self-hosted and Cloud.",
   "weight": 21956,
   "image": "https://avatars.githubusercontent.com/u/59758427?v=4",
   "tags": [
@@ -90,6 +90,12 @@
       "stars": 21982,
       "forks": 5329,
       "openIssues": 2374
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 21985,
+      "forks": 5329,
+      "openIssues": 2379
     }
   ],
   "events": [

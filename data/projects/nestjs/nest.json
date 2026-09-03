@@ -5,7 +5,7 @@
   "name": "NestJS",
   "desc": "A progressive Node.js framework for building efficient server-side applications",
   "githubName": "nest",
-  "githubDescription": "A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications with TypeScript/JavaScript \ud83d\ude80",
+  "githubDescription": "A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications with TypeScript/JavaScript 🚀",
   "weight": 76459,
   "image": "https://avatars.githubusercontent.com/u/28507035?v=4",
   "tags": [
@@ -135,6 +135,12 @@
       "stars": 76563,
       "forks": 8549,
       "openIssues": 38
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 76565,
+      "forks": 8550,
+      "openIssues": 46
     }
   ],
   "events": []

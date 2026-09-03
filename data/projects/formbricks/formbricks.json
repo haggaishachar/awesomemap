@@ -87,13 +87,19 @@
       "stars": 12852,
       "forks": 2498,
       "openIssues": 244
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 12868,
+      "forks": 2500,
+      "openIssues": 234
     }
   ],
   "events": [
     {
       "date": "2023-10-31",
       "type": "hn",
-      "title": "Show HN: Formbricks \u2013 Open-source alternative to Typeform and Sprig",
+      "title": "Show HN: Formbricks – Open-source alternative to Typeform and Sprig",
       "url": "https://news.ycombinator.com/item?id=38082621",
       "points": 155
     }

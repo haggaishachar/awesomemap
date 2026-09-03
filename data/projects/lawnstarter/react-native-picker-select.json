@@ -3,9 +3,9 @@
   "id": "lawnstarter/react-native-picker-select",
   "link": "https://github.com/lawnstarter/react-native-picker-select",
   "name": "react-native-picker-select",
-  "desc": "\ud83d\udd3d A Picker component for React Native which emulates the native <select> interfaces for iOS and Android",
+  "desc": "🔽 A Picker component for React Native which emulates the native <select> interfaces for iOS and Android",
   "githubName": "react-native-picker-select",
-  "githubDescription": "\ud83d\udd3d A Picker component for React Native which emulates the native <select> interfaces for iOS and Android",
+  "githubDescription": "🔽 A Picker component for React Native which emulates the native <select> interfaces for iOS and Android",
   "tags": [
     "dropdown",
     "frontend",
@@ -22,6 +22,12 @@
   "history": [
     {
       "date": "2026-09-02",
+      "stars": 1846,
+      "forks": 499,
+      "openIssues": 95
+    },
+    {
+      "date": "2026-09-03",
       "stars": 1846,
       "forks": 499,
       "openIssues": 95

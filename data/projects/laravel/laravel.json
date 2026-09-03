@@ -5,7 +5,7 @@
   "name": "Laravel",
   "desc": "PHP web application framework with expressive, elegant syntax",
   "githubName": "laravel",
-  "githubDescription": "Laravel is a web application framework with expressive, elegant syntax. We\u2019ve already laid the foundation for your next big idea \u2014 freeing you to create without sweating the small things.",
+  "githubDescription": "Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your next big idea — freeing you to create without sweating the small things.",
   "weight": 84870,
   "image": "https://avatars.githubusercontent.com/u/958072?v=4",
   "tags": [
@@ -72,6 +72,12 @@
       "date": "2026-09-02",
       "stars": 84923,
       "forks": 24896,
+      "openIssues": 31
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 84926,
+      "forks": 24894,
       "openIssues": 31
     }
   ],

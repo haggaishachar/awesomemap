@@ -3,9 +3,9 @@
   "id": "vueComponent/ant-design-vue",
   "link": "https://github.com/vueComponent/ant-design-vue",
   "name": "ant-design-vue",
-  "desc": "\ud83c\udf08  An enterprise-class UI components based on Ant Design and Vue. \ud83d\udc1c",
+  "desc": "🌈  An enterprise-class UI components based on Ant Design and Vue. 🐜",
   "githubName": "ant-design-vue",
-  "githubDescription": "\ud83c\udf08  An enterprise-class UI components based on Ant Design and Vue. \ud83d\udc1c",
+  "githubDescription": "🌈  An enterprise-class UI components based on Ant Design and Vue. 🐜",
   "weight": 21633,
   "image": "https://raw.githubusercontent.com/vueComponent/ant-design-vue/main/logo.png",
   "tags": [
@@ -63,6 +63,12 @@
     {
       "date": "2026-09-02",
       "stars": 21637,
+      "forks": 3894,
+      "openIssues": 123
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 21636,
       "forks": 3894,
       "openIssues": 123
     }

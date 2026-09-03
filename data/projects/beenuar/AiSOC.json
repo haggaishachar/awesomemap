@@ -3,9 +3,9 @@
   "id": "beenuar/AiSOC",
   "link": "https://github.com/beenuar/AiSOC",
   "name": "AiSOC",
-  "desc": "Open-source AI-powered Security Operations Center \u2014 alert fusion, purple-team drills, agent-assisted triage, MITRE ATT&CK investigation. MIT-licensed, self-hostable.",
+  "desc": "Open-source AI-powered Security Operations Center — alert fusion, purple-team drills, agent-assisted triage, MITRE ATT&CK investigation. MIT-licensed, self-hostable.",
   "githubName": "AiSOC",
-  "githubDescription": "Open-source AI-powered Security Operations Center \u2014 alert fusion, purple-team drills, agent-assisted triage, MITRE ATT&CK investigation. MIT-licensed, self-hostable.",
+  "githubDescription": "Open-source AI-powered Security Operations Center — alert fusion, purple-team drills, agent-assisted triage, MITRE ATT&CK investigation. MIT-licensed, self-hostable.",
   "weight": 2406,
   "image": null,
   "tags": [
@@ -64,6 +64,12 @@
     {
       "date": "2026-09-02",
       "stars": 2363,
+      "forks": 251,
+      "openIssues": 24
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 2365,
       "forks": 251,
       "openIssues": 24
     }

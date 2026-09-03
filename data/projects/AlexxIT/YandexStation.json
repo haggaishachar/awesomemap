@@ -3,9 +3,9 @@
   "id": "AlexxIT/YandexStation",
   "link": "https://github.com/AlexxIT/YandexStation",
   "name": "YandexStation",
-  "desc": "\u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u042f\u043d\u0434\u0435\u043a\u0441.\u0421\u0442\u0430\u043d\u0446\u0438\u0435\u0439 \u0438 \u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430\u043c\u0438 \u0443\u043c\u043d\u043e\u0433\u043e \u0434\u043e\u043c\u0430 \u0441 \u0410\u043b\u0438\u0441\u043e\u0439 \u0438\u0437 Home Assistant",
+  "desc": "Управление Яндекс.Станцией и другими устройствами умного дома с Алисой из Home Assistant",
   "githubName": "YandexStation",
-  "githubDescription": "\u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u042f\u043d\u0434\u0435\u043a\u0441.\u0421\u0442\u0430\u043d\u0446\u0438\u0435\u0439 \u0438 \u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430\u043c\u0438 \u0443\u043c\u043d\u043e\u0433\u043e \u0434\u043e\u043c\u0430 \u0441 \u0410\u043b\u0438\u0441\u043e\u0439 \u0438\u0437 Home Assistant",
+  "githubDescription": "Управление Яндекс.Станцией и другими устройствами умного дома с Алисой из Home Assistant",
   "tags": [
     "hacs",
     "home-assistant",
@@ -19,6 +19,12 @@
       "stars": 1917,
       "forks": 177,
       "openIssues": 95
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 1917,
+      "forks": 177,
+      "openIssues": 96
     }
   ],
   "weight": 1917,

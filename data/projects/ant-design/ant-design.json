@@ -129,6 +129,12 @@
       "stars": 99360,
       "forks": 54707,
       "openIssues": 1100
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 99371,
+      "forks": 54710,
+      "openIssues": 1098
     }
   ],
   "events": [
@@ -142,7 +148,7 @@
     {
       "date": "2024-07-02",
       "type": "hn",
-      "title": "Ant Design \u2013 the second most popular React UI framework",
+      "title": "Ant Design – the second most popular React UI framework",
       "url": "https://news.ycombinator.com/item?id=40856616",
       "points": 60
     }

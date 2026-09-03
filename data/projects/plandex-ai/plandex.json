@@ -30,6 +30,12 @@
       "stars": 15618,
       "forks": 1175,
       "openIssues": 62
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 15618,
+      "forks": 1176,
+      "openIssues": 62
     }
   ],
   "weight": 15616,
@@ -38,14 +44,14 @@
     {
       "date": "2024-04-03",
       "type": "hn",
-      "title": "Show HN: Plandex \u2013 an AI coding engine for complex tasks",
+      "title": "Show HN: Plandex – an AI coding engine for complex tasks",
       "url": "https://news.ycombinator.com/item?id=39918500",
       "points": 304
     },
     {
       "date": "2025-04-16",
       "type": "hn",
-      "title": "Show HN: Plandex v2 \u2013 open source AI coding agent for large projects and tasks",
+      "title": "Show HN: Plandex v2 – open source AI coding agent for large projects and tasks",
       "url": "https://news.ycombinator.com/item?id=43710576",
       "points": 257
     }

@@ -5,7 +5,7 @@
   "name": "NativeScript",
   "desc": "Build truly native mobile apps with JavaScript, TypeScript, Angular, Vue, or Svelte",
   "githubName": "NativeScript",
-  "githubDescription": "\u26a1 Write Native with TypeScript \u2728 Best of all worlds (TypeScript, Swift, Objective C, Kotlin, Java, Dart). Use what you love \u2764\ufe0f Angular, React, Solid, Svelte, Vue with: iOS (UIKit, SwiftUI), Android (View, Jetpack Compose), Flutter and you name it compatible.",
+  "githubDescription": "⚡ Write Native with TypeScript ✨ Best of all worlds (TypeScript, Swift, Objective C, Kotlin, Java, Dart). Use what you love ❤️ Angular, React, Solid, Svelte, Vue with: iOS (UIKit, SwiftUI), Android (View, Jetpack Compose), Flutter and you name it compatible.",
   "weight": 25626,
   "image": "https://avatars.githubusercontent.com/u/7392261?v=4",
   "tags": [
@@ -142,6 +142,12 @@
       "stars": 25635,
       "forks": 1738,
       "openIssues": 838
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 25635,
+      "forks": 1739,
+      "openIssues": 839
     }
   ],
   "events": []

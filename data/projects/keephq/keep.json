@@ -24,6 +24,12 @@
       "stars": 12271,
       "forks": 1494,
       "openIssues": 584
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 12275,
+      "forks": 1496,
+      "openIssues": 584
     }
   ],
   "weight": 12267,
@@ -32,21 +38,21 @@
     {
       "date": "2023-02-15",
       "type": "hn",
-      "title": "Show HN: Keep \u2013 Open-source alerting CLI",
+      "title": "Show HN: Keep – Open-source alerting CLI",
       "url": "https://news.ycombinator.com/item?id=34806482",
       "points": 65
     },
     {
       "date": "2023-09-04",
       "type": "hn",
-      "title": "Show HN: Keep \u2013 GitHub Actions for your monitoring tools",
+      "title": "Show HN: Keep – GitHub Actions for your monitoring tools",
       "url": "https://news.ycombinator.com/item?id=37381268",
       "points": 181
     },
     {
       "date": "2024-11-27",
       "type": "hn",
-      "title": "Launch HN: Keep (YC W23) \u2013 AIOps and alert management",
+      "title": "Launch HN: Keep (YC W23) – AIOps and alert management",
       "url": "https://news.ycombinator.com/item?id=42257060",
       "points": 94
     }

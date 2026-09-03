@@ -3,9 +3,9 @@
   "id": "doublesymmetry/react-native-track-player",
   "link": "https://github.com/doublesymmetry/react-native-track-player",
   "name": "react-native-track-player",
-  "desc": "The best audio player for React Native. Built on the New Architecture \u2014 Android Auto, caching, preloading, background playback, and more.",
+  "desc": "The best audio player for React Native. Built on the New Architecture — Android Auto, caching, preloading, background playback, and more.",
   "githubName": "react-native-track-player",
-  "githubDescription": "The best audio player for React Native. Built on the New Architecture \u2014 Android Auto, caching, preloading, background playback, and more.",
+  "githubDescription": "The best audio player for React Native. Built on the New Architecture — Android Auto, caching, preloading, background playback, and more.",
   "tags": [
     "android",
     "audio",
@@ -21,6 +21,12 @@
   "history": [
     {
       "date": "2026-09-02",
+      "stars": 3707,
+      "forks": 1198,
+      "openIssues": 17
+    },
+    {
+      "date": "2026-09-03",
       "stars": 3707,
       "forks": 1198,
       "openIssues": 17

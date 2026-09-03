@@ -34,6 +34,12 @@
       "stars": 22038,
       "forks": 767,
       "openIssues": 15
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 22052,
+      "forks": 769,
+      "openIssues": 16
     }
   ],
   "weight": 21989,
@@ -41,7 +47,7 @@
     {
       "date": "2025-12-26",
       "type": "hn",
-      "title": "Show HN: Witr \u2013 Explain why a process is running on your Linux system",
+      "title": "Show HN: Witr – Explain why a process is running on your Linux system",
       "url": "https://news.ycombinator.com/item?id=46392910",
       "points": 526
     }

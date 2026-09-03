@@ -86,13 +86,19 @@
       "stars": 12312,
       "forks": 1209,
       "openIssues": 43
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 12311,
+      "forks": 1209,
+      "openIssues": 43
     }
   ],
   "events": [
     {
       "date": "2022-11-20",
       "type": "hn",
-      "title": "Show HN: Illa \u2013 An open-source alternative to Retool",
+      "title": "Show HN: Illa – An open-source alternative to Retool",
       "url": "https://news.ycombinator.com/item?id=33678599",
       "points": 151
     }

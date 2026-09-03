@@ -17,6 +17,12 @@
       "stars": 6923,
       "forks": 1018,
       "openIssues": 632
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 6923,
+      "forks": 1019,
+      "openIssues": 632
     }
   ],
   "weight": 6918,
@@ -25,14 +31,14 @@
     {
       "date": "2022-02-18",
       "type": "hn",
-      "title": "Littlefs \u2013 A little fail-safe filesystem designed for microcontrollers",
+      "title": "Littlefs – A little fail-safe filesystem designed for microcontrollers",
       "url": "https://news.ycombinator.com/item?id=30383567",
       "points": 259
     },
     {
       "date": "2023-12-11",
       "type": "hn",
-      "title": "Littlefs \u2013 a little fail-safe filesystem designed for microcontrollers",
+      "title": "Littlefs – a little fail-safe filesystem designed for microcontrollers",
       "url": "https://news.ycombinator.com/item?id=38596335",
       "points": 121
     }

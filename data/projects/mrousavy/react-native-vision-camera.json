@@ -3,9 +3,9 @@
   "id": "mrousavy/react-native-vision-camera",
   "link": "https://github.com/mrousavy/react-native-vision-camera",
   "name": "react-native-vision-camera",
-  "desc": "\ud83d\udcf8 A powerful, high-performance React Native Camera library.",
+  "desc": "📸 A powerful, high-performance React Native Camera library.",
   "githubName": "react-native-vision-camera",
-  "githubDescription": "\ud83d\udcf8 A powerful, high-performance React Native Camera library.",
+  "githubDescription": "📸 A powerful, high-performance React Native Camera library.",
   "tags": [
     "android",
     "barcode",
@@ -32,6 +32,12 @@
     {
       "date": "2026-09-02",
       "stars": 9597,
+      "forks": 1388,
+      "openIssues": 75
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 9604,
       "forks": 1388,
       "openIssues": 75
     }

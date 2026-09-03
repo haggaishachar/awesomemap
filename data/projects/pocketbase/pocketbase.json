@@ -126,13 +126,19 @@
       "stars": 60918,
       "forks": 3668,
       "openIssues": 19
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 60926,
+      "forks": 3669,
+      "openIssues": 19
     }
   ],
   "events": [
     {
       "date": "2022-07-07",
       "type": "hn",
-      "title": "Show HN: PocketBase \u2013 Open Source realtime backend in one file",
+      "title": "Show HN: PocketBase – Open Source realtime backend in one file",
       "url": "https://news.ycombinator.com/item?id=32013330",
       "points": 563
     },

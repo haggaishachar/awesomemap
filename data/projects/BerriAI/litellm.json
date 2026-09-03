@@ -114,13 +114,19 @@
       "stars": 57848,
       "forks": 11105,
       "openIssues": 4938
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 57921,
+      "forks": 11128,
+      "openIssues": 4931
     }
   ],
   "events": [
     {
       "date": "2023-07-27",
       "type": "hn",
-      "title": "Show HN: Litellm \u2013 Simple library to standardize OpenAI, Cohere, Azure LLM I/O",
+      "title": "Show HN: Litellm – Simple library to standardize OpenAI, Cohere, Azure LLM I/O",
       "url": "https://news.ycombinator.com/item?id=36887711",
       "points": 62
     },
@@ -141,7 +147,7 @@
     {
       "date": "2026-03-24",
       "type": "hn",
-      "title": "Malicious litellm_init.pth in litellm 1.82.8 PyPI package \u2013 credential stealer",
+      "title": "Malicious litellm_init.pth in litellm 1.82.8 PyPI package – credential stealer",
       "url": "https://news.ycombinator.com/item?id=47501729",
       "points": 739
     }

@@ -126,13 +126,19 @@
       "stars": 15485,
       "forks": 940,
       "openIssues": 499
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 15493,
+      "forks": 940,
+      "openIssues": 499
     }
   ],
   "events": [
     {
       "date": "2025-02-25",
       "type": "hn",
-      "title": "Maestro \u2013 Next generation mobile UI automation",
+      "title": "Maestro – Next generation mobile UI automation",
       "url": "https://news.ycombinator.com/item?id=43174453",
       "points": 185
     }

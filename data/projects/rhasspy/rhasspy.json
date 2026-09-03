@@ -76,13 +76,19 @@
       "stars": 2748,
       "forks": 208,
       "openIssues": 131
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 2746,
+      "forks": 208,
+      "openIssues": 131
     }
   ],
   "events": [
     {
       "date": "2022-11-22",
       "type": "hn",
-      "title": "Rhasspy \u2013 Offline private voice assistant for many human languages",
+      "title": "Rhasspy – Offline private voice assistant for many human languages",
       "url": "https://news.ycombinator.com/item?id=33705938",
       "points": 195
     }

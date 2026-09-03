@@ -29,6 +29,12 @@
       "stars": 16012,
       "forks": 1545,
       "openIssues": 661
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 16011,
+      "forks": 1545,
+      "openIssues": 661
     }
   ],
   "weight": 16014,
@@ -37,7 +43,7 @@
     {
       "date": "2021-01-12",
       "type": "hn",
-      "title": "Show HN: Amplication \u2013 Instantly Generate Node.js Apps with GraphQL and REST API",
+      "title": "Show HN: Amplication – Instantly Generate Node.js Apps with GraphQL and REST API",
       "url": "https://news.ycombinator.com/item?id=25749492",
       "points": 272
     }

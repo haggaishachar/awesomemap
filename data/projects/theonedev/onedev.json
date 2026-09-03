@@ -22,6 +22,12 @@
       "stars": 15208,
       "forks": 978,
       "openIssues": 0
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 15212,
+      "forks": 978,
+      "openIssues": 0
     }
   ],
   "weight": 15205,
@@ -30,14 +36,14 @@
     {
       "date": "2020-01-18",
       "type": "hn",
-      "title": "Show HN: OneDev \u2013 A Lightweight GitLab Alternative",
+      "title": "Show HN: OneDev – A Lightweight GitLab Alternative",
       "url": "https://news.ycombinator.com/item?id=22081419",
       "points": 459
     },
     {
       "date": "2022-08-02",
       "type": "hn",
-      "title": "OneDev \u2013 A Lightweight Gitlab Alternative",
+      "title": "OneDev – A Lightweight Gitlab Alternative",
       "url": "https://news.ycombinator.com/item?id=32316251",
       "points": 200
     }

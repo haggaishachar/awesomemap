@@ -5,7 +5,7 @@
   "name": "tRPC",
   "desc": "End-to-end typesafe APIs made easy",
   "githubName": "trpc",
-  "githubDescription": "\ud83e\uddd9\u200d\u2640\ufe0f  Move Fast and Break Nothing. End-to-end typesafe APIs made easy. ",
+  "githubDescription": "🧙‍♀️  Move Fast and Break Nothing. End-to-end typesafe APIs made easy. ",
   "weight": 40546,
   "image": "https://avatars.githubusercontent.com/u/78011399?v=4",
   "tags": [
@@ -126,6 +126,12 @@
     {
       "date": "2026-09-02",
       "stars": 40572,
+      "forks": 1658,
+      "openIssues": 275
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 40574,
       "forks": 1658,
       "openIssues": 275
     }

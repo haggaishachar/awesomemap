@@ -29,6 +29,12 @@
       "stars": 31234,
       "forks": 1245,
       "openIssues": 286
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 31294,
+      "forks": 1248,
+      "openIssues": 288
     }
   ],
   "weight": 31125,
@@ -37,7 +43,7 @@
     {
       "date": "2022-05-30",
       "type": "hn",
-      "title": "Dragonflydb \u2013 A modern replacement for Redis and Memcached",
+      "title": "Dragonflydb – A modern replacement for Redis and Memcached",
       "url": "https://news.ycombinator.com/item?id=31560547",
       "points": 914
     }

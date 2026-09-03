@@ -5,7 +5,7 @@
   "name": "Baserow",
   "desc": "Open-source no-code database and app builder",
   "githubName": "baserow",
-  "githubDescription": "Build databases, automations, apps & agents with AI \u2014 no code.  Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative.",
+  "githubDescription": "Build databases, automations, apps & agents with AI — no code.  Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative.",
   "weight": 5711,
   "image": "https://avatars.githubusercontent.com/u/68540644?v=4",
   "tags": [
@@ -86,6 +86,12 @@
       "stars": 5769,
       "forks": 708,
       "openIssues": 1236
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 5777,
+      "forks": 710,
+      "openIssues": 1238
     }
   ],
   "events": []

@@ -103,13 +103,19 @@
       "stars": 35732,
       "forks": 5320,
       "openIssues": 939
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 35738,
+      "forks": 5321,
+      "openIssues": 939
     }
   ],
   "events": [
     {
       "date": "2023-07-26",
       "type": "hn",
-      "title": "Show HN: Continue \u2013 Open-source coding autopilot",
+      "title": "Show HN: Continue – Open-source coding autopilot",
       "url": "https://news.ycombinator.com/item?id=36882146",
       "points": 298
     }

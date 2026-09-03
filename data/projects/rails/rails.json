@@ -129,6 +129,12 @@
       "stars": 58747,
       "forks": 22390,
       "openIssues": 1615
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 58749,
+      "forks": 22392,
+      "openIssues": 1611
     }
   ],
   "events": [
@@ -191,7 +197,7 @@
     {
       "date": "2014-11-29",
       "type": "hn",
-      "title": "\u201cStart Rails 5 development\u201d ",
+      "title": "“Start Rails 5 development” ",
       "url": "https://news.ycombinator.com/item?id=8673200",
       "points": 109
     },

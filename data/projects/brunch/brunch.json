@@ -3,9 +3,9 @@
   "id": "brunch/brunch",
   "link": "https://github.com/brunch/brunch",
   "name": "brunch",
-  "desc": "\ud83c\udf74 Web applications made easy. Since 2011.",
+  "desc": "🍴 Web applications made easy. Since 2011.",
   "githubName": "brunch",
-  "githubDescription": "\ud83c\udf74 Web applications made easy. Since 2011.",
+  "githubDescription": "🍴 Web applications made easy. Since 2011.",
   "weight": 6758,
   "image": "https://avatars.githubusercontent.com/u/575509?v=4",
   "tags": [
@@ -44,6 +44,12 @@
     },
     {
       "date": "2026-09-02",
+      "stars": 6758,
+      "forks": 424,
+      "openIssues": 0
+    },
+    {
+      "date": "2026-09-03",
       "stars": 6758,
       "forks": 424,
       "openIssues": 0

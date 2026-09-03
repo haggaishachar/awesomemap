@@ -19,6 +19,12 @@
       "stars": 23135,
       "forks": 3109,
       "openIssues": 46
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 23139,
+      "forks": 3109,
+      "openIssues": 47
     }
   ],
   "weight": 23135,
@@ -27,7 +33,7 @@
     {
       "date": "2014-11-28",
       "type": "hn",
-      "title": "Phoenix \u2013 Elixir Web Framework",
+      "title": "Phoenix – Elixir Web Framework",
       "url": "https://news.ycombinator.com/item?id=8671618",
       "points": 273
     },

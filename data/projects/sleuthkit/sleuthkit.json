@@ -5,7 +5,7 @@
   "name": "The Sleuth Kit",
   "desc": "Library and collection of command line digital forensics tools for investigating volume and file system data",
   "githubName": "sleuthkit",
-  "githubDescription": "The Sleuth Kit\u00ae (TSK) is a library and collection of command line digital forensics tools that allow you to investigate volume and file system data. The library can be incorporated into larger digital forensics tools and the command line tools can be directly used to find evidence. ",
+  "githubDescription": "The Sleuth Kit® (TSK) is a library and collection of command line digital forensics tools that allow you to investigate volume and file system data. The library can be incorporated into larger digital forensics tools and the command line tools can be directly used to find evidence. ",
   "weight": 3137,
   "image": "https://avatars.githubusercontent.com/u/866922?v=4",
   "tags": [
@@ -124,6 +124,12 @@
     },
     {
       "date": "2026-09-02",
+      "stars": 3141,
+      "forks": 707,
+      "openIssues": 479
+    },
+    {
+      "date": "2026-09-03",
       "stars": 3141,
       "forks": 707,
       "openIssues": 479

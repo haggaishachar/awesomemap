@@ -5,7 +5,7 @@
   "name": "Activepieces",
   "desc": "Open-source AI-powered workflow automation platform",
   "githubName": "activepieces",
-  "githubDescription": "AI Agents & MCPs & AI Workflow Automation \u2022 (~400 MCP servers for AI agents) \u2022 AI Automation / AI Agent with MCPs \u2022 AI Workflows & AI Agents \u2022 MCPs for AI Agents",
+  "githubDescription": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
   "weight": 24041,
   "image": "https://avatars.githubusercontent.com/u/99494700?v=4",
   "tags": [
@@ -83,6 +83,12 @@
       "stars": 24197,
       "forks": 4133,
       "openIssues": 521
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 24204,
+      "forks": 4135,
+      "openIssues": 522
     }
   ],
   "events": []

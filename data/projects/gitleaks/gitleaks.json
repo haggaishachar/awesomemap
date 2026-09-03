@@ -5,7 +5,7 @@
   "name": "Gitleaks",
   "desc": "Scans git repositories, filesystems, and directories for hardcoded secrets and credentials",
   "githubName": "gitleaks",
-  "githubDescription": "Find secrets with Gitleaks \ud83d\udd11",
+  "githubDescription": "Find secrets with Gitleaks 🔑",
   "weight": 28958,
   "image": "https://avatars.githubusercontent.com/u/90395851?v=4",
   "tags": [
@@ -140,6 +140,12 @@
     {
       "date": "2026-09-02",
       "stars": 29072,
+      "forks": 2227,
+      "openIssues": 475
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 29084,
       "forks": 2227,
       "openIssues": 475
     }

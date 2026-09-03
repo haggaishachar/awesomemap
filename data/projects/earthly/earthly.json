@@ -3,9 +3,9 @@
   "id": "earthly/earthly",
   "link": "https://github.com/earthly/earthly",
   "name": "earthly",
-  "desc": "Super simple build framework with fast, repeatable builds and an instantly familiar syntax \u2013 like Dockerfile and Makefile had a baby.",
+  "desc": "Super simple build framework with fast, repeatable builds and an instantly familiar syntax – like Dockerfile and Makefile had a baby.",
   "githubName": "earthly",
-  "githubDescription": "Super simple build framework with fast, repeatable builds and an instantly familiar syntax \u2013 like Dockerfile and Makefile had a baby.",
+  "githubDescription": "Super simple build framework with fast, repeatable builds and an instantly familiar syntax – like Dockerfile and Makefile had a baby.",
   "tags": [
     "build",
     "build-automation",
@@ -28,6 +28,12 @@
       "date": "2026-09-02",
       "stars": 12049,
       "forks": 457,
+      "openIssues": 744
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 12049,
+      "forks": 458,
       "openIssues": 744
     }
   ],

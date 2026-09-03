@@ -19,6 +19,12 @@
       "stars": 883,
       "forks": 68,
       "openIssues": 19
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 886,
+      "forks": 68,
+      "openIssues": 19
     }
   ],
   "weight": 883,
@@ -27,7 +33,7 @@
     {
       "date": "2026-04-15",
       "type": "hn",
-      "title": "Show HN: Libretto \u2013 Making AI browser automations deterministic",
+      "title": "Show HN: Libretto – Making AI browser automations deterministic",
       "url": "https://news.ycombinator.com/item?id=47780971",
       "points": 134
     }

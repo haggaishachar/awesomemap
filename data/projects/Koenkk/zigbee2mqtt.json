@@ -5,7 +5,7 @@
   "name": "Zigbee2MQTT",
   "desc": "Bridges Zigbee devices to MQTT without a vendor hub",
   "githubName": "zigbee2mqtt",
-  "githubDescription": "Zigbee \ud83d\udc1d to MQTT bridge \ud83c\udf09, get rid of your proprietary Zigbee bridges \ud83d\udd28",
+  "githubDescription": "Zigbee 🐝 to MQTT bridge 🌉, get rid of your proprietary Zigbee bridges 🔨",
   "weight": 15572,
   "image": null,
   "tags": [
@@ -71,6 +71,12 @@
       "stars": 15592,
       "forks": 2002,
       "openIssues": 460
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 15592,
+      "forks": 2003,
+      "openIssues": 465
     }
   ],
   "events": []

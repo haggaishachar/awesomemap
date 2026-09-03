@@ -3,9 +3,9 @@
   "id": "mrousavy/react-native-fast-tflite",
   "link": "https://github.com/mrousavy/react-native-fast-tflite",
   "name": "react-native-fast-tflite",
-  "desc": "\ud83e\uddec High-performance TensorFlow Lite library for React Native with GPU acceleration",
+  "desc": "🧬 High-performance TensorFlow Lite library for React Native with GPU acceleration",
   "githubName": "react-native-fast-tflite",
-  "githubDescription": "\ud83e\uddec High-performance TensorFlow Lite library for React Native with GPU acceleration",
+  "githubDescription": "🧬 High-performance TensorFlow Lite library for React Native with GPU acceleration",
   "tags": [
     "ai",
     "arraybuffer",
@@ -26,6 +26,12 @@
   "history": [
     {
       "date": "2026-09-02",
+      "stars": 1233,
+      "forks": 90,
+      "openIssues": 42
+    },
+    {
+      "date": "2026-09-03",
       "stars": 1233,
       "forks": 90,
       "openIssues": 42

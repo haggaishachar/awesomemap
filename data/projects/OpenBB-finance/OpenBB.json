@@ -27,6 +27,12 @@
       "stars": 72619,
       "forks": 7496,
       "openIssues": 111
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 72636,
+      "forks": 7499,
+      "openIssues": 112
     }
   ],
   "weight": 72560,
@@ -35,7 +41,7 @@
     {
       "date": "2023-03-05",
       "type": "hn",
-      "title": "Show HN: OpenBB Terminal \u2013 Investment research for everyone",
+      "title": "Show HN: OpenBB Terminal – Investment research for everyone",
       "url": "https://news.ycombinator.com/item?id=35028262",
       "points": 182
     }

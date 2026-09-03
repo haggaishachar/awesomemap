@@ -3,9 +3,9 @@
   "id": "thedotmack/claude-mem",
   "link": "https://github.com/thedotmack/claude-mem",
   "name": "claude-mem",
-  "desc": "Persistent Context Across Sessions for Every Agent \u2013  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+  "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
   "githubName": "claude-mem",
-  "githubDescription": "Persistent Context Across Sessions for Every Agent \u2013  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+  "githubDescription": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
   "tags": [
     "ai",
     "ai-agents",
@@ -34,6 +34,12 @@
       "stars": 93023,
       "forks": 8178,
       "openIssues": 297
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 93067,
+      "forks": 8181,
+      "openIssues": 307
     }
   ],
   "weight": 92817,

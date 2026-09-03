@@ -3,9 +3,9 @@
   "id": "invertase/react-native-firebase",
   "link": "https://github.com/invertase/react-native-firebase",
   "name": "react-native-firebase",
-  "desc": "\ud83d\udd25 A well-tested feature-rich modular Firebase implementation for React Native. Supports both iOS & Android platforms for all Firebase services.",
+  "desc": "🔥 A well-tested feature-rich modular Firebase implementation for React Native. Supports both iOS & Android platforms for all Firebase services.",
   "githubName": "react-native-firebase",
-  "githubDescription": "\ud83d\udd25 A well-tested feature-rich modular Firebase implementation for React Native. Supports both iOS & Android platforms for all Firebase services.",
+  "githubDescription": "🔥 A well-tested feature-rich modular Firebase implementation for React Native. Supports both iOS & Android platforms for all Firebase services.",
   "weight": 12301,
   "image": "https://avatars.githubusercontent.com/u/13588260?v=4",
   "tags": [
@@ -57,6 +57,12 @@
       "date": "2026-09-02",
       "stars": 12301,
       "forks": 2329,
+      "openIssues": 49
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 12301,
+      "forks": 2330,
       "openIssues": 49
     }
   ],

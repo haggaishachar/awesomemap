@@ -13,6 +13,12 @@
       "stars": 26994,
       "forks": 1849,
       "openIssues": 1352
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 26994,
+      "forks": 1849,
+      "openIssues": 1352
     }
   ],
   "weight": 26995,
@@ -21,7 +27,7 @@
     {
       "date": "2015-05-27",
       "type": "hn",
-      "title": "\u201cThe benchmark numbers are completely wrong for both databases\u201d",
+      "title": "“The benchmark numbers are completely wrong for both databases”",
       "url": "https://news.ycombinator.com/item?id=9609545",
       "points": 165
     },
@@ -35,7 +41,7 @@
     {
       "date": "2017-01-30",
       "type": "hn",
-      "title": "\u201cWorrying about licensing is what PG would call a sitcom idea\u201d",
+      "title": "“Worrying about licensing is what PG would call a sitcom idea”",
       "url": "https://news.ycombinator.com/item?id=13523347",
       "points": 133
     }

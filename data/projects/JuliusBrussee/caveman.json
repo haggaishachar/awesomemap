@@ -3,9 +3,9 @@
   "id": "JuliusBrussee/caveman",
   "link": "https://github.com/JuliusBrussee/caveman",
   "name": "caveman",
-  "desc": "\ud83e\udea8 why use many token when few token do trick \u2014 Claude Code skill that cuts 65% of tokens by talking like caveman",
+  "desc": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
   "githubName": "caveman",
-  "githubDescription": "\ud83e\udea8 why use many token when few token do trick \u2014 Claude Code skill that cuts 65% of tokens by talking like caveman",
+  "githubDescription": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
   "tags": [
     "ai",
     "anthropic",
@@ -24,6 +24,12 @@
       "stars": 102564,
       "forks": 5967,
       "openIssues": 101
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 102855,
+      "forks": 5981,
+      "openIssues": 115
     }
   ],
   "weight": 102162,

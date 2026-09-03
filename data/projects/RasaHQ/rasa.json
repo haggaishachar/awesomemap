@@ -3,9 +3,9 @@
   "id": "RasaHQ/rasa",
   "link": "https://github.com/RasaHQ/rasa",
   "name": "rasa",
-  "desc": "\ud83d\udcac   Open source machine learning framework to automate text- and voice-based conversations: NLU, dialogue management, connect to Slack, Facebook, and more - Create chatbots and voice assistants",
+  "desc": "💬   Open source machine learning framework to automate text- and voice-based conversations: NLU, dialogue management, connect to Slack, Facebook, and more - Create chatbots and voice assistants",
   "githubName": "rasa",
-  "githubDescription": "\ud83d\udcac   Open source machine learning framework to automate text- and voice-based conversations: NLU, dialogue management, connect to Slack, Facebook, and more - Create chatbots and voice assistants",
+  "githubDescription": "💬   Open source machine learning framework to automate text- and voice-based conversations: NLU, dialogue management, connect to Slack, Facebook, and more - Create chatbots and voice assistants",
   "tags": [
     "bot",
     "bot-framework",
@@ -32,6 +32,12 @@
     {
       "date": "2026-09-02",
       "stars": 21308,
+      "forks": 4918,
+      "openIssues": 153
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 21311,
       "forks": 4918,
       "openIssues": 153
     }

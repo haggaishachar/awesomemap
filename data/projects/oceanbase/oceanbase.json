@@ -3,9 +3,9 @@
   "id": "oceanbase/oceanbase",
   "link": "https://github.com/oceanbase/oceanbase",
   "name": "oceanbase",
-  "desc": "OceanBase is the unified distributed database for the AI era \u2014 open-source, multi-model, one engine for your most demanding workloads.",
+  "desc": "OceanBase is the unified distributed database for the AI era — open-source, multi-model, one engine for your most demanding workloads.",
   "githubName": "oceanbase",
-  "githubDescription": "OceanBase is the unified distributed database for the AI era \u2014 open-source, multi-model, one engine for your most demanding workloads.",
+  "githubDescription": "OceanBase is the unified distributed database for the AI era — open-source, multi-model, one engine for your most demanding workloads.",
   "tags": [
     "analytics",
     "cloud-native",
@@ -32,6 +32,12 @@
     {
       "date": "2026-09-02",
       "stars": 10260,
+      "forks": 1913,
+      "openIssues": 596
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 10259,
       "forks": 1913,
       "openIssues": 596
     }

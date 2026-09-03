@@ -3,9 +3,9 @@
   "id": "datawhalechina/hello-agents",
   "link": "https://github.com/datawhalechina/hello-agents",
   "name": "hello-agents",
-  "desc": "\ud83d\udcda \u300a\u4ece\u96f6\u5f00\u59cb\u6784\u5efa\u667a\u80fd\u4f53\u300b\u2014\u2014\u4ece\u96f6\u5f00\u59cb\u7684\u667a\u80fd\u4f53\u539f\u7406\u4e0e\u5b9e\u8df5\u6559\u7a0b",
+  "desc": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
   "githubName": "hello-agents",
-  "githubDescription": "\ud83d\udcda \u300a\u4ece\u96f6\u5f00\u59cb\u6784\u5efa\u667a\u80fd\u4f53\u300b\u2014\u2014\u4ece\u96f6\u5f00\u59cb\u7684\u667a\u80fd\u4f53\u539f\u7406\u4e0e\u5b9e\u8df5\u6559\u7a0b",
+  "githubDescription": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
   "tags": [
     "agent",
     "llm",
@@ -18,6 +18,12 @@
       "stars": 76491,
       "forks": 9505,
       "openIssues": 189
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 76708,
+      "forks": 9536,
+      "openIssues": 192
     }
   ],
   "weight": 75956,

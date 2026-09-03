@@ -137,20 +137,26 @@
       "stars": 95536,
       "forks": 6375,
       "openIssues": 183
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 95562,
+      "forks": 6383,
+      "openIssues": 191
     }
   ],
   "events": [
     {
       "date": "2020-09-18",
       "type": "hn",
-      "title": "Playwright CLI \u2013 Open/inspect/emulate pages, generate screenshots, record users",
+      "title": "Playwright CLI – Open/inspect/emulate pages, generate screenshots, record users",
       "url": "https://news.ycombinator.com/item?id=24514271",
       "points": 134
     },
     {
       "date": "2021-04-05",
       "type": "hn",
-      "title": "Playwright-test \u2013 cross-browser end-to-end test suite with Playwright",
+      "title": "Playwright-test – cross-browser end-to-end test suite with Playwright",
       "url": "https://news.ycombinator.com/item?id=26696363",
       "points": 101
     },

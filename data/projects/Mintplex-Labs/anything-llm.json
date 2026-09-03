@@ -30,6 +30,12 @@
       "stars": 65522,
       "forks": 7245,
       "openIssues": 322
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 65554,
+      "forks": 7247,
+      "openIssues": 325
     }
   ],
   "weight": 65455,
@@ -38,7 +44,7 @@
     {
       "date": "2024-09-05",
       "type": "hn",
-      "title": "Show HN: AnythingLLM \u2013 Open-Source, All-in-One Desktop AI Assistant",
+      "title": "Show HN: AnythingLLM – Open-Source, All-in-One Desktop AI Assistant",
       "url": "https://news.ycombinator.com/item?id=41457633",
       "points": 368
     }

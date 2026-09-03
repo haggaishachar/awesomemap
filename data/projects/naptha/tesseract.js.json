@@ -3,9 +3,9 @@
   "id": "naptha/tesseract.js",
   "link": "https://github.com/naptha/tesseract.js",
   "name": "tesseract.js",
-  "desc": "Pure Javascript OCR for more than 100 Languages \ud83d\udcd6\ud83c\udf89\ud83d\udda5",
+  "desc": "Pure Javascript OCR for more than 100 Languages 📖🎉🖥",
   "githubName": "tesseract.js",
-  "githubDescription": "Pure Javascript OCR for more than 100 Languages \ud83d\udcd6\ud83c\udf89\ud83d\udda5",
+  "githubDescription": "Pure Javascript OCR for more than 100 Languages 📖🎉🖥",
   "tags": [
     "deep-learning",
     "javascript",
@@ -19,6 +19,12 @@
       "stars": 38688,
       "forks": 2391,
       "openIssues": 49
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 38687,
+      "forks": 2390,
+      "openIssues": 49
     }
   ],
   "weight": 38685,
@@ -27,7 +33,7 @@
     {
       "date": "2016-10-12",
       "type": "hn",
-      "title": "Show HN: Tesseract.js \u2013 Pure JavaScript OCR for 60 Languages",
+      "title": "Show HN: Tesseract.js – Pure JavaScript OCR for 60 Languages",
       "url": "https://news.ycombinator.com/item?id=12694004",
       "points": 727
     },

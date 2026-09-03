@@ -34,6 +34,12 @@
       "stars": 31435,
       "forks": 2802,
       "openIssues": 1877
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 31439,
+      "forks": 2803,
+      "openIssues": 1878
     }
   ],
   "weight": 31430,
@@ -42,7 +48,7 @@
     {
       "date": "2016-07-09",
       "type": "hn",
-      "title": "Avalonia \u2013 A multi-platform .NET UI framework",
+      "title": "Avalonia – A multi-platform .NET UI framework",
       "url": "https://news.ycombinator.com/item?id=12062986",
       "points": 223
     }

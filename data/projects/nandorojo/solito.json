@@ -3,13 +3,19 @@
   "id": "nandorojo/solito",
   "link": "https://github.com/nandorojo/solito",
   "name": "solito",
-  "desc": "\ud83e\uddcd\u200d\u2642\ufe0f React Native + Next.js, unified.",
+  "desc": "🧍‍♂️ React Native + Next.js, unified.",
   "githubName": "solito",
-  "githubDescription": "\ud83e\uddcd\u200d\u2642\ufe0f React Native + Next.js, unified.",
+  "githubDescription": "🧍‍♂️ React Native + Next.js, unified.",
   "tags": [],
   "history": [
     {
       "date": "2026-09-02",
+      "stars": 4090,
+      "forks": 192,
+      "openIssues": 27
+    },
+    {
+      "date": "2026-09-03",
       "stars": 4090,
       "forks": 192,
       "openIssues": 27

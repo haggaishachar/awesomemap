@@ -3,9 +3,9 @@
   "id": "apitable/apitable",
   "link": "https://github.com/apitable/apitable",
   "name": "apitable",
-  "desc": "\ud83d\ude80\ud83c\udf89\ud83d\udcda APITable, an API-oriented low-code platform for building collaborative apps and better than all other Airtable open-source alternatives. ",
+  "desc": "🚀🎉📚 APITable, an API-oriented low-code platform for building collaborative apps and better than all other Airtable open-source alternatives. ",
   "githubName": "apitable",
-  "githubDescription": "\ud83d\ude80\ud83c\udf89\ud83d\udcda APITable, an API-oriented low-code platform for building collaborative apps and better than all other Airtable open-source alternatives. ",
+  "githubDescription": "🚀🎉📚 APITable, an API-oriented low-code platform for building collaborative apps and better than all other Airtable open-source alternatives. ",
   "tags": [
     "admin-dashboard",
     "airtable",
@@ -30,6 +30,12 @@
   "history": [
     {
       "date": "2026-09-02",
+      "stars": 15584,
+      "forks": 1424,
+      "openIssues": 308
+    },
+    {
+      "date": "2026-09-03",
       "stars": 15584,
       "forks": 1424,
       "openIssues": 308

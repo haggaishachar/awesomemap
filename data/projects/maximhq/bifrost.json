@@ -3,9 +3,9 @@
   "id": "maximhq/bifrost",
   "link": "https://github.com/maximhq/bifrost",
   "name": "bifrost",
-  "desc": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 \u00b5s overhead at 5k RPS.",
+  "desc": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
   "githubName": "bifrost",
-  "githubDescription": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 \u00b5s overhead at 5k RPS.",
+  "githubDescription": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
   "tags": [
     "ai-gateway",
     "gateway",
@@ -30,6 +30,12 @@
       "stars": 7761,
       "forks": 1150,
       "openIssues": 1010
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 7773,
+      "forks": 1150,
+      "openIssues": 1006
     }
   ],
   "weight": 7753,

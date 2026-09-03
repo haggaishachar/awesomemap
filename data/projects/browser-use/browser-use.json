@@ -5,7 +5,7 @@
   "name": "Browser Use",
   "desc": "Make websites accessible for AI agents",
   "githubName": "browser-use",
-  "githubDescription": "\ud83c\udf10 Make websites accessible for AI agents. Automate tasks online with ease.",
+  "githubDescription": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
   "weight": 110572,
   "image": "https://avatars.githubusercontent.com/u/192012301?v=4",
   "tags": [
@@ -105,13 +105,19 @@
       "stars": 112077,
       "forks": 12329,
       "openIssues": 401
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 112136,
+      "forks": 12335,
+      "openIssues": 401
     }
   ],
   "events": [
     {
       "date": "2025-02-25",
       "type": "hn",
-      "title": "Launch HN: Browser Use (YC W25) \u2013 open-source web agents",
+      "title": "Launch HN: Browser Use (YC W25) – open-source web agents",
       "url": "https://news.ycombinator.com/item?id=43173378",
       "points": 259
     }

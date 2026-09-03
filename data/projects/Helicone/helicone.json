@@ -5,7 +5,7 @@
   "name": "Helicone",
   "desc": "Open source LLM observability platform for logging, monitoring, and debugging",
   "githubName": "helicone",
-  "githubDescription": "\ud83e\uddca Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 \ud83c\udf53",
+  "githubDescription": "🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓",
   "weight": 6102,
   "image": "https://raw.githubusercontent.com/Helicone/helicone/main/docs/logo.svg",
   "tags": [
@@ -117,6 +117,12 @@
       "stars": 6126,
       "forks": 662,
       "openIssues": 155
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 6130,
+      "forks": 662,
+      "openIssues": 156
     }
   ],
   "events": []

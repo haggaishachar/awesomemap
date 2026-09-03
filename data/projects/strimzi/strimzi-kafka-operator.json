@@ -3,9 +3,9 @@
   "id": "strimzi/strimzi-kafka-operator",
   "link": "https://github.com/strimzi/strimzi-kafka-operator",
   "name": "strimzi-kafka-operator",
-  "desc": "Apache Kafka\u00ae running on Kubernetes",
+  "desc": "Apache Kafka® running on Kubernetes",
   "githubName": "strimzi-kafka-operator",
-  "githubDescription": "Apache Kafka\u00ae running on Kubernetes",
+  "githubDescription": "Apache Kafka® running on Kubernetes",
   "tags": [
     "data-stream",
     "data-streaming",
@@ -26,6 +26,12 @@
       "stars": 5924,
       "forks": 1533,
       "openIssues": 161
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 5924,
+      "forks": 1533,
+      "openIssues": 162
     }
   ],
   "weight": 5923,

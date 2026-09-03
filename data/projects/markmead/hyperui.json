@@ -3,9 +3,9 @@
   "id": "markmead/hyperui",
   "link": "https://github.com/markmead/hyperui",
   "name": "hyperui",
-  "desc": "Free Tailwind CSS v4 components for your next project, designed to enhance your web development with the latest features and styles \ud83d\ude80",
+  "desc": "Free Tailwind CSS v4 components for your next project, designed to enhance your web development with the latest features and styles 🚀",
   "githubName": "hyperui",
-  "githubDescription": "Free Tailwind CSS v4 components for your next project, designed to enhance your web development with the latest features and styles \ud83d\ude80",
+  "githubDescription": "Free Tailwind CSS v4 components for your next project, designed to enhance your web development with the latest features and styles 🚀",
   "tags": [
     "accessibility",
     "components",
@@ -22,6 +22,12 @@
   "history": [
     {
       "date": "2026-09-02",
+      "stars": 12224,
+      "forks": 511,
+      "openIssues": 2
+    },
+    {
+      "date": "2026-09-03",
       "stars": 12224,
       "forks": 511,
       "openIssues": 2

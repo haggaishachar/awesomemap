@@ -17,6 +17,12 @@
       "stars": 63553,
       "forks": 11321,
       "openIssues": 138
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 63558,
+      "forks": 11322,
+      "openIssues": 136
     }
   ],
   "weight": 63549,
@@ -32,14 +38,14 @@
     {
       "date": "2019-05-12",
       "type": "hn",
-      "title": "Openpilot \u2013 open-source self-driving agent",
+      "title": "Openpilot – open-source self-driving agent",
       "url": "https://news.ycombinator.com/item?id=19893283",
       "points": 262
     },
     {
       "date": "2024-09-20",
       "type": "hn",
-      "title": "Openpilot \u2013 Operating system for robotics",
+      "title": "Openpilot – Operating system for robotics",
       "url": "https://news.ycombinator.com/item?id=41600177",
       "points": 241
     }

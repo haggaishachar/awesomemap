@@ -3,9 +3,9 @@
   "id": "teableio/teable",
   "link": "https://github.com/teableio/teable",
   "name": "teable",
-  "desc": "\u2728 AI Spreadsheet for Business",
+  "desc": "✨ AI Spreadsheet for Business",
   "githubName": "teable",
-  "githubDescription": "\u2728 AI Spreadsheet for Business",
+  "githubDescription": "✨ AI Spreadsheet for Business",
   "weight": 21717,
   "image": "https://avatars.githubusercontent.com/u/113977713?v=4",
   "tags": [
@@ -62,13 +62,19 @@
       "stars": 21750,
       "forks": 1342,
       "openIssues": 126
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 21753,
+      "forks": 1342,
+      "openIssues": 126
     }
   ],
   "events": [
     {
       "date": "2024-03-11",
       "type": "hn",
-      "title": "Show HN: Teable \u2013 Open-Source No-Code Database Fusion of Postgres and Airtable",
+      "title": "Show HN: Teable – Open-Source No-Code Database Fusion of Postgres and Airtable",
       "url": "https://news.ycombinator.com/item?id=39666865",
       "points": 279
     }

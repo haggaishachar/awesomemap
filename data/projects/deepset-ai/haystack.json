@@ -118,13 +118,19 @@
       "stars": 26396,
       "forks": 3065,
       "openIssues": 103
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 26401,
+      "forks": 3066,
+      "openIssues": 104
     }
   ],
   "events": [
     {
       "date": "2021-12-09",
       "type": "hn",
-      "title": "Haystack 1.0 \u2013 open-source NLP framework to build NLProc back end applications",
+      "title": "Haystack 1.0 – open-source NLP framework to build NLProc back end applications",
       "url": "https://news.ycombinator.com/item?id=29501045",
       "points": 109
     }

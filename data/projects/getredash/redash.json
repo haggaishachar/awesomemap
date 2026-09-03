@@ -121,13 +121,19 @@
       "stars": 28778,
       "forks": 4628,
       "openIssues": 802
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 28778,
+      "forks": 4628,
+      "openIssues": 802
     }
   ],
   "events": [
     {
       "date": "2017-02-08",
       "type": "hn",
-      "title": "Redash \u2013 Connect to any data source, easily visualize and share your data",
+      "title": "Redash – Connect to any data source, easily visualize and share your data",
       "url": "https://news.ycombinator.com/item?id=13597068",
       "points": 463
     }

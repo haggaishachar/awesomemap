@@ -3,9 +3,9 @@
   "id": "davidrapan/ha-solarman",
   "link": "https://github.com/davidrapan/ha-solarman",
   "name": "ha-solarman",
-  "desc": "\u26a1 Solarman Stick Logger integration for \ud83c\udfe1 Home Assistant",
+  "desc": "⚡ Solarman Stick Logger integration for 🏡 Home Assistant",
   "githubName": "ha-solarman",
-  "githubDescription": "\u26a1 Solarman Stick Logger integration for \ud83c\udfe1 Home Assistant",
+  "githubDescription": "⚡ Solarman Stick Logger integration for 🏡 Home Assistant",
   "tags": [
     "afore",
     "deye",
@@ -34,6 +34,12 @@
       "stars": 513,
       "forks": 140,
       "openIssues": 121
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 513,
+      "forks": 140,
+      "openIssues": 120
     }
   ],
   "weight": 513,

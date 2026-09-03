@@ -5,7 +5,7 @@
   "name": "Pulumi",
   "desc": "Infrastructure as code in any programming language",
   "githubName": "pulumi",
-  "githubDescription": "Pulumi - Infrastructure as Code in any programming language \ud83d\ude80",
+  "githubDescription": "Pulumi - Infrastructure as Code in any programming language 🚀",
   "weight": 25606,
   "image": "https://avatars.githubusercontent.com/u/21992475?v=4",
   "tags": [
@@ -140,6 +140,12 @@
       "stars": 25640,
       "forks": 1421,
       "openIssues": 2457
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 25640,
+      "forks": 1421,
+      "openIssues": 2453
     }
   ],
   "events": [

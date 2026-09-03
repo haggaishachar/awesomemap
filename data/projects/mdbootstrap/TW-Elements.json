@@ -3,9 +3,9 @@
   "id": "mdbootstrap/TW-Elements",
   "link": "https://github.com/mdbootstrap/TW-Elements",
   "name": "TW-Elements",
-  "desc": "\ud835\ude43\ud835\ude6a\ud835\ude5c\ud835\ude5a collection of Tailwind MIT licensed (free) components, sections and templates \ud83d\ude0e",
+  "desc": "𝙃𝙪𝙜𝙚 collection of Tailwind MIT licensed (free) components, sections and templates 😎",
   "githubName": "TW-Elements",
-  "githubDescription": "\ud835\ude43\ud835\ude6a\ud835\ude5c\ud835\ude5a collection of Tailwind MIT licensed (free) components, sections and templates \ud83d\ude0e",
+  "githubDescription": "𝙃𝙪𝙜𝙚 collection of Tailwind MIT licensed (free) components, sections and templates 😎",
   "tags": [
     "css",
     "dashboard-templates",
@@ -31,6 +31,12 @@
   "history": [
     {
       "date": "2026-09-02",
+      "stars": 13163,
+      "forks": 1578,
+      "openIssues": 107
+    },
+    {
+      "date": "2026-09-03",
       "stars": 13163,
       "forks": 1578,
       "openIssues": 107

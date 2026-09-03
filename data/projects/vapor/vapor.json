@@ -3,9 +3,9 @@
   "id": "vapor/vapor",
   "link": "https://github.com/vapor/vapor",
   "name": "vapor",
-  "desc": "\ud83d\udca7 A server-side Swift HTTP web framework.",
+  "desc": "💧 A server-side Swift HTTP web framework.",
   "githubName": "vapor",
-  "githubDescription": "\ud83d\udca7 A server-side Swift HTTP web framework.",
+  "githubDescription": "💧 A server-side Swift HTTP web framework.",
   "tags": [
     "framework",
     "http",
@@ -22,6 +22,12 @@
       "stars": 26192,
       "forks": 1524,
       "openIssues": 107
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 26191,
+      "forks": 1524,
+      "openIssues": 105
     }
   ],
   "weight": 26194,

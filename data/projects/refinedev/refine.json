@@ -66,13 +66,19 @@
       "stars": 35618,
       "forks": 3197,
       "openIssues": 45
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 35620,
+      "forks": 3197,
+      "openIssues": 45
     }
   ],
   "events": [
     {
       "date": "2023-01-25",
       "type": "hn",
-      "title": "Show HN: Refine v3.97 \u2013 Open-source React framework for building CRUD apps",
+      "title": "Show HN: Refine v3.97 – Open-source React framework for building CRUD apps",
       "url": "https://news.ycombinator.com/item?id=34515128",
       "points": 102
     }

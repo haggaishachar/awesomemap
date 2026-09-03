@@ -97,6 +97,12 @@
       "stars": 108323,
       "forks": 13132,
       "openIssues": 138
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 108349,
+      "forks": 13134,
+      "openIssues": 139
     }
   ],
   "events": [
@@ -117,7 +123,7 @@
     {
       "date": "2025-07-22",
       "type": "hn",
-      "title": "Complete silence is always hallucinated as \"\u062a\u0631\u062c\u0645\u0629 \u0646\u0627\u0646\u0633\u064a \u0642\u0646\u0642\u0631\" in Arabic",
+      "title": "Complete silence is always hallucinated as \"ترجمة نانسي قنقر\" in Arabic",
       "url": "https://news.ycombinator.com/item?id=44643564",
       "points": 568
     }

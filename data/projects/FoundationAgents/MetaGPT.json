@@ -3,9 +3,9 @@
   "id": "FoundationAgents/MetaGPT",
   "link": "https://github.com/FoundationAgents/MetaGPT",
   "name": "MetaGPT",
-  "desc": "\ud83c\udf1f The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
+  "desc": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
   "githubName": "MetaGPT",
-  "githubDescription": "\ud83c\udf1f The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
+  "githubDescription": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
   "tags": [
     "agent",
     "gpt",
@@ -18,6 +18,12 @@
       "date": "2026-09-02",
       "stars": 70178,
       "forks": 8921,
+      "openIssues": 132
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 70189,
+      "forks": 8920,
       "openIssues": 132
     }
   ],

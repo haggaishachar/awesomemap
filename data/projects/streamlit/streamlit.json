@@ -3,9 +3,9 @@
   "id": "streamlit/streamlit",
   "link": "https://github.com/streamlit/streamlit",
   "name": "streamlit",
-  "desc": "Streamlit \u2014 A faster way to build and share data apps.",
+  "desc": "Streamlit — A faster way to build and share data apps.",
   "githubName": "streamlit",
-  "githubDescription": "Streamlit \u2014 A faster way to build and share data apps.",
+  "githubDescription": "Streamlit — A faster way to build and share data apps.",
   "tags": [
     "data-analysis",
     "data-science",
@@ -22,6 +22,12 @@
       "stars": 45665,
       "forks": 4372,
       "openIssues": 1182
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 45676,
+      "forks": 4373,
+      "openIssues": 1188
     }
   ],
   "weight": 45655,
@@ -30,7 +36,7 @@
     {
       "date": "2019-10-01",
       "type": "hn",
-      "title": "Show HN: Streamlit \u2013 Turn Python Scripts into Beautiful ML Tools",
+      "title": "Show HN: Streamlit – Turn Python Scripts into Beautiful ML Tools",
       "url": "https://news.ycombinator.com/item?id=21126477",
       "points": 52
     }

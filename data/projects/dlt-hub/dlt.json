@@ -5,7 +5,7 @@
   "name": "dlt",
   "desc": "Python library for loading data into warehouses and lakes",
   "githubName": "dlt",
-  "githubDescription": "data load tool (dlt) is an open source Python library that makes data loading easy \ud83d\udee0\ufe0f ",
+  "githubDescription": "data load tool (dlt) is an open source Python library that makes data loading easy 🛠️ ",
   "weight": 5778,
   "image": "https://avatars.githubusercontent.com/u/89419010?v=4",
   "tags": [
@@ -80,6 +80,12 @@
       "stars": 5813,
       "forks": 594,
       "openIssues": 419
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 5816,
+      "forks": 594,
+      "openIssues": 420
     }
   ],
   "events": []

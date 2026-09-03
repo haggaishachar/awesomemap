@@ -3,9 +3,9 @@
   "id": "custom-cards/button-card",
   "link": "https://github.com/custom-cards/button-card",
   "name": "button-card",
-  "desc": "\u2747\ufe0f Lovelace button-card for home assistant",
+  "desc": "❇️ Lovelace button-card for home assistant",
   "githubName": "button-card",
-  "githubDescription": "\u2747\ufe0f Lovelace button-card for home assistant",
+  "githubDescription": "❇️ Lovelace button-card for home assistant",
   "tags": [
     "home-assistant",
     "home-assistant-custom",
@@ -16,6 +16,12 @@
   "history": [
     {
       "date": "2026-09-02",
+      "stars": 2492,
+      "forks": 279,
+      "openIssues": 26
+    },
+    {
+      "date": "2026-09-03",
       "stars": 2492,
       "forks": 279,
       "openIssues": 26

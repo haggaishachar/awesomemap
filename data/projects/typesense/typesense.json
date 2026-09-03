@@ -5,7 +5,7 @@
   "name": "Typesense",
   "desc": "Open source, typo-tolerant search engine for building delightful search",
   "githubName": "typesense",
-  "githubDescription": "Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch \u26a1 \ud83d\udd0d \u2728 Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences",
+  "githubDescription": "Open Source alternative to Algolia + Pinecone and an Easier-to-Use alternative to ElasticSearch ⚡ 🔍 ✨ Fast, typo tolerant, in-memory fuzzy Search Engine for building delightful search experiences",
   "weight": 26481,
   "image": "https://avatars.githubusercontent.com/u/19822348?v=4",
   "tags": [
@@ -121,6 +121,12 @@
       "date": "2026-09-02",
       "stars": 26504,
       "forks": 969,
+      "openIssues": 876
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 26507,
+      "forks": 970,
       "openIssues": 876
     }
   ],

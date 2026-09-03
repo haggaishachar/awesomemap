@@ -3,9 +3,9 @@
   "id": "VectifyAI/PageIndex",
   "link": "https://github.com/VectifyAI/PageIndex",
   "name": "PageIndex",
-  "desc": "\ud83d\udcd1 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+  "desc": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
   "githubName": "PageIndex",
-  "githubDescription": "\ud83d\udcd1 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+  "githubDescription": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
   "tags": [
     "agentic-ai",
     "agents",
@@ -26,6 +26,12 @@
       "stars": 35493,
       "forks": 3126,
       "openIssues": 91
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 35504,
+      "forks": 3128,
+      "openIssues": 93
     }
   ],
   "weight": 35470,
@@ -34,7 +40,7 @@
     {
       "date": "2025-08-27",
       "type": "hn",
-      "title": "Show HN: PageIndex \u2013\u00a0Vectorless RAG",
+      "title": "Show HN: PageIndex – Vectorless RAG",
       "url": "https://news.ycombinator.com/item?id=45036944",
       "points": 192
     }

@@ -3,9 +3,9 @@
   "id": "wxt-dev/wxt",
   "link": "https://github.com/wxt-dev/wxt",
   "name": "wxt",
-  "desc": "\u26a1 Next-gen Web Extension Framework",
+  "desc": "⚡ Next-gen Web Extension Framework",
   "githubName": "wxt",
-  "githubDescription": "\u26a1 Next-gen Web Extension Framework",
+  "githubDescription": "⚡ Next-gen Web Extension Framework",
   "tags": [
     "build-tool",
     "chrome-extensions",
@@ -17,6 +17,12 @@
     {
       "date": "2026-09-02",
       "stars": 10442,
+      "forks": 560,
+      "openIssues": 201
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 10447,
       "forks": 560,
       "openIssues": 201
     }

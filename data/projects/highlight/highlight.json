@@ -25,6 +25,12 @@
       "stars": 9373,
       "forks": 670,
       "openIssues": 551
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 9373,
+      "forks": 670,
+      "openIssues": 551
     }
   ],
   "weight": 9373,
@@ -33,7 +39,7 @@
     {
       "date": "2023-02-22",
       "type": "hn",
-      "title": "Show HN: We\u2019re open-sourcing our session replay tool",
+      "title": "Show HN: We’re open-sourcing our session replay tool",
       "url": "https://news.ycombinator.com/item?id=34897645",
       "points": 408
     },

@@ -3,9 +3,9 @@
   "id": "evcc-io/evcc",
   "link": "https://github.com/evcc-io/evcc",
   "name": "evcc",
-  "desc": "solar charging \u2600\ufe0f\ud83d\ude98",
+  "desc": "solar charging ☀️🚘",
   "githubName": "evcc",
-  "githubDescription": "solar charging \u2600\ufe0f\ud83d\ude98",
+  "githubDescription": "solar charging ☀️🚘",
   "tags": [
     "battery",
     "charger",
@@ -28,6 +28,12 @@
       "stars": 7169,
       "forks": 1490,
       "openIssues": 128
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 7172,
+      "forks": 1490,
+      "openIssues": 127
     }
   ],
   "weight": 7166,

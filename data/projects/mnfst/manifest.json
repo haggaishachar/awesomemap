@@ -3,9 +3,9 @@
   "id": "mnfst/manifest",
   "link": "https://github.com/mnfst/manifest",
   "name": "manifest",
-  "desc": "Connect Your Agents And Harnesses With Any Provider \ud83e\udd9a",
+  "desc": "Connect Your Agents And Harnesses With Any Provider 🦚",
   "githubName": "manifest",
-  "githubDescription": "Connect Your Agents And Harnesses With Any Provider \ud83e\udd9a",
+  "githubDescription": "Connect Your Agents And Harnesses With Any Provider 🦚",
   "tags": [
     "ai",
     "ai-",
@@ -29,6 +29,12 @@
       "stars": 7499,
       "forks": 507,
       "openIssues": 107
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 7501,
+      "forks": 506,
+      "openIssues": 103
     }
   ],
   "weight": 7499,

@@ -3,9 +3,9 @@
   "id": "tschoffelen/react-native-map-link",
   "link": "https://github.com/tschoffelen/react-native-map-link",
   "name": "react-native-map-link",
-  "desc": "\ud83d\uddfa Open the map app of the user's choice.",
+  "desc": "🗺 Open the map app of the user's choice.",
   "githubName": "react-native-map-link",
-  "githubDescription": "\ud83d\uddfa Open the map app of the user's choice.",
+  "githubDescription": "🗺 Open the map app of the user's choice.",
   "tags": [
     "android",
     "directions",
@@ -16,6 +16,12 @@
   "history": [
     {
       "date": "2026-09-02",
+      "stars": 821,
+      "forks": 151,
+      "openIssues": 3
+    },
+    {
+      "date": "2026-09-03",
       "stars": 821,
       "forks": 151,
       "openIssues": 3

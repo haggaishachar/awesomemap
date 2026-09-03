@@ -120,13 +120,19 @@
       "stars": 51631,
       "forks": 4367,
       "openIssues": 3361
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 51640,
+      "forks": 4370,
+      "openIssues": 3362
     }
   ],
   "events": [
     {
       "date": "2024-03-10",
       "type": "hn",
-      "title": "DBeaver \u2013 open-source database client",
+      "title": "DBeaver – open-source database client",
       "url": "https://news.ycombinator.com/item?id=39660592",
       "points": 451
     }

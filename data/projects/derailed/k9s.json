@@ -3,9 +3,9 @@
   "id": "derailed/k9s",
   "link": "https://github.com/derailed/k9s",
   "name": "k9s",
-  "desc": "\ud83d\udc36 Kubernetes CLI To Manage Your Clusters In Style!",
+  "desc": "🐶 Kubernetes CLI To Manage Your Clusters In Style!",
   "githubName": "k9s",
-  "githubDescription": "\ud83d\udc36 Kubernetes CLI To Manage Your Clusters In Style!",
+  "githubDescription": "🐶 Kubernetes CLI To Manage Your Clusters In Style!",
   "weight": 34440,
   "image": "https://raw.githubusercontent.com/derailed/k9s/master/assets/logo.png",
   "tags": [
@@ -58,6 +58,12 @@
       "stars": 34487,
       "forks": 2270,
       "openIssues": 89
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 34494,
+      "forks": 2270,
+      "openIssues": 83
     }
   ],
   "events": [

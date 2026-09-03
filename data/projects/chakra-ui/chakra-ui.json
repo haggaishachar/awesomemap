@@ -5,7 +5,7 @@
   "name": "Chakra UI",
   "desc": "Simple, modular and accessible component library for React",
   "githubName": "chakra-ui",
-  "githubDescription": "Chakra UI is a component system for building SaaS products with speed \u26a1\ufe0f",
+  "githubDescription": "Chakra UI is a component system for building SaaS products with speed ⚡️",
   "weight": 40596,
   "image": "https://avatars.githubusercontent.com/u/54212428?v=4",
   "tags": [
@@ -137,6 +137,12 @@
       "date": "2026-09-02",
       "stars": 40615,
       "forks": 3640,
+      "openIssues": 14
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 40616,
+      "forks": 3639,
       "openIssues": 14
     }
   ],

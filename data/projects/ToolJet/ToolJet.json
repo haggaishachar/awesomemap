@@ -5,7 +5,7 @@
   "name": "ToolJet",
   "desc": "Low-code platform for building internal tools and business applications",
   "githubName": "ToolJet",
-  "githubDescription": "Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards, business applications, workflows and AI agents. Build visually, from a prompt, or from Claude Code, Codex and Cursor over MCP \ud83d\ude80",
+  "githubDescription": "Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards, business applications, workflows and AI agents. Build visually, from a prompt, or from Claude Code, Codex and Cursor over MCP 🚀",
   "weight": 40765,
   "image": "https://avatars.githubusercontent.com/u/82193554?v=4",
   "tags": [
@@ -89,6 +89,12 @@
       "stars": 40822,
       "forks": 5432,
       "openIssues": 1189
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 40831,
+      "forks": 5433,
+      "openIssues": 1190
     }
   ],
   "events": [
@@ -102,7 +108,7 @@
     {
       "date": "2023-01-10",
       "type": "hn",
-      "title": "Show HN: ToolJet 2.0 \u2013 Open-source alternative to Power Apps and Retool",
+      "title": "Show HN: ToolJet 2.0 – Open-source alternative to Power Apps and Retool",
       "url": "https://news.ycombinator.com/item?id=34323247",
       "points": 210
     }

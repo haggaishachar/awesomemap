@@ -124,6 +124,12 @@
       "stars": 70559,
       "forks": 24345,
       "openIssues": 833
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 70569,
+      "forks": 24348,
+      "openIssues": 833
     }
   ],
   "events": [
@@ -137,7 +143,7 @@
     {
       "date": "2018-07-18",
       "type": "hn",
-      "title": "Show HN: Ansible Kernel \u2013 Run Ansible Tasks and Plays with Jupyter Notebook",
+      "title": "Show HN: Ansible Kernel – Run Ansible Tasks and Plays with Jupyter Notebook",
       "url": "https://news.ycombinator.com/item?id=17559213",
       "points": 123
     },

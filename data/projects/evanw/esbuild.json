@@ -133,20 +133,26 @@
       "stars": 40032,
       "forks": 1342,
       "openIssues": 618
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 40033,
+      "forks": 1342,
+      "openIssues": 618
     }
   ],
   "events": [
     {
       "date": "2020-02-15",
       "type": "hn",
-      "title": "ESbuild \u2013 A fast JavaScript bundler and minifier in Go",
+      "title": "ESbuild – A fast JavaScript bundler and minifier in Go",
       "url": "https://news.ycombinator.com/item?id=22335707",
       "points": 355
     },
     {
       "date": "2020-10-21",
       "type": "hn",
-      "title": "Using const/let instead of var can make JavaScript code run 10\u00d7 slower in Webkit",
+      "title": "Using const/let instead of var can make JavaScript code run 10× slower in Webkit",
       "url": "https://news.ycombinator.com/item?id=24844353",
       "points": 237
     },

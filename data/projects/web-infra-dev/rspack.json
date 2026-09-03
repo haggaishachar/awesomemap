@@ -3,9 +3,9 @@
   "id": "web-infra-dev/rspack",
   "link": "https://github.com/web-infra-dev/rspack",
   "name": "rspack",
-  "desc": "Fast Rust-based bundler for the web with a modernized webpack API \ud83e\udd80",
+  "desc": "Fast Rust-based bundler for the web with a modernized webpack API 🦀",
   "githubName": "rspack",
-  "githubDescription": "Fast Rust-based bundler for the web with a modernized webpack API \ud83e\udd80",
+  "githubDescription": "Fast Rust-based bundler for the web with a modernized webpack API 🦀",
   "tags": [
     "build-tool",
     "bundler",
@@ -29,6 +29,12 @@
       "stars": 12886,
       "forks": 844,
       "openIssues": 246
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 12886,
+      "forks": 844,
+      "openIssues": 227
     }
   ],
   "weight": 12885,

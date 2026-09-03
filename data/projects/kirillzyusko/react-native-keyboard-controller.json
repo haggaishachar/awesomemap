@@ -3,9 +3,9 @@
   "id": "kirillzyusko/react-native-keyboard-controller",
   "link": "https://github.com/kirillzyusko/react-native-keyboard-controller",
   "name": "react-native-keyboard-controller",
-  "desc": "\u2328\ufe0f Keyboard manager which works in identical way on both iOS and Android",
+  "desc": "⌨️ Keyboard manager which works in identical way on both iOS and Android",
   "githubName": "react-native-keyboard-controller",
-  "githubDescription": "\u2328\ufe0f Keyboard manager which works in identical way on both iOS and Android",
+  "githubDescription": "⌨️ Keyboard manager which works in identical way on both iOS and Android",
   "tags": [
     "android",
     "animation",
@@ -28,6 +28,12 @@
       "stars": 3708,
       "forks": 192,
       "openIssues": 125
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 3708,
+      "forks": 193,
+      "openIssues": 126
     }
   ],
   "weight": 3707,

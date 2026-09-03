@@ -20,6 +20,12 @@
       "stars": 13007,
       "forks": 1287,
       "openIssues": 43
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 13011,
+      "forks": 1288,
+      "openIssues": 43
     }
   ],
   "weight": 12999,
@@ -28,7 +34,7 @@
     {
       "date": "2021-07-18",
       "type": "hn",
-      "title": "MVT \u2013 forensic tool to look for infections on smartphones",
+      "title": "MVT – forensic tool to look for infections on smartphones",
       "url": "https://news.ycombinator.com/item?id=27876165",
       "points": 93
     },

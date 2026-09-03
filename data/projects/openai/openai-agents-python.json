@@ -4,8 +4,8 @@
   "link": "https://github.com/openai/openai-agents-python",
   "name": "openai-agents-python",
   "desc": "A lightweight, powerful framework for multi-agent workflows",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "openai-agents-python",
+  "githubDescription": "A lightweight, powerful framework for multi-agent workflows",
   "tags": [
     "agents",
     "ai",
@@ -15,7 +15,15 @@
     "openai",
     "python"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-03",
+      "stars": 29167,
+      "forks": 4658,
+      "openIssues": 77
+    }
+  ],
   "weight": 29153,
-  "image": "https://raw.githubusercontent.com/openai/openai-agents-python/main/docs/assets/logo.svg"
+  "image": "https://raw.githubusercontent.com/openai/openai-agents-python/main/docs/assets/logo.svg",
+  "events": []
 }

@@ -5,7 +5,7 @@
   "name": "Vue",
   "desc": "The Progressive JavaScript Framework",
   "githubName": "core",
-  "githubDescription": "\ud83d\udd96 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
+  "githubDescription": "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
   "weight": 54250,
   "image": "https://avatars.githubusercontent.com/u/6128107?v=4",
   "tags": [],
@@ -121,6 +121,12 @@
       "stars": 54290,
       "forks": 9189,
       "openIssues": 903
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 54292,
+      "forks": 9190,
+      "openIssues": 901
     }
   ],
   "events": []

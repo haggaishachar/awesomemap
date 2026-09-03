@@ -69,27 +69,33 @@
       "stars": 40482,
       "forks": 6235,
       "openIssues": 6889
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 40483,
+      "forks": 6235,
+      "openIssues": 6898
     }
   ],
   "events": [
     {
       "date": "2015-09-07",
       "type": "hn",
-      "title": "tiDB \u2013 Scalable RDBMS Inspired by Google F1 with Support for MySQL Protocol",
+      "title": "tiDB – Scalable RDBMS Inspired by Google F1 with Support for MySQL Protocol",
       "url": "https://news.ycombinator.com/item?id=10180503",
       "points": 88
     },
     {
       "date": "2017-01-02",
       "type": "hn",
-      "title": "TiDB \u2013 A distributed NewSQL database compatible with MySQL protocol",
+      "title": "TiDB – A distributed NewSQL database compatible with MySQL protocol",
       "url": "https://news.ycombinator.com/item?id=13298664",
       "points": 130
     },
     {
       "date": "2025-01-03",
       "type": "hn",
-      "title": "TiDB \u2013 cloud-native, distributed SQL database written in Go",
+      "title": "TiDB – cloud-native, distributed SQL database written in Go",
       "url": "https://news.ycombinator.com/item?id=42585025",
       "points": 72
     }

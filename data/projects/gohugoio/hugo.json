@@ -5,7 +5,7 @@
   "name": "Hugo",
   "desc": "The world's fastest framework for building websites",
   "githubName": "hugo",
-  "githubDescription": "The world\u2019s fastest framework for building websites.",
+  "githubDescription": "The world’s fastest framework for building websites.",
   "weight": 89549,
   "image": "https://avatars.githubusercontent.com/u/29385237?v=4",
   "tags": [
@@ -129,6 +129,12 @@
       "stars": 89677,
       "forks": 8359,
       "openIssues": 221
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 89681,
+      "forks": 8362,
+      "openIssues": 228
     }
   ],
   "events": []

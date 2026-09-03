@@ -3,9 +3,9 @@
   "id": "bee-san/RustScan",
   "link": "https://github.com/bee-san/RustScan",
   "name": "RustScan",
-  "desc": "\ud83e\udd16 The Modern Port Scanner \ud83e\udd16",
+  "desc": "🤖 The Modern Port Scanner 🤖",
   "githubName": "RustScan",
-  "githubDescription": "\ud83e\udd16 The Modern Port Scanner \ud83e\udd16",
+  "githubDescription": "🤖 The Modern Port Scanner 🤖",
   "tags": [
     "docker",
     "hacking",
@@ -23,6 +23,12 @@
     {
       "date": "2026-09-02",
       "stars": 20354,
+      "forks": 1379,
+      "openIssues": 61
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 20356,
       "forks": 1379,
       "openIssues": 61
     }

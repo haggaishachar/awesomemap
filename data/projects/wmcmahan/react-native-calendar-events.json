@@ -3,9 +3,9 @@
   "id": "wmcmahan/react-native-calendar-events",
   "link": "https://github.com/wmcmahan/react-native-calendar-events",
   "name": "react-native-calendar-events",
-  "desc": "\ud83d\udcc6 React Native Module for iOS and Android Calendar Events",
+  "desc": "📆 React Native Module for iOS and Android Calendar Events",
   "githubName": "react-native-calendar-events",
-  "githubDescription": "\ud83d\udcc6 React Native Module for iOS and Android Calendar Events",
+  "githubDescription": "📆 React Native Module for iOS and Android Calendar Events",
   "tags": [
     "alarms",
     "andriod",
@@ -27,6 +27,12 @@
   "history": [
     {
       "date": "2026-09-02",
+      "stars": 930,
+      "forks": 295,
+      "openIssues": 78
+    },
+    {
+      "date": "2026-09-03",
       "stars": 930,
       "forks": 295,
       "openIssues": 78

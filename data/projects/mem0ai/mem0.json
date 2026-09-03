@@ -28,6 +28,12 @@
       "stars": 64590,
       "forks": 7570,
       "openIssues": 719
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 64639,
+      "forks": 7574,
+      "openIssues": 721
     }
   ],
   "weight": 64505,
@@ -36,7 +42,7 @@
     {
       "date": "2024-09-04",
       "type": "hn",
-      "title": "Show HN: Mem0 \u2013 open-source Memory Layer for AI apps",
+      "title": "Show HN: Mem0 – open-source Memory Layer for AI apps",
       "url": "https://news.ycombinator.com/item?id=41447317",
       "points": 201
     }

@@ -3,9 +3,9 @@
   "id": "openlit/openlit",
   "link": "https://github.com/openlit/openlit",
   "name": "openlit",
-  "desc": "Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. \ud83d\ude80\ud83d\udcbb Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs.",
+  "desc": "Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs.",
   "githubName": "openlit",
-  "githubDescription": "Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. \ud83d\ude80\ud83d\udcbb Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs.",
+  "githubDescription": "Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs.",
   "tags": [
     "ai-observability",
     "amd-gpu",
@@ -34,6 +34,12 @@
       "stars": 2736,
       "forks": 367,
       "openIssues": 64
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 2739,
+      "forks": 367,
+      "openIssues": 64
     }
   ],
   "weight": 2736,
@@ -42,7 +48,7 @@
     {
       "date": "2024-04-26",
       "type": "hn",
-      "title": "Show HN: OpenLIT \u2013 Open-Source LLM Observability with OpenTelemetry",
+      "title": "Show HN: OpenLIT – Open-Source LLM Observability with OpenTelemetry",
       "url": "https://news.ycombinator.com/item?id=40167461",
       "points": 62
     }

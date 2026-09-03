@@ -5,7 +5,7 @@
   "name": "OpenHands",
   "desc": "Platform for software development agents powered by AI",
   "githubName": "OpenHands",
-  "githubDescription": "\ud83d\ude4c OpenHands: AI-Driven Development",
+  "githubDescription": "🙌 OpenHands: AI-Driven Development",
   "weight": 85136,
   "image": "https://avatars.githubusercontent.com/u/225919603?v=4",
   "tags": [
@@ -107,6 +107,12 @@
       "stars": 85975,
       "forks": 11277,
       "openIssues": 638
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 86050,
+      "forks": 11285,
+      "openIssues": 640
     }
   ],
   "events": []

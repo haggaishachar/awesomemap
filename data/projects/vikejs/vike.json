@@ -3,9 +3,9 @@
   "id": "vikejs/vike",
   "link": "https://github.com/vikejs/vike",
   "name": "vike",
-  "desc": "(Replaces Next.js/Nuxt) \ud83d\udd28 Build mission-critical applications with stability and development freedom.",
+  "desc": "(Replaces Next.js/Nuxt) 🔨 Build mission-critical applications with stability and development freedom.",
   "githubName": "vike",
-  "githubDescription": "(Replaces Next.js/Nuxt) \ud83d\udd28 Build mission-critical applications with stability and development freedom.",
+  "githubDescription": "(Replaces Next.js/Nuxt) 🔨 Build mission-critical applications with stability and development freedom.",
   "tags": [
     "full-stack",
     "node",
@@ -29,6 +29,12 @@
     {
       "date": "2026-09-02",
       "stars": 5820,
+      "forks": 396,
+      "openIssues": 88
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 5819,
       "forks": 396,
       "openIssues": 88
     }

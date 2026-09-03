@@ -29,6 +29,12 @@
       "stars": 5882,
       "forks": 348,
       "openIssues": 15
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 5886,
+      "forks": 348,
+      "openIssues": 22
     }
   ],
   "weight": 5881,
@@ -37,14 +43,14 @@
     {
       "date": "2025-05-13",
       "type": "hn",
-      "title": "Show HN: HelixDB \u2013 Open-source vector-graph database for AI applications (Rust)",
+      "title": "Show HN: HelixDB – Open-source vector-graph database for AI applications (Rust)",
       "url": "https://news.ycombinator.com/item?id=43975423",
       "points": 237
     },
     {
       "date": "2026-06-10",
       "type": "hn",
-      "title": "Show HN: HelixDB \u2013 A graph database built on object storage",
+      "title": "Show HN: HelixDB – A graph database built on object storage",
       "url": "https://news.ycombinator.com/item?id=48478148",
       "points": 159
     }

@@ -3,9 +3,9 @@
   "id": "browser-use/workflow-use",
   "link": "https://github.com/browser-use/workflow-use",
   "name": "workflow-use",
-  "desc": "\u2699\ufe0f Create and run workflows (RPA 2.0)",
+  "desc": "⚙️ Create and run workflows (RPA 2.0)",
   "githubName": "workflow-use",
-  "githubDescription": "\u2699\ufe0f Create and run workflows (RPA 2.0)",
+  "githubDescription": "⚙️ Create and run workflows (RPA 2.0)",
   "weight": 4149,
   "image": "https://avatars.githubusercontent.com/u/192012301?v=4",
   "tags": [
@@ -50,13 +50,19 @@
       "stars": 4163,
       "forks": 345,
       "openIssues": 60
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 4164,
+      "forks": 345,
+      "openIssues": 60
     }
   ],
   "events": [
     {
       "date": "2025-05-16",
       "type": "hn",
-      "title": "Show HN: Workflow Use \u2013 Deterministic, self-healing browser automation (RPA 2.0)",
+      "title": "Show HN: Workflow Use – Deterministic, self-healing browser automation (RPA 2.0)",
       "url": "https://news.ycombinator.com/item?id=44007065",
       "points": 69
     }

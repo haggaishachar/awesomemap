@@ -110,20 +110,26 @@
       "stars": 64272,
       "forks": 19772,
       "openIssues": 225
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 64275,
+      "forks": 19773,
+      "openIssues": 223
     }
   ],
   "events": [
     {
       "date": "2019-06-22",
       "type": "hn",
-      "title": "Keras \u2013 Hyperparameter Tuning for Humans",
+      "title": "Keras – Hyperparameter Tuning for Humans",
       "url": "https://news.ycombinator.com/item?id=20249693",
       "points": 77
     },
     {
       "date": "2019-09-17",
       "type": "hn",
-      "title": "Release Keras 2.3.0 \u00b7 Keras-team/Keras",
+      "title": "Release Keras 2.3.0 · Keras-team/Keras",
       "url": "https://news.ycombinator.com/item?id=20998156",
       "points": 51
     }

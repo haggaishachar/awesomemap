@@ -34,6 +34,12 @@
       "stars": 32002,
       "forks": 2469,
       "openIssues": 1553
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 32007,
+      "forks": 2469,
+      "openIssues": 1548
     }
   ],
   "weight": 31988,
@@ -42,7 +48,7 @@
     {
       "date": "2022-10-01",
       "type": "hn",
-      "title": "Show HN: SigNoz \u2013 open-source alternative to DataDog, NewRelic",
+      "title": "Show HN: SigNoz – open-source alternative to DataDog, NewRelic",
       "url": "https://news.ycombinator.com/item?id=33049046",
       "points": 510
     }

@@ -3,9 +3,9 @@
   "id": "wasm3/wasm3",
   "link": "https://github.com/wasm3/wasm3",
   "name": "wasm3",
-  "desc": "\ud83d\ude80 A fast WebAssembly interpreter and the most universal WASM runtime",
+  "desc": "🚀 A fast WebAssembly interpreter and the most universal WASM runtime",
   "githubName": "wasm3",
-  "githubDescription": "\ud83d\ude80 A fast WebAssembly interpreter and the most universal WASM runtime",
+  "githubDescription": "🚀 A fast WebAssembly interpreter and the most universal WASM runtime",
   "tags": [
     "containers",
     "cosmopolitan",
@@ -27,6 +27,12 @@
       "stars": 8014,
       "forks": 535,
       "openIssues": 19
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 8015,
+      "forks": 535,
+      "openIssues": 19
     }
   ],
   "weight": 8012,
@@ -35,7 +41,7 @@
     {
       "date": "2020-01-12",
       "type": "hn",
-      "title": "Wasm3 \u2013 A high performance WebAssembly interpreter in C",
+      "title": "Wasm3 – A high performance WebAssembly interpreter in C",
       "url": "https://news.ycombinator.com/item?id=22024758",
       "points": 186
     },

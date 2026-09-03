@@ -3,9 +3,9 @@
   "id": "saadeghi/daisyui",
   "link": "https://github.com/saadeghi/daisyui",
   "name": "daisyui",
-  "desc": "\ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \u2003The most popular, free and open-source Tailwind CSS component library",
+  "desc": "🌼 🌼 🌼 🌼 🌼  The most popular, free and open-source Tailwind CSS component library",
   "githubName": "daisyui",
-  "githubDescription": "\ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \u2003The most popular, free and open-source Tailwind CSS component library",
+  "githubDescription": "🌼 🌼 🌼 🌼 🌼  The most popular, free and open-source Tailwind CSS component library",
   "tags": [
     "component",
     "component-library",
@@ -32,6 +32,12 @@
     {
       "date": "2026-09-02",
       "stars": 42271,
+      "forks": 1676,
+      "openIssues": 40
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 42273,
       "forks": 1676,
       "openIssues": 40
     }

@@ -5,7 +5,7 @@
   "name": "Pinia",
   "desc": "The intuitive store for Vue.js",
   "githubName": "pinia",
-  "githubDescription": "\ud83c\udf4d Intuitive, type safe, light and flexible Store for Vue using the composition api with DevTools support",
+  "githubDescription": "🍍 Intuitive, type safe, light and flexible Store for Vue using the composition api with DevTools support",
   "weight": 14707,
   "image": "https://avatars.githubusercontent.com/u/6128107?v=4",
   "tags": [
@@ -125,6 +125,12 @@
     {
       "date": "2026-09-02",
       "stars": 14714,
+      "forks": 1199,
+      "openIssues": 23
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 14713,
       "forks": 1199,
       "openIssues": 23
     }

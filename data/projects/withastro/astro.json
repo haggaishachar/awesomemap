@@ -5,7 +5,7 @@
   "name": "Astro",
   "desc": "The web framework for content-driven websites",
   "githubName": "astro",
-  "githubDescription": "The web framework for content-driven websites. \u2b50\ufe0f Star to support our work!",
+  "githubDescription": "The web framework for content-driven websites. ⭐️ Star to support our work!",
   "weight": 62064,
   "image": "https://avatars.githubusercontent.com/u/44914786?v=4",
   "tags": [
@@ -133,6 +133,12 @@
       "stars": 62243,
       "forks": 3762,
       "openIssues": 93
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 62251,
+      "forks": 3763,
+      "openIssues": 92
     }
   ],
   "events": []

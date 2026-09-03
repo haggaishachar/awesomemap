@@ -3,9 +3,9 @@
   "id": "infracost/infracost",
   "link": "https://github.com/infracost/infracost",
   "name": "infracost",
-  "desc": "Cloud cost intelligence for engineers, AI coding agents, and CI/CD \ud83d\udcb0\ud83d\udcc9 Shift FinOps Left!",
+  "desc": "Cloud cost intelligence for engineers, AI coding agents, and CI/CD 💰📉 Shift FinOps Left!",
   "githubName": "infracost",
-  "githubDescription": "Cloud cost intelligence for engineers, AI coding agents, and CI/CD \ud83d\udcb0\ud83d\udcc9 Shift FinOps Left!",
+  "githubDescription": "Cloud cost intelligence for engineers, AI coding agents, and CI/CD 💰📉 Shift FinOps Left!",
   "tags": [
     "aws",
     "azure",
@@ -31,6 +31,12 @@
       "stars": 12503,
       "forks": 685,
       "openIssues": 19
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 12505,
+      "forks": 685,
+      "openIssues": 19
     }
   ],
   "weight": 12499,
@@ -39,7 +45,7 @@
     {
       "date": "2022-01-26",
       "type": "hn",
-      "title": "Show HN: Infracost (YC W21) \u2013 Open-source cloud cost policies",
+      "title": "Show HN: Infracost (YC W21) – Open-source cloud cost policies",
       "url": "https://news.ycombinator.com/item?id=30086789",
       "points": 121
     }

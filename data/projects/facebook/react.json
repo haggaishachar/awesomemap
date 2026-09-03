@@ -128,13 +128,19 @@
       "stars": 248663,
       "forks": 51275,
       "openIssues": 1329
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 248665,
+      "forks": 51271,
+      "openIssues": 1335
     }
   ],
   "events": [
     {
       "date": "2015-02-02",
       "type": "hn",
-      "title": "React License \u2013\u00a0Additional Grant of Patent Rights",
+      "title": "React License – Additional Grant of Patent Rights",
       "url": "https://news.ycombinator.com/item?id=8985541",
       "points": 111
     },
@@ -183,7 +189,7 @@
     {
       "date": "2020-11-15",
       "type": "hn",
-      "title": "\u201cFacebook has taken the name of my open source project \u201d",
+      "title": "“Facebook has taken the name of my open source project ”",
       "url": "https://news.ycombinator.com/item?id=25103487",
       "points": 716
     },

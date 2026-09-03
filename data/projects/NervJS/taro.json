@@ -3,9 +3,9 @@
   "id": "NervJS/taro",
   "link": "https://github.com/NervJS/taro",
   "name": "taro",
-  "desc": "\u5f00\u653e\u5f0f\u8de8\u7aef\u8de8\u6846\u67b6\u89e3\u51b3\u65b9\u6848\uff0c\u652f\u6301\u4f7f\u7528 React/Vue \u7b49\u6846\u67b6\u6765\u5f00\u53d1\u5fae\u4fe1/\u4eac\u4e1c/\u767e\u5ea6/\u652f\u4ed8\u5b9d/\u5b57\u8282\u8df3\u52a8/ QQ \u5c0f\u7a0b\u5e8f/H5/React Native \u7b49\u5e94\u7528\u3002",
+  "desc": "开放式跨端跨框架解决方案，支持使用 React/Vue 等框架来开发微信/京东/百度/支付宝/字节跳动/ QQ 小程序/H5/React Native 等应用。",
   "githubName": "taro",
-  "githubDescription": "\u5f00\u653e\u5f0f\u8de8\u7aef\u8de8\u6846\u67b6\u89e3\u51b3\u65b9\u6848\uff0c\u652f\u6301\u4f7f\u7528 React/Vue \u7b49\u6846\u67b6\u6765\u5f00\u53d1\u5fae\u4fe1/\u4eac\u4e1c/\u767e\u5ea6/\u652f\u4ed8\u5b9d/\u5b57\u8282\u8df3\u52a8/ QQ \u5c0f\u7a0b\u5e8f/H5/React Native \u7b49\u5e94\u7528\u3002",
+  "githubDescription": "开放式跨端跨框架解决方案，支持使用 React/Vue 等框架来开发微信/京东/百度/支付宝/字节跳动/ QQ 小程序/H5/React Native 等应用。",
   "weight": 37652,
   "image": "https://avatars.githubusercontent.com/u/30794937?v=4",
   "tags": [
@@ -63,6 +63,12 @@
     {
       "date": "2026-09-02",
       "stars": 37662,
+      "forks": 4873,
+      "openIssues": 1602
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 37665,
       "forks": 4873,
       "openIssues": 1602
     }

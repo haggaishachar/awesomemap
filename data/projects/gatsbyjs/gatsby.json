@@ -129,20 +129,26 @@
       "stars": 55940,
       "forks": 10126,
       "openIssues": 441
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 55941,
+      "forks": 10126,
+      "openIssues": 441
     }
   ],
   "events": [
     {
       "date": "2015-09-28",
       "type": "hn",
-      "title": "Gatsby \u2013 Static Site Generator with React and Webpack",
+      "title": "Gatsby – Static Site Generator with React and Webpack",
       "url": "https://news.ycombinator.com/item?id=10289168",
       "points": 88
     },
     {
       "date": "2016-07-20",
       "type": "hn",
-      "title": "Gatsby \u2013 A Static Site Generator for React",
+      "title": "Gatsby – A Static Site Generator for React",
       "url": "https://news.ycombinator.com/item?id=12128989",
       "points": 129
     }

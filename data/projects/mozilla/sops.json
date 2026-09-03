@@ -43,13 +43,19 @@
       "stars": 23004,
       "forks": 1074,
       "openIssues": 442
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 23008,
+      "forks": 1073,
+      "openIssues": 442
     }
   ],
   "events": [
     {
       "date": "2018-01-14",
       "type": "hn",
-      "title": "Sops \u2013 An editor of encrypted files using AWS KMS and PGP",
+      "title": "Sops – An editor of encrypted files using AWS KMS and PGP",
       "url": "https://news.ycombinator.com/item?id=16144909",
       "points": 55
     },

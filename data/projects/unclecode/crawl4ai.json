@@ -5,7 +5,7 @@
   "name": "Crawl4AI",
   "desc": "Open-source LLM-friendly web crawler and scraper",
   "githubName": "crawl4ai",
-  "githubDescription": "\ud83d\ude80\ud83e\udd16 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+  "githubDescription": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
   "weight": 79450,
   "image": null,
   "tags": [],
@@ -68,6 +68,12 @@
       "date": "2026-09-02",
       "stars": 81114,
       "forks": 8369,
+      "openIssues": 172
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 81174,
+      "forks": 8373,
       "openIssues": 172
     }
   ],

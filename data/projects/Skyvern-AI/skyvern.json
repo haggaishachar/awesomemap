@@ -30,6 +30,12 @@
       "stars": 22914,
       "forks": 2152,
       "openIssues": 216
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 22923,
+      "forks": 2152,
+      "openIssues": 218
     }
   ],
   "weight": 22901,
@@ -38,14 +44,14 @@
     {
       "date": "2024-03-14",
       "type": "hn",
-      "title": "Show HN: Skyvern \u2013 Browser automation using LLMs and computer vision",
+      "title": "Show HN: Skyvern – Browser automation using LLMs and computer vision",
       "url": "https://news.ycombinator.com/item?id=39706004",
       "points": 422
     },
     {
       "date": "2024-10-24",
       "type": "hn",
-      "title": "Launch HN: Skyvern (YC S23) \u2013 open-source AI agent for browser automations",
+      "title": "Launch HN: Skyvern (YC S23) – open-source AI agent for browser automations",
       "url": "https://news.ycombinator.com/item?id=41936745",
       "points": 327
     }

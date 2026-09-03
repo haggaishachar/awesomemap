@@ -85,13 +85,19 @@
       "stars": 39713,
       "forks": 4455,
       "openIssues": 105
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 39732,
+      "forks": 4457,
+      "openIssues": 107
     }
   ],
   "events": [
     {
       "date": "2022-12-26",
       "type": "hn",
-      "title": "Novu \u2013 Service for managing multi-channel notifications with a single API",
+      "title": "Novu – Service for managing multi-channel notifications with a single API",
       "url": "https://news.ycombinator.com/item?id=34136381",
       "points": 160
     }

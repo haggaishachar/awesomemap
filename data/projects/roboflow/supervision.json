@@ -3,9 +3,9 @@
   "id": "roboflow/supervision",
   "link": "https://github.com/roboflow/supervision",
   "name": "supervision",
-  "desc": "We write your reusable computer vision tools. \ud83d\udc9c",
+  "desc": "We write your reusable computer vision tools. 💜",
   "githubName": "supervision",
-  "githubDescription": "We write your reusable computer vision tools. \ud83d\udc9c",
+  "githubDescription": "We write your reusable computer vision tools. 💜",
   "tags": [
     "classification",
     "coco",
@@ -33,6 +33,12 @@
       "stars": 49850,
       "forks": 4751,
       "openIssues": 81
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 49857,
+      "forks": 4753,
+      "openIssues": 80
     }
   ],
   "weight": 49820,

@@ -3,9 +3,9 @@
   "id": "typeorm/typeorm",
   "link": "https://github.com/typeorm/typeorm",
   "name": "typeorm",
-  "desc": "TypeScript & JavaScript ORM for Node.js \u2014 supports PostgreSQL, MySQL, MariaDB, SQLite, SQL Server, Oracle, and more.",
+  "desc": "TypeScript & JavaScript ORM for Node.js — supports PostgreSQL, MySQL, MariaDB, SQLite, SQL Server, Oracle, and more.",
   "githubName": "typeorm",
-  "githubDescription": "TypeScript & JavaScript ORM for Node.js \u2014 supports PostgreSQL, MySQL, MariaDB, SQLite, SQL Server, Oracle, and more.",
+  "githubDescription": "TypeScript & JavaScript ORM for Node.js — supports PostgreSQL, MySQL, MariaDB, SQLite, SQL Server, Oracle, and more.",
   "weight": 36632,
   "image": "https://avatars.githubusercontent.com/u/20165699?v=4",
   "tags": [
@@ -61,6 +61,12 @@
     },
     {
       "date": "2026-09-02",
+      "stars": 36644,
+      "forks": 6662,
+      "openIssues": 622
+    },
+    {
+      "date": "2026-09-03",
       "stars": 36644,
       "forks": 6662,
       "openIssues": 622

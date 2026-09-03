@@ -129,13 +129,19 @@
       "stars": 110751,
       "forks": 3912,
       "openIssues": 1460
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 110770,
+      "forks": 3912,
+      "openIssues": 1464
     }
   ],
   "events": [
     {
       "date": "2020-07-08",
       "type": "hn",
-      "title": "Tauri \u2013 toolchain for building secure native apps that have tiny binaries",
+      "title": "Tauri – toolchain for building secure native apps that have tiny binaries",
       "url": "https://news.ycombinator.com/item?id=23769424",
       "points": 268
     }

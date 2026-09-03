@@ -3,9 +3,9 @@
   "id": "Kong/kong",
   "link": "https://github.com/Kong/kong",
   "name": "kong",
-  "desc": "\ud83e\udd8d The API and AI Gateway",
+  "desc": "🦍 The API and AI Gateway",
   "githubName": "kong",
-  "githubDescription": "\ud83e\udd8d The API and AI Gateway",
+  "githubDescription": "🦍 The API and AI Gateway",
   "weight": 44045,
   "image": "https://avatars.githubusercontent.com/u/962416?v=4",
   "tags": [
@@ -70,6 +70,12 @@
       "stars": 44077,
       "forks": 5203,
       "openIssues": 193
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 44079,
+      "forks": 5204,
+      "openIssues": 194
     }
   ],
   "events": []

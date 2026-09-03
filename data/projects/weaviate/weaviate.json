@@ -5,7 +5,7 @@
   "name": "Weaviate",
   "desc": "Open source vector database for building AI applications",
   "githubName": "weaviate",
-  "githubDescription": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database\u200b.",
+  "githubDescription": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​.",
   "weight": 16754,
   "image": "https://avatars.githubusercontent.com/u/37794290?v=4",
   "tags": [
@@ -118,6 +118,12 @@
       "stars": 16782,
       "forks": 1385,
       "openIssues": 718
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 16784,
+      "forks": 1385,
+      "openIssues": 722
     }
   ],
   "events": []

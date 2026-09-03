@@ -21,6 +21,12 @@
       "stars": 23175,
       "forks": 3108,
       "openIssues": 571
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 23178,
+      "forks": 3110,
+      "openIssues": 573
     }
   ],
   "weight": 23171,
@@ -29,7 +35,7 @@
     {
       "date": "2017-09-24",
       "type": "hn",
-      "title": "Jaeger \u2013 A Distributed Tracing System",
+      "title": "Jaeger – A Distributed Tracing System",
       "url": "https://news.ycombinator.com/item?id=15325691",
       "points": 311
     }

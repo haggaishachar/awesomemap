@@ -5,7 +5,7 @@
   "name": "Coqui TTS",
   "desc": "A deep learning toolkit for text-to-speech",
   "githubName": "TTS",
-  "githubDescription": "\ud83d\udc38\ud83d\udcac - a deep learning toolkit for Text-to-Speech, battle-tested in research and production",
+  "githubDescription": "🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production",
   "weight": 45948,
   "image": "https://avatars.githubusercontent.com/u/75583352?v=4",
   "tags": [
@@ -115,6 +115,12 @@
     {
       "date": "2026-09-02",
       "stars": 45983,
+      "forks": 6148,
+      "openIssues": 2
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 45985,
       "forks": 6148,
       "openIssues": 2
     }

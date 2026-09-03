@@ -128,13 +128,19 @@
       "stars": 28824,
       "forks": 4102,
       "openIssues": 1736
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 28831,
+      "forks": 4102,
+      "openIssues": 1738
     }
   ],
   "events": [
     {
       "date": "2018-12-12",
       "type": "hn",
-      "title": "Grafana Loki \u2013 Like Prometheus, but for logs",
+      "title": "Grafana Loki – Like Prometheus, but for logs",
       "url": "https://news.ycombinator.com/item?id=18663996",
       "points": 444
     }

@@ -3,9 +3,9 @@
   "id": "diggerhq/digger",
   "link": "https://github.com/diggerhq/digger",
   "name": "digger",
-  "desc": "Digger is an open source IaC orchestration tool. Digger allows you to run IaC in your existing CI pipeline \u26a1\ufe0f  ",
+  "desc": "Digger is an open source IaC orchestration tool. Digger allows you to run IaC in your existing CI pipeline ⚡️  ",
   "githubName": "digger",
-  "githubDescription": "Digger is an open source IaC orchestration tool. Digger allows you to run IaC in your existing CI pipeline \u26a1\ufe0f  ",
+  "githubDescription": "Digger is an open source IaC orchestration tool. Digger allows you to run IaC in your existing CI pipeline ⚡️  ",
   "weight": 5031,
   "image": "https://avatars.githubusercontent.com/u/71334590?v=4",
   "tags": [
@@ -55,13 +55,19 @@
       "stars": 5036,
       "forks": 608,
       "openIssues": 482
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 5037,
+      "forks": 608,
+      "openIssues": 482
     }
   ],
   "events": [
     {
       "date": "2023-07-09",
       "type": "hn",
-      "title": "Show HN: Digger \u2013 Open Source Terraform automation and collaboration tool",
+      "title": "Show HN: Digger – Open Source Terraform automation and collaboration tool",
       "url": "https://news.ycombinator.com/item?id=36653399",
       "points": 91
     }

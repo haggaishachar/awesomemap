@@ -3,9 +3,9 @@
   "id": "gorhom/react-native-bottom-sheet",
   "link": "https://github.com/gorhom/react-native-bottom-sheet",
   "name": "react-native-bottom-sheet",
-  "desc": "A performant interactive bottom sheet with fully configurable options \ud83d\ude80",
+  "desc": "A performant interactive bottom sheet with fully configurable options 🚀",
   "githubName": "react-native-bottom-sheet",
-  "githubDescription": "A performant interactive bottom sheet with fully configurable options \ud83d\ude80",
+  "githubDescription": "A performant interactive bottom sheet with fully configurable options 🚀",
   "tags": [
     "bottom-sheet",
     "bottomsheet",
@@ -17,6 +17,12 @@
   "history": [
     {
       "date": "2026-09-02",
+      "stars": 9081,
+      "forks": 963,
+      "openIssues": 85
+    },
+    {
+      "date": "2026-09-03",
       "stars": 9081,
       "forks": 963,
       "openIssues": 85

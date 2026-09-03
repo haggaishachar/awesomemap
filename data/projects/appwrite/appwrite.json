@@ -5,7 +5,7 @@
   "name": "Appwrite",
   "desc": "Open source backend server for web, mobile, and Flutter apps covering auth, databases, storage, and functions",
   "githubName": "appwrite",
-  "githubDescription": "Appwrite\u00ae - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more",
+  "githubDescription": "Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more",
   "weight": 57122,
   "image": "https://avatars.githubusercontent.com/u/25003669?v=4",
   "tags": [
@@ -142,13 +142,19 @@
       "stars": 57248,
       "forks": 5689,
       "openIssues": 1026
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 57267,
+      "forks": 5690,
+      "openIssues": 1025
     }
   ],
   "events": [
     {
       "date": "2022-03-22",
       "type": "hn",
-      "title": "Show HN: Appwrite \u2013 Open-Source and Self Hosted Firebase Alternative",
+      "title": "Show HN: Appwrite – Open-Source and Self Hosted Firebase Alternative",
       "url": "https://news.ycombinator.com/item?id=30769044",
       "points": 326
     },

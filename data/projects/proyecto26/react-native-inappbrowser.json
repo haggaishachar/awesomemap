@@ -3,9 +3,9 @@
   "id": "proyecto26/react-native-inappbrowser",
   "link": "https://github.com/proyecto26/react-native-inappbrowser",
   "name": "react-native-inappbrowser",
-  "desc": "\ud83d\udcf1InAppBrowser for React Native (Android & iOS) \ud83e\udd18",
+  "desc": "📱InAppBrowser for React Native (Android & iOS) 🤘",
   "githubName": "react-native-inappbrowser",
-  "githubDescription": "\ud83d\udcf1InAppBrowser for React Native (Android & iOS) \ud83e\udd18",
+  "githubDescription": "📱InAppBrowser for React Native (Android & iOS) 🤘",
   "tags": [
     "android",
     "browser",
@@ -30,6 +30,12 @@
   "history": [
     {
       "date": "2026-09-02",
+      "stars": 1416,
+      "forks": 236,
+      "openIssues": 91
+    },
+    {
+      "date": "2026-09-03",
       "stars": 1416,
       "forks": 236,
       "openIssues": 91

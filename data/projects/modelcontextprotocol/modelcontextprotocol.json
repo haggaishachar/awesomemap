@@ -3,9 +3,9 @@
   "id": "modelcontextprotocol/modelcontextprotocol",
   "link": "https://github.com/modelcontextprotocol/modelcontextprotocol",
   "name": "modelcontextprotocol",
-  "desc": "Specification and\u00a0documentation for the Model Context Protocol",
+  "desc": "Specification and documentation for the Model Context Protocol",
   "githubName": "modelcontextprotocol",
-  "githubDescription": "Specification and\u00a0documentation for the Model Context Protocol",
+  "githubDescription": "Specification and documentation for the Model Context Protocol",
   "weight": 9066,
   "image": "https://avatars.githubusercontent.com/u/182288589?v=4",
   "tags": [
@@ -46,6 +46,12 @@
       "stars": 9114,
       "forks": 1763,
       "openIssues": 138
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 9121,
+      "forks": 1764,
+      "openIssues": 139
     }
   ],
   "events": []

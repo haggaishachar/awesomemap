@@ -5,7 +5,7 @@
   "name": "Angular",
   "desc": "The modern web developer's platform",
   "githubName": "angular",
-  "githubDescription": "Deliver web apps with confidence \ud83d\ude80",
+  "githubDescription": "Deliver web apps with confidence 🚀",
   "weight": 101002,
   "image": "https://avatars.githubusercontent.com/u/139426?v=4",
   "tags": [
@@ -129,6 +129,12 @@
       "stars": 101021,
       "forks": 27443,
       "openIssues": 1153
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 101001,
+      "forks": 27445,
+      "openIssues": 1148
     }
   ],
   "events": [

@@ -5,7 +5,7 @@
   "name": "PostHog",
   "desc": "Open source product analytics, session replay, and error tracking platform",
   "githubName": "posthog",
-  "githubDescription": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools \u2013 AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more \u2013 capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+  "githubDescription": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
   "weight": 39198,
   "image": "https://avatars.githubusercontent.com/u/60330232?v=4",
   "tags": [
@@ -137,13 +137,19 @@
       "stars": 39562,
       "forks": 3332,
       "openIssues": 5521
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 39577,
+      "forks": 3331,
+      "openIssues": 5465
     }
   ],
   "events": [
     {
       "date": "2024-06-03",
       "type": "hn",
-      "title": "Posthog \u2013 open-source analytics and UX research tool",
+      "title": "Posthog – open-source analytics and UX research tool",
       "url": "https://news.ycombinator.com/item?id=40564345",
       "points": 127
     },

@@ -18,6 +18,12 @@
       "stars": 30529,
       "forks": 3099,
       "openIssues": 481
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 30547,
+      "forks": 3101,
+      "openIssues": 482
     }
   ],
   "weight": 30485,
@@ -26,7 +32,7 @@
     {
       "date": "2024-09-04",
       "type": "hn",
-      "title": "Show HN: Graphiti \u2013 LLM-Powered Temporal Knowledge Graphs",
+      "title": "Show HN: Graphiti – LLM-Powered Temporal Knowledge Graphs",
       "url": "https://news.ycombinator.com/item?id=41445445",
       "points": 142
     }

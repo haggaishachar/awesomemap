@@ -3,9 +3,9 @@
   "id": "nndeploy/nndeploy",
   "link": "https://github.com/nndeploy/nndeploy",
   "name": "nndeploy",
-  "desc": "\u4e00\u6b3e\u7b80\u5355\u6613\u7528\u548c\u9ad8\u6027\u80fd\u7684AI\u90e8\u7f72\u6846\u67b6 | An Easy-to-Use and High-Performance AI Deployment Framework",
+  "desc": "一款简单易用和高性能的AI部署框架 | An Easy-to-Use and High-Performance AI Deployment Framework",
   "githubName": "nndeploy",
-  "githubDescription": "\u4e00\u6b3e\u7b80\u5355\u6613\u7528\u548c\u9ad8\u6027\u80fd\u7684AI\u90e8\u7f72\u6846\u67b6 | An Easy-to-Use and High-Performance AI Deployment Framework",
+  "githubDescription": "一款简单易用和高性能的AI部署框架 | An Easy-to-Use and High-Performance AI Deployment Framework",
   "tags": [
     "ai",
     "ascend",
@@ -30,6 +30,12 @@
     {
       "date": "2026-09-02",
       "stars": 1871,
+      "forks": 233,
+      "openIssues": 23
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 1872,
       "forks": 233,
       "openIssues": 23
     }

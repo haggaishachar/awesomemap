@@ -3,9 +3,9 @@
   "id": "baidu/openrasp",
   "link": "https://github.com/baidu/openrasp",
   "name": "openrasp",
-  "desc": "\ud83d\udd25Open source RASP solution",
+  "desc": "🔥Open source RASP solution",
   "githubName": "openrasp",
-  "githubDescription": "\ud83d\udd25Open source RASP solution",
+  "githubDescription": "🔥Open source RASP solution",
   "tags": [
     "devsecops",
     "iast",
@@ -16,6 +16,12 @@
   "history": [
     {
       "date": "2026-09-02",
+      "stars": 2988,
+      "forks": 623,
+      "openIssues": 62
+    },
+    {
+      "date": "2026-09-03",
       "stars": 2988,
       "forks": 623,
       "openIssues": 62

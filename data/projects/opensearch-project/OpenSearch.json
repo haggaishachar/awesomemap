@@ -5,7 +5,7 @@
   "name": "OpenSearch",
   "desc": "Open source distributed and RESTful search engine",
   "githubName": "OpenSearch",
-  "githubDescription": "\ud83d\udd0e Open source distributed and RESTful search engine.",
+  "githubDescription": "🔎 Open source distributed and RESTful search engine.",
   "weight": 13579,
   "image": "https://avatars.githubusercontent.com/u/80134844?v=4",
   "tags": [
@@ -108,6 +108,12 @@
       "stars": 13645,
       "forks": 2944,
       "openIssues": 3145
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 13648,
+      "forks": 2946,
+      "openIssues": 3147
     }
   ],
   "events": []

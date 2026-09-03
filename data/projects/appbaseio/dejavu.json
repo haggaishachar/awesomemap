@@ -28,6 +28,12 @@
       "stars": 8467,
       "forks": 513,
       "openIssues": 69
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 8467,
+      "forks": 513,
+      "openIssues": 69
     }
   ],
   "weight": 8467,
@@ -36,7 +42,7 @@
     {
       "date": "2018-03-21",
       "type": "hn",
-      "title": "Dejavu \u2013 Web UI for Elasticsearch",
+      "title": "Dejavu – Web UI for Elasticsearch",
       "url": "https://news.ycombinator.com/item?id=16640760",
       "points": 129
     }

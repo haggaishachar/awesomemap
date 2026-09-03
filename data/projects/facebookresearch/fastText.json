@@ -121,13 +121,19 @@
       "stars": 26532,
       "forks": 4838,
       "openIssues": 554
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 26531,
+      "forks": 4838,
+      "openIssues": 554
     }
   ],
   "events": [
     {
       "date": "2016-08-04",
       "type": "hn",
-      "title": "FastText \u2013 Library for fast text representation and classification",
+      "title": "FastText – Library for fast text representation and classification",
       "url": "https://news.ycombinator.com/item?id=12226988",
       "points": 220
     },

@@ -34,6 +34,12 @@
       "stars": 36988,
       "forks": 2448,
       "openIssues": 147
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 37031,
+      "forks": 2451,
+      "openIssues": 147
     }
   ],
   "weight": 36861,
@@ -42,7 +48,7 @@
     {
       "date": "2023-07-30",
       "type": "hn",
-      "title": "Show HN: Khoj \u2013 Chat offline with your second brain using Llama 2",
+      "title": "Show HN: Khoj – Chat offline with your second brain using Llama 2",
       "url": "https://news.ycombinator.com/item?id=36933452",
       "points": 565
     }

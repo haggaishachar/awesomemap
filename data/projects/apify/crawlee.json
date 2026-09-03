@@ -5,7 +5,7 @@
   "name": "Crawlee",
   "desc": "Web scraping and browser automation library for Node.js",
   "githubName": "crawlee",
-  "githubDescription": "Crawlee\u2014A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation.",
+  "githubDescription": "Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation.",
   "weight": 25511,
   "image": "https://avatars.githubusercontent.com/u/24586296?v=4",
   "tags": [
@@ -87,6 +87,12 @@
       "stars": 25617,
       "forks": 1657,
       "openIssues": 146
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 25633,
+      "forks": 1657,
+      "openIssues": 142
     }
   ],
   "events": []

@@ -83,20 +83,26 @@
       "stars": 23224,
       "forks": 2574,
       "openIssues": 117
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 23232,
+      "forks": 2577,
+      "openIssues": 118
     }
   ],
   "events": [
     {
       "date": "2019-07-12",
       "type": "hn",
-      "title": "Show HN: Listmonk \u2013 Fast self-hosted newsletter and mailing list manager",
+      "title": "Show HN: Listmonk – Fast self-hosted newsletter and mailing list manager",
       "url": "https://news.ycombinator.com/item?id=20421243",
       "points": 343
     },
     {
       "date": "2021-09-02",
       "type": "hn",
-      "title": "ListMonk \u2013 High performance, self-hosted newsletter and mailing list manager",
+      "title": "ListMonk – High performance, self-hosted newsletter and mailing list manager",
       "url": "https://news.ycombinator.com/item?id=28389346",
       "points": 145
     }

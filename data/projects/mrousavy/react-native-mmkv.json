@@ -3,9 +3,9 @@
   "id": "mrousavy/react-native-mmkv",
   "link": "https://github.com/mrousavy/react-native-mmkv",
   "name": "react-native-mmkv",
-  "desc": "\u26a1\ufe0f The fastest key/value storage for React Native. ~30x faster than AsyncStorage!",
+  "desc": "⚡️ The fastest key/value storage for React Native. ~30x faster than AsyncStorage!",
   "githubName": "react-native-mmkv",
-  "githubDescription": "\u26a1\ufe0f The fastest key/value storage for React Native. ~30x faster than AsyncStorage!",
+  "githubDescription": "⚡️ The fastest key/value storage for React Native. ~30x faster than AsyncStorage!",
   "tags": [
     "android",
     "cpp",
@@ -29,6 +29,12 @@
       "stars": 8492,
       "forks": 339,
       "openIssues": 16
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 8493,
+      "forks": 339,
+      "openIssues": 17
     }
   ],
   "weight": 8491,

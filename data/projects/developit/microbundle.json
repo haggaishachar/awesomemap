@@ -3,9 +3,9 @@
   "id": "developit/microbundle",
   "link": "https://github.com/developit/microbundle",
   "name": "microbundle",
-  "desc": "\ud83d\udce6 Zero-configuration bundler for tiny modules.",
+  "desc": "📦 Zero-configuration bundler for tiny modules.",
   "githubName": "microbundle",
-  "githubDescription": "\ud83d\udce6 Zero-configuration bundler for tiny modules.",
+  "githubDescription": "📦 Zero-configuration bundler for tiny modules.",
   "weight": 8129,
   "image": null,
   "tags": [
@@ -46,6 +46,12 @@
     },
     {
       "date": "2026-09-02",
+      "stars": 8129,
+      "forks": 359,
+      "openIssues": 102
+    },
+    {
+      "date": "2026-09-03",
       "stars": 8129,
       "forks": 359,
       "openIssues": 102

@@ -3,9 +3,9 @@
   "id": "bamlab/react-native-image-resizer",
   "link": "https://github.com/bamlab/react-native-image-resizer",
   "name": "react-native-image-resizer",
-  "desc": "\ud83d\uddfb Resize local images with React Native",
+  "desc": "🗻 Resize local images with React Native",
   "githubName": "react-native-image-resizer",
-  "githubDescription": "\ud83d\uddfb Resize local images with React Native",
+  "githubDescription": "🗻 Resize local images with React Native",
   "tags": [
     "android",
     "ios",
@@ -16,6 +16,12 @@
   "history": [
     {
       "date": "2026-09-02",
+      "stars": 1661,
+      "forks": 362,
+      "openIssues": 4
+    },
+    {
+      "date": "2026-09-03",
       "stars": 1661,
       "forks": 362,
       "openIssues": 4

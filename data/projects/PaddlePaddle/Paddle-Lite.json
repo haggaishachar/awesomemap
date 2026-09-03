@@ -3,9 +3,9 @@
   "id": "PaddlePaddle/Paddle-Lite",
   "link": "https://github.com/PaddlePaddle/Paddle-Lite",
   "name": "Paddle-Lite",
-  "desc": "PaddlePaddle High Performance Deep Learning Inference Engine for Mobile and Edge (\u98de\u6868\u9ad8\u6027\u80fd\u6df1\u5ea6\u5b66\u4e60\u7aef\u4fa7\u63a8\u7406\u5f15\u64ce\uff09",
+  "desc": "PaddlePaddle High Performance Deep Learning Inference Engine for Mobile and Edge (飞桨高性能深度学习端侧推理引擎）",
   "githubName": "Paddle-Lite",
-  "githubDescription": "PaddlePaddle High Performance Deep Learning Inference Engine for Mobile and Edge (\u98de\u6868\u9ad8\u6027\u80fd\u6df1\u5ea6\u5b66\u4e60\u7aef\u4fa7\u63a8\u7406\u5f15\u64ce\uff09",
+  "githubDescription": "PaddlePaddle High Performance Deep Learning Inference Engine for Mobile and Edge (飞桨高性能深度学习端侧推理引擎）",
   "tags": [
     "arm",
     "baidu",
@@ -22,6 +22,12 @@
     {
       "date": "2026-09-02",
       "stars": 7272,
+      "forks": 1619,
+      "openIssues": 49
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 7273,
       "forks": 1619,
       "openIssues": 49
     }

@@ -5,7 +5,7 @@
   "name": "Transformers",
   "desc": "State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch",
   "githubName": "transformers",
-  "githubDescription": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+  "githubDescription": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
   "weight": 164455,
   "image": "https://avatars.githubusercontent.com/u/25720743?v=4",
   "tags": [
@@ -140,6 +140,12 @@
       "date": "2026-09-02",
       "stars": 164729,
       "forks": 34425,
+      "openIssues": 2395
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 164740,
+      "forks": 34432,
       "openIssues": 2395
     }
   ],

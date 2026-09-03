@@ -3,9 +3,9 @@
   "id": "lissy93/web-check",
   "link": "https://github.com/lissy93/web-check",
   "name": "web-check",
-  "desc": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f All-in-one OSINT tool for analysing any website",
+  "desc": "🕵️‍♂️ All-in-one OSINT tool for analysing any website",
   "githubName": "web-check",
-  "githubDescription": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f All-in-one OSINT tool for analysing any website",
+  "githubDescription": "🕵️‍♂️ All-in-one OSINT tool for analysing any website",
   "weight": 34602,
   "image": null,
   "tags": [
@@ -53,6 +53,12 @@
     {
       "date": "2026-09-02",
       "stars": 34656,
+      "forks": 2837,
+      "openIssues": 32
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 34661,
       "forks": 2837,
       "openIssues": 32
     }

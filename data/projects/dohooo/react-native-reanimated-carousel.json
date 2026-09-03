@@ -3,9 +3,9 @@
   "id": "dohooo/react-native-reanimated-carousel",
   "link": "https://github.com/dohooo/react-native-reanimated-carousel",
   "name": "react-native-reanimated-carousel",
-  "desc": "\ud83c\udfa0 React Native swiper/carousel component, fully implemented using reanimated v2, support to iOS/Android/Web.  (Swiper/Carousel)",
+  "desc": "🎠 React Native swiper/carousel component, fully implemented using reanimated v2, support to iOS/Android/Web.  (Swiper/Carousel)",
   "githubName": "react-native-reanimated-carousel",
-  "githubDescription": "\ud83c\udfa0 React Native swiper/carousel component, fully implemented using reanimated v2, support to iOS/Android/Web.  (Swiper/Carousel)",
+  "githubDescription": "🎠 React Native swiper/carousel component, fully implemented using reanimated v2, support to iOS/Android/Web.  (Swiper/Carousel)",
   "tags": [
     "android",
     "carousel",
@@ -24,6 +24,12 @@
   "history": [
     {
       "date": "2026-09-02",
+      "stars": 3431,
+      "forks": 352,
+      "openIssues": 3
+    },
+    {
+      "date": "2026-09-03",
       "stars": 3431,
       "forks": 352,
       "openIssues": 3

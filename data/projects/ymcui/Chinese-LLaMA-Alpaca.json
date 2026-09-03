@@ -3,9 +3,9 @@
   "id": "ymcui/Chinese-LLaMA-Alpaca",
   "link": "https://github.com/ymcui/Chinese-LLaMA-Alpaca",
   "name": "Chinese-LLaMA-Alpaca",
-  "desc": "\u4e2d\u6587LLaMA&Alpaca\u5927\u8bed\u8a00\u6a21\u578b+\u672c\u5730CPU/GPU\u8bad\u7ec3\u90e8\u7f72 (Chinese LLaMA & Alpaca LLMs)",
+  "desc": "中文LLaMA&Alpaca大语言模型+本地CPU/GPU训练部署 (Chinese LLaMA & Alpaca LLMs)",
   "githubName": "Chinese-LLaMA-Alpaca",
-  "githubDescription": "\u4e2d\u6587LLaMA&Alpaca\u5927\u8bed\u8a00\u6a21\u578b+\u672c\u5730CPU/GPU\u8bad\u7ec3\u90e8\u7f72 (Chinese LLaMA & Alpaca LLMs)",
+  "githubDescription": "中文LLaMA&Alpaca大语言模型+本地CPU/GPU训练部署 (Chinese LLaMA & Alpaca LLMs)",
   "tags": [
     "alpaca",
     "alpaca-2",
@@ -23,6 +23,12 @@
     {
       "date": "2026-09-02",
       "stars": 18934,
+      "forks": 1839,
+      "openIssues": 5
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 18935,
       "forks": 1839,
       "openIssues": 5
     }

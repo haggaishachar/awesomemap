@@ -118,13 +118,19 @@
       "stars": 145525,
       "forks": 24282,
       "openIssues": 441
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 145567,
+      "forks": 24292,
+      "openIssues": 444
     }
   ],
   "events": [
     {
       "date": "2023-11-01",
       "type": "hn",
-      "title": "New: LangChain templates \u2013 fastest way to build a production-ready LLM app",
+      "title": "New: LangChain templates – fastest way to build a production-ready LLM app",
       "url": "https://news.ycombinator.com/item?id=38096958",
       "points": 137
     }

@@ -34,6 +34,12 @@
       "stars": 23372,
       "forks": 1174,
       "openIssues": 22
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 23372,
+      "forks": 1174,
+      "openIssues": 21
     }
   ],
   "weight": 23371,
@@ -48,14 +54,14 @@
     {
       "date": "2017-01-28",
       "type": "hn",
-      "title": "RxDB \u2013 Local JavaScript-Database",
+      "title": "RxDB – Local JavaScript-Database",
       "url": "https://news.ycombinator.com/item?id=13507367",
       "points": 60
     },
     {
       "date": "2017-05-16",
       "type": "hn",
-      "title": "Show HN: Rxdb \u2013 A fast, reactive, client-side database",
+      "title": "Show HN: Rxdb – A fast, reactive, client-side database",
       "url": "https://news.ycombinator.com/item?id=14347957",
       "points": 52
     },
@@ -69,7 +75,7 @@
     {
       "date": "2020-09-01",
       "type": "hn",
-      "title": "RxDB \u2013 a real-time database on top of PouchDB",
+      "title": "RxDB – a real-time database on top of PouchDB",
       "url": "https://news.ycombinator.com/item?id=24340802",
       "points": 172
     }

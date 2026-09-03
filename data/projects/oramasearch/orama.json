@@ -3,9 +3,9 @@
   "id": "oramasearch/orama",
   "link": "https://github.com/oramasearch/orama",
   "name": "orama",
-  "desc": "\ud83c\udf0c  A complete search engine and RAG pipeline in your browser, server or edge network with support for full-text, vector, and hybrid search in less than 2kb.",
+  "desc": "🌌  A complete search engine and RAG pipeline in your browser, server or edge network with support for full-text, vector, and hybrid search in less than 2kb.",
   "githubName": "orama",
-  "githubDescription": "\ud83c\udf0c  A complete search engine and RAG pipeline in your browser, server or edge network with support for full-text, vector, and hybrid search in less than 2kb.",
+  "githubDescription": "🌌  A complete search engine and RAG pipeline in your browser, server or edge network with support for full-text, vector, and hybrid search in less than 2kb.",
   "weight": 10532,
   "image": "https://avatars.githubusercontent.com/u/123180461?v=4",
   "tags": [
@@ -59,6 +59,12 @@
     {
       "date": "2026-09-02",
       "stars": 10544,
+      "forks": 400,
+      "openIssues": 21
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 10545,
       "forks": 400,
       "openIssues": 21
     }

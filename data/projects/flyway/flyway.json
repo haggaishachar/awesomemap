@@ -5,7 +5,7 @@
   "name": "Flyway",
   "desc": "Database migrations made easy",
   "githubName": "flyway",
-  "githubDescription": "Flyway by Redgate \u2022 Database Migrations Made Easy.",
+  "githubDescription": "Flyway by Redgate • Database Migrations Made Easy.",
   "weight": 10027,
   "image": "https://avatars.githubusercontent.com/u/2109532?v=4",
   "tags": [
@@ -121,6 +121,12 @@
       "stars": 10055,
       "forks": 1632,
       "openIssues": 256
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 10056,
+      "forks": 1632,
+      "openIssues": 257
     }
   ],
   "events": []

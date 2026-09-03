@@ -5,7 +5,7 @@
   "name": "spaCy",
   "desc": "Industrial-Strength Natural Language Processing",
   "githubName": "spaCy",
-  "githubDescription": "\ud83d\udcab Industrial-strength Natural Language Processing (NLP) in Python",
+  "githubDescription": "💫 Industrial-strength Natural Language Processing (NLP) in Python",
   "weight": 33848,
   "image": "https://avatars.githubusercontent.com/u/20011530?v=4",
   "tags": [
@@ -137,6 +137,12 @@
     {
       "date": "2026-09-02",
       "stars": 33869,
+      "forks": 4723,
+      "openIssues": 239
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 33871,
       "forks": 4723,
       "openIssues": 239
     }

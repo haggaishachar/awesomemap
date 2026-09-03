@@ -5,7 +5,7 @@
   "name": "Directus",
   "desc": "Flexible headless CMS that turns any database into an API",
   "githubName": "directus",
-  "githubDescription": "The flexible backend for all your projects \ud83d\udc30 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.",
+  "githubDescription": "The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.",
   "weight": 37530,
   "image": "https://avatars.githubusercontent.com/u/15967950?v=4",
   "tags": [
@@ -90,13 +90,19 @@
       "stars": 37682,
       "forks": 4923,
       "openIssues": 397
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 37690,
+      "forks": 4923,
+      "openIssues": 400
     }
   ],
   "events": [
     {
       "date": "2025-02-23",
       "type": "hn",
-      "title": "Directus \u2013 real-time REST and GraphQL API of any SQL database",
+      "title": "Directus – real-time REST and GraphQL API of any SQL database",
       "url": "https://news.ycombinator.com/item?id=43150116",
       "points": 72
     }

@@ -5,7 +5,7 @@
   "name": "Autopsy",
   "desc": "Digital forensics platform and graphical interface to The Sleuth Kit and other forensics tools",
   "githubName": "autopsy",
-  "githubDescription": "Autopsy\u00ae is a digital forensics platform and graphical interface to The Sleuth Kit\u00ae and other digital forensics tools. It can be used by law enforcement, military, and corporate examiners to investigate what happened on a computer. You can even use it to recover photos from your camera's memory card. ",
+  "githubDescription": "Autopsy® is a digital forensics platform and graphical interface to The Sleuth Kit® and other digital forensics tools. It can be used by law enforcement, military, and corporate examiners to investigate what happened on a computer. You can even use it to recover photos from your camera's memory card. ",
   "weight": 3296,
   "image": "https://avatars.githubusercontent.com/u/866922?v=4",
   "tags": [
@@ -122,6 +122,12 @@
     {
       "date": "2026-09-02",
       "stars": 3306,
+      "forks": 693,
+      "openIssues": 399
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 3307,
       "forks": 693,
       "openIssues": 399
     }

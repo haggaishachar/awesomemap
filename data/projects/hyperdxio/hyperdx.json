@@ -33,6 +33,12 @@
       "stars": 9872,
       "forks": 461,
       "openIssues": 195
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 9871,
+      "forks": 461,
+      "openIssues": 195
     }
   ],
   "weight": 9872,
@@ -41,7 +47,7 @@
     {
       "date": "2023-09-18",
       "type": "hn",
-      "title": "Show HN: HyperDX \u2013 open-source dev-friendly Datadog alternative",
+      "title": "Show HN: HyperDX – open-source dev-friendly Datadog alternative",
       "url": "https://news.ycombinator.com/item?id=37558357",
       "points": 722
     },
@@ -55,7 +61,7 @@
     {
       "date": "2025-06-05",
       "type": "hn",
-      "title": "Show HN: ClickStack \u2013 Open-source Datadog alternative by ClickHouse and HyperDX",
+      "title": "Show HN: ClickStack – Open-source Datadog alternative by ClickHouse and HyperDX",
       "url": "https://news.ycombinator.com/item?id=44194082",
       "points": 241
     }

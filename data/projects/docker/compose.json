@@ -127,13 +127,19 @@
       "stars": 38116,
       "forks": 5794,
       "openIssues": 106
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 38114,
+      "forks": 5795,
+      "openIssues": 105
     }
   ],
   "events": [
     {
       "date": "2019-10-17",
       "type": "hn",
-      "title": "Docker Compose reads your \u201c.env\u201d without opt-out",
+      "title": "Docker Compose reads your “.env” without opt-out",
       "url": "https://news.ycombinator.com/item?id=21284387",
       "points": 160
     }

@@ -3,9 +3,9 @@
   "id": "alexpfau/calendar-card-pro",
   "link": "https://github.com/alexpfau/calendar-card-pro",
   "name": "calendar-card-pro",
-  "desc": "\ud83d\udcc5 A sleek and highly customizable calendar card for Home Assistant, designed for performance and a clean, modern look.",
+  "desc": "📅 A sleek and highly customizable calendar card for Home Assistant, designed for performance and a clean, modern look.",
   "githubName": "calendar-card-pro",
-  "githubDescription": "\ud83d\udcc5 A sleek and highly customizable calendar card for Home Assistant, designed for performance and a clean, modern look.",
+  "githubDescription": "📅 A sleek and highly customizable calendar card for Home Assistant, designed for performance and a clean, modern look.",
   "weight": 1192,
   "image": null,
   "tags": [
@@ -41,6 +41,12 @@
       "stars": 1196,
       "forks": 97,
       "openIssues": 50
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 1198,
+      "forks": 97,
+      "openIssues": 38
     }
   ],
   "events": []

@@ -3,9 +3,9 @@
   "id": "bunkerity/bunkerweb",
   "link": "https://github.com/bunkerity/bunkerweb",
   "name": "bunkerweb",
-  "desc": "\ud83d\udee1\ufe0f Open-source and cloud-native Web Application Firewall (WAF)",
+  "desc": "🛡️ Open-source and cloud-native Web Application Firewall (WAF)",
   "githubName": "bunkerweb",
-  "githubDescription": "\ud83d\udee1\ufe0f Open-source and cloud-native Web Application Firewall (WAF)",
+  "githubDescription": "🛡️ Open-source and cloud-native Web Application Firewall (WAF)",
   "tags": [
     "antibot",
     "cybersecurity",
@@ -34,6 +34,12 @@
       "stars": 10895,
       "forks": 642,
       "openIssues": 162
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 10895,
+      "forks": 642,
+      "openIssues": 165
     }
   ],
   "weight": 10893,
@@ -42,7 +48,7 @@
     {
       "date": "2024-12-06",
       "type": "hn",
-      "title": "Show HN: BunkerWeb \u2013 The Open-Source Web Application Firewall (WAF)",
+      "title": "Show HN: BunkerWeb – The Open-Source Web Application Firewall (WAF)",
       "url": "https://news.ycombinator.com/item?id=42339856",
       "points": 120
     }

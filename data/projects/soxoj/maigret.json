@@ -3,9 +3,9 @@
   "id": "soxoj/maigret",
   "link": "https://github.com/soxoj/maigret",
   "name": "maigret",
-  "desc": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f Collect a dossier on a person by username from 3000+ sites",
+  "desc": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
   "githubName": "maigret",
-  "githubDescription": "\ud83d\udd75\ufe0f\u200d\u2642\ufe0f Collect a dossier on a person by username from 3000+ sites",
+  "githubDescription": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
   "tags": [
     "cli",
     "cybersecurity",
@@ -34,6 +34,12 @@
       "stars": 37258,
       "forks": 2903,
       "openIssues": 25
+    },
+    {
+      "date": "2026-09-03",
+      "stars": 37264,
+      "forks": 2902,
+      "openIssues": 28
     }
   ],
   "weight": 37247,

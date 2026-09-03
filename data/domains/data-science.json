@@ -838,6 +838,12 @@
       "path": [
         "Data Manipulation & Analysis"
       ]
+    },
+    {
+      "id": "trekhleb/machine-learning-octave",
+      "path": [
+        "Classic Machine Learning"
+      ]
     }
   ]
 }

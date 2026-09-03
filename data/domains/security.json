@@ -946,6 +946,12 @@
       "path": [
         "Web App Security"
       ]
+    },
+    {
+      "id": "thehappydinoa/awesome-censys-queries",
+      "path": [
+        "Network Scanning & Recon"
+      ]
     }
   ]
 }

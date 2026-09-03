@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "thomasloven/lovelace-card-mod",
+  "link": "https://github.com/thomasloven/lovelace-card-mod",
+  "name": "lovelace-card-mod",
+  "desc": "🔹 Add CSS styles to (almost) any lovelace card",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 1795
+}

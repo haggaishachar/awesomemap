@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "expo/eas-cli",
+  "link": "https://github.com/expo/eas-cli",
+  "name": "eas-cli",
+  "desc": "Fastest way to build, submit, and update iOS and Android apps",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "apps",
+    "automation",
+    "ci",
+    "cicd",
+    "cli",
+    "cloud",
+    "deployment",
+    "expo",
+    "hosting",
+    "ios",
+    "mobile",
+    "react-native"
+  ],
+  "history": [],
+  "weight": 1350,
+  "image": "https://avatars.githubusercontent.com/u/12504344?v=4"
+}

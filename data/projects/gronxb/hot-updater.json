@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "gronxb/hot-updater",
+  "link": "https://github.com/gronxb/hot-updater",
+  "name": "hot-updater",
+  "desc": "A self-hostable OTA update solution for React Native (Alternative to CodePush)",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "expo",
+    "plugin-system",
+    "react-native",
+    "react-native-codepush",
+    "react-native-ota",
+    "self-hosted",
+    "supabase"
+  ],
+  "history": [],
+  "weight": 1694,
+  "image": "https://raw.githubusercontent.com/gronxb/hot-updater/main/logo.png"
+}

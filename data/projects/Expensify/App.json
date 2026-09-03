@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "Expensify/App",
+  "link": "https://github.com/Expensify/App",
+  "name": "App",
+  "desc": "Welcome to New Expensify: a complete re-imagination of financial collaboration, centered around chat. Help us build the next generation of Expensify by sharing feedback and contributing to the code.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 5016,
+  "image": "https://avatars.githubusercontent.com/u/476779?v=4"
+}

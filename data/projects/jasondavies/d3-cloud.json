@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "jasondavies/d3-cloud",
+  "link": "https://github.com/jasondavies/d3-cloud",
+  "name": "d3-cloud",
+  "desc": "Create word clouds in JavaScript.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "d3",
+    "layout-algorithm",
+    "wordcloud"
+  ],
+  "history": [],
+  "weight": 3953
+}

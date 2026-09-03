@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "dermotduffy/advanced-camera-card",
+  "link": "https://github.com/dermotduffy/advanced-camera-card",
+  "name": "advanced-camera-card",
+  "desc": "A comprehensive camera card for Home Assistant",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cctv",
+    "frigate",
+    "home-assistant",
+    "nvr"
+  ],
+  "history": [],
+  "weight": 1145
+}

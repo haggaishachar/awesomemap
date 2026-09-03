@@ -886,6 +886,264 @@
       "path": [
         "Home Automation Platforms"
       ]
+    },
+    {
+      "id": "thomasloven/hass-browser_mod",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "custom-components/pyscript",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "nielsfaber/scheduler-component",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "zachowj/hass-node-red",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "jeroenterheerdt/HAsmartirrigation",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "piitaya/lovelace-mushroom",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "thomasloven/lovelace-auto-entities",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "thomasloven/lovelace-card-mod",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "iantrich/config-template-card",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "thomasloven/lovelace-layout-card",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "ofekashery/vertical-stack-in-card",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "zanna-37/hass-swipe-navigation",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "kalkih/mini-graph-card",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "RomRider/apexcharts-card",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "MindFreeze/ha-sankey-chart",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "thomasloven/lovelace-slider-entity-row",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "maxwroc/battery-state-card",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "nielsfaber/scheduler-card",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "pkissling/clock-weather-card",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "kalkih/mini-media-player",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "ciotlosm/lovelace-thermostat-dark-card",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "bokub/rgb-light-card",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "dermotduffy/advanced-camera-card",
+      "path": [
+        "Camera & Security Automation"
+      ]
+    },
+    {
+      "id": "PiotrMachowski/lovelace-xiaomi-vacuum-map-card",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "denysdovhan/vacuum-card",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "totaldebug/atomic-calendar-revive",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "FamousWolf/week-planner-card",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "j-a-n/lovelace-wallpanel",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "NemesisRE/kiosk-mode",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "dwainscheeren/dwains-lovelace-dashboard",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "DigiLive/mushroom-strategy",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "wessamlauf/homeassistant-frosted-glass-themes",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "basnijholt/lovelace-ios-themes",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "th3jesta/ha-lcars",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "hassio-addons/app-node-red",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "AppDaemon/appdaemon",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "joBr99/nspanel-lovelace-ui",
+      "path": [
+        "Embedded Firmware & Dev Platforms"
+      ]
+    },
+    {
+      "id": "frenck/spook",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "jseidl/magic-areas",
+      "path": [
+        "Automation Rules & Dashboards"
+      ]
+    },
+    {
+      "id": "moralmunky/Home-Assistant-Mail-And-Packages",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "christiaangoossens/hass-oidc-auth",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "custom-components/remote_homeassistant",
+      "path": [
+        "Home Automation Platforms"
+      ]
+    },
+    {
+      "id": "sabeechen/hassio-google-drive-backup",
+      "path": [
+        "Home Automation Platforms"
+      ]
     }
   ]
 }

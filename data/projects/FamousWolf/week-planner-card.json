@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "FamousWolf/week-planner-card",
+  "link": "https://github.com/FamousWolf/week-planner-card",
+  "name": "week-planner-card",
+  "desc": "Custom Home Assistant card displaying a responsive overview or multiple days with events from one of multiple calendars",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "calendar",
+    "home-assistant",
+    "homeassistant",
+    "homeassistant-custom-component",
+    "lovelace-card",
+    "lovelace-custom-card",
+    "planner",
+    "week-planner"
+  ],
+  "history": [],
+  "weight": 525
+}

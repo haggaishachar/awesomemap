@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "hassio-addons/app-node-red",
+  "link": "https://github.com/hassio-addons/app-node-red",
+  "name": "app-node-red",
+  "desc": "Node-RED - Home Assistant Community Apps",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "addon",
+    "addons",
+    "app",
+    "apps",
+    "home-assistant",
+    "homeassistant",
+    "node-red"
+  ],
+  "history": [],
+  "weight": 647,
+  "image": "https://avatars.githubusercontent.com/u/30772201?v=4"
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "google/blockly",
+  "link": "https://github.com/google/blockly",
+  "name": "blockly",
+  "desc": "The web-based visual programming editor.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 13546,
+  "image": "https://avatars.githubusercontent.com/u/3691930?v=4"
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "keystonejs/keystone",
+  "link": "https://github.com/keystonejs/keystone",
+  "name": "keystone",
+  "desc": "The superpowered headless CMS for Node.js — built with GraphQL and React",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cms",
+    "cms-framework",
+    "graphql",
+    "keystonejs",
+    "nodejs",
+    "react"
+  ],
+  "history": [],
+  "weight": 9967,
+  "image": "https://avatars.githubusercontent.com/u/6118534?v=4"
+}

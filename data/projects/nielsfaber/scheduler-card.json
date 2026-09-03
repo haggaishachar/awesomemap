@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "nielsfaber/scheduler-card",
+  "link": "https://github.com/nielsfaber/scheduler-card",
+  "name": "scheduler-card",
+  "desc": "HA Lovelace card for control of scheduler entities",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "assistant",
+    "automation",
+    "card",
+    "custom-card",
+    "home",
+    "home-assistant",
+    "homeassistant",
+    "lovelace",
+    "schedule",
+    "scheduler",
+    "sunrise",
+    "sunset",
+    "week",
+    "weekly"
+  ],
+  "history": [],
+  "weight": 1252
+}

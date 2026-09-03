@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "agentskills/agentskills",
+  "link": "https://github.com/agentskills/agentskills",
+  "name": "agentskills",
+  "desc": "Specification and documentation for Agent Skills",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agent-skills"
+  ],
+  "history": [],
+  "weight": 24988,
+  "image": "https://avatars.githubusercontent.com/u/249824077?v=4"
+}

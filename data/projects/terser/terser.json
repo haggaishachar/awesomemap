@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "terser/terser",
+  "link": "https://github.com/terser/terser",
+  "name": "terser",
+  "desc": "🗜 JavaScript parser, mangler and compressor toolkit for ES6+",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "compressor",
+    "es6",
+    "javascript",
+    "mangler",
+    "parser",
+    "uglifyjs"
+  ],
+  "history": [],
+  "weight": 9330,
+  "image": "https://avatars.githubusercontent.com/u/43502240?v=4"
+}

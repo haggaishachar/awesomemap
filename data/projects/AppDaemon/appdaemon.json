@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "AppDaemon/appdaemon",
+  "link": "https://github.com/AppDaemon/appdaemon",
+  "name": "appdaemon",
+  "desc": ":page_facing_up: Python Apps for Home Automation",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "home-automation",
+    "python"
+  ],
+  "history": [],
+  "weight": 967,
+  "image": "https://avatars.githubusercontent.com/u/67876516?v=4"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "thecodingmachine/react-native-boilerplate",
+  "link": "https://github.com/thecodingmachine/react-native-boilerplate",
+  "name": "react-native-boilerplate",
+  "desc": "A React Native template for building solid applications 🐙, using JavaScript 💛 or Typescript 💙 (you choose).",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "architecture",
+    "boilerplate",
+    "boilerplates",
+    "javascript",
+    "react-native",
+    "react-native-boilerplate",
+    "starter-kit",
+    "starter-template",
+    "starterkit",
+    "tanstack-query",
+    "thecodingmachine",
+    "typescript",
+    "typescript-boilerplate",
+    "zod"
+  ],
+  "history": [],
+  "weight": 5563,
+  "image": "https://avatars.githubusercontent.com/u/1847918?v=4"
+}

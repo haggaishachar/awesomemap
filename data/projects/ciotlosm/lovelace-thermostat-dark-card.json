@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "ciotlosm/lovelace-thermostat-dark-card",
+  "link": "https://github.com/ciotlosm/lovelace-thermostat-dark-card",
+  "name": "lovelace-thermostat-dark-card",
+  "desc": "🌡 Thermostat card with a round and black feel to it",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "custom-cards",
+    "hacs",
+    "home-assistant",
+    "lovelace",
+    "thermostat"
+  ],
+  "history": [],
+  "weight": 745
+}

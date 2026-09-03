@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "nielsfaber/scheduler-component",
+  "link": "https://github.com/nielsfaber/scheduler-component",
+  "name": "scheduler-component",
+  "desc": "Custom component for HA that enables the creation of scheduler entities",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "custom-component",
+    "hacs",
+    "homeassistant",
+    "integration",
+    "python",
+    "scheduler"
+  ],
+  "history": [],
+  "weight": 901
+}

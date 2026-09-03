@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "bluesky-social/social-app",
+  "link": "https://github.com/bluesky-social/social-app",
+  "name": "social-app",
+  "desc": "The Bluesky Social application for Web, iOS, and Android",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 18261,
+  "image": "https://raw.githubusercontent.com/bluesky-social/social-app/main/assets/logo.png"
+}

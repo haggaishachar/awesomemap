@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "mrousavy/nitro",
+  "link": "https://github.com/mrousavy/nitro",
+  "name": "nitro",
+  "desc": "🔥 Insanely fast native C++, Swift or Kotlin modules with a statically compiled binding layer to JSI",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cpp",
+    "fast",
+    "hybrid",
+    "hybrid-object",
+    "jsi",
+    "kotlin",
+    "library",
+    "modules",
+    "native",
+    "nitro",
+    "nitro-modules",
+    "react",
+    "react-native",
+    "swift",
+    "templates",
+    "turbomodules"
+  ],
+  "history": [],
+  "weight": 1924,
+  "image": "https://avatars.githubusercontent.com/u/91980534?v=4"
+}

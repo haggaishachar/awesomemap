@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "getgauge/taiko",
+  "link": "https://github.com/getgauge/taiko",
+  "name": "taiko",
+  "desc": "A node.js library for testing modern web applications",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "automation",
+    "headless",
+    "headless-browsers",
+    "headless-chrome",
+    "headless-chromium",
+    "headless-testing",
+    "testing-tools"
+  ],
+  "history": [],
+  "weight": 3674,
+  "image": "https://avatars.githubusercontent.com/u/7044589?v=4"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "reactioncommerce/reaction",
+  "link": "https://github.com/reactioncommerce/reaction",
+  "name": "reaction",
+  "desc": "Project has been discontinued ////// Mailchimp Open Commerce is an API-first, headless commerce platform built using Node.js, React, GraphQL. Deployed via Docker and Kubernetes. ",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cart",
+    "commerce",
+    "docker",
+    "e-commerce",
+    "ecommerce",
+    "ecommerce-platform",
+    "graphql",
+    "hacktoberfest",
+    "headless",
+    "javascript",
+    "marketplace",
+    "mongodb",
+    "reaction-action",
+    "reactioncommerce",
+    "shop",
+    "storefront"
+  ],
+  "history": [],
+  "weight": 12399,
+  "image": "https://avatars.githubusercontent.com/u/5605462?v=4"
+}

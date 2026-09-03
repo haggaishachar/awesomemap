@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "d3/d3",
+  "link": "https://github.com/d3/d3",
+  "name": "d3",
+  "desc": "Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "chart",
+    "charts",
+    "d3",
+    "data-visualization",
+    "svg",
+    "visualization"
+  ],
+  "history": [],
+  "weight": 113600,
+  "image": "https://avatars.githubusercontent.com/u/1562726?v=4"
+}

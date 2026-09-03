@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "webdriverio/webdriverio",
+  "link": "https://github.com/webdriverio/webdriverio",
+  "name": "webdriverio",
+  "desc": "Next-gen browser and mobile automation test framework for Node.js",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "automation",
+    "cucumber",
+    "devtools",
+    "jasmine",
+    "javascript",
+    "mocha",
+    "node",
+    "performance",
+    "performance-test",
+    "test",
+    "webdriver",
+    "webdriverio"
+  ],
+  "history": [],
+  "weight": 9835,
+  "image": "https://avatars.githubusercontent.com/u/6512473?v=4"
+}

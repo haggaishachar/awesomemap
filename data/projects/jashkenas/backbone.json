@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "jashkenas/backbone",
+  "link": "https://github.com/jashkenas/backbone",
+  "name": "backbone",
+  "desc": "Give your JS App some Backbone with Models, Views, Collections, and Events",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 28100
+}

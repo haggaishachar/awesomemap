@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "douglascrockford/JSLint",
+  "link": "https://github.com/douglascrockford/JSLint",
+  "name": "JSLint",
+  "desc": "JSLint, The JavaScript Code Quality and Coverage Tool",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "coverage-report",
+    "javascript",
+    "jslint",
+    "zero-config",
+    "zero-dependency"
+  ],
+  "history": [],
+  "weight": 3655,
+  "image": "https://avatars.githubusercontent.com/u/84429408?v=4"
+}

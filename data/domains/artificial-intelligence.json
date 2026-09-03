@@ -1132,6 +1132,100 @@
         "Agents & Coding",
         "Orchestration Frameworks"
       ]
+    },
+    {
+      "id": "Pythagora-io/gpt-pilot",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "stitionai/devika",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "anomalyco/opencode",
+      "path": [
+        "Agents & Coding",
+        "AI Coding Assistants"
+      ]
+    },
+    {
+      "id": "mastra-ai/mastra",
+      "path": [
+        "Agents & Coding",
+        "Orchestration Frameworks"
+      ]
+    },
+    {
+      "id": "MervinPraison/PraisonAI",
+      "path": [
+        "Agents & Coding",
+        "Orchestration Frameworks"
+      ]
+    },
+    {
+      "id": "rsxdalv/TTS-WebUI",
+      "path": [
+        "Generative Media"
+      ]
+    },
+    {
+      "id": "aden-hive/hive",
+      "path": [
+        "Agents & Coding",
+        "Orchestration Frameworks"
+      ]
+    },
+    {
+      "id": "Softcatala/whisper-ctranslate2",
+      "path": [
+        "LLM Infrastructure",
+        "Open-Weight Models & Inference"
+      ]
+    },
+    {
+      "id": "NVIDIA-NeMo/Speech",
+      "path": [
+        "Generative Media"
+      ]
+    },
+    {
+      "id": "volcengine/MineContext",
+      "path": [
+        "Agents & Coding",
+        "AI Agents"
+      ]
+    },
+    {
+      "id": "openagents-org/openagents",
+      "path": [
+        "Agents & Coding",
+        "Orchestration Frameworks"
+      ]
+    },
+    {
+      "id": "heygen-com/hyperframes",
+      "path": [
+        "Generative Media"
+      ]
+    },
+    {
+      "id": "thewh1teagle/vibe",
+      "path": [
+        "Generative Media"
+      ]
+    },
+    {
+      "id": "agentskills/agentskills",
+      "path": [
+        "Agents & Coding",
+        "Orchestration Frameworks"
+      ]
     }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "react-native-google-signin/google-signin",
+  "link": "https://github.com/react-native-google-signin/google-signin",
+  "name": "google-signin",
+  "desc": "Google Sign-in for your React Native applications",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "googleauth",
+    "googlesignin",
+    "hacktoberfest",
+    "oauth2",
+    "react-native"
+  ],
+  "history": [],
+  "weight": 3553,
+  "image": "https://avatars.githubusercontent.com/u/71153417?v=4"
+}

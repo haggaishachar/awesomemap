@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "dwainscheeren/dwains-lovelace-dashboard",
+  "link": "https://github.com/dwainscheeren/dwains-lovelace-dashboard",
+  "name": "dwains-lovelace-dashboard",
+  "desc": "An fully auto generating Home Assistant UI dashboard for desktop, tablet and mobile by Dwains for desktop, tablet, mobile",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "dashboard",
+    "dwains-lovelace-dashboard",
+    "home-assistant",
+    "home-assistant-dashboard"
+  ],
+  "history": [],
+  "weight": 2066
+}

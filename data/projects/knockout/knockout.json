@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "knockout/knockout",
+  "link": "https://github.com/knockout/knockout",
+  "name": "knockout",
+  "desc": "Knockout makes it easier to create rich, responsive UIs with JavaScript",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "data-binding",
+    "javascript",
+    "knockout",
+    "mvvm"
+  ],
+  "history": [],
+  "weight": 10556,
+  "image": "https://avatars.githubusercontent.com/u/3863375?v=4"
+}

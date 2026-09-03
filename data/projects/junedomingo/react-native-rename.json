@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "junedomingo/react-native-rename",
+  "link": "https://github.com/junedomingo/react-native-rename",
+  "name": "react-native-rename",
+  "desc": "Rename react-native app with just one command",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "cli",
+    "react-native",
+    "react-native-rename",
+    "rename"
+  ],
+  "history": [],
+  "weight": 2777
+}

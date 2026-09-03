@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "openagents-org/openagents",
+  "link": "https://github.com/openagents-org/openagents",
+  "name": "openagents",
+  "desc": "OpenAgents - The collaboration OS for AI agents",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agents",
+    "ai",
+    "collaboration",
+    "llm",
+    "network"
+  ],
+  "history": [],
+  "weight": 4041,
+  "image": "https://avatars.githubusercontent.com/u/225290400?v=4"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "j-a-n/lovelace-wallpanel",
+  "link": "https://github.com/j-a-n/lovelace-wallpanel",
+  "name": "lovelace-wallpanel",
+  "desc": "🖼️ Wall panel mode and photo screensaver for your Home Assistant Dashboards",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "dashboard",
+    "fullscreen",
+    "home-assistant",
+    "home-assistant-addons",
+    "home-assistant-frontend",
+    "lovelace",
+    "lovelace-ui",
+    "photo-gallery",
+    "screensaver",
+    "wallpanel"
+  ],
+  "history": [],
+  "weight": 874
+}

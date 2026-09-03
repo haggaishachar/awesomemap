@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "infinitered/reactotron",
+  "link": "https://github.com/infinitered/reactotron",
+  "name": "reactotron",
+  "desc": "A desktop app for inspecting your React JS and React Native projects. macOS, Linux, and Windows.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "debugging",
+    "desktop",
+    "react-native",
+    "reactjs",
+    "reactnative",
+    "reactotron",
+    "redux",
+    "redux-saga"
+  ],
+  "history": [],
+  "weight": 15588,
+  "image": "https://avatars.githubusercontent.com/u/3902527?v=4"
+}

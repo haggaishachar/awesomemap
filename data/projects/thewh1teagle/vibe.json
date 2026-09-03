@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "thewh1teagle/vibe",
+  "link": "https://github.com/thewh1teagle/vibe",
+  "name": "vibe",
+  "desc": "Transcribe on your own!",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "cross-platform",
+    "desktop",
+    "openai",
+    "rust",
+    "transcribe",
+    "whisper"
+  ],
+  "history": [],
+  "weight": 7264
+}

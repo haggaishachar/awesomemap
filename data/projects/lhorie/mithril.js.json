@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "lhorie/mithril.js",
+  "link": "https://github.com/lhorie/mithril.js",
+  "name": "mithril.js",
+  "desc": "A JavaScript Framework for Building Brilliant Applications",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "framework",
+    "javascript",
+    "mithril",
+    "router",
+    "vdom",
+    "virtual-dom",
+    "xhr"
+  ],
+  "history": [],
+  "weight": 14498,
+  "image": "https://avatars.githubusercontent.com/u/19475707?v=4"
+}

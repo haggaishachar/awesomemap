@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "colinhacks/zod",
+  "link": "https://github.com/colinhacks/zod",
+  "name": "zod",
+  "desc": "TypeScript-first schema validation with static type inference",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "runtime-validation",
+    "schema-validation",
+    "static-types",
+    "type-inference",
+    "typescript"
+  ],
+  "history": [],
+  "weight": 43792,
+  "image": "https://raw.githubusercontent.com/colinhacks/zod/main/logo.svg"
+}

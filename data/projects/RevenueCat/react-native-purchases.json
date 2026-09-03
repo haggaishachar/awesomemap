@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "RevenueCat/react-native-purchases",
+  "link": "https://github.com/RevenueCat/react-native-purchases",
+  "name": "react-native-purchases",
+  "desc": "React Native in-app purchases and subscriptions made easy. Support for iOS, Android and web.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "android",
+    "iap",
+    "ios",
+    "react-native",
+    "stripe",
+    "web"
+  ],
+  "history": [],
+  "weight": 1204,
+  "image": "https://avatars.githubusercontent.com/u/33013347?v=4"
+}

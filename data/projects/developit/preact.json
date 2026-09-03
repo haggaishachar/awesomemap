@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "developit/preact",
+  "link": "https://github.com/developit/preact",
+  "name": "preact",
+  "desc": "⚛️ Fast 3kB React alternative with the same modern API. Components & Virtual DOM.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "components",
+    "dom",
+    "jsx",
+    "preact",
+    "react",
+    "vdom",
+    "virtual-dom"
+  ],
+  "history": [],
+  "weight": 38850,
+  "image": "https://avatars.githubusercontent.com/u/26872990?v=4"
+}

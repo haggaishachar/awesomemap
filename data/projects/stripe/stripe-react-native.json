@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "stripe/stripe-react-native",
+  "link": "https://github.com/stripe/stripe-react-native",
+  "name": "stripe-react-native",
+  "desc": "React Native library for Stripe.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "payments",
+    "react-native",
+    "stripe"
+  ],
+  "history": [],
+  "weight": 1429,
+  "image": "https://avatars.githubusercontent.com/u/856813?v=4"
+}

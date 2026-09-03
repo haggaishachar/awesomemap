@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "mde/ejs",
+  "link": "https://github.com/mde/ejs",
+  "name": "ejs",
+  "desc": "Embedded JavaScript templates -- http://ejs.co",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 8123
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "callstack/repack",
+  "link": "https://github.com/callstack/repack",
+  "name": "repack",
+  "desc": "A webpack-based toolkit to build your React Native application with full support of webpack ecosystem.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "bundler",
+    "code-splitting",
+    "hacktoberfest",
+    "module-federation",
+    "react",
+    "react-native",
+    "typescript",
+    "webpack"
+  ],
+  "history": [],
+  "weight": 1933,
+  "image": "https://raw.githubusercontent.com/callstack/repack/main/logo.png"
+}

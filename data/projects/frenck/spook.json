@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "frenck/spook",
+  "link": "https://github.com/frenck/spook",
+  "name": "spook",
+  "desc": "A scary 👻 powerful toolbox 🧰 for Home Assistant 🏡",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "hacs-integration",
+    "home-assistant",
+    "home-assistant-component",
+    "home-assistant-config",
+    "home-assistant-configuration",
+    "home-assistant-custom",
+    "home-assistant-integration",
+    "home-automation",
+    "home-destruction",
+    "homeassistant",
+    "homeassistant-homie",
+    "homey",
+    "homie",
+    "powerful",
+    "powertools",
+    "random",
+    "spooky",
+    "toolbox"
+  ],
+  "history": [],
+  "weight": 1269
+}

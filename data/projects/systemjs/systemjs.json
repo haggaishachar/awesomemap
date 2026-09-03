@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "systemjs/systemjs",
+  "link": "https://github.com/systemjs/systemjs",
+  "name": "systemjs",
+  "desc": "Dynamic ES module loader",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 13093,
+  "image": "https://avatars.githubusercontent.com/u/6577368?v=4"
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "beautify-web/js-beautify",
+  "link": "https://github.com/beautify-web/js-beautify",
+  "name": "js-beautify",
+  "desc": "Beautifier for javascript ",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "css",
+    "hacktoberfest",
+    "html",
+    "javascript",
+    "nodejs",
+    "python"
+  ],
+  "history": [],
+  "weight": 8994,
+  "image": "https://avatars.githubusercontent.com/u/22065016?v=4"
+}

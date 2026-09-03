@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "handlebars-lang/handlebars.js",
+  "link": "https://github.com/handlebars-lang/handlebars.js",
+  "name": "handlebars.js",
+  "desc": "Minimal templating on steroids.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "handlebars",
+    "mustache",
+    "templates"
+  ],
+  "history": [],
+  "weight": 18670,
+  "image": "https://avatars.githubusercontent.com/u/19378685?v=4"
+}

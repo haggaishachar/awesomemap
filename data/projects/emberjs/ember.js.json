@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "emberjs/ember.js",
+  "link": "https://github.com/emberjs/ember.js",
+  "name": "ember.js",
+  "desc": "Ember.js - A JavaScript framework for creating ambitious web applications",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ember",
+    "hacktoberfest",
+    "javascript",
+    "javascript-framework"
+  ],
+  "history": [],
+  "weight": 22572,
+  "image": "https://avatars.githubusercontent.com/u/1253363?v=4"
+}

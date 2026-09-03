@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "MindFreeze/ha-sankey-chart",
+  "link": "https://github.com/MindFreeze/ha-sankey-chart",
+  "name": "ha-sankey-chart",
+  "desc": "A Home Assistant lovelace card to display a sankey chart. For example for power consumption",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "energy-consumption",
+    "home-assistant",
+    "lovelace-card"
+  ],
+  "history": [],
+  "weight": 670
+}

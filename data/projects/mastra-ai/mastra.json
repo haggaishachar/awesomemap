@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "mastra-ai/mastra",
+  "link": "https://github.com/mastra-ai/mastra",
+  "name": "mastra",
+  "desc": "Mastra is the modern TypeScript framework for AI-powered applications and agents.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agents",
+    "ai",
+    "chatbots",
+    "evals",
+    "javascript",
+    "llm",
+    "mcp",
+    "nextjs",
+    "nodejs",
+    "reactjs",
+    "tts",
+    "typescript",
+    "workflows"
+  ],
+  "history": [],
+  "weight": 27665,
+  "image": "https://avatars.githubusercontent.com/u/149120496?v=4"
+}

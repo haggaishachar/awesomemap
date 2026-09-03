@@ -754,6 +754,300 @@
       "path": [
         "Developer Tooling"
       ]
+    },
+    {
+      "id": "systemjs/systemjs",
+      "path": [
+        "Build Tools & Bundlers"
+      ]
+    },
+    {
+      "id": "terser/terser",
+      "path": [
+        "Build Tools & Bundlers"
+      ]
+    },
+    {
+      "id": "colinhacks/zod",
+      "path": [
+        "API & Data Layer"
+      ]
+    },
+    {
+      "id": "jquense/yup",
+      "path": [
+        "API & Data Layer"
+      ]
+    },
+    {
+      "id": "jasmine/jasmine",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "jquery/qunit",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "facebook/jest",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "substack/tape",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "DevExpress/testcafe",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "avajs/ava",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "chaijs/chai",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "kentcdodds/react-testing-library",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "sinonjs/sinon",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "visionmedia/supertest",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "webdriverio/webdriverio",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "getgauge/taiko",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "douglascrockford/JSLint",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "beautify-web/js-beautify",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "typicode/husky",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "fallow-rs/fallow",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "jashkenas/backbone",
+      "path": [
+        "Frontend Frameworks"
+      ]
+    },
+    {
+      "id": "emberjs/ember.js",
+      "path": [
+        "Frontend Frameworks"
+      ]
+    },
+    {
+      "id": "knockout/knockout",
+      "path": [
+        "Frontend Frameworks"
+      ]
+    },
+    {
+      "id": "developit/preact",
+      "path": [
+        "Frontend Frameworks"
+      ]
+    },
+    {
+      "id": "riot/riot",
+      "path": [
+        "Frontend Frameworks"
+      ]
+    },
+    {
+      "id": "marionettejs/backbone.marionette",
+      "path": [
+        "Frontend Frameworks"
+      ]
+    },
+    {
+      "id": "lhorie/mithril.js",
+      "path": [
+        "Frontend Frameworks"
+      ]
+    },
+    {
+      "id": "feathersjs/feathers",
+      "path": [
+        "Backend Frameworks"
+      ]
+    },
+    {
+      "id": "alpinejs/alpine",
+      "path": [
+        "Frontend Frameworks"
+      ]
+    },
+    {
+      "id": "infernojs/inferno",
+      "path": [
+        "Frontend Frameworks"
+      ]
+    },
+    {
+      "id": "d3/d3",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "mrdoob/three.js",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "chartjs/Chart.js",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "apache/echarts",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "jacomyal/sigma.js",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "tianchangNorth/pocket-mocker",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "meteor/meteor",
+      "path": [
+        "Meta-Frameworks"
+      ]
+    },
+    {
+      "id": "mikeric/rivets",
+      "path": [
+        "Frontend Frameworks"
+      ]
+    },
+    {
+      "id": "handlebars-lang/handlebars.js",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "mde/ejs",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "kangax/fabric.js",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "jonobr1/two.js",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "wout/svg.js",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "jasondavies/d3-cloud",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "retejs/rete",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "google/blockly",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "keystonejs/keystone",
+      "path": [
+        "CMS & Content Platforms"
+      ]
+    },
+    {
+      "id": "reactioncommerce/reaction",
+      "path": [
+        "E-Commerce Platforms"
+      ]
+    },
+    {
+      "id": "tryghost/Ghost",
+      "path": [
+        "CMS & Content Platforms"
+      ]
     }
   ]
 }

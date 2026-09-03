@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "zanna-37/hass-swipe-navigation",
+  "link": "https://github.com/zanna-37/hass-swipe-navigation",
+  "name": "hass-swipe-navigation",
+  "desc": "↔️ Swipe through Home Assistant Dashboard views on mobile.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "hacs",
+    "home-assistant",
+    "navigation",
+    "swipe"
+  ],
+  "history": [],
+  "weight": 565
+}

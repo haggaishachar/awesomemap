@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "kalkih/mini-media-player",
+  "link": "https://github.com/kalkih/mini-media-player",
+  "name": "mini-media-player",
+  "desc": "Minimalistic media card for Home Assistant Lovelace UI",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "automation",
+    "custom",
+    "hacktoberfest",
+    "hassio",
+    "home-assistant",
+    "homeassistant",
+    "lovelace",
+    "lovelace-ui",
+    "media-player",
+    "sonos"
+  ],
+  "history": [],
+  "weight": 1712
+}

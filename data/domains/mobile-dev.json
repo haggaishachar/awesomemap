@@ -970,6 +970,162 @@
       "path": [
         "UI Component Libraries"
       ]
+    },
+    {
+      "id": "TanStack/query",
+      "path": [
+        "State Management"
+      ]
+    },
+    {
+      "id": "react-native-netinfo/react-native-netinfo",
+      "path": [
+        "Networking"
+      ]
+    },
+    {
+      "id": "alexbrazier/react-native-network-logger",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "getsentry/sentry-react-native",
+      "path": [
+        "Analytics & Crash Reporting"
+      ]
+    },
+    {
+      "id": "FormidableLabs/react-native-app-auth",
+      "path": [
+        "Authentication & Authorization"
+      ]
+    },
+    {
+      "id": "react-native-google-signin/google-signin",
+      "path": [
+        "Authentication & Authorization"
+      ]
+    },
+    {
+      "id": "stripe/stripe-react-native",
+      "path": [
+        "Payments & In-App Purchases"
+      ]
+    },
+    {
+      "id": "RevenueCat/react-native-purchases",
+      "path": [
+        "Payments & In-App Purchases"
+      ]
+    },
+    {
+      "id": "software-mansion/radon-ide",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "expo/eas-cli",
+      "path": [
+        "CI/CD & Distribution"
+      ]
+    },
+    {
+      "id": "callstack/react-native-bundle-visualizer",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "callstack/repack",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "infinitered/reactotron",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "callstack/react-native-testing-library",
+      "path": [
+        "Testing"
+      ]
+    },
+    {
+      "id": "gronxb/hot-updater",
+      "path": [
+        "CI/CD & Distribution"
+      ]
+    },
+    {
+      "id": "mrousavy/nitro",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "infinitered/apisauce",
+      "path": [
+        "Networking"
+      ]
+    },
+    {
+      "id": "margelo/react-native-quick-crypto",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "junedomingo/react-native-rename",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "Buoy-gg/buoy",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "thecodingmachine/react-native-boilerplate",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "bluesky-social/social-app",
+      "path": [
+        "Open Source Apps"
+      ]
+    },
+    {
+      "id": "Expensify/App",
+      "path": [
+        "Open Source Apps"
+      ]
+    },
+    {
+      "id": "mattermost/mattermost-mobile",
+      "path": [
+        "Open Source Apps"
+      ]
+    },
+    {
+      "id": "RocketChat/Rocket.Chat.ReactNative",
+      "path": [
+        "Open Source Apps"
+      ]
+    },
+    {
+      "id": "artsy/eigen",
+      "path": [
+        "Open Source Apps"
+      ]
     }
   ]
 }

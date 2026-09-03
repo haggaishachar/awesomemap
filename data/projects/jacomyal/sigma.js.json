@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "jacomyal/sigma.js",
+  "link": "https://github.com/jacomyal/sigma.js",
+  "name": "sigma.js",
+  "desc": "A JavaScript library aimed at visualizing graphs of thousands of nodes and edges",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "data-visualization",
+    "graph",
+    "graph-drawing",
+    "graph-drawing-framework",
+    "graphs",
+    "javascript",
+    "webgl"
+  ],
+  "history": [],
+  "weight": 12160
+}

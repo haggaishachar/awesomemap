@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "riot/riot",
+  "link": "https://github.com/riot/riot",
+  "name": "riot",
+  "desc": "Simple and elegant component-based UI library",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "client-side",
+    "customelement",
+    "customelements",
+    "customtags",
+    "elegant",
+    "framework",
+    "javascript",
+    "lite",
+    "minimal",
+    "simple",
+    "view",
+    "webcomponents"
+  ],
+  "history": [],
+  "weight": 14915,
+  "image": "https://avatars.githubusercontent.com/u/12729373?v=4"
+}

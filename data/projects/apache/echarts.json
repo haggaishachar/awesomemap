@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "apache/echarts",
+  "link": "https://github.com/apache/echarts",
+  "name": "echarts",
+  "desc": "Apache ECharts is a powerful, interactive charting and data visualization library for browser",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "apache",
+    "canvas",
+    "charting-library",
+    "charts",
+    "data-visualization",
+    "data-viz",
+    "echarts",
+    "svg",
+    "visualization"
+  ],
+  "history": [],
+  "weight": 67226,
+  "image": "https://avatars.githubusercontent.com/u/47359?v=4"
+}

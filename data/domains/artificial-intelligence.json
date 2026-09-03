@@ -1118,6 +1118,13 @@
         "Agents & Coding",
         "AI Agents"
       ]
+    },
+    {
+      "id": "pydantic/pydantic-ai",
+      "path": [
+        "Agents & Coding",
+        "Orchestration Frameworks"
+      ]
     }
   ]
 }

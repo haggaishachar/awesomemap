@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "pydantic/pydantic-ai",
+  "link": "https://github.com/pydantic/pydantic-ai",
+  "name": "pydantic-ai",
+  "desc": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "agent-framework",
+    "genai",
+    "harness",
+    "harness-engineering",
+    "llm",
+    "pydantic",
+    "python"
+  ],
+  "history": [],
+  "weight": 19687,
+  "image": "https://avatars.githubusercontent.com/u/110818415?v=4"
+}

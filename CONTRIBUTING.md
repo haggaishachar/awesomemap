@@ -3,9 +3,10 @@
 Local development and contribution guide for awesomemap.
 
 **Contributions here are code/platform contributions, not data
-submissions.** Adding a project to a map is fully automated (see "How
-project data gets added" below) — a human PR is no longer the way that
-happens, so please don't open one just to add or nominate a project. If
+submissions.** Adding a project to a map is normally fully automated —
+currently paused, see "How project data gets added" below — and a human
+PR was never the way that happened, so please don't open one just to add
+or nominate a project. If
 you want to help, pick something from [`MVP.md`](MVP.md) (the current
 priority shortlist) or [`product.md`](product.md) (the fuller backlog):
 a feature, a bug fix, better test coverage, or a design/UX improvement.
@@ -25,9 +26,13 @@ a feature, a bug fix, better test coverage, or a design/UX improvement.
     npm install
     npm run dev
 
-Generates `dist/` from `data/domains/` + `data/projects/` and serves it at
-http://localhost:5000. Re-run `npm run dev` (or just `npm run generate`)
-after editing any data file to regenerate.
+Generates `dist/` from [awesomemap-data](https://github.com/haggaishachar/awesomemap-data)'s
+public read API and serves it at http://localhost:5000. No setup required
+— `AWESOMEMAP_DATA_API_URL` defaults to the live production API
+(`https://awesomemap-data.haggai-shachar.workers.dev`); set it yourself to
+point at a different deployment (e.g. a local `wrangler dev` instance of
+that repo). Re-run `npm run dev` (or just `npm run generate`) to pick up
+new upstream data or a local code change.
 
 ## Test
 
@@ -74,119 +79,32 @@ match your own deployment.
 
 ## How project data gets added
 
-There is no manual "add a project" contribution path anymore — every
-project on the site arrives through one of two fully automated pipelines,
-neither of which waits on a maintainer:
+Project data (discovery, submissions, star-history snapshots) moved to a
+separate private repo, [awesomemap-data](https://github.com/haggaishachar/awesomemap-data)
+— this repo now only builds the site from its public API (see "Develop"
+above). As part of that move, both automated pipelines that used to run
+here are **currently paused**:
 
-- **Automated discovery.** A daily scheduled job
-  (`.github/workflows/discovery.yml`, running `scripts/discover-projects.mjs`)
-  looks for new candidates on its own, using the search topics and
-  awesome-lists configured per domain in `data/discovery/sources.json`.
-- **On-site submission.** Anyone can nominate a specific repo via the
-  [/submit/](https://awesomemap.dev/submit/) page — no GitHub account
-  gymnastics beyond opening the issue it redirects to. The moment that
-  issue is opened (whether via the form or hand-filled from the
-  [Suggest a project](.github/ISSUE_TEMPLATE/suggest-a-project.md)
-  template), `.github/workflows/submit-project.yml` runs
-  `scripts/process-submission.mjs` against it and **always closes the
-  issue** with a comment explaining the outcome — committed, already
-  present, or rejected and why — regardless of whether the issue was
-  opened by the form or typed by hand.
+- **Automated discovery** now runs inside `awesomemap-data` on its own
+  schedule, writing straight to its database — nothing left to wire up on
+  this side.
+- **On-site submission** (the [/submit/](https://awesomemap.dev/submit/)
+  page → GitHub issue flow) is paused: the issue template and page still
+  live here, but the workflow that used to process the resulting issue
+  (`.github/workflows/submit-project.yml`) is disabled until a cross-repo
+  trigger into `awesomemap-data` is designed. An opened "Suggest a
+  project" issue currently sits unprocessed — this is tracked as a
+  follow-up, not silently dropped.
 
-Both pipelines share the same classification and commit logic
-(`scripts/classify-candidates.mjs`, `scripts/apply-discoveries.mjs`):
+**Fixing bad data** (a wrong category, a stale description, a typo) has
+no public contribution path right now either — the data lives in
+`awesomemap-data`, which is private. Open an issue describing the problem
+in the meantime; a maintainer can fix it directly in that repo.
 
-- Every candidate is checked against a hard, objective quality bar first
-  (500+ stars, not a fork/archived, has a license, pushed within the last
-  12 months) — `scripts/discover-candidates.mjs`'s `passesQualityBar`.
-  This runs before any LLM call, so no tokens are spent on a repo that
-  wouldn't qualify anyway.
-- A candidate that clears the bar is classified (OpenRouter, currently
-  `google/gemini-3.7-flash`) into that domain's existing category tree —
-  or, if none fits, the classifier's own suggested new category is
-  created on the spot. A `fits: true` verdict is committed immediately;
-  there is no confidence threshold, no daily cap, and no human-reviewed
-  queue in between. A `fits: false` verdict is a real rejection and
-  isn't reconsidered.
-- A failure in the pipeline itself (an unparseable classification, a
-  failed enrichment) is never treated as a rejection — it's simply left
-  out of `data/discovery/seen.json` so a later run retries it
-  automatically, no human intervention needed either way.
-- The candidate's GitHub topics are fetched alongside its other metadata,
-  both to help the classifier and to populate the committed entry's
-  `tags` field automatically.
-
-**Fixing bad data** (a wrong category, a stale description, a typo) is
-still a normal hand-edited PR against `data/domains/<slug>.json` or
-`data/projects/<owner>/<repo>.json` — see "Data layout" below for their
-shape. **Proposing a brand-new domain map** (not an addition to an
-existing one) also still goes through a
+**Proposing a brand-new domain map** still goes through a
 [New domain proposal](../../issues/new?template=new-domain-proposal.md)
-issue and a follow-up PR, since that's a structural decision the
-automated pipelines above never make on their own.
-
-## Data layout
-
-    data/
-      domains/
-        <slug>.json          # domain metadata + this domain's project membership
-      projects/
-        <owner>/<repo>.json  # one file per project, shared across every domain that references it
-
-`data/domains/<slug>.json`:
-
-    {
-      "schemaVersion": 1,
-      "slug": "<slug>",
-      "name": "Display Name",
-      "shortName": "Short Name",
-      "description": "One-line description shown on the landing page.",
-      "projects": [
-        { "id": "owner/repo", "path": ["Category Name"] }
-      ]
-    }
-
-- `id` and `path` are required on every membership entry, and `id` doubles
-  as the project's GitHub repo — it's always `owner/repo` (github.com only,
-  so the host isn't repeated per project). `path` is the breadcrumb of
-  category names from root to the project (a single-level category is a
-  one-element array; deeper nesting is a longer array).
-- `id` must have a matching `data/projects/<owner>/<repo>.json` file —
-  `generate.mjs` fails the build on a dangling reference.
-
-`data/projects/<owner>/<repo>.json` — one file per project, holding
-everything about the project itself (never duplicated across domains, even
-when the same project is referenced from more than one):
-
-    {
-      "schemaVersion": 1,
-      "id": "owner/repo",
-      "link": "https://example.com",
-      "name": "Some Project",
-      "desc": "What it does.",
-      "tags": [],
-      "weight": 1000,
-      "history": []
-    }
-
-- `name`, `desc`, `link`, `weight`, and `tags` may be omitted. `tags` is an
-  array of strings (typically the repo's GitHub topics) shown alongside the
-  project; the automated pipelines above fill it in from the candidate's
-  GitHub topics automatically. For a project with no public GitHub repo,
-  use any other unique string as `id`; it just won't be enriched (see
-  below), so give it `weight` yourself.
-- Logos aren't stored in this repo. Set `image` on the project to a direct
-  URL into its source (e.g. a `raw.githubusercontent.com` link) and it's
-  hotlinked as-is; `node scripts/enrich-domain.mjs data/domains/<slug>.json`
-  fills this in automatically from the repo's logo file, when `id` is an
-  owner/repo shorthand — it enriches every project entity that domain's
-  membership list references.
-- `githubName`/`githubDescription` (GitHub's own current name/description,
-  for drift detection against the curated `name`/`desc` above) and
-  `history` (the daily star/forks/open-issues snapshot log) are entirely
-  generated — see "Star history & Rising mode" below.
-
-Run `npm run generate` to confirm it builds before opening a PR.
+issue — that's a structural/design decision, unaffected by any of the
+above.
 
 ## Star history & Rising mode
 
@@ -194,22 +112,20 @@ Every domain map has a second sizing mode, "Rising," that sizes tiles by
 star-growth velocity (7/30/90-day windows) instead of total star count.
 This is entirely generated data — nothing here is hand-authored:
 
-- Each project entity's `history` array is its star-count snapshot log,
-  written daily by `.github/workflows/snapshot-history.yml` (running
-  `scripts/snapshot-history.mjs`) — an array of `{ date, stars, forks,
-  openIssues }` entries, pruned to the last 120 days. The same run also
-  upserts `githubName`/`githubDescription` from GitHub's current API
-  response.
+- Each project entity's `history` array is its star-count snapshot log —
+  an array of `{ date, stars, forks, openIssues }` entries, pruned to the
+  last 120 days — collected daily by `awesomemap-data`'s own scheduled
+  workflow and fetched from its API at build time (see "Develop" above).
+  There's no local snapshot job or manual-trigger command in this repo
+  anymore.
 - `scripts/generate.mjs` reads that history at build time and computes
   each project's `sizes` (`popular`, `rising7`, `rising30`, `rising90`),
   `hasEnoughHistory`, and `growth` fields via `scripts/velocity.mjs` —
   these never need to be set by hand.
 - A brand-new project (or a brand-new domain) simply has no history yet;
-  it renders in Rising mode with a "not enough history" marker until the
-  daily snapshot job has run long enough to cover the selected window.
-- To manually trigger a snapshot run locally: `node
-  scripts/snapshot-history.mjs` (requires `gh auth token`, same as
-  `enrich-domain.mjs`).
+  it renders in Rising mode with a "not enough history" marker until
+  `awesomemap-data`'s daily snapshot job has run long enough to cover the
+  selected window.
 
 ## Rising stars leaderboard
 

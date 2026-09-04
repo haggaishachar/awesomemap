@@ -51,7 +51,7 @@ interactive rankings across any window, use Rising mode in the maps below.
 | [Automation & No-Code](https://awesomemap.dev/automation/) | Workflow automation, RPA, no-code app builders, and business process tooling. | 89 |
 | [IoT & Smart Home](https://awesomemap.dev/smart-home/) | Home automation platforms, embedded firmware, robotics, and device protocols. | 190 |
 
-More domains are on the way. Counts grow daily as the [discovery workflow](.github/workflows) finds and classifies new projects.
+More domains are on the way. Project data is now maintained via [awesomemap-data](https://github.com/haggaishachar/awesomemap-data); counts here reflect the latest deploy.
 
 ## How it works
 

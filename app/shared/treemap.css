@@ -873,6 +873,92 @@ a.momentum-row-name:hover {
   margin: 16px 0;
 }
 
+.map-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.map-share {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.map-share a,
+.map-share button,
+.map-embed-toggle,
+.map-embed-copy {
+  display: flex;
+  align-items: center;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 4px 10px;
+  cursor: pointer;
+  color: var(--color-text-muted);
+  text-decoration: none;
+  font: inherit;
+  font-size: 13px;
+}
+
+.map-share a:hover,
+.map-share button:hover,
+.map-embed-toggle:hover,
+.map-embed-copy:hover {
+  color: var(--color-text);
+}
+
+.map-embed-panel {
+  max-width: 1000px;
+  margin: 8px auto 0;
+  padding: 0 24px;
+  display: flex;
+  gap: 8px;
+}
+
+.map-embed-panel[hidden] {
+  display: none;
+}
+
+.map-embed-code {
+  flex: 1;
+  font-family: ui-monospace, monospace;
+  font-size: 12px;
+  padding: 6px 8px;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  background: var(--color-surface);
+  color: var(--color-text);
+  resize: none;
+  height: 32px;
+}
+
+.map-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px;
+  font-size: 12px;
+  color: var(--color-text-muted);
+  text-decoration: none;
+}
+
+.map-badge:hover {
+  color: var(--color-text);
+}
+
+.map-badge-logo {
+  flex: none;
+  border-radius: 2px;
+}
+
 .rising-domain-filter {
   display: flex;
   flex-wrap: wrap;

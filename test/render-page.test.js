@@ -180,6 +180,95 @@ test("the domain page footer links to license, contributing, and issues", () => 
   assert.match(html, /href="https:\/\/github\.com\/haggaishachar\/awesomemap\/issues"/);
 });
 
+test("every page's <head> declares og:site_name and the og:image's dimensions", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /<meta property="og:site_name" content="awesomemap" \/>/);
+  assert.match(html, /<meta property="og:image:width" content="1200" \/>/);
+  assert.match(html, /<meta property="og:image:height" content="630" \/>/);
+});
+
+test("og:image:alt and twitter:image:alt reuse the page's og description, escaped the same way as the other og:* tags", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "Weird $` desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /<meta property="og:image:alt" content="Weird \$` desc" \/>/);
+  assert.match(html, /<meta name="twitter:image:alt" content="Weird \$` desc" \/>/);
+});
+
+test("the domain page renders an awesomemap.dev badge after the map, on both the full page and the embed variant", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const fullHtml = renderDomainPage(domain, ROOT_TREE, {
+    defaultOgImage: "/og-default.png",
+    siteUrl: "https://awesomemap.dev",
+    basePath: "",
+  });
+  assert.match(fullHtml, /<a class="map-badge" href="https:\/\/awesomemap\.dev\/"[^>]*>[\s\S]*?awesomemap\.dev[\s\S]*?<\/a>/);
+  assert.ok(fullHtml.indexOf('id="app"') < fullHtml.indexOf('class="map-badge"'), "badge should come after the map");
+
+  const embedHtml = renderDomainPage(domain, ROOT_TREE, {
+    defaultOgImage: "/og-default.png",
+    siteUrl: "https://awesomemap.dev",
+    basePath: "",
+    embed: true,
+  });
+  assert.match(embedHtml, /class="map-badge" href="https:\/\/awesomemap\.dev\/"/);
+});
+
+test("the map badge falls back to a root-relative link, prefixed by BASE_PATH, when SITE_URL is unset", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
+  assert.match(html, /class="map-badge" href="\/techmap\/"/);
+});
+
+test("the domain page renders X/LinkedIn/Reddit share links and a copy-link button for the domain's own canonical URL", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, {
+    defaultOgImage: "/og-default.png",
+    siteUrl: "https://awesomemap.dev",
+    basePath: "",
+  });
+  assert.match(
+    html,
+    /class="map-share-x" href="https:\/\/twitter\.com\/intent\/tweet\?url=https%3A%2F%2Fawesomemap\.dev%2Fdata-science%2F&amp;text=Data\+Science"/
+  );
+  assert.match(
+    html,
+    /class="map-share-linkedin" href="https:\/\/www\.linkedin\.com\/sharing\/share-offsite\/\?url=https%3A%2F%2Fawesomemap\.dev%2Fdata-science%2F"/
+  );
+  assert.match(
+    html,
+    /class="map-share-reddit" href="https:\/\/www\.reddit\.com\/submit\?url=https%3A%2F%2Fawesomemap\.dev%2Fdata-science%2F&amp;title=Data\+Science"/
+  );
+  assert.match(html, /class="map-share-copy" data-copy-text="https:\/\/awesomemap\.dev\/data-science\/"/);
+});
+
+test("the domain page renders a copyable iframe embed snippet pointing at the domain's /embed/ URL", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, {
+    defaultOgImage: "/og-default.png",
+    siteUrl: "https://awesomemap.dev",
+    basePath: "",
+  });
+  assert.match(
+    html,
+    /<textarea class="map-embed-code" readonly>&lt;iframe src=&quot;https:\/\/awesomemap\.dev\/embed\/data-science\/&quot; width=&quot;100%&quot; height=&quot;600&quot; style=&quot;border:0&quot; title=&quot;Data Science on awesomemap&quot;&gt;&lt;\/iframe&gt;<\/textarea>/
+  );
+});
+
+test("the domain page's share/embed row wires up copy-to-clipboard and the embed panel toggle", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /import \{ copyToClipboard \} from "\/shared\/clipboard\.js"/);
+  assert.match(html, /embedToggle\.addEventListener\("click", \(\) => \{/);
+});
+
+test("the embed variant has no share buttons or embed panel — it's already what would be embedded", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", embed: true });
+  assert.doesNotMatch(html, /map-share/);
+  assert.doesNotMatch(html, /map-embed/);
+});
+
 test("landing page card links escape the slug and use a trailing slash", () => {
   const html = renderLandingPage(
     [{ slug: "data-science", name: "Data Science", description: "desc" }],

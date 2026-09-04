@@ -4,6 +4,8 @@ import { rankGroups } from "./group-growth.mjs";
 import { SMALL_PROJECT_STAR_THRESHOLD, MIN_MEANINGFUL_STAR_DELTA } from "./this-weeks-signals.mjs";
 import { buildWebsiteJsonLd, buildItemListJsonLd, buildSoftwareSourceCodeJsonLd } from "./seo.mjs";
 import { githubRepoUrl, buildSparklinePath, starHistoryCaption, formatEventDate } from "../app/shared/star-history.js";
+import { buildTwitterShareUrl, buildLinkedInShareUrl, buildRedditShareUrl } from "../app/shared/share-links.js";
+import { buildEmbedSnippet } from "../app/shared/embed-snippet.js";
 
 const TEMPLATE = readFileSync(new URL("../app/index.html.template", import.meta.url), "utf8");
 
@@ -133,6 +135,90 @@ function renderSiteFooter(basePath) {
     </footer>`;
 }
 
+/**
+ * The "awesomemap.dev" attribution badge shown below every treemap — full
+ * domain pages and the chrome-free `/embed/<slug>/` pages alike. Embeds are
+ * the reason this exists: dropped into someone else's site via `<iframe>`,
+ * they'd otherwise carry zero attribution back, since `embed` already
+ * strips the header/footer that would normally do that job.
+ */
+function renderMapBadge(siteUrl, basePath) {
+  return `
+    <a class="map-badge" href="${siteUrl}${basePath}/" target="_blank" rel="noopener">
+      <svg class="map-badge-logo" viewBox="0 0 32 32" width="14" height="14" aria-hidden="true">
+        <rect x="0" y="0" width="18" height="32" rx="2" fill="#2b5fad"/>
+        <rect x="20" y="0" width="12" height="14" rx="2" fill="#6fa0e6"/>
+        <rect x="20" y="16" width="12" height="16" rx="2" fill="#1a8a4a"/>
+      </svg>
+      awesomemap.dev
+    </a>`;
+}
+
+/**
+ * Share row (X/LinkedIn/Reddit + copy link) and Embed toggle for a domain
+ * page. X/LinkedIn/Reddit are plain links — the URL shape alone is enough,
+ * no client JS involved — built by share-links.js and escaped the same way
+ * every other href on the page is. The embed snippet (from
+ * embed-snippet.js) is escaped a *second* time here: embed-snippet.js's own
+ * escaping makes the iframe tag itself valid HTML, and this escaping is
+ * what makes that markup display as literal source text inside the
+ * `<textarea>` rather than being parsed as a tag. Omitted entirely from the
+ * embed variant — an embedded map has nothing further to share or embed.
+ */
+function renderMapActions({ ogUrl, embedUrl, domainName, basePath }) {
+  const xUrl = escapeHtml(buildTwitterShareUrl(ogUrl, domainName));
+  const linkedInUrl = escapeHtml(buildLinkedInShareUrl(ogUrl));
+  const redditUrl = escapeHtml(buildRedditShareUrl(ogUrl, domainName));
+  const embedSnippet = escapeHtml(buildEmbedSnippet(embedUrl, domainName));
+  return `
+    <div class="map-actions">
+      <div class="map-share" role="group" aria-label="Share this map">
+        <a class="map-share-x" href="${xUrl}" target="_blank" rel="noopener">X</a>
+        <a class="map-share-linkedin" href="${linkedInUrl}" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="map-share-reddit" href="${redditUrl}" target="_blank" rel="noopener">Reddit</a>
+        <button type="button" class="map-share-copy" data-copy-text="${escapeHtml(ogUrl)}">Copy link</button>
+      </div>
+      <button type="button" class="map-embed-toggle" aria-expanded="false" aria-controls="map-embed-panel">Embed</button>
+    </div>
+    <div class="map-embed-panel" id="map-embed-panel" hidden>
+      <textarea class="map-embed-code" readonly>${embedSnippet}</textarea>
+      <button type="button" class="map-embed-copy">Copy</button>
+    </div>`;
+}
+
+/**
+ * Wires up renderMapActions's copy-link/embed-copy buttons and the embed
+ * panel's show/hide toggle. Sits right after that markup in every caller,
+ * the same convention renderCompareCartBootstrap follows for the header.
+ */
+function renderMapActionsBootstrap(basePath) {
+  return `
+    <script type="module">
+      import { copyToClipboard } from "${basePath}/shared/clipboard.js";
+      function flashCopied(button) {
+        const original = button.textContent;
+        button.textContent = "Copied!";
+        setTimeout(() => { button.textContent = original; }, 1500);
+      }
+      document.querySelectorAll(".map-share-copy, .map-embed-copy").forEach((button) => {
+        button.addEventListener("click", async () => {
+          const text = button.classList.contains("map-embed-copy")
+            ? document.querySelector(".map-embed-code").value
+            : button.dataset.copyText;
+          await copyToClipboard(text);
+          flashCopied(button);
+        });
+      });
+      const embedToggle = document.querySelector(".map-embed-toggle");
+      const embedPanel = document.getElementById("map-embed-panel");
+      embedToggle.addEventListener("click", () => {
+        const opening = embedPanel.hidden;
+        embedPanel.hidden = !opening;
+        embedToggle.setAttribute("aria-expanded", String(opening));
+      });
+    </script>`;
+}
+
 function renderShell({ title, ogTitle, ogDescription, ogImage, ogUrl, base, body }) {
   return TEMPLATE.replace(/{{TITLE}}/g, () => escapeHtml(title))
     .replace(/{{OG_TITLE}}/g, () => escapeHtml(ogTitle))
@@ -189,6 +275,16 @@ export function renderDomainPage(
   const categorySection = embed ? "" : renderCategoryMomentum(categoryGrowth, { windowDays: momentumWindowDays });
   const tagSection = embed ? "" : renderTagWidget(topTags, risingTags, { basePath, windowDays: momentumWindowDays });
   const ogUrl = `${siteUrl}${basePath}/${domain.slug}/`;
+  const embedUrl = `${siteUrl}${basePath}/embed/${domain.slug}/`;
+  // Omitted from the embed variant, like the rest of the page chrome — an
+  // embedded map is already what these buttons would point at embedding or
+  // sharing, so it has nothing further to offer.
+  const mapActionsSection = embed
+    ? ""
+    : renderMapActions({ ogUrl, embedUrl, domainName: domain.name, basePath }) + renderMapActionsBootstrap(basePath);
+  // Unlike the rest of the chrome above, shown on *both* variants — see
+  // renderMapBadge's own doc comment for why embeds need this most.
+  const mapBadge = renderMapBadge(siteUrl, basePath);
   // Omitted from the embed variant along with the header/footer/teaser —
   // it's structured data for search engines, and embed pages are already
   // excluded from the sitemap as duplicate content (see seo.mjs).
@@ -205,6 +301,7 @@ export function renderDomainPage(
   const body = `
     ${header}
     ${heroSection}
+    ${mapActionsSection}
     ${compareCartScript}
     ${itemListJsonLd}
     <div id="app"></div>
@@ -251,6 +348,7 @@ export function renderDomainPage(
         treemap.applyState(state);
       });
     </script>
+    ${mapBadge}
     <div class="domain-insights">
       ${categorySection}
       ${tagSection}

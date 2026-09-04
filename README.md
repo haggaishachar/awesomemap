@@ -65,11 +65,13 @@ More domains are on the way. Project data is now maintained via [awesomemap-data
 - [Search](https://awesomemap.dev/search/) any project by name, tag, or description, or browse the [full tag index](https://awesomemap.dev/tags/).
 - [Compare](https://awesomemap.dev/compare/) up to four projects side by side — stars, growth, and momentum in one table.
 - Curious exactly how growth, the Rising score, and "this week's signals" are computed? See [How we rank](https://awesomemap.dev/methodology/).
+- Share a map to X, LinkedIn, or Reddit, or copy its link, with the buttons above each map.
 
 ## Embed a map
 
 Every map has a bare, chrome-free embed version, meant for dropping into
-a blog post or another site via `<iframe>`:
+a blog post or another site via `<iframe>`. Click **Embed** above any map
+for a ready-to-paste snippet, or write your own:
 
 ```html
 <iframe

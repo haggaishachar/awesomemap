@@ -16,7 +16,20 @@
 // record (and the on-disk path convention for a project file) is decided
 // exactly once.
 import { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
-import { parseGhRepo } from "./enrich-domain.mjs";
+
+/**
+ * Parses a GitHub repo shorthand (owner/repo) into its components.
+ * Returns an object with owner and repo properties, or null if invalid.
+ */
+function parseGhRepo(shorthand) {
+  if (typeof shorthand !== "string") return null;
+  const segments = shorthand.split("/").filter(Boolean);
+  if (segments.length !== 2) return null;
+  const [owner, repoRaw] = segments;
+  const repo = repoRaw.endsWith(".git") ? repoRaw.slice(0, -4) : repoRaw;
+  if (!owner || !repo) return null;
+  return { owner, repo };
+}
 
 export const DOMAINS_DIR = "data/domains";
 export const PROJECTS_DIR = "data/projects";

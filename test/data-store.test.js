@@ -76,3 +76,20 @@ test("loadAllDomains defaults to the live production API when AWESOMEMAP_DATA_AP
     process.env.AWESOMEMAP_DATA_API_URL = original;
   }
 });
+
+test("loadAllDomains also defaults to the live production API when AWESOMEMAP_DATA_API_URL is set but empty", async () => {
+  // Regression test: GitHub Actions injects a workflow env var as an empty
+  // string (not an absent variable) when the secret it references from
+  // `${{ secrets.FOO }}` doesn't exist — this broke deploy.yml in
+  // production (run 33898487635) when AWESOMEMAP_DATA_API_URL's secret
+  // was removed from the repo; `??` didn't catch the empty string.
+  const original = process.env.AWESOMEMAP_DATA_API_URL;
+  process.env.AWESOMEMAP_DATA_API_URL = "";
+  try {
+    const { fetchImpl, calls } = fakeFetch([{ status: 200, body: [] }]);
+    await loadAllDomains({ fetchImpl });
+    assert.equal(calls[0].url, "https://awesomemap-data.haggai-shachar.workers.dev/domains");
+  } finally {
+    process.env.AWESOMEMAP_DATA_API_URL = original;
+  }
+});

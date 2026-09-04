@@ -238,7 +238,7 @@ Expected: PASS (all 7 tests).
 - [ ] **Step 5: Run the full test suite**
 
 Run: `npm test`
-Expected: FAIL at this checkpoint — `scripts/generate.mjs` still calls `loadAllDomains()`/`loadAllProjectEntities()` synchronously (no `await`), so it now gets `Promise` objects instead of data. This is expected and fixed in Task 3; do not treat it as a regression to chase down here. (Nothing else in `npm test` should fail — `generate.mjs` isn't itself under `node --test`, only imported by nothing test-side, so this shows up as a `npm run generate` failure, not a test failure. If `npm test` genuinely fails, stop and investigate before continuing.)
+Expected: PASS. `scripts/generate.mjs` is not itself exercised by `node --test` (no test file imports it), so its now-stale non-`await`ed calls to `loadAllDomains()`/`loadAllProjectEntities()` don't affect `npm test` — they only break `npm run generate`, which Task 3 fixes. Do not run `npm run generate` as part of this task; that verification belongs to Task 3 Step 2.
 
 - [ ] **Step 6: Commit**
 
@@ -454,7 +454,12 @@ done
 ```
 Expected: no errors printed for any file. (If neither `js-yaml` nor `python3`'s `yaml` module is available, visually re-check each file's indentation instead — the `on:` blocks above must line up exactly as shown, 2-space indented under `on:`.)
 
-- [ ] **Step 7: Commit**
+- [ ] **Step 7: Run the full test suite**
+
+Run: `npm test`
+Expected: PASS (workflow YAML changes don't touch any Node code, but the plan's Global Constraints require confirming this after every task).
+
+- [ ] **Step 8: Commit**
 
 ```bash
 git add .github/workflows/discovery.yml .github/workflows/snapshot-history.yml .github/workflows/social-digest.yml .github/workflows/submit-project.yml .github/workflows/deploy.yml
@@ -651,7 +656,12 @@ grep -n "data/" CONTRIBUTING.md
 ```
 Expected: no output (confirms no remaining stale `data/` references anywhere in the file, including the untouched "Rising stars leaderboard" section).
 
-- [ ] **Step 7: Commit**
+- [ ] **Step 7: Run the full test suite**
+
+Run: `npm test`
+Expected: PASS (docs-only changes, but the plan's Global Constraints require confirming this after every task).
+
+- [ ] **Step 8: Commit**
 
 ```bash
 git add README.md CONTRIBUTING.md

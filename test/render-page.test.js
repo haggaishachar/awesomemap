@@ -14,6 +14,17 @@ import {
   renderContactPage,
   tagSlug,
 } from "../scripts/render-page.mjs";
+import { buildEmbedSnippet } from "../app/shared/embed-snippet.js";
+
+/**
+ * Undoes escapeHtml's 4-entity escaping — simulates what a browser's HTML
+ * parser does exactly once when it decodes a `<textarea>`'s (RCDATA) text
+ * content into its `.value`. Entities must be decoded `&amp;` last, or an
+ * `&amp;lt;` produced by double-escaping `&` would wrongly decode as `<`.
+ */
+function decodeHtmlEntitiesOnce(text) {
+  return text.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&amp;/g, "&");
+}
 
 const ROOT_TREE = { id: "data-science", name: "Data Science", children: [] };
 
@@ -253,6 +264,26 @@ test("the domain page renders a copyable iframe embed snippet pointing at the do
     html,
     /<textarea class="map-embed-code" readonly>&lt;iframe src=&quot;https:\/\/awesomemap\.dev\/embed\/data-science\/&quot; width=&quot;100%&quot; height=&quot;600&quot; style=&quot;border:0&quot; title=&quot;Data Science on awesomemap&quot;&gt;&lt;\/iframe&gt;<\/textarea>/
   );
+});
+
+test("a domain name containing HTML metacharacters round-trips through the embed textarea's double escaping to the exact snippet buildEmbedSnippet produces", () => {
+  const domain = { slug: "evil", name: 'R&D "Labs" <script>', description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", siteUrl: "https://awesomemap.dev", basePath: "" });
+  const match = html.match(/<textarea class="map-embed-code" readonly>([\s\S]*?)<\/textarea>/);
+  assert.ok(match, "embed textarea should exist");
+  // One entity-decode pass is what a browser does when reading a <textarea>'s
+  // (RCDATA) content into its .value — the same decode a user's browser
+  // performs the instant they open the Embed panel to copy it.
+  const copiedValue = decodeHtmlEntitiesOnce(match[1]);
+  // What buildEmbedSnippet itself produces directly — the copied value must
+  // match this exactly (not the further-unescaped "R&D" domain name), or
+  // the pasted snippet wouldn't be the valid HTML embed-snippet.js built.
+  assert.equal(copiedValue, buildEmbedSnippet("https://awesomemap.dev/embed/evil/", 'R&D "Labs" <script>'));
+  // The raw page source itself — not just the copied-and-decoded value —
+  // must never contain the domain name's `<script>` unescaped (the page
+  // legitimately carries a few of its own `<script>` tags elsewhere, so
+  // this checks for the specific injected substring, not any script tag).
+  assert.doesNotMatch(html, /Labs" <script>/);
 });
 
 test("the domain page's share/embed row wires up copy-to-clipboard and the embed panel toggle", () => {

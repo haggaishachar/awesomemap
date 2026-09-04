@@ -11,6 +11,7 @@ import {
   renderSearchPage,
   renderSubmitPage,
   renderMethodologyPage,
+  renderContactPage,
   tagSlug,
 } from "../scripts/render-page.mjs";
 
@@ -1239,5 +1240,38 @@ test("renderSiteFooter (via renderMethodologyPage) links to /methodology/, prefi
   assert.match(rootHtml, /<footer class="site-footer">\s*<a href="\/methodology\/">How we rank<\/a>/);
   const prefixedHtml = renderSubmitPage({ domains: [], defaultOgImage: "/og-default.png", basePath: "/techmap" });
   assert.match(prefixedHtml, /<a href="\/techmap\/methodology\/">How we rank<\/a>/);
+});
+
+test("renderSiteFooter links to /contact/, prefixed by basePath", () => {
+  const rootHtml = renderMethodologyPage({ defaultOgImage: "/og-default.png" });
+  assert.match(rootHtml, /<a href="\/contact\/">Contact us<\/a>/);
+  const prefixedHtml = renderSubmitPage({ domains: [], defaultOgImage: "/og-default.png", basePath: "/techmap" });
+  assert.match(prefixedHtml, /<a href="\/techmap\/contact\/">Contact us<\/a>/);
+});
+
+test("renderSiteHeader shows the brand mark's svg inline, not just the wordmark", () => {
+  const html = renderMethodologyPage({ defaultOgImage: "/og-default.png" });
+  assert.match(html, /<a class="site-header-brand" href="\/">[\s\S]*?<svg class="site-header-logo"[\s\S]*?<\/svg>[\s\S]*?awesomemap[\s\S]*?<\/a>/);
+});
+
+test("renderSiteHeader includes a mobile menu toggle wired to the links panel via aria-controls", () => {
+  const html = renderMethodologyPage({ defaultOgImage: "/og-default.png" });
+  assert.match(html, /<button type="button" class="site-header-toggle"[^>]*aria-expanded="false"[^>]*aria-controls="site-header-links"[^>]*>/);
+  assert.match(html, /<div class="site-header-links" id="site-header-links">/);
+});
+
+test("renderContactPage has a site header/footer, a mailto-building form, and a canonical /contact/ URL", () => {
+  const html = renderContactPage({ defaultOgImage: "/og-default.png", siteUrl: "https://awesomemap.dev", basePath: "" });
+  assert.match(html, /class="site-header"/);
+  assert.match(html, /class="site-footer"/);
+  assert.match(html, /href="https:\/\/awesomemap\.dev\/contact\/"/);
+  assert.match(html, /<title>Contact us — awesomemap<\/title>/);
+  assert.match(html, /<form id="contact-form" class="contact-form">/);
+  assert.match(html, /import \{ isValidContactInput, buildContactMailtoUrl \} from "\/shared\/contact-form\.js"/);
+});
+
+test("renderContactPage imports contact-form.js prefixed by BASE_PATH", () => {
+  const html = renderContactPage({ defaultOgImage: "/og-default.png", basePath: "/techmap" });
+  assert.match(html, /import \{ isValidContactInput, buildContactMailtoUrl \} from "\/techmap\/shared\/contact-form\.js"/);
 });
 

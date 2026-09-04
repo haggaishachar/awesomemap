@@ -699,11 +699,32 @@ a.momentum-row-name:hover {
 }
 
 .site-header-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-weight: 700;
   font-size: 15px;
   color: var(--color-text);
   text-decoration: none;
   letter-spacing: -0.01em;
+}
+
+.site-header-logo {
+  flex: none;
+  border-radius: 3px;
+}
+
+/* Hidden by default (desktop keeps every link inline); the mobile media
+   query below is what turns this into a real toggle. */
+.site-header-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text);
+  background: none;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
 }
 
 .site-header-links {
@@ -736,20 +757,32 @@ a.momentum-row-name:hover {
 }
 
 /* Below this, the header's links (Search, Rising, Tags, Compare, Suggest a
-   project, GitHub, stars badge) no longer fit in one row — left unwrapped,
-   the row overflows its container and the whole page gains a horizontal
-   scrollbar, which reads as "the nav bar slides right" on a phone. Wrapping
-   the links onto as many rows as needed (instead of scrolling or clipping
-   them) keeps every link reachable without hiding navigation. */
+   project, GitHub, stars badge) no longer fit in one row. They used to be
+   left wrapping onto as many rows as needed, but that spilled the header
+   across up to 3 lines. Instead, collapse them behind the hamburger toggle
+   so the closed header is always brand + toggle on one line; opening the
+   toggle stacks every link full-width in a second row, still with nothing
+   hidden or scrolling. */
 @media (max-width: 640px) {
   .site-header {
     flex-wrap: wrap;
-    row-gap: 8px;
+  }
+
+  .site-header-toggle {
+    display: flex;
   }
 
   .site-header-links {
-    flex-wrap: wrap;
-    justify-content: flex-end;
+    display: none;
+    flex-basis: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding-top: 8px;
+  }
+
+  .site-header.is-open .site-header-links {
+    display: flex;
   }
 
   /* Decorative, not navigation — first to go when space is tight. */
@@ -1529,9 +1562,13 @@ a.momentum-row-name:hover {
   }
 }
 
-/* /submit/ page — "suggest a project" form, styled with the same
-   surface/border/accent variables as the compare-add form. */
-.submit-form {
+/* /submit/ and /contact/ pages — "suggest a project" and "contact us"
+   forms, styled identically with the same surface/border/accent variables
+   as the compare-add form. Sharing these rules (rather than duplicating
+   them under a second class) keeps the two forms visually consistent by
+   construction. */
+.submit-form,
+.contact-form {
   max-width: 480px;
   margin: 24px auto 48px;
   padding: 24px;
@@ -1543,7 +1580,8 @@ a.momentum-row-name:hover {
   gap: 4px;
 }
 
-.submit-form label {
+.submit-form label,
+.contact-form label {
   font-size: 12px;
   font-weight: 600;
   color: var(--color-text-muted);
@@ -1554,7 +1592,9 @@ a.momentum-row-name:hover {
 
 .submit-form input,
 .submit-form select,
-.submit-form textarea {
+.submit-form textarea,
+.contact-form input,
+.contact-form textarea {
   width: 100%;
   box-sizing: border-box;
   font: inherit;
@@ -1566,7 +1606,8 @@ a.momentum-row-name:hover {
   margin-top: 4px;
 }
 
-.submit-form button {
+.submit-form button,
+.contact-form button {
   margin-top: 16px;
   padding: 10px;
   font: inherit;
@@ -1578,13 +1619,15 @@ a.momentum-row-name:hover {
   cursor: pointer;
 }
 
-.submit-form-error {
+.submit-form-error,
+.contact-form-error {
   color: var(--color-rising-down);
   font-size: 13px;
   margin: 8px 0 0;
 }
 
-.submit-form-note {
+.submit-form-note,
+.contact-form-note {
   font-size: 12px;
   color: var(--color-text-muted);
   margin: 12px 0 0;

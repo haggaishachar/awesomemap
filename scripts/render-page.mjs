@@ -48,12 +48,35 @@ export function tagSlug(tag) {
   return encodeURIComponent(tag);
 }
 
-/** Site-wide nav bar: brand links home, right side links out to the GitHub repo. Omitted from embeds. */
+/**
+ * Site-wide nav bar: brand (icon + wordmark) links home, right side links
+ * out to the GitHub repo. Omitted from embeds.
+ *
+ * On narrow viewports the links panel is collapsed behind the hamburger
+ * button (`.site-header-toggle`) rather than left to wrap onto however many
+ * rows it takes — see the `.site-header` mobile rule in treemap.css for why
+ * unwrapped/wrapped both used to be a problem. The toggle just flips an
+ * `is-open` class and its own `aria-expanded`; every link is a plain `<a>`
+ * that navigates away on click, so there's no separate "close on selection"
+ * logic to wire up.
+ */
 function renderSiteHeader(basePath) {
   return `
-    <header class="site-header">
-      <a class="site-header-brand" href="${basePath}/">awesomemap</a>
-      <div class="site-header-links">
+    <header class="site-header" id="site-header">
+      <a class="site-header-brand" href="${basePath}/">
+        <svg class="site-header-logo" viewBox="0 0 32 32" width="20" height="20" aria-hidden="true">
+          <rect x="0" y="0" width="18" height="32" rx="2" fill="#2b5fad"/>
+          <rect x="20" y="0" width="12" height="14" rx="2" fill="#6fa0e6"/>
+          <rect x="20" y="16" width="12" height="16" rx="2" fill="#1a8a4a"/>
+        </svg>
+        awesomemap
+      </a>
+      <button type="button" class="site-header-toggle" id="site-header-toggle" aria-expanded="false" aria-controls="site-header-links" aria-label="Toggle menu">
+        <svg viewBox="0 0 16 16" width="18" height="18" aria-hidden="true">
+          <path fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" d="M2 4h12M2 8h12M2 12h12"/>
+        </svg>
+      </button>
+      <div class="site-header-links" id="site-header-links">
         <a class="site-header-search" href="${basePath}/search/" aria-label="Search projects">
           <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
             <path fill="none" stroke="currentColor" stroke-width="1.5" d="M11.5 6.75a4.75 4.75 0 1 1-9.5 0 4.75 4.75 0 0 1 9.5 0Z"/>
@@ -71,7 +94,13 @@ function renderSiteHeader(basePath) {
         </a>
         <img class="site-header-stars" src="https://img.shields.io/github/stars/haggaishachar/awesomemap?style=social" alt="GitHub stars" width="94" height="20" loading="lazy" />
       </div>
-    </header>`;
+    </header>
+    <script>
+      document.getElementById("site-header-toggle").addEventListener("click", (event) => {
+        const isOpen = document.getElementById("site-header").classList.toggle("is-open");
+        event.currentTarget.setAttribute("aria-expanded", String(isOpen));
+      });
+    </script>`;
 }
 
 /**
@@ -92,7 +121,7 @@ function renderCompareCartBootstrap(basePath) {
     </script>`;
 }
 
-/** Site-wide footer: links back to the ranking methodology, the repo's license, contributing guide, and issue tracker. Omitted from embeds. */
+/** Site-wide footer: links back to the ranking methodology, the repo's license, contributing guide, issue tracker, and the contact form. Omitted from embeds. */
 function renderSiteFooter(basePath) {
   return `
     <footer class="site-footer">
@@ -100,6 +129,7 @@ function renderSiteFooter(basePath) {
       <a href="${REPO_URL}/blob/master/LICENSE">License</a>
       <a href="${REPO_URL}/blob/master/CONTRIBUTING.md">Contributing</a>
       <a href="${REPO_URL}/issues">Report an issue</a>
+      <a href="${basePath}/contact/">Contact us</a>
     </footer>`;
 }
 
@@ -1366,6 +1396,67 @@ export function renderSubmitPage({ domains = [], defaultOgImage, siteUrl = "", b
     title: "Suggest a project — awesomemap",
     ogTitle: "Suggest a project — awesomemap",
     ogDescription: "Nominate an open-source project for one of awesomemap's maps.",
+    ogImage: defaultOgImage,
+    ogUrl,
+    base: basePath,
+    body,
+  });
+}
+
+/**
+ * Renders the /contact/ page: a way to reach the maintainer that isn't
+ * "open a GitHub issue" (that's what /submit/ and "Report an issue" are
+ * for). Same "no write-capable backend" constraint as /submit/, so instead
+ * of a network call, submitting the form builds a prefilled `mailto:`
+ * URL (contact-form.js) and navigates the current tab to it — handing the
+ * actual delivery off to whatever mail client the visitor's OS opens.
+ */
+export function renderContactPage({ defaultOgImage, siteUrl = "", basePath = "" } = {}) {
+  const ogUrl = `${siteUrl}${basePath}/contact/`;
+  const body = `
+    ${renderSiteHeader(basePath)}
+    <header class="rising-hero">
+      <h1>Contact us</h1>
+      <p class="rising-hero-tagline">Question, feedback, or something that doesn't fit a GitHub issue? Send us a note.</p>
+    </header>
+    <form id="contact-form" class="contact-form">
+      <label for="contact-name">Name (optional)</label>
+      <input id="contact-name" type="text" autocomplete="name" />
+
+      <label for="contact-email">Your email</label>
+      <input id="contact-email" type="email" autocomplete="email" required />
+
+      <label for="contact-message">Message</label>
+      <textarea id="contact-message" rows="5" required></textarea>
+
+      <button type="submit">Send</button>
+      <p id="contact-error" class="contact-form-error" role="alert" hidden></p>
+      <p class="contact-form-note">Opens your email app with a message addressed to awesome@awesomemap.dev, ready to send.</p>
+    </form>
+    <script type="module">
+      import { isValidContactInput, buildContactMailtoUrl } from "${basePath}/shared/contact-form.js";
+      const form = document.getElementById("contact-form");
+      const errorEl = document.getElementById("contact-error");
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        errorEl.hidden = true;
+        const name = document.getElementById("contact-name").value;
+        const email = document.getElementById("contact-email").value;
+        const message = document.getElementById("contact-message").value;
+        if (!isValidContactInput({ name, email, message })) {
+          errorEl.textContent = "Enter a valid email address and a message.";
+          errorEl.hidden = false;
+          return;
+        }
+        window.location.href = buildContactMailtoUrl({ name, email, message });
+      });
+    </script>
+    ${renderSiteFooter(basePath)}
+  `;
+  return renderShell({
+    title: "Contact us — awesomemap",
+    ogTitle: "Contact us — awesomemap",
+    ogDescription: "Get in touch with the awesomemap team.",
     ogImage: defaultOgImage,
     ogUrl,
     base: basePath,

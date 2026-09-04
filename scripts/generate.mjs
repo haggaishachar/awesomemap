@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { readFileSync, writeFileSync, mkdirSync, copyFileSync, rmSync, cpSync } from "node:fs";
 import { buildTree } from "./build-tree.mjs";
-import { renderDomainPage, renderLandingPage, renderRisingPage, renderTagsIndexPage, renderTagPage, renderProjectPage, renderComparePage, renderSearchPage, renderSubmitPage, renderMethodologyPage, tagSlug } from "./render-page.mjs";
+import { renderDomainPage, renderLandingPage, renderRisingPage, renderTagsIndexPage, renderTagPage, renderProjectPage, renderComparePage, renderSearchPage, renderSubmitPage, renderMethodologyPage, renderContactPage, tagSlug } from "./render-page.mjs";
 import { buildCompareRecord, buildCompareIndex } from "./compare-index.mjs";
 import { explainSignal } from "./signal.mjs";
 import { sortedHistory } from "../app/shared/star-history.js";
@@ -431,16 +431,24 @@ writeFileSync(
   renderMethodologyPage({ defaultOgImage: DEFAULT_OG_IMAGE, siteUrl: SITE_URL, basePath: BASE_PATH })
 );
 
+mkdirSync(`${DIST_DIR}/contact`, { recursive: true });
+writeFileSync(
+  `${DIST_DIR}/contact/index.html`,
+  renderContactPage({ defaultOgImage: DEFAULT_OG_IMAGE, siteUrl: SITE_URL, basePath: BASE_PATH })
+);
+
 cpSync(`${APP_DIR}/shared`, `${DIST_DIR}/shared`, { recursive: true });
 cpSync(`${APP_DIR}/vendor`, `${DIST_DIR}/vendor`, { recursive: true });
 copyFileSync(`${APP_DIR}/og-default.png`, `${DIST_DIR}/og-default.png`);
 copyFileSync(`${APP_DIR}/favicon.svg`, `${DIST_DIR}/favicon.svg`);
+copyFileSync(`${APP_DIR}/favicon-32.png`, `${DIST_DIR}/favicon-32.png`);
+copyFileSync(`${APP_DIR}/apple-touch-icon.png`, `${DIST_DIR}/apple-touch-icon.png`);
 if (CNAME) writeFileSync(`${DIST_DIR}/CNAME`, `${CNAME}\n`);
 
 const sitemap = buildSitemap(domains.map((d) => d.slug), {
   siteUrl: SITE_URL,
   basePath: BASE_PATH,
-  extraPaths: ["/tags/", "/compare/", "/search/", "/submit/", "/methodology/", ...tagPagePaths, ...projectPagePaths],
+  extraPaths: ["/tags/", "/compare/", "/search/", "/submit/", "/methodology/", "/contact/", ...tagPagePaths, ...projectPagePaths],
 });
 if (sitemap) writeFileSync(`${DIST_DIR}/sitemap.xml`, sitemap);
 writeFileSync(`${DIST_DIR}/robots.txt`, buildRobots({ siteUrl: SITE_URL, basePath: BASE_PATH }));

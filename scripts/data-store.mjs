@@ -19,7 +19,16 @@
 export const SCHEMA_VERSION = 1;
 
 function baseUrl() {
-  return (process.env.AWESOMEMAP_DATA_API_URL ?? "https://awesomemap-data.haggai-shachar.workers.dev").replace(/\/$/, "");
+  // `||`, not `??`: GitHub Actions injects an env var declared in a
+  // workflow's `env:` block as an empty string (not an absent variable)
+  // whenever the secret it references doesn't exist — e.g.
+  // `AWESOMEMAP_DATA_API_URL: ${{ secrets.AWESOMEMAP_DATA_API_URL }}` in
+  // deploy.yml becomes `AWESOMEMAP_DATA_API_URL=""` if that secret was
+  // ever unset. `??` only falls back on null/undefined, so it would build
+  // a broken relative URL ("/domains") instead of the production default
+  // — this happened in production (deploy.yml run 33898487635, "Failed to
+  // parse URL from /domains") after the secret was removed from the repo.
+  return (process.env.AWESOMEMAP_DATA_API_URL || "https://awesomemap-data.haggai-shachar.workers.dev").replace(/\/$/, "");
 }
 
 async function apiFetch(path, { fetchImpl = fetch } = {}) {

@@ -53,8 +53,8 @@ mkdirSync(DIST_DIR, { recursive: true });
 // before any page is rendered — the Rising page's global leaderboard (Pass
 // 2) spans every domain, so it can't be computed incrementally inside a
 // single per-domain loop the way sizing can.
-const rawDomains = loadAllDomains();
-const projectEntities = loadAllProjectEntities();
+const rawDomains = await loadAllDomains();
+const projectEntities = await loadAllProjectEntities();
 
 const parsedDomains = [];
 const seenSlugs = new Set();

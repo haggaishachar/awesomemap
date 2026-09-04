@@ -140,6 +140,30 @@ test("the embed variant has no site header or footer and starts straight at #app
   assert.doesNotMatch(html, /site-footer/);
 });
 
+test("the domain page renders a hero header with the domain's name and description", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "Notebooks, ML frameworks, and more." };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /<header class="rising-hero">\s*<h1>Data Science<\/h1>\s*<p class="rising-hero-tagline">Notebooks, ML frameworks, and more\.<\/p>\s*<\/header>/);
+});
+
+test("the domain hero is placed after the site header and before #app, escaping HTML in name and description", () => {
+  const domain = { slug: "data-science", name: "Data <Science>", description: "Uses & loves ML" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /<h1>Data &lt;Science&gt;<\/h1>/);
+  assert.match(html, /<p class="rising-hero-tagline">Uses &amp; loves ML<\/p>/);
+  const headerIndex = html.indexOf('class="site-header"');
+  const heroIndex = html.indexOf('class="rising-hero"');
+  const appIndex = html.indexOf('id="app"');
+  assert.ok(headerIndex < heroIndex, "hero should come after the site header");
+  assert.ok(heroIndex < appIndex, "hero should come before the map");
+});
+
+test("the embed variant has no hero header", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", embed: true });
+  assert.doesNotMatch(html, /rising-hero/);
+});
+
 test("the domain page header links to the GitHub repo", () => {
   const domain = { slug: "data-science", name: "Data Science", description: "desc" };
   const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png" });

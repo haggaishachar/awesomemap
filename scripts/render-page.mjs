@@ -137,6 +137,20 @@ export function renderDomainPage(
   const header = embed ? "" : renderSiteHeader(basePath);
   const compareCartScript = embed ? "" : renderCompareCartBootstrap(basePath);
   const footer = embed ? "" : renderSiteFooter(basePath);
+  // Omitted from embeds along with the rest of the chrome (see the other
+  // `embed ? "" : ...` assignments below) — a domain's name and description
+  // are page framing, not part of the visualization itself. Every other
+  // inner page already opens with this same `.rising-hero` header; the
+  // domain page was the one surface with no on-page heading or description
+  // at all, dropping a direct visitor straight into the map with no context
+  // for what it's scoped to.
+  const heroSection = embed
+    ? ""
+    : `
+    <header class="rising-hero">
+      <h1>${escapeHtml(domain.name)}</h1>
+      <p class="rising-hero-tagline">${escapeHtml(domain.description ?? "")}</p>
+    </header>`;
   const teaserSection = embed
     ? ""
     : renderRisingTeaser(teaser, { heading: "Rising this week", href: `${basePath}/rising/#${domain.slug}`, showDomain: false, basePath });
@@ -160,6 +174,7 @@ export function renderDomainPage(
   const historyUrl = `${basePath}/${domain.slug}/history.json`;
   const body = `
     ${header}
+    ${heroSection}
     ${compareCartScript}
     ${itemListJsonLd}
     <div id="app"></div>

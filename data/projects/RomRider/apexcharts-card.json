@@ -4,14 +4,22 @@
   "link": "https://github.com/RomRider/apexcharts-card",
   "name": "apexcharts-card",
   "desc": "📈 A Lovelace card to display advanced graphs and charts based on ApexChartsJS for Home Assistant",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "apexcharts-card",
+  "githubDescription": "📈 A Lovelace card to display advanced graphs and charts based on ApexChartsJS for Home Assistant",
   "tags": [
     "apexcharts",
     "home-assistant",
     "iot",
     "lovelace"
   ],
-  "history": [],
-  "weight": 1858
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 1859,
+      "forks": 146,
+      "openIssues": 56
+    }
+  ],
+  "weight": 1858,
+  "events": []
 }

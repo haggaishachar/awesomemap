@@ -4,8 +4,8 @@
   "link": "https://github.com/th3jesta/ha-lcars",
   "name": "ha-lcars",
   "desc": "LCARS theme for Home Assistant",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "ha-lcars",
+  "githubDescription": "LCARS theme for Home Assistant",
   "tags": [
     "ha-theme",
     "hacs",
@@ -19,6 +19,14 @@
     "startrek",
     "themes"
   ],
-  "history": [],
-  "weight": 570
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 571,
+      "forks": 48,
+      "openIssues": 14
+    }
+  ],
+  "weight": 570,
+  "events": []
 }

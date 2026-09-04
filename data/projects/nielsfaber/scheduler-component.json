@@ -4,8 +4,8 @@
   "link": "https://github.com/nielsfaber/scheduler-component",
   "name": "scheduler-component",
   "desc": "Custom component for HA that enables the creation of scheduler entities",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "scheduler-component",
+  "githubDescription": "Custom component for HA that enables the creation of scheduler entities",
   "tags": [
     "custom-component",
     "hacs",
@@ -14,6 +14,14 @@
     "python",
     "scheduler"
   ],
-  "history": [],
-  "weight": 901
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 902,
+      "forks": 66,
+      "openIssues": 2
+    }
+  ],
+  "weight": 901,
+  "events": []
 }

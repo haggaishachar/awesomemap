@@ -4,10 +4,18 @@
   "link": "https://github.com/google/blockly",
   "name": "blockly",
   "desc": "The web-based visual programming editor.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "blockly",
+  "githubDescription": "The web-based visual programming editor.",
   "tags": [],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 13548,
+      "forks": 3874,
+      "openIssues": 378
+    }
+  ],
   "weight": 13546,
-  "image": "https://avatars.githubusercontent.com/u/3691930?v=4"
+  "image": "https://avatars.githubusercontent.com/u/3691930?v=4",
+  "events": []
 }

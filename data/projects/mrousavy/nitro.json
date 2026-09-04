@@ -4,8 +4,8 @@
   "link": "https://github.com/mrousavy/nitro",
   "name": "nitro",
   "desc": "🔥 Insanely fast native C++, Swift or Kotlin modules with a statically compiled binding layer to JSI",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "nitro",
+  "githubDescription": "🔥 Insanely fast native C++, Swift or Kotlin modules with a statically compiled binding layer to JSI",
   "tags": [
     "cpp",
     "fast",
@@ -24,7 +24,15 @@
     "templates",
     "turbomodules"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 1925,
+      "forks": 115,
+      "openIssues": 187
+    }
+  ],
   "weight": 1924,
-  "image": "https://avatars.githubusercontent.com/u/91980534?v=4"
+  "image": "https://avatars.githubusercontent.com/u/91980534?v=4",
+  "events": []
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/frenck/spook",
   "name": "spook",
   "desc": "A scary 👻 powerful toolbox 🧰 for Home Assistant 🏡",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "spook",
+  "githubDescription": "A scary 👻 powerful toolbox 🧰 for Home Assistant 🏡",
   "tags": [
     "hacs-integration",
     "home-assistant",
@@ -26,6 +26,14 @@
     "spooky",
     "toolbox"
   ],
-  "history": [],
-  "weight": 1269
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 1270,
+      "forks": 87,
+      "openIssues": 13
+    }
+  ],
+  "weight": 1269,
+  "events": []
 }

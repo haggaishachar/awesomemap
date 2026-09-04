@@ -4,8 +4,8 @@
   "link": "https://github.com/chaijs/chai",
   "name": "chai",
   "desc": "BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "chai",
+  "githubDescription": "BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework.",
   "tags": [
     "assertions",
     "bdd",
@@ -13,7 +13,15 @@
     "javascript",
     "tdd"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 8270,
+      "forks": 723,
+      "openIssues": 90
+    }
+  ],
   "weight": 8270,
-  "image": "https://avatars.githubusercontent.com/u/1515293?v=4"
+  "image": "https://avatars.githubusercontent.com/u/1515293?v=4",
+  "events": []
 }

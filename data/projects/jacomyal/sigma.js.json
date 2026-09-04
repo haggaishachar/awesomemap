@@ -4,8 +4,8 @@
   "link": "https://github.com/jacomyal/sigma.js",
   "name": "sigma.js",
   "desc": "A JavaScript library aimed at visualizing graphs of thousands of nodes and edges",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "sigma.js",
+  "githubDescription": "A JavaScript library aimed at visualizing graphs of thousands of nodes and edges",
   "tags": [
     "data-visualization",
     "graph",
@@ -15,6 +15,14 @@
     "javascript",
     "webgl"
   ],
-  "history": [],
-  "weight": 12160
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 12161,
+      "forks": 1620,
+      "openIssues": 15
+    }
+  ],
+  "weight": 12160,
+  "events": []
 }

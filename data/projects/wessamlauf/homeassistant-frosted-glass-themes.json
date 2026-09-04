@@ -4,8 +4,8 @@
   "link": "https://github.com/wessamlauf/homeassistant-frosted-glass-themes",
   "name": "homeassistant-frosted-glass-themes",
   "desc": "✨ Beautiful and modern Theme for Home Assistant ",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "homeassistant-frosted-glass-themes",
+  "githubDescription": "✨ Beautiful and modern Theme for Home Assistant ",
   "tags": [
     "dark-theme",
     "hacs",
@@ -16,6 +16,14 @@
     "modern",
     "theme"
   ],
-  "history": [],
-  "weight": 989
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 991,
+      "forks": 24,
+      "openIssues": 35
+    }
+  ],
+  "weight": 989,
+  "events": []
 }

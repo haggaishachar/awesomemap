@@ -4,8 +4,8 @@
   "link": "https://github.com/piitaya/lovelace-mushroom",
   "name": "lovelace-mushroom",
   "desc": "Build a beautiful Home Assistant dashboard easily",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "lovelace-mushroom",
+  "githubDescription": "Build a beautiful Home Assistant dashboard easily",
   "tags": [
     "card",
     "hacktoberfest",
@@ -14,6 +14,14 @@
     "lovelace",
     "mushroom"
   ],
-  "history": [],
-  "weight": 5136
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 5139,
+      "forks": 440,
+      "openIssues": 442
+    }
+  ],
+  "weight": 5136,
+  "events": []
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/RocketChat/Rocket.Chat.ReactNative",
   "name": "Rocket.Chat.ReactNative",
   "desc": "The Secure CommsOS™ for mission-critical operations",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "Rocket.Chat.ReactNative",
+  "githubDescription": "The Secure CommsOS™ for mission-critical operations",
   "tags": [
     "android",
     "chat",
@@ -13,7 +13,15 @@
     "ios",
     "react-native"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 2413,
+      "forks": 1466,
+      "openIssues": 481
+    }
+  ],
   "weight": 2413,
-  "image": "https://avatars.githubusercontent.com/u/12508788?v=4"
+  "image": "https://avatars.githubusercontent.com/u/12508788?v=4",
+  "events": []
 }

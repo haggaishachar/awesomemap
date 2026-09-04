@@ -4,8 +4,8 @@
   "link": "https://github.com/FamousWolf/week-planner-card",
   "name": "week-planner-card",
   "desc": "Custom Home Assistant card displaying a responsive overview or multiple days with events from one of multiple calendars",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "week-planner-card",
+  "githubDescription": "Custom Home Assistant card displaying a responsive overview or multiple days with events from one of multiple calendars",
   "tags": [
     "calendar",
     "home-assistant",
@@ -16,6 +16,14 @@
     "planner",
     "week-planner"
   ],
-  "history": [],
-  "weight": 525
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 525,
+      "forks": 76,
+      "openIssues": 52
+    }
+  ],
+  "weight": 525,
+  "events": []
 }

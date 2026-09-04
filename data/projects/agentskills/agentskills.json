@@ -4,12 +4,20 @@
   "link": "https://github.com/agentskills/agentskills",
   "name": "agentskills",
   "desc": "Specification and documentation for Agent Skills",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "agentskills",
+  "githubDescription": "Specification and documentation for Agent Skills",
   "tags": [
     "agent-skills"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 25019,
+      "forks": 1877,
+      "openIssues": 79
+    }
+  ],
   "weight": 24988,
-  "image": "https://avatars.githubusercontent.com/u/249824077?v=4"
+  "image": "https://avatars.githubusercontent.com/u/249824077?v=4",
+  "events": []
 }

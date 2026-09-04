@@ -4,14 +4,22 @@
   "link": "https://github.com/handlebars-lang/handlebars.js",
   "name": "handlebars.js",
   "desc": "Minimal templating on steroids.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "handlebars.js",
+  "githubDescription": "Minimal templating on steroids.",
   "tags": [
     "handlebars",
     "mustache",
     "templates"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 18671,
+      "forks": 2068,
+      "openIssues": 117
+    }
+  ],
   "weight": 18670,
-  "image": "https://avatars.githubusercontent.com/u/19378685?v=4"
+  "image": "https://avatars.githubusercontent.com/u/19378685?v=4",
+  "events": []
 }

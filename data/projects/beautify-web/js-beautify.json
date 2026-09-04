@@ -4,8 +4,8 @@
   "link": "https://github.com/beautify-web/js-beautify",
   "name": "js-beautify",
   "desc": "Beautifier for javascript ",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "js-beautify",
+  "githubDescription": "Beautifier for javascript ",
   "tags": [
     "css",
     "hacktoberfest",
@@ -14,7 +14,15 @@
     "nodejs",
     "python"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 8994,
+      "forks": 1428,
+      "openIssues": 439
+    }
+  ],
   "weight": 8994,
-  "image": "https://avatars.githubusercontent.com/u/22065016?v=4"
+  "image": "https://avatars.githubusercontent.com/u/22065016?v=4",
+  "events": []
 }

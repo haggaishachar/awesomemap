@@ -4,8 +4,8 @@
   "link": "https://github.com/tianchangNorth/pocket-mocker",
   "name": "pocket-mocker",
   "desc": "In-page HTTP controller for frontend development. Intercept, modify, and simulate API responses directly in the browser.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "pocket-mocker",
+  "githubDescription": "In-page HTTP controller for frontend development. Intercept, modify, and simulate API responses directly in the browser.",
   "tags": [
     "api",
     "debugging-tool",
@@ -21,6 +21,14 @@
     "vue",
     "web"
   ],
-  "history": [],
-  "weight": 525
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 525,
+      "forks": 29,
+      "openIssues": 3
+    }
+  ],
+  "weight": 525,
+  "events": []
 }

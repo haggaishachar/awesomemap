@@ -4,8 +4,8 @@
   "link": "https://github.com/heygen-com/hyperframes",
   "name": "hyperframes",
   "desc": "Write HTML. Render video. Built for agents.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "hyperframes",
+  "githubDescription": "Write HTML. Render video. Built for agents.",
   "tags": [
     "ai",
     "animation",
@@ -19,7 +19,15 @@
     "typescript",
     "video"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 43906,
+      "forks": 4208,
+      "openIssues": 253
+    }
+  ],
   "weight": 43785,
-  "image": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png"
+  "image": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+  "events": []
 }

@@ -4,9 +4,17 @@
   "link": "https://github.com/iantrich/config-template-card",
   "name": "config-template-card",
   "desc": "📝 Templatable Lovelace Configurations",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "config-template-card",
+  "githubDescription": "📝 Templatable Lovelace Configurations",
   "tags": [],
-  "history": [],
-  "weight": 563
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 563,
+      "forks": 66,
+      "openIssues": 33
+    }
+  ],
+  "weight": 563,
+  "events": []
 }

@@ -4,13 +4,21 @@
   "link": "https://github.com/jasondavies/d3-cloud",
   "name": "d3-cloud",
   "desc": "Create word clouds in JavaScript.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "d3-cloud",
+  "githubDescription": "Create word clouds in JavaScript.",
   "tags": [
     "d3",
     "layout-algorithm",
     "wordcloud"
   ],
-  "history": [],
-  "weight": 3953
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 3953,
+      "forks": 1058,
+      "openIssues": 2
+    }
+  ],
+  "weight": 3953,
+  "events": []
 }

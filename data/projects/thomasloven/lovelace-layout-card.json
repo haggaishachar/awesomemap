@@ -4,9 +4,17 @@
   "link": "https://github.com/thomasloven/lovelace-layout-card",
   "name": "lovelace-layout-card",
   "desc": "🔹 Get more control over the placement of lovelace cards.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "lovelace-layout-card",
+  "githubDescription": "🔹 Get more control over the placement of lovelace cards.",
   "tags": [],
-  "history": [],
-  "weight": 1245
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 1245,
+      "forks": 134,
+      "openIssues": 121
+    }
+  ],
+  "weight": 1245,
+  "events": []
 }

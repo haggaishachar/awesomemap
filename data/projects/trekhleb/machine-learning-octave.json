@@ -4,8 +4,8 @@
   "link": "https://github.com/trekhleb/machine-learning-octave",
   "name": "machine-learning-octave",
   "desc": "🤖 MatLab/Octave examples of popular machine learning algorithms with code examples and mathematics being explained",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "machine-learning-octave",
+  "githubDescription": "🤖 MatLab/Octave examples of popular machine learning algorithms with code examples and mathematics being explained",
   "tags": [
     "clustering",
     "linear-regression",
@@ -17,6 +17,22 @@
     "prediction",
     "regression"
   ],
-  "history": [],
-  "weight": 897
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 897,
+      "forks": 250,
+      "openIssues": 0
+    }
+  ],
+  "weight": 897,
+  "events": [
+    {
+      "date": "2018-10-31",
+      "type": "hn",
+      "title": "Machine Learning Algorithms Examples in MatLab/Octave",
+      "url": "https://news.ycombinator.com/item?id=18346219",
+      "points": 72
+    }
+  ]
 }

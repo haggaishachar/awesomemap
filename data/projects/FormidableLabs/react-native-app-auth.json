@@ -4,10 +4,18 @@
   "link": "https://github.com/FormidableLabs/react-native-app-auth",
   "name": "react-native-app-auth",
   "desc": "React native bridge for AppAuth - an SDK for communicating with OAuth2 providers",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-app-auth",
+  "githubDescription": "React native bridge for AppAuth - an SDK for communicating with OAuth2 providers",
   "tags": [],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 2256,
+      "forks": 474,
+      "openIssues": 156
+    }
+  ],
   "weight": 2255,
-  "image": "https://avatars.githubusercontent.com/u/5078602?v=4"
+  "image": "https://avatars.githubusercontent.com/u/5078602?v=4",
+  "events": []
 }

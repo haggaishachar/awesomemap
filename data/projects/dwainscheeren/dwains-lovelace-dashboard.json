@@ -4,14 +4,22 @@
   "link": "https://github.com/dwainscheeren/dwains-lovelace-dashboard",
   "name": "dwains-lovelace-dashboard",
   "desc": "An fully auto generating Home Assistant UI dashboard for desktop, tablet and mobile by Dwains for desktop, tablet, mobile",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "dwains-lovelace-dashboard",
+  "githubDescription": "An fully auto generating Home Assistant UI dashboard for desktop, tablet and mobile by Dwains for desktop, tablet, mobile",
   "tags": [
     "dashboard",
     "dwains-lovelace-dashboard",
     "home-assistant",
     "home-assistant-dashboard"
   ],
-  "history": [],
-  "weight": 2066
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 2065,
+      "forks": 201,
+      "openIssues": 1
+    }
+  ],
+  "weight": 2066,
+  "events": []
 }

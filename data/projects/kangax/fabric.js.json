@@ -4,10 +4,18 @@
   "link": "https://github.com/kangax/fabric.js",
   "name": "fabric.js",
   "desc": "Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "fabric.js",
+  "githubDescription": "Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser",
   "tags": [],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 31422,
+      "forks": 3625,
+      "openIssues": 469
+    }
+  ],
   "weight": 31421,
-  "image": "https://avatars.githubusercontent.com/u/24580162?v=4"
+  "image": "https://avatars.githubusercontent.com/u/24580162?v=4",
+  "events": []
 }

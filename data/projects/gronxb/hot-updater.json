@@ -4,8 +4,8 @@
   "link": "https://github.com/gronxb/hot-updater",
   "name": "hot-updater",
   "desc": "A self-hostable OTA update solution for React Native (Alternative to CodePush)",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "hot-updater",
+  "githubDescription": "A self-hostable OTA update solution for React Native (Alternative to CodePush)",
   "tags": [
     "expo",
     "plugin-system",
@@ -15,7 +15,15 @@
     "self-hosted",
     "supabase"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 1695,
+      "forks": 174,
+      "openIssues": 19
+    }
+  ],
   "weight": 1694,
-  "image": "https://raw.githubusercontent.com/gronxb/hot-updater/main/logo.png"
+  "image": "https://raw.githubusercontent.com/gronxb/hot-updater/main/logo.png",
+  "events": []
 }

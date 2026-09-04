@@ -4,8 +4,8 @@
   "link": "https://github.com/feathersjs/feathers",
   "name": "feathers",
   "desc": "The API and real-time application framework",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "feathers",
+  "githubDescription": "The API and real-time application framework",
   "tags": [
     "browser",
     "feathers",
@@ -17,7 +17,15 @@
     "real-time",
     "typescript"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 15266,
+      "forks": 798,
+      "openIssues": 127
+    }
+  ],
   "weight": 15265,
-  "image": "https://avatars.githubusercontent.com/u/5321853?v=4"
+  "image": "https://avatars.githubusercontent.com/u/5321853?v=4",
+  "events": []
 }

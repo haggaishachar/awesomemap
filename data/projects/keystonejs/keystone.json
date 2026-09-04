@@ -4,8 +4,8 @@
   "link": "https://github.com/keystonejs/keystone",
   "name": "keystone",
   "desc": "The superpowered headless CMS for Node.js — built with GraphQL and React",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "keystone",
+  "githubDescription": "The superpowered headless CMS for Node.js — built with GraphQL and React",
   "tags": [
     "cms",
     "cms-framework",
@@ -14,7 +14,15 @@
     "nodejs",
     "react"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 9967,
+      "forks": 1260,
+      "openIssues": 137
+    }
+  ],
   "weight": 9967,
-  "image": "https://avatars.githubusercontent.com/u/6118534?v=4"
+  "image": "https://avatars.githubusercontent.com/u/6118534?v=4",
+  "events": []
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/infinitered/reactotron",
   "name": "reactotron",
   "desc": "A desktop app for inspecting your React JS and React Native projects. macOS, Linux, and Windows.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "reactotron",
+  "githubDescription": "A desktop app for inspecting your React JS and React Native projects. macOS, Linux, and Windows.",
   "tags": [
     "debugging",
     "desktop",
@@ -16,7 +16,15 @@
     "redux",
     "redux-saga"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 15590,
+      "forks": 974,
+      "openIssues": 155
+    }
+  ],
   "weight": 15588,
-  "image": "https://avatars.githubusercontent.com/u/3902527?v=4"
+  "image": "https://avatars.githubusercontent.com/u/3902527?v=4",
+  "events": []
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/tryghost/Ghost",
   "name": "Ghost",
   "desc": "Independent technology for modern publishing, memberships, subscriptions and newsletters.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "Ghost",
+  "githubDescription": "Independent technology for modern publishing, memberships, subscriptions and newsletters.",
   "tags": [
     "blogging",
     "cms",
@@ -16,7 +16,15 @@
     "publishing",
     "web-application"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 55162,
+      "forks": 11935,
+      "openIssues": 151
+    }
+  ],
   "weight": 55136,
-  "image": "https://avatars.githubusercontent.com/u/2178663?v=4"
+  "image": "https://avatars.githubusercontent.com/u/2178663?v=4",
+  "events": []
 }

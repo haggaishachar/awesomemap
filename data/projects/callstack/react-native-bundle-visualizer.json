@@ -4,15 +4,23 @@
   "link": "https://github.com/callstack/react-native-bundle-visualizer",
   "name": "react-native-bundle-visualizer",
   "desc": "See what packages are increasing your react-native bundle size 📦",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-bundle-visualizer",
+  "githubDescription": "See what packages are increasing your react-native bundle size 📦",
   "tags": [
     "bundle-size",
     "bundle-visualizer",
     "expo",
     "react-native"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 1630,
+      "forks": 50,
+      "openIssues": 1
+    }
+  ],
   "weight": 1631,
-  "image": "https://avatars.githubusercontent.com/u/42239399?v=4"
+  "image": "https://avatars.githubusercontent.com/u/42239399?v=4",
+  "events": []
 }

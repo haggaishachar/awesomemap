@@ -4,8 +4,8 @@
   "link": "https://github.com/expo/eas-cli",
   "name": "eas-cli",
   "desc": "Fastest way to build, submit, and update iOS and Android apps",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "eas-cli",
+  "githubDescription": "Fastest way to build, submit, and update iOS and Android apps",
   "tags": [
     "android",
     "apps",
@@ -21,7 +21,15 @@
     "mobile",
     "react-native"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 1350,
+      "forks": 232,
+      "openIssues": 459
+    }
+  ],
   "weight": 1350,
-  "image": "https://avatars.githubusercontent.com/u/12504344?v=4"
+  "image": "https://avatars.githubusercontent.com/u/12504344?v=4",
+  "events": []
 }

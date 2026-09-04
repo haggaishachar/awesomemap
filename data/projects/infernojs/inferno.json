@@ -4,8 +4,8 @@
   "link": "https://github.com/infernojs/inferno",
   "name": "inferno",
   "desc": ":fire: An extremely fast, React-like JavaScript library for building modern user interfaces",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "inferno",
+  "githubDescription": ":fire: An extremely fast, React-like JavaScript library for building modern user interfaces",
   "tags": [
     "inferno",
     "inferno-component",
@@ -16,7 +16,15 @@
     "react",
     "vdom"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 16458,
+      "forks": 640,
+      "openIssues": 40
+    }
+  ],
   "weight": 16458,
-  "image": "https://avatars.githubusercontent.com/u/14214240?v=4"
+  "image": "https://avatars.githubusercontent.com/u/14214240?v=4",
+  "events": []
 }

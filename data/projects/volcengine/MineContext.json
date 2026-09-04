@@ -4,8 +4,8 @@
   "link": "https://github.com/volcengine/MineContext",
   "name": "MineContext",
   "desc": "MineContext is your proactive context-aware AI partner（Context-Engineering+ChatGPT Pulse）",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "MineContext",
+  "githubDescription": "MineContext is your proactive context-aware AI partner（Context-Engineering+ChatGPT Pulse）",
   "tags": [
     "agent",
     "context-engineering",
@@ -22,7 +22,15 @@
     "vector-database",
     "vision-language-model"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 5497,
+      "forks": 408,
+      "openIssues": 121
+    }
+  ],
   "weight": 5497,
-  "image": "https://avatars.githubusercontent.com/u/67365215?v=4"
+  "image": "https://avatars.githubusercontent.com/u/67365215?v=4",
+  "events": []
 }

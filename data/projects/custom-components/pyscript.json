@@ -4,8 +4,8 @@
   "link": "https://github.com/custom-components/pyscript",
   "name": "pyscript",
   "desc": "Pyscript adds rich Python scripting to HASS",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "pyscript",
+  "githubDescription": "Pyscript adds rich Python scripting to HASS",
   "tags": [
     "custom-component",
     "custom-components",
@@ -15,7 +15,15 @@
     "integration",
     "jupyter"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 1183,
+      "forks": 67,
+      "openIssues": 135
+    }
+  ],
   "weight": 1182,
-  "image": "https://avatars.githubusercontent.com/u/40870121?v=4"
+  "image": "https://avatars.githubusercontent.com/u/40870121?v=4",
+  "events": []
 }

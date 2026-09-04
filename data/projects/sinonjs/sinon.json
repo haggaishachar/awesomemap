@@ -4,8 +4,8 @@
   "link": "https://github.com/sinonjs/sinon",
   "name": "sinon",
   "desc": "Test spies, stubs and mocks for JavaScript.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "sinon",
+  "githubDescription": "Test spies, stubs and mocks for JavaScript.",
   "tags": [
     "javascript",
     "sinon",
@@ -16,7 +16,15 @@
     "test-spies",
     "unit-testing"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 9756,
+      "forks": 804,
+      "openIssues": 61
+    }
+  ],
   "weight": 9757,
-  "image": "https://avatars.githubusercontent.com/u/6570253?v=4"
+  "image": "https://avatars.githubusercontent.com/u/6570253?v=4",
+  "events": []
 }

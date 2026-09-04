@@ -4,8 +4,8 @@
   "link": "https://github.com/riot/riot",
   "name": "riot",
   "desc": "Simple and elegant component-based UI library",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "riot",
+  "githubDescription": "Simple and elegant component-based UI library",
   "tags": [
     "client-side",
     "customelement",
@@ -20,7 +20,15 @@
     "view",
     "webcomponents"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 14915,
+      "forks": 953,
+      "openIssues": 2
+    }
+  ],
   "weight": 14915,
-  "image": "https://avatars.githubusercontent.com/u/12729373?v=4"
+  "image": "https://avatars.githubusercontent.com/u/12729373?v=4",
+  "events": []
 }

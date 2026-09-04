@@ -4,13 +4,21 @@
   "link": "https://github.com/jseidl/magic-areas",
   "name": "magic-areas",
   "desc": "Smart areas with batteries included for Home Assistant",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "magic-areas",
+  "githubDescription": "Smart areas with batteries included for Home Assistant",
   "tags": [
     "automation",
     "homeassistant",
     "python"
   ],
-  "history": [],
-  "weight": 516
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 516,
+      "forks": 43,
+      "openIssues": 17
+    }
+  ],
+  "weight": 516,
+  "events": []
 }

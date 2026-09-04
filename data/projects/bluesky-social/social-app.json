@@ -4,10 +4,18 @@
   "link": "https://github.com/bluesky-social/social-app",
   "name": "social-app",
   "desc": "The Bluesky Social application for Web, iOS, and Android",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "social-app",
+  "githubDescription": "The Bluesky Social application for Web, iOS, and Android",
   "tags": [],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 18263,
+      "forks": 2828,
+      "openIssues": 2382
+    }
+  ],
   "weight": 18261,
-  "image": "https://raw.githubusercontent.com/bluesky-social/social-app/main/assets/logo.png"
+  "image": "https://raw.githubusercontent.com/bluesky-social/social-app/main/assets/logo.png",
+  "events": []
 }

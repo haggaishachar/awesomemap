@@ -4,8 +4,8 @@
   "link": "https://github.com/NVIDIA-NeMo/Speech",
   "name": "Speech",
   "desc": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "Speech",
+  "githubDescription": "A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)",
   "tags": [
     "asr",
     "deeplearning",
@@ -18,7 +18,15 @@
     "speech-translation",
     "tts"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 18385,
+      "forks": 3604,
+      "openIssues": 303
+    }
+  ],
   "weight": 18383,
-  "image": "https://avatars.githubusercontent.com/u/213689629?v=4"
+  "image": "https://avatars.githubusercontent.com/u/213689629?v=4",
+  "events": []
 }

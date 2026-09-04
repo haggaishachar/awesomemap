@@ -4,8 +4,8 @@
   "link": "https://github.com/developit/preact",
   "name": "preact",
   "desc": "⚛️ Fast 3kB React alternative with the same modern API. Components & Virtual DOM.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "preact",
+  "githubDescription": "⚛️ Fast 3kB React alternative with the same modern API. Components & Virtual DOM.",
   "tags": [
     "components",
     "dom",
@@ -15,7 +15,15 @@
     "vdom",
     "virtual-dom"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 38849,
+      "forks": 2051,
+      "openIssues": 41
+    }
+  ],
   "weight": 38850,
-  "image": "https://avatars.githubusercontent.com/u/26872990?v=4"
+  "image": "https://avatars.githubusercontent.com/u/26872990?v=4",
+  "events": []
 }

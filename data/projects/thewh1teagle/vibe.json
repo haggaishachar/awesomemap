@@ -4,8 +4,8 @@
   "link": "https://github.com/thewh1teagle/vibe",
   "name": "vibe",
   "desc": "Transcribe on your own!",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "vibe",
+  "githubDescription": "Transcribe on your own!",
   "tags": [
     "ai",
     "cross-platform",
@@ -15,6 +15,14 @@
     "transcribe",
     "whisper"
   ],
-  "history": [],
-  "weight": 7264
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 7275,
+      "forks": 499,
+      "openIssues": 151
+    }
+  ],
+  "weight": 7264,
+  "events": []
 }

@@ -4,13 +4,21 @@
   "link": "https://github.com/software-mansion/radon-ide",
   "name": "radon-ide",
   "desc": "VSCode/Cursor extension that turns your editor into a full featured IDE for React Native and Expo.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "radon-ide",
+  "githubDescription": "VSCode/Cursor extension that turns your editor into a full featured IDE for React Native and Expo.",
   "tags": [
     "expo",
     "react-native"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 1717,
+      "forks": 82,
+      "openIssues": 144
+    }
+  ],
   "weight": 1717,
-  "image": "https://avatars.githubusercontent.com/u/56880679?v=4"
+  "image": "https://avatars.githubusercontent.com/u/56880679?v=4",
+  "events": []
 }

@@ -4,15 +4,23 @@
   "link": "https://github.com/knockout/knockout",
   "name": "knockout",
   "desc": "Knockout makes it easier to create rich, responsive UIs with JavaScript",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "knockout",
+  "githubDescription": "Knockout makes it easier to create rich, responsive UIs with JavaScript",
   "tags": [
     "data-binding",
     "javascript",
     "knockout",
     "mvvm"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 10556,
+      "forks": 1485,
+      "openIssues": 352
+    }
+  ],
   "weight": 10556,
-  "image": "https://avatars.githubusercontent.com/u/3863375?v=4"
+  "image": "https://avatars.githubusercontent.com/u/3863375?v=4",
+  "events": []
 }

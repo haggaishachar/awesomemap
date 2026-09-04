@@ -4,8 +4,8 @@
   "link": "https://github.com/maxwroc/battery-state-card",
   "name": "battery-state-card",
   "desc": "Battery state card for Home Assistant",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "battery-state-card",
+  "githubDescription": "Battery state card for Home Assistant",
   "tags": [
     "battery",
     "hassio",
@@ -13,6 +13,14 @@
     "lovelace-custom-card",
     "sensor"
   ],
-  "history": [],
-  "weight": 1270
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 1270,
+      "forks": 51,
+      "openIssues": 37
+    }
+  ],
+  "weight": 1270,
+  "events": []
 }

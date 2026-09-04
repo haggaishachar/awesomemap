@@ -5,7 +5,7 @@
   "name": "OpenClaw",
   "desc": "Your own personal AI assistant, for any OS and platform",
   "githubName": "openclaw",
-  "githubDescription": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+  "githubDescription": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
   "weight": 387669,
   "image": "https://avatars.githubusercontent.com/u/252820863?v=4",
   "tags": [
@@ -111,6 +111,12 @@
       "stars": 388702,
       "forks": 81623,
       "openIssues": 6078
+    },
+    {
+      "date": "2026-09-04",
+      "stars": 388810,
+      "forks": 81659,
+      "openIssues": 6348
     }
   ],
   "events": []

@@ -4,8 +4,8 @@
   "link": "https://github.com/jeroenterheerdt/HAsmartirrigation",
   "name": "HAsmartirrigation",
   "desc": "Smart Irrigation custom component for Home Assistant",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "HAsmartirrigation",
+  "githubDescription": "Smart Irrigation custom component for Home Assistant",
   "tags": [
     "crop",
     "evaporation",
@@ -24,7 +24,15 @@
     "water",
     "watering"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 548,
+      "forks": 92,
+      "openIssues": 6
+    }
+  ],
   "weight": 548,
-  "image": "https://raw.githubusercontent.com/altmenorg/HAsmartirrigation/master/logo.png"
+  "image": "https://raw.githubusercontent.com/altmenorg/HAsmartirrigation/master/logo.png",
+  "events": []
 }

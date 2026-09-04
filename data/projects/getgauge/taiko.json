@@ -4,8 +4,8 @@
   "link": "https://github.com/getgauge/taiko",
   "name": "taiko",
   "desc": "A node.js library for testing modern web applications",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "taiko",
+  "githubDescription": "A node.js library for testing modern web applications",
   "tags": [
     "automation",
     "headless",
@@ -15,7 +15,15 @@
     "headless-testing",
     "testing-tools"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 3674,
+      "forks": 459,
+      "openIssues": 50
+    }
+  ],
   "weight": 3674,
-  "image": "https://avatars.githubusercontent.com/u/7044589?v=4"
+  "image": "https://avatars.githubusercontent.com/u/7044589?v=4",
+  "events": []
 }

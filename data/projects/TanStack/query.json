@@ -4,8 +4,8 @@
   "link": "https://github.com/TanStack/query",
   "name": "query",
   "desc": "🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "query",
+  "githubDescription": "🤖 Powerful asynchronous state management, server-state utilities and data fetching for the web. TS/JS, React Query, Solid Query, Svelte Query and Vue Query.",
   "tags": [
     "async",
     "cache",
@@ -24,7 +24,15 @@
     "update",
     "vue"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 50264,
+      "forks": 4229,
+      "openIssues": 156
+    }
+  ],
   "weight": 50257,
-  "image": "https://avatars.githubusercontent.com/u/72518640?v=4"
+  "image": "https://avatars.githubusercontent.com/u/72518640?v=4",
+  "events": []
 }

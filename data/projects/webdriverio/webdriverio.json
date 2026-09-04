@@ -4,8 +4,8 @@
   "link": "https://github.com/webdriverio/webdriverio",
   "name": "webdriverio",
   "desc": "Next-gen browser and mobile automation test framework for Node.js",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "webdriverio",
+  "githubDescription": "Next-gen browser and mobile automation test framework for Node.js",
   "tags": [
     "automation",
     "cucumber",
@@ -20,7 +20,15 @@
     "webdriver",
     "webdriverio"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 9834,
+      "forks": 2679,
+      "openIssues": 293
+    }
+  ],
   "weight": 9835,
-  "image": "https://avatars.githubusercontent.com/u/6512473?v=4"
+  "image": "https://avatars.githubusercontent.com/u/6512473?v=4",
+  "events": []
 }

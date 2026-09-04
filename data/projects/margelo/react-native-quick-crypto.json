@@ -4,8 +4,8 @@
   "link": "https://github.com/margelo/react-native-quick-crypto",
   "name": "react-native-quick-crypto",
   "desc": "⚡️ A fast implementation of Node's `crypto` module written in C/C++ JSI",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-quick-crypto",
+  "githubDescription": "⚡️ A fast implementation of Node's `crypto` module written in C/C++ JSI",
   "tags": [
     "cpp",
     "crypto",
@@ -20,7 +20,15 @@
     "react-native",
     "web3"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 1068,
+      "forks": 119,
+      "openIssues": 6
+    }
+  ],
   "weight": 1067,
-  "image": "https://avatars.githubusercontent.com/u/91980534?v=4"
+  "image": "https://avatars.githubusercontent.com/u/91980534?v=4",
+  "events": []
 }

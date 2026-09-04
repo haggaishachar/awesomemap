@@ -4,8 +4,8 @@
   "link": "https://github.com/thecodingmachine/react-native-boilerplate",
   "name": "react-native-boilerplate",
   "desc": "A React Native template for building solid applications 🐙, using JavaScript 💛 or Typescript 💙 (you choose).",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-boilerplate",
+  "githubDescription": "A React Native template for building solid applications 🐙, using JavaScript 💛 or Typescript 💙 (you choose).",
   "tags": [
     "architecture",
     "boilerplate",
@@ -22,7 +22,15 @@
     "typescript-boilerplate",
     "zod"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 5563,
+      "forks": 939,
+      "openIssues": 19
+    }
+  ],
   "weight": 5563,
-  "image": "https://avatars.githubusercontent.com/u/1847918?v=4"
+  "image": "https://avatars.githubusercontent.com/u/1847918?v=4",
+  "events": []
 }

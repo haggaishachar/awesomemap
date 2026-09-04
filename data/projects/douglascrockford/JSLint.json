@@ -4,8 +4,8 @@
   "link": "https://github.com/douglascrockford/JSLint",
   "name": "JSLint",
   "desc": "JSLint, The JavaScript Code Quality and Coverage Tool",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "jslint",
+  "githubDescription": "JSLint, The JavaScript Code Quality and Coverage Tool",
   "tags": [
     "coverage-report",
     "javascript",
@@ -13,7 +13,15 @@
     "zero-config",
     "zero-dependency"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 3655,
+      "forks": 473,
+      "openIssues": 3
+    }
+  ],
   "weight": 3655,
-  "image": "https://avatars.githubusercontent.com/u/84429408?v=4"
+  "image": "https://avatars.githubusercontent.com/u/84429408?v=4",
+  "events": []
 }

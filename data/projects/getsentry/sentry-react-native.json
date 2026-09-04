@@ -4,8 +4,8 @@
   "link": "https://github.com/getsentry/sentry-react-native",
   "name": "sentry-react-native",
   "desc": "Official Sentry SDK for React Native",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "sentry-react-native",
+  "githubDescription": "Official Sentry SDK for React Native",
   "tags": [
     "android",
     "crash-reporting",
@@ -18,7 +18,15 @@
     "team-mobile",
     "typescript"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 1820,
+      "forks": 366,
+      "openIssues": 131
+    }
+  ],
   "weight": 1820,
-  "image": "https://avatars.githubusercontent.com/u/1396951?v=4"
+  "image": "https://avatars.githubusercontent.com/u/1396951?v=4",
+  "events": []
 }

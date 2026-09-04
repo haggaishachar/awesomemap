@@ -5,7 +5,7 @@
   "name": "oh-my-openagent",
   "desc": "omo/lazycodex: The coding agent for tokenmaxxers;the one and only agent harness for complex codebases. For your Codex, for your OpenCode",
   "githubName": "oh-my-openagent",
-  "githubDescription": "omo/lazycodex: The coding agent for tokenmaxxers;the one and only agent harness for complex codebases. For your Codex, for your OpenCode",
+  "githubDescription": "OmO: Drop your tokens. Ultrawork. Done.",
   "tags": [
     "ai",
     "ai-agents",
@@ -35,6 +35,12 @@
       "stars": 68641,
       "forks": 5638,
       "openIssues": 902
+    },
+    {
+      "date": "2026-09-04",
+      "stars": 68676,
+      "forks": 5640,
+      "openIssues": 925
     }
   ],
   "weight": 68607,

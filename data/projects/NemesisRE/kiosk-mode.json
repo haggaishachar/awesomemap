@@ -4,12 +4,20 @@
   "link": "https://github.com/NemesisRE/kiosk-mode",
   "name": "kiosk-mode",
   "desc": "🙈 Hides the Home Assistant header and/or sidebar",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "kiosk-mode",
+  "githubDescription": "🙈 Hides the Home Assistant header and/or sidebar",
   "tags": [
     "customization",
     "hacs"
   ],
-  "history": [],
-  "weight": 785
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 787,
+      "forks": 34,
+      "openIssues": 1
+    }
+  ],
+  "weight": 785,
+  "events": []
 }

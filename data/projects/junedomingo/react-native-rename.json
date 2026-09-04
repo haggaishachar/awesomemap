@@ -4,14 +4,22 @@
   "link": "https://github.com/junedomingo/react-native-rename",
   "name": "react-native-rename",
   "desc": "Rename react-native app with just one command",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-rename",
+  "githubDescription": "Rename react-native app with just one command",
   "tags": [
     "cli",
     "react-native",
     "react-native-rename",
     "rename"
   ],
-  "history": [],
-  "weight": 2777
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 2777,
+      "forks": 267,
+      "openIssues": 28
+    }
+  ],
+  "weight": 2777,
+  "events": []
 }

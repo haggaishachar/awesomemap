@@ -4,8 +4,8 @@
   "link": "https://github.com/thehappydinoa/awesome-censys-queries",
   "name": "awesome-censys-queries",
   "desc": "A collection of fascinating and bizarre Censys Search Queries ",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "awesome-censys-queries",
+  "githubDescription": "A collection of fascinating and bizarre Censys Search Queries ",
   "tags": [
     "awesome",
     "awesome-list",
@@ -20,6 +20,14 @@
     "search",
     "security-tools"
   ],
-  "history": [],
-  "weight": 1240
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 1240,
+      "forks": 135,
+      "openIssues": 2
+    }
+  ],
+  "weight": 1240,
+  "events": []
 }

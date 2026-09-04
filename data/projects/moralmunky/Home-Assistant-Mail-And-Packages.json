@@ -4,8 +4,8 @@
   "link": "https://github.com/moralmunky/Home-Assistant-Mail-And-Packages",
   "name": "Home-Assistant-Mail-And-Packages",
   "desc": "Home Assistant integration providing day of package counts and USPS informed delivery images.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "Home-Assistant-Mail-And-Packages",
+  "githubDescription": "Home Assistant integration providing day of package counts and USPS informed delivery images.",
   "tags": [
     "home-assistant",
     "home-assistant-config",
@@ -14,6 +14,14 @@
     "lovelace-card",
     "lovelace-custom-card"
   ],
-  "history": [],
-  "weight": 880
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 882,
+      "forks": 134,
+      "openIssues": 9
+    }
+  ],
+  "weight": 880,
+  "events": []
 }

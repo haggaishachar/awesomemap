@@ -4,8 +4,8 @@
   "link": "https://github.com/jonobr1/two.js",
   "name": "two.js",
   "desc": "A renderer agnostic two-dimensional drawing api for the web",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "two.js",
+  "githubDescription": "A renderer agnostic two-dimensional drawing api for the web",
   "tags": [
     "2d",
     "animation",
@@ -22,6 +22,14 @@
     "vector-graphics",
     "webgl"
   ],
-  "history": [],
-  "weight": 8654
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 8654,
+      "forks": 462,
+      "openIssues": 44
+    }
+  ],
+  "weight": 8654,
+  "events": []
 }

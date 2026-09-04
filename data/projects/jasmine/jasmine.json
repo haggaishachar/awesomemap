@@ -4,15 +4,23 @@
   "link": "https://github.com/jasmine/jasmine",
   "name": "jasmine",
   "desc": "Simple JavaScript testing framework for browsers and node.js",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "jasmine",
+  "githubDescription": "Simple JavaScript testing framework for browsers and node.js",
   "tags": [
     "jasmine",
     "javascript",
     "tdd",
     "testing"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 15820,
+      "forks": 2235,
+      "openIssues": 7
+    }
+  ],
   "weight": 15820,
-  "image": "https://avatars.githubusercontent.com/u/4624349?v=4"
+  "image": "https://avatars.githubusercontent.com/u/4624349?v=4",
+  "events": []
 }

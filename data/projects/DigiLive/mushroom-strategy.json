@@ -4,14 +4,22 @@
   "link": "https://github.com/DigiLive/mushroom-strategy",
   "name": "mushroom-strategy",
   "desc": "A strategy to automatically generate a dashboard using mushroom cards",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "mushroom-strategy",
+  "githubDescription": "A strategy to automatically generate a dashboard using mushroom cards",
   "tags": [
     "dashboard",
     "home-assistant",
     "mushroom",
     "strategy"
   ],
-  "history": [],
-  "weight": 663
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 663,
+      "forks": 60,
+      "openIssues": 16
+    }
+  ],
+  "weight": 663,
+  "events": []
 }

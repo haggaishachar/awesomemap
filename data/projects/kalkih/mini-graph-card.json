@@ -4,8 +4,8 @@
   "link": "https://github.com/kalkih/mini-graph-card",
   "name": "mini-graph-card",
   "desc": "Minimalistic graph card for Home Assistant Lovelace UI",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "mini-graph-card",
+  "githubDescription": "Minimalistic graph card for Home Assistant Lovelace UI",
   "tags": [
     "automation",
     "custom",
@@ -17,6 +17,14 @@
     "lovelace-ui",
     "sensor"
   ],
-  "history": [],
-  "weight": 3880
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 3880,
+      "forks": 269,
+      "openIssues": 145
+    }
+  ],
+  "weight": 3880,
+  "events": []
 }

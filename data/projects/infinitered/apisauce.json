@@ -4,8 +4,8 @@
   "link": "https://github.com/infinitered/apisauce",
   "name": "apisauce",
   "desc": "Axios + standardized errors + request/response transforms.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "apisauce",
+  "githubDescription": "Axios + standardized errors + request/response transforms.",
   "tags": [
     "api",
     "axios",
@@ -13,7 +13,15 @@
     "react-native",
     "reactjs"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 2886,
+      "forks": 187,
+      "openIssues": 47
+    }
+  ],
   "weight": 2886,
-  "image": "https://avatars.githubusercontent.com/u/3902527?v=4"
+  "image": "https://avatars.githubusercontent.com/u/3902527?v=4",
+  "events": []
 }

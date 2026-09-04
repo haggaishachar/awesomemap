@@ -4,8 +4,8 @@
   "link": "https://github.com/retejs/rete",
   "name": "rete",
   "desc": "JavaScript framework for visual programming",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "rete",
+  "githubDescription": "JavaScript framework for visual programming",
   "tags": [
     "dataflow-programming",
     "flow-based-programming",
@@ -14,7 +14,30 @@
     "standwithukraine",
     "visual-programming"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 12232,
+      "forks": 756,
+      "openIssues": 14
+    }
+  ],
   "weight": 12230,
-  "image": "https://avatars.githubusercontent.com/u/39779957?v=4"
+  "image": "https://avatars.githubusercontent.com/u/39779957?v=4",
+  "events": [
+    {
+      "date": "2018-10-07",
+      "type": "hn",
+      "title": "Rete – JavaScript framework for node-based visual programming",
+      "url": "https://news.ycombinator.com/item?id=18161248",
+      "points": 134
+    },
+    {
+      "date": "2020-01-12",
+      "type": "hn",
+      "title": "Rete: JavaScript framework for visual programming and creating node editor",
+      "url": "https://news.ycombinator.com/item?id=22024201",
+      "points": 294
+    }
+  ]
 }

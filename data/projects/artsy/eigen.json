@@ -4,8 +4,8 @@
   "link": "https://github.com/artsy/eigen",
   "name": "eigen",
   "desc": "The Art World in Your Pocket or Your Trendy Tech Company's Tote, Artsy's mobile app.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "eigen",
+  "githubDescription": "The Art World in Your Pocket or Your Trendy Tech Company's Tote, Artsy's mobile app.",
   "tags": [
     "android",
     "app",
@@ -16,7 +16,15 @@
     "react-native",
     "swift"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 3773,
+      "forks": 592,
+      "openIssues": 24
+    }
+  ],
   "weight": 3773,
-  "image": "https://avatars.githubusercontent.com/u/546231?v=4"
+  "image": "https://avatars.githubusercontent.com/u/546231?v=4",
+  "events": []
 }

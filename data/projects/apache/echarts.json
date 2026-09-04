@@ -4,8 +4,8 @@
   "link": "https://github.com/apache/echarts",
   "name": "echarts",
   "desc": "Apache ECharts is a powerful, interactive charting and data visualization library for browser",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "echarts",
+  "githubDescription": "Apache ECharts is a powerful, interactive charting and data visualization library for browser",
   "tags": [
     "apache",
     "canvas",
@@ -17,7 +17,15 @@
     "svg",
     "visualization"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 67238,
+      "forks": 19815,
+      "openIssues": 1521
+    }
+  ],
   "weight": 67226,
-  "image": "https://avatars.githubusercontent.com/u/47359?v=4"
+  "image": "https://avatars.githubusercontent.com/u/47359?v=4",
+  "events": []
 }

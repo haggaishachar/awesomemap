@@ -4,8 +4,8 @@
   "link": "https://github.com/Softcatala/whisper-ctranslate2",
   "name": "whisper-ctranslate2",
   "desc": "Whisper command line client compatible with original OpenAI client based on CTranslate2.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "whisper-ctranslate2",
+  "githubDescription": "Whisper command line client compatible with original OpenAI client based on CTranslate2.",
   "tags": [
     "openai-",
     "openai-whisper",
@@ -13,7 +13,15 @@
     "speech-to-text",
     "whisper"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 1346,
+      "forks": 126,
+      "openIssues": 13
+    }
+  ],
   "weight": 1346,
-  "image": "https://avatars.githubusercontent.com/u/978352?v=4"
+  "image": "https://avatars.githubusercontent.com/u/978352?v=4",
+  "events": []
 }

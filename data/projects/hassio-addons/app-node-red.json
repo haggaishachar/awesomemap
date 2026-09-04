@@ -4,8 +4,8 @@
   "link": "https://github.com/hassio-addons/app-node-red",
   "name": "app-node-red",
   "desc": "Node-RED - Home Assistant Community Apps",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "app-node-red",
+  "githubDescription": "Node-RED - Home Assistant Community Apps",
   "tags": [
     "addon",
     "addons",
@@ -15,7 +15,15 @@
     "homeassistant",
     "node-red"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 647,
+      "forks": 134,
+      "openIssues": 6
+    }
+  ],
   "weight": 647,
-  "image": "https://avatars.githubusercontent.com/u/30772201?v=4"
+  "image": "https://avatars.githubusercontent.com/u/30772201?v=4",
+  "events": []
 }

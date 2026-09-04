@@ -4,8 +4,8 @@
   "link": "https://github.com/nielsfaber/scheduler-card",
   "name": "scheduler-card",
   "desc": "HA Lovelace card for control of scheduler entities",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "scheduler-card",
+  "githubDescription": "HA Lovelace card for control of scheduler entities",
   "tags": [
     "assistant",
     "automation",
@@ -22,6 +22,14 @@
     "week",
     "weekly"
   ],
-  "history": [],
-  "weight": 1252
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 1253,
+      "forks": 177,
+      "openIssues": 9
+    }
+  ],
+  "weight": 1252,
+  "events": []
 }

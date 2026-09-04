@@ -4,12 +4,20 @@
   "link": "https://github.com/sabeechen/hassio-google-drive-backup",
   "name": "hassio-google-drive-backup",
   "desc": "Automatically create and sync Home Assistant backups into Google Drive",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "hassio-google-drive-backup",
+  "githubDescription": "Automatically create and sync Home Assistant backups into Google Drive",
   "tags": [
     "google-drive",
     "home-assistant"
   ],
-  "history": [],
-  "weight": 3570
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 3571,
+      "forks": 213,
+      "openIssues": 62
+    }
+  ],
+  "weight": 3570,
+  "events": []
 }

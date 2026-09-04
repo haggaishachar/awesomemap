@@ -4,8 +4,8 @@
   "link": "https://github.com/chartjs/Chart.js",
   "name": "Chart.js",
   "desc": "Simple HTML5 Charts using the <canvas> tag",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "Chart.js",
+  "githubDescription": "Simple HTML5 Charts using the <canvas> tag",
   "tags": [
     "canvas",
     "chart",
@@ -14,7 +14,15 @@
     "html5-charts",
     "javascript"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 67682,
+      "forks": 11941,
+      "openIssues": 588
+    }
+  ],
   "weight": 67677,
-  "image": "https://avatars.githubusercontent.com/u/10342521?v=4"
+  "image": "https://avatars.githubusercontent.com/u/10342521?v=4",
+  "events": []
 }

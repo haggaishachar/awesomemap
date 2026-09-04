@@ -4,13 +4,21 @@
   "link": "https://github.com/ofekashery/vertical-stack-in-card",
   "name": "vertical-stack-in-card",
   "desc": "📐 Home Assistant Card: Group multiple cards into a single sleek card.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "vertical-stack-in-card",
+  "githubDescription": "📐 Home Assistant Card: Group multiple cards into a single sleek card.",
   "tags": [
     "homeassistant",
     "lovelace",
     "lovelace-ui"
   ],
-  "history": [],
-  "weight": 977
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 979,
+      "forks": 88,
+      "openIssues": 1
+    }
+  ],
+  "weight": 977,
+  "events": []
 }

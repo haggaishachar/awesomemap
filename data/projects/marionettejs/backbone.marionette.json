@@ -4,8 +4,8 @@
   "link": "https://github.com/marionettejs/backbone.marionette",
   "name": "backbone.marionette",
   "desc": "The Backbone Framework",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "backbone.marionette",
+  "githubDescription": "The Backbone Framework",
   "tags": [
     "backbone",
     "backbone-framework",
@@ -15,7 +15,15 @@
     "marionette",
     "marionettejs"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 7035,
+      "forks": 1238,
+      "openIssues": 37
+    }
+  ],
   "weight": 7035,
-  "image": "https://avatars.githubusercontent.com/u/2273169?v=4"
+  "image": "https://avatars.githubusercontent.com/u/2273169?v=4",
+  "events": []
 }

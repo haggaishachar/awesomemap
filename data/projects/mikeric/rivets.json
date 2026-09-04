@@ -4,14 +4,22 @@
   "link": "https://github.com/mikeric/rivets",
   "name": "rivets",
   "desc": "A lightweight data binding library.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "rivets",
+  "githubDescription": "A lightweight data binding library.",
   "tags": [
     "coffeescript",
     "databinding",
     "javascript",
     "template-engine"
   ],
-  "history": [],
-  "weight": 3220
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 3220,
+      "forks": 299,
+      "openIssues": 140
+    }
+  ],
+  "weight": 3220,
+  "events": []
 }

@@ -4,14 +4,22 @@
   "link": "https://github.com/stripe/stripe-react-native",
   "name": "stripe-react-native",
   "desc": "React Native library for Stripe.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "stripe-react-native",
+  "githubDescription": "React Native library for Stripe.",
   "tags": [
     "payments",
     "react-native",
     "stripe"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 1429,
+      "forks": 325,
+      "openIssues": 200
+    }
+  ],
   "weight": 1429,
-  "image": "https://avatars.githubusercontent.com/u/856813?v=4"
+  "image": "https://avatars.githubusercontent.com/u/856813?v=4",
+  "events": []
 }

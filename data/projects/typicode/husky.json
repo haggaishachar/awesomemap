@@ -4,14 +4,22 @@
   "link": "https://github.com/typicode/husky",
   "name": "husky",
   "desc": "Git hooks made easy 🐶 woof!",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "husky",
+  "githubDescription": "Git hooks made easy 🐶 woof!",
   "tags": [
     "commit",
     "git",
     "hooks",
     "pre-commit"
   ],
-  "history": [],
-  "weight": 35302
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 35305,
+      "forks": 1096,
+      "openIssues": 108
+    }
+  ],
+  "weight": 35302,
+  "events": []
 }

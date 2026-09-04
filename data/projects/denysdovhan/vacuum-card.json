@@ -4,8 +4,8 @@
   "link": "https://github.com/denysdovhan/vacuum-card",
   "name": "vacuum-card",
   "desc": "Vacuum cleaner card for Home Assistant Lovelace UI",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "vacuum-card",
+  "githubDescription": "Vacuum cleaner card for Home Assistant Lovelace UI",
   "tags": [
     "custom-cards",
     "hacs",
@@ -16,6 +16,14 @@
     "robot-vacuum",
     "vacuum"
   ],
-  "history": [],
-  "weight": 1249
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 1249,
+      "forks": 627,
+      "openIssues": 20
+    }
+  ],
+  "weight": 1249,
+  "events": []
 }

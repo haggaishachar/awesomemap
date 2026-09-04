@@ -4,8 +4,8 @@
   "link": "https://github.com/DevExpress/testcafe",
   "name": "testcafe",
   "desc": "A Node.js tool to automate end-to-end web testing.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "testcafe",
+  "githubDescription": "A Node.js tool to automate end-to-end web testing.",
   "tags": [
     "browser",
     "e2e",
@@ -18,7 +18,15 @@
     "testing-tools",
     "typescript"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 9904,
+      "forks": 676,
+      "openIssues": 35
+    }
+  ],
   "weight": 9904,
-  "image": "https://avatars.githubusercontent.com/u/4243232?v=4"
+  "image": "https://avatars.githubusercontent.com/u/4243232?v=4",
+  "events": []
 }

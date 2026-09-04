@@ -4,13 +4,21 @@
   "link": "https://github.com/mattermost/mattermost-mobile",
   "name": "mattermost-mobile",
   "desc": "Next generation iOS and Android apps for Mattermost in React Native",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "mattermost-mobile",
+  "githubDescription": "Next generation iOS and Android apps for Mattermost in React Native",
   "tags": [
     "hacktoberfest",
     "mattermost-mobile"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 2715,
+      "forks": 1655,
+      "openIssues": 327
+    }
+  ],
   "weight": 2714,
-  "image": "https://avatars.githubusercontent.com/u/9828093?v=4"
+  "image": "https://avatars.githubusercontent.com/u/9828093?v=4",
+  "events": []
 }

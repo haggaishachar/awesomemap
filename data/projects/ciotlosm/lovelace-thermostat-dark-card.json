@@ -4,8 +4,8 @@
   "link": "https://github.com/ciotlosm/lovelace-thermostat-dark-card",
   "name": "lovelace-thermostat-dark-card",
   "desc": "🌡 Thermostat card with a round and black feel to it",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "lovelace-thermostat-dark-card",
+  "githubDescription": "🌡 Thermostat card with a round and black feel to it",
   "tags": [
     "custom-cards",
     "hacs",
@@ -13,6 +13,14 @@
     "lovelace",
     "thermostat"
   ],
-  "history": [],
-  "weight": 745
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 745,
+      "forks": 185,
+      "openIssues": 4
+    }
+  ],
+  "weight": 745,
+  "events": []
 }

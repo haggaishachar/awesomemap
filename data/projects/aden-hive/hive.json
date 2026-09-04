@@ -4,8 +4,8 @@
   "link": "https://github.com/aden-hive/hive",
   "name": "hive",
   "desc": "Multi-Agent Harness for Production AI",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "hive",
+  "githubDescription": "Multi-Agent Harness for Production AI",
   "tags": [
     "agent",
     "agent-framework",
@@ -22,7 +22,15 @@
     "self-hosted",
     "self-improving"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 11016,
+      "forks": 5666,
+      "openIssues": 1342
+    }
+  ],
   "weight": 11014,
-  "image": "https://avatars.githubusercontent.com/u/262650699?v=4"
+  "image": "https://avatars.githubusercontent.com/u/262650699?v=4",
+  "events": []
 }

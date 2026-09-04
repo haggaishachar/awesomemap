@@ -4,8 +4,8 @@
   "link": "https://github.com/react-native-google-signin/google-signin",
   "name": "google-signin",
   "desc": "Google Sign-in for your React Native applications",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "google-signin",
+  "githubDescription": "Google Sign-in for your React Native applications",
   "tags": [
     "googleauth",
     "googlesignin",
@@ -13,7 +13,15 @@
     "oauth2",
     "react-native"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 3553,
+      "forks": 893,
+      "openIssues": 23
+    }
+  ],
   "weight": 3553,
-  "image": "https://avatars.githubusercontent.com/u/71153417?v=4"
+  "image": "https://avatars.githubusercontent.com/u/71153417?v=4",
+  "events": []
 }

@@ -4,8 +4,8 @@
   "link": "https://github.com/Pythagora-io/gpt-pilot",
   "name": "gpt-pilot",
   "desc": "The first real AI developer",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "gpt-pilot",
+  "githubDescription": "The first real AI developer",
   "tags": [
     "ai",
     "codegen",
@@ -14,7 +14,15 @@
     "gpt-4",
     "research-project"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 33676,
+      "forks": 3471,
+      "openIssues": 251
+    }
+  ],
   "weight": 33679,
-  "image": "https://avatars.githubusercontent.com/u/123263103?v=4"
+  "image": "https://avatars.githubusercontent.com/u/123263103?v=4",
+  "events": []
 }

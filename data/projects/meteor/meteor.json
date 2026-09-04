@@ -4,8 +4,8 @@
   "link": "https://github.com/meteor/meteor",
   "name": "meteor",
   "desc": "Meteor, the JavaScript App Platform",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "meteor",
+  "githubDescription": "Meteor, the JavaScript App Platform",
   "tags": [
     "build-system",
     "framework",
@@ -21,7 +21,23 @@
     "rpc",
     "zero-configuration"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 44809,
+      "forks": 5242,
+      "openIssues": 337
+    }
+  ],
   "weight": 44806,
-  "image": "https://avatars.githubusercontent.com/u/789528?v=4"
+  "image": "https://avatars.githubusercontent.com/u/789528?v=4",
+  "events": [
+    {
+      "date": "2014-10-28",
+      "type": "hn",
+      "title": "Meteor 1.0 released",
+      "url": "https://news.ycombinator.com/item?id=8522106",
+      "points": 87
+    }
+  ]
 }

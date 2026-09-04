@@ -4,8 +4,8 @@
   "link": "https://github.com/openagents-org/openagents",
   "name": "openagents",
   "desc": "OpenAgents - The collaboration OS for AI agents",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "openagents",
+  "githubDescription": "OpenAgents - The collaboration OS for AI agents",
   "tags": [
     "agents",
     "ai",
@@ -13,7 +13,15 @@
     "llm",
     "network"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 4040,
+      "forks": 407,
+      "openIssues": 81
+    }
+  ],
   "weight": 4041,
-  "image": "https://avatars.githubusercontent.com/u/225290400?v=4"
+  "image": "https://avatars.githubusercontent.com/u/225290400?v=4",
+  "events": []
 }

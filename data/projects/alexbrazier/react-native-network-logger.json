@@ -4,8 +4,8 @@
   "link": "https://github.com/alexbrazier/react-native-network-logger",
   "name": "react-native-network-logger",
   "desc": "An HTTP network request monitor for React Native with in-app interface for iOS and Android with no native code",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-network-logger",
+  "githubDescription": "An HTTP network request monitor for React Native with in-app interface for iOS and Android with no native code",
   "tags": [
     "android",
     "charles",
@@ -18,6 +18,14 @@
     "network-monitoring",
     "react-native"
   ],
-  "history": [],
-  "weight": 687
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 687,
+      "forks": 67,
+      "openIssues": 20
+    }
+  ],
+  "weight": 687,
+  "events": []
 }

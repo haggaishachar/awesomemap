@@ -4,14 +4,22 @@
   "link": "https://github.com/react-native-netinfo/react-native-netinfo",
   "name": "react-native-netinfo",
   "desc": "React Native Network Info API for Android & iOS",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "react-native-netinfo",
+  "githubDescription": "React Native Network Info API for Android & iOS",
   "tags": [
     "network",
     "networking",
     "react-native"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 2180,
+      "forks": 416,
+      "openIssues": 173
+    }
+  ],
   "weight": 2180,
-  "image": "https://avatars.githubusercontent.com/u/71153232?v=4"
+  "image": "https://avatars.githubusercontent.com/u/71153232?v=4",
+  "events": []
 }

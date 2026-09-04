@@ -4,13 +4,21 @@
   "link": "https://github.com/AppDaemon/appdaemon",
   "name": "appdaemon",
   "desc": ":page_facing_up: Python Apps for Home Automation",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "appdaemon",
+  "githubDescription": ":page_facing_up: Python Apps for Home Automation",
   "tags": [
     "home-automation",
     "python"
   ],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 967,
+      "forks": 426,
+      "openIssues": 162
+    }
+  ],
   "weight": 967,
-  "image": "https://avatars.githubusercontent.com/u/67876516?v=4"
+  "image": "https://avatars.githubusercontent.com/u/67876516?v=4",
+  "events": []
 }

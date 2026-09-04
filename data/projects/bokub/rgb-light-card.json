@@ -4,14 +4,22 @@
   "link": "https://github.com/bokub/rgb-light-card",
   "name": "rgb-light-card",
   "desc": "💡 A Home Assistant card for RGB lights",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "rgb-light-card",
+  "githubDescription": "💡 A Home Assistant card for RGB lights",
   "tags": [
     "home-assistant",
     "lovelace",
     "lovelace-custom-card",
     "rgb-lights"
   ],
-  "history": [],
-  "weight": 571
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 571,
+      "forks": 26,
+      "openIssues": 7
+    }
+  ],
+  "weight": 571,
+  "events": []
 }

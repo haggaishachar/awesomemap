@@ -4,10 +4,33 @@
   "link": "https://github.com/anomalyco/opencode",
   "name": "opencode",
   "desc": "The open source coding agent.",
-  "githubName": null,
-  "githubDescription": null,
+  "githubName": "opencode",
+  "githubDescription": "The open source coding agent.",
   "tags": [],
-  "history": [],
+  "history": [
+    {
+      "date": "2026-09-04",
+      "stars": 203689,
+      "forks": 26582,
+      "openIssues": 5655
+    }
+  ],
   "weight": 203411,
-  "image": "https://avatars.githubusercontent.com/u/66570915?v=4"
+  "image": "https://avatars.githubusercontent.com/u/66570915?v=4",
+  "events": [
+    {
+      "date": "2026-01-09",
+      "type": "hn",
+      "title": "Anthropic blocks third-party use of Claude Code subscriptions",
+      "url": "https://news.ycombinator.com/item?id=46549823",
+      "points": 625
+    },
+    {
+      "date": "2026-03-19",
+      "type": "hn",
+      "title": "Anthropic takes legal action against OpenCode",
+      "url": "https://news.ycombinator.com/item?id=47444748",
+      "points": 483
+    }
+  ]
 }

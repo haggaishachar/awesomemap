@@ -33,10 +33,18 @@ export function buildContactMailtoBody({ name, email, message }) {
  * Builds the full `mailto:` URL for `to` (defaults to this site's inbox).
  * Callers validate via isValidContactInput first. Subject names the sender
  * when given, so the inbox doesn't just see a wall of identical subjects.
+ *
+ * Encodes `subject`/`body` with `encodeURIComponent` rather than
+ * `URLSearchParams` — a mailto: URI's hfields are percent-encoded per RFC
+ * 6068, not `application/x-www-form-urlencoded` like an HTTP query string
+ * (which is what /submit/'s GitHub-issue URL is, and why that one *can* use
+ * URLSearchParams). URLSearchParams would encode spaces as `+`, which a
+ * mailto: URI has no special meaning for — most mail clients would show a
+ * literal "+" instead of a space.
  */
 export function buildContactMailtoUrl({ name, email, message }, { to = "awesome@awesomemap.dev" } = {}) {
   const trimmedName = name?.trim();
   const subject = trimmedName ? `Message from ${trimmedName} via awesomemap` : "Message via awesomemap contact form";
-  const params = new URLSearchParams({ subject, body: buildContactMailtoBody({ name, email, message }) });
-  return `mailto:${to}?${params.toString()}`;
+  const body = buildContactMailtoBody({ name, email, message });
+  return `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }

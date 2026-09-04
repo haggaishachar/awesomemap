@@ -46,3 +46,14 @@ test("buildContactMailtoUrl uses a generic subject when no name is given", () =>
   const params = new URLSearchParams(url.slice(url.indexOf("?") + 1));
   assert.equal(params.get("subject"), "Message via awesomemap contact form");
 });
+
+test("buildContactMailtoUrl percent-encodes spaces as %20, not '+' — a mailto: URI isn't a form-urlencoded query string (RFC 6068), and mail clients render a literal '+' instead of a space", () => {
+  const url = buildContactMailtoUrl({ name: "Ada Lovelace", email: "ada@example.com", message: "Hello there" });
+  assert.doesNotMatch(url, /\+/);
+  assert.match(url, /subject=Message%20from%20Ada%20Lovelace%20via%20awesomemap/);
+});
+
+test("buildContactMailtoUrl accepts a custom `to` address", () => {
+  const url = buildContactMailtoUrl({ name: "", email: "ada@example.com", message: "Hi" }, { to: "other@example.com" });
+  assert.match(url, /^mailto:other@example\.com\?/);
+});

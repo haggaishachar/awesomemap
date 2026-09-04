@@ -56,6 +56,10 @@ mkdirSync(DIST_DIR, { recursive: true });
 const rawDomains = await loadAllDomains();
 const projectEntities = await loadAllProjectEntities();
 
+if (rawDomains.length === 0) {
+  throw new Error("Loaded 0 domains from the API — refusing to publish an empty site (check AWESOMEMAP_DATA_API_URL and the awesomemap-data deployment)");
+}
+
 const parsedDomains = [];
 const seenSlugs = new Set();
 

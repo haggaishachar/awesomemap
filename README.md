@@ -25,8 +25,11 @@ Every map has two modes:
 
 ## This week's biggest risers
 
-Star-growth leaders over the last 7 days, refreshed every Monday by the
-[social digest workflow](.github/workflows/social-digest.yml) — for live,
+Star-growth leaders over the last 7 days. The
+[social digest workflow](.github/workflows/social-digest.yml) that used to
+refresh this list every Monday is currently paused pending a cross-repo
+re-wiring into `awesomemap-data` (see "How project data gets added" in
+[`CONTRIBUTING.md`](CONTRIBUTING.md#how-project-data-gets-added)) — for live,
 interactive rankings across any window, use Rising mode in the maps below.
 
 <!-- risers:start -->

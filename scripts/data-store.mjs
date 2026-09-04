@@ -13,7 +13,7 @@
 // Configuration: AWESOMEMAP_DATA_API_URL (base URL of the deployed
 // Worker), defaulting to the live production API. The default matters:
 // pr-check.yml runs on pull_request, including from forks, and GitHub
-// does not expose repo secrets to fork-PR checks — local dev and fork-PR
+// does not expose repo secrets to fork-PR runs — local dev and fork-PR
 // checks both need this to work with zero configuration.
 
 export const SCHEMA_VERSION = 1;

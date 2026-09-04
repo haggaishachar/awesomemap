@@ -6,9 +6,13 @@ name: Process project submission
 # quality bar, classify, commit or reject, always closing the issue with
 # a comment. No maintainer step, matching CONTRIBUTING.md's "Automated
 # project discovery" section.
+# Disabled: scripts/process-submission.mjs was deleted in favor of
+# awesomemap-data's own HTTP-wired copy, which needs a cross-repo trigger
+# from this repo's "Suggest a project" issues — deferred to "Part B", see
+# docs/superpowers/specs/2026-09-04-awesomemap-data-api-wiring-design.md.
+# An opened "Suggest a project" issue currently sits unprocessed.
 on:
-  issues:
-    types: [opened]
+  workflow_dispatch:
 
 permissions:
   contents: write

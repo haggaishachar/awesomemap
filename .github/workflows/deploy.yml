@@ -34,6 +34,11 @@ jobs:
       # configured across Actions-based deploys (it isn't persisted any
       # other way for workflow-based publishing).
       CNAME: awesomemap.dev
+      # Explicit even though it currently matches data-store.mjs's
+      # hardcoded default — keeps production deploys independently
+      # controllable (e.g. pointing at a staging awesomemap-data
+      # deployment) without a code change.
+      AWESOMEMAP_DATA_API_URL: ${{ secrets.AWESOMEMAP_DATA_API_URL }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

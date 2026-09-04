@@ -1,8 +1,12 @@
 name: Discovery
 
+# Disabled: project discovery moved to the private awesomemap-data repo,
+# which runs its own copy of this workflow against D1 directly. See
+# docs/superpowers/specs/2026-09-04-awesomemap-data-api-wiring-design.md.
+# scripts/discover-projects.mjs no longer exists in this repo, so
+# workflow_dispatch is left as a placeholder only — triggering it
+# manually will fail at the "node scripts/discover-projects.mjs" step.
 on:
-  schedule:
-    - cron: "0 7 * * *"
   workflow_dispatch:
 
 permissions:

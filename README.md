@@ -41,17 +41,17 @@ interactive rankings across any window, use Rising mode in the maps below.
 
 | Map | Description | Projects |
 | --- | --- | --- |
-| [Data Science](https://awesomemap.dev/data-science/) | Machine learning, deep learning, NLP, computer vision, and more. | 51 |
-| [Security](https://awesomemap.dev/security/) | Scanning, exploitation, SIEM, secrets management, forensics, and more. | 55 |
-| [Web Development](https://awesomemap.dev/web-dev/) | Frontend frameworks, build tools, styling, backend frameworks, and more. | 55 |
-| [Mobile Development](https://awesomemap.dev/mobile-dev/) | Cross-platform frameworks, native tooling, testing, state management, and more. | 46 |
-| [DevOps & Infrastructure](https://awesomemap.dev/devops-infra/) | Containers, orchestration, CI/CD, infrastructure as code, observability, and more. | 54 |
-| [Artificial Intelligence](https://awesomemap.dev/artificial-intelligence/) | LLM frameworks, AI agents, RAG, vector databases, coding assistants, and more. | 53 |
-| [Databases & Data Infrastructure](https://awesomemap.dev/databases/) | Relational, NoSQL, caching, search, streaming, analytics, and more. | 50 |
-| [Automation & No-Code](https://awesomemap.dev/automation/) | Workflow automation, RPA, no-code app builders, and business process tooling. | 48 |
-| [IoT & Smart Home](https://awesomemap.dev/smart-home/) | Home automation platforms, embedded firmware, robotics, and device protocols. | 41 |
+| [Data Science](https://awesomemap.dev/data-science/) | Machine learning, deep learning, NLP, computer vision, and more. | 140 |
+| [Security](https://awesomemap.dev/security/) | Scanning, exploitation, SIEM, secrets management, forensics, and more. | 158 |
+| [Web Development](https://awesomemap.dev/web-dev/) | Frontend frameworks, build tools, styling, backend frameworks, and more. | 174 |
+| [Mobile Development](https://awesomemap.dev/mobile-dev/) | Cross-platform frameworks, native tooling, testing, state management, and more. | 187 |
+| [DevOps & Infrastructure](https://awesomemap.dev/devops-infra/) | Containers, orchestration, CI/CD, infrastructure as code, observability, and more. | 116 |
+| [Artificial Intelligence](https://awesomemap.dev/artificial-intelligence/) | LLM frameworks, AI agents, RAG, vector databases, coding assistants, and more. | 176 |
+| [Databases & Data Infrastructure](https://awesomemap.dev/databases/) | Relational, NoSQL, caching, search, streaming, analytics, and more. | 98 |
+| [Automation & No-Code](https://awesomemap.dev/automation/) | Workflow automation, RPA, no-code app builders, and business process tooling. | 89 |
+| [IoT & Smart Home](https://awesomemap.dev/smart-home/) | Home automation platforms, embedded firmware, robotics, and device protocols. | 190 |
 
-More domains are on the way.
+More domains are on the way. Counts grow daily as the [discovery workflow](.github/workflows) finds and classifies new projects.
 
 ## How it works
 
@@ -59,6 +59,9 @@ More domains are on the way.
 - Click a category to zoom in; use the breadcrumb to zoom back out.
 - Click any project for a detail panel with its description, GitHub link, and homepage.
 - Toggle Popular/Rising and pick a growth window to see what's trending.
+- [Search](https://awesomemap.dev/search/) any project by name, tag, or description, or browse the [full tag index](https://awesomemap.dev/tags/).
+- [Compare](https://awesomemap.dev/compare/) up to four projects side by side — stars, growth, and momentum in one table.
+- Curious exactly how growth, the Rising score, and "this week's signals" are computed? See [How we rank](https://awesomemap.dev/methodology/).
 
 ## Embed a map
 

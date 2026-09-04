@@ -1,6 +1,7 @@
 import { readFileSync } from "node:fs";
-import { RISING_WINDOWS_DAYS } from "./velocity.mjs";
+import { RISING_WINDOWS_DAYS, SCORE_SMOOTHING_CONSTANT } from "./velocity.mjs";
 import { rankGroups } from "./group-growth.mjs";
+import { SMALL_PROJECT_STAR_THRESHOLD, MIN_MEANINGFUL_STAR_DELTA } from "./this-weeks-signals.mjs";
 import { buildWebsiteJsonLd, buildItemListJsonLd, buildSoftwareSourceCodeJsonLd } from "./seo.mjs";
 import { githubRepoUrl, buildSparklinePath, starHistoryCaption, formatEventDate } from "../app/shared/star-history.js";
 
@@ -91,10 +92,11 @@ function renderCompareCartBootstrap(basePath) {
     </script>`;
 }
 
-/** Site-wide footer: links back to the repo's license, contributing guide, and issue tracker. Omitted from embeds. */
-function renderSiteFooter() {
+/** Site-wide footer: links back to the ranking methodology, the repo's license, contributing guide, and issue tracker. Omitted from embeds. */
+function renderSiteFooter(basePath) {
   return `
     <footer class="site-footer">
+      <a href="${basePath}/methodology/">How we rank</a>
       <a href="${REPO_URL}/blob/master/LICENSE">License</a>
       <a href="${REPO_URL}/blob/master/CONTRIBUTING.md">Contributing</a>
       <a href="${REPO_URL}/issues">Report an issue</a>
@@ -134,7 +136,7 @@ export function renderDomainPage(
 ) {
   const header = embed ? "" : renderSiteHeader(basePath);
   const compareCartScript = embed ? "" : renderCompareCartBootstrap(basePath);
-  const footer = embed ? "" : renderSiteFooter();
+  const footer = embed ? "" : renderSiteFooter(basePath);
   const teaserSection = embed
     ? ""
     : renderRisingTeaser(teaser, { heading: "Rising this week", href: `${basePath}/rising/#${domain.slug}`, showDomain: false, basePath });
@@ -404,7 +406,7 @@ export function renderLandingPage(
       <p class="map-index-note">Ranked by how fast each ecosystem grew over the last ${momentumWindowDays} days — growth rate, not size.</p>
       <div class="map-grid">${cards}</div>
     </div>
-    ${renderSiteFooter()}
+    ${renderSiteFooter(basePath)}
   `;
   return renderShell({
     title: "awesomemap",
@@ -772,7 +774,7 @@ export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage
         applyDomainFilter(initialDomain);
       }
     </script>
-    ${renderSiteFooter()}
+    ${renderSiteFooter(basePath)}
   `;
 
   return renderShell({
@@ -891,7 +893,7 @@ export function renderTagsIndexPage(topTags, risingTagsByWindow, { defaultOgImag
         });
       });
     </script>
-    ${renderSiteFooter()}
+    ${renderSiteFooter(basePath)}
   `;
 
   return renderShell({
@@ -966,7 +968,7 @@ export function renderTagPage(tag, projects, growth, { defaultOgImage, siteUrl =
         <ol class="rising-rows-list">${rows}</ol>
       </section>
     </div>
-    ${renderSiteFooter()}
+    ${renderSiteFooter(basePath)}
   `;
 
   return renderShell({
@@ -1172,7 +1174,7 @@ export function renderProjectPage(
       </div>
       ${renderProjectTagChips(project.tags, basePath)}
     </div>
-    ${renderSiteFooter()}
+    ${renderSiteFooter(basePath)}
   `;
 
   return renderShell({
@@ -1229,7 +1231,7 @@ export function renderComparePage({ defaultOgImage, siteUrl = "", basePath = "" 
         compare.applyIds(ids);
       });
     </script>
-    ${renderSiteFooter()}
+    ${renderSiteFooter(basePath)}
   `;
   return renderShell({
     title: "Compare projects — awesomemap",
@@ -1275,7 +1277,7 @@ export function renderSearchPage({ defaultOgImage, siteUrl = "", basePath = "" }
         },
       });
     </script>
-    ${renderSiteFooter()}
+    ${renderSiteFooter(basePath)}
   `;
   return renderShell({
     title: "Search projects — awesomemap",
@@ -1343,12 +1345,80 @@ export function renderSubmitPage({ domains = [], defaultOgImage, siteUrl = "", b
         window.open(url, "_blank", "noopener");
       });
     </script>
-    ${renderSiteFooter()}
+    ${renderSiteFooter(basePath)}
   `;
   return renderShell({
     title: "Suggest a project — awesomemap",
     ogTitle: "Suggest a project — awesomemap",
     ogDescription: "Nominate an open-source project for one of awesomemap's maps.",
+    ogImage: defaultOgImage,
+    ogUrl,
+    base: basePath,
+    body,
+  });
+}
+
+/**
+ * Renders the /methodology/ page: a plain-language explanation of every
+ * ranking formula used elsewhere on the site, linked from the site footer
+ * (see `renderSiteFooter`) so it's reachable from any page — the point is
+ * transparency, not a new computation. The three numeric constants quoted
+ * below (the smoothing constant, the small-project star threshold, the
+ * minimum meaningful star delta) are imported from the same modules that
+ * actually compute the rankings, so at least those can't silently drift
+ * from a hand-typed copy the way a re-typed number could — the prose
+ * describing each formula's *shape* is still hand-written, and a change to
+ * the underlying math in velocity.mjs/group-growth.mjs/signal.mjs won't be
+ * caught here automatically.
+ */
+export function renderMethodologyPage({ defaultOgImage, siteUrl = "", basePath = "" } = {}) {
+  const ogUrl = `${siteUrl}${basePath}/methodology/`;
+  const windowsList = RISING_WINDOWS_DAYS.join(" / ");
+  const smallProjectThreshold = formatStars(SMALL_PROJECT_STAR_THRESHOLD);
+  const minStarDelta = MIN_MEANINGFUL_STAR_DELTA;
+  const smoothingConstant = formatStars(SCORE_SMOOTHING_CONSTANT);
+
+  const body = `
+    ${renderSiteHeader(basePath)}
+    <header class="rising-hero">
+      <h1>How we rank</h1>
+      <p class="rising-hero-tagline">Every number on awesomemap comes straight from daily GitHub star snapshots, run through the same formulas for every project — no manual curation of order. Here's exactly what each one measures.</p>
+      <p class="rising-updated">Star-history snapshots taken daily · growth windows: ${windowsList} days</p>
+    </header>
+    <div class="rising-page">
+      <section class="rising-section">
+        <h2 class="rising-section-heading">Growth</h2>
+        <p>The percent (and absolute) change in stars over a chosen window — ${windowsList} days. It's measured from the snapshot closest to that many days ago to the latest snapshot, so one missed snapshot day doesn't break the number. This is what every growth badge across the site — a domain card, a category row, a tag, a project — is showing.</p>
+      </section>
+      <section class="rising-section">
+        <h2 class="rising-section-heading">Rising score</h2>
+        <p><strong>Popular</strong> mode sizes each project by its raw star count — the established players. <strong>Rising</strong> mode sizes and ranks projects by a velocity score instead: star gain ÷ √(current stars + ${smoothingConstant}). The square-root term keeps a tiny project's noisy swing (say, 2 stars → 6) from outranking a large project's genuinely bigger gain — without it, a small denominator would let noise dominate. The <a href="${basePath}/rising/">Rising leaderboard</a> ranks by this same score.</p>
+      </section>
+      <section class="rising-section">
+        <h2 class="rising-section-heading">Category growth</h2>
+        <p>Shown as "Where the heat is" on each domain page: the aggregate growth of every tracked project in a category, computed as one summed star delta over one summed baseline — not an average of each project's percentage. Averaging would let a single small project that tripled outweigh fifty established ones and report a category as exploding when it barely moved. Only projects with enough history for the window count toward the figure; coverage (e.g. "12/15 tracked") is shown alongside it.</p>
+      </section>
+      <section class="rising-section">
+        <h2 class="rising-section-heading">This week's signals</h2>
+        <p>Four highlights on the homepage, drawn only from projects that gained at least ${minStarDelta} stars this week — below that, a gain is ordinary week-to-week noise, not a signal:</p>
+        <ul>
+          <li><strong>🔥 Biggest mover</strong> — the largest absolute star gain.</li>
+          <li><strong>🚀 Unexpected breakout</strong> — growing fastest relative to its own category's growth this week, i.e. outperforming its neighbors, not just growing in absolute terms.</li>
+          <li><strong>📈 Heating up</strong> — the highest percentage growth in the pool.</li>
+          <li><strong>👀 One to watch</strong> — the highest percentage growth among projects still under ${smallProjectThreshold} stars — the ones worth catching early.</li>
+        </ul>
+      </section>
+      <section class="rising-section">
+        <h2 class="rising-section-heading">Data updated daily</h2>
+        <p>Every tracked project's star count is snapshotted once a day. A window needs a snapshot at least that old to report growth — until then, a project shows "Not tracked yet" rather than a fabricated 0%.</p>
+      </section>
+    </div>
+    ${renderSiteFooter(basePath)}
+  `;
+  return renderShell({
+    title: "How we rank — awesomemap",
+    ogTitle: "How we rank — awesomemap",
+    ogDescription: "How awesomemap ranks projects: growth, the Rising score, category growth, and this week's signals, explained.",
     ogImage: defaultOgImage,
     ogUrl,
     base: basePath,

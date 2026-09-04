@@ -10,6 +10,7 @@ import {
   renderComparePage,
   renderSearchPage,
   renderSubmitPage,
+  renderMethodologyPage,
   tagSlug,
 } from "../scripts/render-page.mjs";
 
@@ -1181,5 +1182,38 @@ test("renderSubmitPage's canonical URL and OG copy don't depend on any query str
 test("renderSiteHeader (via renderComparePage) links to /submit/", () => {
   const html = renderComparePage({ defaultOgImage: "/og-default.png", basePath: "/techmap" });
   assert.match(html, /href="\/techmap\/submit\/">Suggest a project</);
+});
+
+test("renderMethodologyPage has a site header and footer and a canonical /methodology/ URL", () => {
+  const html = renderMethodologyPage({ defaultOgImage: "/og-default.png", siteUrl: "https://awesomemap.dev", basePath: "" });
+  assert.match(html, /class="site-header"/);
+  assert.match(html, /class="site-footer"/);
+  assert.match(html, /href="https:\/\/awesomemap\.dev\/methodology\/"/);
+  assert.match(html, /<title>How we rank — awesomemap<\/title>/);
+});
+
+test("renderMethodologyPage renders a static heading and every ranking section", () => {
+  const html = renderMethodologyPage({ defaultOgImage: "/og-default.png" });
+  assert.match(html, /<h1>How we rank<\/h1>/);
+  assert.match(html, /Rising score/);
+  assert.match(html, /Category growth/);
+  assert.match(html, /This week's signals/);
+  assert.match(html, /Biggest mover/);
+  assert.match(html, /Unexpected breakout/);
+  assert.match(html, /Heating up/);
+  assert.match(html, /One to watch/);
+});
+
+test("renderMethodologyPage quotes the real ranking constants (7 / 30 / 90 windows, 5,000-star threshold), not hand-typed copies that could drift", () => {
+  const html = renderMethodologyPage({ defaultOgImage: "/og-default.png" });
+  assert.match(html, /7 \/ 30 \/ 90 days/);
+  assert.match(html, /5,000 stars/);
+});
+
+test("renderSiteFooter (via renderMethodologyPage) links to /methodology/, prefixed by basePath", () => {
+  const rootHtml = renderMethodologyPage({ defaultOgImage: "/og-default.png" });
+  assert.match(rootHtml, /<footer class="site-footer">\s*<a href="\/methodology\/">How we rank<\/a>/);
+  const prefixedHtml = renderSubmitPage({ domains: [], defaultOgImage: "/og-default.png", basePath: "/techmap" });
+  assert.match(prefixedHtml, /<a href="\/techmap\/methodology\/">How we rank<\/a>/);
 });
 

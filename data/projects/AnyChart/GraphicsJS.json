@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "AnyChart/GraphicsJS",
+  "link": "https://github.com/AnyChart/GraphicsJS",
+  "name": "GraphicsJS",
+  "desc": "A lightweight JavaScript graphics library with the intuitive API, based on SVG/VML technology.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "anychart",
+    "google-closure",
+    "google-closure-library",
+    "javascript",
+    "javascript-library",
+    "svg",
+    "vector-graphics",
+    "vml"
+  ],
+  "history": [],
+  "weight": 995,
+  "image": "https://avatars.githubusercontent.com/u/703373?v=4"
+}

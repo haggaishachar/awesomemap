@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "ckeditor/ckeditor-releases",
+  "link": "https://github.com/ckeditor/ckeditor-releases",
+  "name": "ckeditor-releases",
+  "desc": "Official distribution releases of CKEditor 4.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ckeditor",
+    "ckeditor4",
+    "javascript",
+    "wysiwyg",
+    "wysiwyg-editor",
+    "wysiwyg-editors"
+  ],
+  "history": [],
+  "weight": 519,
+  "image": "https://avatars.githubusercontent.com/u/825710?v=4"
+}

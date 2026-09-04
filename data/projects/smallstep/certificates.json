@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "smallstep/certificates",
+  "link": "https://github.com/smallstep/certificates",
+  "name": "certificates",
+  "desc": "🛡️ A private certificate authority (X.509 & SSH) & ACME server for secure automated certificate management, so you can use TLS everywhere & SSO for SSH.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "acme",
+    "acme-server",
+    "ca",
+    "certificate-authority",
+    "certificates",
+    "go",
+    "pki",
+    "security",
+    "security-tools",
+    "ssh",
+    "tls",
+    "x509"
+  ],
+  "history": [],
+  "weight": 8825,
+  "image": "https://avatars.githubusercontent.com/u/23183426?v=4"
+}

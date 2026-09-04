@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "guofei9987/scikit-opt",
+  "link": "https://github.com/guofei9987/scikit-opt",
+  "name": "scikit-opt",
+  "desc": "Genetic Algorithm, Particle Swarm Optimization, Simulated Annealing, Ant Colony Optimization Algorithm,Immune Algorithm, Artificial Fish Swarm Algorithm, Differential Evolution and TSP(Traveling salesman) ",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ant-colony-algorithm",
+    "artificial-intelligence",
+    "fish-swarms",
+    "genetic-algorithm",
+    "heuristic-algorithms",
+    "immune",
+    "immune-algorithm",
+    "optimization",
+    "particle-swarm-optimization",
+    "pso",
+    "simulated-annealing",
+    "travelling-salesman-problem",
+    "tsp"
+  ],
+  "history": [],
+  "weight": 6709
+}

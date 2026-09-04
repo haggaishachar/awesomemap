@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "madmaze/pytesseract",
+  "link": "https://github.com/madmaze/pytesseract",
+  "name": "pytesseract",
+  "desc": "A Python wrapper for Google Tesseract",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 6386
+}

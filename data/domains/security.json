@@ -952,6 +952,12 @@
       "path": [
         "Network Scanning & Recon"
       ]
+    },
+    {
+      "id": "smallstep/certificates",
+      "path": [
+        "Secrets Management"
+      ]
     }
   ]
 }

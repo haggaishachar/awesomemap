@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "serengil/retinaface",
+  "link": "https://github.com/serengil/retinaface",
+  "name": "retinaface",
+  "desc": "RetinaFace: Deep Face Detection Library for Python",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "face-alignment",
+    "face-detection",
+    "face-detector",
+    "face-recognition",
+    "insightface",
+    "python",
+    "retinaface",
+    "retinaface-detector",
+    "tensorflow"
+  ],
+  "history": [],
+  "weight": 2032
+}

@@ -844,6 +844,66 @@
       "path": [
         "Classic Machine Learning"
       ]
+    },
+    {
+      "id": "dotnet/machinelearning",
+      "path": [
+        "Classic Machine Learning"
+      ]
+    },
+    {
+      "id": "fukuball/jieba-php",
+      "path": [
+        "Natural Language Processing"
+      ]
+    },
+    {
+      "id": "lightly-ai/lightly-train",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "scikit-image/scikit-image",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "serengil/deepface",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "serengil/retinaface",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "madmaze/pytesseract",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "lightly-ai/lightly",
+      "path": [
+        "Computer Vision"
+      ]
+    },
+    {
+      "id": "giacomelli/GeneticSharp",
+      "path": [
+        "Classic Machine Learning"
+      ]
+    },
+    {
+      "id": "guofei9987/scikit-opt",
+      "path": [
+        "Classic Machine Learning"
+      ]
     }
   ]
 }

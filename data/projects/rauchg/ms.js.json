@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "rauchg/ms.js",
+  "link": "https://github.com/rauchg/ms.js",
+  "name": "ms.js",
+  "desc": "Tiny millisecond conversion utility",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "conversion",
+    "milliseconds",
+    "utility"
+  ],
+  "history": [],
+  "weight": 5545,
+  "image": "https://avatars.githubusercontent.com/u/14985020?v=4"
+}

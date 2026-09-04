@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "moment/luxon",
+  "link": "https://github.com/moment/luxon",
+  "name": "luxon",
+  "desc": "⏱ A library for working with dates and times in JS",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "dates",
+    "datetime",
+    "intl",
+    "times",
+    "timezones"
+  ],
+  "history": [],
+  "weight": 16450,
+  "image": "https://avatars.githubusercontent.com/u/4129662?v=4"
+}

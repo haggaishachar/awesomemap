@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "rmm5t/jquery-timeago",
+  "link": "https://github.com/rmm5t/jquery-timeago",
+  "name": "jquery-timeago",
+  "desc": ":clock8: The original jQuery plugin that makes it easy to support automatically updating fuzzy timestamps (e.g. \"4 minutes ago\").",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "javascript",
+    "jquery",
+    "time",
+    "timeago"
+  ],
+  "history": [],
+  "weight": 3793
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "serengil/deepface",
+  "link": "https://github.com/serengil/deepface",
+  "name": "deepface",
+  "desc": "A Lightweight Face Recognition and Facial Attribute Analysis (Age, Gender, Emotion and Race) Library for Python",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "age-prediction",
+    "arcface",
+    "deep-learning",
+    "deepface",
+    "deepid",
+    "emotion-recognition",
+    "face-analysis",
+    "face-recognition",
+    "facenet",
+    "facial-expression-recognition",
+    "facial-recognition",
+    "gender-prediction",
+    "machine-learning",
+    "openface",
+    "python",
+    "race-classification",
+    "vgg-face"
+  ],
+  "history": [],
+  "weight": 23378
+}

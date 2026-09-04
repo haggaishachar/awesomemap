@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "antvis/G2Plot",
+  "link": "https://github.com/antvis/G2Plot",
+  "name": "G2Plot",
+  "desc": ":dango:  An interactive and responsive charting library based on G2.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "antv",
+    "charts",
+    "g2",
+    "g2plot",
+    "graphics",
+    "plot",
+    "visualization"
+  ],
+  "history": [],
+  "weight": 2654,
+  "image": "https://avatars.githubusercontent.com/u/19199542?v=4"
+}

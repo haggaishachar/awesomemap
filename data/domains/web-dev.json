@@ -1048,6 +1048,258 @@
       "path": [
         "CMS & Content Platforms"
       ]
+    },
+    {
+      "id": "c3js/c3",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "BabylonJS/Babylon.js",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "recharts/recharts",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "AnyChart/GraphicsJS",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "frappe/gantt",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "antvis/G2",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "antvis/G2Plot",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "cytoscape/cytoscape.js",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "clientIO/joint",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "vizzuhq/vizzu-lib",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "antvis/g6",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "antvis/Infographic",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "NUKnightLab/TimelineJS3",
+      "path": [
+        "Data Visualization & Graphics"
+      ]
+    },
+    {
+      "id": "revolist/revogrid",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "ckeditor/ckeditor-releases",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "neilj/Squire",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "tinymce/tinymce",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "basecamp/trix",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "Alex-D/Trumbowyg",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "jashkenas/underscore",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "lodash/lodash",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "ramda/ramda",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "selfrefactor/rambda",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "moment/moment",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "moment/moment-timezone",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "iamkun/dayjs",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "moment/luxon",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "formkit/tempo",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "ajaxorg/ace",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "josdejong/jsoneditor",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "mholt/PapaParse",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "rtfpessoa/diff2html",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "MrRio/jsPDF",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "mozilla/pdf.js",
+      "path": [
+        "UI Component Libraries"
+      ]
+    },
+    {
+      "id": "marpple/FxTS",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "ehmicky/wild-wild-path",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "ReactiveX/rxjs",
+      "path": [
+        "State Management"
+      ]
+    },
+    {
+      "id": "facebook/immutable-js",
+      "path": [
+        "State Management"
+      ]
+    },
+    {
+      "id": "rmm5t/jquery-timeago",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "rauchg/ms.js",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "hustcc/timeago.js",
+      "path": [
+        "Developer Tooling"
+      ]
+    },
+    {
+      "id": "anvaka/ngraph.graph",
+      "path": [
+        "Developer Tooling"
+      ]
     }
   ]
 }

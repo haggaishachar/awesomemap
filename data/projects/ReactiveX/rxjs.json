@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "ReactiveX/rxjs",
+  "link": "https://github.com/ReactiveX/rxjs",
+  "name": "rxjs",
+  "desc": "A reactive programming library for JavaScript",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "javascript",
+    "rxjs"
+  ],
+  "history": [],
+  "weight": 31703,
+  "image": "https://avatars.githubusercontent.com/u/6407041?v=4"
+}

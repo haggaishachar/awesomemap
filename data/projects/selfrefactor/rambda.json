@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "selfrefactor/rambda",
+  "link": "https://github.com/selfrefactor/rambda",
+  "name": "rambda",
+  "desc": "Typescript focused FP library similar to Remeda and Ramda",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "fp",
+    "functional",
+    "functional-programming",
+    "functions",
+    "lodash",
+    "ramda",
+    "typescript",
+    "utility",
+    "utils"
+  ],
+  "history": [],
+  "weight": 1754
+}

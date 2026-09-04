@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "josdejong/jsoneditor",
+  "link": "https://github.com/josdejong/jsoneditor",
+  "name": "jsoneditor",
+  "desc": "A web-based tool to view, edit, format, and validate JSON",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 12264
+}

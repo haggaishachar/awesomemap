@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "antvis/Infographic",
+  "link": "https://github.com/antvis/Infographic",
+  "name": "Infographic",
+  "desc": "🦋 An Infographic Generation and Rendering Framework, bring words to life with AI!",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "ai",
+    "antv",
+    "infographic",
+    "llm",
+    "visualization"
+  ],
+  "history": [],
+  "weight": 6552,
+  "image": "https://avatars.githubusercontent.com/u/19199542?v=4"
+}

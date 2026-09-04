@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "vizzuhq/vizzu-lib",
+  "link": "https://github.com/vizzuhq/vizzu-lib",
+  "name": "vizzu-lib",
+  "desc": "Library for animated data visualizations and data stories.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "animation",
+    "chart",
+    "charting",
+    "charting-library",
+    "charts",
+    "dashboard",
+    "data-analysis",
+    "data-visualization",
+    "datavisualization",
+    "dataviz",
+    "graph",
+    "graphs",
+    "javascript",
+    "javascript-library",
+    "plotting",
+    "storytelling"
+  ],
+  "history": [],
+  "weight": 2032,
+  "image": "https://avatars.githubusercontent.com/u/79846421?v=4"
+}

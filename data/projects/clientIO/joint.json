@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "clientIO/joint",
+  "link": "https://github.com/clientIO/joint",
+  "name": "joint",
+  "desc": "A proven SVG-based JavaScript diagramming library powering exceptional UIs",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "charts",
+    "diagramming",
+    "html5",
+    "interactive-diagrams",
+    "javascript",
+    "javascript-library",
+    "low-code",
+    "no-code",
+    "svg",
+    "typescript",
+    "typescript-library",
+    "visual-applications",
+    "visualization"
+  ],
+  "history": [],
+  "weight": 5370,
+  "image": "https://avatars.githubusercontent.com/u/882337?v=4"
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "rtfpessoa/diff2html",
+  "link": "https://github.com/rtfpessoa/diff2html",
+  "name": "diff2html",
+  "desc": "Pretty diff to html javascript library (diff2html)",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "colorized",
+    "diff",
+    "diff2html",
+    "git",
+    "hacktoberfest",
+    "html",
+    "javascript",
+    "parser",
+    "pretty",
+    "syntax-highlighting",
+    "typescript",
+    "unified-diffs"
+  ],
+  "history": [],
+  "weight": 3403
+}

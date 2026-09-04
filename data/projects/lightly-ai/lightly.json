@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "lightly-ai/lightly",
+  "link": "https://github.com/lightly-ai/lightly",
+  "name": "lightly",
+  "desc": "A python library for self-supervised learning on images.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "computer-vision",
+    "contrastive-learning",
+    "contributions-welcome",
+    "deep-learning",
+    "embeddings",
+    "hacktoberfest",
+    "machine-learning",
+    "pytorch",
+    "self-supervised-learning"
+  ],
+  "history": [],
+  "weight": 3802,
+  "image": "https://avatars.githubusercontent.com/u/50146475?v=4"
+}

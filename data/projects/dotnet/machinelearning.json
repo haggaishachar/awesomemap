@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "dotnet/machinelearning",
+  "link": "https://github.com/dotnet/machinelearning",
+  "name": "machinelearning",
+  "desc": "ML.NET is an open source and cross-platform machine learning framework for .NET.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "algorithms",
+    "dotnet",
+    "machine-learning",
+    "ml"
+  ],
+  "history": [],
+  "weight": 9354,
+  "image": "https://avatars.githubusercontent.com/u/9141961?v=4"
+}

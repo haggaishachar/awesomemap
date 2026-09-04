@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "moment/moment",
+  "link": "https://github.com/moment/moment",
+  "name": "moment",
+  "desc": "Parse, validate, manipulate, and display dates in javascript.",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [],
+  "history": [],
+  "weight": 47914,
+  "image": "https://avatars.githubusercontent.com/u/4129662?v=4"
+}

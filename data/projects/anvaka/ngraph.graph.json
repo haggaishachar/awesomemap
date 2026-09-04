@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "anvaka/ngraph.graph",
+  "link": "https://github.com/anvaka/ngraph.graph",
+  "name": "ngraph.graph",
+  "desc": "Graph data structure in JavaScript",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "edges",
+    "graph",
+    "graph-algorithms",
+    "javascript",
+    "network",
+    "nodes"
+  ],
+  "history": [],
+  "weight": 580
+}

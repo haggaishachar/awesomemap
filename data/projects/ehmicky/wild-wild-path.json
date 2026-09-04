@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "ehmicky/wild-wild-path",
+  "link": "https://github.com/ehmicky/wild-wild-path",
+  "name": "wild-wild-path",
+  "desc": "🤠 Object property paths with wildcards and regexps 🌵",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "algorithm",
+    "data-structures",
+    "filter",
+    "functional-programming",
+    "glob",
+    "globbing",
+    "globstar",
+    "javascript",
+    "json",
+    "library",
+    "map",
+    "nodejs",
+    "parsing",
+    "path",
+    "recursion",
+    "regex",
+    "regexp",
+    "regular-expression",
+    "typescript",
+    "wildcard"
+  ],
+  "history": [],
+  "weight": 730
+}

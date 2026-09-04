@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "giacomelli/GeneticSharp",
+  "link": "https://github.com/giacomelli/GeneticSharp",
+  "name": "GeneticSharp",
+  "desc": "GeneticSharp is a fast, extensible, multi-platform and multithreading C# Genetic Algorithm library that simplifies the development of applications using Genetic Algorithms (GAs).",
+  "githubName": null,
+  "githubDescription": null,
+  "tags": [
+    "artificial-intelligence",
+    "c-sharp",
+    "dotnet",
+    "dotnet-core",
+    "dotnet-standard",
+    "dotnet6",
+    "genetic-algorithm",
+    "genetic-algorithms",
+    "unity3d"
+  ],
+  "history": [],
+  "weight": 1371
+}

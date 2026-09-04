@@ -1,8 +1,12 @@
 name: Social Digest
 
+# Disabled: scripts/social-digest.mjs was deleted in favor of
+# awesomemap-data's own HTTP-wired copy, which currently only opens the
+# digest issue there (it no longer has a README to update). Re-wiring
+# this repo's README-risers update against awesomemap-data's API is
+# deferred — see "Part B" in
+# docs/superpowers/specs/2026-09-04-awesomemap-data-api-wiring-design.md.
 on:
-  schedule:
-    - cron: "0 8 * * 1"
   workflow_dispatch:
 
 permissions:

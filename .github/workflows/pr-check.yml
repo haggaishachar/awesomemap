@@ -2,12 +2,12 @@ name: PR Check
 
 # Runs on every pull request so a contribution gets automated feedback
 # before a human ever looks at it — the same test suite and build that
-# deploy.yml runs on master, just moved earlier (to PR time) instead of
-# discovering a broken data/domains/ or data/projects/ file only after
-# merge. generate.mjs already validates JSON structure, required fields
-# (id/path), slug uniqueness, and computed sizes; this workflow just makes
-# sure that validation runs as a required status check on every PR that
-# could touch it.
+# deploy.yml runs on master, just moved earlier (to PR time). The build
+# fetches domains and projects from awesomemap-data's API rather than
+# local files; generate.mjs still validates the response shape (required
+# fields, slug uniqueness, no dangling project references) and computed
+# sizes, so this workflow makes sure that validation runs as a required
+# status check on every PR.
 
 on:
   pull_request:
@@ -26,5 +26,5 @@ jobs:
           node-version: 20
       - run: npm ci
       - run: npm test
-      - name: Build (validates every data/domains/ and data/projects/ file)
+      - name: Build (validates the awesomemap-data API response)
         run: node scripts/generate.mjs

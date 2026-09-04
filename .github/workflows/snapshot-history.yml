@@ -1,8 +1,11 @@
 name: Snapshot Star History
 
+# Disabled: star-history snapshotting moved to the private awesomemap-data
+# repo, which runs its own copy of this workflow against D1 directly. See
+# docs/superpowers/specs/2026-09-04-awesomemap-data-api-wiring-design.md.
+# scripts/snapshot-history.mjs and scripts/snapshot-events.mjs no longer
+# exist in this repo, so workflow_dispatch is left as a placeholder only.
 on:
-  schedule:
-    - cron: "0 6 * * *"
   workflow_dispatch:
 
 permissions:

@@ -1,19 +1,37 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { projectFilePath, joinDomainProjects } from "../scripts/data-store.mjs";
+import { loadAllDomains, loadAllProjectEntities, joinDomainProjects, SCHEMA_VERSION } from "../scripts/data-store.mjs";
 
-// projectFilePath/joinDomainProjects are pure; loadAllDomains,
-// loadAllProjectEntities, saveDomain, and saveProjectEntity are thin fs
-// I/O and not unit tested, same convention as generate.mjs/
-// snapshot-history.mjs's main().
+process.env.AWESOMEMAP_DATA_API_URL = "http://example.test";
 
-test("projectFilePath maps an owner/repo id to its conventional path", () => {
-  assert.equal(projectFilePath("postgres/postgres"), "data/projects/postgres/postgres.json");
-  assert.equal(projectFilePath("facebook/react"), "data/projects/facebook/react.json");
+/** Records every call and replays canned responses in order. */
+function fakeFetch(responses) {
+  const calls = [];
+  const queue = [...responses];
+  const fetchImpl = async (url) => {
+    calls.push({ url });
+    const next = queue.shift();
+    if (!next) throw new Error(`fakeFetch: no response queued for ${url}`);
+    return { ok: next.status < 400, status: next.status, statusText: next.statusText ?? "", json: async () => next.body, text: async () => JSON.stringify(next.body) };
+  };
+  return { fetchImpl, calls };
+}
+
+test("SCHEMA_VERSION is 1", () => {
+  assert.equal(SCHEMA_VERSION, 1);
 });
 
-test("projectFilePath throws for an id that isn't a valid owner/repo shorthand", () => {
-  assert.throws(() => projectFilePath("not-a-repo-id"), /not a valid "owner\/repo" id/);
+test("loadAllDomains fetches /domains and sorts by slug", async () => {
+  const { fetchImpl, calls } = fakeFetch([{ status: 200, body: [{ slug: "web-dev", projects: [] }, { slug: "automation", projects: [] }] }]);
+  const domains = await loadAllDomains({ fetchImpl });
+  assert.deepEqual(domains.map((d) => d.slug), ["automation", "web-dev"]);
+  assert.equal(calls[0].url, "http://example.test/domains");
+});
+
+test("loadAllProjectEntities fetches /projects into a Map keyed by id", async () => {
+  const { fetchImpl } = fakeFetch([{ status: 200, body: [{ id: "facebook/react", name: "React" }] }]);
+  const byId = await loadAllProjectEntities({ fetchImpl });
+  assert.equal(byId.get("facebook/react").name, "React");
 });
 
 test("joinDomainProjects merges each membership entry's path onto its project entity", () => {
@@ -37,16 +55,24 @@ test("joinDomainProjects merges each membership entry's path onto its project en
   ]);
 });
 
-test("joinDomainProjects lets the same entity carry a different path per domain", () => {
-  const domain = { slug: "automation", projects: [{ id: "n8n-io/n8n", path: ["Workflow Automation"] }] };
-  const entitiesById = new Map([["n8n-io/n8n", { id: "n8n-io/n8n", name: "n8n" }]]);
-
-  const joined = joinDomainProjects(domain, entitiesById);
-
-  assert.deepEqual(joined[0].path, ["Workflow Automation"]);
+test("joinDomainProjects throws on a membership id with no matching entity", () => {
+  const domain = { slug: "web-dev", projects: [{ id: "ghost/repo", path: ["Nowhere"] }] };
+  assert.throws(() => joinDomainProjects(domain, new Map()), /"ghost\/repo" has no project entity/);
 });
 
-test("joinDomainProjects throws on a membership id with no matching entity file", () => {
-  const domain = { slug: "web-dev", projects: [{ id: "ghost/repo", path: ["Nowhere"] }] };
-  assert.throws(() => joinDomainProjects(domain, new Map()), /"ghost\/repo" has no data\/projects\/ entity file/);
+test("a failing (non-ok) response throws with status and body text", async () => {
+  const { fetchImpl } = fakeFetch([{ status: 500, statusText: "Internal Server Error", body: { error: "boom" } }]);
+  await assert.rejects(loadAllDomains({ fetchImpl }), /500/);
+});
+
+test("loadAllDomains defaults to the live production API when AWESOMEMAP_DATA_API_URL is unset", async () => {
+  const original = process.env.AWESOMEMAP_DATA_API_URL;
+  delete process.env.AWESOMEMAP_DATA_API_URL;
+  try {
+    const { fetchImpl, calls } = fakeFetch([{ status: 200, body: [] }]);
+    await loadAllDomains({ fetchImpl });
+    assert.equal(calls[0].url, "https://awesomemap-data.haggai-shachar.workers.dev/domains");
+  } finally {
+    process.env.AWESOMEMAP_DATA_API_URL = original;
+  }
 });

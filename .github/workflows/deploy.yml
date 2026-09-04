@@ -5,12 +5,11 @@ on:
     branches: [master]
   workflow_dispatch:
   schedule:
-    # Runs an hour after snapshot-history.yml's "0 6 * * *" cron so this
-    # picks up that day's snapshot commit. A push from snapshot-history.yml
-    # uses the default GITHUB_TOKEN, and GitHub deliberately does not
-    # trigger other workflows (like this one's `on: push`) from
-    # GITHUB_TOKEN-authored pushes, so a daily schedule here is needed to
-    # guarantee the site's Rising sizes actually get rebuilt.
+    # Data now lives in awesomemap-data's D1 database, not in commits to
+    # this repo, so nothing here triggers `on: push` when new data lands.
+    # This daily cron is the only thing that picks up fresh domains,
+    # projects, and star-history from awesomemap-data's API — not a
+    # safeguard against a missed push, but the actual refresh mechanism.
     - cron: "0 7 * * *"
 
 permissions:
@@ -34,6 +33,11 @@ jobs:
       # configured across Actions-based deploys (it isn't persisted any
       # other way for workflow-based publishing).
       CNAME: awesomemap.dev
+      # Explicit even though it currently matches data-store.mjs's
+      # hardcoded default — keeps production deploys independently
+      # controllable (e.g. pointing at a staging awesomemap-data
+      # deployment) without a code change.
+      AWESOMEMAP_DATA_API_URL: ${{ secrets.AWESOMEMAP_DATA_API_URL }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

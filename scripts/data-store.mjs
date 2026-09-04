@@ -1,126 +1,60 @@
-// Shared read/write layer for the data/ directory's two entity kinds (MVP.md
-// item 1, "Data structure refactor"):
+// Read-only HTTP client for awesomemap-data's public API — the site's
+// build (generate.mjs) is the only consumer, replacing the old fs-based
+// version that read data/domains/*.json + data/projects/**/*.json
+// directly. See
+// docs/superpowers/specs/2026-09-04-awesomemap-data-api-wiring-design.md.
 //
-//   data/domains/<slug>.json          — domain entity + membership only:
-//                                       {schemaVersion, slug, name,
-//                                       shortName, description,
-//                                       projects: [{id, path}]}
-//   data/projects/<owner>/<repo>.json — one file per project entity:
-//                                       {schemaVersion, id, link, name, desc,
-//                                       githubName, githubDescription,
-//                                       weight, image, tags, history, events}
+// Mirrors the exported names/shapes of awesomemap-data's own
+// scripts/data-store.mjs (loadAllDomains, loadAllProjectEntities,
+// joinDomainProjects, SCHEMA_VERSION) but read-only — nothing in this
+// repo writes data anymore, so there's no save*/write plumbing or
+// internal-token handling here.
 //
-// Every script that used to read/write `data/<slug>.json` +
-// `data/history/<slug>.json` directly goes through this module instead, so
-// the join between a domain's membership list and each project's own
-// record (and the on-disk path convention for a project file) is decided
-// exactly once.
-import { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
-import { parseGhRepo } from "./enrich-domain.mjs";
+// Configuration: AWESOMEMAP_DATA_API_URL (base URL of the deployed
+// Worker), defaulting to the live production API. The default matters:
+// pr-check.yml runs on pull_request, including from forks, and GitHub
+// does not expose repo secrets to fork-PR runs — local dev and fork-PR
+// checks both need this to work with zero configuration.
 
-export const DOMAINS_DIR = "data/domains";
-export const PROJECTS_DIR = "data/projects";
 export const SCHEMA_VERSION = 1;
 
-/** The on-disk path a project entity's `id` maps to — `owner/repo` -> `data/projects/owner/repo.json`. */
-export function projectFilePath(id) {
-  const repo = parseGhRepo(id);
-  if (!repo) throw new Error(`project "${id}": not a valid "owner/repo" id, can't place it under ${PROJECTS_DIR}/`);
-  return `${PROJECTS_DIR}/${repo.owner}/${repo.repo}.json`;
+function baseUrl() {
+  return (process.env.AWESOMEMAP_DATA_API_URL ?? "https://awesomemap-data.haggai-shachar.workers.dev").replace(/\/$/, "");
 }
 
-/**
- * Loads every `data/domains/<slug>.json` file, sorted by slug so callers get
- * a deterministic order independent of `readdirSync`'s own (filesystem-
- * dependent) ordering. Each domain's `projects` is membership-only —
- * `{id, path}` — never a project's own metadata; join against
- * `loadAllProjectEntities`'s result (see `joinDomainProjects`) for that.
- */
-export function loadAllDomains() {
-  if (!existsSync(DOMAINS_DIR)) return [];
-  const files = readdirSync(DOMAINS_DIR).filter((name) => name.endsWith(".json"));
-  const domains = files.map((file) => {
-    const domainPath = `${DOMAINS_DIR}/${file}`;
-    try {
-      return JSON.parse(readFileSync(domainPath, "utf8"));
-    } catch (err) {
-      throw new Error(`${domainPath}: invalid JSON — ${err.message}`);
-    }
-  });
-  return domains.sort((a, b) => a.slug.localeCompare(b.slug));
-}
-
-/**
- * Loads every `data/projects/<owner>/<repo>.json` file into a `Map` keyed by
- * `id`. Walks exactly two levels deep (owner directory, then repo files) —
- * the same shape `projectFilePath` writes.
- */
-export function loadAllProjectEntities() {
-  const byId = new Map();
-  if (!existsSync(PROJECTS_DIR)) return byId;
-  const ownerDirs = readdirSync(PROJECTS_DIR, { withFileTypes: true }).filter((entry) => entry.isDirectory());
-  for (const ownerDir of ownerDirs) {
-    const ownerPath = `${PROJECTS_DIR}/${ownerDir.name}`;
-    const repoFiles = readdirSync(ownerPath).filter((name) => name.endsWith(".json"));
-    for (const file of repoFiles) {
-      const entityPath = `${ownerPath}/${file}`;
-      let entity;
-      try {
-        entity = JSON.parse(readFileSync(entityPath, "utf8"));
-      } catch (err) {
-        throw new Error(`${entityPath}: invalid JSON — ${err.message}`);
-      }
-      byId.set(entity.id, entity);
-    }
+async function apiFetch(path, { fetchImpl = fetch } = {}) {
+  const res = await fetchImpl(`${baseUrl()}${path}`);
+  if (!res.ok) {
+    const text = await res.text().catch(() => "");
+    throw new Error(`GET ${path} failed: ${res.status} ${res.statusText} ${text}`.trim());
   }
-  return byId;
+  return res.json();
 }
 
-/** Reads one project entity by id, or `null` if it has no file yet. */
-export function loadProjectEntity(id) {
-  const path = projectFilePath(id);
-  if (!existsSync(path)) return null;
-  return JSON.parse(readFileSync(path, "utf8"));
+/** Loads every domain (with its membership list), sorted by slug. */
+export async function loadAllDomains({ fetchImpl } = {}) {
+  const domains = (await apiFetch("/domains", { fetchImpl })) ?? [];
+  return [...domains].sort((a, b) => a.slug.localeCompare(b.slug));
 }
 
-/** Writes one project entity to its conventional path, creating the owner directory as needed. */
-export function saveProjectEntity(entity) {
-  const path = projectFilePath(entity.id);
-  mkdirSync(path.slice(0, path.lastIndexOf("/")), { recursive: true });
-  writeFileSync(path, JSON.stringify(entity, null, 2) + "\n");
-}
-
-/**
- * Writes a domain's membership file, stripping any joined project fields
- * back down to `{id, path}` — so a caller that read a domain via
- * `joinDomainProjects` can pass its (now project-metadata-carrying)
- * `projects` array straight back in without hand-picking fields itself.
- */
-export function saveDomain(domain) {
-  mkdirSync(DOMAINS_DIR, { recursive: true });
-  const out = {
-    schemaVersion: domain.schemaVersion ?? SCHEMA_VERSION,
-    slug: domain.slug,
-    name: domain.name,
-    shortName: domain.shortName,
-    description: domain.description,
-    projects: domain.projects.map((project) => ({ id: project.id, path: project.path })),
-  };
-  writeFileSync(`${DOMAINS_DIR}/${domain.slug}.json`, JSON.stringify(out, null, 2) + "\n");
+/** Loads every project entity (full — including tags/history/events) into a Map keyed by id. */
+export async function loadAllProjectEntities({ fetchImpl } = {}) {
+  const projects = (await apiFetch("/projects", { fetchImpl })) ?? [];
+  return new Map(projects.map((entity) => [entity.id, entity]));
 }
 
 /**
  * Joins a domain's membership list against the full project-entity map,
  * returning one merged object per project — every entity field plus that
- * domain's own `path` for this project. Throws on a dangling reference (a
- * membership id with no entity file), the same "fail loudly on bad data"
- * convention `generate.mjs`'s Pass 1 already applies to missing `id`/`path`.
+ * domain's own `path` for this project. Pure. Throws on a dangling
+ * reference (a membership id with no entity), the same "fail loudly on
+ * bad data" convention the pre-split repo used.
  */
 export function joinDomainProjects(domain, entitiesById) {
   return domain.projects.map(({ id, path }) => {
     const entity = entitiesById.get(id);
     if (!entity) {
-      throw new Error(`domain "${domain.slug}": project "${id}" has no data/projects/ entity file`);
+      throw new Error(`domain "${domain.slug}": project "${id}" has no project entity`);
     }
     return { ...entity, path };
   });

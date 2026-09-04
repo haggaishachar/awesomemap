@@ -199,6 +199,12 @@ test("every page's <head> declares og:site_name and the og:image's dimensions", 
   assert.match(html, /<meta property="og:image:height" content="630" \/>/);
 });
 
+test("every page's <head> declares the site's twitter:site handle", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /<meta name="twitter:site" content="@awesomemapdev" \/>/);
+});
+
 test("og:image:alt and twitter:image:alt reuse the page's og description, escaped the same way as the other og:* tags", () => {
   const domain = { slug: "data-science", name: "Data Science", description: "Weird $` desc" };
   const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png" });

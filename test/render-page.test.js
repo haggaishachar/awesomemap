@@ -1311,9 +1311,54 @@ test("renderProjectPage renders an events timeline newest-first, and omits the s
   assert.match(withEvents, /href="https:\/\/hn\/1"/);
   assert.match(withEvents, /312 pts/);
   assert.match(withEvents, /Aug 7, 2026/);
+  // Rolled-up summary above the list, singular/plural-aware.
+  assert.match(withEvents, /class="project-events-summary">💬 2 Hacker News discussions</);
 
   const withoutEvents = renderProjectPage(PROJECT, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
   assert.doesNotMatch(withoutEvents, /class="project-events"/);
+  assert.doesNotMatch(withoutEvents, /class="project-events-summary"/);
+});
+
+test("renderProjectPage's events summary groups by type in a fixed order, singularizes a count of one, and falls back for an unmapped type", () => {
+  const html = renderProjectPage(PROJECT, {
+    domain: PROJECT_DOMAIN,
+    signal: NO_SIGNAL,
+    defaultOgImage: "/og-default.png",
+    eventsSeries: [
+      // Deliberately out of the summary's fixed display order, and with a
+      // blog event chronologically first, to prove grouping doesn't just
+      // mirror encounter order.
+      { date: "2026-08-01", type: "blog", title: "Blog post one", url: "https://someblog.dev/1" },
+      { date: "2026-08-02", type: "blog", title: "Blog post two", url: "https://someblog.dev/2" },
+      { date: "2026-08-03", type: "hn", title: "Show HN", url: "https://hn/1" },
+      { date: "2026-08-04", type: "hn", title: "HN again", url: "https://hn/2" },
+      { date: "2026-08-05", type: "hn", title: "HN thrice", url: "https://hn/3" },
+      { date: "2026-08-06", type: "producthunt", title: "PH launch", url: "https://producthunt.com/posts/1" },
+      { date: "2026-08-07", type: "future-source", title: "Unmapped", url: "https://example.com/1" },
+    ],
+  });
+  const summaryMatch = html.match(/<p class="project-events-summary">([^<]*)<\/p>/);
+  assert.ok(summaryMatch, "expected a project-events-summary line");
+  assert.strictEqual(
+    summaryMatch[1],
+    "💬 3 Hacker News discussions · 📣 1 Product Hunt launch · 📰 2 publications · 🔗 1 future-source mention"
+  );
+});
+
+test("renderProjectPage's events summary counts the full events series, not just the capped rendered list", () => {
+  const events = Array.from({ length: 25 }, (_, i) => ({
+    date: `2026-01-${String(i + 1).padStart(2, "0")}`,
+    type: "hn",
+    title: `HN post ${i + 1}`,
+    url: `https://hn/${i + 1}`,
+  }));
+  const html = renderProjectPage(PROJECT, {
+    domain: PROJECT_DOMAIN,
+    signal: NO_SIGNAL,
+    defaultOgImage: "/og-default.png",
+    eventsSeries: events,
+  });
+  assert.match(html, /class="project-events-summary">💬 25 Hacker News discussions</);
 });
 
 test("renderProjectPage renders known non-HN event types with their real label, and an unknown type with its raw type string", () => {

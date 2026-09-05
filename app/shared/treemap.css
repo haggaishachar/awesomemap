@@ -1470,6 +1470,12 @@ a.momentum-row-name:hover {
   margin: 0 0 8px;
 }
 
+.project-events-summary {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  margin: 0 0 12px;
+}
+
 .project-events-list {
   list-style: none;
   margin: 0;

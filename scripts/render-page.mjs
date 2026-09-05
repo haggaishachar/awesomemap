@@ -1306,6 +1306,50 @@ function renderProjectTagChips(tags, basePath) {
 const EVENTS_TIMELINE_LIMIT = 20;
 const EVENT_TYPE_LABELS = { hn: "HN", lobsters: "Lobsters", reddit: "Reddit", producthunt: "Product Hunt", bluesky: "Bluesky", blog: "Blog" };
 
+// Emoji + noun phrase per event type for the rolled-up summary line above
+// the timeline — one group per type actually present, e.g. "💬 3 Hacker
+// News discussions". Keyed in the display order the summary renders
+// mapped types in; an unmapped type (see EVENT_TYPE_LABELS' own fallback)
+// falls back to a generic 🔗 "mention" phrase built from its raw type
+// string, appended after every mapped type.
+const EVENT_SUMMARY_PHRASES = {
+  hn: { emoji: "💬", singular: "Hacker News discussion", plural: "Hacker News discussions" },
+  lobsters: { emoji: "🦞", singular: "Lobsters discussion", plural: "Lobsters discussions" },
+  reddit: { emoji: "👽", singular: "Reddit discussion", plural: "Reddit discussions" },
+  producthunt: { emoji: "📣", singular: "Product Hunt launch", plural: "Product Hunt launches" },
+  bluesky: { emoji: "🦋", singular: "Bluesky mention", plural: "Bluesky mentions" },
+  blog: { emoji: "📰", singular: "publication", plural: "publications" },
+};
+
+/**
+ * Rolls `eventsSeries` up into one summary line — "how much coverage did
+ * this project get, and where" — grouped by `event.type` and rendered in
+ * `EVENT_SUMMARY_PHRASES`' fixed key order (so the line reads the same
+ * regardless of chronological mix), with any unmapped type appended after
+ * in first-seen order. Counts the *full* series, not
+ * `renderProjectEventsTimeline`'s `EVENTS_TIMELINE_LIMIT`-capped rendered
+ * slice, since this answers "total coverage," not "what's listed below."
+ * Returns "" for an empty series, same convention as the timeline itself.
+ */
+function renderProjectEventsSummary(eventsSeries) {
+  if (!Array.isArray(eventsSeries) || eventsSeries.length === 0) return "";
+  const counts = new Map();
+  for (const event of eventsSeries) {
+    counts.set(event.type, (counts.get(event.type) ?? 0) + 1);
+  }
+  const mappedTypes = Object.keys(EVENT_SUMMARY_PHRASES).filter((type) => counts.has(type));
+  const unmappedTypes = [...counts.keys()].filter((type) => !Object.hasOwn(EVENT_SUMMARY_PHRASES, type));
+  const groups = [...mappedTypes, ...unmappedTypes].map((type) => {
+    const count = counts.get(type);
+    const phrase = Object.hasOwn(EVENT_SUMMARY_PHRASES, type)
+      ? EVENT_SUMMARY_PHRASES[type]
+      : { emoji: "🔗", singular: `${type} mention`, plural: `${type} mentions` };
+    const label = count === 1 ? phrase.singular : phrase.plural;
+    return `${phrase.emoji} ${formatCount(count)} ${escapeHtml(label)}`;
+  });
+  return `<p class="project-events-summary">${groups.join(" · ")}</p>`;
+}
+
 /**
  * Server-rendered chronological timeline of external events (HN, Lobsters,
  * Reddit, Product Hunt, Bluesky, blog/launch posts) for a project page — the "why did
@@ -1322,6 +1366,9 @@ const EVENT_TYPE_LABELS = { hn: "HN", lobsters: "Lobsters", reddit: "Reddit", pr
  * a hardcoded string precisely because a new source can add a sixth without
  * structural changes; the fallback (`EVENT_TYPE_LABELS[event.type] ?? event.type`)
  * means an unmapped type still renders acceptably until the map is updated.
+ * Above the list, `renderProjectEventsSummary` rolls the same `eventsSeries`
+ * up into a one-line "how much coverage, and where" count per type — a
+ * reader can get the gist without scanning the whole list.
  */
 function renderProjectEventsTimeline(eventsSeries) {
   if (!Array.isArray(eventsSeries) || eventsSeries.length === 0) return "";
@@ -1346,6 +1393,7 @@ function renderProjectEventsTimeline(eventsSeries) {
   return `
     <div class="project-events">
       <h2 class="project-events-heading">Timeline</h2>
+      ${renderProjectEventsSummary(eventsSeries)}
       <ul class="project-events-list">${rows}</ul>
     </div>`;
 }

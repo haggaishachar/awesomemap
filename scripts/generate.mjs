@@ -235,7 +235,7 @@ for (const domain of parsedDomains) {
       domainRank[`rising${windowDays}`] = entry ? entry.rank : null;
     }
     // `history` is dropped here rather than carried onto the leaf — it's a
-    // per-day series that can run to ~120 entries, and this object is what
+    // per-day series that can run to ~365 entries, and this object is what
     // buildTree embeds directly into the domain page's `<script
     // id="map-data">` payload (see render-page.mjs). It ships separately as
     // this domain's history.json (below), fetched lazily by the detail

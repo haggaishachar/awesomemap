@@ -171,7 +171,7 @@ export function buildStarChart(series, { width = COMPACT_CHART_WIDTH, height = C
  * `renderProjectEventsTimeline`'s full chronological list. An event whose
  * date falls outside the chart's own plotted date range is omitted:
  * `events` is never pruned (see scripts/snapshot-events.mjs) while
- * `history` is windowed to 120 days, so an older event easily predates
+ * `history` is windowed to 365 days, so an older event easily predates
  * everything currently on the chart — it still appears in the full
  * Timeline list below the chart, just not as an annotation on it. Returns
  * `[]` when `chart` is `null` (nothing to annotate onto) or `eventsSeries`
@@ -211,7 +211,7 @@ function formatShortDate(dateStr) {
  * Formats a date with its year (e.g. "Aug 8, 2025"), unlike `formatShortDate`'s
  * month/day-only — for the project page's events timeline (see
  * scripts/render-page.mjs's `renderProjectEventsTimeline`), where an entry
- * can be years old (`events` is never pruned, unlike `history`'s 120-day
+ * can be years old (`events` is never pruned, unlike `history`'s 365-day
  * window `formatShortDate`'s callers stay implicitly within), so the year
  * can't be left implied.
  */

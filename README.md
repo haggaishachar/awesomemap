@@ -9,36 +9,44 @@
 **[→ Explore the live maps](https://awesomemap.dev/)**
 
 Interactive, zoomable treemaps of open-source project ecosystems. Every
-rectangle is a project; its size reflects adoption, and its place in the map
-is its category. Zoom into a category to see what's inside it, click any
-project to see what it does and jump to its GitHub repo or homepage.
+rectangle is a project; its size reflects adoption, and its place in the
+map is its category. Zoom into a category to see what's inside it, click
+any project to see what it does and jump to its GitHub repo or homepage.
+Flip any map to **Rising** mode and rectangles resize by star-growth
+*velocity* instead — what's accelerating right now, before it's big enough
+to show up on the popular view.
 
-## Popular vs. Rising
+Nine domains, ~1,300 projects, and a full daily star-history snapshot
+behind every growth number on the site — nothing here is a one-time
+scrape.
 
-Every map has two modes:
+## This week's signals
 
-- **Popular** sizes each project by total adoption — the established players.
-- **Rising** sizes each project by star-growth *velocity* over the last 7,
-  30, or 90 days, computed from daily star-history snapshots — surfaces
-  what's accelerating right now, before it shows up on the "popular"
-  radar.
+Every deploy — on push, and daily via [a scheduled workflow
+run](.github/workflows/deploy.yml) — recomputes four highlights from that
+day's star-history and surfaces them on [the homepage](https://awesomemap.dev/):
 
-## This week's biggest risers
+- 🔥 **Biggest mover** — the largest absolute star gain this week.
+- 🚀 **Unexpected breakout** — growing fastest relative to its own
+  category, i.e. outperforming its neighbors, not just growing in
+  absolute terms.
+- 📈 **Heating up** — the highest percentage growth in the pool.
+- 👀 **One to watch** — the highest percentage growth among projects
+  still under 5,000 stars — the ones worth catching early.
 
-Star-growth leaders over the last 7 days. The
-[social digest workflow](.github/workflows/social-digest.yml) that used to
-refresh this list every Monday is currently paused pending a cross-repo
-re-wiring into `awesomemap-data` (see "How project data gets added" in
-[`CONTRIBUTING.md`](CONTRIBUTING.md#how-project-data-gets-added)) — for live,
-interactive rankings across any window, use Rising mode in the maps below.
+A snapshot from a recent deploy — the live page updates daily, this won't:
 
-<!-- risers:start -->
-1. **[Transformers](https://huggingface.co/transformers/)** (Best Data Science Open Source Projects) — +643 stars (+0.4%)
-2. **[shadcn/ui](https://ui.shadcn.com)** (Best Web Development Open Source Projects) — +519 stars (+0.4%)
-3. **[Playwright](https://playwright.dev)** (Best Web Development Open Source Projects) — +322 stars (+0.3%)
-4. **[Supabase](https://supabase.com/)** (Best Mobile Development Open Source Projects) — +307 stars (+0.3%)
-5. **[Ghidra](https://ghidra-sre.org/)** (Best Security Open Source Projects) — +260 stars (+0.4%)
-<!-- risers:end -->
+| Signal | Project | Why |
+| --- | --- | --- |
+| 🔥 Biggest mover | [Hermes Agent](https://awesomemap.dev/projects/NousResearch/hermes-agent/) | +3,776 stars (+1.6%) this week — AI |
+| 🚀 Unexpected breakout | [Coil](https://awesomemap.dev/projects/coil-kt/coil/) | 11.4× faster than Native Android Libraries this week — Mobile Dev |
+| 📈 Heating up | [MoneyPrinterTurbo](https://awesomemap.dev/projects/harry0703/MoneyPrinterTurbo/) | +2.0% this week — AI |
+| 👀 One to watch | [Gazebo](https://awesomemap.dev/projects/gazebosim/gz-sim/) | +0.9% this week · ★ 1,485 — IoT & Smart Home |
+
+See it live (filterable by domain), browse the full [Rising
+leaderboard](https://awesomemap.dev/rising/) across any window, or read
+[How we rank](https://awesomemap.dev/methodology/) for the exact math
+behind every one of these picks.
 
 ## Maps
 
@@ -54,7 +62,10 @@ interactive rankings across any window, use Rising mode in the maps below.
 | [Automation & No-Code](https://awesomemap.dev/automation/) | Workflow automation, RPA, no-code app builders, and business process tooling. | 89 |
 | [IoT & Smart Home](https://awesomemap.dev/smart-home/) | Home automation platforms, embedded firmware, robotics, and device protocols. | 190 |
 
-More domains are on the way. Project data is now maintained via [awesomemap-data](https://github.com/haggaishachar/awesomemap-data); counts here reflect the latest deploy.
+More domains are on the way. Project data is maintained via
+[awesomemap-data](https://github.com/haggaishachar/awesomemap-data), which
+discovers, classifies, and snapshots projects on its own schedule; counts
+here reflect the latest deploy.
 
 ## How it works
 
@@ -81,14 +92,3 @@ for a ready-to-paste snippet, or write your own:
 ```
 
 Swap `data-science` for any slug from the table above.
-
-## Contributing
-
-Know a project that belongs on one of the maps? Suggest it at
-[awesomemap.dev/submit/](https://awesomemap.dev/submit/) — no PR needed,
-it's reviewed automatically within minutes. Want to improve the site
-itself or run it locally? See [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=haggaishachar/awesomemap&type=Date)](https://star-history.com/#haggaishachar/awesomemap&Date)

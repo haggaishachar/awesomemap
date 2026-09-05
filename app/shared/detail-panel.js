@@ -1,4 +1,4 @@
-import { githubRepoUrl, formatStarCount, starHistoryFor, buildSparklinePath, starHistoryCaption } from "./star-history.js";
+import { githubRepoUrl, formatStarCount, starHistoryFor, buildStarChart, starHistoryCaption } from "./star-history.js";
 import { refreshCompareButtons } from "./compare-cart.js";
 
 // Popular mode has no "active" rising window of its own, but every leaf
@@ -76,28 +76,39 @@ export function createDetailPanel(container, { historyUrl, basePath = "", showPr
     return historyPromise;
   }
 
-  // Renders the sparkline (and its caption) into `chartContainer` once the
-  // domain's history resolves. `chartContainer` is unique per `open()`
-  // call, and gets detached by the next `open()`'s `panel.innerHTML = ""`
-  // (or by `close()`) — the `isConnected` check drops a stale fetch that
-  // resolves after the panel has already moved on to a different leaf.
+  // Renders the chart (a filled area + line, sized for this flyout — no
+  // axes/annotations, unlike the project page's full chart; there's no
+  // events data fetched here to annotate with, and a 160px-wide panel has
+  // no room for axis labels anyway) and its caption into `chartContainer`
+  // once the domain's history resolves. `chartContainer` is unique per
+  // `open()` call, and gets detached by the next `open()`'s
+  // `panel.innerHTML = ""` (or by `close()`) — the `isConnected` check
+  // drops a stale fetch that resolves after the panel has already moved
+  // on to a different leaf.
   function attachStarHistoryChart(chartContainer, id) {
     loadHistory().then((historyData) => {
       if (!chartContainer.isConnected) return;
 
       const series = starHistoryFor(historyData, id);
-      const spark = buildSparklinePath(series);
-      if (!spark) return;
+      const chart = buildStarChart(series);
+      if (!chart) return;
 
       const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
       svg.classList.add("detail-panel-star-chart-svg");
-      svg.setAttribute("viewBox", `0 0 ${spark.width} ${spark.height}`);
-      svg.setAttribute("width", spark.width);
-      svg.setAttribute("height", spark.height);
+      svg.setAttribute("viewBox", `0 0 ${chart.width} ${chart.height}`);
+      svg.setAttribute("width", chart.width);
+      svg.setAttribute("height", chart.height);
 
-      const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
-      path.setAttribute("d", spark.path);
-      svg.appendChild(path);
+      const area = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      area.classList.add("star-chart-area");
+      area.setAttribute("d", chart.areaPath);
+      svg.appendChild(area);
+
+      const line = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      line.classList.add("star-chart-line");
+      line.setAttribute("d", chart.path);
+      svg.appendChild(line);
+
       chartContainer.appendChild(svg);
 
       const caption = document.createElement("p");

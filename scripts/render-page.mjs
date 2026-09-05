@@ -3,7 +3,16 @@ import { RISING_WINDOWS_DAYS, SCORE_SMOOTHING_CONSTANT } from "./velocity.mjs";
 import { rankGroups } from "./group-growth.mjs";
 import { SMALL_PROJECT_STAR_THRESHOLD, MIN_MEANINGFUL_STAR_DELTA } from "./this-weeks-signals.mjs";
 import { buildWebsiteJsonLd, buildItemListJsonLd, buildSoftwareSourceCodeJsonLd } from "./seo.mjs";
-import { githubRepoUrl, buildSparklinePath, starHistoryCaption, formatEventDate } from "../app/shared/star-history.js";
+import {
+  githubRepoUrl,
+  buildStarChart,
+  positionAnnotations,
+  starHistoryCaption,
+  formatEventDate,
+  FULL_CHART_WIDTH,
+  FULL_CHART_HEIGHT,
+  FULL_CHART_PADDING,
+} from "../app/shared/star-history.js";
 import { buildTwitterShareUrl, buildLinkedInShareUrl, buildRedditShareUrl } from "../app/shared/share-links.js";
 import { buildEmbedSnippet } from "../app/shared/embed-snippet.js";
 
@@ -1155,21 +1164,72 @@ function renderProjectBreadcrumb(project, domain, basePath) {
 }
 
 /**
- * Server-rendered star-history sparkline for a project page — reuses the
- * same SVG path math app/shared/star-history.js already provides for the
- * client-side detail panel (a static page has no client fetch to lazily
- * draw it from). `historySeries` is `starHistoryFor`'s output (oldest-first
- * `{date, stars}[]`). Renders nothing when there are fewer than 2 points,
- * matching `buildSparklinePath`'s own "nothing to draw" convention.
+ * Server-rendered star-history chart for a project page — the full-size,
+ * axis-labeled sibling of the detail panel's compact chart (both share
+ * app/shared/star-history.js's `buildStarChart` geometry; a static page
+ * has no client fetch to lazily draw a chart from, so this one is built
+ * at generate time). `historySeries` is `starHistoryFor`'s output
+ * (oldest-first `{date, stars}[]`). `eventsSeries` (same convention as
+ * `renderProjectEventsTimeline`'s own parameter) is overlaid as clickable
+ * annotation markers along the chart's baseline via `positionAnnotations`
+ * — the "why did this grow, and when" pairing with that function's full
+ * chronological list below the chart; an event outside the chart's own
+ * date range is simply omitted from the chart (still in that list,
+ * unaffected). Renders nothing when there are fewer than 2 history
+ * points, matching `buildStarChart`'s own "nothing to draw" convention.
  */
-function renderProjectStarChart(historySeries) {
-  const spark = buildSparklinePath(historySeries);
-  if (!spark) return "";
+function renderProjectStarChart(historySeries, eventsSeries) {
+  const chart = buildStarChart(historySeries, {
+    width: FULL_CHART_WIDTH,
+    height: FULL_CHART_HEIGHT,
+    padding: FULL_CHART_PADDING,
+    showAxes: true,
+  });
+  if (!chart) return "";
   const caption = starHistoryCaption(historySeries);
+
+  const gridLines = chart.yAxisTicks
+    .map(
+      (tick) =>
+        `<line class="star-chart-gridline" x1="${FULL_CHART_PADDING.left}" x2="${chart.width - FULL_CHART_PADDING.right}" y1="${tick.y}" y2="${tick.y}" />`
+    )
+    .join("");
+  const yLabels = chart.yAxisTicks
+    .map(
+      (tick) =>
+        `<text class="star-chart-axis-label" x="${FULL_CHART_PADDING.left - 6}" y="${tick.y}" text-anchor="end" dominant-baseline="middle">${escapeHtml(tick.label)}</text>`
+    )
+    .join("");
+  const xLabels = chart.xAxisTicks
+    .map((tick) => `<text class="star-chart-axis-label" x="${tick.x}" y="${tick.y}" text-anchor="middle">${escapeHtml(tick.label)}</text>`)
+    .join("");
+  const points = chart.points
+    .map(
+      (p) =>
+        `<circle class="star-chart-point" cx="${p.x}" cy="${p.y}" r="3"><title>${escapeHtml(formatEventDate(p.date))}: ${escapeHtml(formatStars(p.stars))} stars</title></circle>`
+    )
+    .join("");
+  const annotations = positionAnnotations(eventsSeries, chart)
+    .map(({ x, y, event }) => {
+      const label = EVENT_TYPE_LABELS[event.type] ?? event.type;
+      return `
+      <a class="star-chart-annotation" href="${escapeHtml(event.url)}" target="_blank" rel="noopener" transform="translate(${x}, ${y})">
+        <title>${escapeHtml(label)}: ${escapeHtml(event.title)} (${escapeHtml(formatEventDate(event.date))})</title>
+        <path d="M-5,10 L5,10 L0,1 Z" />
+      </a>`;
+    })
+    .join("");
+
   return `
-    <div class="detail-panel-star-chart">
-      <svg class="detail-panel-star-chart-svg" viewBox="0 0 ${spark.width} ${spark.height}" width="${spark.width}" height="${spark.height}">
-        <path d="${spark.path}" />
+    <div class="project-star-chart">
+      <svg class="star-chart-svg" viewBox="0 0 ${chart.width} ${chart.height}" width="${chart.width}" height="${chart.height}">
+        ${gridLines}
+        <path class="star-chart-area" d="${chart.areaPath}" />
+        <path class="star-chart-line" d="${chart.path}" />
+        ${points}
+        ${yLabels}
+        ${xLabels}
+        ${annotations}
       </svg>
       <p class="detail-panel-star-chart-caption">${escapeHtml(caption)}</p>
     </div>`;
@@ -1308,7 +1368,7 @@ export function renderProjectPage(
     </header>
     <div class="project-body">
       <div class="project-momentum-grid">${momentumChips}</div>
-      ${renderProjectStarChart(historySeries)}
+      ${renderProjectStarChart(historySeries, eventsSeries)}
       <div class="project-repo-stats">${repoStatChips}</div>
       ${renderProjectEventsTimeline(eventsSeries)}
       <div class="project-links">

@@ -360,12 +360,48 @@ body {
   margin-top: 8px;
 }
 
-.detail-panel-star-chart-svg path {
+/* Shared star-history chart visuals — used by both the detail panel's
+   compact chart (area + line only) and the project page's full chart
+   (area + line + gridlines + axis labels + point markers + event
+   annotations), so both surfaces read as one visual language. See
+   app/shared/star-history.js's buildStarChart. */
+.star-chart-area {
+  fill: var(--color-accent-soft);
+  stroke: none;
+}
+
+.star-chart-line {
   fill: none;
   stroke: var(--color-accent);
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.star-chart-point {
+  fill: var(--color-accent);
+}
+
+.star-chart-gridline {
+  stroke: var(--color-border);
+  stroke-width: 1;
+}
+
+.star-chart-axis-label {
+  font-size: 10px;
+  fill: var(--color-text-muted);
+}
+
+/* Timeline-event markers overlaid on the project page's chart baseline
+   (renderProjectStarChart, scripts/render-page.mjs) — a small triangle per
+   in-range event, wrapped in a real `<a>` so it's clickable straight to
+   the source discussion with zero JS. */
+.star-chart-annotation path {
+  fill: var(--color-rising-up);
+}
+
+.star-chart-annotation:hover path {
+  opacity: 0.75;
 }
 
 .detail-panel-star-chart-caption {
@@ -1348,9 +1384,14 @@ a.momentum-row-name:hover {
   margin-bottom: 6px;
 }
 
-.project-body .detail-panel-star-chart {
+.project-star-chart {
   margin-top: 20px;
   text-align: center;
+}
+
+.star-chart-svg {
+  max-width: 100%;
+  height: auto;
 }
 
 /* Stars/forks/open-issues, side by side — same repo-stat trio the /compare/

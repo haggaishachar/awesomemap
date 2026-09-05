@@ -1132,7 +1132,7 @@ test("renderProjectPage renders tag chips linking to /tags/<slug>/", () => {
   assert.match(html, /class="detail-panel-tag" href="\/tags\/ggml\/">ggml</);
 });
 
-test("renderProjectPage renders a star-history sparkline when given at least two history points, and omits it otherwise", () => {
+test("renderProjectPage renders a star-history chart when given at least two history points, and omits it otherwise", () => {
   const withHistory = renderProjectPage(PROJECT, {
     domain: PROJECT_DOMAIN,
     signal: NO_SIGNAL,
@@ -1142,11 +1142,42 @@ test("renderProjectPage renders a star-history sparkline when given at least two
       { date: "2026-08-08", stars: 125701 },
     ],
   });
-  assert.match(withHistory, /class="detail-panel-star-chart"/);
+  assert.match(withHistory, /class="project-star-chart"/);
   assert.match(withHistory, /125,701 stars since/);
+  // Real axis ticks, not a bare sparkline path — the y-axis carries the
+  // start/end star counts, the x-axis carries the start/end dates.
+  assert.match(withHistory, /class="star-chart-axis-label"[^>]*>120,000</);
+  assert.match(withHistory, /class="star-chart-axis-label"[^>]*>125,701</);
+  assert.match(withHistory, /class="star-chart-axis-label"[^>]*>Aug 1</);
+  assert.match(withHistory, /class="star-chart-axis-label"[^>]*>Aug 8</);
+  // Every data point is a hoverable marker with a native tooltip — no JS needed.
+  assert.match(withHistory, /class="star-chart-point"[^>]*>\s*<title>Aug 1, 2026: 120,000 stars<\/title>/);
 
   const withoutHistory = renderProjectPage(PROJECT, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
-  assert.doesNotMatch(withoutHistory, /class="detail-panel-star-chart"/);
+  assert.doesNotMatch(withoutHistory, /class="project-star-chart"/);
+});
+
+test("renderProjectPage overlays in-range timeline events as clickable chart annotations, and omits out-of-range ones", () => {
+  const html = renderProjectPage(PROJECT, {
+    domain: PROJECT_DOMAIN,
+    signal: NO_SIGNAL,
+    defaultOgImage: "/og-default.png",
+    historySeries: [
+      { date: "2026-08-01", stars: 120000 },
+      { date: "2026-08-08", stars: 125701 },
+    ],
+    eventsSeries: [
+      { date: "2026-01-01", type: "hn", title: "Ancient HN thread, predates the chart's window", url: "https://hn/old", points: 50 },
+      { date: "2026-08-04", type: "hn", title: "Show HN: llama.cpp speculative decoding", url: "https://hn/2", points: 245 },
+    ],
+  });
+  // In-range event becomes a clickable annotation, linking straight to the discussion.
+  assert.match(html, /class="star-chart-annotation" href="https:\/\/hn\/2"/);
+  assert.match(html, /<title>HN: Show HN: llama\.cpp speculative decoding \(Aug 4, 2026\)<\/title>/);
+  // The out-of-range event is never turned into an annotation link...
+  assert.doesNotMatch(html, /class="star-chart-annotation" href="https:\/\/hn\/old"/);
+  // ...but it's still in the full Timeline list below the chart, unaffected.
+  assert.match(html, /Ancient HN thread, predates the chart's window/);
 });
 
 test("renderProjectPage renders forks/open-issues chips from the latest history snapshot, and omits them when it lacks that data", () => {

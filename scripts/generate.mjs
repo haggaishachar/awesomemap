@@ -102,16 +102,38 @@ for (const domain of rawDomains) {
   parsedDomains.push({ ...domain, projects: sizedProjects });
 }
 
+/**
+ * Joins each candidate's most notable "why is this rising" event (if any)
+ * onto a computeLeaderboard pool — the single most notable external mention
+ * (HN/Lobsters/Reddit/Product Hunt/Bluesky/blog, see sources.md) within the
+ * *same* `windowDays` trailing window the candidate's own growth stat was
+ * computed over, so a months-old mention never gets attached to a recent
+ * spike it has nothing to do with. Takes `windowDays` as a parameter, not a
+ * module-level constant, because rising rows span three different windows
+ * (7d/30d/90d, `RISING_WINDOWS_DAYS`) and each row's reason must match its
+ * own window — a project's 90-day row and its 7-day row can legitimately
+ * point at different events, or only one of them may have one at all. Most
+ * candidates get no `eventReason` in any given window — these events are
+ * sparse by design — so this is a no-op for most of the pool.
+ */
+function withEventReason(pool, windowDays) {
+  const cutoffDateStr = new Date(Date.now() - windowDays * MS_PER_DAY).toISOString().slice(0, 10);
+  return pool.map((candidate) => {
+    const reason = pickReasonEvent(projectEntities.get(candidate.id)?.events, cutoffDateStr);
+    return reason ? { ...candidate, eventReason: reason } : candidate;
+  });
+}
+
 // Pass 2: compute every window's leaderboard (global + one per domain) from
 // the complete set of domains and history — this powers both the dedicated
 // /rising/ page and every teaser below.
 const leaderboardsByWindow = {};
 for (const windowDays of RISING_WINDOWS_DAYS) {
   const byScope = {
-    global: computeLeaderboard(parsedDomains, { scope: "global", windowDays, limit: LEADERBOARD_LIMIT }),
+    global: withEventReason(computeLeaderboard(parsedDomains, { scope: "global", windowDays, limit: LEADERBOARD_LIMIT }), windowDays),
   };
   for (const domain of parsedDomains) {
-    byScope[domain.slug] = computeLeaderboard(parsedDomains, { scope: domain.slug, windowDays, limit: LEADERBOARD_LIMIT });
+    byScope[domain.slug] = withEventReason(computeLeaderboard(parsedDomains, { scope: domain.slug, windowDays, limit: LEADERBOARD_LIMIT }), windowDays);
   }
   leaderboardsByWindow[windowDays] = byScope;
 }
@@ -176,28 +198,6 @@ for (const domain of parsedDomains) {
 /** Joins each candidate's precomputed breakout number (if any) onto a computeLeaderboard pool, for pickThisWeeksSignals' `breakout` pick. */
 function withBreakoutInfo(pool) {
   return pool.map((candidate) => ({ ...candidate, ...breakoutInfoById.get(candidate.id) }));
-}
-
-// Precomputes each project's "why is this rising" event, if it has one — the
-// single most notable external mention (HN/Lobsters/Reddit/Product
-// Hunt/Bluesky/blog, see sources.md) within the same TEASER_WINDOW_DAYS
-// trailing window the signal cards' own growth stat is computed over, so a
-// months-old mention never gets attached to this week's spike. Most
-// projects have none in any given window — these events are sparse by
-// design — so this map only ever covers a small slice of `projectEntities`.
-const eventReasonCutoffDateStr = new Date(Date.now() - TEASER_WINDOW_DAYS * MS_PER_DAY).toISOString().slice(0, 10);
-const eventReasonById = new Map();
-for (const entity of projectEntities.values()) {
-  const reason = pickReasonEvent(entity.events, eventReasonCutoffDateStr);
-  if (reason) eventReasonById.set(entity.id, reason);
-}
-
-/** Joins each candidate's in-window "why" event (if any) onto a computeLeaderboard pool, for the signal cards' reason line. */
-function withEventReason(pool) {
-  return pool.map((candidate) => {
-    const eventReason = eventReasonById.get(candidate.id);
-    return eventReason ? { ...candidate, eventReason } : candidate;
-  });
 }
 
 // Pass 2c: group projects by shared tag (GitHub topics), then rank those
@@ -317,7 +317,7 @@ for (const domain of parsedDomains) {
 // being the best percentDelta overall. A fresh, uncapped call is cheap at
 // this repo's scale and keeps LEADERBOARD_LIMIT (the /rising/ page's own
 // per-section row count) untouched.
-const globalSignalsPool = withEventReason(withBreakoutInfo(computeLeaderboard(parsedDomains, { scope: "global", windowDays: TEASER_WINDOW_DAYS, limit: Infinity })));
+const globalSignalsPool = withEventReason(withBreakoutInfo(computeLeaderboard(parsedDomains, { scope: "global", windowDays: TEASER_WINDOW_DAYS, limit: Infinity })), TEASER_WINDOW_DAYS);
 const thisWeeksSignals = pickThisWeeksSignals(globalSignalsPool);
 
 // One more signals pick per domain, scoped the same uncapped way, so the
@@ -326,7 +326,7 @@ const thisWeeksSignals = pickThisWeeksSignals(globalSignalsPool);
 // pattern /rising/'s own domain filter already uses.
 const thisWeeksSignalsByDomain = {};
 for (const domain of parsedDomains) {
-  const domainSignalsPool = withEventReason(withBreakoutInfo(computeLeaderboard(parsedDomains, { scope: domain.slug, windowDays: TEASER_WINDOW_DAYS, limit: Infinity })));
+  const domainSignalsPool = withEventReason(withBreakoutInfo(computeLeaderboard(parsedDomains, { scope: domain.slug, windowDays: TEASER_WINDOW_DAYS, limit: Infinity })), TEASER_WINDOW_DAYS);
   thisWeeksSignalsByDomain[domain.slug] = pickThisWeeksSignals(domainSignalsPool);
 }
 

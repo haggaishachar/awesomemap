@@ -471,6 +471,74 @@ test("renderRisingPage's rows show the repo id and the domain's short name, and 
   assert.match(html, /<li class="rising-row" data-domain="artificial-intelligence">/);
 });
 
+test("renderRisingPage's row shows a compact reason badge (short label, full phrase + points in the tooltip) when its eventReason is set", () => {
+  const domains = [{ slug: "data-science", name: "Data Science" }];
+  const leaderboardsByWindow = {
+    7: {
+      global: [
+        {
+          rank: 1,
+          id: "a/a",
+          name: "Project A",
+          link: "https://a.example",
+          domain: "Data Science",
+          starDelta: 40,
+          percentDelta: 40,
+          rankDelta: 1,
+          eventReason: { type: "hn", title: "Show HN", url: "https://news.ycombinator.com/item?id=1", points: 312 },
+        },
+      ],
+      "data-science": [],
+    },
+    30: { global: [], "data-science": [] },
+    90: { global: [], "data-science": [] },
+  };
+  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /<span class="rising-row-reason" title="Featured on Hacker News · 312 pts">HN<\/span>/);
+});
+
+test("renderRisingPage's row omits the reason badge entirely when its eventReason is absent", () => {
+  const domains = [{ slug: "data-science", name: "Data Science" }];
+  const leaderboardsByWindow = {
+    7: {
+      global: [
+        { rank: 1, id: "a/a", name: "Project A", link: "https://a.example", domain: "Data Science", starDelta: 40, percentDelta: 40, rankDelta: 1 },
+      ],
+      "data-science": [],
+    },
+    30: { global: [], "data-science": [] },
+    90: { global: [], "data-science": [] },
+  };
+  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
+  assert.doesNotMatch(html, /rising-row-reason/);
+});
+
+test("renderRisingPage's row falls back to a points-less tooltip for a blog eventReason", () => {
+  const domains = [{ slug: "data-science", name: "Data Science" }];
+  const leaderboardsByWindow = {
+    7: {
+      global: [
+        {
+          rank: 1,
+          id: "a/a",
+          name: "Project A",
+          link: "https://a.example",
+          domain: "Data Science",
+          starDelta: 40,
+          percentDelta: 40,
+          rankDelta: 1,
+          eventReason: { type: "blog", title: "Launch post", url: "https://example.com/launch" },
+        },
+      ],
+      "data-science": [],
+    },
+    30: { global: [], "data-science": [] },
+    90: { global: [], "data-science": [] },
+  };
+  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /<span class="rising-row-reason" title="Covered in the press">Blog<\/span>/);
+});
+
 test("renderRisingPage renders a domain filter chip per domain, plus an All chip", () => {
   const domains = [
     { slug: "artificial-intelligence", name: "Best Artificial Intelligence Open Source Projects", shortName: "AI" },

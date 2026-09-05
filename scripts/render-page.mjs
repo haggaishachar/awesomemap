@@ -580,7 +580,12 @@ export function renderLandingPage(
  * `entry.link` (the external homepage) — that page is what shows the
  * description, star-history sparkline, domain rank, and tags before
  * sending visitors onward. `entry.link` is used only as a fallback for the
- * (currently theoretical) case of an entry with no project id.
+ * (currently theoretical) case of an entry with no project id. `entry.eventReason`
+ * (joined on by generate.mjs's `withEventReason`, scoped to this row's own
+ * window — 7d/30d/90d can each point at a different event, or none) renders
+ * as a compact badge next to the repo id, omitted just as often as shown
+ * since these events are sparse — see the homepage signal cards' `reason`
+ * line for the same data shown as a full sentence, where there's room for one.
  */
 function renderRisingRow(entry, { showDomain, basePath }) {
   const arrowSymbol = entry.rankDelta > 0 ? "▲" : entry.rankDelta < 0 ? "▼" : "–";
@@ -594,6 +599,14 @@ function renderRisingRow(entry, { showDomain, basePath }) {
     ? `<span class="rising-row-domain" title="${escapeHtml(entry.domain)}">${escapeHtml(domainShort)}</span>`
     : "";
   const repoId = entry.id ? `<span class="rising-row-repo">${escapeHtml(entry.id)}</span>` : "";
+  // Compact badge, not the homepage cards' full sentence — this row has no
+  // spare width for one. Reuses EVENT_TYPE_LABELS' short form (already
+  // shown on the project page's own timeline) rather than a separate label
+  // map; the fuller "why" sentence goes in the tooltip instead, for anyone
+  // who hovers.
+  const reasonBadge = entry.eventReason
+    ? `<span class="rising-row-reason" title="${escapeHtml(formatEventReasonTitle(entry.eventReason))}">${escapeHtml(EVENT_TYPE_LABELS[entry.eventReason.type] ?? entry.eventReason.type)}</span>`
+    : "";
   const projectHref = entry.id ? `${basePath}/projects/${entry.id}/` : (entry.link ?? "#");
   // Only a real project id is addable to the compare cart — an entry
   // without one (the theoretical fallback above) has no compare-index.json
@@ -608,6 +621,7 @@ function renderRisingRow(entry, { showDomain, basePath }) {
       <span class="rising-row-title">
         <a class="rising-row-name" href="${escapeHtml(projectHref)}">${escapeHtml(entry.name)}</a>
         ${repoId}
+        ${reasonBadge}
       </span>
       ${domainTag}
       <span class="rising-row-arrow ${arrowClass}">${arrowSymbol}${movedBy > 0 ? movedBy : ""}</span>
@@ -695,6 +709,13 @@ const EVENT_REASON_PHRASES = {
 function formatEventReason(eventReason) {
   if (!eventReason) return null;
   return EVENT_REASON_PHRASES[eventReason.type] ?? `Mentioned on ${eventReason.type}`;
+}
+
+/** Full-sentence tooltip for a rising row's compact reason badge — the same phrase as the homepage cards, plus a points count when the event type carries one (blog events don't, see sources.md). */
+function formatEventReasonTitle(eventReason) {
+  const phrase = formatEventReason(eventReason);
+  if (!phrase) return null;
+  return typeof eventReason.points === "number" ? `${phrase} · ${formatCount(eventReason.points)} pts` : phrase;
 }
 
 /**

@@ -1112,6 +1112,19 @@ a.momentum-row-name:hover {
   white-space: nowrap;
 }
 
+.rising-row-reason {
+  align-self: flex-start;
+  flex: 0 0 auto;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 1px 5px;
+  border-radius: 4px;
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+}
+
 .rising-row-domain {
   font-size: 11px;
   color: var(--color-text-muted);

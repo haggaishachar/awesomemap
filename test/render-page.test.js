@@ -1191,6 +1191,26 @@ test("renderProjectPage renders an events timeline newest-first, and omits the s
   assert.doesNotMatch(withoutEvents, /class="project-events"/);
 });
 
+test("renderProjectPage renders known non-HN event types with their real label, and an unknown type with its raw type string", () => {
+  const html = renderProjectPage(PROJECT, {
+    domain: PROJECT_DOMAIN,
+    signal: NO_SIGNAL,
+    defaultOgImage: "/og-default.png",
+    eventsSeries: [
+      { date: "2026-08-01", type: "lobsters", title: "Lobsters thread", url: "https://lobste.rs/s/1" },
+      { date: "2026-08-02", type: "reddit", title: "Reddit thread", url: "https://reddit.com/r/1" },
+      { date: "2026-08-03", type: "producthunt", title: "PH launch", url: "https://producthunt.com/posts/1" },
+      { date: "2026-08-04", type: "blog", title: "Blog post", url: "https://someblog.dev/1" },
+      { date: "2026-08-05", type: "future-source", title: "Unmapped type", url: "https://example.com/1" },
+    ],
+  });
+  assert.match(html, /class="project-event-type project-event-type-lobsters">Lobsters</);
+  assert.match(html, /class="project-event-type project-event-type-reddit">Reddit</);
+  assert.match(html, /class="project-event-type project-event-type-producthunt">Product Hunt</);
+  assert.match(html, /class="project-event-type project-event-type-blog">Blog</);
+  assert.match(html, /class="project-event-type project-event-type-future-source">future-source</);
+});
+
 test("renderProjectPage degrades gracefully for a minimal project record with only an id", () => {
   const minimal = { id: "a/b" };
   const html = renderProjectPage(minimal, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png", basePath: "" });

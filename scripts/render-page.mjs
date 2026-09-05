@@ -1190,7 +1190,7 @@ function renderProjectTagChips(tags, basePath) {
 }
 
 const EVENTS_TIMELINE_LIMIT = 20;
-const EVENT_TYPE_LABELS = { hn: "HN" };
+const EVENT_TYPE_LABELS = { hn: "HN", lobsters: "Lobsters", reddit: "Reddit", producthunt: "Product Hunt", blog: "Blog" };
 
 /**
  * Server-rendered chronological timeline of external events (HN

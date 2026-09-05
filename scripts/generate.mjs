@@ -5,8 +5,8 @@ import { renderDomainPage, renderLandingPage, renderRisingPage, renderTagsIndexP
 import { buildCompareRecord, buildCompareIndex } from "./compare-index.mjs";
 import { explainSignal } from "./signal.mjs";
 import { sortedHistory } from "../app/shared/star-history.js";
-import { sortedEvents } from "./project-events.mjs";
-import { computeProjectSizing, findInvalidSizes, RISING_WINDOWS_DAYS } from "./velocity.mjs";
+import { sortedEvents, pickReasonEvent } from "./project-events.mjs";
+import { computeProjectSizing, findInvalidSizes, RISING_WINDOWS_DAYS, MS_PER_DAY } from "./velocity.mjs";
 import { computeLeaderboard } from "./leaderboard.mjs";
 import { computeGroupGrowth, rankGroups } from "./group-growth.mjs";
 import { buildTagGroups, computeTopTags, computeRisingTags } from "./tag-growth.mjs";
@@ -178,6 +178,28 @@ function withBreakoutInfo(pool) {
   return pool.map((candidate) => ({ ...candidate, ...breakoutInfoById.get(candidate.id) }));
 }
 
+// Precomputes each project's "why is this rising" event, if it has one — the
+// single most notable external mention (HN/Lobsters/Reddit/Product
+// Hunt/Bluesky/blog, see sources.md) within the same TEASER_WINDOW_DAYS
+// trailing window the signal cards' own growth stat is computed over, so a
+// months-old mention never gets attached to this week's spike. Most
+// projects have none in any given window — these events are sparse by
+// design — so this map only ever covers a small slice of `projectEntities`.
+const eventReasonCutoffDateStr = new Date(Date.now() - TEASER_WINDOW_DAYS * MS_PER_DAY).toISOString().slice(0, 10);
+const eventReasonById = new Map();
+for (const entity of projectEntities.values()) {
+  const reason = pickReasonEvent(entity.events, eventReasonCutoffDateStr);
+  if (reason) eventReasonById.set(entity.id, reason);
+}
+
+/** Joins each candidate's in-window "why" event (if any) onto a computeLeaderboard pool, for the signal cards' reason line. */
+function withEventReason(pool) {
+  return pool.map((candidate) => {
+    const eventReason = eventReasonById.get(candidate.id);
+    return eventReason ? { ...candidate, eventReason } : candidate;
+  });
+}
+
 // Pass 2c: group projects by shared tag (GitHub topics), then rank those
 // groups by popularity and by growth — the same "how did this slice of the
 // ecosystem move" question Pass 2b already answers for categories and
@@ -295,7 +317,7 @@ for (const domain of parsedDomains) {
 // being the best percentDelta overall. A fresh, uncapped call is cheap at
 // this repo's scale and keeps LEADERBOARD_LIMIT (the /rising/ page's own
 // per-section row count) untouched.
-const globalSignalsPool = withBreakoutInfo(computeLeaderboard(parsedDomains, { scope: "global", windowDays: TEASER_WINDOW_DAYS, limit: Infinity }));
+const globalSignalsPool = withEventReason(withBreakoutInfo(computeLeaderboard(parsedDomains, { scope: "global", windowDays: TEASER_WINDOW_DAYS, limit: Infinity })));
 const thisWeeksSignals = pickThisWeeksSignals(globalSignalsPool);
 
 // One more signals pick per domain, scoped the same uncapped way, so the
@@ -304,7 +326,7 @@ const thisWeeksSignals = pickThisWeeksSignals(globalSignalsPool);
 // pattern /rising/'s own domain filter already uses.
 const thisWeeksSignalsByDomain = {};
 for (const domain of parsedDomains) {
-  const domainSignalsPool = withBreakoutInfo(computeLeaderboard(parsedDomains, { scope: domain.slug, windowDays: TEASER_WINDOW_DAYS, limit: Infinity }));
+  const domainSignalsPool = withEventReason(withBreakoutInfo(computeLeaderboard(parsedDomains, { scope: domain.slug, windowDays: TEASER_WINDOW_DAYS, limit: Infinity })));
   thisWeeksSignalsByDomain[domain.slug] = pickThisWeeksSignals(domainSignalsPool);
 }
 

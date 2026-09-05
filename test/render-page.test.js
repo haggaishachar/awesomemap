@@ -681,6 +681,32 @@ test("renderLandingPage defaults to no this-week's-signals section when the opti
   assert.doesNotMatch(html, /this-weeks-signals/);
 });
 
+test("renderLandingPage's signal card shows a per-source-type reason line when its eventReason is set", () => {
+  const signals = {
+    mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40, eventReason: { type: "hn", title: "Show HN", url: "https://news.ycombinator.com/item?id=1", points: 312 } },
+    heatingUp: null,
+    watch: null,
+  };
+  const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], { defaultOgImage: "/og-default.png", signals });
+  assert.match(html, /<span class="signal-card-reason">Featured on Hacker News<\/span>/);
+});
+
+test("renderLandingPage's signal card omits the reason line entirely when its eventReason is absent", () => {
+  const signals = { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, heatingUp: null, watch: null };
+  const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], { defaultOgImage: "/og-default.png", signals });
+  assert.doesNotMatch(html, /signal-card-reason/);
+});
+
+test("renderLandingPage's signal card falls back to a generic reason phrase for an event type EVENT_REASON_PHRASES hasn't caught up with", () => {
+  const signals = {
+    mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40, eventReason: { type: "mastodon", title: "Toot", url: "https://example.social/@x/1", points: 20 } },
+    heatingUp: null,
+    watch: null,
+  };
+  const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], { defaultOgImage: "/og-default.png", signals });
+  assert.match(html, /<span class="signal-card-reason">Mentioned on mastodon<\/span>/);
+});
+
 test("renderLandingPage's this-week's-signals section links to the full /rising/ leaderboard, prefixed by BASE_PATH", () => {
   const signals = { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, heatingUp: null, watch: null };
   const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], {

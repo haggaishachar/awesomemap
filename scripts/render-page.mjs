@@ -642,14 +642,22 @@ function renderRisingTeaser(entries, { heading, href, showDomain, basePath }) {
  * One card in the landing page's "This week's signals" module — same shape for
  * every signal type, just a different label/title/stat/meta/href/desc. `desc`
  * (a project's own `data/projects/**.json` `desc` field) is omitted when the
- * project has none, same fallback `renderHeaderCell` in compare.js uses. The
- * navigable content lives in an inner `<a>` rather than making the whole
- * card a link, so the `compare-toggle` button (`compareId`, when the
- * signal has a project id) can sit alongside it as its own click target
+ * project has none, same fallback `renderHeaderCell` in compare.js uses.
+ * `reason` (from `formatEventReason`) is the answer to "why" — an in-window
+ * external mention explaining the stat above it — and is omitted just as
+ * often as it's shown, since these events are sparse (see sources.md); a
+ * card with no in-window event renders exactly as it did before this
+ * existed. The navigable content lives in an inner `<a>` rather than making
+ * the whole card a link, so the `compare-toggle` button (`compareId`, when
+ * the signal has a project id) can sit alongside it as its own click target
  * instead of nesting a `<button>` inside an `<a>` — invalid HTML that
  * would also make the button's click bubble into the card's navigation.
+ * `reason` is plain text rather than a link to the mention itself for the
+ * same reason: it lives inside that same outer `<a>`, and a nested `<a>`
+ * would be invalid HTML too — the project's own page links to the mention.
  */
-function renderSignalCard({ label, title, stat, meta, href, compareId, desc }) {
+function renderSignalCard({ label, title, stat, meta, href, compareId, desc, reason }) {
+  const reasonLine = reason ? `<span class="signal-card-reason">${escapeHtml(reason)}</span>` : "";
   const metaLine = meta ? `<span class="signal-card-meta">${escapeHtml(meta)}</span>` : "";
   const descLine = desc ? `<span class="signal-card-desc">${escapeHtml(desc)}</span>` : "";
   const compareToggle = compareId
@@ -661,11 +669,32 @@ function renderSignalCard({ label, title, stat, meta, href, compareId, desc }) {
         <span class="signal-card-label">${label}</span>
         <span class="signal-card-title">${escapeHtml(title)}</span>
         <span class="signal-card-stat">${stat}</span>
+        ${reasonLine}
         ${metaLine}
         ${descLine}
       </a>
       ${compareToggle}
     </div>`;
+}
+
+// Short phrase per event type for a signal card's "why" line — deliberately
+// more editorial than EVENT_TYPE_LABELS' plain names, since this reads as a
+// headline fragment ("Featured on Hacker News"), not a tag. Falls back to a
+// generic template for a type this map hasn't caught up with yet, same
+// convention as EVENT_TYPE_LABELS' own fallback.
+const EVENT_REASON_PHRASES = {
+  hn: "Featured on Hacker News",
+  lobsters: "Discussed on Lobsters",
+  reddit: "Trending on Reddit",
+  producthunt: "Launched on Product Hunt",
+  bluesky: "Buzzing on Bluesky",
+  blog: "Covered in the press",
+};
+
+/** Formats a signal candidate's `eventReason` (from `pickReasonEvent`, joined on by generate.mjs) into the card's "why" phrase, or null when it has none. */
+function formatEventReason(eventReason) {
+  if (!eventReason) return null;
+  return EVENT_REASON_PHRASES[eventReason.type] ?? `Mentioned on ${eventReason.type}`;
 }
 
 /**
@@ -690,6 +719,7 @@ function renderSignalCards({ mover, heatingUp, watch, breakout } = {}, { basePat
         href: `${basePath}/projects/${mover.id}/`,
         compareId: mover.id,
         desc: mover.desc,
+        reason: formatEventReason(mover.eventReason),
       }),
     breakout &&
       renderSignalCard({
@@ -700,6 +730,7 @@ function renderSignalCards({ mover, heatingUp, watch, breakout } = {}, { basePat
         href: `${basePath}/projects/${breakout.id}/`,
         compareId: breakout.id,
         desc: breakout.desc,
+        reason: formatEventReason(breakout.eventReason),
       }),
     heatingUp &&
       renderSignalCard({
@@ -710,6 +741,7 @@ function renderSignalCards({ mover, heatingUp, watch, breakout } = {}, { basePat
         href: `${basePath}/projects/${heatingUp.id}/`,
         compareId: heatingUp.id,
         desc: heatingUp.desc,
+        reason: formatEventReason(heatingUp.eventReason),
       }),
     watch &&
       renderSignalCard({
@@ -720,6 +752,7 @@ function renderSignalCards({ mover, heatingUp, watch, breakout } = {}, { basePat
         href: `${basePath}/projects/${watch.id}/`,
         compareId: watch.id,
         desc: watch.desc,
+        reason: formatEventReason(watch.eventReason),
       }),
   ].filter(Boolean);
 

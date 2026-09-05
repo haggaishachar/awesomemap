@@ -1250,11 +1250,11 @@ function renderProjectTagChips(tags, basePath) {
 }
 
 const EVENTS_TIMELINE_LIMIT = 20;
-const EVENT_TYPE_LABELS = { hn: "HN", lobsters: "Lobsters", reddit: "Reddit", producthunt: "Product Hunt", blog: "Blog" };
+const EVENT_TYPE_LABELS = { hn: "HN", lobsters: "Lobsters", reddit: "Reddit", producthunt: "Product Hunt", bluesky: "Bluesky", blog: "Blog" };
 
 /**
  * Server-rendered chronological timeline of external events (HN, Lobsters,
- * Reddit, Product Hunt, blog/launch posts) for a project page — the "why did
+ * Reddit, Product Hunt, Bluesky, blog/launch posts) for a project page — the "why did
  * this grow" companion to the star-history sparkline above it. `eventsSeries`
  * is `project-events.mjs`'s `sortedEvents` output (oldest-first, mirroring
  * `historySeries`'s convention); rendered newest-first here, like a

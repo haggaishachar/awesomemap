@@ -237,7 +237,7 @@ test("the map badge falls back to a root-relative link, prefixed by BASE_PATH, w
   assert.match(html, /class="map-badge" href="\/techmap\/"/);
 });
 
-test("the domain page renders X/LinkedIn/Reddit share links and a copy-link button for the domain's own canonical URL", () => {
+test("the domain page renders X/LinkedIn/Reddit share links (with an icon per channel), and no copy-link button, for the domain's own canonical URL", () => {
   const domain = { slug: "data-science", name: "Data Science", description: "desc" };
   const html = renderDomainPage(domain, ROOT_TREE, {
     defaultOgImage: "/og-default.png",
@@ -246,17 +246,34 @@ test("the domain page renders X/LinkedIn/Reddit share links and a copy-link butt
   });
   assert.match(
     html,
-    /class="map-share-x" href="https:\/\/twitter\.com\/intent\/tweet\?url=https%3A%2F%2Fawesomemap\.dev%2Fdata-science%2F&amp;text=Data\+Science"/
+    /class="map-share-x" href="https:\/\/twitter\.com\/intent\/tweet\?url=https%3A%2F%2Fawesomemap\.dev%2Fdata-science%2F&amp;text=Data\+Science"[^>]*><svg[^>]*>[\s\S]*?<\/svg> X<\/a>/
   );
   assert.match(
     html,
-    /class="map-share-linkedin" href="https:\/\/www\.linkedin\.com\/sharing\/share-offsite\/\?url=https%3A%2F%2Fawesomemap\.dev%2Fdata-science%2F"/
+    /class="map-share-linkedin" href="https:\/\/www\.linkedin\.com\/sharing\/share-offsite\/\?url=https%3A%2F%2Fawesomemap\.dev%2Fdata-science%2F"[^>]*><svg[^>]*>[\s\S]*?<\/svg> LinkedIn<\/a>/
   );
   assert.match(
     html,
-    /class="map-share-reddit" href="https:\/\/www\.reddit\.com\/submit\?url=https%3A%2F%2Fawesomemap\.dev%2Fdata-science%2F&amp;title=Data\+Science"/
+    /class="map-share-reddit" href="https:\/\/www\.reddit\.com\/submit\?url=https%3A%2F%2Fawesomemap\.dev%2Fdata-science%2F&amp;title=Data\+Science"[^>]*><svg[^>]*>[\s\S]*?<\/svg> Reddit<\/a>/
   );
-  assert.match(html, /class="map-share-copy" data-copy-text="https:\/\/awesomemap\.dev\/data-science\/"/);
+  // The map badge right below already links to this same canonical URL, and
+  // copying a page's own address is a native one-click browser affair — no
+  // dedicated "Copy link" button needed alongside the channel buttons.
+  assert.doesNotMatch(html, /map-share-copy/);
+});
+
+test("the domain page's share row and embed toggle are placed after the map (and its badge), with a divider before the rest of the page", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png" });
+  const appIndex = html.indexOf('id="app"');
+  const badgeIndex = html.indexOf('class="map-badge"');
+  const actionsIndex = html.indexOf('class="map-actions"');
+  const dividerIndex = html.indexOf('class="map-section-divider"');
+  const insightsIndex = html.indexOf('class="domain-insights"');
+  assert.ok(appIndex < badgeIndex, "share row should come after the map");
+  assert.ok(badgeIndex < actionsIndex, "share row should come after the badge");
+  assert.ok(actionsIndex < dividerIndex, "divider should come after the share row");
+  assert.ok(dividerIndex < insightsIndex, "divider should come before the rest of the page");
 });
 
 test("the domain page renders a copyable iframe embed snippet pointing at the domain's /embed/ URL", () => {

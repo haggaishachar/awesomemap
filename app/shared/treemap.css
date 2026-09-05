@@ -932,6 +932,7 @@ a.momentum-row-name:hover {
 .map-embed-copy {
   display: flex;
   align-items: center;
+  gap: 6px;
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: 6px;
@@ -941,6 +942,10 @@ a.momentum-row-name:hover {
   text-decoration: none;
   font: inherit;
   font-size: 13px;
+}
+
+.map-share a svg {
+  flex: none;
 }
 
 .map-share a:hover,
@@ -975,12 +980,19 @@ a.momentum-row-name:hover {
   height: 32px;
 }
 
+/* Right-aligned within the same 1000px column every other map-section
+   element uses, rather than centered — it's an attribution credit, not a
+   heading, so it sits out of the way in the corner instead of competing
+   with the share row for the page's visual center. */
 .map-badge {
+  box-sizing: border-box;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 6px;
-  padding: 8px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 8px 24px;
   font-size: 12px;
   color: var(--color-text-muted);
   text-decoration: none;
@@ -993,6 +1005,17 @@ a.momentum-row-name:hover {
 .map-badge-logo {
   flex: none;
   border-radius: 2px;
+}
+
+/* Separates the map + its share/embed row from the rest of the page (the
+   momentum/tag/rising widgets below), so the share buttons read as acting
+   on the map above them rather than on the page as a whole. */
+.map-section-divider {
+  box-sizing: border-box;
+  max-width: 1000px;
+  margin: 24px auto;
+  border: none;
+  border-top: 1px solid var(--color-border);
 }
 
 .rising-domain-filter {

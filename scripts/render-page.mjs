@@ -163,16 +163,33 @@ function renderMapBadge(siteUrl, basePath) {
     </a>`;
 }
 
+// One small brand glyph per share channel, inline so no icon font/extra
+// request is needed — same `currentColor` convention as the site header's
+// GitHub icon, so each button's existing text color drives its icon too.
+const SHARE_ICONS = {
+  x: '<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M18.244 2H21l-6.53 7.47L22 22h-6.9l-5.4-7.02L3.4 22H1l7.02-8.03L2 2h7l4.86 6.42L18.244 2Zm-1.21 18h1.86L7.08 4H5.1l11.93 16Z"/></svg>',
+  linkedin:
+    '<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm7 0h3.8v1.64h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.46-2.16 2.96V21h-4V9Z"/></svg>',
+  reddit:
+    '<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M22 12.1c0-1.16-.94-2.1-2.1-2.1-.56 0-1.06.22-1.44.57-1.4-.94-3.31-1.55-5.42-1.63l1.06-3.3 2.87.63a1.5 1.5 0 1 0 .14-.9l-3.2-.7a.4.4 0 0 0-.48.28l-1.2 3.75c-2.16.06-4.11.68-5.53 1.63A2.1 2.1 0 0 0 4.1 10a2.1 2.1 0 0 0-1 3.95c-.03.18-.04.36-.04.55 0 3.02 3.53 5.47 7.88 5.47s7.88-2.45 7.88-5.47c0-.18-.01-.36-.04-.53A2.1 2.1 0 0 0 22 12.1ZM8.2 13.4a1.2 1.2 0 1 1 2.4 0 1.2 1.2 0 0 1-2.4 0Zm7.32 3.06c-.8.8-2.05 1.19-3.52 1.19s-2.72-.4-3.52-1.19a.4.4 0 1 1 .57-.56c.63.63 1.63.95 2.95.95s2.32-.32 2.95-.95a.4.4 0 1 1 .57.56Zm-.24-1.86a1.2 1.2 0 1 1 0-2.4 1.2 1.2 0 0 1 0 2.4Z"/></svg>',
+};
+
 /**
- * Share row (X/LinkedIn/Reddit + copy link) and Embed toggle for a domain
- * page. X/LinkedIn/Reddit are plain links — the URL shape alone is enough,
- * no client JS involved — built by share-links.js and escaped the same way
- * every other href on the page is. The embed snippet (from
- * embed-snippet.js) is escaped a *second* time here: embed-snippet.js's own
- * escaping makes the iframe tag itself valid HTML, and this escaping is
- * what makes that markup display as literal source text inside the
- * `<textarea>` rather than being parsed as a tag. Omitted entirely from the
- * embed variant — an embedded map has nothing further to share or embed.
+ * Share row (X/LinkedIn/Reddit) and Embed toggle for a domain page, placed
+ * below the map (see renderDomainPage) so the buttons read as acting on the
+ * map above them rather than on the page as a whole. X/LinkedIn/Reddit are
+ * plain links — the URL shape alone is enough, no client JS involved —
+ * built by share-links.js and escaped the same way every other href on the
+ * page is; each carries a channel icon (SHARE_ICONS) alongside its label.
+ * There's no separate "copy link" button — the map badge right below
+ * already links to this same canonical URL, and browsers make copying a
+ * page's own address a one-click affair from the address bar. The embed
+ * snippet (from embed-snippet.js) is escaped a *second* time here:
+ * embed-snippet.js's own escaping makes the iframe tag itself valid HTML,
+ * and this escaping is what makes that markup display as literal source
+ * text inside the `<textarea>` rather than being parsed as a tag. Omitted
+ * entirely from the embed variant — an embedded map has nothing further to
+ * share or embed.
  */
 function renderMapActions({ ogUrl, embedUrl, domainName, basePath }) {
   const xUrl = escapeHtml(buildTwitterShareUrl(ogUrl, domainName));
@@ -182,10 +199,9 @@ function renderMapActions({ ogUrl, embedUrl, domainName, basePath }) {
   return `
     <div class="map-actions">
       <div class="map-share" role="group" aria-label="Share this map">
-        <a class="map-share-x" href="${xUrl}" target="_blank" rel="noopener">X</a>
-        <a class="map-share-linkedin" href="${linkedInUrl}" target="_blank" rel="noopener">LinkedIn</a>
-        <a class="map-share-reddit" href="${redditUrl}" target="_blank" rel="noopener">Reddit</a>
-        <button type="button" class="map-share-copy" data-copy-text="${escapeHtml(ogUrl)}">Copy link</button>
+        <a class="map-share-x" href="${xUrl}" target="_blank" rel="noopener">${SHARE_ICONS.x} X</a>
+        <a class="map-share-linkedin" href="${linkedInUrl}" target="_blank" rel="noopener">${SHARE_ICONS.linkedin} LinkedIn</a>
+        <a class="map-share-reddit" href="${redditUrl}" target="_blank" rel="noopener">${SHARE_ICONS.reddit} Reddit</a>
       </div>
       <button type="button" class="map-embed-toggle" aria-expanded="false" aria-controls="map-embed-panel">Embed</button>
     </div>
@@ -196,9 +212,9 @@ function renderMapActions({ ogUrl, embedUrl, domainName, basePath }) {
 }
 
 /**
- * Wires up renderMapActions's copy-link/embed-copy buttons and the embed
- * panel's show/hide toggle. Sits right after that markup in every caller,
- * the same convention renderCompareCartBootstrap follows for the header.
+ * Wires up renderMapActions's embed-copy button and the embed panel's
+ * show/hide toggle. Sits right after that markup in every caller, the same
+ * convention renderCompareCartBootstrap follows for the header.
  */
 function renderMapActionsBootstrap(basePath) {
   return `
@@ -209,14 +225,9 @@ function renderMapActionsBootstrap(basePath) {
         button.textContent = "Copied!";
         setTimeout(() => { button.textContent = original; }, 1500);
       }
-      document.querySelectorAll(".map-share-copy, .map-embed-copy").forEach((button) => {
-        button.addEventListener("click", async () => {
-          const text = button.classList.contains("map-embed-copy")
-            ? document.querySelector(".map-embed-code").value
-            : button.dataset.copyText;
-          await copyToClipboard(text);
-          flashCopied(button);
-        });
+      document.querySelector(".map-embed-copy").addEventListener("click", async (event) => {
+        await copyToClipboard(document.querySelector(".map-embed-code").value);
+        flashCopied(event.currentTarget);
       });
       const embedToggle = document.querySelector(".map-embed-toggle");
       const embedPanel = document.getElementById("map-embed-panel");
@@ -287,7 +298,10 @@ export function renderDomainPage(
   const embedUrl = `${siteUrl}${basePath}/embed/${domain.slug}/`;
   // Omitted from the embed variant, like the rest of the page chrome — an
   // embedded map is already what these buttons would point at embedding or
-  // sharing, so it has nothing further to offer.
+  // sharing, so it has nothing further to offer. Placed below the map itself
+  // (see `body` below) rather than above it, so the buttons read as acting
+  // on the map a visitor has just seen, not on a page they haven't scrolled
+  // into yet.
   const mapActionsSection = embed
     ? ""
     : renderMapActions({ ogUrl, embedUrl, domainName: domain.name, basePath }) + renderMapActionsBootstrap(basePath);
@@ -310,7 +324,6 @@ export function renderDomainPage(
   const body = `
     ${header}
     ${heroSection}
-    ${mapActionsSection}
     ${compareCartScript}
     ${itemListJsonLd}
     <div id="app"></div>
@@ -358,6 +371,8 @@ export function renderDomainPage(
       });
     </script>
     ${mapBadge}
+    ${mapActionsSection}
+    ${embed ? "" : '<hr class="map-section-divider" />'}
     <div class="domain-insights">
       ${categorySection}
       ${tagSection}

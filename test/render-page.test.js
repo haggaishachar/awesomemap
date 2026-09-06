@@ -1415,6 +1415,23 @@ test("renderProjectPage degrades gracefully for a minimal project record with on
   assert.match(html, /<nav class="project-breadcrumb"[^>]*><a href="\/">Home<\/a><span aria-hidden="true"> › <\/span><a href="\/artificial-intelligence\/">AI<\/a><\/nav>/);
 });
 
+test("renderProjectPage uses the project's own image as its og:image/twitter:image, a small 'summary' card, and no width/height hint (real dimensions vary)", () => {
+  const html = renderProjectPage(PROJECT, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
+  assert.match(html, /<meta property="og:image" content="https:\/\/avatars\.githubusercontent\.com\/u\/1\?v=4" \/>/);
+  assert.match(html, /<meta name="twitter:image" content="https:\/\/avatars\.githubusercontent\.com\/u\/1\?v=4" \/>/);
+  assert.match(html, /<meta name="twitter:card" content="summary" \/>/);
+  assert.doesNotMatch(html, /og:image:width/);
+  assert.doesNotMatch(html, /og:image:height/);
+});
+
+test("renderProjectPage falls back to the site's default image, the large landscape card, and its usual width/height when the project has no image of its own", () => {
+  const html = renderProjectPage({ id: "a/b" }, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
+  assert.match(html, /<meta property="og:image" content="\/og-default\.png" \/>/);
+  assert.match(html, /<meta name="twitter:card" content="summary_large_image" \/>/);
+  assert.match(html, /<meta property="og:image:width" content="1200" \/>/);
+  assert.match(html, /<meta property="og:image:height" content="630" \/>/);
+});
+
 test("renderProjectPage's canonical URL is shaped /projects/<id>/, and gets the BASE_PATH prefix", () => {
   const html = renderProjectPage(PROJECT, {
     domain: PROJECT_DOMAIN,

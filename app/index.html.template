@@ -14,11 +14,10 @@
   <meta property="og:description" content="{{OG_DESCRIPTION}}" />
   <meta property="og:image" content="{{OG_IMAGE}}" />
   <meta property="og:image:alt" content="{{OG_DESCRIPTION}}" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
+  {{OG_IMAGE_DIMENSIONS}}
   <meta property="og:url" content="{{OG_URL}}" />
   <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:card" content="{{TWITTER_CARD}}" />
   <meta name="twitter:site" content="@awesomemapdev" />
   <meta name="twitter:title" content="{{OG_TITLE}}" />
   <meta name="twitter:description" content="{{OG_DESCRIPTION}}" />

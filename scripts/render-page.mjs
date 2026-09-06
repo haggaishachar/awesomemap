@@ -239,11 +239,23 @@ function renderMapActionsBootstrap(basePath) {
     </script>`;
 }
 
-function renderShell({ title, ogTitle, ogDescription, ogImage, ogUrl, base, body }) {
+// Every page but a project page's own (see renderProjectPage) shares one
+// fixed-size landscape image (defaultOgImage) and gets the "large image"
+// Twitter/X card built for that shape. A project page passes its own
+// project.image instead when it has one — real dimensions vary (a square
+// GitHub avatar, or an arbitrary repo-committed logo file), so it omits
+// the width/height hint entirely (crawlers measure the real image) and
+// asks for the small "summary" card instead, which doesn't assume a
+// landscape frame.
+const DEFAULT_OG_IMAGE_DIMENSIONS = ['<meta property="og:image:width" content="1200" />', '<meta property="og:image:height" content="630" />'].join("\n  ");
+
+function renderShell({ title, ogTitle, ogDescription, ogImage, ogImageDimensions = DEFAULT_OG_IMAGE_DIMENSIONS, twitterCard = "summary_large_image", ogUrl, base, body }) {
   return TEMPLATE.replace(/{{TITLE}}/g, () => escapeHtml(title))
     .replace(/{{OG_TITLE}}/g, () => escapeHtml(ogTitle))
     .replace(/{{OG_DESCRIPTION}}/g, () => escapeHtml(ogDescription))
     .replace(/{{OG_IMAGE}}/g, () => escapeHtml(ogImage))
+    .replace("{{OG_IMAGE_DIMENSIONS}}", () => ogImageDimensions)
+    .replace(/{{TWITTER_CARD}}/g, () => escapeHtml(twitterCard))
     .replace(/{{OG_URL}}/g, () => escapeHtml(ogUrl))
     .replace(/{{BASE}}/g, () => base)
     .replace("{{BODY}}", () => body);
@@ -1498,11 +1510,19 @@ export function renderProjectPage(
     ${renderSiteFooter(basePath)}
   `;
 
+  // A project with its own image (a repo-committed logo, or failing that
+  // its GitHub owner's avatar — see enrich-domain.mjs) gets that as its
+  // link-preview image instead of the site's generic one, so each
+  // project's own page/tweet looks distinct. Real dimensions vary, so no
+  // width/height hint is asserted (renderShell's default omits it) and the
+  // card type drops to "summary" (small, not assumed-landscape).
   return renderShell({
     title: `${project.name ?? project.id} — awesomemap`,
     ogTitle: project.name ?? project.id,
     ogDescription: project.desc ?? "",
-    ogImage: defaultOgImage,
+    ogImage: project.image ?? defaultOgImage,
+    ogImageDimensions: project.image ? "" : undefined,
+    twitterCard: project.image ? "summary" : undefined,
     ogUrl,
     base: basePath,
     body,

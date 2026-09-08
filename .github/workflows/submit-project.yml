@@ -1,24 +1,24 @@
 name: Process project submission
 
-# Used to fire the instant a "Suggest a project" issue was opened —
-# whether via the /submit/ page's prefilled redirect or typed by hand —
-# and auto-process it end to end (scripts/process-submission.mjs): parse,
-# quality bar, classify, commit or reject, always closing the issue with
-# a comment. No maintainer step.
-# Disabled: scripts/process-submission.mjs was deleted in favor of
-# awesomemap-data's own HTTP-wired copy, which needs a cross-repo trigger
-# from this repo's "Suggest a project" issues — deferred to "Part B", see
-# docs/superpowers/specs/2026-09-04-awesomemap-data-api-wiring-design.md.
-# An opened "Suggest a project" issue currently sits unprocessed.
+# Fires the instant a "Suggest a project" issue is opened — whether via
+# the /submit/ page's prefilled redirect or typed by hand — and
+# auto-processes it end to end via awesomemap-data's
+# scripts/process-submission.mjs: parse, quality bar, classify, commit to
+# D1 or reject, always closing the issue with a comment. No maintainer
+# step. See docs/superpowers/specs/2026-09-08-submission-trigger-design.md
+# for why this checks out awesomemap-data's source and runs it here
+# (passing --repo) rather than dispatching a workflow over there.
 on:
+  issues:
+    types: [opened]
   workflow_dispatch:
-
-permissions:
-  contents: write
-  issues: write
+    inputs:
+      issue:
+        description: "Issue number to (re)process"
+        required: true
 
 concurrency:
-  group: submission-${{ github.event.issue.number }}
+  group: submission-${{ github.event.inputs.issue || github.event.issue.number }}
   cancel-in-progress: false
 
 jobs:
@@ -26,31 +26,38 @@ jobs:
     # The "discovery" label is applied automatically by suggest-a-project.md
     # (see .github/ISSUE_TEMPLATE/) — scoping on it (rather than every
     # opened issue) keeps this from firing on a New domain proposal or a
-    # plain bug report.
-    if: contains(github.event.issue.labels.*.name, 'discovery')
+    # plain bug report. Always runs for a manual workflow_dispatch, since
+    # that's an explicit maintainer request to (re)process a specific issue.
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.issue.labels.*.name, 'discovery')
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      AWESOMEMAP_DATA_API_URL: ${{ secrets.AWESOMEMAP_DATA_API_URL }}
+      AWESOMEMAP_DATA_INTERNAL_TOKEN: ${{ secrets.AWESOMEMAP_DATA_INTERNAL_TOKEN }}
     steps:
+      # awesomemap-data owns process-submission.mjs and the D1-backed
+      # data-store.mjs it depends on — checked out read-only (Contents:
+      # Read-only PAT) rather than ported here, so this stays a thin
+      # trigger, not a second copy of the pipeline.
       - uses: actions/checkout@v4
+        with:
+          repository: haggaishachar/awesomemap-data
+          token: ${{ secrets.AWESOMEMAP_DATA_CHECKOUT_TOKEN }}
+          path: awesomemap-data
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm ci
-      - run: node scripts/process-submission.mjs --issue "${{ github.event.issue.number }}"
-      # if: always() — commits whatever was already written to disk even if
-      # the previous step exited non-zero partway through (e.g. it managed
-      # to save the project/domain files but the closing `gh issue close`
-      # call itself failed), same reasoning as discovery.yml's commit step.
-      - if: always()
+      - working-directory: awesomemap-data
+        run: npm ci
+      # --repo pins the target explicitly: GH_TOKEN above is this
+      # workflow's own default token (scoped to awesomemap, issues:write),
+      # but cwd is the awesomemap-data checkout, whose git remote would
+      # otherwise make `gh` default to the wrong repo.
+      - working-directory: awesomemap-data
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/domains/*.json data/projects/
-          if git diff --cached --quiet; then
-            echo "No submission changes to commit."
-          else
-            git commit -m "chore: project submission #${{ github.event.issue.number }}"
-            git push
-          fi
+          node scripts/process-submission.mjs \
+            --issue "${{ github.event.inputs.issue || github.event.issue.number }}" \
+            --repo haggaishachar/awesomemap

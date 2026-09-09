@@ -27,17 +27,36 @@ export function explainSignal({ growthByWindow, hasEnoughHistory, categoryGrowth
 }
 
 /**
- * `true` when every RISING_WINDOWS_DAYS window shows positive growth (a
- * sustained riser), `false` when only the shortest window does (a
- * short-term spike), `null` when there's nothing to say — either a window
- * is missing history, or the shortest window isn't even positive.
+ * `true` when every *currently trackable* RISING_WINDOWS_DAYS window shows
+ * positive growth (a sustained riser — at least two windows must agree;
+ * see below), `false` when only the shortest tracked window is positive (a
+ * short-term spike), `null` when there's nothing to say — no window has
+ * enough history yet, or the shortest tracked window isn't even positive.
+ *
+ * Degrades to whichever windows currently have enough history rather than
+ * requiring all of RISING_WINDOWS_DAYS (7/30/90) up front: a project's
+ * rising30/rising90 windows can't have enough history before the catalog
+ * itself has accumulated that much snapshot history, so requiring all
+ * three meant `sustained` was `null` for literally every project on the
+ * site for the catalog's first ~90 days — not just weaker, completely
+ * silent, since that's also the only path to a non-null return at all.
+ * `rising7` is always the first window to have enough history (it needs
+ * the least), so at least one tracked window is guaranteed whenever
+ * `hasEnoughHistory` has any entries set.
+ *
+ * At least two tracked windows must agree to call something "sustained" —
+ * with only one window trackable (early on), this can still distinguish a
+ * "spike" (that window is positive) from "nothing to say" (it isn't), but
+ * never claims "sustained" from a single data point.
  */
 function computeSustained(growthByWindow, hasEnoughHistory) {
-  const allTracked = RISING_WINDOWS_DAYS.every((windowDays) => hasEnoughHistory?.[`rising${windowDays}`]);
-  if (!allTracked) return null;
+  const trackedWindows = RISING_WINDOWS_DAYS.filter((windowDays) => hasEnoughHistory?.[`rising${windowDays}`]);
+  if (trackedWindows.length === 0) return null;
 
-  const allPositive = RISING_WINDOWS_DAYS.every((windowDays) => growthByWindow[`rising${windowDays}`].starDelta > 0);
-  if (allPositive) return true;
+  if (trackedWindows.length >= 2) {
+    const allPositive = trackedWindows.every((windowDays) => growthByWindow[`rising${windowDays}`].starDelta > 0);
+    if (allPositive) return true;
+  }
 
   return growthByWindow.rising7.starDelta > 0 ? false : null;
 }

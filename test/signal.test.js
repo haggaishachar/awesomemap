@@ -36,10 +36,69 @@ test("sustained is null when the 7-day window isn't positive either, even if a l
   assert.equal(result.sustained, null);
 });
 
-test("sustained is null when any window lacks enough history", () => {
+// Degraded-history cases: the catalog's own history hasn't reached 90 days
+// yet (won't until ~90 days after its first tracked snapshot), and no
+// individual project can have rising30/rising90 history before the catalog
+// itself does. Before this fix, computeSustained required all three
+// RISING_WINDOWS_DAYS windows to have enough history before saying
+// anything at all — meaning `sustained` was `null` for literally every
+// project on the site for that entire ~90-day ramp-up, since rising90
+// never had enough history to satisfy it. See the commit that added these
+// tests for the production incident this fixes.
+
+test("sustained is true when the two currently-trackable windows are both positive, even though a longer window has no history yet", () => {
   const result = explainSignal({
     growthByWindow: { rising7: growth(50, 5), rising30: growth(200, 20), rising90: growth(0, 0) },
     hasEnoughHistory: { rising7: true, rising30: true, rising90: false },
+    categoryGrowth7d: undefined,
+  });
+  assert.equal(result.sustained, true);
+});
+
+test("sustained is false (a spike) when the two currently-trackable windows disagree", () => {
+  const result = explainSignal({
+    growthByWindow: { rising7: growth(50, 5), rising30: growth(-10, -1), rising90: growth(0, 0) },
+    hasEnoughHistory: { rising7: true, rising30: true, rising90: false },
+    categoryGrowth7d: undefined,
+  });
+  assert.equal(result.sustained, false);
+});
+
+test("sustained is null when the two currently-trackable windows disagree and the shortest isn't positive either", () => {
+  const result = explainSignal({
+    growthByWindow: { rising7: growth(-5, -1), rising30: growth(200, 20), rising90: growth(0, 0) },
+    hasEnoughHistory: { rising7: true, rising30: true, rising90: false },
+    categoryGrowth7d: undefined,
+  });
+  assert.equal(result.sustained, null);
+});
+
+test("sustained can be false (a spike) from the 7-day window alone, when no longer window is trackable yet", () => {
+  const result = explainSignal({
+    growthByWindow: { rising7: growth(50, 5), rising30: growth(0, 0), rising90: growth(0, 0) },
+    hasEnoughHistory: { rising7: true, rising30: false, rising90: false },
+    categoryGrowth7d: undefined,
+  });
+  assert.equal(result.sustained, false);
+});
+
+test("sustained is null (never 'sustained') from a single tracked window alone, even when it's positive", () => {
+  // A single window can distinguish "spike" (false, above) from "nothing to
+  // say" (null, here) but can never justify "sustained" — that claim
+  // requires at least two windows to agree, or it's indistinguishable from
+  // a spike.
+  const result = explainSignal({
+    growthByWindow: { rising7: growth(-5, -1), rising30: growth(0, 0), rising90: growth(0, 0) },
+    hasEnoughHistory: { rising7: true, rising30: false, rising90: false },
+    categoryGrowth7d: undefined,
+  });
+  assert.equal(result.sustained, null);
+});
+
+test("sustained is null when no window has enough history at all (e.g. a brand-new project)", () => {
+  const result = explainSignal({
+    growthByWindow: { rising7: growth(0, 0), rising30: growth(0, 0), rising90: growth(0, 0) },
+    hasEnoughHistory: { rising7: false, rising30: false, rising90: false },
     categoryGrowth7d: undefined,
   });
   assert.equal(result.sustained, null);
@@ -118,15 +177,19 @@ test("headline uses only the sustained clause when there's no category to compar
   assert.equal(result.headline, "Growing steadily this week");
 });
 
-test("headline uses only the relative clause when sustained is null because a longer window lacks history", () => {
+test("headline combines a sustained clause from two trackable windows with the relative clause, even though a longer window lacks history", () => {
+  // Before the fix documented in computeSustained's own comment, this
+  // exact shape (rising90 not yet trackable) forced `sustained` to `null`
+  // regardless of rising7/rising30's sign, silently dropping the sustained
+  // clause here even though both currently-trackable windows agree.
   const result = explainSignal({
     growthByWindow: { rising7: growth(50, 10), rising30: growth(50, 10), rising90: growth(0, 0) },
     hasEnoughHistory: { rising7: true, rising30: true, rising90: false },
     categoryGrowth7d: { hasEnoughHistory: true, percentDelta: 2 },
     categoryName: "LLM Frameworks",
   });
-  assert.equal(result.sustained, null);
-  assert.equal(result.headline, "5.0× faster than LLM Frameworks this week");
+  assert.equal(result.sustained, true);
+  assert.equal(result.headline, "Growing steadily, 5.0× faster than LLM Frameworks this week");
 });
 
 test("headline reports a plain spike when sustained is false and no category comparison is available", () => {

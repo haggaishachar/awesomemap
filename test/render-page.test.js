@@ -1378,12 +1378,17 @@ test("renderProjectPage's events summary counts the full events series, not just
   assert.match(html, /class="project-events-summary">💬 25 Hacker News discussions</);
 });
 
-test("renderProjectPage renders known non-HN event types with their real label, and an unknown type with its raw type string", () => {
+test("renderProjectPage renders known non-HN event types with their real label, and an unknown type (including a retired source like Lobsters) with its raw type string", () => {
   const html = renderProjectPage(PROJECT, {
     domain: PROJECT_DOMAIN,
     signal: NO_SIGNAL,
     defaultOgImage: "/og-default.png",
     eventsSeries: [
+      // "lobsters" is a retired source (see sources.md's "Tried and
+      // dropped") — no longer in EVENT_TYPE_LABELS, so a stray old event
+      // of this type (there are none in production, but the fallback
+      // still needs to hold) must degrade the same as any other unmapped
+      // type, not error or render blank.
       { date: "2026-08-01", type: "lobsters", title: "Lobsters thread", url: "https://lobste.rs/s/1" },
       { date: "2026-08-02", type: "reddit", title: "Reddit thread", url: "https://reddit.com/r/1" },
       { date: "2026-08-03", type: "producthunt", title: "PH launch", url: "https://producthunt.com/posts/1" },
@@ -1391,7 +1396,7 @@ test("renderProjectPage renders known non-HN event types with their real label, 
       { date: "2026-08-05", type: "future-source", title: "Unmapped type", url: "https://example.com/1" },
     ],
   });
-  assert.match(html, /class="project-event-type project-event-type-lobsters">Lobsters</);
+  assert.match(html, /class="project-event-type project-event-type-lobsters">lobsters</);
   assert.match(html, /class="project-event-type project-event-type-reddit">Reddit</);
   assert.match(html, /class="project-event-type project-event-type-producthunt">Product Hunt</);
   assert.match(html, /class="project-event-type project-event-type-blog">Blog</);

@@ -725,10 +725,8 @@ function renderSignalCard({ label, title, stat, meta, href, compareId, desc, rea
 // convention as EVENT_TYPE_LABELS' own fallback.
 const EVENT_REASON_PHRASES = {
   hn: "Featured on Hacker News",
-  lobsters: "Discussed on Lobsters",
   reddit: "Trending on Reddit",
   producthunt: "Launched on Product Hunt",
-  bluesky: "Buzzing on Bluesky",
   blog: "Covered in the press",
 };
 
@@ -1331,7 +1329,7 @@ function renderProjectTagChips(tags, basePath) {
 }
 
 const EVENTS_TIMELINE_LIMIT = 20;
-const EVENT_TYPE_LABELS = { hn: "HN", lobsters: "Lobsters", reddit: "Reddit", producthunt: "Product Hunt", bluesky: "Bluesky", blog: "Blog" };
+const EVENT_TYPE_LABELS = { hn: "HN", reddit: "Reddit", producthunt: "Product Hunt", blog: "Blog" };
 
 // Emoji + noun phrase per event type for the rolled-up summary line above
 // the timeline — one group per type actually present, e.g. "💬 3 Hacker
@@ -1341,10 +1339,8 @@ const EVENT_TYPE_LABELS = { hn: "HN", lobsters: "Lobsters", reddit: "Reddit", pr
 // string, appended after every mapped type.
 const EVENT_SUMMARY_PHRASES = {
   hn: { emoji: "💬", singular: "Hacker News discussion", plural: "Hacker News discussions" },
-  lobsters: { emoji: "🦞", singular: "Lobsters discussion", plural: "Lobsters discussions" },
   reddit: { emoji: "👽", singular: "Reddit discussion", plural: "Reddit discussions" },
   producthunt: { emoji: "📣", singular: "Product Hunt launch", plural: "Product Hunt launches" },
-  bluesky: { emoji: "🦋", singular: "Bluesky mention", plural: "Bluesky mentions" },
   blog: { emoji: "📰", singular: "publication", plural: "publications" },
 };
 
@@ -1378,8 +1374,8 @@ function renderProjectEventsSummary(eventsSeries) {
 }
 
 /**
- * Server-rendered chronological timeline of external events (HN, Lobsters,
- * Reddit, Product Hunt, Bluesky, blog/launch posts) for a project page — the "why did
+ * Server-rendered chronological timeline of external events (HN, Reddit,
+ * Product Hunt, blog/launch posts) for a project page — the "why did
  * this grow" companion to the star-history sparkline above it. `eventsSeries`
  * is `project-events.mjs`'s `sortedEvents` output (oldest-first, mirroring
  * `historySeries`'s convention); rendered newest-first here, like a

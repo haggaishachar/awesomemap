@@ -1217,6 +1217,26 @@ test("renderProjectPage renders the signal headline when present, and omits the 
   assert.doesNotMatch(withoutSignal, /class="project-signal"/);
 });
 
+test("renderProjectPage renders the growth explanation and its generated-on date when present, and omits both when absent", () => {
+  const withExplanation = renderProjectPage(
+    {
+      ...PROJECT,
+      growthExplanation: "Growing steadily. Coverage includes a Hacker News discussion (312 points) on Aug 31 and a Reddit thread (145 points) on Sep 1.",
+      growthExplanationGeneratedAt: "2026-09-10T00:00:00.000Z",
+    },
+    { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" },
+  );
+  assert.match(
+    withExplanation,
+    /class="project-growth-explanation">Growing steadily\. Coverage includes a Hacker News discussion \(312 points\) on Aug 31 and a Reddit thread \(145 points\) on Sep 1\./,
+  );
+  assert.match(withExplanation, /class="project-growth-explanation-date">Generated Sep 10, 2026</);
+
+  const withoutExplanation = renderProjectPage(PROJECT, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
+  assert.doesNotMatch(withoutExplanation, /class="project-growth-explanation"/);
+  assert.doesNotMatch(withoutExplanation, /class="project-growth-explanation-date"/);
+});
+
 test("renderProjectPage includes SoftwareSourceCode JSON-LD with the project's name, description, and GitHub URL", () => {
   const html = renderProjectPage(PROJECT, {
     domain: PROJECT_DOMAIN,

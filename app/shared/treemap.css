@@ -1477,6 +1477,30 @@ a.momentum-row-name:hover {
   letter-spacing: 0.06em;
 }
 
+/* Build-time "why is this growing" paragraph (renderProjectGrowthExplanation,
+   scripts/render-page.mjs) — a frozen fact-grounded sentence from
+   awesomemap-data's explain-growth.mjs, not live-recomputed like
+   .project-signal above, hence the visible "Generated on" caveat. */
+.project-growth-explanation-block {
+  margin-top: 20px;
+  padding: 12px 14px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+}
+
+.project-growth-explanation {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.project-growth-explanation-date {
+  margin: 6px 0 0;
+  font-size: 11px;
+  color: var(--color-text-muted);
+}
+
 /* Chronological HN-mentions timeline — the "why did this grow" companion
    to the star-history sparkline above it (renderProjectEventsTimeline,
    scripts/render-page.mjs). */

@@ -1384,15 +1384,43 @@ function renderProjectEventsSummary(eventsSeries) {
  * scripts/snapshot-events.mjs). Renders nothing for a project with no
  * recorded events yet, same "nothing to show" convention as
  * `renderProjectStarChart`. GitHub releases were dropped after a first
- * production run (routine version bumps outweighed the signal) — `snapshot-events.mjs`
- * now produces five event types, and the label lookup stays a map rather than
- * a hardcoded string precisely because a new source can add a sixth without
- * structural changes; the fallback (`EVENT_TYPE_LABELS[event.type] ?? event.type`)
- * means an unmapped type still renders acceptably until the map is updated.
+ * production run (routine version bumps outweighed the signal), and
+ * Lobsters/Bluesky were retired after both went to a 0% fetch success rate
+ * (see sources.md) — `snapshot-events.mjs` now produces four event types,
+ * and the label lookup stays a map rather than a hardcoded string precisely
+ * because a source can be added or dropped without structural changes; the
+ * fallback (`EVENT_TYPE_LABELS[event.type] ?? event.type`) means an
+ * unmapped type still renders acceptably rather than erroring.
  * Above the list, `renderProjectEventsSummary` rolls the same `eventsSeries`
  * up into a one-line "how much coverage, and where" count per type — a
  * reader can get the gist without scanning the whole list.
  */
+
+/**
+ * Renders explain-growth.mjs's (awesomemap-data repo) build-time "why is
+ * this growing" paragraph, plus a subtle "Generated on <date>" caveat —
+ * `project.growthExplanation` is a plain fact-grounded sentence (never an
+ * LLM causal claim, see that job's file header), and unlike
+ * `signal.headline` (recomputed fresh on every build from current growth)
+ * it's a *frozen* snapshot: once a project stops qualifying, the last
+ * explanation generated stays on the page rather than disappearing, so the
+ * page keeps working as a durable "why this broke out" record even after
+ * growth cools. The generated-on date makes that frozen-ness legible
+ * instead of implying the text reflects right-now. Renders nothing for a
+ * project that's never qualified, same "nothing to show" convention as
+ * `renderProjectEventsTimeline`.
+ */
+function renderProjectGrowthExplanation(project) {
+  if (!project.growthExplanation) return "";
+  const generatedLine = project.growthExplanationGeneratedAt
+    ? `<p class="project-growth-explanation-date">Generated ${escapeHtml(formatEventDate(project.growthExplanationGeneratedAt.slice(0, 10)))}</p>`
+    : "";
+  return `
+    <div class="project-growth-explanation-block">
+      <p class="project-growth-explanation">${escapeHtml(project.growthExplanation)}</p>
+      ${generatedLine}
+    </div>`;
+}
 function renderProjectEventsTimeline(eventsSeries) {
   if (!Array.isArray(eventsSeries) || eventsSeries.length === 0) return "";
   const rows = [...eventsSeries]
@@ -1495,6 +1523,7 @@ export function renderProjectPage(
       <div class="project-momentum-grid">${momentumChips}</div>
       ${renderProjectStarChart(historySeries, eventsSeries)}
       <div class="project-repo-stats">${repoStatChips}</div>
+      ${renderProjectGrowthExplanation(project)}
       ${renderProjectEventsTimeline(eventsSeries)}
       <div class="project-links">
         <a class="detail-panel-link" href="${escapeHtml(githubUrl)}" target="_blank" rel="noopener">View on GitHub ↗</a>

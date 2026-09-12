@@ -48,6 +48,19 @@ leaderboard](https://awesomemap.dev/rising/) across any window, or read
 [How we rank](https://awesomemap.dev/methodology/) for the exact math
 behind every one of these picks.
 
+## Top risers this week
+
+The top 100 projects by 7-day [Rising score](https://awesomemap.dev/methodology/),
+recomputed daily — the arrow shows how each project's rank moved since the
+previous run, and 📰 links to the external mention (Hacker News, Reddit,
+Product Hunt, or a blog post) explaining a spike, when one was found. See
+the full, filterable [Rising leaderboard](https://awesomemap.dev/rising/)
+for every window and every domain.
+
+<!-- RISERS:START -->
+_Not enough star-history yet to rank this week's risers._
+<!-- RISERS:END -->
+
 ## Maps
 
 | Map | Description | Projects |

@@ -28,24 +28,25 @@ function entry(overrides) {
   };
 }
 
-test("renderRisersEntry renders rank, up arrow with magnitude, name link, domain, desc, and stats", () => {
+test("renderRisersEntry renders rank, a green up-arrow icon with a signed +N, name link, domain, desc, and stats", () => {
   const line = renderRisersEntry(entry({ rank: 3, rankDelta: 2 }));
-  assert.match(line, /^3\. ▲2 /);
+  assert.match(line, /^3\. <img src="docs\/media\/arrow-up\.svg"[^>]*alt="up"[^>]*> \+2 /);
   assert.match(line, /\*\*\[Project Name\]\(https:\/\/awesomemap\.dev\/projects\/owner\/repo\/\)\*\*/);
   assert.match(line, /<sub>Data Science<\/sub>/);
   assert.match(line, /A short description\./);
   assert.match(line, /★ 12,345 \(\+340 · \+2\.8% this week\)/);
 });
 
-test("renderRisersEntry renders a down arrow for a negative rankDelta and no sign for a shrinking starDelta", () => {
+test("renderRisersEntry renders a red down-arrow icon with a signed -N for a negative rankDelta, and no sign for a shrinking starDelta", () => {
   const line = renderRisersEntry(entry({ rankDelta: -4, starDelta: -10, percentDelta: -0.5 }));
-  assert.match(line, /^1\. ▼4 /);
+  assert.match(line, /^1\. <img src="docs\/media\/arrow-down\.svg"[^>]*alt="down"[^>]*> -4 /);
   assert.match(line, /★ 12,345 \(-10 · -0\.5% this week\)/);
 });
 
-test("renderRisersEntry renders a flat dash with no magnitude when rank didn't move", () => {
+test("renderRisersEntry renders a flat dash with no icon or number when rank didn't move", () => {
   const line = renderRisersEntry(entry({ rankDelta: 0 }));
   assert.match(line, /^1\. – /);
+  assert.doesNotMatch(line, /<img src="docs\/media\/arrow/);
 });
 
 test("renderRisersEntry includes an <img> icon only when the project has one", () => {

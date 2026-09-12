@@ -30,6 +30,15 @@ export const RISERS_END_MARKER = "<!-- RISERS:END -->";
 
 const SITE_URL = "https://awesomemap.dev";
 
+// GitHub's Markdown sanitizer strips `style` attributes from rendered HTML,
+// so a plain ▲/▼ character can't be colored with CSS the way the site's own
+// rising-row-up/-down classes do (treemap.css). Two tiny repo-local SVGs,
+// referenced the same repo-relative way README.md's demo.gif already is,
+// give the README real green-up/red-down arrows instead — colors matched to
+// treemap.css's light-mode --color-rising-up/--color-rising-down.
+const ARROW_UP_SRC = "docs/media/arrow-up.svg";
+const ARROW_DOWN_SRC = "docs/media/arrow-down.svg";
+
 // Short phrase per event type, reused from render-page.mjs's own
 // EVENT_REASON_PHRASES so the README's "why" wording matches the site's —
 // kept as its own copy rather than an import since render-page.mjs's
@@ -79,9 +88,13 @@ export function withEventReason(pool, entitiesById, cutoffDateStr) {
  * external mention that explains the spike.
  */
 export function renderRisersEntry(entry) {
-  const arrow = entry.rankDelta > 0 ? "▲" : entry.rankDelta < 0 ? "▼" : "–";
   const movedBy = Math.abs(entry.rankDelta);
-  const arrowText = `${arrow}${movedBy > 0 ? movedBy : ""}`;
+  const arrowText =
+    entry.rankDelta > 0
+      ? `<img src="${ARROW_UP_SRC}" width="10" height="10" alt="up" align="absmiddle"> +${movedBy}`
+      : entry.rankDelta < 0
+        ? `<img src="${ARROW_DOWN_SRC}" width="10" height="10" alt="down" align="absmiddle"> -${movedBy}`
+        : "–";
   const icon = entry.image ? `<img src="${entry.image}" width="16" height="16" alt="" align="absmiddle">` : "";
   const name = escapeMdText(entry.name);
   const projectUrl = `${SITE_URL}/projects/${entry.id}/`;

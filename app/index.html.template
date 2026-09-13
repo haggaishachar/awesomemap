@@ -31,6 +31,9 @@
     }
   }
   </script>
+  <!-- Cloudflare Web Analytics -->
+  <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "aed82f46d25b42c698ff62a01b6dd7db"}'></script>
+  <!-- End Cloudflare Web Analytics -->
 </head>
 <body>
 {{BODY}}

@@ -1,3 +1,5 @@
+
+
 # awesomemap
 
 [![Deploy](https://github.com/haggaishachar/awesomemap/actions/workflows/deploy.yml/badge.svg)](https://github.com/haggaishachar/awesomemap/actions/workflows/deploy.yml)
@@ -149,4 +151,5 @@ for every window and every domain.
 More domains are on the way. Project data is maintained via
 [awesomemap-data](https://github.com/haggaishachar/awesomemap-data), which
 discovers, classifies, and snapshots projects on its own schedule; counts
-here reflect the latest deploy.
+here reflect the latest deploy. Local development is documented in
+[CONTRIBUTING.md](CONTRIBUTING.md).

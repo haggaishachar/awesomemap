@@ -12,7 +12,11 @@ import {
   renderSubmitPage,
   renderMethodologyPage,
   renderContactPage,
+  renderRisingArchivePage,
+  renderRisingArchiveWeekPage,
   tagSlug,
+  categorySlug,
+  configureAnalytics,
 } from "../scripts/render-page.mjs";
 import { buildEmbedSnippet } from "../app/shared/embed-snippet.js";
 
@@ -1650,3 +1654,97 @@ test("renderContactPage imports contact-form.js prefixed by BASE_PATH", () => {
   assert.match(html, /import \{ isValidContactInput, buildContactMailtoUrl \} from "\/techmap\/shared\/contact-form\.js"/);
 });
 
+
+test("configureAnalytics emits no snippet by default, and a GoatCounter snippet once configured", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const withoutAnalytics = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png" });
+  assert.doesNotMatch(withoutAnalytics, /goatcounter/);
+
+  configureAnalytics("awesomemap");
+  try {
+    const withAnalytics = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png" });
+    assert.match(withAnalytics, /data-goatcounter="https:\/\/awesomemap\.goatcounter\.com\/count"/);
+  } finally {
+    configureAnalytics(null);
+  }
+});
+
+test("categorySlug percent-encodes a category name the same way tagSlug encodes a tag", () => {
+  assert.equal(categorySlug("Agents & Coding"), encodeURIComponent("Agents & Coding"));
+});
+
+test("renderDomainPage given initialIdPath boots the treemap pre-zoomed to that category, not the query-string parser", () => {
+  const domain = { slug: "automation", name: "Automation", description: "desc" };
+  const tree = { id: "automation", name: "Automation", children: [{ id: "Workflow Automation", name: "Workflow Automation", children: [] }] };
+  const category = { key: "Workflow Automation", growth: { hasEnoughHistory: true, percentDelta: 5, starDelta: 10, trackedCount: 1, projectCount: 1 } };
+  const html = renderDomainPage(domain, tree, {
+    defaultOgImage: "/og-default.png",
+    initialIdPath: ["Workflow Automation"],
+    category,
+  });
+  assert.match(html, /const initialState = \{ mode: "popular", window: 7, idPath: \["automation", "Workflow Automation"\] \};/);
+  assert.doesNotMatch(html, /const initialState = parseZoomState/);
+});
+
+test("renderDomainPage given a category titles/links the page for that category, not the whole domain, and shows a Follow toggle", () => {
+  const domain = { slug: "automation", name: "Automation", shortName: "Automation", description: "desc" };
+  const tree = { id: "automation", name: "Automation", children: [] };
+  const category = { key: "Workflow Automation", growth: { hasEnoughHistory: true, percentDelta: 5, starDelta: 10, trackedCount: 1, projectCount: 1 } };
+  const html = renderDomainPage(domain, tree, {
+    defaultOgImage: "/og-default.png",
+    siteUrl: "https://example.com",
+    basePath: "",
+    initialIdPath: ["Workflow Automation"],
+    category,
+  });
+  assert.match(html, /<title>Workflow Automation — Automation<\/title>/);
+  assert.match(html, /<link rel="canonical" href="https:\/\/example\.com\/automation\/Workflow%20Automation\/"/);
+  assert.match(html, /data-follow-type="category"/);
+  assert.match(html, /data-follow-id="Workflow Automation"/);
+  assert.match(html, /import \{ initFollowUI \} from "\/shared\/follow-list\.js"/);
+});
+
+test("renderProjectPage renders a Follow toggle carrying the project's current star count as the baseline", () => {
+  const html = renderProjectPage(PROJECT, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
+  assert.match(html, /data-follow-type="project"/);
+  assert.match(html, /data-follow-id="ggerganov\/llama\.cpp"/);
+  assert.match(html, /data-follow-last-seen-stars="125701"/);
+  assert.match(html, /import \{ initFollowUI \} from "\/shared\/follow-list\.js"/);
+});
+
+test("renderRisingArchivePage lists archived weeks newest-first, each linking to its own archive page", () => {
+  const snapshots = [
+    { isoWeek: "2026-W35", generatedAt: "2026-08-31T08:00:00.000Z" },
+    { isoWeek: "2026-W36", generatedAt: "2026-09-07T08:00:00.000Z" },
+  ];
+  const html = renderRisingArchivePage(snapshots, { defaultOgImage: "/og-default.png", basePath: "" });
+  const indexW36 = html.indexOf("2026-W36");
+  const indexW35 = html.indexOf("2026-W35");
+  assert.ok(indexW36 > -1 && indexW35 > -1 && indexW36 < indexW35, "newest week should list first");
+  assert.match(html, /href="\/rising\/archive\/2026-W36\/"/);
+});
+
+test("renderRisingArchivePage reports no archived weeks when the list is empty", () => {
+  const html = renderRisingArchivePage([], { defaultOgImage: "/og-default.png", basePath: "" });
+  assert.match(html, /No archived weeks yet\./);
+});
+
+test("renderRisingArchiveWeekPage renders the frozen snapshot's global and per-domain sections, reusing the rising row format", () => {
+  const snapshot = {
+    isoWeek: "2026-W35",
+    generatedAt: "2026-08-31T08:00:00.000Z",
+    scopes: {
+      global: [
+        { rank: 1, id: "a/a", name: "Project A", link: "https://a.example", domain: "Data Science", starDelta: 40, percentDelta: 40, rankDelta: 1 },
+      ],
+      "data-science": [
+        { rank: 1, id: "a/a", name: "Project A", link: "https://a.example", domain: "Data Science", starDelta: 40, percentDelta: 40, rankDelta: 1 },
+      ],
+    },
+  };
+  const domains = [{ slug: "data-science", name: "Data Science", shortName: "Data Science" }];
+  const html = renderRisingArchiveWeekPage(snapshot, domains, { defaultOgImage: "/og-default.png", basePath: "" });
+  assert.match(html, /<h1>Rising: 2026-W35<\/h1>/);
+  assert.match(html, /<a class="rising-row-name" href="\/projects\/a\/a\/">Project A<\/a>/);
+  assert.match(html, /Hottest in Data Science/);
+});

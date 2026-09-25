@@ -68,3 +68,28 @@ export function joinDomainProjects(domain, entitiesById) {
     return { ...entity, path };
   });
 }
+
+/**
+ * Lists every archived ISO week (issue #99's weekly rising archive),
+ * newest first. Each entry is `{isoWeek, generatedAt}` — the full
+ * per-week leaderboard data is a separate call (`loadLeaderboardSnapshot`)
+ * so a page that only needs the week list (e.g. the archive index) never
+ * pays for fetching every week's rows.
+ */
+export async function loadLeaderboardSnapshots({ fetchImpl } = {}) {
+  return (await apiFetch("/leaderboard-snapshots", { fetchImpl })) ?? [];
+}
+
+/**
+ * Loads one ISO week's full leaderboard snapshot: `{isoWeek, generatedAt,
+ * scopes: {global: row[], [domainSlug]: row[]}}`, each row already
+ * carrying display fields (name/link/image/domain) — no further joining
+ * needed by the caller. Only call this for a week `loadLeaderboardSnapshots`
+ * already confirmed exists; a nonexistent week 404s, which `apiFetch`
+ * surfaces as a thrown error rather than `null` (unlike
+ * awesomemap-data's own client — this repo's `apiFetch` has no 404-to-null
+ * carve-out, and generate.mjs's usage never needs one).
+ */
+export async function loadLeaderboardSnapshot(isoWeek, { fetchImpl } = {}) {
+  return apiFetch(`/leaderboard-snapshots/${isoWeek}`, { fetchImpl });
+}

@@ -1,7 +1,24 @@
 #!/usr/bin/env node
 import { readFileSync, writeFileSync, mkdirSync, copyFileSync, rmSync, cpSync } from "node:fs";
 import { buildTree } from "./build-tree.mjs";
-import { renderDomainPage, renderLandingPage, renderRisingPage, renderTagsIndexPage, renderTagPage, renderProjectPage, renderComparePage, renderSearchPage, renderSubmitPage, renderMethodologyPage, renderContactPage, tagSlug } from "./render-page.mjs";
+import {
+  renderDomainPage,
+  renderLandingPage,
+  renderRisingPage,
+  renderTagsIndexPage,
+  renderTagPage,
+  renderProjectPage,
+  renderComparePage,
+  renderSearchPage,
+  renderSubmitPage,
+  renderMethodologyPage,
+  renderContactPage,
+  renderRisingArchivePage,
+  renderRisingArchiveWeekPage,
+  tagSlug,
+  categorySlug,
+  configureAnalytics,
+} from "./render-page.mjs";
 import { buildCompareRecord, buildCompareIndex } from "./compare-index.mjs";
 import { explainSignal } from "./signal.mjs";
 import { sortedHistory } from "../app/shared/star-history.js";
@@ -12,7 +29,9 @@ import { computeGroupGrowth, rankGroups } from "./group-growth.mjs";
 import { buildTagGroups, computeTopTags, computeRisingTags } from "./tag-growth.mjs";
 import { pickThisWeeksSignals } from "./this-weeks-signals.mjs";
 import { buildSitemap, buildRobots } from "./seo.mjs";
-import { loadAllDomains, loadAllProjectEntities, joinDomainProjects } from "./data-store.mjs";
+import { buildRisingFeed } from "./rss.mjs";
+import { currentIsoWeek } from "./iso-week.mjs";
+import { loadAllDomains, loadAllProjectEntities, loadLeaderboardSnapshots, loadLeaderboardSnapshot, joinDomainProjects } from "./data-store.mjs";
 
 const DIST_DIR = "dist";
 const APP_DIR = "app";
@@ -42,6 +61,14 @@ const SITE_URL = process.env.SITE_URL ?? "";
 // custom domain survives every deploy (Actions-based Pages publishing does
 // not persist it any other way — see .github/workflows/deploy.yml).
 const CNAME = process.env.CNAME ?? "";
+
+// GoatCounter site code (e.g. "awesomemap" for awesomemap.goatcounter.com)
+// — when unset (e.g. local `npm run dev`), no analytics snippet is
+// emitted at all, same env-gating convention SITE_URL already uses for
+// the sitemap. Additive to the Cloudflare Web Analytics beacon already in
+// app/index.html.template.
+const GOATCOUNTER_SITE = process.env.GOATCOUNTER_SITE ?? "";
+configureAnalytics(GOATCOUNTER_SITE);
 
 const DEFAULT_OG_IMAGE = `${SITE_URL}${BASE_PATH}/og-default.png`;
 
@@ -239,9 +266,11 @@ for (const windowDays of RISING_WINDOWS_DAYS) {
   globalRisingTagsByWindow[windowDays] = computeRisingTags(globalTagGroups, windowDays, { limit: TAGS_INDEX_LIMIT });
 }
 
-// Pass 3: render every domain's full page, embed page, and history.json,
-// now that its teaser (the top of its own 7-day leaderboard) is available.
+// Pass 3: render every domain's full page, embed page, category pages, and
+// history.json, now that its teaser (the top of its own 7-day leaderboard)
+// is available.
 const domains = [];
+const categoryPagePaths = [];
 
 for (const domain of parsedDomains) {
   const { slug } = domain;
@@ -301,6 +330,43 @@ for (const domain of parsedDomains) {
     renderDomainPage(domain, tree, { embed: true, defaultOgImage: DEFAULT_OG_IMAGE, siteUrl: SITE_URL, basePath: BASE_PATH })
   );
 
+  // One page per top-level category (e.g. `/data-science/nlp/`) — the
+  // same domain treemap/tree, pre-zoomed to that category (see
+  // renderDomainPage's `initialIdPath`), giving categories their own
+  // stable, shareable URL where today they're only addressable via
+  // client-side zoom-state query params (issue #99). Reuses
+  // `categoryGrowthBySlug[slug]` (already computed in Pass 2b) as both
+  // the category list to iterate and each category's momentum stat for
+  // its page metadata/Follow-toggle baseline.
+  for (const category of categoryGrowthBySlug[slug]) {
+    // Static hosts (GitHub Pages included) URL-decode a request path
+    // before matching it to a file, so the directory written to disk must
+    // be the *decoded* name (`category.key` as-is) — writing the
+    // percent-encoded form (`categorySlug`'s output) here would leave
+    // literal `%` characters in the directory name, which the decoded URL
+    // would never match. `categorySlug` is still what builds the URL
+    // itself (used inside `renderDomainPage` and below for the sitemap
+    // entry).
+    mkdirSync(`${DIST_DIR}/${slug}/${category.key}`, { recursive: true });
+    writeFileSync(
+      `${DIST_DIR}/${slug}/${category.key}/index.html`,
+      renderDomainPage(domain, tree, {
+        embed: false,
+        defaultOgImage: DEFAULT_OG_IMAGE,
+        siteUrl: SITE_URL,
+        basePath: BASE_PATH,
+        teaser,
+        categoryGrowth: categoryGrowthBySlug[slug],
+        momentumWindowDays: MOMENTUM_WINDOW_DAYS,
+        topTags: domainTopTagsBySlug[slug],
+        risingTags: domainRisingTagsBySlug[slug],
+        initialIdPath: [category.key],
+        category,
+      })
+    );
+    categoryPagePaths.push(`/${slug}/${categorySlug(category.key)}/`);
+  }
+
   domains.push({
     slug,
     name: domain.name,
@@ -339,6 +405,7 @@ writeFileSync(
     signals: thisWeeksSignals,
     signalsByDomain: thisWeeksSignalsByDomain,
     momentumWindowDays: MOMENTUM_WINDOW_DAYS,
+    currentIsoWeek: currentIsoWeek(),
   })
 );
 
@@ -351,6 +418,40 @@ writeFileSync(
     basePath: BASE_PATH,
   })
 );
+
+// Weekly rising archive + RSS feed (issue #99): read every ISO week
+// awesomemap-data has persisted (scripts/leaderboard-snapshot.mjs there,
+// see that repo's `leaderboard_snapshots` table) and render a browsable
+// archive page per week plus a single global feed. Degrades to an empty
+// archive/feed — rather than failing the whole build — both when no
+// weeks are archived yet (the weekly job hasn't run once yet) and when
+// the endpoint doesn't exist yet at all (this PR can ship before its
+// awesomemap-data migration/route is deployed there).
+let weeklySnapshotWeeks = [];
+try {
+  weeklySnapshotWeeks = await loadLeaderboardSnapshots();
+} catch (err) {
+  console.warn(`Skipping the rising archive/RSS feed: /leaderboard-snapshots isn't available yet (${err.message})`);
+}
+const weeklySnapshots = await Promise.all(weeklySnapshotWeeks.map((w) => loadLeaderboardSnapshot(w.isoWeek)));
+
+mkdirSync(`${DIST_DIR}/rising/archive`, { recursive: true });
+writeFileSync(
+  `${DIST_DIR}/rising/archive/index.html`,
+  renderRisingArchivePage(weeklySnapshotWeeks, { defaultOgImage: DEFAULT_OG_IMAGE, siteUrl: SITE_URL, basePath: BASE_PATH })
+);
+const archivePagePaths = [];
+for (const snapshot of weeklySnapshots) {
+  mkdirSync(`${DIST_DIR}/rising/archive/${snapshot.isoWeek}`, { recursive: true });
+  writeFileSync(
+    `${DIST_DIR}/rising/archive/${snapshot.isoWeek}/index.html`,
+    renderRisingArchiveWeekPage(snapshot, domains, { defaultOgImage: DEFAULT_OG_IMAGE, siteUrl: SITE_URL, basePath: BASE_PATH })
+  );
+  archivePagePaths.push(`/rising/archive/${snapshot.isoWeek}/`);
+}
+
+const risingFeed = buildRisingFeed(weeklySnapshots, { siteUrl: SITE_URL, basePath: BASE_PATH });
+if (risingFeed) writeFileSync(`${DIST_DIR}/rising/feed.xml`, risingFeed);
 
 mkdirSync(`${DIST_DIR}/tags`, { recursive: true });
 writeFileSync(
@@ -474,7 +575,19 @@ if (CNAME) writeFileSync(`${DIST_DIR}/CNAME`, `${CNAME}\n`);
 const sitemap = buildSitemap(domains.map((d) => d.slug), {
   siteUrl: SITE_URL,
   basePath: BASE_PATH,
-  extraPaths: ["/tags/", "/compare/", "/search/", "/submit/", "/methodology/", "/contact/", ...tagPagePaths, ...projectPagePaths],
+  extraPaths: [
+    "/tags/",
+    "/compare/",
+    "/search/",
+    "/submit/",
+    "/methodology/",
+    "/contact/",
+    "/rising/archive/",
+    ...tagPagePaths,
+    ...projectPagePaths,
+    ...categoryPagePaths,
+    ...archivePagePaths,
+  ],
 });
 if (sitemap) writeFileSync(`${DIST_DIR}/sitemap.xml`, sitemap);
 writeFileSync(`${DIST_DIR}/robots.txt`, buildRobots({ siteUrl: SITE_URL, basePath: BASE_PATH }));

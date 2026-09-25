@@ -60,6 +60,19 @@ export function tagSlug(tag) {
 }
 
 /**
+ * Turns a category name into its URL path segment
+ * (`/<domain-slug>/<category-slug>/`), same `encodeURIComponent`
+ * convention as `tagSlug`. `generate.mjs` imports this same function to
+ * build each category page's URL — but writes the directory on disk under
+ * the raw (decoded) category name, not this encoded form, since a static
+ * host decodes the request path before matching it to a file; see
+ * generate.mjs's category-page loop for that distinction.
+ */
+export function categorySlug(category) {
+  return encodeURIComponent(category);
+}
+
+/**
  * Site-wide nav bar: brand (icon + wordmark) links home, right side links
  * out to the GitHub repo. Omitted from embeds.
  *
@@ -249,6 +262,34 @@ function renderMapActionsBootstrap(basePath) {
 // landscape frame.
 const DEFAULT_OG_IMAGE_DIMENSIONS = ['<meta property="og:image:width" content="1200" />', '<meta property="og:image:height" content="630" />'].join("\n  ");
 
+// Set once at generate.mjs startup (see `configureAnalytics`) rather than
+// threaded as a parameter through every `render*Page` function and their
+// call sites — the GoatCounter site code is a single site-wide constant
+// for the whole build, not something any individual page varies.
+let goatcounterSite = null;
+
+/**
+ * Sets the GoatCounter site code every subsequently rendered page's
+ * `<head>` includes its tracking snippet for — a no-op (no snippet
+ * emitted at all) when never called or called with a falsy value, which
+ * is what keeps local `npm run dev` analytics-free (see generate.mjs's
+ * `GOATCOUNTER_SITE` env gating). Additive to the Cloudflare Web
+ * Analytics beacon already in the template (pageviews only, no custom
+ * events) — GoatCounter supplies the custom-event tracking issue #99's
+ * "repeat-visit and key discovery events measurable" acceptance criterion
+ * needs (RSS subscribe clicks, follow add/remove), which Cloudflare's
+ * free tier doesn't expose.
+ */
+export function configureAnalytics(site) {
+  goatcounterSite = site || null;
+}
+
+/** Renders the GoatCounter tracking snippet for `<head>` — a single `<script>` tag, no cookie banner needed. Empty when no site code is configured. */
+function renderAnalytics() {
+  if (!goatcounterSite) return "";
+  return `<script data-goatcounter="https://${escapeHtml(goatcounterSite)}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>`;
+}
+
 function renderShell({ title, ogTitle, ogDescription, ogImage, ogImageDimensions = DEFAULT_OG_IMAGE_DIMENSIONS, twitterCard = "summary_large_image", ogUrl, base, body }) {
   return TEMPLATE.replace(/{{TITLE}}/g, () => escapeHtml(title))
     .replace(/{{OG_TITLE}}/g, () => escapeHtml(ogTitle))
@@ -257,8 +298,31 @@ function renderShell({ title, ogTitle, ogDescription, ogImage, ogImageDimensions
     .replace("{{OG_IMAGE_DIMENSIONS}}", () => ogImageDimensions)
     .replace(/{{TWITTER_CARD}}/g, () => escapeHtml(twitterCard))
     .replace(/{{OG_URL}}/g, () => escapeHtml(ogUrl))
+    .replace(/{{ANALYTICS}}/g, () => renderAnalytics())
     .replace(/{{BASE}}/g, () => base)
     .replace("{{BODY}}", () => body);
+}
+
+/**
+ * A category page's Follow toggle (app/shared/follow-list.js) — the
+ * lowest-complexity follow/watch entry point issue #99 asks for, a
+ * client-side localStorage list with no accounts. `category.growth`'s
+ * `percentDelta` (when tracked) is captured as the "since you followed"
+ * baseline via `data-follow-last-seen-percent-delta`, read by
+ * `initFollowUI`'s click handler.
+ */
+function renderCategoryFollowToggle(domain, category) {
+  const baseline = category.growth?.hasEnoughHistory ? ` data-follow-last-seen-percent-delta="${category.growth.percentDelta}"` : "";
+  return `
+    <button
+      type="button"
+      class="follow-toggle"
+      data-follow-type="category"
+      data-follow-id="${escapeHtml(category.key)}"
+      data-follow-name="${escapeHtml(category.key)}"
+      data-follow-domain-slug="${escapeHtml(domain.slug)}"${baseline}
+      aria-pressed="false"
+    >+ Follow</button>`;
 }
 
 /**
@@ -266,6 +330,18 @@ function renderShell({ title, ogTitle, ogDescription, ogImage, ogImageDimensions
  * `embed` is true). `domain` is { slug, name, description }. `tree` is
  * buildTree's output; each leaf's `image` (when present) is already a
  * direct URL into the project's source repo, ready to use as-is.
+ *
+ * When `initialIdPath` is set (e.g. `["Data Science"]`), this renders a
+ * category page instead of the plain domain page: the treemap boots
+ * already zoomed into that category (via `mountTreemap`'s `initialState`,
+ * the same mechanism a query-string zoom deep-link already exercises —
+ * see `app/shared/zoom-url.js`/`findNodeByIdPath`), and — when `category`
+ * (a `computeGroupGrowth`-shaped `{ key, growth }`, from
+ * `categoryGrowthBySlug`) is also given — the page's title/og/canonical
+ * metadata describes that category rather than the whole domain, and a
+ * Follow toggle (app/shared/follow-list.js) appears above the map. No new
+ * treemap/detail-panel UI is built for this; it's the same page, just
+ * booted at a deeper zoom level with different `<head>` metadata.
  */
 export function renderDomainPage(
   domain,
@@ -280,11 +356,14 @@ export function renderDomainPage(
     momentumWindowDays = RISING_WINDOWS_DAYS[0],
     topTags = [],
     risingTags = [],
+    initialIdPath = null,
+    category = null,
   }
 ) {
   const header = embed ? "" : renderSiteHeader(basePath);
   const compareCartScript = embed ? "" : renderCompareCartBootstrap(basePath);
   const footer = embed ? "" : renderSiteFooter(basePath);
+  const pageProjects = category ? (domain.projects ?? []).filter((project) => (project.path ?? [])[0] === category.key) : domain.projects ?? [];
   // Omitted from embeds along with the rest of the chrome (see the other
   // `embed ? "" : ...` assignments below) — a domain's name and description
   // are page framing, not part of the visualization itself. Every other
@@ -296,8 +375,9 @@ export function renderDomainPage(
     ? ""
     : `
     <header class="rising-hero">
-      <h1>${escapeHtml(domain.name)}</h1>
-      <p class="rising-hero-tagline">${escapeHtml(domain.description ?? "")}</p>
+      <h1>${category ? escapeHtml(category.key) : escapeHtml(domain.name)}</h1>
+      <p class="rising-hero-tagline">${category ? `${escapeHtml(category.key)} projects in ${escapeHtml(domain.shortName ?? domain.name)}.` : escapeHtml(domain.description ?? "")}</p>
+      ${category ? renderCategoryFollowToggle(domain, category) : ""}
     </header>`;
   const teaserSection = embed
     ? ""
@@ -306,7 +386,8 @@ export function renderDomainPage(
   // a visualization, not a page.
   const categorySection = embed ? "" : renderCategoryMomentum(categoryGrowth, { windowDays: momentumWindowDays });
   const tagSection = embed ? "" : renderTagWidget(topTags, risingTags, { basePath, windowDays: momentumWindowDays });
-  const ogUrl = `${siteUrl}${basePath}/${domain.slug}/`;
+  const pagePath = category ? `${domain.slug}/${categorySlug(category.key)}` : domain.slug;
+  const ogUrl = `${siteUrl}${basePath}/${pagePath}/`;
   const embedUrl = `${siteUrl}${basePath}/embed/${domain.slug}/`;
   // Omitted from the embed variant, like the rest of the page chrome — an
   // embedded map is already what these buttons would point at embedding or
@@ -325,7 +406,7 @@ export function renderDomainPage(
   // excluded from the sitemap as duplicate content (see seo.mjs).
   const itemListJsonLd = embed
     ? ""
-    : renderJsonLd(buildItemListJsonLd(domain.name, domain.projects ?? [], { url: ogUrl }));
+    : renderJsonLd(buildItemListJsonLd(category ? category.key : domain.name, pageProjects, { url: ogUrl }));
   // The domain's own `history.json` (built by generate.mjs from each
   // project entity's own `history` array — see data/projects/) — fetched
   // lazily by the detail panel to draw its star-history sparkline. Always
@@ -350,10 +431,34 @@ export function renderDomainPage(
       // (baked in at build time) rather than a browser-side copy, so this
       // list can't drift from the one that actually built \`mapData\`.
       const zoomUrlOptions = { rootId: "${tree.id}", validWindows: ${JSON.stringify(RISING_WINDOWS_DAYS)} };
+      // A category page's baseline zoom (\`initialIdPath\`, everything
+      // beyond the domain root) is already baked into this page's own URL
+      // path, so it's stripped back out of the query string here —
+      // otherwise every reload of the category page's own default view
+      // would carry a redundant \`?path=...\` repeating what the path
+      // already says.
+      const categoryBaselineSegments = ${initialIdPath ? JSON.stringify(initialIdPath) : "[]"};
       function stateUrl(state) {
-        return location.pathname + formatZoomState(state, zoomUrlOptions) + location.hash;
+        const query = formatZoomState(state, zoomUrlOptions).replace(/^\\?/, "");
+        const params = new URLSearchParams(query);
+        const pathSegments = params.getAll("path");
+        const matchesBaseline = categoryBaselineSegments.every((segment, i) => pathSegments[i] === segment);
+        if (matchesBaseline) {
+          params.delete("path");
+          pathSegments.slice(categoryBaselineSegments.length).forEach((segment) => params.append("path", segment));
+        }
+        const finalQuery = params.toString();
+        return location.pathname + (finalQuery ? "?" + finalQuery : "") + location.hash;
       }
-      const initialState = parseZoomState(new URLSearchParams(location.search), zoomUrlOptions);
+      // A category page boots pre-zoomed to its category (baked in at
+      // build time, not parsed from the query string) rather than reading
+      // location.search the way the plain domain page does — the URL
+      // itself (this page's own path) already says which category this is.
+      const initialState = ${
+        initialIdPath
+          ? `{ mode: "popular", window: ${RISING_WINDOWS_DAYS[0]}, idPath: ["${tree.id}", ${initialIdPath.map((segment) => JSON.stringify(segment)).join(", ")}] }`
+          : `parseZoomState(new URLSearchParams(location.search), zoomUrlOptions)`
+      };
       // Gives the very first back-press (after any zoom) a defined entry to
       // return to, instead of one with no state attached.
       history.replaceState(initialState, "", stateUrl(initialState));
@@ -382,6 +487,14 @@ export function renderDomainPage(
         treemap.applyState(state);
       });
     </script>
+    ${
+      !embed && category
+        ? `<script type="module">
+      import { initFollowUI } from "${basePath}/shared/follow-list.js";
+      initFollowUI();
+    </script>`
+        : ""
+    }
     ${mapBadge}
     ${mapActionsSection}
     ${embed ? "" : '<hr class="map-section-divider" />'}
@@ -392,10 +505,14 @@ export function renderDomainPage(
     </div>
     ${footer}
   `;
+  const pageTitle = category ? `${category.key} — ${domain.shortName ?? domain.name}` : domain.name;
+  const pageDescription = category
+    ? `${category.key} projects in ${domain.shortName ?? domain.name} on awesomemap.`
+    : domain.description ?? "";
   return renderShell({
-    title: domain.name,
-    ogTitle: domain.name,
-    ogDescription: domain.description ?? "",
+    title: pageTitle,
+    ogTitle: pageTitle,
+    ogDescription: pageDescription,
     ogImage: defaultOgImage,
     ogUrl,
     base: basePath,
@@ -524,9 +641,86 @@ function renderTagWidget(topTags, risingTags, { basePath, windowDays, limit = 8 
  * on an answer ("AI is moving fastest this week") instead of an alphabetical
  * index. Untracked domains sort last — see `rankGroups`.
  */
+/**
+ * The homepage's "you're following N items, M changed" widget
+ * (app/shared/follow-list.js) — reads purely from `localStorage`, so it's
+ * empty markup at build time and only becomes visible client-side when a
+ * visitor has actually followed something. Only projects get diffed here
+ * without a new data source — a project's current star count is already
+ * shipped in each domain's history.json (the same file the detail panel
+ * fetches); categories are listed but not diffed on this widget for the
+ * MVP, since their growth figure only lives on their own category page.
+ */
+function renderFollowingWidget(basePath) {
+  return `
+    <section id="following-widget" class="following-widget" hidden>
+      <p id="following-summary"></p>
+      <ul id="following-list" class="following-list"></ul>
+    </section>
+    <script type="module">
+      import { getFollowed, computeChangeSince } from "${basePath}/shared/follow-list.js";
+      import { starHistoryFor } from "${basePath}/shared/star-history.js";
+      const followed = getFollowed();
+      if (followed.length > 0) {
+        const widget = document.getElementById("following-widget");
+        const summary = document.getElementById("following-summary");
+        const list = document.getElementById("following-list");
+        widget.hidden = false;
+        const domainSlugs = [...new Set(followed.filter((f) => f.type === "project" && f.domainSlug).map((f) => f.domainSlug))];
+        const historyByDomain = {};
+        await Promise.all(
+          domainSlugs.map(async (slug) => {
+            try {
+              const res = await fetch("${basePath}/" + slug + "/history.json");
+              historyByDomain[slug] = res.ok ? await res.json() : {};
+            } catch {
+              historyByDomain[slug] = {};
+            }
+          })
+        );
+        let changedCount = 0;
+        for (const entry of followed) {
+          const li = document.createElement("li");
+          li.className = "following-row";
+          const href =
+            entry.type === "project"
+              ? "${basePath}/projects/" + entry.id + "/"
+              : "${basePath}/" + entry.domainSlug + "/" + encodeURIComponent(entry.id) + "/";
+          const link = document.createElement("a");
+          link.href = href;
+          link.textContent = entry.name ?? entry.id;
+          li.appendChild(link);
+          if (entry.type === "project") {
+            const series = starHistoryFor(historyByDomain[entry.domainSlug] ?? {}, entry.id);
+            const latest = series[series.length - 1];
+            const { changed, message } = computeChangeSince(entry, latest ? { stars: latest.stars } : {});
+            if (changed) {
+              changedCount += 1;
+              const badge = document.createElement("span");
+              badge.className = "following-row-change";
+              badge.textContent = message;
+              li.appendChild(badge);
+            }
+          }
+          list.appendChild(li);
+        }
+        summary.textContent =
+          "You're following " + followed.length + (followed.length === 1 ? " item" : " items") + (changedCount > 0 ? ", " + changedCount + " changed" : "");
+      }
+    </script>`;
+}
+
 export function renderLandingPage(
   domains,
-  { defaultOgImage, siteUrl = "", basePath = "", signals = {}, signalsByDomain = {}, momentumWindowDays = RISING_WINDOWS_DAYS[0] }
+  {
+    defaultOgImage,
+    siteUrl = "",
+    basePath = "",
+    signals = {},
+    signalsByDomain = {},
+    momentumWindowDays = RISING_WINDOWS_DAYS[0],
+    currentIsoWeek = null,
+  }
 ) {
   const rankedDomains = rankGroups(
     domains.map((domain) => ({
@@ -555,7 +749,7 @@ export function renderLandingPage(
         </a>`;
     })
     .join("");
-  const signalsSection = renderThisWeeksSignals(signals, { basePath, domains, signalsByDomain });
+  const signalsSection = renderThisWeeksSignals(signals, { basePath, domains, signalsByDomain, currentIsoWeek });
   const websiteJsonLd = renderJsonLd(
     buildWebsiteJsonLd({
       name: "awesomemap",
@@ -580,6 +774,8 @@ export function renderLandingPage(
       </div>
     </header>
     ${signalsSection}
+    <p class="rising-archive-links"><a href="${basePath}/rising/archive/">Browse previous weeks →</a></p>
+    ${renderFollowingWidget(basePath)}
     <div class="map-index">
       <h2 class="map-index-heading">Explore the maps</h2>
       <p class="map-index-note">Ranked by how fast each ecosystem grew over the last ${momentumWindowDays} days — growth rate, not size.</p>
@@ -817,7 +1013,7 @@ function renderSignalCards({ mover, heatingUp, watch, breakout } = {}, { basePat
  * whole section is omitted when neither the global scope nor any domain has
  * a qualifying signal yet, rather than rendering an empty shell.
  */
-function renderThisWeeksSignals(signals = {}, { basePath, domains = [], signalsByDomain = {} }) {
+function renderThisWeeksSignals(signals = {}, { basePath, domains = [], signalsByDomain = {}, currentIsoWeek = null }) {
   const hasSignal = (s) => Boolean(s?.mover || s?.heatingUp || s?.watch || s?.breakout);
   if (!hasSignal(signals) && !domains.some((domain) => hasSignal(signalsByDomain[domain.slug]))) return "";
 
@@ -864,9 +1060,15 @@ function renderThisWeeksSignals(signals = {}, { basePath, domains = [], signalsB
     </script>`
       : "";
 
+  // Names the current ISO week (e.g. "Week 2026-W39") so the module reads
+  // as this week's recurring destination, not just a static "today"
+  // snapshot — ties into the archive/RSS feed below, addressed by the
+  // same ISO week labels.
+  const weekNote = currentIsoWeek ? `<span class="this-weeks-signals-week">Week ${escapeHtml(currentIsoWeek)}</span>` : "";
+
   return `
     <section class="this-weeks-signals">
-      <h2 class="this-weeks-signals-heading">This week's signals</h2>
+      <h2 class="this-weeks-signals-heading">This week's signals ${weekNote}</h2>
       ${domainFilterBar}
       ${scopes}
       <a class="this-weeks-signals-link" href="${basePath}/rising/">See full leaderboard →</a>
@@ -966,6 +1168,10 @@ export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage
       <h1>Rising stars</h1>
       <p class="rising-hero-tagline">Star-growth leaders across every awesomemap domain.</p>
       <p class="rising-updated">Updated ${escapeHtml(generatedAt.toISOString().slice(0, 10))}</p>
+      <p class="rising-archive-links">
+        <a href="${basePath}/rising/archive/">Browse previous weeks →</a>
+        <a href="${basePath}/rising/feed.xml" data-goatcounter-click="rss_subscribe_click">Subscribe via RSS</a>
+      </p>
     </header>
     ${domainFilterBar}
     ${windowBar}
@@ -1014,6 +1220,103 @@ export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage
     ogDescription: "Star-growth leaders across every awesomemap domain, updated daily.",
     ogImage: defaultOgImage,
     ogUrl: `${siteUrl}${basePath}/rising/`,
+    base: basePath,
+    body,
+  });
+}
+
+/**
+ * Renders `/rising/archive/`: a newest-first list of every archived ISO
+ * week, each linking to its own `/rising/archive/<iso-week>/` page — the
+ * "browse previous weeks" surface `/rising/` and the homepage link to.
+ * `weeklySnapshots` is `awesomemap-data`'s `loadLeaderboardSnapshots()`
+ * output: `[{isoWeek, generatedAt}]`.
+ */
+export function renderRisingArchivePage(weeklySnapshots, { defaultOgImage, siteUrl = "", basePath = "" }) {
+  const sorted = [...weeklySnapshots].sort((a, b) => b.isoWeek.localeCompare(a.isoWeek));
+  const rows = sorted
+    .map(
+      (snapshot) => `
+        <li class="archive-row">
+          <a class="archive-row-week" href="${basePath}/rising/archive/${escapeHtml(snapshot.isoWeek)}/">${escapeHtml(snapshot.isoWeek)}</a>
+        </li>`
+    )
+    .join("");
+  const body = `
+    ${renderSiteHeader(basePath)}
+    <header class="rising-hero">
+      <h1>Rising archive</h1>
+      <p class="rising-hero-tagline">Every week's rising leaderboard, frozen at the week's close — compare what changed week over week.</p>
+    </header>
+    <div class="rising-page">
+      <section class="rising-section">
+        ${sorted.length === 0 ? `<p class="rising-empty">No archived weeks yet.</p>` : `<ol class="archive-rows-list">${rows}</ol>`}
+      </section>
+    </div>
+    ${renderSiteFooter(basePath)}
+  `;
+  return renderShell({
+    title: "Rising archive — awesomemap",
+    ogTitle: "Rising archive — awesomemap",
+    ogDescription: "Every week's rising leaderboard on awesomemap, archived so you can compare week over week.",
+    ogImage: defaultOgImage,
+    ogUrl: `${siteUrl}${basePath}/rising/archive/`,
+    base: basePath,
+    body,
+  });
+}
+
+/**
+ * Renders one archived week's `/rising/archive/<iso-week>/` page: the
+ * global top list plus one section per domain that had one, all from the
+ * frozen snapshot data rather than a fresh computation — reuses
+ * `renderRisingRow`/`renderRisingRows` for identical row styling to the
+ * live `/rising/` page, but with no window toggle (an archived week is a
+ * single 7-day view by construction) and no client-side domain filter
+ * (every section renders visible). `snapshot` is `awesomemap-data`'s
+ * `loadLeaderboardSnapshot(isoWeek)` output: `{isoWeek, generatedAt,
+ * scopes: {global: row[], [domainSlug]: row[]}}`, each row already
+ * carrying display fields (name/link/image/domain).
+ */
+export function renderRisingArchiveWeekPage(snapshot, domains, { defaultOgImage, siteUrl = "", basePath = "" }) {
+  const { isoWeek, generatedAt, scopes } = snapshot;
+  const globalSection = `
+    <section class="rising-section">
+      <h2 class="rising-section-heading">Hottest overall</h2>
+      ${renderRisingRows(scopes.global ?? [], { showDomain: true, basePath })}
+    </section>`;
+  const domainSections = domains
+    .map((domain) => {
+      const entries = scopes[domain.slug] ?? [];
+      if (entries.length === 0) return "";
+      return `
+        <section class="rising-section">
+          <h2 class="rising-section-heading">Hottest in ${escapeHtml(domain.shortName ?? domain.name)}</h2>
+          ${renderRisingRows(entries, { showDomain: false, basePath })}
+        </section>`;
+    })
+    .join("");
+  const ogUrl = `${siteUrl}${basePath}/rising/archive/${isoWeek}/`;
+  const body = `
+    ${renderSiteHeader(basePath)}
+    <header class="rising-hero">
+      <h1>Rising: ${escapeHtml(isoWeek)}</h1>
+      <p class="rising-hero-tagline">Star-growth leaders for the week of ${escapeHtml(isoWeek)}, frozen at week's close.</p>
+      <p class="rising-updated">Snapshotted ${escapeHtml(new Date(generatedAt).toISOString().slice(0, 10))}</p>
+      <p class="rising-archive-links"><a href="${basePath}/rising/archive/">← All weeks</a></p>
+    </header>
+    <div class="rising-page">
+      ${globalSection}
+      ${domainSections}
+    </div>
+    ${renderSiteFooter(basePath)}
+  `;
+  return renderShell({
+    title: `Rising: ${isoWeek} — awesomemap`,
+    ogTitle: `Rising: ${isoWeek} — awesomemap`,
+    ogDescription: `Star-growth leaders across every awesomemap domain for the week of ${isoWeek}.`,
+    ogImage: defaultOgImage,
+    ogUrl,
     base: basePath,
     body,
   });
@@ -1511,6 +1814,10 @@ export function renderProjectPage(
   const body = `
     ${renderSiteHeader(basePath)}
     ${renderCompareCartBootstrap(basePath)}
+    <script type="module">
+      import { initFollowUI } from "${basePath}/shared/follow-list.js";
+      initFollowUI();
+    </script>
     ${jsonLd}
     <header class="project-hero">
       ${renderProjectBreadcrumb(project, domain, basePath)}
@@ -1529,6 +1836,16 @@ export function renderProjectPage(
         <a class="detail-panel-link" href="${escapeHtml(githubUrl)}" target="_blank" rel="noopener">View on GitHub ↗</a>
         ${project.link ? `<a class="detail-panel-link" href="${escapeHtml(project.link)}" target="_blank" rel="noopener">Visit site ↗</a>` : ""}
         <button type="button" class="detail-panel-link compare-toggle" data-compare-id="${escapeHtml(project.id)}" aria-pressed="false">+ Compare</button>
+        <button
+          type="button"
+          class="detail-panel-link follow-toggle"
+          data-follow-type="project"
+          data-follow-id="${escapeHtml(project.id)}"
+          data-follow-name="${escapeHtml(project.name ?? project.id)}"
+          data-follow-domain-slug="${escapeHtml(domain.slug)}"
+          data-follow-last-seen-stars="${Number(project.weight ?? 0)}"
+          aria-pressed="false"
+        >+ Follow</button>
       </div>
       ${renderProjectTagChips(project.tags, basePath)}
     </div>

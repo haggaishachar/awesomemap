@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { loadAllDomains, loadAllProjectEntities, joinDomainProjects, SCHEMA_VERSION } from "../scripts/data-store.mjs";
+import { loadAllDomains, loadAllProjectEntities, joinDomainProjects, loadLeaderboardSnapshots, loadLeaderboardSnapshot, SCHEMA_VERSION } from "../scripts/data-store.mjs";
 
 process.env.AWESOMEMAP_DATA_API_URL = "http://example.test";
 
@@ -92,4 +92,26 @@ test("loadAllDomains also defaults to the live production API when AWESOMEMAP_DA
   } finally {
     process.env.AWESOMEMAP_DATA_API_URL = original;
   }
+});
+
+test("loadLeaderboardSnapshots fetches /leaderboard-snapshots and returns [] when the server has nothing", async () => {
+  const { fetchImpl, calls } = fakeFetch([{ status: 200, body: [] }]);
+  const weeks = await loadLeaderboardSnapshots({ fetchImpl });
+  assert.deepEqual(weeks, []);
+  assert.equal(calls[0].url, "http://example.test/leaderboard-snapshots");
+});
+
+test("loadLeaderboardSnapshots returns the server's weeks as-is", async () => {
+  const body = [{ isoWeek: "2026-W39", generatedAt: "2026-09-28T08:00:00.000Z" }];
+  const { fetchImpl } = fakeFetch([{ status: 200, body }]);
+  const weeks = await loadLeaderboardSnapshots({ fetchImpl });
+  assert.deepEqual(weeks, body);
+});
+
+test("loadLeaderboardSnapshot fetches one week by ISO week label", async () => {
+  const body = { isoWeek: "2026-W39", generatedAt: "2026-09-28T08:00:00.000Z", scopes: { global: [] } };
+  const { fetchImpl, calls } = fakeFetch([{ status: 200, body }]);
+  const snapshot = await loadLeaderboardSnapshot("2026-W39", { fetchImpl });
+  assert.deepEqual(snapshot, body);
+  assert.equal(calls[0].url, "http://example.test/leaderboard-snapshots/2026-W39");
 });

@@ -9,6 +9,7 @@
   <link rel="icon" type="image/svg+xml" href="{{BASE}}/favicon.svg" />
   <link rel="icon" type="image/png" sizes="32x32" href="{{BASE}}/favicon-32.png" />
   <link rel="apple-touch-icon" href="{{BASE}}/apple-touch-icon.png" />
+  <link rel="alternate" type="application/rss+xml" title="awesomemap: Rising this week" href="{{BASE}}/rising/feed.xml" />
   <meta property="og:site_name" content="awesomemap" />
   <meta property="og:title" content="{{OG_TITLE}}" />
   <meta property="og:description" content="{{OG_DESCRIPTION}}" />
@@ -34,6 +35,7 @@
   <!-- Cloudflare Web Analytics -->
   <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "aed82f46d25b42c698ff62a01b6dd7db"}'></script>
   <!-- End Cloudflare Web Analytics -->
+  {{ANALYTICS}}
 </head>
 <body>
 {{BODY}}

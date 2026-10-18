@@ -9,7 +9,7 @@ import { RISING_WINDOWS_DAYS } from "./velocity.mjs";
  * tag-growth.mjs's other derivation functions.
  *
  * `growthByWindow`/`hasEnoughHistory` are a project's own `growth`/
- * `hasEnoughHistory` objects, each keyed `rising7`/`rising30`/`rising90`.
+ * `hasEnoughHistory` objects, each keyed `rising7`/`rising30`.
  * `categoryGrowth7d` is the project's category's 7-day `computeGroupGrowth`
  * result (may be `undefined` for a category with no growth data at all —
  * e.g. one that's brand new). `categoryName` only words the relative-growth
@@ -34,11 +34,11 @@ export function explainSignal({ growthByWindow, hasEnoughHistory, categoryGrowth
  * enough history yet, or the shortest tracked window isn't even positive.
  *
  * Degrades to whichever windows currently have enough history rather than
- * requiring all of RISING_WINDOWS_DAYS (7/30/90) up front: a project's
- * rising30/rising90 windows can't have enough history before the catalog
+ * requiring all of RISING_WINDOWS_DAYS (7/30) up front: a project's
+ * rising30 window can't have enough history before the catalog
  * itself has accumulated that much snapshot history, so requiring all
- * three meant `sustained` was `null` for literally every project on the
- * site for the catalog's first ~90 days — not just weaker, completely
+ * windows meant `sustained` was `null` for literally every project on the
+ * site for the catalog's first ~30 days — not just weaker, completely
  * silent, since that's also the only path to a non-null return at all.
  * `rising7` is always the first window to have enough history (it needs
  * the least), so at least one tracked window is guaranteed whenever

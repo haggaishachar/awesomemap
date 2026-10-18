@@ -15,18 +15,23 @@
  * since a sitemap of relative URLs isn't spec-compliant and there's no
  * meaningful site to submit to a search engine locally.
  */
-export function buildSitemap(slugs, { siteUrl, basePath, extraPaths = [] }) {
+export function buildSitemap(slugs, { siteUrl, basePath, extraPaths = [], lastmod }) {
   if (!siteUrl) return null;
 
   const origin = `${siteUrl}${basePath}`;
-  const urls = [
-    `${origin}/`,
-    `${origin}/rising/`,
-    ...slugs.map((slug) => `${origin}/${slug}/`),
-    ...extraPaths.map((path) => `${origin}${path}`),
+  // An extraPaths entry is either a bare path (rebuilt every deploy, so it
+  // takes the shared `lastmod`) or `{ path, lastmod }` for a page frozen at
+  // its own date, like a weekly archive snapshot.
+  const entries = [
+    { path: "/", lastmod },
+    { path: "/rising/", lastmod },
+    ...slugs.map((slug) => ({ path: `/${slug}/`, lastmod })),
+    ...extraPaths.map((entry) => (typeof entry === "string" ? { path: entry, lastmod } : entry)),
   ];
 
-  const urlEntries = urls.map((url) => `  <url><loc>${url}</loc></url>`).join("\n");
+  const urlEntries = entries
+    .map(({ path, lastmod: date }) => `  <url><loc>${origin}${path}</loc>${date ? `<lastmod>${date}</lastmod>` : ""}</url>`)
+    .join("\n");
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urlEntries}\n</urlset>\n`;
 }
 

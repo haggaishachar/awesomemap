@@ -74,8 +74,7 @@ export function weightOf(nodeData, sizeKey = "popular") {
 
 /**
  * Wraps the raw JSON tree in a d3 hierarchy with values summed via
- * weightOf for the given `sizeKey` ("popular", "rising7", "rising30", or
- * "rising90").
+ * weightOf for the given `sizeKey` ("popular", "rising7", or "rising30").
  */
 export function buildHierarchy(rootData, sizeKey = "popular") {
   return hierarchy(rootData, (d) => d.children).sum((d) => weightOf(d, sizeKey));
@@ -206,7 +205,7 @@ export function computeLevelBoxes(focusChildren, { focusId, sizeKey, stageWidth,
  * "not enough history yet" for a too-new project) so the two stay
  * consistent. `leafData` is a leaf node's own `.data` (`name`, `weight`,
  * `growth`, `hasEnoughHistory`); `sizeKey` is the currently active
- * `"popular" | "rising7" | "rising30" | "rising90"` key.
+ * `"popular" | "rising7" | "rising30"` key.
  */
 export function leafAriaLabel(leafData, sizeKey) {
   const name = leafData.name ?? leafData.id ?? "";

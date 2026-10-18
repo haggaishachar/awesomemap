@@ -17,6 +17,28 @@ test("buildSitemap excludes embed pages", () => {
   assert.doesNotMatch(xml, /\/embed\//);
 });
 
+test("buildSitemap stamps every page with the shared lastmod", () => {
+  const xml = buildSitemap(["data-science"], { siteUrl: "https://example.com", basePath: "", lastmod: "2026-10-18", extraPaths: ["/tags/"] });
+  assert.match(xml, /<loc>https:\/\/example\.com\/rising\/<\/loc><lastmod>2026-10-18<\/lastmod>/);
+  assert.match(xml, /<loc>https:\/\/example\.com\/data-science\/<\/loc><lastmod>2026-10-18<\/lastmod>/);
+  assert.match(xml, /<loc>https:\/\/example\.com\/tags\/<\/loc><lastmod>2026-10-18<\/lastmod>/);
+});
+
+test("buildSitemap keeps a frozen page's own lastmod instead of the shared one", () => {
+  const xml = buildSitemap([], {
+    siteUrl: "https://example.com",
+    basePath: "",
+    lastmod: "2026-10-18",
+    extraPaths: [{ path: "/rising/archive/2026-W40/", lastmod: "2026-10-05" }],
+  });
+  assert.match(xml, /<loc>https:\/\/example\.com\/rising\/archive\/2026-W40\/<\/loc><lastmod>2026-10-05<\/lastmod>/);
+});
+
+test("buildSitemap omits lastmod when none is given", () => {
+  const xml = buildSitemap(["data-science"], { siteUrl: "https://example.com", basePath: "" });
+  assert.doesNotMatch(xml, /<lastmod>/);
+});
+
 test("buildSitemap returns null when siteUrl is empty", () => {
   assert.equal(buildSitemap(["data-science"], { siteUrl: "", basePath: "" }), null);
 });

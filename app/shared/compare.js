@@ -9,7 +9,7 @@ import { removeFromCart, refreshCompareButtons } from "./compare-cart.js";
 // own copy of the rising-window list generate.mjs's RISING_WINDOWS_DAYS
 // produces — same reason detail-panel.js keeps its own
 // DEFAULT_MOMENTUM_WINDOW_DAYS copy.
-const RISING_WINDOWS_DAYS = [7, 30, 90];
+const RISING_WINDOWS_DAYS = [7, 30];
 
 /**
  * The stats table's rows, in display order. Each row knows how to render

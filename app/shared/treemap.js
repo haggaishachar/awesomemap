@@ -18,7 +18,7 @@ const STAGE_BOTTOM_MARGIN_PX = 16;
 // rather than imported: scripts/ is a build-time-only Node directory that
 // generate.mjs never copies into dist/, so this browser module can't
 // import from it. Keep both lists in sync if a window is ever added.
-const RISING_WINDOWS_DAYS = [7, 30, 90];
+const RISING_WINDOWS_DAYS = [7, 30];
 
 // A box needs roughly this much area to stay legible (label + logo)
 // before it's worth its own slot instead of folding into "Others".
@@ -57,7 +57,7 @@ const COLLAGE_MAX_ICONS = 4;
  * shown in a peek preview) is clicked — categories and Others boxes zoom
  * instead of firing this callback. `leafData` is the leaf's data plus an
  * `activeSizeKey` field naming the size mode active when it was clicked
- * ("popular", "rising7", "rising30", or "rising90"), so the detail panel
+ * ("popular", "rising7", or "rising30"), so the detail panel
  * can show the right stat. `onModeChange()`, if given, is called with no
  * arguments right after the Popular/Rising mode or window is switched —
  * consumers use it to dismiss any already-open detail panel, since its

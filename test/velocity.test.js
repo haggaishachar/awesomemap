@@ -173,9 +173,9 @@ test("computeProjectSizing marks every rising window as insufficient when there'
 
 test("findInvalidSizes flags a project with a non-positive or missing size, and leaves valid projects alone", () => {
   const projects = [
-    { id: "good", sizes: { popular: 10, rising7: 0.5, rising30: 0.2, rising90: 0.1 } },
-    { id: "bad-zero", sizes: { popular: 0, rising7: 1, rising30: 1, rising90: 1 } },
-    { id: "bad-missing", sizes: { popular: 10, rising7: 1, rising30: 1 } },
+    { id: "good", sizes: { popular: 10, rising7: 0.5, rising30: 0.2 } },
+    { id: "bad-zero", sizes: { popular: 0, rising7: 1, rising30: 1 } },
+    { id: "bad-missing", sizes: { popular: 10, rising7: 1 } },
   ];
   assert.deepEqual(findInvalidSizes(projects), ["bad-zero", "bad-missing"]);
 });

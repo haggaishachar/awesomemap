@@ -186,6 +186,25 @@ test("the domain page header links to the GitHub repo", () => {
   assert.match(html, /class="site-header-github" href="https:\/\/github\.com\/haggaishachar\/awesomemap"/);
 });
 
+test("the domain page header has labelled Follow (X) and Star (GitHub) links", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /class="site-header-follow" href="https:\/\/x\.com\/awesomemapdev"/);
+  assert.match(html, /<\/svg>\s*Follow\s*<\/a>/);
+  assert.match(html, /<\/svg>\s*Star\s*<\/a>/);
+});
+
+test("every non-embed page ends with a follow-on-X / star-on-GitHub call to action", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /class="follow-cta-button follow-cta-x" href="https:\/\/x\.com\/awesomemapdev"/);
+  assert.match(html, /class="follow-cta-button follow-cta-github" href="https:\/\/github\.com\/haggaishachar\/awesomemap"/);
+  assert.ok(html.indexOf('class="follow-cta"') < html.indexOf('class="site-footer"'));
+
+  const embed = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", embed: true });
+  assert.doesNotMatch(embed, /follow-cta/);
+});
+
 test("the domain page footer links to license, contributing, and issues", () => {
   const domain = { slug: "data-science", name: "Data Science", description: "desc" };
   const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png" });

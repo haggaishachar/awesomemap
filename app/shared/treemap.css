@@ -778,22 +778,32 @@ a.momentum-row-name:hover {
   color: var(--color-text);
 }
 
+/* Follow/Star are the only way a visitor can come back to the site (no
+   accounts, no newsletter), so they're labelled pills rather than bare icons. */
+.site-header-follow,
 .site-header-github {
-  display: flex;
-  color: var(--color-text-muted);
-}
-
-.site-header-github:hover {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-surface);
   color: var(--color-text);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
-.site-header-stars {
-  display: block;
-  border-radius: 3px;
+.site-header-follow:hover,
+.site-header-github:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
 }
 
 /* Below this, the header's links (Search, Rising, Tags, Compare, Suggest a
-   project, GitHub, stars badge) no longer fit in one row. They used to be
+   project, Follow, Star) no longer fit in one row. They used to be
    left wrapping onto as many rows as needed, but that spilled the header
    across up to 3 lines. Instead, collapse them behind the hamburger toggle
    so the closed header is always brand + toggle on one line; opening the
@@ -821,9 +831,82 @@ a.momentum-row-name:hover {
     display: flex;
   }
 
-  /* Decorative, not navigation — first to go when space is tight. */
-  .site-header-stars {
-    display: none;
+}
+
+.follow-cta {
+  max-width: 640px;
+  margin: 48px auto 0;
+  padding: 28px 24px;
+  text-align: center;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  box-shadow: var(--shadow-sm);
+}
+
+.follow-cta-heading {
+  margin: 0 0 8px;
+  font-size: 1.15rem;
+  letter-spacing: -0.01em;
+  color: var(--color-text);
+}
+
+.follow-cta-text {
+  margin: 0 0 18px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--color-text-muted);
+}
+
+.follow-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.follow-cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+
+.follow-cta-x {
+  background: var(--color-text);
+  color: var(--color-bg);
+}
+
+.follow-cta-x:hover {
+  opacity: 0.85;
+}
+
+.follow-cta-github {
+  background: var(--color-surface);
+  color: var(--color-text);
+  border-color: var(--color-border);
+}
+
+.follow-cta-github:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.follow-cta-stars {
+  display: block;
+  border-radius: 3px;
+}
+
+@media (max-width: 640px) {
+  .follow-cta {
+    margin: 32px 16px 0;
+    padding: 24px 16px;
   }
 }
 

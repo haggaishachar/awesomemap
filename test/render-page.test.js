@@ -825,6 +825,16 @@ test("renderLandingPage's this-week's-signals section links to the full /rising/
   assert.match(html, /<a class="this-weeks-signals-link" href="\/techmap\/rising\/">See full leaderboard →<\/a>/);
 });
 
+test("renderLandingPage puts the \"Browse previous weeks\" archive link inside the this-week's-signals section, beside the leaderboard link", () => {
+  const signals = { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, heatingUp: null, watch: null };
+  const html = renderLandingPage([], { defaultOgImage: "/og-default.png", basePath: "/techmap", signals });
+  assert.match(
+    html,
+    /<p class="this-weeks-signals-links">\s*<a class="this-weeks-signals-link" href="\/techmap\/rising\/">See full leaderboard →<\/a>\s*<a class="this-weeks-signals-link" href="\/techmap\/rising\/archive\/">Browse previous weeks →<\/a>\s*<\/p>\s*<\/section>/
+  );
+  assert.equal(html.match(/Browse previous weeks/g).length, 1);
+});
+
 test("renderLandingPage's this-week's-signals section renders a domain filter bar, defaulting to \"All\" active and every domain's cards hidden", () => {
   const signals = { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, heatingUp: null, watch: null };
   const domains = [

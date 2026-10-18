@@ -802,7 +802,6 @@ export function renderLandingPage(
       </div>
     </header>
     ${signalsSection}
-    <p class="rising-archive-links"><a href="${basePath}/rising/archive/">Browse previous weeks →</a></p>
     ${renderFollowingWidget(basePath)}
     <div class="map-index">
       <h2 class="map-index-heading">Explore the maps</h2>
@@ -1099,7 +1098,10 @@ function renderThisWeeksSignals(signals = {}, { basePath, domains = [], signalsB
       <h2 class="this-weeks-signals-heading">This week's signals ${weekNote}</h2>
       ${domainFilterBar}
       ${scopes}
-      <a class="this-weeks-signals-link" href="${basePath}/rising/">See full leaderboard →</a>
+      <p class="this-weeks-signals-links">
+        <a class="this-weeks-signals-link" href="${basePath}/rising/">See full leaderboard →</a>
+        <a class="this-weeks-signals-link" href="${basePath}/rising/archive/">Browse previous weeks →</a>
+      </p>
     </section>
     ${filterScript}`;
 }

@@ -2176,12 +2176,12 @@ export function renderMethodologyPage({ defaultOgImage, siteUrl = "", basePath =
 
   const body = `
     ${renderSiteHeader(basePath)}
-    <header class="rising-hero">
+    <header class="rising-hero methodology-hero">
       <h1>How we rank</h1>
       <p class="rising-hero-tagline">Every number on awesomemap comes straight from daily GitHub star snapshots, run through the same formulas for every project — no manual curation of order. Here's exactly what each one measures.</p>
       <p class="rising-updated">Star-history snapshots taken daily · growth windows: ${windowsList} days</p>
     </header>
-    <div class="rising-page">
+    <div class="rising-page methodology-page">
       <section class="rising-section">
         <h2 class="rising-section-heading">Growth</h2>
         <p>The percent (and absolute) change in stars over a chosen window — ${windowsList} days. It's measured from the snapshot closest to that many days ago to the latest snapshot, so one missed snapshot day doesn't break the number. This is what every growth badge across the site — a domain card, a category row, a tag, a project — is showing.</p>

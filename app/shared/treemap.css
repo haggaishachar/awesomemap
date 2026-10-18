@@ -962,6 +962,18 @@ a.momentum-row-name:hover {
   color: var(--color-text);
 }
 
+.site-header-submit {
+  color: var(--color-text-muted);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.site-header-submit:hover {
+  color: var(--color-text);
+}
+
 .rising-hero {
   text-align: center;
   padding: 48px 24px 24px;
@@ -1173,6 +1185,29 @@ a.momentum-row-name:hover {
   padding-left: 20px;
   display: grid;
   gap: 6px;
+}
+
+.rising-section p a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.rising-section p a:hover {
+  text-decoration: underline;
+}
+
+/* Methodology is prose, not a leaderboard: hero and sections share one
+   left-aligned reading column so headings, tagline and body text line up. */
+.methodology-hero,
+.methodology-page {
+  box-sizing: border-box;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.methodology-hero {
+  text-align: left;
 }
 
 .rising-rows-list {

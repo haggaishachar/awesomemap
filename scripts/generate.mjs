@@ -23,7 +23,7 @@ import { buildCompareRecord, buildCompareIndex } from "./compare-index.mjs";
 import { explainSignal } from "./signal.mjs";
 import { sortedHistory } from "../app/shared/star-history.js";
 import { sortedEvents, pickReasonEvent } from "./project-events.mjs";
-import { computeProjectSizing, findInvalidSizes, RISING_WINDOWS_DAYS, MS_PER_DAY } from "./velocity.mjs";
+import { computeProjectSizing, computeVelocity, findInvalidSizes, RISING_WINDOWS_DAYS, MS_PER_DAY } from "./velocity.mjs";
 import { computeLeaderboard } from "./leaderboard.mjs";
 import { computeGroupGrowth, rankGroups } from "./group-growth.mjs";
 import { buildTagGroups, computeTopTags, computeRisingTags } from "./tag-growth.mjs";
@@ -227,6 +227,30 @@ function withBreakoutInfo(pool) {
   return pool.map((candidate) => ({ ...candidate, ...breakoutInfoById.get(candidate.id) }));
 }
 
+// Each project's star gain over the *previous* signals window (the 7 days
+// ending a week ago) — the baseline pickThisWeeksSignals' `losingMomentum`
+// compares this week's gain against. Reuses computeVelocity unchanged, just
+// with history truncated to that earlier `now`, the same as-of trick
+// leaderboard.mjs uses for its "yesterday" ranks. A project without enough
+// history for that earlier window simply gets no entry.
+const priorWeekCutoff = new Date(Date.now() - TEASER_WINDOW_DAYS * MS_PER_DAY);
+const priorWeekCutoffStr = priorWeekCutoff.toISOString().slice(0, 10);
+const prevStarDeltaById = new Map();
+for (const domain of parsedDomains) {
+  for (const project of domain.projects) {
+    const truncated = (project.history ?? []).filter((entry) => entry.date <= priorWeekCutoffStr);
+    const prior = computeVelocity(truncated, TEASER_WINDOW_DAYS, { now: priorWeekCutoff });
+    if (prior.hasEnoughHistory) prevStarDeltaById.set(project.id, prior.starDelta);
+  }
+}
+
+/** Joins each candidate's prior-week star gain (if known) onto a computeLeaderboard pool, for pickThisWeeksSignals' `losingMomentum` pick. */
+function withPriorWeekDelta(pool) {
+  return pool.map((candidate) =>
+    prevStarDeltaById.has(candidate.id) ? { ...candidate, prevStarDelta: prevStarDeltaById.get(candidate.id) } : candidate
+  );
+}
+
 // Pass 2c: group projects by shared tag (GitHub topics), then rank those
 // groups by popularity and by growth — the same "how did this slice of the
 // ecosystem move" question Pass 2b already answers for categories and
@@ -383,16 +407,16 @@ for (const domain of parsedDomains) {
 // being the best percentDelta overall. A fresh, uncapped call is cheap at
 // this repo's scale and keeps LEADERBOARD_LIMIT (the /rising/ page's own
 // per-section row count) untouched.
-const globalSignalsPool = withEventReason(withBreakoutInfo(computeLeaderboard(parsedDomains, { scope: "global", windowDays: TEASER_WINDOW_DAYS, limit: Infinity })), TEASER_WINDOW_DAYS);
+const globalSignalsPool = withEventReason(withPriorWeekDelta(withBreakoutInfo(computeLeaderboard(parsedDomains, { scope: "global", windowDays: TEASER_WINDOW_DAYS, limit: Infinity }))), TEASER_WINDOW_DAYS);
 const thisWeeksSignals = pickThisWeeksSignals(globalSignalsPool);
 
 // One more signals pick per domain, scoped the same uncapped way, so the
 // homepage's domain filter can swap to "just this domain's mover/heating
-// up/one to watch/breakout" without leaving the page — same show/hide-by-scope
+// up/one to watch/breakout/buzz/losing momentum" without leaving the page — same show/hide-by-scope
 // pattern /rising/'s own domain filter already uses.
 const thisWeeksSignalsByDomain = {};
 for (const domain of parsedDomains) {
-  const domainSignalsPool = withEventReason(withBreakoutInfo(computeLeaderboard(parsedDomains, { scope: domain.slug, windowDays: TEASER_WINDOW_DAYS, limit: Infinity })), TEASER_WINDOW_DAYS);
+  const domainSignalsPool = withEventReason(withPriorWeekDelta(withBreakoutInfo(computeLeaderboard(parsedDomains, { scope: domain.slug, windowDays: TEASER_WINDOW_DAYS, limit: Infinity }))), TEASER_WINDOW_DAYS);
   thisWeeksSignalsByDomain[domain.slug] = pickThisWeeksSignals(domainSignalsPool);
 }
 

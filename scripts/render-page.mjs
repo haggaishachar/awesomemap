@@ -967,8 +967,8 @@ function formatEventReasonTitle(eventReason) {
 }
 
 /**
- * Renders one scope's up to-four cards (biggest mover, unexpected breakout,
- * heating-up project, one-to-watch) built from a `pickThisWeeksSignals`
+ * Renders one scope's up-to-six cards (biggest mover, unexpected breakout,
+ * heating-up project, one-to-watch, buzz spike, losing momentum) built from a `pickThisWeeksSignals`
  * result — either the global pool or a single domain's. Any signal that's
  * `null` (no qualifying candidate — including a scope where nothing cleared
  * `MIN_MEANINGFUL_STAR_DELTA` this week) is skipped. Falls back to the same
@@ -977,7 +977,7 @@ function formatEventReasonTitle(eventReason) {
  * history (or without any meaningful growth) yet doesn't just leave blank
  * space.
  */
-function renderSignalCards({ mover, heatingUp, watch, breakout } = {}, { basePath }) {
+function renderSignalCards({ mover, heatingUp, watch, breakout, buzz, losingMomentum } = {}, { basePath }) {
   const cards = [
     mover &&
       renderSignalCard({
@@ -1023,6 +1023,28 @@ function renderSignalCards({ mover, heatingUp, watch, breakout } = {}, { basePat
         desc: watch.desc,
         reason: formatEventReason(watch.eventReason),
       }),
+    buzz &&
+      renderSignalCard({
+        label: "📣 Buzz spike",
+        title: buzz.name,
+        // The mention itself is this card's headline, so it's the stat
+        // rather than a separate reason line repeating it.
+        stat: `${escapeHtml(formatEventReasonTitle(buzz.eventReason))} · +${buzz.starDelta} stars this week`,
+        meta: buzz.domainShort,
+        href: `${basePath}/projects/${buzz.id}/`,
+        compareId: buzz.id,
+        desc: buzz.desc,
+      }),
+    losingMomentum &&
+      renderSignalCard({
+        label: "📉 Losing momentum",
+        title: losingMomentum.name,
+        stat: `+${losingMomentum.starDelta} stars this week, down from +${losingMomentum.prevStarDelta} last week`,
+        meta: losingMomentum.domainShort,
+        href: `${basePath}/projects/${losingMomentum.id}/`,
+        compareId: losingMomentum.id,
+        desc: losingMomentum.desc,
+      }),
   ].filter(Boolean);
 
   if (cards.length === 0) {
@@ -1041,7 +1063,7 @@ function renderSignalCards({ mover, heatingUp, watch, breakout } = {}, { basePat
  * a qualifying signal yet, rather than rendering an empty shell.
  */
 function renderThisWeeksSignals(signals = {}, { basePath, domains = [], signalsByDomain = {}, currentIsoWeek = null }) {
-  const hasSignal = (s) => Boolean(s?.mover || s?.heatingUp || s?.watch || s?.breakout);
+  const hasSignal = (s) => Boolean(s?.mover || s?.heatingUp || s?.watch || s?.breakout || s?.buzz || s?.losingMomentum);
   if (!hasSignal(signals) && !domains.some((domain) => hasSignal(signalsByDomain[domain.slug]))) return "";
 
   const domainFilterBar =

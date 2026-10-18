@@ -1,6 +1,12 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { pickThisWeeksSignals, SMALL_PROJECT_STAR_THRESHOLD, MIN_MEANINGFUL_STAR_DELTA } from "../scripts/this-weeks-signals.mjs";
+import {
+  pickThisWeeksSignals,
+  SMALL_PROJECT_STAR_THRESHOLD,
+  MIN_MEANINGFUL_STAR_DELTA,
+  MIN_PRIOR_WEEK_STAR_DELTA,
+  MOMENTUM_DROP_RATIO,
+} from "../scripts/this-weeks-signals.mjs";
 
 /** Minimal leaderboard-candidate shape (a computeLeaderboard row). */
 function candidate(overrides) {
@@ -125,4 +131,76 @@ test("pickThisWeeksSignals' breakout is null when no candidate carries a relativ
   const pool = [candidate({ id: "a/a", relativeMultiple: undefined })];
   const { breakout } = pickThisWeeksSignals(pool);
   assert.equal(breakout, null);
+});
+
+test("pickThisWeeksSignals' buzz is the candidate with the highest-points in-window eventReason, skipping ids every other upward signal claimed", () => {
+  const pool = [
+    // Highest starDelta -> mover. Also carries the biggest event, but the
+    // mover card already shows its own reason line.
+    candidate({ id: "mover/mover", starDelta: 900, percentDelta: 5, currentStars: 90000, eventReason: { type: "hn", points: 900 } }),
+    // Highest percentDelta among the rest -> heatingUp, so it's claimed too.
+    candidate({ id: "heating/heating", starDelta: 30, percentDelta: 50, currentStars: 40000, eventReason: { type: "hn", points: 600 } }),
+    candidate({ id: "loud/loud", starDelta: 40, percentDelta: 1, currentStars: 40000, eventReason: { type: "hn", points: 300 } }),
+    candidate({ id: "quieter/quieter", starDelta: 60, percentDelta: 1, currentStars: 40000, eventReason: { type: "reddit", points: 120 } }),
+    candidate({ id: "press/press", starDelta: 80, percentDelta: 1, currentStars: 40000, eventReason: { type: "blog" } }),
+  ];
+  const { mover, heatingUp, buzz } = pickThisWeeksSignals(pool);
+  assert.equal(mover.id, "mover/mover");
+  assert.equal(heatingUp.id, "heating/heating");
+  assert.equal(buzz.id, "loud/loud");
+});
+
+test("pickThisWeeksSignals' buzz is null when no unclaimed candidate has an eventReason", () => {
+  const pool = [candidate({ id: "a/a", starDelta: 50, currentStars: 90000, eventReason: { type: "hn", points: 100 } }), candidate({ id: "b/b", starDelta: 10 })];
+  const { mover, buzz } = pickThisWeeksSignals(pool);
+  assert.equal(mover.id, "a/a");
+  assert.equal(buzz, null);
+});
+
+test("pickThisWeeksSignals' buzz ignores candidates below MIN_MEANINGFUL_STAR_DELTA, even with a big mention", () => {
+  const pool = [
+    candidate({ id: "a/a", starDelta: 50 }),
+    candidate({ id: "noise/noise", starDelta: MIN_MEANINGFUL_STAR_DELTA - 1, eventReason: { type: "hn", points: 500 } }),
+  ];
+  assert.equal(pickThisWeeksSignals(pool).buzz, null);
+});
+
+/** A pool of three candidates that absorb mover/heatingUp, leaving every other candidate unclaimed (none are small enough for watch). */
+function upwardClaimers() {
+  return [
+    candidate({ id: "claim-mover/claim-mover", starDelta: 50000, percentDelta: 1, currentStars: 900000 }),
+    candidate({ id: "claim-heating/claim-heating", starDelta: 50, percentDelta: 99, currentStars: 90000 }),
+  ];
+}
+
+test("pickThisWeeksSignals' losingMomentum is the biggest absolute week-over-week slowdown among projects whose gain at least halved", () => {
+  const pool = [
+    candidate({ id: "mover/mover", starDelta: 90000, percentDelta: 1, currentStars: 900000, prevStarDelta: 900000 }), // would win, but mover claimed it
+    candidate({ id: "heating/heating", starDelta: 50, percentDelta: 99, currentStars: 90000, prevStarDelta: 5000 }), // likewise, claimed by heatingUp
+    candidate({ id: "cooled/cooled", starDelta: 300, currentStars: 90000, prevStarDelta: 2000 }), // slowed by 1,700
+    candidate({ id: "stalled/stalled", starDelta: 10, currentStars: 90000, prevStarDelta: 400 }), // slowed by 390
+    candidate({ id: "steady/steady", starDelta: 120, currentStars: 90000, prevStarDelta: 200 }), // didn't halve
+  ];
+  const { losingMomentum } = pickThisWeeksSignals(pool);
+  assert.equal(losingMomentum.id, "cooled/cooled");
+});
+
+test("pickThisWeeksSignals' losingMomentum requires a real prior week (MIN_PRIOR_WEEK_STAR_DELTA) and a drop of at least MOMENTUM_DROP_RATIO", () => {
+  const smallPrior = [candidate({ id: "a/a", starDelta: 1, prevStarDelta: MIN_PRIOR_WEEK_STAR_DELTA - 1 })];
+  assert.equal(pickThisWeeksSignals(smallPrior).losingMomentum, null);
+
+  const notHalved = [...upwardClaimers(), candidate({ id: "b/b", starDelta: 60, currentStars: 90000, prevStarDelta: 100 })];
+  assert.equal(pickThisWeeksSignals(notHalved).losingMomentum, null);
+
+  const exactlyHalved = [...upwardClaimers(), candidate({ id: "b/b", starDelta: 100 * MOMENTUM_DROP_RATIO, currentStars: 90000, prevStarDelta: 100 })];
+  assert.equal(pickThisWeeksSignals(exactlyHalved).losingMomentum.id, "b/b");
+});
+
+test("pickThisWeeksSignals' losingMomentum skips candidates with no prevStarDelta, and ones still losing stars outright", () => {
+  const pool = [
+    candidate({ id: "a/a", starDelta: 1000 }),
+    candidate({ id: "no-prior/no-prior", starDelta: 6 }),
+    candidate({ id: "shrinking/shrinking", starDelta: -40, prevStarDelta: 500 }),
+  ];
+  assert.equal(pickThisWeeksSignals(pool).losingMomentum, null);
 });

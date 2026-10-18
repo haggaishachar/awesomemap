@@ -17,8 +17,22 @@ export const SMALL_PROJECT_STAR_THRESHOLD = 5000;
 // faster — technically the pool's best percentDelta, but not a real signal.
 export const MIN_MEANINGFUL_STAR_DELTA = 5;
 
+// The smallest prior-week star gain a project needs before a slowdown
+// counts as "losing momentum" — without it, a project going from +8 to +2
+// would qualify, which is noise, not a story. Calibrated against this
+// repo's tracked projects: the prior-week starDelta 90th percentile sits
+// around 110, so 100 limits the card to projects that genuinely had a big
+// week before this one.
+export const MIN_PRIOR_WEEK_STAR_DELTA = 100;
+
+// How far this week's gain must have fallen relative to last week's to
+// count as "losing momentum": at most this fraction of last week's gain
+// (0.5 = growth at least halved). Ordinary week-to-week wobble on a steady
+// project stays well inside this.
+export const MOMENTUM_DROP_RATIO = 0.5;
+
 /**
- * Picks the landing page's four "this week's signals" highlights — a reason
+ * Picks the landing page's six "this week's signals" highlights — a reason
  * to come back daily, per the homepage-hero backlog item's pairing with a
  * "this week's signals" teaser. All four reuse data generate.mjs already
  * computes elsewhere; this module only selects, it does not derive new
@@ -34,14 +48,26 @@ export const MIN_MEANINGFUL_STAR_DELTA = 5;
  * `breakout` reads those; a candidate without them is simply never
  * eligible for `breakout`.
  *
+ * Two more optional per-candidate fields feed the last two picks:
+ * `eventReason` (joined on by generate.mjs's `withEventReason`) for `buzz`,
+ * and `prevStarDelta` (the same-length window's star gain one week
+ * earlier, joined on by generate.mjs) for `losingMomentum`.
+ *
  * Every candidate this module considers for `mover`/`watch`/`heatingUp`/
- * `breakout` must first clear `MIN_MEANINGFUL_STAR_DELTA` — see that
- * constant for why. `mover`/`watch`/`breakout` are picked before
+ * `breakout`/`buzz` must first clear `MIN_MEANINGFUL_STAR_DELTA` — see that
+ * constant for why. `losingMomentum` deliberately doesn't: a project whose
+ * gain collapsed to a couple of stars is exactly the story it tells, and
+ * `MIN_PRIOR_WEEK_STAR_DELTA` guards it against noise instead. `mover`/`watch`/`breakout` are picked before
  * `heatingUp` so `heatingUp` can exclude their ids — otherwise it'd often
  * just repeat `watch` (percentage growth is usually won by small
  * projects).
  *
- * Each of `mover`/`heatingUp`/`watch`/`breakout` is `null` when no
+ * `buzz` and `losingMomentum` are picked last, skipping every id the four
+ * upward signals already claimed — a mover that also had the week's
+ * biggest HN post already shows that as its own card's reason line, and a
+ * project shouldn't read as both "biggest mover" and "losing momentum".
+ *
+ * Each of `mover`/`heatingUp`/`watch`/`breakout`/`buzz`/`losingMomentum` is `null` when no
  * candidate qualifies (e.g. too early in the dataset's life, or nothing in
  * this scope grew meaningfully this week) — `renderThisWeeksSignals` omits
  * that card rather than rendering an empty one.
@@ -52,11 +78,15 @@ export function pickThisWeeksSignals(moverPool, { starThreshold = SMALL_PROJECT_
   const watch = pickOneToWatch(pool, starThreshold);
   const breakout = pickBreakout(pool, new Set([mover?.id, watch?.id].filter(Boolean)));
   const claimedIds = new Set([mover?.id, watch?.id, breakout?.id].filter(Boolean));
+  const heatingUp = pickHeatingUpProject(pool, claimedIds);
+  if (heatingUp) claimedIds.add(heatingUp.id);
   return {
     mover,
-    heatingUp: pickHeatingUpProject(pool, claimedIds),
+    heatingUp,
     watch,
     breakout,
+    buzz: pickBuzz(pool, claimedIds),
+    losingMomentum: pickLosingMomentum(moverPool, claimedIds),
   };
 }
 
@@ -94,4 +124,43 @@ function pickBreakout(pool, claimedIds) {
   const eligible = pool.filter((candidate) => !claimedIds.has(candidate.id) && typeof candidate.relativeMultiple === "number");
   if (eligible.length === 0) return null;
   return eligible.reduce((best, candidate) => (candidate.relativeMultiple > best.relativeMultiple ? candidate : best));
+}
+
+/**
+ * The unclaimed candidate with the most notable in-window external mention
+ * — highest `eventReason.points` (a blog event carries none, so it only wins
+ * when nothing pointed is left), ties going to the bigger starDelta. Null
+ * when no unclaimed candidate has an `eventReason` (the common case: these
+ * events are sparse, see sources.md).
+ */
+function pickBuzz(pool, claimedIds) {
+  const eligible = pool.filter((candidate) => !claimedIds.has(candidate.id) && candidate.eventReason);
+  if (eligible.length === 0) return null;
+  const points = (candidate) => candidate.eventReason.points ?? 0;
+  return eligible.reduce((best, candidate) =>
+    points(candidate) > points(best) || (points(candidate) === points(best) && candidate.starDelta > best.starDelta) ? candidate : best
+  );
+}
+
+/**
+ * The unclaimed candidate whose weekly star gain fell the most in absolute
+ * terms, among those that had a real prior week (`prevStarDelta >=
+ * MIN_PRIOR_WEEK_STAR_DELTA`) and whose gain this week is at most
+ * `MOMENTUM_DROP_RATIO` of it. Ranked by absolute slowdown so last week's
+ * big spike cooling off beats a mid-sized project's proportionally similar
+ * dip. A candidate still losing stars outright (negative `starDelta`) is
+ * skipped — that's usually GitHub pruning spam stars, not a momentum story.
+ */
+function pickLosingMomentum(pool, claimedIds) {
+  const eligible = pool.filter(
+    (candidate) =>
+      !claimedIds.has(candidate.id) &&
+      typeof candidate.prevStarDelta === "number" &&
+      candidate.prevStarDelta >= MIN_PRIOR_WEEK_STAR_DELTA &&
+      candidate.starDelta >= 0 &&
+      candidate.starDelta <= candidate.prevStarDelta * MOMENTUM_DROP_RATIO
+  );
+  if (eligible.length === 0) return null;
+  const slowdown = (candidate) => candidate.prevStarDelta - candidate.starDelta;
+  return eligible.reduce((best, candidate) => (slowdown(candidate) > slowdown(best) ? candidate : best));
 }

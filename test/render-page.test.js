@@ -766,6 +766,42 @@ test("renderLandingPage's breakout signal card names the category and multiple, 
   assert.doesNotMatch(withoutBreakout, /🚀 Unexpected breakout/);
 });
 
+test("renderLandingPage's buzz signal card leads with the mention and its points, escaped, and is the section's only signal when the rest are null", () => {
+  const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], {
+    defaultOgImage: "/og-default.png",
+    basePath: "/techmap",
+    signals: {
+      buzz: { id: "e/e", name: "Project E", domainShort: "Data Science", starDelta: 240, eventReason: { type: "hn", points: 412 } },
+    },
+  });
+  assert.match(html, /📣 Buzz spike/);
+  assert.match(html, /<span class="signal-card-stat">Featured on Hacker News · 412 pts · \+240 stars this week<\/span>/);
+  assert.match(html, /<a class="signal-card-link" href="\/techmap\/projects\/e\/e\/">/);
+  // The mention is the stat itself, so no separate reason line repeats it.
+  assert.doesNotMatch(html, /signal-card-reason/);
+
+  const unknownType = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], {
+    defaultOgImage: "/og-default.png",
+    signals: { buzz: { id: "e/e", name: "Project E", domainShort: "Data Science", starDelta: 10, eventReason: { type: "<x>" } } },
+  });
+  assert.match(unknownType, /Mentioned on &lt;x&gt; · \+10 stars this week/);
+});
+
+test("renderLandingPage's losingMomentum signal card compares this week's gain with last week's, and is omitted entirely when null", () => {
+  const withLosing = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], {
+    defaultOgImage: "/og-default.png",
+    signals: { losingMomentum: { id: "f/f", name: "Project F", domainShort: "Data Science", starDelta: 120, prevStarDelta: 900 } },
+  });
+  assert.match(withLosing, /📉 Losing momentum/);
+  assert.match(withLosing, /\+120 stars this week, down from \+900 last week/);
+
+  const withoutLosing = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], {
+    defaultOgImage: "/og-default.png",
+    signals: { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, losingMomentum: null },
+  });
+  assert.doesNotMatch(withoutLosing, /Losing momentum/);
+});
+
 test("renderLandingPage's heatingUp signal card links at that project's own internal page, prefixed by BASE_PATH", () => {
   const signals = { mover: null, heatingUp: { id: "c/c", name: "Project C", domainShort: "Data Science", percentDelta: 12 }, watch: null };
   const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], {

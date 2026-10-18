@@ -646,12 +646,12 @@ test("renderRisingPage shows a not-ready placeholder for a leaderboard with no e
   assert.match(html, /Not enough star-history yet for this window\./);
 });
 
-test("renderRisingPage renders all three window variants, only the 7-day one visible initially", () => {
-  const leaderboardsByWindow = { 7: { global: [] }, 30: { global: [] }, 90: { global: [] } };
+test("renderRisingPage renders both window variants, only the 7-day one visible initially", () => {
+  const leaderboardsByWindow = { 7: { global: [] }, 30: { global: [] } };
   const html = renderRisingPage([], leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
   assert.match(html, /<div class="rising-rows" data-window="7">/);
   assert.match(html, /<div class="rising-rows" data-window="30" hidden>/);
-  assert.match(html, /<div class="rising-rows" data-window="90" hidden>/);
+  assert.doesNotMatch(html, /data-window="90"/);
 });
 
 test("renderRisingPage renders the Hottest overall section plus one section per domain — no Hottest ecosystems table", () => {
@@ -1220,9 +1220,8 @@ const PROJECT = {
   growth: {
     rising7: { starDelta: 500, percentDelta: 0.4, oldestDate: "2026-08-01" },
     rising30: { starDelta: 2000, percentDelta: 1.6, oldestDate: "2026-07-01" },
-    rising90: { starDelta: 6000, percentDelta: 5.0, oldestDate: "2026-05-01" },
   },
-  hasEnoughHistory: { rising7: true, rising30: true, rising90: true },
+  hasEnoughHistory: { rising7: true, rising30: true },
 };
 
 const PROJECT_DOMAIN = { slug: "artificial-intelligence", name: "Artificial Intelligence", shortName: "AI" };
@@ -1233,9 +1232,9 @@ test("renderProjectPage renders a momentum chip for each rising window", () => {
   const html = renderProjectPage(PROJECT, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
   assert.match(html, /project-momentum-chip-window">7d</);
   assert.match(html, /project-momentum-chip-window">30d</);
-  assert.match(html, /project-momentum-chip-window">90d</);
+  assert.doesNotMatch(html, /project-momentum-chip-window">90d</);
   assert.match(html, /\+500/);
-  assert.match(html, /\+6,000/);
+  assert.match(html, /\+2,000/);
 });
 
 test("renderProjectPage renders the signal headline when present, and omits the element when null", () => {
@@ -1502,9 +1501,9 @@ test("renderProjectPage's canonical URL is shaped /projects/<id>/, and gets the 
 });
 
 test("renderProjectPage's momentum chip reports 'not tracked yet' for a window with insufficient history", () => {
-  const project = { ...PROJECT, hasEnoughHistory: { rising7: true, rising30: true, rising90: false } };
+  const project = { ...PROJECT, hasEnoughHistory: { rising7: true, rising30: false } };
   const html = renderProjectPage(project, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
-  assert.match(html, /Not tracked yet — first tracked 2026-05-01/);
+  assert.match(html, /Not tracked yet — first tracked 2026-07-01/);
 });
 
 test("renderProjectPage includes a + Compare toggle button carrying the project's own id", () => {
@@ -1637,9 +1636,9 @@ test("renderMethodologyPage renders a static heading and every ranking section",
   assert.match(html, /One to watch/);
 });
 
-test("renderMethodologyPage quotes the real ranking constants (7 / 30 / 90 windows, 5,000-star threshold), not hand-typed copies that could drift", () => {
+test("renderMethodologyPage quotes the real ranking constants (7 / 30 windows, 5,000-star threshold), not hand-typed copies that could drift", () => {
   const html = renderMethodologyPage({ defaultOgImage: "/og-default.png" });
-  assert.match(html, /7 \/ 30 \/ 90 days/);
+  assert.match(html, /7 \/ 30 days/);
   assert.match(html, /5,000 stars/);
 });
 

@@ -14,7 +14,7 @@
  * integer) and `oldestDate` untouched. Full floating-point precision on
  * `percentDelta` (e.g. `0.9328104909234664`) buys nothing the UI ever shows
  * and meaningfully bloats dist/compare-index.json across hundreds of
- * projects × three windows each.
+ * projects × two windows each.
  */
 function roundGrowth(growth) {
   const rounded = {};

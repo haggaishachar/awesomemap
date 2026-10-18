@@ -137,8 +137,8 @@ for (const domain of rawDomains) {
  * computed over, so a months-old mention never gets attached to a recent
  * spike it has nothing to do with. Takes `windowDays` as a parameter, not a
  * module-level constant, because rising rows span three different windows
- * (7d/30d/90d, `RISING_WINDOWS_DAYS`) and each row's reason must match its
- * own window — a project's 90-day row and its 7-day row can legitimately
+ * (7d/30d, `RISING_WINDOWS_DAYS`) and each row's reason must match its
+ * own window — a project's 30-day row and its 7-day row can legitimately
  * point at different events, or only one of them may have one at all. Most
  * candidates get no `eventReason` in any given window — these events are
  * sparse by design — so this is a no-op for most of the pool.
@@ -447,7 +447,7 @@ for (const snapshot of weeklySnapshots) {
     `${DIST_DIR}/rising/archive/${snapshot.isoWeek}/index.html`,
     renderRisingArchiveWeekPage(snapshot, domains, { defaultOgImage: DEFAULT_OG_IMAGE, siteUrl: SITE_URL, basePath: BASE_PATH })
   );
-  archivePagePaths.push(`/rising/archive/${snapshot.isoWeek}/`);
+  archivePagePaths.push({ path: `/rising/archive/${snapshot.isoWeek}/`, lastmod: new Date(snapshot.generatedAt).toISOString().slice(0, 10) });
 }
 
 const risingFeed = buildRisingFeed(weeklySnapshots, { siteUrl: SITE_URL, basePath: BASE_PATH });
@@ -575,6 +575,7 @@ if (CNAME) writeFileSync(`${DIST_DIR}/CNAME`, `${CNAME}\n`);
 const sitemap = buildSitemap(domains.map((d) => d.slug), {
   siteUrl: SITE_URL,
   basePath: BASE_PATH,
+  lastmod: new Date().toISOString().slice(0, 10),
   extraPaths: [
     "/tags/",
     "/compare/",

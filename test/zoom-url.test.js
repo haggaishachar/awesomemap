@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { parseZoomState, formatZoomState } from "../app/shared/zoom-url.js";
 
-const VALID_WINDOWS = [7, 30, 90];
+const VALID_WINDOWS = [7, 30];
 const ROOT_ID = "web-frameworks";
 
 test("parseZoomState defaults to root/popular/first window when the query string is empty", () => {
@@ -68,7 +68,7 @@ test("round-trips a category id containing a literal slash (e.g. a 'CI/CD' categ
 });
 
 test("round-trips a multi-level zoomed rising state through format then parse", () => {
-  const original = { mode: "rising", window: 90, idPath: [ROOT_ID, "frontend", "react-ecosystem"] };
+  const original = { mode: "rising", window: 30, idPath: [ROOT_ID, "frontend", "react-ecosystem"] };
   const query = formatZoomState(original, { rootId: ROOT_ID, validWindows: VALID_WINDOWS });
   const parsed = parseZoomState(new URLSearchParams(query.slice(1)), { rootId: ROOT_ID, validWindows: VALID_WINDOWS });
   assert.deepEqual(parsed, original);

@@ -7,7 +7,7 @@ export const MS_PER_DAY = 24 * 60 * 60 * 1000;
 const SCORE_FLOOR = 0.01;
 
 /** Rising windows this feature supports, in days. */
-export const RISING_WINDOWS_DAYS = [7, 30, 90];
+export const RISING_WINDOWS_DAYS = [7, 30];
 
 // Pseudo-count added to currentStars before taking sqrt() in the score
 // formula below. Without it, a tiny/young project's noisy swing (e.g. 2 ->

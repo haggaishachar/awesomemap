@@ -832,7 +832,7 @@ export function renderLandingPage(
  * sending visitors onward. `entry.link` is used only as a fallback for the
  * (currently theoretical) case of an entry with no project id. `entry.eventReason`
  * (joined on by generate.mjs's `withEventReason`, scoped to this row's own
- * window — 7d/30d/90d can each point at a different event, or none) renders
+ * window — 7d/30d can each point at a different event, or none) renders
  * as a compact badge next to the repo id, omitted just as often as shown
  * since these events are sparse — see the homepage signal cards' `reason`
  * line for the same data shown as a full sentence, where there's room for one.
@@ -1107,7 +1107,7 @@ function renderThisWeeksSignals(signals = {}, { basePath, domains = [], signalsB
 }
 
 /**
- * Renders one leaderboard section's three window variants (7/30/90 days),
+ * Renders one leaderboard section's window variants (7/30 days),
  * only the first shown initially — the rest sit `hidden` until the page's
  * window-toggle script flips them, so switching windows never re-fetches
  * or recomputes anything client-side. `leaderboardsByWindow` is
@@ -1122,7 +1122,7 @@ function renderRisingWindowVariants(leaderboardsByWindow, scopeKey, { showDomain
   }).join("");
 }
 
-/** One full leaderboard section (heading + all three window variants), anchorable by `id`. `hidden` starts the whole section — not just individual rows — collapsed, for sections the domain filter hasn't selected yet. */
+/** One full leaderboard section (heading + both window variants), anchorable by `id`. `hidden` starts the whole section — not just individual rows — collapsed, for sections the domain filter hasn't selected yet. */
 function renderRisingSection({ id, heading, leaderboardsByWindow, scopeKey, showDomain, basePath, hidden = false }) {
   return `
     <section class="rising-section" id="${escapeHtml(id)}"${hidden ? " hidden" : ""}>
@@ -1394,7 +1394,7 @@ function renderRisingTagRow(entry, { basePath, windowDays }) {
     </li>`;
 }
 
-/** Renders the three window variants for the "Rising tags" list, only the first shown initially — mirrors `renderRisingWindowVariants`' precomputed/client-toggled pattern. */
+/** Renders both window variants for the "Rising tags" list, only the first shown initially — mirrors `renderRisingWindowVariants`' precomputed/client-toggled pattern. */
 function renderRisingTagsWindowVariants(risingTagsByWindow, { basePath, limit }) {
   return RISING_WINDOWS_DAYS.map((windowDays, index) => {
     const entries = (risingTagsByWindow[windowDays] ?? []).slice(0, limit);
@@ -1409,7 +1409,7 @@ function renderRisingTagsWindowVariants(risingTagsByWindow, { basePath, limit })
 
 /**
  * Renders the global `/tags/` page: a "Top tags" list (star-ranked, no
- * window) and a "Rising tags" list with the same 7/30/90-day window toggle
+ * window) and a "Rising tags" list with the same 7/30-day window toggle
  * `/rising/` uses (precomputed per window, swapped client-side — no
  * client-side recomputation). No per-domain filtering here — domain-scoped
  * tag rankings already live on each domain page's widget (see

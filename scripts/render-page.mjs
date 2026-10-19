@@ -2,6 +2,7 @@ import { readFileSync } from "node:fs";
 import { RISING_WINDOWS_DAYS, SCORE_SMOOTHING_CONSTANT } from "./velocity.mjs";
 import { rankGroups } from "./group-growth.mjs";
 import { SMALL_PROJECT_STAR_THRESHOLD, MIN_MEANINGFUL_STAR_DELTA } from "./this-weeks-signals.mjs";
+import { TIERS, DEFAULT_TIER, SPIKING_TAB } from "./tiers.mjs";
 import { buildWebsiteJsonLd, buildItemListJsonLd, buildSoftwareSourceCodeJsonLd } from "./seo.mjs";
 import {
   githubRepoUrl,
@@ -821,6 +822,16 @@ export function renderLandingPage(
   });
 }
 
+// The four /rising/ tabs, in display order: the three size tiers, then Spiking.
+const RISING_TABS = [...TIERS.map((tier) => ({ key: tier.key, label: tier.label })), SPIKING_TAB];
+const TIER_LABELS = Object.fromEntries(TIERS.map((tier) => [tier.key, tier.label]));
+const RISING_TAB_EXPLAINERS = {
+  breakout: "Projects under 10k stars, ranked by star growth.",
+  climbing: "Projects with 10k–50k stars, ranked by star growth.",
+  giants: "Projects over 50k stars, ranked by star growth.",
+  spiking: "Projects growing far faster than their own usual pace.",
+};
+
 /**
  * Formats one leaderboard entry (as returned by leaderboard.mjs's
  * computeLeaderboard) as a row. `showDomain` controls whether the
@@ -837,7 +848,7 @@ export function renderLandingPage(
  * since these events are sparse — see the homepage signal cards' `reason`
  * line for the same data shown as a full sentence, where there's room for one.
  */
-function renderRisingRow(entry, { showDomain, basePath }) {
+function renderRisingRow(entry, { showDomain, basePath, showTier = false }) {
   const arrowSymbol = entry.rankDelta > 0 ? "▲" : entry.rankDelta < 0 ? "▼" : "–";
   const arrowClass = entry.rankDelta > 0 ? "rising-row-up" : entry.rankDelta < 0 ? "rising-row-down" : "rising-row-flat";
   const movedBy = Math.abs(entry.rankDelta);
@@ -857,6 +868,19 @@ function renderRisingRow(entry, { showDomain, basePath }) {
   const reasonBadge = entry.eventReason
     ? `<span class="rising-row-reason" title="${escapeHtml(formatEventReasonTitle(entry.eventReason))}">${escapeHtml(EVENT_TYPE_LABELS[entry.eventReason.type] ?? entry.eventReason.type)}</span>`
     : "";
+  // Spiking rows carry `multiple` (spiking.mjs) — their story is the change
+  // of pace, not the percent. Archived Spiking rows have no `multiple` (D1
+  // doesn't store it) and fall back to the normal stat.
+  const deltaText =
+    typeof entry.multiple === "number"
+      ? `${entry.multiple.toFixed(1)}× its usual pace (${sign}${entry.starDelta})`
+      : `${sign}${entry.starDelta} (${sign}${pct}%)`;
+  // Only the domain teaser mixes tiers (composeTeaser tops Breakout up from
+  // Climbing); there, tag every non-default-tier row so it doesn't pass as a Breakout.
+  const tierTag =
+    showTier && entry.tier && entry.tier !== DEFAULT_TIER && TIER_LABELS[entry.tier]
+      ? `<span class="rising-row-tier">${escapeHtml(TIER_LABELS[entry.tier])}</span>`
+      : "";
   const projectHref = entry.id ? `${basePath}/projects/${entry.id}/` : (entry.link ?? "#");
   // Only a real project id is addable to the compare cart — an entry
   // without one (the theoretical fallback above) has no compare-index.json
@@ -872,20 +896,21 @@ function renderRisingRow(entry, { showDomain, basePath }) {
         <a class="rising-row-name" href="${escapeHtml(projectHref)}">${escapeHtml(entry.name)}</a>
         ${repoId}
         ${reasonBadge}
+        ${tierTag}
       </span>
       ${domainTag}
       <span class="rising-row-arrow ${arrowClass}">${arrowSymbol}${movedBy > 0 ? movedBy : ""}</span>
-      <span class="rising-row-delta">${sign}${entry.starDelta} (${sign}${pct}%)</span>
+      <span class="rising-row-delta">${deltaText}</span>
       ${compareToggle}
     </li>`;
 }
 
-/** Renders a leaderboard's rows, or a not-ready placeholder when `entries` is empty (e.g. a domain too new for this window). Shared with the teaser sections added in Task 4. */
-function renderRisingRows(entries, { showDomain, basePath }) {
+/** Renders a leaderboard's rows, or `emptyMessage` when `entries` is empty (e.g. a domain too new for this window, or with nothing in this tier). */
+function renderRisingRows(entries, { showDomain, basePath, showTier = false, emptyMessage = "Not enough star-history yet for this window." }) {
   if (entries.length === 0) {
-    return `<p class="rising-empty">Not enough star-history yet for this window.</p>`;
+    return `<p class="rising-empty">${escapeHtml(emptyMessage)}</p>`;
   }
-  return `<ol class="rising-rows-list">${entries.map((entry) => renderRisingRow(entry, { showDomain, basePath })).join("")}</ol>`;
+  return `<ol class="rising-rows-list">${entries.map((entry) => renderRisingRow(entry, { showDomain, basePath, showTier })).join("")}</ol>`;
 }
 
 /**
@@ -897,7 +922,7 @@ function renderRisingTeaser(entries, { heading, href, showDomain, basePath }) {
   return `
     <section class="rising-teaser">
       <h2 class="rising-teaser-heading">${escapeHtml(heading)}</h2>
-      ${renderRisingRows(entries, { showDomain, basePath })}
+      ${renderRisingRows(entries, { showDomain, basePath, showTier: true })}
       <a class="rising-teaser-link" href="${escapeHtml(href)}">See full leaderboard →</a>
     </section>`;
 }
@@ -968,7 +993,7 @@ function formatEventReasonTitle(eventReason) {
 
 /**
  * Renders one scope's up-to-six cards (biggest mover, unexpected breakout,
- * heating-up project, one-to-watch, buzz spike, losing momentum) built from a `pickThisWeeksSignals`
+ * spiking project, one-to-watch, buzz spike, losing momentum) built from a `pickThisWeeksSignals`
  * result — either the global pool or a single domain's. Any signal that's
  * `null` (no qualifying candidate — including a scope where nothing cleared
  * `MIN_MEANINGFUL_STAR_DELTA` this week) is skipped. Falls back to the same
@@ -977,7 +1002,7 @@ function formatEventReasonTitle(eventReason) {
  * history (or without any meaningful growth) yet doesn't just leave blank
  * space.
  */
-function renderSignalCards({ mover, heatingUp, watch, breakout, buzz, losingMomentum } = {}, { basePath }) {
+function renderSignalCards({ mover, spiking, watch, breakout, buzz, losingMomentum } = {}, { basePath }) {
   const cards = [
     mover &&
       renderSignalCard({
@@ -1001,16 +1026,16 @@ function renderSignalCards({ mover, heatingUp, watch, breakout, buzz, losingMome
         desc: breakout.desc,
         reason: formatEventReason(breakout.eventReason),
       }),
-    heatingUp &&
+    spiking &&
       renderSignalCard({
-        label: "📈 Heating up",
-        title: heatingUp.name,
-        stat: `+${heatingUp.percentDelta.toFixed(1)}% this week`,
-        meta: heatingUp.domainShort,
-        href: `${basePath}/projects/${heatingUp.id}/`,
-        compareId: heatingUp.id,
-        desc: heatingUp.desc,
-        reason: formatEventReason(heatingUp.eventReason),
+        label: "⚡ Spiking",
+        title: spiking.name,
+        stat: `${spiking.multiple.toFixed(1)}× its usual pace (+${spiking.starDelta} stars this week)`,
+        meta: spiking.domainShort,
+        href: `${basePath}/projects/${spiking.id}/`,
+        compareId: spiking.id,
+        desc: spiking.desc,
+        reason: formatEventReason(spiking.eventReason),
       }),
     watch &&
       renderSignalCard({
@@ -1063,7 +1088,7 @@ function renderSignalCards({ mover, heatingUp, watch, breakout, buzz, losingMome
  * a qualifying signal yet, rather than rendering an empty shell.
  */
 function renderThisWeeksSignals(signals = {}, { basePath, domains = [], signalsByDomain = {}, currentIsoWeek = null }) {
-  const hasSignal = (s) => Boolean(s?.mover || s?.heatingUp || s?.watch || s?.breakout || s?.buzz || s?.losingMomentum);
+  const hasSignal = (s) => Boolean(s?.mover || s?.spiking || s?.watch || s?.breakout || s?.buzz || s?.losingMomentum);
   if (!hasSignal(signals) && !domains.some((domain) => hasSignal(signalsByDomain[domain.slug]))) return "";
 
   const domainFilterBar =
@@ -1128,28 +1153,57 @@ function renderThisWeeksSignals(signals = {}, { basePath, domains = [], signalsB
     ${filterScript}`;
 }
 
-/**
- * Renders one leaderboard section's window variants (7/30 days),
- * only the first shown initially — the rest sit `hidden` until the page's
- * window-toggle script flips them, so switching windows never re-fetches
- * or recomputes anything client-side. `leaderboardsByWindow` is
- * `{ [windowDays]: { [scopeKey]: entries[] } }`; `scopeKey` selects which
- * leaderboard within each window this section shows.
- */
-function renderRisingWindowVariants(leaderboardsByWindow, scopeKey, { showDomain, basePath }) {
-  return RISING_WINDOWS_DAYS.map((windowDays, index) => {
-    const entries = leaderboardsByWindow[windowDays]?.[scopeKey] ?? [];
-    const hiddenAttr = index === 0 ? "" : " hidden";
-    return `<div class="rising-rows" data-window="${windowDays}"${hiddenAttr}>${renderRisingRows(entries, { showDomain, basePath })}</div>`;
-  }).join("");
+/** Spiking is 7-day only (spiking.mjs); size tiers get every window. */
+function risingWindowsFor(tabKey, windows) {
+  return tabKey === SPIKING_TAB.key ? windows.slice(0, 1) : windows;
 }
 
-/** One full leaderboard section (heading + both window variants), anchorable by `id`. `hidden` starts the whole section — not just individual rows — collapsed, for sections the domain filter hasn't selected yet. */
-function renderRisingSection({ id, heading, leaderboardsByWindow, scopeKey, showDomain, basePath, hidden = false }) {
+/**
+ * Every tab × window block for one scope, only Breakout + the first window
+ * visible initially — rising-filters.js flips `hidden` client-side, so
+ * switching never re-fetches or recomputes anything. `getRows(tabKey,
+ * windowDays, scopeKey)` returns that block's rows (empty when absent).
+ */
+function renderTieredRows(getRows, scopeKey, { windows, showDomain, basePath }) {
+  const emptyMessage =
+    scopeKey === "global" ? "No growing projects in this tier this week." : "No growing projects in this tier for this domain this week.";
+  return RISING_TABS.flatMap((tab) =>
+    risingWindowsFor(tab.key, windows).map((windowDays) => {
+      const visible = tab.key === DEFAULT_TIER && windowDays === windows[0];
+      const rows = renderRisingRows(getRows(tab.key, windowDays, scopeKey), { showDomain, basePath, emptyMessage });
+      return `<div class="rising-rows" data-tier="${tab.key}" data-window="${windowDays}"${visible ? "" : " hidden"}>${rows}</div>`;
+    })
+  ).join("");
+}
+
+/** The Breakout/Climbing/Giants/Spiking tab bar plus one explainer line per tab. */
+function renderTierBar() {
+  const buttons = RISING_TABS.map((tab) => {
+    const active = tab.key === DEFAULT_TIER;
+    return `<button type="button" role="tab" class="rising-tier-button${active ? " rising-tier-button-active" : ""}" data-tier="${tab.key}" aria-selected="${active}">${escapeHtml(tab.label)}</button>`;
+  }).join("");
+  const explainers = RISING_TABS.map(
+    (tab) => `<p class="rising-tier-explainer" data-tier="${tab.key}"${tab.key === DEFAULT_TIER ? "" : " hidden"}>${escapeHtml(RISING_TAB_EXPLAINERS[tab.key])}</p>`
+  ).join("");
+  return `
+    <div class="rising-tier-bar" role="tablist" aria-label="Project size">${buttons}</div>
+    ${explainers}`;
+}
+
+function renderRisingFiltersBootstrap(basePath) {
+  return `
+    <script type="module">
+      import { initRisingFilters } from "${basePath}/shared/rising-filters.js";
+      initRisingFilters();
+    </script>`;
+}
+
+/** One leaderboard section (heading + every tab × window block), anchorable by `id`. */
+function renderRisingSection({ id, heading, getRows, scopeKey, windows, showDomain, basePath, hidden = false }) {
   return `
     <section class="rising-section" id="${escapeHtml(id)}"${hidden ? " hidden" : ""}>
       <h2 class="rising-section-heading">${escapeHtml(heading)}</h2>
-      ${renderRisingWindowVariants(leaderboardsByWindow, scopeKey, { showDomain, basePath })}
+      ${renderTieredRows(getRows, scopeKey, { windows, showDomain, basePath })}
     </section>`;
 }
 
@@ -1163,15 +1217,20 @@ function renderRisingSection({ id, heading, leaderboardsByWindow, scopeKey, show
  * whose risers don't crack the global top 20 (e.g. one growing more slowly
  * than the domains dominating "Hottest overall") still shows its own
  * leaders rather than an empty list. `domains` is `[{ slug, name,
- * shortName }]`; `leaderboardsByWindow` is `{ [windowDays]: { global:
- * entries[], [slug]: entries[] } }` — the shape `generate.mjs` builds from
- * `leaderboard.mjs`'s `computeLeaderboard`.
+ * shortName }]`; `leaderboardsByTier` is `{ [tabKey]: { [windowDays]: {
+ * global: entries[], [slug]: entries[] } } }` — tab keys from tiers.mjs
+ * plus "spiking" (Spiking has only the first window), the shape
+ * `generate.mjs` builds from `computeLeaderboard`/`computeSpiking`. Every
+ * tab × window block is pre-rendered; rising-filters.js swaps visibility.
  */
-export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage, siteUrl = "", basePath = "", generatedAt = new Date() }) {
+export function renderRisingPage(domains, leaderboardsByTier, { defaultOgImage, siteUrl = "", basePath = "", generatedAt = new Date() }) {
+  const getRows = (tabKey, windowDays, scopeKey) => leaderboardsByTier[tabKey]?.[windowDays]?.[scopeKey] ?? [];
+  const windows = RISING_WINDOWS_DAYS;
   const globalSection = renderRisingSection({
     id: "global",
     heading: "Hottest overall",
-    leaderboardsByWindow,
+    getRows,
+    windows,
     scopeKey: "global",
     showDomain: true,
     basePath,
@@ -1182,7 +1241,8 @@ export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage
       renderRisingSection({
         id: domain.slug,
         heading: `Hottest in ${domain.shortName ?? domain.name}`,
-        leaderboardsByWindow,
+        getRows,
+        windows,
         scopeKey: domain.slug,
         showDomain: false,
         basePath,
@@ -1218,58 +1278,28 @@ export function renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage
     ${renderCompareCartBootstrap(basePath)}
     <header class="rising-hero">
       <h1>Rising stars</h1>
-      <p class="rising-hero-tagline">Star-growth leaders across every awesomemap domain.</p>
+      <p class="rising-hero-tagline">Fast-growing projects, grouped by size — start with the ones that haven't hit 10k stars yet.</p>
       <p class="rising-updated">Updated ${escapeHtml(generatedAt.toISOString().slice(0, 10))}</p>
       <p class="rising-archive-links">
         <a href="${basePath}/rising/archive/">Browse previous weeks →</a>
         <a href="${basePath}/rising/feed.xml" data-goatcounter-click="rss_subscribe_click">Subscribe via RSS</a>
       </p>
     </header>
+    ${renderTierBar()}
     ${domainFilterBar}
     ${windowBar}
     <div class="rising-page">
       ${globalSection}
       ${domainSections}
     </div>
-    <script>
-      document.querySelectorAll(".rising-window-bar button").forEach((button) => {
-        button.addEventListener("click", () => {
-          const selected = button.dataset.window;
-          document.querySelectorAll(".rising-window-bar button").forEach((b) => {
-            b.classList.toggle("treemap-window-button-active", b === button);
-          });
-          document.querySelectorAll(".rising-rows").forEach((el) => {
-            el.hidden = el.dataset.window !== selected;
-          });
-        });
-      });
-      function applyDomainFilter(selected) {
-        document.querySelectorAll(".rising-domain-filter button").forEach((b) => {
-          b.classList.toggle("rising-domain-button-active", b.dataset.domain === selected);
-        });
-        const targetSectionId = selected === "all" ? "global" : selected;
-        document.querySelectorAll(".rising-section").forEach((section) => {
-          section.hidden = section.id !== targetSectionId;
-        });
-      }
-      document.querySelectorAll(".rising-domain-filter button").forEach((button) => {
-        button.addEventListener("click", () => applyDomainFilter(button.dataset.domain));
-      });
-      // Arriving via a domain quick-filter link (e.g. #artificial-intelligence,
-      // as used by the landing page's quicklinks and each domain page's Rising
-      // teaser) pre-applies that domain's filter instead of just scrolling.
-      const initialDomain = decodeURIComponent(location.hash.slice(1));
-      if (document.querySelector(\`.rising-domain-filter button[data-domain="\${initialDomain}"]\`)) {
-        applyDomainFilter(initialDomain);
-      }
-    </script>
+    ${renderRisingFiltersBootstrap(basePath)}
     ${renderSiteFooter(basePath)}
   `;
 
   return renderShell({
     title: "Rising — awesomemap",
     ogTitle: "Rising — awesomemap",
-    ogDescription: "Star-growth leaders across every awesomemap domain, updated daily.",
+    ogDescription: "Fast-growing open-source projects grouped by size, plus the week's sudden spikes — updated daily.",
     ogImage: defaultOgImage,
     ogUrl: `${siteUrl}${basePath}/rising/`,
     base: basePath,

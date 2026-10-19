@@ -1,5 +1,6 @@
 import { githubRepoUrl, formatStarCount, starHistoryFor, buildStarChart, starHistoryCaption } from "./star-history.js";
 import { refreshCompareButtons } from "./compare-cart.js";
+import { formatDomainRank } from "./rank-label.js";
 
 // Popular mode has no "active" rising window of its own, but every leaf
 // still carries growth data for every window (see velocity.mjs's
@@ -255,7 +256,7 @@ function renderGrowthLine(leafData) {
 }
 
 /**
- * Builds the Rising-mode rank line ("#3 rising in AI over 7 days") from the
+ * Builds the Rising-mode rank line ("#3 Breakout in AI over 7 days") from the
  * per-window `domainRank` stamped on each leaf at build time.
  *
  * This is the context a GitHub Trending card can't carry: Trending ranks a
@@ -269,15 +270,14 @@ function renderDomainRankLine(leafData) {
   const key = leafData.activeSizeKey;
   if (!key || key === "popular") return null;
 
-  const rank = leafData.domainRank?.[key];
-  if (typeof rank !== "number") return null;
+  const text = formatDomainRank(leafData.domainRank?.[key], {
+    windowDays: key.replace("rising", ""),
+    domainShort: leafData.domainShort,
+  });
+  if (!text) return null;
 
-  const windowDays = key.replace("rising", "");
-  const domain = leafData.domainShort;
   const paragraph = document.createElement("p");
   paragraph.className = "detail-panel-rank";
-  paragraph.textContent = domain
-    ? `#${rank} rising in ${domain} over ${windowDays} days`
-    : `#${rank} rising in this domain over ${windowDays} days`;
+  paragraph.textContent = text;
   return paragraph;
 }

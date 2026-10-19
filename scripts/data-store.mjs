@@ -16,6 +16,8 @@
 // does not expose repo secrets to fork-PR runs — local dev and fork-PR
 // checks both need this to work with zero configuration.
 
+import { withTrustedEvents } from "./project-events.mjs";
+
 export const SCHEMA_VERSION = 1;
 
 function baseUrl() {
@@ -46,10 +48,10 @@ export async function loadAllDomains({ fetchImpl } = {}) {
   return [...domains].sort((a, b) => a.slug.localeCompare(b.slug));
 }
 
-/** Loads every project entity (full — including tags/history/events) into a Map keyed by id. */
+/** Loads every project entity (full — including tags/history/events) into a Map keyed by id, with wrong-project blog events dropped (`withTrustedEvents`). */
 export async function loadAllProjectEntities({ fetchImpl } = {}) {
   const projects = (await apiFetch("/projects", { fetchImpl })) ?? [];
-  return new Map(projects.map((entity) => [entity.id, entity]));
+  return new Map(projects.map((entity) => [entity.id, withTrustedEvents(entity)]));
 }
 
 /**

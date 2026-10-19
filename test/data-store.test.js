@@ -34,6 +34,17 @@ test("loadAllProjectEntities fetches /projects into a Map keyed by id", async ()
   assert.equal(byId.get("facebook/react").name, "React");
 });
 
+test("loadAllProjectEntities drops blog events that don't name the project, keeping its other events", async () => {
+  const events = [
+    { date: "2026-10-01", type: "blog", title: "Kacey Musgraves Tinsel Ponytail", url: "https://www.nylon.com/beauty/tinsel-ponytail" },
+    { date: "2026-10-02", type: "blog", title: "DietrichGebert/ponytail — RepoX", url: "https://repox.fun/repo/DietrichGebert/ponytail" },
+    { date: "2026-10-03", type: "hn", title: "Show HN: Ponytail", url: "https://news.ycombinator.com/item?id=1", points: 120 },
+  ];
+  const { fetchImpl } = fakeFetch([{ status: 200, body: [{ id: "DietrichGebert/ponytail", name: "ponytail", events }] }]);
+  const byId = await loadAllProjectEntities({ fetchImpl });
+  assert.deepEqual(byId.get("DietrichGebert/ponytail").events.map((e) => e.date), ["2026-10-02", "2026-10-03"]);
+});
+
 test("joinDomainProjects merges each membership entry's path onto its project entity", () => {
   const domain = {
     slug: "web-dev",

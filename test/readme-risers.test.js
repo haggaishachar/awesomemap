@@ -6,6 +6,8 @@ import {
   renderRisersList,
   updateReadme,
   withEventReason,
+  formatCompact,
+  README_RISERS_VISIBLE,
   RISERS_START_MARKER,
   RISERS_END_MARKER,
 } from "../scripts/readme-risers.mjs";
@@ -24,42 +26,49 @@ function entry(overrides) {
     starDelta: 340,
     percentDelta: 2.8,
     rankDelta: 0,
+    score: 1,
     ...overrides,
   };
 }
 
-test("renderRisersEntry renders rank, a green up-arrow icon with a signed +N, name link, domain, desc, and stats", () => {
-  const line = renderRisersEntry(entry({ rank: 3, rankDelta: 2 }));
-  assert.match(line, /^3\. <img src="docs\/media\/arrow-up\.svg"[^>]*alt="up"[^>]*> \+2 /);
-  assert.match(line, /\*\*\[Project Name\]\(https:\/\/awesomemap\.dev\/projects\/owner\/repo\/\)\*\*/);
-  assert.match(line, /<sub>Data Science<\/sub>/);
-  assert.match(line, /A short description\./);
-  assert.match(line, /★ 12,345 \(\+340 · \+2\.8% this week\)/);
+test("renderRisersEntry renders a headline line (rank, name link, up-arrow, growth, bar, stars) and a small detail line", () => {
+  const [headline, detail] = renderRisersEntry(entry({ rank: 3, rankDelta: 2, domainSlug: "data-science" })).split("<br>");
+  assert.match(headline, /^\*\*3\.\*\* <img /);
+  assert.match(headline, /\*\*\[Project Name\]\(https:\/\/awesomemap\.dev\/projects\/owner\/repo\/\)\*\* <img src="docs\/media\/arrow-up\.svg"[^>]*alt="up"[^>]*>2 /);
+  assert.match(headline, /`\+2\.8%` ▰{8} ★ 12\.3k \(\+340\)$/);
+  assert.equal(detail, "<sub>📊 Data Science · A short description.</sub>");
 });
 
-test("renderRisersEntry renders a red down-arrow icon with a signed -N for a negative rankDelta, and no sign for a shrinking starDelta", () => {
+test("renderRisersEntry renders a red down-arrow for a negative rankDelta, and no sign for a shrinking starDelta", () => {
   const line = renderRisersEntry(entry({ rankDelta: -4, starDelta: -10, percentDelta: -0.5 }));
-  assert.match(line, /^1\. <img src="docs\/media\/arrow-down\.svg"[^>]*alt="down"[^>]*> -4 /);
-  assert.match(line, /★ 12,345 \(-10 · -0\.5% this week\)/);
+  assert.match(line, /<img src="docs\/media\/arrow-down\.svg"[^>]*alt="down"[^>]*>4 /);
+  assert.match(line, /`-0\.5%` .* ★ 12\.3k \(-10\)/);
 });
 
-test("renderRisersEntry renders a flat dash with no icon or number when rank didn't move", () => {
-  const line = renderRisersEntry(entry({ rankDelta: 0 }));
-  assert.match(line, /^1\. – /);
-  assert.doesNotMatch(line, /<img src="docs\/media\/arrow/);
+test("renderRisersEntry shows no arrow when rank didn't move", () => {
+  assert.doesNotMatch(renderRisersEntry(entry({ rankDelta: 0 })), /arrow-(up|down)/);
 });
 
-test("renderRisersEntry includes an <img> icon only when the project has one", () => {
+test("renderRisersEntry uses the project's image, falling back to its owner's GitHub avatar", () => {
   assert.match(renderRisersEntry(entry({ image: "https://example.com/icon.png" })), /<img src="https:\/\/example\.com\/icon\.png"/);
-  assert.doesNotMatch(renderRisersEntry(entry({ image: null })), /<img /);
+  assert.match(renderRisersEntry(entry({ image: null })), /<img src="https:\/\/github\.com\/owner\.png\?size=40"/);
+});
+
+test("renderRisersEntry scales the score bar to topScore, never leaving it empty", () => {
+  assert.match(renderRisersEntry(entry({ score: 5 }), { topScore: 10 }), / ▰{4}▱{4} /);
+  assert.match(renderRisersEntry(entry({ score: 0.01 }), { topScore: 10 }), / ▰▱{7} /);
 });
 
 test("renderRisersEntry truncates a long description on a word boundary", () => {
   const longDesc = "word ".repeat(40).trim();
-  const line = renderRisersEntry(entry({ desc: longDesc }));
-  const truncated = line.match(/— (.*?) — ★/)[1];
+  const detail = renderRisersEntry(entry({ desc: longDesc })).split("<br>")[1];
+  const truncated = detail.match(/ · (.*?)<\/sub>/)[1];
   assert.ok(truncated.endsWith("…"));
-  assert.ok(truncated.length <= 112);
+  assert.ok(truncated.length <= 91);
+});
+
+test("renderRisersEntry shows just the domain name when the domain has no emoji, and omits a missing description", () => {
+  assert.equal(renderRisersEntry(entry({ domainSlug: "new-domain", desc: "" })).split("<br>")[1], "<sub>Data Science</sub>");
 });
 
 test("renderRisersEntry escapes Markdown-sensitive characters in the name and description", () => {
@@ -70,16 +79,38 @@ test("renderRisersEntry escapes Markdown-sensitive characters in the name and de
 
 test("renderRisersEntry appends a news link with a friendly phrase when an eventReason is present", () => {
   const line = renderRisersEntry(entry({ eventReason: { type: "hn", title: "Show HN: repo", url: "https://news.ycombinator.com/item?id=1" } }));
-  assert.match(line, /\[📰 Featured on Hacker News\]\(https:\/\/news\.ycombinator\.com\/item\?id=1\)$/);
+  assert.match(line, / · \[📰 Featured on Hacker News\]\(https:\/\/news\.ycombinator\.com\/item\?id=1\)<\/sub>$/);
 });
 
 test("renderRisersEntry omits the news link when there's no eventReason", () => {
   assert.doesNotMatch(renderRisersEntry(entry({})), /📰/);
 });
 
-test("renderRisersList joins one line per entry", () => {
+test("renderRisersList separates entries with blank lines and leaves a short list fully open", () => {
   const list = renderRisersList([entry({ rank: 1 }), entry({ rank: 2, id: "owner/other", name: "Other" })]);
-  assert.equal(list.split("\n").length, 2);
+  assert.equal(list.split("\n\n").length, 2);
+  assert.doesNotMatch(list, /<details>/);
+});
+
+test("renderRisersList folds everything past the visible top slice into a collapsed <details> block", () => {
+  const entries = Array.from({ length: README_RISERS_VISIBLE + 3 }, (_, i) => entry({ rank: i + 1, id: `owner/r${i}`, name: `R${i}` }));
+  const list = renderRisersList(entries);
+  const [open, folded] = list.split("<details>");
+  assert.equal(open.trim().split("\n\n").length, README_RISERS_VISIBLE);
+  assert.match(folded, new RegExp(`<summary><b>Show ranks ${README_RISERS_VISIBLE + 1}–${README_RISERS_VISIBLE + 3}</b></summary>`));
+  assert.ok(list.endsWith("</details>"));
+});
+
+test("renderRisersList scales every bar to the #1 entry's score", () => {
+  const list = renderRisersList([entry({ rank: 1, score: 8 }), entry({ rank: 2, score: 2, id: "owner/other" })]);
+  assert.match(list.split("\n\n")[1], / ▰{2}▱{6} /);
+});
+
+test("formatCompact abbreviates thousands and millions to one decimal", () => {
+  assert.equal(formatCompact(950), "950");
+  assert.equal(formatCompact(31005), "31.0k");
+  assert.equal(formatCompact(-1500), "-1.5k");
+  assert.equal(formatCompact(1_234_567), "1.2M");
 });
 
 test("renderRisersList renders a placeholder for an empty leaderboard", () => {

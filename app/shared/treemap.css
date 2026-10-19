@@ -2111,8 +2111,9 @@ a.momentum-row-name:hover {
 .rising-tier-bar {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 6px;
-  margin: 0 0 6px;
+  margin: 0 24px 6px;
 }
 
 .rising-tier-button {
@@ -2122,6 +2123,7 @@ a.momentum-row-name:hover {
   padding: 6px 14px;
   cursor: pointer;
   color: var(--color-text);
+  font: inherit;
   font-weight: 600;
 }
 
@@ -2132,7 +2134,8 @@ a.momentum-row-name:hover {
 }
 
 .rising-tier-explainer {
-  margin: 0 0 12px;
+  margin: 0 24px 12px;
+  text-align: center;
   font-size: 13px;
   color: var(--color-text-muted);
 }

@@ -1162,7 +1162,17 @@ a.momentum-row-name:hover {
   margin: 0 auto 48px;
   padding: 0 24px;
   display: grid;
+  /* minmax(0, …) so a section can't grow to its rows' min-content width —
+     a plain `1fr`/auto track would let a leaderboard row push the whole
+     page wider than a phone viewport. */
+  grid-template-columns: minmax(0, 1fr);
   gap: 32px;
+}
+
+@media (max-width: 640px) {
+  .rising-page {
+    padding: 0 16px;
+  }
 }
 
 .rising-section-heading {
@@ -1327,6 +1337,39 @@ a.momentum-row-name:hover {
   flex-shrink: 0;
   font-size: 12px;
   padding: 2px 10px;
+}
+
+@media (max-width: 640px) {
+  /* Phones: the title takes the first line on its own and the domain
+     badge, rank arrow, star delta (and compare toggle, where shown) wrap
+     onto a second line, indented to start under the title. */
+  .rising-row {
+    flex-wrap: wrap;
+    row-gap: 4px;
+  }
+
+  .rising-row-title {
+    flex-basis: calc(100% - 60px);
+  }
+
+  /* First item on the second line: indent past the rank (20px + 10px gap),
+     and past the icon too when the row has one. */
+  .rising-row-title + .rising-row-domain,
+  .rising-row-title + .rising-row-arrow,
+  .rising-row-title + .rising-row-delta {
+    margin-left: 30px;
+  }
+
+  .rising-row-icon + .rising-row-title + .rising-row-domain,
+  .rising-row-icon + .rising-row-title + .rising-row-arrow,
+  .rising-row-icon + .rising-row-title + .rising-row-delta {
+    margin-left: 60px;
+  }
+
+  .rising-row-delta {
+    width: auto;
+    margin-left: auto;
+  }
 }
 
 @media (max-width: 480px) {

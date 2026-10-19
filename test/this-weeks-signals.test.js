@@ -23,13 +23,20 @@ function candidate(overrides) {
   };
 }
 
-test("pickThisWeeksSignals' mover is the candidate with the largest absolute starDelta, not the highest score/rank", () => {
+test("pickThisWeeksSignals' mover is the Breakout-tier candidate with the largest absolute starDelta", () => {
   const pool = [
-    candidate({ id: "big/big", starDelta: 500, currentStars: 50000 }),
-    candidate({ id: "small/small", starDelta: 20, currentStars: 100 }),
+    candidate({ id: "big/big", starDelta: 500, currentStars: 50000 }), // Giants — never the mover
+    candidate({ id: "mid/mid", starDelta: 400, currentStars: 12000 }), // Climbing — never the mover
+    candidate({ id: "small/small", starDelta: 300, currentStars: 9000 }),
+    candidate({ id: "tiny/tiny", starDelta: 20, currentStars: 100 }),
   ];
   const { mover } = pickThisWeeksSignals(pool);
-  assert.equal(mover.id, "big/big");
+  assert.equal(mover.id, "small/small");
+});
+
+test("pickThisWeeksSignals' mover is null when no candidate is in the Breakout tier", () => {
+  const { mover } = pickThisWeeksSignals([candidate({ id: "big/big", starDelta: 500, currentStars: 50000 })]);
+  assert.equal(mover, null);
 });
 
 test("pickThisWeeksSignals' mover is null when the pool is empty", () => {
@@ -53,52 +60,14 @@ test("pickThisWeeksSignals' watch is null when no candidate is under the star th
   assert.equal(watch, null);
 });
 
-test("pickThisWeeksSignals' heatingUp is the highest-percentDelta project in the pool", () => {
-  const pool = [
-    candidate({ id: "slow/slow", starDelta: 10, percentDelta: 2, currentStars: 9000 }),
-    candidate({ id: "fast/fast", starDelta: 10, percentDelta: 40, currentStars: 8000 }),
-  ];
-  const { heatingUp } = pickThisWeeksSignals(pool);
-  assert.equal(heatingUp.id, "fast/fast");
-});
-
-test("pickThisWeeksSignals' heatingUp is null when the pool is empty", () => {
-  const { heatingUp } = pickThisWeeksSignals([]);
-  assert.equal(heatingUp, null);
-});
-
-test("pickThisWeeksSignals' heatingUp skips whichever candidate mover or watch already claimed", () => {
-  const pool = [
-    // Highest starDelta -> mover. Also has the highest percentDelta, so it
-    // would win heatingUp too if heatingUp didn't exclude it.
-    candidate({ id: "mover/mover", starDelta: 900, percentDelta: 90, currentStars: 90000 }),
-    // Highest percentDelta among small projects -> watch.
-    candidate({ id: "watch/watch", starDelta: 5, percentDelta: 60, currentStars: 100 }),
-    // Next-highest percentDelta once mover and watch are excluded.
-    candidate({ id: "heating/heating", starDelta: 10, percentDelta: 30, currentStars: 20000 }),
-  ];
-  const { mover, watch, heatingUp } = pickThisWeeksSignals(pool);
-  assert.equal(mover.id, "mover/mover");
-  assert.equal(watch.id, "watch/watch");
-  assert.equal(heatingUp.id, "heating/heating");
-});
-
-// Regression coverage for a real case: apache/mahout gaining +2 stars in a
-// week (a 0.09% move, indistinguishable from ordinary day-to-day jitter)
-// still won a sparsely-populated domain's "one to watch" simply because
-// nothing else in that scope grew faster — technically the pool's best
-// percentDelta, but not an actual signal. mover/watch/heatingUp/breakout
-// must all refuse to pick a candidate that never clears
-// MIN_MEANINGFUL_STAR_DELTA, even when it's the only candidate available.
-test("pickThisWeeksSignals' mover/watch/heatingUp are all null when every candidate is below MIN_MEANINGFUL_STAR_DELTA, even though one is technically the pool's best", () => {
+test("pickThisWeeksSignals' mover/watch/breakout are all null when every candidate is below MIN_MEANINGFUL_STAR_DELTA, even though one is technically the pool's best", () => {
   const pool = [
     candidate({ id: "apache/mahout", starDelta: 2, percentDelta: 0.09, currentStars: 2305 }),
     candidate({ id: "quiet/quiet", starDelta: 1, percentDelta: 0.02, currentStars: 500 }),
   ];
-  const { mover, watch, heatingUp, breakout } = pickThisWeeksSignals(pool);
+  const { mover, watch, breakout } = pickThisWeeksSignals(pool);
   assert.equal(mover, null);
   assert.equal(watch, null);
-  assert.equal(heatingUp, null);
   assert.equal(breakout, null);
 });
 
@@ -115,7 +84,7 @@ test("pickThisWeeksSignals excludes only the below-floor candidates, not the who
 test("pickThisWeeksSignals' breakout is the highest-relativeMultiple candidate, skipping ids mover/watch already claimed", () => {
   const pool = [
     // Highest starDelta -> mover.
-    candidate({ id: "mover/mover", starDelta: 900, percentDelta: 5, currentStars: 90000, relativeMultiple: 5 }), // would win breakout too if not excluded
+    candidate({ id: "mover/mover", starDelta: 900, percentDelta: 5, currentStars: 9000, relativeMultiple: 5 }), // would win breakout too if not excluded
     // Highest percentDelta among small projects -> watch.
     candidate({ id: "watch/watch", starDelta: 20, percentDelta: 60, currentStars: 100, relativeMultiple: 4 }),
     candidate({ id: "breakout/breakout", starDelta: 30, percentDelta: 10, currentStars: 20000, relativeMultiple: 3 }),
@@ -135,23 +104,22 @@ test("pickThisWeeksSignals' breakout is null when no candidate carries a relativ
 
 test("pickThisWeeksSignals' buzz is the candidate with the highest-points in-window eventReason, skipping ids every other upward signal claimed", () => {
   const pool = [
-    // Highest starDelta -> mover. Also carries the biggest event, but the
-    // mover card already shows its own reason line.
-    candidate({ id: "mover/mover", starDelta: 900, percentDelta: 5, currentStars: 90000, eventReason: { type: "hn", points: 900 } }),
-    // Highest percentDelta among the rest -> heatingUp, so it's claimed too.
-    candidate({ id: "heating/heating", starDelta: 30, percentDelta: 50, currentStars: 40000, eventReason: { type: "hn", points: 600 } }),
+    // Highest starDelta in Breakout -> mover. Also carries the biggest event, but the mover card already shows its own reason line.
+    candidate({ id: "mover/mover", starDelta: 900, percentDelta: 5, currentStars: 9000, eventReason: { type: "hn", points: 900 } }),
+    candidate({ id: "spike/spike", starDelta: 30, percentDelta: 1, currentStars: 40000, eventReason: { type: "hn", points: 600 } }),
     candidate({ id: "loud/loud", starDelta: 40, percentDelta: 1, currentStars: 40000, eventReason: { type: "hn", points: 300 } }),
     candidate({ id: "quieter/quieter", starDelta: 60, percentDelta: 1, currentStars: 40000, eventReason: { type: "reddit", points: 120 } }),
     candidate({ id: "press/press", starDelta: 80, percentDelta: 1, currentStars: 40000, eventReason: { type: "blog" } }),
   ];
-  const { mover, heatingUp, buzz } = pickThisWeeksSignals(pool);
+  const spikingPool = [candidate({ id: "spike/spike", multiple: 9, starDelta: 300, currentStars: 40000 })];
+  const { mover, spiking, buzz } = pickThisWeeksSignals(pool, { spikingPool });
   assert.equal(mover.id, "mover/mover");
-  assert.equal(heatingUp.id, "heating/heating");
+  assert.equal(spiking.id, "spike/spike");
   assert.equal(buzz.id, "loud/loud");
 });
 
 test("pickThisWeeksSignals' buzz is null when no unclaimed candidate has an eventReason", () => {
-  const pool = [candidate({ id: "a/a", starDelta: 50, currentStars: 90000, eventReason: { type: "hn", points: 100 } }), candidate({ id: "b/b", starDelta: 10 })];
+  const pool = [candidate({ id: "a/a", starDelta: 50, currentStars: 9000, eventReason: { type: "hn", points: 100 } }), candidate({ id: "b/b", starDelta: 10 })];
   const { mover, buzz } = pickThisWeeksSignals(pool);
   assert.equal(mover.id, "a/a");
   assert.equal(buzz, null);
@@ -165,23 +133,21 @@ test("pickThisWeeksSignals' buzz ignores candidates below MIN_MEANINGFUL_STAR_DE
   assert.equal(pickThisWeeksSignals(pool).buzz, null);
 });
 
-/** A pool of three candidates that absorb mover/heatingUp, leaving every other candidate unclaimed (none are small enough for watch). */
+/** A Breakout-tier candidate that absorbs mover, leaving every other candidate unclaimed (none are small enough for watch). */
 function upwardClaimers() {
-  return [
-    candidate({ id: "claim-mover/claim-mover", starDelta: 50000, percentDelta: 1, currentStars: 900000 }),
-    candidate({ id: "claim-heating/claim-heating", starDelta: 50, percentDelta: 99, currentStars: 90000 }),
-  ];
+  return [candidate({ id: "claim-mover/claim-mover", starDelta: 50000, percentDelta: 1, currentStars: 9000 })];
 }
 
 test("pickThisWeeksSignals' losingMomentum is the biggest absolute week-over-week slowdown among projects whose gain at least halved", () => {
   const pool = [
-    candidate({ id: "mover/mover", starDelta: 90000, percentDelta: 1, currentStars: 900000, prevStarDelta: 900000 }), // would win, but mover claimed it
-    candidate({ id: "heating/heating", starDelta: 50, percentDelta: 99, currentStars: 90000, prevStarDelta: 5000 }), // likewise, claimed by heatingUp
+    candidate({ id: "mover/mover", starDelta: 90000, percentDelta: 1, currentStars: 9000, prevStarDelta: 900000 }), // would win, but mover claimed it
+    candidate({ id: "spiking/spiking", starDelta: 50, percentDelta: 99, currentStars: 90000, prevStarDelta: 5000 }), // likewise, claimed by spiking
     candidate({ id: "cooled/cooled", starDelta: 300, currentStars: 90000, prevStarDelta: 2000 }), // slowed by 1,700
     candidate({ id: "stalled/stalled", starDelta: 10, currentStars: 90000, prevStarDelta: 400 }), // slowed by 390
     candidate({ id: "steady/steady", starDelta: 120, currentStars: 90000, prevStarDelta: 200 }), // didn't halve
   ];
-  const { losingMomentum } = pickThisWeeksSignals(pool);
+  const spikingPool = [candidate({ id: "spiking/spiking", multiple: 8, starDelta: 50, currentStars: 90000 })];
+  const { losingMomentum } = pickThisWeeksSignals(pool, { spikingPool });
   assert.equal(losingMomentum.id, "cooled/cooled");
 });
 
@@ -203,4 +169,34 @@ test("pickThisWeeksSignals' losingMomentum skips candidates with no prevStarDelt
     candidate({ id: "shrinking/shrinking", starDelta: -40, prevStarDelta: 500 }),
   ];
   assert.equal(pickThisWeeksSignals(pool).losingMomentum, null);
+});
+
+test("pickThisWeeksSignals' spiking is the highest-multiple Spiking row not already claimed by mover/watch/breakout", () => {
+  const pool = [
+    candidate({ id: "mover/mover", starDelta: 900, currentStars: 9000 }),
+  ];
+  const spikingPool = [
+    candidate({ id: "mover/mover", multiple: 20, starDelta: 900, currentStars: 9000 }), // claimed by mover
+    candidate({ id: "b/b", multiple: 12, starDelta: 500, currentStars: 30000 }),
+    candidate({ id: "c/c", multiple: 4, starDelta: 300, currentStars: 70000 }),
+  ];
+  const { spiking } = pickThisWeeksSignals(pool, { spikingPool });
+  assert.equal(spiking.id, "b/b");
+});
+
+test("pickThisWeeksSignals' spiking is null when no spikingPool is given or every row is claimed", () => {
+  assert.equal(pickThisWeeksSignals([candidate({})]).spiking, null);
+  const pool = [candidate({ id: "mover/mover", starDelta: 900, currentStars: 9000 })];
+  const spikingPool = [candidate({ id: "mover/mover", multiple: 20, starDelta: 900, currentStars: 9000 })];
+  assert.equal(pickThisWeeksSignals(pool, { spikingPool }).spiking, null);
+});
+
+test("pickThisWeeksSignals' losingMomentum skips the id spiking claimed", () => {
+  const pool = [
+    candidate({ id: "slowing/slowing", starDelta: 120, currentStars: 30000, prevStarDelta: 900 }),
+  ];
+  const spikingPool = [candidate({ id: "slowing/slowing", multiple: 6, starDelta: 120, currentStars: 30000 })];
+  const { spiking, losingMomentum } = pickThisWeeksSignals(pool, { spikingPool });
+  assert.equal(spiking.id, "slowing/slowing");
+  assert.equal(losingMomentum, null);
 });

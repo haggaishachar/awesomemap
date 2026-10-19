@@ -24,7 +24,9 @@ import { explainSignal } from "./signal.mjs";
 import { sortedHistory } from "../app/shared/star-history.js";
 import { sortedEvents, pickReasonEvent } from "./project-events.mjs";
 import { computeProjectSizing, computeVelocity, findInvalidSizes, RISING_WINDOWS_DAYS, MS_PER_DAY } from "./velocity.mjs";
-import { computeLeaderboard } from "./leaderboard.mjs";
+import { computeLeaderboard, findAnomalies } from "./leaderboard.mjs";
+import { computeSpiking, SPIKING_WINDOW_DAYS } from "./spiking.mjs";
+import { TIERS, DEFAULT_TIER, composeTeaser } from "./tiers.mjs";
 import { computeGroupGrowth, rankGroups } from "./group-growth.mjs";
 import { buildTagGroups, computeTopTags, computeRisingTags } from "./tag-growth.mjs";
 import { pickThisWeeksSignals } from "./this-weeks-signals.mjs";
@@ -151,18 +153,39 @@ function withEventReason(pool, windowDays) {
   });
 }
 
-// Pass 2: compute every window's leaderboard (global + one per domain) from
-// the complete set of domains and history — this powers both the dedicated
-// /rising/ page and every teaser below.
-const leaderboardsByWindow = {};
-for (const windowDays of RISING_WINDOWS_DAYS) {
-  const byScope = {
-    global: withEventReason(computeLeaderboard(parsedDomains, { scope: "global", windowDays, limit: LEADERBOARD_LIMIT }), windowDays),
-  };
-  for (const domain of parsedDomains) {
-    byScope[domain.slug] = withEventReason(computeLeaderboard(parsedDomains, { scope: domain.slug, windowDays, limit: LEADERBOARD_LIMIT }), windowDays);
+// Pass 2: compute every tier's leaderboards (global + one per domain, per
+// window), plus the 7-day-only Spiking list — this powers the /rising/ tabs,
+// every teaser, and each project's tier rank below. Shape:
+// leaderboardsByTier[tabKey][windowDays][scope].
+function leaderboardsForEveryScope(compute) {
+  const byScope = { global: compute("global") };
+  for (const domain of parsedDomains) byScope[domain.slug] = compute(domain.slug);
+  return byScope;
+}
+
+const leaderboardsByTier = {};
+for (const tier of TIERS) {
+  leaderboardsByTier[tier.key] = {};
+  for (const windowDays of RISING_WINDOWS_DAYS) {
+    leaderboardsByTier[tier.key][windowDays] = leaderboardsForEveryScope((scope) =>
+      withEventReason(computeLeaderboard(parsedDomains, { scope, windowDays, limit: LEADERBOARD_LIMIT, tier: tier.key }), windowDays)
+    );
   }
-  leaderboardsByWindow[windowDays] = byScope;
+}
+leaderboardsByTier.spiking = {
+  [SPIKING_WINDOW_DAYS]: leaderboardsForEveryScope((scope) =>
+    withEventReason(computeSpiking(parsedDomains, { scope, limit: LEADERBOARD_LIMIT }), SPIKING_WINDOW_DAYS)
+  ),
+};
+
+// The anomaly guard drops these silently from every leaderboard above; say
+// so in the build log so a real breakout wrongly caught can be spotted.
+for (const windowDays of RISING_WINDOWS_DAYS) {
+  for (const anomaly of findAnomalies(parsedDomains, { windowDays })) {
+    console.warn(
+      `Anomaly guard: excluded ${anomaly.id} from ${windowDays}d leaderboards (+${anomaly.starDelta} stars, +${anomaly.percentDelta.toFixed(0)}%)`
+    );
+  }
 }
 
 // Pass 2b: aggregate growth at the two grouping levels above a single project
@@ -299,15 +322,23 @@ const categoryPagePaths = [];
 for (const domain of parsedDomains) {
   const { slug } = domain;
 
-  // Each project's rank on its own domain's leaderboard, per window — the
-  // "#3 rising in AI" context the detail panel shows. Stored per window (not
+  // Each project's rank within its own size tier on its domain's
+  // leaderboard, per window — the "#3 Breakout in AI" context the detail
+  // panel shows. Stored per window (not
   // just the headline one) so it stays correct when the visitor switches
   // windows, matching the shape of the `growth` object already on each leaf.
   const rankedProjects = domain.projects.map((project) => {
     const domainRank = {};
     for (const windowDays of RISING_WINDOWS_DAYS) {
-      const entry = leaderboardsByWindow[windowDays][slug].find((row) => row.id === project.id);
-      domainRank[`rising${windowDays}`] = entry ? entry.rank : null;
+      let rankInfo = null;
+      for (const tier of TIERS) {
+        const entry = leaderboardsByTier[tier.key][windowDays][slug].find((row) => row.id === project.id);
+        if (entry) {
+          rankInfo = { tier: tier.key, rank: entry.rank };
+          break;
+        }
+      }
+      domainRank[`rising${windowDays}`] = rankInfo;
     }
     // `history` is dropped here rather than carried onto the leaf — it's a
     // per-day series that can run to ~365 entries, and this object is what
@@ -322,7 +353,11 @@ for (const domain of parsedDomains) {
   });
 
   const tree = buildTree(rankedProjects, { id: slug, name: domain.name });
-  const teaser = leaderboardsByWindow[TEASER_WINDOW_DAYS][slug].slice(0, TEASER_LIMIT);
+  const teaser = composeTeaser(
+    leaderboardsByTier[DEFAULT_TIER][TEASER_WINDOW_DAYS][slug],
+    leaderboardsByTier.climbing[TEASER_WINDOW_DAYS][slug],
+    { limit: TEASER_LIMIT }
+  );
 
   mkdirSync(`${DIST_DIR}/${slug}`, { recursive: true });
   mkdirSync(`${DIST_DIR}/embed/${slug}`, { recursive: true });
@@ -408,7 +443,9 @@ for (const domain of parsedDomains) {
 // this repo's scale and keeps LEADERBOARD_LIMIT (the /rising/ page's own
 // per-section row count) untouched.
 const globalSignalsPool = withEventReason(withPriorWeekDelta(withBreakoutInfo(computeLeaderboard(parsedDomains, { scope: "global", windowDays: TEASER_WINDOW_DAYS, limit: Infinity }))), TEASER_WINDOW_DAYS);
-const thisWeeksSignals = pickThisWeeksSignals(globalSignalsPool);
+const thisWeeksSignals = pickThisWeeksSignals(globalSignalsPool, {
+  spikingPool: withEventReason(computeSpiking(parsedDomains, { scope: "global", limit: Infinity }), SPIKING_WINDOW_DAYS),
+});
 
 // One more signals pick per domain, scoped the same uncapped way, so the
 // homepage's domain filter can swap to "just this domain's mover/heating
@@ -417,7 +454,9 @@ const thisWeeksSignals = pickThisWeeksSignals(globalSignalsPool);
 const thisWeeksSignalsByDomain = {};
 for (const domain of parsedDomains) {
   const domainSignalsPool = withEventReason(withPriorWeekDelta(withBreakoutInfo(computeLeaderboard(parsedDomains, { scope: domain.slug, windowDays: TEASER_WINDOW_DAYS, limit: Infinity }))), TEASER_WINDOW_DAYS);
-  thisWeeksSignalsByDomain[domain.slug] = pickThisWeeksSignals(domainSignalsPool);
+  thisWeeksSignalsByDomain[domain.slug] = pickThisWeeksSignals(domainSignalsPool, {
+    spikingPool: withEventReason(computeSpiking(parsedDomains, { scope: domain.slug, limit: Infinity }), SPIKING_WINDOW_DAYS),
+  });
 }
 
 writeFileSync(
@@ -436,7 +475,7 @@ writeFileSync(
 mkdirSync(`${DIST_DIR}/rising`, { recursive: true });
 writeFileSync(
   `${DIST_DIR}/rising/index.html`,
-  renderRisingPage(domains, leaderboardsByWindow, {
+  renderRisingPage(domains, leaderboardsByTier, {
     defaultOgImage: DEFAULT_OG_IMAGE,
     siteUrl: SITE_URL,
     basePath: BASE_PATH,

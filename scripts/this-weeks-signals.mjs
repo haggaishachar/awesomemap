@@ -1,3 +1,5 @@
+import { tierForStars, DEFAULT_TIER } from "./tiers.mjs";
+
 // The largest current star count a project can have and still count as
 // "small" for the `watch` signal — calibrated against this repo's tracked
 // projects (velocity.mjs notes star counts range from ~500 to ~386k, with
@@ -42,7 +44,7 @@ export const MOMENTUM_DROP_RATIO = 0.5;
  * `computeLeaderboard` result with `limit` high enough to include every
  * eligible candidate, not just the top N) — capping it before this
  * function runs would let a small-but-fast-growing project get cut off
- * before its `percentDelta` is ever compared for `watch`/`heatingUp`.
+ * before its `percentDelta` is ever compared for `watch`.
  * Each candidate may also carry `relativeMultiple`/`categoryName` (joined
  * on by generate.mjs from `signal.mjs`'s `explainSignal`, keyed by id) —
  * `breakout` reads those; a candidate without them is simply never
@@ -53,36 +55,39 @@ export const MOMENTUM_DROP_RATIO = 0.5;
  * and `prevStarDelta` (the same-length window's star gain one week
  * earlier, joined on by generate.mjs) for `losingMomentum`.
  *
- * Every candidate this module considers for `mover`/`watch`/`heatingUp`/
+ * Every candidate this module considers for `mover`/`watch`/
  * `breakout`/`buzz` must first clear `MIN_MEANINGFUL_STAR_DELTA` — see that
  * constant for why. `losingMomentum` deliberately doesn't: a project whose
  * gain collapsed to a couple of stars is exactly the story it tells, and
- * `MIN_PRIOR_WEEK_STAR_DELTA` guards it against noise instead. `mover`/`watch`/`breakout` are picked before
- * `heatingUp` so `heatingUp` can exclude their ids — otherwise it'd often
- * just repeat `watch` (percentage growth is usually won by small
- * projects).
+ * `MIN_PRIOR_WEEK_STAR_DELTA` guards it against noise instead.
+ *
+ * `mover` only considers Breakout-tier candidates (tiers.mjs) — the biggest
+ * absolute gain overall is almost always a giant. `spikingPool` is the
+ * scope's uncapped `computeSpiking` result (spiking.mjs) — already floored
+ * by its own minimums, so it skips `MIN_MEANINGFUL_STAR_DELTA`; `spiking` is
+ * picked after `mover`/`watch`/`breakout` and skips their ids.
  *
  * `buzz` and `losingMomentum` are picked last, skipping every id the four
  * upward signals already claimed — a mover that also had the week's
  * biggest HN post already shows that as its own card's reason line, and a
  * project shouldn't read as both "biggest mover" and "losing momentum".
  *
- * Each of `mover`/`heatingUp`/`watch`/`breakout`/`buzz`/`losingMomentum` is `null` when no
+ * Each of `mover`/`spiking`/`watch`/`breakout`/`buzz`/`losingMomentum` is `null` when no
  * candidate qualifies (e.g. too early in the dataset's life, or nothing in
  * this scope grew meaningfully this week) — `renderThisWeeksSignals` omits
  * that card rather than rendering an empty one.
  */
-export function pickThisWeeksSignals(moverPool, { starThreshold = SMALL_PROJECT_STAR_THRESHOLD } = {}) {
+export function pickThisWeeksSignals(moverPool, { starThreshold = SMALL_PROJECT_STAR_THRESHOLD, spikingPool = [] } = {}) {
   const pool = moverPool.filter((candidate) => candidate.starDelta >= MIN_MEANINGFUL_STAR_DELTA);
-  const mover = pickBiggestMover(pool);
+  const mover = pickBiggestMover(pool.filter((candidate) => tierForStars(candidate.currentStars) === DEFAULT_TIER));
   const watch = pickOneToWatch(pool, starThreshold);
   const breakout = pickBreakout(pool, new Set([mover?.id, watch?.id].filter(Boolean)));
   const claimedIds = new Set([mover?.id, watch?.id, breakout?.id].filter(Boolean));
-  const heatingUp = pickHeatingUpProject(pool, claimedIds);
-  if (heatingUp) claimedIds.add(heatingUp.id);
+  const spiking = pickSpiking(spikingPool, claimedIds);
+  if (spiking) claimedIds.add(spiking.id);
   return {
     mover,
-    heatingUp,
+    spiking,
     watch,
     breakout,
     buzz: pickBuzz(pool, claimedIds),
@@ -90,7 +95,7 @@ export function pickThisWeeksSignals(moverPool, { starThreshold = SMALL_PROJECT_
   };
 }
 
-/** The candidate with the largest absolute starDelta — deliberately not the top-ranked (by score) candidate, since score already damps large absolute gains in favor of growth rate. */
+/** The candidate with the largest absolute starDelta among the pool it's given — pickThisWeeksSignals passes only Breakout-tier candidates, so the headline card is never a giant. */
 function pickBiggestMover(pool) {
   if (pool.length === 0) return null;
   return pool.reduce((best, candidate) => (candidate.starDelta > best.starDelta ? candidate : best));
@@ -103,11 +108,11 @@ function pickOneToWatch(pool, starThreshold) {
   return small.reduce((best, candidate) => (candidate.percentDelta > best.percentDelta ? candidate : best));
 }
 
-/** The highest-percentDelta candidate in the pool, skipping any id already claimed by another signal — or null if none remain. */
-function pickHeatingUpProject(pool, claimedIds) {
-  const eligible = pool.filter((candidate) => !claimedIds.has(candidate.id));
+/** The highest-`multiple` Spiking row (a computeSpiking result) whose id isn't already claimed, or null. */
+function pickSpiking(spikingPool, claimedIds) {
+  const eligible = spikingPool.filter((candidate) => !claimedIds.has(candidate.id));
   if (eligible.length === 0) return null;
-  return eligible.reduce((best, candidate) => (candidate.percentDelta > best.percentDelta ? candidate : best));
+  return eligible.reduce((best, candidate) => (candidate.multiple > best.multiple ? candidate : best));
 }
 
 /**

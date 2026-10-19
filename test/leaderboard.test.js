@@ -1,7 +1,7 @@
 // test/leaderboard.test.js
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { computeLeaderboard } from "../scripts/leaderboard.mjs";
+import { computeLeaderboard, findAnomalies, isAnomalous } from "../scripts/leaderboard.mjs";
 
 const NOW = "2026-08-15T00:00:00.000Z";
 
@@ -291,4 +291,86 @@ test("computeLeaderboard carries each project's own desc through, so callers (e.
   const result = computeLeaderboard(domains, { scope: "global", windowDays: 7, limit: 20, now: NOW });
   assert.equal(result.find((r) => r.id === "a/a").desc, "A thing that does stuff.");
   assert.equal(result.find((r) => r.id === "b/b").desc, undefined);
+});
+
+/** One-domain fixture: each project's history is [08-05, 08-14, 08-15] star counts (NOW is 08-15, so 7d baseline is 08-05 both today and yesterday). */
+function tierDomains(projects) {
+  return [
+    {
+      slug: "data-science",
+      name: "Data Science",
+      projects: projects.map(([id, s0805, s0814, s0815]) => ({
+        id,
+        name: id,
+        link: `https://${id}.example`,
+        history: [
+          { date: "2026-08-05", stars: s0805 },
+          { date: "2026-08-14", stars: s0814 },
+          { date: "2026-08-15", stars: s0815 },
+        ],
+      })),
+    },
+  ];
+}
+
+const SIZED = tierDomains([
+  ["small", 5000, 5100, 5200],
+  ["mid", 20000, 20500, 21000],
+  ["big", 60000, 61000, 62000],
+]);
+
+test("computeLeaderboard with a tier keeps only that tier's projects", () => {
+  const ids = (tier) => computeLeaderboard(SIZED, { scope: "global", windowDays: 7, now: NOW, tier }).map((r) => r.id);
+  assert.deepEqual(ids("breakout"), ["small"]);
+  assert.deepEqual(ids("climbing"), ["mid"]);
+  assert.deepEqual(ids("giants"), ["big"]);
+});
+
+test("computeLeaderboard without a tier keeps every size, and every row carries its tier", () => {
+  const result = computeLeaderboard(SIZED, { scope: "global", windowDays: 7, now: NOW });
+  assert.equal(result.length, 3);
+  assert.deepEqual(Object.fromEntries(result.map((r) => [r.id, r.tier])), { small: "breakout", mid: "climbing", big: "giants" });
+});
+
+test("computeLeaderboard puts a project at exactly 10,000 / 50,000 stars in the upper tier", () => {
+  const domains = tierDomains([
+    ["at10k", 9000, 10000, 10000],
+    ["at50k", 45000, 50000, 50000],
+  ]);
+  const ids = (tier) => computeLeaderboard(domains, { scope: "global", windowDays: 7, now: NOW, tier }).map((r) => r.id);
+  assert.deepEqual(ids("breakout"), []);
+  assert.deepEqual(ids("climbing"), ["at10k"]);
+  assert.deepEqual(ids("giants"), ["at50k"]);
+});
+
+test("computeLeaderboard drops a project that crossed 10k overnight from both tiers for that day (no cross-tier rankDelta)", () => {
+  const domains = tierDomains([["crosser", 9000, 9900, 10100]]);
+  assert.deepEqual(computeLeaderboard(domains, { scope: "global", windowDays: 7, now: NOW, tier: "breakout" }), []);
+  assert.deepEqual(computeLeaderboard(domains, { scope: "global", windowDays: 7, now: NOW, tier: "climbing" }), []);
+});
+
+test("computeLeaderboard's anomaly guard excludes >100% growth from a 10k+ baseline, and nothing just below either threshold", () => {
+  const domains = tierDomains([
+    ["anomaly", 10000, 10010, 20200], // +102% from 10,000
+    ["small-base", 9999, 10009, 20200], // +102% but baseline < 10k
+    ["just-under", 10000, 10010, 19900], // +99% from 10,000
+  ]);
+  const ids = computeLeaderboard(domains, { scope: "global", windowDays: 7, now: NOW }).map((r) => r.id).sort();
+  assert.deepEqual(ids, ["just-under", "small-base"]);
+});
+
+test("isAnomalous reads baseline as currentStars - starDelta", () => {
+  assert.equal(isAnomalous({ currentStars: 20200, starDelta: 10200, percentDelta: 102 }), true);
+  assert.equal(isAnomalous({ currentStars: 20200, starDelta: 10201, percentDelta: 102.03 }), false);
+  assert.equal(isAnomalous({ currentStars: 19900, starDelta: 9900, percentDelta: 99 }), false);
+});
+
+test("findAnomalies lists each anomalous project once, across domains", () => {
+  const domains = [
+    ...tierDomains([["anomaly", 10000, 10010, 20200], ["fine", 5000, 5100, 5200]]),
+    { ...tierDomains([["anomaly", 10000, 10010, 20200]])[0], slug: "security", name: "Security" },
+  ];
+  const result = findAnomalies(domains, { windowDays: 7, now: NOW });
+  assert.deepEqual(result.map((a) => a.id), ["anomaly"]);
+  assert.equal(result[0].starDelta, 10200);
 });

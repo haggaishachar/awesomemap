@@ -442,7 +442,7 @@ test("renderRisingPage renders a row per leaderboard entry, with rank, arrow, an
     30: { global: [], "data-science": [] },
     90: { global: [], "data-science": [] },
   };
-  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
+  const html = renderRisingPage(domains, { breakout: leaderboardsByWindow }, { defaultOgImage: "/og-default.png" });
   assert.match(html, /<span class="rising-row-rank">1<\/span>/);
   assert.match(html, /<a class="rising-row-name" href="\/projects\/a\/a\/">Project A<\/a>/);
   assert.match(html, /rising-row-up">▲1<\/span>/);
@@ -461,7 +461,7 @@ test("renderRisingPage's rows include a + Compare toggle button carrying the pro
     30: { global: [], "data-science": [] },
     90: { global: [], "data-science": [] },
   };
-  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
+  const html = renderRisingPage(domains, { breakout: leaderboardsByWindow }, { defaultOgImage: "/og-default.png" });
   assert.match(html, /<button type="button" class="rising-row-compare compare-toggle" data-compare-id="a\/a" aria-pressed="false">\+ Compare<\/button>/);
 });
 
@@ -477,7 +477,7 @@ test("renderRisingPage's row links point at the project's own internal page (pre
     30: { global: [], "data-science": [] },
     90: { global: [], "data-science": [] },
   };
-  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
+  const html = renderRisingPage(domains, { breakout: leaderboardsByWindow }, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
   assert.match(html, /<a class="rising-row-name" href="\/techmap\/projects\/a\/a\/">Project A<\/a>/);
   assert.doesNotMatch(html, /href="https:\/\/a\.example"/);
 });
@@ -505,7 +505,7 @@ test("renderRisingPage's rows show the repo id and the domain's short name, and 
     30: { global: [], "artificial-intelligence": [] },
     90: { global: [], "artificial-intelligence": [] },
   };
-  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
+  const html = renderRisingPage(domains, { breakout: leaderboardsByWindow }, { defaultOgImage: "/og-default.png" });
   assert.match(html, /<span class="rising-row-repo">vllm-project\/vllm<\/span>/);
   assert.match(html, /<span class="rising-row-domain" title="Best Artificial Intelligence Open Source Projects">AI<\/span>/);
   assert.match(html, /<li class="rising-row" data-domain="artificial-intelligence">/);
@@ -533,7 +533,7 @@ test("renderRisingPage's row shows a compact reason badge (short label, full phr
     30: { global: [], "data-science": [] },
     90: { global: [], "data-science": [] },
   };
-  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
+  const html = renderRisingPage(domains, { breakout: leaderboardsByWindow }, { defaultOgImage: "/og-default.png" });
   assert.match(html, /<span class="rising-row-reason" title="Featured on Hacker News · 312 pts">HN<\/span>/);
 });
 
@@ -549,7 +549,7 @@ test("renderRisingPage's row omits the reason badge entirely when its eventReaso
     30: { global: [], "data-science": [] },
     90: { global: [], "data-science": [] },
   };
-  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
+  const html = renderRisingPage(domains, { breakout: leaderboardsByWindow }, { defaultOgImage: "/og-default.png" });
   assert.doesNotMatch(html, /rising-row-reason/);
 });
 
@@ -575,7 +575,7 @@ test("renderRisingPage's row falls back to a points-less tooltip for a blog even
     30: { global: [], "data-science": [] },
     90: { global: [], "data-science": [] },
   };
-  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
+  const html = renderRisingPage(domains, { breakout: leaderboardsByWindow }, { defaultOgImage: "/og-default.png" });
   assert.match(html, /<span class="rising-row-reason" title="Covered in the press">Blog<\/span>/);
 });
 
@@ -589,22 +589,16 @@ test("renderRisingPage renders a domain filter chip per domain, plus an All chip
     30: { global: [], "artificial-intelligence": [], security: [] },
     90: { global: [], "artificial-intelligence": [], security: [] },
   };
-  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
+  const html = renderRisingPage(domains, { breakout: leaderboardsByWindow }, { defaultOgImage: "/og-default.png" });
   assert.match(html, /<button type="button" class="rising-domain-button rising-domain-button-active" data-domain="all">All<\/button>/);
   assert.match(html, /<button type="button" class="rising-domain-button" data-domain="artificial-intelligence">AI<\/button>/);
   assert.match(html, /<button type="button" class="rising-domain-button" data-domain="security">Security<\/button>/);
 });
 
-test("renderRisingPage's inline script applies the domain filter matching the URL hash on load, so a quick-filter link (from the landing page or a domain page) arrives pre-filtered", () => {
-  const domains = [{ slug: "artificial-intelligence", name: "Best Artificial Intelligence Open Source Projects", shortName: "AI" }];
-  const leaderboardsByWindow = {
-    7: { global: [], "artificial-intelligence": [] },
-    30: { global: [], "artificial-intelligence": [] },
-    90: { global: [], "artificial-intelligence": [] },
-  };
-  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
-  assert.match(html, /const initialDomain = decodeURIComponent\(location\.hash\.slice\(1\)\);/);
-  assert.match(html, /applyDomainFilter\(initialDomain\);/);
+test("renderRisingPage boots the shared rising-filters module (which reads the URL hash) instead of an inline filter script", () => {
+  const html = renderRisingPage([], { breakout: { 7: { global: [] }, 30: { global: [] } } }, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
+  assert.match(html, /import \{ initRisingFilters \} from "\/techmap\/shared\/rising-filters\.js";\s*initRisingFilters\(\);/);
+  assert.doesNotMatch(html, /applyDomainFilter/);
 });
 
 test("renderRisingPage's domain filter swaps to that domain's own top-20 section, hiding the others, rather than filtering global rows", () => {
@@ -619,20 +613,11 @@ test("renderRisingPage's domain filter swaps to that domain's own top-20 section
     30: { global: [], "artificial-intelligence": [] },
     90: { global: [], "artificial-intelligence": [] },
   };
-  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
+  const html = renderRisingPage(domains, { breakout: leaderboardsByWindow }, { defaultOgImage: "/og-default.png" });
   // The domain section is rendered (using the domain-scoped leaderboard, not a slice of global) but starts hidden.
   assert.match(html, /<section class="rising-section" id="artificial-intelligence" hidden>/);
   assert.match(html, /<h2 class="rising-section-heading">Hottest in AI<\/h2>/);
   assert.match(html, /Project A/);
-  // The filter script swaps `.rising-section` visibility by id instead of hiding individual rows.
-  assert.match(
-    html,
-    /const targetSectionId = selected === "all" \? "global" : selected;/
-  );
-  assert.match(
-    html,
-    /document\.querySelectorAll\("\.rising-section"\)\.forEach\(\(section\) => \{\s*section\.hidden = section\.id !== targetSectionId;/
-  );
 });
 
 test("renderRisingPage shows a not-ready placeholder for a leaderboard with no eligible entries", () => {
@@ -642,16 +627,19 @@ test("renderRisingPage shows a not-ready placeholder for a leaderboard with no e
     30: { global: [], "data-science": [] },
     90: { global: [], "data-science": [] },
   };
-  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
-  assert.match(html, /Not enough star-history yet for this window\./);
+  const html = renderRisingPage(domains, { breakout: leaderboardsByWindow }, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /No growing projects in this tier this week\./);
+  assert.match(html, /No growing projects in this tier for this domain this week\./);
 });
 
-test("renderRisingPage renders both window variants, only the 7-day one visible initially", () => {
-  const leaderboardsByWindow = { 7: { global: [] }, 30: { global: [] } };
-  const html = renderRisingPage([], leaderboardsByWindow, { defaultOgImage: "/og-default.png" });
-  assert.match(html, /<div class="rising-rows" data-window="7">/);
-  assert.match(html, /<div class="rising-rows" data-window="30" hidden>/);
-  assert.doesNotMatch(html, /data-window="90"/);
+test("renderRisingPage pre-renders every tab × window, only Breakout 7d visible, and Spiking has no 30d block", () => {
+  const html = renderRisingPage([], { breakout: { 7: { global: [] }, 30: { global: [] } } }, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /<div class="rising-rows" data-tier="breakout" data-window="7">/);
+  assert.match(html, /<div class="rising-rows" data-tier="breakout" data-window="30" hidden>/);
+  assert.match(html, /<div class="rising-rows" data-tier="climbing" data-window="7" hidden>/);
+  assert.match(html, /<div class="rising-rows" data-tier="giants" data-window="30" hidden>/);
+  assert.match(html, /<div class="rising-rows" data-tier="spiking" data-window="7" hidden>/);
+  assert.doesNotMatch(html, /data-tier="spiking" data-window="30"/);
 });
 
 test("renderRisingPage renders the Hottest overall section plus one section per domain — no Hottest ecosystems table", () => {
@@ -661,7 +649,7 @@ test("renderRisingPage renders the Hottest overall section plus one section per 
     30: { global: [], "data-science": [] },
     90: { global: [], "data-science": [] },
   };
-  const html = renderRisingPage(domains, leaderboardsByWindow, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
+  const html = renderRisingPage(domains, { breakout: leaderboardsByWindow }, { defaultOgImage: "/og-default.png", basePath: "/techmap" });
   assert.match(html, /<section class="rising-section" id="global">/);
   assert.match(html, /<section class="rising-section" id="data-science" hidden>/);
   assert.doesNotMatch(html, /Hottest ecosystems/);
@@ -699,7 +687,7 @@ test("renderLandingPage no longer renders the old global rising-teaser section",
 test("renderLandingPage renders a this-week's-signals section between the hero and the map grid", () => {
   const signals = {
     mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 },
-    heatingUp: { id: "c/c", name: "Project C", domainShort: "Data Science", percentDelta: 12 },
+    spiking: { id: "c/c", name: "Project C", domainShort: "Data Science", multiple: 12, starDelta: 400 },
     watch: { id: "b/b", name: "Project B", domainShort: "Security", percentDelta: 80, currentStars: 900 },
   };
   const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], { defaultOgImage: "/og-default.png", signals });
@@ -711,7 +699,7 @@ test("renderLandingPage renders a this-week's-signals section between the hero a
 test("renderLandingPage's mover and watch signal cards link at the project's internal page, prefixed by BASE_PATH", () => {
   const signals = {
     mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 },
-    heatingUp: null,
+    spiking: null,
     watch: { id: "b/b", name: "Project B", domainShort: "Security", percentDelta: 80, currentStars: 900 },
   };
   const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], {
@@ -726,7 +714,7 @@ test("renderLandingPage's mover and watch signal cards link at the project's int
 test("renderLandingPage's signal cards each carry a compare-toggle button for their project id", () => {
   const signals = {
     mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 },
-    heatingUp: { id: "c/c", name: "Project C", domainShort: "Data Science", percentDelta: 12 },
+    spiking: { id: "c/c", name: "Project C", domainShort: "Data Science", multiple: 12, starDelta: 400 },
     watch: { id: "b/b", name: "Project B", domainShort: "Security", percentDelta: 80, currentStars: 900 },
   };
   const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], { defaultOgImage: "/og-default.png", signals });
@@ -738,7 +726,7 @@ test("renderLandingPage's signal cards each carry a compare-toggle button for th
 test("renderLandingPage's signal cards show each project's own desc, escaped, and omit the desc line when a project has none", () => {
   const signals = {
     mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40, desc: "Does <stuff> & things." },
-    heatingUp: { id: "c/c", name: "Project C", domainShort: "Data Science", percentDelta: 12 }, // no desc
+    spiking: { id: "c/c", name: "Project C", domainShort: "Data Science", multiple: 12, starDelta: 400 }, // no desc
     watch: { id: "b/b", name: "Project B", domainShort: "Security", percentDelta: 80, currentStars: 900, desc: "" }, // empty desc
   };
   const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], { defaultOgImage: "/og-default.png", signals });
@@ -751,7 +739,7 @@ test("renderLandingPage's breakout signal card names the category and multiple, 
     defaultOgImage: "/og-default.png",
     signals: {
       mover: null,
-      heatingUp: null,
+      spiking: null,
       watch: null,
       breakout: { id: "d/d", name: "Project D", domainShort: "Data Science", relativeMultiple: 3.8, categoryName: "Databases" },
     },
@@ -761,7 +749,7 @@ test("renderLandingPage's breakout signal card names the category and multiple, 
 
   const withoutBreakout = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], {
     defaultOgImage: "/og-default.png",
-    signals: { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, heatingUp: null, watch: null, breakout: null },
+    signals: { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, spiking: null, watch: null, breakout: null },
   });
   assert.doesNotMatch(withoutBreakout, /🚀 Unexpected breakout/);
 });
@@ -802,8 +790,8 @@ test("renderLandingPage's losingMomentum signal card compares this week's gain w
   assert.doesNotMatch(withoutLosing, /Losing momentum/);
 });
 
-test("renderLandingPage's heatingUp signal card links at that project's own internal page, prefixed by BASE_PATH", () => {
-  const signals = { mover: null, heatingUp: { id: "c/c", name: "Project C", domainShort: "Data Science", percentDelta: 12 }, watch: null };
+test("renderLandingPage's spiking signal card links at that project's own internal page, prefixed by BASE_PATH", () => {
+  const signals = { mover: null, spiking: { id: "c/c", name: "Project C", domainShort: "Data Science", multiple: 12, starDelta: 400 }, watch: null };
   const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], {
     defaultOgImage: "/og-default.png",
     basePath: "/techmap",
@@ -815,7 +803,7 @@ test("renderLandingPage's heatingUp signal card links at that project's own inte
 test("renderLandingPage omits the this-week's-signals section entirely when no signal qualifies", () => {
   const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], {
     defaultOgImage: "/og-default.png",
-    signals: { mover: null, heatingUp: null, watch: null },
+    signals: { mover: null, spiking: null, watch: null },
   });
   assert.doesNotMatch(html, /this-weeks-signals/);
 });
@@ -828,7 +816,7 @@ test("renderLandingPage defaults to no this-week's-signals section when the opti
 test("renderLandingPage's signal card shows a per-source-type reason line when its eventReason is set", () => {
   const signals = {
     mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40, eventReason: { type: "hn", title: "Show HN", url: "https://news.ycombinator.com/item?id=1", points: 312 } },
-    heatingUp: null,
+    spiking: null,
     watch: null,
   };
   const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], { defaultOgImage: "/og-default.png", signals });
@@ -836,7 +824,7 @@ test("renderLandingPage's signal card shows a per-source-type reason line when i
 });
 
 test("renderLandingPage's signal card omits the reason line entirely when its eventReason is absent", () => {
-  const signals = { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, heatingUp: null, watch: null };
+  const signals = { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, spiking: null, watch: null };
   const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], { defaultOgImage: "/og-default.png", signals });
   assert.doesNotMatch(html, /signal-card-reason/);
 });
@@ -844,7 +832,7 @@ test("renderLandingPage's signal card omits the reason line entirely when its ev
 test("renderLandingPage's signal card falls back to a generic reason phrase for an event type EVENT_REASON_PHRASES hasn't caught up with", () => {
   const signals = {
     mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40, eventReason: { type: "mastodon", title: "Toot", url: "https://example.social/@x/1", points: 20 } },
-    heatingUp: null,
+    spiking: null,
     watch: null,
   };
   const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], { defaultOgImage: "/og-default.png", signals });
@@ -852,7 +840,7 @@ test("renderLandingPage's signal card falls back to a generic reason phrase for 
 });
 
 test("renderLandingPage's this-week's-signals section links to the full /rising/ leaderboard, prefixed by BASE_PATH", () => {
-  const signals = { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, heatingUp: null, watch: null };
+  const signals = { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, spiking: null, watch: null };
   const html = renderLandingPage([{ slug: "data-science", name: "Data Science", description: "desc" }], {
     defaultOgImage: "/og-default.png",
     basePath: "/techmap",
@@ -862,7 +850,7 @@ test("renderLandingPage's this-week's-signals section links to the full /rising/
 });
 
 test("renderLandingPage puts the \"Browse previous weeks\" archive link inside the this-week's-signals section, beside the leaderboard link", () => {
-  const signals = { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, heatingUp: null, watch: null };
+  const signals = { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, spiking: null, watch: null };
   const html = renderLandingPage([], { defaultOgImage: "/og-default.png", basePath: "/techmap", signals });
   assert.match(
     html,
@@ -872,7 +860,7 @@ test("renderLandingPage puts the \"Browse previous weeks\" archive link inside t
 });
 
 test("renderLandingPage's this-week's-signals section renders a domain filter bar, defaulting to \"All\" active and every domain's cards hidden", () => {
-  const signals = { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, heatingUp: null, watch: null };
+  const signals = { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, spiking: null, watch: null };
   const domains = [
     { slug: "data-science", name: "Data Science", shortName: "Data Science", description: "desc" },
     { slug: "security", name: "Security", shortName: "Security", description: "desc" },
@@ -887,9 +875,9 @@ test("renderLandingPage's this-week's-signals section renders a domain filter ba
 });
 
 test("renderLandingPage renders a domain's own this-week's-signals cards from signalsByDomain, inside that domain's hidden scope", () => {
-  const signals = { mover: null, heatingUp: null, watch: null };
+  const signals = { mover: null, spiking: null, watch: null };
   const signalsByDomain = {
-    security: { mover: { id: "s/s", name: "Project S", domainShort: "Security", starDelta: 100, percentDelta: 10 }, heatingUp: null, watch: null },
+    security: { mover: { id: "s/s", name: "Project S", domainShort: "Security", starDelta: 100, percentDelta: 10 }, spiking: null, watch: null },
   };
   const domains = [{ slug: "security", name: "Security", shortName: "Security", description: "desc" }];
   const html = renderLandingPage(domains, { defaultOgImage: "/og-default.png", signals, signalsByDomain });
@@ -897,14 +885,14 @@ test("renderLandingPage renders a domain's own this-week's-signals cards from si
 });
 
 test("renderLandingPage's this-week's-signals section falls back to a not-enough-history message for a domain scope with no qualifying signal", () => {
-  const signals = { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, heatingUp: null, watch: null };
+  const signals = { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, spiking: null, watch: null };
   const domains = [{ slug: "security", name: "Security", shortName: "Security", description: "desc" }];
   const html = renderLandingPage(domains, { defaultOgImage: "/og-default.png", signals });
   assert.match(html, /<div class="signals-scope" data-signals-scope="security" hidden><p class="signals-empty">Not enough star-history yet for this window\.<\/p><\/div>/);
 });
 
 test("renderLandingPage omits the domain filter bar and per-domain scopes when no domains are passed", () => {
-  const signals = { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, heatingUp: null, watch: null };
+  const signals = { mover: { id: "a/a", name: "Project A", domainShort: "Data Science", starDelta: 400, percentDelta: 40 }, spiking: null, watch: null };
   const html = renderLandingPage([], { defaultOgImage: "/og-default.png", signals });
   assert.doesNotMatch(html, /signals-domain-filter/);
   assert.match(html, /<a class="this-weeks-signals-link" href="\/rising\/">See full leaderboard →<\/a>/);
@@ -912,12 +900,12 @@ test("renderLandingPage omits the domain filter bar and per-domain scopes when n
 
 test("renderLandingPage still renders the this-week's-signals section when only a domain (not the global scope) has a qualifying signal", () => {
   const signalsByDomain = {
-    security: { mover: { id: "s/s", name: "Project S", domainShort: "Security", starDelta: 100, percentDelta: 10 }, heatingUp: null, watch: null },
+    security: { mover: { id: "s/s", name: "Project S", domainShort: "Security", starDelta: 100, percentDelta: 10 }, spiking: null, watch: null },
   };
   const domains = [{ slug: "security", name: "Security", shortName: "Security", description: "desc" }];
   const html = renderLandingPage(domains, {
     defaultOgImage: "/og-default.png",
-    signals: { mover: null, heatingUp: null, watch: null },
+    signals: { mover: null, spiking: null, watch: null },
     signalsByDomain,
   });
   assert.match(html, /<section class="this-weeks-signals">/);
@@ -941,7 +929,7 @@ test("every page type emits a plain meta description matching its og:description
   assert.match(landingHtml, /<meta name="description" content="A community-curated map of open-source technology\." \/>/);
 
   const risingHtml = renderRisingPage([], { 7: { global: [] }, 30: { global: [] }, 90: { global: [] } }, { defaultOgImage: "/og-default.png" });
-  assert.match(risingHtml, /<meta name="description" content="Star-growth leaders across every awesomemap domain, updated daily\." \/>/);
+  assert.match(risingHtml, /<meta name="description" content="Fast-growing open-source projects grouped by size, plus the week's sudden spikes — updated daily\." \/>/);
 });
 
 test("every page type emits a canonical link matching its own og:url", () => {
@@ -1811,4 +1799,79 @@ test("renderRisingArchiveWeekPage renders the frozen snapshot's global and per-d
   assert.match(html, /<h1>Rising: 2026-W35<\/h1>/);
   assert.match(html, /<a class="rising-row-name" href="\/projects\/a\/a\/">Project A<\/a>/);
   assert.match(html, /Hottest in Data Science/);
+});
+
+test("renderRisingPage renders the tier tab bar with Breakout active, plus one explainer per tab", () => {
+  const html = renderRisingPage([], {}, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /<button type="button" role="tab" class="rising-tier-button rising-tier-button-active" data-tier="breakout" aria-selected="true">Breakout<\/button>/);
+  assert.match(html, /data-tier="climbing" aria-selected="false">Climbing<\/button>/);
+  assert.match(html, /data-tier="giants" aria-selected="false">Giants<\/button>/);
+  assert.match(html, /data-tier="spiking" aria-selected="false">Spiking<\/button>/);
+  assert.match(html, /<p class="rising-tier-explainer" data-tier="breakout">Projects under 10k stars, ranked by star growth\.<\/p>/);
+  assert.match(html, /<p class="rising-tier-explainer" data-tier="spiking" hidden>Projects growing far faster than their own usual pace\.<\/p>/);
+  assert.match(html, /Fast-growing projects, grouped by size — start with the ones that haven't hit 10k stars yet\./);
+});
+
+test("renderRisingPage shows a Spiking row's multiple instead of its percent", () => {
+  const spikingRow = { rank: 1, id: "s/s", name: "Spiker", domain: "AI", starDelta: 5554, percentDelta: 21.8, rankDelta: 0, multiple: 11.94, tier: "spiking" };
+  const html = renderRisingPage([], { spiking: { 7: { global: [spikingRow] } } }, { defaultOgImage: "/og-default.png" });
+  assert.match(html, /<span class="rising-row-delta">11\.9× its usual pace \(\+5554\)<\/span>/);
+});
+
+test("renderDomainPage's teaser tags rows borrowed from Climbing, and only those", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const teaser = [
+    { rank: 1, id: "a/a", name: "Project A", domain: "Data Science", starDelta: 40, percentDelta: 40, rankDelta: 0, tier: "breakout" },
+    { rank: 1, id: "b/b", name: "Project B", domain: "Data Science", starDelta: 90, percentDelta: 4, rankDelta: 0, tier: "climbing" },
+  ];
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", teaser });
+  assert.equal((html.match(/<span class="rising-row-tier">Climbing<\/span>/g) ?? []).length, 1);
+});
+
+test("renderDomainPage's teaser shows the empty message when the domain has no rows at all", () => {
+  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
+  const html = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png", teaser: [] });
+  assert.match(html, /class="rising-teaser"[\s\S]*Not enough star-history yet for this window\./);
+});
+
+test("renderLandingPage's spiking signal card shows the multiple and this week's gain", () => {
+  const signals = { mover: null, spiking: { id: "c/c", name: "Project C", domainShort: "Data Science", multiple: 11.94, starDelta: 5554 }, watch: null };
+  const html = renderLandingPage([], { defaultOgImage: "/og-default.png", signals });
+  assert.match(html, /⚡ Spiking/);
+  assert.match(html, /<span class="signal-card-stat">11\.9× its usual pace \(\+5554 stars this week\)<\/span>/);
+  assert.doesNotMatch(html, /Heating up/);
+});
+
+test("renderRisingArchiveWeekPage renders tier tabs for a tiered snapshot, with the empty message for a tier that had no rows", () => {
+  const row = (id, extra = {}) => ({ rank: 1, id, name: id, domain: "Data Science", domainShort: "Data Science", starDelta: 40, percentDelta: 40, rankDelta: 0, ...extra });
+  const snapshot = {
+    isoWeek: "2026-W43",
+    generatedAt: "2026-10-26T08:00:00.000Z",
+    scopes: {
+      global: [row("a/a")],
+      "breakout:global": [row("a/a")],
+      "climbing:global": [row("b/b")],
+      "giants:global": [],
+      "breakout:data-science": [row("a/a")],
+    },
+  };
+  const domains = [{ slug: "data-science", name: "Data Science", shortName: "Data Science" }];
+  const html = renderRisingArchiveWeekPage(snapshot, domains, { defaultOgImage: "/og-default.png", basePath: "" });
+  assert.match(html, /class="rising-tier-bar"/);
+  assert.match(html, /<div class="rising-rows" data-tier="breakout" data-window="7">/);
+  assert.match(html, /<div class="rising-rows" data-tier="climbing" data-window="7" hidden>[\s\S]*?b\/b/);
+  assert.match(html, /<div class="rising-rows" data-tier="spiking" data-window="7" hidden><p class="rising-empty">No growing projects in this tier this week\.<\/p>/);
+  assert.match(html, /initRisingFilters\(\)/);
+  assert.match(html, /Hottest in Data Science/);
+});
+
+test("renderRisingArchiveWeekPage keeps the legacy single-list layout for a pre-tier snapshot", () => {
+  const snapshot = {
+    isoWeek: "2026-W35",
+    generatedAt: "2026-08-31T08:00:00.000Z",
+    scopes: { global: [{ rank: 1, id: "a/a", name: "Project A", domain: "Data Science", starDelta: 40, percentDelta: 40, rankDelta: 1 }] },
+  };
+  const html = renderRisingArchiveWeekPage(snapshot, [], { defaultOgImage: "/og-default.png", basePath: "" });
+  assert.doesNotMatch(html, /rising-tier-bar/);
+  assert.match(html, /Hottest overall/);
 });

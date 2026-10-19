@@ -131,6 +131,7 @@ export function toRow(c) {
     domain: c.domain,
     domainShort: c.domainShort,
     domainSlug: c.domainSlug,
+    score: c.score,
     starDelta: c.starDelta,
     percentDelta: c.percentDelta,
     currentStars: c.currentStars,

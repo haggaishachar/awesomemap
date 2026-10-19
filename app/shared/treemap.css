@@ -342,6 +342,36 @@ body {
   opacity: 0.85;
 }
 
+/* Follow (follow-list.js) is a sibling action to + Compare — same pill. */
+.follow-toggle {
+  padding: 3px 12px;
+  border: 1px solid var(--color-accent);
+  border-radius: 999px;
+  background: none;
+  color: var(--color-accent);
+  font: inherit;
+  font-size: 13px;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.follow-toggle:hover {
+  background: var(--color-accent-soft);
+}
+
+.follow-toggle-following {
+  background: var(--color-accent);
+  color: var(--color-surface);
+}
+
+.follow-toggle-following:hover {
+  opacity: 0.85;
+}
+
+.rising-hero .follow-toggle {
+  margin-top: 12px;
+}
+
 .detail-panel-growth {
   font-size: 13px;
   font-weight: 600;
@@ -1893,13 +1923,39 @@ a.momentum-row-name:hover {
   border-left: 1px dashed var(--color-border);
 }
 
+.compare-add-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
 .compare-add-form input {
-  width: 100%;
+  flex: 1 1 140px;
+  min-width: 0;
   box-sizing: border-box;
-  margin-bottom: 8px;
+  font: inherit;
+  color: inherit;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 6px 8px;
+}
+
+.compare-add-form button {
+  flex: none;
+  padding: 6px 14px;
+  font: inherit;
+  font-weight: 600;
+  color: var(--color-bg);
+  background: var(--color-accent);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .compare-add-error {
+  flex-basis: 100%;
+  margin: 0;
   color: var(--color-rising-down);
   font-size: 12px;
   min-height: 1em;
@@ -2014,6 +2070,17 @@ a.momentum-row-name:hover {
   font-size: 12px;
   color: var(--color-text-muted);
   margin: 12px 0 0;
+}
+
+.submit-form-note a,
+.contact-form-note a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.submit-form-note a:hover,
+.contact-form-note a:hover {
+  text-decoration: underline;
 }
 
 /* /search/ page — a single search box over dist/compare-index.json (the

@@ -1362,18 +1362,31 @@ export function renderRisingArchivePage(weeklySnapshots, { defaultOgImage, siteU
  */
 export function renderRisingArchiveWeekPage(snapshot, domains, { defaultOgImage, siteUrl = "", basePath = "" }) {
   const { isoWeek, generatedAt, scopes } = snapshot;
-  const globalSection = `
+  // Snapshots from before tiers (no `breakout:global` key) keep the
+  // original single-list layout; tiered ones get the same tabs as /rising/,
+  // 7-day only (snapshots are weekly).
+  const isTiered = Array.isArray(scopes["breakout:global"]);
+  const getRows = (tabKey, _windowDays, scopeKey) => scopes[`${tabKey}:${scopeKey}`] ?? [];
+  const hasAnyTieredRows = (scopeKey) => RISING_TABS.some((tab) => getRows(tab.key, 7, scopeKey).length > 0);
+  const globalSection = isTiered
+    ? renderRisingSection({ id: "global", heading: "Hottest overall", getRows, scopeKey: "global", windows: [7], showDomain: true, basePath })
+    : `
     <section class="rising-section">
       <h2 class="rising-section-heading">Hottest overall</h2>
       ${renderRisingRows(scopes.global ?? [], { showDomain: true, basePath })}
     </section>`;
   const domainSections = domains
     .map((domain) => {
+      const heading = `Hottest in ${domain.shortName ?? domain.name}`;
+      if (isTiered) {
+        if (!hasAnyTieredRows(domain.slug)) return "";
+        return renderRisingSection({ id: domain.slug, heading, getRows, scopeKey: domain.slug, windows: [7], showDomain: false, basePath });
+      }
       const entries = scopes[domain.slug] ?? [];
       if (entries.length === 0) return "";
       return `
         <section class="rising-section">
-          <h2 class="rising-section-heading">Hottest in ${escapeHtml(domain.shortName ?? domain.name)}</h2>
+          <h2 class="rising-section-heading">${escapeHtml(heading)}</h2>
           ${renderRisingRows(entries, { showDomain: false, basePath })}
         </section>`;
     })
@@ -1387,10 +1400,12 @@ export function renderRisingArchiveWeekPage(snapshot, domains, { defaultOgImage,
       <p class="rising-updated">Snapshotted ${escapeHtml(new Date(generatedAt).toISOString().slice(0, 10))}</p>
       <p class="rising-archive-links"><a href="${basePath}/rising/archive/">← All weeks</a></p>
     </header>
+    ${isTiered ? renderTierBar() : ""}
     <div class="rising-page">
       ${globalSection}
       ${domainSections}
     </div>
+    ${isTiered ? renderRisingFiltersBootstrap(basePath) : ""}
     ${renderSiteFooter(basePath)}
   `;
   return renderShell({

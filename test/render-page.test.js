@@ -1841,3 +1841,37 @@ test("renderLandingPage's spiking signal card shows the multiple and this week's
   assert.match(html, /<span class="signal-card-stat">11\.9× its usual pace \(\+5554 stars this week\)<\/span>/);
   assert.doesNotMatch(html, /Heating up/);
 });
+
+test("renderRisingArchiveWeekPage renders tier tabs for a tiered snapshot, with the empty message for a tier that had no rows", () => {
+  const row = (id, extra = {}) => ({ rank: 1, id, name: id, domain: "Data Science", domainShort: "Data Science", starDelta: 40, percentDelta: 40, rankDelta: 0, ...extra });
+  const snapshot = {
+    isoWeek: "2026-W43",
+    generatedAt: "2026-10-26T08:00:00.000Z",
+    scopes: {
+      global: [row("a/a")],
+      "breakout:global": [row("a/a")],
+      "climbing:global": [row("b/b")],
+      "giants:global": [],
+      "breakout:data-science": [row("a/a")],
+    },
+  };
+  const domains = [{ slug: "data-science", name: "Data Science", shortName: "Data Science" }];
+  const html = renderRisingArchiveWeekPage(snapshot, domains, { defaultOgImage: "/og-default.png", basePath: "" });
+  assert.match(html, /class="rising-tier-bar"/);
+  assert.match(html, /<div class="rising-rows" data-tier="breakout" data-window="7">/);
+  assert.match(html, /<div class="rising-rows" data-tier="climbing" data-window="7" hidden>[\s\S]*?b\/b/);
+  assert.match(html, /<div class="rising-rows" data-tier="spiking" data-window="7" hidden><p class="rising-empty">No growing projects in this tier this week\.<\/p>/);
+  assert.match(html, /initRisingFilters\(\)/);
+  assert.match(html, /Hottest in Data Science/);
+});
+
+test("renderRisingArchiveWeekPage keeps the legacy single-list layout for a pre-tier snapshot", () => {
+  const snapshot = {
+    isoWeek: "2026-W35",
+    generatedAt: "2026-08-31T08:00:00.000Z",
+    scopes: { global: [{ rank: 1, id: "a/a", name: "Project A", domain: "Data Science", starDelta: 40, percentDelta: 40, rankDelta: 1 }] },
+  };
+  const html = renderRisingArchiveWeekPage(snapshot, [], { defaultOgImage: "/og-default.png", basePath: "" });
+  assert.doesNotMatch(html, /rising-tier-bar/);
+  assert.match(html, /Hottest overall/);
+});

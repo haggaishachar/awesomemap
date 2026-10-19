@@ -12,7 +12,8 @@ function escapeXml(text) {
 
 /**
  * Formats a weekly snapshot's top risers as an HTML `<ul>` snippet for
- * one feed item's `<description>`. `risers` is a snapshot's `scopes.global`
+ * one feed item's `<description>`. `risers` is a snapshot's
+ * `scopes["breakout:global"]` (tiered snapshots) or `scopes.global` (older ones)
  * array — awesomemap-data's `loadLeaderboardSnapshot` output, each row
  * already carrying display fields (id/name/domain/starDelta/percentDelta).
  */
@@ -29,6 +30,17 @@ function formatRiserListHtml(risers) {
     })
     .join("");
   return `<ul>${items}</ul>`;
+}
+
+/**
+ * One line naming the week's top Spiking project, or "" when the snapshot
+ * has none (every pre-tier snapshot). Archived rows don't carry `multiple`
+ * (no D1 column for it), so the line states the gain instead.
+ */
+function formatSpikeLineHtml(spikingRows) {
+  const top = spikingRows?.[0];
+  if (!top) return "";
+  return `<p>Biggest spike: ${escapeXml(top.name)} (+${top.starDelta} stars this week)</p>`;
 }
 
 /**
@@ -61,7 +73,7 @@ export function buildRisingFeed(weeklySnapshots, { siteUrl, basePath = "" }) {
       <link>${link}</link>
       <guid>${link}</guid>
       <pubDate>${pubDate}</pubDate>
-      <description>${escapeXml(formatRiserListHtml(snapshot.scopes?.global))}</description>
+      <description>${escapeXml(formatRiserListHtml(snapshot.scopes?.["breakout:global"] ?? snapshot.scopes?.global) + formatSpikeLineHtml(snapshot.scopes?.["spiking:global"]))}</description>
     </item>`;
     })
     .join("");

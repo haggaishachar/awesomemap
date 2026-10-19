@@ -70,3 +70,13 @@ test("computeSpiking dedupes a project listed in two domains for the global scop
   assert.deepEqual(computeSpiking(domains, { scope: "global", now: NOW }).map((r) => r.id), ["spike", "steady"]);
   assert.deepEqual(computeSpiking(domains, { scope: "security", now: NOW }).map((r) => r.id), ["spike"]);
 });
+
+test("computeSpiking shows a spike on the day it happens (no prior-day eligibility needed), with rankDelta 0", () => {
+  const fresh = project("fresh", { 36: 2000, 8: 2000, 7: 2000, 1: 2000, 0: 2600 }); // flat, then +600 today: 30x its usual pace
+  const rows = computeSpiking([domain([STEADY, SPIKE, fresh])], { scope: "global", now: NOW });
+  assert.deepEqual(rows.map((r) => r.id), ["spike", "fresh", "steady"]);
+  const freshRow = rows.find((r) => r.id === "fresh");
+  assert.equal(freshRow.multiple, 600 / SPIKING_SMOOTHING);
+  assert.equal(freshRow.rankDelta, 0);
+  assert.equal(freshRow.rank, 2);
+});

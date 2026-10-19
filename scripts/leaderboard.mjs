@@ -97,8 +97,14 @@ function rankCandidates(candidates) {
  * by id BEFORE ranking, so both rank spaces cover the same population;
  * otherwise rank numbers gap once ineligible candidates are filtered out,
  * and rankDelta ends up diffing two differently-populated rank spaces.
+ *
+ * `keepNew: true` instead ranks every one of today's candidates and gives
+ * the ones absent yesterday `rankDelta: 0`; the rest keep the movement
+ * computed over the intersected population. For a list whose whole point
+ * is timeliness (spiking.mjs), dropping a candidate on its first eligible
+ * day would show every spike a day late.
  */
-export function rankAgainstYesterday(todayCandidates, yesterdayCandidates) {
+export function rankAgainstYesterday(todayCandidates, yesterdayCandidates, { keepNew = false } = {}) {
   const yesterdayById = new Map(yesterdayCandidates.map((c) => [c.id, c]));
   const eligibleToday = todayCandidates.filter((c) => yesterdayById.has(c.id));
 
@@ -106,7 +112,11 @@ export function rankAgainstYesterday(todayCandidates, yesterdayCandidates) {
   const yesterdayRanked = rankCandidates(eligibleToday.map((c) => yesterdayById.get(c.id)));
   const yesterdayRankById = new Map(yesterdayRanked.map((c) => [c.id, c.rank]));
 
-  return todayRanked.map((c) => ({ ...c, rankDelta: yesterdayRankById.get(c.id) - c.rank }));
+  const intersectedRanked = todayRanked.map((c) => ({ ...c, rankDelta: yesterdayRankById.get(c.id) - c.rank }));
+  if (!keepNew) return intersectedRanked;
+
+  const rankDeltaById = new Map(intersectedRanked.map((c) => [c.id, c.rankDelta]));
+  return rankCandidates(todayCandidates).map((c) => ({ ...c, rankDelta: rankDeltaById.get(c.id) ?? 0 }));
 }
 
 /** The public row shape every leaderboard consumer reads. */

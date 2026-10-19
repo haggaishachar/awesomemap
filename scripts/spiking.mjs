@@ -66,9 +66,10 @@ function collectSpikingCandidates(domains, scope, asOf) {
 
 /**
  * The Spiking leaderboard: projects growing far faster than their own
- * usual pace this week, any size. Same scope/limit/now contract and
- * same today-vs-yesterday rankDelta rule as `computeLeaderboard`
- * (leaderboard.mjs), ranked by `multiple` instead of score. Rows carry
+ * usual pace this week, any size. Same scope/limit/now contract as
+ * `computeLeaderboard` (leaderboard.mjs), ranked by `multiple` instead of
+ * score — but a project spiking for the first time today is kept (with
+ * `rankDelta: 0`) rather than waiting a day to be eligible "yesterday" too. Rows carry
  * `multiple` and `priorWeekly` on top of the usual row shape, and
  * `tier: "spiking"` so renderers can treat them as their own tab.
  */
@@ -79,7 +80,7 @@ export function computeSpiking(domains, { scope, limit = 20, now = new Date() })
   const today = collectSpikingCandidates(domains, scope, nowDate);
   const yesterday = collectSpikingCandidates(domains, scope, yesterdayDate);
 
-  return rankAgainstYesterday(today, yesterday)
+  return rankAgainstYesterday(today, yesterday, { keepNew: true })
     .slice(0, limit)
     .map((c) => ({ ...toRow(c), multiple: c.multiple, priorWeekly: c.priorWeekly, tier: "spiking" }));
 }

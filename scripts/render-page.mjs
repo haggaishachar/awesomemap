@@ -739,6 +739,10 @@ function renderFollowingWidget(basePath) {
     </script>`;
 }
 
+// Matches the hero tagline, so search results and link unfurls (Product Hunt,
+// X, Slack) carry the same momentum pitch a visitor sees on arrival.
+const LANDING_DESCRIPTION = "What's taking off in open source — spotted by growth, not just stars.";
+
 export function renderLandingPage(
   domains,
   {
@@ -782,7 +786,7 @@ export function renderLandingPage(
   const websiteJsonLd = renderJsonLd(
     buildWebsiteJsonLd({
       name: "awesomemap",
-      description: "A community-curated map of open-source technology.",
+      description: LANDING_DESCRIPTION,
       url: `${siteUrl}${basePath}/`,
     })
   );
@@ -814,7 +818,7 @@ export function renderLandingPage(
   return renderShell({
     title: "awesomemap",
     ogTitle: "awesomemap",
-    ogDescription: "A community-curated map of open-source technology.",
+    ogDescription: LANDING_DESCRIPTION,
     ogImage: defaultOgImage,
     ogUrl: `${siteUrl}${basePath}/`,
     base: basePath,

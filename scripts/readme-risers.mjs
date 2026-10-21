@@ -19,7 +19,7 @@ import { MS_PER_DAY } from "./velocity.mjs";
 /** Growth window backing the README list — 7 days so rank arrows actually move between daily runs (30/90-day ranks barely shift day to day). */
 export const README_RISERS_WINDOW_DAYS = 7;
 
-/** How many projects the README list holds — a curated top slice, not the full ~1,300-project catalog (which lives on the site's own /rising/ leaderboard instead). */
+/** How many projects the README list holds — a curated top slice, not the full ~1,700-project catalog (which lives on the site's own /rising/ leaderboard instead). */
 export const README_RISERS_LIMIT = 100;
 
 /** How many of those render open; the rest sit in a collapsed <details> block so the README isn't a 100-entry wall. */

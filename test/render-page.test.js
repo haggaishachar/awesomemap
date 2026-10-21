@@ -926,7 +926,7 @@ test("every page type emits a plain meta description matching its og:description
   assert.match(domainHtml, /<meta name="description" content="Weird \$` desc" \/>/);
 
   const landingHtml = renderLandingPage([], { defaultOgImage: "/og-default.png" });
-  assert.match(landingHtml, /<meta name="description" content="A community-curated map of open-source technology\." \/>/);
+  assert.match(landingHtml, /<meta name="description" content="What's taking off in open source — spotted by growth, not just stars\." \/>/);
 
   const risingHtml = renderRisingPage([], { 7: { global: [] }, 30: { global: [] }, 90: { global: [] } }, { defaultOgImage: "/og-default.png" });
   assert.match(risingHtml, /<meta name="description" content="Fast-growing open-source projects grouped by size, plus the week's sudden spikes — updated daily\." \/>/);

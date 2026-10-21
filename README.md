@@ -16,7 +16,7 @@ Flip any map to **Rising** mode and rectangles resize by star-growth
 *velocity* instead — what's accelerating right now, before it's big enough
 to show up on the popular view.
 
-Nine domains, ~1,300 projects, and a full daily star-history snapshot
+Ten domains, ~1,700 projects, and a full daily star-history snapshot
 behind every growth number on the site — nothing here is a one-time
 scrape.
 

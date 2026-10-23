@@ -16,6 +16,7 @@ import {
 } from "../app/shared/star-history.js";
 import { buildTwitterShareUrl, buildLinkedInShareUrl, buildRedditShareUrl } from "../app/shared/share-links.js";
 import { buildEmbedSnippet } from "../app/shared/embed-snippet.js";
+import { buildBadgeMarkdown } from "./badge.mjs";
 
 const TEMPLATE = readFileSync(new URL("../app/index.html.template", import.meta.url), "utf8");
 
@@ -1947,7 +1948,9 @@ export function renderProjectPage(
           data-follow-last-seen-stars="${Number(project.weight ?? 0)}"
           aria-pressed="false"
         >+ Follow</button>
+        <button type="button" class="detail-panel-link project-badge-toggle" aria-expanded="false" aria-controls="project-badge-panel">Add badge</button>
       </div>
+      ${renderProjectBadgePanel(project, { ogUrl, siteUrl, basePath })}
       ${renderProjectTagChips(project.tags, basePath)}
     </div>
     ${renderSiteFooter(basePath)}
@@ -1970,6 +1973,45 @@ export function renderProjectPage(
     base: basePath,
     body,
   });
+}
+
+/**
+ * The "Add badge" panel a project page's toggle opens: a live preview of
+ * the project's README badge (badge.svg, written next to this page by
+ * generate.mjs) and the Markdown snippet to paste, with a Copy button — the
+ * same textarea-plus-Copy shape as a domain page's Embed panel, and the
+ * snippet is escaped a second time here for the same reason (see
+ * renderMapActions). The badge URL is absolute (`siteUrl`) because it's
+ * read from someone else's README, not from this site.
+ */
+function renderProjectBadgePanel(project, { ogUrl, siteUrl, basePath }) {
+  const badgePath = `${basePath}/projects/${project.id}/badge.svg`;
+  const snippet = escapeHtml(buildBadgeMarkdown(`${siteUrl}${badgePath}`, ogUrl));
+  return `
+      <div class="project-badge-panel" id="project-badge-panel" hidden>
+        <p class="project-badge-intro">Maintain ${escapeHtml(project.name ?? project.id)}? Show where it stands in your README — the badge updates daily.</p>
+        <img class="project-badge-preview" src="${escapeHtml(badgePath)}" alt="awesomemap badge for ${escapeHtml(project.name ?? project.id)}" loading="lazy" />
+        <div class="project-badge-code-row">
+          <textarea class="project-badge-code" readonly rows="2">${snippet}</textarea>
+          <button type="button" class="project-badge-copy">Copy</button>
+        </div>
+      </div>
+      <script type="module">
+        import { copyToClipboard } from "${basePath}/shared/clipboard.js";
+        const badgeToggle = document.querySelector(".project-badge-toggle");
+        const badgePanel = document.getElementById("project-badge-panel");
+        badgeToggle.addEventListener("click", () => {
+          const opening = badgePanel.hidden;
+          badgePanel.hidden = !opening;
+          badgeToggle.setAttribute("aria-expanded", String(opening));
+        });
+        document.querySelector(".project-badge-copy").addEventListener("click", async (event) => {
+          const button = event.currentTarget;
+          await copyToClipboard(document.querySelector(".project-badge-code").value);
+          button.textContent = "Copied!";
+          setTimeout(() => { button.textContent = "Copy"; }, 1500);
+        });
+      </script>`;
 }
 
 /**

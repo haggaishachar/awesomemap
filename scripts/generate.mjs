@@ -31,6 +31,7 @@ import { computeGroupGrowth, rankGroups } from "./group-growth.mjs";
 import { buildTagGroups, computeTopTags, computeRisingTags } from "./tag-growth.mjs";
 import { pickThisWeeksSignals } from "./this-weeks-signals.mjs";
 import { buildSitemap, buildRobots } from "./seo.mjs";
+import { pickBadgeClaim, renderBadgeSvg, computeCategoryRanks } from "./badge.mjs";
 import { buildRisingFeed } from "./rss.mjs";
 import { currentIsoWeek } from "./iso-week.mjs";
 import { loadAllDomains, loadAllProjectEntities, loadLeaderboardSnapshots, loadLeaderboardSnapshot, joinDomainProjects } from "./data-store.mjs";
@@ -554,6 +555,25 @@ for (const { tag, projects } of globalTagGroups) {
 // whichever domain won that dedup.
 mkdirSync(`${DIST_DIR}/projects`, { recursive: true });
 const projectPagePaths = [];
+
+// Each project's star rank within its own category, for its README badge.
+// Iterates domains in the same order allProjectsWithDomain's dedup did, so
+// a project curated into more than one domain is ranked within the same
+// domain's category its page names (last write wins in both).
+const categoryRankById = new Map();
+for (const domain of parsedDomains) {
+  for (const [id, rank] of computeCategoryRanks(domain.projects)) categoryRankById.set(id, rank);
+}
+
+/** A project's `{ tier, rank }` on its domain's 7-day Rising leaderboard (any tier), or null — the badge's strongest claim. */
+function risingRankFor(project) {
+  for (const tier of TIERS) {
+    const entry = leaderboardsByTier[tier.key][TEASER_WINDOW_DAYS][project.domainSlug]?.find((row) => row.id === project.id);
+    if (entry) return { tier: tier.key, rank: entry.rank };
+  }
+  return null;
+}
+
 const compareRecords = [];
 for (const project of allProjectsWithDomain) {
   const idParts = project.id.split("/");
@@ -588,6 +608,18 @@ for (const project of allProjectsWithDomain) {
       siteUrl: SITE_URL,
       basePath: BASE_PATH,
     })
+  );
+  writeFileSync(
+    `${DIST_DIR}/projects/${project.id}/badge.svg`,
+    renderBadgeSvg(
+      pickBadgeClaim({
+        risingRank: risingRankFor(project),
+        growth7d: { ...project.growth[`rising${TEASER_WINDOW_DAYS}`], hasEnoughHistory: project.hasEnoughHistory[`rising${TEASER_WINDOW_DAYS}`] },
+        categoryRank: categoryRankById.get(project.id),
+        categoryName: project.path[0],
+        domainShort: project.domainShort,
+      })
+    )
   );
   projectPagePaths.push(`/projects/${project.id}/`);
 }

@@ -1072,7 +1072,8 @@ a.momentum-row-name:hover {
 .map-share a,
 .map-share button,
 .map-embed-toggle,
-.map-embed-copy {
+.map-embed-copy,
+.project-badge-copy {
   display: flex;
   align-items: center;
   gap: 6px;
@@ -1094,7 +1095,8 @@ a.momentum-row-name:hover {
 .map-share a:hover,
 .map-share button:hover,
 .map-embed-toggle:hover,
-.map-embed-copy:hover {
+.map-embed-copy:hover,
+.project-badge-copy:hover {
   color: var(--color-text);
 }
 
@@ -1110,7 +1112,8 @@ a.momentum-row-name:hover {
   display: none;
 }
 
-.map-embed-code {
+.map-embed-code,
+.project-badge-code {
   flex: 1;
   font-family: ui-monospace, monospace;
   font-size: 12px;
@@ -1797,6 +1800,48 @@ a.momentum-row-name:hover {
 .project-links .detail-panel-stars {
   display: inline-block;
   margin: 0 12px;
+}
+
+/* The project-page "Add badge" toggle is a <button>, not a link — strip
+   the native button chrome so it reads like its sibling links. */
+.project-badge-toggle {
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+.project-badge-panel {
+  max-width: 640px;
+  margin: 16px auto 0;
+  text-align: center;
+}
+
+.project-badge-panel[hidden] {
+  display: none;
+}
+
+.project-badge-intro {
+  margin: 0 0 10px;
+  color: var(--color-text-muted);
+  font-size: 14px;
+}
+
+.project-badge-preview {
+  display: block;
+  margin: 0 auto 10px;
+  height: 20px;
+}
+
+.project-badge-code-row {
+  display: flex;
+  gap: 8px;
+}
+
+.project-badge-code-row .project-badge-code {
+  height: 52px;
+  text-align: left;
 }
 
 .project-body .detail-panel-tags {

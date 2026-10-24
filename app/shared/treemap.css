@@ -1804,9 +1804,54 @@ a.momentum-row-name:hover {
   margin-top: 16px;
 }
 
+/* README badge panel — reuses the domain page's embed textarea/copy-button
+   styling (.map-embed-code/.map-embed-copy), one row per snippet format. */
+.project-badge {
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid var(--color-border);
+}
+
+.project-badge-preview {
+  margin: 0 0 6px;
+}
+
+.project-badge-preview img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.project-badge-note {
+  margin: 0 0 12px;
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.project-badge-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.project-badge-format {
+  flex: 0 0 72px;
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+.project-badge-code {
+  min-width: 0;
+}
+
 @media (max-width: 480px) {
   .project-momentum-grid {
     grid-template-columns: 1fr;
+  }
+
+  .project-badge-format {
+    flex-basis: 56px;
   }
 }
 

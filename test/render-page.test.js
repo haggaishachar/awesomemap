@@ -1875,3 +1875,26 @@ test("renderRisingArchiveWeekPage keeps the legacy single-list layout for a pre-
   assert.doesNotMatch(html, /rising-tier-bar/);
   assert.match(html, /Hottest overall/);
 });
+
+test("renderProjectPage renders the README badge panel with a preview and copyable, escaped snippets", () => {
+  const html = renderProjectPage(PROJECT, {
+    domain: PROJECT_DOMAIN,
+    signal: NO_SIGNAL,
+    defaultOgImage: "/og-default.png",
+    badge: {
+      id: "a/b",
+      message: "#3 Breakout in AI · this week",
+      snippets: { markdown: "[![awesomemap](x.svg)](y)", html: '<a href="y"><img src="x.svg" alt="awesomemap" /></a>', shields: "[![s](z)](y)" },
+    },
+  });
+  assert.match(html, /<section class="project-badge" id="badge"/);
+  assert.match(html, /<img src="\/badges\/a\/b\.svg" alt="awesomemap: #3 Breakout in AI · this week"/);
+  assert.match(html, /id="project-badge-markdown" readonly wrap="off"[^>]*>\[!\[awesomemap\]\(x\.svg\)\]\(y\)<\/textarea>/);
+  assert.match(html, /id="project-badge-html" readonly[^>]*>&lt;a href=&quot;y&quot;&gt;/);
+  assert.match(html, /data-copy-target="project-badge-shields"/);
+});
+
+test("renderProjectPage omits the badge panel when no badge is passed", () => {
+  const html = renderProjectPage(PROJECT, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
+  assert.doesNotMatch(html, /project-badge/);
+});

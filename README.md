@@ -255,3 +255,20 @@ More domains are on the way. Project data is maintained via
 [awesomemap-data](https://github.com/haggaishachar/awesomemap-data), which
 discovers, classifies, and snapshots projects on its own schedule; counts
 here reflect the latest deploy.
+
+## Badge for your project
+
+Every project on the map has a README badge showing its best Rising rank,
+regenerated with each daily deploy:
+
+```markdown
+[![awesomemap](https://awesomemap.dev/badges/OWNER/REPO.svg)](https://awesomemap.dev/projects/OWNER/REPO/)
+```
+
+It shows this week's rank when the project is on a leaderboard
+(`#3 Breakout in AI · this week`), otherwise the best rank it has reached in
+any archived week (`#1 Climbing overall · Oct 2026`), so it doesn't go blank
+after a quiet week. A project that hasn't ranked yet shows
+`Listed in <domain>`. Each project page has a copy-ready Markdown, HTML,
+and [shields.io endpoint](https://shields.io/badges/endpoint-badge) snippet
+(`/badges/OWNER/REPO.json`) for shields' other styles.

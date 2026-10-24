@@ -54,6 +54,16 @@ test("pickThisWeeksSignals' watch is the highest-percentDelta candidate among th
   assert.equal(watch.id, "small-fast/small-fast");
 });
 
+test("pickThisWeeksSignals' watch skips the id mover already claimed, so one project never fills both cards", () => {
+  const pool = [
+    candidate({ id: "both/both", starDelta: 900, percentDelta: 38, currentStars: 3300 }),
+    candidate({ id: "next/next", starDelta: 50, percentDelta: 20, currentStars: 400 }),
+  ];
+  const { mover, watch } = pickThisWeeksSignals(pool);
+  assert.equal(mover.id, "both/both");
+  assert.equal(watch.id, "next/next");
+});
+
 test("pickThisWeeksSignals' watch is null when no candidate is under the star threshold", () => {
   const pool = [candidate({ id: "big/big", currentStars: SMALL_PROJECT_STAR_THRESHOLD + 1 })];
   const { watch } = pickThisWeeksSignals(pool);
@@ -78,7 +88,7 @@ test("pickThisWeeksSignals excludes only the below-floor candidates, not the who
   ];
   const { mover, watch } = pickThisWeeksSignals(pool);
   assert.equal(mover.id, "real/mover");
-  assert.equal(watch.id, "real/mover");
+  assert.equal(watch, null); // real/mover is the only one above the floor, and mover already claimed it
 });
 
 test("pickThisWeeksSignals' breakout is the highest-relativeMultiple candidate, skipping ids mover/watch already claimed", () => {

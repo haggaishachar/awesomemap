@@ -65,7 +65,9 @@ export const MOMENTUM_DROP_RATIO = 0.5;
  * absolute gain overall is almost always a giant. `spikingPool` is the
  * scope's uncapped `computeSpiking` result (spiking.mjs) — already floored
  * by its own minimums, so it skips `MIN_MEANINGFUL_STAR_DELTA`; `spiking` is
- * picked after `mover`/`watch`/`breakout` and skips their ids.
+ * picked after `mover`/`watch`/`breakout` and skips their ids. `watch`
+ * likewise skips `mover`'s id — a Breakout-tier project under
+ * `starThreshold` can top both, and one project shouldn't fill two cards.
  *
  * `buzz` and `losingMomentum` are picked last, skipping every id the four
  * upward signals already claimed — a mover that also had the week's
@@ -80,7 +82,7 @@ export const MOMENTUM_DROP_RATIO = 0.5;
 export function pickThisWeeksSignals(moverPool, { starThreshold = SMALL_PROJECT_STAR_THRESHOLD, spikingPool = [] } = {}) {
   const pool = moverPool.filter((candidate) => candidate.starDelta >= MIN_MEANINGFUL_STAR_DELTA);
   const mover = pickBiggestMover(pool.filter((candidate) => tierForStars(candidate.currentStars) === DEFAULT_TIER));
-  const watch = pickOneToWatch(pool, starThreshold);
+  const watch = pickOneToWatch(pool, starThreshold, mover?.id);
   const breakout = pickBreakout(pool, new Set([mover?.id, watch?.id].filter(Boolean)));
   const claimedIds = new Set([mover?.id, watch?.id, breakout?.id].filter(Boolean));
   const spiking = pickSpiking(spikingPool, claimedIds);
@@ -101,9 +103,9 @@ function pickBiggestMover(pool) {
   return pool.reduce((best, candidate) => (candidate.starDelta > best.starDelta ? candidate : best));
 }
 
-/** The highest-percentDelta candidate among those under `starThreshold` current stars, or null if none qualify. */
-function pickOneToWatch(pool, starThreshold) {
-  const small = pool.filter((candidate) => candidate.currentStars < starThreshold);
+/** The highest-percentDelta candidate among those under `starThreshold` current stars, skipping `moverId` (a small Breakout-tier project can win both), or null if none qualify. */
+function pickOneToWatch(pool, starThreshold, moverId) {
+  const small = pool.filter((candidate) => candidate.currentStars < starThreshold && candidate.id !== moverId);
   if (small.length === 0) return null;
   return small.reduce((best, candidate) => (candidate.percentDelta > best.percentDelta ? candidate : best));
 }

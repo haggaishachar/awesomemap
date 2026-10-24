@@ -1261,6 +1261,22 @@ test("renderProjectPage renders a momentum chip for each rising window", () => {
   assert.match(html, /\+2,000/);
 });
 
+test("renderProjectPage offers an Add badge panel with the README Markdown for its badge.svg", () => {
+  const html = renderProjectPage(PROJECT, {
+    domain: PROJECT_DOMAIN,
+    signal: NO_SIGNAL,
+    defaultOgImage: "/og-default.png",
+    siteUrl: "https://awesomemap.dev",
+  });
+  assert.match(html, /class="detail-panel-link project-badge-toggle"[^>]*aria-controls="project-badge-panel"/);
+  assert.match(html, /<div class="project-badge-panel" id="project-badge-panel" hidden>/);
+  assert.match(html, /<img class="project-badge-preview" src="\/projects\/ggerganov\/llama\.cpp\/badge\.svg"/);
+  assert.match(
+    html,
+    /\[!\[awesomemap\]\(https:\/\/awesomemap\.dev\/projects\/ggerganov\/llama\.cpp\/badge\.svg\)\]\(https:\/\/awesomemap\.dev\/projects\/ggerganov\/llama\.cpp\/\)/
+  );
+});
+
 test("renderProjectPage renders the signal headline when present, and omits the element when null", () => {
   const withSignal = renderProjectPage(PROJECT, {
     domain: PROJECT_DOMAIN,

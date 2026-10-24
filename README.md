@@ -255,3 +255,16 @@ More domains are on the way. Project data is maintained via
 [awesomemap-data](https://github.com/haggaishachar/awesomemap-data), which
 discovers, classifies, and snapshots projects on its own schedule; counts
 here reflect the latest deploy.
+
+## Badge for your project's README
+
+Every project on awesomemap gets a README badge that's rebuilt daily with
+the site. It always shows the best thing that's true about the project
+right now: a rank on its domain's Rising leaderboard, then 7-day star
+growth, then a top-10 star rank in its category, then simply which
+category it's listed in. It never shows a decline. Open your project's
+page, click **Add badge**, and copy the Markdown, or build it by hand:
+
+```markdown
+[![awesomemap](https://awesomemap.dev/projects/<owner>/<repo>/badge.svg)](https://awesomemap.dev/projects/<owner>/<repo>/)
+```

@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { loadAllDomains, loadAllProjectEntities, joinDomainProjects, loadLeaderboardSnapshots, loadLeaderboardSnapshot, SCHEMA_VERSION } from "../scripts/data-store.mjs";
+import { loadAllDomains, loadAllProjectEntities, joinDomainProjects, loadLeaderboardSnapshots, loadLeaderboardSnapshot, SCHEMA_VERSION, rebaseProjectDates } from "../scripts/data-store.mjs";
 
 process.env.AWESOMEMAP_DATA_API_URL = "http://example.test";
 
@@ -125,4 +125,76 @@ test("loadLeaderboardSnapshot fetches one week by ISO week label", async () => {
   const snapshot = await loadLeaderboardSnapshot("2026-W39", { fetchImpl });
   assert.deepEqual(snapshot, body);
   assert.equal(calls[0].url, "http://example.test/leaderboard-snapshots/2026-W39");
+});
+
+// --- Fixture mode (AWESOMEMAP_DATA_FIXTURE_DIR): reads saved API responses
+// from disk instead of the network, so pr-check.yml's build doesn't depend
+// on the live awesomemap-data Worker being up. ---
+
+const FIXTURE_DIR = new URL("./fixtures/api", import.meta.url).pathname;
+const noNetwork = async (url) => {
+  throw new Error(`fixture mode must not fetch, but fetched ${url}`);
+};
+
+async function withFixtureDir(dir, fn) {
+  process.env.AWESOMEMAP_DATA_FIXTURE_DIR = dir;
+  try {
+    return await fn();
+  } finally {
+    delete process.env.AWESOMEMAP_DATA_FIXTURE_DIR;
+  }
+}
+
+test("fixture mode reads domains from the fixture dir and never touches the network", async () => {
+  const domains = await withFixtureDir(FIXTURE_DIR, () => loadAllDomains({ fetchImpl: noNetwork }));
+  assert.deepEqual(domains.map((d) => d.slug), ["databases", "security"]);
+});
+
+test("fixture mode reads the leaderboard archive list and each listed week", async () => {
+  await withFixtureDir(FIXTURE_DIR, async () => {
+    const weeks = await loadLeaderboardSnapshots({ fetchImpl: noNetwork });
+    assert.ok(weeks.length > 0);
+    const snapshot = await loadLeaderboardSnapshot(weeks[0].isoWeek, { fetchImpl: noNetwork });
+    assert.equal(snapshot.isoWeek, weeks[0].isoWeek);
+    assert.ok(Array.isArray(snapshot.scopes.global));
+  });
+});
+
+test("fixture mode throws a clear error naming the missing fixture file", async () => {
+  await withFixtureDir("/nonexistent-fixture-dir", async () => {
+    await assert.rejects(loadAllDomains({ fetchImpl: noNetwork }), /\/nonexistent-fixture-dir\/domains\.json/);
+  });
+});
+
+test("every committed fixture domain's membership resolves to a fixture project", async () => {
+  await withFixtureDir(FIXTURE_DIR, async () => {
+    const domains = await loadAllDomains({ fetchImpl: noNetwork });
+    const byId = await loadAllProjectEntities({ fetchImpl: noNetwork });
+    for (const domain of domains) assert.doesNotThrow(() => joinDomainProjects(domain, byId));
+  });
+});
+
+test("rebaseProjectDates shifts every history and event date so the newest history date becomes today", () => {
+  const projects = [
+    { id: "a/a", history: [{ date: "2026-10-20", stars: 1 }, { date: "2026-10-24", stars: 2 }], events: [{ date: "2026-10-21", type: "hn" }] },
+    { id: "b/b", history: [{ date: "2026-10-22", stars: 5 }] },
+  ];
+  const rebased = rebaseProjectDates(projects, new Date("2026-12-01T09:30:00Z"));
+  assert.deepEqual(rebased[0].history.map((h) => h.date), ["2026-11-27", "2026-12-01"]);
+  assert.deepEqual(rebased[0].events.map((e) => e.date), ["2026-11-28"]);
+  assert.deepEqual(rebased[1].history.map((h) => h.date), ["2026-11-29"]);
+  assert.equal(rebased[0].history[1].stars, 2);
+  assert.equal(projects[0].history[1].date, "2026-10-24", "input is not mutated");
+});
+
+test("rebaseProjectDates returns projects unchanged when none has history", () => {
+  const projects = [{ id: "a/a", history: [] }, { id: "b/b" }];
+  assert.deepEqual(rebaseProjectDates(projects, new Date("2026-12-01T00:00:00Z")), projects);
+});
+
+test("fixture mode rebases project dates to today, so growth windows aren't empty as the fixture ages", async () => {
+  const byId = await withFixtureDir(FIXTURE_DIR, () => loadAllProjectEntities({ fetchImpl: noNetwork }));
+  const today = new Date().toISOString().slice(0, 10);
+  const newest = [...byId.values()].flatMap((p) => (p.history ?? []).map((h) => h.date)).sort().at(-1);
+  assert.equal(newest, today);
 });

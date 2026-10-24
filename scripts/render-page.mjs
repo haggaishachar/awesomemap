@@ -292,34 +292,6 @@ function renderMapActionsBootstrap(basePath) {
 // landscape frame.
 const DEFAULT_OG_IMAGE_DIMENSIONS = ['<meta property="og:image:width" content="1200" />', '<meta property="og:image:height" content="630" />'].join("\n  ");
 
-// Set once at generate.mjs startup (see `configureAnalytics`) rather than
-// threaded as a parameter through every `render*Page` function and their
-// call sites — the GoatCounter site code is a single site-wide constant
-// for the whole build, not something any individual page varies.
-let goatcounterSite = null;
-
-/**
- * Sets the GoatCounter site code every subsequently rendered page's
- * `<head>` includes its tracking snippet for — a no-op (no snippet
- * emitted at all) when never called or called with a falsy value, which
- * is what keeps local `npm run dev` analytics-free (see generate.mjs's
- * `GOATCOUNTER_SITE` env gating). Additive to the Cloudflare Web
- * Analytics beacon already in the template (pageviews only, no custom
- * events) — GoatCounter supplies the custom-event tracking issue #99's
- * "repeat-visit and key discovery events measurable" acceptance criterion
- * needs (RSS subscribe clicks, follow add/remove), which Cloudflare's
- * free tier doesn't expose.
- */
-export function configureAnalytics(site) {
-  goatcounterSite = site || null;
-}
-
-/** Renders the GoatCounter tracking snippet for `<head>` — a single `<script>` tag, no cookie banner needed. Empty when no site code is configured. */
-function renderAnalytics() {
-  if (!goatcounterSite) return "";
-  return `<script data-goatcounter="https://${escapeHtml(goatcounterSite)}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>`;
-}
-
 function renderShell({ title, ogTitle, ogDescription, ogImage, ogImageDimensions = DEFAULT_OG_IMAGE_DIMENSIONS, twitterCard = "summary_large_image", ogUrl, base, body }) {
   return TEMPLATE.replace(/{{TITLE}}/g, () => escapeHtml(title))
     .replace(/{{OG_TITLE}}/g, () => escapeHtml(ogTitle))
@@ -328,7 +300,6 @@ function renderShell({ title, ogTitle, ogDescription, ogImage, ogImageDimensions
     .replace("{{OG_IMAGE_DIMENSIONS}}", () => ogImageDimensions)
     .replace(/{{TWITTER_CARD}}/g, () => escapeHtml(twitterCard))
     .replace(/{{OG_URL}}/g, () => escapeHtml(ogUrl))
-    .replace(/{{ANALYTICS}}/g, () => renderAnalytics())
     .replace(/{{BASE}}/g, () => base)
     .replace("{{BODY}}", () => body);
 }
@@ -1287,7 +1258,7 @@ export function renderRisingPage(domains, leaderboardsByTier, { defaultOgImage, 
       <p class="rising-updated">Updated ${escapeHtml(generatedAt.toISOString().slice(0, 10))}</p>
       <p class="rising-archive-links">
         <a href="${basePath}/rising/archive/">Browse previous weeks →</a>
-        <a href="${basePath}/rising/feed.xml" data-goatcounter-click="rss_subscribe_click">Subscribe via RSS</a>
+        <a href="${basePath}/rising/feed.xml">Subscribe via RSS</a>
       </p>
     </header>
     ${renderTierBar()}

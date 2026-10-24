@@ -17,7 +17,6 @@ import {
   renderRisingArchiveWeekPage,
   tagSlug,
   categorySlug,
-  configureAnalytics,
 } from "./render-page.mjs";
 import { buildCompareRecord, buildCompareIndex } from "./compare-index.mjs";
 import { explainSignal } from "./signal.mjs";
@@ -64,14 +63,6 @@ const SITE_URL = process.env.SITE_URL ?? "";
 // custom domain survives every deploy (Actions-based Pages publishing does
 // not persist it any other way — see .github/workflows/deploy.yml).
 const CNAME = process.env.CNAME ?? "";
-
-// GoatCounter site code (e.g. "awesomemap" for awesomemap.goatcounter.com)
-// — when unset (e.g. local `npm run dev`), no analytics snippet is
-// emitted at all, same env-gating convention SITE_URL already uses for
-// the sitemap. Additive to the Cloudflare Web Analytics beacon already in
-// app/index.html.template.
-const GOATCOUNTER_SITE = process.env.GOATCOUNTER_SITE ?? "";
-configureAnalytics(GOATCOUNTER_SITE);
 
 const DEFAULT_OG_IMAGE = `${SITE_URL}${BASE_PATH}/og-default.png`;
 

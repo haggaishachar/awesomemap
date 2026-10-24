@@ -3,10 +3,14 @@
 // used by every page that doesn't have a more specific one. Same
 // no-image-library approach as make-favicon-png.mjs (raw zlib + hand-rolled
 // PNG chunks), extended with a tiny hand-drawn 5x7 bitmap font so the banner
-// can carry the wordmark instead of being a single flat color. Re-run this
-// script manually if the mark, colors, or wordmark ever change.
+// can carry the wordmark and tagline. The left half is an illustrative Rising
+// treemap (d3-hierarchy's squarify, the same layout the live maps use) with
+// boxes colored by growth, so the card shows the product's idea —
+// momentum, not just popularity — rather than only the logo. Re-run this
+// script manually if the mark, colors, or copy ever change.
 import { deflateSync } from "node:zlib";
 import { writeFileSync } from "node:fs";
+import { hierarchy, treemap, treemapSquarify } from "d3-hierarchy";
 
 function crc32(buf) {
   const table = [];
@@ -99,8 +103,8 @@ function drawMark(canvas, x0, y0, scale, color = null) {
 
 // Hand-drawn 5x7 bitmap font, blocky/geometric to match the mark's own
 // rectangle-built look rather than trying to fake a real typeface. Only
-// covers the letters "awesomemap" actually needs — extend as the wordmark
-// this banner renders grows.
+// covers the characters the wordmark, tagline, and URL actually need —
+// extend as the copy this banner renders grows.
 const GLYPH_W = 5;
 const GLYPH_H = 7;
 const FONT = {
@@ -112,8 +116,18 @@ const FONT = {
   m: ["00000", "11010", "10101", "10101", "10101", "10101", "10101"],
   p: ["11110", "10001", "10001", "11110", "10000", "10000", "10000"],
   ".": ["00000", "00000", "00000", "00000", "00000", "00000", "01100"],
-  d: ["00001", "00001", "01101", "10101", "10101", "10101", "01111"],
+  d: ["00001", "00001", "01111", "10001", "10001", "10001", "01111"],
   v: ["00000", "00000", "10001", "10001", "10001", "01010", "00100"],
+  n: ["10110", "11001", "10001", "10001", "10001", "10001", "10001"],
+  t: ["00100", "00100", "11111", "00100", "00100", "00100", "00011"],
+  u: ["10001", "10001", "10001", "10001", "10001", "10011", "01101"],
+  j: ["00001", "00000", "00011", "00001", "00001", "10001", "01110"],
+  l: ["01100", "00100", "00100", "00100", "00100", "00100", "01110"],
+  i: ["00100", "00000", "01100", "00100", "00100", "00100", "01110"],
+  r: ["10110", "11001", "10000", "10000", "10000", "10000", "10000"],
+  y: ["10001", "10001", "10001", "01111", "00001", "10001", "01110"],
+  ",": ["00000", "00000", "00000", "00000", "01100", "00100", "01000"],
+  " ": ["00000", "00000", "00000", "00000", "00000", "00000", "00000"],
 };
 
 function drawGlyph(canvas, char, x0, y0, scale, color) {
@@ -138,27 +152,60 @@ function drawText(canvas, text, x0, y0, scale, color) {
   }
 }
 
+// Illustrative only — not live data, so the card never goes stale. `size` is
+// the box area (star growth, as in Rising mode); `heat` (0..1) drives the
+// flat-blue → bright-green color, so a few small boxes glow hotter than the
+// big ones, which is the whole point of the view.
+const TREEMAP_LEAVES = [
+  { size: 30, heat: 0.55 }, { size: 22, heat: 0.15 }, { size: 18, heat: 0.95 },
+  { size: 15, heat: 0.05 }, { size: 13, heat: 0.7 }, { size: 11, heat: 0.3 },
+  { size: 10, heat: 1.0 }, { size: 9, heat: 0.0 }, { size: 8, heat: 0.45 },
+  { size: 7, heat: 0.85 }, { size: 6, heat: 0.1 }, { size: 5, heat: 1.0 },
+  { size: 4, heat: 0.2 }, { size: 4, heat: 0.65 }, { size: 3, heat: 0.0 },
+];
+const COOL = [38, 56, 90];
+const HOT = [86, 214, 128];
+
+function heatColor(heat) {
+  return COOL.map((c, i) => Math.round(c + (HOT[i] - c) * heat));
+}
+
+function drawTreemap(canvas, x0, y0, width, height) {
+  const root = hierarchy({ children: TREEMAP_LEAVES }).sum((d) => d.size ?? 0);
+  treemap().tile(treemapSquarify).size([width, height]).paddingInner(8).round(true)(root);
+  for (const leaf of root.leaves()) {
+    fillRect(canvas, x0 + leaf.x0, y0 + leaf.y0, leaf.x1 - leaf.x0, leaf.y1 - leaf.y0, heatColor(leaf.data.heat));
+  }
+}
+
 function buildBanner() {
   const WIDTH = 1200;
   const HEIGHT = 630;
   const BG = [16, 26, 46]; // dark navy — lets the mark's blue/green and the white wordmark both pop
+  const WHITE = [255, 255, 255];
+  const MUTED = [140, 160, 192];
   const canvas = createCanvas(WIDTH, HEIGHT, BG);
 
-  const markScale = 9; // 32 * 9 = 288px mark
-  const markSize = MARK_UNIT * markScale;
-  const textScale = 13;
-  const wordmark = "awesomemap";
-  const gap = 50;
-  const textW = textWidth(wordmark, textScale);
-  const textH = GLYPH_H * textScale;
+  const margin = 60;
+  drawTreemap(canvas, margin, margin, 520, HEIGHT - margin * 2);
 
-  const contentWidth = markSize + gap + textW;
-  const startX = Math.round((WIDTH - contentWidth) / 2);
-  const markY = Math.round((HEIGHT - markSize) / 2);
-  const textY = Math.round((HEIGHT - textH) / 2);
+  const textX = 640;
 
-  drawMark(canvas, startX, markY, markScale);
-  drawText(canvas, wordmark, startX + markSize + gap, textY, textScale, [255, 255, 255]);
+  const markScale = 2; // 64px mark
+  const wordScale = 6;
+  const wordY = margin + 6;
+  drawMark(canvas, textX, margin, markScale);
+  drawText(canvas, "awesomemap", textX + MARK_UNIT * markScale + 22, wordY + Math.round((MARK_UNIT * markScale - GLYPH_H * wordScale) / 2) - 6, wordScale, WHITE);
+
+  const taglineScale = 8;
+  const lineHeight = GLYPH_H * taglineScale + 30;
+  const taglineY = 230;
+  drawText(canvas, "momentum,", textX, taglineY, taglineScale, HOT);
+  drawText(canvas, "not just", textX, taglineY + lineHeight, taglineScale, WHITE);
+  drawText(canvas, "popularity", textX, taglineY + lineHeight * 2, taglineScale, WHITE);
+
+  const urlScale = 4;
+  drawText(canvas, "awesomemap.dev", textX, HEIGHT - margin - GLYPH_H * urlScale, urlScale, MUTED);
 
   return canvas;
 }

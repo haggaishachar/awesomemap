@@ -208,10 +208,11 @@ export function createDetailPanel(container, { historyUrl, basePath = "", showPr
 
       // Maintainers usually find their own project through the map, so the
       // README badge (on the project page — see render-page.mjs's
-      // renderProjectBadge) gets a direct way in from here too.
+      // renderProjectBadgePanel, which opens itself for this hash) gets a
+      // direct way in from here too.
       const badgeLink = document.createElement("a");
       badgeLink.className = "detail-panel-link";
-      badgeLink.href = `${basePath}/projects/${leafData.id}/#badge`;
+      badgeLink.href = `${basePath}/projects/${leafData.id}/#project-badge-panel`;
       badgeLink.textContent = "Get a README badge";
       panel.appendChild(badgeLink);
     }

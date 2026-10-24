@@ -31,9 +31,9 @@ import { computeGroupGrowth, rankGroups } from "./group-growth.mjs";
 import { buildTagGroups, computeTopTags, computeRisingTags } from "./tag-growth.mjs";
 import { pickThisWeeksSignals } from "./this-weeks-signals.mjs";
 import { buildSitemap, buildRobots } from "./seo.mjs";
+import { pickBadgeClaim, renderBadgeSvg, computeCategoryRanks, bestArchivedRanks, buildShieldsEndpoint } from "./badge.mjs";
 import { buildRisingFeed } from "./rss.mjs";
 import { currentIsoWeek } from "./iso-week.mjs";
-import { bestArchivedRanks, pickBadge, renderBadgeSvg, buildShieldsEndpoint, buildBadgeSnippets } from "./badges.mjs";
 import { loadAllDomains, loadAllProjectEntities, loadLeaderboardSnapshots, loadLeaderboardSnapshot, joinDomainProjects } from "./data-store.mjs";
 
 const DIST_DIR = "dist";
@@ -548,33 +548,38 @@ for (const { tag, projects } of globalTagGroups) {
   tagPagePaths.push(`/tags/${slug}/`);
 }
 
-// README badges' "peak" candidates: each project's best rank across every
-// archived week (see badges.mjs). Empty when the archive isn't available,
-// in which case badges fall back to this week's live ranks alone.
-const domainShortBySlug = Object.fromEntries(domains.map((domain) => [domain.slug, domain.shortName]));
-const peakRankById = bestArchivedRanks(weeklySnapshots, { knownScopes: new Set(["global", ...Object.keys(domainShortBySlug)]) });
-const BADGE_WINDOW_DAYS = RISING_WINDOWS_DAYS[0];
-
-/** This week's live ranks for one project, globally and in its own domain, across every size tier. */
-function liveBadgeRanks(project) {
-  const ranks = [];
-  for (const tier of TIERS) {
-    for (const scope of ["global", project.domainSlug]) {
-      const entry = leaderboardsByTier[tier.key][BADGE_WINDOW_DAYS][scope]?.find((row) => row.id === project.id);
-      if (entry) ranks.push({ rank: entry.rank, tier: tier.key, scope });
-    }
-  }
-  return ranks;
-}
-
 // Pass 4: render one canonical page per project — see the project-pages
 // design spec. Reuses the same last-write-wins dedup already computed
 // above for global tag groups (`allProjectsWithDomain`), so a project
 // curated into more than one domain gets exactly one page, attributed to
 // whichever domain won that dedup.
 mkdirSync(`${DIST_DIR}/projects`, { recursive: true });
-mkdirSync(`${DIST_DIR}/badges`, { recursive: true });
 const projectPagePaths = [];
+
+// Each project's star rank within its own category, for its README badge.
+// Iterates domains in the same order allProjectsWithDomain's dedup did, so
+// a project curated into more than one domain is ranked within the same
+// domain's category its page names (last write wins in both).
+const categoryRankById = new Map();
+for (const domain of parsedDomains) {
+  for (const [id, rank] of computeCategoryRanks(domain.projects)) categoryRankById.set(id, rank);
+}
+
+// Each project's best rank across every archived week, the badge's
+// fallback once a live rank lapses. Empty when the archive isn't
+// available, in which case badges skip straight to growth.
+const domainShortBySlug = Object.fromEntries(domains.map((domain) => [domain.slug, domain.shortName]));
+const peakRankById = bestArchivedRanks(weeklySnapshots, { knownScopes: new Set(["global", ...Object.keys(domainShortBySlug)]) });
+
+/** A project's `{ tier, rank }` on its domain's 7-day Rising leaderboard (any tier), or null — the badge's strongest claim. */
+function risingRankFor(project) {
+  for (const tier of TIERS) {
+    const entry = leaderboardsByTier[tier.key][TEASER_WINDOW_DAYS][project.domainSlug]?.find((row) => row.id === project.id);
+    if (entry) return { tier: tier.key, rank: entry.rank };
+  }
+  return null;
+}
+
 const compareRecords = [];
 for (const project of allProjectsWithDomain) {
   const idParts = project.id.split("/");
@@ -593,18 +598,6 @@ for (const project of allProjectsWithDomain) {
   const eventsSeries = sortedEvents(project.events);
   compareRecords.push(buildCompareRecord(project, { historySeries, signalHeadline: signal.headline }));
 
-  const badge = pickBadge({ liveRanks: liveBadgeRanks(project), peak: peakRankById.get(project.id), domainShort: project.domainShort, domainShortBySlug });
-  const [owner] = idParts;
-  mkdirSync(`${DIST_DIR}/badges/${owner}`, { recursive: true });
-  writeFileSync(`${DIST_DIR}/badges/${project.id}.svg`, renderBadgeSvg(badge));
-  writeFileSync(`${DIST_DIR}/badges/${project.id}.json`, JSON.stringify(buildShieldsEndpoint(badge)));
-  const badgeUrl = `${SITE_URL}${BASE_PATH}/badges/${project.id}.svg`;
-  const badgeSnippets = buildBadgeSnippets({
-    badgeUrl,
-    projectUrl: `${SITE_URL}${BASE_PATH}/projects/${project.id}/`,
-    endpointUrl: `${SITE_URL}${BASE_PATH}/badges/${project.id}.json`,
-  });
-
   // `allProjectsWithDomain` already carries `domainSlug`/`domainShort`
   // (see the dedup pass above) — `domainShort` is already `domain.shortName
   // ?? domain.name`, so there's no need to look the domain back up in
@@ -617,12 +610,22 @@ for (const project of allProjectsWithDomain) {
       signal,
       historySeries,
       eventsSeries,
-      badge: { id: project.id, message: badge.message, snippets: badgeSnippets },
       defaultOgImage: DEFAULT_OG_IMAGE,
       siteUrl: SITE_URL,
       basePath: BASE_PATH,
     })
   );
+  const badgeClaim = pickBadgeClaim({
+    risingRank: risingRankFor(project),
+    peakRank: peakRankById.get(project.id),
+    growth7d: { ...project.growth[`rising${TEASER_WINDOW_DAYS}`], hasEnoughHistory: project.hasEnoughHistory[`rising${TEASER_WINDOW_DAYS}`] },
+    categoryRank: categoryRankById.get(project.id),
+    categoryName: project.path[0],
+    domainShort: project.domainShort,
+    domainShortBySlug,
+  });
+  writeFileSync(`${DIST_DIR}/projects/${project.id}/badge.svg`, renderBadgeSvg(badgeClaim));
+  writeFileSync(`${DIST_DIR}/projects/${project.id}/badge.json`, JSON.stringify(buildShieldsEndpoint(badgeClaim)));
   projectPagePaths.push(`/projects/${project.id}/`);
 }
 

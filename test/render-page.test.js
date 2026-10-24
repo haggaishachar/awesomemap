@@ -1261,6 +1261,22 @@ test("renderProjectPage renders a momentum chip for each rising window", () => {
   assert.match(html, /\+2,000/);
 });
 
+test("renderProjectPage offers an Add badge panel with the README Markdown for its badge.svg", () => {
+  const html = renderProjectPage(PROJECT, {
+    domain: PROJECT_DOMAIN,
+    signal: NO_SIGNAL,
+    defaultOgImage: "/og-default.png",
+    siteUrl: "https://awesomemap.dev",
+  });
+  assert.match(html, /class="detail-panel-link project-badge-toggle"[^>]*aria-controls="project-badge-panel"/);
+  assert.match(html, /<div class="project-badge-panel" id="project-badge-panel" hidden>/);
+  assert.match(html, /<img class="project-badge-preview" src="\/projects\/ggerganov\/llama\.cpp\/badge\.svg"/);
+  assert.match(
+    html,
+    /\[!\[awesomemap\]\(https:\/\/awesomemap\.dev\/projects\/ggerganov\/llama\.cpp\/badge\.svg\)\]\(https:\/\/awesomemap\.dev\/projects\/ggerganov\/llama\.cpp\/\)/
+  );
+});
+
 test("renderProjectPage renders the signal headline when present, and omits the element when null", () => {
   const withSignal = renderProjectPage(PROJECT, {
     domain: PROJECT_DOMAIN,
@@ -1876,25 +1892,7 @@ test("renderRisingArchiveWeekPage keeps the legacy single-list layout for a pre-
   assert.match(html, /Hottest overall/);
 });
 
-test("renderProjectPage renders the README badge panel with a preview and copyable, escaped snippets", () => {
-  const html = renderProjectPage(PROJECT, {
-    domain: PROJECT_DOMAIN,
-    signal: NO_SIGNAL,
-    defaultOgImage: "/og-default.png",
-    badge: {
-      id: "a/b",
-      message: "#3 Breakout in AI · this week",
-      snippets: { markdown: "[![awesomemap](x.svg)](y)", html: '<a href="y"><img src="x.svg" alt="awesomemap" /></a>', shields: "[![s](z)](y)" },
-    },
-  });
-  assert.match(html, /<section class="project-badge" id="badge"/);
-  assert.match(html, /<img src="\/badges\/a\/b\.svg" alt="awesomemap: #3 Breakout in AI · this week"/);
-  assert.match(html, /id="project-badge-markdown" readonly wrap="off"[^>]*>\[!\[awesomemap\]\(x\.svg\)\]\(y\)<\/textarea>/);
-  assert.match(html, /id="project-badge-html" readonly[^>]*>&lt;a href=&quot;y&quot;&gt;/);
-  assert.match(html, /data-copy-target="project-badge-shields"/);
-});
-
-test("renderProjectPage omits the badge panel when no badge is passed", () => {
+test("renderProjectPage's badge panel opens itself when reached via the detail panel's #project-badge-panel link", () => {
   const html = renderProjectPage(PROJECT, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
-  assert.doesNotMatch(html, /project-badge/);
+  assert.match(html, /location\.hash === "#project-badge-panel"/);
 });

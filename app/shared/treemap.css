@@ -1072,7 +1072,8 @@ a.momentum-row-name:hover {
 .map-share a,
 .map-share button,
 .map-embed-toggle,
-.map-embed-copy {
+.map-embed-copy,
+.project-badge-copy {
   display: flex;
   align-items: center;
   gap: 6px;
@@ -1094,7 +1095,8 @@ a.momentum-row-name:hover {
 .map-share a:hover,
 .map-share button:hover,
 .map-embed-toggle:hover,
-.map-embed-copy:hover {
+.map-embed-copy:hover,
+.project-badge-copy:hover {
   color: var(--color-text);
 }
 
@@ -1110,7 +1112,8 @@ a.momentum-row-name:hover {
   display: none;
 }
 
-.map-embed-code {
+.map-embed-code,
+.project-badge-code {
   flex: 1;
   font-family: ui-monospace, monospace;
   font-size: 12px;
@@ -1799,59 +1802,56 @@ a.momentum-row-name:hover {
   margin: 0 12px;
 }
 
+/* The project-page "Add badge" toggle is a <button>, not a link — strip
+   the native button chrome so it reads like its sibling links. */
+.project-badge-toggle {
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+.project-badge-panel {
+  max-width: 640px;
+  margin: 16px auto 0;
+  text-align: center;
+}
+
+.project-badge-panel[hidden] {
+  display: none;
+}
+
+.project-badge-intro {
+  margin: 0 0 10px;
+  color: var(--color-text-muted);
+  font-size: 14px;
+}
+
+.project-badge-preview {
+  display: block;
+  margin: 0 auto 10px;
+  height: 20px;
+}
+
+.project-badge-code-row {
+  display: flex;
+  gap: 8px;
+}
+
+.project-badge-code-row .project-badge-code {
+  height: 52px;
+  text-align: left;
+}
+
 .project-body .detail-panel-tags {
   justify-content: center;
   margin-top: 16px;
 }
 
-/* README badge panel — reuses the domain page's embed textarea/copy-button
-   styling (.map-embed-code/.map-embed-copy), one row per snippet format. */
-.project-badge {
-  margin-top: 28px;
-  padding-top: 20px;
-  border-top: 1px solid var(--color-border);
-}
-
-.project-badge-preview {
-  margin: 0 0 6px;
-}
-
-.project-badge-preview img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.project-badge-note {
-  margin: 0 0 12px;
-  font-size: 13px;
-  color: var(--color-text-muted);
-}
-
-.project-badge-row {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 6px;
-}
-
-.project-badge-format {
-  flex: 0 0 72px;
-  font-size: 12px;
-  color: var(--color-text-muted);
-}
-
-.project-badge-code {
-  min-width: 0;
-}
-
 @media (max-width: 480px) {
   .project-momentum-grid {
     grid-template-columns: 1fr;
-  }
-
-  .project-badge-format {
-    flex-basis: 56px;
   }
 }
 

@@ -9,6 +9,9 @@ import {
   buildBadgeMarkdown,
   BADGE_COLORS,
   MAX_CATEGORY_RANK,
+  bestArchivedRanks,
+  isoWeekMonth,
+  buildShieldsEndpoint,
 } from "../scripts/badge.mjs";
 
 const growing = (percentDelta, starDelta = 100) => ({ starDelta, percentDelta, hasEnoughHistory: true });
@@ -86,4 +89,60 @@ test("buildBadgeMarkdown links the badge image to the project page", () => {
     buildBadgeMarkdown("https://awesomemap.dev/projects/a/b/badge.svg", "https://awesomemap.dev/projects/a/b/"),
     "[![awesomemap](https://awesomemap.dev/projects/a/b/badge.svg)](https://awesomemap.dev/projects/a/b/)"
   );
+});
+
+const row = (id, rank) => ({ id, rank, name: id });
+
+test("pickBadgeClaim falls back to a dated archived peak after a live rank lapses, ahead of growth", () => {
+  const claim = pickBadgeClaim({ ...base, growth7d: growing(8), peakRank: { rank: 2, tier: "breakout", scope: "artificial-intelligence", isoWeek: "2026-W40" } });
+  assert.equal(claim.message, "#2 Breakout in AI · Oct 2026");
+  assert.equal(claim.color, BADGE_COLORS.peak);
+});
+
+test("pickBadgeClaim keeps a live rank ahead of an archived peak, and names a peak's own domain or 'overall'", () => {
+  const peakRank = { rank: 1, tier: "giants", scope: "global", isoWeek: "2026-W41" };
+  assert.equal(pickBadgeClaim({ ...base, risingRank: { tier: "climbing", rank: 9 }, peakRank }).message, "#9 Climbing in AI");
+  assert.equal(pickBadgeClaim({ ...base, peakRank }).message, "#1 Giant overall · Oct 2026");
+  assert.equal(
+    pickBadgeClaim({ ...base, peakRank: { rank: 4, tier: "breakout", scope: "web-dev", isoWeek: "2026-W39" }, domainShortBySlug: { "web-dev": "Web Dev" } }).message,
+    "#4 Breakout in Web Dev · Sep 2026"
+  );
+});
+
+test("isoWeekMonth names the month the week closes in", () => {
+  assert.equal(isoWeekMonth("2026-W42"), "Oct 2026");
+  assert.equal(isoWeekMonth("2026-W01"), "Jan 2026");
+});
+
+test("bestArchivedRanks keeps each project's lowest rank across weeks, preferring global, then the earliest week", () => {
+  const ranks = bestArchivedRanks([
+    { isoWeek: "2026-W42", scopes: { "breakout:global": [row("a/a", 1)], "climbing:web-dev": [row("b/b", 3)] } },
+    { isoWeek: "2026-W40", scopes: { "breakout:ai": [row("a/a", 1)] } },
+    { isoWeek: "2026-W41", scopes: { "breakout:global": [row("a/a", 1)], "climbing:web-dev": [row("b/b", 2)] } },
+  ]);
+  assert.deepEqual(ranks.get("a/a"), { rank: 1, tier: "breakout", scope: "global", isoWeek: "2026-W41" });
+  assert.deepEqual(ranks.get("b/b"), { rank: 2, tier: "climbing", scope: "web-dev", isoWeek: "2026-W41" });
+});
+
+test("bestArchivedRanks reads pre-tier snapshots as Breakout, skips their copies in tiered ones, and ignores Spiking and removed domains", () => {
+  const ranks = bestArchivedRanks(
+    [
+      { isoWeek: "2026-W39", scopes: { global: [row("old/old", 5)] } },
+      { isoWeek: "2026-W42", scopes: { global: [row("dup/dup", 1)], "breakout:global": [row("dup/dup", 6)], "spiking:global": [row("s/s", 1)], "climbing:utilities": [row("u/u", 1)] } },
+    ],
+    { knownScopes: new Set(["global"]) }
+  );
+  assert.deepEqual(ranks.get("old/old"), { rank: 5, tier: "breakout", scope: "global", isoWeek: "2026-W39" });
+  assert.equal(ranks.get("dup/dup").rank, 6);
+  assert.equal(ranks.has("s/s"), false);
+  assert.equal(ranks.has("u/u"), false);
+});
+
+test("buildShieldsEndpoint emits a shields.io endpoint document without the '#'", () => {
+  assert.deepEqual(buildShieldsEndpoint({ message: "listed in NLP", color: "#6e7781" }), {
+    schemaVersion: 1,
+    label: "awesomemap",
+    message: "listed in NLP",
+    color: "6e7781",
+  });
 });

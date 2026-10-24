@@ -31,7 +31,7 @@ import { computeGroupGrowth, rankGroups } from "./group-growth.mjs";
 import { buildTagGroups, computeTopTags, computeRisingTags } from "./tag-growth.mjs";
 import { pickThisWeeksSignals } from "./this-weeks-signals.mjs";
 import { buildSitemap, buildRobots } from "./seo.mjs";
-import { pickBadgeClaim, renderBadgeSvg, computeCategoryRanks } from "./badge.mjs";
+import { pickBadgeClaim, renderBadgeSvg, computeCategoryRanks, bestArchivedRanks, buildShieldsEndpoint } from "./badge.mjs";
 import { buildRisingFeed } from "./rss.mjs";
 import { currentIsoWeek } from "./iso-week.mjs";
 import { loadAllDomains, loadAllProjectEntities, loadLeaderboardSnapshots, loadLeaderboardSnapshot, joinDomainProjects } from "./data-store.mjs";
@@ -565,6 +565,12 @@ for (const domain of parsedDomains) {
   for (const [id, rank] of computeCategoryRanks(domain.projects)) categoryRankById.set(id, rank);
 }
 
+// Each project's best rank across every archived week, the badge's
+// fallback once a live rank lapses. Empty when the archive isn't
+// available, in which case badges skip straight to growth.
+const domainShortBySlug = Object.fromEntries(domains.map((domain) => [domain.slug, domain.shortName]));
+const peakRankById = bestArchivedRanks(weeklySnapshots, { knownScopes: new Set(["global", ...Object.keys(domainShortBySlug)]) });
+
 /** A project's `{ tier, rank }` on its domain's 7-day Rising leaderboard (any tier), or null — the badge's strongest claim. */
 function risingRankFor(project) {
   for (const tier of TIERS) {
@@ -609,18 +615,17 @@ for (const project of allProjectsWithDomain) {
       basePath: BASE_PATH,
     })
   );
-  writeFileSync(
-    `${DIST_DIR}/projects/${project.id}/badge.svg`,
-    renderBadgeSvg(
-      pickBadgeClaim({
-        risingRank: risingRankFor(project),
-        growth7d: { ...project.growth[`rising${TEASER_WINDOW_DAYS}`], hasEnoughHistory: project.hasEnoughHistory[`rising${TEASER_WINDOW_DAYS}`] },
-        categoryRank: categoryRankById.get(project.id),
-        categoryName: project.path[0],
-        domainShort: project.domainShort,
-      })
-    )
-  );
+  const badgeClaim = pickBadgeClaim({
+    risingRank: risingRankFor(project),
+    peakRank: peakRankById.get(project.id),
+    growth7d: { ...project.growth[`rising${TEASER_WINDOW_DAYS}`], hasEnoughHistory: project.hasEnoughHistory[`rising${TEASER_WINDOW_DAYS}`] },
+    categoryRank: categoryRankById.get(project.id),
+    categoryName: project.path[0],
+    domainShort: project.domainShort,
+    domainShortBySlug,
+  });
+  writeFileSync(`${DIST_DIR}/projects/${project.id}/badge.svg`, renderBadgeSvg(badgeClaim));
+  writeFileSync(`${DIST_DIR}/projects/${project.id}/badge.json`, JSON.stringify(buildShieldsEndpoint(badgeClaim)));
   projectPagePaths.push(`/projects/${project.id}/`);
 }
 

@@ -1,0 +1,63 @@
+[
+  {
+    "schemaVersion": 1,
+    "slug": "databases",
+    "name": "Databases",
+    "shortName": "Databases",
+    "description": "Open-source databases: analytical, key-value, embedded.",
+    "projects": [
+      {
+        "id": "duckdb/duckdb",
+        "path": [
+          "Analytical"
+        ]
+      },
+      {
+        "id": "redis/redis",
+        "path": [
+          "Key-Value"
+        ]
+      },
+      {
+        "id": "tursodatabase/libsql",
+        "path": [
+          "Embedded"
+        ]
+      }
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "slug": "security",
+    "name": "Security",
+    "shortName": "Security",
+    "description": "Open-source security tools: scanners, reverse engineering, and more.",
+    "projects": [
+      {
+        "id": "NationalSecurityAgency/ghidra",
+        "path": [
+          "Reverse Engineering"
+        ]
+      },
+      {
+        "id": "projectdiscovery/nuclei",
+        "path": [
+          "Scanners"
+        ]
+      },
+      {
+        "id": "aquasecurity/trivy",
+        "path": [
+          "Scanners",
+          "Containers"
+        ]
+      },
+      {
+        "id": "example-org/young-tool",
+        "path": [
+          "Scanners"
+        ]
+      }
+    ]
+  }
+]

@@ -2,12 +2,16 @@ name: PR Check
 
 # Runs on every pull request so a contribution gets automated feedback
 # before a human ever looks at it — the same test suite and build that
-# deploy.yml runs on master, just moved earlier (to PR time). The build
-# fetches domains and projects from awesomemap-data's API rather than
-# local files; generate.mjs still validates the response shape (required
-# fields, slug uniqueness, no dangling project references) and computed
-# sizes, so this workflow makes sure that validation runs as a required
-# status check on every PR.
+# deploy.yml runs on master, just moved earlier (to PR time).
+#
+# The build reads the saved API responses in test/fixtures/api/
+# (AWESOMEMAP_DATA_FIXTURE_DIR, see scripts/data-store.mjs) rather than the
+# live awesomemap-data Worker, so a PR's check proves its code change still
+# builds a valid site — generate.mjs's validation (required fields, slug
+# uniqueness, no dangling project references, computed sizes) still runs —
+# without failing whenever the Worker is down. Real data is still validated
+# on every deploy: deploy.yml builds from the live API, and a failed build
+# there leaves the last good site published.
 
 on:
   pull_request:
@@ -26,5 +30,7 @@ jobs:
           node-version: 20
       - run: npm ci
       - run: npm test
-      - name: Build (validates the awesomemap-data API response)
+      - name: Build (from the API fixture in test/fixtures/api)
         run: node scripts/generate.mjs
+        env:
+          AWESOMEMAP_DATA_FIXTURE_DIR: test/fixtures/api

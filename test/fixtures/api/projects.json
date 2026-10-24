@@ -1,0 +1,1787 @@
+[
+  {
+    "schemaVersion": 1,
+    "id": "NationalSecurityAgency/ghidra",
+    "link": "https://github.com/NationalSecurityAgency/ghidra",
+    "name": "Ghidra",
+    "desc": "Software reverse engineering framework",
+    "githubName": "ghidra",
+    "githubDescription": "Software reverse engineering framework",
+    "weight": 89760,
+    "image": "https://avatars.githubusercontent.com/u/11298292?v=4",
+    "tags": [
+      "reverse-engineering",
+      "disassembler"
+    ],
+    "history": [
+      {
+        "date": "2026-09-10",
+        "stars": 88000,
+        "forks": 8800,
+        "openIssues": 293
+      },
+      {
+        "date": "2026-09-11",
+        "stars": 88040,
+        "forks": 8804,
+        "openIssues": 293
+      },
+      {
+        "date": "2026-09-12",
+        "stars": 88080,
+        "forks": 8808,
+        "openIssues": 294
+      },
+      {
+        "date": "2026-09-13",
+        "stars": 88120,
+        "forks": 8812,
+        "openIssues": 294
+      },
+      {
+        "date": "2026-09-14",
+        "stars": 88160,
+        "forks": 8816,
+        "openIssues": 294
+      },
+      {
+        "date": "2026-09-15",
+        "stars": 88200,
+        "forks": 8820,
+        "openIssues": 294
+      },
+      {
+        "date": "2026-09-16",
+        "stars": 88240,
+        "forks": 8824,
+        "openIssues": 294
+      },
+      {
+        "date": "2026-09-17",
+        "stars": 88280,
+        "forks": 8828,
+        "openIssues": 294
+      },
+      {
+        "date": "2026-09-18",
+        "stars": 88320,
+        "forks": 8832,
+        "openIssues": 294
+      },
+      {
+        "date": "2026-09-19",
+        "stars": 88360,
+        "forks": 8836,
+        "openIssues": 295
+      },
+      {
+        "date": "2026-09-20",
+        "stars": 88400,
+        "forks": 8840,
+        "openIssues": 295
+      },
+      {
+        "date": "2026-09-21",
+        "stars": 88440,
+        "forks": 8844,
+        "openIssues": 295
+      },
+      {
+        "date": "2026-09-22",
+        "stars": 88480,
+        "forks": 8848,
+        "openIssues": 295
+      },
+      {
+        "date": "2026-09-23",
+        "stars": 88520,
+        "forks": 8852,
+        "openIssues": 295
+      },
+      {
+        "date": "2026-09-24",
+        "stars": 88560,
+        "forks": 8856,
+        "openIssues": 295
+      },
+      {
+        "date": "2026-09-25",
+        "stars": 88600,
+        "forks": 8860,
+        "openIssues": 295
+      },
+      {
+        "date": "2026-09-26",
+        "stars": 88640,
+        "forks": 8864,
+        "openIssues": 295
+      },
+      {
+        "date": "2026-09-27",
+        "stars": 88680,
+        "forks": 8868,
+        "openIssues": 296
+      },
+      {
+        "date": "2026-09-28",
+        "stars": 88720,
+        "forks": 8872,
+        "openIssues": 296
+      },
+      {
+        "date": "2026-09-29",
+        "stars": 88760,
+        "forks": 8876,
+        "openIssues": 296
+      },
+      {
+        "date": "2026-09-30",
+        "stars": 88800,
+        "forks": 8880,
+        "openIssues": 296
+      },
+      {
+        "date": "2026-10-01",
+        "stars": 88840,
+        "forks": 8884,
+        "openIssues": 296
+      },
+      {
+        "date": "2026-10-02",
+        "stars": 88880,
+        "forks": 8888,
+        "openIssues": 296
+      },
+      {
+        "date": "2026-10-03",
+        "stars": 88920,
+        "forks": 8892,
+        "openIssues": 296
+      },
+      {
+        "date": "2026-10-04",
+        "stars": 88960,
+        "forks": 8896,
+        "openIssues": 297
+      },
+      {
+        "date": "2026-10-05",
+        "stars": 89000,
+        "forks": 8900,
+        "openIssues": 297
+      },
+      {
+        "date": "2026-10-06",
+        "stars": 89040,
+        "forks": 8904,
+        "openIssues": 297
+      },
+      {
+        "date": "2026-10-07",
+        "stars": 89080,
+        "forks": 8908,
+        "openIssues": 297
+      },
+      {
+        "date": "2026-10-08",
+        "stars": 89120,
+        "forks": 8912,
+        "openIssues": 297
+      },
+      {
+        "date": "2026-10-09",
+        "stars": 89160,
+        "forks": 8916,
+        "openIssues": 297
+      },
+      {
+        "date": "2026-10-10",
+        "stars": 89200,
+        "forks": 8920,
+        "openIssues": 297
+      },
+      {
+        "date": "2026-10-11",
+        "stars": 89240,
+        "forks": 8924,
+        "openIssues": 297
+      },
+      {
+        "date": "2026-10-12",
+        "stars": 89280,
+        "forks": 8928,
+        "openIssues": 298
+      },
+      {
+        "date": "2026-10-13",
+        "stars": 89320,
+        "forks": 8932,
+        "openIssues": 298
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 89360,
+        "forks": 8936,
+        "openIssues": 298
+      },
+      {
+        "date": "2026-10-15",
+        "stars": 89400,
+        "forks": 8940,
+        "openIssues": 298
+      },
+      {
+        "date": "2026-10-16",
+        "stars": 89440,
+        "forks": 8944,
+        "openIssues": 298
+      },
+      {
+        "date": "2026-10-17",
+        "stars": 89480,
+        "forks": 8948,
+        "openIssues": 298
+      },
+      {
+        "date": "2026-10-18",
+        "stars": 89520,
+        "forks": 8952,
+        "openIssues": 298
+      },
+      {
+        "date": "2026-10-19",
+        "stars": 89560,
+        "forks": 8956,
+        "openIssues": 299
+      },
+      {
+        "date": "2026-10-20",
+        "stars": 89600,
+        "forks": 8960,
+        "openIssues": 299
+      },
+      {
+        "date": "2026-10-21",
+        "stars": 89640,
+        "forks": 8964,
+        "openIssues": 299
+      },
+      {
+        "date": "2026-10-22",
+        "stars": 89680,
+        "forks": 8968,
+        "openIssues": 299
+      },
+      {
+        "date": "2026-10-23",
+        "stars": 89720,
+        "forks": 8972,
+        "openIssues": 299
+      },
+      {
+        "date": "2026-10-24",
+        "stars": 89760,
+        "forks": 8976,
+        "openIssues": 299
+      }
+    ],
+    "events": []
+  },
+  {
+    "schemaVersion": 1,
+    "id": "aquasecurity/trivy",
+    "link": "https://github.com/aquasecurity/trivy",
+    "name": "Trivy",
+    "desc": "Find vulnerabilities and misconfigurations in containers and code",
+    "githubName": "trivy",
+    "githubDescription": "Find vulnerabilities and misconfigurations in containers and code",
+    "weight": 27880,
+    "tags": [
+      "scanner",
+      "containers"
+    ],
+    "history": [
+      {
+        "date": "2026-09-10",
+        "stars": 27000,
+        "forks": 2700,
+        "openIssues": 90
+      },
+      {
+        "date": "2026-09-11",
+        "stars": 27020,
+        "forks": 2702,
+        "openIssues": 90
+      },
+      {
+        "date": "2026-09-12",
+        "stars": 27040,
+        "forks": 2704,
+        "openIssues": 90
+      },
+      {
+        "date": "2026-09-13",
+        "stars": 27060,
+        "forks": 2706,
+        "openIssues": 90
+      },
+      {
+        "date": "2026-09-14",
+        "stars": 27080,
+        "forks": 2708,
+        "openIssues": 90
+      },
+      {
+        "date": "2026-09-15",
+        "stars": 27100,
+        "forks": 2710,
+        "openIssues": 90
+      },
+      {
+        "date": "2026-09-16",
+        "stars": 27120,
+        "forks": 2712,
+        "openIssues": 90
+      },
+      {
+        "date": "2026-09-17",
+        "stars": 27140,
+        "forks": 2714,
+        "openIssues": 90
+      },
+      {
+        "date": "2026-09-18",
+        "stars": 27160,
+        "forks": 2716,
+        "openIssues": 91
+      },
+      {
+        "date": "2026-09-19",
+        "stars": 27180,
+        "forks": 2718,
+        "openIssues": 91
+      },
+      {
+        "date": "2026-09-20",
+        "stars": 27200,
+        "forks": 2720,
+        "openIssues": 91
+      },
+      {
+        "date": "2026-09-21",
+        "stars": 27220,
+        "forks": 2722,
+        "openIssues": 91
+      },
+      {
+        "date": "2026-09-22",
+        "stars": 27240,
+        "forks": 2724,
+        "openIssues": 91
+      },
+      {
+        "date": "2026-09-23",
+        "stars": 27260,
+        "forks": 2726,
+        "openIssues": 91
+      },
+      {
+        "date": "2026-09-24",
+        "stars": 27280,
+        "forks": 2728,
+        "openIssues": 91
+      },
+      {
+        "date": "2026-09-25",
+        "stars": 27300,
+        "forks": 2730,
+        "openIssues": 91
+      },
+      {
+        "date": "2026-09-26",
+        "stars": 27320,
+        "forks": 2732,
+        "openIssues": 91
+      },
+      {
+        "date": "2026-09-27",
+        "stars": 27340,
+        "forks": 2734,
+        "openIssues": 91
+      },
+      {
+        "date": "2026-09-28",
+        "stars": 27360,
+        "forks": 2736,
+        "openIssues": 91
+      },
+      {
+        "date": "2026-09-29",
+        "stars": 27380,
+        "forks": 2738,
+        "openIssues": 91
+      },
+      {
+        "date": "2026-09-30",
+        "stars": 27400,
+        "forks": 2740,
+        "openIssues": 91
+      },
+      {
+        "date": "2026-10-01",
+        "stars": 27420,
+        "forks": 2742,
+        "openIssues": 91
+      },
+      {
+        "date": "2026-10-02",
+        "stars": 27440,
+        "forks": 2744,
+        "openIssues": 91
+      },
+      {
+        "date": "2026-10-03",
+        "stars": 27460,
+        "forks": 2746,
+        "openIssues": 92
+      },
+      {
+        "date": "2026-10-04",
+        "stars": 27480,
+        "forks": 2748,
+        "openIssues": 92
+      },
+      {
+        "date": "2026-10-05",
+        "stars": 27500,
+        "forks": 2750,
+        "openIssues": 92
+      },
+      {
+        "date": "2026-10-06",
+        "stars": 27520,
+        "forks": 2752,
+        "openIssues": 92
+      },
+      {
+        "date": "2026-10-07",
+        "stars": 27540,
+        "forks": 2754,
+        "openIssues": 92
+      },
+      {
+        "date": "2026-10-08",
+        "stars": 27560,
+        "forks": 2756,
+        "openIssues": 92
+      },
+      {
+        "date": "2026-10-09",
+        "stars": 27580,
+        "forks": 2758,
+        "openIssues": 92
+      },
+      {
+        "date": "2026-10-10",
+        "stars": 27600,
+        "forks": 2760,
+        "openIssues": 92
+      },
+      {
+        "date": "2026-10-11",
+        "stars": 27620,
+        "forks": 2762,
+        "openIssues": 92
+      },
+      {
+        "date": "2026-10-12",
+        "stars": 27640,
+        "forks": 2764,
+        "openIssues": 92
+      },
+      {
+        "date": "2026-10-13",
+        "stars": 27660,
+        "forks": 2766,
+        "openIssues": 92
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 27680,
+        "forks": 2768,
+        "openIssues": 92
+      },
+      {
+        "date": "2026-10-15",
+        "stars": 27700,
+        "forks": 2770,
+        "openIssues": 92
+      },
+      {
+        "date": "2026-10-16",
+        "stars": 27720,
+        "forks": 2772,
+        "openIssues": 92
+      },
+      {
+        "date": "2026-10-17",
+        "stars": 27740,
+        "forks": 2774,
+        "openIssues": 92
+      },
+      {
+        "date": "2026-10-18",
+        "stars": 27760,
+        "forks": 2776,
+        "openIssues": 93
+      },
+      {
+        "date": "2026-10-19",
+        "stars": 27780,
+        "forks": 2778,
+        "openIssues": 93
+      },
+      {
+        "date": "2026-10-20",
+        "stars": 27800,
+        "forks": 2780,
+        "openIssues": 93
+      },
+      {
+        "date": "2026-10-21",
+        "stars": 27820,
+        "forks": 2782,
+        "openIssues": 93
+      },
+      {
+        "date": "2026-10-22",
+        "stars": 27840,
+        "forks": 2784,
+        "openIssues": 93
+      },
+      {
+        "date": "2026-10-23",
+        "stars": 27860,
+        "forks": 2786,
+        "openIssues": 93
+      },
+      {
+        "date": "2026-10-24",
+        "stars": 27880,
+        "forks": 2788,
+        "openIssues": 93
+      }
+    ],
+    "events": []
+  },
+  {
+    "schemaVersion": 1,
+    "id": "duckdb/duckdb",
+    "link": "https://github.com/duckdb/duckdb",
+    "name": "DuckDB",
+    "desc": "In-process analytical SQL database",
+    "githubName": "duckdb",
+    "githubDescription": "In-process analytical SQL database",
+    "weight": 31320,
+    "tags": [
+      "sql",
+      "analytics"
+    ],
+    "ownerTwitterHandle": "duckdb",
+    "history": [
+      {
+        "date": "2026-09-10",
+        "stars": 30000,
+        "forks": 3000,
+        "openIssues": 100
+      },
+      {
+        "date": "2026-09-11",
+        "stars": 30030,
+        "forks": 3003,
+        "openIssues": 100
+      },
+      {
+        "date": "2026-09-12",
+        "stars": 30060,
+        "forks": 3006,
+        "openIssues": 100
+      },
+      {
+        "date": "2026-09-13",
+        "stars": 30090,
+        "forks": 3009,
+        "openIssues": 100
+      },
+      {
+        "date": "2026-09-14",
+        "stars": 30120,
+        "forks": 3012,
+        "openIssues": 100
+      },
+      {
+        "date": "2026-09-15",
+        "stars": 30150,
+        "forks": 3015,
+        "openIssues": 101
+      },
+      {
+        "date": "2026-09-16",
+        "stars": 30180,
+        "forks": 3018,
+        "openIssues": 101
+      },
+      {
+        "date": "2026-09-17",
+        "stars": 30210,
+        "forks": 3021,
+        "openIssues": 101
+      },
+      {
+        "date": "2026-09-18",
+        "stars": 30240,
+        "forks": 3024,
+        "openIssues": 101
+      },
+      {
+        "date": "2026-09-19",
+        "stars": 30270,
+        "forks": 3027,
+        "openIssues": 101
+      },
+      {
+        "date": "2026-09-20",
+        "stars": 30300,
+        "forks": 3030,
+        "openIssues": 101
+      },
+      {
+        "date": "2026-09-21",
+        "stars": 30330,
+        "forks": 3033,
+        "openIssues": 101
+      },
+      {
+        "date": "2026-09-22",
+        "stars": 30360,
+        "forks": 3036,
+        "openIssues": 101
+      },
+      {
+        "date": "2026-09-23",
+        "stars": 30390,
+        "forks": 3039,
+        "openIssues": 101
+      },
+      {
+        "date": "2026-09-24",
+        "stars": 30420,
+        "forks": 3042,
+        "openIssues": 101
+      },
+      {
+        "date": "2026-09-25",
+        "stars": 30450,
+        "forks": 3045,
+        "openIssues": 102
+      },
+      {
+        "date": "2026-09-26",
+        "stars": 30480,
+        "forks": 3048,
+        "openIssues": 102
+      },
+      {
+        "date": "2026-09-27",
+        "stars": 30510,
+        "forks": 3051,
+        "openIssues": 102
+      },
+      {
+        "date": "2026-09-28",
+        "stars": 30540,
+        "forks": 3054,
+        "openIssues": 102
+      },
+      {
+        "date": "2026-09-29",
+        "stars": 30570,
+        "forks": 3057,
+        "openIssues": 102
+      },
+      {
+        "date": "2026-09-30",
+        "stars": 30600,
+        "forks": 3060,
+        "openIssues": 102
+      },
+      {
+        "date": "2026-10-01",
+        "stars": 30630,
+        "forks": 3063,
+        "openIssues": 102
+      },
+      {
+        "date": "2026-10-02",
+        "stars": 30660,
+        "forks": 3066,
+        "openIssues": 102
+      },
+      {
+        "date": "2026-10-03",
+        "stars": 30690,
+        "forks": 3069,
+        "openIssues": 102
+      },
+      {
+        "date": "2026-10-04",
+        "stars": 30720,
+        "forks": 3072,
+        "openIssues": 102
+      },
+      {
+        "date": "2026-10-05",
+        "stars": 30750,
+        "forks": 3075,
+        "openIssues": 103
+      },
+      {
+        "date": "2026-10-06",
+        "stars": 30780,
+        "forks": 3078,
+        "openIssues": 103
+      },
+      {
+        "date": "2026-10-07",
+        "stars": 30810,
+        "forks": 3081,
+        "openIssues": 103
+      },
+      {
+        "date": "2026-10-08",
+        "stars": 30840,
+        "forks": 3084,
+        "openIssues": 103
+      },
+      {
+        "date": "2026-10-09",
+        "stars": 30870,
+        "forks": 3087,
+        "openIssues": 103
+      },
+      {
+        "date": "2026-10-10",
+        "stars": 30900,
+        "forks": 3090,
+        "openIssues": 103
+      },
+      {
+        "date": "2026-10-11",
+        "stars": 30930,
+        "forks": 3093,
+        "openIssues": 103
+      },
+      {
+        "date": "2026-10-12",
+        "stars": 30960,
+        "forks": 3096,
+        "openIssues": 103
+      },
+      {
+        "date": "2026-10-13",
+        "stars": 30990,
+        "forks": 3099,
+        "openIssues": 103
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 31020,
+        "forks": 3102,
+        "openIssues": 103
+      },
+      {
+        "date": "2026-10-15",
+        "stars": 31050,
+        "forks": 3105,
+        "openIssues": 104
+      },
+      {
+        "date": "2026-10-16",
+        "stars": 31080,
+        "forks": 3108,
+        "openIssues": 104
+      },
+      {
+        "date": "2026-10-17",
+        "stars": 31110,
+        "forks": 3111,
+        "openIssues": 104
+      },
+      {
+        "date": "2026-10-18",
+        "stars": 31140,
+        "forks": 3114,
+        "openIssues": 104
+      },
+      {
+        "date": "2026-10-19",
+        "stars": 31170,
+        "forks": 3117,
+        "openIssues": 104
+      },
+      {
+        "date": "2026-10-20",
+        "stars": 31200,
+        "forks": 3120,
+        "openIssues": 104
+      },
+      {
+        "date": "2026-10-21",
+        "stars": 31230,
+        "forks": 3123,
+        "openIssues": 104
+      },
+      {
+        "date": "2026-10-22",
+        "stars": 31260,
+        "forks": 3126,
+        "openIssues": 104
+      },
+      {
+        "date": "2026-10-23",
+        "stars": 31290,
+        "forks": 3129,
+        "openIssues": 104
+      },
+      {
+        "date": "2026-10-24",
+        "stars": 31320,
+        "forks": 3132,
+        "openIssues": 104
+      }
+    ],
+    "events": [
+      {
+        "date": "2026-10-14",
+        "type": "reddit",
+        "title": "DuckDB in production",
+        "url": "https://www.reddit.com/r/dataengineering/comments/1",
+        "points": 145
+      }
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "id": "example-org/young-tool",
+    "link": "https://github.com/example-org/young-tool",
+    "name": "young-tool",
+    "desc": "A project with too little history to rank yet",
+    "githubName": "young-tool",
+    "githubDescription": "A project with too little history to rank yet",
+    "weight": 520,
+    "tags": [
+      "scanner"
+    ],
+    "history": [
+      {
+        "date": "2026-10-22",
+        "stars": 500,
+        "forks": 50,
+        "openIssues": 2
+      },
+      {
+        "date": "2026-10-23",
+        "stars": 510,
+        "forks": 51,
+        "openIssues": 2
+      },
+      {
+        "date": "2026-10-24",
+        "stars": 520,
+        "forks": 52,
+        "openIssues": 2
+      }
+    ],
+    "events": []
+  },
+  {
+    "schemaVersion": 1,
+    "id": "projectdiscovery/nuclei",
+    "link": "https://github.com/projectdiscovery/nuclei",
+    "name": "Nuclei",
+    "desc": "Fast, template-based vulnerability scanner",
+    "githubName": "nuclei",
+    "githubDescription": "Fast, template-based vulnerability scanner",
+    "weight": 26585,
+    "tags": [
+      "scanner",
+      "vulnerability"
+    ],
+    "ownerTwitterHandle": "pdiscoveryio",
+    "growthExplanation": "Recent spike this week. Coverage includes a Hacker News discussion (312 points).",
+    "growthExplanationGeneratedAt": "2026-10-24T00:00:00.000Z",
+    "history": [
+      {
+        "date": "2026-09-10",
+        "stars": 24000,
+        "forks": 2400,
+        "openIssues": 80
+      },
+      {
+        "date": "2026-09-11",
+        "stars": 24015,
+        "forks": 2402,
+        "openIssues": 80
+      },
+      {
+        "date": "2026-09-12",
+        "stars": 24030,
+        "forks": 2403,
+        "openIssues": 80
+      },
+      {
+        "date": "2026-09-13",
+        "stars": 24045,
+        "forks": 2405,
+        "openIssues": 80
+      },
+      {
+        "date": "2026-09-14",
+        "stars": 24060,
+        "forks": 2406,
+        "openIssues": 80
+      },
+      {
+        "date": "2026-09-15",
+        "stars": 24075,
+        "forks": 2408,
+        "openIssues": 80
+      },
+      {
+        "date": "2026-09-16",
+        "stars": 24090,
+        "forks": 2409,
+        "openIssues": 80
+      },
+      {
+        "date": "2026-09-17",
+        "stars": 24105,
+        "forks": 2411,
+        "openIssues": 80
+      },
+      {
+        "date": "2026-09-18",
+        "stars": 24120,
+        "forks": 2412,
+        "openIssues": 80
+      },
+      {
+        "date": "2026-09-19",
+        "stars": 24135,
+        "forks": 2414,
+        "openIssues": 80
+      },
+      {
+        "date": "2026-09-20",
+        "stars": 24150,
+        "forks": 2415,
+        "openIssues": 81
+      },
+      {
+        "date": "2026-09-21",
+        "stars": 24165,
+        "forks": 2417,
+        "openIssues": 81
+      },
+      {
+        "date": "2026-09-22",
+        "stars": 24180,
+        "forks": 2418,
+        "openIssues": 81
+      },
+      {
+        "date": "2026-09-23",
+        "stars": 24195,
+        "forks": 2420,
+        "openIssues": 81
+      },
+      {
+        "date": "2026-09-24",
+        "stars": 24210,
+        "forks": 2421,
+        "openIssues": 81
+      },
+      {
+        "date": "2026-09-25",
+        "stars": 24225,
+        "forks": 2423,
+        "openIssues": 81
+      },
+      {
+        "date": "2026-09-26",
+        "stars": 24240,
+        "forks": 2424,
+        "openIssues": 81
+      },
+      {
+        "date": "2026-09-27",
+        "stars": 24255,
+        "forks": 2426,
+        "openIssues": 81
+      },
+      {
+        "date": "2026-09-28",
+        "stars": 24270,
+        "forks": 2427,
+        "openIssues": 81
+      },
+      {
+        "date": "2026-09-29",
+        "stars": 24285,
+        "forks": 2429,
+        "openIssues": 81
+      },
+      {
+        "date": "2026-09-30",
+        "stars": 24300,
+        "forks": 2430,
+        "openIssues": 81
+      },
+      {
+        "date": "2026-10-01",
+        "stars": 24315,
+        "forks": 2432,
+        "openIssues": 81
+      },
+      {
+        "date": "2026-10-02",
+        "stars": 24330,
+        "forks": 2433,
+        "openIssues": 81
+      },
+      {
+        "date": "2026-10-03",
+        "stars": 24345,
+        "forks": 2435,
+        "openIssues": 81
+      },
+      {
+        "date": "2026-10-04",
+        "stars": 24360,
+        "forks": 2436,
+        "openIssues": 81
+      },
+      {
+        "date": "2026-10-05",
+        "stars": 24375,
+        "forks": 2438,
+        "openIssues": 81
+      },
+      {
+        "date": "2026-10-06",
+        "stars": 24390,
+        "forks": 2439,
+        "openIssues": 81
+      },
+      {
+        "date": "2026-10-07",
+        "stars": 24405,
+        "forks": 2441,
+        "openIssues": 81
+      },
+      {
+        "date": "2026-10-08",
+        "stars": 24420,
+        "forks": 2442,
+        "openIssues": 81
+      },
+      {
+        "date": "2026-10-09",
+        "stars": 24435,
+        "forks": 2444,
+        "openIssues": 81
+      },
+      {
+        "date": "2026-10-10",
+        "stars": 24450,
+        "forks": 2445,
+        "openIssues": 82
+      },
+      {
+        "date": "2026-10-11",
+        "stars": 24465,
+        "forks": 2447,
+        "openIssues": 82
+      },
+      {
+        "date": "2026-10-12",
+        "stars": 24480,
+        "forks": 2448,
+        "openIssues": 82
+      },
+      {
+        "date": "2026-10-13",
+        "stars": 24495,
+        "forks": 2450,
+        "openIssues": 82
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 24510,
+        "forks": 2451,
+        "openIssues": 82
+      },
+      {
+        "date": "2026-10-15",
+        "stars": 24525,
+        "forks": 2453,
+        "openIssues": 82
+      },
+      {
+        "date": "2026-10-16",
+        "stars": 24540,
+        "forks": 2454,
+        "openIssues": 82
+      },
+      {
+        "date": "2026-10-17",
+        "stars": 24555,
+        "forks": 2456,
+        "openIssues": 82
+      },
+      {
+        "date": "2026-10-18",
+        "stars": 24570,
+        "forks": 2457,
+        "openIssues": 82
+      },
+      {
+        "date": "2026-10-19",
+        "stars": 24585,
+        "forks": 2459,
+        "openIssues": 82
+      },
+      {
+        "date": "2026-10-20",
+        "stars": 24985,
+        "forks": 2499,
+        "openIssues": 83
+      },
+      {
+        "date": "2026-10-21",
+        "stars": 25385,
+        "forks": 2539,
+        "openIssues": 85
+      },
+      {
+        "date": "2026-10-22",
+        "stars": 25785,
+        "forks": 2579,
+        "openIssues": 86
+      },
+      {
+        "date": "2026-10-23",
+        "stars": 26185,
+        "forks": 2619,
+        "openIssues": 87
+      },
+      {
+        "date": "2026-10-24",
+        "stars": 26585,
+        "forks": 2659,
+        "openIssues": 89
+      }
+    ],
+    "events": [
+      {
+        "date": "2026-10-21",
+        "type": "hn",
+        "title": "Nuclei: template-based vulnerability scanning",
+        "url": "https://news.ycombinator.com/item?id=1",
+        "points": 312
+      }
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "id": "redis/redis",
+    "link": "https://github.com/redis/redis",
+    "name": "Redis",
+    "desc": "In-memory data structure store",
+    "githubName": "redis",
+    "githubDescription": "In-memory data structure store",
+    "weight": 70660,
+    "tags": [
+      "key-value",
+      "cache"
+    ],
+    "history": [
+      {
+        "date": "2026-09-10",
+        "stars": 70000,
+        "forks": 7000,
+        "openIssues": 233
+      },
+      {
+        "date": "2026-09-11",
+        "stars": 70015,
+        "forks": 7002,
+        "openIssues": 233
+      },
+      {
+        "date": "2026-09-12",
+        "stars": 70030,
+        "forks": 7003,
+        "openIssues": 233
+      },
+      {
+        "date": "2026-09-13",
+        "stars": 70045,
+        "forks": 7005,
+        "openIssues": 233
+      },
+      {
+        "date": "2026-09-14",
+        "stars": 70060,
+        "forks": 7006,
+        "openIssues": 234
+      },
+      {
+        "date": "2026-09-15",
+        "stars": 70075,
+        "forks": 7008,
+        "openIssues": 234
+      },
+      {
+        "date": "2026-09-16",
+        "stars": 70090,
+        "forks": 7009,
+        "openIssues": 234
+      },
+      {
+        "date": "2026-09-17",
+        "stars": 70105,
+        "forks": 7011,
+        "openIssues": 234
+      },
+      {
+        "date": "2026-09-18",
+        "stars": 70120,
+        "forks": 7012,
+        "openIssues": 234
+      },
+      {
+        "date": "2026-09-19",
+        "stars": 70135,
+        "forks": 7014,
+        "openIssues": 234
+      },
+      {
+        "date": "2026-09-20",
+        "stars": 70150,
+        "forks": 7015,
+        "openIssues": 234
+      },
+      {
+        "date": "2026-09-21",
+        "stars": 70165,
+        "forks": 7017,
+        "openIssues": 234
+      },
+      {
+        "date": "2026-09-22",
+        "stars": 70180,
+        "forks": 7018,
+        "openIssues": 234
+      },
+      {
+        "date": "2026-09-23",
+        "stars": 70195,
+        "forks": 7020,
+        "openIssues": 234
+      },
+      {
+        "date": "2026-09-24",
+        "stars": 70210,
+        "forks": 7021,
+        "openIssues": 234
+      },
+      {
+        "date": "2026-09-25",
+        "stars": 70225,
+        "forks": 7023,
+        "openIssues": 234
+      },
+      {
+        "date": "2026-09-26",
+        "stars": 70240,
+        "forks": 7024,
+        "openIssues": 234
+      },
+      {
+        "date": "2026-09-27",
+        "stars": 70255,
+        "forks": 7026,
+        "openIssues": 234
+      },
+      {
+        "date": "2026-09-28",
+        "stars": 70270,
+        "forks": 7027,
+        "openIssues": 234
+      },
+      {
+        "date": "2026-09-29",
+        "stars": 70285,
+        "forks": 7029,
+        "openIssues": 234
+      },
+      {
+        "date": "2026-09-30",
+        "stars": 70300,
+        "forks": 7030,
+        "openIssues": 234
+      },
+      {
+        "date": "2026-10-01",
+        "stars": 70315,
+        "forks": 7032,
+        "openIssues": 234
+      },
+      {
+        "date": "2026-10-02",
+        "stars": 70330,
+        "forks": 7033,
+        "openIssues": 234
+      },
+      {
+        "date": "2026-10-03",
+        "stars": 70345,
+        "forks": 7035,
+        "openIssues": 234
+      },
+      {
+        "date": "2026-10-04",
+        "stars": 70360,
+        "forks": 7036,
+        "openIssues": 235
+      },
+      {
+        "date": "2026-10-05",
+        "stars": 70375,
+        "forks": 7038,
+        "openIssues": 235
+      },
+      {
+        "date": "2026-10-06",
+        "stars": 70390,
+        "forks": 7039,
+        "openIssues": 235
+      },
+      {
+        "date": "2026-10-07",
+        "stars": 70405,
+        "forks": 7041,
+        "openIssues": 235
+      },
+      {
+        "date": "2026-10-08",
+        "stars": 70420,
+        "forks": 7042,
+        "openIssues": 235
+      },
+      {
+        "date": "2026-10-09",
+        "stars": 70435,
+        "forks": 7044,
+        "openIssues": 235
+      },
+      {
+        "date": "2026-10-10",
+        "stars": 70450,
+        "forks": 7045,
+        "openIssues": 235
+      },
+      {
+        "date": "2026-10-11",
+        "stars": 70465,
+        "forks": 7047,
+        "openIssues": 235
+      },
+      {
+        "date": "2026-10-12",
+        "stars": 70480,
+        "forks": 7048,
+        "openIssues": 235
+      },
+      {
+        "date": "2026-10-13",
+        "stars": 70495,
+        "forks": 7050,
+        "openIssues": 235
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 70510,
+        "forks": 7051,
+        "openIssues": 235
+      },
+      {
+        "date": "2026-10-15",
+        "stars": 70525,
+        "forks": 7053,
+        "openIssues": 235
+      },
+      {
+        "date": "2026-10-16",
+        "stars": 70540,
+        "forks": 7054,
+        "openIssues": 235
+      },
+      {
+        "date": "2026-10-17",
+        "stars": 70555,
+        "forks": 7056,
+        "openIssues": 235
+      },
+      {
+        "date": "2026-10-18",
+        "stars": 70570,
+        "forks": 7057,
+        "openIssues": 235
+      },
+      {
+        "date": "2026-10-19",
+        "stars": 70585,
+        "forks": 7059,
+        "openIssues": 235
+      },
+      {
+        "date": "2026-10-20",
+        "stars": 70600,
+        "forks": 7060,
+        "openIssues": 235
+      },
+      {
+        "date": "2026-10-21",
+        "stars": 70615,
+        "forks": 7062,
+        "openIssues": 235
+      },
+      {
+        "date": "2026-10-22",
+        "stars": 70630,
+        "forks": 7063,
+        "openIssues": 235
+      },
+      {
+        "date": "2026-10-23",
+        "stars": 70645,
+        "forks": 7065,
+        "openIssues": 235
+      },
+      {
+        "date": "2026-10-24",
+        "stars": 70660,
+        "forks": 7066,
+        "openIssues": 236
+      }
+    ],
+    "events": []
+  },
+  {
+    "schemaVersion": 1,
+    "id": "tursodatabase/libsql",
+    "link": "https://github.com/tursodatabase/libsql",
+    "name": "libSQL",
+    "desc": "Open-contribution fork of SQLite",
+    "githubName": "libsql",
+    "githubDescription": "Open-contribution fork of SQLite",
+    "weight": 15640,
+    "tags": [
+      "sql",
+      "sqlite",
+      "embedded"
+    ],
+    "history": [
+      {
+        "date": "2026-09-10",
+        "stars": 13000,
+        "forks": 1300,
+        "openIssues": 43
+      },
+      {
+        "date": "2026-09-11",
+        "stars": 13060,
+        "forks": 1306,
+        "openIssues": 44
+      },
+      {
+        "date": "2026-09-12",
+        "stars": 13120,
+        "forks": 1312,
+        "openIssues": 44
+      },
+      {
+        "date": "2026-09-13",
+        "stars": 13180,
+        "forks": 1318,
+        "openIssues": 44
+      },
+      {
+        "date": "2026-09-14",
+        "stars": 13240,
+        "forks": 1324,
+        "openIssues": 44
+      },
+      {
+        "date": "2026-09-15",
+        "stars": 13300,
+        "forks": 1330,
+        "openIssues": 44
+      },
+      {
+        "date": "2026-09-16",
+        "stars": 13360,
+        "forks": 1336,
+        "openIssues": 45
+      },
+      {
+        "date": "2026-09-17",
+        "stars": 13420,
+        "forks": 1342,
+        "openIssues": 45
+      },
+      {
+        "date": "2026-09-18",
+        "stars": 13480,
+        "forks": 1348,
+        "openIssues": 45
+      },
+      {
+        "date": "2026-09-19",
+        "stars": 13540,
+        "forks": 1354,
+        "openIssues": 45
+      },
+      {
+        "date": "2026-09-20",
+        "stars": 13600,
+        "forks": 1360,
+        "openIssues": 45
+      },
+      {
+        "date": "2026-09-21",
+        "stars": 13660,
+        "forks": 1366,
+        "openIssues": 46
+      },
+      {
+        "date": "2026-09-22",
+        "stars": 13720,
+        "forks": 1372,
+        "openIssues": 46
+      },
+      {
+        "date": "2026-09-23",
+        "stars": 13780,
+        "forks": 1378,
+        "openIssues": 46
+      },
+      {
+        "date": "2026-09-24",
+        "stars": 13840,
+        "forks": 1384,
+        "openIssues": 46
+      },
+      {
+        "date": "2026-09-25",
+        "stars": 13900,
+        "forks": 1390,
+        "openIssues": 46
+      },
+      {
+        "date": "2026-09-26",
+        "stars": 13960,
+        "forks": 1396,
+        "openIssues": 47
+      },
+      {
+        "date": "2026-09-27",
+        "stars": 14020,
+        "forks": 1402,
+        "openIssues": 47
+      },
+      {
+        "date": "2026-09-28",
+        "stars": 14080,
+        "forks": 1408,
+        "openIssues": 47
+      },
+      {
+        "date": "2026-09-29",
+        "stars": 14140,
+        "forks": 1414,
+        "openIssues": 47
+      },
+      {
+        "date": "2026-09-30",
+        "stars": 14200,
+        "forks": 1420,
+        "openIssues": 47
+      },
+      {
+        "date": "2026-10-01",
+        "stars": 14260,
+        "forks": 1426,
+        "openIssues": 48
+      },
+      {
+        "date": "2026-10-02",
+        "stars": 14320,
+        "forks": 1432,
+        "openIssues": 48
+      },
+      {
+        "date": "2026-10-03",
+        "stars": 14380,
+        "forks": 1438,
+        "openIssues": 48
+      },
+      {
+        "date": "2026-10-04",
+        "stars": 14440,
+        "forks": 1444,
+        "openIssues": 48
+      },
+      {
+        "date": "2026-10-05",
+        "stars": 14500,
+        "forks": 1450,
+        "openIssues": 48
+      },
+      {
+        "date": "2026-10-06",
+        "stars": 14560,
+        "forks": 1456,
+        "openIssues": 49
+      },
+      {
+        "date": "2026-10-07",
+        "stars": 14620,
+        "forks": 1462,
+        "openIssues": 49
+      },
+      {
+        "date": "2026-10-08",
+        "stars": 14680,
+        "forks": 1468,
+        "openIssues": 49
+      },
+      {
+        "date": "2026-10-09",
+        "stars": 14740,
+        "forks": 1474,
+        "openIssues": 49
+      },
+      {
+        "date": "2026-10-10",
+        "stars": 14800,
+        "forks": 1480,
+        "openIssues": 49
+      },
+      {
+        "date": "2026-10-11",
+        "stars": 14860,
+        "forks": 1486,
+        "openIssues": 50
+      },
+      {
+        "date": "2026-10-12",
+        "stars": 14920,
+        "forks": 1492,
+        "openIssues": 50
+      },
+      {
+        "date": "2026-10-13",
+        "stars": 14980,
+        "forks": 1498,
+        "openIssues": 50
+      },
+      {
+        "date": "2026-10-14",
+        "stars": 15040,
+        "forks": 1504,
+        "openIssues": 50
+      },
+      {
+        "date": "2026-10-15",
+        "stars": 15100,
+        "forks": 1510,
+        "openIssues": 50
+      },
+      {
+        "date": "2026-10-16",
+        "stars": 15160,
+        "forks": 1516,
+        "openIssues": 51
+      },
+      {
+        "date": "2026-10-17",
+        "stars": 15220,
+        "forks": 1522,
+        "openIssues": 51
+      },
+      {
+        "date": "2026-10-18",
+        "stars": 15280,
+        "forks": 1528,
+        "openIssues": 51
+      },
+      {
+        "date": "2026-10-19",
+        "stars": 15340,
+        "forks": 1534,
+        "openIssues": 51
+      },
+      {
+        "date": "2026-10-20",
+        "stars": 15400,
+        "forks": 1540,
+        "openIssues": 51
+      },
+      {
+        "date": "2026-10-21",
+        "stars": 15460,
+        "forks": 1546,
+        "openIssues": 52
+      },
+      {
+        "date": "2026-10-22",
+        "stars": 15520,
+        "forks": 1552,
+        "openIssues": 52
+      },
+      {
+        "date": "2026-10-23",
+        "stars": 15580,
+        "forks": 1558,
+        "openIssues": 52
+      },
+      {
+        "date": "2026-10-24",
+        "stars": 15640,
+        "forks": 1564,
+        "openIssues": 52
+      }
+    ],
+    "events": [
+      {
+        "date": "2026-10-18",
+        "type": "blog",
+        "title": "Why we moved to libSQL",
+        "url": "https://blog.example.com/why-libsql"
+      }
+    ]
+  }
+]

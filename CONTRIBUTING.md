@@ -34,6 +34,11 @@ point at a different deployment (e.g. a local `wrangler dev` instance of
 that repo). Re-run `npm run dev` (or just `npm run generate`) to pick up
 new upstream data or a local code change.
 
+To build offline, or while the API is down, use the sample data in
+`test/fixtures/api/` instead (this is what the PR check does):
+
+    AWESOMEMAP_DATA_FIXTURE_DIR=test/fixtures/api npm run generate
+
 ## Test
 
     npm test

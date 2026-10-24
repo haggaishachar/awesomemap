@@ -1,0 +1,64 @@
+{
+  "isoWeek": "2026-W42",
+  "generatedAt": "2026-10-19T06:00:00.000Z",
+  "scopes": {
+    "databases": [
+      {
+        "rank": 1,
+        "id": "tursodatabase/libsql",
+        "name": "libSQL",
+        "link": "https://github.com/tursodatabase/libsql",
+        "domain": "Databases",
+        "domainShort": "Databases",
+        "domainSlug": "databases",
+        "starDelta": 420,
+        "percentDelta": 2.86,
+        "currentStars": 15100,
+        "rankDelta": 0
+      }
+    ],
+    "global": [
+      {
+        "rank": 1,
+        "id": "tursodatabase/libsql",
+        "name": "libSQL",
+        "link": "https://github.com/tursodatabase/libsql",
+        "domain": "Databases",
+        "domainShort": "Databases",
+        "domainSlug": "databases",
+        "starDelta": 420,
+        "percentDelta": 2.86,
+        "currentStars": 15100,
+        "rankDelta": 0
+      },
+      {
+        "rank": 2,
+        "id": "projectdiscovery/nuclei",
+        "name": "Nuclei",
+        "link": "https://github.com/projectdiscovery/nuclei",
+        "domain": "Security",
+        "domainShort": "Security",
+        "domainSlug": "security",
+        "starDelta": 105,
+        "percentDelta": 0.43,
+        "currentStars": 24500,
+        "rankDelta": 1
+      }
+    ],
+    "security": [
+      {
+        "rank": 1,
+        "id": "projectdiscovery/nuclei",
+        "name": "Nuclei",
+        "link": "https://github.com/projectdiscovery/nuclei",
+        "domain": "Security",
+        "domainShort": "Security",
+        "domainSlug": "security",
+        "starDelta": 105,
+        "percentDelta": 0.43,
+        "currentStars": 24500,
+        "rankDelta": 0
+      }
+    ]
+  }
+}

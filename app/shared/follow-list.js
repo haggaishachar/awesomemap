@@ -126,23 +126,6 @@ export function computeChangesSince(followedEntries, currentById) {
 }
 
 /**
- * DOM wiring — untested by this repo's convention (same as
- * `compare-cart.js`'s `initCompareCartUI`: DOM-mounting glue built
- * directly on the tested pure functions above). Fires a GoatCounter
- * custom event (`follow_add`/`follow_remove`) on every toggle when the
- * GoatCounter snippet is present (`window.goatcounter`, see
- * render-page.mjs's `configureAnalytics`); a no-op otherwise.
- */
-function countEvent(name) {
-  try {
-    window.goatcounter?.count?.({ path: name, event: true });
-  } catch {
-    // Analytics unavailable/blocked — never let a tracking failure break
-    // the follow toggle itself.
-  }
-}
-
-/**
  * Re-applies "+ Follow"/"✓ Following" label and `aria-pressed` to every
  * `[data-follow-type][data-follow-id]` button currently in the DOM. Safe
  * to call repeatedly.
@@ -176,9 +159,7 @@ export function initFollowUI() {
       ...(button.dataset.followLastSeenStars ? { lastSeenStars: Number(button.dataset.followLastSeenStars) } : {}),
       ...(button.dataset.followLastSeenPercentDelta ? { lastSeenPercentDelta: Number(button.dataset.followLastSeenPercentDelta) } : {}),
     };
-    const wasFollowed = isFollowed(entry.type, entry.id);
     toggleFollowed(entry);
-    countEvent(wasFollowed ? "follow_remove" : "follow_add");
     refreshFollowButtons();
   });
   refreshFollowButtons();

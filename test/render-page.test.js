@@ -16,7 +16,6 @@ import {
   renderRisingArchiveWeekPage,
   tagSlug,
   categorySlug,
-  configureAnalytics,
 } from "../scripts/render-page.mjs";
 import { buildEmbedSnippet } from "../app/shared/embed-snippet.js";
 
@@ -1738,20 +1737,6 @@ test("renderContactPage imports contact-form.js prefixed by BASE_PATH", () => {
   assert.match(html, /import \{ isValidContactInput, buildContactMailtoUrl \} from "\/techmap\/shared\/contact-form\.js"/);
 });
 
-
-test("configureAnalytics emits no snippet by default, and a GoatCounter snippet once configured", () => {
-  const domain = { slug: "data-science", name: "Data Science", description: "desc" };
-  const withoutAnalytics = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png" });
-  assert.doesNotMatch(withoutAnalytics, /goatcounter/);
-
-  configureAnalytics("awesomemap");
-  try {
-    const withAnalytics = renderDomainPage(domain, ROOT_TREE, { defaultOgImage: "/og-default.png" });
-    assert.match(withAnalytics, /data-goatcounter="https:\/\/awesomemap\.goatcounter\.com\/count"/);
-  } finally {
-    configureAnalytics(null);
-  }
-});
 
 test("categorySlug percent-encodes a category name the same way tagSlug encodes a tag", () => {
   assert.equal(categorySlug("Agents & Coding"), encodeURIComponent("Agents & Coding"));

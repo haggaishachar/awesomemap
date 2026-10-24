@@ -1940,8 +1940,8 @@ export function renderProjectPage(
     ${jsonLd}
     <header class="project-hero">
       ${renderProjectBreadcrumb(project, domain, basePath)}
-      ${renderProjectLogo(project)}
       <h1>${escapeHtml(project.name ?? project.id)}</h1>
+      ${renderProjectLogo(project)}
       ${project.desc ? `<p class="project-hero-desc">${escapeHtml(project.desc)}</p>` : ""}
       ${signal.headline ? `<p class="project-signal">${escapeHtml(signal.headline)}</p>` : ""}
     </header>

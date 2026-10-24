@@ -1513,6 +1513,11 @@ test("renderProjectPage degrades gracefully for a minimal project record with on
   assert.match(html, /<nav class="project-breadcrumb"[^>]*><a href="\/">Home<\/a><span aria-hidden="true"> › <\/span><a href="\/artificial-intelligence\/">AI<\/a><\/nav>/);
 });
 
+test("renderProjectPage puts the logo right below the title, above the description", () => {
+  const html = renderProjectPage(PROJECT, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
+  assert.match(html, /<\/h1>\s*<img class="detail-panel-logo"[^>]*>\s*<span class="project-logo-fallback"[^>]*>[^<]*<\/span>\s*<p class="project-hero-desc">/);
+});
+
 test("renderProjectPage's letter tile uses the first letter of the project's name, uppercased", () => {
   const html = renderProjectPage({ id: "a/b", name: "  zod" }, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
   assert.match(html, /<span class="project-logo-fallback" aria-hidden="true">Z<\/span>/);

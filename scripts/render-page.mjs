@@ -1855,6 +1855,23 @@ function renderProjectEventsTimeline(eventsSeries) {
 }
 
 /**
+ * The project hero's logo: its own `image` when it has one, otherwise a
+ * letter tile (the name's first letter, as treemap.js's
+ * `renderFallbackLogo`) — enrich-domain.mjs deliberately leaves `image`
+ * unset for projects owned by a personal account, so many pages have none.
+ * A project with an image also carries the tile, hidden, and swaps to it
+ * if the image fails to load rather than leaving a broken-image glyph.
+ */
+function renderProjectLogo(project) {
+  const letter = escapeHtml((project.name ?? project.id).trim().charAt(0).toUpperCase() || "?");
+  if (!project.image) {
+    return `<span class="project-logo-fallback" aria-hidden="true">${letter}</span>`;
+  }
+  return `<img class="detail-panel-logo" src="${escapeHtml(project.image)}" alt="" loading="lazy" onerror="this.nextElementSibling.hidden = false; this.remove()" />
+      <span class="project-logo-fallback" aria-hidden="true" hidden>${letter}</span>`;
+}
+
+/**
  * Renders one project's canonical page — the shareable, indexable home for
  * a project that today only exists as ephemeral detail-panel state inside
  * one domain's treemap. `project` is a sized project record (see
@@ -1923,7 +1940,7 @@ export function renderProjectPage(
     ${jsonLd}
     <header class="project-hero">
       ${renderProjectBreadcrumb(project, domain, basePath)}
-      ${project.image ? `<img class="detail-panel-logo" src="${escapeHtml(project.image)}" alt="" loading="lazy" />` : ""}
+      ${renderProjectLogo(project)}
       <h1>${escapeHtml(project.name ?? project.id)}</h1>
       ${project.desc ? `<p class="project-hero-desc">${escapeHtml(project.desc)}</p>` : ""}
       ${signal.headline ? `<p class="project-signal">${escapeHtml(signal.headline)}</p>` : ""}

@@ -1506,10 +1506,21 @@ test("renderProjectPage degrades gracefully for a minimal project record with on
   // Has "+ Compare" link but no "Visit site" link.
   assert.match(html, />\+ Compare</);
   assert.doesNotMatch(html, /Visit site ↗/);
-  // No hero image.
+  // No hero image — a letter tile from the id stands in for it.
   assert.doesNotMatch(html, /class="detail-panel-logo"/);
+  assert.match(html, /<span class="project-logo-fallback" aria-hidden="true">A<\/span>/);
   // Breadcrumb shows just Home + domain, no category crumbs.
   assert.match(html, /<nav class="project-breadcrumb"[^>]*><a href="\/">Home<\/a><span aria-hidden="true"> › <\/span><a href="\/artificial-intelligence\/">AI<\/a><\/nav>/);
+});
+
+test("renderProjectPage's letter tile uses the first letter of the project's name, uppercased", () => {
+  const html = renderProjectPage({ id: "a/b", name: "  zod" }, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
+  assert.match(html, /<span class="project-logo-fallback" aria-hidden="true">Z<\/span>/);
+});
+
+test("renderProjectPage keeps a hidden letter tile behind the project's own image, revealed if the image fails to load", () => {
+  const html = renderProjectPage(PROJECT, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
+  assert.match(html, /<img class="detail-panel-logo" src="https:\/\/avatars\.githubusercontent\.com\/u\/1\?v=4" alt="" loading="lazy" onerror="[^"]+" \/>\s*<span class="project-logo-fallback" aria-hidden="true" hidden>/);
 });
 
 test("renderProjectPage uses the project's own image as its og:image/twitter:image, a small 'summary' card, and no width/height hint (real dimensions vary)", () => {

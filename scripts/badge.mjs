@@ -6,13 +6,15 @@
 // awesomemap's treemap glyph (the same one renderMapBadge in
 // render-page.mjs uses) on the label side.
 
-import { TIERS } from "./tiers.mjs";
+import { TIERS, DEFAULT_TIER } from "./tiers.mjs";
+import { isoWeekBounds } from "./iso-week.mjs";
 
 export const BADGE_LABEL = "awesomemap";
 
 // Message-side colors, one per kind of claim pickBadgeClaim can make.
 export const BADGE_COLORS = {
   rising: "#d9661f",
+  peak: "#9a4f1a",
   growing: "#1a8a4a",
   categoryRank: "#2b5fad",
   listed: "#6e7781",
@@ -32,8 +34,9 @@ const TIER_SINGULAR = Object.fromEntries(TIERS.map((tier) => [tier.key, tier.sin
 
 /**
  * Picks the strongest claim that's true of a project today, in priority
- * order: a rank on its domain's 7-day Rising leaderboard, then 7-day star
- * growth, then a top-10 star rank in its category, then plain "listed in".
+ * order: a rank on its domain's 7-day Rising leaderboard, then its best
+ * archived Rising rank (dated), then 7-day star growth, then a top-10 star
+ * rank in its category, then plain "listed in".
  * A Rising rank only carries its growth suffix at MIN_GROWING_PERCENT or
  * more, for the same reason. Never a decline — a slow week falls through
  * to the next claim down, so the badge never makes a project look worse
@@ -42,12 +45,25 @@ const TIER_SINGULAR = Object.fromEntries(TIERS.map((tier) => [tier.key, tier.sin
  * `risingRank` is `{ tier, rank }` (the same shape as a leaf's
  * `domainRank.rising7`) or null; `growth7d` is a `growth.rising7` entry
  * plus `hasEnoughHistory`; `categoryRank` is `{ rank, of }` or null.
+ *
+ * `peakRank` (a `bestArchivedRanks` entry, or null) is the best rank the
+ * project reached in any archived week. It comes right after a live rank:
+ * without it, a badge added during a spike would fall back to "listed in"
+ * the week after, which is when a maintainer would take it down. It's
+ * dated, so it never passes for this week's standing. A domain-scoped peak
+ * is named via `domainShortBySlug` — it can come from another domain the
+ * project is also curated into — falling back to `domainShort`.
  */
-export function pickBadgeClaim({ risingRank, growth7d, categoryRank, categoryName, domainShort }) {
+export function pickBadgeClaim({ risingRank, peakRank = null, growth7d, categoryRank, categoryName, domainShort, domainShortBySlug = {} }) {
   if (risingRank && typeof risingRank.rank === "number") {
     const label = TIER_SINGULAR[risingRank.tier] ?? "Rising";
     const growthSuffix = growth7d?.hasEnoughHistory && growth7d.percentDelta >= MIN_GROWING_PERCENT ? ` · ${formatPercent(growth7d.percentDelta)} 7d` : "";
     return { message: `#${risingRank.rank} ${label} in ${domainShort}${growthSuffix}`, color: BADGE_COLORS.rising };
+  }
+  if (peakRank && typeof peakRank.rank === "number") {
+    const label = TIER_SINGULAR[peakRank.tier] ?? "Rising";
+    const where = peakRank.scope === "global" ? "overall" : `in ${domainShortBySlug[peakRank.scope] ?? domainShort}`;
+    return { message: `#${peakRank.rank} ${label} ${where} · ${isoWeekMonth(peakRank.isoWeek)}`, color: BADGE_COLORS.peak };
   }
   if (growth7d?.hasEnoughHistory && growth7d.starDelta > 0 && growth7d.percentDelta >= MIN_GROWING_PERCENT) {
     return { message: `▲ ${formatPercent(growth7d.percentDelta)} stars this week`, color: BADGE_COLORS.growing };
@@ -56,6 +72,65 @@ export function pickBadgeClaim({ risingRank, growth7d, categoryRank, categoryNam
     return { message: `#${categoryRank.rank} of ${categoryRank.of} in ${categoryName}`, color: BADGE_COLORS.categoryRank };
   }
   return { message: `listed in ${categoryName ?? domainShort}`, color: BADGE_COLORS.listed };
+}
+
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+/** "Oct 2026" for an ISO week label, taken from the week's closing Sunday. */
+export function isoWeekMonth(isoWeek) {
+  const { end } = isoWeekBounds(isoWeek);
+  return `${MONTHS[end.getUTCMonth()]} ${end.getUTCFullYear()}`;
+}
+
+const TIER_KEYS = new Set(TIERS.map((tier) => tier.key));
+
+/**
+ * Orders two archived ranks: lower rank wins; at equal rank a global rank
+ * beats a domain one (the harder list to top), then the earlier week wins
+ * (the date it was first reached is the one worth citing).
+ */
+function isBetterPeak(candidate, incumbent) {
+  if (!incumbent) return true;
+  if (candidate.rank !== incumbent.rank) return candidate.rank < incumbent.rank;
+  const candidateGlobal = candidate.scope === "global";
+  if (candidateGlobal !== (incumbent.scope === "global")) return candidateGlobal;
+  return candidate.isoWeek < incumbent.isoWeek;
+}
+
+/**
+ * Every project's best rank across `weeklySnapshots` (awesomemap-data's
+ * archived weekly leaderboards, `loadLeaderboardSnapshot` outputs), as a
+ * Map of id → `{ rank, tier, scope, isoWeek }` — pickBadgeClaim's
+ * `peakRank`. Reads the tiered `<tier>:<scope>` keys; a pre-tier snapshot
+ * (only plain `<scope>` keys) is read as Breakout, which is what those
+ * plain keys hold in tiered snapshots too. Spiking is skipped — it isn't a
+ * size tier. `knownScopes`, when given, drops ranks in a scope that no
+ * longer exists (a since-removed domain), whose name a badge couldn't print.
+ */
+export function bestArchivedRanks(weeklySnapshots, { knownScopes = null } = {}) {
+  const best = new Map();
+  for (const snapshot of weeklySnapshots) {
+    const scopes = snapshot?.scopes ?? {};
+    const keys = Object.keys(scopes);
+    const tiered = keys.some((key) => key.includes(":"));
+    for (const key of keys) {
+      let tier = DEFAULT_TIER;
+      let scope = key;
+      if (key.includes(":")) {
+        [tier, scope] = key.split(":");
+        if (!TIER_KEYS.has(tier)) continue;
+      } else if (tiered) {
+        continue; // a copy of `breakout:<scope>`, already counted
+      }
+      if (knownScopes && !knownScopes.has(scope)) continue;
+      for (const row of scopes[key] ?? []) {
+        if (!row?.id || typeof row.rank !== "number") continue;
+        const candidate = { rank: row.rank, tier, scope, isoWeek: snapshot.isoWeek };
+        if (isBetterPeak(candidate, best.get(row.id))) best.set(row.id, candidate);
+      }
+    }
+  }
+  return best;
 }
 
 function formatPercent(percent) {
@@ -145,6 +220,16 @@ export function renderBadgeSvg({ label = BADGE_LABEL, message, color }) {
 <g fill="#fff" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11">${text(labelX, labelTextWidth, safeLabel)}${text(messageX, messageTextWidth, safeMessage)}</g>
 </svg>
 `;
+}
+
+/**
+ * The same claim as a shields.io endpoint document
+ * (https://shields.io/badges/endpoint-badge), written next to badge.svg as
+ * badge.json, for a maintainer who wants one of shields' own styles
+ * (`for-the-badge`, `flat-square`, …) instead.
+ */
+export function buildShieldsEndpoint({ label = BADGE_LABEL, message, color }) {
+  return { schemaVersion: 1, label, message, color: color.replace(/^#/, "") };
 }
 
 /** The Markdown snippet a project page's "Add badge" panel hands its maintainer to paste into their README. */

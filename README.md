@@ -259,12 +259,22 @@ here reflect the latest deploy.
 ## Badge for your project's README
 
 Every project on awesomemap gets a README badge that's rebuilt daily with
-the site. It always shows the best thing that's true about the project
-right now: a rank on its domain's Rising leaderboard, then 7-day star
-growth, then a top-10 star rank in its category, then simply which
-category it's listed in. It never shows a decline. Open your project's
+the site. It always shows the best thing that's true about the project:
+a rank this week on its domain's Rising leaderboard, then the best
+Rising rank it reached in any archived week (dated, e.g. `#2 Breakout in AI
+· Oct 2026`, so a quiet week doesn't reset it), then 7-day star growth, then
+a top-10 star rank in its category, then simply which category it's listed
+in. It never shows a decline. Open your project's
 page, click **Add badge**, and copy the Markdown, or build it by hand:
 
 ```markdown
 [![awesomemap](https://awesomemap.dev/projects/<owner>/<repo>/badge.svg)](https://awesomemap.dev/projects/<owner>/<repo>/)
+```
+
+The same claim is published as a [shields.io endpoint](https://shields.io/badges/endpoint-badge)
+at `badge.json` next to `badge.svg`, if you'd rather use one of shields'
+styles:
+
+```markdown
+![awesomemap](https://img.shields.io/endpoint?url=https%3A%2F%2Fawesomemap.dev%2Fprojects%2F<owner>%2F<repo>%2Fbadge.json&style=for-the-badge)
 ```

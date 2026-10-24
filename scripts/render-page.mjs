@@ -2022,6 +2022,14 @@ function renderProjectBadgePanel(project, { ogUrl, siteUrl, basePath }) {
           badgePanel.hidden = !opening;
           badgeToggle.setAttribute("aria-expanded", String(opening));
         });
+        // The map's detail panel links here with this hash ("Get a README
+        // badge"), so arriving that way opens the panel instead of
+        // landing on a page whose badge is hidden behind a toggle.
+        if (location.hash === "#project-badge-panel") {
+          badgePanel.hidden = false;
+          badgeToggle.setAttribute("aria-expanded", "true");
+          badgePanel.scrollIntoView({ block: "center" });
+        }
         document.querySelector(".project-badge-copy").addEventListener("click", async (event) => {
           const button = event.currentTarget;
           await copyToClipboard(document.querySelector(".project-badge-code").value);

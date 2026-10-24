@@ -1902,3 +1902,8 @@ test("renderRisingArchiveWeekPage keeps the legacy single-list layout for a pre-
   assert.doesNotMatch(html, /rising-tier-bar/);
   assert.match(html, /Hottest overall/);
 });
+
+test("renderProjectPage's badge panel opens itself when reached via the detail panel's #project-badge-panel link", () => {
+  const html = renderProjectPage(PROJECT, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
+  assert.match(html, /location\.hash === "#project-badge-panel"/);
+});

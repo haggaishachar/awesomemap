@@ -32,6 +32,7 @@ import { pickThisWeeksSignals } from "./this-weeks-signals.mjs";
 import { buildSitemap, buildRobots } from "./seo.mjs";
 import { pickBadgeClaim, renderBadgeSvg, computeCategoryRanks, bestArchivedRanks, buildShieldsEndpoint } from "./badge.mjs";
 import { buildRisingFeed } from "./rss.mjs";
+import { pickRelatedProjects } from "./related-projects.mjs";
 import { currentIsoWeek } from "./iso-week.mjs";
 import { loadAllDomains, loadAllProjectEntities, loadLeaderboardSnapshots, loadLeaderboardSnapshot, joinDomainProjects } from "./data-store.mjs";
 
@@ -601,6 +602,7 @@ for (const project of allProjectsWithDomain) {
       signal,
       historySeries,
       eventsSeries,
+      related: pickRelatedProjects(project, allProjectsWithDomain),
       defaultOgImage: DEFAULT_OG_IMAGE,
       siteUrl: SITE_URL,
       basePath: BASE_PATH,

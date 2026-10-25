@@ -1862,6 +1862,11 @@ a.momentum-row-name:hover {
   text-align: left;
 }
 
+.project-related {
+  margin-top: 28px;
+  text-align: left;
+}
+
 .project-body .detail-panel-tags {
   justify-content: center;
   margin-top: 16px;

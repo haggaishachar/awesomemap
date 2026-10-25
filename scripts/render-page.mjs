@@ -17,6 +17,7 @@ import {
 import { buildTwitterShareUrl, buildLinkedInShareUrl, buildRedditShareUrl } from "../app/shared/share-links.js";
 import { buildEmbedSnippet } from "../app/shared/embed-snippet.js";
 import { buildBadgeMarkdown } from "./badge.mjs";
+import { tagPageMeta, categoryPageMeta, projectPageMeta, risingPageMeta, archiveWeekPageMeta } from "./page-meta.mjs";
 
 const TEMPLATE = readFileSync(new URL("../app/index.html.template", import.meta.url), "utf8");
 
@@ -359,6 +360,7 @@ export function renderDomainPage(
     risingTags = [],
     initialIdPath = null,
     category = null,
+    year = new Date().getUTCFullYear(),
   }
 ) {
   const header = embed ? "" : renderSiteHeader(basePath);
@@ -506,10 +508,19 @@ export function renderDomainPage(
     </div>
     ${footer}
   `;
-  const pageTitle = category ? `${category.key} — ${domain.shortName ?? domain.name}` : domain.name;
-  const pageDescription = category
-    ? `${category.key} projects in ${domain.shortName ?? domain.name} on awesomemap.`
-    : domain.description ?? "";
+  // A category page's metadata names the category's biggest projects, so
+  // its search snippet says what's actually in it (see page-meta.mjs).
+  const categoryMeta = category
+    ? categoryPageMeta(category.key, domain.shortName ?? domain.name, {
+        projectCount: pageProjects.length,
+        topNames: [...pageProjects]
+          .sort((a, b) => (b.weight ?? 0) - (a.weight ?? 0))
+          .map((project) => project.name ?? project.id),
+        year,
+      })
+    : null;
+  const pageTitle = categoryMeta ? categoryMeta.title : domain.name;
+  const pageDescription = categoryMeta ? categoryMeta.description : domain.description ?? "";
   return renderShell({
     title: pageTitle,
     ogTitle: pageTitle,
@@ -1272,10 +1283,11 @@ export function renderRisingPage(domains, leaderboardsByTier, { defaultOgImage, 
     ${renderSiteFooter(basePath)}
   `;
 
+  const risingMeta = risingPageMeta({ domainCount: domains.length });
   return renderShell({
-    title: "Rising — awesomemap",
+    title: risingMeta.title,
     ogTitle: "Rising — awesomemap",
-    ogDescription: "Fast-growing open-source projects grouped by size, plus the week's sudden spikes — updated daily.",
+    ogDescription: risingMeta.description,
     ogImage: defaultOgImage,
     ogUrl: `${siteUrl}${basePath}/rising/`,
     base: basePath,
@@ -1384,10 +1396,13 @@ export function renderRisingArchiveWeekPage(snapshot, domains, { defaultOgImage,
     ${isTiered ? renderRisingFiltersBootstrap(basePath) : ""}
     ${renderSiteFooter(basePath)}
   `;
+  const weekMeta = archiveWeekPageMeta(isoWeek, {
+    topNames: (scopes["breakout:global"] ?? scopes.global ?? []).map((row) => row.name ?? row.id),
+  });
   return renderShell({
-    title: `Rising: ${isoWeek} — awesomemap`,
+    title: weekMeta.title,
     ogTitle: `Rising: ${isoWeek} — awesomemap`,
-    ogDescription: `Star-growth leaders across every awesomemap domain for the week of ${isoWeek}.`,
+    ogDescription: weekMeta.description,
     ogImage: defaultOgImage,
     ogUrl,
     base: basePath,
@@ -1518,9 +1533,13 @@ export function renderTagsIndexPage(topTags, risingTagsByWindow, { defaultOgImag
  * One row on a per-tag page's project list — same visual shape as a
  * rising-leaderboard row (rank, icon, name, domain badge), with a plain
  * star count in the trailing slot instead of a growth delta, since a tag
- * page ranks by absolute popularity, not by a growth window.
+ * page ranks by absolute popularity, not by a growth window. Also a
+ * project page's related-projects list, which passes `rank: null` (it's
+ * ordered by relatedness, so a number there would mislead). The name links
+ * to the project's own page, as rising rows do, falling back to its
+ * external link.
  */
-function renderTagProjectRow(project, rank) {
+function renderTagProjectRow(project, rank, basePath = "") {
   const icon = project.image ? `<img class="rising-row-icon" src="${escapeHtml(project.image)}" alt="" loading="lazy" />` : "";
   const domainBadge = project.domainShort
     ? `<span class="rising-row-domain" title="${escapeHtml(project.domainName ?? project.domainShort)}">${escapeHtml(project.domainShort)}</span>`
@@ -1531,10 +1550,10 @@ function renderTagProjectRow(project, rank) {
     : "";
   return `
     <li class="rising-row">
-      <span class="rising-row-rank">${rank}</span>
+      ${rank === null ? "" : `<span class="rising-row-rank">${rank}</span>`}
       ${icon}
       <span class="rising-row-title">
-        <a class="rising-row-name" href="${escapeHtml(project.link ?? "#")}">${escapeHtml(project.name ?? project.id)}</a>
+        <a class="rising-row-name" href="${escapeHtml(project.id ? `${basePath}/projects/${project.id}/` : (project.link ?? "#"))}">${escapeHtml(project.name ?? project.id)}</a>
       </span>
       ${domainBadge}
       <span class="rising-row-delta">${stars}</span>
@@ -1554,10 +1573,15 @@ function renderTagProjectRow(project, rank) {
  * `hasEnoughHistory: false`, rendered the same way `renderMomentumStat`
  * already handles that everywhere else).
  */
-export function renderTagPage(tag, projects, growth, { defaultOgImage, siteUrl = "", basePath = "", windowDays = RISING_WINDOWS_DAYS[0] }) {
+export function renderTagPage(
+  tag,
+  projects,
+  growth,
+  { defaultOgImage, siteUrl = "", basePath = "", windowDays = RISING_WINDOWS_DAYS[0], year = new Date().getUTCFullYear() }
+) {
   const ogUrl = `${siteUrl}${basePath}/tags/${tagSlug(tag)}/`;
   const itemListJsonLd = renderJsonLd(buildItemListJsonLd(tag, projects, { url: ogUrl }));
-  const rows = projects.map((project, index) => renderTagProjectRow(project, index + 1)).join("");
+  const rows = projects.map((project, index) => renderTagProjectRow(project, index + 1, basePath)).join("");
   const totalStars = projects.reduce((sum, project) => sum + (typeof project.weight === "number" ? project.weight : 0), 0);
   const projectWord = `project${projects.length === 1 ? "" : "s"}`;
 
@@ -1578,10 +1602,11 @@ export function renderTagPage(tag, projects, growth, { defaultOgImage, siteUrl =
     ${renderSiteFooter(basePath)}
   `;
 
+  const meta = tagPageMeta(tag, projects, { year });
   return renderShell({
-    title: `${tag} — awesomemap`,
-    ogTitle: `${tag} — awesomemap`,
-    ogDescription: `${projects.length} open-source ${projectWord} tagged ${tag} on awesomemap.`,
+    title: meta.title,
+    ogTitle: meta.title,
+    ogDescription: meta.description,
     ogImage: defaultOgImage,
     ogUrl,
     base: basePath,
@@ -1843,6 +1868,19 @@ function renderProjectLogo(project) {
 }
 
 /**
+ * A project page's "Related projects" list (related-projects.mjs's
+ * `pickRelatedProjects` output), or nothing when it found none.
+ */
+function renderProjectRelated(related, basePath) {
+  if (!related || related.length === 0) return "";
+  return `
+    <section class="project-related" aria-labelledby="project-related-heading">
+      <h2 class="project-events-heading" id="project-related-heading">Related projects</h2>
+      <ol class="rising-rows-list project-related-list">${related.map((project) => renderTagProjectRow(project, null, basePath)).join("")}</ol>
+    </section>`;
+}
+
+/**
  * Renders one project's canonical page — the shareable, indexable home for
  * a project that today only exists as ephemeral detail-panel state inside
  * one domain's treemap. `project` is a sized project record (see
@@ -1851,11 +1889,11 @@ function renderProjectLogo(project) {
  * project's canonical domain (see generate.mjs's last-write-wins dedup).
  * `signal` is an `explainSignal` result (scripts/signal.mjs), already
  * computed by the caller. `historySeries` is `starHistoryFor`'s output for
- * this project.
+ * this project. `related` is `pickRelatedProjects`' output for it.
  */
 export function renderProjectPage(
   project,
-  { domain, signal = {}, historySeries = [], eventsSeries = [], defaultOgImage, siteUrl = "", basePath = "" }
+  { domain, signal = {}, historySeries = [], eventsSeries = [], related = [], defaultOgImage, siteUrl = "", basePath = "" }
 ) {
   const ogUrl = `${siteUrl}${basePath}/projects/${project.id}/`;
   const jsonLd = renderJsonLd(
@@ -1940,6 +1978,7 @@ export function renderProjectPage(
       </div>
       ${renderProjectBadgePanel(project, { ogUrl, siteUrl, basePath })}
       ${renderProjectTagChips(project.tags, basePath)}
+      ${renderProjectRelated(related, basePath)}
     </div>
     ${renderSiteFooter(basePath)}
   `;
@@ -1950,10 +1989,16 @@ export function renderProjectPage(
   // project's own page/tweet looks distinct. Real dimensions vary, so no
   // width/height hint is asserted (renderShell's default omits it) and the
   // card type drops to "summary" (small, not assumed-landscape).
+  // The latest daily snapshot's count, when there is one — `weight` is the
+  // catalog's own (less frequently refreshed) star count.
+  const meta = projectPageMeta(project, {
+    stars: typeof latestSnapshot?.stars === "number" ? latestSnapshot.stars : project.weight,
+    growth7d: projectGrowthStat(project, RISING_WINDOWS_DAYS[0]),
+  });
   return renderShell({
-    title: `${project.name ?? project.id} — awesomemap`,
+    title: meta.title,
     ogTitle: project.name ?? project.id,
-    ogDescription: project.desc ?? "",
+    ogDescription: meta.description,
     ogImage: project.image ?? defaultOgImage,
     ogImageDimensions: project.image ? "" : undefined,
     twitterCard: project.image ? "summary" : undefined,

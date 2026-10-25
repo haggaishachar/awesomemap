@@ -928,7 +928,8 @@ test("every page type emits a plain meta description matching its og:description
   assert.match(landingHtml, /<meta name="description" content="What's taking off in open source — spotted by growth, not just stars\." \/>/);
 
   const risingHtml = renderRisingPage([], { 7: { global: [] }, 30: { global: [] }, 90: { global: [] } }, { defaultOgImage: "/og-default.png" });
-  assert.match(risingHtml, /<meta name="description" content="Fast-growing open-source projects grouped by size, plus the week's sudden spikes — updated daily\." \/>/);
+  assert.match(risingHtml, /<meta name="description" content="A GitHub Trending alternative: open-source projects ranked by star growth, grouped by size so small ones stand out\. Updated daily\." \/>/);
+  assert.match(risingHtml, /<meta property="og:description" content="A GitHub Trending alternative: /);
 });
 
 test("every page type emits a canonical link matching its own og:url", () => {
@@ -1182,7 +1183,7 @@ test("renderTagPage lists projects in the caller's order, with domain badges and
   assert.match(html, /<h1>machine-learning<\/h1>/);
   assert.match(html, /2 projects tagged/);
   assert.match(html, /★ 700 combined/);
-  assert.match(html, /href="https:\/\/a\.example"/);
+  assert.match(html, /class="rising-row-name" href="\/projects\/a\/a\/"/);
   assert.match(html, />AI</);
   assert.match(html, />Web</);
 });
@@ -1766,7 +1767,7 @@ test("renderDomainPage given a category titles/links the page for that category,
     initialIdPath: ["Workflow Automation"],
     category,
   });
-  assert.match(html, /<title>Workflow Automation — Automation<\/title>/);
+  assert.match(html, /<title>Top Workflow Automation open-source projects \(\d{4}\) — Automation \| awesomemap<\/title>/);
   assert.match(html, /<link rel="canonical" href="https:\/\/example\.com\/automation\/Workflow%20Automation\/"/);
   assert.match(html, /data-follow-type="category"/);
   assert.match(html, /data-follow-id="Workflow Automation"/);
@@ -1896,4 +1897,40 @@ test("renderRisingArchiveWeekPage keeps the legacy single-list layout for a pre-
 test("renderProjectPage's badge panel opens itself when reached via the detail panel's #project-badge-panel link", () => {
   const html = renderProjectPage(PROJECT, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
   assert.match(html, /location\.hash === "#project-badge-panel"/);
+});
+
+test("renderProjectPage lists related projects linking to their own project pages, unnumbered", () => {
+  const related = [
+    { id: "a/a", name: "Alpha", weight: 1200, domainShort: "AI" },
+    { id: "b/b", name: "Beta", weight: 30, domainShort: "Web" },
+  ];
+  const html = renderProjectPage(PROJECT, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png", related });
+  assert.match(html, /<section class="project-related"/);
+  assert.match(html, /class="rising-row-name" href="\/projects\/a\/a\/">Alpha</);
+  assert.match(html, /class="rising-row-name" href="\/projects\/b\/b\/">Beta</);
+  assert.doesNotMatch(html.slice(html.indexOf("project-related")), /rising-row-rank/);
+});
+
+test("renderProjectPage omits the related section when there are none", () => {
+  const html = renderProjectPage(PROJECT, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
+  assert.doesNotMatch(html, /project-related/);
+});
+
+test("renderProjectPage's title targets star-history searches while og:title stays the plain name", () => {
+  const html = renderProjectPage(PROJECT, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png" });
+  assert.match(html, /<title>[^<]*: GitHub star history &amp; growth \(ggerganov\/llama\.cpp\) — awesomemap<\/title>/);
+  assert.match(html, /<meta name="description" content="[^"]*Star history and growth signals for ggerganov\/llama\.cpp\." \/>/);
+});
+
+test("renderRisingArchiveWeekPage titles the page with the week's dates and names its leaders", () => {
+  const snapshot = { isoWeek: "2026-W42", generatedAt: "2026-10-19T00:00:00Z", scopes: { global: [{ id: "x/x", name: "Xeno", rank: 1, starDelta: 5, percentDelta: 1, domain: "AI" }] } };
+  const html = renderRisingArchiveWeekPage(snapshot, [], { defaultOgImage: "/og.png" });
+  assert.match(html, /<title>Trending open-source projects, Oct 12–18, 2026 — awesomemap<\/title>/);
+  assert.match(html, /<meta name="description" content="[^"]*led by Xeno/);
+});
+
+test("renderProjectPage's meta description uses the latest daily snapshot's stars over the catalog's weight", () => {
+  const historySeries = [{ date: "2026-10-24", stars: 130000 }, { date: "2026-10-25", stars: 132295 }];
+  const html = renderProjectPage(PROJECT, { domain: PROJECT_DOMAIN, signal: NO_SIGNAL, defaultOgImage: "/og-default.png", historySeries });
+  assert.match(html, /<meta name="description" content="[^"]*★ 132,295 stars/);
 });
